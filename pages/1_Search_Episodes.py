@@ -269,14 +269,31 @@ def show_search_page():
                 col1, col2 = st.columns([1, 2])
                 
                 with col1:
-                    # Get YouTube video ID and create thumbnail
+                    # Get YouTube video ID and create thumbnail (only if YouTube features enabled)
                     video_id = get_youtube_id(row['links'])
-                    if video_id:
+                    if video_id and st.session_state.get('enable_youtube', True):
                         thumbnail_url = f"https://img.youtube.com/vi/{video_id}/mqdefault.jpg"
                         try:
                             st.image(thumbnail_url, use_container_width=True)
                         except Exception:
                             st.warning("🎬 Thumbnail not available")
+                    else:
+                        # Show placeholder when YouTube is disabled
+                        st.markdown("""
+                        <div style="
+                            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+                            color: white;
+                            padding: 3em 1em;
+                            text-align: center;
+                            border-radius: 10px;
+                            font-size: 2em;
+                        ">
+                            🎭<br>
+                            <div style="font-size: 0.5em; margin-top: 0.5em;">
+                                Kargin Episode
+                            </div>
+                        </div>
+                        """, unsafe_allow_html=True)
 
                         # Display match information with styling
                         score_color = "#00ff00" if result['similarity'] > 90 else "#ffbf00" if result['similarity'] > 70 else "#ff4b4b"
@@ -297,17 +314,24 @@ def show_search_page():
                         </div>
                         """, unsafe_allow_html=True)
 
-                        # Fetch and display video information
-                        video_info, error = get_cached_video_info(row['links'])
-                        if error:
-                            st.warning(f"❌ Couldn't fetch video info: {error}")
-                        elif video_info:
-                            display_video_info(video_info)
+                        # Fetch and display video information (only if YouTube features enabled)
+                        if st.session_state.get('enable_youtube', True):
+                            video_info, error = get_cached_video_info(row['links'])
+                            if error:
+                                st.warning(f"❌ Couldn't fetch video info: {error}")
+                            elif video_info:
+                                display_video_info(video_info)
+                        else:
+                            st.info("🚫 YouTube features disabled in settings")
 
                         # Add button to show/hide video
                         if st.button("▶️ Play Video", key=f"play_{video_id}"):
                             logging.info(f"Video played - ID: {video_id}, Title: {row['titles']}")
-                            st.video(row['links'])
+                            if st.session_state.get('enable_youtube', True):
+                                st.video(row['links'])
+                            else:
+                                st.warning("🚫 YouTube video player disabled in settings. Enable it in the Home page to watch videos.")
+                                st.markdown(f"🔗 **Direct link:** {row['links']}")
                 
                 with col2:
                     # Show Kargin title and metadata

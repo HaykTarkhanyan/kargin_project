@@ -3,6 +3,12 @@ import streamlit as st
 from datetime import datetime
 import logging
 
+def is_youtube_enabled():
+    """
+    Check if YouTube features are enabled in the app settings
+    """
+    return st.session_state.get('enable_youtube', True)
+
 def get_video_info(url):
     """
     Fetch video information from YouTube without using API.
@@ -95,8 +101,9 @@ def get_video_info(url):
 def display_video_info(video_info):
     """
     Display video information in a nicely formatted Streamlit component
+    Only displays if YouTube features are enabled
     """
-    if not video_info:
+    if not video_info or not is_youtube_enabled():
         return
     
     # Add CSS styles
@@ -124,15 +131,6 @@ def display_video_info(video_info):
         }
     </style>
     """, unsafe_allow_html=True)
-    
-    # Create rating and likes HTML
-    rating_html = f'<div class="video-stat">⭐ Rating: {video_info.get("rating", "Not rated")}</div>' if video_info.get("rating") else ''
-    
-    # Create keywords HTML if keywords exist
-    # keywords_html = ''
-    # if video_info.get("keywords"):
-    #     keywords_str = ", ".join(video_info.get("keywords", []))
-    #     keywords_html = f'<h4>🏷️ Keywords</h4><div class="video-stat">{keywords_str}</div>'
     
     # Format publish date info
     publish_info = video_info.get('publish_date', 'Not available')
@@ -162,7 +160,11 @@ def cache_video_info():
 def get_cached_video_info(url):
     """
     Get video info from cache or fetch it if not available
+    Only works if YouTube features are enabled
     """
+    if not is_youtube_enabled():
+        return None, "YouTube features disabled"
+    
     cache = cache_video_info()
     
     if url in cache:

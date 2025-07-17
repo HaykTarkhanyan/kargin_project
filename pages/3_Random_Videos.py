@@ -122,12 +122,30 @@ def show_random_videos():
                         
                         if video_id:
                             with st.container():
-                                # Display thumbnail with error handling
-                                thumbnail_url = f"https://img.youtube.com/vi/{video_id}/mqdefault.jpg"
-                                try:
-                                    st.image(thumbnail_url, use_container_width=True)
-                                except Exception:
-                                    st.warning("Thumbnail not available")
+                                # Display thumbnail with error handling (only if YouTube features enabled)
+                                if st.session_state.get('enable_youtube', True):
+                                    thumbnail_url = f"https://img.youtube.com/vi/{video_id}/mqdefault.jpg"
+                                    try:
+                                        st.image(thumbnail_url, use_container_width=True)
+                                    except Exception:
+                                        st.warning("Thumbnail not available")
+                                else:
+                                    # Show placeholder when YouTube is disabled
+                                    st.markdown("""
+                                    <div style="
+                                        background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+                                        color: white;
+                                        padding: 3em 1em;
+                                        text-align: center;
+                                        border-radius: 10px;
+                                        font-size: 2em;
+                                    ">
+                                        🎭<br>
+                                        <div style="font-size: 0.5em; margin-top: 0.5em;">
+                                            Random Kargin Episode
+                                        </div>
+                                    </div>
+                                    """, unsafe_allow_html=True)
                                 
                                 # Show title and basic info
                                 st.markdown(f'<p class="video-title">🎯 {video["titles"]}</p>', unsafe_allow_html=True)
@@ -135,8 +153,12 @@ def show_random_videos():
                                 
                                 # Add play button with hover effect
                                 if st.button("▶️ Watch Now", key=f"play_{video_id}"):
-                                    with st.spinner("🎥 Loading video..."):
-                                        st.video(video['links'])
+                                    if st.session_state.get('enable_youtube', True):
+                                        with st.spinner("🎥 Loading video..."):
+                                            st.video(video['links'])
+                                    else:
+                                        st.warning("🚫 YouTube video player disabled in settings. Enable it in the Home page to watch videos.")
+                                        st.markdown(f"🔗 **Direct link:** {video['links']}")
                         else:
                             st.warning("🚫 Invalid YouTube URL")
                     except Exception:

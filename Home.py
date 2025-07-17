@@ -49,6 +49,26 @@ def main():
         st.error("Error loading data. Please check if the CSV file exists.")
         return
     
+    # Settings section
+    with st.sidebar:
+        st.markdown("### ⚙️ Settings")
+        
+        # YouTube functionality toggle
+        enable_youtube = st.checkbox(
+            "🎥 Enable YouTube features",
+            value=st.session_state.get('enable_youtube', True),
+            help="Disable this if YouTube video fetching is failing or slow"
+        )
+        st.session_state['enable_youtube'] = enable_youtube
+        
+        if not enable_youtube:
+            st.info("🚫 YouTube features disabled")
+            st.caption("• Video thumbnails\n• Video information\n• Embedded video player")
+        else:
+            st.success("✅ YouTube features enabled")
+        
+        st.markdown("---")
+    
     st.write("""
     Welcome to the Kargin Video Archive! This application allows you to:
     
