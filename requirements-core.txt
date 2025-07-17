@@ -1,0 +1,11 @@
+# Core requirements for Kargin Video Archive
+streamlit>=1.25.0
+pandas>=2.0.0
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0
+python-dateutil>=2.8.2
+
+# Optional requirements (install manually if needed):
+# pytubefix>=2.1.0              # For YouTube video information and thumbnails
+# python-telegram-bot>=21.0     # For Telegram bot functionality
+# python-dotenv>=1.0.0          # For environment variable management

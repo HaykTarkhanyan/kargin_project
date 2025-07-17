@@ -53,17 +53,37 @@ def main():
     with st.sidebar:
         st.markdown("### ⚙️ Settings")
         
-        # YouTube functionality toggle
-        enable_youtube = st.checkbox(
-            "🎥 Enable YouTube features",
-            value=st.session_state.get('enable_youtube', True),
-            help="Disable this if YouTube video fetching is failing or slow"
-        )
-        st.session_state['enable_youtube'] = enable_youtube
+        # Check if pytubefix is available
+        try:
+            import importlib.util
+            pytubefix_available = importlib.util.find_spec("pytubefix") is not None
+        except ImportError:
+            pytubefix_available = False
         
-        if not enable_youtube:
+        # YouTube functionality toggle
+        if pytubefix_available:
+            enable_youtube = st.checkbox(
+                "🎥 Enable YouTube features",
+                value=st.session_state.get('enable_youtube', True),
+                help="Disable this if YouTube video fetching is failing or slow"
+            )
+        else:
+            enable_youtube = st.checkbox(
+                "🎥 Enable YouTube features",
+                value=False,
+                disabled=True,
+                help="pytubefix package not installed. Install it to enable YouTube features."
+            )
+            st.warning("⚠️ pytubefix not installed")
+            
+        st.session_state['enable_youtube'] = enable_youtube and pytubefix_available
+        
+        if not enable_youtube or not pytubefix_available:
             st.info("🚫 YouTube features disabled")
-            st.caption("• Video thumbnails\n• Video information\n• Embedded video player")
+            if pytubefix_available:
+                st.caption("• Video thumbnails\n• Video information\n• Embedded video player")
+            else:
+                st.caption("• Install pytubefix to enable YouTube features\n• Run: pip install pytubefix")
         else:
             st.success("✅ YouTube features enabled")
         

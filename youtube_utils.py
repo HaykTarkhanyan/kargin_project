@@ -1,7 +1,15 @@
-from pytubefix import YouTube
 import streamlit as st
-from datetime import datetime
 import logging
+from datetime import datetime
+
+# Conditional import of pytubefix - only import if YouTube features are enabled
+def _import_youtube():
+    """Dynamically import YouTube class only when needed"""
+    try:
+        from pytubefix import YouTube
+        return YouTube
+    except ImportError:
+        return None
 
 def is_youtube_enabled():
     """
@@ -16,6 +24,15 @@ def get_video_info(url):
     video_info is a dictionary containing video metadata if successful, None otherwise.
     error_message is a string containing error details if failed, None otherwise.
     """
+    # Check if YouTube features are enabled
+    if not is_youtube_enabled():
+        return None, "YouTube features disabled"
+    
+    # Dynamically import YouTube class
+    YouTube = _import_youtube()
+    if YouTube is None:
+        return None, "pytubefix not available"
+    
     try:
         # Create YouTube object with retries
         for _ in range(3):  # Try up to 3 times

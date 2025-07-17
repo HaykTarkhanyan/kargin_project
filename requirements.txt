@@ -1,5 +1,5 @@
 streamlit>=1.25.0
-pytubefix>=2.1.0
+pytubefix>=2.1.0  # Optional: Only needed if YouTube features are enabled
 python-dateutil>=2.8.2
 python-Levenshtein>=0.21.0
 fuzzywuzzy>=0.18.0
