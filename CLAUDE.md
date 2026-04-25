@@ -11,6 +11,17 @@ These three files carry the live state of the project. Read them at the start of
 - **[LEARNINGS.md](LEARNINGS.md)** — append-only log of non-obvious lessons, gotchas, and decisions. Add entries when you discover something that isn't visible in the code itself.
 - **[NOTES.md](NOTES.md)** — open questions, ideas, and free-form context for the rewrite. Edit freely.
 
+## Working norms (project-specific)
+
+The four general behavioral rules live in the global `~/.claude/CLAUDE.md`. Project-specific additions:
+
+- **This is a rewrite, not a refactor.** Don't copy patterns from `old/`. The point is to do it differently. When tempted to lift code, write fresh and only consult `old/` for *what existed*, not *how it was built*.
+- **For non-trivial changes, plan first.** A two-minute plan saves twenty minutes of rework. Use plan mode or write the plan to `PROGRESS.md`'s "In progress" section before touching code.
+- **Confine scope to the task.** If the user asks for X, do X. Surface "while we're here, also Y?" as a question, not a unilateral edit.
+- **Heavy exploration goes to a subagent.** Don't pollute the main context with grep walks across `old/` or unrelated codebases. Delegate, get a summary, keep the main context clean.
+- **Use `@file` references when pointing to examples.** "Implement X following the pattern in `@scripts/fetch_youtube_metadata_api.py`" is much better than describing the pattern from memory.
+- **Reach for Context7 before guessing library APIs.** When working with any external library or framework (yt-dlp, pandas, Streamlit, the YouTube Data API, embedding models, etc.), use the Context7 MCP to fetch live docs rather than relying on training-data memory of syntax. Especially important for fast-moving libraries (yt-dlp options drift, ML SDKs change versions often). Skip Context7 only for general programming concepts or for code we already wrote in this repo.
+
 ## Current state
 
 This is an **old project being recreated with significant changes**. The original 2-hour vibecoded version has been moved to `old/` for reference. The root is intentionally near-empty so the rewrite can start clean.
@@ -19,9 +30,14 @@ Repo layout right now:
 
 ```
 .
-├── CLAUDE.md, PROGRESS.md, LEARNINGS.md, NOTES.md  # project memory
-├── kargin_eng.csv                                  # the data — kept at root
-└── old/                                            # the original codebase, frozen
+├── CLAUDE.md, PLAN.md, PROGRESS.md, LEARNINGS.md, NOTES.md   # project memory
+├── kargin_eng.csv                                            # source-of-truth curation data
+├── data/youtube_metadata.csv                                 # 702 rows, fetched via YouTube Data API v3
+├── scripts/                                                  # one-off data tools (e.g. metadata fetchers)
+├── pyproject.toml, uv.lock                                   # uv-managed deps
+├── .env.example                                              # template; real .env is gitignored
+├── internal/                                                 # gitignored — user-local curation files
+└── old/                                                      # the original codebase, frozen
 ```
 
 Direction for the rewrite is captured in `NOTES.md`. Until that's decided, **don't pattern-match off `old/`** — the rewrite is not a refactor of it, and copying its choices forward (CSV-only, fuzzywuzzy row-scan search, dual duplicated surfaces) is probably wrong.

@@ -210,5 +210,9 @@ __marimo__/
 # Project-local scratch — never committed
 /internal/
 
+# Downloaded media — large, regeneratable, not for git
+/data/audio/
+/data/video/
+
 # Per-user Claude Code overrides
 .claude/settings.local.json

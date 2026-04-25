@@ -106,6 +106,7 @@ Things from the old app worth keeping:
 - [ ] EDA / stats page (episodes per location, top actors, etc.).
 - [ ] Info / links page.
 - [ ] (Maybe) "popular searches" derived from `query_log`.
+- [ ] **"Find my name" page**: user enters a name (e.g. Armen, Hayko, Anush), gets every sketch where the name appears in dialogue or curated metadata. Sources: transcript segments (Phase 1A) + the curated `roles_names` column. Result is a list of sketches with the matching quote/timestamp linking to YouTube. Implementation note: Armenian name matching needs to handle grammatical declensions (Armen / Armeni / Armenin / Armenov / Armenis) and common diminutives (Armen → Armenchik) — naive substring search will under-match. Either a small hand-curated variant table, or a stem-aware match against a known-names list.
 
 ## Future ideas (not now)
 
