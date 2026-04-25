@@ -213,6 +213,8 @@ __marimo__/
 # Downloaded media — large, regeneratable, not for git
 /data/audio/
 /data/video/
+/data/transcripts/
+/data/transcripts_raw/
 
 # Per-user Claude Code overrides
 .claude/settings.local.json
