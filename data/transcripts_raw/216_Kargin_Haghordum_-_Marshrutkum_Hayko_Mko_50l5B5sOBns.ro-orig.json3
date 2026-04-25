@@ -1,0 +1,139 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 100000,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 40,
+    "dDurationMs": 24199,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muzică]"
+    } ]
+  }, {
+    "tStartMs": 28950,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28960,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "u",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 33390,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33400,
+    "dDurationMs": 9380,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muzică]"
+    } ]
+  }, {
+    "tStartMs": 58910,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 58920,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ov",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 63550,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 63560,
+    "dDurationMs": 22909,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muzică]"
+    } ]
+  }, {
+    "tStartMs": 88910,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 88920,
+    "dDurationMs": 6849,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Men",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 90860,
+    "dDurationMs": 4909,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 90870,
+    "dDurationMs": 4899,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muzică]"
+    } ]
+  }, {
+    "tStartMs": 96990,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 97000,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "do",
+      "acAsrConf": 0
+    } ]
+  } ]
+}

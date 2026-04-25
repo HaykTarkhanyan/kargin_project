@@ -1,0 +1,391 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 132840,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 2430,
+    "dDurationMs": 3060,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 9130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 9140,
+    "dDurationMs": 3049,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 12669,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12679,
+    "dDurationMs": 10310,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "em",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 13770,
+    "dDurationMs": 9219,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13780,
+    "dDurationMs": 9209,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 23189,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 23199,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003c",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 26589,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26599,
+    "dDurationMs": 5361,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "u",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 28950,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28960,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003c",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 32070,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 32080,
+    "dDurationMs": 4480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 35490,
+    "dDurationMs": 1070,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 35500,
+    "dDurationMs": 10409,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Applaus]"
+    } ]
+  }, {
+    "tStartMs": 36550,
+    "dDurationMs": 9359,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 36560,
+    "dDurationMs": 9349,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 49740,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 49750,
+    "dDurationMs": 6859,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 58910,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 58920,
+    "dDurationMs": 10530,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003c",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 60610,
+    "dDurationMs": 8840,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 60620,
+    "dDurationMs": 8830,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 71070,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 71080,
+    "dDurationMs": 7560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003c",
+      "acAsrConf": 0
+    }, {
+      "utf8": " \u003c",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " \u003e",
+      "tOffsetMs": 1399,
+      "acAsrConf": 0
+    }, {
+      "utf8": " \u003c",
+      "tOffsetMs": 2120,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 75630,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 75640,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "-",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 86950,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 86960,
+    "dDurationMs": 4710,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003c",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 88830,
+    "dDurationMs": 2840,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 88840,
+    "dDurationMs": 6209,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "-",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 91660,
+    "dDurationMs": 3389,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 91670,
+    "dDurationMs": 3379,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 97980,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 97990,
+    "dDurationMs": 10690,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 113140,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 113150,
+    "dDurationMs": 3839,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 118830,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 118840,
+    "dDurationMs": 4609,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Em",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 120280,
+    "dDurationMs": 3169,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 120290,
+    "dDurationMs": 3159,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 127190,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 127200,
+    "dDurationMs": 5640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Muziek]"
+    } ]
+  }, {
+    "tStartMs": 129830,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 129840,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "mi",
+      "acAsrConf": 0
+    } ]
+  } ]
+}

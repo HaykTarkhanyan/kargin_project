@@ -213,8 +213,9 @@ __marimo__/
 # Downloaded media — large, regeneratable, not for git
 /data/audio/
 /data/video/
-/data/transcripts/
-/data/transcripts_raw/
+
+# Transcoded audio (intermediate) — regeneratable, kept out of git
+/data/transcripts_gemini/_tmp_ogg/
 
 # Per-user Claude Code overrides
 .claude/settings.local.json

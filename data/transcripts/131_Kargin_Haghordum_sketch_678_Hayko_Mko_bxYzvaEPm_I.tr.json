@@ -1,0 +1,66 @@
+{
+  "video_id": null,
+  "seq": 131,
+  "title": "",
+  "source_lang": "tr",
+  "n_events": 11,
+  "duration_sec": 77.61,
+  "full_text": "o\ntelefonu\naç Telefonu aç\n[Müzik]\n[Alkış]\n[Müzik]\nabone ol\n10'ar gidersin canking\nyihu şamık giyin kafam herkese musun\nAma Zeynep\ndedi ki",
+  "events": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "o"
+    },
+    {
+      "start": 3.11,
+      "end": 7.18,
+      "text": "telefonu"
+    },
+    {
+      "start": 4.879,
+      "end": 48.21,
+      "text": "aç Telefonu aç"
+    },
+    {
+      "start": 7.18,
+      "end": 51.35,
+      "text": "[Müzik]"
+    },
+    {
+      "start": 48.21,
+      "end": 51.35,
+      "text": "[Alkış]"
+    },
+    {
+      "start": 55.87,
+      "end": 61.84,
+      "text": "[Müzik]"
+    },
+    {
+      "start": 60.01,
+      "end": 65.46,
+      "text": "abone ol"
+    },
+    {
+      "start": 61.84,
+      "end": 72.15,
+      "text": "10'ar gidersin canking"
+    },
+    {
+      "start": 65.46,
+      "end": 72.15,
+      "text": "yihu şamık giyin kafam herkese musun"
+    },
+    {
+      "start": 72.39,
+      "end": 77.61,
+      "text": "Ama Zeynep"
+    },
+    {
+      "start": 74.55,
+      "end": 77.61,
+      "text": "dedi ki"
+    }
+  ]
+}

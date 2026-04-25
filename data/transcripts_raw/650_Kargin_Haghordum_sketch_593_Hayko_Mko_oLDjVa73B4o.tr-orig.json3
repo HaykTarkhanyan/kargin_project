@@ -1,0 +1,431 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 133740,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 6710,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "en",
+      "acAsrConf": 89
+    } ]
+  }, {
+    "tStartMs": 1530,
+    "dDurationMs": 5180,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 1540,
+    "dDurationMs": 8660,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 6700,
+    "dDurationMs": 3500,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 6710,
+    "dDurationMs": 6809,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "bariz",
+      "acAsrConf": 98
+    }, {
+      "utf8": " yasak",
+      "tOffsetMs": 1139,
+      "acAsrConf": 166
+    }, {
+      "utf8": " anlatayım",
+      "tOffsetMs": 2139,
+      "acAsrConf": 188
+    }, {
+      "utf8": " yine",
+      "tOffsetMs": 2620,
+      "acAsrConf": 35
+    }, {
+      "utf8": " canım",
+      "tOffsetMs": 2800,
+      "acAsrConf": 188
+    } ]
+  }, {
+    "tStartMs": 10190,
+    "dDurationMs": 3329,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10200,
+    "dDurationMs": 6780,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "merhametin",
+      "acAsrConf": 182
+    }, {
+      "utf8": " Dükkanı",
+      "tOffsetMs": 930,
+      "acAsrConf": 125
+    }, {
+      "utf8": " tek",
+      "tOffsetMs": 1380,
+      "acAsrConf": 131
+    }, {
+      "utf8": " tek",
+      "tOffsetMs": 1590,
+      "acAsrConf": 88
+    }, {
+      "utf8": " lezzet",
+      "tOffsetMs": 1769,
+      "acAsrConf": 158
+    }, {
+      "utf8": " yoksan",
+      "tOffsetMs": 2240,
+      "acAsrConf": 43
+    } ]
+  }, {
+    "tStartMs": 13509,
+    "dDurationMs": 3471,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13519,
+    "dDurationMs": 5441,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "katmana",
+      "acAsrConf": 153
+    }, {
+      "utf8": " semavi",
+      "tOffsetMs": 1000,
+      "acAsrConf": 238
+    }, {
+      "utf8": " Mehmet",
+      "tOffsetMs": 1481,
+      "acAsrConf": 179
+    }, {
+      "utf8": " gol",
+      "tOffsetMs": 2351,
+      "acAsrConf": 167
+    }, {
+      "utf8": " olacakları",
+      "tOffsetMs": 2711,
+      "acAsrConf": 123
+    } ]
+  }, {
+    "tStartMs": 16970,
+    "dDurationMs": 1990,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 16980,
+    "dDurationMs": 4910,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "için",
+      "acAsrConf": 178
+    }, {
+      "utf8": " sağ",
+      "tOffsetMs": 120,
+      "acAsrConf": 62
+    }, {
+      "utf8": " bölüme",
+      "tOffsetMs": 330,
+      "acAsrConf": 102
+    }, {
+      "utf8": " Kanka",
+      "tOffsetMs": 660,
+      "acAsrConf": 102
+    }, {
+      "utf8": " takan",
+      "tOffsetMs": 959,
+      "acAsrConf": 50
+    }, {
+      "utf8": " modasını",
+      "tOffsetMs": 1410,
+      "acAsrConf": 62
+    } ]
+  }, {
+    "tStartMs": 18950,
+    "dDurationMs": 2940,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 18960,
+    "dDurationMs": 5980,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "için",
+      "acAsrConf": 97
+    }, {
+      "utf8": " çok",
+      "tOffsetMs": 420,
+      "acAsrConf": 202
+    }, {
+      "utf8": " balığımız",
+      "tOffsetMs": 630,
+      "acAsrConf": 91
+    }, {
+      "utf8": " akıyor",
+      "tOffsetMs": 960,
+      "acAsrConf": 185
+    }, {
+      "utf8": " mu",
+      "tOffsetMs": 1590,
+      "acAsrConf": 53
+    } ]
+  }, {
+    "tStartMs": 21880,
+    "dDurationMs": 3060,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21890,
+    "dDurationMs": 3050,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 27830,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 27840,
+    "dDurationMs": 15470,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 48310,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 48320,
+    "dDurationMs": 9709,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 60000,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 60010,
+    "dDurationMs": 6540,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "bu",
+      "acAsrConf": 35
+    }, {
+      "utf8": " duyulamaz",
+      "tOffsetMs": 319,
+      "acAsrConf": 238
+    }, {
+      "utf8": " ki",
+      "tOffsetMs": 1319,
+      "acAsrConf": 238
+    }, {
+      "utf8": " boş",
+      "tOffsetMs": 1470,
+      "acAsrConf": 183
+    }, {
+      "utf8": " ya",
+      "tOffsetMs": 1830,
+      "acAsrConf": 130
+    }, {
+      "utf8": " pek",
+      "tOffsetMs": 2009,
+      "acAsrConf": 131
+    }, {
+      "utf8": " hafta",
+      "tOffsetMs": 2279,
+      "acAsrConf": 160
+    }, {
+      "utf8": " mutlu",
+      "tOffsetMs": 2849,
+      "acAsrConf": 115
+    } ]
+  }, {
+    "tStartMs": 63240,
+    "dDurationMs": 3310,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 63250,
+    "dDurationMs": 6349,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Batman",
+      "acAsrConf": 238
+    }, {
+      "utf8": " hamari",
+      "tOffsetMs": 390,
+      "acAsrConf": 176
+    }, {
+      "utf8": " thi",
+      "tOffsetMs": 1229,
+      "acAsrConf": 71
+    } ]
+  }, {
+    "tStartMs": 66540,
+    "dDurationMs": 3059,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 66550,
+    "dDurationMs": 3049,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 71820,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 71830,
+    "dDurationMs": 40969,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 120010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 120020,
+    "dDurationMs": 5170,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "bu",
+      "acAsrConf": 93
+    }, {
+      "utf8": " efekti",
+      "tOffsetMs": 29,
+      "acAsrConf": 59
+    }, {
+      "utf8": " kahveler",
+      "tOffsetMs": 989,
+      "acAsrConf": 119
+    } ]
+  }, {
+    "tStartMs": 122670,
+    "dDurationMs": 2520,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 122680,
+    "dDurationMs": 5869,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "amacı",
+      "acAsrConf": 37
+    }, {
+      "utf8": " ne",
+      "tOffsetMs": 1000,
+      "acAsrConf": 28
+    } ]
+  }, {
+    "tStartMs": 125180,
+    "dDurationMs": 3369,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 125190,
+    "dDurationMs": 3359,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 130610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 130620,
+    "dDurationMs": 3120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  } ]
+}

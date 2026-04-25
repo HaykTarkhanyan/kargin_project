@@ -1,0 +1,485 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 76920,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 120,
+    "dDurationMs": 10939,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[երաժշտություն]"
+    } ]
+  }, {
+    "tStartMs": 9049,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 9059,
+    "dDurationMs": 2000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ըհը",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 13209,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13219,
+    "dDurationMs": 5941,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "սենց",
+      "acAsrConf": 0
+    }, {
+      "utf8": " գեղեցկությունը",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " իզուր",
+      "tOffsetMs": 1840,
+      "acAsrConf": 0
+    }, {
+      "utf8": " տեղը",
+      "tOffsetMs": 1960,
+      "acAsrConf": 0
+    }, {
+      "utf8": " կորում",
+      "tOffsetMs": 2261,
+      "acAsrConf": 0
+    }, {
+      "utf8": " է։",
+      "tOffsetMs": 2500,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 17269,
+    "dDurationMs": 1891,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17279,
+    "dDurationMs": 4760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "իզուր",
+      "acAsrConf": 0
+    }, {
+      "utf8": " բաժանվեցի։",
+      "tOffsetMs": 121,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 19150,
+    "dDurationMs": 2889,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19160,
+    "dDurationMs": 5760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "տղամարդ",
+      "acAsrConf": 0
+    }, {
+      "utf8": " եմ",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ուզում",
+      "tOffsetMs": 1180,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 22029,
+    "dDurationMs": 2891,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 22039,
+    "dDurationMs": 4500,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "տղամարդ",
+      "acAsrConf": 0
+    }, {
+      "utf8": " եմ",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ուզում։",
+      "tOffsetMs": 1361,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 24910,
+    "dDurationMs": 1629,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24920,
+    "dDurationMs": 4359,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "տղամարդուն",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 26529,
+    "dDurationMs": 2750,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26539,
+    "dDurationMs": 4921,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "տղամարդ",
+      "acAsrConf": 0
+    }, {
+      "utf8": " եմ",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ուզում",
+      "tOffsetMs": 1301,
+      "acAsrConf": 0
+    }, {
+      "utf8": " տղա",
+      "tOffsetMs": 1421,
+      "acAsrConf": 0
+    }, {
+      "utf8": " մարդու",
+      "tOffsetMs": 1841,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ուզում",
+      "tOffsetMs": 2500,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 29269,
+    "dDurationMs": 2191,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29279,
+    "dDurationMs": 4761,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "տղամարդ",
+      "acAsrConf": 0
+    }, {
+      "utf8": " եմ",
+      "tOffsetMs": 721,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ուզում",
+      "tOffsetMs": 1021,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 31450,
+    "dDurationMs": 2590,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31460,
+    "dDurationMs": 6480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "տղամարդը",
+      "acAsrConf": 0
+    }, {
+      "utf8": " մուզում",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 34030,
+    "dDurationMs": 3910,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 34040,
+    "dDurationMs": 5820,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "տղամարդ",
+      "acAsrConf": 0
+    }, {
+      "utf8": " եմ",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ուզում",
+      "tOffsetMs": 1359,
+      "acAsrConf": 0
+    }, {
+      "utf8": " տղամարդ",
+      "tOffsetMs": 1620,
+      "acAsrConf": 0
+    }, {
+      "utf8": " եմ",
+      "tOffsetMs": 2620,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ուզում",
+      "tOffsetMs": 2859,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 37930,
+    "dDurationMs": 1930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 37940,
+    "dDurationMs": 6779,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "տղամարդ",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 39850,
+    "dDurationMs": 4869,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 39860,
+    "dDurationMs": 4859,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "մուշեղ",
+      "acAsrConf": 0
+    }, {
+      "utf8": " ի՞նչ",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ես",
+      "tOffsetMs": 1120,
+      "acAsrConf": 0
+    }, {
+      "utf8": " աչքերդ",
+      "tOffsetMs": 1240,
+      "acAsrConf": 0
+    }, {
+      "utf8": " չրել",
+      "tOffsetMs": 1660,
+      "acAsrConf": 0
+    }, {
+      "utf8": " դասդ",
+      "tOffsetMs": 1960,
+      "acAsrConf": 0
+    }, {
+      "utf8": " պարապի",
+      "tOffsetMs": 2500,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 52549,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 52559,
+    "dDurationMs": 5421,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "լսի",
+      "acAsrConf": 0
+    }, {
+      "utf8": " նոր",
+      "tOffsetMs": 901,
+      "acAsrConf": 0
+    }, {
+      "utf8": " քո",
+      "tOffsetMs": 1020,
+      "acAsrConf": 0
+    }, {
+      "utf8": " մասն",
+      "tOffsetMs": 1201,
+      "acAsrConf": 0
+    }, {
+      "utf8": " է",
+      "tOffsetMs": 1561,
+      "acAsrConf": 0
+    }, {
+      "utf8": " երազում",
+      "tOffsetMs": 1621,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ու՞ր",
+      "tOffsetMs": 2361,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ես",
+      "tOffsetMs": 3361,
+      "acAsrConf": 0
+    }, {
+      "utf8": " չկաս",
+      "tOffsetMs": 3421,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 56330,
+    "dDurationMs": 1650,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 56340,
+    "dDurationMs": 5300,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "կորել",
+      "acAsrConf": 0
+    }, {
+      "utf8": " ես",
+      "tOffsetMs": 359,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 57970,
+    "dDurationMs": 3670,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 57980,
+    "dDurationMs": 14100,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "էլ",
+      "acAsrConf": 0
+    }, {
+      "utf8": " չենք",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " հանում",
+      "tOffsetMs": 1180,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ազիզ",
+      "tOffsetMs": 1719,
+      "acAsrConf": 0
+    }, {
+      "utf8": " գնացինք",
+      "tOffsetMs": 2500,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 61630,
+    "dDurationMs": 10450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 61640,
+    "dDurationMs": 15280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[երաժշտություն]"
+    } ]
+  }, {
+    "tStartMs": 72070,
+    "dDurationMs": 4850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 72080,
+    "dDurationMs": 4840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "հեծանիվ",
+      "acAsrConf": 0
+    }, {
+      "utf8": " եմ",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " ուսում",
+      "tOffsetMs": 1600,
+      "acAsrConf": 0
+    }, {
+      "utf8": " հեծանիվ",
+      "tOffsetMs": 1840,
+      "acAsrConf": 0
+    } ]
+  } ]
+}

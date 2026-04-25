@@ -31,9 +31,20 @@ Repo layout right now:
 ```
 .
 ├── CLAUDE.md, PLAN.md, PROGRESS.md, LEARNINGS.md, NOTES.md   # project memory
-├── kargin_eng.csv                                            # source-of-truth curation data
-├── data/youtube_metadata.csv                                 # 702 rows, fetched via YouTube Data API v3
-├── scripts/                                                  # one-off data tools (e.g. metadata fetchers)
+├── kargin_eng.csv                                            # source-of-truth curation data, 702 rows
+├── data/
+│   ├── youtube_metadata.csv                                  # 702 rows, fetched via YouTube Data API v3
+│   ├── audio/                                                # gitignored, 702 webm/opus, 1.6 GB
+│   ├── video/                                                # gitignored, 360p smoke-test only so far
+│   ├── transcripts_raw/                                      # gitignored, yt-dlp JSON3 + .no_captions sentinels
+│   └── transcripts/                                          # gitignored, simplified per-video JSON
+├── scripts/
+│   ├── fetch_youtube_metadata_api.py                         # YouTube Data API v3, the working metadata fetcher
+│   ├── fetch_youtube_metadata.py                             # yt-dlp version, kept for reference (rate-limit issues)
+│   ├── download_audio.py                                     # bulk audio downloader
+│   ├── download_video.py                                     # bulk video downloader, 360p
+│   ├── fetch_transcripts.py                                  # YouTube source-lang captions via yt-dlp
+│   └── convert_transcripts.py                                # JSON3 → simplified per-video JSON
 ├── pyproject.toml, uv.lock                                   # uv-managed deps
 ├── .env.example                                              # template; real .env is gitignored
 ├── internal/                                                 # gitignored — user-local curation files

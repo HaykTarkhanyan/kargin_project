@@ -1,0 +1,1292 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 176229,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 560,
+    "dDurationMs": 2149,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[музыка]"
+    } ]
+  }, {
+    "tStartMs": 4370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4380,
+    "dDurationMs": 5830,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "очень-очень",
+      "acAsrConf": 124
+    }, {
+      "utf8": " ждет",
+      "tOffsetMs": 1000,
+      "acAsrConf": 92
+    }, {
+      "utf8": " исторической",
+      "tOffsetMs": 1570,
+      "acAsrConf": 125
+    }, {
+      "utf8": " практики",
+      "tOffsetMs": 2470,
+      "acAsrConf": 93
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 2800,
+      "acAsrConf": 91
+    } ]
+  }, {
+    "tStartMs": 7380,
+    "dDurationMs": 2830,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7390,
+    "dDurationMs": 3590,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "чем",
+      "acAsrConf": 123
+    }, {
+      "utf8": " ближе",
+      "tOffsetMs": 780,
+      "acAsrConf": 219
+    }, {
+      "utf8": " платон",
+      "tOffsetMs": 1350,
+      "acAsrConf": 166
+    }, {
+      "utf8": " или",
+      "tOffsetMs": 1919,
+      "acAsrConf": 118
+    }, {
+      "utf8": " на",
+      "tOffsetMs": 2070,
+      "acAsrConf": 119
+    }, {
+      "utf8": " enter",
+      "tOffsetMs": 2160,
+      "acAsrConf": 201
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2460,
+      "acAsrConf": 143
+    }, {
+      "utf8": " wacky",
+      "tOffsetMs": 2640,
+      "acAsrConf": 150
+    } ]
+  }, {
+    "tStartMs": 10200,
+    "dDurationMs": 780,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10210,
+    "dDurationMs": 4290,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "цикл",
+      "acAsrConf": 208
+    } ]
+  }, {
+    "tStartMs": 10970,
+    "dDurationMs": 3530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10980,
+    "dDurationMs": 7380,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "на",
+      "acAsrConf": 204
+    }, {
+      "utf8": " лавку",
+      "tOffsetMs": 1000,
+      "acAsrConf": 202
+    }, {
+      "utf8": " нашей",
+      "tOffsetMs": 1390,
+      "acAsrConf": 248
+    }, {
+      "utf8": " травмы",
+      "tOffsetMs": 1780,
+      "acAsrConf": 170
+    }, {
+      "utf8": " черта",
+      "tOffsetMs": 2290,
+      "acAsrConf": 145
+    }, {
+      "utf8": " операция",
+      "tOffsetMs": 3010,
+      "acAsrConf": 206
+    } ]
+  }, {
+    "tStartMs": 14490,
+    "dDurationMs": 3870,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 14500,
+    "dDurationMs": 3860,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "стоит",
+      "acAsrConf": 232
+    }, {
+      "utf8": " расширить",
+      "tOffsetMs": 629,
+      "acAsrConf": 178
+    }, {
+      "utf8": " рама",
+      "tOffsetMs": 1170,
+      "acAsrConf": 0
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 1680,
+      "acAsrConf": 118
+    }, {
+      "utf8": " шасси",
+      "tOffsetMs": 1770,
+      "acAsrConf": 125
+    } ]
+  }, {
+    "tStartMs": 18510,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 18520,
+    "dDurationMs": 26250,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[музыка]"
+    } ]
+  }, {
+    "tStartMs": 46819,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 46829,
+    "dDurationMs": 2721,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "божечки",
+      "acAsrConf": 70
+    } ]
+  }, {
+    "tStartMs": 51370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 51380,
+    "dDurationMs": 4499,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[аплодисменты]"
+    } ]
+  }, {
+    "tStartMs": 52869,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 52879,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "маркетинг",
+      "acAsrConf": 240
+    } ]
+  }, {
+    "tStartMs": 57349,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 57359,
+    "dDurationMs": 7101,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "а",
+      "acAsrConf": 210
+    }, {
+      "utf8": " мне",
+      "tOffsetMs": 470,
+      "acAsrConf": 205
+    }, {
+      "utf8": " от",
+      "tOffsetMs": 1470,
+      "acAsrConf": 201
+    }, {
+      "utf8": " ханов",
+      "tOffsetMs": 1891,
+      "acAsrConf": 204
+    }, {
+      "utf8": " чем",
+      "tOffsetMs": 2250,
+      "acAsrConf": 236
+    }, {
+      "utf8": " человек",
+      "tOffsetMs": 2491,
+      "acAsrConf": 225
+    }, {
+      "utf8": " тамбуры",
+      "tOffsetMs": 3421,
+      "acAsrConf": 105
+    }, {
+      "utf8": " шаги",
+      "tOffsetMs": 4230,
+      "acAsrConf": 144
+    } ]
+  }, {
+    "tStartMs": 61819,
+    "dDurationMs": 2641,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 61829,
+    "dDurationMs": 2631,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "бро",
+      "acAsrConf": 210
+    }, {
+      "utf8": " влюблялись",
+      "tOffsetMs": 210,
+      "acAsrConf": 188
+    } ]
+  }, {
+    "tStartMs": 65020,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 65030,
+    "dDurationMs": 8019,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "которые",
+      "acAsrConf": 121
+    }, {
+      "utf8": " бурно",
+      "tOffsetMs": 1000,
+      "acAsrConf": 200
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 1180,
+      "acAsrConf": 217
+    }, {
+      "utf8": " участники",
+      "tOffsetMs": 1769,
+      "acAsrConf": 116
+    }, {
+      "utf8": " что",
+      "tOffsetMs": 3129,
+      "acAsrConf": 206
+    }, {
+      "utf8": " живет",
+      "tOffsetMs": 3580,
+      "acAsrConf": 94
+    } ]
+  }, {
+    "tStartMs": 69580,
+    "dDurationMs": 3469,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 69590,
+    "dDurationMs": 7330,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "очищалась",
+      "acAsrConf": 142
+    }, {
+      "utf8": " валиума",
+      "tOffsetMs": 1000,
+      "acAsrConf": 108
+    }, {
+      "utf8": " торопясь",
+      "tOffsetMs": 1300,
+      "acAsrConf": 142
+    }, {
+      "utf8": " толстым",
+      "tOffsetMs": 2459,
+      "acAsrConf": 248
+    } ]
+  }, {
+    "tStartMs": 73039,
+    "dDurationMs": 3881,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 73049,
+    "dDurationMs": 5971,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "деталей",
+      "acAsrConf": 153
+    }, {
+      "utf8": " осталось",
+      "tOffsetMs": 651,
+      "acAsrConf": 116
+    }, {
+      "utf8": " на",
+      "tOffsetMs": 1651,
+      "acAsrConf": 208
+    }, {
+      "utf8": " гитаре",
+      "tOffsetMs": 1771,
+      "acAsrConf": 123
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 2250,
+      "acAsrConf": 123
+    }, {
+      "utf8": " поет",
+      "tOffsetMs": 2311,
+      "acAsrConf": 203
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 2430,
+      "acAsrConf": 146
+    }, {
+      "utf8": " в",
+      "tOffsetMs": 2971,
+      "acAsrConf": 204
+    } ]
+  }, {
+    "tStartMs": 76910,
+    "dDurationMs": 2110,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 76920,
+    "dDurationMs": 5940,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "другой",
+      "acAsrConf": 248
+    }, {
+      "utf8": " толстый",
+      "tOffsetMs": 269,
+      "acAsrConf": 64
+    }, {
+      "utf8": " металл",
+      "tOffsetMs": 1080,
+      "acAsrConf": 81
+    }, {
+      "utf8": " want",
+      "tOffsetMs": 1470,
+      "acAsrConf": 119
+    }, {
+      "utf8": " as",
+      "tOffsetMs": 1739,
+      "acAsrConf": 125
+    }, {
+      "utf8": " complete",
+      "tOffsetMs": 1890,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 79010,
+    "dDurationMs": 3850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 79020,
+    "dDurationMs": 7439,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "камерам",
+      "acAsrConf": 0
+    }, {
+      "utf8": " hamanako",
+      "tOffsetMs": 690,
+      "acAsrConf": 213
+    }, {
+      "utf8": " ты",
+      "tOffsetMs": 1920,
+      "acAsrConf": 216
+    }, {
+      "utf8": " вполне",
+      "tOffsetMs": 2070,
+      "acAsrConf": 0
+    }, {
+      "utf8": " горы",
+      "tOffsetMs": 2370,
+      "acAsrConf": 202
+    }, {
+      "utf8": " роджер",
+      "tOffsetMs": 2840,
+      "acAsrConf": 157
+    } ]
+  }, {
+    "tStartMs": 82850,
+    "dDurationMs": 3609,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 82860,
+    "dDurationMs": 6049,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "кроме",
+      "acAsrConf": 204
+    }, {
+      "utf8": " водки",
+      "tOffsetMs": 270,
+      "acAsrConf": 206
+    }, {
+      "utf8": " массаже",
+      "tOffsetMs": 840,
+      "acAsrConf": 81
+    }, {
+      "utf8": " пытки",
+      "tOffsetMs": 1860,
+      "acAsrConf": 73
+    }, {
+      "utf8": " уроки",
+      "tOffsetMs": 2730,
+      "acAsrConf": 165
+    }, {
+      "utf8": " рик",
+      "tOffsetMs": 3090,
+      "acAsrConf": 143
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 3509,
+      "acAsrConf": 216
+    } ]
+  }, {
+    "tStartMs": 86449,
+    "dDurationMs": 2460,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 86459,
+    "dDurationMs": 7381,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "camera",
+      "acAsrConf": 216
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 690,
+      "acAsrConf": 204
+    }, {
+      "utf8": " накрыть",
+      "tOffsetMs": 720,
+      "acAsrConf": 203
+    }, {
+      "utf8": " вы",
+      "tOffsetMs": 1500,
+      "acAsrConf": 167
+    } ]
+  }, {
+    "tStartMs": 88899,
+    "dDurationMs": 4941,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 88909,
+    "dDurationMs": 8531,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "пойманы",
+      "acAsrConf": 201
+    }, {
+      "utf8": " с",
+      "tOffsetMs": 1000,
+      "acAsrConf": 136
+    }, {
+      "utf8": " микой",
+      "tOffsetMs": 1121,
+      "acAsrConf": 75
+    }, {
+      "utf8": " на",
+      "tOffsetMs": 1570,
+      "acAsrConf": 232
+    }, {
+      "utf8": " фартук",
+      "tOffsetMs": 1831,
+      "acAsrConf": 216
+    }, {
+      "utf8": " предки",
+      "tOffsetMs": 2861,
+      "acAsrConf": 155
+    }, {
+      "utf8": " что",
+      "tOffsetMs": 3841,
+      "acAsrConf": 207
+    }, {
+      "utf8": " в",
+      "tOffsetMs": 4841,
+      "acAsrConf": 200
+    } ]
+  }, {
+    "tStartMs": 93830,
+    "dDurationMs": 3610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 93840,
+    "dDurationMs": 7979,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "этом",
+      "acAsrConf": 200
+    }, {
+      "utf8": " ребенком",
+      "tOffsetMs": 89,
+      "acAsrConf": 217
+    }, {
+      "utf8": " не",
+      "tOffsetMs": 600,
+      "acAsrConf": 123
+    }, {
+      "utf8": " властны",
+      "tOffsetMs": 690,
+      "acAsrConf": 133
+    }, {
+      "utf8": " над",
+      "tOffsetMs": 1319,
+      "acAsrConf": 134
+    } ]
+  }, {
+    "tStartMs": 97430,
+    "dDurationMs": 4389,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 97440,
+    "dDurationMs": 7679,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "гена",
+      "acAsrConf": 230
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 870,
+      "acAsrConf": 236
+    }, {
+      "utf8": " ждет",
+      "tOffsetMs": 1219,
+      "acAsrConf": 70
+    }, {
+      "utf8": " сварные",
+      "tOffsetMs": 2219,
+      "acAsrConf": 82
+    }, {
+      "utf8": " массы",
+      "tOffsetMs": 2580,
+      "acAsrConf": 201
+    }, {
+      "utf8": " усилил",
+      "tOffsetMs": 3289,
+      "acAsrConf": 66
+    }, {
+      "utf8": " вы",
+      "tOffsetMs": 4289,
+      "acAsrConf": 217
+    } ]
+  }, {
+    "tStartMs": 101809,
+    "dDurationMs": 3310,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 101819,
+    "dDurationMs": 5421,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "должны",
+      "acAsrConf": 237
+    }, {
+      "utf8": " покидать",
+      "tOffsetMs": 330,
+      "acAsrConf": 0
+    }, {
+      "utf8": " финал",
+      "tOffsetMs": 871,
+      "acAsrConf": 63
+    }, {
+      "utf8": " по",
+      "tOffsetMs": 1410,
+      "acAsrConf": 96
+    }, {
+      "utf8": " верх",
+      "tOffsetMs": 1531,
+      "acAsrConf": 123
+    }, {
+      "utf8": " они",
+      "tOffsetMs": 2281,
+      "acAsrConf": 224
+    }, {
+      "utf8": " кормят",
+      "tOffsetMs": 2910,
+      "acAsrConf": 238
+    } ]
+  }, {
+    "tStartMs": 105109,
+    "dDurationMs": 2131,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 105119,
+    "dDurationMs": 4700,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "паста",
+      "acAsrConf": 149
+    }, {
+      "utf8": " eng",
+      "tOffsetMs": 360,
+      "acAsrConf": 142
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 570,
+      "acAsrConf": 202
+    }, {
+      "utf8": " which",
+      "tOffsetMs": 750,
+      "acAsrConf": 205
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 961,
+      "acAsrConf": 136
+    }, {
+      "utf8": " фасона",
+      "tOffsetMs": 1081,
+      "acAsrConf": 104
+    }, {
+      "utf8": " корки",
+      "tOffsetMs": 1500,
+      "acAsrConf": 104
+    } ]
+  }, {
+    "tStartMs": 107230,
+    "dDurationMs": 2589,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 107240,
+    "dDurationMs": 5609,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "сильно",
+      "acAsrConf": 127
+    }, {
+      "utf8": " изучим",
+      "tOffsetMs": 1000,
+      "acAsrConf": 236
+    }, {
+      "utf8": " урана",
+      "tOffsetMs": 1540,
+      "acAsrConf": 182
+    } ]
+  }, {
+    "tStartMs": 109809,
+    "dDurationMs": 3040,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 109819,
+    "dDurationMs": 5071,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "простациклина",
+      "acAsrConf": 195
+    }, {
+      "utf8": " я",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 112839,
+    "dDurationMs": 2051,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 112849,
+    "dDurationMs": 6690,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "сыграл",
+      "acAsrConf": 148
+    }, {
+      "utf8": " с",
+      "tOffsetMs": 1000,
+      "acAsrConf": 156
+    }, {
+      "utf8": " а",
+      "tOffsetMs": 1091,
+      "acAsrConf": 149
+    }, {
+      "utf8": " конница",
+      "tOffsetMs": 1151,
+      "acAsrConf": 206
+    } ]
+  }, {
+    "tStartMs": 114880,
+    "dDurationMs": 4659,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 114890,
+    "dDurationMs": 9069,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "лермонтов",
+      "acAsrConf": 252
+    }, {
+      "utf8": " тютчев",
+      "tOffsetMs": 1119,
+      "acAsrConf": 249
+    }, {
+      "utf8": " зинаида",
+      "tOffsetMs": 2160,
+      "acAsrConf": 252
+    }, {
+      "utf8": " георгиевна",
+      "tOffsetMs": 3160,
+      "acAsrConf": 252
+    } ]
+  }, {
+    "tStartMs": 119529,
+    "dDurationMs": 4430,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 119539,
+    "dDurationMs": 5161,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "фёдор",
+      "acAsrConf": 217
+    }, {
+      "utf8": " достоевский",
+      "tOffsetMs": 1000,
+      "acAsrConf": 221
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 1211,
+      "acAsrConf": 236
+    }, {
+      "utf8": " чи",
+      "tOffsetMs": 1810,
+      "acAsrConf": 124
+    }, {
+      "utf8": " чена",
+      "tOffsetMs": 2711,
+      "acAsrConf": 119
+    }, {
+      "utf8": " его",
+      "tOffsetMs": 3000,
+      "acAsrConf": 117
+    }, {
+      "utf8": " на",
+      "tOffsetMs": 4000,
+      "acAsrConf": 100
+    }, {
+      "utf8": " стул",
+      "tOffsetMs": 4121,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 123949,
+    "dDurationMs": 751,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 123959,
+    "dDurationMs": 3330,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "они",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 124690,
+    "dDurationMs": 2599,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 124700,
+    "dDurationMs": 4650,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "порой",
+      "acAsrConf": 0
+    }, {
+      "utf8": " эльку",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " же",
+      "tOffsetMs": 1360,
+      "acAsrConf": 98
+    }, {
+      "utf8": " apart",
+      "tOffsetMs": 1509,
+      "acAsrConf": 167
+    }, {
+      "utf8": " от",
+      "tOffsetMs": 1960,
+      "acAsrConf": 201
+    }, {
+      "utf8": " их",
+      "tOffsetMs": 2110,
+      "acAsrConf": 201
+    }, {
+      "utf8": " кабелю",
+      "tOffsetMs": 2289,
+      "acAsrConf": 141
+    } ]
+  }, {
+    "tStartMs": 127279,
+    "dDurationMs": 2071,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 127289,
+    "dDurationMs": 4931,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "заорать",
+      "acAsrConf": 218
+    }, {
+      "utf8": " f",
+      "tOffsetMs": 450,
+      "acAsrConf": 151
+    } ]
+  }, {
+    "tStartMs": 129340,
+    "dDurationMs": 2880,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 129350,
+    "dDurationMs": 5640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "когда",
+      "acAsrConf": 145
+    }, {
+      "utf8": " дж",
+      "tOffsetMs": 480,
+      "acAsrConf": 110
+    }, {
+      "utf8": " от",
+      "tOffsetMs": 570,
+      "acAsrConf": 142
+    }, {
+      "utf8": " нужды",
+      "tOffsetMs": 810,
+      "acAsrConf": 161
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 1110,
+      "acAsrConf": 142
+    } ]
+  }, {
+    "tStartMs": 132210,
+    "dDurationMs": 2780,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 132220,
+    "dDurationMs": 3690,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "становиться",
+      "acAsrConf": 166
+    }, {
+      "utf8": " побасенки",
+      "tOffsetMs": 1000,
+      "acAsrConf": 160
+    }, {
+      "utf8": " славка",
+      "tOffsetMs": 1390,
+      "acAsrConf": 115
+    }, {
+      "utf8": " lascana",
+      "tOffsetMs": 2110,
+      "acAsrConf": 196
+    } ]
+  }, {
+    "tStartMs": 134980,
+    "dDurationMs": 930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 134990,
+    "dDurationMs": 5430,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ведь",
+      "acAsrConf": 165
+    } ]
+  }, {
+    "tStartMs": 135900,
+    "dDurationMs": 4520,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 135910,
+    "dDurationMs": 8220,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "они",
+      "acAsrConf": 125
+    }, {
+      "utf8": " бармена",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " мобиля",
+      "tOffsetMs": 1330,
+      "acAsrConf": 165
+    }, {
+      "utf8": " ваш",
+      "tOffsetMs": 1960,
+      "acAsrConf": 106
+    }, {
+      "utf8": " ожидать",
+      "tOffsetMs": 2680,
+      "acAsrConf": 236
+    }, {
+      "utf8": " до",
+      "tOffsetMs": 3160,
+      "acAsrConf": 143
+    }, {
+      "utf8": " орган",
+      "tOffsetMs": 3970,
+      "acAsrConf": 169
+    } ]
+  }, {
+    "tStartMs": 140410,
+    "dDurationMs": 3720,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 140420,
+    "dDurationMs": 6290,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "на",
+      "acAsrConf": 110
+    }, {
+      "utf8": " маковке",
+      "tOffsetMs": 120,
+      "acAsrConf": 156
+    }, {
+      "utf8": " рекорд",
+      "tOffsetMs": 420,
+      "acAsrConf": 185
+    }, {
+      "utf8": " умен",
+      "tOffsetMs": 1230,
+      "acAsrConf": 125
+    }, {
+      "utf8": " .",
+      "tOffsetMs": 1500,
+      "acAsrConf": 70
+    }, {
+      "utf8": " снайпс",
+      "tOffsetMs": 2010,
+      "acAsrConf": 0
+    }, {
+      "utf8": " орокана",
+      "tOffsetMs": 2520,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 144120,
+    "dDurationMs": 2590,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 144130,
+    "dDurationMs": 6580,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "дух",
+      "acAsrConf": 146
+    }, {
+      "utf8": " предки",
+      "tOffsetMs": 1000,
+      "acAsrConf": 213
+    } ]
+  }, {
+    "tStartMs": 146700,
+    "dDurationMs": 4010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 146710,
+    "dDurationMs": 6210,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "делал",
+      "acAsrConf": 127
+    }, {
+      "utf8": " устал",
+      "tOffsetMs": 1000,
+      "acAsrConf": 160
+    }, {
+      "utf8": " комфортом",
+      "tOffsetMs": 1270,
+      "acAsrConf": 186
+    }, {
+      "utf8": " сумели",
+      "tOffsetMs": 1960,
+      "acAsrConf": 249
+    }, {
+      "utf8": " который",
+      "tOffsetMs": 2320,
+      "acAsrConf": 241
+    }, {
+      "utf8": " в",
+      "tOffsetMs": 3000,
+      "acAsrConf": 235
+    } ]
+  }, {
+    "tStartMs": 150700,
+    "dDurationMs": 2220,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 150710,
+    "dDurationMs": 2210,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "этот",
+      "acAsrConf": 216
+    } ]
+  }, {
+    "tStartMs": 160370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 160380,
+    "dDurationMs": 3469,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[музыка]"
+    } ]
+  }, {
+    "tStartMs": 165780,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 165790,
+    "dDurationMs": 5440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "раз",
+      "acAsrConf": 132
+    }, {
+      "utf8": " без",
+      "tOffsetMs": 1000,
+      "acAsrConf": 213
+    }, {
+      "utf8": " подсака",
+      "tOffsetMs": 1030,
+      "acAsrConf": 144
+    }, {
+      "utf8": " так",
+      "tOffsetMs": 1540,
+      "acAsrConf": 202
+    }, {
+      "utf8": " и",
+      "tOffsetMs": 1900,
+      "acAsrConf": 240
+    }, {
+      "utf8": " он",
+      "tOffsetMs": 1930,
+      "acAsrConf": 237
+    } ]
+  }, {
+    "tStartMs": 169650,
+    "dDurationMs": 1580,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 169660,
+    "dDurationMs": 6569,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "калека",
+      "acAsrConf": 0
+    }, {
+      "utf8": " ноэля",
+      "tOffsetMs": 1120,
+      "acAsrConf": 92
+    } ]
+  }, {
+    "tStartMs": 171220,
+    "dDurationMs": 5009,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 171230,
+    "dDurationMs": 4999,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[музыка]"
+    } ]
+  } ]
+}

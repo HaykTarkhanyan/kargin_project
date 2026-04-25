@@ -1,0 +1,239 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 77610,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 2000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "o",
+      "acAsrConf": 66
+    } ]
+  }, {
+    "tStartMs": 3100,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3110,
+    "dDurationMs": 4070,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "telefonu",
+      "acAsrConf": 109
+    } ]
+  }, {
+    "tStartMs": 4869,
+    "dDurationMs": 2311,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4879,
+    "dDurationMs": 43331,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "aç",
+      "acAsrConf": 39
+    }, {
+      "utf8": " Telefonu",
+      "tOffsetMs": 1000,
+      "acAsrConf": 80
+    }, {
+      "utf8": " aç",
+      "tOffsetMs": 1871,
+      "acAsrConf": 37
+    } ]
+  }, {
+    "tStartMs": 7170,
+    "dDurationMs": 41040,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7180,
+    "dDurationMs": 44170,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 48200,
+    "dDurationMs": 3150,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 48210,
+    "dDurationMs": 3140,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Alkış]"
+    } ]
+  }, {
+    "tStartMs": 55860,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 55870,
+    "dDurationMs": 5970,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 60000,
+    "dDurationMs": 1840,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 60010,
+    "dDurationMs": 5450,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "abone",
+      "acAsrConf": 41
+    }, {
+      "utf8": " ol",
+      "tOffsetMs": 119,
+      "acAsrConf": 53
+    } ]
+  }, {
+    "tStartMs": 61830,
+    "dDurationMs": 3630,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 61840,
+    "dDurationMs": 10310,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "10'ar",
+      "acAsrConf": 103
+    }, {
+      "utf8": " gidersin",
+      "tOffsetMs": 780,
+      "acAsrConf": 124
+    }, {
+      "utf8": " canking",
+      "tOffsetMs": 1320,
+      "acAsrConf": 109
+    } ]
+  }, {
+    "tStartMs": 65450,
+    "dDurationMs": 6700,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 65460,
+    "dDurationMs": 6690,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "yihu",
+      "acAsrConf": 48
+    }, {
+      "utf8": " şamık",
+      "tOffsetMs": 1000,
+      "acAsrConf": 155
+    }, {
+      "utf8": " giyin",
+      "tOffsetMs": 1590,
+      "acAsrConf": 62
+    }, {
+      "utf8": " kafam",
+      "tOffsetMs": 2590,
+      "acAsrConf": 157
+    }, {
+      "utf8": " herkese",
+      "tOffsetMs": 3270,
+      "acAsrConf": 183
+    }, {
+      "utf8": " musun",
+      "tOffsetMs": 4270,
+      "acAsrConf": 182
+    } ]
+  }, {
+    "tStartMs": 72380,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 72390,
+    "dDurationMs": 5220,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Ama",
+      "acAsrConf": 221
+    }, {
+      "utf8": " Zeynep",
+      "tOffsetMs": 1000,
+      "acAsrConf": 122
+    } ]
+  }, {
+    "tStartMs": 74540,
+    "dDurationMs": 3070,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 74550,
+    "dDurationMs": 3060,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "dedi",
+      "acAsrConf": 91
+    }, {
+      "utf8": " ki",
+      "tOffsetMs": 1000,
+      "acAsrConf": 47
+    } ]
+  } ]
+}

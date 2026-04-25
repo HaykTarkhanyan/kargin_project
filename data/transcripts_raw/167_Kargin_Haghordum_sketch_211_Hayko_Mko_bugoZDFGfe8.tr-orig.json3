@@ -1,0 +1,428 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 85470,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 4320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "abone",
+      "acAsrConf": 65
+    }, {
+      "utf8": " ol",
+      "tOffsetMs": 120,
+      "acAsrConf": 83
+    } ]
+  }, {
+    "tStartMs": 2680,
+    "dDurationMs": 1640,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2690,
+    "dDurationMs": 14849,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Bu",
+      "acAsrConf": 37
+    } ]
+  }, {
+    "tStartMs": 4310,
+    "dDurationMs": 13229,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4320,
+    "dDurationMs": 13219,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 20370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 20380,
+    "dDurationMs": 5940,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "otobüs",
+      "acAsrConf": 31
+    }, {
+      "utf8": " sonra",
+      "tOffsetMs": 1000,
+      "acAsrConf": 113
+    }, {
+      "utf8": " oluyor",
+      "tOffsetMs": 1330,
+      "acAsrConf": 112
+    }, {
+      "utf8": " çünkü",
+      "tOffsetMs": 1690,
+      "acAsrConf": 162
+    }, {
+      "utf8": " yani",
+      "tOffsetMs": 1960,
+      "acAsrConf": 104
+    }, {
+      "utf8": " matbaada",
+      "tOffsetMs": 2530,
+      "acAsrConf": 232
+    } ]
+  }, {
+    "tStartMs": 23590,
+    "dDurationMs": 2730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 23600,
+    "dDurationMs": 5150,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "baca",
+      "acAsrConf": 79
+    }, {
+      "utf8": " seti",
+      "tOffsetMs": 660,
+      "acAsrConf": 73
+    }, {
+      "utf8": " karamara",
+      "tOffsetMs": 929,
+      "acAsrConf": 56
+    }, {
+      "utf8": " çarpan",
+      "tOffsetMs": 1530,
+      "acAsrConf": 151
+    }, {
+      "utf8": " Ne",
+      "tOffsetMs": 1980,
+      "acAsrConf": 157
+    }, {
+      "utf8": " yapıyorsun",
+      "tOffsetMs": 2099,
+      "acAsrConf": 126
+    } ]
+  }, {
+    "tStartMs": 26310,
+    "dDurationMs": 2440,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26320,
+    "dDurationMs": 6899,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "tane",
+      "acAsrConf": 181
+    } ]
+  }, {
+    "tStartMs": 28740,
+    "dDurationMs": 4479,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28750,
+    "dDurationMs": 8070,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "türk-arap",
+      "acAsrConf": 121
+    }, {
+      "utf8": " seviyorsun",
+      "tOffsetMs": 1000,
+      "acAsrConf": 183
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1810,
+      "acAsrConf": 127
+    }, {
+      "utf8": " Hollanda",
+      "tOffsetMs": 1869,
+      "acAsrConf": 147
+    }, {
+      "utf8": " kaldı",
+      "tOffsetMs": 2859,
+      "acAsrConf": 210
+    } ]
+  }, {
+    "tStartMs": 33209,
+    "dDurationMs": 3611,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33219,
+    "dDurationMs": 3601,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ama",
+      "acAsrConf": 155
+    }, {
+      "utf8": " How",
+      "tOffsetMs": 1000,
+      "acAsrConf": 238
+    } ]
+  }, {
+    "tStartMs": 45900,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 45910,
+    "dDurationMs": 3480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Things",
+      "acAsrConf": 165
+    }, {
+      "utf8": " Up",
+      "tOffsetMs": 1000,
+      "acAsrConf": 38
+    } ]
+  }, {
+    "tStartMs": 54240,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 54250,
+    "dDurationMs": 3049,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  }, {
+    "tStartMs": 62690,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 62700,
+    "dDurationMs": 4010,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "bu",
+      "acAsrConf": 36
+    }, {
+      "utf8": " gibi",
+      "tOffsetMs": 30,
+      "acAsrConf": 152
+    }, {
+      "utf8": " hamurumuz",
+      "tOffsetMs": 510,
+      "acAsrConf": 86
+    }, {
+      "utf8": " mantarlar",
+      "tOffsetMs": 930,
+      "acAsrConf": 78
+    }, {
+      "utf8": " iki",
+      "tOffsetMs": 1499,
+      "acAsrConf": 159
+    }, {
+      "utf8": " tane",
+      "tOffsetMs": 1679,
+      "acAsrConf": 238
+    } ]
+  }, {
+    "tStartMs": 64610,
+    "dDurationMs": 2100,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 64620,
+    "dDurationMs": 6090,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "doğru",
+      "acAsrConf": 111
+    }, {
+      "utf8": " lan",
+      "tOffsetMs": 210,
+      "acAsrConf": 148
+    }, {
+      "utf8": " ölçülmez",
+      "tOffsetMs": 480,
+      "acAsrConf": 238
+    } ]
+  }, {
+    "tStartMs": 66700,
+    "dDurationMs": 4010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 66710,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "borcu",
+      "acAsrConf": 119
+    }, {
+      "utf8": " var",
+      "tOffsetMs": 1000,
+      "acAsrConf": 100
+    } ]
+  }, {
+    "tStartMs": 71100,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 71110,
+    "dDurationMs": 7410,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "oh",
+      "acAsrConf": 28
+    }, {
+      "utf8": " oh",
+      "tOffsetMs": 30,
+      "acAsrConf": 28
+    }, {
+      "utf8": " çekeriz",
+      "tOffsetMs": 600,
+      "acAsrConf": 28
+    }, {
+      "utf8": " o",
+      "tOffsetMs": 1320,
+      "acAsrConf": 28
+    }, {
+      "utf8": " polis",
+      "tOffsetMs": 1710,
+      "acAsrConf": 116
+    }, {
+      "utf8": " oturuyor",
+      "tOffsetMs": 2280,
+      "acAsrConf": 223
+    }, {
+      "utf8": " etti",
+      "tOffsetMs": 3320,
+      "acAsrConf": 189
+    } ]
+  }, {
+    "tStartMs": 75420,
+    "dDurationMs": 3100,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 75430,
+    "dDurationMs": 6090,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "geçti",
+      "acAsrConf": 107
+    }, {
+      "utf8": " giden",
+      "tOffsetMs": 360,
+      "acAsrConf": 130
+    }, {
+      "utf8": " popona",
+      "tOffsetMs": 780,
+      "acAsrConf": 182
+    }, {
+      "utf8": " polis",
+      "tOffsetMs": 1350,
+      "acAsrConf": 234
+    }, {
+      "utf8": " hamuriş",
+      "tOffsetMs": 1800,
+      "acAsrConf": 70
+    }, {
+      "utf8": " korkusu",
+      "tOffsetMs": 2340,
+      "acAsrConf": 41
+    } ]
+  }, {
+    "tStartMs": 78510,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 78520,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ya",
+      "acAsrConf": 42
+    } ]
+  }, {
+    "tStartMs": 81730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 81740,
+    "dDurationMs": 3730,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Müzik]"
+    } ]
+  } ]
+}

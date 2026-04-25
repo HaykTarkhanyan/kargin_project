@@ -1,0 +1,91 @@
+{
+  "video_id": null,
+  "seq": 138,
+  "title": "",
+  "source_lang": "en",
+  "n_events": 16,
+  "duration_sec": 111.94,
+  "full_text": "[Music]\n[Music]\nand\n[Music]\n[Music]\nR John\nforeign\nforeign\n[Music]\nspeech foreign speech\n[Music]\n[Music]\n[Music]\n[Applause]\n[Music]\n[Applause]",
+  "events": [
+    {
+      "start": 1.45,
+      "end": 16.64,
+      "text": "[Music]"
+    },
+    {
+      "start": 28.39,
+      "end": 31.96,
+      "text": "[Music]"
+    },
+    {
+      "start": 29.72,
+      "end": 31.96,
+      "text": "and"
+    },
+    {
+      "start": 33.86,
+      "end": 37.969,
+      "text": "[Music]"
+    },
+    {
+      "start": 40.22,
+      "end": 56.56,
+      "text": "[Music]"
+    },
+    {
+      "start": 59.44,
+      "end": 64.08,
+      "text": "R John"
+    },
+    {
+      "start": 61.16,
+      "end": 67.08,
+      "text": "foreign"
+    },
+    {
+      "start": 64.08,
+      "end": 67.08,
+      "text": "foreign"
+    },
+    {
+      "start": 74.63,
+      "end": 80.96,
+      "text": "[Music]"
+    },
+    {
+      "start": 76.08,
+      "end": 85.069,
+      "text": "speech foreign speech"
+    },
+    {
+      "start": 80.96,
+      "end": 85.069,
+      "text": "[Music]"
+    },
+    {
+      "start": 91.08,
+      "end": 96.64,
+      "text": "[Music]"
+    },
+    {
+      "start": 101.39,
+      "end": 105.83,
+      "text": "[Music]"
+    },
+    {
+      "start": 103.48,
+      "end": 108.82,
+      "text": "[Applause]"
+    },
+    {
+      "start": 105.83,
+      "end": 111.94,
+      "text": "[Music]"
+    },
+    {
+      "start": 108.82,
+      "end": 111.94,
+      "text": "[Applause]"
+    }
+  ]
+}

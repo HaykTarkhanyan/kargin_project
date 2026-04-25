@@ -1,0 +1,86 @@
+{
+  "video_id": null,
+  "seq": 302,
+  "title": "",
+  "source_lang": "ro",
+  "n_events": 15,
+  "duration_sec": 129.399,
+  "full_text": "[Muzică]\nal\np\ntor jurnal\nkart\np\n[Muzică]\nSP\n[Muzică]\nMar\n[Muzică]\naland\n[Muzică]\nost\ny",
+  "events": [
+    {
+      "start": 5.31,
+      "end": 11.83,
+      "text": "[Muzică]"
+    },
+    {
+      "start": 28.96,
+      "end": 32.16,
+      "text": "al"
+    },
+    {
+      "start": 30.519,
+      "end": 35.0,
+      "text": "p"
+    },
+    {
+      "start": 32.16,
+      "end": 38.0,
+      "text": "tor jurnal"
+    },
+    {
+      "start": 35.0,
+      "end": 38.0,
+      "text": "kart"
+    },
+    {
+      "start": 39.12,
+      "end": 42.12,
+      "text": "p"
+    },
+    {
+      "start": 51.34,
+      "end": 54.479,
+      "text": "[Muzică]"
+    },
+    {
+      "start": 58.92,
+      "end": 66.689,
+      "text": "SP"
+    },
+    {
+      "start": 60.2,
+      "end": 66.689,
+      "text": "[Muzică]"
+    },
+    {
+      "start": 70.28,
+      "end": 75.909,
+      "text": "Mar"
+    },
+    {
+      "start": 72.84,
+      "end": 75.909,
+      "text": "[Muzică]"
+    },
+    {
+      "start": 88.92,
+      "end": 91.92,
+      "text": "aland"
+    },
+    {
+      "start": 116.36,
+      "end": 121.84,
+      "text": "[Muzică]"
+    },
+    {
+      "start": 118.84,
+      "end": 121.84,
+      "text": "ost"
+    },
+    {
+      "start": 126.399,
+      "end": 129.399,
+      "text": "y"
+    }
+  ]
+}

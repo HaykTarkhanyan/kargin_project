@@ -1,0 +1,769 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 127409,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 8160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 4269,
+    "dDurationMs": 3891,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4279,
+    "dDurationMs": 5391,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ora",
+      "acAsrConf": 95
+    }, {
+      "utf8": " option",
+      "tOffsetMs": 1000,
+      "acAsrConf": 117
+    }, {
+      "utf8": " agora",
+      "tOffsetMs": 1750,
+      "acAsrConf": 109
+    }, {
+      "utf8": " dizer",
+      "tOffsetMs": 2560,
+      "acAsrConf": 229
+    }, {
+      "utf8": " se",
+      "tOffsetMs": 2770,
+      "acAsrConf": 124
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 2861,
+      "acAsrConf": 129
+    }, {
+      "utf8": " gente",
+      "tOffsetMs": 3520,
+      "acAsrConf": 167
+    }, {
+      "utf8": " está",
+      "tOffsetMs": 3611,
+      "acAsrConf": 133
+    } ]
+  }, {
+    "tStartMs": 8150,
+    "dDurationMs": 1520,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8160,
+    "dDurationMs": 6439,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "num",
+      "acAsrConf": 203
+    } ]
+  }, {
+    "tStartMs": 9660,
+    "dDurationMs": 4939,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 9670,
+    "dDurationMs": 7100,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 14589,
+    "dDurationMs": 2181,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 14599,
+    "dDurationMs": 5311,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "frango",
+      "acAsrConf": 217
+    }, {
+      "utf8": " é",
+      "tOffsetMs": 1000,
+      "acAsrConf": 199
+    }, {
+      "utf8": " assim",
+      "tOffsetMs": 1181,
+      "acAsrConf": 234
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1450,
+      "acAsrConf": 213
+    }, {
+      "utf8": " fama",
+      "tOffsetMs": 1600,
+      "acAsrConf": 204
+    } ]
+  }, {
+    "tStartMs": 16760,
+    "dDurationMs": 3150,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 16770,
+    "dDurationMs": 3140,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 20349,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 20359,
+    "dDurationMs": 8191,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "me",
+      "acAsrConf": 61
+    }, {
+      "utf8": " cansa",
+      "tOffsetMs": 1000,
+      "acAsrConf": 0
+    }, {
+      "utf8": " disse",
+      "tOffsetMs": 1031,
+      "acAsrConf": 0
+    }, {
+      "utf8": " que",
+      "tOffsetMs": 1451,
+      "acAsrConf": 87
+    }, {
+      "utf8": " essa",
+      "tOffsetMs": 1721,
+      "acAsrConf": 241
+    }, {
+      "utf8": " meia",
+      "tOffsetMs": 1961,
+      "acAsrConf": 206
+    }, {
+      "utf8": " hora",
+      "tOffsetMs": 2170,
+      "acAsrConf": 200
+    }, {
+      "utf8": " o",
+      "tOffsetMs": 2791,
+      "acAsrConf": 106
+    }, {
+      "utf8": " toca",
+      "tOffsetMs": 3791,
+      "acAsrConf": 209
+    } ]
+  }, {
+    "tStartMs": 24620,
+    "dDurationMs": 3930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24630,
+    "dDurationMs": 3920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "novo",
+      "acAsrConf": 226
+    }, {
+      "utf8": " em",
+      "tOffsetMs": 300,
+      "acAsrConf": 243
+    }, {
+      "utf8": " líquido",
+      "tOffsetMs": 380,
+      "acAsrConf": 186
+    }, {
+      "utf8": " recorde",
+      "tOffsetMs": 1380,
+      "acAsrConf": 188
+    }, {
+      "utf8": " de",
+      "tOffsetMs": 1530,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 28630,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28640,
+    "dDurationMs": 4970,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "nota",
+      "acAsrConf": 124
+    } ]
+  }, {
+    "tStartMs": 31450,
+    "dDurationMs": 2160,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31460,
+    "dDurationMs": 9630,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "os",
+      "acAsrConf": 226
+    }, {
+      "utf8": " nomes",
+      "tOffsetMs": 1000,
+      "acAsrConf": 66
+    } ]
+  }, {
+    "tStartMs": 33600,
+    "dDurationMs": 7490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33610,
+    "dDurationMs": 7480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 43430,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 43440,
+    "dDurationMs": 3100,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 50259,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 50269,
+    "dDurationMs": 7241,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "mas",
+      "acAsrConf": 204
+    }, {
+      "utf8": " buzinão",
+      "tOffsetMs": 1000,
+      "acAsrConf": 176
+    }, {
+      "utf8": " quente",
+      "tOffsetMs": 1421,
+      "acAsrConf": 127
+    }, {
+      "utf8": " agora",
+      "tOffsetMs": 1691,
+      "acAsrConf": 123
+    }, {
+      "utf8": " o",
+      "tOffsetMs": 2161,
+      "acAsrConf": 122
+    }, {
+      "utf8": " show",
+      "tOffsetMs": 3161,
+      "acAsrConf": 144
+    }, {
+      "utf8": " de",
+      "tOffsetMs": 3581,
+      "acAsrConf": 200
+    } ]
+  }, {
+    "tStartMs": 54040,
+    "dDurationMs": 3470,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 54050,
+    "dDurationMs": 7649,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "monopólio",
+      "acAsrConf": 202
+    }, {
+      "utf8": " sorte",
+      "tOffsetMs": 1000,
+      "acAsrConf": 72
+    } ]
+  }, {
+    "tStartMs": 57500,
+    "dDurationMs": 4199,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 57510,
+    "dDurationMs": 6079,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 61689,
+    "dDurationMs": 1900,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 61699,
+    "dDurationMs": 4890,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "é",
+      "acAsrConf": 166
+    }, {
+      "utf8": " que",
+      "tOffsetMs": 1000,
+      "acAsrConf": 236
+    }, {
+      "utf8": " nem",
+      "tOffsetMs": 1210,
+      "acAsrConf": 243
+    } ]
+  }, {
+    "tStartMs": 63579,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 63589,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "a",
+      "acAsrConf": 176
+    } ]
+  }, {
+    "tStartMs": 70359,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 70369,
+    "dDurationMs": 3611,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "sua",
+      "acAsrConf": 200
+    } ]
+  }, {
+    "tStartMs": 71889,
+    "dDurationMs": 2091,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 71899,
+    "dDurationMs": 4711,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "mãe",
+      "acAsrConf": 226
+    } ]
+  }, {
+    "tStartMs": 73970,
+    "dDurationMs": 2640,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 73980,
+    "dDurationMs": 5120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 76600,
+    "dDurationMs": 2500,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 76610,
+    "dDurationMs": 5490,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "o",
+      "acAsrConf": 141
+    }, {
+      "utf8": " raio",
+      "tOffsetMs": 1000,
+      "acAsrConf": 218
+    } ]
+  }, {
+    "tStartMs": 79090,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 79100,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "anual",
+      "acAsrConf": 69
+    } ]
+  }, {
+    "tStartMs": 83750,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 83760,
+    "dDurationMs": 3039,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 88300,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 88310,
+    "dDurationMs": 6599,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ae",
+      "acAsrConf": 64
+    }, {
+      "utf8": " mas",
+      "tOffsetMs": 1000,
+      "acAsrConf": 241
+    }, {
+      "utf8": " com",
+      "tOffsetMs": 1180,
+      "acAsrConf": 216
+    }, {
+      "utf8": " um",
+      "tOffsetMs": 1509,
+      "acAsrConf": 238
+    } ]
+  }, {
+    "tStartMs": 91359,
+    "dDurationMs": 3550,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 91369,
+    "dDurationMs": 3540,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "nome",
+      "acAsrConf": 235
+    }, {
+      "utf8": " tânia",
+      "tOffsetMs": 1000,
+      "acAsrConf": 231
+    } ]
+  }, {
+    "tStartMs": 96130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 96140,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "mesmo",
+      "acAsrConf": 135
+    } ]
+  }, {
+    "tStartMs": 100210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 100220,
+    "dDurationMs": 5640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ao",
+      "acAsrConf": 226
+    }, {
+      "utf8": " tcheco",
+      "tOffsetMs": 1000,
+      "acAsrConf": 107
+    } ]
+  }, {
+    "tStartMs": 102780,
+    "dDurationMs": 3080,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 102790,
+    "dDurationMs": 5450,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 105850,
+    "dDurationMs": 2390,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 105860,
+    "dDurationMs": 3630,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "já",
+      "acAsrConf": 160
+    }, {
+      "utf8": " o",
+      "tOffsetMs": 1000,
+      "acAsrConf": 200
+    } ]
+  }, {
+    "tStartMs": 108230,
+    "dDurationMs": 1260,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 108240,
+    "dDurationMs": 5360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Música]"
+    } ]
+  }, {
+    "tStartMs": 109480,
+    "dDurationMs": 4120,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 109490,
+    "dDurationMs": 4110,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "uso",
+      "acAsrConf": 203
+    }, {
+      "utf8": " de",
+      "tOffsetMs": 1000,
+      "acAsrConf": 147
+    }, {
+      "utf8": " cordas",
+      "tOffsetMs": 1570,
+      "acAsrConf": 78
+    } ]
+  }, {
+    "tStartMs": 114850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 114860,
+    "dDurationMs": 4219,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "em",
+      "acAsrConf": 114
+    }, {
+      "utf8": " fá",
+      "tOffsetMs": 1000,
+      "acAsrConf": 118
+    }, {
+      "utf8": " lo",
+      "tOffsetMs": 1149,
+      "acAsrConf": 107
+    } ]
+  }, {
+    "tStartMs": 117190,
+    "dDurationMs": 1889,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 117200,
+    "dDurationMs": 4360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "na",
+      "acAsrConf": 143
+    }, {
+      "utf8": " minha",
+      "tOffsetMs": 570,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 119069,
+    "dDurationMs": 2491,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 119079,
+    "dDurationMs": 8330,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "casa",
+      "acAsrConf": 220
+    }, {
+      "utf8": " tem",
+      "tOffsetMs": 1000,
+      "acAsrConf": 125
+    }, {
+      "utf8": " de",
+      "tOffsetMs": 1210,
+      "acAsrConf": 115
+    }, {
+      "utf8": " bom",
+      "tOffsetMs": 1511,
+      "acAsrConf": 155
+    } ]
+  }, {
+    "tStartMs": 121550,
+    "dDurationMs": 5859,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 121560,
+    "dDurationMs": 5849,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "à",
+      "acAsrConf": 135
+    }, {
+      "utf8": " tona",
+      "tOffsetMs": 1000,
+      "acAsrConf": 143
+    }, {
+      "utf8": " manjang",
+      "tOffsetMs": 1690,
+      "acAsrConf": 143
+    }, {
+      "utf8": " o",
+      "tOffsetMs": 2650,
+      "acAsrConf": 110
+    }, {
+      "utf8": " salto",
+      "tOffsetMs": 2849,
+      "acAsrConf": 106
+    } ]
+  } ]
+}
