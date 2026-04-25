@@ -1,0 +1,14 @@
+[project]
+name = "kargin"
+version = "0.0.1"
+description = "Kargin sketch search and discovery."
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp>=2026.02.21",
+    "pandas>=2.0.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+package = false
