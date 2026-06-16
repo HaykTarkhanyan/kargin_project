@@ -10,6 +10,7 @@ logs/
 # Distribution / packaging
 .Python
 build/
+!tests/build/
 develop-eggs/
 dist/
 downloads/
