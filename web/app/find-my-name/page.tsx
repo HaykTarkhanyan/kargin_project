@@ -18,8 +18,8 @@ function Finder() {
 
   return (
     <main>
-      <section className="border-b-2 border-ink px-7 py-10 text-center">
-        <h1 className="font-display text-5xl">Գտի՛ր <span className="text-kred">քո անունը</span></h1>
+      <section className="border-b-2 border-ink px-4 py-8 text-center sm:px-7 sm:py-10">
+        <h1 className="font-display text-4xl sm:text-5xl">Գտի՛ր <span className="text-kred">քո անունը</span></h1>
         <p className="mx-auto mt-3 max-w-[46ch] text-muted">Որ սքեթչներում է հնչում քո անունը — դերասանի, դերի կամ երկխոսության մեջ։</p>
         <div className="mx-auto mt-5 flex max-w-md k-border k-shadow rounded-lg bg-white">
           <span className="flex items-center pl-4 pr-1 text-lg">🔎</span>
@@ -32,7 +32,7 @@ function Finder() {
         </div>
       </section>
 
-      <div className="mx-auto max-w-5xl px-7 py-6">
+      <div className="mx-auto max-w-5xl px-4 py-6 sm:px-7">
         {name.trim() && (
           <div className="mb-4 font-display text-2xl"><span className="text-kred">«{name}»</span> — {results.length} սքեթչ</div>
         )}

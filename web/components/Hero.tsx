@@ -3,8 +3,8 @@ import { formatViews } from "@/lib/format";
 export default function Hero({ total, withDialogue, totalViews, totalHours, onSearch, query }:
   { total: number; withDialogue: number; totalViews: number; totalHours: number; onSearch: (q: string) => void; query: string }) {
   return (
-    <section className="border-b-2 border-ink px-8 py-14">
-      <h1 className="font-display text-6xl leading-none" style={{ maxWidth: "18ch" }}>
+    <section className="border-b-2 border-ink px-4 py-10 sm:px-8 sm:py-14">
+      <h1 className="font-display text-4xl leading-none sm:text-6xl" style={{ maxWidth: "18ch" }}>
         Գտի՛ր <span className="text-kred">ցանկացած</span> պահը
       </h1>
       <p className="mt-4 max-w-[58ch] text-base opacity-70">
@@ -16,7 +16,7 @@ export default function Hero({ total, withDialogue, totalViews, totalHours, onSe
           placeholder="որոնիր երկխոսություն, դերասան, վայր…"
           className="flex-1 bg-transparent px-2 py-4 text-[17px] outline-none" />
       </div>
-      <div className="mt-5 flex gap-10">
+      <div className="mt-5 flex gap-6 sm:gap-10">
         <Stat n={String(total)} l="սքեթչ" c="text-kred" />
         <Stat n={`${totalHours}ժ`} l="արխիվ" c="text-kblue" />
         <Stat n={formatViews(totalViews)} l="դիտում" c="text-korange" />

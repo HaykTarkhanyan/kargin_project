@@ -51,7 +51,7 @@ export function Scatter({ points }: { points: { name: string; x: number; y: numb
 export function Heatmap({ actors, matrix }: { actors: string[]; matrix: number[][] }) {
   const max = Math.max(...matrix.flat(), 1);
   return (
-    <div role="img" aria-label="դերասանների համատեղ հանդես գալը" className="grid gap-[3px] text-[10px]" style={{ gridTemplateColumns: `auto repeat(${actors.length}, 1fr)` }}>
+    <div role="img" aria-label="դերասանների համատեղ հանդես գալը" className="grid gap-[3px] text-[10px]" style={{ gridTemplateColumns: `auto repeat(${actors.length}, 1fr)`, minWidth: `${actors.length * 36 + 40}px` }}>
       <div />{actors.map((a) => <div key={a} className="text-center font-bold">{a.slice(0, 4)}</div>)}
       {actors.map((row, i) => (
         <Fragment key={row}>
