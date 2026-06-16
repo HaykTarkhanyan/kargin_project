@@ -37,10 +37,10 @@ export function Scatter({ points }: { points: { name: string; x: number; y: numb
   const px = (x: number) => 40 + (x / maxX) * 270, py = (y: number) => 185 - (y / maxY) * 165;
   return (
     <svg viewBox="0 0 340 210" role="img" aria-label="հազվադեպ հյուրերն ունեն ամենաբարձր միջին դիտումը">
-      <line x1="40" y1="185" x2="320" y2="185" stroke="#1A1410" strokeWidth="1.5" /><line x1="40" y1="185" x2="40" y2="15" stroke="#1A1410" strokeWidth="1.5" />
+      <line x1="40" y1="185" x2="320" y2="185" className="stroke-ink" strokeWidth="1.5" /><line x1="40" y1="185" x2="40" y2="15" className="stroke-ink" strokeWidth="1.5" />
       {points.map((p, i) => (
         <g key={p.name}>
-          <circle cx={px(p.x)} cy={py(p.y)} r={4 + Math.sqrt(p.n)} fill={`${FLAG[i % 3]}66`} stroke="#1A1410" />
+          <circle cx={px(p.x)} cy={py(p.y)} r={4 + Math.sqrt(p.n)} fill={`${FLAG[i % 3]}66`} className="stroke-ink" />
           <text x={px(p.x)} y={py(p.y) + (i % 2 ? 17 : -10)} textAnchor="middle" className="fill-ink" style={{ font: "800 10px sans-serif" }}>{p.name}</text>
         </g>
       ))}
@@ -58,7 +58,7 @@ export function Heatmap({ actors, matrix }: { actors: string[]; matrix: number[]
           <div className="flex items-center justify-end pr-1 font-bold">{row.slice(0, 5)}</div>
           {actors.map((_, j) => (
             <div key={i + "-" + j} className="flex aspect-square items-center justify-center rounded border-[1.5px] border-ink font-extrabold"
-              style={{ background: i === j ? "repeating-linear-gradient(45deg,#eee,#eee 3px,#fff 3px,#fff 6px)" : `rgba(242,168,0,${matrix[i][j] / max})` }}>
+              style={{ background: i === j ? "repeating-linear-gradient(45deg,var(--paper2),var(--paper2) 3px,var(--card) 3px,var(--card) 6px)" : `rgba(242,168,0,${matrix[i][j] / max})` }}>
               {i === j ? "" : matrix[i][j] || ""}
             </div>
           ))}
@@ -75,9 +75,9 @@ export function TrendLine({ points }: { points: { label: string; value: number }
   const path = xs.map((x, i) => `${x},${ys[i]}`).join(" ");
   return (
     <svg viewBox="0 0 340 170" role="img" aria-label="ավելի երկար սքեթչներն ավելի շատ դիտում ունեն">
-      <line x1="40" y1="145" x2="320" y2="145" stroke="#1A1410" strokeWidth="1.5" />
+      <line x1="40" y1="145" x2="320" y2="145" className="stroke-ink" strokeWidth="1.5" />
       <polyline points={path} fill="none" stroke="#D90012" strokeWidth="3" />
-      {points.map((p, i) => (<g key={p.label}><circle cx={xs[i]} cy={ys[i]} r="4" fill="#1A1410" /><text x={xs[i]} y="160" textAnchor="middle" className="fill-muted" style={{ font: "600 9px sans-serif" }}>{p.label}</text><text x={xs[i]} y={ys[i] - 7} textAnchor="middle" style={{ font: "800 9px sans-serif" }}>{formatViews(p.value)}</text></g>))}
+      {points.map((p, i) => (<g key={p.label}><circle cx={xs[i]} cy={ys[i]} r="4" className="fill-ink" /><text x={xs[i]} y="160" textAnchor="middle" className="fill-muted" style={{ font: "600 9px sans-serif" }}>{p.label}</text><text x={xs[i]} y={ys[i] - 7} textAnchor="middle" style={{ font: "800 9px sans-serif" }}>{formatViews(p.value)}</text></g>))}
     </svg>
   );
 }

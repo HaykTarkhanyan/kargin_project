@@ -18,3 +18,10 @@ html,body{ background:var(--paper); color:var(--ink); font-family:var(--font-bod
 .k-shadow{ box-shadow:6px 6px 0 var(--ink); }
 .k-shadow-red{ box-shadow:6px 6px 0 var(--red); }
 .k-border{ border:2px solid var(--ink); }
+
+/* Dark "Spotlight" theme — flips the tokens when <html> has .dark (offset shadows become light-on-dark, motif preserved) */
+.dark{
+  --paper:#0B0B0F; --paper2:#18181f; --card:#17171e; --ink:#F2F2F5; --muted:#9a9aa6;
+  --red:#FF4655; --blue:#6ea8fe; --orange:#F2A800;
+}
+.dark .bg-white{ background-color:#1f1f27; }

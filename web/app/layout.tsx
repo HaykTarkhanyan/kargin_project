@@ -12,10 +12,16 @@ export const metadata: Metadata = {
   description: "Որոնիր 702 Կարգին սքեթչ՝ տող առ տող։",
 };
 
+// Apply the saved theme before paint to avoid a flash.
+const THEME_INIT = `try{if(localStorage.getItem('kargin_theme')==='dark')document.documentElement.classList.add('dark')}catch(e){}`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="hy" className={`${anton.variable} ${inter.variable} ${arm.variable}`}>
-      <body><Header />{children}</body>
+    <html lang="hy" suppressHydrationWarning className={`${anton.variable} ${inter.variable} ${arm.variable}`}>
+      <body>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT }} />
+        <Header />{children}
+      </body>
     </html>
   );
 }

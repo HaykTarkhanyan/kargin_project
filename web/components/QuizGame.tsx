@@ -114,8 +114,8 @@ function Runner({ quiz, onDone, onBack }: { quiz: Quiz; onDone: (pct: number) =>
               {qq.options.map((opt, oi) => {
                 const chosen = answers[qi] === oi;
                 const isCorrect = oi === qq.correctIndex;
-                const style = submitted && isCorrect ? { background: "#bbf7d0", borderColor: "#15803d" }
-                  : submitted && chosen && !isCorrect ? { background: "#fecaca", borderColor: "#b91c1c" }
+                const style = submitted && isCorrect ? { background: "#bbf7d0", borderColor: "#15803d", color: "#14532d" }
+                  : submitted && chosen && !isCorrect ? { background: "#fecaca", borderColor: "#b91c1c", color: "#7f1d1d" }
                   : undefined;
                 return (
                   <button key={oi} disabled={submitted} style={style}
