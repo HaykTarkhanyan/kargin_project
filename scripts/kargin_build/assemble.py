@@ -3,9 +3,12 @@ import pandas as pd
 from .parse import extract_video_id, parse_seq, split_lines
 from .canon import canonicalize_actors, canonicalize_location, canonicalize_languages
 
-# Seed from the known cast; refine by inspecting top tokens during the real build (Task 4).
+# Seed from the known cast; refined empirically from top non-allowlist tokens (Task 4).
 ACTOR_ALLOWLIST = {
     "Հայկո", "Մկո", "Հասմիկ", "Լևոն", "Անդո", "Քրիստինե", "Աշոտ", "Արմինե",
+    "Ռաֆո", "Արմեն", "Սմբո", "Մարի", "Հայո", "Սիմոնյան", "Հովո", "Սամվել", "Սամ",
+    "Գեղամ", "Վաղո", "Պետրոսյան", "Վարդան", "Սաքո", "Մամիկոն", "Գագո",
+    "Վաչո", "Ստյոպ", "Գուգո",
 }
 ACTOR_TYPOS = {"Հակյո": "Հայկո", "ՄԿո": "Մկո"}
 
