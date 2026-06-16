@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ALL } from "@/lib/data";
 import { searchSketches, type Filters, type SortKey } from "@/lib/search";
 import { facetCounts } from "@/lib/facets";
@@ -17,6 +17,10 @@ export default function SearchExperience() {
   const totalViews = useMemo(() => ALL.reduce((a, s) => a + (s.viewCount ?? 0), 0), []);
   const totalHours = useMemo(() => Math.round(ALL.reduce((a, s) => a + (s.durationSec ?? 0), 0) / 3600), []);
 
+  const [limit, setLimit] = useState(48);
+  useEffect(() => { setLimit(48); }, [query, filters, sort]);   // reset paging when the query/filters/sort change
+  const visible = results.slice(0, limit);
+
   return (
     <>
       <Hero total={ALL.length} withDialogue={withDialogue} totalViews={totalViews} totalHours={totalHours} onSearch={setQuery} query={query} />
@@ -33,7 +37,17 @@ export default function SearchExperience() {
           </div>
           {results.length === 0
             ? <div className="k-border rounded-lg bg-card p-10 text-center text-muted">Արդյունք չկա։ Փորձիր այլ բառ կամ մաքրիր զտիչները։</div>
-            : <SketchGrid items={results} />}
+            : <>
+                <SketchGrid items={visible} />
+                {results.length > limit && (
+                  <div className="mt-8 flex justify-center">
+                    <button onClick={() => setLimit((l) => l + 48)}
+                      className="k-border k-shadow rounded-lg bg-korange px-6 py-3 font-bold transition hover:-translate-x-[2px] hover:-translate-y-[2px]">
+                      Բեռնել ևս ({results.length - limit})
+                    </button>
+                  </div>
+                )}
+              </>}
         </main>
       </div>
     </>

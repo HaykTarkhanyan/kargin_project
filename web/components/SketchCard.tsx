@@ -6,7 +6,9 @@ export default function SketchCard({ sketch: s, snippet }: { sketch: Sketch; sni
   const quote = snippet ?? s.textCommon ?? "";
   return (
     <Link href={`/sketch/${s.id}`} className="group block overflow-hidden rounded-xl k-border k-shadow transition hover:-translate-x-[3px] hover:-translate-y-[3px] hover:k-shadow-red bg-card">
-      <div className="relative aspect-video border-b-2 border-ink bg-cover bg-center" style={{ backgroundImage: `url(${s.thumbnail})` }}>
+      <div className="relative aspect-video border-b-2 border-ink bg-paper2">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={s.thumbnail} alt={s.title} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
         <span className="absolute left-2 top-2 rounded-full bg-kblue px-2.5 py-1 text-[11px] font-bold text-white">{s.location}</span>
         <span className="absolute bottom-2 right-2 rounded bg-ink px-2 py-0.5 text-[11px] font-bold text-paper">{formatDuration(s.durationSec)}</span>
       </div>
