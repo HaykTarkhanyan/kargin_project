@@ -1,6 +1,6 @@
 import Fuse from "fuse.js";
 import type { Sketch } from "./types";
-import { romanize } from "./translit";
+import { romanize, cyrillize } from "./translit";
 
 export interface Filters {
   location?: string[]; actors?: string[]; language?: string[]; duration?: "<2" | "2-4" | "4+";
@@ -43,12 +43,28 @@ function buildSearchable(s: Sketch): string {
     const v = s[field];
     if (typeof v === "string" && v) {
       parts.push(v);
-      // Append romanized form so Latin queries can match Armenian text.
+      // Append romanized (Latin) and cyrillized (Russian) forms so Latin/Cyrillic
+      // queries match Armenian text without transliterating the query.
       const rom = romanize(v);
       if (rom !== v) parts.push(rom);
+      const cyr = cyrillize(v);
+      if (cyr !== v && cyr !== rom) parts.push(cyr);
     }
   }
   return parts.join(" ");
+}
+
+// Per-sketch combined searchable string (Armenian + Latin + Cyrillic), normalized
+// and memoized so transliteration runs ONCE per sketch — not on every keystroke.
+// Keyed by the sketch OBJECT (WeakMap) so it's safe even if two sketches share an id.
+const _searchableCache = new WeakMap<Sketch, string>();
+function getSearchable(s: Sketch): string {
+  let c = _searchableCache.get(s);
+  if (c === undefined) {
+    c = normalize(buildSearchable(s));
+    _searchableCache.set(s, c);
+  }
+  return c;
 }
 
 // ---------------------------------------------------------------------------
@@ -70,7 +86,7 @@ function getFuse(data: Sketch[]): Fuse<WordDoc> {
 
   const docs: WordDoc[] = [];
   for (const s of data) {
-    const searchable = normalize(buildSearchable(s));
+    const searchable = getSearchable(s);
     const words = searchable.split(/\s+/).filter((w) => w.length >= 2);
     for (const word of words) {
       docs.push({ id: s.id, word });
@@ -103,11 +119,8 @@ export function searchSketches(query: string, data: Sketch[], filters: Filters, 
         const v = s[field];
         if (typeof v === "string" && normalize(v).includes(q)) score += w;
       }
-      // Also match if the query appears in the combined romanized searchable string.
-      if (score === 0) {
-        const searchable = normalize(buildSearchable(s));
-        if (searchable.includes(q)) score += 1;
-      }
+      // Also match if the query appears in the combined Latin/Cyrillic searchable string.
+      if (score === 0 && getSearchable(s).includes(q)) score += 1;
       if (score === 0) continue;
     }
     exactIds.add(s.id);
