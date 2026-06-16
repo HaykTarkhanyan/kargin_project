@@ -6,6 +6,7 @@ from collections import Counter
 from pathlib import Path
 
 from kargin_build.assemble import build_all, ACTOR_ALLOWLIST
+from kargin_build.stats import build_stats
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "web" / "public" / "data" / "sketches.json"
@@ -35,6 +36,11 @@ def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(sketches, ensure_ascii=False, indent=None), encoding="utf-8")
     log.info("wrote %s (%.1f KB)", OUT, OUT.stat().st_size / 1024)
+
+    stats = build_stats(sketches)
+    stats_out = OUT.parent / "stats.json"
+    stats_out.write_text(json.dumps(stats, ensure_ascii=False), encoding="utf-8")
+    log.info("wrote %s (%.1f KB)", stats_out, stats_out.stat().st_size / 1024)
 
 
 if __name__ == "__main__":
