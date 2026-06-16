@@ -210,6 +210,9 @@ __marimo__/
 # Project-local scratch — never committed
 /internal/
 
+# Brainstorming visual-companion scratch — never committed
+.superpowers/
+
 # Downloaded media — large, regeneratable, not for git
 /data/audio/
 /data/video/
