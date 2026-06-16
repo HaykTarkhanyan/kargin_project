@@ -32,6 +32,9 @@ jobs:
         working-directory: web
       - run: npm run build
         working-directory: web
+        env:
+          # Set repo variable LOG_ENDPOINT (Settings → Variables) to your Worker URL to enable usage logging.
+          NEXT_PUBLIC_LOG_ENDPOINT: ${{ vars.LOG_ENDPOINT }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web/out

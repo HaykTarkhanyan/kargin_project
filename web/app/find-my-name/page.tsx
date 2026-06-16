@@ -6,6 +6,7 @@ import { ALL } from "@/lib/data";
 import { STATS } from "@/lib/stats-data";
 import { findByName } from "@/lib/findName";
 import { formatViews } from "@/lib/format";
+import { logEvent } from "@/lib/log";
 
 const CAST = ["Հայկո", "Մկո", "Աշոտ", "Հասմիկ", "Անդո", "Ռաֆո"];
 
@@ -15,6 +16,14 @@ function Finder() {
   useEffect(() => { setName(seed); }, [seed]);
   const chips = useMemo(() => [...CAST, ...STATS.nameSuggestions.map((x) => x.name)], []);
   const results = useMemo(() => (name.trim() ? findByName(name, ALL) : []), [name]);
+
+  useEffect(() => {
+    const t = setTimeout(() => {
+      if (name.trim()) logEvent("findname", { query: name, resultCount: results.length, source: "findname" });
+    }, 1000);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [name]);
 
   return (
     <main>

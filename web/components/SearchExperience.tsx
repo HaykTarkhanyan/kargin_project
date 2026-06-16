@@ -4,6 +4,7 @@ import { useSearchParams } from "next/navigation";
 import { ALL } from "@/lib/data";
 import { searchSketches, type Filters, type SortKey } from "@/lib/search";
 import { facetCounts } from "@/lib/facets";
+import { logEvent } from "@/lib/log";
 import Hero from "./Hero";
 import HeroFilters from "./HeroFilters";
 import SketchCard from "./SketchCard";
@@ -28,6 +29,20 @@ function Experience() {
   const totalHours = useMemo(() => Math.round(ALL.reduce((a, s) => a + (s.durationSec ?? 0), 0) / 3600), []);
   const [limit, setLimit] = useState(48);
   useEffect(() => { setLimit(48); }, [query, filters, sort]);
+
+  // Usage logging (no-op unless the build sets NEXT_PUBLIC_LOG_ENDPOINT).
+  useEffect(() => {
+    const t = setTimeout(() => {
+      if (query.trim()) logEvent("search", { query, mode: "exact", resultCount: results.length, source: "home" });
+    }, 1000);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query]);
+  useEffect(() => {
+    const active = (filters.location?.length ?? 0) + (filters.actors?.length ?? 0) + (filters.language?.length ?? 0) + (filters.duration ? 1 : 0);
+    if (active > 0) logEvent("filter", { filters, resultCount: results.length, source: "home" });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filters]);
 
   return (
     <>

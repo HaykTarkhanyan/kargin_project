@@ -1,0 +1,11 @@
+name = "kargin-logger"
+main = "src/index.ts"
+compatibility_date = "2026-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Lock this to your site's origin (no trailing slash). Use "*" only for local testing.
+ALLOWED_ORIGIN = "https://hayktarkhanyan.github.io"
+
+# DATABASE_URL is a SECRET, not a var — set it with:
+#   npx wrangler secret put DATABASE_URL
