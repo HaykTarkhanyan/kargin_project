@@ -8,7 +8,7 @@ import RelatedList from "./RelatedList";
 
 export default function WatchView({ s }: { s: Sketch }) {
   return (
-    <div className="mx-auto grid max-w-5xl grid-cols-1 gap-0 p-6 md:grid-cols-[1.35fr_1fr]">
+    <div className="mx-auto grid max-w-5xl grid-cols-1 gap-0 p-4 sm:p-6 md:grid-cols-[1.35fr_1fr]">
       <div className="md:border-r-2 md:border-ink md:pr-6">
         <div className="aspect-video overflow-hidden rounded-lg k-border k-shadow">
           <iframe className="h-full w-full" src={`https://www.youtube.com/embed/${s.videoId}`}

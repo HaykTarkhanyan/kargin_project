@@ -31,11 +31,11 @@ function Experience() {
 
   return (
     <>
-      <section className="grid grid-cols-1 gap-6 border-b-2 border-ink px-8 py-12 lg:grid-cols-[1fr_320px]">
+      <section className="grid grid-cols-1 gap-6 border-b-2 border-ink px-4 py-8 sm:px-8 sm:py-12 lg:grid-cols-[1fr_320px]">
         <Hero total={ALL.length} withDialogue={withDialogue} totalViews={totalViews} totalHours={totalHours} onSearch={setQuery} query={query} />
         <HeroFilters facets={facets} filters={filters} setFilters={setFilters} />
       </section>
-      <main className="px-8 py-6">
+      <main className="px-4 py-6 sm:px-8">
         <div className="mb-6 flex items-center justify-between">
           <div className="font-display text-2xl"><span className="text-kred">{results.length}</span> ԱՐԴՅՈՒՆՔ</div>
           <select value={sort} onChange={(e) => setSort(e.target.value as SortKey)} className="k-border rounded-lg bg-white px-3 py-2 text-sm font-bold">
