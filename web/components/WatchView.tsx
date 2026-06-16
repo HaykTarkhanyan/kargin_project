@@ -37,7 +37,7 @@ export default function WatchView({ s }: { s: Sketch }) {
         )}
         <div className="mb-4 flex flex-wrap gap-2">
           {s.actors.map((a) => (
-            <Link key={a} href={`/find-my-name?name=${encodeURIComponent(a)}`} className="rounded-full border-2 border-ink bg-white px-3 py-1 text-xs font-bold hover:bg-ink hover:text-paper">{a}</Link>
+            <Link key={a} href={`/actor/${encodeURIComponent(a)}`} className="rounded-full border-2 border-ink bg-white px-3 py-1 text-xs font-bold hover:bg-ink hover:text-paper">{a}</Link>
           ))}
           {s.location !== "Այլ" && (
             <Link href={`/?location=${encodeURIComponent(s.location)}`} className="rounded-full border-2 border-kblue bg-kblue px-3 py-1 text-xs font-bold text-white">📍 {s.location}</Link>

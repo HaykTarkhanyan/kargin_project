@@ -23,7 +23,7 @@ export default function StatsPage() {
         <Card title="Ո՞վ ում հետ" note="միասին քանի՞ սքեթչում"><div className="overflow-x-auto"><Heatmap actors={s.coOccurrence.actors} matrix={s.coOccurrence.matrix} /></div></Card>
         <Card title="Երկարությունն ու դիտումները" note="միջին դիտում ըստ տևողության"><TrendLine points={s.durationBuckets.map((d) => ({ label: d.bucket, value: d.avgViews }))} /></Card>
         <Card title="Ստորագիր արտահայտություններ" note="ամենահաճախ զույգ բառերը"><BarList rows={s.topPhrases.map((p) => ({ label: p.p, value: p.n }))} color="#0033A0" /></Card>
-        <Card title="Դերասաններ" note="քանի՞ սքեթչում"><BarList rows={s.actorsByCount.map((a) => ({ label: a.name, value: a.n }))} hrefFor={(l) => `/find-my-name?name=${encodeURIComponent(l)}`} /></Card>
+        <Card title="Դերասաններ" note="քանի՞ սքեթչում"><BarList rows={s.actorsByCount.map((a) => ({ label: a.name, value: a.n }))} hrefFor={(l) => `/actor/${encodeURIComponent(l)}`} /></Card>
         <Card title="Վայր" note="«Այլ» = դեռ չդասակարգված"><BarList rows={s.locationByCount.map((l) => ({ label: l.loc, value: l.n }))} color="#0033A0" hrefFor={(l) => l === "Այլ" ? "#" : `/?location=${encodeURIComponent(l)}`} /></Card>
         <Card title="Ամենադիտված 5-ը"><BarList rows={s.topViewed.map((t) => ({ label: t.seq ? `սքեթչ ${t.seq}` : t.title.slice(0, 12), value: t.views }))} fmt={formatViews} /></Card>
         <Card title="Դիտումների բաշխում"><BarList rows={s.viewsHistogram.map((h) => ({ label: h.bucket, value: h.n }))} color="#F2A800" /></Card>
