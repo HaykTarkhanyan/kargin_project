@@ -1,7 +1,8 @@
 import Link from "next/link";
 
 const NAV = [
-  ["/", "Որոնել"], ["/random", "Պատահական"], ["/about", "Մասին"],
+  ["/", "Որոնել"], ["/random", "Պատահական"], ["/stats", "Վիճակագրություն"],
+  ["/find-my-name", "Իմ անունը"], ["/about", "Մասին"],
 ] as const;
 
 export default function Header() {
