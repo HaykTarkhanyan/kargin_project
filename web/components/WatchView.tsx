@@ -1,5 +1,10 @@
+import Link from "next/link";
 import type { Sketch } from "@/lib/types";
 import { formatViews, formatDuration } from "@/lib/format";
+import { related } from "@/lib/related";
+import { ALL } from "@/lib/data";
+import CopyButton from "./CopyButton";
+import RelatedList from "./RelatedList";
 
 export default function WatchView({ s }: { s: Sketch }) {
   return (
@@ -12,6 +17,8 @@ export default function WatchView({ s }: { s: Sketch }) {
         </div>
         <div className="mt-4 flex flex-wrap gap-2.5">
           <a className="k-border rounded-lg bg-korange px-4 py-2.5 text-sm font-bold" href={s.url} target="_blank" rel="noreferrer">▶ Դիտել YouTube-ում</a>
+          <CopyButton label="🔗 Պատճենել հղումը" getHref />
+          {s.textCommon && <CopyButton label="Պատճենել տողը" value={s.textCommon} />}
         </div>
         <dl className="mt-5 grid grid-cols-2 gap-4 border-t-2 border-ink pt-5 text-sm">
           <Meta k="Վայր" v={<span className="rounded-full bg-kblue px-2.5 py-0.5 font-bold text-white">{s.location}</span>} />
@@ -21,18 +28,23 @@ export default function WatchView({ s }: { s: Sketch }) {
           <div className="col-span-2"><Meta k="Դերասաններ" v={s.actors.join(", ") || "—"} /></div>
         </dl>
       </div>
-      <div className="bg-paper2 md:pl-0">
-        <div className="border-b border-ink/20 px-5 py-4"><h3 className="font-display text-base tracking-wide">ԵՐԿԽՈՍՈՒԹՅՈՒՆ</h3></div>
-        <div className="px-5 py-4">
-          {s.lines.length === 0
-            ? <p className="text-sm text-muted">Դեռ չկա ձեռքով համադրված տեքստ։{s.textCommon ? ` «${s.textCommon}»` : ""}</p>
-            : s.lines.map((ln, i) => (
-                <div key={i} className="flex gap-3 border-b border-dashed border-ink/15 py-2.5">
-                  <span className="shrink-0 cursor-not-allowed rounded border border-ink/25 bg-white px-1.5 text-[11px] font-bold text-muted" title="Ժամանակը՝ շուտով">⏱</span>
-                  <span className="text-sm leading-relaxed">{ln}</span>
-                </div>
-              ))}
+      <div className="bg-paper2 px-5 py-5">
+        {s.textCommon && (
+          <div className="mb-3 rounded-md border-2 border-ink border-l-[5px] border-l-korange bg-white px-3 py-2.5">
+            <div className="mb-1 text-[10px] font-extrabold uppercase tracking-wider text-kred">★ Հանրահայտ տողը</div>
+            <div className="text-sm font-semibold leading-snug">«{s.textCommon}»</div>
+          </div>
+        )}
+        <div className="mb-4 flex flex-wrap gap-2">
+          {s.actors.map((a) => (
+            <Link key={a} href={`/find-my-name?name=${encodeURIComponent(a)}`} className="rounded-full border-2 border-ink bg-white px-3 py-1 text-xs font-bold hover:bg-ink hover:text-paper">{a}</Link>
+          ))}
+          {s.location !== "Այլ" && (
+            <Link href={`/?location=${encodeURIComponent(s.location)}`} className="rounded-full border-2 border-kblue bg-kblue px-3 py-1 text-xs font-bold text-white">📍 {s.location}</Link>
+          )}
         </div>
+        <div className="mb-2 border-t-2 border-ink pt-3 font-display text-base tracking-wide">ՆՄԱՆԱՏԻՊ</div>
+        <RelatedList items={related(s, ALL, 6)} />
       </div>
     </div>
   );
