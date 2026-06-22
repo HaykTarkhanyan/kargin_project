@@ -5,9 +5,9 @@ import type { Sketch } from "@/lib/types";
 
 const mk = (p: Partial<Sketch>): Sketch => ({
   id: "x", videoId: "x", seq: null, title: "", url: "", thumbnail: "",
-  text: "", lines: [], textCommon: "", actors: [], actorsRaw: "", rolesNames: "",
+  text: "", textCommon: "", actors: [], actorsRaw: "", rolesNames: "",
   location: "Այլ", languages: [], lighting: "", durationSec: 120, viewCount: 0,
-  uploadDate: "", segments: [], ...p,
+  uploadDate: "", ...p,
 });
 
 describe("normalize", () => {

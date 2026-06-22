@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root{
-  --paper:#FBF3E2; --paper2:#F4E9D0; --card:#FFFDF7; --ink:#1A1410; --muted:#8A7C64;
+  --paper:#FBF3E2; --paper2:#F4E9D0; --card:#FFFDF7; --surface:#FFFFFF; --ink:#1A1410; --muted:#8A7C64;
   --red:#D90012; --blue:#0033A0; --orange:#F2A800;
 }
 @theme inline {
-  --color-paper: var(--paper); --color-paper2: var(--paper2); --color-card: var(--card);
+  --color-paper: var(--paper); --color-paper2: var(--paper2); --color-card: var(--card); --color-surface: var(--surface);
   --color-ink: var(--ink); --color-muted: var(--muted);
   --color-kred: var(--red); --color-kblue: var(--blue); --color-korange: var(--orange);
   --font-display: var(--font-anton), var(--font-arm), sans-serif;
@@ -19,9 +19,9 @@ html,body{ background:var(--paper); color:var(--ink); font-family:var(--font-bod
 .k-shadow-red{ box-shadow:6px 6px 0 var(--red); }
 .k-border{ border:2px solid var(--ink); }
 
-/* Dark "Spotlight" theme — flips the tokens when <html> has .dark (offset shadows become light-on-dark, motif preserved) */
+/* Dark "Spotlight" theme — flips the tokens when <html> has .dark (offset shadows become light-on-dark, motif preserved).
+   Raised surfaces use the semantic `bg-surface` token (light #FFFFFF, dark #1f1f27) so they stand off paper2/card. */
 .dark{
-  --paper:#0B0B0F; --paper2:#18181f; --card:#17171e; --ink:#F2F2F5; --muted:#9a9aa6;
+  --paper:#0B0B0F; --paper2:#18181f; --card:#17171e; --surface:#1f1f27; --ink:#F2F2F5; --muted:#9a9aa6;
   --red:#FF4655; --blue:#6ea8fe; --orange:#F2A800;
 }
-.dark .bg-white{ background-color:#1f1f27; }

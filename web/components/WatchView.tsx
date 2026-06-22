@@ -30,14 +30,14 @@ export default function WatchView({ s }: { s: Sketch }) {
       </div>
       <div className="bg-paper2 px-5 py-5">
         {s.textCommon && (
-          <div className="mb-3 rounded-md border-2 border-ink border-l-[5px] border-l-korange bg-white px-3 py-2.5">
+          <div className="mb-3 rounded-md border-2 border-ink border-l-[5px] border-l-korange bg-surface px-3 py-2.5">
             <div className="mb-1 text-[10px] font-extrabold uppercase tracking-wider text-kred">★ Հանրահայտ տողը</div>
             <div className="text-sm font-semibold leading-snug">«{s.textCommon}»</div>
           </div>
         )}
         <div className="mb-4 flex flex-wrap gap-2">
           {s.actors.map((a) => (
-            <Link key={a} href={`/actor/${encodeURIComponent(a)}`} className="rounded-full border-2 border-ink bg-white px-3 py-1 text-xs font-bold hover:bg-ink hover:text-paper">{a}</Link>
+            <Link key={a} href={`/actor/${encodeURIComponent(a)}`} className="rounded-full border-2 border-ink bg-surface px-3 py-1 text-xs font-bold hover:bg-ink hover:text-paper">{a}</Link>
           ))}
           {s.location !== "Այլ" && (
             <Link href={`/?location=${encodeURIComponent(s.location)}`} className="rounded-full border-2 border-kblue bg-kblue px-3 py-1 text-xs font-bold text-white">📍 {s.location}</Link>

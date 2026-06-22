@@ -111,10 +111,15 @@ def build_stats(sketches):
             part = with_seq[i:i+size]
             seq_bins.append({"label": f"{part[0][0]}-{part[-1][0]}",
                              "avgViews": _avg([p[1] for p in part])})
-    by_len = sorted(sketches, key=lambda s: s["durationSec"] or 0)
+    with_dur = [s for s in sketches if s["durationSec"]]
+    if not with_dur:
+        raise ValueError("no sketches have a durationSec; cannot compute extremes")
+    by_len = sorted(with_dur, key=lambda s: s["durationSec"])
     actors_co, matrix = co_occurrence(sketches)
     # name suggestions: top dialogue-mentioned given names from a candidate pool
-    candidates = ["Անի", "Արմեն", "Վարդան", "Գագ", "Սաքո", "Գագո", "Համո", "Գևորգ", "Սուրեն"]
+    # NB: keep candidates that are not prefixes of an allowlisted actor name (e.g. "Գագ" ⊂ "Գագո")
+    # so declension matching can't double-attribute a mention.
+    candidates = ["Անի", "Արմեն", "Վարդան", "Սաքո", "Գագո", "Համո", "Գևորգ", "Սուրեն"]
     name_sugg = sorted(({"name": c, "n": name_mentions(c, sketches)} for c in candidates),
                        key=lambda x: -x["n"])
     return {

@@ -12,6 +12,13 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "web" / "public" / "data" / "sketches.json"
 
 
+def _atomic_write(path: Path, text: str) -> None:
+    """Write to a temp file then os.replace, so a crash mid-write can't corrupt the output."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    os.replace(tmp, path)
+
+
 def _setup_logging():
     Path(ROOT / "logs").mkdir(exist_ok=True)
     logging.basicConfig(
@@ -34,12 +41,12 @@ def main():
     log.info("top non-allowlist tokens in roles: %s", leftover.most_common(15))
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(sketches, ensure_ascii=False, indent=None), encoding="utf-8")
+    _atomic_write(OUT, json.dumps(sketches, ensure_ascii=False, indent=None))
     log.info("wrote %s (%.1f KB)", OUT, OUT.stat().st_size / 1024)
 
     stats = build_stats(sketches)
     stats_out = OUT.parent / "stats.json"
-    stats_out.write_text(json.dumps(stats, ensure_ascii=False), encoding="utf-8")
+    _atomic_write(stats_out, json.dumps(stats, ensure_ascii=False))
     log.info("wrote %s (%.1f KB)", stats_out, stats_out.stat().st_size / 1024)
 
 

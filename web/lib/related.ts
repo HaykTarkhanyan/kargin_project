@@ -1,8 +1,20 @@
 import type { Sketch } from "./types";
 
+// Actor-frequency table memoized by dataset identity — `related` is called once
+// per sketch page, and rebuilding this over all sketches each time is pure waste.
+let _freqFor: Sketch[] | null = null;
+let _freq: Record<string, number> = {};
+function actorFreq(all: Sketch[]): Record<string, number> {
+  if (_freqFor === all) return _freq;
+  const f: Record<string, number> = {};
+  for (const s of all) for (const a of s.actors) f[a] = (f[a] ?? 0) + 1;
+  _freqFor = all;
+  _freq = f;
+  return f;
+}
+
 export function related(target: Sketch, all: Sketch[], limit = 6): Sketch[] {
-  const freq: Record<string, number> = {};
-  for (const s of all) for (const a of s.actors) freq[a] = (freq[a] ?? 0) + 1;
+  const freq = actorFreq(all);
 
   const scored = all
     .filter((s) => s.id !== target.id)

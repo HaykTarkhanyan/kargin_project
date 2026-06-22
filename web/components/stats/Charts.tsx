@@ -23,7 +23,7 @@ export function BarList({ rows, color = "#D90012", fmt = String, hrefFor }:
         return (
           <div key={r.label} className="my-2 grid grid-cols-[84px_1fr_52px] items-center gap-2">
             <div className="truncate text-right text-xs font-bold">{lbl}</div>
-            <div className="h-[22px] overflow-hidden rounded border-2 border-ink bg-white"><div className="h-full" style={{ width: `${(r.value / max) * 100}%`, background: color }} /></div>
+            <div className="h-[22px] overflow-hidden rounded border-2 border-ink bg-surface"><div className="h-full" style={{ width: `${(r.value / max) * 100}%`, background: color }} /></div>
             <div className="text-right text-xs font-extrabold">{fmt(r.value)}</div>
           </div>
         );
@@ -86,7 +86,7 @@ export function WordField({ words }: { words: { w: string; n: number }[] }) {
   const max = Math.max(...words.map((x) => x.n), 1);
   return (
     <div className="flex flex-wrap items-center gap-1.5" role="img" aria-label="ամենահաճախ բառերը">
-      {words.map((x, i) => (<span key={x.w} className="rounded-md border-2 border-ink bg-white px-2 py-0.5 font-extrabold" style={{ fontSize: 12 + (x.n / max) * 16, color: FLAG[i % 3] }}>{x.w}</span>))}
+      {words.map((x, i) => (<span key={x.w} className="rounded-md border-2 border-ink bg-surface px-2 py-0.5 font-extrabold" style={{ fontSize: 12 + (x.n / max) * 16, color: FLAG[i % 3] }}>{x.w}</span>))}
     </div>
   );
 }

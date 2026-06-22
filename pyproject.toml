@@ -14,6 +14,12 @@ dependencies = [
 [tool.uv]
 package = false
 
+[tool.pytest.ini_options]
+testpaths = ["tests"]   # the build pipeline tests; ignore the frozen old/ Streamlit app
+# Default norecursedirs includes "build", which would skip tests/build/. Override it
+# (keep ignoring old/ and the usual noise) so the pipeline tests are actually collected.
+norecursedirs = ["old", ".*", "node_modules", ".venv", "dist", "*.egg"]
+
 [dependency-groups]
 dev = [
     "pytest>=9.1.0",

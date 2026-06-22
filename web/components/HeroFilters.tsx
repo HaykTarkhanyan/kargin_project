@@ -25,7 +25,7 @@ function Group({ title, entries, sel, on }:
       <summary className="cursor-pointer text-[11px] font-extrabold uppercase tracking-widest">{title}{sel.length ? ` (${sel.length})` : ""}</summary>
       <div className="mt-2 flex flex-wrap gap-1.5">
         {entries.map(([name, count]) => (
-          <button key={name} onClick={() => on(name)} className={`rounded-full border-2 border-ink px-2.5 py-1 text-xs font-semibold ${sel.includes(name) ? "bg-kblue text-white" : "bg-white"}`}>
+          <button key={name} onClick={() => on(name)} className={`rounded-full border-2 border-ink px-2.5 py-1 text-xs font-semibold ${sel.includes(name) ? "bg-kblue text-white" : "bg-surface"}`}>
             {name} <span className="opacity-60">{count}</span>
           </button>
         ))}

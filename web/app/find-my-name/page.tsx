@@ -13,30 +13,34 @@ const CAST = ["Հայկո", "Մկո", "Աշոտ", "Հասմիկ", "Անդո", "�
 function Finder() {
   const seed = useSearchParams().get("name") ?? "";
   const [name, setName] = useState(seed);
+  const [dq, setDq] = useState(seed);
+  // Sync the input to the ?name= URL param on client-side navigation.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { setName(seed); }, [seed]);
+  useEffect(() => {
+    const t = setTimeout(() => setDq(name), 180); // search after typing pauses (matches home search)
+    return () => clearTimeout(t);
+  }, [name]);
   const chips = useMemo(() => [...CAST, ...STATS.nameSuggestions.map((x) => x.name)], []);
-  const results = useMemo(() => (name.trim() ? findByName(name, ALL) : []), [name]);
+  const results = useMemo(() => (dq.trim() ? findByName(dq, ALL) : []), [dq]);
 
   useEffect(() => {
-    const t = setTimeout(() => {
-      if (name.trim()) logEvent("findname", { query: name, resultCount: results.length, source: "findname" });
-    }, 1000);
-    return () => clearTimeout(t);
+    if (dq.trim()) logEvent("findname", { query: dq, resultCount: results.length, source: "findname" });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [name]);
+  }, [dq]);
 
   return (
     <main>
       <section className="border-b-2 border-ink px-4 py-8 text-center sm:px-7 sm:py-10">
         <h1 className="font-display text-4xl sm:text-5xl">Գտի՛ր <span className="text-kred">քո անունը</span></h1>
         <p className="mx-auto mt-3 max-w-[46ch] text-muted">Որ սքեթչներում է հնչում քո անունը — դերասանի, դերի կամ երկխոսության մեջ։</p>
-        <div className="mx-auto mt-5 flex max-w-md k-border k-shadow rounded-lg bg-white">
+        <div className="mx-auto mt-5 flex max-w-md k-border k-shadow rounded-lg bg-surface">
           <span className="flex items-center pl-4 pr-1 text-lg">🔎</span>
           <input value={name} onChange={(e) => setName(e.target.value)} autoFocus className="w-full bg-transparent px-2 py-3.5 text-lg font-bold outline-none" placeholder="անուն…" />
         </div>
         <div className="mx-auto mt-4 flex max-w-xl flex-wrap justify-center gap-2">
           {chips.map((c) => (
-            <button key={c} onClick={() => setName(c)} className={`rounded-full border-2 border-ink px-3 py-1.5 text-sm font-bold ${name === c ? "bg-kred text-white" : "bg-white"}`}>{c}</button>
+            <button key={c} onClick={() => setName(c)} className={`rounded-full border-2 border-ink px-3 py-1.5 text-sm font-bold ${name === c ? "bg-kred text-white" : "bg-surface"}`}>{c}</button>
           ))}
         </div>
       </section>
@@ -49,7 +53,7 @@ function Finder() {
           {results.map(({ sketch: s, kind, snippet }) => (
             <Link key={s.id} href={`/sketch/${s.id}`} className="k-border k-shadow overflow-hidden rounded-xl bg-card hover:opacity-95">
               <div className="relative aspect-video border-b-2 border-ink bg-cover bg-center" style={{ backgroundImage: `url(${s.thumbnail})` }}>
-                <span className={`absolute left-2 top-2 rounded-full border-[1.5px] border-ink px-2.5 py-0.5 text-[10.5px] font-extrabold ${kind === "actor" ? "bg-korange" : "bg-white"}`}>{kind === "actor" ? "🎭 Դերասան" : "💬 Հիշատակվում"}</span>
+                <span className={`absolute left-2 top-2 rounded-full border-[1.5px] border-ink px-2.5 py-0.5 text-[10.5px] font-extrabold ${kind === "actor" ? "bg-korange" : "bg-surface"}`}>{kind === "actor" ? "🎭 Դերասան" : "💬 Հիշատակվում"}</span>
               </div>
               <div className="p-3.5">
                 <div className="mb-1.5 text-sm font-bold">{s.title}</div>

@@ -4,8 +4,8 @@ import { searchSketches } from "@/lib/search";
 import type { Sketch } from "@/lib/types";
 
 const mk = (p: Partial<Sketch>): Sketch => ({ id:"x",videoId:"x",seq:1,title:"",url:"",thumbnail:"",
-  text:"",lines:[],textCommon:"",actors:[],actorsRaw:"",rolesNames:"",location:"Այլ",languages:[],
-  lighting:"",durationSec:120,viewCount:0,uploadDate:"",segments:[],...p });
+  text:"",textCommon:"",actors:[],actorsRaw:"",rolesNames:"",location:"Այլ",languages:[],
+  lighting:"",durationSec:120,viewCount:0,uploadDate:"",...p });
 
 describe("cyrillize", () => {
   it("maps Armenian to Russian-Cyrillic phonetically", () => {

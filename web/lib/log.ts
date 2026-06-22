@@ -26,12 +26,13 @@ function sessionId(): string {
       sessionStorage.setItem("kargin_sid", id);
     }
     return id;
-  } catch {
+  } catch (e) {
+    console.warn("kargin log: sessionId unavailable", e);
     return "anon";
   }
 }
 
-let queue: LogEvent[] = [];
+const queue: LogEvent[] = [];
 let timer: ReturnType<typeof setTimeout> | null = null;
 
 function flush(): void {
@@ -44,8 +45,9 @@ function flush(): void {
     const blob = new Blob([body], { type: "text/plain" });
     if (navigator.sendBeacon && navigator.sendBeacon(ENDPOINT, blob)) return;
     void fetch(ENDPOINT, { method: "POST", body, keepalive: true, headers: { "Content-Type": "text/plain" } });
-  } catch {
-    /* logging must never break the app */
+  } catch (e) {
+    /* logging must never break the app, but the failure must be observable */
+    console.warn("kargin log: flush failed", e);
   }
 }
 

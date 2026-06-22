@@ -18,15 +18,26 @@ def test_row_to_sketch_core_fields():
     assert s["videoId"] == "ofvCL_U2Er0"
     assert s["title"] == "Kargin Haghordum sketch 663 (Hayko Mko)"   # REAL title, not fabricated
     assert s["seq"] == 663
-    assert s["lines"] == ["բարև", "ոնց ես"]
     assert s["actors"] == ["Հայկո", "Մկո"]
     assert s["location"] == "Տուն"
     assert s["durationSec"] == 242
     assert s["viewCount"] == 1358199
     assert s["uploadDate"] == "2013-04-10"
     assert s["thumbnail"].endswith("/ofvCL_U2Er0/mqdefault.jpg")
-    assert s["segments"] == []
+    assert "lines" not in s and "segments" not in s   # derived/empty fields dropped from the payload
 
-def test_row_to_sketch_empty_text_yields_no_lines():
+def test_row_to_sketch_empty_text():
     s = row_to_sketch(_row(text=""), ACTOR_ALLOWLIST, ACTOR_TYPOS)
-    assert s["lines"] == [] and s["text"] == ""
+    assert s["text"] == ""
+
+def test_build_all_rejects_duplicate_video_ids(tmp_path):
+    import pytest
+    from scripts.kargin_build.assemble import build_all
+    k, m = tmp_path / "k.csv", tmp_path / "m.csv"
+    pd.DataFrame({"links": ["https://youtu.be/aaaaaaaaaaa"], "titles": ["t"], "text": [""],
+                  "text_common": [""], "main_actors": [""], "roles_names": [""],
+                  "location": [""], "lighting": [""], "languages": [""]}).to_csv(k, index=False)
+    pd.DataFrame({"video_id": ["aaaaaaaaaaa", "aaaaaaaaaaa"], "duration_sec": [10, 10],
+                  "view_count": [1, 1], "upload_date": ["20200101.0", "20200101.0"]}).to_csv(m, index=False)
+    with pytest.raises(ValueError, match="duplicate"):
+        build_all(k, m)

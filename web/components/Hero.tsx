@@ -10,7 +10,7 @@ export default function Hero({ total, withDialogue, totalViews, totalHours, onSe
       <p className="mt-4 max-w-[58ch] text-base opacity-70">
         {total} սքեթչ՝ տող առ տող։ Որոնիր երկխոսությունը, անցիր ուղիղ YouTube-ի այդ վայրկյանին։
       </p>
-      <div className="mt-7 flex max-w-[720px] k-border k-shadow rounded-lg bg-white">
+      <div className="mt-7 flex max-w-[720px] k-border k-shadow rounded-lg bg-surface">
         <span className="flex items-center pl-5 pr-1 text-xl font-bold text-kred">⌕</span>
         <input value={query} onChange={(e) => onSearch(e.target.value)} autoFocus
           placeholder="որոնիր երկխոսություն, դերասան, վայր…"

@@ -1,9 +1,12 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function ThemeToggle() {
-  const [dark, setDark] = useState(false);
-  useEffect(() => { setDark(document.documentElement.classList.contains("dark")); }, []);
+  // Read the theme that layout.tsx's inline script set pre-paint, so the icon is correct
+  // on the first client render (no post-mount flash). suppressHydrationWarning covers the
+  // expected server(🌙)/client mismatch under static export.
+  const [dark, setDark] = useState(() =>
+    typeof document !== "undefined" && document.documentElement.classList.contains("dark"));
   const toggle = () => {
     const next = !document.documentElement.classList.contains("dark");
     document.documentElement.classList.toggle("dark", next);
@@ -11,7 +14,7 @@ export default function ThemeToggle() {
     setDark(next);
   };
   return (
-    <button onClick={toggle} aria-label="Փոխել թեման" title="Փոխել թեման"
+    <button onClick={toggle} aria-label="Փոխել թեման" title="Փոխել թեման" suppressHydrationWarning
       className="rounded-lg border-2 border-ink px-2 py-1 text-base leading-none hover:bg-ink hover:text-paper">
       {dark ? "☀️" : "🌙"}
     </button>

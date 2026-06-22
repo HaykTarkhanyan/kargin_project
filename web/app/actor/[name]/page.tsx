@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ALL } from "@/lib/data";
 import { getActorNames, getSketchesForActor, getCoStars } from "@/lib/actors";
 import { formatViews } from "@/lib/format";
 import SketchGrid from "@/components/SketchGrid";
@@ -66,7 +65,7 @@ export default async function ActorPage({ params }: { params: Promise<{ name: st
               <Link
                 key={name}
                 href={`/actor/${encodeURIComponent(name)}`}
-                className="rounded-full border-2 border-ink bg-white px-3 py-1 text-sm font-bold hover:bg-ink hover:text-paper"
+                className="rounded-full border-2 border-ink bg-surface px-3 py-1 text-sm font-bold hover:bg-ink hover:text-paper"
               >
                 {name}
                 <span className="ml-1.5 text-xs font-normal text-muted">{count}</span>
@@ -84,7 +83,7 @@ export default async function ActorPage({ params }: { params: Promise<{ name: st
             {signatureLines.map((line, i) => (
               <div
                 key={i}
-                className="rounded-md border-2 border-ink border-l-[5px] border-l-korange bg-white px-3 py-2.5 text-sm font-semibold leading-snug"
+                className="rounded-md border-2 border-ink border-l-[5px] border-l-korange bg-surface px-3 py-2.5 text-sm font-semibold leading-snug"
               >
                 «{line}»
               </div>

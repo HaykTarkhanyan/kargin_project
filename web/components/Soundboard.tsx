@@ -1,10 +1,4 @@
-"use client";
-
-import { useMemo } from "react";
 import Link from "next/link";
-import { ALL } from "@/lib/data";
-import { STATS } from "@/lib/stats-data";
-import { normalize } from "@/lib/search";
 import type { PhraseTile } from "@/lib/soundboard";
 
 // Accent colors cycling through flag palette
@@ -24,29 +18,9 @@ const SIZE_CLASSES = [
   "text-lg  py-5 px-5",
 ];
 
-export default function Soundboard() {
-  const tiles: PhraseTile[] = useMemo(() => {
-    const result: PhraseTile[] = [];
-    for (const { p, n } of STATS.topPhrases) {
-      const normalizedPhrase = normalize(p);
-      let best: { id: string; title: string; views: number } | null = null;
-
-      for (const sketch of ALL) {
-        const haystack = normalize(sketch.text + " " + sketch.textCommon);
-        if (!haystack.includes(normalizedPhrase)) continue;
-        const views = sketch.viewCount ?? 0;
-        if (!best || views > best.views) {
-          best = { id: sketch.id, title: sketch.title, views };
-        }
-      }
-
-      if (best) {
-        result.push({ phrase: p, count: n, sketchId: best.id, sketchTitle: best.title });
-      }
-    }
-    return result;
-  }, []);
-
+// Presentational only — tiles are computed at build time in the server page,
+// so this ships no client JS and never pulls the sketch dataset into the bundle.
+export default function Soundboard({ tiles }: { tiles: PhraseTile[] }) {
   return (
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
       {tiles.map((tile, i) => {

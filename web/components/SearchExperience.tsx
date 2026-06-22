@@ -8,9 +8,6 @@ import { logEvent } from "@/lib/log";
 import Hero from "./Hero";
 import HeroFilters from "./HeroFilters";
 import SketchCard from "./SketchCard";
-import type { Sketch } from "@/lib/types";
-
-function SketchCardWrapped({ s }: { s: Sketch }) { return <SketchCard sketch={s} />; }
 
 function Experience() {
   const params = useSearchParams();
@@ -33,16 +30,18 @@ function Experience() {
   const totalViews = useMemo(() => ALL.reduce((a, s) => a + (s.viewCount ?? 0), 0), []);
   const totalHours = useMemo(() => Math.round(ALL.reduce((a, s) => a + (s.durationSec ?? 0), 0) / 3600), []);
   const [limit, setLimit] = useState(48);
+  // Reset pagination when the result set changes (input-derived UI state).
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { setLimit(48); }, [debouncedQuery, filters, sort]);
 
   // Usage logging (no-op unless the build sets NEXT_PUBLIC_LOG_ENDPOINT).
+  // Keyed on the debounced query so `results` is the value computed for this exact
+  // search; logEvent itself batches, so no extra timer is needed here.
   useEffect(() => {
-    const t = setTimeout(() => {
-      if (query.trim()) logEvent("search", { query, mode: "exact", resultCount: results.length, source: "home" });
-    }, 1000);
-    return () => clearTimeout(t);
+    const q = debouncedQuery.trim();
+    if (q) logEvent("search", { query: q, mode: "exact", resultCount: results.length, source: "home" });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [query]);
+  }, [debouncedQuery]);
   useEffect(() => {
     const active = (filters.location?.length ?? 0) + (filters.actors?.length ?? 0) + (filters.language?.length ?? 0) + (filters.duration ? 1 : 0);
     if (active > 0) logEvent("filter", { filters, resultCount: results.length, source: "home" });
@@ -58,7 +57,7 @@ function Experience() {
       <main className="px-4 py-6 sm:px-8">
         <div className="mb-6 flex items-center justify-between">
           <div className="font-display text-2xl"><span className="text-kred">{results.length}</span> ԱՐԴՅՈՒՆՔ</div>
-          <select value={sort} onChange={(e) => setSort(e.target.value as SortKey)} className="k-border rounded-lg bg-white px-3 py-2 text-sm font-bold">
+          <select value={sort} onChange={(e) => setSort(e.target.value as SortKey)} className="k-border rounded-lg bg-surface px-3 py-2 text-sm font-bold">
             <option value="views">Ըստ դիտումների</option><option value="newest">Ամենանորը</option><option value="random">Պատահական</option>
           </select>
         </div>
@@ -66,7 +65,7 @@ function Experience() {
           ? <div className="k-border rounded-lg bg-card p-10 text-center text-muted">Արդյունք չկա։ Փորձիր այլ բառ կամ մաքրիր զտիչները։</div>
           : <>
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {results.slice(0, limit).map((s) => <SketchCardWrapped key={s.id} s={s} />)}
+                {results.slice(0, limit).map((s) => <SketchCard key={s.id} sketch={s} />)}
               </div>
               {results.length > limit && (
                 <div className="mt-8 flex justify-center">

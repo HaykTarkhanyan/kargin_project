@@ -20,6 +20,8 @@ const LEVELS = [...QUIZZES].sort((a, b) => a.level - b.level);
 export default function QuizGame() {
   const [progress, setProgress] = useState<Progress>({});
   const [active, setActive] = useState<Quiz | null>(null);
+  // localStorage is client-only — read after mount to avoid a hydration mismatch.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { setProgress(loadProgress()); }, []);
 
   const record = (id: string, pct: number) =>
@@ -40,7 +42,7 @@ export default function QuizGame() {
       <h1 className="font-display text-4xl sm:text-5xl">Քուիզ</h1>
       <p className="mt-2 text-muted">Անցի՛ր մակարդակները հերթով — յուրաքանչյուրը բացում է հաջորդը։</p>
 
-      <div className="mt-4 h-3 overflow-hidden rounded-full border-2 border-ink bg-white">
+      <div className="mt-4 h-3 overflow-hidden rounded-full border-2 border-ink bg-surface">
         <div className="h-full bg-korange transition-all" style={{ width: `${(passedCount / LEVELS.length) * 100}%` }} />
       </div>
       <p className="mt-1 text-sm font-bold">{passedCount}/{LEVELS.length} մակարդակ անցած</p>
@@ -120,7 +122,7 @@ function Runner({ quiz, onDone, onBack }: { quiz: Quiz; onDone: (pct: number) =>
                 return (
                   <button key={oi} disabled={submitted} style={style}
                     onClick={() => setAnswers((a) => a.map((x, i) => (i === qi ? oi : x)))}
-                    className={`block w-full rounded-lg border-2 border-ink px-3 py-2 text-left text-sm font-semibold ${!submitted && chosen ? "bg-kblue text-white" : "bg-white"}`}>
+                    className={`block w-full rounded-lg border-2 border-ink px-3 py-2 text-left text-sm font-semibold ${!submitted && chosen ? "bg-kblue text-white" : "bg-surface"}`}>
                     {opt}
                     {submitted && isCorrect ? " ✓" : ""}
                     {submitted && chosen && !isCorrect ? " ✗" : ""}
