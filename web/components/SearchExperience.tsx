@@ -17,18 +17,23 @@ function Experience() {
   const seedLoc = params.get("location");
   const seedActor = params.get("actor");
   const [query, setQuery] = useState("");
+  const [debouncedQuery, setDebouncedQuery] = useState("");
+  useEffect(() => {
+    const t = setTimeout(() => setDebouncedQuery(query), 180); // search after typing pauses
+    return () => clearTimeout(t);
+  }, [query]);
   const [filters, setFilters] = useState<Filters>(() => ({
     ...(seedLoc ? { location: [seedLoc] } : {}),
     ...(seedActor ? { actors: [seedActor] } : {}),
   }));
   const [sort, setSort] = useState<SortKey>("views");
   const facets = useMemo(() => facetCounts(ALL), []);
-  const results = useMemo(() => searchSketches(query, ALL, filters, sort), [query, filters, sort]);
+  const results = useMemo(() => searchSketches(debouncedQuery, ALL, filters, sort), [debouncedQuery, filters, sort]);
   const withDialogue = useMemo(() => ALL.filter((s) => s.text).length, []);
   const totalViews = useMemo(() => ALL.reduce((a, s) => a + (s.viewCount ?? 0), 0), []);
   const totalHours = useMemo(() => Math.round(ALL.reduce((a, s) => a + (s.durationSec ?? 0), 0) / 3600), []);
   const [limit, setLimit] = useState(48);
-  useEffect(() => { setLimit(48); }, [query, filters, sort]);
+  useEffect(() => { setLimit(48); }, [debouncedQuery, filters, sort]);
 
   // Usage logging (no-op unless the build sets NEXT_PUBLIC_LOG_ENDPOINT).
   useEffect(() => {

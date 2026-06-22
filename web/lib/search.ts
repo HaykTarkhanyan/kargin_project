@@ -31,131 +31,107 @@ function passesFilters(s: Sketch, f: Filters): boolean {
   return true;
 }
 
-/**
- * Build a combined searchable string for a sketch that contains both the
- * original Armenian text and its romanized Latin equivalent. This lets a
- * Latin query (e.g. "tormuz") match Armenian dialogue (e.g. "տоռмuз")
- * without the caller needing to romanize the query.
- */
-function buildSearchable(s: Sketch): string {
+// ---------------------------------------------------------------------------
+// Per-sketch normalized index, computed ONCE (memoized by sketch object).
+//   combined = normalized Armenian + romanized + cyrillized text (one .includes target)
+//   fields   = [normalizedFieldValue, weight] for weighting matches
+// This keeps each keystroke to cheap `.includes` on cached strings — no per-key NFC.
+// ---------------------------------------------------------------------------
+interface SketchIndex { combined: string; fields: Array<[string, number]> }
+const _indexCache = new WeakMap<Sketch, SketchIndex>();
+
+function getIndex(s: Sketch): SketchIndex {
+  let idx = _indexCache.get(s);
+  if (idx) return idx;
+  const fields: Array<[string, number]> = [];
   const parts: string[] = [];
-  for (const [field] of FIELDS) {
+  for (const [field, w] of FIELDS) {
     const v = s[field];
     if (typeof v === "string" && v) {
+      fields.push([normalize(v), w]);
       parts.push(v);
-      // Append romanized (Latin) and cyrillized (Russian) forms so Latin/Cyrillic
-      // queries match Armenian text without transliterating the query.
-      const rom = romanize(v);
-      if (rom !== v) parts.push(rom);
-      const cyr = cyrillize(v);
-      if (cyr !== v && cyr !== rom) parts.push(cyr);
+      const rom = romanize(v); if (rom !== v) parts.push(rom);          // Latin queries
+      const cyr = cyrillize(v); if (cyr !== v && cyr !== rom) parts.push(cyr); // Cyrillic queries
     }
   }
-  return parts.join(" ");
-}
-
-// Per-sketch combined searchable string (Armenian + Latin + Cyrillic), normalized
-// and memoized so transliteration runs ONCE per sketch — not on every keystroke.
-// Keyed by the sketch OBJECT (WeakMap) so it's safe even if two sketches share an id.
-const _searchableCache = new WeakMap<Sketch, string>();
-function getSearchable(s: Sketch): string {
-  let c = _searchableCache.get(s);
-  if (c === undefined) {
-    c = normalize(buildSearchable(s));
-    _searchableCache.set(s, c);
-  }
-  return c;
+  idx = { combined: normalize(parts.join(" ")), fields };
+  _indexCache.set(s, idx);
+  return idx;
 }
 
 // ---------------------------------------------------------------------------
-// Fuse.js word-level index
-//
-// We index one document per (sketchId, word) pair so that fuse can match
-// individual words with tight thresholds rather than penalizing short queries
-// against long field strings.
+// Fuzzy index — Fuse over UNIQUE words (a few thousand), not one doc per
+// (sketch, word) (~100k+). A word maps back to the sketches that contain it.
+// Built once per dataset; fuzzy is only consulted when exact results are sparse.
 // ---------------------------------------------------------------------------
-
-interface WordDoc { id: string; word: string }
-
 let _fuseData: Sketch[] | null = null;
-let _fuse: Fuse<WordDoc> | null = null;
+let _fuse: Fuse<{ word: string }> | null = null;
+let _wordToIds: Map<string, Set<string>> = new Map();
+let _byId: Map<string, Sketch> = new Map();
 
-function getFuse(data: Sketch[]): Fuse<WordDoc> {
-  if (_fuse && _fuseData === data) return _fuse;
+function buildFuzzy(data: Sketch[]): void {
+  if (_fuse && _fuseData === data) return;
   _fuseData = data;
-
-  const docs: WordDoc[] = [];
+  _wordToIds = new Map();
+  _byId = new Map();
   for (const s of data) {
-    const searchable = getSearchable(s);
-    const words = searchable.split(/\s+/).filter((w) => w.length >= 2);
-    for (const word of words) {
-      docs.push({ id: s.id, word });
+    _byId.set(s.id, s);
+    for (const word of getIndex(s).combined.split(" ")) {
+      if (word.length < 2) continue;
+      let set = _wordToIds.get(word);
+      if (!set) { set = new Set(); _wordToIds.set(word, set); }
+      set.add(s.id);
     }
   }
-
-  _fuse = new Fuse(docs, {
-    keys: ["word"],
-    threshold: 0.35,     // 0.35 tolerates ~1-char typo in short words
-    includeScore: true,
-    minMatchCharLength: 2,
-    ignoreLocation: true,
+  _fuse = new Fuse([..._wordToIds.keys()].map((word) => ({ word })), {
+    keys: ["word"], threshold: 0.35, includeScore: true, minMatchCharLength: 2, ignoreLocation: true,
   });
-  return _fuse;
 }
+
+const FUZZY_WHEN_FEWER_THAN = 12; // only fuzzy-search if exact found < this
 
 export function searchSketches(query: string, data: Sketch[], filters: Filters, sort: SortKey = "views"): Sketch[] {
   const q = normalize(query);
 
-  // --- Step 1: Exact (substring) matching over all FIELDS + romanized text ---
+  // --- Step 1: exact (substring) match over cached normalized text ---
   const exactIds = new Set<string>();
   const scored: Array<{ s: Sketch; score: number }> = [];
-
   for (const s of data) {
     if (!passesFilters(s, filters)) continue;
+    if (!q) { scored.push({ s, score: 0 }); continue; }
+    const idx = getIndex(s);
+    if (!idx.combined.includes(q)) continue;            // cheap: cached normalized string
     let score = 0;
-    if (q) {
-      // Check each weighted field for direct Armenian match.
-      for (const [field, w] of FIELDS) {
-        const v = s[field];
-        if (typeof v === "string" && normalize(v).includes(q)) score += w;
-      }
-      // Also match if the query appears in the combined Latin/Cyrillic searchable string.
-      if (score === 0 && getSearchable(s).includes(q)) score += 1;
-      if (score === 0) continue;
-    }
+    for (const [val, w] of idx.fields) if (val.includes(q)) score += w;
+    if (score === 0) score = 1;                          // matched only via romanized/cyrillic form
     exactIds.add(s.id);
     scored.push({ s, score });
   }
 
-  // --- Step 2: Fuzzy matching via Fuse.js (only when a query exists) ---
-  if (q) {
-    const byId = new Map(data.map((s) => [s.id, s]));
-    const fuse = getFuse(data);
-    const fuseResults = fuse.search(q);
-
-    // Collect the best score per sketch id from fuzzy word matches.
+  // --- Step 2: fuzzy (typo tolerance) — only when exact is sparse and q is long enough ---
+  if (q && q.length >= 3 && scored.length < FUZZY_WHEN_FEWER_THAN) {
+    buildFuzzy(data);
     const fuzzyBest = new Map<string, number>();
-    for (const res of fuseResults) {
-      const prev = fuzzyBest.get(res.item.id) ?? 1;
+    for (const res of _fuse!.search(q)) {
+      const ids = _wordToIds.get(res.item.word);
+      if (!ids) continue;
       const sc = res.score ?? 1;
-      if (sc < prev) fuzzyBest.set(res.item.id, sc);
+      for (const id of ids) {
+        if (sc < (fuzzyBest.get(id) ?? 1)) fuzzyBest.set(id, sc);
+      }
     }
-
     for (const [id, fuseScore] of fuzzyBest) {
-      const s = byId.get(id);
+      if (exactIds.has(id)) continue;
+      const s = _byId.get(id);
       if (!s || !passesFilters(s, filters)) continue;
-      if (exactIds.has(id)) continue; // already in exact results
-      // Convert fuse score (0=perfect, 1=no match) to our score scale.
-      // Fuzzy results are capped below 1 so exact matches always rank higher.
-      const fuzzyScore = (1 - fuseScore) * 0.5;
-      scored.push({ s, score: fuzzyScore });
+      scored.push({ s, score: (1 - fuseScore) * 0.5 }); // capped < exact so exact ranks first
     }
   }
 
-  // --- Step 3: Sort ---
+  // --- Step 3: sort ---
   if (sort === "random") {
     const arr = scored.map((x) => x.s);
-    for (let i = arr.length - 1; i > 0; i--) {           // Fisher-Yates
+    for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [arr[i], arr[j]] = [arr[j], arr[i]];
     }
@@ -163,7 +139,7 @@ export function searchSketches(query: string, data: Sketch[], filters: Filters, 
   }
   scored.sort((a, b) => {
     if (q && b.score !== a.score) return b.score - a.score;
-    if (sort === "newest") return (b.s.uploadDate).localeCompare(a.s.uploadDate);
+    if (sort === "newest") return b.s.uploadDate.localeCompare(a.s.uploadDate);
     return (b.s.viewCount ?? 0) - (a.s.viewCount ?? 0);
   });
   return scored.map((x) => x.s);
