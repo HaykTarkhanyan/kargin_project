@@ -1,5 +1,5 @@
 import { ALL } from "@/lib/data";
-import { normalize } from "@/lib/search";
+import { normalize } from "@/lib/normalize";
 
 export interface PhraseTile {
   phrase: string;

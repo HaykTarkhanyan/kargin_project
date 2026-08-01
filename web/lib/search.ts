@@ -1,15 +1,16 @@
 import Fuse from "fuse.js";
 import type { Sketch } from "./types";
 import { romanize, cyrillize } from "./translit";
+import { normalize } from "./normalize";
 
 export interface Filters {
   location?: string[]; actors?: string[]; language?: string[]; duration?: "<2" | "2-4" | "4+";
 }
 export type SortKey = "views" | "newest" | "random";
 
-export function normalize(s: string): string {
-  return s.toLowerCase().normalize("NFC").replace(/\s+/g, " ").trim();
-}
+// Re-exported for existing callers; the definition moved to ./normalize so that
+// importing it does not pull Fuse.js in with it.
+export { normalize };
 
 // Field weights: catchphrase + title rank highest, then dialogue, then people/place.
 const FIELDS: Array<[keyof Sketch, number]> = [

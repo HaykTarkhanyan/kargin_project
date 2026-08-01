@@ -1,17 +1,11 @@
 import type { Sketch } from "./types";
-import { normalize } from "./search";
+import { normalize } from "./normalize";
+import { textLines } from "./segments";
 
 export type NameMatch = { sketch: Sketch; kind: "actor" | "mention"; snippet?: string };
 
 const SUFFIXES = new Set(["", "ին", "ի", "ից", "ով", "ում", "ը", "ն", "ներ", "ների", "ներին"]);
 const WORD = /[Ա-և]+/gu;
-// `text` is split into lines on these delimiters — mirrors _LINE_SPLIT in scripts/kargin_build/parse.py.
-// We reconstruct lines here so the snippet stays line-granular without shipping the derived `lines` array.
-const LINE_SPLIT = /[;։]/;
-
-function textLines(text: string): string[] {
-  return text.split(LINE_SPLIT).map((s) => s.trim()).filter(Boolean);
-}
 
 function wordHit(name: string, text: string): boolean {
   const n = normalize(name);
