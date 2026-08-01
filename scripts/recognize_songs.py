@@ -98,9 +98,14 @@ SCHEMA = [
 # Verdicts from the shifted-window check (see recognize_clip):
 #   confirmed     two or more windows named the same track
 #   contradicted  another window named a DIFFERENT track -- likely noise
-#   inconclusive  the other window found nothing; absence is not contradiction,
-#                 the shift may simply have slid past the end of a short sting
-CONFIRMED, CONTRADICTED, INCONCLUSIVE = "confirmed", "contradicted", "inconclusive"
+#   inconclusive  the clip matched, but the shifted window found nothing; absence
+#                 is not contradiction, the shift may have slid past the end of a
+#                 short sting
+#   no_match      nothing was found in the first place -- kept distinct from
+#                 `inconclusive` so "found nothing" is never confused with
+#                 "found something I could not verify"
+CONFIRMED, CONTRADICTED, INCONCLUSIVE, NO_MATCH = (
+    "confirmed", "contradicted", "inconclusive", "no_match")
 
 _PAREN = re.compile(r"\s*[(\[].*$")
 
@@ -201,7 +206,7 @@ async def recognize_clip(shazam, path: Path, start: int, clip_len: float,
         if not track:
             ids.append(None)
             if attempt == 0:
-                return None, 1, 0, INCONCLUSIVE, ""
+                return None, 1, 0, NO_MATCH, ""
             continue
         flat = flatten_track(track)
         ident = identity(flat)
