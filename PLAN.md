@@ -114,6 +114,7 @@ Captured here so they're not lost; not in scope for the current build.
 
 - **Song extraction per video.** Detect and isolate musical segments (intros, outros, in-sketch songs). Tooling options: `pyannote-audio` for music-vs-speech segmentation, Demucs / Spleeter for source separation if isolating vocals from background, or a Gemini-audio prompt classifying segments. Output: a `songs` table with `episode_id`, `start_sec`, `end_sec`, optional `title`/`lyrics`. Useful for a "songs only" filter or a soundtrack page.
   - **Note**: this overlaps with Phase 1A. Music-vs-speech segmentation is preprocessing the STT pipeline already needs (intros are foreign-language songs that mislead Armenian transcription). If we add a `kind` column to segments in Phase 1A, the dedicated "songs" feature becomes a simple `WHERE kind = 'song'` query later — no separate pipeline needed.
+- **Test small open multimodal LLMs for Armenian ASR.** Gemma 4 E2B / E4B can run on mobile and are multimodal — worth checking whether they can transcribe Armenian. Same for the smallest Qwen 3.5 multimodal models. If quality holds up at full precision, test quantized versions next. Angle: free, self-hosted, no vendor lock-in, possibly mobile-deployable. Compare against the Gemini Lite/Pro baselines we already have (`data/transcripts_gemini/comparison.md`).
 - See `NOTES.md` for additional ideas.
 
 ---
