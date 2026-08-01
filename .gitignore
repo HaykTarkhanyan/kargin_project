@@ -222,5 +222,9 @@ __marimo__/
 # Transcoded audio (intermediate) — regeneratable, kept out of git
 /data/transcripts_gemini/_tmp_ogg/
 
+# Acoustic fingerprints — derived from /data/audio/, rebuilt by fingerprint_audio.py
+# (the reviewable *result*, data/duplicates.csv, is committed)
+/data/audio_fingerprints.npz
+
 # Per-user Claude Code overrides
 .claude/settings.local.json
