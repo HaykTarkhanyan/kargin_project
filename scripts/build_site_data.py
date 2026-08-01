@@ -30,12 +30,19 @@ def _setup_logging():
 def main():
     _setup_logging()
     log = logging.getLogger(__name__)
-    sketches = build_all(ROOT / "kargin_eng.csv", ROOT / "data" / "youtube_metadata.csv")
+    sketches = build_all(
+        ROOT / "kargin_eng.csv",
+        ROOT / "data" / "youtube_metadata.csv",
+        songs_csv=ROOT / "data" / "song_matches.csv",
+    )
 
     n = len(sketches)
     with_text = sum(1 for s in sketches if s["text"])
     with_actors = sum(1 for s in sketches if s["actors"])
+    with_songs = sum(1 for s in sketches if s.get("songs"))
+    n_songs = sum(len(s.get("songs", [])) for s in sketches)
     log.info("built %d sketches | %d with dialogue | %d with actors", n, with_text, with_actors)
+    log.info("songs: %d sketches carry %d identified track(s)", with_songs, n_songs)
     # Surface unmapped actor tokens so the allowlist can be tightened (REQUIRED per spec 7.1).
     leftover = Counter(tok for s in sketches for tok in s["rolesNames"].split(", ") if tok and tok not in ACTOR_ALLOWLIST)
     log.info("top non-allowlist tokens in roles: %s", leftover.most_common(15))

@@ -215,6 +215,9 @@ __marimo__/
 # Brainstorming visual-companion scratch — never committed
 .superpowers/
 
+# Playwright MCP scratch (snapshots, console logs) — never committed
+.playwright-mcp/
+
 # Downloaded media — large, regeneratable, not for git
 /data/audio/
 /data/video/

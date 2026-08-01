@@ -5,6 +5,7 @@ import { related } from "@/lib/related";
 import { ALL } from "@/lib/data";
 import CopyButton from "./CopyButton";
 import RelatedList from "./RelatedList";
+import SongList from "./SongList";
 
 export default function WatchView({ s }: { s: Sketch }) {
   return (
@@ -43,6 +44,12 @@ export default function WatchView({ s }: { s: Sketch }) {
             <Link href={`/?location=${encodeURIComponent(s.location)}`} className="rounded-full border-2 border-kblue bg-kblue px-3 py-1 text-xs font-bold text-white">📍 {s.location}</Link>
           )}
         </div>
+        {s.songs && s.songs.length > 0 && (
+          <div className="mb-4">
+            <div className="mb-2 border-t-2 border-ink pt-3 font-display text-base tracking-wide">🎵 ԵՐԱԺՇՏՈՒԹՅՈՒՆ</div>
+            <SongList songs={s.songs} watchUrl={s.url} />
+          </div>
+        )}
         <div className="mb-2 border-t-2 border-ink pt-3 font-display text-base tracking-wide">ՆՄԱՆԱՏԻՊ</div>
         <RelatedList items={related(s, ALL, 6)} />
       </div>

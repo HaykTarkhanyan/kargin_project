@@ -40,6 +40,18 @@ describe("SketchCard", () => {
     expect(screen.queryByText(/համընկնում/)).toBeNull();
   });
 
+  it("badges how many songs were identified, and none when there are none", () => {
+    const withSongs = { ...s, songs: [
+      { artist: "ABBA", title: "Dancing Queen", album: "", label: "Polar", released: "1976", url: "", at: [150] },
+      { artist: "Eruption", title: "One Way Ticket", album: "", label: "", released: "", url: "", at: [0, 30] },
+    ] } as Sketch;
+    render(<SketchCard sketch={withSongs} />);
+    expect(screen.getByText("🎵 2")).toBeTruthy();
+
+    render(<SketchCard sketch={s} />);
+    expect(screen.queryAllByText(/🎵/)).toHaveLength(1); // only the one above
+  });
+
   it("still renders sketches that have no dialogue", () => {
     const { container } = render(<SketchCard sketch={s} query="ուզբեկ" />);
     expect(screen.getByText("sketch 663")).toBeTruthy();

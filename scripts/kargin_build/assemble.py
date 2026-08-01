@@ -2,6 +2,7 @@
 import pandas as pd
 from .parse import extract_video_id, parse_seq
 from .canon import canonicalize_actors, canonicalize_location, canonicalize_languages
+from .songs import load_songs
 
 # Seed from the known cast; refined empirically from top non-allowlist tokens (Task 4).
 ACTOR_ALLOWLIST = {
@@ -22,12 +23,12 @@ def _fmt_date(raw):
     return f"{d[0:4]}-{d[4:6]}-{d[6:8]}" if len(d) == 8 else ""
 
 
-def row_to_sketch(row, allowlist, typos):
+def row_to_sketch(row, allowlist, typos, songs=None):
     vid = extract_video_id(_s(row.get("links")))
     actors, roles_extra = canonicalize_actors(_s(row.get("main_actors")), allowlist, typos)
     roles = _s(row.get("roles_names"))
     text = _s(row.get("text"))
-    return {
+    out = {
         "id": vid,
         "videoId": vid,
         "seq": parse_seq(_s(row.get("titles"))),
@@ -46,12 +47,19 @@ def row_to_sketch(row, allowlist, typos):
         "viewCount": int(row["view_count"]) if not pd.isna(row["view_count"]) else None,
         "uploadDate": _fmt_date(row.get("upload_date")),
     }
+    # Omitted when empty rather than shipped as [] on all 702 rows: song
+    # recognition covers only part of the archive, and an always-empty field is
+    # exactly what the 2026-06-22 payload cleanup removed.
+    found = (songs or {}).get(vid)
+    if found:
+        out["songs"] = found
+    return out
 
 
 _METADATA_COLS = ["video_id", "duration_sec", "view_count", "upload_date"]
 
 
-def build_all(kargin_csv, metadata_csv, allowlist=ACTOR_ALLOWLIST, typos=ACTOR_TYPOS):
+def build_all(kargin_csv, metadata_csv, allowlist=ACTOR_ALLOWLIST, typos=ACTOR_TYPOS, songs_csv=None):
     k = pd.read_csv(kargin_csv)
     m = pd.read_csv(metadata_csv)
     missing = [c for c in _METADATA_COLS if c not in m.columns]
@@ -67,4 +75,5 @@ def build_all(kargin_csv, metadata_csv, allowlist=ACTOR_ALLOWLIST, typos=ACTOR_T
     df = k.merge(m, on="video_id", how="left")
     if len(df) != len(k):
         raise ValueError(f"row count changed in merge: {len(k)} -> {len(df)} (duplicate video_ids?)")
-    return [row_to_sketch(r, allowlist, typos) for _, r in df.iterrows()]
+    songs = load_songs(songs_csv) if songs_csv else {}
+    return [row_to_sketch(r, allowlist, typos, songs) for _, r in df.iterrows()]
