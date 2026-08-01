@@ -214,6 +214,12 @@ async def recognize_clip(shazam, path: Path, start: int, clip_len: float,
         ids.append(ident)
 
     found = [i for i in ids if i]
+    if not found:
+        # Every window came back empty. Reachable when a later window is the only
+        # one that matched and it yields no usable identity; most_common(1)[0]
+        # would IndexError on the empty counter, which crashed a 485-clip run.
+        return None, len(ids), 0, NO_MATCH, ""
+
     winner, agree = Counter(found).most_common(1)[0]
     others = [i for i in ids if i != winner]
 
