@@ -14,9 +14,16 @@ Resume-safe: skips video_ids already present with empty fetch_error. Migrates
 the older yt-dlp-only schema by adding the new columns and tagging existing
 rows with `source = "yt-dlp"`.
 
+Note on copyright: the Data API cannot expose Content ID claims for videos you
+don't own -- those live behind the partner-only Content ID API. The closest
+public proxies are `license`, `licensed_content` and `region_restriction`,
+fetched here. For actual music claims see scripts/fetch_music_credits.py, which
+reads the public "Music / Suggested by" panel off the watch page.
+
 Usage:
     uv run python scripts/fetch_youtube_metadata_api.py
     uv run python scripts/fetch_youtube_metadata_api.py --limit 50
+    uv run python scripts/fetch_youtube_metadata_api.py --refresh   # after a schema change
 """
 
 from __future__ import annotations
@@ -76,6 +83,23 @@ SCHEMA: list[str] = [
     "chapters_count",            # only set by yt-dlp script
     "chapters_json",             # only set by yt-dlp script
     "description",
+    # --- rights / distribution, all from the parts already requested ---
+    "license",                   # status.license: "youtube" | "creativeCommon"
+    "licensed_content",          # contentDetails.licensedContent: claimed by a content partner
+    "region_restriction",        # contentDetails.regionRestriction json; blocked countries
+    "content_rating",            # contentDetails.contentRating json (e.g. ytAgeRestricted)
+    "made_for_kids",             # status.madeForKids
+    "embeddable",                # status.embeddable
+    "public_stats_viewable",     # status.publicStatsViewable
+    "upload_status",             # status.uploadStatus
+    # --- format ---
+    "definition",                # contentDetails.definition: hd | sd
+    "dimension",                 # contentDetails.dimension: 2d | 3d
+    "projection",                # contentDetails.projection: rectangular | 360
+    "live_broadcast_content",    # snippet.liveBroadcastContent
+    "default_audio_language",    # snippet.defaultAudioLanguage, kept separate from
+                                 # yt_declared_language which coalesces the two
+    "favorite_count",            # statistics.favoriteCount
     "source",                    # "api" | "yt-dlp"
     "fetched_at",
     "fetch_error",
@@ -184,6 +208,20 @@ def item_to_row(item: dict, original_url: str) -> dict:
         "chapters_count": "",
         "chapters_json": "",
         "description": (snippet.get("description") or "")[:1000],
+        "license": status.get("license"),
+        "licensed_content": content.get("licensedContent"),
+        "region_restriction": json.dumps(content.get("regionRestriction") or {}, ensure_ascii=False),
+        "content_rating": json.dumps(content.get("contentRating") or {}, ensure_ascii=False),
+        "made_for_kids": status.get("madeForKids"),
+        "embeddable": status.get("embeddable"),
+        "public_stats_viewable": status.get("publicStatsViewable"),
+        "upload_status": status.get("uploadStatus"),
+        "definition": content.get("definition"),
+        "dimension": content.get("dimension"),
+        "projection": content.get("projection"),
+        "live_broadcast_content": snippet.get("liveBroadcastContent"),
+        "default_audio_language": snippet.get("defaultAudioLanguage"),
+        "favorite_count": _to_int(stats.get("favoriteCount")),
         "source": "api",
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "fetch_error": "",
@@ -259,7 +297,7 @@ def flush(rows_by_vid: dict[str, dict], output_csv: Path) -> None:
     logging.info(f"  flushed {len(df_out)} rows -> {output_csv}")
 
 
-def main(input_csv: Path, output_csv: Path, limit: int | None) -> int:
+def main(input_csv: Path, output_csv: Path, limit: int | None, refresh: bool) -> int:
     load_dotenv()
     api_key = os.getenv("YOUTUBE_DATA_API_KEY")
     if not api_key:
@@ -302,7 +340,11 @@ def main(input_csv: Path, output_csv: Path, limit: int | None) -> int:
         if str(r.get("video_id") or "")
     }
 
-    todo = [(vid, url) for vid, url in seen.items() if vid not in succeeded]
+    # --refresh re-fetches rows that already succeeded. Needed whenever SCHEMA
+    # gains a column: resume alone would skip every row and leave it empty.
+    todo = [(vid, url) for vid, url in seen.items() if refresh or vid not in succeeded]
+    if refresh:
+        logging.info("--refresh: re-fetching all videos, ignoring prior success")
     if limit is not None:
         todo = todo[:limit]
 
@@ -378,5 +420,7 @@ if __name__ == "__main__":
     p.add_argument("--input", default="kargin_eng.csv", type=Path)
     p.add_argument("--output", default=Path("data/youtube_metadata.csv"), type=Path)
     p.add_argument("--limit", type=int, default=None, help="for smoke testing")
+    p.add_argument("--refresh", action="store_true",
+                   help="re-fetch rows that already succeeded (needed after adding a column)")
     args = p.parse_args()
-    sys.exit(main(args.input, args.output, args.limit))
+    sys.exit(main(args.input, args.output, args.limit, args.refresh))

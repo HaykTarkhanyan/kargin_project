@@ -25,3 +25,9 @@ norecursedirs = ["old", ".*", "node_modules", ".venv", "dist", "*.egg"]
 dev = [
     "pytest==9.1.0",
 ]
+songs = [
+    # Optional: unofficial reverse-engineered Shazam client, no API key. Kept out
+    # of the core deps because it breaks whenever Shazam changes its private service.
+    # Run with: uv run --group songs python scripts/recognize_songs.py
+    "shazamio==0.8.1",
+]

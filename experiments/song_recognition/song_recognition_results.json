@@ -1,0 +1,782 @@
+{
+  "input": "C:\\Users\\hayk_\\OneDrive\\Desktop\\00_notes\\misc\\kargin_experiment\\Kargin Haghordum sketch 142 (Hayko Mko) [AXFZ8ymj--w].mp3",
+  "created_at_utc": "2026-07-26T00:39:57Z",
+  "clip_duration_seconds": 12.0,
+  "clips": [
+    {
+      "start_seconds": 0.0,
+      "providers": {
+        "shazamio": {
+          "matches": [
+            {
+              "id": "200520687",
+              "offset": 1.505859375,
+              "timeskew": 6.532669e-05,
+              "frequencyskew": -0.00016111135
+            }
+          ],
+          "location": {
+            "accuracy": 0.01
+          },
+          "timestamp": 2614972340,
+          "timezone": "Europe/Moscow",
+          "track": {
+            "layout": "5",
+            "type": "MUSIC",
+            "key": "63013825",
+            "title": "The play (From \"Autumn Marathon\", 1979)",
+            "subtitle": "Andrei Petrov",
+            "images": {
+              "background": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+              "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+              "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+              "joecolor": "b:f9faf3p:1f160cs:362a17t:4a433aq:5d5343"
+            },
+            "display": {
+              "actions": [
+                {
+                  "name": "display:updateshazam",
+                  "type": "webview",
+                  "uri": "https://www.shazam.com/inapp/updatenow/63013825"
+                }
+              ]
+            },
+            "share": {
+              "subject": "The play (From \"Autumn Marathon\", 1979) - Andrei Petrov",
+              "text": "The play (From \"Autumn Marathon\", 1979) by Andrei Petrov",
+              "href": "https://www.shazam.com/track/63013825/the-play-from-autumn-marathon-1979",
+              "image": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+              "twitter": "I used @Shazam to discover The play (From \"Autumn Marathon\", 1979) by Andrei Petrov.",
+              "html": "https://www.shazam.com/snippets/email-share/63013825?lang=en-US&country=GB",
+              "snapchat": "https://www.shazam.com/partner/sc/track/63013825"
+            },
+            "hub": {
+              "type": "APPLEMUSIC",
+              "image": "https://images.shazam.com/static/icons/hub/android/v5/applemusic_{scalefactor}.png",
+              "actions": [
+                {
+                  "name": "apple",
+                  "type": "applemusicplay",
+                  "id": "740772680"
+                },
+                {
+                  "name": "apple",
+                  "type": "uri",
+                  "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/01/18/89/01188974-e9b6-c125-c245-9df044e0c01b/mzaf_2633330443577326797.plus.aac.ep.m4a"
+                }
+              ],
+              "providers": [
+                {
+                  "caption": "Open in Spotify",
+                  "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/android/v5/spotify-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/android/v5/spotify_{scalefactor}.png"
+                  },
+                  "actions": [
+                    {
+                      "name": "hub:spotify:searchdeeplink",
+                      "type": "uri",
+                      "uri": "spotify:search:The%20play%20%28From%20%22Autumn%20Marathon%22%2C%201979%29%20Andrei%20Petrov"
+                    }
+                  ],
+                  "type": "SPOTIFY"
+                },
+                {
+                  "caption": "Open in YouTube Music",
+                  "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/android/v5/youtubemusic_{scalefactor}.png"
+                  },
+                  "actions": [
+                    {
+                      "name": "hub:youtubemusic:androiddeeplink",
+                      "type": "uri",
+                      "uri": "https://music.youtube.com/search?q=The+play+%28From+%22Autumn+Marathon%22%2C+1979%29+Andrei+Petrov&feature=shazam"
+                    }
+                  ],
+                  "type": "YOUTUBEMUSIC"
+                },
+                {
+                  "caption": "Open in Deezer",
+                  "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/android/v5/deezer-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/android/v5/deezer_{scalefactor}.png"
+                  },
+                  "actions": [
+                    {
+                      "name": "hub:deezer:searchdeeplink",
+                      "type": "uri",
+                      "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27The+play+%28From+%22Autumn+Marathon%22%2C+1979%29%27%20artist%3A%27Andrei+Petrov%27%7D"
+                    }
+                  ],
+                  "type": "DEEZER"
+                }
+              ],
+              "explicit": false,
+              "displayname": "APPLE MUSIC",
+              "options": [
+                {
+                  "caption": "OPEN IN",
+                  "actions": [
+                    {
+                      "name": "hub:applemusic:deeplink",
+                      "type": "intent",
+                      "uri": "intent://music.apple.com/gb/album/the-play-from-autumn-marathon-1979/740772499?i=740772680&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_android_am&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_android_am#Intent;scheme=http;package=com.apple.android.music;action=android.intent.action.VIEW;end"
+                    },
+                    {
+                      "name": "hub:applemusic:connect",
+                      "type": "applemusicconnect",
+                      "id": "740772680",
+                      "uri": "https://unsupported.shazam.com"
+                    },
+                    {
+                      "name": "hub:applemusic:androidstore",
+                      "type": "uri",
+                      "uri": "https://play.google.com/store/apps/details?id=com.apple.android.music&referrer=utm_source=https%3A%2F%2Fmusic.apple.com%2Fsubscribe%3Fmttnagencyid%3Ds2n%26mttnsiteid%3D125115%26mttn3pid%3DApple-Shazam%26mttnsub1%3DShazam_android_am%26mttnsub2%3D5348615A-616D-3235-3830-44754D6D5973%26itscg%3D30201%26app%3Dmusic%26itsct%3DShazam_android_am"
+                    }
+                  ],
+                  "beacondata": {
+                    "type": "open",
+                    "providername": "applemusic"
+                  },
+                  "image": "https://images.shazam.com/static/icons/hub/android/v5/overflow-open-option_{scalefactor}.png",
+                  "type": "open",
+                  "listcaption": "Open in Apple Music",
+                  "overflowimage": "https://images.shazam.com/static/icons/hub/android/v5/applemusic-overflow_{scalefactor}.png",
+                  "colouroverflowimage": false,
+                  "providername": "applemusic"
+                }
+              ]
+            },
+            "sections": [
+              {
+                "type": "SONG",
+                "metapages": [
+                  {
+                    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+                    "caption": "The play (From \"Autumn Marathon\", 1979)"
+                  }
+                ],
+                "tabname": "Song",
+                "metadata": [
+                  {
+                    "title": "Album",
+                    "text": "The Best of Andrei Petrov (Russian Film Music VI)"
+                  },
+                  {
+                    "title": "Label",
+                    "text": "Bel Air Music"
+                  },
+                  {
+                    "title": "Released",
+                    "text": "2005"
+                  }
+                ]
+              },
+              {
+                "type": "RELATED",
+                "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-63013825?startFrom=0&pageSize=20&connected=",
+                "tabname": "Related"
+              }
+            ],
+            "url": "https://www.shazam.com/track/63013825/the-play-from-autumn-marathon-1979",
+            "artists": [
+              {
+                "id": "42",
+                "adamid": "129882033"
+              }
+            ],
+            "genres": {
+              "primary": "Soundtrack"
+            },
+            "urlparams": {
+              "{tracktitle}": "The+play+%28From+%22Autumn+Marathon%22%2C+1979%29",
+              "{trackartist}": "Andrei+Petrov"
+            },
+            "highlightsurls": {},
+            "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/android/-/tracks/track-similarities-id-63013825?startFrom=0&pageSize=20&connected=",
+            "albumadamid": "740772499",
+            "isrc": "MCA020725058"
+          },
+          "tagid": "0A54F961-A318-4824-B71E-E6C68BAD2F1E"
+        }
+      }
+    },
+    {
+      "start_seconds": 8.0,
+      "providers": {
+        "shazamio": {
+          "matches": [
+            {
+              "id": "200520687",
+              "offset": 9.510879882,
+              "timeskew": 0.00010716915,
+              "frequencyskew": -0.00016111135
+            }
+          ],
+          "location": {
+            "accuracy": 0.01
+          },
+          "timestamp": 2614975078,
+          "timezone": "Europe/Moscow",
+          "track": {
+            "layout": "5",
+            "type": "MUSIC",
+            "key": "63013825",
+            "title": "The play (From \"Autumn Marathon\", 1979)",
+            "subtitle": "Andrei Petrov",
+            "images": {
+              "background": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+              "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+              "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+              "joecolor": "b:f9faf3p:1f160cs:362a17t:4a433aq:5d5343"
+            },
+            "display": {
+              "actions": [
+                {
+                  "name": "display:updateshazam",
+                  "type": "webview",
+                  "uri": "https://www.shazam.com/inapp/updatenow/63013825"
+                }
+              ]
+            },
+            "share": {
+              "subject": "The play (From \"Autumn Marathon\", 1979) - Andrei Petrov",
+              "text": "The play (From \"Autumn Marathon\", 1979) by Andrei Petrov",
+              "href": "https://www.shazam.com/track/63013825/the-play-from-autumn-marathon-1979",
+              "image": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+              "twitter": "I used @Shazam to discover The play (From \"Autumn Marathon\", 1979) by Andrei Petrov.",
+              "html": "https://www.shazam.com/snippets/email-share/63013825?lang=en-US&country=GB",
+              "snapchat": "https://www.shazam.com/partner/sc/track/63013825"
+            },
+            "hub": {
+              "type": "APPLEMUSIC",
+              "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+              "actions": [
+                {
+                  "name": "apple",
+                  "type": "applemusicplay",
+                  "id": "740772680"
+                },
+                {
+                  "name": "apple",
+                  "type": "uri",
+                  "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/01/18/89/01188974-e9b6-c125-c245-9df044e0c01b/mzaf_2633330443577326797.plus.aac.ep.m4a"
+                }
+              ],
+              "explicit": false,
+              "displayname": "APPLE MUSIC",
+              "options": [
+                {
+                  "caption": "OPEN IN",
+                  "actions": [
+                    {
+                      "name": "hub:applemusic:deeplink",
+                      "type": "applemusicopen",
+                      "uri": "https://music.apple.com/gb/album/the-play-from-autumn-marathon-1979/740772499?i=740772680&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                    },
+                    {
+                      "name": "hub:applemusic:deeplink",
+                      "type": "uri",
+                      "uri": "https://music.apple.com/gb/album/the-play-from-autumn-marathon-1979/740772499?i=740772680&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                    }
+                  ],
+                  "beacondata": {
+                    "type": "open",
+                    "providername": "applemusic"
+                  },
+                  "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                  "type": "open",
+                  "listcaption": "Open in Apple Music",
+                  "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                  "colouroverflowimage": false,
+                  "providername": "applemusic"
+                }
+              ]
+            },
+            "sections": [
+              {
+                "type": "SONG",
+                "metapages": [
+                  {
+                    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/1c/8a/31/1c8a313a-8d12-a1b1-c6b8-28ac82fd5f7d/Andrei_Petrov_iTunes_cover_3A.png/400x400cc.jpg",
+                    "caption": "The play (From \"Autumn Marathon\", 1979)"
+                  }
+                ],
+                "tabname": "Song",
+                "metadata": [
+                  {
+                    "title": "Album",
+                    "text": "The Best of Andrei Petrov (Russian Film Music VI)"
+                  },
+                  {
+                    "title": "Label",
+                    "text": "Bel Air Music"
+                  },
+                  {
+                    "title": "Released",
+                    "text": "2005"
+                  }
+                ]
+              },
+              {
+                "type": "RELATED",
+                "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-63013825?startFrom=0&pageSize=20&connected=",
+                "tabname": "Related"
+              }
+            ],
+            "url": "https://www.shazam.com/track/63013825/the-play-from-autumn-marathon-1979",
+            "artists": [
+              {
+                "alias": "andrei-petrov",
+                "id": "42",
+                "adamid": "129882033"
+              }
+            ],
+            "alias": "the-play-from-autumn-marathon-1979",
+            "genres": {
+              "primary": "Soundtrack"
+            },
+            "urlparams": {
+              "{tracktitle}": "The+play+%28From+%22Autumn+Marathon%22%2C+1979%29",
+              "{trackartist}": "Andrei+Petrov"
+            },
+            "highlightsurls": {},
+            "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/web/-/tracks/track-similarities-id-63013825?startFrom=0&pageSize=20&connected=",
+            "albumadamid": "740772499",
+            "trackadamid": "740772680",
+            "releasedate": "31-03-2005",
+            "isrc": "MCA020725058"
+          },
+          "tagid": "8A959011-2E29-4EA0-BF46-0A87EA056F3E"
+        }
+      }
+    },
+    {
+      "start_seconds": 204.0,
+      "providers": {
+        "shazamio": {
+          "matches": [
+            {
+              "id": "217056112",
+              "offset": 19.993033203,
+              "timeskew": 0.0014947653,
+              "frequencyskew": -8.0525875e-05
+            }
+          ],
+          "location": {
+            "accuracy": 0.01
+          },
+          "timestamp": 2614978987,
+          "timezone": "Europe/Moscow",
+          "track": {
+            "layout": "5",
+            "type": "MUSIC",
+            "key": "40081653",
+            "title": "Opéra",
+            "subtitle": "Emmanuel Santarromana",
+            "images": {
+              "background": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+              "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+              "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+              "joecolor": "b:a6a6a8p:090d04s:191a1at:292b24q:353637"
+            },
+            "display": {
+              "actions": [
+                {
+                  "name": "display:updateshazam",
+                  "type": "webview",
+                  "uri": "https://www.shazam.com/inapp/updatenow/40081653"
+                }
+              ]
+            },
+            "share": {
+              "subject": "Opéra - Emmanuel Santarromana",
+              "text": "Opéra by Emmanuel Santarromana",
+              "href": "https://www.shazam.com/track/40081653/op%C3%A9ra",
+              "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+              "twitter": "I used @Shazam to discover Opéra by Emmanuel Santarromana.",
+              "html": "https://www.shazam.com/snippets/email-share/40081653?lang=en-US&country=GB",
+              "snapchat": "https://www.shazam.com/partner/sc/track/40081653"
+            },
+            "hub": {
+              "type": "APPLEMUSIC",
+              "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+              "actions": [
+                {
+                  "name": "apple",
+                  "type": "applemusicplay",
+                  "id": "81311258"
+                },
+                {
+                  "name": "apple",
+                  "type": "uri",
+                  "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d8/7b/c5/d87bc5ce-78e4-0a13-6fe0-bcdfaa5d7503/mzaf_657124872643940185.plus.aac.ep.m4a"
+                }
+              ],
+              "providers": [
+                {
+                  "caption": "Open in Spotify",
+                  "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                  },
+                  "actions": [
+                    {
+                      "name": "hub:spotify:searchdeeplink",
+                      "type": "uri",
+                      "uri": "spotify:search:Op%C3%A9ra%20Emmanuel%20Santarromana"
+                    }
+                  ],
+                  "type": "SPOTIFY"
+                },
+                {
+                  "caption": "Open in Deezer",
+                  "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                  },
+                  "actions": [
+                    {
+                      "name": "hub:deezer:searchdeeplink",
+                      "type": "uri",
+                      "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Op%C3%A9ra%27%20artist%3A%27Emmanuel+Santarromana%27%7D"
+                    }
+                  ],
+                  "type": "DEEZER"
+                }
+              ],
+              "explicit": false,
+              "displayname": "APPLE MUSIC",
+              "options": [
+                {
+                  "caption": "OPEN IN",
+                  "actions": [
+                    {
+                      "name": "hub:applemusic:deeplink",
+                      "type": "applemusicopen",
+                      "uri": "https://music.apple.com/gb/album/op%C3%A9ra/81311270?i=81311258&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    },
+                    {
+                      "name": "hub:applemusic:deeplink",
+                      "type": "uri",
+                      "uri": "https://music.apple.com/gb/album/op%C3%A9ra/81311270?i=81311258&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    }
+                  ],
+                  "beacondata": {
+                    "type": "open",
+                    "providername": "applemusic"
+                  },
+                  "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                  "type": "open",
+                  "listcaption": "Open in Apple Music",
+                  "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                  "colouroverflowimage": false,
+                  "providername": "applemusic"
+                },
+                {
+                  "caption": "BUY",
+                  "actions": [
+                    {
+                      "type": "uri",
+                      "uri": "https://itunes.apple.com/gb/album/op%C3%A9ra/81311270?i=81311258&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                    }
+                  ],
+                  "beacondata": {
+                    "type": "buy",
+                    "providername": "itunes"
+                  },
+                  "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                  "type": "buy",
+                  "listcaption": "Buy on iTunes",
+                  "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                  "colouroverflowimage": false,
+                  "providername": "itunes"
+                }
+              ]
+            },
+            "sections": [
+              {
+                "type": "SONG",
+                "metapages": [
+                  {
+                    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+                    "caption": "Opéra"
+                  }
+                ],
+                "tabname": "Song",
+                "metadata": [
+                  {
+                    "title": "Album",
+                    "text": "Métropolitain"
+                  },
+                  {
+                    "title": "Label",
+                    "text": "Pschent"
+                  },
+                  {
+                    "title": "Released",
+                    "text": "1999"
+                  }
+                ]
+              },
+              {
+                "type": "RELATED",
+                "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-40081653?startFrom=0&pageSize=20&connected=",
+                "tabname": "Related"
+              }
+            ],
+            "url": "https://www.shazam.com/track/40081653/op%C3%A9ra",
+            "artists": [
+              {
+                "id": "42",
+                "adamid": "81311207"
+              }
+            ],
+            "genres": {
+              "primary": "Electronic"
+            },
+            "urlparams": {
+              "{tracktitle}": "Op%C3%A9ra",
+              "{trackartist}": "Emmanuel+Santarromana"
+            },
+            "myshazam": {
+              "apple": {
+                "actions": [
+                  {
+                    "name": "myshazam:apple",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/op%C3%A9ra/81311270?i=81311258&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ]
+              }
+            },
+            "highlightsurls": {},
+            "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-40081653?startFrom=0&pageSize=20&connected=",
+            "albumadamid": "81311270",
+            "isrc": "FRR640300051"
+          },
+          "tagid": "12ACFDB7-E2E0-4E59-A035-9442FB7991B7"
+        }
+      }
+    },
+    {
+      "start_seconds": 216.0,
+      "providers": {
+        "shazamio": {
+          "matches": [
+            {
+              "id": "217056112",
+              "offset": 32.006375,
+              "timeskew": -0.00022435188,
+              "frequencyskew": 0.0
+            }
+          ],
+          "location": {
+            "accuracy": 0.01
+          },
+          "timestamp": 2614982946,
+          "timezone": "Europe/Moscow",
+          "track": {
+            "layout": "5",
+            "type": "MUSIC",
+            "key": "40081653",
+            "title": "Opéra",
+            "subtitle": "Emmanuel Santarromana",
+            "images": {
+              "background": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+              "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+              "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+              "joecolor": "b:a6a6a8p:090d04s:191a1at:292b24q:353637"
+            },
+            "display": {
+              "actions": [
+                {
+                  "name": "display:updateshazam",
+                  "type": "webview",
+                  "uri": "https://www.shazam.com/inapp/updatenow/40081653"
+                }
+              ]
+            },
+            "share": {
+              "subject": "Opéra - Emmanuel Santarromana",
+              "text": "Opéra by Emmanuel Santarromana",
+              "href": "https://www.shazam.com/track/40081653/op%C3%A9ra",
+              "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+              "twitter": "I used @Shazam to discover Opéra by Emmanuel Santarromana.",
+              "html": "https://www.shazam.com/snippets/email-share/40081653?lang=en-US&country=GB",
+              "snapchat": "https://www.shazam.com/partner/sc/track/40081653"
+            },
+            "hub": {
+              "type": "APPLEMUSIC",
+              "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+              "actions": [
+                {
+                  "name": "apple",
+                  "type": "applemusicplay",
+                  "id": "81311258"
+                },
+                {
+                  "name": "apple",
+                  "type": "uri",
+                  "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d8/7b/c5/d87bc5ce-78e4-0a13-6fe0-bcdfaa5d7503/mzaf_657124872643940185.plus.aac.ep.m4a"
+                }
+              ],
+              "providers": [
+                {
+                  "caption": "Open in Spotify",
+                  "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                  },
+                  "actions": [
+                    {
+                      "name": "hub:spotify:searchdeeplink",
+                      "type": "uri",
+                      "uri": "spotify:search:Op%C3%A9ra%20Emmanuel%20Santarromana"
+                    }
+                  ],
+                  "type": "SPOTIFY"
+                },
+                {
+                  "caption": "Open in Deezer",
+                  "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                  },
+                  "actions": [
+                    {
+                      "name": "hub:deezer:searchdeeplink",
+                      "type": "uri",
+                      "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Op%C3%A9ra%27%20artist%3A%27Emmanuel+Santarromana%27%7D"
+                    }
+                  ],
+                  "type": "DEEZER"
+                }
+              ],
+              "explicit": false,
+              "displayname": "APPLE MUSIC",
+              "options": [
+                {
+                  "caption": "OPEN IN",
+                  "actions": [
+                    {
+                      "name": "hub:applemusic:deeplink",
+                      "type": "applemusicopen",
+                      "uri": "https://music.apple.com/gb/album/op%C3%A9ra/81311270?i=81311258&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    },
+                    {
+                      "name": "hub:applemusic:deeplink",
+                      "type": "uri",
+                      "uri": "https://music.apple.com/gb/album/op%C3%A9ra/81311270?i=81311258&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                    }
+                  ],
+                  "beacondata": {
+                    "type": "open",
+                    "providername": "applemusic"
+                  },
+                  "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                  "type": "open",
+                  "listcaption": "Open in Apple Music",
+                  "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                  "colouroverflowimage": false,
+                  "providername": "applemusic"
+                },
+                {
+                  "caption": "BUY",
+                  "actions": [
+                    {
+                      "type": "uri",
+                      "uri": "https://itunes.apple.com/gb/album/op%C3%A9ra/81311270?i=81311258&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                    }
+                  ],
+                  "beacondata": {
+                    "type": "buy",
+                    "providername": "itunes"
+                  },
+                  "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                  "type": "buy",
+                  "listcaption": "Buy on iTunes",
+                  "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                  "colouroverflowimage": false,
+                  "providername": "itunes"
+                }
+              ]
+            },
+            "sections": [
+              {
+                "type": "SONG",
+                "metapages": [
+                  {
+                    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/90/9a/96909aaa-b5e6-602e-5d29-2d2b659d6fb3/3596971865320.png/400x400cc.jpg",
+                    "caption": "Opéra"
+                  }
+                ],
+                "tabname": "Song",
+                "metadata": [
+                  {
+                    "title": "Album",
+                    "text": "Métropolitain"
+                  },
+                  {
+                    "title": "Label",
+                    "text": "Pschent"
+                  },
+                  {
+                    "title": "Released",
+                    "text": "1999"
+                  }
+                ]
+              },
+              {
+                "type": "RELATED",
+                "url": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-40081653?startFrom=0&pageSize=20&connected=",
+                "tabname": "Related"
+              }
+            ],
+            "url": "https://www.shazam.com/track/40081653/op%C3%A9ra",
+            "artists": [
+              {
+                "id": "42",
+                "adamid": "81311207"
+              }
+            ],
+            "genres": {
+              "primary": "Electronic"
+            },
+            "urlparams": {
+              "{tracktitle}": "Op%C3%A9ra",
+              "{trackartist}": "Emmanuel+Santarromana"
+            },
+            "myshazam": {
+              "apple": {
+                "actions": [
+                  {
+                    "name": "myshazam:apple",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/gb/album/op%C3%A9ra/81311270?i=81311258&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                  }
+                ]
+              }
+            },
+            "highlightsurls": {},
+            "relatedtracksurl": "https://cdn.shazam.com/shazam/v3/en-US/GB/iphone/-/tracks/track-similarities-id-40081653?startFrom=0&pageSize=20&connected=",
+            "albumadamid": "81311270",
+            "isrc": "FRR640300051"
+          },
+          "tagid": "8B90862B-2BFA-4416-B062-8120112A6CC1"
+        }
+      }
+    },
+    {
+      "start_seconds": 223.0,
+      "providers": {
+        "shazamio": {
+          "matches": [],
+          "tagid": "E28D98C7-5ADC-4B9A-8918-B106F03379CF",
+          "retryms": 12000
+        }
+      }
+    }
+  ]
+}
