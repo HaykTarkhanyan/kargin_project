@@ -5,7 +5,8 @@ import ThemeToggle from "./ThemeToggle";
 
 const NAV = [
   ["/", "Որոնել"], ["/random", "Պատահական"], ["/stats", "Վիճակագրություն"],
-  ["/find-my-name", "Իմ անունը"], ["/soundboard", "Ֆրազներ"], ["/quizzes", "Քուիզ"], ["/about", "Մասին"],
+  ["/find-my-name", "Իմ անունը"], ["/songs", "Երաժշտություն"], ["/soundboard", "Ֆրազներ"],
+  ["/quizzes", "Քուիզ"], ["/changelog", "Նորություններ"], ["/about", "Մասին"],
 ] as const;
 
 export default function Header() {
@@ -17,14 +18,16 @@ export default function Header() {
           ԿԱՐԳԻՆ<span className="rounded bg-kred px-2 py-0.5 text-[9px] font-extrabold tracking-[0.26em] text-white">ARCHIVE</span>
         </Link>
         <div className="flex items-center gap-3">
-          <nav className="hidden gap-4 text-sm font-semibold lg:flex">
+          {/* xl, not lg: nine Armenian labels overflow a 1024px bar and the last
+              one gets clipped. Below xl the hamburger takes over. */}
+          <nav className="hidden gap-3.5 text-sm font-semibold xl:flex">
             {NAV.map(([href, label]) => (
-              <Link key={href} href={href} className="opacity-70 hover:opacity-100">{label}</Link>
+              <Link key={href} href={href} className="whitespace-nowrap opacity-70 hover:opacity-100">{label}</Link>
             ))}
           </nav>
           <ThemeToggle />
           <button
-            className="flex flex-col gap-1.5 p-2 lg:hidden"
+            className="flex flex-col gap-1.5 p-2 xl:hidden"
             onClick={() => setOpen((o) => !o)}
             aria-label="Ցանկ"
             aria-expanded={open}
@@ -36,7 +39,7 @@ export default function Header() {
         </div>
       </div>
       {open && (
-        <nav className="border-t-2 border-ink bg-paper lg:hidden">
+        <nav className="border-t-2 border-ink bg-paper xl:hidden">
           {NAV.map(([href, label]) => (
             <Link
               key={href}

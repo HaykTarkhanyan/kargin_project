@@ -1,0 +1,157 @@
+title = "Audio-fingerprint duplicates, copyright/music mining, songs + full dialogue on the site"
+date = "2026-08-01"
+time = "15:20"
+areas = ["scripts/", "scripts/kargin_build/", "tests/", "data/", "web/", "experiments/"]
+
+done = """
+GIT
+- Merged feat/website-v2 into main (fast-forward), switched to main, pulled.
+
+DUPLICATES (audio fingerprinting)
+- Verified audio coverage: 702/702, one file per video, no orphans, no truncated
+  downloads, NNN_ prefixes aligned to metadata row order. New scripts/audit_audio.py
+  fails loudly on any gap.
+- Metadata cannot find duplicates here: every title is the same template so string
+  similarity scores ~0.95 on boilerplate, the 8 same-title groups are DIFFERENT
+  sketches, and duration collides in 162 groups by chance. Text confirmed 1 duplicate;
+  audio found 23.
+- Pipeline: fingerprint_audio.py (Haitsma-style 31-bit/frame over the first 60s, 702
+  files in ~6 min) -> detect_duplicates.py (BER screen over 246k pairs, fine frame
+  offset search, then SAMPLE-RESOLUTION cross-correlation as the verdict) ->
+  annotate_kargin_csv.py.
+- Cross-correlation was necessary: BER is frame-quantized, so a sub-frame misalignment
+  scored 0.21-0.33 on identical audio while true compilations scored 0.045. Correlation
+  separates 0.86-0.99 from 0.010-0.015.
+- Duration then splits the relation: near-equal length = duplicate, very different =
+  a compilation containing the sketch. Result: 23 duplicates, 4 contains, 4 partial,
+  1 rejected -> data/duplicates.csv.
+- kargin_eng.csv gained id (zero-padded, matches the audio filename prefix), video_id
+  and duplicate_of. All 11 original columns verified byte-identical.
+
+COPYRIGHT / MUSIC
+- fetch_youtube_metadata_api.py maps 14 more fields from parts it already requested,
+  plus --refresh. 27 -> 41 columns. licensed_content 442 True / 260 False, 35
+  region-blocked (30 RU, 4 BY+RU, 1 US/PR/AS/UM).
+- New fetch_music_credits.py scrapes the public "Music in this video" panel out of
+  ytInitialData (no API exposes it). 702/702, 0 failures, 17 videos with a claim
+  (8 UMG, 6 SME, 2 Just Entertainment, 1 Merlin/IDOL).
+- New recognize_songs.py Shazams our own audio. Agreed with YouTube's panel on 3 of 4
+  named tracks, and found music YouTube never surfaced -- including the one US-blocked
+  video: Ricchi & Poveri on RCA (a Sony label), which explains a block YouTube would
+  not disclose.
+- Structural finding: all 17 music panels AND all 35 region blocks land on
+  licensed_content=False, 52/52, never on True (base rate 63% True). So the 442 True
+  videos are structurally clean and music work only needs the 260 False ones.
+- Imported the shazamio experiment from ~/Desktop/00_notes to experiments/song_recognition/,
+  unmodified, with its broken recognize_acrcloud documented rather than silently patched.
+
+WEB
+- Cards now show the FULL dialogue, split on the same separators the Python build uses,
+  in a capped scrolling box. When searching, matching lines are highlighted and floated
+  to the top with an "N matches" count.
+- Sketch pages show identified songs: title, artist, label/year, and timestamp chips
+  deep-linking to youtu.be/<id>?t=<sec>. Cards carry a music-count badge.
+- New /changelog page (hand-written, Armenian, live figures resolved at build time).
+- New /songs EDA page: top artists, top tracks, decade distribution, songs per sketch,
+  WHERE in the sketch music sits (as a fraction of duration), labels, and the full list.
+- Extracted lib/normalize.ts: normalize lived in search.ts which imports Fuse.js, so
+  findName and soundboard (the latter feeding a server component) were dragging the
+  whole fuzzy-search library in for a 3-line function.
+"""
+
+pending = """
+- Song recognition is at 1434/1802 clips (80%), 203/260 videos, 667 confirmed matches,
+  309 distinct tracks, 0 errors. 368 clips left, roughly 20-30 min of uninterrupted work.
+- Background runs kept being stopped externally (75 min, 79, 33, 3.5, 10, 28s, 57 min,
+  then instantly). Resume is per-clip and writes every 20, so nothing was lost, but the
+  loop needs babysitting. Reliable route: run it from the user's own terminal.
+- After it finishes: re-run scripts/build_site_data.py and rebuild, so the remaining
+  57 videos' songs reach the site.
+"""
+
+next = """
+- Finish the 368 remaining clips, rebuild the payload.
+- Make song titles searchable. Searching "Celentano" or "Thriller" currently finds
+  nothing: the search index only walks string fields and `songs` is an array of objects.
+- Review the 4 `partial` duplicate pairs by hand (they share a segment, not the whole
+  sketch; overlap_pct says how much). 2T3Et10cvcg/mV2TGpdDfvE is the borderline one --
+  same 115s length, 75% overlap, differs only in the first ~20s.
+- Compilation membership is only partly mapped: fingerprints cover the first 60s, so
+  only compilations whose OPENING matches were found. 31 videos exceed 300s; a
+  full-length fingerprint of just those plus a sliding search would close the gap.
+- The website review backlog in docs/website_review_2026-08-01.md is still untouched
+  (SEO package, 1.6 MB client bundle, dark-theme CTA contrast).
+"""
+
+files = [
+  "scripts/audit_audio.py",
+  "scripts/fingerprint_audio.py",
+  "scripts/detect_duplicates.py",
+  "scripts/annotate_kargin_csv.py",
+  "scripts/fetch_music_credits.py",
+  "scripts/recognize_songs.py",
+  "scripts/kargin_build/songs.py",
+  "scripts/kargin_build/assemble.py",
+  "scripts/build_site_data.py",
+  "scripts/fetch_youtube_metadata_api.py",
+  "tests/audio/test_fingerprint.py",
+  "tests/build/test_songs.py",
+  "kargin_eng.csv",
+  "data/duplicates.csv",
+  "data/music_credits.csv",
+  "data/song_matches.csv",
+  "web/lib/segments.ts",
+  "web/lib/normalize.ts",
+  "web/lib/changelog.ts",
+  "web/components/Highlight.tsx",
+  "web/components/SongList.tsx",
+  "web/components/SketchCard.tsx",
+  "web/components/WatchView.tsx",
+  "web/components/Header.tsx",
+  "web/app/changelog/page.tsx",
+  "web/app/songs/page.tsx",
+  "experiments/song_recognition/",
+]
+
+commits = [
+  "bf3c863 feat(data): audio-fingerprint duplicate detection + id/video_id/duplicate_of columns",
+  "265c4b6 feat(data): copyright + music metadata from every public YouTube source",
+  "5637978 fix(songs): bound the release-date filter on production end (2009), not upload date",
+  "c34aacd fix(songs): drop date-based filtering entirely",
+  "7ccabbb feat(songs): shifted-window stability check + circuit breaker",
+  "fe2f9c7 fix(songs): distinguish no_match from inconclusive in the verdict column",
+  "15d09b1 fix(songs): guard the empty-counter crash in recognize_clip",
+  "62078f5 fix: guard messageless exceptions in every error handler",
+  "6eb1c41 feat(web): full dialogue in cards, with search matches highlighted",
+  "94e5d80 feat(web): show identified songs on the sketch page and a badge on cards",
+  "(+ 7 incremental data commits as recognition progressed)",
+]
+
+notes = """
+Three of my own bugs cost real time and are worth remembering.
+
+1. str(e).splitlines()[0] raises IndexError when an exception carries no message.
+   asyncio.TimeoutError is exactly that, so a routine timeout made the ERROR HANDLER
+   crash and killed a 485-clip run. The same unguarded pattern was in all seven
+   long-running scripts; all fixed. A crash inside the code that reports failures
+   defeats the point of having it.
+
+2. Counter(found).most_common(1)[0] IndexErrors on an empty counter. Same class of
+   bug, also fatal to a long run.
+
+3. I blamed the environment for killing runs before checking my own code. Some kills
+   were external, but at least two were mine.
+
+On method: the release-date filter was wrong twice before being removed entirely.
+upload_date is an archive-dump timestamp (702 videos across 9 dates), the air dates
+are earlier and less certain than public sources state, and Shazam reports the date of
+the RELEASE it matched -- often a later compilation of an older recording. There was
+never a trustworthy date to bound on. The replacement needs no external facts: match
+stability. But the FIRST stability implementation was also wrong -- re-sending
+identical bytes is deterministic and a known-spurious clip came back 2/2 "stable".
+Varying the evidence (a time-shifted window) is what actually tests a match.
+
+Browser verification caught a layout regression that 58 passing tests did not: variable
+dialogue length made grid cards stretch to the tallest in the row, leaving up to 196px
+of dead space. Fixing it took three parts, and the second only surfaced by measuring.
+"""
