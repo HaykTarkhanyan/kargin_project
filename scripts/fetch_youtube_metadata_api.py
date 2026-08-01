@@ -373,7 +373,9 @@ def main(input_csv: Path, output_csv: Path, limit: int | None, refresh: bool) ->
         try:
             items = fetch_batch(api_key, ids)
         except Exception as e:
-            err = f"batch fetch failed: {str(e).splitlines()[0][:300]}"
+            # `or [""]`: a messageless exception makes "".splitlines() == [], and
+            # indexing it would crash the handler that exists to report the failure.
+            err = f"batch fetch failed: {(str(e).splitlines() or [''])[0][:300]}"
             logging.error(err)
             for vid in ids:
                 rows_by_vid[vid] = error_row(vid, url_by_id[vid], err)

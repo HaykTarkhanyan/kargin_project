@@ -270,7 +270,11 @@ async def run(todo: list[tuple[str, int]], paths: dict[str, Path],
         except Exception as e:
             fail += 1
             streak += 1
-            row["error"] = f"{type(e).__name__}: {str(e).splitlines()[0][:200]}"
+            # `or [""]` matters: some exceptions carry no message at all
+            # (asyncio.TimeoutError is the common one here), and "".splitlines()
+            # is [], so indexing [0] crashes the handler itself and takes down
+            # the whole run while trying to record a routine failure.
+            row["error"] = f"{type(e).__name__}: {(str(e).splitlines() or [''])[0][:200]}"
             logging.error(f"[{i}/{len(todo)}] {vid} @{start}s failed: {row['error']}")
 
         rows[(vid, start)] = row

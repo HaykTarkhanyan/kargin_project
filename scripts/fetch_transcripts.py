@@ -108,7 +108,9 @@ def fetch_one(video_id: str, output_dir: Path, seq: int) -> tuple[bool, str, lis
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.extract_info(url, download=True)
     except yt_dlp.utils.DownloadError as e:
-        return False, str(e).splitlines()[0][:300], []
+        # `or [""]`: a messageless exception makes "".splitlines() == [], and
+        # indexing it would crash the handler that exists to report the failure.
+        return False, (str(e).splitlines() or [""])[0][:300], []
 
     # yt-dlp doesn't return a clean list of written sub files in info, so scan disk.
     written: list[str] = []

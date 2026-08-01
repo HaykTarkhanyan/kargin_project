@@ -231,7 +231,9 @@ def main(input_csv: Path, out_path: Path, limit: int | None, sleep_sec: float) -
         except Exception as e:
             fail += 1
             consecutive_failures += 1
-            msg = f"{type(e).__name__}: {str(e).splitlines()[0][:200]}"
+            # `or [""]` guards messageless exceptions (asyncio.TimeoutError):
+            # "".splitlines() is [], so [0] would crash the error handler itself.
+            msg = f"{type(e).__name__}: {(str(e).splitlines() or [''])[0][:200]}"
             logging.error(f"[{i}/{len(todo)}] {vid} failed: {msg}")
             row = {k: "" for k in SCHEMA}
             row.update({"video_id": vid, "has_music_rows": False, "row_count": 0,

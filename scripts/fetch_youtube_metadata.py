@@ -207,7 +207,9 @@ def fetch_one(vid: str, url: str) -> dict:
     try:
         return fetch_metadata(vid, url)
     except Exception as e:
-        err = str(e).splitlines()[0][:300]
+        # `or [""]`: a messageless exception makes "".splitlines() == [], and
+        # indexing it would crash the handler that exists to report the failure.
+        err = (str(e).splitlines() or [""])[0][:300]
         return error_row(vid, url, err)
 
 

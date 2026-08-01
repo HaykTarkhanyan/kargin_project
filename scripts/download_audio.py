@@ -102,7 +102,9 @@ def download_one(video_id: str, output_dir: Path, seq: int) -> tuple[bool, str]:
         abr = info.get("abr") or info.get("tbr") or "?"
         return True, f"{ext} {abr}kbps {size:,}B"
     except yt_dlp.utils.DownloadError as e:
-        return False, str(e).splitlines()[0][:300]
+        # `or [""]`: a messageless exception makes "".splitlines() == [], and
+        # indexing it would crash the handler that exists to report the failure.
+        return False, (str(e).splitlines() or [""])[0][:300]
 
 
 def main(input_csv: Path, output_dir: Path, limit: int | None, sleep_sec: float) -> int:
