@@ -37,6 +37,7 @@ import re
 import subprocess
 import sys
 import time
+from collections import Counter
 from pathlib import Path
 
 import pandas as pd
@@ -44,19 +45,39 @@ import pandas as pd
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
 
+class _DropLibraryChatter(logging.Filter):
+    """Drop sub-warning records from the audio stack.
+
+    shazamio-core emits three INFO lines per clip from its Rust layer ("found
+    the format marker", "estimating duration from bitrate") which bury our own
+    output. setLevel() does NOT stop them: pyo3-log builds a LogRecord and calls
+    Logger.handle(), which skips the level check, so the filter has to sit on the
+    handler instead.
+    """
+
+    NOISY = ("shazamio", "pydub", "symphonia")
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        return not (record.name.startswith(self.NOISY) and record.levelno < logging.WARNING)
+
+
+_handlers = [
+    logging.FileHandler(LOG_DIR / "recognize_songs.log", encoding="utf-8"),
+    logging.StreamHandler(),
+]
+for _h in _handlers:
+    _h.addFilter(_DropLibraryChatter())
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_DIR / "recognize_songs.log", encoding="utf-8"),
-        logging.StreamHandler(),
-    ],
+    handlers=_handlers,
 )
 
-# shazamio-core's Rust layer logs a few INFO lines per clip ("found the format
-# marker", "estimating duration from bitrate") which bury our own output.
-for _noisy in ("shazamio", "shazamio_core", "pydub"):
-    logging.getLogger(_noisy).setLevel(logging.WARNING)
+# A long network loop must not burn through the whole work list when the link
+# drops -- a wifi outage mid-run produced DNS failures that would have "processed"
+# all 1802 clips in minutes. Resume is per-clip, so stopping early loses nothing.
+FAILURE_STREAK_LIMIT = 15
 
 AUDIO_FILENAME = re.compile(r"^(\d{3})_.*?([A-Za-z0-9_-]{11})\.[^.]+$")
 
@@ -70,8 +91,31 @@ SCHEMA = [
     "video_id", "start_sec", "matched",
     "artist", "title", "album", "label", "released", "genre",
     "isrc", "shazam_key", "shazam_url",
+    "attempts", "agree", "verdict", "stable", "alt_matches",
     "recognized_at", "error",
 ]
+
+# Verdicts from the shifted-window check (see recognize_clip):
+#   confirmed     two or more windows named the same track
+#   contradicted  another window named a DIFFERENT track -- likely noise
+#   inconclusive  the other window found nothing; absence is not contradiction,
+#                 the shift may simply have slid past the end of a short sting
+CONFIRMED, CONTRADICTED, INCONCLUSIVE = "confirmed", "contradicted", "inconclusive"
+
+_PAREN = re.compile(r"\s*[(\[].*$")
+
+
+def identity(flat: dict) -> tuple[str, str]:
+    """Artist + title with any parenthetical suffix stripped.
+
+    Shazam holds the same recording under several entries -- "Песенка о медведях
+    (Где-то на белом свете)" and "... (Remastered 2024)" are one song with two
+    keys, as are "The Pink Panther Theme" and "... (From The Pink Panther)
+    (Official Audio)". Comparing raw keys would call those a disagreement.
+    """
+    artist = str(flat.get("artist") or "").strip().casefold()
+    title = _PAREN.sub("", str(flat.get("title") or "")).strip().casefold()
+    return artist, title
 
 
 def audio_paths(audio_dir: Path) -> dict[str, Path]:
@@ -127,41 +171,115 @@ def clip_starts(duration_sec: float, every: int, clip_len: float, max_clips: int
     return starts[:max_clips] if max_clips else starts
 
 
+async def recognize_clip(shazam, path: Path, start: int, clip_len: float,
+                         attempts: int, shift: float, sleep_sec: float):
+    """Recognize TIME-SHIFTED windows of the same region and report agreement.
+
+    Returns (track_dict|None, n_attempts, agree, alt_summary).
+
+    Why shifted rather than repeated: re-sending identical bytes proves nothing.
+    The signature is computed deterministically and the service answers the same
+    way, so an identical query always "agrees" with itself -- verified here, a
+    clip known to be spurious came back 2/2 on repeat.
+
+    Shifting varies the evidence instead. Real music is continuous, so a window
+    slid a few seconds still contains the same recording and matches the same
+    track. A hit driven by the particular speech and laughter in one window does
+    not survive moving it. Same idea as the offset search in detect_duplicates.py.
+
+    A no-match on the first window ends the clip -- there is no positive claim to
+    verify, and probing every silent stretch would multiply the run for nothing.
+    """
+    by_id: dict[tuple[str, str], dict] = {}
+    ids: list[tuple[str, str] | None] = []
+
+    for attempt in range(attempts):
+        if attempt and sleep_sec > 0:
+            time.sleep(sleep_sec)
+        data = clip_bytes(path, start + attempt * shift, clip_len)
+        track = (await shazam.recognize(data)).get("track")
+        if not track:
+            ids.append(None)
+            if attempt == 0:
+                return None, 1, 0, INCONCLUSIVE, ""
+            continue
+        flat = flatten_track(track)
+        ident = identity(flat)
+        by_id.setdefault(ident, flat)
+        ids.append(ident)
+
+    found = [i for i in ids if i]
+    winner, agree = Counter(found).most_common(1)[0]
+    others = [i for i in ids if i != winner]
+
+    if agree >= 2:
+        verdict = CONFIRMED
+    elif any(others):                 # a different track came back -> real conflict
+        verdict = CONTRADICTED
+    else:                             # only no-matches -> absence, not conflict
+        verdict = INCONCLUSIVE
+
+    alt = "; ".join((by_id[i]["title"] or " - ".join(i)) if i else "no match" for i in others)
+    return by_id[winner], len(ids), agree, verdict, alt
+
+
 async def run(todo: list[tuple[str, int]], paths: dict[str, Path],
               clip_len: float, sleep_sec: float, out_path: Path,
-              rows: dict[tuple[str, int], dict]) -> tuple[int, int, int]:
+              rows: dict[tuple[str, int], dict], attempts: int,
+              shift: float) -> tuple[int, int, int, int]:
     from shazamio import Shazam
 
     shazam = Shazam()
-    ok = fail = hits = 0
+    ok = fail = hits = stable_hits = 0
+    streak = 0
     for i, (vid, start) in enumerate(todo, 1):
         row = {k: "" for k in SCHEMA}
         row.update({"video_id": vid, "start_sec": start, "matched": False,
                     "recognized_at": pd.Timestamp.now("UTC").isoformat(timespec="seconds")})
         try:
-            data = clip_bytes(paths[vid], start, clip_len)
-            result = await shazam.recognize(data)
-            track = result.get("track")
+            track, n_att, agree, verdict, alt = await recognize_clip(
+                shazam, paths[vid], start, clip_len, attempts, shift, sleep_sec)
             ok += 1
+            streak = 0
+            row.update({"attempts": n_att, "agree": agree, "verdict": verdict,
+                        "alt_matches": alt})
             if track:
                 hits += 1
-                row.update(flatten_track(track))
+                row.update(track)
                 row["matched"] = True
+                row["stable"] = verdict == CONFIRMED
+                if row["stable"]:
+                    stable_hits += 1
+                mark = "" if row["stable"] else f"  <-- {verdict.upper()} ({agree}/{n_att}), also: {alt[:55]}"
                 logging.info(f"[{i}/{len(todo)}] {vid} @{start:>4}s  {row['artist']} - {row['title']}"
-                             f"   [{row['label']}, {row['released']}]")
+                             f"   [{row['label']}, {row['released']}]{mark}")
             else:
+                row["stable"] = False
                 logging.info(f"[{i}/{len(todo)}] {vid} @{start:>4}s  no match")
         except Exception as e:
             fail += 1
+            streak += 1
             row["error"] = f"{type(e).__name__}: {str(e).splitlines()[0][:200]}"
             logging.error(f"[{i}/{len(todo)}] {vid} @{start}s failed: {row['error']}")
 
         rows[(vid, start)] = row
+
+        # Network down (or Shazam blocking) means every remaining clip fails the
+        # same way. Stop and keep what we have; errored clips are retried on the
+        # next run, so nothing is lost by bailing out here.
+        if streak >= FAILURE_STREAK_LIMIT:
+            write(rows, out_path)
+            logging.error(
+                f"{streak} consecutive failures -- stopping early (network down?). "
+                f"Re-run to resume; completed clips are already saved."
+            )
+            break
+
         if i % 20 == 0 or i == len(todo):
             write(rows, out_path)
         if sleep_sec > 0 and i < len(todo):
             time.sleep(sleep_sec)
-    return ok, fail, hits
+    return ok, fail, hits, stable_hits
 
 
 def write(rows: dict, out_path: Path) -> None:
@@ -173,7 +291,7 @@ def write(rows: dict, out_path: Path) -> None:
 
 def main(metadata: Path, audio_dir: Path, out_path: Path, ids: str | None,
          limit: int | None, every: int, clip_len: float, max_clips: int | None,
-         sleep_sec: float) -> int:
+         sleep_sec: float, attempts: int, shift: float) -> int:
     m = pd.read_csv(metadata)
     paths = audio_paths(audio_dir)
 
@@ -211,18 +329,21 @@ def main(metadata: Path, audio_dir: Path, out_path: Path, ids: str | None,
 
     logging.info(
         f"{len(m)} video(s), {len(todo)} clip(s) to recognize "
-        f"({clip_len:g}s every {every}s, {sleep_sec}s between calls)"
+        f"({clip_len:g}s every {every}s, {attempts} attempt(s) per match, "
+        f"{sleep_sec}s between calls)"
     )
     if not todo:
         logging.info("nothing to do")
         return 0
 
     t0 = time.time()
-    ok, fail, hits = asyncio.run(run(todo, paths, clip_len, sleep_sec, out_path, rows))
+    ok, fail, hits, stable_hits = asyncio.run(
+        run(todo, paths, clip_len, sleep_sec, out_path, rows, attempts, shift))
     write(rows, out_path)
     logging.info(
         f"done in {time.time() - t0:.0f}s. {ok} recognized, {fail} failed, "
-        f"{hits} matched a song -> {out_path}"
+        f"{hits} matched a song of which {stable_hits} stable "
+        f"({hits - stable_hits} disagreed across attempts) -> {out_path}"
     )
     return 1 if fail else 0
 
@@ -238,6 +359,12 @@ if __name__ == "__main__":
     p.add_argument("--duration", type=float, default=12.0, help="clip length in seconds")
     p.add_argument("--max-clips", type=int, default=None, help="cap clips per video")
     p.add_argument("--sleep", type=float, default=1.0, help="seconds between Shazam calls")
+    p.add_argument("--attempts", type=int, default=2,
+                   help="time-shifted windows to check each MATCHING clip against; a match "
+                        "that does not survive the shift is noise (default 2, 1 disables)")
+    p.add_argument("--shift", type=float, default=5.0,
+                   help="seconds to slide the window per extra attempt (default 5)")
     args = p.parse_args()
     sys.exit(main(args.metadata, args.audio, args.out, args.ids, args.limit,
-                  args.every, args.duration, args.max_clips, args.sleep))
+                  args.every, args.duration, args.max_clips, args.sleep,
+                  args.attempts, args.shift))
