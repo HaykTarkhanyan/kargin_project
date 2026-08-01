@@ -60,25 +60,18 @@ for _noisy in ("shazamio", "shazamio_core", "pydub"):
 
 AUDIO_FILENAME = re.compile(r"^(\d{3})_.*?([A-Za-z0-9_-]{11})\.[^.]+$")
 
-# Kargin Haghordum aired 2003-09-06 to 2009-12-26. The YouTube uploads are archive
-# dumps years later -- all 702 went up on just 9 distinct dates, 343 of them on
-# 2012-12-28 -- so upload_date says almost nothing about when a sketch was filmed.
-# Music in a sketch had to exist when it was FILMED, which is the tighter bound.
-PRODUCTION_END_YEAR = 2009
-
+# Deliberately no date-based filtering. `upload_date` is an archive-dump
+# timestamp, not a production date (all 702 videos went up on 9 distinct dates),
+# and the real filming dates are not known per sketch -- so any year cutoff would
+# be an assumption that silently discards real matches. Shazam's `released` field
+# is recorded as-is for review; it is the date of the RELEASE matched, which may
+# be a much later compilation of an older recording anyway.
 SCHEMA = [
     "video_id", "start_sec", "matched",
     "artist", "title", "album", "label", "released", "genre",
     "isrc", "shazam_key", "shazam_url",
-    "upload_year", "released_year", "after_production_end",
     "recognized_at", "error",
 ]
-
-
-def year_of(value) -> int | None:
-    """Leading 4-digit year out of '2005', '2005.0', '20121228.0', etc."""
-    m = re.match(r"(\d{4})", str(value).strip())
-    return int(m.group(1)) if m else None
 
 
 def audio_paths(audio_dir: Path) -> dict[str, Path]:
@@ -136,12 +129,11 @@ def clip_starts(duration_sec: float, every: int, clip_len: float, max_clips: int
 
 async def run(todo: list[tuple[str, int]], paths: dict[str, Path],
               clip_len: float, sleep_sec: float, out_path: Path,
-              rows: dict[tuple[str, int], dict],
-              upload_year: dict[str, int], production_end: int) -> tuple[int, int, int, int]:
+              rows: dict[tuple[str, int], dict]) -> tuple[int, int, int]:
     from shazamio import Shazam
 
     shazam = Shazam()
-    ok = fail = hits = impossible = 0
+    ok = fail = hits = 0
     for i, (vid, start) in enumerate(todo, 1):
         row = {k: "" for k in SCHEMA}
         row.update({"video_id": vid, "start_sec": start, "matched": False,
@@ -155,31 +147,9 @@ async def run(todo: list[tuple[str, int]], paths: dict[str, Path],
                 hits += 1
                 row.update(flatten_track(track))
                 row["matched"] = True
-
-                # Music in a sketch had to exist when it was filmed. Flag matches
-                # dated after the show stopped production -- a cheap first filter
-                # on the spurious hits that acoustic matching against ~100M tracks
-                # always produces on speech and laugh tracks.
-                #
-                # NOT proof on its own: Shazam reports the date of the RELEASE it
-                # matched, which may be a later compilation of a much older
-                # recording (Andrei Petrov's 1979 film cue matches a 2005 "Best
-                # of" here). So this marks a match for review, not for deletion.
-                ry = year_of(row["released"]) if row["released"] else None
-                row["upload_year"] = upload_year.get(vid) or ""
-                row["released_year"] = ry or ""
-                row["after_production_end"] = bool(ry and ry > production_end)
-
-                flag = ""
-                if row["after_production_end"]:
-                    impossible += 1
-                    flag = f"  <-- SUSPECT: released {ry} > production ended {production_end}"
                 logging.info(f"[{i}/{len(todo)}] {vid} @{start:>4}s  {row['artist']} - {row['title']}"
-                             f"   [{row['label']}, {row['released']}]{flag}")
+                             f"   [{row['label']}, {row['released']}]")
             else:
-                row["upload_year"] = upload_year.get(vid) or ""
-                row["released_year"] = ""
-                row["after_production_end"] = False
                 logging.info(f"[{i}/{len(todo)}] {vid} @{start:>4}s  no match")
         except Exception as e:
             fail += 1
@@ -191,7 +161,7 @@ async def run(todo: list[tuple[str, int]], paths: dict[str, Path],
             write(rows, out_path)
         if sleep_sec > 0 and i < len(todo):
             time.sleep(sleep_sec)
-    return ok, fail, hits, impossible
+    return ok, fail, hits
 
 
 def write(rows: dict, out_path: Path) -> None:
@@ -203,7 +173,7 @@ def write(rows: dict, out_path: Path) -> None:
 
 def main(metadata: Path, audio_dir: Path, out_path: Path, ids: str | None,
          limit: int | None, every: int, clip_len: float, max_clips: int | None,
-         sleep_sec: float, production_end: int) -> int:
+         sleep_sec: float) -> int:
     m = pd.read_csv(metadata)
     paths = audio_paths(audio_dir)
 
@@ -247,17 +217,12 @@ def main(metadata: Path, audio_dir: Path, out_path: Path, ids: str | None,
         logging.info("nothing to do")
         return 0
 
-    upload_year = {str(r["video_id"]): y for _, r in m.iterrows()
-                   if (y := year_of(r["upload_date"]))}
-
     t0 = time.time()
-    ok, fail, hits, suspect = asyncio.run(
-        run(todo, paths, clip_len, sleep_sec, out_path, rows, upload_year, production_end))
+    ok, fail, hits = asyncio.run(run(todo, paths, clip_len, sleep_sec, out_path, rows))
     write(rows, out_path)
     logging.info(
         f"done in {time.time() - t0:.0f}s. {ok} recognized, {fail} failed, "
-        f"{hits} matched a song ({suspect} dated after production ended in "
-        f"{production_end}) -> {out_path}"
+        f"{hits} matched a song -> {out_path}"
     )
     return 1 if fail else 0
 
@@ -273,10 +238,6 @@ if __name__ == "__main__":
     p.add_argument("--duration", type=float, default=12.0, help="clip length in seconds")
     p.add_argument("--max-clips", type=int, default=None, help="cap clips per video")
     p.add_argument("--sleep", type=float, default=1.0, help="seconds between Shazam calls")
-    p.add_argument("--production-end-year", type=int, default=PRODUCTION_END_YEAR,
-                   help=f"flag matches released after this year (default {PRODUCTION_END_YEAR}, "
-                        "the year the show stopped airing)")
     args = p.parse_args()
     sys.exit(main(args.metadata, args.audio, args.out, args.ids, args.limit,
-                  args.every, args.duration, args.max_clips, args.sleep,
-                  args.production_end_year))
+                  args.every, args.duration, args.max_clips, args.sleep))
