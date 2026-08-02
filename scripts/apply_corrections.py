@@ -67,12 +67,17 @@ def main(source_csv: Path, corrections: Path, backups_dir: Path,
     for r in p["unknown"]:
         logging.error(f"  UNKNOWN video_id {r['video_id']} (.{r['field']}) — not in {source_csv.name}")
 
+    # Non-zero whenever something was refused, on EVERY path. Returning 0 from
+    # the "nothing applicable" branch would report success for an overlay where
+    # every single correction was rejected as stale.
+    needs_attention = 1 if (p["stale"] or p["unknown"]) else 0
+
     if not write:
         logging.info("dry run — nothing written. Re-run with --write to apply.")
-        return 0
+        return needs_attention
     if not p["apply"]:
         logging.info("nothing applicable to write")
-        return 0
+        return needs_attention
 
     df = pd.read_csv(source_csv, dtype=str, keep_default_na=False)
     idx = {vid: i for i, vid in enumerate(df["video_id"])}
@@ -96,7 +101,7 @@ def main(source_csv: Path, corrections: Path, backups_dir: Path,
         write_atomic(pd.DataFrame(remaining, columns=COLUMNS), corrections)
         logging.info(f"cleared applied rows from {corrections}; {len(remaining)} left")
 
-    return 1 if p["stale"] or p["unknown"] else 0
+    return needs_attention
 
 
 if __name__ == "__main__":

@@ -56,7 +56,7 @@ function renderList(filter = "") {
     d.querySelector(".t").textContent = v.title || v.video_id;
     d.querySelector(".m").textContent =
       `${v.id} · ${v.video_id}${v.has_text ? "" : " · no text"}${v.edited ? " · edited" : ""}`;
-    d.onclick = () => open(v.video_id);
+    d.onclick = () => openVideo(v.video_id);
     box.appendChild(d);
   }
 }
@@ -66,11 +66,15 @@ async function loadList() {
   renderList(document.getElementById("search").value);
 }
 
-async function open(vid) {
+// Named openVideo, not open: a top-level `function open` shadows window.open
+// for the whole page.
+async function openVideo(vid) {
   // Guard against losing edits by navigating away.
   if (current && dirtyFields().length &&
       !confirm("Unsaved changes on this video. Discard them?")) return;
-  const d = await (await fetch("/api/video/" + vid)).json();
+  const res = await fetch("/api/video/" + vid);
+  const d = await res.json();
+  if (!res.ok || d.error) { alert("Could not load " + vid + ": " + (d.error || res.status)); return; }
   current = vid;
   initial = {};
   const pane = document.getElementById("pane");

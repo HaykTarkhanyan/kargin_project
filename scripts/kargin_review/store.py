@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import os
 import shutil
+import threading
 from datetime import datetime
 from pathlib import Path
 
@@ -95,41 +96,74 @@ def as_map(df: pd.DataFrame) -> dict[tuple[str, str], dict]:
     return {(r["video_id"], r["field"]): r for r in df.to_dict("records")}
 
 
-def record(path: Path, backups_dir: Path, video_id: str, field: str,
-           source_value: str, new_value: str) -> dict:
-    """Upsert one correction. Returns {"status": ..., ...}.
+# Every mutation is read-modify-write on one small file. Flask's dev server is
+# threaded by default, so two saves in flight (a double-click, two tabs) could
+# each read the same overlay and the second write would silently drop the first.
+_WRITE_LOCK = threading.Lock()
 
-    `source_value` is the value currently in kargin_eng.csv, used only when this
+
+def record_many(path: Path, backups_dir: Path, video_id: str,
+                updates: dict[str, tuple[str, str]]) -> dict[str, str]:
+    """Apply several field edits as ONE load/backup/write.
+
+    `updates` maps field -> (source_value, new_value). Returns field -> status,
+    one of created / updated / reverted / unchanged.
+
+    Batched rather than looping `record`: saving five fields would otherwise mean
+    five rewrites and five backup files for a single user action.
+
+    `source_value` is what kargin_eng.csv holds now, and is used only when the
     field has no correction yet -- re-editing keeps the ORIGINAL old_value so the
-    staleness guard still compares against the real source.
+    staleness guard in `plan` still compares against the real source.
 
     Setting a field back to its source value deletes the correction rather than
-    storing a no-op, which keeps the overlay a true list of pending changes.
+    storing a no-op, keeping the overlay a true list of pending changes.
     """
-    if field not in EDITABLE_FIELDS:
-        raise ValueError(f"field not editable: {field!r}")   # loud fail, never silently ignored
+    bad = [f for f in updates if f not in EDITABLE_FIELDS]
+    if bad:
+        raise ValueError(f"field not editable: {bad!r}")   # loud fail, never silently ignored
+    if not updates:
+        return {}
 
-    df = load(path)
-    key_mask = (df["video_id"] == video_id) & (df["field"] == field)
-    existing = df[key_mask]
-    original = existing.iloc[0]["old_value"] if len(existing) else clean(source_value)
+    with _WRITE_LOCK:
+        df = load(path)
+        status: dict[str, str] = {}
+        drop = pd.Series(False, index=df.index)
+        new_rows = []
 
-    if clean(new_value) == clean(original):
-        if not len(existing):
-            return {"status": "unchanged"}
+        for field, (source_value, new_value) in updates.items():
+            key_mask = (df["video_id"] == video_id) & (df["field"] == field)
+            existing = df[key_mask]
+            original = existing.iloc[0]["old_value"] if len(existing) else clean(source_value)
+
+            if clean(new_value) == clean(original):
+                status[field] = "reverted" if len(existing) else "unchanged"
+                drop |= key_mask
+                continue
+
+            status[field] = "updated" if len(existing) else "created"
+            drop |= key_mask
+            new_rows.append({
+                "video_id": video_id, "field": field,
+                "old_value": original, "new_value": clean(new_value),
+                "edited_at": _now(),
+            })
+
+        if all(s == "unchanged" for s in status.values()):
+            return status                                   # nothing to write at all
+
+        kept = df[~drop]
+        out = pd.concat([kept, pd.DataFrame(new_rows)], ignore_index=True) if new_rows else kept
         backup(path, backups_dir)
-        write_atomic(df[~key_mask], path)
-        return {"status": "reverted"}
+        write_atomic(out[COLUMNS], path)
+        return status
 
-    row = {
-        "video_id": video_id, "field": field,
-        "old_value": original, "new_value": clean(new_value),
-        "edited_at": _now(),
-    }
-    backup(path, backups_dir)
-    kept = df[~key_mask]
-    write_atomic(pd.concat([kept, pd.DataFrame([row])], ignore_index=True)[COLUMNS], path)
-    return {"status": "updated" if len(existing) else "created", **row}
+
+def record(path: Path, backups_dir: Path, video_id: str, field: str,
+           source_value: str, new_value: str) -> dict:
+    """Single-field convenience wrapper around `record_many`."""
+    status = record_many(path, backups_dir, video_id, {field: (source_value, new_value)})[field]
+    return {"status": status}
 
 
 def plan(source_csv: Path, corrections_path: Path) -> dict:
@@ -147,8 +181,11 @@ def plan(source_csv: Path, corrections_path: Path) -> dict:
     to_apply, stale, unknown = [], [], []
     for r in load(corrections_path).to_dict("records"):
         row = by_vid.get(r["video_id"])
-        if row is None:
-            unknown.append(r)
+        if r["field"] not in src.columns:
+            # Applying would silently ADD a column to the source CSV.
+            unknown.append({**r, "reason": f"no such column: {r['field']}"})
+        elif row is None:
+            unknown.append({**r, "reason": "video_id not in source"})
         elif clean(row.get(r["field"])) != clean(r["old_value"]):
             stale.append({**r, "current_value": clean(row.get(r["field"]))})
         else:

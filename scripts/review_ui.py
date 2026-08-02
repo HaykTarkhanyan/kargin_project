@@ -21,7 +21,7 @@ from pathlib import Path
 import pandas as pd
 from flask import Flask, jsonify, render_template, request
 
-from kargin_review.store import EDITABLE_FIELDS, as_map, clean, load, record
+from kargin_review.store import EDITABLE_FIELDS, as_map, clean, load, record_many
 
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
@@ -110,14 +110,16 @@ def api_save(video_id: str):
         # Reject the whole request rather than silently saving the valid subset.
         return jsonify({"error": f"not editable: {bad}"}), 400
 
-    results = {}
     for field, value in payload["fields"].items():
         if not isinstance(value, str):
             return jsonify({"error": f"{field}: expected a string"}), 400
-        results[field] = record(
-            CFG["corrections"], CFG["backups"], video_id, field,
-            clean(row.get(field)), value,
-        )["status"]
+
+    # One batched write: a five-field save should not produce five rewrites and
+    # five backup files, and the whole save should land or not at all.
+    results = record_many(
+        CFG["corrections"], CFG["backups"], video_id,
+        {f: (clean(row.get(f)), v) for f, v in payload["fields"].items()},
+    )
 
     changed = {f: s for f, s in results.items() if s != "unchanged"}
     if changed:
