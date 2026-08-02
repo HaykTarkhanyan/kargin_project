@@ -94,7 +94,10 @@ def normalise(rows: list[dict], work: Path, force: bool) -> list[Path]:
                  "-ac", str(CHANNELS), "-ar", str(SAMPLE_RATE),
                  "-c:a", "aac", "-b:a", AUDIO_BITRATE, str(dest)])
         outs.append(dest)
-        if r["seq"] % 10 == 0:
+        # Also report the final clip: a batch of fewer than 10 would otherwise
+        # print nothing between "stage 1/4" and "stage 2/4" and look hung for
+        # minutes. batch02 (6 clips) went quiet for 10.
+        if r["seq"] % 10 == 0 or r["seq"] == len(rows):
             logging.info(f"normalised {r['seq']}/{len(rows)}")
     return outs
 
