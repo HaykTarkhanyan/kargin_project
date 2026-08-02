@@ -34,6 +34,7 @@ def main():
         ROOT / "kargin_eng.csv",
         ROOT / "data" / "youtube_metadata.csv",
         songs_csv=ROOT / "data" / "song_matches.csv",
+        transcripts_dir=ROOT / "data" / "transcripts",
     )
 
     n = len(sketches)
@@ -43,6 +44,15 @@ def main():
     n_songs = sum(len(s.get("songs", [])) for s in sketches)
     log.info("built %d sketches | %d with dialogue | %d with actors", n, with_text, with_actors)
     log.info("songs: %d sketches carry %d identified track(s)", with_songs, n_songs)
+
+    with_tr = [s for s in sketches if s.get("transcript")]
+    # The number that matters: sketches whose ONLY dialogue is the transcript.
+    # Those went from unsearchable to searchable.
+    rescued = sum(1 for s in with_tr if not s["text"].strip())
+    log.info("transcripts: %d sketches carry one (%d of them have no curated dialogue at all)",
+             len(with_tr), rescued)
+    log.info("transcript sources: %s",
+             Counter(s["transcript"]["source"] for s in with_tr).most_common())
     # Surface unmapped actor tokens so the allowlist can be tightened (REQUIRED per spec 7.1).
     leftover = Counter(tok for s in sketches for tok in s["rolesNames"].split(", ") if tok and tok not in ACTOR_ALLOWLIST)
     log.info("top non-allowlist tokens in roles: %s", leftover.most_common(15))

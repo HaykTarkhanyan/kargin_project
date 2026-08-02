@@ -3,6 +3,7 @@ import pandas as pd
 from .parse import extract_video_id, parse_seq
 from .canon import canonicalize_actors, canonicalize_location, canonicalize_languages
 from .songs import load_songs
+from .transcripts import load_transcripts, ARMENIAN
 
 # Seed from the known cast; refined empirically from top non-allowlist tokens (Task 4).
 ACTOR_ALLOWLIST = {
@@ -12,6 +13,11 @@ ACTOR_ALLOWLIST = {
     "Վաչո", "Ստյոպ", "Գուգո",
 }
 ACTOR_TYPOS = {"Հակյո": "Հայկո", "ՄԿո": "Մկո"}
+
+# A transcript rides along only when curated dialogue holds less than this
+# fraction of its Armenian characters. 0.6 keeps every sketch whose curation is
+# absent or clearly partial, and drops the near-duplicates.
+TRANSCRIPT_ADDS_RATIO = 0.6
 
 
 def _s(v):
@@ -23,7 +29,7 @@ def _fmt_date(raw):
     return f"{d[0:4]}-{d[4:6]}-{d[6:8]}" if len(d) == 8 else ""
 
 
-def row_to_sketch(row, allowlist, typos, songs=None):
+def row_to_sketch(row, allowlist, typos, songs=None, transcripts=None):
     vid = extract_video_id(_s(row.get("links")))
     actors, roles_extra = canonicalize_actors(_s(row.get("main_actors")), allowlist, typos)
     roles = _s(row.get("roles_names"))
@@ -53,13 +59,26 @@ def row_to_sketch(row, allowlist, typos, songs=None):
     found = (songs or {}).get(vid)
     if found:
         out["songs"] = found
+
+    # Same rule as songs: omitted entirely when absent rather than shipped empty
+    # on all 702 rows. Kept under its own key, never merged into `text` -- one is
+    # a person's transcription, the other a machine's, and the page says which.
+    #
+    # Shipped only when it ADDS something. Measured on the 46 videos holding both:
+    # curation runs about as long as ASR (median ratio 0.95) and is independently
+    # worded (median Jaccard 0.47), so where dialogue is already curated the
+    # transcript is a noisier duplicate -- payload weight for no new content.
+    tr = (transcripts or {}).get(vid)
+    if tr and len(ARMENIAN.findall(text)) < TRANSCRIPT_ADDS_RATIO * tr["armenianChars"]:
+        out["transcript"] = tr
     return out
 
 
 _METADATA_COLS = ["video_id", "duration_sec", "view_count", "upload_date"]
 
 
-def build_all(kargin_csv, metadata_csv, allowlist=ACTOR_ALLOWLIST, typos=ACTOR_TYPOS, songs_csv=None):
+def build_all(kargin_csv, metadata_csv, allowlist=ACTOR_ALLOWLIST, typos=ACTOR_TYPOS,
+              songs_csv=None, transcripts_dir=None):
     k = pd.read_csv(kargin_csv)
     m = pd.read_csv(metadata_csv)
     missing = [c for c in _METADATA_COLS if c not in m.columns]
@@ -76,4 +95,5 @@ def build_all(kargin_csv, metadata_csv, allowlist=ACTOR_ALLOWLIST, typos=ACTOR_T
     if len(df) != len(k):
         raise ValueError(f"row count changed in merge: {len(k)} -> {len(df)} (duplicate video_ids?)")
     songs = load_songs(songs_csv) if songs_csv else {}
-    return [row_to_sketch(r, allowlist, typos, songs) for _, r in df.iterrows()]
+    transcripts = load_transcripts(transcripts_dir) if transcripts_dir else {}
+    return [row_to_sketch(r, allowlist, typos, songs, transcripts) for _, r in df.iterrows()]

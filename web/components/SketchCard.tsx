@@ -18,7 +18,11 @@ export default function SketchCard({
   const quote = snippet ?? s.textCommon ?? "";
   // Matched lines float to the top so the reason a sketch is in the results is
   // visible without scrolling the dialogue box.
-  const segments = matchedFirst(segmentsFor(s.text, q));
+  // Curated dialogue wins; the machine transcript only stands in where there is
+  // none. For 95 sketches that is the difference between a card with words on it
+  // and a bare thumbnail.
+  const fromTranscript = !s.text && !!s.transcript?.text;
+  const segments = matchedFirst(segmentsFor(s.text || s.transcript?.text || "", q));
   const matchCount = segments.filter((seg) => seg.matched).length;
   const quoteSegment = quote ? segmentsFor(quote, q)[0] : undefined;
 
@@ -51,11 +55,17 @@ export default function SketchCard({
 
         {segments.length > 0 && (
           <>
-            {q && matchCount > 0 && (
-              <div className="mb-1.5 text-[11px] font-bold text-kred">
-                {matchCount} համընկնում
-              </div>
-            )}
+            <div className="mb-1.5 flex items-center gap-2 text-[11px] font-bold">
+              {q && matchCount > 0 && <span className="text-kred">{matchCount} համընկնում</span>}
+              {/* Labelled, not passed off as curation: this text is machine
+                  output and a reader should weigh it accordingly. */}
+              {fromTranscript && (
+                <span title="Ավտոմատ ձայնաճանաչում — հնարավոր են սխալներ"
+                  className="rounded bg-ink/10 px-1.5 py-0.5 font-semibold text-muted">
+                  🤖 ավտոմատ
+                </span>
+              )}
+            </div>
             <div className="mb-3 max-h-36 min-h-0 flex-1 space-y-1 overflow-y-auto border-l-[3px] border-ink/25 pl-3 pr-1 text-sm leading-relaxed">
               {segments.map((seg, i) => (
                 <p key={i} className={seg.matched ? "font-semibold" : "opacity-65"}>

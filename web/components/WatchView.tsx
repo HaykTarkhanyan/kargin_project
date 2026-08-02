@@ -44,6 +44,23 @@ export default function WatchView({ s }: { s: Sketch }) {
             <Link href={`/?location=${encodeURIComponent(s.location)}`} className="rounded-full border-2 border-kblue bg-kblue px-3 py-1 text-xs font-bold text-white">📍 {s.location}</Link>
           )}
         </div>
+        {s.transcript && (
+          <div className="mb-4">
+            <div className="mb-2 flex items-baseline gap-2 border-t-2 border-ink pt-3">
+              <span className="font-display text-base tracking-wide">🤖 ՎԵՐԾԱՆՈՒՄ</span>
+              <span className="text-[11px] font-semibold text-muted">
+                ավտոմատ ձայնաճանաչում — հնարավոր են սխալներ
+              </span>
+            </div>
+            {/* Capped and scrollable: some run past 4,000 characters and would
+                otherwise push everything below them off the page. */}
+            <div className="max-h-72 space-y-1 overflow-y-auto rounded-md border-2 border-ink/25 bg-surface px-3 py-2.5 text-sm leading-relaxed">
+              {s.transcript.text.split("\n").filter(Boolean).map((line, i) => (
+                <p key={i}>{line}</p>
+              ))}
+            </div>
+          </div>
+        )}
         {s.songs && s.songs.length > 0 && (
           <div className="mb-4">
             <div className="mb-2 border-t-2 border-ink pt-3 font-display text-base tracking-wide">🎵 ԵՐԱԺՇՏՈՒԹՅՈՒՆ</div>

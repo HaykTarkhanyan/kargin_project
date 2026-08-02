@@ -17,6 +17,11 @@ const FIELDS: Array<[keyof Sketch, number]> = [
   ["textCommon", 5], ["title", 4], ["text", 3], ["actorsRaw", 2], ["rolesNames", 1], ["location", 1],
 ];
 
+// Below curated dialogue (3): a transcript is machine output, so a hit in it is
+// weaker evidence than a hit in text a person wrote. Indexed separately because
+// `transcript` is an object and the FIELDS loop only walks string properties.
+const TRANSCRIPT_WEIGHT = 2;
+
 function durationOk(sec: number | null, bucket?: Filters["duration"]): boolean {
   if (!bucket || sec == null) return !bucket;
   if (bucket === "<2") return sec < 120;
@@ -46,15 +51,19 @@ function getIndex(s: Sketch): SketchIndex {
   if (idx) return idx;
   const fields: Array<[string, number]> = [];
   const parts: string[] = [];
+  const add = (v: string, w: number) => {
+    fields.push([normalize(v), w]);
+    parts.push(v);
+    const rom = romanize(v); if (rom !== v) parts.push(rom);          // Latin queries
+    const cyr = cyrillize(v); if (cyr !== v && cyr !== rom) parts.push(cyr); // Cyrillic queries
+  };
   for (const [field, w] of FIELDS) {
     const v = s[field];
-    if (typeof v === "string" && v) {
-      fields.push([normalize(v), w]);
-      parts.push(v);
-      const rom = romanize(v); if (rom !== v) parts.push(rom);          // Latin queries
-      const cyr = cyrillize(v); if (cyr !== v && cyr !== rom) parts.push(cyr); // Cyrillic queries
-    }
+    if (typeof v === "string" && v) add(v, w);
   }
+  // For 95 sketches this is the only dialogue there is; without it they match
+  // nothing but their own title.
+  if (s.transcript?.text) add(s.transcript.text, TRANSCRIPT_WEIGHT);
   idx = { combined: normalize(parts.join(" ")), fields };
   _indexCache.set(s, idx);
   return idx;

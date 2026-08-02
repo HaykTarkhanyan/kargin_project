@@ -17,4 +17,23 @@ export interface Sketch {
   durationSec: number | null; viewCount: number | null; uploadDate: string;
   /** Absent on most sketches: song recognition covers only part of the archive. */
   songs?: Song[];
+  /**
+   * Machine transcript, deliberately separate from `text`: that is a person's
+   * transcription, this is machine output with known errors. Present only where
+   * it adds dialogue the curation does not already hold — for 95 sketches it is
+   * the only dialogue that exists.
+   */
+  transcript?: Transcript;
+}
+
+/** Armenian speech recognised from the sketch's audio. */
+export interface Transcript {
+  text: string;
+  /**
+   * "batch_reupload" — we re-uploaded the audio with the language forced to
+   * Armenian; "youtube_fetch" — the sketch's own page already had hy captions.
+   */
+  source: "batch_reupload" | "youtube_fetch";
+  events: number;
+  armenianChars: number;
 }
