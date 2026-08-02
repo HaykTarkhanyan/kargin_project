@@ -218,7 +218,8 @@ def write_manifest(chunk: pd.DataFrame, dest: Path) -> float:
 def main(source: Path, transcripts_raw: Path, audio_dir: Path, out_dir: Path,
          limit: int | None, max_clip_minutes: float | None,
          exclude: list[Path], batches: int, start_number: int,
-         max_words: int, transcripts_dir: Path) -> int:
+         max_words: int, transcripts_dir: Path,
+         max_words_per_minute: float | None) -> int:
     picked = select(source, transcripts_raw, audio_dir, exclude, max_words, transcripts_dir)
     logging.info(f"{len(picked)} videos selected for transcription")
 
@@ -237,6 +238,19 @@ def main(source: Path, transcripts_raw: Path, audio_dir: Path, out_dir: Path,
         logging.info(f"dropped {len(over)} clips over {max_clip_minutes} min "
                      f"(longest {over['duration_sec'].max()/60:.1f} min)" if len(over) else
                      f"no clips over {max_clip_minutes} min")
+    # Curation DENSITY, not volume. A 5-minute sketch with 60 curated words is
+    # likelier to be partially transcribed than a 2-minute one with the same
+    # count, and volume alone cannot tell them apart. Measured on the 45 videos
+    # where the gain is observable, the low-density half had 24% of ASR
+    # sentences uncovered by curation against 11% for the high-density half --
+    # a weak predictor (r = -0.14) but the best one available before uploading.
+    if max_words_per_minute:
+        wpm = picked["words"] / (picked["duration_sec"] / 60)
+        before = len(picked)
+        picked = picked[wpm < max_words_per_minute]
+        logging.info(f"kept {len(picked)} of {before} under {max_words_per_minute} "
+                     f"curated words per minute")
+
     if limit:
         picked = picked.head(limit)
         logging.info(f"limited to the first {limit} by id")
@@ -288,8 +302,12 @@ if __name__ == "__main__":
                         "~95%% the length of ASR, so a transcript adds noise, not content.")
     p.add_argument("--transcripts", default=Path("data/transcripts"), type=Path,
                    help="videos already holding a good transcript here are skipped")
+    p.add_argument("--max-words-per-minute", type=float, default=None,
+                   help="keep only sketches curated more thinly than this, per minute of "
+                        "runtime. Density beats raw word count as a predictor of what ASR "
+                        "will add, though only weakly (r = -0.14).")
     a = p.parse_args()
     sys.exit(main(a.source, a.transcripts_raw, a.audio, a.out, a.limit,
                   a.max_clip_minutes, a.exclude, a.batches, a.start_number,
-                  a.max_words, a.transcripts))
+                  a.max_words, a.transcripts, a.max_words_per_minute))
 
