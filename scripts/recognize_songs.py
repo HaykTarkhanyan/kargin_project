@@ -412,10 +412,11 @@ if __name__ == "__main__":
     p.add_argument("--sleep", type=float, default=0.15,
                    help="seconds between calls within a worker (default 0.15; no "
                         "rate-limiting has been observed, the circuit breaker catches it if it starts)")
-    p.add_argument("--concurrency", type=int, default=3,
-                   help="clips in flight at once (default 3). Shazam throttles sustained "
-                        "load silently via retry backoff, so higher is not faster: 5 stalled "
-                        "a 268-clip run to zero completions.")
+    p.add_argument("--concurrency", type=int, default=1,
+                   help="clips in flight at once (default 1). MEASURED: Shazam allows a short "
+                        "burst then throttles sustained overlap. 5 stalled a run to zero "
+                        "completions; 3 served 28 clips then timed out on every request until "
+                        "the breaker fired. 1 sustains ~1.8s/clip indefinitely.")
     p.add_argument("--timeout", type=float, default=45.0,
                    help="seconds before a single recognition is abandoned (default 45). "
                         "Turns a throttle stall into a countable failure the circuit "
