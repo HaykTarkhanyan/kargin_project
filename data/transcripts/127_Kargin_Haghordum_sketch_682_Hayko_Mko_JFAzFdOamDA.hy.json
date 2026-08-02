@@ -1,0 +1,39 @@
+{
+  "video_id": "JFAzFdOamDA",
+  "seq": 8,
+  "title": "Kargin Haghordum sketch 682 (Hayko Mko)",
+  "source_lang": "hy",
+  "n_events": 5,
+  "duration_sec": 30.001,
+  "full_text": "էտոիքի\nразныն\nռազմի\nհամար եմ հարգում\nոր կարում ես վախից ստոպ տասկուկ",
+  "events": [
+    {
+      "start": 0.0,
+      "end": 1.713,
+      "text": "էտոիքի"
+    },
+    {
+      "start": 3.072,
+      "end": 6.072,
+      "text": "разныն"
+    },
+    {
+      "start": 7.912,
+      "end": 10.912,
+      "text": "ռազմի"
+    },
+    {
+      "start": 17.713,
+      "end": 25.233,
+      "text": "համար եմ հարգում"
+    },
+    {
+      "start": 20.953,
+      "end": 25.233,
+      "text": "որ կարում ես վախից ստոպ տասկուկ"
+    }
+  ],
+  "source": "batch_reupload",
+  "batch_file": "batch5.srt",
+  "batch_start_sec": 465.127
+}
