@@ -57,20 +57,51 @@ LOCAL CURATION UI (scripts/review_ui.py)
 - scripts/apply_corrections.py is dry-run by default and the ONLY writer of
   kargin_eng.csv; backs it up before writing.
 - Reviewed the app afterwards and fixed four real defects (see notes).
+
+REVIEW UI, SECOND PASS (after using it)
+- Added a status_final column to kargin_eng.csv, default "false", via
+  scripts/add_status_final.py: idempotent, backs up first, and REFUSES to write
+  if any pre-existing column changed (verified all 14 unchanged). Separate from
+  `done`, which came from the original curation pass.
+- Fields now render the control that fits, with OPTIONS derived from the CSV at
+  runtime rather than hardcoded, so a new value appears without a code change:
+    select    lighting (6 distinct), languages (8), done, status_final
+    combo     location, main_actors_count
+    textarea  text, text_common
+  A select always includes the row's current value even when it is not a known
+  option, so opening a video can never silently rewrite its data.
+- `titles` is no longer editable (YouTube's, not curation output); still shown
+  as the heading, and a POST naming it is rejected 400.
+- Sidebar: word count per sketch, green tint + check for status_final=true,
+  orange left edge for pending edits, purple marker for the 46 duplicates.
+  Distribution bar above the list. Sorted by word count ASCENDING, so the 100
+  sketches with no dialogue come first -- most likely to be missing curation.
+- Sidebar status reflects PENDING corrections, not just the CSV, so a row you
+  mark reviewed turns green immediately instead of waiting for apply.
 """
 
 pending = """
-- Song sweep across all 702 is RUNNING and roughly half done: 2226/4171 clips,
-  343/702 videos, 934 confirmed matches, 424 distinct tracks, 3 errors.
-- Shazam throttling intensifies as a run goes on (15 timeouts in the first 136
-  clips, 57 across the next 412). Timed-out clips retry on resume, so nothing is
-  lost, but throughput degrades. If the error rate keeps climbing, raise --sleep
-  toward 0.5 rather than fight it.
-- ALWAYS probe before relaunching (scratchpad probe_one.py, or three sequential
-  recognitions): if they time out we are in cooldown and relaunching is wasted.
-- 7 commits unpushed on main.
-- The site payload still reflects an older snapshot; rebuild with
-  scripts/build_site_data.py after the sweep and push to publish the rest.
+- Song sweep across all 702 is RUNNING: 2250/4171 clips, 348/702 videos, 942
+  confirmed, 430 distinct tracks, 0 outstanding errors. ~1900 clips left.
+  Command (resume is idempotent, safe to Ctrl-C, writes every 20 clips):
+    uv run --group songs python scripts/recognize_songs.py \
+      --metadata data/youtube_metadata.csv --every 30 --concurrency 1 \
+      --sleep 0.5 --attempts 2 --shift 5
+- SLEEP IS NOW 0.5, not 0.15. At 0.15 the productive window shrank every round
+  (400 clips, then 121) before the breaker fired, and each cooldown cost more
+  waiting than the faster pace saved. A slower run that survives beats a fast
+  one that dies at clip 121.
+- ALWAYS PROBE BEFORE RELAUNCHING. Three sequential recognitions; if they time
+  out we are in cooldown and relaunching is wasted and may extend it. Probe
+  script: <scratchpad>/probe_one.py, or any single shazam.recognize call.
+- Do NOT raise --concurrency. Measured: 5 stalls a run to zero completions, 3
+  serves ~28 clips then times out on everything. See --concurrency help text.
+- 11 commits unpushed on main.
+- The published site still reflects an older snapshot (185 sketches / 381
+  tracks). After the sweep: scripts/build_site_data.py, then a web build, then
+  push -- the GitHub Pages workflow deploys from main.
+- The review UI is running at http://127.0.0.1:5050 (uv run --group review
+  python scripts/review_ui.py). data/corrections.csv is currently empty.
 """
 
 next = """
@@ -106,6 +137,8 @@ files = [
   "scripts/review_templates/review.html",
   "scripts/kargin_review/store.py",
   "scripts/apply_corrections.py",
+  "scripts/add_status_final.py",
+  "tests/review/test_fields.py",
   "tests/review/test_store.py",
   "tests/review/test_apply.py",
   "tests/build/test_songs.py",
@@ -114,6 +147,9 @@ files = [
 ]
 
 commits = [
+  "fa72991 fix(review): real dropdown for location, duplicate marker, sort by word count",
+  "60d6ba3 feat(review): status_final column, per-field controls, word counts in the sidebar",
+  "bfe72f6 docs: session log for 2026-08-02",
   "6eb1c41 feat(web): full dialogue in cards, with search matches highlighted",
   "94e5d80 feat(web): show identified songs on the sketch page and a badge on cards",
   "9335d2f feat(web): changelog page + songs EDA page, and a session log",
@@ -130,12 +166,19 @@ THE licensed_content PRIOR WAS NARROWER THAN IT LOOKED — worth remembering.
 All 17 YouTube music claims and all 35 region blocks land on
 licensed_content=False, 52/52, never on True. That tempted me to skip the 442
 True videos entirely. Running them anyway shows the prior is real but partial:
-True videos have about half the clip hit rate (25% vs 46%), yet 60 of the first
-88 scanned still contain identifiable music. `True` never meant "no music" — it
+True videos have about half the clip hit rate (26% vs 46%), yet 64 of the first
+93 scanned still contain identifiable music. `True` never meant "no music" — it
 meant "no music anyone filed a claim on". Skipping them would have missed music
 in roughly 250 sketches. A perfect correlation about rights claims is not a
 correlation about audio content, and only running the excluded group tells you
 which one you measured.
+
+THE LOCATION DROPDOWN "BUG" WAS THE WRONG CONTROL, NOT A DEFECT. A bare
+<input list="..."> gets no visible affordance in any browser: it looks like an
+ordinary dead text field unless you happen to type a matching prefix. Replaced
+with a real <select> of known values plus an explicit "other" entry that reveals
+a text box, wrapped so it still exposes a `value` property. Worth remembering
+before reaching for <datalist> again.
 
 REVIEW-APP DEFECTS I FOUND BY READING, NOT BY IT FAILING
 1. Lost update. Flask's dev server is threaded by default and every save is
