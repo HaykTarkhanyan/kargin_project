@@ -94,13 +94,56 @@ def probe_duration(path: Path) -> float:
     return float(dur)
 
 
-def select(source: Path, transcripts_raw: Path, audio_dir: Path) -> pd.DataFrame:
+def already_batched(manifests: list[Path]) -> set[str]:
+    """video_ids covered by manifests already built, so batches never overlap."""
+    seen: set[str] = set()
+    for m in manifests:
+        if not m.exists():
+            raise RuntimeError(f"--exclude manifest not found: {m}")
+        seen.update(pd.read_csv(m, dtype=str)["video_id"])
+    return seen
+
+
+def split_balanced(picked: pd.DataFrame, n: int) -> list[pd.DataFrame]:
+    """Split into n contiguous chunks of roughly equal RUNTIME, not equal count.
+
+    Contiguous so each batch stays in curation-id order, which keeps its chapter
+    list readable. Balanced by duration rather than clip count because the
+    durations are so uneven -- one 19.6 min clip against a 3.4 min median -- that
+    equal counts would produce very unequal uploads.
+    """
+    target = picked["duration_sec"].sum() / n
+    chunks, current, run = [], [], 0.0
+    for row in picked.itertuples():
+        current.append(row.Index)
+        run += row.duration_sec
+        # Close the chunk once past the target, unless this is the last chunk
+        # (everything remaining belongs to it) or too few clips are left to fill
+        # the chunks still owed.
+        remaining = len(picked) - len(current) - sum(len(c) for c in chunks)
+        if run >= target and len(chunks) < n - 1 and remaining > (n - len(chunks) - 1):
+            chunks.append(current)
+            current, run = [], 0.0
+    if current:
+        chunks.append(current)
+    return [picked.loc[idx] for idx in chunks]
+
+
+def select(source: Path, transcripts_raw: Path, audio_dir: Path,
+           exclude: list[Path]) -> pd.DataFrame:
     """Videos with no curated dialogue AND no usable Armenian captions."""
     df = pd.read_csv(source, dtype=str, keep_default_na=False)
     df["words"] = df["text"].str.split().str.len()
     df["caption_lang"] = df["video_id"].map(caption_lang(transcripts_raw)).fillna("MISSING")
 
     picked = df[(df["words"] == 0) & (df["caption_lang"] != USABLE_LANG)].copy()
+
+    if exclude:
+        done = already_batched(exclude)
+        before = len(picked)
+        picked = picked[~picked["video_id"].isin(done)]
+        logging.info(f"excluded {before - len(picked)} already covered by "
+                     f"{len(exclude)} earlier manifest(s)")
 
     paths = audio_paths(audio_dir)
     missing = [v for v in picked["video_id"] if v not in paths]
@@ -110,9 +153,38 @@ def select(source: Path, transcripts_raw: Path, audio_dir: Path) -> pd.DataFrame
     return picked
 
 
+def write_manifest(chunk: pd.DataFrame, dest: Path) -> float:
+    """Assign offsets within this batch and write it. Returns total runtime.
+
+    Offsets restart at 0 for every batch: each becomes its own upload, so
+    start_sec must describe position in THAT file.
+    """
+    rows, cursor = [], 0.0
+    for seq, r in enumerate(chunk.itertuples(), start=1):
+        rows.append({
+            "seq": seq,
+            "id": r.id,
+            "video_id": r.video_id,
+            "title": r.titles,
+            "audio_path": r.audio_path,
+            "duration_sec": round(r.duration_sec, 3),
+            "start_sec": round(cursor, 3),
+            "end_sec": round(cursor + r.duration_sec, 3),
+        })
+        cursor += r.duration_sec
+
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(rows).to_csv(dest, index=False, encoding="utf-8", lineterminator="\n")
+    logging.info(f"wrote {dest}  --  {len(rows)} clips, {cursor/3600:.2f} h, "
+                 f"longest {max(r['duration_sec'] for r in rows)/60:.1f} min, "
+                 f"median {pd.Series([r['duration_sec'] for r in rows]).median()/60:.1f} min")
+    return cursor
+
+
 def main(source: Path, transcripts_raw: Path, audio_dir: Path, out_dir: Path,
-         limit: int | None, max_clip_minutes: float | None) -> int:
-    picked = select(source, transcripts_raw, audio_dir)
+         limit: int | None, max_clip_minutes: float | None,
+         exclude: list[Path], batches: int, start_number: int) -> int:
+    picked = select(source, transcripts_raw, audio_dir, exclude)
     logging.info(f"{len(picked)} videos need a transcript (no dialogue, no {USABLE_LANG} captions)")
 
     # Stable, meaningful order: by curation id, so the batch is reproducible and
@@ -134,30 +206,23 @@ def main(source: Path, transcripts_raw: Path, audio_dir: Path, out_dir: Path,
         picked = picked.head(limit)
         logging.info(f"limited to the first {limit} by id")
 
-    rows, cursor = [], 0.0
-    for seq, r in enumerate(picked.itertuples(), start=1):
-        rows.append({
-            "seq": seq,
-            "id": r.id,
-            "video_id": r.video_id,
-            "title": r.titles,
-            "audio_path": r.audio_path,
-            "duration_sec": round(r.duration_sec, 3),
-            "start_sec": round(cursor, 3),
-            "end_sec": round(cursor + r.duration_sec, 3),
-        })
-        cursor += r.duration_sec
+    picked = picked.reset_index(drop=True)
+    logging.info(f"{len(picked)} clips, {picked['duration_sec'].sum()/3600:.2f} h "
+                 f"to split across {batches} batch(es)")
 
-    out_dir.mkdir(parents=True, exist_ok=True)
-    manifest = out_dir / "manifest.csv"
-    pd.DataFrame(rows).to_csv(manifest, index=False, encoding="utf-8", lineterminator="\n")
+    if batches == 1:
+        write_manifest(picked, out_dir / "manifest.csv")
+        return 0
 
-    total = cursor
-    logging.info(f"wrote {manifest}")
-    logging.info(f"total runtime {total/3600:.2f} h ({total:.0f} s) across {len(rows)} clips")
-    logging.info(f"longest clip {max(r['duration_sec'] for r in rows)/60:.1f} min, "
-                 f"shortest {min(r['duration_sec'] for r in rows):.0f} s, "
-                 f"median {pd.Series([r['duration_sec'] for r in rows]).median()/60:.1f} min")
+    chunks = split_balanced(picked, batches)
+    if len(chunks) != batches:
+        raise RuntimeError(f"asked for {batches} batches but split produced {len(chunks)}")
+
+    total = 0.0
+    for i, chunk in enumerate(chunks, start=start_number):
+        total += write_manifest(chunk, out_dir / f"batch{i:02d}" / "manifest.csv")
+    logging.info(f"{total/3600:.2f} h across {batches} batches "
+                 f"(batch{start_number:02d}..batch{start_number + batches - 1:02d})")
     return 0
 
 
@@ -174,5 +239,14 @@ if __name__ == "__main__":
                    help="drop clips longer than this. A handful of 8-20 min outliers "
                         "dominate the total runtime; excluding them keeps a sample "
                         "representative (same median) instead of merely short.")
+    p.add_argument("--exclude", nargs="*", default=[], type=Path,
+                   help="manifests whose videos are already covered; their video_ids "
+                        "are skipped so batches never overlap")
+    p.add_argument("--batches", type=int, default=1,
+                   help="split the selection into N manifests under <out>/batchNN/, "
+                        "balanced by runtime rather than clip count (default 1)")
+    p.add_argument("--start-number", type=int, default=1,
+                   help="number the first batch directory from here (default 1)")
     a = p.parse_args()
-    sys.exit(main(a.source, a.transcripts_raw, a.audio, a.out, a.limit, a.max_clip_minutes))
+    sys.exit(main(a.source, a.transcripts_raw, a.audio, a.out, a.limit,
+                  a.max_clip_minutes, a.exclude, a.batches, a.start_number))

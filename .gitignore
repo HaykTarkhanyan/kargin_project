@@ -231,6 +231,9 @@ __marimo__/
 # the returned caption track cannot be split back into per-video transcripts.
 /data/transcription_batch/work/
 /data/transcription_batch/*.mp4
+# Batches 2+ live in their own subdirectories (batch02/, batch03/, ...).
+/data/transcription_batch/**/work/
+/data/transcription_batch/**/*.mp4
 
 # Acoustic fingerprints — derived from /data/audio/, rebuilt by fingerprint_audio.py
 # (the reviewable *result*, data/duplicates.csv, is committed)

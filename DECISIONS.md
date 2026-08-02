@@ -6,9 +6,40 @@ entries are never deleted — that we changed our mind, and why, is the point.
 
 ---
 
+## #4 — Build all four uploads now, without waiting for pilot results
+
+**Date:** 2026-08-02 · **Status:** active · **Reopens #3**
+
+**Decision.** Build the remaining 57 videos into three more uploads
+(`batch02`–`batch04`, 1.42 / 1.40 / 1.36 h) immediately, rather than waiting to
+see whether the 30-clip pilot returns usable Armenian.
+
+**Why.** Requested directly. Rendering is cheap and entirely local — roughly 30
+minutes of CPU — and having all four ready means the uploads can be queued back
+to back instead of serialised behind an ASR turnaround measured in hours.
+
+**What this gives up.** #3's whole point was learning from one upload before
+committing to the rest. If ASR comes back poor, the render time is wasted. That
+cost is small and recoverable; the manifests and offsets stay valid regardless,
+since only the audio content would be in question, never the split.
+
+**Alternatives rejected.** Wait for the pilot (slower, and the only thing saved
+is CPU time already sunk). Build all 87 as one upload (rejected in #3 and still
+wrong — 5.89 h is a slow, all-or-nothing ASR job).
+
+**What would change this.** If the pilot returns unusable text, stop before
+uploading 02–04 and run the Whisper comparison in #1 instead. The renders can sit
+on disk indefinitely; nothing forces them to be uploaded.
+
+**Balancing note.** Batches are contiguous by curation id but balanced by
+runtime, not clip count — durations are too uneven for equal counts (batch02 is
+6 clips averaging ~14 min; batch04 is 26 averaging ~3 min).
+
+---
+
 ## #3 — Pilot the batch with 30 clips before committing all 87
 
-**Date:** 2026-08-02 · **Status:** active
+**Date:** 2026-08-02 · **Status:** revisited 2026-08-02, see #4
 
 **Decision.** Build the first upload from a 30-clip sample (1.72 h) rather than
 all 87 candidates (5.89 h).
