@@ -77,6 +77,12 @@ logging.basicConfig(
 # A long network loop must not burn through the whole work list when the link
 # drops -- a wifi outage mid-run produced DNS failures that would have "processed"
 # all 1802 clips in minutes. Resume is per-clip, so stopping early loses nothing.
+#
+# 15 suits FAST failures: a DNS error returns instantly, so the whole streak
+# costs no time. It is badly wrong for SLOW failures -- under a Shazam throttle
+# every call burns the full --timeout, so 15 of them measured ~15 minutes of
+# dead waiting per round while zero clips completed. Lower it when failures are
+# slow; --max-consecutive-failures exists for exactly that.
 FAILURE_STREAK_LIMIT = 15
 
 AUDIO_FILENAME = re.compile(r"^(\d{3})_.*?([A-Za-z0-9_-]{11})\.[^.]+$")
@@ -249,7 +255,8 @@ async def recognize_clip(shazam, path: Path, start: int, clip_len: float,
 async def run(todo: list[tuple[str, int]], paths: dict[str, Path],
               clip_len: float, sleep_sec: float, out_path: Path,
               rows: dict[tuple[str, int], dict], attempts: int,
-              shift: float, concurrency: int, timeout: float) -> tuple[int, int, int, int]:
+              shift: float, concurrency: int, timeout: float,
+              streak_limit: int = FAILURE_STREAK_LIMIT) -> tuple[int, int, int, int]:
     """Recognize every clip in `todo`, up to `concurrency` at a time.
 
     Each clip is mostly spent waiting on Shazam, so overlapping them is nearly
@@ -313,7 +320,7 @@ async def run(todo: list[tuple[str, int]], paths: dict[str, Path],
             # Network down, or Shazam finally objecting to the pace: every
             # remaining clip would fail the same way. Stop and keep what we have;
             # errored clips are retried on the next run, so nothing is lost.
-            if st["streak"] >= FAILURE_STREAK_LIMIT:
+            if st["streak"] >= streak_limit:
                 st["abort"] = True
                 write(rows, out_path)
                 logging.error(
@@ -342,7 +349,7 @@ def write(rows: dict, out_path: Path) -> None:
 def main(metadata: Path, audio_dir: Path, out_path: Path, ids: str | None,
          limit: int | None, every: int, clip_len: float, max_clips: int | None,
          sleep_sec: float, attempts: int, shift: float, concurrency: int,
-         timeout: float) -> int:
+         timeout: float, streak_limit: int = FAILURE_STREAK_LIMIT) -> int:
     m = pd.read_csv(metadata)
     paths = audio_paths(audio_dir)
 
@@ -389,7 +396,8 @@ def main(metadata: Path, audio_dir: Path, out_path: Path, ids: str | None,
 
     t0 = time.time()
     ok, fail, hits, stable_hits = asyncio.run(
-        run(todo, paths, clip_len, sleep_sec, out_path, rows, attempts, shift, concurrency, timeout))
+        run(todo, paths, clip_len, sleep_sec, out_path, rows, attempts, shift,
+            concurrency, timeout, streak_limit))
     write(rows, out_path)
     logging.info(
         f"done in {time.time() - t0:.0f}s. {ok} recognized, {fail} failed, "
@@ -426,7 +434,14 @@ if __name__ == "__main__":
                         "that does not survive the shift is noise (default 2, 1 disables)")
     p.add_argument("--shift", type=float, default=5.0,
                    help="seconds to slide the window per extra attempt (default 5)")
+    p.add_argument("--max-consecutive-failures", type=int, default=FAILURE_STREAK_LIMIT,
+                   help=f"stop after this many failures in a row (default "
+                        f"{FAILURE_STREAK_LIMIT}). MEASURED: under a throttle each failure "
+                        f"burns the full --timeout, so the default costs ~15 min of dead "
+                        f"waiting per round. Use 4 when the expected failure is throttling "
+                        f"rather than a dropped link -- four 45s timeouts already settle it.")
     args = p.parse_args()
     sys.exit(main(args.metadata, args.audio, args.out, args.ids, args.limit,
                   args.every, args.duration, args.max_clips, args.sleep,
-                  args.attempts, args.shift, args.concurrency, args.timeout))
+                  args.attempts, args.shift, args.concurrency, args.timeout,
+                  args.max_consecutive_failures))
