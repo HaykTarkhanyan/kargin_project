@@ -28,21 +28,45 @@ from pathlib import Path
 
 import pandas as pd
 
-# Fields the UI is allowed to touch. Anything else -- id, links, video_id,
-# duplicate_of -- is a key or derived, and an edit to it would desynchronise the
-# CSV from the audio files, the site payload and the duplicate report.
-EDITABLE_FIELDS = (
-    "titles",
-    "text",
-    "text_common",
-    "main_actors",
-    "main_actors_count",
-    "roles_names",
-    "location",
-    "lighting",
-    "languages",
-    "done",
-)
+# How each editable field is entered. Options are NOT listed here: they are
+# derived from the distinct values already in kargin_eng.csv, so the UI stays in
+# step with the data instead of drifting from a hardcoded list.
+#
+#   select   closed set -- the UI offers exactly what exists, nothing else
+#   datalist suggestions plus free text, for fields that legitimately grow
+#   textarea / text  free form
+#
+# `titles` is deliberately absent: it comes from YouTube, is the join key people
+# recognise sketches by, and is not curation output. Also absent are id, links,
+# video_id and duplicate_of -- keys or derived, and editing them would
+# desynchronise the CSV from the audio files, the site payload and the
+# duplicate report.
+FIELD_KIND = {
+    "text": "textarea",
+    "text_common": "textarea",
+    "main_actors": "text",
+    "roles_names": "text",
+    # 32 distinct and climbing; one existing value literally reads
+    # "Այլ(գրեք ավելացնենք)" -- other, write it and we'll add it.
+    "location": "datalist",
+    "lighting": "select",
+    "languages": "select",
+    # Should be a number but the column is polluted with actor names, so free
+    # text is kept until it is cleaned rather than silently dropping values.
+    "main_actors_count": "datalist",
+    "done": "select",
+    # Review sign-off, added by scripts/add_status_final.py. Distinct from
+    # `done`, which came from the original curation pass.
+    "status_final": "select",
+}
+
+# Drives the sidebar colour. Kept here so the UI and any later consumer agree
+# on what counts as reviewed.
+STATUS_FIELD = "status_final"
+STATUS_TRUE = "true"
+STATUS_FALSE = "false"
+
+EDITABLE_FIELDS = tuple(FIELD_KIND)
 
 COLUMNS = ["video_id", "field", "old_value", "new_value", "edited_at"]
 

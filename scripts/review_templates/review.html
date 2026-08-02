@@ -10,6 +10,15 @@
   #list .item:hover { background: #f4f4f4; }
   #list .item.active { background: #dbeafe; }
   #list .item.edited { border-left: 4px solid #d97706; }
+  /* Status drives the row tint; the orange left edge stays for pending edits,
+     so the two signals never compete for the same channel. */
+  #list .item.st-true  { background: #ecfdf5; }
+  #list .item.st-true  .t::before { content: "✓ "; color: #059669; }
+  #list .item.st-true.active { background: #bbf7d0; }
+  #list .item .w { float: right; color: #999; font-size: 11px; font-weight: 600; }
+  #dist { padding: 7px 10px; border-bottom: 1px solid #ccc; font-size: 12px; color: #444; }
+  #dist .bar { height: 8px; background: #e5e7eb; border-radius: 4px; overflow: hidden; margin-top: 5px; }
+  #dist .bar > i { display: block; height: 100%; background: #059669; }
   #list .item .t { font-weight: 600; }
   #list .item .m { color: #777; font-size: 12px; }
   #search { width: 100%; padding: 8px 10px; border: 0; border-bottom: 1px solid #ccc; font: inherit; }
@@ -17,7 +26,9 @@
   iframe { width: 100%; max-width: 640px; aspect-ratio: 16/9; border: 1px solid #ccc; }
   label { display: block; margin-top: 14px; font-weight: 600; }
   label .flag { color: #d97706; font-weight: 400; }
-  textarea, input { width: 100%; max-width: 900px; padding: 7px; font: inherit; border: 1px solid #bbb; }
+  textarea, input, select { width: 100%; max-width: 900px; padding: 7px; font: inherit; border: 1px solid #bbb; }
+  select { max-width: 420px; background: #fff; }
+  input { max-width: 520px; }
   textarea { min-height: 90px; resize: vertical; }
   textarea.big { min-height: 220px; }
   .dirty { border-color: #d97706; background: #fffbeb; }
@@ -31,11 +42,16 @@
          max-height: 80px; overflow: auto; border-left: 2px solid #ddd; padding-left: 6px; }
 </style>
 
-<div id="list"><input id="search" placeholder="filter by title or id…" autofocus></div>
+<div id="list">
+  <input id="search" placeholder="filter by title or id…" autofocus>
+  <div id="dist">loading…<div class="bar"><i style="width:0"></i></div></div>
+</div>
 <div id="pane"><p style="color:#777">Pick a video on the left.</p></div>
 
 <script>
 const FIELDS = {{ fields|tojson }};
+const KINDS = {{ kinds|tojson }};      // field -> textarea | text | select | datalist
+const OPTIONS = {{ options|tojson }};  // derived from the CSV, not hardcoded
 let all = [], current = null, initial = {};
 
 const el = (t, p = {}) => Object.assign(document.createElement(t), p);
@@ -50,20 +66,72 @@ function renderList(filter = "") {
   for (const v of all) {
     if (q && !(v.title || "").toLowerCase().includes(q) && !v.video_id.toLowerCase().includes(q)
         && !(v.id || "").includes(q)) continue;
-    const d = el("div", { className: "item" + (v.edited ? " edited" : "")
+    const d = el("div", { className: "item st-" + v.status
+                                    + (v.edited ? " edited" : "")
                                     + (current === v.video_id ? " active" : "") });
     d.innerHTML = `<div class="t"></div><div class="m"></div>`;
+    const w = el("span", { className: "w", textContent: v.words + "w" });
     d.querySelector(".t").textContent = v.title || v.video_id;
+    d.querySelector(".t").prepend(w);
     d.querySelector(".m").textContent =
-      `${v.id} · ${v.video_id}${v.has_text ? "" : " · no text"}${v.edited ? " · edited" : ""}`;
+      `${v.id} · ${v.video_id}${v.words ? "" : " · no text"}${v.edited ? " · edited" : ""}`;
     d.onclick = () => openVideo(v.video_id);
     box.appendChild(d);
   }
 }
 
+function renderDist(dist, editedCount) {
+  const done = dist["true"] || 0;
+  const total = Object.values(dist).reduce((a, b) => a + b, 0) || 1;
+  const box = document.getElementById("dist");
+  box.innerHTML = "";
+  const line = el("div");
+  line.textContent = `✓ ${done} final · ${total - done} pending`
+                   + (editedCount ? ` · ${editedCount} with unapplied edits` : "");
+  box.appendChild(line);
+  const bar = el("div", { className: "bar" });
+  bar.appendChild(el("i", { style: `width:${(done / total) * 100}%` }));
+  box.appendChild(bar);
+}
+
 async function loadList() {
-  all = await (await fetch("/api/videos")).json();
+  const d = await (await fetch("/api/videos")).json();
+  all = d.items;
+  renderDist(d.distribution, d.edited);
   renderList(document.getElementById("search").value);
+}
+
+function makeDatalist(name) {
+  const dl = el("datalist", { id: "dl_" + name });
+  for (const o of OPTIONS[name] || []) dl.appendChild(el("option", { value: o }));
+  return dl;
+}
+
+function makeControl(name, value) {
+  const kind = KINDS[name];
+
+  if (kind === "select") {
+    const s = el("select");
+    // Always include the current value even if it is not among the known
+    // options, so opening a video can never silently rewrite its data.
+    const opts = [...(OPTIONS[name] || [])];
+    if (value && !opts.includes(value)) opts.unshift(value);
+    s.appendChild(el("option", { value: "", textContent: "— empty —" }));
+    for (const o of opts) s.appendChild(el("option", { value: o, textContent: o }));
+    s.value = value;
+    return s;
+  }
+
+  if (kind === "datalist") {
+    const i = el("input", { type: "text", value });
+    i.setAttribute("list", "dl_" + name);
+    return i;
+  }
+
+  if (kind === "text") return el("input", { type: "text", value });
+
+  const t = el("textarea", { value, className: name === "text" ? "big" : "" });
+  return t;
 }
 
 // Named openVideo, not open: a top-level `function open` shadows window.open
@@ -85,7 +153,7 @@ async function openVideo(vid) {
     w.textContent = "Marked as a duplicate of: " + d.duplicate_of;
     pane.appendChild(w);
   }
-  pane.appendChild(el("h2", { textContent: d.fields.titles.value || vid, style: "margin:0 0 4px" }));
+  pane.appendChild(el("h2", { textContent: d.title || vid, style: "margin:0 0 4px" }));
   const meta = el("div", { style: "color:#777;margin-bottom:10px" });
   meta.textContent = `id ${d.id} · ${vid}`;
   pane.appendChild(meta);
@@ -103,15 +171,16 @@ async function openVideo(vid) {
     if (info.edited) lab.appendChild(el("span", { className: "flag", textContent: "  (has a pending edit)" }));
     pane.appendChild(lab);
 
-    const big = name === "text";
-    const box = el("textarea", { id: "f_" + name, value: info.value,
-                                 className: big ? "big" : "" });
-    if (["location", "lighting", "done", "main_actors_count"].includes(name)) box.rows = 1;
-    box.oninput = () => {
+    const box = makeControl(name, info.value);
+    box.id = "f_" + name;
+    const mark = () => {
       box.classList.toggle("dirty", box.value !== initial[name]);
       updateStatus();
     };
+    box.oninput = mark;
+    box.onchange = mark;          // selects fire change, not input, in some browsers
     pane.appendChild(box);
+    if (KINDS[name] === "datalist") pane.appendChild(makeDatalist(name));
 
     if (info.edited && info.source !== info.value) {
       const s = el("div", { className: "src" });

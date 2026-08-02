@@ -25,7 +25,8 @@ def paths(tmp_path):
 def test_rejects_a_field_that_is_not_editable(paths):
     # video_id / links / duplicate_of are keys or derived: editing them would
     # desynchronise the CSV from the audio files and the site payload.
-    for field in ("video_id", "links", "duplicate_of", "id", "nonsense"):
+    # `titles` is YouTube's, not curation output — deliberately not editable.
+    for field in ("video_id", "links", "duplicate_of", "id", "titles", "nonsense"):
         assert field not in EDITABLE_FIELDS
         with pytest.raises(ValueError, match="not editable"):
             record(paths["corr"], paths["bak"], VID, field, "x", "y")

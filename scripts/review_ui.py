@@ -21,7 +21,10 @@ from pathlib import Path
 import pandas as pd
 from flask import Flask, jsonify, render_template, request
 
-from kargin_review.store import EDITABLE_FIELDS, as_map, clean, load, record_many
+from kargin_review.store import (
+    EDITABLE_FIELDS, FIELD_KIND, STATUS_FALSE, STATUS_FIELD,
+    as_map, clean, load, record_many,
+)
 
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
@@ -49,25 +52,67 @@ def rows() -> list[dict]:
     return df.to_dict("records")
 
 
+def field_options(all_rows: list[dict]) -> dict[str, list[str]]:
+    """Distinct non-empty values per select/datalist field, most common first.
+
+    Derived from the CSV rather than hardcoded so the choices track the data:
+    a value added today shows up in the dropdown without a code change.
+    """
+    out: dict[str, list[str]] = {}
+    for field, kind in FIELD_KIND.items():
+        if kind not in ("select", "datalist"):
+            continue
+        counts: dict[str, int] = {}
+        for r in all_rows:
+            v = clean(r.get(field))
+            if v:
+                counts[v] = counts.get(v, 0) + 1
+        out[field] = sorted(counts, key=lambda v: (-counts[v], v))
+    return out
+
+
 @app.get("/")
 def index():
-    return render_template("review.html", fields=list(EDITABLE_FIELDS))
+    return render_template(
+        "review.html",
+        fields=list(EDITABLE_FIELDS),
+        kinds=FIELD_KIND,
+        options=field_options(rows()),
+    )
+
+
+def word_count(text: str) -> int:
+    return len(clean(text).split())
 
 
 @app.get("/api/videos")
 def api_videos():
-    """Index for the sidebar: id, title, and whether it has pending edits."""
-    edited = {k[0] for k in as_map(load(CFG["corrections"]))}
-    return jsonify([
-        {
-            "video_id": r["video_id"],
+    """Sidebar index plus the status distribution.
+
+    `status` reflects any pending correction, not just the CSV — otherwise a row
+    you just marked reviewed would still show as unreviewed until you applied.
+    """
+    corr = as_map(load(CFG["corrections"]))
+    edited = {k[0] for k in corr}
+
+    items = []
+    for r in rows():
+        vid = r["video_id"]
+        pending = corr.get((vid, STATUS_FIELD))
+        status = clean(pending["new_value"]) if pending else clean(r.get(STATUS_FIELD))
+        items.append({
+            "video_id": vid,
             "id": r.get("id", ""),
             "title": r.get("titles", ""),
-            "has_text": bool(clean(r.get("text"))),
-            "edited": r["video_id"] in edited,
-        }
-        for r in rows()
-    ])
+            "words": word_count(r.get("text")),
+            "status": status or STATUS_FALSE,
+            "edited": vid in edited,
+        })
+
+    dist: dict[str, int] = {}
+    for it in items:
+        dist[it["status"]] = dist.get(it["status"], 0) + 1
+    return jsonify({"items": items, "distribution": dist, "edited": len(edited)})
 
 
 @app.get("/api/video/<video_id>")
@@ -88,6 +133,9 @@ def api_video(video_id: str):
     return jsonify({
         "video_id": video_id,
         "id": row.get("id", ""),
+        # Read-only: shown as the heading so you know what you are reviewing,
+        # but not editable — it is YouTube's title, not curation output.
+        "title": clean(row.get("titles")),
         "link": row.get("links", ""),
         "duplicate_of": clean(row.get("duplicate_of")),
         "fields": fields,
