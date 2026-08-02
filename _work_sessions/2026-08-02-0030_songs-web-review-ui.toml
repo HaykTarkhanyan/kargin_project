@@ -1,0 +1,160 @@
+title = "Songs + full dialogue on the site, changelog & songs-EDA pages, Shazam throttle limits, local curation UI"
+date = "2026-08-02"
+time = "00:30"
+areas = ["web/", "scripts/", "scripts/kargin_review/", "tests/review/", "data/"]
+
+done = """
+WEB (all pushed and deployed)
+- Cards now render the FULL dialogue, split on the same separators the Python
+  build uses, in a capped scrolling box. When a search is active, matching lines
+  are highlighted and floated to the top with an "N matches" count.
+  Two subtleties: highlighting needs an offset-PRESERVING fold (lowercase + NFC
+  only) because `normalize` collapses whitespace and shifts every index after
+  the first run of spaces; and transliterated matches carry no offsets at all,
+  since romanize changes length (ու -> u), so those lines are flagged matched
+  and rendered without an inner mark rather than highlighting wrong characters.
+- Sketch pages show identified songs: title, artist, label/year, timestamp chips
+  deep-linking to youtu.be/<id>?t=<sec>. Cards carry a music-count badge.
+  Only verdict="confirmed" ships; release variants merge; most-heard first.
+- New /changelog (hand-written Armenian, live figures resolved at build time).
+- New /songs EDA page: top artists, top tracks, release decade, songs per
+  sketch, labels, and WHERE in a sketch music sits as a fraction of duration.
+- Extracted lib/normalize.ts — it lived in search.ts which imports Fuse.js, so
+  findName and soundboard (the latter feeding a server component) were pulling
+  the whole fuzzy-search library in for a 3-line function.
+- Nav 7 -> 9 items overflowed the desktop bar and clipped the last label; moved
+  the breakpoint lg -> xl. Verified 0px header overflow at 390/1024/1279/1400.
+- Pushed 20 commits; GitHub Pages deploy 30724315409 succeeded.
+
+SHAZAM THROTTLE — the important operational finding
+- The script was async in shape but synchronous in fact (subprocess.run +
+  time.sleep block the event loop), so concurrency would have bought nothing.
+  Rewrote to create_subprocess_exec + asyncio.sleep with a semaphore.
+- Then MEASURED that concurrency is a cliff, not a knob: an isolated burst of 5
+  returns in 1.3s, but 5 sustained produced ZERO completions in two minutes, and
+  3 served 28 clips then timed out on every request until the breaker fired.
+- Root cause: shazamio sits on aiohttp_retry, which retries transparently with
+  backoff. Shazam throttles by getting SLOWER, never by erroring — so the
+  circuit breaker (which counts failures) had nothing to count and the run
+  looked hung. Added a hard 45s timeout per recognition so a stall becomes a
+  countable failure. That gap would have hung any earlier run too.
+- The experiment cost a temporary block: afterwards even sequential requests
+  timed out for ~20 minutes. Settled on concurrency 1 + sleep 0.15, which is
+  still ~3x the old sleep 0.7 (5-7s/clip -> ~1.8s).
+
+LOCAL CURATION UI (scripts/review_ui.py)
+- Flask page listing all 702 videos; embedded player plus every curated field,
+  `text` in a large box. Ctrl+S saves, unsaved-changes guard on navigate/close.
+- Safety is the bulk of the work. The UI READS kargin_eng.csv and never writes
+  it. Edits go to data/corrections.csv as an overlay, one row per changed field:
+  video_id, field, old_value, new_value, edited_at.
+- old_value is what the source held when the field was FIRST edited and is never
+  rewritten by later edits, so it acts as a guard: apply refuses any correction
+  whose old_value no longer matches the source (STALE) instead of discarding
+  whatever changed it. Optimistic concurrency, not just "we kept a backup".
+- Only 10 curated fields editable; video_id/links/id/duplicate_of rejected 400.
+- Atomic writes, timestamped backup before every write, never pruned.
+- scripts/apply_corrections.py is dry-run by default and the ONLY writer of
+  kargin_eng.csv; backs it up before writing.
+- Reviewed the app afterwards and fixed four real defects (see notes).
+"""
+
+pending = """
+- Song sweep across all 702 is RUNNING and roughly half done: 2226/4171 clips,
+  343/702 videos, 934 confirmed matches, 424 distinct tracks, 3 errors.
+- Shazam throttling intensifies as a run goes on (15 timeouts in the first 136
+  clips, 57 across the next 412). Timed-out clips retry on resume, so nothing is
+  lost, but throughput degrades. If the error rate keeps climbing, raise --sleep
+  toward 0.5 rather than fight it.
+- ALWAYS probe before relaunching (scratchpad probe_one.py, or three sequential
+  recognitions): if they time out we are in cooldown and relaunching is wasted.
+- 7 commits unpushed on main.
+- The site payload still reflects an older snapshot; rebuild with
+  scripts/build_site_data.py after the sweep and push to publish the rest.
+"""
+
+next = """
+- Finish the sweep, rebuild the payload, push.
+- Make song titles searchable. Searching "Celentano" or "Thriller" finds nothing
+  today: the search index only walks string fields and `songs` is an array of
+  objects, so it needs its own handling in search.ts getIndex.
+- Review the 4 `partial` duplicate pairs by hand (they share a segment, not the
+  whole sketch). 2T3Et10cvcg/mV2TGpdDfvE is borderline: same 115s length, 75%
+  overlap, differs only in the first ~20s.
+- Compilation membership is only partly mapped — fingerprints cover the first
+  60s, so only compilations whose OPENING matches were found. 31 videos exceed
+  300s; full-length fingerprints of just those plus a sliding search close it.
+- docs/website_review_2026-08-01.md backlog is still untouched: SEO package
+  (no generateMetadata/sitemap/OG on 702 pages), the 1.6 MB client bundle, and
+  the dark-theme CTA contrast bug.
+"""
+
+files = [
+  "web/lib/segments.ts",
+  "web/lib/normalize.ts",
+  "web/lib/changelog.ts",
+  "web/components/Highlight.tsx",
+  "web/components/SongList.tsx",
+  "web/components/SketchCard.tsx",
+  "web/components/WatchView.tsx",
+  "web/components/Header.tsx",
+  "web/app/changelog/page.tsx",
+  "web/app/songs/page.tsx",
+  "scripts/kargin_build/songs.py",
+  "scripts/recognize_songs.py",
+  "scripts/review_ui.py",
+  "scripts/review_templates/review.html",
+  "scripts/kargin_review/store.py",
+  "scripts/apply_corrections.py",
+  "tests/review/test_store.py",
+  "tests/review/test_apply.py",
+  "tests/build/test_songs.py",
+  "data/song_matches.csv",
+  "data/corrections.csv",
+]
+
+commits = [
+  "6eb1c41 feat(web): full dialogue in cards, with search matches highlighted",
+  "94e5d80 feat(web): show identified songs on the sketch page and a badge on cards",
+  "9335d2f feat(web): changelog page + songs EDA page, and a session log",
+  "ed35573 perf(songs): real concurrency + hard timeout on each recognition",
+  "b8e3c55 perf(songs): concurrency default back to 1 — Shazam throttles sustained overlap",
+  "eb4744e feat(review): local curation UI that cannot damage kargin_eng.csv",
+  "f70914c fix(review): lost-update race, misleading exit code, and two UI bugs",
+  "3e97069 data: song sweep extended to all 702 videos, in progress",
+  "(+ several incremental data commits as recognition progressed)",
+]
+
+notes = """
+THE licensed_content PRIOR WAS NARROWER THAN IT LOOKED — worth remembering.
+All 17 YouTube music claims and all 35 region blocks land on
+licensed_content=False, 52/52, never on True. That tempted me to skip the 442
+True videos entirely. Running them anyway shows the prior is real but partial:
+True videos have about half the clip hit rate (25% vs 46%), yet 60 of the first
+88 scanned still contain identifiable music. `True` never meant "no music" — it
+meant "no music anyone filed a claim on". Skipping them would have missed music
+in roughly 250 sketches. A perfect correlation about rights claims is not a
+correlation about audio content, and only running the excluded group tells you
+which one you measured.
+
+REVIEW-APP DEFECTS I FOUND BY READING, NOT BY IT FAILING
+1. Lost update. Flask's dev server is threaded by default and every save is
+   read-modify-write on one small file with no lock; two saves in flight could
+   drop one. Added a lock and batched multi-field saves into one write.
+2. Misleading exit code, caught by a test. apply_corrections returned 0 from its
+   nothing-applicable branch, so an overlay where EVERY correction was refused
+   as stale reported success. The guard worked and lied about it — worse than no
+   guard, because you stop checking.
+3. A correction naming a column the source lacks would have silently ADDED that
+   column to kargin_eng.csv.
+4. A top-level `function open()` shadowed window.open page-wide; a 404 from the
+   video endpoint was consumed blindly and threw on d.fields.
+
+BROWSER VERIFICATION CAUGHT WHAT 58 TESTS DID NOT. Variable dialogue length made
+grid cards stretch to the tallest in the row, leaving up to 196px of dead space.
+The fix needed three parts and the second only surfaced by measuring: flex
+columns so the dialogue box absorbs slack, mt-auto on the footer (sketches with
+NO dialogue have no flex child to absorb anything), and a line-clamp on the
+catchphrase so one long quote cannot set the height of a whole row.
+196px -> 12-52px, all cards uniform at 519px.
+"""
