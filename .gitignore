@@ -225,6 +225,13 @@ __marimo__/
 # Transcoded audio (intermediate) — regeneratable, kept out of git
 /data/transcripts_gemini/_tmp_ogg/
 
+# Batch-transcription upload: a ~100 MB video plus ~150 MB of normalised audio,
+# all rebuildable by render_transcription_batch.py. manifest.csv and
+# chapters.txt ARE committed — the manifest is the offset table, and without it
+# the returned caption track cannot be split back into per-video transcripts.
+/data/transcription_batch/work/
+/data/transcription_batch/*.mp4
+
 # Acoustic fingerprints — derived from /data/audio/, rebuilt by fingerprint_audio.py
 # (the reviewable *result*, data/duplicates.csv, is committed)
 /data/audio_fingerprints.npz
