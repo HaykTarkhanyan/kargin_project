@@ -131,18 +131,24 @@ def audio_paths(audio_dir: Path) -> dict[str, Path]:
     }
 
 
-def clip_bytes(path: Path, start: float, duration: float) -> bytes:
-    """A short mono 44.1 kHz mp3 clip, straight to memory. -ss before -i seeks fast."""
-    proc = subprocess.run(
-        ["ffmpeg", "-v", "error", "-ss", str(start), "-t", str(duration), "-i", str(path),
-         "-vn", "-ac", "1", "-ar", "44100", "-b:a", "128k", "-f", "mp3", "-"],
-        capture_output=True,
+async def clip_bytes(path: Path, start: float, duration: float) -> bytes:
+    """A short mono 44.1 kHz mp3 clip, straight to memory. -ss before -i seeks fast.
+
+    Spawned via asyncio rather than subprocess.run: a blocking call here would
+    stall the event loop and make --concurrency meaningless, since no other
+    clip's Shazam request could progress while ffmpeg ran.
+    """
+    proc = await asyncio.create_subprocess_exec(
+        "ffmpeg", "-v", "error", "-ss", str(start), "-t", str(duration), "-i", str(path),
+        "-vn", "-ac", "1", "-ar", "44100", "-b:a", "128k", "-f", "mp3", "-",
+        stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE,
     )
+    out, err = await proc.communicate()
     if proc.returncode != 0:
-        raise RuntimeError(f"ffmpeg failed at {start}s: {proc.stderr.decode(errors='replace')[:200]}")
-    if not proc.stdout:
+        raise RuntimeError(f"ffmpeg failed at {start}s: {err.decode(errors='replace')[:200]}")
+    if not out:
         raise RuntimeError(f"ffmpeg produced an empty clip at {start}s")
-    return proc.stdout
+    return out
 
 
 def flatten_track(track: dict) -> dict:
@@ -177,7 +183,8 @@ def clip_starts(duration_sec: float, every: int, clip_len: float, max_clips: int
 
 
 async def recognize_clip(shazam, path: Path, start: int, clip_len: float,
-                         attempts: int, shift: float, sleep_sec: float):
+                         attempts: int, shift: float, sleep_sec: float,
+                         timeout: float = 45.0):
     """Recognize TIME-SHIFTED windows of the same region and report agreement.
 
     Returns (track_dict|None, n_attempts, agree, alt_summary).
@@ -200,9 +207,14 @@ async def recognize_clip(shazam, path: Path, start: int, clip_len: float,
 
     for attempt in range(attempts):
         if attempt and sleep_sec > 0:
-            time.sleep(sleep_sec)
-        data = clip_bytes(path, start + attempt * shift, clip_len)
-        track = (await shazam.recognize(data)).get("track")
+            await asyncio.sleep(sleep_sec)   # not time.sleep: that stalls every worker
+        data = await clip_bytes(path, start + attempt * shift, clip_len)
+        # Hard timeout. shazamio sits on aiohttp_retry, which retries transparently
+        # with backoff -- so throttling shows up as ever-slower calls, never as an
+        # error. Without this, a throttled run looks like a hang: 268 clips at
+        # concurrency 5 produced ZERO completions and the circuit breaker, which
+        # only counts failures, had nothing to count.
+        track = (await asyncio.wait_for(shazam.recognize(data), timeout)).get("track")
         if not track:
             ids.append(None)
             if attempt == 0:
@@ -237,64 +249,87 @@ async def recognize_clip(shazam, path: Path, start: int, clip_len: float,
 async def run(todo: list[tuple[str, int]], paths: dict[str, Path],
               clip_len: float, sleep_sec: float, out_path: Path,
               rows: dict[tuple[str, int], dict], attempts: int,
-              shift: float) -> tuple[int, int, int, int]:
+              shift: float, concurrency: int, timeout: float) -> tuple[int, int, int, int]:
+    """Recognize every clip in `todo`, up to `concurrency` at a time.
+
+    Each clip is mostly spent waiting on Shazam, so overlapping them is nearly
+    free. The whole pipeline had to become genuinely non-blocking for this to
+    help: ffmpeg via create_subprocess_exec and asyncio.sleep, since a single
+    blocking call stalls every other worker on the same event loop.
+
+    Counters live in a dict rather than closure locals because asyncio callbacks
+    cannot rebind them. No lock is needed around the shared dicts -- asyncio is
+    single-threaded and none of the updates await partway through.
+    """
     from shazamio import Shazam
 
     shazam = Shazam()
-    ok = fail = hits = stable_hits = 0
-    streak = 0
-    for i, (vid, start) in enumerate(todo, 1):
-        row = {k: "" for k in SCHEMA}
-        row.update({"video_id": vid, "start_sec": start, "matched": False,
-                    "recognized_at": pd.Timestamp.now("UTC").isoformat(timespec="seconds")})
-        try:
-            track, n_att, agree, verdict, alt = await recognize_clip(
-                shazam, paths[vid], start, clip_len, attempts, shift, sleep_sec)
-            ok += 1
-            streak = 0
-            row.update({"attempts": n_att, "agree": agree, "verdict": verdict,
-                        "alt_matches": alt})
-            if track:
-                hits += 1
-                row.update(track)
-                row["matched"] = True
-                row["stable"] = verdict == CONFIRMED
-                if row["stable"]:
-                    stable_hits += 1
-                mark = "" if row["stable"] else f"  <-- {verdict.upper()} ({agree}/{n_att}), also: {alt[:55]}"
-                logging.info(f"[{i}/{len(todo)}] {vid} @{start:>4}s  {row['artist']} - {row['title']}"
-                             f"   [{row['label']}, {row['released']}]{mark}")
-            else:
-                row["stable"] = False
-                logging.info(f"[{i}/{len(todo)}] {vid} @{start:>4}s  no match")
-        except Exception as e:
-            fail += 1
-            streak += 1
-            # `or [""]` matters: some exceptions carry no message at all
-            # (asyncio.TimeoutError is the common one here), and "".splitlines()
-            # is [], so indexing [0] crashes the handler itself and takes down
-            # the whole run while trying to record a routine failure.
-            row["error"] = f"{type(e).__name__}: {(str(e).splitlines() or [''])[0][:200]}"
-            logging.error(f"[{i}/{len(todo)}] {vid} @{start}s failed: {row['error']}")
+    sem = asyncio.Semaphore(concurrency)
+    st = {"ok": 0, "fail": 0, "hits": 0, "stable": 0, "streak": 0, "done": 0, "abort": False}
+    total = len(todo)
 
-        rows[(vid, start)] = row
+    async def one(vid: str, start: int) -> None:
+        if st["abort"]:
+            return
+        async with sem:
+            if st["abort"]:
+                return
+            row = {k: "" for k in SCHEMA}
+            row.update({"video_id": vid, "start_sec": start, "matched": False,
+                        "recognized_at": pd.Timestamp.now("UTC").isoformat(timespec="seconds")})
+            try:
+                track, n_att, agree, verdict, alt = await recognize_clip(
+                    shazam, paths[vid], start, clip_len, attempts, shift, sleep_sec, timeout)
+                st["ok"] += 1
+                st["streak"] = 0
+                row.update({"attempts": n_att, "agree": agree, "verdict": verdict,
+                            "alt_matches": alt})
+                if track:
+                    st["hits"] += 1
+                    row.update(track)
+                    row["matched"] = True
+                    row["stable"] = verdict == CONFIRMED
+                    if row["stable"]:
+                        st["stable"] += 1
+                    mark = "" if row["stable"] else f"  <-- {verdict.upper()} ({agree}/{n_att}), also: {alt[:55]}"
+                    logging.info(f"[{st['done'] + 1}/{total}] {vid} @{start:>4}s  {row['artist']} - {row['title']}"
+                                 f"   [{row['label']}, {row['released']}]{mark}")
+                else:
+                    row["stable"] = False
+                    logging.info(f"[{st['done'] + 1}/{total}] {vid} @{start:>4}s  no match")
+            except Exception as e:
+                st["fail"] += 1
+                st["streak"] += 1
+                # `or [""]` matters: some exceptions carry no message at all
+                # (asyncio.TimeoutError is the common one here), and "".splitlines()
+                # is [], so indexing [0] crashes the handler itself and takes down
+                # the whole run while trying to record a routine failure.
+                row["error"] = f"{type(e).__name__}: {(str(e).splitlines() or [''])[0][:200]}"
+                logging.error(f"[{st['done'] + 1}/{total}] {vid} @{start}s failed: {row['error']}")
 
-        # Network down (or Shazam blocking) means every remaining clip fails the
-        # same way. Stop and keep what we have; errored clips are retried on the
-        # next run, so nothing is lost by bailing out here.
-        if streak >= FAILURE_STREAK_LIMIT:
-            write(rows, out_path)
-            logging.error(
-                f"{streak} consecutive failures -- stopping early (network down?). "
-                f"Re-run to resume; completed clips are already saved."
-            )
-            break
+            rows[(vid, start)] = row
+            st["done"] += 1
 
-        if i % 20 == 0 or i == len(todo):
-            write(rows, out_path)
-        if sleep_sec > 0 and i < len(todo):
-            time.sleep(sleep_sec)
-    return ok, fail, hits, stable_hits
+            # Network down, or Shazam finally objecting to the pace: every
+            # remaining clip would fail the same way. Stop and keep what we have;
+            # errored clips are retried on the next run, so nothing is lost.
+            if st["streak"] >= FAILURE_STREAK_LIMIT:
+                st["abort"] = True
+                write(rows, out_path)
+                logging.error(
+                    f"{st['streak']} consecutive failures -- stopping early "
+                    f"(network down, or too much concurrency?). Re-run to resume; "
+                    f"completed clips are already saved."
+                )
+                return
+
+            if st["done"] % 20 == 0 or st["done"] == total:
+                write(rows, out_path)
+            if sleep_sec > 0:
+                await asyncio.sleep(sleep_sec)
+
+    await asyncio.gather(*(one(vid, start) for vid, start in todo))
+    return st["ok"], st["fail"], st["hits"], st["stable"]
 
 
 def write(rows: dict, out_path: Path) -> None:
@@ -306,7 +341,8 @@ def write(rows: dict, out_path: Path) -> None:
 
 def main(metadata: Path, audio_dir: Path, out_path: Path, ids: str | None,
          limit: int | None, every: int, clip_len: float, max_clips: int | None,
-         sleep_sec: float, attempts: int, shift: float) -> int:
+         sleep_sec: float, attempts: int, shift: float, concurrency: int,
+         timeout: float) -> int:
     m = pd.read_csv(metadata)
     paths = audio_paths(audio_dir)
 
@@ -345,7 +381,7 @@ def main(metadata: Path, audio_dir: Path, out_path: Path, ids: str | None,
     logging.info(
         f"{len(m)} video(s), {len(todo)} clip(s) to recognize "
         f"({clip_len:g}s every {every}s, {attempts} attempt(s) per match, "
-        f"{sleep_sec}s between calls)"
+        f"{concurrency} at a time, {sleep_sec}s between calls)"
     )
     if not todo:
         logging.info("nothing to do")
@@ -353,7 +389,7 @@ def main(metadata: Path, audio_dir: Path, out_path: Path, ids: str | None,
 
     t0 = time.time()
     ok, fail, hits, stable_hits = asyncio.run(
-        run(todo, paths, clip_len, sleep_sec, out_path, rows, attempts, shift))
+        run(todo, paths, clip_len, sleep_sec, out_path, rows, attempts, shift, concurrency, timeout))
     write(rows, out_path)
     logging.info(
         f"done in {time.time() - t0:.0f}s. {ok} recognized, {fail} failed, "
@@ -373,7 +409,17 @@ if __name__ == "__main__":
     p.add_argument("--every", type=int, default=30, help="seconds between clip starts")
     p.add_argument("--duration", type=float, default=12.0, help="clip length in seconds")
     p.add_argument("--max-clips", type=int, default=None, help="cap clips per video")
-    p.add_argument("--sleep", type=float, default=1.0, help="seconds between Shazam calls")
+    p.add_argument("--sleep", type=float, default=0.15,
+                   help="seconds between calls within a worker (default 0.15; no "
+                        "rate-limiting has been observed, the circuit breaker catches it if it starts)")
+    p.add_argument("--concurrency", type=int, default=3,
+                   help="clips in flight at once (default 3). Shazam throttles sustained "
+                        "load silently via retry backoff, so higher is not faster: 5 stalled "
+                        "a 268-clip run to zero completions.")
+    p.add_argument("--timeout", type=float, default=45.0,
+                   help="seconds before a single recognition is abandoned (default 45). "
+                        "Turns a throttle stall into a countable failure the circuit "
+                        "breaker can act on.")
     p.add_argument("--attempts", type=int, default=2,
                    help="time-shifted windows to check each MATCHING clip against; a match "
                         "that does not survive the shift is noise (default 2, 1 disables)")
@@ -382,4 +428,4 @@ if __name__ == "__main__":
     args = p.parse_args()
     sys.exit(main(args.metadata, args.audio, args.out, args.ids, args.limit,
                   args.every, args.duration, args.max_clips, args.sleep,
-                  args.attempts, args.shift))
+                  args.attempts, args.shift, args.concurrency, args.timeout))
