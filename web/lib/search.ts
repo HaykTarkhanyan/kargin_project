@@ -22,6 +22,11 @@ const FIELDS: Array<[keyof Sketch, number]> = [
 // `transcript` is an object and the FIELDS loop only walks string properties.
 const TRANSCRIPT_WEIGHT = 2;
 
+// Songs sit alongside actors at 2: naming the music is a real way to find a
+// sketch ("Thriller", "Челентано"), but it describes the soundtrack rather than
+// what the sketch is about, so it should not outrank the dialogue.
+const SONG_WEIGHT = 2;
+
 function durationOk(sec: number | null, bucket?: Filters["duration"]): boolean {
   if (!bucket || sec == null) return !bucket;
   if (bucket === "<2") return sec < 120;
@@ -64,6 +69,11 @@ function getIndex(s: Sketch): SketchIndex {
   // For 95 sketches this is the only dialogue there is; without it they match
   // nothing but their own title.
   if (s.transcript?.text) add(s.transcript.text, TRANSCRIPT_WEIGHT);
+  // Artist and title only. Album and label are catalogue detail nobody searches
+  // by, and including them would dilute the index with reissue names.
+  if (s.songs?.length) {
+    add(s.songs.map((x) => `${x.artist} ${x.title}`).join(" "), SONG_WEIGHT);
+  }
   idx = { combined: normalize(parts.join(" ")), fields };
   _indexCache.set(s, idx);
   return idx;

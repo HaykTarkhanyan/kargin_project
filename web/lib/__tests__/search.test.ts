@@ -36,6 +36,41 @@ describe("searchSketches", () => {
   });
 });
 
+// `songs` and `transcript` are objects, so the string-only FIELDS loop cannot
+// reach them; both need their own branch in getIndex.
+describe("non-string fields are searchable", () => {
+  const song = { album: "", label: "", released: "", url: "", at: [30] };
+  const data = [
+    mk({ id: "s", title: "sketch 1", songs: [{ ...song, artist: "Michael Jackson", title: "Thriller" }] }),
+    mk({ id: "c", title: "sketch 2", songs: [{ ...song, artist: "Adriano Celentano", title: "Susanna" }] }),
+    mk({
+      id: "t", title: "sketch 3",
+      transcript: { text: "բարև ձեզ սիրելի հանդիսատես", source: "batch_reupload", events: 4, armenianChars: 24 },
+    }),
+    mk({ id: "n", title: "sketch 4" }),
+  ];
+
+  it("finds a sketch by song title", () => {
+    expect(searchSketches("Thriller", data, {}).map((s) => s.id)).toEqual(["s"]);
+  });
+  it("finds a sketch by artist", () => {
+    expect(searchSketches("Celentano", data, {}).map((s) => s.id)).toEqual(["c"]);
+  });
+  it("finds a sketch whose only dialogue is a machine transcript", () => {
+    expect(searchSketches("հանդիսատես", data, {}).map((s) => s.id)).toEqual(["t"]);
+  });
+  it("does not match sketches without songs or transcript", () => {
+    expect(searchSketches("Thriller", data, {}).map((s) => s.id)).not.toContain("n");
+  });
+  it("ranks dialogue above a song hit for the same term", () => {
+    const both = [
+      mk({ id: "dialogue", text: "Սուսաննա ջան" }),
+      mk({ id: "songonly", songs: [{ ...song, artist: "X", title: "Սուսաննա" }] }),
+    ];
+    expect(searchSketches("Սուսաննա", both, {})[0].id).toBe("dialogue");
+  });
+});
+
 describe("format", () => {
   it("formats views", () => { expect(formatViews(1358199)).toBe("1.4M"); expect(formatViews(813444)).toBe("813K"); });
   it("formats duration", () => { expect(formatDuration(242)).toBe("4:02"); });
