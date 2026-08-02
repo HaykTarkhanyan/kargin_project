@@ -1,0 +1,170 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Kargin — review</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.5 system-ui, sans-serif; display: grid;
+         grid-template-columns: 300px 1fr; height: 100vh; }
+  #list { border-right: 1px solid #ccc; overflow-y: auto; }
+  #list .item { padding: 7px 10px; border-bottom: 1px solid #eee; cursor: pointer; }
+  #list .item:hover { background: #f4f4f4; }
+  #list .item.active { background: #dbeafe; }
+  #list .item.edited { border-left: 4px solid #d97706; }
+  #list .item .t { font-weight: 600; }
+  #list .item .m { color: #777; font-size: 12px; }
+  #search { width: 100%; padding: 8px 10px; border: 0; border-bottom: 1px solid #ccc; font: inherit; }
+  #pane { overflow-y: auto; padding: 16px 20px 60px; }
+  iframe { width: 100%; max-width: 640px; aspect-ratio: 16/9; border: 1px solid #ccc; }
+  label { display: block; margin-top: 14px; font-weight: 600; }
+  label .flag { color: #d97706; font-weight: 400; }
+  textarea, input { width: 100%; max-width: 900px; padding: 7px; font: inherit; border: 1px solid #bbb; }
+  textarea { min-height: 90px; resize: vertical; }
+  textarea.big { min-height: 220px; }
+  .dirty { border-color: #d97706; background: #fffbeb; }
+  #bar { position: fixed; bottom: 0; left: 300px; right: 0; padding: 10px 20px;
+         background: #fff; border-top: 1px solid #ccc; display: flex; gap: 12px; align-items: center; }
+  button { padding: 8px 16px; font: inherit; cursor: pointer; }
+  #save { font-weight: 700; }
+  #status { color: #555; }
+  .warn { background: #fef3c7; padding: 8px 10px; margin-bottom: 10px; border-left: 4px solid #d97706; }
+  .src { color: #777; font-size: 12px; white-space: pre-wrap; margin-top: 3px;
+         max-height: 80px; overflow: auto; border-left: 2px solid #ddd; padding-left: 6px; }
+</style>
+
+<div id="list"><input id="search" placeholder="filter by title or id…" autofocus></div>
+<div id="pane"><p style="color:#777">Pick a video on the left.</p></div>
+
+<script>
+const FIELDS = {{ fields|tojson }};
+let all = [], current = null, initial = {};
+
+const el = (t, p = {}) => Object.assign(document.createElement(t), p);
+const dirtyFields = () =>
+  FIELDS.filter(f => document.getElementById("f_" + f)
+                  && document.getElementById("f_" + f).value !== initial[f]);
+
+function renderList(filter = "") {
+  const q = filter.trim().toLowerCase();
+  const box = document.getElementById("list");
+  [...box.querySelectorAll(".item")].forEach(n => n.remove());
+  for (const v of all) {
+    if (q && !(v.title || "").toLowerCase().includes(q) && !v.video_id.toLowerCase().includes(q)
+        && !(v.id || "").includes(q)) continue;
+    const d = el("div", { className: "item" + (v.edited ? " edited" : "")
+                                    + (current === v.video_id ? " active" : "") });
+    d.innerHTML = `<div class="t"></div><div class="m"></div>`;
+    d.querySelector(".t").textContent = v.title || v.video_id;
+    d.querySelector(".m").textContent =
+      `${v.id} · ${v.video_id}${v.has_text ? "" : " · no text"}${v.edited ? " · edited" : ""}`;
+    d.onclick = () => open(v.video_id);
+    box.appendChild(d);
+  }
+}
+
+async function loadList() {
+  all = await (await fetch("/api/videos")).json();
+  renderList(document.getElementById("search").value);
+}
+
+async function open(vid) {
+  // Guard against losing edits by navigating away.
+  if (current && dirtyFields().length &&
+      !confirm("Unsaved changes on this video. Discard them?")) return;
+  const d = await (await fetch("/api/video/" + vid)).json();
+  current = vid;
+  initial = {};
+  const pane = document.getElementById("pane");
+  pane.innerHTML = "";
+
+  if (d.duplicate_of) {
+    const w = el("div", { className: "warn" });
+    w.textContent = "Marked as a duplicate of: " + d.duplicate_of;
+    pane.appendChild(w);
+  }
+  pane.appendChild(el("h2", { textContent: d.fields.titles.value || vid, style: "margin:0 0 4px" }));
+  const meta = el("div", { style: "color:#777;margin-bottom:10px" });
+  meta.textContent = `id ${d.id} · ${vid}`;
+  pane.appendChild(meta);
+
+  const f = el("iframe");
+  f.src = "https://www.youtube.com/embed/" + vid;
+  f.allowFullscreen = true;
+  pane.appendChild(f);
+
+  for (const name of FIELDS) {
+    const info = d.fields[name];
+    initial[name] = info.value;
+    const lab = el("label");
+    lab.textContent = name;
+    if (info.edited) lab.appendChild(el("span", { className: "flag", textContent: "  (has a pending edit)" }));
+    pane.appendChild(lab);
+
+    const big = name === "text";
+    const box = el("textarea", { id: "f_" + name, value: info.value,
+                                 className: big ? "big" : "" });
+    if (["location", "lighting", "done", "main_actors_count"].includes(name)) box.rows = 1;
+    box.oninput = () => {
+      box.classList.toggle("dirty", box.value !== initial[name]);
+      updateStatus();
+    };
+    pane.appendChild(box);
+
+    if (info.edited && info.source !== info.value) {
+      const s = el("div", { className: "src" });
+      s.textContent = "source: " + (info.source || "(empty)");
+      pane.appendChild(s);
+    }
+  }
+  renderList(document.getElementById("search").value);
+  updateStatus();
+}
+
+function updateStatus() {
+  const n = dirtyFields().length;
+  document.getElementById("status").textContent =
+    n ? `${n} field(s) changed — not saved yet` : "no unsaved changes";
+}
+
+async function save() {
+  if (!current) return;
+  const changed = dirtyFields();
+  if (!changed.length) { document.getElementById("status").textContent = "nothing to save"; return; }
+  const fields = {};
+  for (const f of changed) fields[f] = document.getElementById("f_" + f).value;
+
+  const btn = document.getElementById("save");
+  btn.disabled = true;
+  try {
+    const res = await fetch("/api/video/" + current, {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ fields }),
+    });
+    const out = await res.json();
+    if (!res.ok) { alert("Save failed: " + (out.error || res.status)); return; }
+    for (const f of changed) {
+      initial[f] = fields[f];
+      document.getElementById("f_" + f).classList.remove("dirty");
+    }
+    document.getElementById("status").textContent =
+      "saved: " + Object.entries(out.saved).map(([k, v]) => `${k}=${v}`).join(", ");
+    await loadList();
+  } catch (e) {
+    alert("Save failed: " + e);          // never silently swallow a failed write
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+document.getElementById("search").oninput = e => renderList(e.target.value);
+window.addEventListener("beforeunload", e => { if (dirtyFields().length) e.preventDefault(); });
+document.addEventListener("keydown", e => {
+  if ((e.ctrlKey || e.metaKey) && e.key === "s") { e.preventDefault(); save(); }
+});
+
+const bar = el("div", { id: "bar" });
+bar.appendChild(el("button", { id: "save", textContent: "Save (Ctrl+S)", onclick: save }));
+bar.appendChild(el("span", { id: "status", textContent: "no unsaved changes" }));
+document.body.appendChild(bar);
+
+loadList();
+</script>

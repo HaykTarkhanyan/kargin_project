@@ -229,5 +229,9 @@ __marimo__/
 # (the reviewable *result*, data/duplicates.csv, is committed)
 /data/audio_fingerprints.npz
 
+# Timestamped safety copies written before every corrections/source write.
+# Local recovery only — git already holds the committed history of both files.
+/data/backups/
+
 # Per-user Claude Code overrides
 .claude/settings.local.json

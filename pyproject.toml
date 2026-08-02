@@ -25,6 +25,11 @@ norecursedirs = ["old", ".*", "node_modules", ".venv", "dist", "*.egg"]
 dev = [
     "pytest==9.1.0",
 ]
+review = [
+    # Optional: local-only curation UI. Never deployed; run with
+    # uv run --group review python scripts/review_ui.py
+    "flask==3.1.3",
+]
 songs = [
     # Optional: unofficial reverse-engineered Shazam client, no API key. Kept out
     # of the core deps because it breaks whenever Shazam changes its private service.
