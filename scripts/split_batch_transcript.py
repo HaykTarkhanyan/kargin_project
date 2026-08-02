@@ -27,6 +27,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 import sys
 from pathlib import Path
 
@@ -42,6 +43,63 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
+
+
+# YouTube's ASR emits an unknown-token marker that survives into the caption
+# text, sometimes truncated mid-marker ("ի<unչ" for "ինչ"). The character it
+# replaced is unrecoverable, so the marker is stripped and COUNTED -- leaving it
+# in would corrupt search and word counts, and dropping it silently would hide
+# how much of the transcript is guesswork.
+UNK = re.compile(r"<\s*/?\s*unk?>?")
+
+SRT_TIME = re.compile(
+    r"(\d{2}):(\d{2}):(\d{2})[,.](\d{3})\s*-->\s*(\d{2}):(\d{2}):(\d{2})[,.](\d{3})")
+
+
+def _secs(h: str, m: str, s: str, ms: str) -> float:
+    return int(h) * 3600 + int(m) * 60 + int(s) + int(ms) / 1000.0
+
+
+def read_srt(path: Path) -> list[dict]:
+    """SRT -> [{start, end, text}] in batch-global seconds.
+
+    Cues overlap by design (YouTube rolls two lines), but each carries distinct
+    text, so concatenating them reproduces the transcript without duplication.
+    """
+    out = []
+    for block in re.split(r"\n\s*\n", path.read_text(encoding="utf-8-sig")):
+        m = SRT_TIME.search(block)
+        if not m:
+            continue
+        text = "\n".join(
+            ln.strip() for ln in block.splitlines()
+            if ln.strip() and not SRT_TIME.search(ln) and not ln.strip().isdigit()
+        ).strip()
+        if not text:
+            continue
+        out.append({
+            "start": _secs(*m.groups()[:4]),
+            "end": _secs(*m.groups()[4:]),
+            "text": text,
+        })
+    if not out:
+        raise ValueError(f"{path} yielded no cues -- is it really an SRT file?")
+    return out
+
+
+def read_captions(path: Path) -> list[dict]:
+    """Dispatch on extension, then strip unknown-token markers loudly."""
+    events = read_srt(path) if path.suffix.lower() == ".srt" else read_json3(path)
+    hits = 0
+    for e in events:
+        cleaned, n = UNK.subn("", e["text"])
+        if n:
+            hits += n
+            e["text"] = re.sub(r"\s{2,}", " ", cleaned).strip()
+    if hits:
+        logging.warning(f"stripped {hits} unknown-token marker(s) -- those words lost "
+                        f"a character to ASR and cannot be recovered")
+    return [e for e in events if e["text"]]
 
 
 def read_json3(path: Path) -> list[dict]:
@@ -118,7 +176,7 @@ def main(captions: Path, manifest_path: Path, out_dir: Path, lang: str, dry_run:
         return 2
 
     rows = pd.read_csv(manifest_path).to_dict("records")
-    events = read_json3(captions)
+    events = read_captions(captions)
     logging.info(f"{len(events)} caption events over {len(rows)} clips")
 
     by_seq, unassigned = assign(events, rows)

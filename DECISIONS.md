@@ -31,6 +31,11 @@ wrong — 5.89 h is a slow, all-or-nothing ASR job).
 uploading 02–04 and run the Whisper comparison in #1 instead. The renders can sit
 on disk indefinitely; nothing forces them to be uploaded.
 
+**Outcome (2026-08-02, same day).** All four were uploaded and returned captions.
+**87 videos, 111,266 Armenian characters; 80 of 87 carry more than 500.** Only 3
+are weak, and one of those is a 40-second clip. The risk this entry took on did
+not materialise, and building ahead saved a full ASR turnaround per batch.
+
 **Balancing note.** Batches are contiguous by curation id but balanced by
 runtime, not clip count — durations are too uneven for equal counts (batch02 is
 6 clips averaging ~14 min; batch04 is 26 averaging ~3 min).
