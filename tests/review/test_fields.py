@@ -16,12 +16,14 @@ def test_titles_is_not_editable():
 
 def test_every_editable_field_declares_a_known_kind():
     assert set(EDITABLE_FIELDS) == set(FIELD_KIND)
-    assert set(FIELD_KIND.values()) <= {"textarea", "text", "select", "datalist"}
+    assert set(FIELD_KIND.values()) <= {"textarea", "text", "select", "combo"}
 
 
 @pytest.mark.parametrize("field,kind", [
     ("lighting", "select"), ("languages", "select"), ("done", "select"),
-    ("location", "datalist"), ("main_actors_count", "datalist"),
+    # combo, not datalist: a bare <datalist> has no visible affordance and reads
+    # as a dead text field.
+    ("location", "combo"), ("main_actors_count", "combo"),
     ("text", "textarea"), ("text_common", "textarea"),
 ])
 def test_field_kinds(field, kind):
@@ -41,9 +43,9 @@ def test_options_come_from_the_data_most_common_first():
     assert opts["done"] == ["1.0", "0.0"]
 
 
-def test_options_only_cover_select_and_datalist_fields():
+def test_options_only_cover_choosable_fields():
     opts = review_ui.field_options([{f: "x" for f in EDITABLE_FIELDS}])
-    assert set(opts) == {f for f, k in FIELD_KIND.items() if k in ("select", "datalist")}
+    assert set(opts) == {f for f, k in FIELD_KIND.items() if k in ("select", "combo")}
     assert "text" not in opts
 
 

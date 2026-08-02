@@ -33,7 +33,10 @@ import pandas as pd
 # step with the data instead of drifting from a hardcoded list.
 #
 #   select   closed set -- the UI offers exactly what exists, nothing else
-#   datalist suggestions plus free text, for fields that legitimately grow
+#   combo    dropdown of known values plus an explicit "other" that reveals a
+#            text box, for fields that legitimately grow. NOT a bare <datalist>:
+#            that has no visible affordance in any browser, so it reads as a
+#            dead text field until you happen to type a matching prefix.
 #   textarea / text  free form
 #
 # `titles` is deliberately absent: it comes from YouTube, is the join key people
@@ -48,12 +51,12 @@ FIELD_KIND = {
     "roles_names": "text",
     # 32 distinct and climbing; one existing value literally reads
     # "Այլ(գրեք ավելացնենք)" -- other, write it and we'll add it.
-    "location": "datalist",
+    "location": "combo",
     "lighting": "select",
     "languages": "select",
     # Should be a number but the column is polluted with actor names, so free
     # text is kept until it is cleaned rather than silently dropping values.
-    "main_actors_count": "datalist",
+    "main_actors_count": "combo",
     "done": "select",
     # Review sign-off, added by scripts/add_status_final.py. Distinct from
     # `done`, which came from the original curation pass.

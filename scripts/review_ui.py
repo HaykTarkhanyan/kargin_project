@@ -60,7 +60,7 @@ def field_options(all_rows: list[dict]) -> dict[str, list[str]]:
     """
     out: dict[str, list[str]] = {}
     for field, kind in FIELD_KIND.items():
-        if kind not in ("select", "datalist"):
+        if kind not in ("select", "combo"):
             continue
         counts: dict[str, int] = {}
         for r in all_rows:
@@ -107,12 +107,24 @@ def api_videos():
             "words": word_count(r.get("text")),
             "status": status or STATUS_FALSE,
             "edited": vid in edited,
+            # From the audio-fingerprint pass: this sketch is the same recording
+            # as another upload, so its curation may already exist elsewhere.
+            "duplicate": bool(clean(r.get("duplicate_of"))),
         })
+
+    # Shortest first: the sketches with least dialogue are the ones most likely
+    # to be missing curation, so they are where review time pays off.
+    items.sort(key=lambda it: (it["words"], it["id"]))
 
     dist: dict[str, int] = {}
     for it in items:
         dist[it["status"]] = dist.get(it["status"], 0) + 1
-    return jsonify({"items": items, "distribution": dist, "edited": len(edited)})
+    return jsonify({
+        "items": items,
+        "distribution": dist,
+        "edited": len(edited),
+        "duplicates": sum(1 for it in items if it["duplicate"]),
+    })
 
 
 @app.get("/api/video/<video_id>")
