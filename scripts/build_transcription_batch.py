@@ -31,6 +31,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -129,14 +130,47 @@ def split_balanced(picked: pd.DataFrame, n: int) -> list[pd.DataFrame]:
     return [picked.loc[idx] for idx in chunks]
 
 
+ARMENIAN = re.compile(r"[԰-֏]")
+
+# A transcript this size is doing its job; anything less is noise or silence.
+GOOD_TRANSCRIPT_CHARS = 500
+
+
+def has_good_transcript(transcripts_dir: Path) -> set[str]:
+    """video_ids already holding a usable Armenian transcript, from any source.
+
+    Checked against the transcripts on disk rather than against caption-language
+    filenames, because after a batch round a video may have a fine transcript
+    that YouTube's own page never carried.
+    """
+    out = set()
+    if not transcripts_dir.exists():
+        return out
+    for p in transcripts_dir.glob("*.hy.json"):
+        d = json.loads(p.read_text(encoding="utf-8"))
+        if len(ARMENIAN.findall(d.get("full_text") or "")) >= GOOD_TRANSCRIPT_CHARS:
+            out.add(d.get("video_id"))
+    return out
+
+
 def select(source: Path, transcripts_raw: Path, audio_dir: Path,
-           exclude: list[Path]) -> pd.DataFrame:
-    """Videos with no curated dialogue AND no usable Armenian captions."""
+           exclude: list[Path], max_words: int, transcripts_dir: Path) -> pd.DataFrame:
+    """Videos whose dialogue is missing or thin AND that lack a good transcript.
+
+    `max_words` is the ceiling on curated dialogue. 0 means "nothing curated at
+    all", which selected the first 87. Raising it reaches videos with token
+    curation -- measured worthwhile only up to about 50 words, because beyond
+    that curation already runs ~95% the length of what ASR would return, and a
+    transcript would duplicate it more noisily rather than add anything.
+    """
     df = pd.read_csv(source, dtype=str, keep_default_na=False)
     df["words"] = df["text"].str.split().str.len()
     df["caption_lang"] = df["video_id"].map(caption_lang(transcripts_raw)).fillna("MISSING")
 
-    picked = df[(df["words"] == 0) & (df["caption_lang"] != USABLE_LANG)].copy()
+    done = has_good_transcript(transcripts_dir)
+    picked = df[(df["words"] <= max_words) & (~df["video_id"].isin(done))].copy()
+    logging.info(f"{len(picked)} with <={max_words} curated words and no transcript "
+                 f"(of {len(df)}; {len(done)} already have one)")
 
     if exclude:
         done = already_batched(exclude)
@@ -183,9 +217,10 @@ def write_manifest(chunk: pd.DataFrame, dest: Path) -> float:
 
 def main(source: Path, transcripts_raw: Path, audio_dir: Path, out_dir: Path,
          limit: int | None, max_clip_minutes: float | None,
-         exclude: list[Path], batches: int, start_number: int) -> int:
-    picked = select(source, transcripts_raw, audio_dir, exclude)
-    logging.info(f"{len(picked)} videos need a transcript (no dialogue, no {USABLE_LANG} captions)")
+         exclude: list[Path], batches: int, start_number: int,
+         max_words: int, transcripts_dir: Path) -> int:
+    picked = select(source, transcripts_raw, audio_dir, exclude, max_words, transcripts_dir)
+    logging.info(f"{len(picked)} videos selected for transcription")
 
     # Stable, meaningful order: by curation id, so the batch is reproducible and
     # a human scrubbing the uploaded video can predict what comes next.
@@ -247,6 +282,14 @@ if __name__ == "__main__":
                         "balanced by runtime rather than clip count (default 1)")
     p.add_argument("--start-number", type=int, default=1,
                    help="number the first batch directory from here (default 1)")
+    p.add_argument("--max-words", type=int, default=0,
+                   help="ceiling on curated dialogue. 0 = nothing curated (the first 87). "
+                        "~50 reaches token curation; beyond that curation already runs "
+                        "~95%% the length of ASR, so a transcript adds noise, not content.")
+    p.add_argument("--transcripts", default=Path("data/transcripts"), type=Path,
+                   help="videos already holding a good transcript here are skipped")
     a = p.parse_args()
     sys.exit(main(a.source, a.transcripts_raw, a.audio, a.out, a.limit,
-                  a.max_clip_minutes, a.exclude, a.batches, a.start_number))
+                  a.max_clip_minutes, a.exclude, a.batches, a.start_number,
+                  a.max_words, a.transcripts))
+
