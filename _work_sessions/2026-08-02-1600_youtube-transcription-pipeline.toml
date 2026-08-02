@@ -1,0 +1,170 @@
+title = "Transcribing the archive by re-uploading its audio to YouTube, and a sweep supervisor that runs unattended"
+date = "2026-08-02"
+time = "16:00"
+areas = ["scripts/", "scripts/kargin_build/", "web/lib/", "web/components/", "tests/build/", "data/transcription_batch/", "data/transcripts/"]
+
+done = """
+THE IDEA AND WHY IT WORKED
+- User's proposal: concatenate the audio of videos with no dialogue, upload to
+  YouTube, harvest the auto-captions, split them back. Built it.
+- The insight that made it work is not "YouTube transcribes well" -- it already
+  had. It is that YouTube's language DETECTION fails on this audio: of 315
+  existing caption files only 84 are Armenian, the rest being 92 Turkish, 49
+  English, 24 Russian, 20 Romanian etc, which return `[Muzik]` markers or
+  phonetic hallucination ("Chi Omega myrtana imports a culture jamming").
+  Uploading ourselves means setting `defaultAudioLanguage` explicitly, which
+  removes the guess. That single field is the whole mechanism.
+- RESULT: 87 videos, 111,266 Armenian characters. 80 of 87 carry >500. Only 3
+  weak, one of which is a 40-second clip. These were the emptiest rows in the
+  archive -- no curated dialogue, no usable captions.
+
+PIPELINE (three scripts, each doing one thing)
+- build_transcription_batch.py  select candidates, probe REAL durations from the
+  audio files, write the offset table
+- render_transcription_batch.py normalise -> concat -> ID cards -> mux
+- split_batch_transcript.py     map captions back per video by timestamp
+- The offset table is the load-bearing part. The user's original plan had an
+  on-screen ID identifying each clip; captions come from audio, so nothing on
+  screen ever reaches the transcript. Splitting is arithmetic on start/end
+  offsets instead, and the card is kept purely for human verification.
+- Events are assigned by MIDPOINT, so a caption straddling a boundary lands with
+  the clip holding most of it. Verified against synthetic captions before any
+  real data existed: a deliberately straddling event landed correctly, and an
+  event past the end was reported rather than absorbed into the last clip.
+
+FOLDED INTO THE SITE
+- 95 sketches that previously matched nothing but their own title now carry
+  dialogue. Searchable at weight 2 (below curated text at 3, because a hit in
+  machine output is weaker evidence), badged on cards, readable on the page.
+- Kept under a separate `transcript` key, never merged into `text`. One is a
+  person's transcription, the other a machine's.
+- 10 new tests, 90 pass. Static build regenerates all 702 pages.
+
+WHAT ELSE IS WORTH TRANSCRIBING -- measured, and the answer was surprising
+- 538 videos still lack a transcript, but only ~60 are worth uploading.
+- On the 46 videos holding BOTH curated text and a fetched transcript, curation
+  runs 0.95 the length of ASR and is independently worded (median Jaccard 0.47 --
+  same speech, different spelling, so genuine human work rather than pasted
+  captions). Where dialogue is already curated, a transcript is a noisier
+  duplicate. That killed ~15 planned uploads.
+- batch05 built accordingly: the 60 videos with THIN curation (median 29 words),
+  1.81 h. Rendered and verified; awaiting upload.
+
+SONG SWEEP -- made it run without supervision
+- The sweep only advanced when someone noticed it had stopped. One cooldown sat
+  idle for 2.5 hours. sweep_songs.py now owns the whole cycle: work, detect the
+  stop, wait out the cooldown, resume, repeat.
+- Detects throttling by MEASURED PROGRESS, not exit code, counted from
+  song_matches.csv -- the same file the resume logic reads, so supervisor and
+  worker cannot disagree about what is done.
+- Runs DETACHED (Start-Process, pid in logs/sweep_songs.pid). Four background
+  tasks had been reaped by the harness mid-run; detaching is what finally let it
+  run for hours.
+- Progress this session: 2250 -> 3527 of 4171 clips, 348 -> 587 videos,
+  430 -> 601 distinct tracks.
+"""
+
+pending = """
+- BATCH05 AWAITS UPLOAD: data/transcription_batch/batch05/batch_for_youtube.mp4
+  (103 MB, 1.81 h, 60 clips). Set the audio language to Armenian (hy) BY HAND --
+  auto-detection is what produced the Turkish and Romanian junk in the archive.
+  Then: uv run python scripts/split_batch_transcript.py --captions <file>.srt
+        --manifest data/transcription_batch/batch05/manifest.csv --dry-run
+- SONG SWEEP RUNNING, 85% (3527/4171, 644 clips left), ~03:00 finish. Detached,
+  pid in logs/sweep_songs.pid. Check: Get-Content logs/sweep_songs.log -Tail 20
+- 27 COMMITS UNPUSHED. Held deliberately: GitHub Pages deploys from main and the
+  song payload changes again when the sweep ends. Push whenever -- the site
+  builds clean either way. This is the one open decision.
+- After the sweep: scripts/build_site_data.py, web build, push.
+"""
+
+next = """
+- Upload batch05, split it, rebuild the payload. That closes transcription: 196
+  videos with transcripts, 478 deliberately skipped, 3 with no speech to find.
+- Song titles still are not searchable. `songs` is an array of objects and
+  search.ts getIndex only walks string fields -- same shape of problem the
+  transcript fix solved, so the `add()` helper is now there to reuse.
+- 4 `partial` duplicate pairs still need a human ear; 2T3Et10cvcg/mV2TGpdDfvE is
+  borderline (same 115s, 75% overlap, differs only in the first ~20s).
+- Compilation membership only partly mapped: fingerprints cover the first 60s, so
+  only compilations whose OPENING matches were found. 31 videos exceed 300s.
+- docs/website_review_2026-08-01.md backlog untouched: SEO package, client bundle
+  (now larger -- payload went 1,692 -> 2,124 KB), dark-theme CTA contrast.
+"""
+
+files = [
+  "scripts/build_transcription_batch.py",
+  "scripts/render_transcription_batch.py",
+  "scripts/split_batch_transcript.py",
+  "scripts/sweep_songs.py",
+  "scripts/recognize_songs.py",
+  "scripts/kargin_build/transcripts.py",
+  "scripts/kargin_build/assemble.py",
+  "scripts/build_site_data.py",
+  "web/lib/types.ts",
+  "web/lib/search.ts",
+  "web/components/SketchCard.tsx",
+  "web/components/WatchView.tsx",
+  "tests/build/test_transcripts.py",
+  "DECISIONS.md",
+  "LEARNINGS.md",
+  "data/transcription_batch/*/manifest.csv",
+  "data/transcripts/*.hy.json",
+]
+
+commits = [
+  "de1056a feat(transcripts): batch05 -- the last 60 videos worth transcribing",
+  "42e450d feat(web): fold machine transcripts into the site",
+  "ab5b51a feat(transcripts): 87 videos transcribed via batch re-upload",
+  "db8d099 feat(songs): supervisor that rides out throttle cycles unattended",
+  "b368c48 docs: learnings on throttle mechanics and concat-demuxer drift",
+  "999ac13 feat(transcripts): render batches 02-04, and log the last clip of a batch",
+  "20b491a feat(transcripts): split the remaining 57 videos into three more batches",
+  "1727cf1 perf(songs): make the failure-streak breaker configurable",
+  "bdaf30f feat(transcripts): batch-upload pipeline for videos with no dialogue",
+  "(+ 6 incremental song-sweep data commits)",
+]
+
+notes = """
+DECISIONS.md WAS CREATED THIS SESSION (it did not exist). Four entries, newest
+first. #4 records building all four uploads before the pilot returned, which
+reopened #3 -- and its outcome, since the risk did not materialise.
+
+THREE MISTAKES WORTH NOT REPEATING
+1. I told the user "killed with no errors -> relaunch immediately, no cooldown".
+   WRONG, and disproved within minutes: the throttle budget is server-side and
+   does not care that our process died. A run killed at 157 clips with zero
+   errors was followed by a relaunch whose FIRST clip timed out. Always probe.
+2. `--batches 1` writes `<out>/manifest.csv`, and I pointed --out at the top
+   level, overwriting batch01's manifest. Recovered via git (it was committed),
+   then re-verified batches 01-04 still partition the 87 exactly before moving
+   on. Verify after a recovery, not just before.
+3. I used PowerShell `Set-Content -Encoding utf8` to add an import to a UTF-8
+   file. It mangled the Armenian regex [U+0530-U+058F] into mojibake AND
+   prepended a BOM. Never edit non-ASCII files with PowerShell -- use the Edit
+   tool or Python.
+
+THE BUG THAT NEARLY SHIPPED, AND WHAT CAUGHT IT
+ffmpeg's concat demuxer does not accumulate `duration` directives to their sum:
+30 stills produced 6369 s of video against 6177.5 s of audio, so every ID card
+drifted further behind the audio. Frame quantisation at 1 fps explains only
+14.5 s of that 191.5 s gap. Caught ONLY by an explicit check comparing the muxed
+output against the manifest total -- there was no visible symptom otherwise, and
+it would have surfaced days later as cards not matching what you hear. Fixed by
+gating each drawtext on absolute output time, so nothing accumulates.
+Every batch since is verified by pulling a frame from its LAST clip, where drift
+would be worst.
+
+A FILTER THAT PAID FOR ITSELF
+load_transcripts drops anything under 100 Armenian characters. 87 batch videos
+went in, 84 came out -- the three excluded are exactly the failures (one had a
+single Armenian character across three minutes of audio). No hand-listing of
+video ids, and the payload never sees the junk.
+
+BREAKER TUNING IS ABOUT FAILURE SPEED, NOT FAILURE COUNT
+The 15-failure limit was chosen for a dropped wifi link, where each failure is an
+instant DNS error and the streak costs nothing. Under a throttle each failure
+burns the full 45 s timeout, so the same threshold measured ~15 min of dead
+waiting per round. Dropping it to 4 cut that to ~3 min and is strictly gentler on
+Shazam -- fewer requests while already blocked.
+"""
