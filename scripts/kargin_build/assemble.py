@@ -3,7 +3,7 @@ import pandas as pd
 from .parse import extract_video_id, parse_seq
 from .canon import canonicalize_actors, canonicalize_location, canonicalize_languages
 from .songs import load_songs
-from .transcripts import load_transcripts, ARMENIAN
+from .transcripts import load_transcripts, novelty
 
 # Seed from the known cast; refined empirically from top non-allowlist tokens (Task 4).
 ACTOR_ALLOWLIST = {
@@ -14,10 +14,15 @@ ACTOR_ALLOWLIST = {
 }
 ACTOR_TYPOS = {"Հակյո": "Հայկո", "ՄԿո": "Մկո"}
 
-# A transcript rides along only when curated dialogue holds less than this
-# fraction of its Armenian characters. 0.6 keeps every sketch whose curation is
-# absent or clearly partial, and drops the near-duplicates.
-TRANSCRIPT_ADDS_RATIO = 0.6
+# A transcript rides along only when at least this fraction of its sentences say
+# something curation does not already contain.
+#
+# This replaced a length-ratio test, which measured the wrong thing. Curation and
+# a transcript routinely run the SAME LENGTH while covering different parts of a
+# sketch -- the curator writes the punchlines, the recogniser catches a monologue.
+# The length rule dropped 26 of 31 pilot videos whose transcripts carried a median
+# 27% new dialogue.
+MIN_TRANSCRIPT_NOVELTY = 0.25
 
 
 def _s(v):
@@ -64,13 +69,13 @@ def row_to_sketch(row, allowlist, typos, songs=None, transcripts=None):
     # on all 702 rows. Kept under its own key, never merged into `text` -- one is
     # a person's transcription, the other a machine's, and the page says which.
     #
-    # Shipped only when it ADDS something. Measured on the 46 videos holding both:
-    # curation runs about as long as ASR (median ratio 0.95) and is independently
-    # worded (median Jaccard 0.47), so where dialogue is already curated the
-    # transcript is a noisier duplicate -- payload weight for no new content.
+    # Shipped only when it ADDS something, judged by how much of it curation does
+    # not already say -- not by how long it is.
     tr = (transcripts or {}).get(vid)
-    if tr and len(ARMENIAN.findall(text)) < TRANSCRIPT_ADDS_RATIO * tr["armenianChars"]:
-        out["transcript"] = tr
+    if tr:
+        n = novelty(text, tr["text"])
+        if n >= MIN_TRANSCRIPT_NOVELTY:
+            out["transcript"] = {**tr, "novelty": round(n, 2)}
     return out
 
 

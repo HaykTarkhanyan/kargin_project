@@ -7,10 +7,21 @@ import pandas as pd
 import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
-from kargin_build.assemble import build_all, TRANSCRIPT_ADDS_RATIO   # noqa: E402
-from kargin_build.transcripts import load_transcripts, MIN_ARMENIAN_CHARS  # noqa: E402
+from kargin_build.assemble import build_all, MIN_TRANSCRIPT_NOVELTY   # noqa: E402
+from kargin_build.transcripts import (                                # noqa: E402
+    load_transcripts, novelty, MIN_ARMENIAN_CHARS,
+)
 
 ARM = "բարև ձեզ սիրելի հանդիսատես ինչպես եք "
+
+# Distinct sentences, so novelty is meaningful. Repeating one line would make
+# every transcript 0% new no matter how long it is.
+LINES_A = ("բարև ձեզ սիրելի հանդիսատես\nինչպես եք այսօր բոլորդ\n"
+           "շատ ուրախ եմ տեսնել\nեկեք սկսենք մեր հաղորդումը\n"
+           "այսօր ունենք հետաքրքիր հյուր\nխնդրում եմ ծափահարեք\n")
+LINES_B = ("երեկ գնացի խանութ գնումներ անելու\nվաճառողը ասաց որ չկա\n"
+           "տուն վերադարձա դատարկ ձեռքով\nկինս շատ բարկացավ ինձ վրա\n"
+           "ասաց նորից պիտի գնաս վաղը\nչեմ ուզում կրկին վիճել\n")
 
 
 def write(d: Path, name: str, video_id: str, text: str, source="youtube_fetch", events=3):
@@ -68,24 +79,42 @@ def _payload(tmp_path, curated_text, transcript_text):
 
 
 def test_transcript_attached_when_there_is_no_curated_dialogue(tmp_path):
-    s = _payload(tmp_path, "", ARM * 5)
+    s = _payload(tmp_path, "", LINES_A)
     assert s["transcript"]["text"]
+    assert s["transcript"]["novelty"] == 1.0
 
 
-def test_transcript_omitted_when_curation_already_covers_it(tmp_path):
-    # Measured: where both exist, curation runs ~0.95 the length of ASR, so
-    # shipping it would be payload weight for a noisier duplicate.
-    s = _payload(tmp_path, ARM * 5, ARM * 5)
+def test_transcript_omitted_when_curation_already_says_the_same_thing(tmp_path):
+    s = _payload(tmp_path, LINES_A, LINES_A)
     assert "transcript" not in s
 
 
-def test_transcript_attached_when_curation_is_only_a_fragment(tmp_path):
-    s = _payload(tmp_path, ARM, ARM * 10)
+def test_transcript_attached_when_it_says_something_new(tmp_path):
+    # The case the old length rule got wrong: same length, different content.
+    s = _payload(tmp_path, LINES_A, LINES_B)
     assert "transcript" in s
 
 
-def test_ratio_threshold_is_between_zero_and_one():
-    assert 0 < TRANSCRIPT_ADDS_RATIO < 1
+def test_same_length_does_not_imply_same_content(tmp_path):
+    # Both texts are the same size, so a length-ratio test would call these
+    # equivalent and drop the transcript. 26 of 31 pilot videos were lost this way.
+    a, b = LINES_A, LINES_B
+    assert abs(len(a) - len(b)) < 0.4 * len(a)
+    assert novelty(a, b) > MIN_TRANSCRIPT_NOVELTY
+
+
+def test_novelty_bounds():
+    assert novelty("", LINES_A) == 1.0          # nothing curated: all new
+    assert novelty(LINES_A, "") == 0.0          # nothing to add
+    assert novelty(LINES_A, LINES_A) == 0.0     # identical
+    assert 0 < MIN_TRANSCRIPT_NOVELTY < 1
+
+
+def test_novelty_tolerates_respelling(tmp_path):
+    # ASR spells the same speech differently; a sentence sharing half its words
+    # with a curated line must still count as already-known.
+    respelled = "բարև ձեզ սիրելի հանդիսատեսներ\nինչպես եք այսօր բոլորդ\n"
+    assert novelty(LINES_A, respelled) < MIN_TRANSCRIPT_NOVELTY
 
 
 def test_real_payload_rescues_sketches_that_had_no_dialogue():
