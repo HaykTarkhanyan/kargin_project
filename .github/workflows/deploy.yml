@@ -22,7 +22,11 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           enable-cache: true
-      - run: uv sync
+      # `uv sync` alone installs the default group only, which does NOT include
+      # flask -- so tests/review/* failed to import and every deploy since the
+      # review UI landed (2026-08-02) died at collection. Sync the groups the
+      # test suite actually imports.
+      - run: uv sync --group review
       - name: Python tests
         run: PYTHONPATH=. uv run pytest -q
       - name: Build site data (CSV -> sketches.json)
