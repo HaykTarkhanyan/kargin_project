@@ -36,4 +36,6 @@ export interface Transcript {
   source: "batch_reupload" | "youtube_fetch";
   events: number;
   armenianChars: number;
+  /** Fraction of its sentences that the curated `text` does not already say. */
+  novelty: number;
 }

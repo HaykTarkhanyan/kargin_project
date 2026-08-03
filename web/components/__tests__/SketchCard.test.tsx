@@ -10,6 +10,11 @@ const s = { id:"ofvCL_U2Er0",videoId:"ofvCL_U2Er0",seq:663,title:"sketch 663",ur
 
 const withText = { ...s, text: "բարև ձեզ; ոնց ես ախպեր; վերջին տողը" } as Sketch;
 
+const transcript = {
+  text: "ասաց գնանք տուն\nքույրս սպասում է դռան մոտ",
+  source: "batch_reupload", events: 2, armenianChars: 40, novelty: 1,
+} as const;
+
 describe("SketchCard", () => {
   it("renders title, location, duration, views, links to /sketch/:id", () => {
     render(<SketchCard sketch={s} />);
@@ -38,6 +43,34 @@ describe("SketchCard", () => {
     const { container } = render(<SketchCard sketch={withText} />);
     expect(container.querySelectorAll("mark")).toHaveLength(0);
     expect(screen.queryByText(/համընկնում/)).toBeNull();
+  });
+
+  // Search indexes the transcript as well as the curated text, so a card can be
+  // returned for a word that appears only in the transcript. 68 sketches carry
+  // both; without the fallback those render "0 matches" and nothing highlighted.
+  it("falls back to the transcript when the query matched only there", () => {
+    const both = { ...withText, transcript } as Sketch;
+    const { container } = render(<SketchCard sketch={both} query="քույրս" />);
+    expect(container.querySelector("mark")?.textContent).toBe("քույրս");
+    expect(screen.getByText("1 համընկնում")).toBeTruthy();
+    expect(screen.getByText(/ավտոմատ/)).toBeTruthy();
+  });
+
+  it("keeps curated dialogue when the query matches it, even if a transcript exists", () => {
+    const both = { ...withText, transcript } as Sketch;
+    // The matched line is split around <mark>, so assert on the mark rather
+    // than the whole line.
+    const { container } = render(<SketchCard sketch={both} query="ախպեր" />);
+    expect(container.querySelector("mark")?.textContent).toBe("ախպեր");
+    expect(screen.getByText("բարև ձեզ")).toBeTruthy();      // unmatched curated line still shown
+    expect(screen.queryByText(/ավտոմատ/)).toBeNull();
+  });
+
+  it("prefers curated dialogue over a transcript when there is no query", () => {
+    const both = { ...withText, transcript } as Sketch;
+    render(<SketchCard sketch={both} />);
+    expect(screen.getByText("բարև ձեզ")).toBeTruthy();
+    expect(screen.queryByText(/ավտոմատ/)).toBeNull();
   });
 
   it("badges how many songs were identified, and none when there are none", () => {

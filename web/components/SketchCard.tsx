@@ -18,11 +18,21 @@ export default function SketchCard({
   const quote = snippet ?? s.textCommon ?? "";
   // Matched lines float to the top so the reason a sketch is in the results is
   // visible without scrolling the dialogue box.
-  // Curated dialogue wins; the machine transcript only stands in where there is
-  // none. For 95 sketches that is the difference between a card with words on it
-  // and a bare thumbnail.
-  const fromTranscript = !s.text && !!s.transcript?.text;
-  const segments = matchedFirst(segmentsFor(s.text || s.transcript?.text || "", q));
+  // Curated dialogue wins by default; the machine transcript stands in when
+  // there is none. For 97 sketches that is the difference between a card with
+  // words on it and a bare thumbnail.
+  //
+  // It also stands in when the query matched the transcript but NOT the curated
+  // text. 68 sketches carry both, and search indexes both, so without this a
+  // card could appear in results reading "0 matches" with nothing highlighted
+  // and no visible reason it was returned.
+  const curated = matchedFirst(segmentsFor(s.text, q));
+  const curatedHits = curated.filter((seg) => seg.matched).length;
+  const fromTranscript =
+    !!s.transcript?.text && (!s.text || (!!q && curatedHits === 0));
+  const segments = fromTranscript
+    ? matchedFirst(segmentsFor(s.transcript!.text, q))
+    : curated;
   const matchCount = segments.filter((seg) => seg.matched).length;
   const quoteSegment = quote ? segmentsFor(quote, q)[0] : undefined;
 

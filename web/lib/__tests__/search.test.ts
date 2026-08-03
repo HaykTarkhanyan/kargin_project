@@ -45,7 +45,7 @@ describe("non-string fields are searchable", () => {
     mk({ id: "c", title: "sketch 2", songs: [{ ...song, artist: "Adriano Celentano", title: "Susanna" }] }),
     mk({
       id: "t", title: "sketch 3",
-      transcript: { text: "բարև ձեզ սիրելի հանդիսատես", source: "batch_reupload", events: 4, armenianChars: 24 },
+      transcript: { text: "բարև ձեզ սիրելի հանդիսատես", source: "batch_reupload", events: 4, armenianChars: 24, novelty: 1 },
     }),
     mk({ id: "n", title: "sketch 4" }),
   ];
