@@ -1,0 +1,149 @@
+title = "Song sweep finished and the whole archive shipped -- plus a CI failure that had been silently blocking deploys for two days"
+date = "2026-08-03"
+time = "09:30"
+areas = ["scripts/", "scripts/kargin_build/", "web/lib/", "web/components/", "tests/", ".github/workflows/"]
+
+done = """
+SONG SWEEP COMPLETE
+- 4145 clips, ALL 702 videos covered, 667 distinct tracks, 1619 confirmed clips,
+  zero outstanding errors. 579 sketches carry identified music.
+- The 4171 figure quoted all along was an estimate; the true clip count is 4145,
+  which is why the last run reported "nothing to do" rather than counting down.
+- Context for the headline number: YouTube's own "Music in this video" panel
+  named tracks on 17 videos. Acoustic identification found music in 579.
+- Most-heard: a laughter sting (40x), then Soviet film scores -- Andrei Petrov's
+  Autumn Marathon cue (17x), the Beware of the Car waltz (15x), Pogonya (15x).
+- The detached supervisor did 14 cycles across two days and survived an
+  overnight shutdown, a wifi drop and a machine sleep, resuming from the CSV
+  each time. One caveat learned: sleep() does NOT advance while the machine is
+  asleep, so after a laptop sleep the supervisor sat in a cooldown that never
+  expired. Finished the last clips by running the worker directly.
+
+BATCH06 PILOT -- the well-curated videos ARE worth transcribing, contrary to
+what I concluded twice
+- I had said the ~478 well-curated videos were not worth it, based on comparing
+  text LENGTHS. Wrong, and the user pushing back ("check a few") is what caught
+  it. Curation and ASR routinely run the SAME LENGTH while covering DIFFERENT
+  PARTS of a sketch -- the curator writes the punchlines, the recogniser catches
+  a monologue.
+- Sentence-level check: median 27% of transcript sentences say something the
+  curation does not (predicted ~24%). 13 of 31 clips exceed 30%.
+- Verified the new text is real rather than hallucinated by testing it against a
+  vocabulary built from all 702 curated texts: median 71-74% in-vocabulary, none
+  below 50%. Caveat: this checks that WORDS are real, not that SENTENCES are
+  coherent, so 27% is an upper bound on useful content -- it also counts
+  laughter and [music] markers.
+
+SHIPPING RULE REPLACED: length -> novelty
+- The pilot exposed that only 5 of 31 of its transcripts reached the site. The
+  rule compared lengths, which is exactly the measurement the pilot disproved.
+- novelty() = fraction of transcript sentences sharing under half their words
+  with any curated line. Half, not all, because ASR respells the same speech
+  (median Jaccard 0.47 between independent transcriptions of this show).
+- 16 of 31 batch06 transcripts now ship; 165 sketches carry one overall (was 127).
+
+WEB
+- Songs are searchable at last. "Thriller" and "Celentano" found nothing before:
+  getIndex only walked string fields and `songs` is an array of objects. 478
+  sketches carrying 831 tracks became reachable. Weighted 2, alongside actors --
+  naming the music should not outrank dialogue, and a test asserts that ordering.
+- Review found a real regression: search indexes transcripts, but the card only
+  rendered s.text when present. With 68 sketches now carrying BOTH, a query
+  matching only the transcript returned a card reading "0 matches" with nothing
+  highlighted. Introduced by the novelty rule -- before it, transcripts only
+  shipped when curated text was absent, so the old fallback was always correct.
+
+SHIPPED AND VERIFIED
+- Deploy succeeded, and the LIVE payload was fetched back and checked directly:
+  2,270 KB, 702 sketches, 579 with songs, 667 distinct tracks, 165 transcripts.
+- 92 python tests, 71 web tests.
+"""
+
+pending = """
+- The remaining ~470 well-curated videos. Evidence says a typical one would gain
+  ~11-15% new dialogue (batch06 got 27% but was deliberately the thinnest-curated
+  31 of 500). That is ~15 uploads of manual effort for a modest return. My
+  recommendation is to stop, BUT that is an inference, not a measurement -- one
+  batch sampled at TYPICAL density rather than the thin tail would settle it.
+- docs/website_review_2026-08-01.md backlog still untouched: SEO package (no
+  generateMetadata/sitemap/OG on 702 pages), client bundle (payload is now
+  2,270 KB, up from 1,692 before transcripts), dark-theme CTA contrast.
+- 4 `partial` duplicate pairs still need a human ear.
+- Compilation membership only partly mapped: fingerprints cover the first 60s.
+"""
+
+next = """
+- Nothing is blocking. The archive is complete and live.
+- If picking this up: the highest-value remaining item is the website review
+  backlog, not more transcription.
+"""
+
+files = [
+  ".github/workflows/deploy.yml",
+  "scripts/kargin_build/transcripts.py",
+  "scripts/kargin_build/assemble.py",
+  "scripts/build_transcription_batch.py",
+  "web/lib/search.ts",
+  "web/lib/types.ts",
+  "web/components/SketchCard.tsx",
+  "tests/build/test_transcripts.py",
+  "web/lib/__tests__/search.test.ts",
+  "web/components/__tests__/SketchCard.test.tsx",
+  "data/transcription_batch/batch06/manifest.csv",
+]
+
+commits = [
+  "89643d8 fix(ci): install the review group so the deploy stops failing at collection",
+  "db42cf9 fix(web): show the transcript when it is why a card matched",
+  "eaf0529 data: song sweep complete -- 702/702 videos, 667 distinct tracks",
+  "9bb282f feat(transcripts): batch06 results, and ship transcripts by novelty not length",
+  "e92ef32 feat(transcripts): batch06 -- pilot on the well-curated videos",
+  "de16bde data: batch05 transcripts -- 60 more videos, a thinner return than 01-04",
+  "159da0d feat(web): make songs searchable",
+  "05ded38 data: song sweep at 3763/4171 clips",
+]
+
+notes = """
+THE BIGGEST MISS: CI HAD BEEN FAILING FOR TWO DAYS AND I NEVER LOOKED.
+Every Pages deploy since the review UI landed (2026-08-02) failed in ~16s, so
+the live site was stale from 2026-08-01 despite several pushes. I told the user
+more than once that a push "will deploy" without ever checking a run.
+
+Cause: the workflow runs `uv sync`, which installs the default group only. flask
+lives in the `review` group, so tests/review/* raised ModuleNotFoundError during
+collection and pytest exited 2 before anything built.
+
+Why it was invisible locally: I ran `uv run --group dev pytest`, resolving
+against a venv that already had flask. The suite passed on my machine and COULD
+NOT have passed in CI -- the two commands were never testing the same
+environment. "92 tests pass" was true and worthless as a deploy predictor.
+Rule going forward: after any push that matters, check the run. Green locally
+says nothing about green in CI when the dependency sets differ.
+
+COMPARING THE WRONG QUANTITY, TWICE
+I concluded twice that the well-curated videos were not worth transcribing,
+because curation and ASR had a median LENGTH ratio of 0.95. Both texts being the
+same size says nothing about whether they contain the same material. The
+sentence-level measure found a median 27% of ASR content missing from curation,
+and one sketch at 92%. When a metric is cheap and the conclusion is "do nothing",
+that is exactly when to check the metric actually measures the thing.
+
+A RULE CAN BE RIGHT FOR EVERY CASE YOU HAVE SEEN AND STILL BE WRONG
+Two defects this session shared a shape: a change altered WHICH data exists, and
+code elsewhere had quietly assumed the old distribution.
+  - the length-based shipping rule agreed with novelty for all 87 videos that had
+    little or no curation, and only broke on the first batch where curation was
+    substantial;
+  - the card's `s.text || transcript` fallback was correct while transcripts only
+    shipped for sketches with no text, and broke the moment 68 sketches had both.
+Neither failed loudly, because both branches produce valid-looking output.
+
+MEASURED THIS SESSION, WORTH KEEPING
+- ASR/curation length ratio by curated-word band: 1-24 words -> 11.6x (the real
+  prize, captured in batch05); 25-49 -> 0.98; 50+ -> ~1.05.
+- Curation density (words per minute of runtime) predicts what ASR adds, but only
+  weakly: r = -0.14, though the low-density half showed 24% uncovered against 11%
+  for the high-density half.
+- PowerShell's ConvertFrom-Json on a 2.3 MB nested payload is so slow it looks
+  like a network timeout. Download to disk and parse with Python instead.
+"""
