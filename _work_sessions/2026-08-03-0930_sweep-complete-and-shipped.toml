@@ -3,6 +3,18 @@ date = "2026-08-03"
 time = "09:30"
 areas = ["scripts/", "scripts/kargin_build/", "web/lib/", "web/components/", "tests/", ".github/workflows/"]
 
+# ---------------------------------------------------------------------------
+# HANDOFF -- nothing is in flight. No background process, no half-done work.
+#   working tree : CLEAN, 0 unpushed, HEAD = c33562f
+#   deploy       : GREEN, two consecutive successes after the CI fix
+#   live site    : verified by fetching the deployed payload back, not by
+#                  trusting the green check -- 2,270 KB | 702 sketches |
+#                  579 with songs | 667 tracks | 165 with transcripts
+#   song sweep   : FINISHED (4145/4145). Do NOT restart it; sweep_songs.py
+#                  would exit immediately with "nothing left to recognize".
+# Everything below is history and optional future work.
+# ---------------------------------------------------------------------------
+
 done = """
 SONG SWEEP COMPLETE
 - 4145 clips, ALL 702 videos covered, 667 distinct tracks, 1619 confirmed clips,
@@ -53,18 +65,32 @@ WEB
   highlighted. Introduced by the novelty rule -- before it, transcripts only
   shipped when curated text was absent, so the old fallback was always correct.
 
-SHIPPED AND VERIFIED
-- Deploy succeeded, and the LIVE payload was fetched back and checked directly:
-  2,270 KB, 702 sketches, 579 with songs, 667 distinct tracks, 165 transcripts.
+CI FIXED, THEN SHIPPED AND VERIFIED
+- Every Pages deploy since 2026-08-02 had been failing in ~16s, so the live site
+  was stale from 2026-08-01 despite several pushes. Fixed in 89643d8 by syncing
+  the `review` dependency group in CI.
+- Deploy now green twice running (runs 30806433415, 30807821984), so the fix
+  holds rather than having got lucky once.
+- Verified by fetching the LIVE payload back from hayktarkhanyan.github.io
+  rather than trusting the green check: 2,270 KB, 702 sketches, 579 with songs,
+  667 distinct tracks, 165 transcripts -- matching local exactly.
 - 92 python tests, 71 web tests.
 """
 
 pending = """
+NOTHING IS BLOCKED OR IN FLIGHT. The archive is complete and live. Everything
+below is optional.
+
 - The remaining ~470 well-curated videos. Evidence says a typical one would gain
   ~11-15% new dialogue (batch06 got 27% but was deliberately the thinnest-curated
   31 of 500). That is ~15 uploads of manual effort for a modest return. My
   recommendation is to stop, BUT that is an inference, not a measurement -- one
   batch sampled at TYPICAL density rather than the thin tail would settle it.
+  To build that batch: build_transcription_batch.py --max-words 10000
+  --max-words-per-minute 60 --max-clip-minutes 12 --batches 1
+  --out data/transcription_batch/batch07 --exclude <the six existing manifests>
+- LEARNINGS.md does not yet carry the CI lesson below -- it lives only in this
+  session log, which is the less-read file.
 - docs/website_review_2026-08-01.md backlog still untouched: SEO package (no
   generateMetadata/sitemap/OG on 702 pages), client bundle (payload is now
   2,270 KB, up from 1,692 before transcripts), dark-theme CTA contrast.
@@ -73,9 +99,11 @@ pending = """
 """
 
 next = """
-- Nothing is blocking. The archive is complete and live.
-- If picking this up: the highest-value remaining item is the website review
-  backlog, not more transcription.
+- If picking this up cold: read the HANDOFF block at the top of this file, then
+  docs/website_review_2026-08-01.md. That backlog is the highest-value remaining
+  work -- more transcription is not.
+- Do NOT restart the song sweep. It is finished (4145/4145).
+- After any push that matters, check `gh run list --limit 3`. See the CI note.
 """
 
 files = [
@@ -93,6 +121,7 @@ files = [
 ]
 
 commits = [
+  "c33562f docs: session log for the completed sweep and the shipped archive",
   "89643d8 fix(ci): install the review group so the deploy stops failing at collection",
   "db42cf9 fix(web): show the transcript when it is why a card matched",
   "eaf0529 data: song sweep complete -- 702/702 videos, 667 distinct tracks",
@@ -107,7 +136,8 @@ notes = """
 THE BIGGEST MISS: CI HAD BEEN FAILING FOR TWO DAYS AND I NEVER LOOKED.
 Every Pages deploy since the review UI landed (2026-08-02) failed in ~16s, so
 the live site was stale from 2026-08-01 despite several pushes. I told the user
-more than once that a push "will deploy" without ever checking a run.
+more than once that a push "will deploy" without ever checking a run. The user
+spotted it from a GitHub failure email, not me.
 
 Cause: the workflow runs `uv sync`, which installs the default group only. flask
 lives in the `review` group, so tests/review/* raised ModuleNotFoundError during
@@ -146,4 +176,9 @@ MEASURED THIS SESSION, WORTH KEEPING
   for the high-density half.
 - PowerShell's ConvertFrom-Json on a 2.3 MB nested payload is so slow it looks
   like a network timeout. Download to disk and parse with Python instead.
+- PowerShell Set-Content mangles non-ASCII: it turned an Armenian regex into
+  mojibake AND prepended a BOM to a .py file. Never edit non-ASCII files with
+  PowerShell -- use the Edit tool or Python.
+- Bash heredocs break on apostrophes in prose ("Petrov's"), even quoted. For
+  long text files with natural language, use the Write/Edit tools.
 """
