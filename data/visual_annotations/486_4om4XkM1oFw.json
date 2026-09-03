@@ -1,0 +1,19 @@
+{
+  "video_id": "4om4XkM1oFw",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["hearse", "van"],
+  "location_fine": "residential courtyard, funeral procession",
+  "character_types": ["mourners", "young man in striped shirt", "crying woman", "man in sunglasses"],
+  "drag": false,
+  "key_props": ["hearse", "coffin"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A large crowd of mourners in dark clothing follows a hearse in a funeral procession through a residential courtyard between apartment buildings, with some women crying while two young men walk together talking.",
+  "best_frame_ts": "00:37",
+  "confidence": "high",
+  "needs_audio": true
+}

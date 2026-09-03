@@ -1,0 +1,19 @@
+{
+  "video_id": "21TbEP5fQ1g",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "grocery store",
+  "character_types": ["cashier", "salesman", "delivery man"],
+  "drag": false,
+  "key_props": ["shopping cart", "bread shelves", "cash register/scale", "grocery jars"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young female cashier at a grocery store counter talks animatedly with a man in a tan trench coat, while an older man in a flat cap also appears at the counter; the conversation escalates with gesturing on both sides.",
+  "best_frame_ts": "00:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

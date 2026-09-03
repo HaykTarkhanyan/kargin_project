@@ -1,0 +1,19 @@
+{
+  "video_id": "XJ6L4B2mluA",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "rural road",
+  "character_types": ["driver", "passenger", "group of men in dark coats", "old woman"],
+  "drag": false,
+  "key_props": ["car", "road", "trees"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men drive down a tree-lined rural road; later a group of men in dark coats stop a car and confront an older woman on the roadside, with pushing and a physical scuffle breaking out near the end.",
+  "best_frame_ts": "02:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

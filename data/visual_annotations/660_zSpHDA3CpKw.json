@@ -1,0 +1,19 @@
+{
+  "video_id": "zSpHDA3CpKw",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["teacher", "schoolchildren"],
+  "drag": true,
+  "key_props": ["chalkboard", "school desks", "necklace"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A teacher character, played by a male actor in a red wig and lipstick, speaks directly to camera in a classroom, intercut with individual schoolchildren answering questions to camera one after another and wide shots of the class listening.",
+  "best_frame_ts": "00:07",
+  "confidence": "high",
+  "needs_audio": true
+}

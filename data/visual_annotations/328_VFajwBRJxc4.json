@@ -1,0 +1,19 @@
+{
+  "video_id": "VFajwBRJxc4",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": ["frog"],
+  "vehicles": [],
+  "location_fine": "golf course, casino and courtroom",
+  "character_types": ["golfer", "award recipient", "gambler", "girlfriend", "judge", "police officer", "courtroom audience"],
+  "drag": false,
+  "key_props": ["golf clubs", "medal", "roulette wheel", "poker chips", "cash", "gavel", "microphone"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 5, "repeating_gag": false},
+  "visual_synopsis": "A man practices and plays golf outdoors, is honored at a black-and-white award ceremony, then gambles at a roulette table and appears to lose money; stressed on a couch (with a cutaway shot of a toad), he is comforted by a woman before appearing as a defendant in a courtroom before a judge, police officers, and an audience.",
+  "best_frame_ts": "02:32",
+  "confidence": "low",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "Y4EO-zo7DDM",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv"],
+  "location_fine": "village farm yard with grapevines",
+  "character_types": ["young man driver", "young man farmer", "older mustached farmer"],
+  "drag": false,
+  "key_props": ["suv", "hoe", "grapevine trellis", "swaddled baby"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man drives a black SUV along a rural road to a farmhouse gate, then greets two other men with laughter and hugs in a grapevine-covered farm yard; a farmer works with a hoe, and later people rush around carrying a swaddled baby.",
+  "best_frame_ts": "02:34",
+  "confidence": "medium",
+  "needs_audio": true
+}

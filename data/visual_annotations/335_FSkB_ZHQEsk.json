@@ -1,0 +1,19 @@
+{
+  "video_id": "FSkB_ZHQEsk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school administration office",
+  "character_types": ["gray-haired older official", "young man in suit", "students"],
+  "drag": false,
+  "key_props": ["binders", "folder", "desk"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A group of students gathers in a school hallway before the scene shifts to an office lined with shelves of binders, where a gray-haired older official sits at a desk delivering an animated, gesture-heavy monologue to a young man standing nearby.",
+  "best_frame_ts": "00:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

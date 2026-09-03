@@ -1,0 +1,19 @@
+{
+  "video_id": "9UhfhxILg4o",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "snowy mountainside camp",
+  "character_types": ["mountaineer", "friend group"],
+  "drag": false,
+  "key_props": ["blankets", "sunglasses", "fedora on a stick"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Four men bundled in blankets and colorful hats sit huddled together on a snowy mountainside, shivering and reacting with exaggerated cold/startled expressions. A fedora hat is shown planted on a stick in the snow.",
+  "best_frame_ts": "01:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

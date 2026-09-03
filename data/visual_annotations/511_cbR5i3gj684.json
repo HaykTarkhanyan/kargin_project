@@ -1,0 +1,19 @@
+{
+  "video_id": "cbR5i3gj684",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "rural mountainside with stone wall",
+  "character_types": ["reporter", "cameraman/assistant", "old bearded villager"],
+  "drag": false,
+  "key_props": ["microphone", "press badge", "cap", "stone wall"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young reporter with a microphone and press badge interviews an old bearded villager beside a stone wall on a grassy mountainside; at one point he and a companion in caps point out something in the distant landscape.",
+  "best_frame_ts": "01:24",
+  "confidence": "medium",
+  "needs_audio": true
+}

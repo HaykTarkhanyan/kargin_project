@@ -1,0 +1,19 @@
+{
+  "video_id": "oCoUlIYmUfM",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["horse"],
+  "vehicles": ["horse cart"],
+  "location_fine": "rural marsh roadside",
+  "character_types": ["villager man", "villager man with cap"],
+  "drag": false,
+  "key_props": ["sack", "flat cap", "horse cart"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man stumbles and falls while carrying a bag near a marshy roadside in the countryside; later two mustached men in flat caps ride a horse-drawn cart along a dirt road, talking and gesturing animatedly at each other.",
+  "best_frame_ts": "00:01:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

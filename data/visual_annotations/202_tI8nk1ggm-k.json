@@ -1,0 +1,19 @@
+{
+  "video_id": "tI8nk1ggm-k",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["dark suv"],
+  "location_fine": "orchard road",
+  "character_types": ["man driving and talking on phone", "man in grey blazer", "man in dark sweater"],
+  "drag": false,
+  "key_props": ["mobile phone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man drives a dark SUV down a tree-lined country road while talking on his phone, then parks and walks into an orchard where men in different outfits speak directly to camera, gesturing as if giving alternating accounts.",
+  "best_frame_ts": "00:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

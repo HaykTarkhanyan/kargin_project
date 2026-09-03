@@ -1,0 +1,19 @@
+{
+  "video_id": "yBuDm4QWeP0",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home living room and hallway",
+  "character_types": ["husband", "wife", "son", "younger son"],
+  "drag": false,
+  "key_props": ["floral robe", "couch", "eyeglasses", "homework desk"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A husband and wife have an animated argument through their apartment hallway and living room, with the wife gesturing and slapping at him, while their sons watch or do homework nearby.",
+  "best_frame_ts": "00:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

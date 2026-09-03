@@ -1,0 +1,19 @@
+{
+  "video_id": "hxad0XaMleI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["thin man in dark jacket", "heavyset man in striped shirt"],
+  "drag": false,
+  "key_props": ["sofa", "coffee table", "framed picture"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit closely together on a couch in a living room having an intense, emotional conversation, with one appearing tired or intoxicated and leaning on the other.",
+  "best_frame_ts": "01:10",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "xk6bJP_9vh4",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["man in bed", "drag character in robe"],
+  "drag": true,
+  "key_props": ["bed", "pillows", "curtains", "robe", "wardrobe"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man lies in bed while a male actor in a long dark wig, red lipstick and a satin robe enters and they have an animated back-and-forth conversation shot in alternating close-ups. Near the end the man in bed reaches for a pair of jeans under the blanket.",
+  "best_frame_ts": "00:22",
+  "confidence": "high",
+  "needs_audio": true
+}

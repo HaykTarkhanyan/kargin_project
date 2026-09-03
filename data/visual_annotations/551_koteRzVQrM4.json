@@ -1,0 +1,19 @@
+{
+  "video_id": "koteRzVQrM4",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["van"],
+  "location_fine": "passenger van interior",
+  "character_types": ["uniformed worker", "guard", "driver", "woman in wig", "child", "male passenger"],
+  "drag": true,
+  "key_props": ["plastic bag", "cash", "license plate"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 4, "repeating_gag": false},
+  "visual_synopsis": "A uniformed man passes a guarded gate and walks through a neighborhood, then boards a passenger van where he sits among other riders, including a woman in a blonde wig and a child, and they converse.",
+  "best_frame_ts": "03:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

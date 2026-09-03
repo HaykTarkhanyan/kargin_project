@@ -1,0 +1,19 @@
+{
+  "video_id": "HQWbF7x1b9w",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room and pharmacy",
+  "character_types": ["old sailor", "naval captain", "pharmacist"],
+  "drag": false,
+  "key_props": ["model ship", "cane", "naval cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "An old sailor in a striped shirt and blond wig tells an animated story with a toy sailing ship while a man in a white naval captain's uniform arrives and listens; the scene then shifts to the captain visiting a pharmacy and interacting with the pharmacist.",
+  "best_frame_ts": "00:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

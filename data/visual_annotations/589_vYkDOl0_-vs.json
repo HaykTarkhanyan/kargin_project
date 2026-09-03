@@ -1,0 +1,19 @@
+{
+  "video_id": "vYkDOl0_-vs",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv/car"],
+  "location_fine": "reed field / rural roadside",
+  "character_types": ["official/inspector", "hunter/poacher"],
+  "drag": false,
+  "key_props": ["clipboard/papers", "wrapped rifle bag", "trench coat", "tie", "camouflage hat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a trench coat carrying papers walks through a dry reed field and confronts a camouflaged hunter hiding with a wrapped rifle; the two end up talking together inside a parked SUV.",
+  "best_frame_ts": "01:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

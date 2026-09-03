@@ -1,0 +1,19 @@
+{
+  "video_id": "DNU5NBurfEE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "city street beside stone wall",
+  "character_types": ["old woman in trenchcoat and headscarf", "old man in hat and trenchcoat"],
+  "drag": false,
+  "key_props": ["small suitcase", "rolled newspaper", "street sign"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Aerial establishing shots of a city boulevard and square lead into a street scene where an elderly-styled woman sits on a stone ledge by a wall with a small case, and an elderly-styled man joins her, sitting down and talking animatedly.",
+  "best_frame_ts": "00:52",
+  "confidence": "medium",
+  "needs_audio": true
+}

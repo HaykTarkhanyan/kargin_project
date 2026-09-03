@@ -1,0 +1,19 @@
+{
+  "video_id": "xUCWdI0_CHo",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "railway tracks and industrial alleyways",
+  "character_types": ["woman in green top", "pursuer man in vest and sunglasses"],
+  "drag": false,
+  "key_props": ["gun", "railway tracks", "pedestrian overpass stairs"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A woman in a green top is chased on foot by a man in a vest and sunglasses, apparently armed, across railway tracks, overgrown fields, back alleyways, and up a pedestrian overpass staircase.",
+  "best_frame_ts": "01:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

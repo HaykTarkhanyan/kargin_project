@@ -1,0 +1,19 @@
+{
+  "video_id": "J8d87i6o5Sw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "grocery store and back office",
+  "character_types": ["store clerk", "customer", "store manager"],
+  "drag": false,
+  "key_props": ["watermelon", "produce scale", "desk", "calculator"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two young men argue over weighing a watermelon on a store scale amid grocery shelves, then move to a back office where an older manager sits at a desk, followed by an animated argument near a blue door.",
+  "best_frame_ts": "00:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

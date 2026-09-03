@@ -1,0 +1,19 @@
+{
+  "video_id": "DRblWvbacrM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment stairwell and bedroom",
+  "character_types": ["woman in red robe", "man in bed", "man in suit with briefcase"],
+  "drag": false,
+  "key_props": ["pillow", "briefcase", "stairwell railing", "bed", "vanity mirror", "white coat/shirt"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A woman in a red robe frantically dashes through an apartment stairwell and bedroom while a man lounges shirtless in bed; they have a pillow fight and she keeps rushing back to the stairs. In the hallway she meets a man in a suit with a briefcase, and after a tense exchange he wrestles a white coat over her head as they struggle.",
+  "best_frame_ts": "01:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

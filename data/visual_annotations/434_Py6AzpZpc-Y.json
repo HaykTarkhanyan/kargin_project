@@ -1,0 +1,19 @@
+{
+  "video_id": "Py6AzpZpc-Y",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "construction/industrial yard",
+  "character_types": ["laborer"],
+  "drag": false,
+  "key_props": ["beret", "wire crate table", "bricks"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three men in matching khaki work jackets and dark berets sit and talk at length in a rundown industrial yard with a rusty metal shed and stacked bricks, gathered around a makeshift table.",
+  "best_frame_ts": "02:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

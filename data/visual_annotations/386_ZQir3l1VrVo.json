@@ -1,0 +1,19 @@
+{
+  "video_id": "ZQir3l1VrVo",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["sedan"],
+  "location_fine": "car interior and street",
+  "character_types": ["doctor", "young man patient", "young women"],
+  "drag": false,
+  "key_props": ["surgical cap", "car"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two young women in colorful jackets meet a man near a white sedan outside old apartment buildings; the scene shifts mostly to the car's interior, where a mustached man in a white coat and blue surgical cap drives while a distressed young male passenger clutches his head and reacts dramatically, with the two women in the back seat.",
+  "best_frame_ts": "02:03",
+  "confidence": "medium",
+  "needs_audio": true
+}

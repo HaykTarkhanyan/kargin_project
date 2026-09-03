@@ -1,0 +1,19 @@
+{
+  "video_id": "9K9gMmUjG88",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "kitchen",
+  "character_types": ["young man in apron", "woman (drag)"],
+  "drag": true,
+  "key_props": ["apron", "fur coat", "wig", "handbag", "telephone", "kettle", "dish towel"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young man in a floral apron does kitchen chores (washing dishes, drying at the sink) while a second character in a bob wig, yellow turtleneck and fur coat talks and gestures animatedly with him in the same kitchen, later picking up a phone.",
+  "best_frame_ts": "00:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

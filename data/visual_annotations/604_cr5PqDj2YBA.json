@@ -1,0 +1,19 @@
+{
+  "video_id": "cr5PqDj2YBA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["man in trench coat", "man in tracksuit with mustache", "young woman"],
+  "drag": false,
+  "key_props": ["candles", "papers on table", "couch"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a cream trench coat sneaks through a hallway past doors into an apartment, then sits on a couch with another man in a red tracksuit for an intense, gesture-heavy argument; a young woman is separately shown writing at a candlelit table.",
+  "best_frame_ts": "00:51",
+  "confidence": "medium",
+  "needs_audio": true
+}

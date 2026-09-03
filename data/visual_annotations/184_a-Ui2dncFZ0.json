@@ -1,0 +1,19 @@
+{
+  "video_id": "a-Ui2dncFZ0",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "mansion garden with pool and gazebo",
+  "character_types": ["businessman in suit (heavyset)", "businessman in suit (thin)", "child in pajamas", "young man with glasses"],
+  "drag": false,
+  "key_props": ["swimming pool", "wooden gazebo", "papers on table", "garden flowers"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In the garden of a wealthy estate with a swimming pool, two besuited men talk business at a low table inside a wooden gazebo while a young boy wanders the manicured grounds and a bespectacled young man reacts and laughs nearby.",
+  "best_frame_ts": "00:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

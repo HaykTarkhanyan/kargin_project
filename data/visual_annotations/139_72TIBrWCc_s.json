@@ -1,0 +1,19 @@
+{
+  "video_id": "72TIBrWCc_s",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["doctor", "man in suit"],
+  "drag": false,
+  "key_props": ["desk fan", "telephone", "papers", "computer monitor"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a white coat talks on the phone and handles papers at his desk in an office. A man in a grey suit enters through the door and the two hold an extended seated conversation across the desk.",
+  "best_frame_ts": "01:03",
+  "confidence": "medium",
+  "needs_audio": true
+}

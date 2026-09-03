@@ -1,0 +1,19 @@
+{
+  "video_id": "ZCKToD60iNY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "military barracks",
+  "character_types": ["soldier in striped shirt", "soldier in striped shirt", "camo officer with glasses", "camo officer with cap"],
+  "drag": false,
+  "key_props": ["bunk bed", "pin-up poster", "bottle", "bulletin board with photos", "cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two young soldiers in striped undershirts walk through a barracks stairwell and hang out in their bunk room, then interact with a stern camo-clad officer who inspects and gives orders, ending with a salute.",
+  "best_frame_ts": "02:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

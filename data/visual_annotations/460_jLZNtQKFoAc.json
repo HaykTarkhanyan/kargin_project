@@ -1,0 +1,19 @@
+{
+  "video_id": "jLZNtQKFoAc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home kitchen",
+  "character_types": ["woman in robe", "man in plaid shirt", "elderly man with glasses"],
+  "drag": false,
+  "key_props": ["cane", "glasses", "kitchen pots"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a home kitchen, a man in a red plaid shirt has an intense, escalating argument with a woman in a pink robe, repeatedly closing in and cornering her against the wall while she reacts with distress; an elderly gray-haired man in glasses appears intermittently, seemingly commenting on or interrupting the confrontation.",
+  "best_frame_ts": "01:32",
+  "confidence": "low",
+  "needs_audio": true
+}

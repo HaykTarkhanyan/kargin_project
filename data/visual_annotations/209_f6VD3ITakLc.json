@@ -1,0 +1,19 @@
+{
+  "video_id": "f6VD3ITakLc",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["swan"],
+  "vehicles": ["van"],
+  "location_fine": "Amsterdam canal street and grocery shop",
+  "character_types": ["tv host", "shopkeeper", "shop assistant"],
+  "drag": false,
+  "key_props": ["beanie hat", "canal boats", "shop shelves", "bread"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two presenters wearing an Amsterdam beanie stroll and chat along the city's canals, then visit a small grocery/deli shop where they banter with the shopkeeper and a female assistant handling bread.",
+  "best_frame_ts": "04:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

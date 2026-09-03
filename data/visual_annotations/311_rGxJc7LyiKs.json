@@ -1,0 +1,19 @@
+{
+  "video_id": "rGxJc7LyiKs",
+  "indoor_outdoor": "indoor",
+  "day_night": "mixed",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment kitchen and bedroom",
+  "character_types": ["curly-haired mother", "young boy", "mustached man", "woman in gas mask"],
+  "drag": false,
+  "key_props": ["breakfast plate", "gas mask", "plaid blanket", "kitchen towel"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A curly-haired woman feeds breakfast to a young boy in a kitchen, briefly interrupted by a man's silhouette in the doorway. The scene shifts to a bedroom where a mustached man sits beside a woman wearing a gas mask under a blanket, followed by shots of a shirtless man alone in the room.",
+  "best_frame_ts": "01:18",
+  "confidence": "low",
+  "needs_audio": true
+}

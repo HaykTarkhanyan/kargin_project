@@ -1,0 +1,19 @@
+{
+  "video_id": "N62KSExTcBU",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "suv/jeep"],
+  "location_fine": "roadside parking lot",
+  "character_types": ["man in white shirt", "man in striped shirt", "man in flat cap", "driver"],
+  "drag": false,
+  "key_props": ["car engine/open hood", "flat cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Several men argue and gesture animatedly around broken-down cars (a white Lada and a dark SUV) on a tree-lined roadside, repeatedly opening the hoods to inspect the engines.",
+  "best_frame_ts": "02:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

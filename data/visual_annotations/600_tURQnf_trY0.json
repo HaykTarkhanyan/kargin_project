@@ -1,0 +1,19 @@
+{
+  "video_id": "tURQnf_trY0",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant with flashback to patio date",
+  "character_types": ["man telling story", "listener", "woman in red dress"],
+  "drag": false,
+  "key_props": ["wine bottle", "yellow napkin fold", "restaurant table setting"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men sit at a restaurant table in a pink-walled dining room engaged in a lively conversation, while one of them recounts a story shown as a green-tinted flashback of a romantic date with a woman at an outdoor patio near a European monument.",
+  "best_frame_ts": "00:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

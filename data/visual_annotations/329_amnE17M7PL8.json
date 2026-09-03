@@ -1,0 +1,19 @@
+{
+  "video_id": "amnE17M7PL8",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hotel or office lobby staircase",
+  "character_types": ["mustached man in hawaiian shirt", "woman", "clerk in vest and tie"],
+  "drag": false,
+  "key_props": ["telephone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "After brief exterior establishing shots of a building, a man in a Hawaiian shirt and a woman arrive at a wood-paneled lobby staircase where a man in a vest and tie greets them, takes a phone call, and reacts with laughter and animated gestures.",
+  "best_frame_ts": "00:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "uXOTZyBMya8",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "upscale restaurant lounge",
+  "character_types": ["businessman"],
+  "drag": false,
+  "key_props": ["newspaper", "wine bottles", "table setting"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a pinstripe suit and pink tie reads a newspaper at a table in an upscale wood-paneled restaurant or lounge, then engages in an animated conversation, later joined at the table by a second man for a discussion.",
+  "best_frame_ts": "02:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

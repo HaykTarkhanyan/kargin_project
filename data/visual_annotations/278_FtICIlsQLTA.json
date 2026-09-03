@@ -1,0 +1,19 @@
+{
+  "video_id": "FtICIlsQLTA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "military barracks room",
+  "character_types": ["soldier", "soldier with rifle"],
+  "drag": false,
+  "key_props": ["rifle", "camouflage uniform", "bulletin board"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A soldier in camouflage stands at attention holding a rifle in a barracks room while another soldier talks and gestures animatedly at him near a window and wooden lockers.",
+  "best_frame_ts": "00:51",
+  "confidence": "medium",
+  "needs_audio": true
+}

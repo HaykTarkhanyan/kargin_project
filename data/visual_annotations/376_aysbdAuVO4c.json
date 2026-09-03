@@ -1,0 +1,19 @@
+{
+  "video_id": "aysbdAuVO4c",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "car interior on rural road",
+  "character_types": ["driver", "passenger"],
+  "drag": false,
+  "key_props": [],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "Two men drive together on a rural road in an old car, chatting animatedly while the driver repeatedly nods off at the wheel; they eventually pull over and get out to talk beside the car.",
+  "best_frame_ts": "01:19",
+  "confidence": "high",
+  "needs_audio": true
+}

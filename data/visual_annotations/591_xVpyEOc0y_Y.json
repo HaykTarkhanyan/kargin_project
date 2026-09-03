@@ -1,0 +1,19 @@
+{
+  "video_id": "xVpyEOc0y_Y",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital doctor's office",
+  "character_types": ["doctor", "soldier"],
+  "drag": false,
+  "key_props": ["white coat", "surgical cap", "clipboard", "coat rack"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A man in military clothing walks down a hospital corridor into a doctor's office, where a frantic mustached doctor repeatedly puts on and takes off his white coat while arguing and gesturing wildly at his desk.",
+  "best_frame_ts": "00:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

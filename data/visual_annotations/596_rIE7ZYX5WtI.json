@@ -1,0 +1,19 @@
+{
+  "video_id": "rIE7ZYX5WtI",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["cow", "sheep", "dog"],
+  "vehicles": ["car"],
+  "location_fine": "car driving through village and orchards",
+  "character_types": ["driver", "boy", "woman"],
+  "drag": false,
+  "key_props": [],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man drives a car with a boy and a woman as passengers through a village and past orchards, passing a running dog, a sheep, and a cow along the way while everyone talks and laughs.",
+  "best_frame_ts": "00:08",
+  "confidence": "medium",
+  "needs_audio": true
+}

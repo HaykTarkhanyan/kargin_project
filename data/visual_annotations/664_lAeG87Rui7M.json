@@ -1,0 +1,19 @@
+{
+  "video_id": "lAeG87Rui7M",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home living room",
+  "character_types": ["wife (male actor in wig)", "husband"],
+  "drag": true,
+  "key_props": ["shelf with carved figurines", "cabinet"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A long-haired wig-wearing character, played by a male actor, repeatedly slaps and hits a man in a white sweater who cowers and recoils, in a home living room lined with a shelf of carved figurines.",
+  "best_frame_ts": "00:31",
+  "confidence": "high",
+  "needs_audio": true
+}

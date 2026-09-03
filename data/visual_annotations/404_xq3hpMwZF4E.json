@@ -1,0 +1,19 @@
+{
+  "video_id": "xq3hpMwZF4E",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["sedan"],
+  "location_fine": "roadside",
+  "character_types": ["driver on phone", "angry man"],
+  "drag": false,
+  "key_props": ["mobile phone", "car"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man drives while having an animated phone conversation, then pulls over where two black cars meet and he has a tense face-to-face exchange with another man.",
+  "best_frame_ts": "01:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

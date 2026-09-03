@@ -1,0 +1,19 @@
+{
+  "video_id": "JmTVyvlDssA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office then hotel room",
+  "character_types": ["businessman in suit", "woman in dress"],
+  "drag": false,
+  "key_props": ["telephone", "suitcase"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit takes phone calls and gestures animatedly at an office desk, then walks with a woman to a hotel room where he collapses exhausted on a couch and bed with his suitcase while she lies on the bed.",
+  "best_frame_ts": "03:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

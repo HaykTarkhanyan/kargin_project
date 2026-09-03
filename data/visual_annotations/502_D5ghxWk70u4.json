@@ -1,0 +1,19 @@
+{
+  "video_id": "D5ghxWk70u4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "dining room",
+  "character_types": ["father", "young boy", "young woman", "older woman"],
+  "drag": false,
+  "key_props": ["dining table", "food", "orange juice", "china cabinet"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A family - a father, his young son, a young woman serving food, and an older woman - share a meal at a well-set dining table, talking and interacting throughout.",
+  "best_frame_ts": "00:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

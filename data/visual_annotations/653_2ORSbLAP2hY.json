@@ -1,0 +1,19 @@
+{
+  "video_id": "2ORSbLAP2hY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hotel room and corridor",
+  "character_types": ["woman in red dress", "sleeping man in bed", "man in grey cardigan"],
+  "drag": false,
+  "key_props": ["wardrobe with hanging clothes", "bed", "room number sign '33'", "elevator"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A woman in a red dress hides behind a wardrobe watching a man asleep in bed; another man in a grey cardigan enters, pulls him out of bed in a physical scuffle, and the sleeping man ends up wandering a hotel corridor near room 33.",
+  "best_frame_ts": "00:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "K6xpw9baTrY",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "suv"],
+  "location_fine": "police patrol car on rural road",
+  "character_types": ["mustached police officer", "police officer passenger", "gangster in sunglasses", "man with briefcase of money"],
+  "drag": false,
+  "key_props": ["cell phone", "police cap", "gun", "briefcase of money"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two mustached police officers patrol a rural road in their car, checking a phone, while a parallel storyline shows gangsters in sunglasses inside another car threatening someone at gunpoint over a briefcase of cash.",
+  "best_frame_ts": "01:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

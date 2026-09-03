@@ -1,0 +1,19 @@
+{
+  "video_id": "331ZGPNEFBs",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar",
+  "character_types": ["bar patron", "drinking companion"],
+  "drag": false,
+  "key_props": ["cigarette", "ashtray", "drink glasses", "bottle"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in patterned shirts sit at a bar smoking and drinking while telling an animated, gesture-heavy story; a third man in a white jacket briefly joins and slumps over the table.",
+  "best_frame_ts": "01:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

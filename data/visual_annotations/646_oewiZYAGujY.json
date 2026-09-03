@@ -1,0 +1,19 @@
+{
+  "video_id": "oewiZYAGujY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home bedroom",
+  "character_types": ["bedridden man with moustache", "doctor in white coat", "pregnant woman", "family members", "blonde-wigged woman (drag)"],
+  "drag": true,
+  "key_props": ["stethoscope", "bed with green floral blanket", "blonde bob wig", "table lamp"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A moustached man lies sick in bed being examined by a doctor with a stethoscope while several anxious family members, including a pregnant woman, gather around him; intercut shots show a blonde-wigged drag character talking in another room.",
+  "best_frame_ts": "00:04",
+  "confidence": "low",
+  "needs_audio": true
+}

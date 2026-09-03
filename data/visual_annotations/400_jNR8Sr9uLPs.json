@@ -1,0 +1,19 @@
+{
+  "video_id": "jNR8Sr9uLPs",
+  "indoor_outdoor": "both",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar entrance with piano-key door",
+  "character_types": ["man in beanie and scarf", "older man in maroon vest", "woman"],
+  "drag": false,
+  "key_props": ["piano-key patterned doorway", "armenian sign", "beanie hat", "scarf"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "At night, a man in a beige jacket, beanie, and scarf sneaks along a wall and repeatedly approaches and knocks on a nightclub's piano-key-patterned entrance, eventually going inside to meet an older man in a maroon vest.",
+  "best_frame_ts": "00:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "wFZRMVBffCY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["boss/man in suit with mustache", "employee/man in dark shirt"],
+  "drag": false,
+  "key_props": ["desk", "computer monitor", "printer", "framed certificates", "liquor bottle", "tissue box", "papers"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men have an extended conversation in an office, with a mustached man in a suit at his desk reading and reacting to papers while a colleague across from him talks and gestures.",
+  "best_frame_ts": "00:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

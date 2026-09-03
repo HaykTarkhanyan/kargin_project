@@ -1,0 +1,19 @@
+{
+  "video_id": "g-SU604xRK0",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "prison hallway and office",
+  "character_types": ["prison guard", "prisoner", "clerk"],
+  "drag": false,
+  "key_props": ["prison bars", "desk with papers", "guard uniform"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A prisoner in a striped uniform is escorted by a guard down a stairwell into a prison block, then sits behind bars for a long back-and-forth conversation with a mustached clerk or warden at a desk, who writes notes as they talk.",
+  "best_frame_ts": "01:39",
+  "confidence": "medium",
+  "needs_audio": true
+}

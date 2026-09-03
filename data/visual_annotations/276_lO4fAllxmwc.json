@@ -1,0 +1,19 @@
+{
+  "video_id": "lO4fAllxmwc",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["uaz van", "car"],
+  "location_fine": "village road, police office, and soccer field",
+  "character_types": ["police officer", "driver", "soccer player", "coach/businessman", "farmer", "old man in hat", "woman"],
+  "drag": false,
+  "key_props": ["sunglasses", "police uniform", "soccer jerseys", "grape box", "fedora hat"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 5, "repeating_gag": false},
+  "visual_synopsis": "A multi-segment episode: a man drives an old UAZ van through a village with an older passenger, then a police officer questions a disheveled man in an office, then a soccer team trains under a suited coach, two men in matching plaid shirts harvest grapes and talk near a lake, and it closes with a well-dressed older man and a young woman talking in an apartment stairwell.",
+  "best_frame_ts": "04:24",
+  "confidence": "low",
+  "needs_audio": true
+}

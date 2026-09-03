@@ -1,0 +1,19 @@
+{
+  "video_id": "GzsT0Un-yzM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "university lecture hall",
+  "character_types": ["professor", "students"],
+  "drag": false,
+  "key_props": ["chalkboard", "notebook", "glasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A wigged, bespectacled professor lectures a full tiered university classroom, writing gender symbols on the chalkboard and taking notes; students react, whisper, and one stands to raise his hand and speak animatedly.",
+  "best_frame_ts": "00:03",
+  "confidence": "high",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "YPieQWuJJFg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "outdoor residential street",
+  "character_types": ["man in flat cap", "man in striped pajamas"],
+  "drag": false,
+  "key_props": ["mobile phone", "chain-link fence"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a flat cap talks animatedly on his phone outside near apartment blocks and a chain-link fence, while a man in striped pajamas runs after him and around a parked green Lada car with a roof rack.",
+  "best_frame_ts": "01:19",
+  "confidence": "medium",
+  "needs_audio": true
+}

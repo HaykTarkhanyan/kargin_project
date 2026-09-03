@@ -1,0 +1,19 @@
+{
+  "video_id": "UhyVa3nczbg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "mercedes"],
+  "location_fine": "rural road",
+  "character_types": ["traffic police officer", "driver"],
+  "drag": false,
+  "key_props": ["red container", "police cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A traffic police officer standing beside his marked patrol car pulls over a black Mercedes sedan on a wooded rural road, leans in to talk with the driver, and is handed a red round container that he opens and inspects.",
+  "best_frame_ts": "01:29",
+  "confidence": "medium",
+  "needs_audio": true
+}

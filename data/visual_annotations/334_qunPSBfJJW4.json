@@ -1,0 +1,19 @@
+{
+  "video_id": "qunPSBfJJW4",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "village yard with homemade still",
+  "character_types": ["police officer", "old man in flat cap"],
+  "drag": false,
+  "key_props": ["moonshine still", "funnel", "cup", "oranges"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A police officer talks on his phone and spies over a wall while an old man in a flat cap operates a homemade still in his yard, tasting the moonshine, and the two end up sitting together eating oranges and drinking.",
+  "best_frame_ts": "02:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

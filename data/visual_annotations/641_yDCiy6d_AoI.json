@@ -1,0 +1,19 @@
+{
+  "video_id": "yDCiy6d_AoI",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["burglar", "young girl"],
+  "drag": false,
+  "key_props": ["trench coat", "beret", "gloves", "jewelry", "cash", "wine bottle", "glass cabinet", "flashlight"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A burglar in a beret and trench coat sneaks into an apartment at night, rifling through a glass cabinet for jewelry and cash and drinking wine straight from the bottle, while a young girl repeatedly appears and watches him with curiosity rather than fear.",
+  "best_frame_ts": "02:34",
+  "confidence": "medium",
+  "needs_audio": true
+}

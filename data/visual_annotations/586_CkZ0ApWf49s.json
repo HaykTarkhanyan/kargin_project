@@ -1,0 +1,19 @@
+{
+  "video_id": "CkZ0ApWf49s",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "building stairwell / lobby",
+  "character_types": ["courier/mailman", "elegant woman", "bow-tie narrator/host"],
+  "drag": false,
+  "key_props": ["shoulder bag", "cap", "sunglasses", "wooden staircase railing", "bow tie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached courier in a floral shirt and cap descends a building's staircase and has an exchange with an elegant woman in sunglasses, intercut with a bow-tied narrator addressing the camera directly.",
+  "best_frame_ts": "00:29",
+  "confidence": "medium",
+  "needs_audio": true
+}

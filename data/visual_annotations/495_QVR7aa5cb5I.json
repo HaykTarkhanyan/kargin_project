@@ -1,0 +1,19 @@
+{
+  "video_id": "QVR7aa5cb5I",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "football training ground",
+  "character_types": ["football team manager in suit", "football players", "tracksuited coach", "goalkeeper"],
+  "drag": false,
+  "key_props": ["soccer ball", "goal net", "team jerseys", "medal lanyard"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A football team gathers in the locker room with their suited manager, then trains outdoors on a pitch where a tracksuited coach demonstrates goalkeeping dives and instructs the players.",
+  "best_frame_ts": "01:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

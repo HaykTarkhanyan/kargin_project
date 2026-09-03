@@ -1,0 +1,19 @@
+{
+  "video_id": "8U7grHLj-uY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital office and family home",
+  "character_types": ["doctor", "hospital patient", "old woman (drag)", "man in pajamas"],
+  "drag": true,
+  "key_props": ["surgical cap and gown", "documents", "hospital bed", "electric kettle", "cutting board"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 4, "repeating_gag": false},
+  "visual_synopsis": "A man in a surgical cap and gown reacts with exaggerated emotion to documents in an office, then the scene shifts to a hospital patient in bed and finally to a family home, where the same actor also appears in drag as an old woman doing kitchen chores.",
+  "best_frame_ts": "05:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

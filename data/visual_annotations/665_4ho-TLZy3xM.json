@@ -1,0 +1,19 @@
+{
+  "video_id": "4ho-TLZy3xM",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "park",
+  "character_types": ["accordion busker", "couple with umbrella", "man in orange jacket", "group of men in jean jackets", "man on park bench", "man with gold chain"],
+  "drag": false,
+  "key_props": ["umbrellas", "accordion", "park bench", "gold chain necklace"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a rainy autumn park, various pairs and small groups of people stroll and gather under umbrellas past a busker playing accordion, while individual men - one seated on a park bench, another with a gold chain - address the camera directly.",
+  "best_frame_ts": "01:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

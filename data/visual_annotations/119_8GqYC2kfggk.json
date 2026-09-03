@@ -1,0 +1,19 @@
+{
+  "video_id": "8GqYC2kfggk",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment entryway and dining room",
+  "character_types": ["father", "young girl", "young boy", "grandmother (male actor in drag)"],
+  "drag": true,
+  "key_props": ["coats", "birthday cake with candles"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man comically swaps coats on and off in an apartment entryway, then the scene shifts to two children at a candlelit birthday cake with a man in glasses, intercut with closeups of a heavily made-up wig-wearing character narrating directly to camera.",
+  "best_frame_ts": "00:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

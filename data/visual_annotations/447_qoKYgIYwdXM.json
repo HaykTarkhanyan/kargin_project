@@ -1,0 +1,19 @@
+{
+  "video_id": "qoKYgIYwdXM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "university lecture hall",
+  "character_types": ["professor", "students"],
+  "drag": false,
+  "key_props": ["chalkboard", "lecture hall benches", "chalk"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A professor lectures and writes equations on a chalkboard in a university lecture hall while students sit in tiered rows, some paying attention and others chatting or distracted among themselves.",
+  "best_frame_ts": "00:59",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "9crBnxb6ZT4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment under renovation",
+  "character_types": ["worker in striped shirt", "worker in paper cap and jacket"],
+  "drag": false,
+  "key_props": ["bare light bulb", "electrical wire", "newspaper cap", "bread", "plastic bags"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "Two workers in a room being renovated react repeatedly to what looks like mild electric shocks while handling wiring and a bare bulb, then sit down together to unwrap and eat bread and food from plastic bags.",
+  "best_frame_ts": "00:08",
+  "confidence": "medium",
+  "needs_audio": true
+}

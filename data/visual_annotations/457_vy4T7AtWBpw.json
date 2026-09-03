@@ -1,0 +1,19 @@
+{
+  "video_id": "vy4T7AtWBpw",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada niva"],
+  "location_fine": "rural road in late autumn",
+  "character_types": ["traffic police officer", "driver in beanie and jacket"],
+  "drag": false,
+  "key_props": ["police cap", "beanie"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man driving erratically and shouting or singing loudly is pulled over by a traffic police officer on a foggy rural road; he gets out of the car yelling and gesturing wildly, stumbles against the vehicle, and then runs off down the road while the officer watches.",
+  "best_frame_ts": "01:32",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "417TLKVD54U",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["ghost", "regular man"],
+  "drag": false,
+  "key_props": ["white robe", "curly wig", "red couch"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A pale-faced ghost with a curly orange wig, shown first in a dark suit and later in a flowing white robe, appears in a man's living room. The startled man reacts with distress and disbelief as the ghost gestures and speaks to him, ending with the man alone afterward, seemingly recovered.",
+  "best_frame_ts": "00:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

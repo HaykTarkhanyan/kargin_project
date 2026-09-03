@@ -1,0 +1,19 @@
+{
+  "video_id": "EzQr9kXIp0U",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "wood-paneled office, nazi-parody interrogation room",
+  "character_types": ["nazi officer", "prisoner", "guard"],
+  "drag": false,
+  "key_props": ["swastika armbands", "desk", "papers", "wall portrait", "officer cap"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two costumed Nazi-parody officers sit at a desk in a wood-paneled office; guards drag in a heavyset prisoner in a striped shirt who is later shown beaten and bloodied.",
+  "best_frame_ts": "02:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

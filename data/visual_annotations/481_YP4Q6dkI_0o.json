@@ -1,0 +1,19 @@
+{
+  "video_id": "YP4Q6dkI_0o",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv", "van"],
+  "location_fine": "rural village courtyard with vineyard stone wall",
+  "character_types": ["driver", "two men in black shirts", "mustached man with farm tool", "man in striped shirt"],
+  "drag": false,
+  "key_props": ["swaddled bundle", "farm tool", "road sign", "outdoor table with food"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man drives an SUV along a countryside road into a village, parks by a stone-walled courtyard with grapevines, and is greeted by two men; the scene continues with a mustached man holding a farm tool and another man in a striped shirt carrying a swaddled bundle while people gesture animatedly.",
+  "best_frame_ts": "02:34",
+  "confidence": "medium",
+  "needs_audio": true
+}

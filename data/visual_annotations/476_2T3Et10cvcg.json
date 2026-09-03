@@ -1,0 +1,19 @@
+{
+  "video_id": "2T3Et10cvcg",
+  "indoor_outdoor": "both",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom, with an outdoor nightmare dream sequence",
+  "character_types": ["man having nightmare", "wife", "bandit villain", "bandit villain"],
+  "drag": false,
+  "key_props": ["hair curlers", "nightgown", "wide-brim hats", "bed"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man has a nightmare about being chased and confronted by two menacing bandit-costumed men outdoors at night, then wakes distressed in bed next to his wife who wears hair curlers.",
+  "best_frame_ts": "00:02",
+  "confidence": "medium",
+  "needs_audio": true
+}

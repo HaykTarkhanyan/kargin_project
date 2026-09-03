@@ -1,0 +1,19 @@
+{
+  "video_id": "yzBeTsyR8ys",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["lada", "police lada"],
+  "location_fine": "rural field",
+  "character_types": ["man in leather jacket and sunglasses", "men in caps", "police officer"],
+  "drag": false,
+  "key_props": ["cigarette", "sunglasses", "small brick shed"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A group of men in dark jackets meet and talk in a dry countryside field near a small shed, smoking, laughing and gesturing; the scene ends with a police Lada car pulling up and an officer standing by the roadside.",
+  "best_frame_ts": "00:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

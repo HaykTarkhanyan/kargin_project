@@ -1,0 +1,19 @@
+{
+  "video_id": "Z7ixgFUgruc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "soviet-era meeting hall / auditorium",
+  "character_types": ["committee chairman (man in flat cap)", "committee secretary (woman in red headscarf)", "audience members", "man in undershirt and apron"],
+  "drag": false,
+  "key_props": ["red flag with emblem", "water carafe and glasses", "podium", "papers", "medals/pins on jackets"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "At a presiding table in a Soviet-style auditorium under a red flag, a mustached chairman and a woman in a headscarf run a meeting while a shirtless man in an apron and undershirt stands up among the audience and argues animatedly, gesturing and raising his hand.",
+  "best_frame_ts": "01:44",
+  "confidence": "high",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "AflDz3lCrhk",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "airport restroom (urinals)",
+  "character_types": ["man in suit and tie", "mustached man in flat cap and tan blazer", "airport travelers"],
+  "drag": false,
+  "key_props": ["urinals", "banknote", "flat cap"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "After an establishing shot of travelers queuing at an airport terminal, a man in a suit and a mustached man in a flat cap and tan blazer argue heatedly at the restroom urinals, exchanging a banknote in an apparent bribe before the confrontation turns physical.",
+  "best_frame_ts": "02:19",
+  "confidence": "medium",
+  "needs_audio": true
+}

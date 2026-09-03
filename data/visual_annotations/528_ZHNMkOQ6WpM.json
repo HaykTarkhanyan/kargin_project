@@ -1,0 +1,19 @@
+{
+  "video_id": "ZHNMkOQ6WpM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office with bookshelves",
+  "character_types": ["therapist in drag", "man in suit"],
+  "drag": true,
+  "key_props": ["leather couch", "bookshelves", "blindfold", "lab coat", "lanyard badge"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in drag wearing a red wig and white lab coat lounges on a leather couch in a book-lined office, chatting animatedly with a mustachioed man in a grey suit seated in an armchair. Later the wigged character is blindfolded and reclines on the couch while the suited man ties something around his collar.",
+  "best_frame_ts": "01:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

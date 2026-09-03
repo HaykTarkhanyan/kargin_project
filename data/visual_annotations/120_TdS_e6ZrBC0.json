@@ -1,0 +1,19 @@
+{
+  "video_id": "TdS_e6ZrBC0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar",
+  "character_types": ["bar patron", "tattooed man in sunglasses"],
+  "drag": false,
+  "key_props": ["shot glasses", "water glass", "bottles", "sunglasses", "watch"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men have an animated, reaction-filled conversation at a bar counter, joined by a tattooed man in sunglasses who drinks shots and water while the group talks.",
+  "best_frame_ts": "02:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "8r_Q9kcZ3SA",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv"],
+  "location_fine": "company office",
+  "character_types": ["businessman", "office manager", "receptionist"],
+  "drag": false,
+  "key_props": ["computer monitor", "desk phone", "framed picture"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A black SUV parks outside an industrial building and a man walks inside through a corridor and reception into an office, where a man at the desk grows increasingly agitated, gesturing wildly and shouting into the phone.",
+  "best_frame_ts": "01:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

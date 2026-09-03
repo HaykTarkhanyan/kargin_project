@@ -1,0 +1,19 @@
+{
+  "video_id": "85ZJo9VyhWA",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "pond in a grassy field",
+  "character_types": ["fisherman", "young man"],
+  "drag": false,
+  "key_props": ["fishing rod", "folding chair", "black robe", "yellow bag"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "By a grassy pond, a fisherman sits fishing in a folding chair while another young man strips off his clothes, puts on a long black robe, and wades into the water, thrashing around dramatically.",
+  "best_frame_ts": "01:50",
+  "confidence": "medium",
+  "needs_audio": true
+}

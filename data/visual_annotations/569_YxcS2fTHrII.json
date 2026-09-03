@@ -1,0 +1,19 @@
+{
+  "video_id": "YxcS2fTHrII",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment hallway and living room",
+  "character_types": ["housewife (drag)", "elderly man with buckets"],
+  "drag": true,
+  "key_props": ["mobile phone", "dust rag", "wardrobe cabinet", "chandelier", "metal buckets"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in drag as a curly-haired housewife dusts furniture and talks on the phone throughout an elegant apartment, then answers the door to an elderly man carrying two metal buckets.",
+  "best_frame_ts": "00:52",
+  "confidence": "high",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "hBNHfoPXyME",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "butcher shop",
+  "character_types": ["butcher", "customer in suit"],
+  "drag": false,
+  "key_props": ["hanging meat carcasses", "butcher's coat", "cutting knife", "meat counter", "necktie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached butcher in a white coat works behind a counter surrounded by hanging meat carcasses, cutting and gesturing animatedly while talking with a besuited customer who visits the shop.",
+  "best_frame_ts": "01:24",
+  "confidence": "medium",
+  "needs_audio": true
+}

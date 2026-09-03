@@ -1,0 +1,19 @@
+{
+  "video_id": "2Fr3EAcZA9s",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room and industrial basement",
+  "character_types": ["narrator", "hitman friend", "hooded captive"],
+  "drag": false,
+  "key_props": ["champagne glasses", "assault rifle", "hood", "metal doors"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man recounts a story directly to camera while, in intercut scenes, two friends drink champagne on a leather couch and handle a rifle; a darker thread shows a hooded captive held in an industrial room with metal doors, before returning to the friends laughing together.",
+  "best_frame_ts": "04:48",
+  "confidence": "low",
+  "needs_audio": true
+}

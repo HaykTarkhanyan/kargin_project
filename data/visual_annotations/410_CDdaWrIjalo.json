@@ -1,0 +1,19 @@
+{
+  "video_id": "CDdaWrIjalo",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "forest path",
+  "character_types": ["soldier in beret and camouflage"],
+  "drag": false,
+  "key_props": ["blue beret", "camouflage uniform"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A soldier in a camouflage uniform and blue beret walks along a forest path, animatedly recounting a story directly to the camera.",
+  "best_frame_ts": "00:38",
+  "confidence": "medium",
+  "needs_audio": true
+}

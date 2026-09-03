@@ -1,0 +1,19 @@
+{
+  "video_id": "BueL5UsNsqM",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school hallway",
+  "character_types": ["school cleaner in loud patterned outfit", "man in flat cap"],
+  "drag": false,
+  "key_props": ["broom", "mop bucket", "bulletin board"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A school cleaner in a loud patterned outfit mops and gestures animatedly in a hallway lined with bulletin boards, then argues with a man in a flat cap who arrives partway through.",
+  "best_frame_ts": "00:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

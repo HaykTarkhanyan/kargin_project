@@ -1,0 +1,19 @@
+{
+  "video_id": "mSEqnf0_IJI",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv", "car"],
+  "location_fine": "mob boss's apartment and city streets",
+  "character_types": ["mob boss in green blazer", "henchman in leather jacket", "henchman in beanie", "female driver"],
+  "drag": false,
+  "key_props": ["cigarette", "whiskey glass and bottle", "handgun", "television", "black suvs"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A mustached mob-boss figure in a green blazer smokes and drinks while giving orders to two leather-jacketed henchmen in his ornate apartment; the henchmen then drive through the city, with a handgun visible on a car seat and black suvs waiting outside a building.",
+  "best_frame_ts": "03:06",
+  "confidence": "medium",
+  "needs_audio": true
+}

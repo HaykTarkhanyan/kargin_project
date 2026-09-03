@@ -1,0 +1,19 @@
+{
+  "video_id": "YoVa3ycxg-E",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "clinic waiting room",
+  "character_types": ["patient in scrub cap", "visitor"],
+  "drag": false,
+  "key_props": ["waiting room chairs", "green cup", "table"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man wearing a blue medical cap and scrub top sits in a clinic waiting room; another man in a plaid shirt and dark jacket enters and sits at the table, and the scrub-capped man stands behind him gesturing and tapping near his head.",
+  "best_frame_ts": "02:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

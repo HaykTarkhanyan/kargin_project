@@ -1,0 +1,19 @@
+{
+  "video_id": "8FNynS9GoAs",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["van", "white lada", "car"],
+  "location_fine": "snowy rural roadside",
+  "character_types": ["bearded man with sunglasses", "driver in flat cap", "young passenger", "traffic police officer", "police captain"],
+  "drag": false,
+  "key_props": ["police cap", "sunglasses", "beanie hat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three men driving a van on a snowy tree-lined road talk animatedly, then get pulled over and questioned by traffic police officers (GAI) standing beside the vehicle and a parked white Lada.",
+  "best_frame_ts": "01:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

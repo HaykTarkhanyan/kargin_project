@@ -1,0 +1,19 @@
+{
+  "video_id": "1KxxApbZa6M",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "grassy field by irrigation canal",
+  "character_types": ["man in straw hat", "bearded man", "young man"],
+  "drag": false,
+  "key_props": ["bottles", "straw hat", "snack bag", "irrigation canal"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men sit drinking and eating snacks in a grassy field with Mount Ararat visible in the distance, chatting and gesturing animatedly, while a young shirtless man runs through the field and jumps into a canal to swim before returning soaked.",
+  "best_frame_ts": "02:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

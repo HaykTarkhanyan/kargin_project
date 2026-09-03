@@ -1,0 +1,19 @@
+{
+  "video_id": "KksQ0IcHiuk",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital room",
+  "character_types": ["patient in hospital bed", "doctor", "woman visitor", "blind man with sunglasses", "man in green polo (visitor)", "children"],
+  "drag": false,
+  "key_props": ["hospital bed", "corded telephone", "sunglasses", "surgical cap", "coffee cup"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Family members, a doctor, and a blind friend crowd around a bandaged man in a hospital bed; later the patient lies alone having a long, emotionally distressed phone conversation on a corded telephone.",
+  "best_frame_ts": "04:23",
+  "confidence": "medium",
+  "needs_audio": true
+}

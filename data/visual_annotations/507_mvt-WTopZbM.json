@@ -1,0 +1,19 @@
+{
+  "video_id": "mvt-WTopZbM",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["husband", "wife (drag)"],
+  "drag": true,
+  "key_props": ["alarm clock", "mobile phone"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man walks through a dark hallway at night, checks an alarm clock, and climbs into bed beside his wife (played by a male actor in a wig); they talk and fiddle with phones before the exchange turns into a slap.",
+  "best_frame_ts": "01:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

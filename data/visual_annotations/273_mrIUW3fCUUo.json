@@ -1,0 +1,19 @@
+{
+  "video_id": "mrIUW3fCUUo",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": ["horse"],
+  "vehicles": ["sports car", "sedan", "marshrutka"],
+  "location_fine": "various locations (compilation)",
+  "character_types": ["young man", "young woman", "shopkeeper", "elderly woman", "driver", "villager"],
+  "drag": false,
+  "key_props": ["sports car", "shop counter", "broom", "sunglasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 8, "repeating_gag": false},
+  "visual_synopsis": "This video cuts across many unrelated scenes and locations - a sports car intro, an indoor group dance or scuffle, a man tossing restlessly in bed, a parody music-video segment shot against volcanic rock with a woman singing, a bearded man in a headwrap, shop/pharmacy interactions, car rides on rural roads, a village courtyard, a comedic street beating, and a farmyard scene with an elderly woman in leopard print - indicating a full episode or highlight compilation rather than one continuous sketch.",
+  "best_frame_ts": "00:00",
+  "confidence": "low",
+  "needs_audio": true
+}

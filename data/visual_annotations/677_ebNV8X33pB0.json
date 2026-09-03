@@ -1,0 +1,19 @@
+{
+  "video_id": "ebNV8X33pB0",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "backyard courtyard with crates",
+  "character_types": ["elderly man with cane", "elderly woman in leopard-print coat"],
+  "drag": true,
+  "key_props": ["cane", "wooden stick", "chair", "glasses", "countdown timer graphic", "fire effect graphic"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "An old man with a cane and an elderly woman in a leopard-print coat, both in a cluttered backyard, escalate from talking into a slapstick brawl with sticks and thrown chairs, punctuated by comic countdown-timer and fire-effect graphics suggesting timed fight rounds.",
+  "best_frame_ts": "01:31",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "eXVMl1B1rks",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government building hallway",
+  "character_types": ["office worker in suit", "nervous man with mustache"],
+  "drag": false,
+  "key_props": ["cigarette", "notebook", "wall map"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Outside a grand government building and then inside its marble hallway with wood doors, two men in suits interact - one paces and smokes while waiting, and a mustached man appears nervous, wiping his face, writing notes, and smoking before the two exchange words.",
+  "best_frame_ts": "00:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

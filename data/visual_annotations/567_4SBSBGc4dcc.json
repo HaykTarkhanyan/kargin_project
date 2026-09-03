@@ -1,0 +1,19 @@
+{
+  "video_id": "4SBSBGc4dcc",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "residential yard",
+  "character_types": ["young boy", "man being beaten"],
+  "drag": false,
+  "key_props": ["toy bucket", "toys", "tree", "blue metal gate", "parked car"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young boy plays alone with toy buckets and shovels in a dusty yard, while intercut footage shows a man being violently thrown and beaten against a tree nearby, ending with visible blood on his face.",
+  "best_frame_ts": "01:34",
+  "confidence": "medium",
+  "needs_audio": true
+}

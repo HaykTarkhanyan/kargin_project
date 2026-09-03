@@ -1,0 +1,19 @@
+{
+  "video_id": "h01gWxW9VsU",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "university classroom",
+  "character_types": ["professor", "male student", "female student"],
+  "drag": false,
+  "key_props": ["eyeglasses", "wig", "chalkboard with equations", "exam paper"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bearded, bespectacled professor in a sweater vest questions and reacts with growing animation to a young male student in a classroom, while a female student sits nearby writing.",
+  "best_frame_ts": "00:47",
+  "confidence": "medium",
+  "needs_audio": true
+}

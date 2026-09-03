@@ -1,0 +1,19 @@
+{
+  "video_id": "HB8G9zual8A",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "car on rural road with police stop",
+  "character_types": ["mustached man", "woman in red", "boy in cap", "traffic police officer"],
+  "drag": false,
+  "key_props": ["police cap", "car"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man gets dressed at home with a woman and boy present, then the three drive off in a car and are pulled over by a traffic police officer on a tree-lined rural road for a roadside conversation.",
+  "best_frame_ts": "03:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

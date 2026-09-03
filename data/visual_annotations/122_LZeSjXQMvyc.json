@@ -1,0 +1,19 @@
+{
+  "video_id": "LZeSjXQMvyc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government office (historical parody)",
+  "character_types": ["stalin-like leader figure", "military officer with glasses", "guard soldier"],
+  "drag": false,
+  "key_props": ["old telephones", "pipe", "military uniforms"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A black-and-white parody titled '1942 Kremlin' shows a mustached man styled as Stalin gesturing and dictating at his desk beside old telephones, while military officers move through the office and a long corridor outside.",
+  "best_frame_ts": "00:18",
+  "confidence": "medium",
+  "needs_audio": true
+}

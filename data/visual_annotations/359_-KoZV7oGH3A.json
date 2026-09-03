@@ -1,0 +1,19 @@
+{
+  "video_id": "-KoZV7oGH3A",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "medical clinic office",
+  "character_types": ["doctor", "nurse", "patient with orange wig"],
+  "drag": false,
+  "key_props": ["desk", "medical equipment", "papers", "curtain backdrop", "office chair"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a medical clinic office, a nurse and a mustached doctor examine a patient with a distinctive orange wig and brown jacket; the encounter escalates into a physical altercation, with the doctor grabbing the patient by the neck and raising a fist as if to strike him.",
+  "best_frame_ts": "01:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

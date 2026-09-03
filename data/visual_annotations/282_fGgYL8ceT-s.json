@@ -1,0 +1,19 @@
+{
+  "video_id": "fGgYL8ceT-s",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["fish"],
+  "vehicles": ["car"],
+  "location_fine": "fish shop with tanks",
+  "character_types": ["fish shop worker", "customer", "man in camo tank top"],
+  "drag": false,
+  "key_props": ["fish tank", "dried fish", "fishing net", "plastic bag"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A capped fish-shop worker deals with a customer among tanks of live fish and hanging dried fish, and a dispute escalates into a physical scuffle with a man in an olive tank top grabbing at him.",
+  "best_frame_ts": "01:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "NUyAGOvCJFQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "english period dining room",
+  "character_types": ["aristocrat", "butler"],
+  "drag": false,
+  "key_props": ["tea set", "candles", "bowl with leaf and insect"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in period English costume (a 1914 England title card opens the sketch) sit at a candlelit tea table in a wood-paneled dining room while a butler pours tea; the conversation escalates into animated gesturing and pointing, and a bowl with a leaf and small dark object appears on the table.",
+  "best_frame_ts": "00:47",
+  "confidence": "medium",
+  "needs_audio": true
+}

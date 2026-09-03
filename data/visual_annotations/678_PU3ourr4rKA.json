@@ -1,0 +1,19 @@
+{
+  "video_id": "PU3ourr4rKA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "photo studio",
+  "character_types": ["photographer with mustache and beret", "mother", "two young children", "tracksuit-clad men"],
+  "drag": false,
+  "key_props": ["vintage camera on tripod", "studio light", "potted plant", "wall posters", "tracksuits"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached photographer prepares to shoot a portrait of a mother and her two children in matching outfits in a small studio, but a crowd of men in red and blue tracksuits pushes in and the scene devolves into a chaotic shoving pile-up in front of the camera.",
+  "best_frame_ts": "01:25",
+  "confidence": "medium",
+  "needs_audio": true
+}

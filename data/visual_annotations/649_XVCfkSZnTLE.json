@@ -1,0 +1,19 @@
+{
+  "video_id": "XVCfkSZnTLE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment kitchen and bedroom",
+  "character_types": ["bespectacled man", "woman in white turtleneck (drag)", "woman in red/maroon top (drag)"],
+  "drag": true,
+  "key_props": ["hospital gown", "wardrobe/closet with hanging clothes", "kitchen cabinets", "chandelier hallway"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": true},
+  "visual_synopsis": "A bespectacled man, first seen in a hospital gown being interviewed, is shown in a series of flashback vignettes interacting with several different women (all played by the same actor in different wigs and outfits) in a kitchen, a bedroom wardrobe, and an ornate hallway.",
+  "best_frame_ts": "02:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

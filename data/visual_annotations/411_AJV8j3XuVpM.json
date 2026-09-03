@@ -1,0 +1,19 @@
+{
+  "video_id": "AJV8j3XuVpM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home kitchen",
+  "character_types": ["wife character in wig and apron (drag)", "mustached husband"],
+  "drag": true,
+  "key_props": ["frying pan", "apron", "stove", "eggs"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A wife character in a curly wig and apron cooks eggs at the stove while her mustached husband stands close by, the two bickering and gesturing over the cooking.",
+  "best_frame_ts": "00:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

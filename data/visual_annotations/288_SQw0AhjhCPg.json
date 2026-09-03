@@ -1,0 +1,19 @@
+{
+  "video_id": "SQw0AhjhCPg",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office building lobby and private office",
+  "character_types": ["young man with curly hair", "mustached office worker in suit", "young man visitor with big hair"],
+  "drag": false,
+  "key_props": ["telephones", "desk", "papers", "mannequin heads with wigs", "christmas tree"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A young man walks outside and enters an administration building's decorated lobby, then a mustached man in a suit spends most of the scene at his desk on a long, animated phone call while a younger visitor sits nearby.",
+  "best_frame_ts": "01:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

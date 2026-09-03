@@ -1,0 +1,19 @@
+{
+  "video_id": "ty8VH9jpVkU",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada niva", "bmw x5"],
+  "location_fine": "rural tree-lined road",
+  "character_types": ["traffic police officer", "driver in patterned shirt"],
+  "drag": false,
+  "key_props": ["police cap", "sunglasses", "paper document"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A traffic police officer pulls over a black BMW X5 on a tree-lined rural road and leans into the window to talk with the driver, who reacts with exaggerated surprise, laughs, and dramatically puts on sunglasses; the sketch ends with a man in a police-style shirt gesturing wildly on the road before running off into the distance.",
+  "best_frame_ts": "00:31",
+  "confidence": "medium",
+  "needs_audio": true
+}

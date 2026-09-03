@@ -1,0 +1,19 @@
+{
+  "video_id": "vbWvlxJnC_w",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["marshrutka"],
+  "location_fine": "inside a marshrutka on a rural highway",
+  "character_types": ["marshrutka driver", "old bald man passenger", "young woman passenger", "young woman passenger", "man in blonde wig", "young man in cap"],
+  "drag": true,
+  "key_props": ["steering wheel", "blonde wig", "sunglasses", "red neckerchief", "highway road signs"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A crowded marshrutka drives down a rural highway carrying a mustached driver, an older bald man, two young women, a young man in a cap, and a flamboyant passenger in a blonde wig and sunglasses, all talking animatedly as the countryside passes by outside.",
+  "best_frame_ts": "01:24",
+  "confidence": "medium",
+  "needs_audio": true
+}

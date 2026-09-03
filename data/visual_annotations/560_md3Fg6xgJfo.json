@@ -1,0 +1,19 @@
+{
+  "video_id": "md3Fg6xgJfo",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["dog"],
+  "vehicles": [],
+  "location_fine": "rural hillside field",
+  "character_types": ["man in shirt and tie", "villager", "shepherd"],
+  "drag": false,
+  "key_props": [],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a white shirt and tie runs and gestures wildly across a dry rural hillside near mountains while a seated villager with a dog watches, ending with a figure running off into the distance.",
+  "best_frame_ts": "00:38",
+  "confidence": "low",
+  "needs_audio": true
+}

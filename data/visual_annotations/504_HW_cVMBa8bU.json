@@ -1,0 +1,19 @@
+{
+  "video_id": "HW_cVMBa8bU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar",
+  "character_types": ["bartender in vest and bowtie", "customer in striped shirt"],
+  "drag": false,
+  "key_props": ["liquor bottles", "shot glasses", "electronic device", "small clock"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bartender serves a customer in a striped shirt who drinks progressively more shots, at one point passing out face-down on the bar counter, amid pouring drinks and a small electronic device shown in close-up.",
+  "best_frame_ts": "01:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

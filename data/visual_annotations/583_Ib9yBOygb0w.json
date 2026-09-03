@@ -1,0 +1,19 @@
+{
+  "video_id": "Ib9yBOygb0w",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and hallway",
+  "character_types": ["man in flashy tracksuit with shaggy wig", "bespectacled man in striped shirt", "old woman"],
+  "drag": false,
+  "key_props": ["wardrobe closet", "curtains", "wall clock", "colorful tracksuit jacket"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a cramped apartment, a man in a loud patterned tracksuit and shaggy wig confronts a bespectacled man in a striped shirt near a hallway wardrobe, with frantic movement between the living room and hallway and a brief glimpse of an old woman passing through.",
+  "best_frame_ts": "00:43",
+  "confidence": "medium",
+  "needs_audio": true
+}

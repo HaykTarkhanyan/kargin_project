@@ -1,0 +1,19 @@
+{
+  "video_id": "16m0-82_Igs",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "vintage-style apartment parlor",
+  "character_types": ["gangster in fedora and suit", "hostage woman", "child", "man in striped robe"],
+  "drag": false,
+  "key_props": ["revolver", "fedora hats", "blood splatter graphic", "couch and table"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Fedora-wearing gangsters burst into a retro-style apartment where a man in a striped robe takes a woman and child hostage at gunpoint, escalating into a comedic gun standoff with a cartoonish blood-splatter effect.",
+  "best_frame_ts": "01:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

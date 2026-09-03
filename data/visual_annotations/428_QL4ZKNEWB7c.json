@@ -1,0 +1,19 @@
+{
+  "video_id": "QL4ZKNEWB7c",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "rural hillside with a concrete water trough",
+  "character_types": ["gangster", "enforcer", "victim"],
+  "drag": false,
+  "key_props": ["car", "sunglasses", "concrete water trough"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A black-suited man and a man in a white shirt arrive by car to a rural hillside and talk, intercut with a shirtless enforcer repeatedly forcing a man's head underwater in a concrete trough, at one point making water spout from his mouth.",
+  "best_frame_ts": "01:59",
+  "confidence": "medium",
+  "needs_audio": true
+}

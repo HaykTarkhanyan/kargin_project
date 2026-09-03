@@ -1,0 +1,19 @@
+{
+  "video_id": "P4FOCwZYSnk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment hallway",
+  "character_types": ["tall man", "bespectacled man", "third man"],
+  "drag": false,
+  "key_props": ["wood-paneled doors", "eyeglasses"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three men repeatedly confront each other extremely close-up in a narrow apartment hallway, escalating into a physical grapple shown in stark black-and-white cutaway shots intercut with the color hallway scenes.",
+  "best_frame_ts": "01:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

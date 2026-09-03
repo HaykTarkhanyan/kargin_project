@@ -1,0 +1,19 @@
+{
+  "video_id": "upv-Sbiitss",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "grass field and rural roadside",
+  "character_types": ["gangster", "police officer"],
+  "drag": false,
+  "key_props": ["sunglasses", "cigarette"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men in black jackets and sunglasses sit in a grassy field for a long conversation, smoking and gesturing, occasionally joined by others crouched nearby; the sketch ends with the group in a car being pulled over by police at a rural roadside checkpoint with marked Lada patrol cars.",
+  "best_frame_ts": "03:11",
+  "confidence": "medium",
+  "needs_audio": true
+}

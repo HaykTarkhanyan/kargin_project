@@ -1,0 +1,19 @@
+{
+  "video_id": "eYibG0176rM",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "park",
+  "character_types": ["policeman", "man in black shirt", "young girl", "two women on a bench"],
+  "drag": false,
+  "key_props": ["trash bin", "park bench", "police cap"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "In a park, a policeman and a man in a black shirt grab and scuffle with each other near a trash bin; the video then cuts to a girl playing in a pink skirt, two women talking on a bench, and a man addressing the camera, all within the same park.",
+  "best_frame_ts": "00:39",
+  "confidence": "low",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "aYpOwxAtRuI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home living room and a bar/restaurant",
+  "character_types": ["father", "mother", "son"],
+  "drag": false,
+  "key_props": ["television", "leather jacket", "arcade machine", "whiskey glass"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A family watches TV in their living room - a mustached father in a patterned sweater, a woman in a blue floral top, and a boy in a red shirt - before the father puts on a leather jacket, leaves through the hallway, and goes downstairs to a bar/restaurant area with an arcade game, where he sits alone drinking whiskey while the boy watches from the stairs.",
+  "best_frame_ts": "02:31",
+  "confidence": "medium",
+  "needs_audio": true
+}

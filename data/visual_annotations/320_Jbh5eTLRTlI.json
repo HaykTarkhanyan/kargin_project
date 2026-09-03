@@ -1,0 +1,19 @@
+{
+  "video_id": "Jbh5eTLRTlI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "military interrogation office",
+  "character_types": ["military officer", "military officer", "hooded captive"],
+  "drag": false,
+  "key_props": ["machine gun", "desk lamp", "wall map", "swastika armband", "sack hood"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in period military uniforms with swastika armbands stand and pace in a dim wood-paneled office under a desk lamp, then bring in and roughly unmask a hooded captive, revealing a distressed small figure.",
+  "best_frame_ts": "03:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

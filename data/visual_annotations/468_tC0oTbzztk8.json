@@ -1,0 +1,19 @@
+{
+  "video_id": "tC0oTbzztk8",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "sedan"],
+  "location_fine": "rural roadside traffic stop",
+  "character_types": ["traffic police officer", "driver"],
+  "drag": false,
+  "key_props": ["police car", "mobile phone", "baton", "knife", "sunglasses", "police cap"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A traffic police officer pulls a driver over on a forest road; after a phone call the encounter escalates into the officer menacing the driver with a knife and violently climbing onto the car.",
+  "best_frame_ts": "02:42",
+  "confidence": "medium",
+  "needs_audio": true
+}

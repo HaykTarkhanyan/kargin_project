@@ -1,0 +1,19 @@
+{
+  "video_id": "A8_n7aME-yM",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "football locker room and practice field",
+  "character_types": ["football coach in tie and jacket", "football players in red jerseys", "goalkeeper coach in tracksuit"],
+  "drag": false,
+  "key_props": ["soccer ball", "whistle", "jerseys", "goal net"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A football team in red jerseys gathers in the locker room with their manager giving a talk, then moves to an outdoor practice field where a tracksuited coach with a whistle demonstrates goalkeeping dives and kicks at the goal while players line up and watch.",
+  "best_frame_ts": "01:29",
+  "confidence": "high",
+  "needs_audio": true
+}

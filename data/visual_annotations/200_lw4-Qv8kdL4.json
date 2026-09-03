@@ -1,0 +1,19 @@
+{
+  "video_id": "lw4-Qv8kdL4",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "park and bedroom",
+  "character_types": ["woman with red hair", "young boy in cap", "man wearing sleep mask"],
+  "drag": false,
+  "key_props": ["book", "backpack", "sleep mask", "pillow"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A woman sits on a park bench reading while a young boy in a cap plays nearby and passersby walk on the path, then the scene cuts to a dark bedroom at night where a man wearing a red sleep mask lies in bed near the boy.",
+  "best_frame_ts": "02:06",
+  "confidence": "low",
+  "needs_audio": true
+}

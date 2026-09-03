@@ -1,0 +1,19 @@
+{
+  "video_id": "LlshiOrrQkk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "church interior",
+  "character_types": ["man in suit", "old woman"],
+  "drag": true,
+  "key_props": ["religious icons", "candles", "carved stone cross", "red embroidered curtain"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a dark suit stands inside a candlelit church, gesturing and speaking emphatically while looking upward as if delivering a fervent prayer or speech. An old woman in a headscarf appears, moves around the interior handling something near a carved stone, and briefly joins him before he continues talking alone.",
+  "best_frame_ts": "01:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

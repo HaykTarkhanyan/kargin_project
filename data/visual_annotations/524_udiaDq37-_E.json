@@ -1,0 +1,19 @@
+{
+  "video_id": "udiaDq37-_E",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "community hall meeting",
+  "character_types": ["young presenter", "elderly audience members", "heckler"],
+  "drag": false,
+  "key_props": ["whiteboard", "percentage chart", "auditorium chairs"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young man in a shirt and tie gives an animated presentation with percentage figures on a whiteboard to a seated audience of older men in a community hall. Partway through, a man in a plaid shirt stands up from the crowd and interrupts, gesturing heatedly.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

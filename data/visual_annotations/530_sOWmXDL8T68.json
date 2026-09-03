@@ -1,0 +1,19 @@
+{
+  "video_id": "sOWmXDL8T68",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "cosmetics/pharmacy store",
+  "character_types": ["overly enthusiastic shop clerk", "shop clerk", "bewildered customer"],
+  "drag": false,
+  "key_props": ["product shelves", "striped polo uniform"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two shop clerks in matching striped polo uniforms greet and serve a blonde female customer with over-the-top, almost manic enthusiasm and laughter in a well-stocked cosmetics/pharmacy store, after running down the street to reach it.",
+  "best_frame_ts": "00:51",
+  "confidence": "medium",
+  "needs_audio": true
+}

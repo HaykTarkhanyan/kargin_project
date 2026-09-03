@@ -1,0 +1,19 @@
+{
+  "video_id": "an_rQSvxrIM",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "residential courtyard with garages",
+  "character_types": ["young man in flat cap", "young woman", "girl"],
+  "drag": false,
+  "key_props": ["ladder", "pink bag", "flat cap"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A young man in a denim jacket and flat cap sneaks through a residential courtyard of garages to meet a woman at a doorway who passes him a pink bundle, then a girl climbs down a ladder from a balcony before the group runs off and drives away together laughing in a car.",
+  "best_frame_ts": "02:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

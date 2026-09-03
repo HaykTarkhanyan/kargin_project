@@ -1,0 +1,19 @@
+{
+  "video_id": "l6xts0RYR_k",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["bespectacled office clerk", "mustached man in flat cap"],
+  "drag": false,
+  "key_props": ["desk lamp", "pen holder", "calculator", "eyeglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bespectacled office clerk works at his desk when a mustached man in a flat cap and tweed jacket enters and sits down for an animated conversation.",
+  "best_frame_ts": "01:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

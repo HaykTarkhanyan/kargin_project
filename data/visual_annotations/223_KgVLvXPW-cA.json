@@ -1,0 +1,19 @@
+{
+  "video_id": "KgVLvXPW-cA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office and living room",
+  "character_types": ["office worker", "woman in red cape", "woman on phone", "man with flowers"],
+  "drag": true,
+  "key_props": ["red cape", "eyeglasses", "desk computer", "red telephone", "flowers", "black lace dress"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A blonde-wigged woman in a red cape visits a bespectacled man in a yellow shirt at his office desk, then in a separate scene a woman takes a phone call on a couch before a man in a black jacket arrives with a bouquet of flowers for her.",
+  "best_frame_ts": "00:50",
+  "confidence": "low",
+  "needs_audio": true
+}

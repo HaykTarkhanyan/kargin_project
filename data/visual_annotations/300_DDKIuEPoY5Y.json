@@ -1,0 +1,19 @@
+{
+  "video_id": "DDKIuEPoY5Y",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["mustached man", "woman (mother)", "young man/son"],
+  "drag": false,
+  "key_props": ["backpack", "sofa", "mobile phone", "cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a black shirt sits on a living room couch, talking animatedly to the camera and taking a phone call, while a woman in a floral blouse listens nearby; a young man wearing a cap and backpack arrives and warmly hugs the woman before joining them.",
+  "best_frame_ts": "00:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

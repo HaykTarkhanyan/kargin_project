@@ -1,0 +1,19 @@
+{
+  "video_id": "5RRWJBCoZ-E",
+  "indoor_outdoor": "indoor",
+  "day_night": "mixed",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment bedroom",
+  "character_types": ["groom", "bride"],
+  "drag": true,
+  "key_props": ["wedding dress", "champagne bottle", "bouquet", "checkered blanket"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A groom brings his new bride, played in drag, home from the wedding into the bedroom; instead of a romantic night they end up lying apart on a couch, trading close-up reaction shots through a long dialogue scene into the night.",
+  "best_frame_ts": "01:03",
+  "confidence": "high",
+  "needs_audio": true
+}

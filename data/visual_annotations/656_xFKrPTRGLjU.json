@@ -1,0 +1,19 @@
+{
+  "video_id": "xFKrPTRGLjU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "doctor's exam room",
+  "character_types": ["patient with wild hair", "doctor with head mirror"],
+  "drag": false,
+  "key_props": ["ent head mirror", "exam chair", "coin", "medical tool"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A wild-haired patient sits in a clinic exam chair reacting and laughing while a mustached doctor wearing an ENT head mirror examines and talks to him; a coin and a medical instrument are shown in close-up.",
+  "best_frame_ts": "00:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

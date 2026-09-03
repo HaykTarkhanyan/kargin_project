@@ -1,0 +1,19 @@
+{
+  "video_id": "uLfQ7nMfIHE",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "residential street and apartment stairwell",
+  "character_types": ["young man in black t-shirt and sunglasses", "young man in orange t-shirt and sunglasses", "man in pink t-shirt", "bald man", "woman with curly red hair"],
+  "drag": false,
+  "key_props": ["sunglasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two young men in sunglasses argue against a wall on a sunny street until a man in a bright pink shirt joins with heated gestures and a shove; the group later moves into an apartment building where a bald man answers the door and a red-haired woman is seen crying in the hallway.",
+  "best_frame_ts": "00:48",
+  "confidence": "low",
+  "needs_audio": true
+}

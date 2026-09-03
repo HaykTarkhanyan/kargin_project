@@ -1,0 +1,19 @@
+{
+  "video_id": "y1yeDFDTxy4",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "army outpost yard",
+  "character_types": ["army officer", "soldier"],
+  "drag": false,
+  "key_props": ["sunglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Uniformed soldiers gather and talk under a grapevine trellis at a rural army post, with one mustached officer delivering an animated monologue to camera, occasionally joined by another soldier who salutes.",
+  "best_frame_ts": "00:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

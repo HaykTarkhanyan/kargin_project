@@ -1,0 +1,19 @@
+{
+  "video_id": "c2e4SgVd2AU",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital",
+  "character_types": ["doctor in white coat", "man in brown jacket", "woman in olive top", "man in white sweater"],
+  "drag": false,
+  "key_props": ["desk papers", "sink", "toilet stalls", "orange fruit"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A couple visits a hospital doctor's office where the doctor gestures animatedly while explaining something to them; afterward a different man is shown alone and visibly distressed in a restroom holding an orange.",
+  "best_frame_ts": "00:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

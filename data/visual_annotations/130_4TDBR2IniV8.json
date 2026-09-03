@@ -1,0 +1,19 @@
+{
+  "video_id": "4TDBR2IniV8",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "reedy lakeside",
+  "character_types": ["fisherman in green hat and jacket", "man in striped shirt"],
+  "drag": false,
+  "key_props": ["fishing rod", "bucket hat"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a green hat and jacket fishes at a reedy green lake, then reacts with surprise as another man in a striped shirt appears and ends up splashing and swimming frantically in the water.",
+  "best_frame_ts": "01:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

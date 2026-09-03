@@ -1,0 +1,19 @@
+{
+  "video_id": "DeOxiMRihZ0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "dim apartment stairwell hallway",
+  "character_types": ["old woman (drag)", "hooded man", "man in fedora with knife", "bearded man in suit"],
+  "drag": true,
+  "key_props": ["knife", "money", "fur hat"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a dim apartment stairwell, an old woman character (played in drag) is confronted by a hooded man and a fedora-wearing man brandishing a knife, and the scene ends with cash and papers being exchanged between her and a bearded man.",
+  "best_frame_ts": "01:06",
+  "confidence": "medium",
+  "needs_audio": true
+}

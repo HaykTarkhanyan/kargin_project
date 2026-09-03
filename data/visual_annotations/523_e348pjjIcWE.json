@@ -1,0 +1,19 @@
+{
+  "video_id": "e348pjjIcWE",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "village road and police station office",
+  "character_types": ["police officer", "eccentric curly-haired man"],
+  "drag": false,
+  "key_props": ["police cap", "photocopier", "scarf"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A police officer in uniform detains a wild-haired man on a village road and walks him into a police station office, where they have an animated, heated back-and-forth conversation across a desk before the man leaves.",
+  "best_frame_ts": "00:29",
+  "confidence": "medium",
+  "needs_audio": true
+}

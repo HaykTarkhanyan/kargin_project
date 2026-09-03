@@ -1,0 +1,19 @@
+{
+  "video_id": "7-ecmDcVc08",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room couch",
+  "character_types": ["young man", "young man"],
+  "drag": false,
+  "key_props": ["blanket", "cigarettes", "tv", "snack trays"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two young men sit close together on a couch wrapped in a shared blanket, smoking cigarettes and eating snacks from trays on the coffee table while watching an old TV showing parade or archival footage.",
+  "best_frame_ts": "00:04",
+  "confidence": "medium",
+  "needs_audio": true
+}

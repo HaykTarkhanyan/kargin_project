@@ -1,0 +1,19 @@
+{
+  "video_id": "U9PQjYKETKs",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "car interior on rural autumn road",
+  "character_types": ["man driver", "woman passenger"],
+  "drag": false,
+  "key_props": [],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man drives a woman along a tree-lined countryside road in autumn; the two exchange tense, quiet glances and dialogue inside the fogged-up car cabin.",
+  "best_frame_ts": "01:37.850",
+  "confidence": "medium",
+  "needs_audio": true
+}

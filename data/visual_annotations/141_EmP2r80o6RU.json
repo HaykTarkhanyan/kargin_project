@@ -1,0 +1,19 @@
+{
+  "video_id": "EmP2r80o6RU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["man in suit", "woman in robe", "drunk/passed-out man", "bearded man in sunglasses"],
+  "drag": false,
+  "key_props": ["leather couch", "fruit bowl", "sunglasses", "cigar"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit and orange tie argues with a woman then tries to rouse a passed-out man slumped on a couch, slapping and handing him things; the scene shifts to a lavish room where two heavyset bearded men in sunglasses lounge on a leather couch with a fruit bowl, smoking.",
+  "best_frame_ts": "01:20",
+  "confidence": "low",
+  "needs_audio": true
+}

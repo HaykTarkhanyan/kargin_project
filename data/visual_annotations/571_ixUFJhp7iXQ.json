@@ -1,0 +1,19 @@
+{
+  "video_id": "ixUFJhp7iXQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room with television",
+  "character_types": ["person in wig and robe (drag)", "man in black shirt"],
+  "drag": true,
+  "key_props": ["television", "pink robe", "orange wig", "couch", "vase"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A television plays footage of a mosquito while two people sit on a couch in a living room; a man in a black shirt repeatedly inspects and swats at the wild orange wig of a companion wearing a pink robe, who paces around and checks a mirror.",
+  "best_frame_ts": "00:38",
+  "confidence": "high",
+  "needs_audio": true
+}

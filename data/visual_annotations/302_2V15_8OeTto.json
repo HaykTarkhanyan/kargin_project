@@ -1,0 +1,19 @@
+{
+  "video_id": "2V15_8OeTto",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["old man (grandfather)", "boy"],
+  "drag": false,
+  "key_props": ["Playboy magazine", "football magazine", "telephone", "television", "electric fan"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An elderly gray-haired man sits on a couch talking on the phone while a boy beside him flips through a Playboy magazine and a football magazine; a TV in the background plays clips including action and suggestive content, and a magazine shows an ad for an expensive item.",
+  "best_frame_ts": "00:32",
+  "confidence": "medium",
+  "needs_audio": true
+}

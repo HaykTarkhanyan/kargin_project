@@ -1,0 +1,19 @@
+{
+  "video_id": "ZzXCdsQAvEY",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car", "lada"],
+  "location_fine": "rural roadside",
+  "character_types": ["driver", "roadside man", "older gray-haired man"],
+  "drag": false,
+  "key_props": ["cell phone", "food item being eaten"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man drives down a rural road talking heatedly on his phone, then stops and gets out to confront another man beside a white Soviet-era sedan, and the encounter escalates into a physical shoving match on the roadside.",
+  "best_frame_ts": "03:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

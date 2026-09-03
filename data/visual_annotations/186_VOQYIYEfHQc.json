@@ -1,0 +1,19 @@
+{
+  "video_id": "VOQYIYEfHQc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar/lounge",
+  "character_types": ["bartender", "man in blue shirt (talker)", "woman in red (drag)"],
+  "drag": true,
+  "key_props": ["bar counter", "liquor bottles", "wall-mounted TVs", "pink plush item"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man at a red-lit bar counter talks animatedly and laughs while a bartender works behind him, intercut with reaction shots of a wigged woman played in drag sitting in a booth.",
+  "best_frame_ts": "01:50",
+  "confidence": "medium",
+  "needs_audio": true
+}

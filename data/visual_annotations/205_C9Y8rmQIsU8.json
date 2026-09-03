@@ -1,0 +1,19 @@
+{
+  "video_id": "C9Y8rmQIsU8",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment hallway and stairwell",
+  "character_types": ["man in bathrobe", "woman"],
+  "drag": false,
+  "key_props": ["binoculars", "mug", "blanket"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man wrapped in a blanket drinks from a mug in his apartment hallway, then spies through binoculars with a night-vision view on a red-haired woman moving around her room; startled, he opens his door as she appears on the stairwell in a red dress and teal jacket.",
+  "best_frame_ts": "04:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

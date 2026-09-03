@@ -1,0 +1,19 @@
+{
+  "video_id": "TaKlYeV6i8c",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "dental clinic",
+  "character_types": ["male patient in suit", "drag dentist"],
+  "drag": true,
+  "key_props": ["dental chair", "surgical mask", "surgical cap", "syringe", "forceps", "dental tools"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit sits terrified in a dental chair as a wildly exaggerated, heavily made-up dentist in a blonde wig wields a syringe and forceps, ultimately yanking a tooth out with pliers.",
+  "best_frame_ts": "01:35.200",
+  "confidence": "high",
+  "needs_audio": false
+}

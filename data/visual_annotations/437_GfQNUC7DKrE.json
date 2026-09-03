@@ -1,0 +1,19 @@
+{
+  "video_id": "GfQNUC7DKrE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "forest park path",
+  "character_types": ["athlete", "companion", "man in plaid shirt"],
+  "drag": false,
+  "key_props": ["sports jersey", "cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a green forest park, two men sit on rocks in animated conversation, one wearing a 'CECHY' athletic jersey and the other a red tank top and cap, before a runner sprints down a wooded path and a third man in a plaid shirt appears.",
+  "best_frame_ts": "01:21",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "744KvMTjI8o",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bare apartment room",
+  "character_types": ["woman", "painter or handyman", "man in white shirt"],
+  "drag": false,
+  "key_props": ["paper painter's hat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A curly-haired woman has an animated exchange with two men in a bare, unfinished-looking apartment room; one man wears a folded newspaper painter's hat and checkered shirt, the other a white shirt, with frequent reactive gestures.",
+  "best_frame_ts": "01:02",
+  "confidence": "medium",
+  "needs_audio": true
+}

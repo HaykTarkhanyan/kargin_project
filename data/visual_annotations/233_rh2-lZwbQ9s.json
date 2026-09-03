@@ -1,0 +1,19 @@
+{
+  "video_id": "rh2-lZwbQ9s",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital ward room",
+  "character_types": ["patient", "doctor", "nurse"],
+  "drag": false,
+  "key_props": ["medical clipboard/chart", "hospital gown", "red couch/bed", "wall-mounted tv", "radiator"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in pajamas talk on a red couch in a hospital-like room; a mustached doctor and two nurses arrive to examine one of the patients, who reacts with worried expressions.",
+  "best_frame_ts": "01:39",
+  "confidence": "medium",
+  "needs_audio": true
+}

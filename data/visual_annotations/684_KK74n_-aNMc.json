@@ -1,0 +1,19 @@
+{
+  "video_id": "KK74n_-aNMc",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "forest/park path",
+  "character_types": ["street musician in flamboyant costume", "street musician in casual clothes", "passersby"],
+  "drag": false,
+  "key_props": ["acoustic guitars", "gold medallion necklace", "headscarf/bandana", "hat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men play acoustic guitars and sing in a green forest path setting - one in a flamboyant red costume with a headscarf and gold medallion, the other in a plain blue fleece - while two other men walk past in the background.",
+  "best_frame_ts": "00:51.425",
+  "confidence": "medium",
+  "needs_audio": true
+}

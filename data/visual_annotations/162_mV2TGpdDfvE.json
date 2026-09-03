@@ -1,0 +1,19 @@
+{
+  "video_id": "mV2TGpdDfvE",
+  "indoor_outdoor": "both",
+  "day_night": "night",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom (with dream sequence outdoors)",
+  "character_types": ["man in nightgown (dream)", "bandit with hat", "husband", "wife with hair rollers"],
+  "drag": false,
+  "key_props": ["hair rollers", "bed", "wide-brim hats", "knife"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A nightmarish dream sequence shows a figure in a white nightgown wandering outdoors at night confronted by two menacing hat-wearing men with a knife; the scene cuts to a husband and wife lying in bed, the wife wearing hair rollers, as he appears to recount the frightening dream to her.",
+  "best_frame_ts": "00:00:28",
+  "confidence": "medium",
+  "needs_audio": true
+}

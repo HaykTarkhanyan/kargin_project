@@ -1,0 +1,19 @@
+{
+  "video_id": "cLAP5VdCAc8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "small office room",
+  "character_types": ["large man in coat and fedora", "person in curly wig", "man with mustache"],
+  "drag": true,
+  "key_props": ["fedora hat", "television", "red armchairs", "telephone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A large man in a black coat and fedora sits in a small room with red armchairs, talking with a person in a curly wig and tan jacket who grows increasingly distressed and cries; later two men in plain clothes sit in the same chairs talking, one on a phone.",
+  "best_frame_ts": "00:19",
+  "confidence": "low",
+  "needs_audio": true
+}

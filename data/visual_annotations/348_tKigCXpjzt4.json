@@ -1,0 +1,19 @@
+{
+  "video_id": "tKigCXpjzt4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office and corridor",
+  "character_types": ["mustached businessman/official", "curly-haired woman"],
+  "drag": false,
+  "key_props": ["telephone", "documents", "illustrated action-hero image"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A businessman walks down an office corridor and sits at his desk talking with a curly-haired woman, with the conversation intercut by a recurring cutaway to an illustrated fantasy warrior image used as a visual gag.",
+  "best_frame_ts": "00:48",
+  "confidence": "low",
+  "needs_audio": true
+}

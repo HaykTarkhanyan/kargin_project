@@ -1,0 +1,19 @@
+{
+  "video_id": "gAzcI3ksk-s",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school auditorium",
+  "character_types": ["student", "athlete", "stern man in coat"],
+  "drag": false,
+  "key_props": ["tracksuit with red triangle logo", "theater seats"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A group of young people in matching navy tracksuits sit talking in a wood-paneled school auditorium while a bearded man in a heavy black coat separately confronts individuals in a side room, grabbing one by the collar; it ends with two men struggling in near darkness.",
+  "best_frame_ts": "02:38",
+  "confidence": "low",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "TXdTwYXESE8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "soviet-style assembly hall",
+  "character_types": ["official in leather jacket with mustache", "man in fur ushanka hat", "woman in headscarf", "man in striped tank top"],
+  "drag": false,
+  "key_props": ["red communist banner", "auditorium seats"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a leather jacket addresses a seated crowd in a Soviet-style assembly hall under a red communist banner, gesturing animatedly while various audience members in fur hats and headscarves react and occasionally speak up.",
+  "best_frame_ts": "01:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

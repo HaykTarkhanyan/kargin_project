@@ -1,0 +1,19 @@
+{
+  "video_id": "2ZNH4fu4YoA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["robber", "robber", "husband", "wife"],
+  "drag": false,
+  "key_props": ["knives", "old tv", "couch", "dresser"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In desaturated, film-noir-style footage, two men in dark jackets and beanies creep up an apartment stairwell with knives and burst into a couple's living room while they watch TV, holding them up at knifepoint before a physical struggle breaks out.",
+  "best_frame_ts": "01:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

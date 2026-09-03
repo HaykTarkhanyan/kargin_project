@@ -1,0 +1,19 @@
+{
+  "video_id": "9OIvv9v7fh8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "dark room / padded cell",
+  "character_types": ["man alone in the dark", "man in a coat"],
+  "drag": false,
+  "key_props": ["matches", "alarm clock"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man sits alone in near-total darkness, lighting matches to check an alarm clock as time passes; the scene culminates in a dim, barred-window room where he is joined by another man for a close physical interaction.",
+  "best_frame_ts": "03:09",
+  "confidence": "low",
+  "needs_audio": true
+}

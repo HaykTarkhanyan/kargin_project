@@ -1,0 +1,19 @@
+{
+  "video_id": "7KKsmTxazyY",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "apartment courtyard with bench",
+  "character_types": ["old man", "old man", "elderly woman", "drag old woman narrator", "young man", "young woman"],
+  "drag": true,
+  "key_props": ["canes", "bench", "red car"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 4, "repeating_gag": false},
+  "visual_synopsis": "Two elderly men sit on a courtyard bench chatting and gesturing with their canes, intercut with glimpses of neighborhood happenings (a woman leaving a doorway, a man and a red car) and a separate direct-to-camera rant from a drag 'old woman' narrator; an elderly woman then walks over and joins the men on the bench.",
+  "best_frame_ts": "01:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

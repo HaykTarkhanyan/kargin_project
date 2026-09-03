@@ -1,0 +1,19 @@
+{
+  "video_id": "bVP8dzuxVkY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["man in glasses", "drag character in blonde wig"],
+  "drag": true,
+  "key_props": ["cigarettes", "ashtray", "bookshelf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in glasses enters an apartment and warmly greets a flamboyant character in a curly blonde wig and white robe; the two then sit together smoking and having an animated, gesture-heavy conversation.",
+  "best_frame_ts": "00:43",
+  "confidence": "high",
+  "needs_audio": true
+}

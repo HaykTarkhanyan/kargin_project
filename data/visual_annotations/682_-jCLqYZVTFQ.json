@@ -1,0 +1,19 @@
+{
+  "video_id": "-jCLqYZVTFQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant, then apartment",
+  "character_types": ["man in suit on a date", "woman in sequined top", "man in football jersey", "friend in orange shirt"],
+  "drag": false,
+  "key_props": ["ring box", "cocktail glasses", "candle", "restaurant table", "beer bottles", "television playing soccer match", "couch", "electric fan"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A couple has a romantic restaurant dinner where the man produces a ring box, then the scene cuts to an apartment where a man in a football club jersey drinks beer with a friend while watching a soccer match on TV, before the woman from the restaurant arrives at the door.",
+  "best_frame_ts": "01:28.400",
+  "confidence": "medium",
+  "needs_audio": true
+}

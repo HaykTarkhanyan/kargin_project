@@ -1,0 +1,19 @@
+{
+  "video_id": "3Uod7MNtIok",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office/clinic room with desk",
+  "character_types": ["doctor", "man in scrubs", "man in sunglasses and trench coat"],
+  "drag": false,
+  "key_props": ["sunglasses", "cigarette", "desk"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A doctor and a man in surgical scrubs talk at a desk, then a man in sunglasses and a tan trench coat enters and delivers an animated monologue directly to camera with exaggerated hand gestures.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

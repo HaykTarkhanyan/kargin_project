@@ -1,0 +1,19 @@
+{
+  "video_id": "EzBimQbJTPM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hotel room",
+  "character_types": ["young man in bathrobe with shaving cream", "teammate in tracksuit"],
+  "drag": false,
+  "key_props": ["shaving cream", "bathrobe", "striped tracksuit jacket", "cap", "colorful flag or jersey with number 4", "sink", "mirror"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young man with a curly wig and shaving cream on his face lounges in a bathrobe in a hotel room, clearly not ready to leave; a teammate in a striped tracksuit and cap arrives carrying a colorful flag or jersey, and the two go back and forth while the curly-haired man peeks around doors unhurried.",
+  "best_frame_ts": "00:54",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "-ZoqTxj7rfQ",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["dog"],
+  "vehicles": [],
+  "location_fine": "wooded dirt path",
+  "character_types": ["woman", "man with dog"],
+  "drag": false,
+  "key_props": ["handbag", "dog leash"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A woman walking alone on a rural dirt path drops her bag, falls to her knees, and crawls forward with wild disheveled hair as if possessed or feral; a man in a cap walking his golden retriever encounters her and reacts with alarm.",
+  "best_frame_ts": "00:00:50",
+  "confidence": "medium",
+  "needs_audio": true
+}

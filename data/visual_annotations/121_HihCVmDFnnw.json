@@ -1,0 +1,19 @@
+{
+  "video_id": "HihCVmDFnnw",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and hallway",
+  "character_types": ["husband", "wife", "young man visitor"],
+  "drag": false,
+  "key_props": ["newspaper", "television", "towel turban"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A husband reads a newspaper on the couch beside his wife, who has a towel wrapped around her head, while the TV plays a beach scene; a young man then appears at the door and has an animated exchange with the wife in the hallway.",
+  "best_frame_ts": "01:02",
+  "confidence": "medium",
+  "needs_audio": true
+}

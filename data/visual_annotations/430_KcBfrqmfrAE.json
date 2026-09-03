@@ -1,0 +1,19 @@
+{
+  "video_id": "KcBfrqmfrAE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "open grassland field",
+  "character_types": ["soldier", "burqa-clad figure"],
+  "drag": false,
+  "key_props": ["military vest", "cap", "burqa"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A title card reads 'Afganistan' over a golden field; a young man in a military-style vest and cap walks and talks with a person fully covered in a black burqa across an open grassy field.",
+  "best_frame_ts": "00:48",
+  "confidence": "medium",
+  "needs_audio": true
+}

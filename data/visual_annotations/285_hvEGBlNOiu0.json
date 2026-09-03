@@ -1,0 +1,19 @@
+{
+  "video_id": "hvEGBlNOiu0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school hallway and teacher's office",
+  "character_types": ["young man student", "grey-haired professor", "female students"],
+  "drag": false,
+  "key_props": ["briefcase", "champagne bottle", "wine glass", "lemon slice", "watch"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A young man in a light blue shirt walks through a school hallway past students and world maps, then sits across from an older grey-haired professor in an office where the two share a celebratory champagne toast with lemon.",
+  "best_frame_ts": "01:03",
+  "confidence": "medium",
+  "needs_audio": true
+}

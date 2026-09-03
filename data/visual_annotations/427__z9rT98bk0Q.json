@@ -1,0 +1,19 @@
+{
+  "video_id": "_z9rT98bk0Q",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["van"],
+  "location_fine": "van interior",
+  "character_types": ["old woman", "young man", "young woman", "man in plaid shirt"],
+  "drag": true,
+  "key_props": ["curtains", "bottle", "cup"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a plaid shirt walks along a tree-lined village road toward a parked white van; the scene then shifts inside the van where he sits with a drag grandma character, a young couple, and others, drinking and making exaggerated queasy hand-to-mouth gestures.",
+  "best_frame_ts": "00:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

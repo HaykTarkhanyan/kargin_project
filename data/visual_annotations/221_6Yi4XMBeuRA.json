@@ -1,0 +1,19 @@
+{
+  "video_id": "6Yi4XMBeuRA",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "autumn forest",
+  "character_types": ["red riding hood", "grandmother (wolf in disguise)", "wolf costume character", "old bearded man"],
+  "drag": true,
+  "key_props": ["red hood cape", "basket", "flower", "wolf costume", "grandma bonnet costume"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A woman dressed as Little Red Riding Hood runs through an autumn forest and encounters a wolf disguised as her grandmother, then confronts a wolf-costumed character, ending with her pointing an object at him near a picnic basket.",
+  "best_frame_ts": "02:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

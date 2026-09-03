@@ -1,0 +1,19 @@
+{
+  "video_id": "bG0Vzk2SuQU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "eye doctor's office",
+  "character_types": ["patient", "doctor with glasses"],
+  "drag": false,
+  "key_props": ["desk", "telephone", "eye chart", "wall photo", "reading glasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A patient in a patterned shirt talks and looks in a bathroom mirror, then sits across a desk from a bespectacled doctor in a white coat in an office with an Armenian-letter eye chart and orchard photo on the wall; a cutaway image of geese flying is inserted partway through.",
+  "best_frame_ts": "00:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

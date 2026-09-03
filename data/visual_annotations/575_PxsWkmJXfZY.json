@@ -1,0 +1,19 @@
+{
+  "video_id": "PxsWkmJXfZY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["man in yellow shirt", "bearded man in dark shirt"],
+  "drag": false,
+  "key_props": ["teapot", "television", "analog clock", "couch", "framed painting"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "Two men sit closely on a couch drinking tea from a teapot and watching colorful television programming, with recurring shots of a clock marking time passing as they continue their leisurely tea session, before one man is later seen walking alone through a hallway.",
+  "best_frame_ts": "00:11",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "Ehr0llqH58A",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "doctor's office",
+  "character_types": ["doctor", "young man", "patient"],
+  "drag": false,
+  "key_props": ["rose in vase", "rotary telephone", "plaster face cast", "eyeglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a surgical cap and glasses sits at a desk in a clinic-like office talking and gesturing while two younger men interact closely and handle a white plaster face cast; the scene later shifts to a dark building exterior at night.",
+  "best_frame_ts": "01:28",
+  "confidence": "low",
+  "needs_audio": true
+}

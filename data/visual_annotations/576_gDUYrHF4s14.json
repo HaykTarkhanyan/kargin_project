@@ -1,0 +1,19 @@
+{
+  "video_id": "gDUYrHF4s14",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "autumn park",
+  "character_types": ["man in black jacket", "man in brown jacket", "boy", "long-haired mustached man", "construction worker"],
+  "drag": false,
+  "key_props": ["autumn trees", "park bench", "hard hat", "fur or pelts hanging from tree"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men have an escalating confrontation in a bare autumn forest, grabbing each other's collars and one choking the other by the neck, before embracing in reconciliation; the scene later shifts to a park bench where a mustached man with long hair talks to a boy and other passersby including a hard-hatted worker.",
+  "best_frame_ts": "01:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

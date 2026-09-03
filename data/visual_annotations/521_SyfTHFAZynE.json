@@ -1,0 +1,19 @@
+{
+  "video_id": "SyfTHFAZynE",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["fish"],
+  "vehicles": [],
+  "location_fine": "apartment bedroom",
+  "character_types": ["confronting man", "woman in bed", "lover"],
+  "drag": false,
+  "key_props": ["bed", "curtains", "aquarium"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustachioed man walks through an apartment hallway into a bedroom where he finds a woman in bed with another man in a tank top, who hastily gets dressed. The two men confront each other face-to-face at the doorway while the woman looks anxious in bed.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

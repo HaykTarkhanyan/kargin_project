@@ -1,0 +1,19 @@
+{
+  "video_id": "Xl9mFRcvF6Y",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "workshop or warehouse interior",
+  "character_types": ["factory worker with flat cap", "factory worker"],
+  "drag": false,
+  "key_props": ["cash", "flat cap", "bottles", "table", "sacks"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two working-class men in an industrial warehouse handle and count cash near shelves of sacks, briefly shove near a doorway, then sit at a small table drinking from bottles and grow increasingly animated and intoxicated as the scene progresses.",
+  "best_frame_ts": "02:49",
+  "confidence": "medium",
+  "needs_audio": true
+}

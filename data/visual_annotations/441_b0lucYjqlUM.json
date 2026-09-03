@@ -1,0 +1,19 @@
+{
+  "video_id": "b0lucYjqlUM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office meeting room",
+  "character_types": ["mustached man in suit", "older man in suit", "young man in suit"],
+  "drag": false,
+  "key_props": ["large water bottle", "paper cups", "conference table"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three men in suits sit behind a table in a plain office or committee room, talking and reacting to each other with exaggerated laughing and grimacing expressions.",
+  "best_frame_ts": "00:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

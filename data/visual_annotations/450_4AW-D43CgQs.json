@@ -1,0 +1,19 @@
+{
+  "video_id": "4AW-D43CgQs",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "park pathway",
+  "character_types": ["police officer", "man in white shirt", "young man"],
+  "drag": false,
+  "key_props": ["park bench", "police cap", "trees"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A police officer sits on a park bench guarding his cap; a man in a white shirt runs past and a chase ensues through the park, leading to a physical fight on the path, before the officer walks off with a young man.",
+  "best_frame_ts": "00:40",
+  "confidence": "medium",
+  "needs_audio": true
+}

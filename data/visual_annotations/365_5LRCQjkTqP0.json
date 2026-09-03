@@ -1,0 +1,19 @@
+{
+  "video_id": "5LRCQjkTqP0",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car", "suv"],
+  "location_fine": "roadside grape stand",
+  "character_types": ["grape vendor", "man in suit"],
+  "drag": false,
+  "key_props": ["grape crates", "beach umbrella"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two young men sell grapes from plastic crates at a roadside stand under a beach umbrella; a man in a suit pulls up in a car and argues animatedly with them, and the scene ends with him loading crates into his SUV as they help.",
+  "best_frame_ts": "01:51",
+  "confidence": "medium",
+  "needs_audio": true
+}

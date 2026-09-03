@@ -1,0 +1,19 @@
+{
+  "video_id": "-awx6fK2h-k",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["taxi"],
+  "location_fine": "hotel entrance and roadside",
+  "character_types": ["valet", "waiter", "wealthy guest", "bouncer"],
+  "drag": false,
+  "key_props": ["taxi car", "bow tie", "mobile phone"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Outside an upscale stone building, a group of suited men including one in a bright yellow shirt engage in an animated, dance-like confrontation, while a vest-and-bow-tie valet later waits for and calls about a branded taxi, ending with a tense grab through a car window.",
+  "best_frame_ts": "00:34",
+  "confidence": "low",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "dZ3hUkD1IiM",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "park path and bench",
+  "character_types": ["activist in vest and glasses", "man in brown jacket"],
+  "drag": false,
+  "key_props": ["flyers", "park bench", "eyeglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bespectacled man in a vest gives an animated, gesture-heavy monologue while seated on a park bench, waving papers around; another man in similar dress later joins him for a close, conspiratorial conversation before the scene ends in a sudden blurred commotion.",
+  "best_frame_ts": "00:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

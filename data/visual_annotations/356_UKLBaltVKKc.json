@@ -1,0 +1,19 @@
+{
+  "video_id": "UKLBaltVKKc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and hallway",
+  "character_types": ["woman character (played by man)", "mustached man"],
+  "drag": true,
+  "key_props": ["old tube TV with built-in radio/cassette", "couch", "telephone", "small gift bag"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A male actor in a curly orange wig and plaid vest sits crying on a couch, talking on the phone while watching a TV broadcast of a policeman detaining a young man on a rural road. A mustached man then arrives at the apartment door and the two have an emotional conversation in the hallway, ending with them exchanging a small bag.",
+  "best_frame_ts": "00:53",
+  "confidence": "high",
+  "needs_audio": true
+}

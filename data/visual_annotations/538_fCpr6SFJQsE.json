@@ -1,0 +1,19 @@
+{
+  "video_id": "fCpr6SFJQsE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "dental or medical clinic office",
+  "character_types": ["doctor", "nurse assistant", "mustached man in suit", "young woman"],
+  "drag": false,
+  "key_props": ["id badge", "anatomical wall chart", "telephone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A doctor in a white coat converses with a nurse assistant in a clinic exam room with an anatomical chart on the wall, intercut with interview-style shots of a mustached man in a suit talking on the phone and to camera, alongside a young woman giving reactions.",
+  "best_frame_ts": "00:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

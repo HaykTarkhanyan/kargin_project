@@ -1,0 +1,19 @@
+{
+  "video_id": "iy-TqNmHoLg",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["secretary", "office boss", "gangster in leather jacket", "bodyguards in suits"],
+  "drag": false,
+  "key_props": ["office desk", "telephone", "papers", "leather jacket"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a leather jacket bursts into an office and shoves and slaps a seated heavyset boss while a female secretary watches in shock; afterward a line of men in suits gathers in the doorway/hallway as the intruder leaves.",
+  "best_frame_ts": "00:00:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "xhQb_6ooXYM",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "wood-paneled study with bookshelves",
+  "character_types": ["man in suit with yellow tie", "man in suit with dark tie"],
+  "drag": false,
+  "key_props": ["chess set", "globe", "books", "world map painting"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Establishing shots of London (Big Ben, modern buildings) lead into a British-styled wood-paneled study where two men in suits sit in leather armchairs by a chess set and globe, having a conversation.",
+  "best_frame_ts": "01:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

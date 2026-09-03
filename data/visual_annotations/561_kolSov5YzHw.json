@@ -1,0 +1,19 @@
+{
+  "video_id": "kolSov5YzHw",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "clinic exam room",
+  "character_types": ["doctor", "patient"],
+  "drag": false,
+  "key_props": ["syringe", "tweezers", "blood", "exam table"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A doctor in blue scrubs aggressively treats a bloodied male patient lying on an exam table, prodding his face with tweezers and a syringe while the patient winces and reacts in pain.",
+  "best_frame_ts": "01:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

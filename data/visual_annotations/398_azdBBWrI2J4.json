@@ -1,0 +1,19 @@
+{
+  "video_id": "azdBBWrI2J4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "cozy living room",
+  "character_types": ["man in vest with red scarf", "woman with bob haircut"],
+  "drag": false,
+  "key_props": ["flowers", "sofa", "red neck scarf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a vest with a red neck scarf and a woman with a bob haircut each speak directly to camera in intercut romantic confessional segments in a cozy living room, ending with a shot suggesting they end up together in bed.",
+  "best_frame_ts": "01:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

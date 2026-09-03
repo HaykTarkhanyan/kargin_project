@@ -1,0 +1,19 @@
+{
+  "video_id": "HJ_hMRZ8m9c",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment courtyard with garages",
+  "character_types": ["boy", "woman at window"],
+  "drag": false,
+  "key_props": ["clothesline", "chain-link fence", "garages"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A boy stands alone in a courtyard between Soviet-style apartment blocks, throwing his head back and shouting up toward the buildings; eventually a woman leans out of an upper-floor window to respond to him.",
+  "best_frame_ts": "00:42",
+  "confidence": "medium",
+  "needs_audio": true
+}

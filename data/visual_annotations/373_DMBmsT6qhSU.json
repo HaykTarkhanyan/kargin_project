@@ -1,0 +1,19 @@
+{
+  "video_id": "DMBmsT6qhSU",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["truck", "car"],
+  "location_fine": "city street interview",
+  "character_types": ["reporter", "cameraman", "interviewee"],
+  "drag": false,
+  "key_props": ["microphone", "shoulder camera", "cigarette"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A reporter with a microphone and a cameraman with a shoulder camera walk a city street doing a man-on-the-street style interview with a mustached man in a suit jacket who smokes while answering.",
+  "best_frame_ts": "01:54",
+  "confidence": "medium",
+  "needs_audio": true
+}

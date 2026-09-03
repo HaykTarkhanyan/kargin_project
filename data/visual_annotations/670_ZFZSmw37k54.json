@@ -1,0 +1,19 @@
+{
+  "video_id": "ZFZSmw37k54",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["donkey"],
+  "vehicles": ["blue van", "donkey cart", "red car"],
+  "location_fine": "open countryside dirt road",
+  "character_types": ["dandy in tweed suit with cane", "young cart driver"],
+  "drag": false,
+  "key_props": ["cane", "hat", "donkey cart"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in an old-fashioned plaid suit, hat, and cane walks and gestures animatedly in a field, then rides across the open countryside on a donkey-drawn cart with a young cart driver, passing a rural building, a parked red car, and open fields.",
+  "best_frame_ts": "02:02",
+  "confidence": "medium",
+  "needs_audio": true
+}

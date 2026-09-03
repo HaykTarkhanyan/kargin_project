@@ -1,0 +1,19 @@
+{
+  "video_id": "Ol-_OaPjBN0",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "park path",
+  "character_types": ["police officer", "police officer"],
+  "drag": false,
+  "key_props": [],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in police-style uniforms with red-topped caps walk and stand along a wooded park path, talking and gesturing, at one point pointing off into the distance.",
+  "best_frame_ts": "01:21",
+  "confidence": "medium",
+  "needs_audio": true
+}

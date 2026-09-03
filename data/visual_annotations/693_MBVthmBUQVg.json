@@ -1,0 +1,19 @@
+{
+  "video_id": "MBVthmBUQVg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "orchard",
+  "character_types": ["farmer", "priest"],
+  "drag": false,
+  "key_props": ["scythe", "straw hat", "cross pendant"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached farmer in a straw hat holding a scythe talks to the camera in an orchard, intercut with a bearded man in a black hooded robe and cross pendant gesturing as he speaks, and a distant figure walking down a dirt path.",
+  "best_frame_ts": "00:40",
+  "confidence": "medium",
+  "needs_audio": true
+}

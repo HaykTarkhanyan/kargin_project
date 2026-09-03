@@ -1,0 +1,19 @@
+{
+  "video_id": "aUAgkYQ9usg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "park bench",
+  "character_types": ["old woman", "boy"],
+  "drag": false,
+  "key_props": ["book", "park bench", "cap"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "An elderly woman sits alone on a park bench absorbed in a book while a boy in a baseball cap repeatedly sneaks up to peek at her from behind the bench and runs off into the trees.",
+  "best_frame_ts": "01:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

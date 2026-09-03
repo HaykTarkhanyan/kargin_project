@@ -1,0 +1,19 @@
+{
+  "video_id": "E0apclx3wqU",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["hearse", "marshrutka"],
+  "location_fine": "various locations (flashback narrative)",
+  "character_types": ["young man", "young man", "elderly man", "woman", "mourner", "man in suit"],
+  "drag": true,
+  "key_props": ["bandages", "hearse", "wig", "couch"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 6, "repeating_gag": false},
+  "visual_synopsis": "Opens in black-and-white with two friends in a living room whose argument escalates into a wrestling fight on a couch and a scolding confrontation; the story then cuts to color with the two men heavily bandaged in a hospital-style bed alongside a red-wigged woman, a funeral procession with a hearse and mourners, further physical confrontations in a courtyard, a bathroom scene, and finally men talking outside a snow-covered stone church.",
+  "best_frame_ts": "04:45",
+  "confidence": "low",
+  "needs_audio": true
+}

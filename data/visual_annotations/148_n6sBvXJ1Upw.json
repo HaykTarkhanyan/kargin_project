@@ -1,0 +1,19 @@
+{
+  "video_id": "n6sBvXJ1Upw",
+  "indoor_outdoor": "indoor",
+  "day_night": "mixed",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["husband", "wife"],
+  "drag": false,
+  "key_props": ["bed", "pillows", "blanket"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A couple lies in bed talking during the day, then as night falls the man tries to sleep while the woman keeps leaning in and talking to him, repeatedly disturbing his rest.",
+  "best_frame_ts": "00:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

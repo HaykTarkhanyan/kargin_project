@@ -1,0 +1,19 @@
+{
+  "video_id": "7k0hfLEtvmQ",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["car", "suv"],
+  "location_fine": "train station ticket booth and city street",
+  "character_types": ["ticket booth clerk", "male customer", "car driver", "female passenger"],
+  "drag": false,
+  "key_props": ["glass ticket window", "station building", "car"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "At a train station, a bespectacled female ticket clerk in a blue uniform has a heated shouting argument through the glass window with a male customer. The scene then cuts to a man driving a car through the city with a smiling female passenger beside him.",
+  "best_frame_ts": "01:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "J4g5N8mot14",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["taxi"],
+  "location_fine": "taxi on rural road",
+  "character_types": ["taxi driver", "eccentric passenger"],
+  "drag": false,
+  "key_props": ["cane", "sunglasses", "flat cap", "money"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A passenger in a cap and sunglasses carrying a cane hails a taxi on a rural road, then engages in an animated conversation with the driver throughout the ride, at one point handing over money.",
+  "best_frame_ts": "01:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

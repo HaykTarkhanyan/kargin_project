@@ -1,0 +1,19 @@
+{
+  "video_id": "oPm64B_oPe4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["mustached office worker", "female office worker", "flamboyant woman (drag)"],
+  "drag": true,
+  "key_props": ["computer monitors", "sunglasses", "red wig", "handbag"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached office worker sits close with a female coworker at computer desks, chatting, until a flamboyant redheaded woman in sunglasses and a yellow jacket bursts in through a door, reacting with shock and anger.",
+  "best_frame_ts": "01:03",
+  "confidence": "medium",
+  "needs_audio": true
+}

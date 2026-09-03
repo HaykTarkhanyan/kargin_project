@@ -1,0 +1,19 @@
+{
+  "video_id": "D1-SuteQWMs",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment interior",
+  "character_types": ["old woman (drag)", "old woman (drag)", "young man"],
+  "drag": true,
+  "key_props": ["cane", "old tv", "wardrobe", "ornate rug backdrop"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "Two elderly women, played in drag, sit on a couch in front of an ornate rug backdrop chatting and watching TV, intercut with a young man reacting angrily and running up an apartment stairwell, and one of the old women walking through a plain hallway near a wardrobe.",
+  "best_frame_ts": "00:03",
+  "confidence": "low",
+  "needs_audio": true
+}

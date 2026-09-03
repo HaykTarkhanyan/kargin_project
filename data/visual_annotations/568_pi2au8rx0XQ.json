@@ -1,0 +1,19 @@
+{
+  "video_id": "pi2au8rx0XQ",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "forest picnic and car interior at night",
+  "character_types": ["young man", "screaming wild-haired figure"],
+  "drag": false,
+  "key_props": ["car", "picnic blanket", "lavash bread", "beer bottles", "wig"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two young men have a picnic with lavash bread and drinks by their car in a forest during the day; later, driving at night, a wild-haired, dramatically backlit figure suddenly appears in the car screaming and startling them.",
+  "best_frame_ts": "00:23",
+  "confidence": "low",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "8dn6nxfcJSA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar",
+  "character_types": ["man in beanie", "man with short hair"],
+  "drag": false,
+  "key_props": ["beer mugs", "liquor bottles", "bag of chips", "bar counter"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit at a bar counter drinking beer and talking animatedly, gesturing throughout an extended conversation.",
+  "best_frame_ts": "01:14",
+  "confidence": "high",
+  "needs_audio": true
+}

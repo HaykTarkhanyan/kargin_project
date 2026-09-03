@@ -1,0 +1,19 @@
+{
+  "video_id": "31-baXiIagE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "talk show living room set",
+  "character_types": ["talk show host (drag)", "female guest"],
+  "drag": true,
+  "key_props": ["couch", "beaded necklace", "staircase", "lamps"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A blonde bob-wigged host, played in drag with heavy makeup, sits on a couch in an upscale living-room talk-show set interviewing a brunette female guest in a patterned top, the two conversing at length.",
+  "best_frame_ts": "01:07",
+  "confidence": "high",
+  "needs_audio": true
+}

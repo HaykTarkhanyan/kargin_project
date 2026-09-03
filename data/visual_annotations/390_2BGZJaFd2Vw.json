@@ -1,0 +1,19 @@
+{
+  "video_id": "2BGZJaFd2Vw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment dining room and hallway",
+  "character_types": ["father in striped shirt", "mother", "young girl", "young boy", "group of men in dark jackets"],
+  "drag": false,
+  "key_props": ["champagne bottle", "wine glasses", "dining table with tablecloth", "flower bouquet"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A family celebrates at a decorated dinner table with champagne while children look on, intercut with a tenser scene in a dim hallway where a group of men grapple with and drag another man.",
+  "best_frame_ts": "00:53",
+  "confidence": "low",
+  "needs_audio": true
+}

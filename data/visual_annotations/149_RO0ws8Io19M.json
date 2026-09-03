@@ -1,0 +1,19 @@
+{
+  "video_id": "RO0ws8Io19M",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "medical clinic exam room",
+  "character_types": ["doctor", "patient couple"],
+  "drag": false,
+  "key_props": ["microscope", "curtain", "surgical cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man and a woman sit and talk in a clinic waiting area before a doctor in a surgical cap examines something under a microscope behind a curtain, then the man reappears afterward.",
+  "best_frame_ts": "01:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

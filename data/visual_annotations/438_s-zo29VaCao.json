@@ -1,0 +1,19 @@
+{
+  "video_id": "s-zo29VaCao",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car", "suv"],
+  "location_fine": "rural roadside",
+  "character_types": ["woman", "driver", "men in tracksuits"],
+  "drag": false,
+  "key_props": ["dvd player", "car", "tow cable"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a sepia-toned rural roadside scene, a man and a curly-haired woman argue inside a car while a DVD player sits in the open trunk, and two men in dark jackets and a beanie hat approach a black SUV connected to a tow cable.",
+  "best_frame_ts": "00:42",
+  "confidence": "low",
+  "needs_audio": true
+}

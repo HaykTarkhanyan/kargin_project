@@ -1,0 +1,19 @@
+{
+  "video_id": "gCYod49MYII",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["mercedes sedan"],
+  "location_fine": "tree-lined avenue and outdoor cafe gazebo",
+  "character_types": ["man in striped polo shirt", "chauffeur"],
+  "drag": false,
+  "key_props": ["black luxury sedan", "food platter", "orange juice", "wooden lattice gazebo"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a striped polo shirt greets someone arriving in a black Mercedes on a shaded tree-lined avenue, then is seen at length giving an animated monologue at an outdoor gazebo cafe table with food and juice served.",
+  "best_frame_ts": "01:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

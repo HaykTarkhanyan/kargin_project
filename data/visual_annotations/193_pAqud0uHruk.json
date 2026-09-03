@@ -1,0 +1,19 @@
+{
+  "video_id": "pAqud0uHruk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["moose"],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["man in shirt and tie", "woman on couch"],
+  "drag": false,
+  "key_props": ["television", "remote control", "couch"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a shirt and tie and a woman in a turtleneck sit and talk in a living room while a nature documentary showing a moose plays on the TV; she holds the remote control.",
+  "best_frame_ts": "00:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

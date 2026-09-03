@@ -1,0 +1,19 @@
+{
+  "video_id": "ETyz3YbZ2ls",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bank lobby",
+  "character_types": ["bank robber in beanie with gun", "security guard", "woman customer with pearl necklace", "man in denim jacket", "bank employee in tie"],
+  "drag": false,
+  "key_props": ["gun", "beanie", "pearl necklace", "teller counter", "cash", "gloves"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a bank, an argument between a customer and a heavyset woman escalates as a masked robber in a beanie bursts in with a gun, threatening a security guard and staff, leading to a physical struggle and chase through the bank's offices.",
+  "best_frame_ts": "01:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

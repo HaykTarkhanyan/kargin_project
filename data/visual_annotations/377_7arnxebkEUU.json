@@ -1,0 +1,19 @@
+{
+  "video_id": "7arnxebkEUU",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "village house and police station",
+  "character_types": ["old man", "police officer", "young men in matching plaid shirts"],
+  "drag": false,
+  "key_props": ["dining table", "police station desk"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "An old man in a village yard interacts with several young men who are all wearing near-identical plaid shirts, leading to a chaotic scuffle and physical fight indoors; the group then ends up at a police station being questioned by an officer.",
+  "best_frame_ts": "02:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

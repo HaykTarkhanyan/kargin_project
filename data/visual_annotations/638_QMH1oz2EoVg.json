@@ -1,0 +1,19 @@
+{
+  "video_id": "QMH1oz2EoVg",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "doctor's office",
+  "character_types": ["doctor", "patient with flat cap and mustache"],
+  "drag": false,
+  "key_props": ["desk phone", "lab coat", "flat cap", "title card"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A doctor in a white lab coat sits at his office desk while a series of similarly dressed men in flat caps and mustaches visit him one after another, each gesturing animatedly and talking at length; the doctor also takes a phone call.",
+  "best_frame_ts": "01:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

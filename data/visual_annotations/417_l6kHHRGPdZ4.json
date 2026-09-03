@@ -1,0 +1,19 @@
+{
+  "video_id": "l6kHHRGPdZ4",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv"],
+  "location_fine": "bare winter field and car",
+  "character_types": ["man in black beanie", "glowing bearded genie figure"],
+  "drag": false,
+  "key_props": ["smartphone", "beanie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A man in a black beanie searches and crouches in a bare winter field, repeatedly conjuring a golden, glowing bearded genie figure with crossed arms who bursts into the frame; he is later seen driving a car and filming with his phone.",
+  "best_frame_ts": "01:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

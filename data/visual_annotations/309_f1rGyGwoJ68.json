@@ -1,0 +1,19 @@
+{
+  "video_id": "f1rGyGwoJ68",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office/interview room and hallway with doors",
+  "character_types": ["man in interview seat", "medical worker in scrubs", "red-haired woman"],
+  "drag": false,
+  "key_props": ["cell phone", "wooden door with curtains", "surgical cap", "desk papers"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men are shown in a documentary-style interview - one in a black jacket at a desk, another in blue medical scrubs and a surgical cap talking on the phone - intercut with a scene of the scrubs-wearing man meeting and talking closely with a red-haired woman at a curtained wooden door.",
+  "best_frame_ts": "02:14",
+  "confidence": "low",
+  "needs_audio": true
+}

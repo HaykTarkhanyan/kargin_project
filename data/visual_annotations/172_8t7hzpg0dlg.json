@@ -1,0 +1,19 @@
+{
+  "video_id": "8t7hzpg0dlg",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "roadside field and police office",
+  "character_types": ["police officer", "injured man", "detective", "suspect"],
+  "drag": false,
+  "key_props": ["id card", "police uniform", "map of armenia"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a foggy roadside field, a man is found injured and lying on the ground while another man examines him and an id photo is shown; the scene then shifts to a police office where uniformed officers question a man in a beige jacket and knit cap.",
+  "best_frame_ts": "01:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

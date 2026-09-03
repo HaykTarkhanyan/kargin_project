@@ -1,0 +1,19 @@
+{
+  "video_id": "lJxT04MIuaQ",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "ancient stone ruins",
+  "character_types": ["man in tracksuit", "man in robe with mustache"],
+  "drag": false,
+  "key_props": ["stone ruins", "cigarette"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit and talk at length among ancient stone ruins, smoking, while a third figure in black approaches in the distance toward the end.",
+  "best_frame_ts": "00:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "HuwjAoOzPXQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "police interrogation room",
+  "character_types": ["mustached police officer", "young man suspect in leather jacket"],
+  "drag": false,
+  "key_props": ["desk", "police cap", "wall calendar", "documents"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached police officer in uniform walks down a dim hallway, then sits at a desk in an office interrogating a young man in a leather jacket, with an increasingly animated back-and-forth conversation.",
+  "best_frame_ts": "01:39",
+  "confidence": "medium",
+  "needs_audio": true
+}

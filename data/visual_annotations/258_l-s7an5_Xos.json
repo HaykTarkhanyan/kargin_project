@@ -1,0 +1,19 @@
+{
+  "video_id": "l-s7an5_Xos",
+  "indoor_outdoor": "both",
+  "day_night": "night",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["taxi", "car"],
+  "location_fine": "city street and taxi at night",
+  "character_types": ["woman", "mustached man", "taxi driver", "young man"],
+  "drag": false,
+  "key_props": ["mobile phone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "At night in a rainy city, two men push a stalled taxi while a woman and a mustached man talk animatedly inside a car; they later ride around and switch into another taxi with more men, one making a phone call, as the woman looks increasingly worried.",
+  "best_frame_ts": "00:46",
+  "confidence": "medium",
+  "needs_audio": true
+}

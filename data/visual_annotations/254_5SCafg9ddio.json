@@ -1,0 +1,19 @@
+{
+  "video_id": "5SCafg9ddio",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "ruined village / rubble yard",
+  "character_types": ["homeless man", "vagrant", "laborer"],
+  "drag": false,
+  "key_props": ["newsboy cap", "beret", "rubble", "shovel"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two shabbily dressed men shiver and bicker amid earthquake-ruined buildings and rubble, alternating between arguing gestures and hugging each other for warmth, while other men occasionally appear working nearby and a heavier man watches from a distance.",
+  "best_frame_ts": "01:27",
+  "confidence": "low",
+  "needs_audio": true
+}

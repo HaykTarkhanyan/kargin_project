@@ -1,0 +1,19 @@
+{
+  "video_id": "qbCuYAk4zQM",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "snowy forest hillside",
+  "character_types": ["gangster", "tough guy", "gunman"],
+  "drag": false,
+  "key_props": ["knife", "sunglasses", "beanie", "rifle", "yellow bag"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A group of men in heavy coats and sunglasses have a tense confrontation in a snowy forest, brandishing a knife and arguing; the scene escalates into a chase across the snow and ends with men aiming a rifle from cover, evoking an action-thriller parody.",
+  "best_frame_ts": "00:54",
+  "confidence": "medium",
+  "needs_audio": true
+}

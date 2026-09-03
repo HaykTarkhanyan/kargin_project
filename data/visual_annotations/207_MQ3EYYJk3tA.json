@@ -1,0 +1,19 @@
+{
+  "video_id": "MQ3EYYJk3tA",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment bedroom",
+  "character_types": ["husband", "wife (drag)", "visitor man"],
+  "drag": true,
+  "key_props": ["bed", "leopard-print robe", "bandages", "crutches"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A married couple lies in bed laughing and talking; the husband later wraps himself in a leopard-print robe and steps outside where exterior apartment buildings are shown, and a scuffle breaks out. Afterward the wife (played in drag) is shown heavily bandaged in bed with crutches nearby while the husband tends to her.",
+  "best_frame_ts": "02:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

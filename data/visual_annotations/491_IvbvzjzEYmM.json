@@ -1,0 +1,19 @@
+{
+  "video_id": "IvbvzjzEYmM",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["marshrutka", "van"],
+  "location_fine": "minibus depot / marshrutka parking yard, autumn",
+  "character_types": ["driver in flat cap and brown jacket", "young man in patterned sweater and blue jacket", "man in white coat with sunglasses", "older man in cardigan"],
+  "drag": false,
+  "key_props": ["flat cap", "parked marshrutkas", "backgammon table"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In an autumn minibus depot lined with parked marshrutkas, men argue and gesture animatedly; the scene shifts to a group gathered around an outdoor backgammon table under a willow tree, where an argument escalates into shoving and grabbing by the collar.",
+  "best_frame_ts": "04:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "OKKWXnxY9hw",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["teacher", "students"],
+  "drag": false,
+  "key_props": ["chalkboard formulas"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a school classroom, a mustached teacher animatedly writes formulas on the chalkboard and lectures with energetic gestures while students watch; later a bespectacled teacher continues the lesson with exaggerated expressions as students react with amusement.",
+  "best_frame_ts": "01:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "Fyc5VWnAMog",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "multiple locations: candlelit studio, construction site, roadside, rural yard",
+  "character_types": ["fortune teller in wig and fur shawl", "construction worker", "man in suit", "driver", "village men in flat caps"],
+  "drag": true,
+  "key_props": ["candles", "wig", "fur shawl", "hard hat", "cell phone", "flat caps"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 5, "repeating_gag": false},
+  "visual_synopsis": "The video opens with a wigged, fur-shawled fortune-teller character giving a candlelit reading, then cuts through several apparently unrelated comedic segments: a construction-site confrontation, a driving and phone-call sequence, and a rural outdoor scene with men in flat caps talking and drinking at a table.",
+  "best_frame_ts": "00:29",
+  "confidence": "low",
+  "needs_audio": true
+}

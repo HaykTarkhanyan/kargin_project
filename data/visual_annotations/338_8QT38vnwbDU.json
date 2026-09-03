@@ -1,0 +1,19 @@
+{
+  "video_id": "8QT38vnwbDU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "workshop or factory interior",
+  "character_types": ["mustached man in olive shirt", "curly-haired man in checkered shirt"],
+  "drag": false,
+  "key_props": ["cup", "pipes", "machinery"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit close together in a dim workshop cluttered with old machinery and pipes, having an animated close-up conversation while one sips from a cup.",
+  "best_frame_ts": "00:03",
+  "confidence": "medium",
+  "needs_audio": true
+}

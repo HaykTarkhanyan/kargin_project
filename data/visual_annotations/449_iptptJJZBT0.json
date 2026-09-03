@@ -1,0 +1,19 @@
+{
+  "video_id": "iptptJJZBT0",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["black suv"],
+  "location_fine": "open dry field near town",
+  "character_types": ["mourners in black", "boy in dark clothing", "driver"],
+  "drag": false,
+  "key_props": ["black suv", "open field", "town skyline"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a dry open field with a town skyline in the distance, a black SUV drives across the field as a small group of people dressed in black walk and gather; a boy in dark clothing stands near the vehicle as people get in and out.",
+  "best_frame_ts": "00:47",
+  "confidence": "low",
+  "needs_audio": true
+}

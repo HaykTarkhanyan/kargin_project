@@ -1,0 +1,19 @@
+{
+  "video_id": "omw7gYJRc7A",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar",
+  "character_types": ["bartender", "customer in tracksuit"],
+  "drag": false,
+  "key_props": ["shot glasses", "liquor bottles", "cigarette", "bread"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A mustached bartender repeatedly pours and serves shots to a customer in a colorful tracksuit at a bar, who drinks round after round, smokes, and eats bread while getting progressively more intoxicated.",
+  "best_frame_ts": "00:01:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

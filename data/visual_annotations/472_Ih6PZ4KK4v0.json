@@ -1,0 +1,19 @@
+{
+  "video_id": "Ih6PZ4KK4v0",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["marshrutka"],
+  "location_fine": "marshrutka minibus interior",
+  "character_types": ["marshrutka driver", "older woman passenger", "older man passenger", "young woman passenger", "young man passenger"],
+  "drag": false,
+  "key_props": ["curtains", "van seats", "paper or fabric strip"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A group of passengers ride together in a marshrutka minibus, talking and reacting to each other, including an older woman and man closely examining a long strip of paper or fabric.",
+  "best_frame_ts": "03:51",
+  "confidence": "medium",
+  "needs_audio": true
+}

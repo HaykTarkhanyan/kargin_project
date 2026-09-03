@@ -1,0 +1,19 @@
+{
+  "video_id": "eN2Bn1QuBhU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant",
+  "character_types": ["mustached man", "man in suit", "woman in evening dress", "woman"],
+  "drag": false,
+  "key_props": ["wine glasses", "water bottles", "plates of food", "red curtains"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "Two men, one with a mustache in a shirt and tie and one clean-shaven in a suit, each speak directly to camera in solo shots against a plain backdrop, intercut with restaurant flashback scenes where they sit at a curtained dinner table with different women, drinking and eating.",
+  "best_frame_ts": "00:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

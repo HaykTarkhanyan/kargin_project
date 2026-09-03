@@ -1,0 +1,19 @@
+{
+  "video_id": "harP-lMl-aA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": ["parrot"],
+  "vehicles": [],
+  "location_fine": "apartment bedroom and kitchen",
+  "character_types": ["hungover man"],
+  "drag": false,
+  "key_props": ["vodka bottles", "birdcage", "onion", "refrigerator"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A disheveled hungover man wakes up sprawled on a table surrounded by vodka bottles, stumbles through his apartment to the kitchen, feeds his pet parrot in a cage, and sits at a checkered-tablecloth table nursing water and food.",
+  "best_frame_ts": "01:38",
+  "confidence": "medium",
+  "needs_audio": false
+}

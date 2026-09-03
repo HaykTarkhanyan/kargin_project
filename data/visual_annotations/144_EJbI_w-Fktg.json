@@ -1,0 +1,19 @@
+{
+  "video_id": "EJbI_w-Fktg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "marshrutka", "van"],
+  "location_fine": "rural road police checkpoint",
+  "character_types": ["traffic police officer", "driver"],
+  "drag": false,
+  "key_props": ["police cap", "documents/papers", "badge"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A traffic police officer on a rural tree-lined road repeatedly flags down and stops passing vehicles (a Lada, then white and red vans), checking drivers' documents and chatting with each one in turn.",
+  "best_frame_ts": "00:43",
+  "confidence": "high",
+  "needs_audio": true
+}

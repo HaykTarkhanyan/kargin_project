@@ -1,0 +1,19 @@
+{
+  "video_id": "15y8SiYBMRI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment study and bedroom",
+  "character_types": ["man in glasses and suit", "woman in red dress (drag)"],
+  "drag": true,
+  "key_props": ["cigarette", "bookshelf", "bed"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in glasses flirts and argues with a woman in a red dress and bob wig, played in drag, in a book-lined room; they move to a bedroom where they lie together smoking and laughing.",
+  "best_frame_ts": "01:23",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "Vn0F9v68HP8",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "poolside villa terrace",
+  "character_types": ["wealthy man in bathrobe", "man in suit"],
+  "drag": false,
+  "key_props": ["beer glass", "bathrobe", "kebab"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A stocky man in a plaid bathrobe sits poolside boasting while drinking beer and eating, then a well-dressed man arrives by car and joins him indoors at a table for a tense conversation.",
+  "best_frame_ts": "00:24",
+  "confidence": "medium",
+  "needs_audio": true
+}

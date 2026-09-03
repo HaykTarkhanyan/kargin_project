@@ -1,0 +1,19 @@
+{
+  "video_id": "5h24tyLhaG4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room and bedroom",
+  "character_types": ["woman telling story", "listener woman", "woman in black dress", "young man in suit"],
+  "drag": false,
+  "key_props": ["tea cups", "bed", "eyeglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A woman in a pink tracksuit recounts an animated story over tea to a friend, gesturing heavily; the scene cuts to a dramatized flashback of a woman in a black dress lounging on a bed with a young man in a suit removing his glasses.",
+  "best_frame_ts": "02:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

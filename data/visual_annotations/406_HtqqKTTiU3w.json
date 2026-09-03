@@ -1,0 +1,19 @@
+{
+  "video_id": "HtqqKTTiU3w",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "sedan"],
+  "location_fine": "rural road with oil derricks",
+  "character_types": ["traffic police officer", "two young men in tracksuit/racing shirts"],
+  "drag": false,
+  "key_props": ["police cap", "sunglasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A traffic police officer stops a car with two rowdy young men on a rural road lined with oil derricks; one man is roused from sleep with a shove before the officer walks off alone.",
+  "best_frame_ts": "00:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

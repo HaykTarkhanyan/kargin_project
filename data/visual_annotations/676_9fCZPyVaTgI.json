@@ -1,0 +1,19 @@
+{
+  "video_id": "9fCZPyVaTgI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["father with mustache", "boy doing homework", "wife in drag"],
+  "drag": true,
+  "key_props": ["television", "football broadcast", "coffee cup", "notebook", "trophy"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man sits at a table trying to watch football on TV while a boy does homework nearby and a blonde-wigged character in a red pinafore (a male actor in drag) talks animatedly at him, interrupting his viewing of Real Madrid match footage.",
+  "best_frame_ts": "00:24",
+  "confidence": "medium",
+  "needs_audio": true
+}

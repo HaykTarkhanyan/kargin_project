@@ -1,0 +1,19 @@
+{
+  "video_id": "a_KLb1uX_mc",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["husband", "wife (drag)"],
+  "drag": true,
+  "key_props": ["newspaper", "handbag"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man reading a newspaper in a floral-wallpapered living room is joined by his wife, played by a male actor in a curly blonde wig, headband and red top, who enters carrying a handbag and shopping bags, and the two have an extended conversation.",
+  "best_frame_ts": "00:48",
+  "confidence": "high",
+  "needs_audio": true
+}

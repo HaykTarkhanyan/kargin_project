@@ -1,0 +1,19 @@
+{
+  "video_id": "iV-ApNITQ1U",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car", "taxi"],
+  "location_fine": "car interior on rural road",
+  "character_types": ["driver", "old woman"],
+  "drag": true,
+  "key_props": ["cane", "submachine gun", "headscarf"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man drives agitatedly along a forest road, passes a taxi, and stops to pick up an elderly woman walking with a cane, who turns out to be a man in drag and pulls a submachine gun on him inside the car.",
+  "best_frame_ts": "02:42",
+  "confidence": "medium",
+  "needs_audio": true
+}

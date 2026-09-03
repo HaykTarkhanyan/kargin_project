@@ -1,0 +1,19 @@
+{
+  "video_id": "PI6koCSkYTA",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["marshrutka"],
+  "location_fine": "inside a minivan on a road trip",
+  "character_types": ["driver", "old woman", "man in floral shirt", "bearded man", "young woman passenger"],
+  "drag": true,
+  "key_props": ["sunglasses", "floral shirt", "mobile phone", "eyeglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A van full of passengers, including an elderly woman and a bearded man, drives down a tree-lined road, stops to pick up a man in a floral shirt and sunglasses standing on the roadside, and continues the ride with everyone talking and reacting inside the cabin.",
+  "best_frame_ts": "01:24",
+  "confidence": "medium",
+  "needs_audio": true
+}

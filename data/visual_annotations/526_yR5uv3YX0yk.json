@@ -1,0 +1,19 @@
+{
+  "video_id": "yR5uv3YX0yk",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "marshland field",
+  "character_types": ["eccentric man in traditional dress", "boy"],
+  "drag": false,
+  "key_props": ["straw hat", "bow tie", "umbrella", "script pages"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a yellow robe and red bow tie, alternating between a straw hat and a red cap, sits in an open marshland field reading from papers and talking to the camera, while a boy in a striped shirt walks across the field to meet him.",
+  "best_frame_ts": "00:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

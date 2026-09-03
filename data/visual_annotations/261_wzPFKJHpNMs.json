@@ -1,0 +1,19 @@
+{
+  "video_id": "wzPFKJHpNMs",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["hearse", "van", "car"],
+  "location_fine": "funeral procession outside apartment blocks",
+  "character_types": ["man in striped shirt", "mourners", "man in sunglasses"],
+  "drag": false,
+  "key_props": ["hearse", "sunglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A large crowd of mourners in black follows a hearse in a funeral procession between apartment buildings, while a man in a striped shirt talks and walks along with the group.",
+  "best_frame_ts": "00:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

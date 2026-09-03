@@ -1,0 +1,19 @@
+{
+  "video_id": "0BdBDzNV8wM",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["wife (possibly drag)", "husband"],
+  "drag": true,
+  "key_props": ["telephone", "armchair", "lipstick marks"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A woman (possibly a man in drag) sits in an armchair talking on the phone, then her husband arrives home covered in lipstick kiss marks on his face and shirt; they argue with increasingly angry gestures.",
+  "best_frame_ts": "00:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

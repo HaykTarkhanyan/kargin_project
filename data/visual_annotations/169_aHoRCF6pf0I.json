@@ -1,0 +1,19 @@
+{
+  "video_id": "aHoRCF6pf0I",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "judge's chambers",
+  "character_types": ["judge", "businessman", "assistant"],
+  "drag": false,
+  "key_props": ["gavel", "judicial robe", "Armenian flag"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A judge in black robes sits at an ornate desk with a gavel, arguing with a man in a pinstripe suit in a wood-paneled office; the exchange escalates into a brief physical scuffle near the end.",
+  "best_frame_ts": "02:25",
+  "confidence": "medium",
+  "needs_audio": true
+}

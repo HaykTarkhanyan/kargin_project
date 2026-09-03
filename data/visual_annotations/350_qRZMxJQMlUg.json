@@ -1,0 +1,19 @@
+{
+  "video_id": "qRZMxJQMlUg",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["businessman in gray suit", "businessman in black suit", "woman in black leather outfit"],
+  "drag": false,
+  "key_props": ["office desk", "computer monitor", "documents"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A businessman in a gray suit and orange tie converses with another suited man, walks through office corridors, then has a tense exchange with a sultry woman in a black leather outfit at his desk.",
+  "best_frame_ts": "00:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

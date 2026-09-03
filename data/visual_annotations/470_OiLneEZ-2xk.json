@@ -1,0 +1,19 @@
+{
+  "video_id": "OiLneEZ-2xk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "church wedding ceremony",
+  "character_types": ["priest", "groom", "bride", "groomsman", "wedding guests"],
+  "drag": false,
+  "key_props": ["candles", "cross necklace", "wedding veil", "rings"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bearded priest conducts a wedding ceremony in a church, addressing the camera and the nervous-looking groom and bride while guests look on, ending with an exchange of rings.",
+  "best_frame_ts": "01:42",
+  "confidence": "medium",
+  "needs_audio": true
+}

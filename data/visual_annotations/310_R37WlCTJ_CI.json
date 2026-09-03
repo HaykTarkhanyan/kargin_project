@@ -1,0 +1,19 @@
+{
+  "video_id": "R37WlCTJ_CI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "funeral wake living room",
+  "character_types": ["deceased man", "mourning older man", "mourning older woman", "young mourning woman", "young men in black"],
+  "drag": false,
+  "key_props": ["open casket", "candles", "white carnations", "cell phone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Mourners dressed in black gather around an open casket with white flowers and candles in a wallpapered living room, grieving and consoling one another; later two young men sit talking seriously at the same table before the 'deceased' man appears to cough and clutch his chest.",
+  "best_frame_ts": "02:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

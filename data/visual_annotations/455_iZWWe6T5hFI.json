@@ -1,0 +1,19 @@
+{
+  "video_id": "iZWWe6T5hFI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "theater stage with audience",
+  "character_types": ["show host in vest and bow tie", "show host in yellow jacket and glasses", "clown performer", "audience members"],
+  "drag": false,
+  "key_props": ["red bucket", "black glasses", "stage curtain", "title card screen"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "On a theater stage in front of a live audience, a mustached host in a vest and bow tie and a co-host in a yellow jacket and glasses run a segment involving a red bucket, presenting bits between a recurring title card, while a colorfully dressed clown briefly performs and the crowd reacts and applauds.",
+  "best_frame_ts": "01:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

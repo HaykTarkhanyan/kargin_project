@@ -1,0 +1,19 @@
+{
+  "video_id": "K_kuz43dZJc",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "park pathway",
+  "character_types": ["man in beanie with mustache", "bearded man in vest", "mysterious figure in black"],
+  "drag": false,
+  "key_props": ["park bench"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men, one in a white beanie with a mustache and the other bearded in a green and orange vest, sit talking on a park bench in a bare winter park, then split up; the mustached man walks alone down a path and has a suspicious, covert-seeming encounter with a mysterious figure in black.",
+  "best_frame_ts": "01:36",
+  "confidence": "low",
+  "needs_audio": true
+}

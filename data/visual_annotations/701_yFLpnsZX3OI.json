@@ -1,0 +1,19 @@
+{
+  "video_id": "yFLpnsZX3OI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hotel suite",
+  "character_types": ["man in tuxedo", "woman in evening gown"],
+  "drag": false,
+  "key_props": ["wardrobe mirror", "mobile phone", "bow tie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a tuxedo escorts a woman in a blue evening gown down a grand staircase; after she leaves he argues with his own mirror reflection, then slumps into an armchair making a phone call, cutting to a smiling woman's face.",
+  "best_frame_ts": "00:52",
+  "confidence": "medium",
+  "needs_audio": true
+}

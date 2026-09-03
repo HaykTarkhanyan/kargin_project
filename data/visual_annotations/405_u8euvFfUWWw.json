@@ -1,0 +1,19 @@
+{
+  "video_id": "u8euvFfUWWw",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "abandoned construction site and apartment courtyard",
+  "character_types": ["man in makeshift black cape ('batman')", "two friends in tracksuits"],
+  "drag": false,
+  "key_props": ["black cape", "beanie"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A man in a homemade black cape play-acts as a superhero, running, jumping, and climbing around an abandoned construction site while two friends in tracksuits laugh and react.",
+  "best_frame_ts": "00:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

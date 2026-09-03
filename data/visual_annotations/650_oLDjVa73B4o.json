@@ -1,0 +1,19 @@
+{
+  "video_id": "oLDjVa73B4o",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["van"],
+  "location_fine": "hardware and construction supplies store",
+  "character_types": ["female shop clerk", "man in suit (manager/customer)", "man carrying toilet bowl", "angry man wielding wooden plank"],
+  "drag": false,
+  "key_props": ["toilet bowl", "cement bags", "id lanyard badges", "wooden planks", "plumbing hose/pipe"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a hardware and construction supplies store, several employees and customers talk and gesture near shelves of goods; a man carries out a toilet bowl and another man aggressively wields a wooden plank amid stacks of cement bags.",
+  "best_frame_ts": "01:59",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "eiHo5qDQqiM",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "candlelit house interior, seance table",
+  "character_types": ["man in striped shirt", "woman in orange top", "woman in black top", "ghost apparition"],
+  "drag": false,
+  "key_props": ["candle", "round table with red cloth", "vanity mirror", "oriental rug"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A man and two women gather around a candlelit table in a dark house holding hands as if in a seance, while a translucent ghostly figure repeatedly appears and vanishes nearby, provoking startled reactions.",
+  "best_frame_ts": "02:53.600",
+  "confidence": "medium",
+  "needs_audio": true
+}

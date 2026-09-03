@@ -1,0 +1,19 @@
+{
+  "video_id": "alABhSPvMtU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["policeman", "woman", "schoolgirl"],
+  "drag": false,
+  "key_props": ["television", "sofa", "police uniform"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A uniformed police officer arrives home and has an animated exchange with a woman in a leopard-print dress at the door, then they sit on a red sofa with a schoolgirl and watch a TV news broadcast together.",
+  "best_frame_ts": "01:49",
+  "confidence": "medium",
+  "needs_audio": true
+}

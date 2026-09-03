@@ -1,0 +1,19 @@
+{
+  "video_id": "XrCXyZfs3qE",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office desk and home room",
+  "character_types": ["office worker in glasses", "curly-mustached man"],
+  "drag": false,
+  "key_props": ["telephone", "desk", "bookshelf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A bespectacled man at an office desk talks on the phone while a curly-mustached man in a tracksuit and later a plaid shirt reacts with increasingly agitated gestures and expressions, in what appears to be an argumentative back-and-forth cut between two locations.",
+  "best_frame_ts": "01:12",
+  "confidence": "low",
+  "needs_audio": true
+}

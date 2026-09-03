@@ -1,0 +1,19 @@
+{
+  "video_id": "TDi8zy_55LU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["businesswoman", "man in shirt and tie"],
+  "drag": false,
+  "key_props": ["telephone", "documents", "computer monitor"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A businesswoman takes a phone call at her office desk while a man in a shirt and tie eavesdrops from the doorway before entering to talk to her.",
+  "best_frame_ts": "00:46",
+  "confidence": "medium",
+  "needs_audio": true
+}

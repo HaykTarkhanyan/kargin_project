@@ -1,0 +1,19 @@
+{
+  "video_id": "p8koB5Dx5x8",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["cow"],
+  "vehicles": [],
+  "location_fine": "rural field near river",
+  "character_types": ["police or military investigator", "senior officer", "shepherd or herder"],
+  "drag": false,
+  "key_props": ["rifle strap", "footprints", "wooden staff", "police caps"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two uniformed officers walk across a rural field examining footprints in the dirt and discussing a case, passing a herd of grazing cattle, before encountering a shirtless local man wrapped in a yellow cloth sitting with a wooden staff; after talking with him they adjust their caps and walk off together along a riverbank.",
+  "best_frame_ts": "02:32",
+  "confidence": "medium",
+  "needs_audio": true
+}

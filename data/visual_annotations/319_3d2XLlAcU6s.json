@@ -1,0 +1,19 @@
+{
+  "video_id": "3d2XLlAcU6s",
+  "indoor_outdoor": "outdoor",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "forest campsite at night",
+  "character_types": ["young man camper", "young man camper", "young man camper"],
+  "drag": false,
+  "key_props": ["tent", "campfire", "bucket hat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three young men camp overnight in a forest, sitting around a campfire near a tent, reacting with tense and startled expressions; late in the night a mysterious shadow figure appears on the glowing tent wall.",
+  "best_frame_ts": "02:34",
+  "confidence": "medium",
+  "needs_audio": true
+}

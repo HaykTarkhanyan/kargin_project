@@ -1,0 +1,19 @@
+{
+  "video_id": "no4ep1gH5g4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment stairwell",
+  "character_types": ["man in fedora and coat"],
+  "drag": false,
+  "key_props": ["briefcase", "fedora hat", "trench coat", "wooden door", "peephole", "dart on a stick"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a fedora and long coat carrying a briefcase climbs an apartment stairwell, glancing around nervously before approaching a wooden door and peering through the peephole; someone unseen inside jabs a red-and-white dart on a stick through the peephole toward him.",
+  "best_frame_ts": "01:02",
+  "confidence": "medium",
+  "needs_audio": true
+}

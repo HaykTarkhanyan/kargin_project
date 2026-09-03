@@ -1,0 +1,19 @@
+{
+  "video_id": "XZlWDs9Zge8",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "kitchen",
+  "character_types": ["husband", "wife"],
+  "drag": false,
+  "key_props": ["breakfast table", "ketchup bottle", "coffee cups"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man eats breakfast at a kitchen table while a woman in a pink top stands nearby making coffee and talking; the exchange escalates into an animated back-and-forth argument with both gesturing.",
+  "best_frame_ts": "00:37",
+  "confidence": "high",
+  "needs_audio": true
+}

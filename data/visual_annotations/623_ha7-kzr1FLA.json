@@ -1,0 +1,19 @@
+{
+  "video_id": "ha7-kzr1FLA",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["bicycle", "boat", "scooter"],
+  "location_fine": "european street cafe and canal",
+  "character_types": ["comedian host", "comedian host/cameraman"],
+  "drag": false,
+  "key_props": ["video camera", "sandwich", "restaurant signage", "potted plant"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "Two men walk down a European cobblestone street past shops and cafes, sit at an outdoor restaurant table filming themselves and eating sandwiches, then walk along a canal lined with parked cars and boats.",
+  "best_frame_ts": "01:03.700",
+  "confidence": "medium",
+  "needs_audio": true
+}

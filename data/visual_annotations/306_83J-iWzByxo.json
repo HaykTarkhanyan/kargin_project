@@ -1,0 +1,19 @@
+{
+  "video_id": "83J-iWzByxo",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room, kitchen, and bathroom",
+  "character_types": ["lounging wife", "husband/cleaner"],
+  "drag": true,
+  "key_props": ["television", "couch", "rubber gloves", "mop", "kitchen sink", "phone", "fork"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A heavyset woman in a gold satin robe lounges on the couch the whole time, eating, talking on the phone, and watching TV, while a man in a plaid shirt and rubber gloves cleans nonstop - washing dishes at the sink, mopping the hallway, dusting, and scrubbing the bathroom.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

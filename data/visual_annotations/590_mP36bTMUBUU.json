@@ -1,0 +1,19 @@
+{
+  "video_id": "mP36bTMUBUU",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "snowy hunting field",
+  "character_types": ["hunter", "hunter"],
+  "drag": false,
+  "key_props": ["shotgun", "shotgun shells", "ammo pouch"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in winter camouflage hunting gear stand in a snowy field talking directly to camera in a mock hunting-show interview style, with one aiming and firing a shotgun and examining spent shells.",
+  "best_frame_ts": "00:11",
+  "confidence": "medium",
+  "needs_audio": true
+}

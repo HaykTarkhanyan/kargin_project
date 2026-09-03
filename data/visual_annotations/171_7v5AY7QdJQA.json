@@ -1,0 +1,19 @@
+{
+  "video_id": "7v5AY7QdJQA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["man in beanie", "teacher", "schoolchildren", "adult posing as student"],
+  "drag": false,
+  "key_props": ["board game", "chalkboard"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a beanie talks and plays a board game at a table, then the scene shifts to a school classroom where a teacher lectures at the chalkboard among children, with an adult man in a tan jacket oddly seated among the students.",
+  "best_frame_ts": "01:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

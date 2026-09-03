@@ -1,0 +1,19 @@
+{
+  "video_id": "zO1m7yd-HEQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "spa or sauna lounge by a pool",
+  "character_types": ["mustached man in white robe", "mustached man in white robe"],
+  "drag": false,
+  "key_props": ["drinks", "menu card", "snack packet", "bathrobes"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two mustached men in white bathrobes relax on wooden benches by a pool, drinking and chatting, laughing, and looking over a small card or menu together.",
+  "best_frame_ts": "00:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

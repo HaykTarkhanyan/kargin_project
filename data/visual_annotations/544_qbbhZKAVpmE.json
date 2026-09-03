@@ -1,0 +1,19 @@
+{
+  "video_id": "qbbhZKAVpmE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["secretary", "boss", "older male visitor"],
+  "drag": false,
+  "key_props": ["desk", "telephone", "computer monitor", "papers", "wall calendar"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A secretary at a reception desk answers the phone and is approached by an older male visitor at the door, then the scene cuts to a mustached boss at another desk gesturing animatedly with papers while on the phone, intercut with a woman standing at a doorway.",
+  "best_frame_ts": "01:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

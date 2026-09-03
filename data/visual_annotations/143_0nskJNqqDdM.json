@@ -1,0 +1,19 @@
+{
+  "video_id": "0nskJNqqDdM",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["van"],
+  "location_fine": "apartment building stairwell",
+  "character_types": ["businessman"],
+  "drag": false,
+  "key_props": ["briefcase", "mobile phone"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A smiling man in a suit chats on his phone while riding in a van, then gets out and climbs flight after flight of stairs in a bare apartment stairwell, shown mostly in silhouette, ending winded and leaning against the wall.",
+  "best_frame_ts": "01:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

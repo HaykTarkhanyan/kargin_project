@@ -1,0 +1,19 @@
+{
+  "video_id": "zcRPQIR6CYk",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv"],
+  "location_fine": "restaurant",
+  "character_types": ["man in suit (date)", "woman (date)", "waiter"],
+  "drag": false,
+  "key_props": ["restaurant table", "menu/bill folder", "wine glasses", "suit of armor decor"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "After establishing shots of a castle-like gated entrance with a car driving past, a man in a suit and a woman in a sleeveless top have a date at an elegant restaurant decorated with a suit of armor; a waiter attends the table with a bill folder, and the woman ends up looking startled.",
+  "best_frame_ts": "03:06",
+  "confidence": "medium",
+  "needs_audio": true
+}

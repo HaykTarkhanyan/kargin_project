@@ -1,0 +1,19 @@
+{
+  "video_id": "mHr8lcIK5AI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "medical clinic office",
+  "character_types": ["doctor", "colleague doctor", "woman patient", "eavesdropping man"],
+  "drag": false,
+  "key_props": ["telephone", "prescription pad", "microscope", "surgical cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustachioed man in medical scrubs and a surgical cap works in a clinic-style office, taking phone calls, writing on a prescription pad, and huddling closely with a colleague doctor over microscopes. Two different women visit separately, and another mustached man is seen eavesdropping through a doorway.",
+  "best_frame_ts": "02:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

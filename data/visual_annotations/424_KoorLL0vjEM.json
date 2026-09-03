@@ -1,0 +1,19 @@
+{
+  "video_id": "KoorLL0vjEM",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school-like building corridor, polling station",
+  "character_types": ["man in leather jacket", "man being confronted", "passerby"],
+  "drag": false,
+  "key_props": ["wall posters", "numbered room sign"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men hurry into a school-like building and run down a long corridor lined with doors and notice boards; after a brief chase or scuffle, a man in a leather jacket passionately confronts and gestures at another man near a wall poster while a third man reacts with visible distress.",
+  "best_frame_ts": "00:43",
+  "confidence": "low",
+  "needs_audio": true
+}

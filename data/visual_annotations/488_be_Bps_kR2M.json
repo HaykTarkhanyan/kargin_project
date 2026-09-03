@@ -1,0 +1,19 @@
+{
+  "video_id": "be_Bps_kR2M",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "historic stone church exterior in snow",
+  "character_types": ["bearded man in hooded jacket", "young man in beanie and turtleneck", "monk-like robed figure"],
+  "drag": false,
+  "key_props": ["posted notice on door", "fallen stone cross (khachkar)", "snow"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men, one bearded in a hooded jacket and one younger in a beanie and turtleneck, stand and talk outside an ancient snow-covered stone church, reading a notice posted on the door, while a robed monk-like figure walks past a fallen stone cross nearby.",
+  "best_frame_ts": "00:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

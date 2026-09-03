@@ -1,0 +1,19 @@
+{
+  "video_id": "wxieqyrzFss",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "family living room",
+  "character_types": ["mother", "children", "man in suit"],
+  "drag": false,
+  "key_props": ["television", "wall mirror", "couch", "small box"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mother and three children watch cartoons together on the couch while cutaway shots show a nervous, sweating man in a suit checking himself in a hallway mirror and holding a small box, intercut with glamorous close-ups of the woman.",
+  "best_frame_ts": "00:17",
+  "confidence": "low",
+  "needs_audio": true
+}

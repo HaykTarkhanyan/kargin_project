@@ -1,0 +1,19 @@
+{
+  "video_id": "Z18dHpXGwQk",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "army office and barracks",
+  "character_types": ["army officer", "soldier"],
+  "drag": false,
+  "key_props": ["telephone", "old radio", "bunk beds", "flag backdrop", "glasses and mustache costume"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached army officer sits at his desk in front of a large flag backdrop before making a phone call; intercut with a soldier in a striped shirt in the barracks who answers, and both react with exaggerated comic expressions during the call.",
+  "best_frame_ts": "01:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

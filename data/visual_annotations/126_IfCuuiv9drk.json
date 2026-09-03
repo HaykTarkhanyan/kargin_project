@@ -1,0 +1,19 @@
+{
+  "video_id": "IfCuuiv9drk",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital corridor and patient rooms",
+  "character_types": ["doctor in white coat", "elderly bedridden patient", "nurse/attendant", "woman in robe", "man with mustache"],
+  "drag": false,
+  "key_props": ["stethoscope", "bed", "chairs"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "Doctors in white coats move through a hospital corridor and check on an elderly bedridden patient, while in another room a man and woman sit in chairs having a tense, animated conversation.",
+  "best_frame_ts": "01:03",
+  "confidence": "medium",
+  "needs_audio": true
+}

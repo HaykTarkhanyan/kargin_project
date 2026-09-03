@@ -1,0 +1,19 @@
+{
+  "video_id": "wqdP7jduzXo",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv", "military truck"],
+  "location_fine": "military compound",
+  "character_types": ["army officer with mustache", "soldiers in camouflage", "soldier doing push-ups"],
+  "drag": false,
+  "key_props": ["peaked cap", "military truck", "concrete compound walls"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a military compound, a mustached officer talks with soldiers and rides in a car past parked vehicles; the sketch ends with two officers watching a soldier perform push-ups on the street as punishment.",
+  "best_frame_ts": "03:02",
+  "confidence": "medium",
+  "needs_audio": true
+}

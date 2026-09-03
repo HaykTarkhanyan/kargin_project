@@ -1,0 +1,19 @@
+{
+  "video_id": "jXXdxRcmpNY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment stairwell and kitchen",
+  "character_types": ["young man", "young man", "young woman"],
+  "drag": false,
+  "key_props": ["kitchen counter", "stairwell", "jacket on hook"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men engage in a slapping fight through a stairwell and hallway, then continue their confrontation in a kitchen in front of a woman, ending in another scuffle.",
+  "best_frame_ts": "00:08",
+  "confidence": "medium",
+  "needs_audio": true
+}

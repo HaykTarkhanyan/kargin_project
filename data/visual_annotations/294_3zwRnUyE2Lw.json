@@ -1,0 +1,19 @@
+{
+  "video_id": "3zwRnUyE2Lw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment bedroom",
+  "character_types": ["bride (drag)", "groom"],
+  "drag": true,
+  "key_props": ["wedding dress", "veil", "wig", "bed", "necktie"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man dressed as a bride in a curly wig, veil and white gown is comically carried and jostled through a hallway into a bedroom by a man in a groom's shirt; he then sits beside her on the bed loosening his tie while they talk and laugh.",
+  "best_frame_ts": "00:19",
+  "confidence": "high",
+  "needs_audio": true
+}

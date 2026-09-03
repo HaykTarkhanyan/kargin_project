@@ -1,0 +1,19 @@
+{
+  "video_id": "w4-Yja-omx8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and hallway",
+  "character_types": ["man reading newspaper", "woman visitor", "man in tracksuit reading a note"],
+  "drag": false,
+  "key_props": ["newspaper", "small note", "glasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A bearded man sits on a couch reading a newspaper while different women enter and exit through the apartment door and briefly get his attention before he returns to reading; later, in a hallway, a man in a tracksuit reads a small note aloud with exaggerated grinning reactions to a bearded man in a cardigan.",
+  "best_frame_ts": "01:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

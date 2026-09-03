@@ -1,0 +1,19 @@
+{
+  "video_id": "iPCRAW_Jecc",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "ornate red bedroom",
+  "character_types": ["intruder in dark jacket", "bound woman in black dress"],
+  "drag": false,
+  "key_props": ["rope", "mobile phone", "ornate wooden bed"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a dark jacket sneaks through a dim hallway into a red-lit, ornately furnished bedroom where a woman in a black dress is found with her wrists tied to the bed with rope; he reacts with shock and talks excitedly into a phone while she remains bound.",
+  "best_frame_ts": "01:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

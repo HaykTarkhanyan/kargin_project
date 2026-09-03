@@ -1,0 +1,19 @@
+{
+  "video_id": "S8bCsNnNnJE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["sedan"],
+  "location_fine": "apartment courtyard bench",
+  "character_types": ["old man in green sweater", "old man in brown blazer", "woman in headscarf", "driver"],
+  "drag": false,
+  "key_props": ["canes", "bench"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two elderly-looking men with canes sit on a courtyard bench outside an apartment building, gossiping and gesturing animatedly; passersby including a woman in a headscarf and a driver in a red sedan briefly interact with them.",
+  "best_frame_ts": "00:13",
+  "confidence": "high",
+  "needs_audio": true
+}

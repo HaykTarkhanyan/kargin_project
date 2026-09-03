@@ -1,0 +1,19 @@
+{
+  "video_id": "shLrtQlHw6Q",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "rural countryside field",
+  "character_types": ["bureaucrat", "farmer"],
+  "drag": false,
+  "key_props": ["flat cap", "necktie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a suit drives alone, gesturing and talking to himself; he then parks and walks through rural fields where he meets local farmers, ending with him walking off together with one of them.",
+  "best_frame_ts": "02:18",
+  "confidence": "medium",
+  "needs_audio": true
+}

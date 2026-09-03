@@ -1,0 +1,19 @@
+{
+  "video_id": "uavewh7X7vk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["boss", "employee"],
+  "drag": false,
+  "key_props": ["water cooler", "office desk", "wall crest/emblem", "desk lamp", "paper document with figures", "old telephone"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man enters an office and sits at his desk; a second man confronts him, apparently over a paper document, and the argument escalates into a physical fight with choking, slapping, and the man being thrown onto the desk.",
+  "best_frame_ts": "02:10.650",
+  "confidence": "medium",
+  "needs_audio": true
+}

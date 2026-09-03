@@ -1,0 +1,19 @@
+{
+  "video_id": "4Vai3furaS8",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["sedan"],
+  "location_fine": "military base courtyard",
+  "character_types": ["officer with mustache", "soldier in camouflage", "soldiers in formation"],
+  "drag": false,
+  "key_props": ["military caps", "portrait on wall"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "At a military base, a mustached officer in dress uniform talks and jokes with a soldier in camouflage outside a building, then oversees a formation of soldiers marching and standing at attention in the courtyard.",
+  "best_frame_ts": "01:42",
+  "confidence": "medium",
+  "needs_audio": true
+}

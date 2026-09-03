@@ -1,0 +1,19 @@
+{
+  "video_id": "Khc_Ct08b9k",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "park path, street, and apartment stairwell",
+  "character_types": ["police officer", "man in beanie", "muscular man with knives", "boy"],
+  "drag": false,
+  "key_props": ["police cap", "kitchen knives", "plastic bag"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A police officer chases a man in a beanie through an autumn park, along a street, and up an apartment stairwell, arriving at a doorway where a muscular mustached man in a tank top brandishes two kitchen knives; the sketch closes with reaction shots of the officer and a young boy.",
+  "best_frame_ts": "01:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

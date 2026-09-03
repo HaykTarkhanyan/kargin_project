@@ -1,0 +1,19 @@
+{
+  "video_id": "BCDNaGGDjAY",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "rural road",
+  "character_types": ["elderly driver", "woman passenger", "young man passenger", "traffic police officer"],
+  "drag": false,
+  "key_props": ["sunglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A car full of passengers - an older driver, a woman, and a young man - drives down a dusty country road before being stopped by a traffic police officer; the young man stands up through the sunroof to argue and gesture with the officer while the others react from inside the car.",
+  "best_frame_ts": "01:06",
+  "confidence": "medium",
+  "needs_audio": true
+}

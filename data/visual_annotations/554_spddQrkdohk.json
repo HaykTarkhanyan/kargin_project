@@ -1,0 +1,19 @@
+{
+  "video_id": "spddQrkdohk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant",
+  "character_types": ["father", "mother", "son", "daughter", "waiter", "restaurant patron"],
+  "drag": false,
+  "key_props": ["shopping bags", "cucumber", "tomato", "menu", "plates and glasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A village family (father with a fake mustache, mother in a red headscarf, a son and daughter) arrives at an upscale red-decorated restaurant carrying shopping bags and is seated and served, while at another table a waiter has a separate comic exchange with a bearded customer.",
+  "best_frame_ts": "00:51",
+  "confidence": "medium",
+  "needs_audio": true
+}

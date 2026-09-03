@@ -1,0 +1,19 @@
+{
+  "video_id": "XI9QMVHkcIg",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "family living room",
+  "character_types": ["father in robe", "mother", "young child", "older man visitor"],
+  "drag": false,
+  "key_props": ["stuffed toy", "television", "teacup", "plaid robe"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A family sits on a couch drinking tea and watching a dramatic scene on television with their young child, then the father in a plaid robe greets an older man at the door and later talks with him near a balcony window.",
+  "best_frame_ts": "00:47",
+  "confidence": "medium",
+  "needs_audio": true
+}

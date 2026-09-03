@@ -1,0 +1,19 @@
+{
+  "video_id": "My_7yrhaguw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office room",
+  "character_types": ["arm-wrestling champion in dark jacket", "man in beanie", "man in trenchcoat", "man in green padded jacket", "man in checkered flat cap"],
+  "drag": false,
+  "key_props": ["desk", "chairs"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A man seated at a table arm-wrestles a series of different challengers who enter one at a time, each match following the same handshake-and-strain setup with the challengers reacting with strain or frustration.",
+  "best_frame_ts": "01:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

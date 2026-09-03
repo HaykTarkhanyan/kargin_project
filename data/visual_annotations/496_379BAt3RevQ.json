@@ -1,0 +1,19 @@
+{
+  "video_id": "379BAt3RevQ",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv"],
+  "location_fine": "rural roadside fruit stand",
+  "character_types": ["young grape vendor", "young grape vendor", "mustached man in suit"],
+  "drag": false,
+  "key_props": ["grapes", "roadside stand umbrella", "wheelbarrow"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two young men sell grapes from a roadside stand along a country road; a mustached man in a suit pulls up in a dark SUV and argues animatedly with them before the scene ends with belongings being loaded into the vehicle.",
+  "best_frame_ts": "01:47",
+  "confidence": "medium",
+  "needs_audio": true
+}

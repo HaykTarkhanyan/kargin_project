@@ -1,0 +1,19 @@
+{
+  "video_id": "dNlFGVJixUA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government office",
+  "character_types": ["official at desk", "visiting woman", "male assistant", "wife in floral robe"],
+  "drag": false,
+  "key_props": ["office desk", "computer", "armenian flag", "wall map", "necktie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached official sitting behind a desk with an Armenian flag and wall map talks with a woman in a low-cut dress who gestures counting numbers with her fingers; the scene then shifts home where a woman in a floral robe helps the man get dressed and he later sits alone on a couch.",
+  "best_frame_ts": "00:00:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

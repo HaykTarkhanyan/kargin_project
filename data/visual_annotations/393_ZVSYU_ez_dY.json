@@ -1,0 +1,19 @@
+{
+  "video_id": "ZVSYU_ez_dY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "sports locker room",
+  "character_types": ["football coach in suit", "football players", "goalkeeper"],
+  "drag": false,
+  "key_props": ["whiteboard with tactics diagram", "trophies", "team jerseys", "soccer balls"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A football coach in a suit delivers an animated tactical talk to his team in the locker room using a whiteboard diagram, and the scene ends with the team posing together holding trophies before the coach exits through the door.",
+  "best_frame_ts": "01:39",
+  "confidence": "high",
+  "needs_audio": true
+}

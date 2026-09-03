@@ -1,0 +1,19 @@
+{
+  "video_id": "4fWY133vYDs",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "doctor's office",
+  "character_types": ["bespectacled doctor/clerk", "elderly patient", "orderly in white coat", "woman with red hair (drag)"],
+  "drag": true,
+  "key_props": ["large glasses", "white lab coats", "office desk", "wall posters"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A bespectacled office worker at a desk interacts with an elderly patient escorted by a man in a white coat, intercut with testimonial-style interviews of other characters including a woman with red hair played in drag recounting something emotional.",
+  "best_frame_ts": "00:06",
+  "confidence": "medium",
+  "needs_audio": true
+}

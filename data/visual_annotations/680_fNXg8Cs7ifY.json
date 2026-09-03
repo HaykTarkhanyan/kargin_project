@@ -1,0 +1,19 @@
+{
+  "video_id": "fNXg8Cs7ifY",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv"],
+  "location_fine": "apartment being moved into",
+  "character_types": ["man with mustache and glasses", "person wrapped in blanket"],
+  "drag": false,
+  "key_props": ["cardboard moving boxes", "ladder", "clothes drying rack", "floral blanket/shawl", "glasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A person runs down a street outside an apartment building wrapped head-to-toe in a floral blanket and is helped inside by a mustachioed man in a checkered shirt, who then spends most of the video talking indoors in a room full of moving boxes.",
+  "best_frame_ts": "00:54.450",
+  "confidence": "medium",
+  "needs_audio": true
+}

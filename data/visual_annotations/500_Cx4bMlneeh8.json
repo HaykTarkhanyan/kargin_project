@@ -1,0 +1,19 @@
+{
+  "video_id": "Cx4bMlneeh8",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "autumn forest",
+  "character_types": ["red riding hood woman", "man in wolf costume", "man in bird costume"],
+  "drag": false,
+  "key_props": ["picnic basket", "wolf costume", "bird mask", "pistol"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A Little Red Riding Hood parody: a young woman in a red hood is chased through an autumn forest by a man in a shaggy wolf costume and a man in a green bird costume, culminating in her pulling out a pistol.",
+  "best_frame_ts": "02:43",
+  "confidence": "medium",
+  "needs_audio": true
+}

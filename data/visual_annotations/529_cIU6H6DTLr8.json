@@ -1,0 +1,19 @@
+{
+  "video_id": "cIU6H6DTLr8",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "pharmacy",
+  "character_types": ["pharmacist", "pharmacist assistant", "customer couple"],
+  "drag": false,
+  "key_props": ["medicine shelves", "measuring tape", "product box"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A couple enters a pharmacy and talks with pharmacists behind a counter stocked with medicine boxes, examining a product box marked with a question mark. The scene ends with a pharmacist comically measuring something on the counter with a tape measure.",
+  "best_frame_ts": "02:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

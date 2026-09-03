@@ -1,0 +1,19 @@
+{
+  "video_id": "mORFqQ2Pi5M",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "period apartment sitting room",
+  "character_types": ["older woman in patterned robe", "young dandy man with red cravat", "man in leather jacket (background)"],
+  "drag": false,
+  "key_props": ["green notebook/script", "striped curtains", "papers on table"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An older woman and a curly-haired young man in a red cravat sit and talk at length in an old-fashioned sitting room, reading and writing on papers, while a man in a leather jacket briskly passes through the background.",
+  "best_frame_ts": "00:47",
+  "confidence": "medium",
+  "needs_audio": true
+}

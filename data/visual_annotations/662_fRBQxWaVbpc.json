@@ -1,0 +1,19 @@
+{
+  "video_id": "fRBQxWaVbpc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government office",
+  "character_types": ["bespectacled clerk", "visitor"],
+  "drag": false,
+  "key_props": ["eyeglasses", "wig", "stacked papers", "small documents", "wooden cabinets"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A bespectacled clerk in a gray suit and curly wig converses animatedly, gesturing with his hands, across a desk from another man in a white shirt in a wood-paneled office; later the two men walk together down a hallway holding small documents.",
+  "best_frame_ts": "00:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

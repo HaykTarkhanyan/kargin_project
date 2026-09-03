@@ -1,0 +1,19 @@
+{
+  "video_id": "vd_n882n8AU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom and office",
+  "character_types": ["teacher", "schoolboy", "background students", "official in suit"],
+  "drag": false,
+  "key_props": ["blackboard", "flowers", "teddy bears and gifts", "bow tie", "Armenian flag", "office desk", "computer"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A classroom full of young students in bow ties gathers around a teacher near a flower-decorated blackboard, and the sketch cuts documentary-interview style between talking-head shots of the teacher, a schoolboy, and a mustached man in a suit at an office desk with an Armenian flag.",
+  "best_frame_ts": "00:00",
+  "confidence": "low",
+  "needs_audio": true
+}

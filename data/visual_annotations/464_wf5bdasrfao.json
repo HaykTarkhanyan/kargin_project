@@ -1,0 +1,19 @@
+{
+  "video_id": "wf5bdasrfao",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "industrial dirt road with concrete fence",
+  "character_types": ["man in brown suit with papers", "attacker in dark beanie and jacket"],
+  "drag": false,
+  "key_props": ["papers or documents", "concrete fence panels"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a brown suit carrying papers walks along a dirt road beside a long concrete fence while being stalked by a man in a dark beanie; the attacker catches up, grabs him from behind, and puts him in a chokehold against the fence in a violent struggle.",
+  "best_frame_ts": "01:07",
+  "confidence": "high",
+  "needs_audio": true
+}

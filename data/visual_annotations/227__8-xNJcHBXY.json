@@ -1,0 +1,19 @@
+{
+  "video_id": "_8-xNJcHBXY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school office",
+  "character_types": ["official with glasses and goatee", "visitor in beret"],
+  "drag": false,
+  "key_props": ["orange booklet", "eyeglasses", "world map", "bookshelf", "beret"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a beret enters an office decorated with a world map and presents an orange booklet to a bespectacled official with a goatee sitting at a desk, and the two have an extended seated conversation.",
+  "best_frame_ts": "01:11",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "zyqWBVzMpFw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "police station office",
+  "character_types": ["police officer", "man in plaid suit", "injured man", "officer dragging body"],
+  "drag": false,
+  "key_props": ["telephone", "desk", "police cap", "blood", "coat on hanger"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A police officer sits at his desk while a nervous mustached man in a checkered suit paces and talks on the phone; later, two men drag in a bloodied, unconscious man and lay him across the desk.",
+  "best_frame_ts": "02:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

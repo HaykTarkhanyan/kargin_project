@@ -1,0 +1,19 @@
+{
+  "video_id": "088OKSJV3QE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital waiting room and corridor",
+  "character_types": ["patient", "older man", "man in coat with documents"],
+  "drag": false,
+  "key_props": ["papers/documents", "cleaning cart", "waiting room chairs"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a hospital-style waiting room, pairs of men sit and argue or converse animatedly on blue chairs, and a man in a coat reads aloud from papers, before the scene shifts to a corridor where a figure walks away past a cleaning cart.",
+  "best_frame_ts": "01:25",
+  "confidence": "medium",
+  "needs_audio": true
+}

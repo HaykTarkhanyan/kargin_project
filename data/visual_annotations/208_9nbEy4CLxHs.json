@@ -1,0 +1,19 @@
+{
+  "video_id": "9nbEy4CLxHs",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "village shop",
+  "character_types": ["shopkeeper", "young man in tracksuit"],
+  "drag": false,
+  "key_props": ["shop counter", "scale", "shelves of goods"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Establishing shots show a quiet village street with a white Lada parked outside a small shop; inside, a grey-haired mustached shopkeeper has an animated, gesture-heavy conversation with a young man in a tracksuit and cap near the counter.",
+  "best_frame_ts": "00:48",
+  "confidence": "medium",
+  "needs_audio": true
+}

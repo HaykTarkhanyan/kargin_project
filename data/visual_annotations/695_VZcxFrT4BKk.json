@@ -1,0 +1,19 @@
+{
+  "video_id": "VZcxFrT4BKk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["doctor", "patient"],
+  "drag": true,
+  "key_props": ["glasses", "id badge", "cord/stethoscope"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in glasses and blue medical scrubs reacts and talks at his desk, intercut with a heavyset man in a track jacket waiting bored in a chair and with a patient in an elaborate white curly wig, purple jacket, and red lipstick fidgeting as they talk.",
+  "best_frame_ts": "01:24",
+  "confidence": "low",
+  "needs_audio": true
+}

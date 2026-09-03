@@ -1,0 +1,19 @@
+{
+  "video_id": "SG5_AtifkaE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "military recruitment office corridor",
+  "character_types": ["young woman (girlfriend)", "young man draftee/recruit", "uniformed officer"],
+  "drag": false,
+  "key_props": ["numbered id tag pinned to jacket", "eyeglasses", "plastic grocery bag"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young woman tearfully says goodbye to a bespectacled young man wearing a numbered tag (apparently being processed for army conscription), stroking his face and resting her head against his while a uniformed officer looks on nearby.",
+  "best_frame_ts": "00:50",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "3UZOwmPovQ4",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car", "marshrutka"],
+  "location_fine": "bakery, apartment courtyard, and hallway",
+  "character_types": ["baker", "old man", "young man", "old woman", "man in blanket/robe"],
+  "drag": false,
+  "key_props": ["canes", "blanket/robe", "chef hats"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 4, "repeating_gag": false},
+  "visual_synopsis": "The episode moves through several settings: a bakery/kitchen with staff in white coats and tall hats, two elderly men sitting on a bench in an apartment courtyard having an animated conversation, a man wrapped in a blanket arguing in an indoor hallway, and a closing sequence shown in green night-vision-style tint in a bedroom.",
+  "best_frame_ts": "04:53",
+  "confidence": "low",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "DZERKfVqWmc",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["elderly woman", "man in pajamas"],
+  "drag": true,
+  "key_props": ["corded telephone", "hammer", "pillow", "bed"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A person in a gray wig, glasses and a ruffled nightgown lies in bed at night talking on a corded phone, then a man in pajamas enters, approaches the bed with what looks like a hammer, and appears to strike or startle the sleeper, whose mustache becomes visible under the wig afterward.",
+  "best_frame_ts": "01:40",
+  "confidence": "medium",
+  "needs_audio": true
+}

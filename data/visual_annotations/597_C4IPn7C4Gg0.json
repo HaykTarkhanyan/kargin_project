@@ -1,0 +1,19 @@
+{
+  "video_id": "C4IPn7C4Gg0",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "family kitchen/dining room",
+  "character_types": ["drag mother figure", "man in suit", "young girl"],
+  "drag": true,
+  "key_props": ["fruit bowl", "sunflowers", "wine bottle", "gift box"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in drag as a blonde-wigged woman in a floral robe greets a visiting man at the door with a hug, then the two sit at a kitchen table with a young girl, exchanging gifts and conversing warmly among fruit and flowers.",
+  "best_frame_ts": "01:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

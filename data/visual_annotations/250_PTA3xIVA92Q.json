@@ -1,0 +1,19 @@
+{
+  "video_id": "PTA3xIVA92Q",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "stairwell / building interior",
+  "character_types": ["hitman", "assassin", "target"],
+  "drag": false,
+  "key_props": ["revolvers", "phone", "hooded jacket"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two amateur hitmen in hooded jackets sit in a dim stairwell arguing over their target while examining a phone, then draw revolvers; the sketch ends with a gunshot and a physical struggle involving a third man.",
+  "best_frame_ts": "02:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

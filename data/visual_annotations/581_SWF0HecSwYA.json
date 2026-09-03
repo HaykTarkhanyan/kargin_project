@@ -1,0 +1,19 @@
+{
+  "video_id": "SWF0HecSwYA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home library or study",
+  "character_types": ["professor/teacher with curly wig", "young student", "reacting man in red cap"],
+  "drag": false,
+  "key_props": ["bookshelves", "pointer stick", "glasses", "wig"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A curly-wigged professor in a striped robe lectures and gestures with a pointer stick at a young student seated among bookshelves, periodically cutting away to a man in a red cap reacting with exaggerated surprised faces.",
+  "best_frame_ts": "00:52",
+  "confidence": "medium",
+  "needs_audio": true
+}

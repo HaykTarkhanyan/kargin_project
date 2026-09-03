@@ -1,0 +1,19 @@
+{
+  "video_id": "h7IqrsqBy1M",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "dim apartment room",
+  "character_types": ["man in striped shirt", "man in headscarf and tinted glasses"],
+  "drag": false,
+  "key_props": ["small mechanical device", "tweezers", "candle", "telephone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men sit close together at a table in a dim green-lit room, closely examining and fiddling with a small mechanical device using tweezers; the scene later shifts to one of them anxiously talking on the phone with heavy dark makeup under his eyes.",
+  "best_frame_ts": "01:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

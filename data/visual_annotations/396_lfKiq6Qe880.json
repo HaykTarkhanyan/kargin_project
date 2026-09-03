@@ -1,0 +1,19 @@
+{
+  "video_id": "lfKiq6Qe880",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["suv", "lada"],
+  "location_fine": "street outside school",
+  "character_types": ["schoolgirl with red backpack", "grinning man in glasses driving", "students"],
+  "drag": false,
+  "key_props": ["red backpack", "old lada car", "black suv", "glasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "Outside a school, a girl in a white top with a red backpack repeatedly walks along a wall while a grinning, bespectacled man in an old red Lada drives past and follows her, the same walking/driving pair of shots repeating many times down the street.",
+  "best_frame_ts": "00:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

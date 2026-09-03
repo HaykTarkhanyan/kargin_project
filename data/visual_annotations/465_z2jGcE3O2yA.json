@@ -1,0 +1,19 @@
+{
+  "video_id": "z2jGcE3O2yA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "elementary school classroom",
+  "character_types": ["female teacher", "male teacher or principal", "schoolchildren"],
+  "drag": false,
+  "key_props": ["chalkboard", "chalk drawing", "school desks"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In an elementary school classroom full of children, a female teacher draws circles on the chalkboard and interacts with the class, when a mustached man in a suit enters, talks with her, and they step out into the hallway together while the children react and laugh.",
+  "best_frame_ts": "00:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

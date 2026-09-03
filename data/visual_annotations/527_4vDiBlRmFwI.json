@@ -1,0 +1,19 @@
+{
+  "video_id": "4vDiBlRmFwI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["host", "guest", "woman serving tea"],
+  "drag": false,
+  "key_props": ["tea set", "armchairs", "curtains"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a striped sweater greets a visitor in a yellow sweater at the door of a living room, and the two sit in armchairs chatting animatedly while a woman in a red top serves them tea.",
+  "best_frame_ts": "01:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

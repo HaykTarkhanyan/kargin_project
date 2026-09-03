@@ -1,0 +1,19 @@
+{
+  "video_id": "Rz_OeXNrwK8",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "rocky hillside",
+  "character_types": ["climber", "climber"],
+  "drag": false,
+  "key_props": ["climbing rope", "harness", "baseball cap", "beanie"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in outdoor gear climb a rocky cliffside using a rope; one loses his grip and falls, ending up lying motionless in the grass below, while the other rushes down and kneels over him.",
+  "best_frame_ts": "00:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

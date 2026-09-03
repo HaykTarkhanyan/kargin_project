@@ -1,0 +1,19 @@
+{
+  "video_id": "3lZpdy48GFI",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["truck"],
+  "location_fine": "government office",
+  "character_types": ["official in suit", "visitor in patterned sweater"],
+  "drag": false,
+  "key_props": ["desk", "armenian flag", "portrait on wall", "computer"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached official in a suit sits at his office desk while a curly-haired man in an orange patterned sweater stands and talks animatedly, gesturing and laughing; a brief outdoor insert shows a truck driving on a road before the office conversation resumes.",
+  "best_frame_ts": "01:59",
+  "confidence": "medium",
+  "needs_audio": true
+}

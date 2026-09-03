@@ -1,0 +1,19 @@
+{
+  "video_id": "LTFdwmRrjBY",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "sports bar / cafe terrace",
+  "character_types": ["football fans in jerseys", "man in paisley shirt", "older interview subject"],
+  "drag": false,
+  "key_props": ["beer mugs", "television screen", "sports jerseys", "sunflower seeds"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men in red and black football jerseys sit at a cafe table drinking beer and watching a football match on a TV screen, reacting animatedly alongside a third man in a paisley shirt; the sketch also cuts to a separate segment of an older gray-haired man being interviewed.",
+  "best_frame_ts": "03:32",
+  "confidence": "medium",
+  "needs_audio": true
+}

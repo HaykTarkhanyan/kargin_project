@@ -1,0 +1,19 @@
+{
+  "video_id": "CcDMgyCFmVk",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government office",
+  "character_types": ["police officer", "senior officer"],
+  "drag": false,
+  "key_props": ["flags", "office desk"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two uniformed officers sit across a desk decorated with small flags in a wood-paneled office, having an increasingly animated conversation with hand gestures, intercut with close-up reaction shots of the mustached officer.",
+  "best_frame_ts": "01:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

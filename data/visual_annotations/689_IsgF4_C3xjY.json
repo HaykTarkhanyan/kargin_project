@@ -1,0 +1,19 @@
+{
+  "video_id": "IsgF4_C3xjY",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "range rover"],
+  "location_fine": "rural road",
+  "character_types": ["traffic police officer", "driver"],
+  "drag": false,
+  "key_props": ["documents", "money", "police cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A traffic police officer flags down a driver in a green SUV on an autumn country road; the two talk and gesture animatedly, and the driver hands over folded papers with a banknote tucked inside.",
+  "best_frame_ts": "02:06",
+  "confidence": "medium",
+  "needs_audio": true
+}

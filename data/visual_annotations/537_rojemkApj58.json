@@ -1,0 +1,19 @@
+{
+  "video_id": "rojemkApj58",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["marshrutka minibus"],
+  "location_fine": "roadside and inside a marshrutka minibus",
+  "character_types": ["passenger man with cap", "monk", "young woman"],
+  "drag": false,
+  "key_props": ["newspaper", "beer bottle", "cross necklace"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man runs down a rural road to flag down and board a yellow marshrutka minibus, then sits among fellow passengers including two hooded, cross-wearing monks and two young women, ending up with a lipstick mark on his cheek while reading a newspaper and drinking a bottled drink.",
+  "best_frame_ts": "01:24",
+  "confidence": "medium",
+  "needs_audio": true
+}

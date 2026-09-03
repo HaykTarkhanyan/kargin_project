@@ -1,0 +1,19 @@
+{
+  "video_id": "cgaTVZKUFuY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["mustached office worker", "wild-haired character with red lipstick"],
+  "drag": true,
+  "key_props": ["telephone", "office desk", "curly wig", "scarf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached office worker has an emotional phone conversation at his desk, intercut with reaction shots of a wild-haired, red-lipped character emoting dramatically in the same room.",
+  "best_frame_ts": "01:22",
+  "confidence": "low",
+  "needs_audio": true
+}

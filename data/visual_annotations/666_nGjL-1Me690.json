@@ -1,0 +1,19 @@
+{
+  "video_id": "nGjL-1Me690",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "rural hillside",
+  "character_types": ["reporter", "cameraman", "old villager"],
+  "drag": false,
+  "key_props": ["microphone", "video camera", "fur ushanka hat", "sunglasses", "cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A TV reporter in sunglasses and a cameraman hike across a rural, hilly countryside and find an old, mustached villager wearing a fur hat sitting in a field, whom they interview with a microphone.",
+  "best_frame_ts": "01:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

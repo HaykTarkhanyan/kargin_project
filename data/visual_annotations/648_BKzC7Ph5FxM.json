@@ -1,0 +1,19 @@
+{
+  "video_id": "BKzC7Ph5FxM",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment stairwell and street grocery stall",
+  "character_types": ["woman in red cardigan", "man in red shirt (collapsed/ill)"],
+  "drag": false,
+  "key_props": ["wristwatch", "grocery produce", "shopping bags"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A woman in a red cardigan finds a man in a red shirt collapsed and seemingly ill (foaming at the mouth) in an apartment stairwell, checks on him, then leaves to shop at a nearby outdoor grocery stall before returning through the stairwell.",
+  "best_frame_ts": "00:29",
+  "confidence": "medium",
+  "needs_audio": true
+}

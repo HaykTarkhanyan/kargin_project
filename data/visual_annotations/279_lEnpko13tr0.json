@@ -1,0 +1,19 @@
+{
+  "video_id": "lEnpko13tr0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment bedroom and living room, new year decor",
+  "character_types": ["father", "mother", "daughter", "son"],
+  "drag": false,
+  "key_props": ["shotgun/rifle", "small christmas tree", "red table cloth", "wall calendar"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A family in a New Year's-decorated apartment - father, mother in a headscarf, and two children - talk and decorate a small tinsel tree, then the father picks up a shotgun and the scene escalates with someone running off and a brief cut to a wood-filled shed.",
+  "best_frame_ts": "02:59",
+  "confidence": "medium",
+  "needs_audio": true
+}

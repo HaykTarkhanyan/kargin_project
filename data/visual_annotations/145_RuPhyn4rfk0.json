@@ -1,0 +1,19 @@
+{
+  "video_id": "RuPhyn4rfk0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment stairwell corridor",
+  "character_types": ["neighbor carrying skis", "neighbor"],
+  "drag": false,
+  "key_props": ["skis", "ski poles", "beanie hats"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a beanie carrying skis and ski poles squeezes through a narrow stairwell corridor and gets into an animated, shoving confrontation with another man in a beanie blocking the doorway.",
+  "best_frame_ts": "00:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

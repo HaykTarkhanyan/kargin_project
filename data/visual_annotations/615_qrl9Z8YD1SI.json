@@ -1,0 +1,19 @@
+{
+  "video_id": "qrl9Z8YD1SI",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "rural field by irrigation canal",
+  "character_types": ["man in straw hat", "man in beanie"],
+  "drag": false,
+  "key_props": ["folding camp chairs", "fishing rod", "straw hat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a straw hat sits by a rural irrigation canal as another man in a beanie approaches on foot across open fields; the two talk animatedly and end up fishing together, seated on folding chairs by the water.",
+  "best_frame_ts": "01:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

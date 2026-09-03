@@ -1,0 +1,19 @@
+{
+  "video_id": "TDBsXssmjQk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment stairwell",
+  "character_types": ["neighbor", "resident"],
+  "drag": false,
+  "key_props": ["exposed wiring box", "apartment door"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bespectacled man in a gray sweater fiddles with an exposed wiring box torn out of a worn apartment stairwell wall while neighbors pass up and down the stairs, leading to some physical commotion in the corridor.",
+  "best_frame_ts": "00:51",
+  "confidence": "low",
+  "needs_audio": true
+}

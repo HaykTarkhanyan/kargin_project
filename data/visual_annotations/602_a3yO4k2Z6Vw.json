@@ -1,0 +1,19 @@
+{
+  "video_id": "a3yO4k2Z6Vw",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "park bench",
+  "character_types": ["man", "man", "young girl"],
+  "drag": false,
+  "key_props": ["park bench", "party hat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit closely together on a park bench in autumn, engaged in an intense, close-up conversation, briefly interrupted when a young girl wearing a party hat runs up to them before continuing on her way.",
+  "best_frame_ts": "00:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

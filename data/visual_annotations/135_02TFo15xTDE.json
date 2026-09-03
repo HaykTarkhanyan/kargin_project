@@ -1,0 +1,19 @@
+{
+  "video_id": "02TFo15xTDE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "football team locker room",
+  "character_types": ["football coach in suit", "football players in red jerseys"],
+  "drag": false,
+  "key_props": ["tactics board", "coat rack", "jerseys"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Players in red football jerseys gather in a locker room while a coach in a suit sits at a desk with a tactics board, looking stressed with his head in his hands, and the players talk among themselves and with the coach.",
+  "best_frame_ts": "00:59",
+  "confidence": "high",
+  "needs_audio": true
+}

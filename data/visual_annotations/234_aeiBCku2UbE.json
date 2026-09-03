@@ -1,0 +1,19 @@
+{
+  "video_id": "aeiBCku2UbE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["police pickup truck", "suv"],
+  "location_fine": "forest roadside police checkpoint",
+  "character_types": ["traffic police officer", "driver"],
+  "drag": false,
+  "key_props": ["police cap", "beacon light", "license plate", "police badge"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two traffic police officers on a tree-lined rural road stop passing vehicles and have an animated conversation with two civilian men in white shirts, apparently over a fine or violation.",
+  "best_frame_ts": "01:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "TZJwfWvvv60",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["suv", "bicycle"],
+  "location_fine": "wooded park path",
+  "character_types": ["couple on bench", "men in black suits", "nervous young man in glasses"],
+  "drag": false,
+  "key_props": ["black suv", "park bench"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A black SUV pulls up on a park path and several men in dark clothes gather near it while a couple sits talking on a nearby bench and a nervous young man in glasses hovers around; the scene ends with a physical confrontation near the car.",
+  "best_frame_ts": "02:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

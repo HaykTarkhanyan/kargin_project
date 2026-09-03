@@ -1,0 +1,19 @@
+{
+  "video_id": "82r9vHp8k0Y",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "sedan"],
+  "location_fine": "rural road",
+  "character_types": ["traffic police officer", "driver"],
+  "drag": false,
+  "key_props": ["first aid kit pouch", "syringe", "medicine bottle", "police cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A traffic police officer pulls over a driver on a country road and inspects the contents of his car's first aid kit, pulling out odd items like a syringe and an old medicine bottle, leading to a heated roadside argument.",
+  "best_frame_ts": "01:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

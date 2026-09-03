@@ -1,0 +1,19 @@
+{
+  "video_id": "Q3rLzYhBZIU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "indoor spa pool lounge",
+  "character_types": ["mustached man in bathrobe", "man in bathrobe", "shirtless man"],
+  "drag": false,
+  "key_props": ["bathrobe", "beer glass", "mobile phone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a plaid bathrobe reclines poolside at an indoor spa, drinking beer and talking, then takes a phone call; the sketch ends with two men swimming in the pool.",
+  "best_frame_ts": "01:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

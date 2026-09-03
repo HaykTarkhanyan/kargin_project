@@ -1,0 +1,19 @@
+{
+  "video_id": "jf-yXCiLD2E",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment dining room (birthday party)",
+  "character_types": ["birthday host", "party guests", "men in leather jackets"],
+  "drag": false,
+  "key_props": ["party hats", "cake", "dining table", "leather jackets"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A birthday celebration around a decorated dining table with several friends laughing, clapping, and wearing party hats; the host goes to answer the door where two men in leather jackets confront him, leading to a shoving scuffle, after which he returns to the room alone and subdued.",
+  "best_frame_ts": "00:02:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

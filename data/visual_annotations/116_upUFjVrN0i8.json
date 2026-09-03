@@ -1,0 +1,19 @@
+{
+  "video_id": "upUFjVrN0i8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "prison cell",
+  "character_types": ["prison guard", "prisoner in tracksuit", "prisoner with glasses"],
+  "drag": false,
+  "key_props": ["bunk bed chains", "glasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three men in tracksuits sit and stand in a stone-walled prison cell, talking and arguing with animated gestures; a guard briefly checks in at the cell door at the start.",
+  "best_frame_ts": "00:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

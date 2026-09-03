@@ -1,0 +1,19 @@
+{
+  "video_id": "qNDzi744SCY",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["adult man at student desk", "schoolchildren"],
+  "drag": false,
+  "key_props": ["chalkboard", "school desks"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An adult man in a beige coat sits among schoolchildren at classroom desks, talking animatedly with hand gestures while the children around him react and look on.",
+  "best_frame_ts": "00:19",
+  "confidence": "medium",
+  "needs_audio": true
+}

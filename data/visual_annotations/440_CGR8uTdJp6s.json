@@ -1,0 +1,19 @@
+{
+  "video_id": "CGR8uTdJp6s",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment hallway",
+  "character_types": ["man in dark suit", "man in pink shirt and black jacket"],
+  "drag": false,
+  "key_props": ["door", "curtain", "bed"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men fight in a narrow apartment hallway, repeatedly slapping and shoving each other past doors and curtains, ending up near a bed where someone is sleeping.",
+  "best_frame_ts": "00:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

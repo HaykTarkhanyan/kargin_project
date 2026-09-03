@@ -1,0 +1,19 @@
+{
+  "video_id": "6038Y198Rxg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "orchard yard with backgammon table",
+  "character_types": ["old man in gray jacket", "heavyset man in blazer", "older woman in patterned robe"],
+  "drag": false,
+  "key_props": ["backgammon board", "table cloth", "fruit bowl", "eyeglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit at an outdoor table under fruit trees playing backgammon and arguing animatedly with hand gestures, while a woman nearby watches and later peers over a garden wall.",
+  "best_frame_ts": "00:22.750",
+  "confidence": "medium",
+  "needs_audio": true
+}

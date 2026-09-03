@@ -1,0 +1,19 @@
+{
+  "video_id": "Y9fj6fuNFfA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant dining room",
+  "character_types": ["elderly man with cane", "elderly woman with cane", "waiter", "hostess/waitress"],
+  "drag": false,
+  "key_props": ["cane", "wine glasses", "table candle", "cloth napkins", "sandwich"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An elderly man and woman, both using canes, are seated by a waiter and hostess at a fancy restaurant table with candles and wine glasses; the waiter serves a sandwich while the couple talk and gesture animatedly through the meal, including a raised-hand moment near the end.",
+  "best_frame_ts": "02:42",
+  "confidence": "medium",
+  "needs_audio": true
+}

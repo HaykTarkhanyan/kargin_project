@@ -1,0 +1,19 @@
+{
+  "video_id": "KhxmtcSkGsY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment hallway and bedroom",
+  "character_types": ["man in suit", "shirtless man"],
+  "drag": false,
+  "key_props": ["wardrobe closet", "red robe"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a jacket walks down an apartment hallway, removes his coat, and changes his shirt in a bedroom, then opens a wardrobe closet to discover a shirtless man wrapped in a red robe hiding inside; both react with startled shock.",
+  "best_frame_ts": "00:21",
+  "confidence": "medium",
+  "needs_audio": true
+}

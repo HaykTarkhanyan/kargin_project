@@ -1,0 +1,19 @@
+{
+  "video_id": "K9BDnmNx4Ic",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["sedan"],
+  "location_fine": "park road and roadside dump site",
+  "character_types": ["heavyset man in sunglasses", "woman in red jacket and headscarf", "eccentric man in gray wig and glasses", "man dumping trash", "elderly man bystander", "man addressing camera"],
+  "drag": false,
+  "key_props": ["sunglasses", "car sunroof", "cardboard boxes", "trash pile"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "The clip cuts between several vignettes: a heavyset man in sunglasses rides in a car while a woman in a red jacket leans excitedly out of the sunroof on a tree-lined road; an eccentric gray-haired man in a mustard shirt talks to camera among the trees; a man dumps boxes of trash onto an already large roadside pile while an elderly man looks on; and a young man in a yellow shirt addresses the camera directly.",
+  "best_frame_ts": "01:40",
+  "confidence": "low",
+  "needs_audio": true
+}

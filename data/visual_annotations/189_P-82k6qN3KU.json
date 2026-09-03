@@ -1,0 +1,19 @@
+{
+  "video_id": "P-82k6qN3KU",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["turtle"],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["real child (girl)", "adult male playing oversized baby (drag)"],
+  "drag": true,
+  "key_props": ["stuffed toys", "apple", "basket of flowers", "turtle", "birdcage ornament"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A real little girl plays with stuffed toys and later sits talking with an adult male actor in a blond curly wig and pink robe playing an oversized baby girl, who eats an apple and is shown holding a turtle.",
+  "best_frame_ts": "01:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

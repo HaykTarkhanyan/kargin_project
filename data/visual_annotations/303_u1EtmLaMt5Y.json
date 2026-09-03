@@ -1,0 +1,19 @@
+{
+  "video_id": "u1EtmLaMt5Y",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["old woman (drag)", "young man"],
+  "drag": true,
+  "key_props": ["telephone", "garbage bag", "trash", "wig", "glasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An elderly woman character, played by a man in a gray wig and glasses, chats happily on the phone in her cluttered apartment; a young man in a dark jacket then dumps a sack of garbage onto her floor, leading to a heated confrontation and physical struggle amid the mess.",
+  "best_frame_ts": "01:21",
+  "confidence": "medium",
+  "needs_audio": true
+}

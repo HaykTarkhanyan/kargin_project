@@ -1,0 +1,19 @@
+{
+  "video_id": "xwZmZD6KFhE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada niva"],
+  "location_fine": "rural road and field with rock pile",
+  "character_types": ["old woman (drag)", "man in plaid jacket"],
+  "drag": true,
+  "key_props": ["car mirror ornament", "wooden stick", "dirt/rock mound"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A man driving a car with an old woman passenger in a curly white wig pulls over on a rural road; the two walk to a rocky dirt mound in a bare-tree field and interact using a stick, and the sketch ends with the man running off alone across the field.",
+  "best_frame_ts": "01:03",
+  "confidence": "medium",
+  "needs_audio": true
+}

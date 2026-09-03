@@ -1,0 +1,19 @@
+{
+  "video_id": "Egs7MLLWUHI",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "monastery courtyard",
+  "character_types": ["monk", "young man", "woman"],
+  "drag": false,
+  "key_props": ["cross necklace", "mobile phone", "book"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "At a stone monastery, a hooded monk, a young man in a blue shirt, and a woman talk and argue near the church wall, ending with the monk striking the young man with a book.",
+  "best_frame_ts": "02:28",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "v3BNi5Juk0Y",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "house party and bedroom",
+  "character_types": ["party guests", "drunk man", "creepy woman in wig"],
+  "drag": true,
+  "key_props": ["red curtain", "bed", "wig"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A house party erupts into a fistfight; afterward a man lies passed out drunk in bed while a wide-eyed drag character in a red wig creepily leans over and climbs onto him.",
+  "best_frame_ts": "00:52",
+  "confidence": "medium",
+  "needs_audio": true
+}

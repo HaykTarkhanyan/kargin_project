@@ -1,0 +1,19 @@
+{
+  "video_id": "UsrYsIlRla8",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "rural countryside dirt road",
+  "character_types": ["man in straw hat", "woman in black dress", "woman walking on road"],
+  "drag": false,
+  "key_props": ["straw hat", "lada car", "dirt road", "tall grass"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a straw hat drives a blue Lada down a dirt countryside road with a glamorous woman in a black dress as passenger; they stop in a green field to talk and interact with another woman walking along the road.",
+  "best_frame_ts": "01:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

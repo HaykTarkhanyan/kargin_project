@@ -1,0 +1,19 @@
+{
+  "video_id": "Ky6n5_pKveM",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "dining room / supra table",
+  "character_types": ["drinking companion", "friend"],
+  "drag": false,
+  "key_props": ["vodka bottle", "pickle jars", "canned fish", "tomatoes", "drinking glasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit at a home dining table loaded with vodka, pickles, and canned food, drinking and toasting animatedly; their mood swings from friendly hugging to drunken arguing, ending in a shove and a slap.",
+  "best_frame_ts": "04:52",
+  "confidence": "medium",
+  "needs_audio": true
+}

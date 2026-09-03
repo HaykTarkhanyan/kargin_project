@@ -1,0 +1,19 @@
+{
+  "video_id": "iGuN0A4qWIU",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "village street near old stone church",
+  "character_types": ["man in plaid shirt", "man in light shirt"],
+  "drag": false,
+  "key_props": ["wooden barrel", "stone wall"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men have an outdoor conversation near a low stone wall and a wooden barrel beside an old stone building, starting calm but growing tense through many alternating close-up reaction shots, and the sketch ends with the men pushing and throwing punches at each other.",
+  "best_frame_ts": "02:15",
+  "confidence": "high",
+  "needs_audio": true
+}

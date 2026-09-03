@@ -1,0 +1,19 @@
+{
+  "video_id": "I2pX4UZ4gJU",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "rural military checkpoint",
+  "character_types": ["driver", "guard", "officer"],
+  "drag": false,
+  "key_props": ["barrier gate", "rifle", "cap", "phone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "At a rural checkpoint with a road barrier, uniformed guards with rifles stop a blue car; the grinning driver talks with them through the window, while an officer later makes a phone call and argues with a colleague.",
+  "best_frame_ts": "00:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

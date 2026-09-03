@@ -1,0 +1,19 @@
+{
+  "video_id": "Edx0cGNBq_Q",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["old man"],
+  "drag": false,
+  "key_props": ["red telephone", "alarm clock", "porcelain figurine"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "An elderly gray-haired man lies in an ornate bed at night, repeatedly answering a red telephone and glancing at alarm clocks showing different times, growing increasingly annoyed each time it rings.",
+  "best_frame_ts": "00:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

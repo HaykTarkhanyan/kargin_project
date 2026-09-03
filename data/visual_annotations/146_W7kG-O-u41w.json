@@ -1,0 +1,19 @@
+{
+  "video_id": "W7kG-O-u41w",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom/office",
+  "character_types": ["teacher/principal", "students", "visitor"],
+  "drag": false,
+  "key_props": ["desk", "books", "potted plants", "door"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A mustached teacher seated at a desk in a classroom/office repeatedly meets one visitor after another (students, another mustached man, a woman, a man in a loud shirt), each conversation ending with someone walking out the door.",
+  "best_frame_ts": "00:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

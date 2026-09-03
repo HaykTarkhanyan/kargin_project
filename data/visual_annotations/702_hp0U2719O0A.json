@@ -1,0 +1,19 @@
+{
+  "video_id": "hp0U2719O0A",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment bathroom and kitchen",
+  "character_types": ["angry man in suit", "woman", "man in undershirt"],
+  "drag": false,
+  "key_props": ["bathtub", "necktie", "kitchen table", "teapot", "teacups"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A heavyset man in a suit angrily confronts a woman and two men in undershirts hiding in her apartment, chasing one of them into the bathtub; the sketch ends with everyone seated awkwardly together at the kitchen table for tea.",
+  "best_frame_ts": "01:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

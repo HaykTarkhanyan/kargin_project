@@ -1,0 +1,19 @@
+{
+  "video_id": "LTjzI3_hPaY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment stairwell and bedroom",
+  "character_types": ["man in black shirt", "man in white open shirt", "elderly woman (drag)"],
+  "drag": true,
+  "key_props": ["staircase railing", "floral nightgown", "headscarf", "radio", "bookshelf"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men have a tense physical confrontation in an apartment stairwell, one grabbing the other's open shirt; the scene cuts to an apartment bedroom where the man reacts emotionally while an elderly woman in a floral nightgown and headscarf, played in drag, enters and gestures at him.",
+  "best_frame_ts": "00:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

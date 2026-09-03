@@ -1,0 +1,19 @@
+{
+  "video_id": "rg8L5MqjDF4",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar interior and home bedroom",
+  "character_types": ["bartender", "storyteller", "injured man", "visitor"],
+  "drag": false,
+  "key_props": ["plaster casts", "traction rig", "bandages", "beer bottle", "chips"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A man enters a stone-grotto styled bar where the bartender animatedly tells a story; the scene shifts to a heavily bandaged man suspended in a home traction rig, visited by two friends who eat snacks and chat with him.",
+  "best_frame_ts": "02:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

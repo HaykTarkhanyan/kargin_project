@@ -1,0 +1,19 @@
+{
+  "video_id": "iAfOSpH2oEw",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["office manager", "employee"],
+  "drag": false,
+  "key_props": ["computer", "telephone", "desk"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An office manager works at his desk while a younger employee in a denim jacket arrives and works at a second computer; a phone call sparks an argument between them that escalates into a physical confrontation by the end.",
+  "best_frame_ts": "02:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "2-uOr0ZSGL0",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office boardroom",
+  "character_types": ["mustached businessman", "businessman in black suit", "young businessman in pinstripe suit"],
+  "drag": false,
+  "key_props": [],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a grey suit sits in a leather chair in a bright office, animatedly talking and gesturing with his hands while other besuited men listen and occasionally join the conversation around the table.",
+  "best_frame_ts": "00:48",
+  "confidence": "high",
+  "needs_audio": true
+}

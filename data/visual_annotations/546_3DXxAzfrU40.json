@@ -1,0 +1,19 @@
+{
+  "video_id": "3DXxAzfrU40",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "red lounge bar",
+  "character_types": ["mustached man in leather jacket", "mustached man in pinstripe suit", "woman with book", "woman with magazine"],
+  "drag": false,
+  "key_props": ["fur caps", "notebook", "magazine", "booth seating"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two mustached men in a red-toned lounge bar talk and interact, intercut with solo interview-style close-ups of one man against a plain backdrop; a woman reads a book on a couch while a man approaches and sits to talk with her, and later another woman reads a magazine and laughs.",
+  "best_frame_ts": "00:47",
+  "confidence": "medium",
+  "needs_audio": true
+}

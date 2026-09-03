@@ -1,0 +1,19 @@
+{
+  "video_id": "I7OQpkJuUng",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom and hallway",
+  "character_types": ["bride", "groom", "repairman"],
+  "drag": false,
+  "key_props": ["bed", "wedding photo frame", "work coveralls"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A newlywed couple play and wrestle affectionately in bed beside their wedding photo, repeatedly interrupted by a repairman in grey coveralls who opens the door, reacts awkwardly, and leaves, only to return again.",
+  "best_frame_ts": "00:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

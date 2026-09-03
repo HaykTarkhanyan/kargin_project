@@ -1,0 +1,19 @@
+{
+  "video_id": "L_5dGrklbqY",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home and school classroom",
+  "character_types": ["mustached man in undershirt", "young boy", "teacher", "schoolchildren"],
+  "drag": false,
+  "key_props": ["dining table", "couch", "chalkboard", "school desks"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man lounges on a couch talking to a boy at home, then the scene cuts to the same mustached man, now in a vest and shirt, talking animatedly in front of a classroom of schoolchildren.",
+  "best_frame_ts": "01:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

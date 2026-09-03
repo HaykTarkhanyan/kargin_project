@@ -1,0 +1,19 @@
+{
+  "video_id": "xKIAGtRttaw",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "minibus"],
+  "location_fine": "city street",
+  "character_types": ["traffic police officer", "old woman", "young girl", "driver"],
+  "drag": false,
+  "key_props": ["police hats", "small object passed between officers"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "Two traffic police officers stand on a city street repeatedly passing a small object between themselves, then stop and lean into several different passing cars to talk with the drivers and passengers, including two young girls and a woman.",
+  "best_frame_ts": "02:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

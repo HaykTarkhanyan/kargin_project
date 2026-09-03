@@ -1,0 +1,19 @@
+{
+  "video_id": "6ugcn6nGbek",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["bird"],
+  "vehicles": [],
+  "location_fine": "pet shop and bedroom",
+  "character_types": ["pet shop clerk", "customer", "husband", "wife"],
+  "drag": false,
+  "key_props": ["bird cages", "glass display case", "pill bottle", "mobile phone"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a floral shirt argues animatedly with a woman inside a pet shop lined with birdcages; the scene shifts to a bedroom later where the two end up in a physical scuffle on the bed.",
+  "best_frame_ts": "04:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

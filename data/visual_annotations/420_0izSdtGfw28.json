@@ -1,0 +1,19 @@
+{
+  "video_id": "0izSdtGfw28",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "wedding reception room and bedroom",
+  "character_types": ["groom in tuxedo", "bride in wedding dress", "older woman in red dress", "man in dark suit"],
+  "drag": false,
+  "key_props": ["wedding dress", "veil", "lace bedding"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A newlywed couple celebrates with family in an ornately paneled room, hugging and laughing, before the scene shifts to the wedding bed where the bride's dress lies draped and the couple later talks and laughs together in bed.",
+  "best_frame_ts": "00:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

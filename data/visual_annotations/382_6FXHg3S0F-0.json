@@ -1,0 +1,19 @@
+{
+  "video_id": "6FXHg3S0F-0",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["businessman", "woman (drag)"],
+  "drag": true,
+  "key_props": ["desk flag", "cigarette holder", "document"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit and tie sits across a desk from a character in a purple wig and red lipstick, played by a male actor in drag, smoking with a cigarette holder; the two carry on an animated conversation with a lot of hand gestures.",
+  "best_frame_ts": "00:19",
+  "confidence": "high",
+  "needs_audio": true
+}

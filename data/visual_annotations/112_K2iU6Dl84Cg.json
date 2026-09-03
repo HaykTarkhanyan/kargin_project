@@ -1,0 +1,19 @@
+{
+  "video_id": "K2iU6Dl84Cg",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["taxi", "bus"],
+  "location_fine": "airport taxi rank and apartment",
+  "character_types": ["taxi driver", "woman with red hair"],
+  "drag": false,
+  "key_props": ["walking cane", "flat cap", "suspenders", "floral wallpaper"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached taxi driver in a flat cap drives and talks near an airport, then parks and walks with a cane to meet a red-haired woman outside, where the two grab at each other in a tense confrontation; the scene continues indoors in a floral-wallpapered apartment where the argument escalates, with the driver later wearing a leather jacket and the woman visibly upset.",
+  "best_frame_ts": "02:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

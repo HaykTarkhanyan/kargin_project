@@ -1,0 +1,19 @@
+{
+  "video_id": "jZVDSlF5KsA",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["taxi", "car"],
+  "location_fine": "taxi interior on snowy road",
+  "character_types": ["taxi driver", "woman passenger"],
+  "drag": true,
+  "key_props": [],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A taxi driver in a black cap picks up a woman (a man in drag with a wig, lipstick, and red scarf) on a snowy roadside and drives her around while they chat and laugh animatedly.",
+  "best_frame_ts": "00:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

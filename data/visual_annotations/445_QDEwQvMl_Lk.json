@@ -1,0 +1,19 @@
+{
+  "video_id": "QDEwQvMl_Lk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and bathroom",
+  "character_types": ["man in trench coat", "man in striped shirt shaving", "woman on couch"],
+  "drag": false,
+  "key_props": ["shaving razor", "bathroom mirror", "large bundle/sack", "couch", "bookshelf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a trench coat arrives at an apartment carrying a large bundle and talks with a woman lounging on the couch, while another man shaves at the bathroom mirror; the scene cuts between the living room and bathroom before the trench-coated man returns to argue at the door.",
+  "best_frame_ts": "00:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

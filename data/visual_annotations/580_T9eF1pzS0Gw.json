@@ -1,0 +1,19 @@
+{
+  "video_id": "T9eF1pzS0Gw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital room and corridor",
+  "character_types": ["young man visitor", "elderly female patient (drag)", "doctor", "surgeon"],
+  "drag": true,
+  "key_props": ["bed", "pillows", "phone", "white coat", "surgical scrub cap"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A young man sits at the bedside of an elderly female patient (played by a male actor in a blonde wig) in an ornately decorated room, has a phone call and a brief pillow scuffle, then puts on a white coat and strides down a hospital corridor gesturing dramatically before encountering a surgeon.",
+  "best_frame_ts": "00:31",
+  "confidence": "medium",
+  "needs_audio": true
+}

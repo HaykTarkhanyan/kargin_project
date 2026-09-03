@@ -1,0 +1,19 @@
+{
+  "video_id": "qYhj_GEOtFo",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school auditorium with puppet stage",
+  "character_types": ["dog hand-puppet performer", "man in police/military uniform", "children audience", "woman with children"],
+  "drag": false,
+  "key_props": ["dog puppet", "puppet theater stage", "painted curtain backdrop"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A dog hand-puppet performs on a small puppet-theater stage in a school auditorium filled with laughing, waving children, and a mustached man in a police/military uniform later joins to interact with the puppet and the crowd.",
+  "best_frame_ts": "02:23",
+  "confidence": "high",
+  "needs_audio": true
+}

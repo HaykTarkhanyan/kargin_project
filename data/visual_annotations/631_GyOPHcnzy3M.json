@@ -1,0 +1,19 @@
+{
+  "video_id": "GyOPHcnzy3M",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "autumn park",
+  "character_types": ["man with mustache and dark coat", "man with sunglasses and beanie", "glowing angel/fairy woman", "street sweeper"],
+  "drag": false,
+  "key_props": ["park bench", "broom", "fallen leaves", "glowing light effect"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit on a bench in a foggy autumn park talking, and a glowing angelic woman in a white robe magically appears before them with sparkling light effects, seemingly granting them something, while a street sweeper works in the background.",
+  "best_frame_ts": "02:52",
+  "confidence": "medium",
+  "needs_audio": true
+}

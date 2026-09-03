@@ -1,0 +1,19 @@
+{
+  "video_id": "bmgJman6_ho",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["marshrutka", "van"],
+  "location_fine": "minibus interior on forest road",
+  "character_types": ["driver", "masked gunman", "young woman passenger", "male passengers"],
+  "drag": false,
+  "key_props": ["gun", "mobile phones"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A minibus full of passengers drives down a forest road when a masked man steps out and points a gun at it, then the rest of the sketch shows the driver and passengers arguing and talking on phones inside the crowded van.",
+  "best_frame_ts": "00:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

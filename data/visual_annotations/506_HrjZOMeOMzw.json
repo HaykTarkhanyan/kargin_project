@@ -1,0 +1,19 @@
+{
+  "video_id": "HrjZOMeOMzw",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government office",
+  "character_types": ["government official", "secretary", "visiting official", "man in suit", "man in glasses"],
+  "drag": false,
+  "key_props": ["telephone", "armenian flag", "briefcase", "desk papers"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached government official sits at his desk under an Armenian flag, fielding phone calls; a secretary lets in a stream of visiting officials and men in suits who confer, argue, and gesture animatedly across what appears to be two connected offices.",
+  "best_frame_ts": "00:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

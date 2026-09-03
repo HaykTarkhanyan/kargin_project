@@ -1,0 +1,19 @@
+{
+  "video_id": "H-vL_9n6yVk",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["old soviet car", "black suv"],
+  "location_fine": "garage parking lot",
+  "character_types": ["old man", "young man in sunglasses", "elderly woman"],
+  "drag": false,
+  "key_props": ["handheld camera"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An old man sitting in a battered old car is confronted by an animated young man in sunglasses who leans into the window arguing with big hand gestures, in an outdoor garage parking lot with a black SUV and an elderly woman briefly seen nearby.",
+  "best_frame_ts": "01:46",
+  "confidence": "medium",
+  "needs_audio": true
+}

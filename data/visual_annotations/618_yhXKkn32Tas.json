@@ -1,0 +1,19 @@
+{
+  "video_id": "yhXKkn32Tas",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital corridor",
+  "character_types": ["tough guy in leather jacket", "nurse", "surgeon", "doctor"],
+  "drag": false,
+  "key_props": ["surgical scrub cap", "leather jackets", "black beanie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in leather jackets have an animated, gesture-filled conversation in a hospital corridor, passing a nurse and a surgeon in scrubs along the way, and the scene ends with one man supporting the other as they walk off down the hallway.",
+  "best_frame_ts": "00:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

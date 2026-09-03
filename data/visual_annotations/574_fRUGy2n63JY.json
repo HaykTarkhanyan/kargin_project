@@ -1,0 +1,19 @@
+{
+  "video_id": "fRUGy2n63JY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment interior",
+  "character_types": ["schoolboy", "man in wig and glasses"],
+  "drag": false,
+  "key_props": ["backpack", "vodka bottles", "razor blade", "framed picture", "rug"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A schoolboy carrying a backpack walks home through apartment hallways while a curly-haired, bespectacled young man delivers a monologue directly to camera; the boy then discovers the man passed out on the floor amid vodka bottles and what appear to be drug-related items.",
+  "best_frame_ts": "01:41",
+  "confidence": "low",
+  "needs_audio": true
+}

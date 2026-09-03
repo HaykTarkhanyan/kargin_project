@@ -1,0 +1,19 @@
+{
+  "video_id": "smPgnvUoJtU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "group therapy session room",
+  "character_types": ["mustached man in red sweater", "mustached man in orange sweater", "young man in turtleneck", "group session members"],
+  "drag": false,
+  "key_props": ["folding chairs"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Captioned 'Los Angeles', a group of men sit in a circle taking turns speaking, with two mustached men in red and orange sweaters featured prominently before the session ends in an agitated, emotional exchange.",
+  "best_frame_ts": "00:00",
+  "confidence": "low",
+  "needs_audio": true
+}

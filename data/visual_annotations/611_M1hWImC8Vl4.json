@@ -1,0 +1,19 @@
+{
+  "video_id": "M1hWImC8Vl4",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "historic stone church grounds",
+  "character_types": ["homeless panhandler", "man in hooded jacket", "woman in plaid scarf"],
+  "drag": false,
+  "key_props": ["cardboard begging sign", "toy piano keyboard", "stone wall"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A disheveled man in a worn coat wanders the autumn grounds of a historic stone church, playing with a small toy piano and holding a handwritten cardboard sign, before being approached by a couple in winter coats who talk with him.",
+  "best_frame_ts": "01:34",
+  "confidence": "medium",
+  "needs_audio": true
+}

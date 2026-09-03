@@ -1,0 +1,19 @@
+{
+  "video_id": "_OF9JzCnuPY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital doctor's office and waiting area",
+  "character_types": ["doctor", "nurse", "patient", "eccentric patient"],
+  "drag": false,
+  "key_props": ["desk", "pen and paper", "chairs", "door"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A doctor in blue scrubs and a surgical cap interviews patients one at a time at his desk while a nurse in a white coat moves between the office and a waiting area; an eccentric patient with a large frizzy wig reacts animatedly before two men in white patient gowns end up seated together.",
+  "best_frame_ts": "02:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

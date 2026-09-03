@@ -1,0 +1,19 @@
+{
+  "video_id": "l4p3EXW1MEM",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["uaz van"],
+  "location_fine": "inside an old van",
+  "character_types": ["driver", "old man", "young man in tracksuit", "passenger"],
+  "drag": false,
+  "key_props": ["exposed dashboard wiring", "fringed steering wheel decoration"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A group of men ride together in an old van driving down a tree-lined road; the passengers in the back argue, laugh, and slap at each other while the mustached driver up front deals with them, and at one point someone pokes at exposed wiring under the dashboard.",
+  "best_frame_ts": "00:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

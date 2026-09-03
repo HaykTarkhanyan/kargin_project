@@ -1,0 +1,19 @@
+{
+  "video_id": "aOZ3vbc1iFA",
+  "indoor_outdoor": "indoor",
+  "day_night": "mixed",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "gothic narrator set and kitchen",
+  "character_types": ["horror-host narrator", "kitchen man", "wife (drag)"],
+  "drag": true,
+  "key_props": ["candelabra", "photographs", "dish towel", "cleaning bottles"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A theatrically costumed narrator in a white curly wig and red cape addresses the camera dramatically by candlelight while holding up photographs of two men, then the sketch cuts to a kitchen where a man in a green sweater talks with his wife (a male actor in a curly wig and floral robe) who is doing housework.",
+  "best_frame_ts": "02:40",
+  "confidence": "low",
+  "needs_audio": true
+}

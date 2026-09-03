@@ -1,0 +1,19 @@
+{
+  "video_id": "goMkbrJ5znE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": ["donkey"],
+  "vehicles": [],
+  "location_fine": "village pasture with irrigation canal",
+  "character_types": ["farmer"],
+  "drag": false,
+  "key_props": ["donkey lead rope", "stick", "hay", "bucket of small objects", "green pouch"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a rustic orange jacket and yellow felt cap leads a donkey by rope across open farmland near a mountain, ties it to a tree, and gathers hay by hand. He then upends a bucket that spills small objects, drinks from a green pouch, and the scene ends near a water canal with a splash and close-up reaction shots.",
+  "best_frame_ts": "01:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

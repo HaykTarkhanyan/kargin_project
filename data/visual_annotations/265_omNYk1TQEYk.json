@@ -1,0 +1,19 @@
+{
+  "video_id": "omNYk1TQEYk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["priest", "schoolchildren", "young man"],
+  "drag": false,
+  "key_props": ["cross necklace", "cigarette"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A priest in a black cassock lectures a classroom full of schoolchildren, gesturing animatedly and at one point smoking a cigarette while talking.",
+  "best_frame_ts": "01:03",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "LUxG_e5VkFg",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv"],
+  "location_fine": "rural stone building interior",
+  "character_types": ["woman with curly blonde hair", "man in beanie", "heavyset man", "man in dark jacket", "driver"],
+  "drag": false,
+  "key_props": ["black suv", "stone wall", "kitchen appliances"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Shot in black and white, a black SUV drives along a rural road to a stone building, where a distressed woman is comforted or restrained by men including one in a beanie, in a tense indoor confrontation.",
+  "best_frame_ts": "02:54",
+  "confidence": "low",
+  "needs_audio": true
+}

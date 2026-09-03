@@ -1,0 +1,19 @@
+{
+  "video_id": "ipVYU1B3mTs",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "forest path",
+  "character_types": ["old woman", "unconscious man"],
+  "drag": true,
+  "key_props": ["cane"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An old woman, played by a man in a gray wig, glasses and a floral outfit, walks down a forest path with a cane and discovers a man lying motionless on the ground, reacting with surprise and amusement.",
+  "best_frame_ts": "00:33",
+  "confidence": "high",
+  "needs_audio": true
+}

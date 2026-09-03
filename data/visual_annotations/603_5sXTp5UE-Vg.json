@@ -1,0 +1,19 @@
+{
+  "video_id": "5sXTp5UE-Vg",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "pizza restaurant",
+  "character_types": ["pizza restaurant employee", "customer", "restaurant patrons"],
+  "drag": false,
+  "key_props": ["pizza", "coca-cola bottles", "restaurant table setting"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men sit at a table in a MamaMia pizza restaurant talking and eating a pizza together, with cutaways to the restaurant's storefront exterior and other diners and staff in the background.",
+  "best_frame_ts": "01:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

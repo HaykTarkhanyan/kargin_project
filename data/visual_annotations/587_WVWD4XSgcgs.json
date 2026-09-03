@@ -1,0 +1,19 @@
+{
+  "video_id": "WVWD4XSgcgs",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv"],
+  "location_fine": "forest / hunting grounds",
+  "character_types": ["older hunter", "younger hunter"],
+  "drag": false,
+  "key_props": ["hunting rifle", "flashlight/scope", "fur hat", "checkered scarf", "trench coat", "suv"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two hunters, an older man in a trench coat and fur hat and a younger man in full camouflage, drive an SUV into a bare forest and walk together through the trees talking and gesturing.",
+  "best_frame_ts": "00:11",
+  "confidence": "medium",
+  "needs_audio": true
+}

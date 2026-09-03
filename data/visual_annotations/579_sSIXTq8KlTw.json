@@ -1,0 +1,19 @@
+{
+  "video_id": "sSIXTq8KlTw",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["horse"],
+  "vehicles": [],
+  "location_fine": "rocky volcanic mountain terrain",
+  "character_types": ["armored warrior", "captive woman in white dress"],
+  "drag": false,
+  "key_props": ["chains", "red armor", "helmet", "horse"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bearded man in red armor rides a horse and later climbs rocky terrain toward a chained woman in a flowing white dress, both gesturing dramatically as if in an epic music-video parody.",
+  "best_frame_ts": "01:19",
+  "confidence": "low",
+  "needs_audio": true
+}

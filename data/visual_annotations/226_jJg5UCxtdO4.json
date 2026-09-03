@@ -1,0 +1,19 @@
+{
+  "video_id": "jJg5UCxtdO4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment stairwell entryway",
+  "character_types": ["mailman", "man in fur hat", "man in striped sweater", "residents"],
+  "drag": false,
+  "key_props": ["mail bag", "envelopes", "fruit bowl", "cash", "fur hat", "towel"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In an apartment building stairwell, a deliveryman brings mail, money and fruit to residents including a man in a striped sweater and another in a fur hat, provoking exaggerated excited reactions, and the scene ends with a larger group of residents gathering and celebrating.",
+  "best_frame_ts": "03:08",
+  "confidence": "low",
+  "needs_audio": true
+}

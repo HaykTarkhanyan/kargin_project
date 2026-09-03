@@ -1,0 +1,19 @@
+{
+  "video_id": "vRC3QrYvYrI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "theater stage and backstage dressing room",
+  "character_types": ["rock star", "journalist"],
+  "drag": false,
+  "key_props": ["electric guitar", "red headband", "small recorder", "mirror"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A long-haired rock-star character performs energetically on stage for a crowd of fans, then retreats backstage where he hangs his guitar and admires himself in the mirror; a mustached man in a shirt and tie corners him there for an animated, gesture-heavy conversation.",
+  "best_frame_ts": "00:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "eSGwM7ZNPnA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "doctor's office",
+  "character_types": ["mustached doctor in scrubs", "male patient", "woman patient"],
+  "drag": false,
+  "key_props": ["surgical scissors", "cotton jar", "notepad"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A mustached doctor in blue scrubs and a surgical cap sits at his desk gesturing while talking with a male patient, then writes notes as different women, one in a floral top and one with red hair, enter or appear in turn.",
+  "best_frame_ts": "00:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

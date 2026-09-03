@@ -1,0 +1,19 @@
+{
+  "video_id": "i6OOJVFZuw0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "examination committee office",
+  "character_types": ["grey-haired examiner in suit", "bearded examiner in glasses", "young male visitors"],
+  "drag": false,
+  "key_props": ["desk", "papers", "folder", "pen"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "Two grey-haired officials sit side by side at a desk reviewing papers and gesturing animatedly while a series of different young men are called in one at a time to face them.",
+  "best_frame_ts": "02:14",
+  "confidence": "high",
+  "needs_audio": true
+}

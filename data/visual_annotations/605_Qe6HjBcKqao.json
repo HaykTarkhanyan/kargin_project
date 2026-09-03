@@ -1,0 +1,19 @@
+{
+  "video_id": "Qe6HjBcKqao",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "police station",
+  "character_types": ["police officer", "police captain", "disheveled prisoner", "young men"],
+  "drag": false,
+  "key_props": ["police caps", "telephone", "notebook", "jail cell bars", "desk"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Police officers in a station office question and rough up a disheveled detainee while repeatedly taking phone calls; the scene later shifts to two young men near a doorway and stairwell, one climbing over a railing, ending on a shot of a wooden door.",
+  "best_frame_ts": "01:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

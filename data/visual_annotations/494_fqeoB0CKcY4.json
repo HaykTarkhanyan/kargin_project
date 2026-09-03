@@ -1,0 +1,19 @@
+{
+  "video_id": "fqeoB0CKcY4",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "police station",
+  "character_types": ["police officer with cap", "curly-haired man", "mustached desk officer"],
+  "drag": false,
+  "key_props": ["police cap", "copier machine", "desk"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A capped police officer forcefully grabs and escorts a curly-haired man along a rural village path, then the scene moves into a police office where a seated mustached officer questions the man amid animated arguing and hand gestures.",
+  "best_frame_ts": "00:24",
+  "confidence": "medium",
+  "needs_audio": true
+}

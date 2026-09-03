@@ -1,0 +1,19 @@
+{
+  "video_id": "qjMR_AJZwLc",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "open field / grassland",
+  "character_types": ["hunter", "hunter"],
+  "drag": false,
+  "key_props": ["shotguns", "boonie/bucket hats", "camouflage gear"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two mustached hunters in camouflage and bucket hats walk and talk across an open grassy field carrying shotguns, at one point breaking into a run/chase before continuing on foot.",
+  "best_frame_ts": "00:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

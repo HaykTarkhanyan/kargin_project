@@ -1,0 +1,19 @@
+{
+  "video_id": "w1FPRUO_on4",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "military office",
+  "character_types": ["army officer", "soldier"],
+  "drag": false,
+  "key_props": ["computer", "armenian flag", "desk", "photo frame"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An army officer in camouflage with a thick mustache sits at his office desk beneath an Armenian flag, talking and gesturing, while a soldier in a striped undershirt enters and stands before him, apparently reporting or being reprimanded.",
+  "best_frame_ts": "01:04",
+  "confidence": "high",
+  "needs_audio": true
+}

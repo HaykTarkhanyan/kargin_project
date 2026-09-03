@@ -1,0 +1,19 @@
+{
+  "video_id": "qC_PRKGdMgk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room with floral wallpaper",
+  "character_types": ["woman with gray curly wig (male actor in drag)", "woman with reddish wig (male actor in drag)"],
+  "drag": true,
+  "key_props": ["pill bottle", "cigarette"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two wig-wearing, red-lipsticked characters played by male actors sit in a room with red floral wallpaper, smoking and gesturing dramatically through an animated conversation that opens with a pill bottle spilled on a table.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

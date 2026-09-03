@@ -1,0 +1,19 @@
+{
+  "video_id": "Ek4ZeurlKjw",
+  "indoor_outdoor": "both",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "medieval castle crypt/hallway",
+  "character_types": ["period noble in wig and cloak", "castle maid", "court figure with fan"],
+  "drag": true,
+  "key_props": ["candle", "candelabra", "portrait painting", "cloak", "fan"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "In a nighttime medieval castle (a title card reads 'Orlean, France 1432'), a wigged, cloaked character carries a candle through stone-arched corridors, periodically cutting to a mustached man's portrait on the wall, before another robed figure appears waving a fan near the end.",
+  "best_frame_ts": "00:56",
+  "confidence": "low",
+  "needs_audio": true
+}

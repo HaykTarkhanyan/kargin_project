@@ -1,0 +1,19 @@
+{
+  "video_id": "iXQc7hUtK2I",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment room and yard",
+  "character_types": ["permed man in patterned shirt", "young man in glasses and plaid shirt", "passed-out man on the lawn"],
+  "drag": false,
+  "key_props": ["television", "remote control", "bed"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A flamboyant permed man in a patterned shirt argues and gestures at a bespectacled younger man inside a wallpapered apartment room; the scene later shifts outside where a passed-out man lies on the lawn near a television before jumping up into a scuffle.",
+  "best_frame_ts": "00:29",
+  "confidence": "medium",
+  "needs_audio": true
+}

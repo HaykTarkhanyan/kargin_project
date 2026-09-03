@@ -1,0 +1,19 @@
+{
+  "video_id": "dwXDsd5eBsE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["dog"],
+  "vehicles": ["lada"],
+  "location_fine": "residential courtyard street near a pharmacy",
+  "character_types": ["man in striped pajamas", "woman in white coat", "passerby"],
+  "drag": false,
+  "key_props": ["note/paper", "mobile phone", "pharmacy sign"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in striped pajamas leaves a building near a pharmacy sign, reads a note and checks his phone, then staggers dizzily down the street clutching his head, interacts briefly with a woman in a white coat, and ends up collapsed on the ground by a doorway.",
+  "best_frame_ts": "01:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

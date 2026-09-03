@@ -1,0 +1,19 @@
+{
+  "video_id": "-tIeNlhQlDg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["suv", "lada niva", "sedan"],
+  "location_fine": "orchard and rural roadside",
+  "character_types": ["elderly wigged narrator", "man in sunglasses", "gangster entourage"],
+  "drag": false,
+  "key_props": ["stool", "wig", "glasses", "fur-collared coat", "sunglasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "An elderly-looking wigged character sits on a stool under fruit trees narrating to camera, intercut with scenes of a man in sunglasses arriving and leaning out of SUVs and a Lada Niva, a group of men in dark clothes gathering near an unfinished building, and a car collision followed by someone being thrown or falling.",
+  "best_frame_ts": "01:14",
+  "confidence": "low",
+  "needs_audio": true
+}

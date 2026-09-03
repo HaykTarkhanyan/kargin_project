@@ -1,0 +1,19 @@
+{
+  "video_id": "syOoThNi4Xs",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "public restroom",
+  "character_types": ["man carrying watermelons", "man in glasses and tan suit", "store cashier"],
+  "drag": false,
+  "key_props": ["watermelons", "urinals", "hand dryer", "sink and mirror"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit carries two watermelons through a convenience store into a public restroom, where he has an extended, animated conversation with another man in glasses and a tan suit near the urinals, sinks, and hand dryers while still holding the watermelons.",
+  "best_frame_ts": "00:54",
+  "confidence": "high",
+  "needs_audio": true
+}

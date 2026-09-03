@@ -1,0 +1,19 @@
+{
+  "video_id": "dXWm_NEWbfM",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "sick man's bedroom",
+  "character_types": ["sick old man with blotched skin", "hazmat-suited responders"],
+  "drag": false,
+  "key_props": ["bed", "hazmat suits", "gas masks", "pillow"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An old man with blotchy, diseased-looking skin lies in bed in extreme close-up, writhing and reacting in apparent distress, until two hazmat-suited figures in gas masks arrive at the doorway and approach the bed.",
+  "best_frame_ts": "01:04",
+  "confidence": "medium",
+  "needs_audio": true
+}

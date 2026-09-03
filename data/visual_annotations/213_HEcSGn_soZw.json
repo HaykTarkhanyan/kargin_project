@@ -1,0 +1,19 @@
+{
+  "video_id": "HEcSGn_soZw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hair salon or fitting office",
+  "character_types": ["hairdresser or clerk", "customer trying on wigs", "waiting family"],
+  "drag": false,
+  "key_props": ["wigs", "paper cape", "eyeglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A bespectacled man in a paper smock reacts to a customer who tries on a series of increasingly outlandish wigs (grey curly, blonde bob, beret with wig), while a waiting family of three looks on.",
+  "best_frame_ts": "01:11",
+  "confidence": "low",
+  "needs_audio": true
+}

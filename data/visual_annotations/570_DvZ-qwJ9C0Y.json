@@ -1,0 +1,19 @@
+{
+  "video_id": "DvZ-qwJ9C0Y",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "rural road with stone wall",
+  "character_types": ["driver", "sleeping man on wall"],
+  "drag": false,
+  "key_props": ["car", "water bottle", "stone wall", "mobile phone"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man drives a car along a tree-lined road while talking on the phone, then repeatedly pulls up alongside a low stone wall where another man lies passed out with a water bottle balanced on him, reaching out toward him as he drives past multiple times.",
+  "best_frame_ts": "01:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "SlLwcM9y00w",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "auto repair garage",
+  "character_types": ["mechanic"],
+  "drag": false,
+  "key_props": ["wheel rims", "car engine bay", "workshop tools"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two mechanics in a car garage work on a vehicle with its hood open, then have an animated, gesture-heavy back-and-forth conversation near stacked wheel rims.",
+  "best_frame_ts": "01:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

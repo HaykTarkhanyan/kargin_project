@@ -1,0 +1,19 @@
+{
+  "video_id": "Rf1XdRbItq4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar and apartment",
+  "character_types": ["intoxicated woman in purple wig (possible drag)", "young bartender", "man in glasses", "man in dark jacket"],
+  "drag": true,
+  "key_props": ["wig", "drink glass", "cigarette", "telephone"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A dramatic, visibly drunk woman in a purple wig and red coat leans on a bar talking to a young bartender, then is carried off by a man; the sketch cuts to a worried man in glasses repeatedly on the phone in a hallway while she lies passed out on a bed.",
+  "best_frame_ts": "00:16",
+  "confidence": "low",
+  "needs_audio": true
+}

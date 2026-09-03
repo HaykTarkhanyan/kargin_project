@@ -1,0 +1,19 @@
+{
+  "video_id": "yW_p-x7N2bw",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "doctor's office",
+  "character_types": ["doctor", "female patient"],
+  "drag": false,
+  "key_props": ["desk", "tissue box", "eyeglasses", "camera", "office chair"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bespectacled, mustached doctor in a white coat sits at his office desk; a woman in a green sweater enters, sits across from him, and they have an animated conversation with exaggerated gestures and expressions.",
+  "best_frame_ts": "01:47",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "Txt4gqlSNo8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "boardroom",
+  "character_types": ["businessman in suit", "second businessman"],
+  "drag": false,
+  "key_props": ["mobile phone", "boardroom table", "leather chairs"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit sits alone in a boardroom, talking animatedly and taking a phone call; near the end, a second man joins him and their conversation turns physical with pushing and grabbing.",
+  "best_frame_ts": "01:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

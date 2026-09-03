@@ -1,0 +1,19 @@
+{
+  "video_id": "2JwlYWOsMS0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment bathroom",
+  "character_types": ["plumber with mustache", "woman in red dress"],
+  "drag": false,
+  "key_props": ["sink", "wrench", "tools"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached plumber in blue overalls lies on his back working under a bathroom sink with his legs propped up, while a woman in a bright red dress stands over him talking and reacting with concern.",
+  "best_frame_ts": "00:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

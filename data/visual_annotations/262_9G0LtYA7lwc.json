@@ -1,0 +1,19 @@
+{
+  "video_id": "9G0LtYA7lwc",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "autumn forest park",
+  "character_types": ["bearded man in hooded coat", "man in beanie"],
+  "drag": false,
+  "key_props": ["envelope", "papers", "bottle"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men have a tense confrontation in an autumn forest, exchanging papers and an envelope while gesturing aggressively with raised fists, ending with one man holding a bottle.",
+  "best_frame_ts": "00:39",
+  "confidence": "low",
+  "needs_audio": true
+}

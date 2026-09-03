@@ -1,0 +1,19 @@
+{
+  "video_id": "Gm4Csg8_Z2I",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["ambulance"],
+  "location_fine": "residential courtyard",
+  "character_types": ["old man", "boy", "girl", "paramedics"],
+  "drag": false,
+  "key_props": ["ambulance", "stretcher", "fake grey beard and wig"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "An ambulance arrives in a Soviet-block residential courtyard and paramedics attend to someone on a stretcher. Two children then meet an elderly man in an obviously costumed grey beard and wig, reacting with alternating laughter and tears as he talks to them, and the group ends up walking together down a tree-lined street.",
+  "best_frame_ts": "01:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

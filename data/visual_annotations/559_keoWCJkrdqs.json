@@ -1,0 +1,19 @@
+{
+  "video_id": "keoWCJkrdqs",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv", "car"],
+  "location_fine": "gas station and private spa",
+  "character_types": ["businessman", "woman companion", "spa attendant"],
+  "drag": false,
+  "key_props": ["cognac glass", "cigar", "business card", "gas station sign", "towel turban"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 4, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit deals with car trouble at a gas station, then drives off with a woman in a black luxury SUV to a private spa where he relaxes in an indoor pool sipping cognac and smoking a cigar while women in towels attend to him.",
+  "best_frame_ts": "02:25",
+  "confidence": "medium",
+  "needs_audio": true
+}

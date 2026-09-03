@@ -1,0 +1,19 @@
+{
+  "video_id": "goJ9ovQEtSQ",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["nissan suv"],
+  "location_fine": "car dealership showroom",
+  "character_types": ["customer in tan jacket", "car salesman with mustache"],
+  "drag": false,
+  "key_props": ["nissan suv", "id lanyard", "showroom signage"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a tan jacket visits a Nissan car dealership; inside, an animated mustached salesman shows him a silver SUV, talking and gesturing enthusiastically throughout.",
+  "best_frame_ts": "01:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

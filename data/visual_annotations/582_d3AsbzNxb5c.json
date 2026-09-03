@@ -1,0 +1,19 @@
+{
+  "video_id": "d3AsbzNxb5c",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office (employment agency)",
+  "character_types": ["office employee/agent", "job candidate visitor"],
+  "drag": false,
+  "key_props": ["desk", "computer monitor", "telephone", "lanyard badge", "pens"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bespectacled office employee at a desk talks animatedly on the phone, then a visitor in a dark coat with a lanyard enters and the two converse, shown in alternating shots across the desk, in what an on-screen Armenian title identifies as an employment placement agency.",
+  "best_frame_ts": "00:22",
+  "confidence": "high",
+  "needs_audio": true
+}

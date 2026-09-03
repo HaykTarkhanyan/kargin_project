@@ -1,0 +1,19 @@
+{
+  "video_id": "F7TPxt1wSDk",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "upscale restaurant and terrace",
+  "character_types": ["young woman on a date", "young man on a date", "waiter"],
+  "drag": false,
+  "key_props": ["bow tie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A young man and woman have an awkward, gesture-heavy conversation at a restaurant table; the man then steps onto an outdoor terrace and talks with a waiter, gesturing with his hands, before walking off alone.",
+  "best_frame_ts": "00:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

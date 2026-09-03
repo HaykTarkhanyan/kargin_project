@@ -1,0 +1,19 @@
+{
+  "video_id": "vbsC8iAwZE4",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "autumn park",
+  "character_types": ["politician", "politician", "young man"],
+  "drag": false,
+  "key_props": ["suit", "tie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two well-dressed men, an older man in a tweed jacket and a younger man in a dark suit with an orange tie, have an animated debate-style conversation in a bare autumn park, later joined by a third younger man in a tan trench coat.",
+  "best_frame_ts": "01:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "JFAzFdOamDA",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "casino entrance / boxing ring set",
+  "character_types": ["casino doorman", "woman visitor", "man in tank top", "man in suit with gloves"],
+  "drag": false,
+  "key_props": ["boxing ring ropes", "white gloves"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A doorman in a red uniform greets a woman outside a building with a CASINO sign, then the scene cuts to an indoor set with red ropes where a man in a white tank top faces off with another man in a suit wearing white gloves.",
+  "best_frame_ts": "00:10",
+  "confidence": "medium",
+  "needs_audio": true
+}

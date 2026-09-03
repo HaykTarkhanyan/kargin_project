@@ -1,0 +1,19 @@
+{
+  "video_id": "btAbpgvXu5M",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant",
+  "character_types": ["mustached restaurant patron", "waiter in vest and bowtie"],
+  "drag": false,
+  "key_props": ["national flags backdrop", "restaurant table setting", "raw fish", "cooking pan"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a restaurant decorated with national flags, a mustached patron and a young waiter each speak directly to camera in animated interview-style segments, with a shot of fish being prepared, ending in the two men embracing at the restaurant table.",
+  "best_frame_ts": "03:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

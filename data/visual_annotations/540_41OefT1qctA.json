@@ -1,0 +1,19 @@
+{
+  "video_id": "41OefT1qctA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["boss", "secretary", "visitor with mustache"],
+  "drag": false,
+  "key_props": ["typewriter", "crt monitor", "telephone", "wall map"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit at an office desk gestures animatedly and takes phone calls while a secretary at a typewriter applies lipstick and steps in and out, and a mustached man in a white shirt appears at the doorway of an adjoining room.",
+  "best_frame_ts": "00:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

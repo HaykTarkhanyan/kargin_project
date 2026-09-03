@@ -1,0 +1,19 @@
+{
+  "video_id": "LdGl76gtXRY",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["sheep"],
+  "vehicles": [],
+  "location_fine": "village farm yard",
+  "character_types": ["heavyset man in plaid shirt", "man in green jacket", "old woman with bucket"],
+  "drag": true,
+  "key_props": ["bucket", "beret", "stone barn wall", "ladder"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "In a rural farmyard with sheep and stone buildings, two men in plaid and olive clothing interact with an elderly woman carrying a bucket who repeatedly appears standing in a doorway, while the men fall down and lie on the grass at several points.",
+  "best_frame_ts": "02:04",
+  "confidence": "low",
+  "needs_audio": true
+}

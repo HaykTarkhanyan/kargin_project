@@ -1,0 +1,19 @@
+{
+  "video_id": "mHi92lKcp90",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["black sedan"],
+  "location_fine": "rural winter field and roadside",
+  "character_types": ["driver", "gangster", "thug"],
+  "drag": false,
+  "key_props": ["black car", "flat cap", "sunglasses", "mobile phone"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man drives a black car while talking on the phone, then parks on a rural road and walks into a bare winter field to meet three men in dark leather jackets; the meeting turns into a physical confrontation and a chase.",
+  "best_frame_ts": "02:23",
+  "confidence": "medium",
+  "needs_audio": true
+}

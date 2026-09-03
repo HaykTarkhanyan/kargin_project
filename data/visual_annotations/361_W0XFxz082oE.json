@@ -1,0 +1,19 @@
+{
+  "video_id": "W0XFxz082oE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["teacher (played by man in wig)", "schoolchildren"],
+  "drag": true,
+  "key_props": ["blackboard", "school desks", "notebooks", "school uniforms"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A male actor in a red curly wig, lipstick and a striped cardigan plays a teacher sitting at a desk in front of a blackboard, and the sketch repeatedly cuts between this teacher shot and different pairs of schoolchildren at their desks answering questions to camera in an interview-style format.",
+  "best_frame_ts": "00:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

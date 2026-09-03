@@ -1,0 +1,19 @@
+{
+  "video_id": "su_eh7PKgWc",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["sedan"],
+  "location_fine": "rural village and orchard field",
+  "character_types": ["man with head wound", "mustached villager", "villagers"],
+  "drag": false,
+  "key_props": ["car", "beanie hat", "beret", "picnic table", "carpet or rug", "drinks"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man with a red mark on his forehead arrives in a village by car and meets local villagers gathered drinking at an outdoor picnic table; the sketch ends with him lying dazed on a rug in a field.",
+  "best_frame_ts": "03:59",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "5hTfIoA547g",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "european museum (Amsterdam)",
+  "character_types": ["tourist in plaid blazer", "tourist in drag with red wig", "tourist in yellow tartan blazer with boater hat", "young woman tourist"],
+  "drag": true,
+  "key_props": ["red curly wig", "boater hat with bow tie", "museum paintings", "statue", "information placard"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A group of loudly dressed Armenian tourists, including a man in an exaggerated red-wigged drag costume, visit a European museum, posing and chatting outside a grand brick building before touring galleries of old master paintings and reading historical placards.",
+  "best_frame_ts": "01:11",
+  "confidence": "medium",
+  "needs_audio": true
+}

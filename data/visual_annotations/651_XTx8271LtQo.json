@@ -1,0 +1,19 @@
+{
+  "video_id": "XTx8271LtQo",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and stairwell",
+  "character_types": ["man in white shirt (tenant)", "police officer", "police officer"],
+  "drag": false,
+  "key_props": ["television", "eagle painting", "police caps", "stairwell railing"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man sits nervously biting his fingers on a couch under a painting of an eagle, watching TV, while two police officers argue in a dark stairwell outside; the sketch ends with a physical scuffle at the apartment doorway between the man and an officer.",
+  "best_frame_ts": "02:08",
+  "confidence": "medium",
+  "needs_audio": true
+}

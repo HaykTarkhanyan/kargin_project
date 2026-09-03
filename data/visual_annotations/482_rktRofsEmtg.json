@@ -1,0 +1,19 @@
+{
+  "video_id": "rktRofsEmtg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["sedan"],
+  "location_fine": "car interior and rural roadside",
+  "character_types": ["driver in beanie", "man in suit", "tied-up woman", "police officer", "man with handgun"],
+  "drag": false,
+  "key_props": ["rope tied wrists", "car trunk", "police cap", "handgun"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men drive a car with a woman whose wrists are bound, arguing and laughing along a tree-lined rural road, then stuff her into the trunk of a black sedan; the sketch ends with a uniformed police officer and a man brandishing a handgun near a blue sedan pulled over on the road.",
+  "best_frame_ts": "01:51",
+  "confidence": "medium",
+  "needs_audio": true
+}

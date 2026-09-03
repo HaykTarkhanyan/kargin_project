@@ -1,0 +1,19 @@
+{
+  "video_id": "HHQFrPhkFhE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant",
+  "character_types": ["waitress", "restaurant patron", "chef"],
+  "drag": false,
+  "key_props": ["flowers", "plate", "papers"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A waitress sets a restaurant table with flowers and serves two male patrons who converse animatedly, while a chef in the kitchen prepares and passes out a plate of food.",
+  "best_frame_ts": "00:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

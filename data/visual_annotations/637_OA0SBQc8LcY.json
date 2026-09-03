@@ -1,0 +1,19 @@
+{
+  "video_id": "OA0SBQc8LcY",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "rural roadside on city outskirts",
+  "character_types": ["police officer", "elderly woman (drag)"],
+  "drag": true,
+  "key_props": ["handbag", "grocery bags", "chain-link gate", "scarf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A police officer in uniform and cap walks along a barren dirt road on the city outskirts with an elderly woman, played in drag with a blonde wig and glasses, who carries grocery bags; they talk and gesture as they walk, and the officer helps carry her bag near the end.",
+  "best_frame_ts": "01:56",
+  "confidence": "high",
+  "needs_audio": true
+}

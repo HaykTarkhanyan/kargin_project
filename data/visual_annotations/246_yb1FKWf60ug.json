@@ -1,0 +1,19 @@
+{
+  "video_id": "yb1FKWf60ug",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "dark office / interrogation room",
+  "character_types": ["gangster boss", "mobster", "interrogator", "victim"],
+  "drag": false,
+  "key_props": ["pistol", "chess set", "desk lamp", "chairs"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Filmed in a stylized black-and-white noir look, a group of suited men gather in a dim office where a pistol is loaded and a bespectacled man is repeatedly questioned across cuts, ending disheveled with a bloodied face.",
+  "best_frame_ts": "04:10",
+  "confidence": "low",
+  "needs_audio": true
+}

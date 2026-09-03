@@ -1,0 +1,19 @@
+{
+  "video_id": "5whA7Y64K-s",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "factory boiler room",
+  "character_types": ["worker", "worker"],
+  "drag": false,
+  "key_props": ["pipes", "grease or oil", "baseball cap", "beret"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "Two workers sit among boiler-room pipes; one repeatedly smears dark grease or oil onto the other's face while he grimaces and reacts.",
+  "best_frame_ts": "01:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

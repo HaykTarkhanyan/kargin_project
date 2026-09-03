@@ -1,0 +1,19 @@
+{
+  "video_id": "lp8MI6ZnwhM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "police station corridor",
+  "character_types": ["police officer", "woman", "man"],
+  "drag": false,
+  "key_props": ["police uniform", "handbag", "bench"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A woman waits alone on a bench in a bare police-station corridor; a uniformed officer lets a mustached man in, who sits beside her for a long tense close-up conversation that ends with him gently taking her hand.",
+  "best_frame_ts": "01:20",
+  "confidence": "high",
+  "needs_audio": true
+}

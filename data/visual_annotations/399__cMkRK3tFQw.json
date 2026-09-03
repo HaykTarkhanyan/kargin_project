@@ -1,0 +1,19 @@
+{
+  "video_id": "_cMkRK3tFQw",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["sheep"],
+  "vehicles": [],
+  "location_fine": "monastery grounds and church office",
+  "character_types": ["elderly bearded monk", "young woman with braids", "young priest"],
+  "drag": false,
+  "key_props": ["cross necklace", "religious icons", "candle", "desk calendar"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A young woman with braided pigtails speaks with an elderly bearded monk on the grounds of a stone monastery near grazing sheep, then continues an emotional conversation indoors with a younger priest at his office desk.",
+  "best_frame_ts": "00:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

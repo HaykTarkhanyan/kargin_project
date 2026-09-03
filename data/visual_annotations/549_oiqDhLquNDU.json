@@ -1,0 +1,19 @@
+{
+  "video_id": "oiqDhLquNDU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "family apartment",
+  "character_types": ["father", "returning soldier", "drag family member", "young man in military uniform"],
+  "drag": true,
+  "key_props": ["television", "military uniform", "bookshelves", "wrapped bundle"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "An older man reminisces on the couch while watching TV, intercut with a flashback of a young soldier in fatigues returning home and being warmly embraced by family members, including a drag family character, before the group gathers in a book-lined room; the drag character later holds a wrapped bundle while talking to camera.",
+  "best_frame_ts": "00:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

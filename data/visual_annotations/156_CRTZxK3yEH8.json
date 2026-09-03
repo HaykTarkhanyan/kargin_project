@@ -1,0 +1,19 @@
+{
+  "video_id": "CRTZxK3yEH8",
+  "indoor_outdoor": "both",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hardware/paint shop",
+  "character_types": ["shop salesman", "shop employee", "office official"],
+  "drag": false,
+  "key_props": ["paint cans", "tools", "armenian flag", "desk"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a plaid shirt and chain necklace talks to camera inside a hardware/paint shop, intercut with a heavyset man in a suit speaking from behind a desk with an Armenian flag; the shop man later appears emotional, wiping his face.",
+  "best_frame_ts": "00:01:16",
+  "confidence": "low",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "h1j5ZsxTEPA",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["gray hatchback car"],
+  "location_fine": "countryside house gate",
+  "character_types": ["man in trench coat and tie", "man in plaid bathrobe with mustache"],
+  "drag": false,
+  "key_props": ["stone gate", "doorbell", "car", "vineyard"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a trench coat and tie arrives by car at a country house, rings the doorbell at a stone gate, and has an animated conversation with a man in a colorful plaid bathrobe standing in the doorway, with orchards visible in the background.",
+  "best_frame_ts": "01:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

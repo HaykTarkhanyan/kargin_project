@@ -1,0 +1,19 @@
+{
+  "video_id": "ZObebTTNacA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["dog"],
+  "vehicles": [],
+  "location_fine": "bare unfinished room with oil barrels",
+  "character_types": ["man in flat cap", "laborer in undershirt", "man in olive jacket with tie"],
+  "drag": false,
+  "key_props": ["oil barrels", "wooden bench", "flat caps", "necktie"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in flat caps sit talking on a bench in a bare, half-furnished room with oil drums while a dog wanders around; a third man in an olive jacket and tie enters, grows increasingly agitated and confrontational, and the scene ends with what looks like a physical scuffle.",
+  "best_frame_ts": "01:59",
+  "confidence": "medium",
+  "needs_audio": true
+}

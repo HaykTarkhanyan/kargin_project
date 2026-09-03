@@ -1,0 +1,19 @@
+{
+  "video_id": "Cwo1ZwjbfBg",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "clothing/shoe store",
+  "character_types": ["shoe salesman", "customer with mustache", "man in hat"],
+  "drag": false,
+  "key_props": ["dress shoes", "socks", "coats", "mirror"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached customer in a green shirt tries on multiple pairs of dress shoes with help from a store salesman in front of a mirror, gesturing and chatting throughout; a man in a fedora later joins the conversation.",
+  "best_frame_ts": "00:01:34",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "-oFwyHwg4TM",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car", "lada", "police car"],
+  "location_fine": "highway roadside checkpoint",
+  "character_types": ["traffic police officer", "senior police officer", "driver"],
+  "drag": false,
+  "key_props": ["cash", "police cap", "documents"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "On a rural highway, traffic police officers pull over a white SUV; the driver in a grey suit talks with the officers, hands over a roll of cash as a bribe, and is later seen celebrating with raised arms.",
+  "best_frame_ts": "00:56",
+  "confidence": "high",
+  "needs_audio": false
+}

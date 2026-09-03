@@ -1,0 +1,19 @@
+{
+  "video_id": "ZNM35ezEGeM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "plain office interview room",
+  "character_types": ["businessman", "surgeon/doctor", "woman visitor"],
+  "drag": false,
+  "key_props": ["surgical cap", "surgical apron/bib", "suit"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in close-up talking-head shots alternates between a business suit and surgical scrubs/cap while speaking to camera, and near the end a woman with a note enters through a door.",
+  "best_frame_ts": "00:20",
+  "confidence": "low",
+  "needs_audio": true
+}

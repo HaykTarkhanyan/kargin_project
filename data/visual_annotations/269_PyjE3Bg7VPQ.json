@@ -1,0 +1,19 @@
+{
+  "video_id": "PyjE3Bg7VPQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "machine workshop",
+  "character_types": ["factory worker", "apprentice"],
+  "drag": false,
+  "key_props": ["lathe machine", "telephone", "paper work cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in a machine workshop with a lathe have an extended close-up conversation, one older mustached man in a black beret and one younger man in a folded white paper work cap, with occasional hand gestures.",
+  "best_frame_ts": "00:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

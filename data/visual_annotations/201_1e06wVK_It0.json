@@ -1,0 +1,19 @@
+{
+  "video_id": "1e06wVK_It0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital office",
+  "character_types": ["mustached man in suit", "female doctor in white coat", "mustached man in blue coat"],
+  "drag": false,
+  "key_props": ["id badge"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a suit walks down a hospital hallway and meets staff, then sits in an office with a female doctor while a man in a blue coat talks and gestures animatedly, growing increasingly worked up.",
+  "best_frame_ts": "01:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

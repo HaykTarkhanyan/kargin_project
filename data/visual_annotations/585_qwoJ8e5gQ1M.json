@@ -1,0 +1,19 @@
+{
+  "video_id": "qwoJ8e5gQ1M",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office boardroom",
+  "character_types": ["office boss", "male employee", "female employee/secretary", "masked gunman"],
+  "drag": false,
+  "key_props": ["office desk", "computer monitor", "conference table", "handguns", "ski masks"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Office workers hold a tense meeting/argument in a boardroom, then two masked gunmen burst in with weapons drawn, causing the staff to scatter and raise their hands in surrender.",
+  "best_frame_ts": "01:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

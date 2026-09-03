@@ -1,0 +1,19 @@
+{
+  "video_id": "57S07atPnaI",
+  "indoor_outdoor": "indoor",
+  "day_night": "mixed",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office and dark corridor",
+  "character_types": ["businessman", "gangster"],
+  "drag": false,
+  "key_props": ["stack of cash", "coffee cup", "necktie", "office chair"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a white shirt and tie sits in an office chair, gesturing anxiously near a box of cash and drinking coffee; he then walks through a dark corridor where a mustached man in dark clothing confronts and grabs him.",
+  "best_frame_ts": "02:31",
+  "confidence": "medium",
+  "needs_audio": true
+}

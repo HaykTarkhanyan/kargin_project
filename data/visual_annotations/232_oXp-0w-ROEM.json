@@ -1,0 +1,19 @@
+{
+  "video_id": "oXp-0w-ROEM",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment kitchen and living room",
+  "character_types": ["guitarist musician", "housewife", "businessman"],
+  "drag": false,
+  "key_props": ["acoustic guitar", "water cooler jug", "teacups", "tablecloth"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A long-haired guitarist plays music in an apartment while a woman in an apron and a mustached man in a suit have a conversation at the kitchen table; people come and go through the doorway.",
+  "best_frame_ts": "01:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

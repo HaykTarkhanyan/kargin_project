@@ -1,0 +1,19 @@
+{
+  "video_id": "Xk6LJCfLsSU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "manager's office",
+  "character_types": ["manager", "eccentric visitor"],
+  "drag": false,
+  "key_props": ["desk", "telephone", "framed certificate", "potted plant"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a shirt and tie sits behind a desk in an office, gesturing and taking a phone call, while a nervous-looking man with a shaggy wig sits across from him reacting to the conversation.",
+  "best_frame_ts": "01:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

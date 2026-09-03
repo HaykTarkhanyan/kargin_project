@@ -1,0 +1,19 @@
+{
+  "video_id": "TsRukoHsytQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "soviet-era meeting hall / auditorium",
+  "character_types": ["committee chairman", "committee secretary (woman)", "audience members", "man in green jacket"],
+  "drag": false,
+  "key_props": ["red banner with Lenin portrait", "telephone", "propaganda banner"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A parody Soviet-era trade-union meeting unfolds in an auditorium under a red Lenin banner, with a mustached chairman and a woman in a headscarf presiding at a table while rows of audience members react and a man in a green jacket stands to speak animatedly.",
+  "best_frame_ts": "00:18",
+  "confidence": "high",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "HCTKe3SwUHU",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "construction site interior",
+  "character_types": ["construction worker in hard hat", "man in suit"],
+  "drag": false,
+  "key_props": ["orange hard hat", "wooden planks", "mobile phone", "cinderblock wall"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A construction worker in a hard hat repeatedly mimes doing renovation work on a cinderblock wall while a man in a suit watches and argues with him, escalating into running around the site and a physical scuffle.",
+  "best_frame_ts": "03:59",
+  "confidence": "medium",
+  "needs_audio": true
+}

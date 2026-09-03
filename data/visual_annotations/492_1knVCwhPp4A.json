@@ -1,0 +1,19 @@
+{
+  "video_id": "1knVCwhPp4A",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment hallway",
+  "character_types": ["disheveled man in blanket", "man in coat", "woman in red dress"],
+  "drag": false,
+  "key_props": ["binoculars", "blanket"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A disheveled man wrapped in a blanket is roused by a neighbor in a coat, then spies with binoculars/night-vision through a window at a woman in a nearby room before a glamorous red-haired woman in a red dress descends the stairwell.",
+  "best_frame_ts": "04:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

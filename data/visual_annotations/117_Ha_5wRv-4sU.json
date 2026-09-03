@@ -1,0 +1,19 @@
+{
+  "video_id": "Ha_5wRv-4sU",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "car"],
+  "location_fine": "rural dirt road and field",
+  "character_types": ["heavyset man in patterned shirt", "mustached driver", "young man in striped shirt", "woman with sunglasses", "woman with dark hair"],
+  "drag": false,
+  "key_props": ["spray bottle", "sunglasses", "mobile phone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Several people meet and talk along a dirt road through open fields, driving old cars and walking between vehicles, including a man spraying something in the field and women chatting on a phone.",
+  "best_frame_ts": "01:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

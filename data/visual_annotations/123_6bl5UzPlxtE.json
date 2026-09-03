@@ -1,0 +1,19 @@
+{
+  "video_id": "6bl5UzPlxtE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment dining table",
+  "character_types": ["man in tracksuit sweater", "man in beret with mustache", "red-haired woman"],
+  "drag": false,
+  "key_props": ["food plate", "bottle", "note/paper"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men in patterned sweaters sit at a table eating, drinking, and laughing together, at one point reading a note aloud, intercut with reaction shots of a red-haired woman in a floral robe.",
+  "best_frame_ts": "01:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

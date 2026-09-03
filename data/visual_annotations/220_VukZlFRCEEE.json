@@ -1,0 +1,19 @@
+{
+  "video_id": "VukZlFRCEEE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "general store aisle",
+  "character_types": ["shopkeeper", "male customer", "female customer"],
+  "drag": false,
+  "key_props": ["red bucket", "eyeglasses", "shelved goods", "clothes on rack"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man and a woman browse items in a small general store filled with clothes and household goods, then have an extended close-up conversation, with a shopkeeper carrying a red bucket in the background.",
+  "best_frame_ts": "00:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

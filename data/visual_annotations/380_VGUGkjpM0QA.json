@@ -1,0 +1,19 @@
+{
+  "video_id": "VGUGkjpM0QA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government office",
+  "character_types": ["office official", "visitor"],
+  "drag": false,
+  "key_props": ["desk", "computer monitor", "armenian flag"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit sits behind a desk in a government-style office decorated with an Armenian flag; a man in a white shirt enters and has an increasingly animated conversation with him, gesturing emphatically as it goes on.",
+  "best_frame_ts": "01:19",
+  "confidence": "medium",
+  "needs_audio": true
+}

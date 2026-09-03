@@ -1,0 +1,19 @@
+{
+  "video_id": "nfioZxPLwBg",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "village meeting hall",
+  "character_types": ["priest", "villager elder", "man in suit", "woman in red dress", "audience villagers"],
+  "drag": false,
+  "key_props": ["cross necklace", "flat cap", "documents"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a village meeting hall filled with seated villagers, a hooded clergy-like figure and a man in a flat cap converse up front, then a man in a suit gestures while presenting papers, and a woman in a red dress with a flower in her hair also speaks.",
+  "best_frame_ts": "01:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "kKDydl5jRAY",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "psychiatric hospital ward",
+  "character_types": ["patient", "elderly man", "doctor or orderly"],
+  "drag": false,
+  "key_props": ["chess set", "ball", "patient robes and pajamas", "white patient caps"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a psychiatric hospital day room, patients in robes and pajamas interact, play chess, and talk to camera, escalating into a physical scuffle where one patient is dragged and a group tussle breaks out.",
+  "best_frame_ts": "02:29",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "cV4yqUdZS3k",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": ["dog", "parrot"],
+  "vehicles": [],
+  "location_fine": "dark house living room / study",
+  "character_types": ["burglar"],
+  "drag": false,
+  "key_props": ["birdcage", "beanie", "blanket", "bookshelves"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "At night, a man in a black jacket and beanie sneaks through a dark house past a caged parrot, is confronted by a large black dog, and appears to scuffle with it before ending up frightened and wrapped in a blanket.",
+  "best_frame_ts": "00:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

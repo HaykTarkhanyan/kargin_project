@@ -1,0 +1,19 @@
+{
+  "video_id": "s5NikwXQhQQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home kitchen",
+  "character_types": ["father", "son", "wife/mother", "female neighbor or relative"],
+  "drag": true,
+  "key_props": ["breakfast table", "apron", "food", "wig"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A father and young son sit at a kitchen breakfast table while a wigged female character (apparently a man in drag) moves around the kitchen and later chats with another woman by the doorway; the family conversation continues around the table.",
+  "best_frame_ts": "00:00:32",
+  "confidence": "medium",
+  "needs_audio": true
+}

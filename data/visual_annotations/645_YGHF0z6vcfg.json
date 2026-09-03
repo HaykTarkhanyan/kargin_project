@@ -1,0 +1,19 @@
+{
+  "video_id": "YGHF0z6vcfg",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["bird (caged)"],
+  "vehicles": [],
+  "location_fine": "dining room",
+  "character_types": ["moustached man in leather jacket", "man in skullcap and glasses"],
+  "drag": false,
+  "key_props": ["alcohol bottles", "birdcage", "oriental rug", "food platters", "coat rack"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit at a richly set table in front of an ornate oriental rug, drinking and eating while talking; one wears a moustache and leather jacket, the other a skullcap, glasses and tweed suit, and a caged pet bird sits nearby.",
+  "best_frame_ts": "01:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

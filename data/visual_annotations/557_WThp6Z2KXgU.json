@@ -1,0 +1,19 @@
+{
+  "video_id": "WThp6Z2KXgU",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["van"],
+  "location_fine": "city park and street",
+  "character_types": ["reporter", "cameraman", "elderly man", "bystanders"],
+  "drag": false,
+  "key_props": ["camera", "microphone", "breaking news graphic", "park bench", "stroller"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mock 'BBC Breaking Story' news crew, led by a curly-haired reporter and cameraman, films a segment in a city park and street, interviewing an elderly man on a bench while a small crowd gathers.",
+  "best_frame_ts": "01:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

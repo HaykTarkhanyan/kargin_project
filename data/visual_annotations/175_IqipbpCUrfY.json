@@ -1,0 +1,19 @@
+{
+  "video_id": "IqipbpCUrfY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office conference room",
+  "character_types": ["businessman (speaker)", "office colleagues", "businesswoman"],
+  "drag": false,
+  "key_props": ["papers", "conference table"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a suit delivers an increasingly animated speech with flailing papers at a conference table full of colleagues, who react with amusement, boredom, or exasperation.",
+  "best_frame_ts": "00:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

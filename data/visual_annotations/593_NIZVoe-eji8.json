@@ -1,0 +1,19 @@
+{
+  "video_id": "NIZVoe-eji8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "military office",
+  "character_types": ["military officer", "soldier", "soldier"],
+  "drag": false,
+  "key_props": ["eagle statue", "armenian flag", "wooden desk"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a military office decorated with an eagle emblem and an Armenian flag, a young soldier stands before a mustached commanding officer seated at a desk being questioned or reprimanded while other soldiers look on.",
+  "best_frame_ts": "00:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

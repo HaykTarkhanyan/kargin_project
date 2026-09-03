@@ -1,0 +1,19 @@
+{
+  "video_id": "JfDA604ztNw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital corridor",
+  "character_types": ["moustached man in scrubs", "pale long-haired figure (ghost-like)", "man in shirt and tie", "hospital orderlies"],
+  "drag": false,
+  "key_props": ["surgical cap", "telephone", "gurney/stretcher", "sheet-covered body"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a hospital corridor, a moustached man in scrubs talks on the phone and reacts to an eerie pale long-haired figure; the sketch cuts to a man in shirt and tie speaking to camera, and ends with orderlies wheeling a sheet-covered body on a gurney down the hallway.",
+  "best_frame_ts": "02:03",
+  "confidence": "low",
+  "needs_audio": true
+}

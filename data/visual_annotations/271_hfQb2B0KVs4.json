@@ -1,0 +1,19 @@
+{
+  "video_id": "hfQb2B0KVs4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "doctor's office",
+  "character_types": ["doctor", "patient"],
+  "drag": false,
+  "key_props": ["desk", "computer monitor", "surgical cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in blue medical scrubs and a surgical cap sits at a desk across from an older mustached man in a brown suit, the two having an animated seated conversation with frequent hand gestures.",
+  "best_frame_ts": "00:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

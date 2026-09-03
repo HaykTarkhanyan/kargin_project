@@ -1,0 +1,19 @@
+{
+  "video_id": "gPuUvFuvaUw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "police station office",
+  "character_types": ["mustached police officer", "young man in tracksuit", "police captain"],
+  "drag": false,
+  "key_props": ["desk", "documents", "tie", "taxidermied bird decoration", "pen"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached police officer at a desk questions a young man in a navy tracksuit in a small police-station office, gesturing and talking animatedly while a superior officer briefly checks in at the door.",
+  "best_frame_ts": "01:06",
+  "confidence": "medium",
+  "needs_audio": true
+}

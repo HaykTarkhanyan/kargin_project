@@ -1,0 +1,19 @@
+{
+  "video_id": "XnG-IxtQs2Y",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["train"],
+  "location_fine": "train locomotive cab",
+  "character_types": ["train engineer", "train conductor woman"],
+  "drag": false,
+  "key_props": ["control panel gauges", "uniform caps", "train cab controls"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached train engineer talks and gestures animatedly while driving the locomotive as the countryside speeds past the windows, then a female train conductor enters the cab and the two have an excited, arm-waving conversation.",
+  "best_frame_ts": "01:14",
+  "confidence": "high",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "X3XVmII-YoA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "workshop interior",
+  "character_types": ["older mechanic", "young man with mustache"],
+  "drag": false,
+  "key_props": ["bench grinder", "cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a small workshop with floral curtains, an older mechanic uses a sparking bench grinder while talking with a younger mustached man in a cap who watches and responds.",
+  "best_frame_ts": "00:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

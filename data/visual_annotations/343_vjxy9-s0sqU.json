@@ -1,0 +1,19 @@
+{
+  "video_id": "vjxy9-s0sqU",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["businessman/boss", "older female assistant", "young woman in red dress"],
+  "drag": false,
+  "key_props": ["document folder", "armenian flag", "eyeglasses", "red dress"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached businessman at a desk with an Armenian flag reviews documents with a stern, bespectacled older female assistant in a black shawl, while a young woman in a tight red dress and stockings appears at the office doorway.",
+  "best_frame_ts": "00:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

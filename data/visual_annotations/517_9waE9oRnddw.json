@@ -1,0 +1,19 @@
+{
+  "video_id": "9waE9oRnddw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "modest living room",
+  "character_types": ["curly-haired man", "heavyset man in jacket", "man in green sweater"],
+  "drag": false,
+  "key_props": ["bottles", "drinking glasses", "low table", "telephone"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three men sit around a low table in a modest living room drinking and eating, growing increasingly emotional and intoxicated with shouting and crying, and eventually slumping over the table and couch passed out.",
+  "best_frame_ts": "00:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

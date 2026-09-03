@@ -1,0 +1,19 @@
+{
+  "video_id": "cZlUHn9xle8",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital operating room",
+  "character_types": ["patient", "nurse", "surgeon", "friend"],
+  "drag": false,
+  "key_props": ["surgical gloves", "iv stand", "surgical mask"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two friends wait in a hospital lobby before one is taken into an operating room, where a wide-eyed, over-the-top surgeon and a nurse work on his hand while he reacts with alarm.",
+  "best_frame_ts": "02:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "-WWA2YfdNrg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "forest path",
+  "character_types": ["clipboard salesman", "clipboard salesman", "bearded man"],
+  "drag": false,
+  "key_props": ["clipboard folder", "cash", "tie"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in matching vests and ties, one carrying a green folder, walk along a forest path arguing and gesturing animatedly; they encounter a bearded man in a knit cap and hand him cash before the exchange ends.",
+  "best_frame_ts": "02:19",
+  "confidence": "medium",
+  "needs_audio": true
+}

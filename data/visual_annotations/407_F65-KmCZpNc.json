@@ -1,0 +1,19 @@
+{
+  "video_id": "F65-KmCZpNc",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["train"],
+  "location_fine": "train compartment",
+  "character_types": ["two male passengers in colorful tracksuit jackets", "train conductor"],
+  "drag": false,
+  "key_props": ["food tray", "bottle", "flat cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men in bright tracksuit jackets share food and drinks in a train compartment while telling a story that leaves one of them laughing uncontrollably, before a conductor appears in the corridor.",
+  "best_frame_ts": "01:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

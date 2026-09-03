@@ -1,0 +1,19 @@
+{
+  "video_id": "GYewdqQfAws",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "sedan"],
+  "location_fine": "rural road",
+  "character_types": ["traffic police officer", "driver"],
+  "drag": false,
+  "key_props": ["police baton", "money", "police cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A traffic police officer stationed on a countryside road stops passing cars one after another and repeatedly takes cash bribes handed through the driver's window before waving each car on.",
+  "best_frame_ts": "00:40",
+  "confidence": "medium",
+  "needs_audio": false
+}

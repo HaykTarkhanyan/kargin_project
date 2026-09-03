@@ -1,0 +1,19 @@
+{
+  "video_id": "hvUyvsaVmQQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "small household goods / hardware shop",
+  "character_types": ["saleswoman with lanyard badge", "shop manager in suit and glasses", "customer in light jacket", "man in white shirt"],
+  "drag": false,
+  "key_props": ["employee lanyard badge", "paper document", "stacked sacks of goods", "shop shelving"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Inside a small household-goods shop, a saleswoman and an older manager interact with customers, building to an agitated man in a light jacket reading a document and then dramatically flinging his jacket off in anger among the shelves.",
+  "best_frame_ts": "02:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

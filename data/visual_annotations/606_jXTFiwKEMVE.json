@@ -1,0 +1,19 @@
+{
+  "video_id": "jXTFiwKEMVE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "police station office",
+  "character_types": ["police officer", "man in dark clothing", "woman in drag with bandaged jaw"],
+  "drag": true,
+  "key_props": ["desk", "office file folders", "bandage wrap", "boombox"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A uniformed police officer at his desk questions a man in dark clothing, then a person in drag with a reddish wig and a bandage wrapped around the jaw (apparent toothache) repeatedly enters and interacts with the officer.",
+  "best_frame_ts": "00:40",
+  "confidence": "medium",
+  "needs_audio": true
+}

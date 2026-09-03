@@ -1,0 +1,19 @@
+{
+  "video_id": "gqX74mJk63I",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": ["fish"],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["woman", "woman", "man", "man"],
+  "drag": true,
+  "key_props": ["coffee cups", "aquarium", "flower vase"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two women in a wallpapered apartment room drink coffee at a small table with flowers and an aquarium, gesturing and reacting dramatically, before two men enter the room through a doorway.",
+  "best_frame_ts": "00:10",
+  "confidence": "medium",
+  "needs_audio": true
+}

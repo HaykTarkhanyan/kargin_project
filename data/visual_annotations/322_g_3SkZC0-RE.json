@@ -1,0 +1,19 @@
+{
+  "video_id": "g_3SkZC0-RE",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["sedan", "van", "suv"],
+  "location_fine": "city street and abandoned industrial yard",
+  "character_types": ["young woman", "man driver", "man passenger"],
+  "drag": false,
+  "key_props": ["car", "sunglasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A young woman is pulled into a car by two men on a city street; during the drive she appears distressed while gripped by the front passenger, alternating with laughing, before the car arrives at an abandoned industrial yard on the outskirts of town.",
+  "best_frame_ts": "00:40",
+  "confidence": "medium",
+  "needs_audio": true
+}

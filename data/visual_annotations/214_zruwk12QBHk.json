@@ -1,0 +1,19 @@
+{
+  "video_id": "zruwk12QBHk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["man", "woman"],
+  "drag": false,
+  "key_props": ["bed", "mobile phone", "tracksuit jacket"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man and woman lie close together in bed, laughing and joking; the woman makes a phone call while the man reacts comically, with a colorful tracksuit bundled on the bed between them.",
+  "best_frame_ts": "01:38",
+  "confidence": "medium",
+  "needs_audio": true
+}

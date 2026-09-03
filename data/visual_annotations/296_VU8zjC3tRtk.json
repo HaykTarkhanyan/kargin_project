@@ -1,0 +1,19 @@
+{
+  "video_id": "VU8zjC3tRtk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "plain white room, hospital-like",
+  "character_types": ["man in surgical scrubs and cap", "disheveled man with neckerchief", "woman visitor"],
+  "drag": false,
+  "key_props": ["flatbread", "milk bottle", "surgical cap", "surgical mask"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in blue surgical scrubs and cap casually eats flatbread and drinks milk in a plain white room while a disheveled man with a red neckerchief looks distressed and talks at length; a woman in a headscarf briefly appears entering through a doorway.",
+  "best_frame_ts": "01:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

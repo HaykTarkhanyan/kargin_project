@@ -1,0 +1,19 @@
+{
+  "video_id": "vwaCjXU4Neg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["black SUV", "black sedan"],
+  "location_fine": "car interior on rural dirt road",
+  "character_types": ["man driving and talking on phone", "second driver"],
+  "drag": false,
+  "key_props": ["mobile phone", "car"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man drives a black SUV down a rural dirt road while talking on his phone in profile close-up, passing another dark car; after a cut, a different-looking driver is shown at the wheel of a car driving through the same countryside.",
+  "best_frame_ts": "00:38",
+  "confidence": "low",
+  "needs_audio": true
+}

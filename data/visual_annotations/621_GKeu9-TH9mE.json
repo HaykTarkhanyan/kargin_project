@@ -1,0 +1,19 @@
+{
+  "video_id": "GKeu9-TH9mE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room and closet",
+  "character_types": ["old woman", "girl"],
+  "drag": true,
+  "key_props": ["mixing bowl", "skeleton prop with wig", "wardrobe closet", "fur hat"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "An elderly woman, played in drag, mixes something in a bowl while chatting with a young girl in a living room; the scene shifts to a blurred chase through the house ending with the woman opening a wardrobe and recoiling in shock at a skeleton hanging inside wearing a wig.",
+  "best_frame_ts": "02:08",
+  "confidence": "medium",
+  "needs_audio": true
+}

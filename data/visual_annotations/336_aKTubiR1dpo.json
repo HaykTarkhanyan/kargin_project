@@ -1,0 +1,19 @@
+{
+  "video_id": "aKTubiR1dpo",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment kitchen",
+  "character_types": ["soldier in camouflage", "mother figure (drag)", "man in striped sailor shirt"],
+  "drag": true,
+  "key_props": ["frying pan", "food"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A soldier in camouflage confronts a mother figure at the apartment door, who then goes to cook in the kitchen while a man in a striped sailor shirt sits at the table ravenously eating straight from the frying pan with exaggerated gestures.",
+  "best_frame_ts": "00:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

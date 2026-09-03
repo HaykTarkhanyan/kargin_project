@@ -1,0 +1,19 @@
+{
+  "video_id": "3vQB7zlYtco",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["teacher in vest and tie", "teenage students"],
+  "drag": false,
+  "key_props": ["chalkboard", "chalk", "school desks"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young teacher writes math formulas on the chalkboard for a class of teenagers, then appears to have an increasingly distressed, exaggerated breakdown, gagging and screaming with his face contorted in close-up.",
+  "best_frame_ts": "02:07",
+  "confidence": "low",
+  "needs_audio": true
+}

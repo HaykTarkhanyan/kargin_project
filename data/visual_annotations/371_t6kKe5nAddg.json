@@ -1,0 +1,19 @@
+{
+  "video_id": "t6kKe5nAddg",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["sedan"],
+  "location_fine": "church steps and wedding car interior",
+  "character_types": ["groom", "bride"],
+  "drag": false,
+  "key_props": ["wedding veil", "boutonniere"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A groom and bride leave a church wedding, shown in stylized sepia/monochrome tone, then get into a sedan where they have an increasingly tense conversation while the groom drives.",
+  "best_frame_ts": "02:09",
+  "confidence": "medium",
+  "needs_audio": true
+}

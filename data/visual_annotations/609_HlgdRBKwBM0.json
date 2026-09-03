@@ -1,0 +1,19 @@
+{
+  "video_id": "HlgdRBKwBM0",
+  "indoor_outdoor": "outdoor",
+  "day_night": "mixed",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["sedan"],
+  "location_fine": "car interior and roadside",
+  "character_types": ["kidnapped woman", "kidnapper", "police officer"],
+  "drag": false,
+  "key_props": ["rope bindings", "car trunk", "police cap"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men kidnap a woman, binding her hands and gagging her in the back seat of a car as they drive down a tree-lined road; they stop and open the trunk, and a police officer eventually confronts the men near a second car.",
+  "best_frame_ts": "00:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

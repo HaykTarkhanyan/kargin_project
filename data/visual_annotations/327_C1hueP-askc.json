@@ -1,0 +1,19 @@
+{
+  "video_id": "C1hueP-askc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living/dining room",
+  "character_types": ["elderly man with cane", "eccentric man with wig and glasses", "young woman"],
+  "drag": false,
+  "key_props": ["cane", "china cabinet", "telephone", "wall art"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In an apartment, an elderly man with a cane enters hesitantly through a doorway while a young woman with a dark bob wig walks through a dining room; an eccentric blond-wigged man in glasses argues with the woman, who repeatedly grabs at his phone.",
+  "best_frame_ts": "00:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

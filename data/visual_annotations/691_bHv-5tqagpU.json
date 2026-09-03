@@ -1,0 +1,19 @@
+{
+  "video_id": "bHv-5tqagpU",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "doctor's office",
+  "character_types": ["office worker", "nurse", "girlfriend"],
+  "drag": true,
+  "key_props": ["surgical gloves", "surgical cap", "files/folders"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man at an office desk is examined by a person in blue scrubs and a surgical cap, then a long-haired person in a patterned dress and lipstick sits close beside him, embracing and comforting him as they talk animatedly.",
+  "best_frame_ts": "01:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

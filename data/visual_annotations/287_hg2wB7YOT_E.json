@@ -1,0 +1,19 @@
+{
+  "video_id": "hg2wB7YOT_E",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government official's office",
+  "character_types": ["bearded official in brown suit", "woman visitor in black", "young woman visitor", "man in striped sweater"],
+  "drag": false,
+  "key_props": ["desk", "armenian flag", "books", "bottle", "vertical blinds"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A bearded official in a brown suit sits behind a desk with an Armenian flag, receiving a series of different visitors one after another through the same door, at one point drinking from a bottle.",
+  "best_frame_ts": "01:57",
+  "confidence": "high",
+  "needs_audio": true
+}

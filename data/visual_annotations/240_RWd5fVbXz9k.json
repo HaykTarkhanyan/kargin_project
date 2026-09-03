@@ -1,0 +1,19 @@
+{
+  "video_id": "RWd5fVbXz9k",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment hallway",
+  "character_types": ["man in uniform shirt", "police officer", "man in briefs", "man in black turtleneck"],
+  "drag": false,
+  "key_props": ["wooden doors", "wall sconces", "police cap"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a light uniform shirt and tie sneaks through a dim wood-paneled apartment hallway, checking doors; the scene cuts to a man in his underwear fleeing past a capped officer on a stairwell, then two men argue animatedly in the corridor before one swings an arm at the other.",
+  "best_frame_ts": "01:18",
+  "confidence": "medium",
+  "needs_audio": true
+}

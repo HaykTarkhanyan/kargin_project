@@ -1,0 +1,19 @@
+{
+  "video_id": "uWqLz0r8xPM",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "canal bank in winter",
+  "character_types": ["fisherman in straw hat and padded coat"],
+  "drag": false,
+  "key_props": ["fishing rod", "straw hat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a straw hat and heavy padded coat fishes by a snowy canal bank while delivering an animated monologue to the camera.",
+  "best_frame_ts": "00:34",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "65lQYk5SUAY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "wedding banquet hall",
+  "character_types": ["bride", "groom", "wedding guests"],
+  "drag": false,
+  "key_props": ["dinner table", "drinks", "wedding veil"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A crowd of guests dance energetically at a lively wedding banquet in a restaurant hall; a bride in a white dress and veil and a groom in a suit are shown among the dancers and later seated at tables with other guests, including a moment with a baby.",
+  "best_frame_ts": "01:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

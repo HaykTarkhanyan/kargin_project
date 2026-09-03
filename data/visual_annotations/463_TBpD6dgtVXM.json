@@ -1,0 +1,19 @@
+{
+  "video_id": "TBpD6dgtVXM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room couch, talk show set",
+  "character_types": ["drag female character in pink blazer", "man in suit interviewer"],
+  "drag": true,
+  "key_props": ["blond wig", "television", "hand fan"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a blond wig and pink blazer, styled as a woman, sits on a couch talking animatedly with a man in a suit in a talk-show-style interview segment, with a television in the background showing news broadcasts and on-screen graphics.",
+  "best_frame_ts": "01:16",
+  "confidence": "high",
+  "needs_audio": true
+}

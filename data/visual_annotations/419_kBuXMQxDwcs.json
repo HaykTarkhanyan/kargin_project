@@ -1,0 +1,19 @@
+{
+  "video_id": "kBuXMQxDwcs",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office desk, night-vision style",
+  "character_types": ["mustached officer at desk", "distressed younger man"],
+  "drag": false,
+  "key_props": ["rotary telephones", "desk lamp", "documents", "wall calendar"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Shot in a green night-vision style, a mustached officer sits at a desk with old rotary phones addressing the camera, while later a distressed young man is questioned, hands over documents, and ends up collapsed and comforted.",
+  "best_frame_ts": "00:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

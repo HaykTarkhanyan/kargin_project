@@ -1,0 +1,19 @@
+{
+  "video_id": "pZHA5XLoH_c",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["woman in bed", "sleepy man", "man in sweater"],
+  "drag": false,
+  "key_props": ["bed", "closet", "red clothing"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A woman repeatedly tries to rouse a man sleeping beside her in bed; a second man then enters the room, prompting the sleeping man to jump up shirtless and frantically grab clothes from the closet before rushing out.",
+  "best_frame_ts": "01:10",
+  "confidence": "medium",
+  "needs_audio": true
+}

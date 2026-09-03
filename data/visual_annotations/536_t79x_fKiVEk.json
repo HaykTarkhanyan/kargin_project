@@ -1,0 +1,19 @@
+{
+  "video_id": "t79x_fKiVEk",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "tv interview set and garden patio",
+  "character_types": ["mustached man", "young woman", "cameraman", "man in plaid shirt"],
+  "drag": false,
+  "key_props": ["microphone with logo", "tv camera", "stone oven", "wine bottle", "bust statues on shelf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "Grainy black-and-white timestamped 'REC' footage of a man and woman is intercut with color TV-style interviews of a mustached man and a bespectacled woman recounting events, plus a garden scene where a man in plaid reacts and runs past a tree stump, and a patio table where hosts sit near a stone oven with a camera crew filming.",
+  "best_frame_ts": "02:54",
+  "confidence": "low",
+  "needs_audio": true
+}

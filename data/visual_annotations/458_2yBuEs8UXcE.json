@@ -1,0 +1,19 @@
+{
+  "video_id": "2yBuEs8UXcE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "forest park bench",
+  "character_types": ["young woman", "young man", "elderly man with cane"],
+  "drag": false,
+  "key_props": ["cane", "park bench"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young couple sits closely together on a bench in a green forest, talking intimately, until an elderly man with a cane approaches and joins them; he tells a story that leaves the couple reacting with surprise and emotion, hands clasped to their chests.",
+  "best_frame_ts": "01:31",
+  "confidence": "medium",
+  "needs_audio": true
+}

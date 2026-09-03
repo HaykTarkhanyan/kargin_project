@@ -1,0 +1,19 @@
+{
+  "video_id": "jPbZPMl8Zmc",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room / apartment",
+  "character_types": ["woman tidying by window", "flamboyant woman in armchair (drag)"],
+  "drag": true,
+  "key_props": ["cigarette", "armchair", "telephone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A woman tidies up near a window while a flamboyant, curly-wigged character lounges in a yellow armchair smoking a cigarette and gesturing dramatically, eventually taking a phone call.",
+  "best_frame_ts": "00:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

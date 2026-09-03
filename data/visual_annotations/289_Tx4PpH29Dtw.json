@@ -1,0 +1,19 @@
+{
+  "video_id": "Tx4PpH29Dtw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home bedroom and dining room",
+  "character_types": ["mustached husband", "wife", "grey-haired father", "young man"],
+  "drag": false,
+  "key_props": ["bed", "pillows", "dining table", "food", "plates", "cups"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached husband lies in bed animatedly recounting a story with big hand gestures to his wife, then the scene shifts to a family dinner table where the wife, an older grey-haired man, and a young man eat and argue.",
+  "best_frame_ts": "00:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

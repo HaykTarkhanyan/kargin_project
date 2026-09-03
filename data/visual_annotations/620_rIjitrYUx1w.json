@@ -1,0 +1,19 @@
+{
+  "video_id": "rIjitrYUx1w",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["macho man", "drag woman character"],
+  "drag": true,
+  "key_props": ["telephone", "curly wig", "zebra-print top"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A shirtless, mustached man in his apartment takes a phone call and gets dressed, then is confronted by a flamboyant drag character in a curly wig and animal-print top; their interaction grows heated with dramatic gestures and a raised arm.",
+  "best_frame_ts": "01:01",
+  "confidence": "medium",
+  "needs_audio": true
+}

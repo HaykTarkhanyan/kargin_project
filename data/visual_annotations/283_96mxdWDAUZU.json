@@ -1,0 +1,19 @@
+{
+  "video_id": "96mxdWDAUZU",
+  "indoor_outdoor": "indoor",
+  "day_night": "mixed",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home living room and bedroom",
+  "character_types": ["mustached man in formal attire", "woman in home"],
+  "drag": false,
+  "key_props": ["wardrobe", "bed", "pillows", "cigarettes", "flowers"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a black vest and white shirt has a long, tense back-and-forth conversation with a woman in a home, and the scene ends with the two lying in bed together looking exhausted, smoking cigarettes.",
+  "best_frame_ts": "01:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

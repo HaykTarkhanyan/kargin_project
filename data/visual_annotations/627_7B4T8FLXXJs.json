@@ -1,0 +1,19 @@
+{
+  "video_id": "7B4T8FLXXJs",
+  "indoor_outdoor": "both",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "rural stone house, kitchen table",
+  "character_types": ["young soldier", "older woman in floral robe"],
+  "drag": true,
+  "key_props": ["ladder", "buckets", "plate of food", "bottle", "garrison cap"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A young soldier walks through a dark field at night to a rural stone house, is met by an older woman, and sits down in his undershirt to eat a meal at her table while she busies herself nearby before a sudden burst of motion.",
+  "best_frame_ts": "00:44.750",
+  "confidence": "medium",
+  "needs_audio": true
+}

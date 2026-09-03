@@ -1,0 +1,19 @@
+{
+  "video_id": "dfwG8k21KPM",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["train"],
+  "location_fine": "train sleeper compartment",
+  "character_types": ["man with curly wig and lipstick", "woman in hat", "mustached sleeping man"],
+  "drag": false,
+  "key_props": ["wide-brim hat", "striped bag", "train bunk", "curtains"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three passengers share a train sleeper compartment: a mustached man dozes on the upper bunk while a curly-haired, heavily made-up man in a tan cardigan sits close to and converses with a woman in a black wide-brim hat and red ruffled dress.",
+  "best_frame_ts": "01:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

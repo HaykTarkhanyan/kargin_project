@@ -1,0 +1,19 @@
+{
+  "video_id": "bzVJUkNNJ9Q",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["stork"],
+  "vehicles": [],
+  "location_fine": "corrugated metal rooftop",
+  "character_types": ["man on roof in patterned shirt and cap", "person walking below in dark clothing"],
+  "drag": false,
+  "key_props": ["stork nest", "corrugated metal roof", "utility pole"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man dances and gestures on a corrugated rooftop near a stork's nest on a utility pole, then slips and slides across the sloped roof; the video cuts to overhead shots of a person walking across the yard below and later lying motionless on the ground.",
+  "best_frame_ts": "00:47",
+  "confidence": "low",
+  "needs_audio": true
+}

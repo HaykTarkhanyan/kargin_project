@@ -1,0 +1,19 @@
+{
+  "video_id": "SCeGm1WOxIE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["heavyset man in flat cap and sweater", "bespectacled man in suit", "mustached man in dark shirt", "man in gray zip jacket"],
+  "drag": false,
+  "key_props": ["vodka bottle", "shot glasses", "pickled cucumbers"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A group of men gather in an apartment for a round of vodka toasts, pouring shots and drinking together with animated cheering.",
+  "best_frame_ts": "01:38",
+  "confidence": "medium",
+  "needs_audio": true
+}

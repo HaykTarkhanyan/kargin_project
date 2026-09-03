@@ -1,0 +1,19 @@
+{
+  "video_id": "iCMxQyaQjzM",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bureaucratic office and church",
+  "character_types": ["office clerk", "secretary", "official", "churchgoer"],
+  "drag": false,
+  "key_props": ["typewriter", "desk lamp", "papers", "candles", "cross"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A man in a coat and tie walks an office corridor, talks with a secretary at a typewriter, sits at a cluttered bureaucrat's desk writing and reacting emotionally, then is later shown walking through a snowy churchyard and praying inside a church with raised hands.",
+  "best_frame_ts": "03:31",
+  "confidence": "low",
+  "needs_audio": true
+}

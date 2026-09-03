@@ -1,0 +1,19 @@
+{
+  "video_id": "0Aoy7CHMZvA",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "autumn park pathway",
+  "character_types": ["mugger in black beanie", "young man in white coat", "man in leather jacket", "police or military officer"],
+  "drag": false,
+  "key_props": ["beanie", "sunglasses", "park bench", "mobile phone"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In an autumn park, a man in a black beanie stalks and grabs a young man in a white coat, snatching something from him and fleeing, then sits on a bench boasting to another man in a leather jacket; a uniformed officer later confronts the beanie-wearing man and chases him down across an open field.",
+  "best_frame_ts": "00:42",
+  "confidence": "medium",
+  "needs_audio": true
+}

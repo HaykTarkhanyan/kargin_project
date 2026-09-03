@@ -1,0 +1,19 @@
+{
+  "video_id": "L3CiQABljX8",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "hospital hallway, open field, and autumn forest",
+  "character_types": ["doctor", "visiting couple", "two friends", "man in sunglasses", "police officer", "red riding hood character", "grandmother-robe character", "wolf/animal costume character", "duck costume character"],
+  "drag": true,
+  "key_props": ["red hood cape", "white robe/cloak", "animal head costumes", "police car"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 4, "repeating_gag": false},
+  "visual_synopsis": "The clip runs through a hospital/clinic hallway scene with a gesturing doctor and a couple, then two friends joking around in an open dry field, before shifting into a costumed Little Red Riding Hood parody in an autumn forest with a woman in a red hood, a companion in a white grandmother-like robe, and men chasing around in wolf and duck/goose animal-head costumes.",
+  "best_frame_ts": "09:11",
+  "confidence": "low",
+  "needs_audio": true
+}

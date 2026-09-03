@@ -1,0 +1,19 @@
+{
+  "video_id": "8ZXHMEFAfNo",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "sedan"],
+  "location_fine": "rural road and apartment living room",
+  "character_types": ["hitchhiker woman", "car driver", "mustached man in suit", "hostess woman"],
+  "drag": false,
+  "key_props": ["cognac bottle", "wine glass", "roses", "citrus fruit", "floral wallpaper"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A young woman walks and hitchhikes along a rural tree-lined road while several cars stop and drivers offer her rides that she declines, until a mustached man in a suit approaches on foot; the scene then moves indoors to an apartment where the woman, another woman, and the man drink and laugh until the man appears to pass out drunk.",
+  "best_frame_ts": "01:50",
+  "confidence": "medium",
+  "needs_audio": true
+}

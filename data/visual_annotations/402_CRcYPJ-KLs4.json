@@ -1,0 +1,19 @@
+{
+  "video_id": "CRcYPJ-KLs4",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "fortune teller's parlor",
+  "character_types": ["fortune teller in wig and fur robe (drag)", "young female assistant", "man in suit"],
+  "drag": true,
+  "key_props": ["candles", "blonde wig", "photo board", "adding machine", "wreath"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A garishly costumed fortune teller in a curly blonde wig and fur-trimmed robe performs a candlelit 'fate telling' session in a red-curtained room, consulting a pinned photo board and an old adding machine with an assistant present.",
+  "best_frame_ts": "01:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

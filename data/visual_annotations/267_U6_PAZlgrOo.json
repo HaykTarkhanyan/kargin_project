@@ -1,0 +1,19 @@
+{
+  "video_id": "U6_PAZlgrOo",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "office and lavish home interior",
+  "character_types": ["businessman", "secretary", "woman in red coat", "man in black coat", "blonde woman"],
+  "drag": false,
+  "key_props": ["telephone", "car", "gold necklace"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A suited businessman talks on the phone and with a secretary in his office, then drives at night to an ornately furnished home where he talks with a blonde woman and other visitors.",
+  "best_frame_ts": "01:36",
+  "confidence": "low",
+  "needs_audio": true
+}

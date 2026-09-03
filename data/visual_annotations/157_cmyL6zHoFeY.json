@@ -1,0 +1,19 @@
+{
+  "video_id": "cmyL6zHoFeY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment hallway doorway",
+  "character_types": ["male election campaigner", "female election campaigner", "resident man"],
+  "drag": false,
+  "key_props": ["campaign pamphlets", "election poster with checkbox"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in glasses and a woman with curly hair go door to door in an apartment hallway handing out election campaign pamphlets and a ballot poster to a resident who answers the door.",
+  "best_frame_ts": "00:01:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

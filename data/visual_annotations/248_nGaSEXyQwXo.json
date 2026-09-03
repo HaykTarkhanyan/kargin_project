@@ -1,0 +1,19 @@
+{
+  "video_id": "nGaSEXyQwXo",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "prison exterior and corridor",
+  "character_types": ["soldier", "guard", "elderly detainee", "civilian"],
+  "drag": false,
+  "key_props": ["barbed wire fence", "watchtower", "cigarettes", "coats"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "Outside a fenced compound with a watchtower, a group of older men in dark coats is walked through an indoor corridor before a scuffle breaks out involving a man in camouflage; the sketch ends with two men having an animated, cigarette-in-hand conversation outside a blue-doored building.",
+  "best_frame_ts": "01:24",
+  "confidence": "low",
+  "needs_audio": true
+}

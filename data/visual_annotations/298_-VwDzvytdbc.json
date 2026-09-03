@@ -1,0 +1,19 @@
+{
+  "video_id": "-VwDzvytdbc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital meeting room",
+  "character_types": ["chief physician", "doctor", "nurse or administrator", "hospital staff woman"],
+  "drag": false,
+  "key_props": ["lab coats", "conference table", "papers", "id badges"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Doctors and staff in white lab coats hurry through a hospital hallway and gather around a conference table for an animated meeting, with a bespectacled mustached doctor gesturing heatedly while several female colleagues react and argue.",
+  "best_frame_ts": "01:21",
+  "confidence": "medium",
+  "needs_audio": true
+}

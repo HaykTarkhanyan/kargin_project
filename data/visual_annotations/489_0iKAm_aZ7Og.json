@@ -1,0 +1,19 @@
+{
+  "video_id": "0iKAm_aZ7Og",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "psychiatric ward day room",
+  "character_types": ["patient in striped pajamas", "patient in white robe", "doctor in white coat", "doctor with glasses", "patient with paper cap"],
+  "drag": false,
+  "key_props": ["chess set", "bookshelves", "doctor's cap", "food"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a psychiatric ward day room lined with bookshelves, patients in striped pajamas play chess and squabble while doctors in white coats and caps supervise, escalating into a physical scuffle; later a patient in a paper cap eats with his hands during an agitated close-up interview.",
+  "best_frame_ts": "02:31",
+  "confidence": "medium",
+  "needs_audio": true
+}

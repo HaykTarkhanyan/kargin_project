@@ -1,0 +1,19 @@
+{
+  "video_id": "4g1UEAON4-0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["interviewer with microphone", "office worker at desk", "office clerk"],
+  "drag": false,
+  "key_props": ["microphone", "telephone", "desk lamp", "notebook and pen"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A young interviewer in a red shirt holds a microphone up to several different office workers seated at desks in turn, each reacting and answering while writing or handling papers, moving between a hallway/couch area and multiple office desks.",
+  "best_frame_ts": "01:31",
+  "confidence": "medium",
+  "needs_audio": true
+}

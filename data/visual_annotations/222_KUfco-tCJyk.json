@@ -1,0 +1,19 @@
+{
+  "video_id": "KUfco-tCJyk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "grocery liquor store counter",
+  "character_types": ["blonde-wigged woman customer", "mustached shopkeeper"],
+  "drag": true,
+  "key_props": ["raw chicken", "yellow blazer", "shelved bottles", "counter"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A blonde-wigged woman confronts a mustached shopkeeper inside a small grocery and liquor store, gesturing animatedly and eventually holding up a raw chicken during the argument.",
+  "best_frame_ts": "01:47",
+  "confidence": "low",
+  "needs_audio": true
+}

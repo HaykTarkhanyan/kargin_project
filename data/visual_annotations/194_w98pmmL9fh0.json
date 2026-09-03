@@ -1,0 +1,19 @@
+{
+  "video_id": "w98pmmL9fh0",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["eccentric curly-haired man in patterned shirt", "schoolboy with glasses", "schoolchildren"],
+  "drag": false,
+  "key_props": ["school desks", "chalkboard"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An odd-looking adult man with a curly wig and makeup sits among real schoolchildren at desks in a classroom, apparently being interviewed or talking with them one at a time.",
+  "best_frame_ts": "00:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

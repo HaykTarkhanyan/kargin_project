@@ -1,0 +1,19 @@
+{
+  "video_id": "BpMQ8COre60",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital room",
+  "character_types": ["patient", "visiting woman", "visiting girl", "medical staff"],
+  "drag": false,
+  "key_props": ["oxygen/breathing mask", "ventilator machine", "hospital bed", "letter/paper", "water bottle"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man lies in a hospital bed hooked to a breathing machine while a woman and a young girl visit him; he later sits up, removes the mask, and speaks directly to camera in close-up while reading a letter and drinking water.",
+  "best_frame_ts": "00:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

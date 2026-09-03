@@ -1,0 +1,19 @@
+{
+  "video_id": "BJnORz1WFMo",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["businessman", "office colleague", "young woman", "woman in red coat"],
+  "drag": false,
+  "key_props": ["office desk", "papers", "computer monitor", "couch", "framed certificate"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two mustached businessmen have an animated conversation at an office desk while a young woman peeks in through the door; later a woman in a red coat arrives with a bag and sits down to talk with them.",
+  "best_frame_ts": "03:28",
+  "confidence": "medium",
+  "needs_audio": true
+}

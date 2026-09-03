@@ -1,0 +1,19 @@
+{
+  "video_id": "moCyanUBWps",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["truck", "car"],
+  "location_fine": "rural highway checkpoint",
+  "character_types": ["traffic police officer with rifle", "driver in floral shirt", "passenger in orange shirt"],
+  "drag": false,
+  "key_props": ["rifle", "cash", "boom barrier", "police cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "At a rural highway checkpoint, a young traffic officer holding a rifle stops a car carrying two men and repeatedly exchanges cash with them while trucks pass by in the background.",
+  "best_frame_ts": "00:47",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "kc_5NV5QkFI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office with desk",
+  "character_types": ["office worker in lab coat"],
+  "drag": false,
+  "key_props": ["desk", "telephone", "lab coat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A curly-haired man sits at an office desk, alternating between a blue shirt and a white lab coat across cuts, talking animatedly to someone off-camera with hand gestures and folded-hands poses.",
+  "best_frame_ts": "00:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

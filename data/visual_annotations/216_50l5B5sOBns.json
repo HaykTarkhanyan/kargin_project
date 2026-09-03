@@ -1,0 +1,19 @@
+{
+  "video_id": "50l5B5sOBns",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["lada", "marshrutka"],
+  "location_fine": "marshrutka minibus interior",
+  "character_types": ["passengers", "minibus driver", "young women", "older man with glasses"],
+  "drag": false,
+  "key_props": ["marshrutka minibus", "fur coat", "eyeglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Passengers ride crammed together inside a yellow marshrutka minibus on a rural road, chatting closely; the bus stops to pick up more riders including a man in dark clothing, with the driver getting in and out along the way.",
+  "best_frame_ts": "00:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "R6VbgKcNBYY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and office corridor",
+  "character_types": ["young man", "young man", "mustached official"],
+  "drag": false,
+  "key_props": ["couch", "coffee table", "arm sling", "wall sign"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two young men sit talking on a couch in an apartment; one grabs and wrenches the other's arm/wrist, causing visible pain and escalating gestures. The scene shifts to a hallway with an official-looking wall sign, where the injured man now has his arm in a sling and confronts a mustached older man.",
+  "best_frame_ts": "03:54",
+  "confidence": "medium",
+  "needs_audio": true
+}

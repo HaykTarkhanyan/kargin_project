@@ -1,0 +1,19 @@
+{
+  "video_id": "vZqFt9ZIW4w",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "military office",
+  "character_types": ["soldier with mustache", "young soldier with glasses", "army officer"],
+  "drag": false,
+  "key_props": ["armenian flag", "desk telephone", "globe"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Soldiers in camouflage uniforms gather and talk in an anteroom, then the scene moves to an office decorated with an Armenian flag where a mustached soldier sits at a desk and eventually makes a phone call.",
+  "best_frame_ts": "01:04",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "1VQg6CN7eH8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "cafe",
+  "character_types": ["mustached man", "heavyset man in vest", "thin man in black"],
+  "drag": false,
+  "key_props": ["coffee cups", "cigarette pack"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three men sit around a table in a brick-walled cafe drinking coffee, with one man in a red-and-olive polo shirt telling an animated story using big hand gestures while other patrons sit in the background.",
+  "best_frame_ts": "00:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

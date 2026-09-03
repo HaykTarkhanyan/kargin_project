@@ -1,0 +1,19 @@
+{
+  "video_id": "ZJK7CXG4Rn8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital room",
+  "character_types": ["injured woman patient", "female doctor", "young man visitor"],
+  "drag": true,
+  "key_props": ["head bandage", "hospital bed", "scarf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A bandaged patient (a man in a wig and lipstick playing an injured woman) lies in a hospital bed complaining animatedly to a female doctor and a young man who visit and stand by the bedside.",
+  "best_frame_ts": "00:50",
+  "confidence": "medium",
+  "needs_audio": true
+}

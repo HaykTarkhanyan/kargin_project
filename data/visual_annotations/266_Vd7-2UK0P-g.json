@@ -1,0 +1,19 @@
+{
+  "video_id": "Vd7-2UK0P-g",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "travel agency office",
+  "character_types": ["travel agent", "female assistant", "old man customer", "young man"],
+  "drag": false,
+  "key_props": ["travel posters", "computer", "cash"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a travel agency office decorated with destination posters, a suited agent and a female assistant deal with customers, including an older man in a flat cap who counts out cash for a trip.",
+  "best_frame_ts": "01:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

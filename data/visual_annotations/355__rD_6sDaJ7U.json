@@ -1,0 +1,19 @@
+{
+  "video_id": "_rD_6sDaJ7U",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["cow", "sheep"],
+  "vehicles": [],
+  "location_fine": "rural hillside pasture",
+  "character_types": ["shepherd", "man with binoculars"],
+  "drag": false,
+  "key_props": ["binoculars", "shepherd's staff", "black wool cap", "electricity pylon"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A shepherd in a black cap tends a flock of cows and sheep on a grassy hillside, shouting and gesturing; a second man in a yellow shirt and blue cap arrives with binoculars, and together they scan the distance, spotting the herd, an electricity pylon, and a small figure jumping and waving far off.",
+  "best_frame_ts": "01:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

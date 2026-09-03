@@ -1,0 +1,19 @@
+{
+  "video_id": "UvuNYEX2F8Q",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government office",
+  "character_types": ["office boss", "male visitor", "female visitor"],
+  "drag": false,
+  "key_props": ["telephone", "computer", "desk", "armenian flag", "documents"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man behind a desk with a small Armenian flag talks on the phone and shuffles papers in what looks like a government or corporate office. A man in a grey suit and later a woman in a red leather jacket enter and hold an increasingly animated conversation with him.",
+  "best_frame_ts": "01:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

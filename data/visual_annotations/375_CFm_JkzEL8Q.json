@@ -1,0 +1,19 @@
+{
+  "video_id": "CFm_JkzEL8Q",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "music school audition room",
+  "character_types": ["amateur singer", "judge", "pianist"],
+  "drag": false,
+  "key_props": ["piano", "water bottles"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": true},
+  "visual_synopsis": "Amateur singers rehearse vocal exercises outdoors in a courtyard, then wait backstage before heading into a music school room where, one by one, they perform in front of a panel of seated judges with a pianist accompanying.",
+  "best_frame_ts": "03:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

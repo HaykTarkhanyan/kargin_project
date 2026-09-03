@@ -1,0 +1,19 @@
+{
+  "video_id": "L3dPl0iBJ3g",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["teacher", "schoolboy", "schoolgirls"],
+  "drag": false,
+  "key_props": ["eyeglasses", "necktie", "wall portrait poster", "school desks"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A male teacher in a tie and tan coat sits and converses intensely, gesturing with his hands, with a bespectacled boy at a school desk, while groups of schoolgirls sit and chat at other desks in the classroom.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

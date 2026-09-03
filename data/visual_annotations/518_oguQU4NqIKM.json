@@ -1,0 +1,19 @@
+{
+  "video_id": "oguQU4NqIKM",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["lada", "truck"],
+  "location_fine": "hotel lobby then street and stone wall",
+  "character_types": ["detective", "rocker/tough guy"],
+  "drag": false,
+  "key_props": ["fedora hat", "trench coat", "sunglasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 4, "repeating_gag": false},
+  "visual_synopsis": "A mustachioed man in a trench coat and fedora, acting like a detective, talks in a hotel lobby then walks through town inspecting a stone wall near an abandoned building. He ends up by a red Lada, grabbing a sunglasses-wearing man in a black leather jacket by the collar.",
+  "best_frame_ts": "03:38",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "YoGuj76WvJI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital clinic office and corridor",
+  "character_types": ["doctor", "man in brown jacket", "woman in green top"],
+  "drag": false,
+  "key_props": ["desk", "corridor", "sink", "orange"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A couple visits a doctor's clinic office where the doctor in a white coat talks animatedly and gestures across his desk; the scene shifts to the man alone walking down a hospital corridor into a bathroom, looking anxious and eventually holding an orange.",
+  "best_frame_ts": "00:54",
+  "confidence": "medium",
+  "needs_audio": true
+}

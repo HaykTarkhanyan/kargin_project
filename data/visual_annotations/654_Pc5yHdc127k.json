@@ -1,0 +1,19 @@
+{
+  "video_id": "Pc5yHdc127k",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "corporate office boardroom",
+  "character_types": ["office assistant/secretary", "moustached boss in pinstripe suit", "man in striped shirt", "man in dark suit"],
+  "drag": false,
+  "key_props": ["office desk", "computer monitor", "rolled paper/scroll", "leather chairs"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a wood-paneled corporate office, a moustached boss in a pinstripe suit playfully roughhouses and gestures wildly at his female assistant across the desk; later scenes show people hurrying through a modern blue-lit corridor and a startled moustached man in a striped shirt reacting wide-eyed.",
+  "best_frame_ts": "00:33",
+  "confidence": "low",
+  "needs_audio": true
+}

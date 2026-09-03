@@ -1,0 +1,19 @@
+{
+  "video_id": "xaVdaU-N7Gw",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": ["horse"],
+  "vehicles": [],
+  "location_fine": "volcanic rocky hillside / desert mountain terrain",
+  "character_types": ["woman in evening gown", "man in suit", "woman in white peasant blouse", "bearded man in red vest costume", "horseback rider"],
+  "drag": false,
+  "key_props": ["road sign", "horse", "red vest costume"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A vintage-styled glamour photoshoot intro with a woman in a red gown flanked by two men in suits cuts to a music-video-style parody on a barren volcanic mountainside, where a woman in a white blouse gestures dramatically (arms raised, later blood on her face) intercut with a horseback rider and a bearded man in a red costume, and a body lying face-down in a rocky pit.",
+  "best_frame_ts": "01:15",
+  "confidence": "low",
+  "needs_audio": true
+}

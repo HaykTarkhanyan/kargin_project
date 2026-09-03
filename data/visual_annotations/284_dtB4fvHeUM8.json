@@ -1,0 +1,19 @@
+{
+  "video_id": "dtB4fvHeUM8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "government office interview room",
+  "character_types": ["mustached official in brown suit", "young man visitor", "young woman visitor", "chubby man in pink shirt"],
+  "drag": false,
+  "key_props": ["desk", "documents", "folders", "bookshelves"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A mustached official in a brown suit sits at a desk in a blue-walled office, animatedly gesturing while interviewing a series of different visitors one after another, interspersed with hallway arguments among small groups.",
+  "best_frame_ts": "02:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

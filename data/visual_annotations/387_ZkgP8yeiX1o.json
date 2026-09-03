@@ -1,0 +1,19 @@
+{
+  "video_id": "ZkgP8yeiX1o",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "living room",
+  "character_types": ["man in robe", "woman", "man with glasses", "man in military/camo clothing"],
+  "drag": false,
+  "key_props": ["teddy bear", "television", "staircase railing"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A man in a striped robe moves through a cluttered living room and gets into a repeated physical grappling struggle with a woman, at times bending over two women resting on a couch; the scene intercuts with a man in camouflage clothing moving through a stairwell and brief outdoor courtyard shots.",
+  "best_frame_ts": "02:09",
+  "confidence": "low",
+  "needs_audio": true
+}

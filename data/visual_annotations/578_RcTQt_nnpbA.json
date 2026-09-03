@@ -1,0 +1,19 @@
+{
+  "video_id": "RcTQt_nnpbA",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["canal tour boat"],
+  "location_fine": "amsterdam canal tour boat",
+  "character_types": ["tour boat captain", "young man with flat cap and mustache", "young man in dark jacket", "family group with child"],
+  "drag": false,
+  "key_props": ["captain's wheel", "viva cell branded cap", "canal boat windows"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men ride a canal tour boat through what appears to be Amsterdam, chatting animatedly while seated, as the captain steers and other passengers including a family sit nearby; exterior shots show canal buildings, bridges, and boats.",
+  "best_frame_ts": "01:54",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "75zxYmS3or8",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "nightclub party then bedroom",
+  "character_types": ["party dancers", "man in bed", "red-haired woman apparition"],
+  "drag": true,
+  "key_props": ["bed", "pillows", "wig", "curtains"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A wild party with dancing and a scuffle breaks out, then the scene shifts to a man passed out in bed who is disturbed and grabbed by an oddly wigged red-haired woman looming over him.",
+  "best_frame_ts": "01:31",
+  "confidence": "low",
+  "needs_audio": true
+}

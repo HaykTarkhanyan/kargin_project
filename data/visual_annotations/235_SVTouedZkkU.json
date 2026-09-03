@@ -1,0 +1,19 @@
+{
+  "video_id": "SVTouedZkkU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["young man", "flamboyant eccentric man"],
+  "drag": false,
+  "key_props": ["compact mirror", "pen", "patterned jacket"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit on an antique couch in a living room; one in glasses talks while the other, wearing a curly wig and a colorful patterned jacket, repeatedly checks a compact mirror and touches up his appearance.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

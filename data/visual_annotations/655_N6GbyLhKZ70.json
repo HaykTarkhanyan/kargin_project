@@ -1,0 +1,19 @@
+{
+  "video_id": "N6GbyLhKZ70",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment balcony",
+  "character_types": ["neighbor man", "boy"],
+  "drag": false,
+  "key_props": ["cigarette", "balcony railing", "robe"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man leans out of his apartment window/balcony talking and gesturing to a boy standing on a neighboring balcony across the courtyard; later the man appears in a robe smoking a cigarette while continuing the conversation.",
+  "best_frame_ts": "00:47",
+  "confidence": "medium",
+  "needs_audio": true
+}

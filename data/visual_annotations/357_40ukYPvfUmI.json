@@ -1,0 +1,19 @@
+{
+  "video_id": "40ukYPvfUmI",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and bedroom",
+  "character_types": ["man", "woman in nightgown"],
+  "drag": false,
+  "key_props": ["couch", "shiny gold blanket", "bed", "curtains", "window"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man walks alone through a dark hallway at night into an apartment, settles on a couch wrapped in a shiny gold blanket looking anxious, then goes into a bedroom where a woman sits up in bed startled; the two have a tense, gesture-heavy confrontation near an open window at night.",
+  "best_frame_ts": "01:55",
+  "confidence": "medium",
+  "needs_audio": true
+}

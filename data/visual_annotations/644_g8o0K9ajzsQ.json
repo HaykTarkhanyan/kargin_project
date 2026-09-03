@@ -1,0 +1,19 @@
+{
+  "video_id": "g8o0K9ajzsQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "prison cell",
+  "character_types": ["young inmate", "young inmate", "older man (grey wig, sweater)", "uniformed officer", "uniformed officer"],
+  "drag": false,
+  "key_props": ["bunk beds", "barred window", "tin cans", "military/police caps"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two young men in tracksuits sit and talk in a run-down prison cell with bunk beds and a barred window; an older grey-haired man in a sweater later appears, gesturing and arguing, before two uniformed officers arrive at the cell door.",
+  "best_frame_ts": "04:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

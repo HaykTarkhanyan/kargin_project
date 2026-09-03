@@ -1,0 +1,19 @@
+{
+  "video_id": "NOD6acxtpFE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["older blonde receptionist", "businessman", "young woman visitor"],
+  "drag": false,
+  "key_props": ["telephone", "computer", "printer", "camera"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A businessman in his office first deals with an older blonde receptionist fiddling with a camera, then a young woman in a patterned dress visits his desk for a friendly conversation that ends with him taking a phone call.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

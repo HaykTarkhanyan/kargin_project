@@ -1,0 +1,19 @@
+{
+  "video_id": "kOGVCV4TAgY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "clinic/office room",
+  "character_types": ["clinic worker with glasses and mustache", "heavyset man in white shirt", "woman in green with baby (drag)"],
+  "drag": true,
+  "key_props": ["ID lanyard badge", "wall calendar", "swaddled baby bundle", "hanging clothes"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a small clinic-like office, a mustached man in scrubs with an ID badge argues animatedly with a heavyset man in a white shirt; the scene passes through a hallway with hanging clothes, and a woman in green, played in drag and holding a swaddled baby, joins and embraces him.",
+  "best_frame_ts": "01:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

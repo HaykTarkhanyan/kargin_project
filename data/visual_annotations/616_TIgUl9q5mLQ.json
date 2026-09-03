@@ -1,0 +1,19 @@
+{
+  "video_id": "TIgUl9q5mLQ",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "riverside fishing spot",
+  "character_types": ["fisherman", "boy"],
+  "drag": false,
+  "key_props": ["fishing rod", "bobber float", "straw hat", "small dock"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An older man in camouflage jacket and straw hat fishes at a quiet riverbank alongside a teenage boy in sportswear; they sit together on a small dock casting lines and talk animatedly with hand gestures throughout.",
+  "best_frame_ts": "00:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

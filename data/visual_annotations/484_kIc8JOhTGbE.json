@@ -1,0 +1,19 @@
+{
+  "video_id": "kIc8JOhTGbE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and office hallway",
+  "character_types": ["man in striped shirt", "man in white shirt", "mustached man"],
+  "drag": false,
+  "key_props": ["sofa", "dining table", "arm sling bandage", "office door sign"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men argue at a dining table and then scuffle on a couch inside an apartment, escalating into a physical fight; afterward, one man appears with his arm in a sling, visiting an office or clinic hallway with a mustached man.",
+  "best_frame_ts": "01:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

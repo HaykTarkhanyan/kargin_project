@@ -1,0 +1,19 @@
+{
+  "video_id": "2311QdBFp4o",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "military barracks room",
+  "character_types": ["soldier"],
+  "drag": false,
+  "key_props": ["camouflage uniform", "striped undershirt", "peaked military cap", "bed", "floral blanket"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A soldier in camouflage enters a dim barracks room at night, changes into a striped undershirt, lies down and rolls around on the bed, then puts on a peaked officer's cap, alone in the room throughout.",
+  "best_frame_ts": "01:19",
+  "confidence": "medium",
+  "needs_audio": true
+}

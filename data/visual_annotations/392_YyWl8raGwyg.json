@@ -1,0 +1,19 @@
+{
+  "video_id": "YyWl8raGwyg",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "textile factory and apartment",
+  "character_types": ["mustached factory worker", "factory coworkers", "woman under blanket", "man under blanket"],
+  "drag": false,
+  "key_props": ["stuffing bales", "factory machinery", "cars", "pink blanket", "bed"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A mustached factory worker labors amid large stuffing bales on a factory floor, then travels past an outdoor parking lot to an apartment building, climbs a stairwell, and finds a couple hiding under a pink blanket in bed, reacting with surprise.",
+  "best_frame_ts": "02:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

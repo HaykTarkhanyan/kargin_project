@@ -1,0 +1,19 @@
+{
+  "video_id": "NLoJXXo_cSw",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "forest picnic clearing",
+  "character_types": ["friend"],
+  "drag": false,
+  "key_props": ["picnic blanket", "food spread", "glass", "small red item"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men lie on a picnic blanket in a forest clearing eating and drinking; one in a plaid shirt does most of the talking with animated hand gestures in close-up, and at the end they jump up and run off through the trees.",
+  "best_frame_ts": "01:38",
+  "confidence": "medium",
+  "needs_audio": true
+}

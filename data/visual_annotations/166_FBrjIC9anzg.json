@@ -1,0 +1,19 @@
+{
+  "video_id": "FBrjIC9anzg",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "university lecture hall",
+  "character_types": ["professor", "female student", "male student"],
+  "drag": false,
+  "key_props": ["chalkboard", "exam papers"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A shaggy-haired, bearded professor lectures and paces in front of a chalkboard with animal sketches while students sit at wooden desks writing exam answers; a male student reacts with a dramatic raised fist near the end.",
+  "best_frame_ts": "00:23",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "rErcpknoD_4",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "house party reception room",
+  "character_types": ["man with mustache", "woman with glasses", "man with glasses", "older woman", "woman in gold dress"],
+  "drag": false,
+  "key_props": ["buffet food table", "sandwiches", "fruit plate", "wine glasses", "party hats", "fireplace"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Guests mingle and chat at an indoor party with a buffet table by a fireplace; a mustachioed man is repeatedly shown eating and being fed food by a woman with glasses while other guests talk nearby.",
+  "best_frame_ts": "00:57.200",
+  "confidence": "medium",
+  "needs_audio": true
+}

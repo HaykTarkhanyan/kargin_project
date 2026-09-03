@@ -1,0 +1,19 @@
+{
+  "video_id": "WuzT_vKu-u4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "eye doctor's office",
+  "character_types": ["ophthalmologist", "patient"],
+  "drag": false,
+  "key_props": ["eye chart", "eye exam machine", "desk computer", "white coat"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached eye doctor in a white coat has an increasingly animated conversation with a patient in a black leather jacket, who becomes visibly agitated and emotional, at one point sitting for an eye exam at the testing machine.",
+  "best_frame_ts": "01:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

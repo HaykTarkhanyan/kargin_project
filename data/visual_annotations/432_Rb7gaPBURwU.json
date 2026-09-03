@@ -1,0 +1,19 @@
+{
+  "video_id": "Rb7gaPBURwU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and bedroom",
+  "character_types": ["young man", "woman", "dancing man"],
+  "drag": false,
+  "key_props": ["rotary phone", "teddy bear", "tv"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A young man in glasses sits on a couch talking on a yellow corded phone, intercut repeatedly with a woman in lingerie lying on a bed with a teddy bear also on the phone, plus brief shots of a TV screen and another man dancing.",
+  "best_frame_ts": "00:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

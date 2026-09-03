@@ -1,0 +1,19 @@
+{
+  "video_id": "vDjc8pWoNnw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "fortune-teller's parlor",
+  "character_types": ["fortune teller", "client woman"],
+  "drag": true,
+  "key_props": ["playing/tarot cards", "candles", "coat rack", "beaded necklace", "round table with lace tablecloth"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two heavily made-up women in wigs (apparently male actors in drag) sit and talk in a dimly lit, candle-lit room with playing cards on a round table; one plays a fortune teller reading cards for the other, a client in a beige blazer.",
+  "best_frame_ts": "00:45.300",
+  "confidence": "medium",
+  "needs_audio": true
+}

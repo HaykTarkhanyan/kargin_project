@@ -1,0 +1,19 @@
+{
+  "video_id": "f0rkpSeKoEo",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["dog"],
+  "vehicles": ["car"],
+  "location_fine": "stone building courtyard",
+  "character_types": ["man in white shirt", "man in dark checkered shirt"],
+  "drag": false,
+  "key_props": ["stone wall", "barred window"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men outside a stone building repeatedly lean, push against, and crouch by a wall in an exaggerated exercise or struggle routine, arguing with expressive gestures while a small dog wanders nearby.",
+  "best_frame_ts": "01:20",
+  "confidence": "low",
+  "needs_audio": true
+}

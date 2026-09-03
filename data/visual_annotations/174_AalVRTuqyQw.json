@@ -1,0 +1,19 @@
+{
+  "video_id": "AalVRTuqyQw",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["office worker", "secretary (possibly drag)"],
+  "drag": true,
+  "key_props": ["telephone", "desk", "printer", "fire extinguisher"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached office worker talks on the phone at his desk, then a long-wigged secretary-like character (likely a man in drag) enters and the two have an animated exchange with escalating gestures.",
+  "best_frame_ts": "01:04",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "N5eryth3Jno",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant",
+  "character_types": ["young man", "young woman", "waiter", "background patrons"],
+  "drag": false,
+  "key_props": ["bananas", "oranges", "phone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A nerdy young man in a plaid jacket and glasses sits across from a young woman at a restaurant table with fruit, gesturing animatedly through an awkward date-like conversation.",
+  "best_frame_ts": "01:49",
+  "confidence": "medium",
+  "needs_audio": true
+}

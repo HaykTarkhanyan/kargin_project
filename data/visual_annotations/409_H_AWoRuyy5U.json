@@ -1,0 +1,19 @@
+{
+  "video_id": "H_AWoRuyy5U",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "family living room and bedroom",
+  "character_types": ["woman in robe", "two young men in tracksuits", "man in suit", "woman in white top"],
+  "drag": false,
+  "key_props": ["decorative figurines", "plastic-wrapped parcel"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A family argument in a living room escalates into two men shoving and grappling each other while a woman tries to intervene, then the scene shifts to a bedroom where a couple examines a large plastic-wrapped parcel.",
+  "best_frame_ts": "01:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

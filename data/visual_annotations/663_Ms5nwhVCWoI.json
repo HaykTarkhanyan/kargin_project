@@ -1,0 +1,19 @@
+{
+  "video_id": "Ms5nwhVCWoI",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["young office worker", "older office manager"],
+  "drag": false,
+  "key_props": ["bonsai plant", "desktop computer", "small notebook", "eyeglasses", "suspenders"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young mustached office worker in glasses and suspenders and an older mustached office manager in a dark suit alternate speaking at a desk with a bonsai plant and a computer, one occasionally reading from a small notebook.",
+  "best_frame_ts": "00:45",
+  "confidence": "medium",
+  "needs_audio": true
+}

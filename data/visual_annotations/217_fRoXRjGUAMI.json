@@ -1,0 +1,19 @@
+{
+  "video_id": "fRoXRjGUAMI",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["marshrutka", "car"],
+  "location_fine": "marshrutka minibus depot yard",
+  "character_types": ["marshrutka driver", "man in flat cap", "man in trench coat"],
+  "drag": false,
+  "key_props": ["marshrutka minibus", "flat cap", "sunglasses"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Marshrutka minibus drivers gather in an autumn yard among parked minibuses; a man in a flat cap tells an animated story to camera and to another man in a trench coat and sunglasses, and the segment ends with a group of men shoving and grappling with each other.",
+  "best_frame_ts": "04:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

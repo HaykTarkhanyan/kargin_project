@@ -1,0 +1,19 @@
+{
+  "video_id": "vtWIG1U1Qwk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment kitchen and living room",
+  "character_types": ["man", "woman"],
+  "drag": false,
+  "key_props": ["couch", "kitchen counter"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A man and woman enter an apartment together, and their interaction escalates into a physical fight through the kitchen and onto a couch, with grabbing, raised fists, and one person falling to the floor.",
+  "best_frame_ts": "00:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

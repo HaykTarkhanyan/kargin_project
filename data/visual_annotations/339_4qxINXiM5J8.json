@@ -1,0 +1,19 @@
+{
+  "video_id": "4qxINXiM5J8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "old apartment living room and bedroom",
+  "character_types": ["elderly man with cane", "elderly man in armchair", "devil or monster costumed figure"],
+  "drag": false,
+  "key_props": ["television", "cane", "blanket", "monster costume"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two elderly men sit on a couch watching television (a soccer match and other programs), then the scene shifts to a bedroom where one is in bed and a theatrical devil or monster figure in a black cape with white face paint and claw-like hands appears dramatically.",
+  "best_frame_ts": "03:28",
+  "confidence": "low",
+  "needs_audio": true
+}

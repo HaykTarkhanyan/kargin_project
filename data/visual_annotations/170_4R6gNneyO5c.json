@@ -1,0 +1,19 @@
+{
+  "video_id": "4R6gNneyO5c",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "ornate living room",
+  "character_types": ["santa claus", "young girl"],
+  "drag": false,
+  "key_props": ["santa costume", "curtain", "calendar poster"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A Santa Claus-like figure in a maroon and white robe enters an ornate house and playfully interacts with a young girl, who hides behind a curtain as he wanders through the room.",
+  "best_frame_ts": "00:38",
+  "confidence": "medium",
+  "needs_audio": true
+}

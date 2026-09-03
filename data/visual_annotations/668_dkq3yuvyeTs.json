@@ -1,0 +1,19 @@
+{
+  "video_id": "dkq3yuvyeTs",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["motorcycle with sidecar", "truck"],
+  "location_fine": "street-side table against courtyard wall",
+  "character_types": ["villager with mustache and beanie", "heavyset man in sheepskin-collar jacket"],
+  "drag": false,
+  "key_props": ["bread", "onions", "tomatoes", "cheese", "glasses", "motorcycle"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit at a small outdoor table against a weathered plaster wall, eating bread and vegetables while talking and gesturing, sometimes heatedly; the scene ends with one man riding off on a motorcycle sidecar and the other running near a parked truck.",
+  "best_frame_ts": "01:08",
+  "confidence": "medium",
+  "needs_audio": true
+}

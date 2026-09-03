@@ -1,0 +1,19 @@
+{
+  "video_id": "AXFZ8ymj--w",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["man in suit", "woman (drag)"],
+  "drag": true,
+  "key_props": ["champagne glass", "coffee table snacks"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit and a character in a long wig, red lipstick and dress (played by a male actor in drag) sit together on a couch having an extended conversation over champagne in a living room.",
+  "best_frame_ts": "00:29",
+  "confidence": "high",
+  "needs_audio": true
+}

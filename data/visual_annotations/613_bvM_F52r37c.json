@@ -1,0 +1,19 @@
+{
+  "video_id": "bvM_F52r37c",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant lounge (cherry club)",
+  "character_types": ["waiter", "customer"],
+  "drag": false,
+  "key_props": ["notepad", "wine glasses", "fruit platter", "neon sign"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached waiter at the Cherry Club restaurant attentively serves a seated customer, taking notes, pouring drinks, and bringing a fruit platter, before helping the now-tipsy customer up and walking with him through the venue.",
+  "best_frame_ts": "01:23",
+  "confidence": "medium",
+  "needs_audio": true
+}
