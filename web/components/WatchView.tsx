@@ -61,6 +61,28 @@ export default function WatchView({ s }: { s: Sketch }) {
             </div>
           </div>
         )}
+        {s.visual && (
+          <div className="mb-4">
+            <div className="mb-2 flex items-baseline gap-2 border-t-2 border-ink pt-3">
+              <span className="font-display text-base tracking-wide">🎬 ՏԵՍԱՐԱՆԸ</span>
+              <span className="text-[11px] font-semibold text-muted">
+                AI-ի նկարագրությունը կադրերից, անգլերեն
+              </span>
+            </div>
+            <div className="rounded-md border-2 border-ink/25 bg-surface px-3 py-2.5 text-sm leading-relaxed">
+              <p>{s.visual.synopsis}</p>
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                <span className="rounded-full border border-ink/40 px-2 py-0.5 text-[11px] font-semibold">📍 {s.visual.locationFine}</span>
+                {(s.visual.animals ?? []).map((a) => (
+                  <span key={a} className="rounded-full border border-ink/40 px-2 py-0.5 text-[11px] font-semibold">🐾 {a}</span>
+                ))}
+                {(s.visual.keyProps ?? []).map((p) => (
+                  <span key={p} className="rounded-full border border-ink/40 px-2 py-0.5 text-[11px] font-semibold">{p}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
         {s.songs && s.songs.length > 0 && (
           <div className="mb-4">
             <div className="mb-2 border-t-2 border-ink pt-3 font-display text-base tracking-wide">🎵 ԵՐԱԺՇՏՈՒԹՅՈՒՆ</div>

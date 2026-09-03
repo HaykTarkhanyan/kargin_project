@@ -27,6 +27,11 @@ const TRANSCRIPT_WEIGHT = 2;
 // what the sketch is about, so it should not outrank the dialogue.
 const SONG_WEIGHT = 2;
 
+// Visual annotations are machine descriptions in English — weight 1, below
+// everything a person wrote. What they buy: "cow", "lada", "casino", "wedding"
+// find sketches whose dialogue never says those words.
+const VISUAL_WEIGHT = 1;
+
 function durationOk(sec: number | null, bucket?: Filters["duration"]): boolean {
   if (!bucket || sec == null) return !bucket;
   if (bucket === "<2") return sec < 120;
@@ -73,6 +78,14 @@ function getIndex(s: Sketch): SketchIndex {
   // by, and including them would dilute the index with reissue names.
   if (s.songs?.length) {
     add(s.songs.map((x) => `${x.artist} ${x.title}`).join(" "), SONG_WEIGHT);
+  }
+  if (s.visual) {
+    add(
+      [s.visual.synopsis, s.visual.locationFine,
+       ...(s.visual.characterTypes ?? []), ...(s.visual.keyProps ?? []),
+       ...(s.visual.animals ?? []), ...(s.visual.vehicles ?? [])].join(" "),
+      VISUAL_WEIGHT,
+    );
   }
   idx = { combined: normalize(parts.join(" ")), fields };
   _indexCache.set(s, idx);

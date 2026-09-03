@@ -24,6 +24,28 @@ export interface Sketch {
    * the only dialogue that exists.
    */
   transcript?: Transcript;
+  /** Machine-read scene metadata from the contact-sheet pass; covers all sketches. */
+  visual?: Visual;
+}
+
+/**
+ * What a vision model saw in the sketch's frames (blind: no access to the
+ * curated text). English by origin; carries facts dialogue never does —
+ * setting, props, animals, whether a role is played in drag.
+ */
+export interface Visual {
+  locationFine: string;
+  synopsis: string;
+  physicality: "talking" | "physical" | "fight";
+  /** MM:SS of the most representative frame. */
+  bestFrameTs: string;
+  confidence: "high" | "medium" | "low";
+  characterTypes?: string[];
+  keyProps?: string[];
+  animals?: string[];
+  vehicles?: string[];
+  /** A male actor visibly playing a female character. */
+  drag?: boolean;
 }
 
 /** Armenian speech recognised from the sketch's audio. */

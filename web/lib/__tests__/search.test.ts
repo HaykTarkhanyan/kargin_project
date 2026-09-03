@@ -69,6 +69,26 @@ describe("non-string fields are searchable", () => {
     ];
     expect(searchSketches("Սուսաննա", both, {})[0].id).toBe("dialogue");
   });
+
+  const visual: NonNullable<Sketch["visual"]> = {
+    locationFine: "village farm yard", synopsis: "A man argues with a stubborn donkey near a barn.",
+    physicality: "physical", bestFrameTs: "01:10", confidence: "medium",
+    animals: ["donkey"], keyProps: ["boombox"],
+  };
+
+  it("finds a sketch by what the visual annotation saw", () => {
+    const data2 = [mk({ id: "v", visual }), mk({ id: "plain" })];
+    expect(searchSketches("donkey", data2, {}).map((s) => s.id)).toEqual(["v"]);
+    expect(searchSketches("boombox", data2, {}).map((s) => s.id)).toEqual(["v"]);
+  });
+
+  it("ranks a curated-text hit above a visual-only hit", () => {
+    const data2 = [
+      mk({ id: "visonly", visual: { ...visual, synopsis: "wedding at a barn" } }),
+      mk({ id: "dialogue", text: "wedding խոսքը տեքստում է" }),
+    ];
+    expect(searchSketches("wedding", data2, {})[0].id).toBe("dialogue");
+  });
 });
 
 describe("format", () => {
