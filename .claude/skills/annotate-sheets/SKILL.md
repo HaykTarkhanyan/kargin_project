@@ -106,3 +106,20 @@ means the source video's video stream is shorter than its audio - a broken
 download. Verify with ffprobe (compare video vs audio stream durations),
 delete the bad mp4 + sheet + json, and re-run the downloader (see
 LEARNINGS.md on VP9-over-HLS truncation).
+
+## Escalation pass (low-confidence sheets)
+
+Re-run lows through Opus with the same schema, framed as a second pass:
+overwrite the JSON, do NOT read the old one first, zoom into tiles for
+anything ambiguous, and keep "low" as a valid honest outcome. Measured
+2026-09-04: resolved 100 of 101 lows; the wins came from reading signage and
+props at zoom, not from rethinking.
+
+Two rules learned from Opus agent deaths (LEARNINGS.md 2026-09-04):
+- Every agent prompt must say: write each JSON the moment that sheet is done,
+  never batch writes. Opus vision agents stall/die mid-run; per-file writes
+  make recovery a cheap mtime diff instead of a redo.
+- Agents scripting crops must use UNIQUELY NAMED helper files - the shared
+  scratchpad lets concurrent agents clobber each other's helpers silently.
+- Opus sizing: 7 sheets per agent, max 3 concurrent. (Sonnet tolerates 9-13
+  per agent and 6-8 concurrent.)

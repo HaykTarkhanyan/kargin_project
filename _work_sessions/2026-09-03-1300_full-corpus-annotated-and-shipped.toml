@@ -1,0 +1,105 @@
+title = "Full corpus finished: 702 videos, 702 sheets, 702 visual annotations (Sonnet pass + Opus second pass), all wired into the site"
+date = "2026-09-03"
+time = "13:00"
+areas = ["data/", "scripts/kargin_build/", "web/", ".claude/skills/", "tests/"]
+
+# ---------------------------------------------------------------------------
+# STATE AT LOG TIME (2026-09-04 ~03:40)
+#   videos       : 702/702 at 360p (6.1 GB), integrity-swept, DONE for good.
+#   sheets       : 702/702 contact sheets, DONE.
+#   annotations  : 702/702, Opus-escalated, committed a8db3f5, pushed.
+#   site         : visual layer live (search + watch page); the deploy carrying
+#                  the escalated data finished GREEN (run 33817396369).
+#   nothing else in flight. All agents finished.
+# ---------------------------------------------------------------------------
+
+done = """
+VIDEO CORPUS CLOSED OUT
+- Resumed the 360p download at 482/702, finished 702/702 (6.1 GB), 0 failures.
+- Full integrity sweep (video-vs-audio stream duration, codec check): zero
+  duration mismatches in the whole corpus. One finding: everything downloaded
+  before the avc1 selector fix is VP9/AV1-in-mp4 (intact, plays fine, sheets
+  fine). Decision: keep the mixed-codec corpus; re-download to h264 only if
+  the clip feature ever needs it.
+- 051 fully healed (video, sheet, annotation) after the truncated-VP9 incident.
+
+CONTACT SHEETS: 702/702, leapfrogging the downloader, 0 failures total.
+
+VISUAL ANNOTATIONS: 702/702 (the day's centrepiece)
+- Sonnet first pass in agent waves (9-13 sheets/agent, ~6-8 concurrent,
+  byte-identical prompts for cache sharing). Zero schema violations across
+  every batch. Measured cost fell 17k -> ~8-11k tokens/sheet as batching and
+  cross-agent prefix caching kicked in. ~7M Sonnet tokens all-in.
+- Opus second pass on the 101 low-confidence sheets: per-tile zoom crops,
+  Armenian signage read off tiles (electoral precinct number, hell/paradise
+  door signs), props corrected that change the joke (hair clipper not gun,
+  clothes irons as defibrillator paddles), drag verified face-by-face.
+  Result: low 101 -> 1 (the near-black Vaxo sketch, honestly unresolvable),
+  high 51 -> 75, drag 119 -> 132, 8 compilations with explicit segment counts.
+- First Opus wave lost 3 of 4 agents (stream stalls / API error). Recovery:
+  per-file writes meant nothing was lost; relaunched only untouched files in
+  7-sheet batches at 3 concurrent. See LEARNINGS 2026-09-04.
+- The annotation layer independently rediscovered a known duplicate pair
+  (071/093) by pixel-diffing sheets, and surfaced the compilations the
+  60-second audio fingerprints could not see past.
+
+SITE WIRING (visual layer live)
+- scripts/kargin_build/visual.py loader -> assemble -> payload (`visual` key,
+  empty fields omitted, duplicates fail loudly). Payload 2,270 -> 2,636 KB.
+- Search indexes synopsis/location/characters/props/animals/vehicles at
+  weight 1 (below all human text): "donkey", "lada", "casino" now find
+  sketches whose dialogue never says those words.
+- Watch page: 🎬 ՏԵՍԱՐԱՆԸ box with the AI synopsis + scene tags, labelled as
+  machine-read-from-frames, English.
+- Tests: 96 python + 73 web, tsc + lint clean. Deploys green throughout
+  (each push watched with `gh run watch --exit-status`).
+
+COMMITS (all pushed): 7e786e7 corpus annotations | 98ede13 site wiring |
+a8db3f5 Opus second pass. Plus yesterday's 5d107ae/ba7fd84/db3e3fe/3829d22.
+"""
+
+pending = """
+- NOTHING in flight. Optional next steps, in rough value order:
+  1. Use best_frame_ts for real thumbnails / OG images (SEO backlog synergy).
+  2. Site filters for drag / animals / locationFine (index already has the data).
+  3. The docs/website_review_2026-08-01.md backlog (SEO package, bundle size —
+     now 2,636 KB and growing).
+  4. Update duplicates/compilation records from the 8 confirmed compilations
+     (241, 273, 274, 275, 276, 277, 328, 509) — only 2 were previously mapped.
+  5. data/video/superseded_720p/ (343 MB) can be deleted whenever.
+- The clip-editor decision (_knowledge/video_clip_editor_options_2026-08-29.md)
+  is still open; the 360p corpus doubles as its source store.
+"""
+
+next = """
+- Picking up cold: check `gh run list --limit 1` (a deploy was in_progress at
+  log time), then skim this file's STATE block. /annotate-sheets skill holds
+  the annotation workflow if any sheet ever needs a redo.
+"""
+
+files = [
+  "data/visual_annotations/",
+  "scripts/kargin_build/visual.py",
+  "scripts/build_site_data.py",
+  "web/lib/types.ts",
+  "web/lib/search.ts",
+  "web/components/WatchView.tsx",
+  "tests/build/test_visual.py",
+  ".claude/skills/annotate-sheets/SKILL.md",
+  "LEARNINGS.md",
+]
+
+commits = [
+  "7e786e7 data(annotations): complete the visual metadata corpus — all 702 sketches",
+  "98ede13 feat(web): ship the visual annotations — searchable and shown on the watch page",
+  "a8db3f5 data(annotations): Opus second pass on the 101 low-confidence sheets",
+]
+
+notes = """
+- The confidence field turned out to be the whole quality system: cheap model
+  flags, expensive model resolves, and the flag list doubles as an anomaly
+  detector (black tiles -> broken download; 4+ settings -> compilation).
+- Fun corpus facts for the site someday: 132 drag sketches, 41 fights,
+  8 dogs / 5 cows / 4 horses / a lemur / a camel / two swans, 37 Ladas,
+  a sketch whose punchline is a wife going to bed in a Soviet gas mask.
+"""
