@@ -4,14 +4,14 @@ time = "02:30"
 areas = ["scripts/", "data/", "_knowledge/", ".claude/skills/"]
 
 # ---------------------------------------------------------------------------
-# STATE AT LOG TIME (~04:50)
-#   download    : RUNNING in background (~330/702 at 360p, resume-safe).
-#                 Selector now pins vcodec avc1 + protocol https.
-#   sheets      : ~280 built; builder is re-run manually after download waves.
-#                 Resume-safe by file presence.
-#   annotations : 99 on disk (100 minus deleted 051), 0 schema violations.
-#   remaining   : final download sweep + sheet catch-up + re-annotate 051 +
-#                 ~600 more sheets to annotate (user decides when).
+# STATE AT SESSION END (~05:00) — everything STOPPED deliberately, resume tmrw
+#   download    : STOPPED at 481/702 (4.0 GB). One .part leftover, harmless.
+#                 Resume:  uv run python scripts/download_video.py --height 360 --sleep 1
+#                 (needs deno on PATH: %LOCALAPPDATA%\Microsoft\WinGet\Packages\DenoLand.Deno_*)
+#   sheets      : 306 built (159 MB). Resume: uv run python scripts/build_contact_sheets.py
+#   annotations : 99 on disk + committed, 0 schema violations. /annotate-sheets continues.
+#   after resume: integrity-sweep new files (video vs audio stream duration,
+#                 >2 s apart = broken), then sheets, then re-annotate 051.
 # ---------------------------------------------------------------------------
 
 done = """
