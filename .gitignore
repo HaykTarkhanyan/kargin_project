@@ -245,3 +245,6 @@ __marimo__/
 
 # Per-user Claude Code overrides
 .claude/settings.local.json
+
+# Contact sheets: derived from data/video, regenerable via build_contact_sheets.py
+/data/contact_sheets/

@@ -1,26 +1,37 @@
-"""Download 360p video for every video in data/youtube_metadata.csv.
+"""Download video for every video in data/youtube_metadata.csv.
 
 Mirror of scripts/download_audio.py but for video. Same naming convention,
 same resume-by-file-presence, same rate-limit auto-stop. Different output
 directory (data/video/), different log file, different format selector.
 
-Format: best[height<=360]/best. The first selector picks YouTube's classic
-format 18 (single pre-merged mp4 with H.264 video + AAC audio at ~330 kbps
-total) when available — no FFmpeg needed. The fallback `best` covers the
-rare case where YouTube only serves split video+audio streams at 360p.
+Format depends on --height:
+  360 (default): best[height<=360]/best. Picks YouTube's classic format 18
+      (single pre-merged mp4, H.264 + AAC, ~330 kbps total) — no FFmpeg needed.
+  above 360: bestvideo[mp4]+bestaudio[m4a] merged to mp4. YouTube only serves
+      >360p as split DASH streams, so FFmpeg must be on PATH to mux. yt-dlp's
+      merger always writes `-movflags +faststart`, so the moov atom lands at
+      the front — required for cheap HTTP range reads later. The SD-only
+      videos (~128 of 702 have no 720p rendition) fall back to their best.
+
+YouTube extraction needs a JS runtime (deno) on PATH since mid-2026;
+without one, DASH formats 403.
 
 Resume-safe by file presence: any video_id that already has a file in
 data/video/ is skipped on subsequent runs. Failures are logged but NOT
 recorded persistently — they will be retried on the next run, which is the
 desired behavior for transient rate-limit errors.
 
+Aborts loudly if free disk space drops below 5 GiB: the 720p corpus is
+~19 GB estimated from one video's bitrate, and this machine does not have
+room for that estimate to be very wrong.
+
 Output filenames look like:
     data/video/{seq:03d}_{sanitized_title}_{video_id}.{ext}
 
 Usage:
     uv run python scripts/download_video.py
+    uv run python scripts/download_video.py --height 720 --sleep 1.0
     uv run python scripts/download_video.py --limit 5      # smoke test
-    uv run python scripts/download_video.py --sleep 1.0    # be polite
 """
 
 from __future__ import annotations
@@ -28,6 +39,7 @@ from __future__ import annotations
 import argparse
 import logging
 import re
+import shutil
 import sys
 import time
 from pathlib import Path
@@ -73,11 +85,40 @@ def existing_video_ids(output_dir: Path) -> set[str]:
     return out
 
 
-def download_one(video_id: str, output_dir: Path, seq: int) -> tuple[bool, str]:
-    """Try to download one video at <=360p. Returns (ok, message)."""
+MIN_FREE_BYTES = 5 * 1024**3  # abort below this; see module docstring
+
+
+def format_for(height: int) -> dict:
+    """yt-dlp format options for the requested cap. See module docstring.
+
+    Both branches end in a DASH-merge fallback: YouTube is phasing out the
+    pre-merged format 18, and some videos (e.g. RazaN_OT-tA) serve ONLY split
+    streams — a bare `best` errors with "Requested format is not available".
+
+    The DASH selector pins vcodec (avc1) and protocol (https), not just
+    ext=mp4: YouTube also lists VP9-in-mp4 renditions served over HLS (m3u8),
+    and `ext=mp4` alone can pick those. On goMkbrJ5znE that HLS stream
+    truncated silently at 42s of a 143s video — full audio, 42s of picture,
+    exit code 0. avc1-over-https avoids the class entirely.
+    """
+    dash = (
+        f"bestvideo[vcodec^=avc1][height<={height}][protocol=https]"
+        f"+bestaudio[ext=m4a]"
+    )
+    if height <= 360:
+        # Prefer the single pre-merged file (no mux step) when it exists.
+        fmt = f"best[height<={height}]/{dash}/best"
+    else:
+        # Pre-merged tops out at 360p, so DASH must come first here.
+        fmt = f"{dash}/best[height<={height}]/best"
+    return {"format": fmt, "merge_output_format": "mp4"}
+
+
+def download_one(video_id: str, output_dir: Path, seq: int, height: int) -> tuple[bool, str]:
+    """Try to download one video at <=height. Returns (ok, message)."""
     outtmpl = str(output_dir / f"{seq:03d}_%(title)s_%(id)s.%(ext)s")
     ydl_opts = {
-        "format": "best[height<=360]/best",
+        **format_for(height),
         "outtmpl": outtmpl,
         "restrictfilenames": True,
         "quiet": True,
@@ -102,7 +143,7 @@ def download_one(video_id: str, output_dir: Path, seq: int) -> tuple[bool, str]:
         return False, (str(e).splitlines() or [""])[0][:300]
 
 
-def main(input_csv: Path, output_dir: Path, limit: int | None, sleep_sec: float) -> int:
+def main(input_csv: Path, output_dir: Path, limit: int | None, sleep_sec: float, height: int) -> int:
     if not input_csv.exists():
         logging.error(f"input not found: {input_csv}")
         return 2
@@ -140,8 +181,16 @@ def main(input_csv: Path, output_dir: Path, limit: int | None, sleep_sec: float)
     ok = 0
     fail = 0
     for i, vid in enumerate(todo, 1):
+        free = shutil.disk_usage(output_dir).free
+        if free < MIN_FREE_BYTES:
+            logging.error(
+                f"only {free / 1024**3:.1f} GiB free on the output drive — "
+                f"below the {MIN_FREE_BYTES / 1024**3:.0f} GiB floor. Stopping. "
+                "Free up space and re-run to resume."
+            )
+            return 1
         logging.info(f"[{i}/{len(todo)}] seq={seq_of[vid]:03d} {vid}")
-        success, msg = download_one(vid, output_dir, seq_of[vid])
+        success, msg = download_one(vid, output_dir, seq_of[vid], height)
         if success:
             ok += 1
             logging.info(f"  ok: {msg}")
@@ -176,5 +225,11 @@ if __name__ == "__main__":
         default=0.0,
         help="seconds to wait between downloads (default 0)",
     )
+    p.add_argument(
+        "--height",
+        type=int,
+        default=360,
+        help="max video height; above 360 needs FFmpeg to merge (default 360)",
+    )
     args = p.parse_args()
-    sys.exit(main(args.input, args.output, args.limit, args.sleep))
+    sys.exit(main(args.input, args.output, args.limit, args.sleep, args.height))

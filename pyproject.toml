@@ -4,9 +4,9 @@ version = "0.0.1"
 description = "Kargin sketch search and discovery."
 requires-python = ">=3.11"   # numpy 2.4 and pandas 3.0 both dropped 3.10; the venv was already 3.11
 dependencies = [
-    "yt-dlp==2026.3.17",
+    "yt-dlp==2026.8.19",
     "pandas==3.0.2",
-    "numpy==2.4.4",          # audio fingerprinting; np.bitwise_count needs numpy >= 2.0
+    "numpy==2.4.4", # audio fingerprinting; np.bitwise_count needs numpy >= 2.0
     "requests==2.33.1",
     "python-dotenv==1.2.2",
     "google-genai==1.73.1",
