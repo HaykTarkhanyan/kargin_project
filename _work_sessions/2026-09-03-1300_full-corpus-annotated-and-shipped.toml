@@ -8,8 +8,13 @@ areas = ["data/", "scripts/kargin_build/", "web/", ".claude/skills/", "tests/"]
 #   videos       : 702/702 at 360p (6.1 GB), integrity-swept, DONE for good.
 #   sheets       : 702/702 contact sheets, DONE.
 #   annotations  : 702/702, Opus-escalated, committed a8db3f5, pushed.
-#   site         : visual layer live (search + watch page); the deploy carrying
-#                  the escalated data finished GREEN (run 33817396369).
+#   site         : visual layer live (search + watch page). CORRECTION: run
+#                  33817396369 (Opus data) actually FAILED on a Pages-infra
+#                  artifact glitch — my watcher piped through `tail` and
+#                  swallowed the exit code, so I wrongly reported it green;
+#                  the user's failure email caught it. The follow-up run
+#                  33818145437 carries the same content — its result is the
+#                  one that matters.
 #   nothing else in flight. All agents finished.
 # ---------------------------------------------------------------------------
 
