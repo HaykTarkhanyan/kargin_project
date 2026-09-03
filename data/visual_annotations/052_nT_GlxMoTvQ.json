@@ -1,19 +1,19 @@
 {
   "video_id": "nT_GlxMoTvQ",
   "indoor_outdoor": "indoor",
-  "day_night": "night",
+  "day_night": "unclear",
   "people_count": "3",
   "has_crowd_or_extras": false,
   "animals": [],
   "vehicles": [],
-  "location_fine": "bedroom",
-  "character_types": ["woman in red top", "man in jacket", "hidden person (feet only)"],
+  "location_fine": "bedroom of an apartment",
+  "character_types": ["wife lounging in bed", "husband in a grey work jacket", "hidden lover (only his legs visible)"],
   "drag": false,
-  "key_props": ["cigarette", "bed", "floral wallpaper"],
+  "key_props": ["nail file", "bed with white blanket", "bare male legs sticking out from under the covers"],
   "physicality": "talking",
   "scene_structure": {"settings": 1, "repeating_gag": true},
-  "visual_synopsis": "A woman in a red top sits up in bed arguing and gesturing animatedly while smoking a cigarette; a man in a jacket sneaks in and hovers over her, while recurring cutaway shots show a third person's bare feet sticking out from under the blanket.",
-  "best_frame_ts": "00:41",
-  "confidence": "low",
-  "needs_audio": true
+  "visual_synopsis": "A woman in a red top lies in bed filing her nails and chats breezily with her husband, who stands in the bedroom doorway in a grey work jacket and never comes in. Three times the film cuts to a pair of hairy male legs poking out from under the blanket at the foot of her bed, which the husband never notices before he ducks out of the doorway and leaves.",
+  "best_frame_ts": "00:32",
+  "confidence": "high",
+  "needs_audio": false
 }
