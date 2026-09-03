@@ -1,0 +1,114 @@
+title = "360p video corpus + contact sheets + first 100 visual annotations, plus the clip-editor research"
+date = "2026-09-03"
+time = "02:30"
+areas = ["scripts/", "data/", "_knowledge/", ".claude/skills/"]
+
+# ---------------------------------------------------------------------------
+# STATE AT LOG TIME (~04:50)
+#   download    : RUNNING in background (~330/702 at 360p, resume-safe).
+#                 Selector now pins vcodec avc1 + protocol https.
+#   sheets      : ~280 built; builder is re-run manually after download waves.
+#                 Resume-safe by file presence.
+#   annotations : 99 on disk (100 minus deleted 051), 0 schema violations.
+#   remaining   : final download sweep + sheet catch-up + re-annotate 051 +
+#                 ~600 more sheets to annotate (user decides when).
+# ---------------------------------------------------------------------------
+
+done = """
+CLIP-EDITOR RESEARCH (user request: video editor in the UI)
+- Options doc written to _knowledge/video_clip_editor_options_2026-08-29.md:
+  Tier 0 timestamp share ($0), Tier 1 Mediabunny+R2 in-browser cut (~$0.15/mo,
+  WebCodecs browsers only), Tier 2 server cut (Containers/Stream/Modal).
+  Decision NOT made - options presented per the technology-choices rule.
+- Key facts: YouTube killed viewer Clips 2026-04; Mediabunny trim = full
+  transcode (WebCodecs required); ffmpeg.wasm dormant (~31 MB, last release
+  2025-01); measured keyframe gap median 2.8 s max 7.0 s (stream copy is not
+  a cut); GitHub Pages cannot host the bytes (1 GB / 100 GB-mo).
+
+VIDEO CORPUS AT 360p (user chose 360p over 720p: 19 GB was too much)
+- yt-dlp 2026.3.17 -> 2026.8.19 (pinned); deno installed via winget (YouTube
+  extraction now needs a JS runtime; without it DASH formats 403).
+- download_video.py: --height flag, DASH-merge fallback, 5 GiB free-space
+  guard. Three selector bugs found live, each on a real video:
+  (1) 403 without JS runtime; (2) "Requested format is not available" - some
+  videos have NO pre-merged format any more (f18 phase-out); (3) ext=mp4
+  matched a VP9-over-HLS rendition that truncated silently at 42 s of a 143 s
+  video with exit 0. Selector now: avc1 + https only.
+- Integrity sweep (video vs audio stream duration, >2 s = bad) over ~330
+  files caught exactly the one known-bad file. Its mp4/sheet/json deleted,
+  re-downloading. 13 early 720p files parked in data/video/superseded_720p/.
+
+CONTACT SHEETS (user idea: sketch as a grid of frames)
+- scripts/build_contact_sheets.py: 8x5 grid of 40 uniform frames, 320x180
+  tiles, 2560x900 sheet, timestamps burned per tile (drawtext, relative font
+  path cwd trick), resume-safe, ~5 s/video.
+- Design sized against live vision docs: 28 px patches, Fable/Opus-tier max
+  2576 px long edge / 4784 tokens -> one sheet ~3.0k tokens; token cost is
+  set by sheet AREA not tile count; grid ~3x cheaper than loose frames.
+- Reading test: 8 sketches described from sheets alone; Jorik (025) verified
+  line-for-line against curated text (towel/kolgotki gag visible in tiles).
+
+MODEL COMPARISON on the razborka sheet (055), blind, same prompt
+- Haiku: hallucinated an indoor apartment from the chain-link fence; wrong
+  story. Disqualified. Sonnet: setting/arc/ending all correct. Opus: best
+  and fastest (tracked who cries vs who gesticulates). Ground truth: the
+  curated text (Gugo stole 10 t from the boss's warehouse; "kill me first").
+
+VISUAL ANNOTATIONS - first 100 videos (user approved all 3 field tiers)
+- Schema: 17 fields (indoor/outdoor, day/night, people, animals, vehicles,
+  location_fine, character_types, drag, props, physicality, scene_structure,
+  visual_synopsis, best_frame_ts, confidence, needs_audio) -> one JSON per
+  video in data/visual_annotations/<seq>_<video_id>.json. Sidecar by design:
+  machine output never goes into hand-curated kargin_eng.csv.
+- Pilot 2x5 sheets validated schema + 4/4 location agreement with curated
+  ground truth, then 10 agents x 9 sheets in waves. 0 schema violations in
+  100. Confidence 4 high / 70 medium / 26 low; 17 drag; 6 fights; animals
+  include 2 cows, 2 donkeys, a camel and a swan.
+- Cost measured: 17k tokens/sheet at y=5 -> ~11k at y=9 (amortization
+  saturates, accumulation grows linearly; U-curve bottoms at y~9-12).
+  Full-corpus projection ~6.6M Sonnet tokens for the remaining ~600.
+- .claude/skills/annotate-sheets/SKILL.md created: the exact agent prompt
+  (byte-identical for cache), batching rules, validation snippet.
+"""
+
+pending = """
+- Download completing in background; then: integrity sweep the new cohort,
+  final build_contact_sheets.py run, re-annotate 051 (deleted as broken).
+- ~600 sheets not yet annotated. Invoke /annotate-sheets to continue in
+  waves; escalate the 26 low-confidence ones to Opus if wanted.
+- Clip-editor decision still open (options in _knowledge/); the 360p corpus
+  built here doubles as its source store if Tier 1/2 is ever chosen.
+- Merge visual_annotations into the site build (search index, filters) -
+  not started, not requested yet.
+- data/video/superseded_720p/ (343 MB) can be deleted whenever.
+"""
+
+next = """
+- If picking up cold: check `gh run list --limit 3` after any push; check the
+  background download finished (logs/download_video.log tail says "done");
+  then sweep + sheets + /annotate-sheets for the rest.
+"""
+
+files = [
+  ".claude/skills/annotate-sheets/SKILL.md",
+  "scripts/download_video.py",
+  "scripts/build_contact_sheets.py",
+  "data/visual_annotations/",
+  "_knowledge/video_clip_editor_options_2026-08-29.md",
+  "DEFERRED_TODO.md",
+  "LEARNINGS.md",
+  "pyproject.toml",
+]
+
+commits = [
+  "(committed at end of session - see git log 2026-09-03)",
+]
+
+notes = """
+- Subscription limits: Anthropic publishes no token quotas; metering is
+  5-hour session + weekly cap, model-weighted. Sonnet for bulk passes,
+  /usage after the first batch is the only real number.
+- Contact sheets let Claude 'watch' a sketch for ~3k tokens; needs_audio
+  stays true on most - visuals give the scene, not the joke. That is the
+  honest ceiling of the method.
+"""
