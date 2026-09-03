@@ -1,0 +1,19 @@
+{
+  "video_id": "HOIkWBoM-us",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "doctor's consultation room",
+  "character_types": ["doctor", "patient"],
+  "drag": false,
+  "key_props": ["desk", "surgical cap", "office chair"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A doctor in a surgical cap and blue scrub top sits at his desk gesturing animatedly while a series of different anxious patients enter one at a time for a brief consultation.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

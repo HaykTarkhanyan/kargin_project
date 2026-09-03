@@ -1,0 +1,19 @@
+{
+  "video_id": "Nat_gqfhqco",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": ["donkey", "camel"],
+  "vehicles": [],
+  "location_fine": "zoo animal enclosure",
+  "character_types": ["tour guide", "zookeeper", "schoolgirls"],
+  "drag": false,
+  "key_props": ["wooden stick", "guide lanyard"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A young female zoo tour guide leads a group of schoolgirls past enclosures with donkeys and camels, while a zookeeper in a winter coat and fur hat gestures animatedly and argues with the guide near the camel pen.",
+  "best_frame_ts": "01:23",
+  "confidence": "low",
+  "needs_audio": true
+}

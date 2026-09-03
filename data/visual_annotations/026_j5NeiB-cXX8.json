@@ -1,0 +1,19 @@
+{
+  "video_id": "j5NeiB-cXX8",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "military trench",
+  "character_types": ["soldier in camouflage with rifle", "soldier in camouflage with rifle"],
+  "drag": false,
+  "key_props": ["rifle", "smoke", "dirt trench wall"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two soldiers in camouflage run through smoke and gunfire, take cover behind a dirt embankment and fire their rifles, then settle into a trench for an extended tense conversation.",
+  "best_frame_ts": "00:05",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "TLD0RhsCHrc",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment interior",
+  "character_types": ["man in suit", "mustached man", "woman"],
+  "drag": false,
+  "key_props": ["closet clothes", "television", "bed", "bookshelf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a black suit rifles through a closet and moves through an apartment's hallway and living room before confronting a couple lying in bed - a mustached man in a white tank top and a woman - pointing and gesturing angrily from the bedroom doorway.",
+  "best_frame_ts": "00:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

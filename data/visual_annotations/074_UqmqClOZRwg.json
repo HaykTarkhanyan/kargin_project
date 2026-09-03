@@ -1,0 +1,19 @@
+{
+  "video_id": "UqmqClOZRwg",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": ["bird"],
+  "vehicles": [],
+  "location_fine": "rural field and pine woods",
+  "character_types": ["peasant man", "old woman"],
+  "drag": true,
+  "key_props": ["walking cane", "white bundle", "food item"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a traditional village outfit wanders and gestures through open fields and pine woods, cross-cut with an old woman in a black headscarf walking with a cane through the same landscape as if the two are conversing.",
+  "best_frame_ts": "01:04",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "7iLisyJtv08",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["gangster", "gangster", "frightened woman", "old woman"],
+  "drag": false,
+  "key_props": ["sunglasses", "black beanie hats", "leather jacket", "table cloth"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men in black leather jackets, beanies and sunglasses sit at a table intimidating a mustached man in a white shirt while a woman looks on frightened. After they leave, a man is found lying motionless on the floor, and the scene cuts to an elderly woman eating obliviously at a table.",
+  "best_frame_ts": "01:10",
+  "confidence": "medium",
+  "needs_audio": true
+}

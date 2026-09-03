@@ -1,0 +1,19 @@
+{
+  "video_id": "mPi-BHQ88uk",
+  "indoor_outdoor": "both",
+  "day_night": "mixed",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar / nightclub",
+  "character_types": ["bartender in vest and bow tie", "man in suit", "young waiter", "older seated man"],
+  "drag": false,
+  "key_props": ["bar counter", "candles", "cocktail glasses", "curtains"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit walks down a city street and enters a dimly lit, blue-toned bar. Inside, a graying, mustached bartender in a vest and bow tie tells an animated story and mixes drinks behind the counter, gesturing and laughing throughout while a younger bartender assists nearby.",
+  "best_frame_ts": "01:29",
+  "confidence": "medium",
+  "needs_audio": true
+}

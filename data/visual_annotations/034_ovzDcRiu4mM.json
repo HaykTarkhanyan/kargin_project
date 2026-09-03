@@ -1,0 +1,19 @@
+{
+  "video_id": "ovzDcRiu4mM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment building stairwell",
+  "character_types": ["husband in a suit", "wife in a bathrobe", "another woman"],
+  "drag": false,
+  "key_props": ["briefcase", "red bucket", "towel", "bed"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 3, "repeating_gag": true},
+  "visual_synopsis": "A man in a suit moves between two women in the same apartment building, chatting with a wife in a pink bathrobe downstairs and lying on a bed upstairs with another woman in a tank top, repeatedly climbing and descending the stairwell while at one point shirtless and carrying a red bucket.",
+  "best_frame_ts": "01:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

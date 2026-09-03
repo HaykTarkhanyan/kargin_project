@@ -1,0 +1,19 @@
+{
+  "video_id": "LYmYokgBBx4",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "house at night",
+  "character_types": ["man in pajamas", "sleeping woman"],
+  "drag": false,
+  "key_props": ["mobile phone", "bed"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "At night, a man in striped pajamas sneaks through a darkened house whispering urgently into his phone with his hand cupped over his mouth, using its glow to see, before creeping into a bedroom where a woman sleeps and sitting on the edge of the bed beside her.",
+  "best_frame_ts": "06:10",
+  "confidence": "medium",
+  "needs_audio": true
+}

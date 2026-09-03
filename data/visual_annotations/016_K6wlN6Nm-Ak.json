@@ -1,0 +1,19 @@
+{
+  "video_id": "K6wlN6Nm-Ak",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["man", "woman (drag)", "man with drink"],
+  "drag": true,
+  "key_props": ["television", "curtains", "couch", "glass of drink"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a blue shirt sits on a couch conversing with a woman in a red pinafore dress in a living room, at times reacting to an intimate scene playing on a nearby television. Later a different man enters holding a drink and knocks at the door as the conversation continues.",
+  "best_frame_ts": "00:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

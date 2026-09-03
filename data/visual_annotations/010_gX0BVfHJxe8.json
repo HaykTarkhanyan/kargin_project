@@ -1,0 +1,19 @@
+{
+  "video_id": "gX0BVfHJxe8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "real estate office",
+  "character_types": ["man in shirt and tie", "woman in blouse"],
+  "drag": false,
+  "key_props": ["telephone", "armenian flag", "desk lamp", "vvp real estate card/calendar"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a shirt and tie sits at an office desk with an Armenian flag, first talking on the phone, then a woman enters and they converse as he shows her a 'VVP Real Estate Agency' card or calendar before she walks off.",
+  "best_frame_ts": "00:50",
+  "confidence": "high",
+  "needs_audio": true
+}

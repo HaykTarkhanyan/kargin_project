@@ -1,0 +1,19 @@
+{
+  "video_id": "7ZWLrWrEjJo",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant",
+  "character_types": ["man on a date", "woman on a date", "waiter", "young women passersby"],
+  "drag": false,
+  "key_props": ["restaurant table", "sunglasses", "potted plants"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man and a curly-haired woman sit at a restaurant table on a date, served by a waiter in an orange polo shirt, while two young women pass by outside and enter; the date sours and the woman appears to grab or slap the man, leaving him sitting alone looking dejected.",
+  "best_frame_ts": "01:42",
+  "confidence": "medium",
+  "needs_audio": true
+}

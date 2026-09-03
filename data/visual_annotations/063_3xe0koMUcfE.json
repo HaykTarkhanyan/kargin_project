@@ -1,0 +1,19 @@
+{
+  "video_id": "3xe0koMUcfE",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["old soviet car", "suv"],
+  "location_fine": "residential street with garages",
+  "character_types": ["old man in plaid shirt", "young man in sunglasses"],
+  "drag": false,
+  "key_props": ["old car", "black suv", "wires", "sunglasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An older gray-haired man in a plaid shirt tinkers with wiring on his beat-up old car parked on a residential street, then a young man in sunglasses pulls up in a black luxury SUV and the two have an animated conversation through the car window.",
+  "best_frame_ts": "01:50",
+  "confidence": "medium",
+  "needs_audio": true
+}

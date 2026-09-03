@@ -1,0 +1,19 @@
+{
+  "video_id": "MFxsb0ftWAQ",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hair salon",
+  "character_types": ["hairdresser", "salon customer", "waiting customer"],
+  "drag": false,
+  "key_props": ["hairdressing scissors", "salon cape", "mirror", "wall clock", "hair salon posters"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A hairdresser cuts customers' hair in a salon decorated with hair-product posters while a talkative man in a barber's cape chats and gestures throughout his haircut; later a long-haired man enters and gets his shaggy hair cropped short by the same barber.",
+  "best_frame_ts": "00:52",
+  "confidence": "medium",
+  "needs_audio": true
+}

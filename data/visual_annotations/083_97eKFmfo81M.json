@@ -1,0 +1,19 @@
+{
+  "video_id": "97eKFmfo81M",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital corridor",
+  "character_types": ["surgeon", "patient", "hospital orderly"],
+  "drag": false,
+  "key_props": ["gurney", "surgical cap", "backpack", "hospital doors"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A patient is wheeled through a hospital corridor while a surgeon in a blue cap has a tense back-and-forth conversation with a mustached man in a dark robe outside the surgical block, ending with the man slumped against the wall in apparent distress.",
+  "best_frame_ts": "00:48",
+  "confidence": "medium",
+  "needs_audio": true
+}

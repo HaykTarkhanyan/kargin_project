@@ -1,0 +1,19 @@
+{
+  "video_id": "_xoYUJw1Hfg",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar / restaurant table",
+  "character_types": ["bartender", "bar patron", "man in fur hat", "man in flat cap"],
+  "drag": false,
+  "key_props": ["vodka bottles", "glasses", "bar shelf of liquor", "papakha fur hat", "flat cap", "food plates"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A bartender serves a customer at a bar counter lined with liquor bottles, while two men, one wearing a leather jacket and fur hat and the other a flat cap, sit at a table crowded with drinks and food, having an increasingly animated conversation with heavy gesturing.",
+  "best_frame_ts": "01:46",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "ofvCL_U2Er0",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment kitchen and living room",
+  "character_types": ["mustached man", "curly-wigged person", "suited businessman", "woman"],
+  "drag": true,
+  "key_props": ["curly wig", "stack of cash", "rug wall hanging", "bookshelf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man and a person in a curly red wig start out in a kitchen, then move to a book-lined living room where they sit with a well-dressed man in a suit and a woman, ending with a thick stack of hundred-dollar bills changing hands.",
+  "best_frame_ts": "02:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

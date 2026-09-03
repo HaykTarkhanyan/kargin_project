@@ -1,0 +1,19 @@
+{
+  "video_id": "NmY28R9g89E",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office corridor and home living room",
+  "character_types": ["businessman", "businessman", "woman", "drag character"],
+  "drag": true,
+  "key_props": ["red plastic cups", "water cooler", "bottle and glasses", "potted plant"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men in shirts and ties chat and drink from red cups in an office hallway by a water cooler, then the scene shifts to a home living room where a man drinks at a table with a woman and a wigged character in a cream cardigan who appears to be a man in drag, all talking together.",
+  "best_frame_ts": "02:00",
+  "confidence": "medium",
+  "needs_audio": true
+}

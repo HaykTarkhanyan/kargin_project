@@ -1,0 +1,19 @@
+{
+  "video_id": "WHkadKCrhqQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "hospital corridor and patient room",
+  "character_types": ["goateed doctor", "nurse", "male nurse", "patient"],
+  "drag": false,
+  "key_props": ["patient bed", "surgical cap", "lab coats"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In a desaturated, black-and-white styled hospital, a goateed doctor and nurses argue and gesture animatedly in a corridor, then attend to a patient lying in bed, examining and speaking closely to them.",
+  "best_frame_ts": "00:44",
+  "confidence": "medium",
+  "needs_audio": true
+}

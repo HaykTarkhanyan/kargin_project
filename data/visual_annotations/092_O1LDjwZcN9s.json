@@ -1,0 +1,19 @@
+{
+  "video_id": "O1LDjwZcN9s",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "countryside road",
+  "character_types": ["driver", "passenger in suit", "traffic policeman", "man in suit"],
+  "drag": false,
+  "key_props": ["id documents", "police cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men drive through a rural, tree-lined road and are pulled over by a mustachioed traffic policeman who checks their documents at the roadside.",
+  "best_frame_ts": "01:49",
+  "confidence": "medium",
+  "needs_audio": true
+}

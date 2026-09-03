@@ -1,0 +1,19 @@
+{
+  "video_id": "qKWNtFx1XGQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room and government office",
+  "character_types": ["man in flat cap", "man in patterned sweater", "man in green sweater", "uniformed office official"],
+  "drag": false,
+  "key_props": ["flat cap", "cardboard board", "armenian flag", "ukrainian flag", "desk computer", "coat rack"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "Three friends sit on a couch in an apartment talking and roughhousing, one wearing a flat cap; the scene then cuts to a government-style office where uniformed officials sit at desks backed first by an Armenian flag and then an almost identical setup with a Ukrainian flag.",
+  "best_frame_ts": "01:39",
+  "confidence": "low",
+  "needs_audio": true
+}

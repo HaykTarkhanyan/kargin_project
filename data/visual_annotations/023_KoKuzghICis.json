@@ -1,0 +1,19 @@
+{
+  "video_id": "KoKuzghICis",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "dining room",
+  "character_types": ["mustached man in vest and tie", "young woman", "older woman in white sweater", "older man in gray suit"],
+  "drag": false,
+  "key_props": ["kitchen ladle", "fruit platter", "wine bottle", "vodka bottle"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a vest and tie sits at a dinner table with two women, eating, drinking, and talking animatedly in a wood-paneled living room. A kitchen ladle is thrown at his head from off-screen, and a fourth character, an older man, joins the table partway through.",
+  "best_frame_ts": "01:57",
+  "confidence": "medium",
+  "needs_audio": true
+}

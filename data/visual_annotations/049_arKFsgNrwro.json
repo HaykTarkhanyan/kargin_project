@@ -1,0 +1,19 @@
+{
+  "video_id": "arKFsgNrwro",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "waiting room",
+  "character_types": ["mustached man", "young boy", "woman (drag)"],
+  "drag": true,
+  "key_props": ["telephone", "newspaper", "red armchairs", "curly wig"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man, a young boy, and a curly-wigged character played by a man in drag sit together in a plain beige room with red armchairs; they talk and gesture, with the boy reading a newspaper and the wigged character reclining theatrically.",
+  "best_frame_ts": "00:00",
+  "confidence": "low",
+  "needs_audio": true
+}

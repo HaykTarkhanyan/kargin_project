@@ -1,0 +1,19 @@
+{
+  "video_id": "5h70tn0asdo",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": ["cow"],
+  "vehicles": ["lada"],
+  "location_fine": "village cattle barn and farmyard",
+  "character_types": ["man in suit", "old woman with headscarf", "farm worker"],
+  "drag": true,
+  "key_props": ["wooden stick", "paper document", "bucket", "pitchfork"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a suit appears to interview or confront an elderly headscarved woman on a rural cattle farm; she grows agitated, brandishing and swinging a wooden stick while he reacts calmly, intercut with farmyard, barn interior, and a calf close-up shots.",
+  "best_frame_ts": "01:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "Pp2eMnH6Zd8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "village home bedroom",
+  "character_types": ["old man (bedridden)", "family members", "police officer"],
+  "drag": false,
+  "key_props": ["ornate carpet", "patterned bedspread", "police cap and uniform", "shoes"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An elderly gray-haired man lies motionless in bed with his eyes half-shut while family members sit nearby with worried, expectant expressions. A police officer in uniform then arrives, and the family gathers around the bed, appearing to fit shoes onto the man's feet.",
+  "best_frame_ts": "04:19",
+  "confidence": "low",
+  "needs_audio": true
+}

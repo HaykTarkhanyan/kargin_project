@@ -1,0 +1,19 @@
+{
+  "video_id": "snuBhwDwi1E",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["man with glasses", "woman"],
+  "drag": true,
+  "key_props": ["eyeglasses", "thin cord or string", "bed", "pillow"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "At night in a dark, desaturated bedroom, a man with glasses and a curly-haired woman (a man in drag) lie in bed; he begins gasping and clutching a thin cord near his throat as if choking, while she reacts with fear, jumping out of bed and running to the window screaming.",
+  "best_frame_ts": "01:36",
+  "confidence": "low",
+  "needs_audio": true
+}

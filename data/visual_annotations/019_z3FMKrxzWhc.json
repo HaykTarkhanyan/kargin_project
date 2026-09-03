@@ -1,0 +1,19 @@
+{
+  "video_id": "z3FMKrxzWhc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["bedridden old man", "young woman", "young man", "person with glasses and curly hair"],
+  "drag": false,
+  "key_props": ["bed", "television", "glasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "An older gray-haired man lies in bed, seemingly unwell, while a young woman and a young man sit nearby with concerned expressions, taking turns at his bedside. A curly-haired, bespectacled figure in a cream turtleneck also appears in the room near a television and dresser.",
+  "best_frame_ts": "00:42",
+  "confidence": "low",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "fsW7XueiNLg",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office interior",
+  "character_types": ["mustached office worker", "young man", "young woman"],
+  "drag": false,
+  "key_props": ["telephone", "computer", "gift boxes", "bottles on shelf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached, bespectacled office worker gestures and talks animatedly at his desk while a young man and woman look on, and he changes shirts several times over the course of the scene. Later he receives wrapped gift boxes at a doorway, and the sketch ends with a clean-shaven man laughing and dancing in celebration.",
+  "best_frame_ts": "03:41",
+  "confidence": "low",
+  "needs_audio": true
+}

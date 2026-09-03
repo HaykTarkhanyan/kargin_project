@@ -1,0 +1,19 @@
+{
+  "video_id": "9ar153dXxcc",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "van"],
+  "location_fine": "roadside among trees",
+  "character_types": ["mustached man in suit", "man in glasses"],
+  "drag": false,
+  "key_props": ["vodka glasses", "salt shaker", "bread"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men drive along a tree-lined country road, pull over after some trouble with the car, and end up in an animated roadside conversation sharing shots of vodka and food.",
+  "best_frame_ts": "02:54",
+  "confidence": "medium",
+  "needs_audio": true
+}

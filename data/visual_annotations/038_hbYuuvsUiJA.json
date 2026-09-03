@@ -1,0 +1,19 @@
+{
+  "video_id": "hbYuuvsUiJA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room with bookshelves",
+  "character_types": ["woman", "man with mustache"],
+  "drag": true,
+  "key_props": ["hand-drawn sketch", "yellow book", "flat cap", "glassware cabinet"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A person in a curly wig, red scarf, and heavy makeup (a man in drag playing a woman) sits on a couch in a book-lined room, drawing and talking animatedly. A mustachioed man in a dark jacket and later a flat cap enters through the door and they end up reading together from a yellow book.",
+  "best_frame_ts": "01:14",
+  "confidence": "medium",
+  "needs_audio": true
+}

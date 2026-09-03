@@ -1,0 +1,19 @@
+{
+  "video_id": "2nLtQ6V0QZw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "nazi war room",
+  "character_types": ["nazi officer", "hitler-style caricature", "woman hostage"],
+  "drag": false,
+  "key_props": ["swastika flag", "campaign map", "machine gun", "iron cross medal", "peaked military cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a WWII-parody war room decorated with Nazi flags, portraits, and wall maps, uniformed officers converse and lean over a table examining documents, intercut with an animated campaign map and a brief scene involving a handgun and a seated woman.",
+  "best_frame_ts": "00:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

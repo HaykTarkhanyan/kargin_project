@@ -1,0 +1,19 @@
+{
+  "video_id": "kxQdokoQXTA",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "cafe and apartment",
+  "character_types": ["heavyset woman", "young woman", "young man", "man reading newspaper"],
+  "drag": false,
+  "key_props": ["shoulder bag", "drinks", "newspaper", "bed"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 4, "repeating_gag": false},
+  "visual_synopsis": "A woman with big hair and an animal-print blouse walks into a cafe and reacts angrily on seeing a young couple sharing drinks, then the scene shifts to an apartment where she continues arguing while a man hides out in the bathroom reading a newspaper.",
+  "best_frame_ts": "02:37",
+  "confidence": "medium",
+  "needs_audio": true
+}

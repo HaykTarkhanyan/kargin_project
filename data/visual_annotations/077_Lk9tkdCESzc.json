@@ -1,0 +1,19 @@
+{
+  "video_id": "Lk9tkdCESzc",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["swan"],
+  "vehicles": [],
+  "location_fine": "marshy lake shore",
+  "character_types": ["fisherman", "game warden", "forest inspector"],
+  "drag": false,
+  "key_props": ["fishing rods", "buckets", "plastic bag", "rifle", "citation booklet", "fur hats"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two fishermen at a reedy lake shore catch what looks like a captured white bird in a bag, then are confronted by camouflage-coated game wardens with a rifle and a citation booklet, leading to a heated roadside-style argument before they part ways.",
+  "best_frame_ts": "01:06",
+  "confidence": "medium",
+  "needs_audio": true
+}

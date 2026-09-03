@@ -1,0 +1,19 @@
+{
+  "video_id": "WKKCIbls_-w",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "village farmyard and field",
+  "character_types": ["young man", "teen boy", "woman with headscarf", "older woman in sweater"],
+  "drag": false,
+  "key_props": ["long stick", "farm building materials", "lada car"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A young man in a blue shirt runs back and forth between a rural cement-block farmhouse courtyard and an adjoining green field, swinging a long stick through the tall grass as if searching for or chasing something. Family members, including two teenage boys and two women (one in a red headscarf), watch and react from the yard while an old Lada sedan sits parked nearby.",
+  "best_frame_ts": "02:20",
+  "confidence": "low",
+  "needs_audio": true
+}

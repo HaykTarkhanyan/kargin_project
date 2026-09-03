@@ -1,0 +1,19 @@
+{
+  "video_id": "1kvduqCNtRM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["student", "elderly teacher"],
+  "drag": false,
+  "key_props": ["red plastic grocery bag", "bread", "vegetables", "cheese", "sausage", "school desks", "chalkboard"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A student walks through a school hallway with a bag of groceries into a classroom, sits at his desk during a lesson and unpacks bread, tomatoes, cucumber, cheese and sausage to build a sandwich while the elderly teacher looks on.",
+  "best_frame_ts": "02:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

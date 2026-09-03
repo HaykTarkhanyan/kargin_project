@@ -1,0 +1,19 @@
+{
+  "video_id": "t0_1q3yTdCU",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office building hallway and meeting room",
+  "character_types": ["office woman", "wheelchair user", "large attendant man", "office worker man"],
+  "drag": false,
+  "key_props": ["wheelchair", "red caps", "computer monitors", "rows of chairs", "embroidered vest", "laser light effect"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "In an office-like building, two large men in red caps push a man in a wheelchair down a hallway past two women talking, while in an empty meeting room a man in a shirt and tie exercises and later puts on a traditional embroidered vest near computer monitors that flash a dramatic laser-light effect.",
+  "best_frame_ts": "01:33",
+  "confidence": "low",
+  "needs_audio": true
+}

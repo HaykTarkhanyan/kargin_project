@@ -1,0 +1,19 @@
+{
+  "video_id": "oO9GgcTPJIM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home living room and entryway",
+  "character_types": ["blonde woman", "schoolboy", "delivery man"],
+  "drag": true,
+  "key_props": ["rotary phone", "television", "red box", "coat rack"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A blonde-wigged character talks on a rotary phone while flipping through colorful TV channels, then a schoolboy opens the door to a mustached delivery man in a red bandana carrying a box.",
+  "best_frame_ts": "00:52",
+  "confidence": "medium",
+  "needs_audio": true
+}

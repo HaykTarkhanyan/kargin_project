@@ -1,0 +1,19 @@
+{
+  "video_id": "MO4IeuSmo08",
+  "indoor_outdoor": "indoor",
+  "day_night": "mixed",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "house staircase and bedroom",
+  "character_types": ["mustached man in suit", "man in white shirt and tie", "woman with long hair", "young woman in nightgown"],
+  "drag": false,
+  "key_props": ["staircase railing", "framed paintings", "bed", "lamp", "curtains"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In an upscale home, a mustached man in a dark coat and a man in a white shirt and tie greet a woman on a staircase and talk in a hallway; the scene shifts to a bedroom at night where a man in a tank top gets into bed with a young woman.",
+  "best_frame_ts": "00:20",
+  "confidence": "low",
+  "needs_audio": true
+}

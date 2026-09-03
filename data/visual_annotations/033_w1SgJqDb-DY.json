@@ -1,0 +1,19 @@
+{
+  "video_id": "w1SgJqDb-DY",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "grassy hillside battlefield",
+  "character_types": ["soldiers"],
+  "drag": false,
+  "key_props": ["rifles", "military caps", "smoke effects"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two soldiers in period military uniforms crawl, run, and grapple across a grassy hillside battlefield amid gunfire and smoke effects, with a distant line of many more soldiers visible on the ridge, in a parody of a war film.",
+  "best_frame_ts": "01:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

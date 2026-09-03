@@ -1,0 +1,19 @@
+{
+  "video_id": "D2H-qhR6QGA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["man in vest", "woman in pink robe", "man with glasses", "woman in black coat with red scarf"],
+  "drag": false,
+  "key_props": ["magazine", "telephone", "coat rack"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A man in a white vest reads a magazine while a woman in a pink robe talks anxiously, seated near a telephone in an apartment living room. A visiting couple, a man in glasses and a woman in a black coat with a red scarf, arrives at the door and the four converse animatedly.",
+  "best_frame_ts": "01:26",
+  "confidence": "medium",
+  "needs_audio": true
+}

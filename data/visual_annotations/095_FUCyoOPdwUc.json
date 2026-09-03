@@ -1,0 +1,19 @@
+{
+  "video_id": "FUCyoOPdwUc",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "rocky mountainside",
+  "character_types": ["reporter", "cameraman", "old man in robes"],
+  "drag": false,
+  "key_props": ["microphone", "camera", "pipe", "robe"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A reporter and cameraman interview an old, robed, godlike figure on a rocky mountainside at dusk, who gestures dramatically and smokes a pipe.",
+  "best_frame_ts": "04:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

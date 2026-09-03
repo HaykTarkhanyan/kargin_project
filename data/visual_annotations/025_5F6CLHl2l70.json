@@ -1,0 +1,19 @@
+{
+  "video_id": "5F6CLHl2l70",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room / hallway",
+  "character_types": ["jealous man in black jacket", "heavyset woman in robe (drag)", "shirtless young man", "man in tank top"],
+  "drag": true,
+  "key_props": ["wardrobe closet", "sofa", "curtains"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In an apartment, a heavyset woman lounges on a couch while a jealous man in a black jacket paces through the rooms and discovers a shirtless young man hiding in a wardrobe. The situation escalates into a scuffle between the men before ending with people running through the hallway.",
+  "best_frame_ts": "00:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

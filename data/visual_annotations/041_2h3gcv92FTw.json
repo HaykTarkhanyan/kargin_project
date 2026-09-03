@@ -1,0 +1,19 @@
+{
+  "video_id": "2h3gcv92FTw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["woman", "man in leather jacket"],
+  "drag": true,
+  "key_props": ["television", "wall clock", "couch", "framed pictures"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A person in a curly wig and pink outfit (a man playing a woman) watches TV news on a couch in an apartment living room. A man in a leather jacket enters, and after a close-up shot of a wall clock, he ends up collapsed with his head near her lap, marks on his face, while she reacts with visible shock, covering her mouth.",
+  "best_frame_ts": "00:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

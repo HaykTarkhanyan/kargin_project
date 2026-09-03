@@ -1,0 +1,19 @@
+{
+  "video_id": "NIjCAVy4yoA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom and office",
+  "character_types": ["schoolgirl student", "teacher", "principal"],
+  "drag": true,
+  "key_props": ["red neckerchief", "notebook", "potted plants"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A male actor in drag plays an awkward schoolgirl who is scolded first by a mustached teacher in the classroom and then by an older principal in his office.",
+  "best_frame_ts": "01:48",
+  "confidence": "medium",
+  "needs_audio": true
+}

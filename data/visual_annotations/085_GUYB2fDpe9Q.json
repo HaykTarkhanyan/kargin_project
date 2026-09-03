@@ -1,0 +1,19 @@
+{
+  "video_id": "GUYB2fDpe9Q",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "lawyer's office",
+  "character_types": ["lawyer", "client"],
+  "drag": false,
+  "key_props": ["book", "office desk", "papers", "door nameplate signs"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mock 'New York City' title card and skyscraper shot lead into an office corridor with parody lawyer-office door signs; a mustached client sits down with attorney 'Borshchevsky' and their consultation escalates into exaggerated, agitated facial expressions and hand gestures.",
+  "best_frame_ts": "01:19",
+  "confidence": "medium",
+  "needs_audio": true
+}

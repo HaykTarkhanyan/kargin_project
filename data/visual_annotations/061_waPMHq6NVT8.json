@@ -1,0 +1,19 @@
+{
+  "video_id": "waPMHq6NVT8",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada", "taxi"],
+  "location_fine": "village courtyard",
+  "character_types": ["taxi driver", "passenger", "man lounging outdoors"],
+  "drag": false,
+  "key_props": ["boombox", "outdoor bed", "red cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached taxi driver in a red cap chats with a passenger while driving through a green neighborhood, then the scene shifts to a man reclining on a bed set up outdoors in a leafy courtyard, laughing and listening to a boombox as another man approaches.",
+  "best_frame_ts": "02:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

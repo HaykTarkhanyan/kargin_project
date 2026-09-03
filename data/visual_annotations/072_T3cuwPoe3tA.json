@@ -1,0 +1,19 @@
+{
+  "video_id": "T3cuwPoe3tA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room set up as tv game show",
+  "character_types": ["quiz show contestant", "tied-up hostage woman"],
+  "drag": false,
+  "key_props": ["telephone/calculator", "rope", "gun", "quiz show on-screen graphics"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a tank top with suspenders answers multiple-choice trivia questions in a 'Who Wants to Be a Millionaire'-style TV quiz parody, while a woman sits tied and gagged to a chair nearby; he eventually turns and holds a gun to her head.",
+  "best_frame_ts": "02:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "tAuhRHjW7VA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bank / money transfer office",
+  "character_types": ["bank teller", "customer with padded belly", "businessman"],
+  "drag": false,
+  "key_props": ["telephone", "currency exchange rate board", "teller window grille", "notebook", "cell phone"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached customer with an exaggerated padded belly and yellow tie argues animatedly with a young teller at a Western Union currency-exchange counter, then the scene shifts to a gray-suited man pacing a hallway while talking on his phone and gesturing.",
+  "best_frame_ts": "00:22",
+  "confidence": "medium",
+  "needs_audio": true
+}

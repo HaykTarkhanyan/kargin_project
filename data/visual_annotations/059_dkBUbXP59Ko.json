@@ -1,0 +1,19 @@
+{
+  "video_id": "dkBUbXP59Ko",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["mustached man in undershirt", "curly-haired man"],
+  "drag": false,
+  "key_props": ["book", "bed", "pillows"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men share a bed with white pillows; a mustached man reads aloud from a book while the curly-haired man beside him reacts with exaggerated facial expressions and hand gestures, as if dreaming or startled.",
+  "best_frame_ts": "00:44",
+  "confidence": "low",
+  "needs_audio": true
+}

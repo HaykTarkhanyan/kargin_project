@@ -1,0 +1,19 @@
+{
+  "video_id": "-paMG4kj9gg",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "director's office",
+  "character_types": ["boss in suit", "secretary in white blouse", "young male assistant"],
+  "drag": false,
+  "key_props": ["landline telephone", "desk trophies", "wall certificates"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A director in a suit sprawls in his office chair having a long, animated phone conversation while a secretary in white and a young male assistant enter and exit the room; near the end he has an animated face-to-face exchange with the young man.",
+  "best_frame_ts": "00:08",
+  "confidence": "high",
+  "needs_audio": true
+}

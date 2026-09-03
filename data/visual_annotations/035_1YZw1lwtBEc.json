@@ -1,0 +1,19 @@
+{
+  "video_id": "1YZw1lwtBEc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "executive office",
+  "character_types": ["job candidate", "office executive"],
+  "drag": false,
+  "key_props": ["leather couches", "neckties"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A young man in a shirt and tie walks through a hallway into an executive office and sits down across from a man in a suit on leather couches, the two engaged in an animated, gesture-heavy conversation throughout.",
+  "best_frame_ts": "01:42",
+  "confidence": "medium",
+  "needs_audio": true
+}

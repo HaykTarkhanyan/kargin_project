@@ -1,0 +1,19 @@
+{
+  "video_id": "qjkWGYnwMbw",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["marshrutka"],
+  "location_fine": "marshrutka minibus interior",
+  "character_types": ["young men passengers", "young woman passenger", "other passengers"],
+  "drag": false,
+  "key_props": ["books", "playing cards", "red scarf"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "Three young men huddle together on a marshrutka minibus, whispering and flipping through books and cards, repeatedly glancing at and commenting on a young woman sitting nearby who smiles and reacts to them.",
+  "best_frame_ts": "01:15",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "7vpP1F4L1xo",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["bicycle"],
+  "location_fine": "rural dirt road",
+  "character_types": ["young man in red shirt", "man in striped shirt", "mustached man", "police officer"],
+  "drag": false,
+  "key_props": ["rifle-like stick", "blue cap", "police uniform"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three men bicker and scuffle while walking along a rural dirt road through green fields, one brandishing a rifle-like stick, until a police officer arrives on a bicycle to intervene, but the confrontation escalates into a physical fight with punches thrown.",
+  "best_frame_ts": "02:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

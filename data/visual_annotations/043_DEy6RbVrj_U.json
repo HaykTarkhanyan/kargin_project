@@ -1,0 +1,19 @@
+{
+  "video_id": "DEy6RbVrj_U",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["woman", "man in suit"],
+  "drag": false,
+  "key_props": ["television", "rose", "telephone", "sofa pillows"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A woman watches a romantic movie on TV and talks on the phone in a living room. A man in a suit arrives with a rose and they embrace happily, but the mood sours as he becomes visibly agitated, ending in what looks like a tense exchange while she sits alone looking upset.",
+  "best_frame_ts": "00:32",
+  "confidence": "medium",
+  "needs_audio": true
+}

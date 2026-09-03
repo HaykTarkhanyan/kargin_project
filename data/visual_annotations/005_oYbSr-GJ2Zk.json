@@ -1,0 +1,19 @@
+{
+  "video_id": "oYbSr-GJ2Zk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar lounge",
+  "character_types": ["bartender", "man with arm cast"],
+  "drag": false,
+  "key_props": ["plaster arm cast", "beer glass", "cigarette", "matches", "notepad"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A bow-tied bartender attends to a mustached man lounging in an armchair with his arm in a large plaster cast; the man repeatedly reaches into frame with the cast to grab matches, a cigarette, and beer while smoking and drinking.",
+  "best_frame_ts": "00:38",
+  "confidence": "medium",
+  "needs_audio": true
+}

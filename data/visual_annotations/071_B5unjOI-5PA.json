@@ -1,0 +1,19 @@
+{
+  "video_id": "B5unjOI-5PA",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["dog"],
+  "vehicles": ["lada"],
+  "location_fine": "apartment stairwell and street",
+  "character_types": ["young man", "woman in blue dress", "man in undershirt"],
+  "drag": false,
+  "key_props": ["red bucket", "dark jacket", "cash / dollar bills"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A young man in a gray suit jacket repeatedly runs up and down an apartment stairwell and out onto the street past parked Lada cars, briefly talking with a woman in a blue dress at a doorway each time, before ending up in an apartment handing cash to a mustached man in an undershirt.",
+  "best_frame_ts": "02:47",
+  "confidence": "low",
+  "needs_audio": true
+}

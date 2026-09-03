@@ -1,0 +1,19 @@
+{
+  "video_id": "bNRRvDQJfPA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school chemistry classroom",
+  "character_types": ["chemistry teacher", "students"],
+  "drag": false,
+  "key_props": ["periodic table", "test tubes", "glass flasks", "lab equipment"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "An eccentric gray-wigged chemistry teacher lectures and gestures animatedly at his desk full of lab equipment in front of a periodic table, while students at their desks react, chat, and fiddle with test tubes.",
+  "best_frame_ts": "00:41",
+  "confidence": "medium",
+  "needs_audio": true
+}

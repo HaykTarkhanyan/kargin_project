@@ -1,0 +1,19 @@
+{
+  "video_id": "YhChvEsI1-Y",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "outdoor courtyard card table",
+  "character_types": ["man in white shirt", "man in dark shirt", "man in plaid shirt", "man in red shirt"],
+  "drag": false,
+  "key_props": ["playing cards", "blue tablecloth", "water jug"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "Two different pairs of men sit at a blue-clothed table in a stone-walled outdoor courtyard, playing a card game with animated gestures and reactions. The scene cuts between the two pairs as if showing repeated rounds of the same game.",
+  "best_frame_ts": "00:52",
+  "confidence": "medium",
+  "needs_audio": true
+}

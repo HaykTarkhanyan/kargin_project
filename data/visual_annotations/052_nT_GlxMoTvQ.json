@@ -1,0 +1,19 @@
+{
+  "video_id": "nT_GlxMoTvQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "night",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["woman in red top", "man in jacket", "hidden person (feet only)"],
+  "drag": false,
+  "key_props": ["cigarette", "bed", "floral wallpaper"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A woman in a red top sits up in bed arguing and gesturing animatedly while smoking a cigarette; a man in a jacket sneaks in and hovers over her, while recurring cutaway shots show a third person's bare feet sticking out from under the blanket.",
+  "best_frame_ts": "00:41",
+  "confidence": "low",
+  "needs_audio": true
+}

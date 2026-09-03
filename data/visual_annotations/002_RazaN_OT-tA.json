@@ -1,0 +1,19 @@
+{
+  "video_id": "RazaN_OT-tA",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "corporate office",
+  "character_types": ["young man employee", "young woman secretary", "older boss"],
+  "drag": false,
+  "key_props": ["telephone", "documents", "desk", "television sets"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "In an office, a young man in black talks and gestures with a blonde secretary in a red dress at her desk, then an older mustached boss signs papers and laughs in his private office; afterward the man and woman stand together near a shelf of electronics as he makes an odd raised-arm gesture near his neck.",
+  "best_frame_ts": "01:56",
+  "confidence": "medium",
+  "needs_audio": true
+}

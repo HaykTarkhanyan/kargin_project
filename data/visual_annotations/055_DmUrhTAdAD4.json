@@ -1,0 +1,19 @@
+{
+  "video_id": "DmUrhTAdAD4",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["black sedan"],
+  "location_fine": "abandoned warehouse yard",
+  "character_types": ["gangster boss", "henchman", "man in suit"],
+  "drag": false,
+  "key_props": ["black car", "chain-link fence", "suit jacket"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A group of men in dark suits and black shirts gather in a rundown industrial yard beside a black sedan, then move into a warehouse interior with chain-link fencing where a man talks and gestures to the group; the scene ends with someone kneeling on the ground surrounded by others, suggesting intimidation.",
+  "best_frame_ts": "01:36",
+  "confidence": "low",
+  "needs_audio": true
+}

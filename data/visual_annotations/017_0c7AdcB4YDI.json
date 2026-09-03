@@ -1,0 +1,19 @@
+{
+  "video_id": "0c7AdcB4YDI",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car", "pickup truck"],
+  "location_fine": "village road",
+  "character_types": ["woman in yellow beret", "man driver with mustache"],
+  "drag": false,
+  "key_props": ["sunglasses", "yellow beret", "handbag"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A woman in a yellow beret and white jacket walks along a tree-lined roadside carrying a pink bag while a mustached man drives alongside in a car, leaning out to talk to her through the window as they move down the street.",
+  "best_frame_ts": "00:58",
+  "confidence": "medium",
+  "needs_audio": true
+}

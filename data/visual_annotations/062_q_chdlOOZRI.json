@@ -1,0 +1,19 @@
+{
+  "video_id": "q_chdlOOZRI",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["car"],
+  "location_fine": "family kitchen and dining room",
+  "character_types": ["mother in headscarf", "young woman", "mustached father", "young man"],
+  "drag": false,
+  "key_props": ["dining table", "kitchen cabinets"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A family gathers in a green-walled kitchen and dining room - a headscarfed mother, a young woman, a mustached father, and a young man in a beige shirt - talking and reacting to each other, apparently discussing a visit or match, with a brief cutaway to a parked car outside.",
+  "best_frame_ts": "01:30",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "LUAZ6UwEsaU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment living room",
+  "character_types": ["young man with glasses", "elderly woman", "man in brown jacket"],
+  "drag": false,
+  "key_props": ["notebook", "pens", "tea mug", "old television", "rug wall hanging"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A bespectacled young man and an older woman with white hair and a red scarf sit at a table writing letters together, then he steps into a wood-paneled hallway for a tense exchange with another man before returning to share tea and smiles with the woman.",
+  "best_frame_ts": "02:12",
+  "confidence": "low",
+  "needs_audio": true
+}

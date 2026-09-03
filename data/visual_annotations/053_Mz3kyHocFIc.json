@@ -1,0 +1,19 @@
+{
+  "video_id": "Mz3kyHocFIc",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "grocery store",
+  "character_types": ["store clerk", "boy customer", "mustached customer"],
+  "drag": false,
+  "key_props": ["cash register", "shelves of groceries", "money", "juice box"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A boy browses shelves in a small grocery store while the store clerk stands at the counter talking animatedly and gesturing directly to camera, handling money and goods as other customers occasionally appear.",
+  "best_frame_ts": "01:04",
+  "confidence": "medium",
+  "needs_audio": true
+}

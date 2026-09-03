@@ -1,0 +1,19 @@
+{
+  "video_id": "M6xTEnwZk6w",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar",
+  "character_types": ["bartender", "man in suit", "man in denim jacket"],
+  "drag": false,
+  "key_props": ["liquor bottles", "cigarette", "small red toy or prop", "barrels"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a pub lined with liquor shelves under a 'Beeraota Pub' sign, a bow-tied bartender interacts with a smoking man in a gray suit and another man in a dark jacket; the scene escalates into physical comedy, ending with someone knocked down on the floor near barrels.",
+  "best_frame_ts": "02:00",
+  "confidence": "low",
+  "needs_audio": true
+}

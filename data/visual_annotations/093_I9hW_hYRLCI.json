@@ -1,0 +1,19 @@
+{
+  "video_id": "I9hW_hYRLCI",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["lada"],
+  "location_fine": "apartment stairwell entrance",
+  "character_types": ["man in suit", "woman", "man in tank top"],
+  "drag": false,
+  "key_props": ["plastic bag", "money"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man in a grey suit shuttles between a woman waiting at an apartment door and the snowy street where cars are parked, then later confronts a mustached man in a tank top indoors and hands over cash.",
+  "best_frame_ts": "02:47",
+  "confidence": "low",
+  "needs_audio": true
+}

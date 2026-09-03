@@ -1,0 +1,19 @@
+{
+  "video_id": "wfs9eK8otg8",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["woman in floral robe", "woman in red hat", "young woman", "curly-haired woman"],
+  "drag": true,
+  "key_props": ["teacups", "hat", "snacks"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Women gossip and snack over tea in a living room on a sofa, exchanging exaggerated surprised and disapproving reactions; at least one role appears to be an actor in drag.",
+  "best_frame_ts": "00:21",
+  "confidence": "low",
+  "needs_audio": true
+}

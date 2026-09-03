@@ -1,0 +1,19 @@
+{
+  "video_id": "fLkqwqJCaow",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "restaurant",
+  "character_types": ["waiter", "restaurant customer"],
+  "drag": false,
+  "key_props": ["notepad", "wine bottle", "food plate"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A waiter at the Cherry Club restaurant addresses the camera directly throughout his shift while a customer at a table drinks and eats, eventually passing out face-first into his food.",
+  "best_frame_ts": "03:35",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "4P8_-hQAtIk",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "warehouse storage room",
+  "character_types": ["man in fedora", "man in camo cap", "man in jacket"],
+  "drag": false,
+  "key_props": ["fedora hats", "bottle", "plastic cups", "crate table", "boxes", "stove pipe"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Three men argue in a dim, cluttered storage room full of crates and sacks with a stove pipe overhead. Two of them, wearing hats including a military-style camo cap, settle at a small improvised table to drink from a bottle and plastic cups while talking.",
+  "best_frame_ts": "01:06",
+  "confidence": "medium",
+  "needs_audio": true
+}

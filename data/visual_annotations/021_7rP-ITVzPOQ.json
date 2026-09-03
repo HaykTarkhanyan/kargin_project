@@ -1,0 +1,19 @@
+{
+  "video_id": "7rP-ITVzPOQ",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "rural field with dirt embankment, military drill",
+  "character_types": ["bearded commander in beret", "heavyset armed soldier", "young men in camouflage jackets", "man in striped telnyashka shirt"],
+  "drag": false,
+  "key_props": ["rifle", "shotgun", "rope", "brick shed"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A group of young men in open camouflage jackets undergo an outdoor military-style drill: roped together and marched across a field, digging into a dirt embankment, and standing in a lineup while a bearded commander in a beret and a heavyset armed man give orders and aim a rifle and shotgun. It ends with two men grappling amid laughter.",
+  "best_frame_ts": "01:17",
+  "confidence": "medium",
+  "needs_audio": true
+}

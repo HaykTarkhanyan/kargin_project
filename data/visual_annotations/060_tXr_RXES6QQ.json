@@ -1,0 +1,19 @@
+{
+  "video_id": "tXr_RXES6QQ",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "5+",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office boardroom",
+  "character_types": ["suited businessman", "businesswoman", "young office worker"],
+  "drag": false,
+  "key_props": ["conference table", "telephone", "printer", "papers", "picture frame"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Several men in suits and a red-haired woman sit around a boardroom conference table in an office, talking, gesturing, and reacting to one another during what appears to be a business meeting.",
+  "best_frame_ts": "00:16",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "WzLmm318o80",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "art gallery",
+  "character_types": ["long-haired bohemian artist", "tracksuit-wearing visitors", "gallery worker", "beret-and-scarf art critic"],
+  "drag": false,
+  "key_props": ["framed paintings", "beret", "scarf", "embroidered vest"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "In an art gallery whose walls are covered with framed paintings, a series of eccentric characters, a long-haired bearded artist, two men in matching tracksuits, and a beret-and-scarf-wearing critic, each strike the same pretentious chin-in-hand thinking pose while examining the artwork.",
+  "best_frame_ts": "01:12",
+  "confidence": "medium",
+  "needs_audio": true
+}

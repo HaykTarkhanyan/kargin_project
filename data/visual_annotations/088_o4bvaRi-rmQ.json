@@ -1,0 +1,19 @@
+{
+  "video_id": "o4bvaRi-rmQ",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["bicycle"],
+  "location_fine": "rural dirt road",
+  "character_types": ["fisherman", "villager in straw hat", "boy on bicycle"],
+  "drag": false,
+  "key_props": ["fishing rod", "bicycle", "straw hat", "binoculars"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men, one carrying a fishing rod and wearing a cap and binoculars, the other in a straw hat, walk and talk along a rural dirt road with a snow-capped mountain in the distance, while a boy rides a bicycle back and forth along the same road.",
+  "best_frame_ts": "00:46",
+  "confidence": "high",
+  "needs_audio": true
+}

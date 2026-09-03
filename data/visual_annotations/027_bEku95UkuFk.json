@@ -1,0 +1,19 @@
+{
+  "video_id": "bEku95UkuFk",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "1",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "open field with sparse woods",
+  "character_types": ["soldier in military cap and coat"],
+  "drag": false,
+  "key_props": ["signpost with Armenian text", "military cap"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A lone soldier in a military cap and coat runs, crouches, and crawls through an open field and sparse woods, pausing near a roadside sign, shown in a sepia-toned sequence.",
+  "best_frame_ts": "00:10",
+  "confidence": "medium",
+  "needs_audio": true
+}

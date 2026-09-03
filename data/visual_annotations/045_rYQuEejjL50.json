@@ -1,0 +1,19 @@
+{
+  "video_id": "rYQuEejjL50",
+  "indoor_outdoor": "indoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "school classroom",
+  "character_types": ["teacher", "old man with medals", "schoolchildren"],
+  "drag": false,
+  "key_props": ["coin or medal", "badges on jacket", "anatomy poster", "cap"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A pinstripe-suited teacher lectures a classroom full of children; an old man wearing a cap and a jacket covered in medals arrives, greets the teacher, and shows him a coin, triggering a stylized black-and-white flashback insert with exaggerated pale-faced expressions before returning to color as the two continue interacting energetically in front of the amused class.",
+  "best_frame_ts": "02:10",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "OInkgOVGUy4",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["businessman", "assistant with cue cards"],
+  "drag": false,
+  "key_props": ["telephone", "cue cards", "desk lamp"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A mustached man in a suit sits at an office desk repeatedly picking up a telephone, while a curly-haired man holds up handwritten Armenian cue cards to prompt him, entering and exiting through the office door between takes.",
+  "best_frame_ts": "00:20",
+  "confidence": "medium",
+  "needs_audio": true
+}

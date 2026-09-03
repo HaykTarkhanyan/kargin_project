@@ -1,0 +1,19 @@
+{
+  "video_id": "WAE8wAs9FR0",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bedroom",
+  "character_types": ["young man", "elderly bedridden woman"],
+  "drag": true,
+  "key_props": ["bed", "blanket", "pillow", "vase of flowers", "nightstand"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "Shot in a mock home-video style with a date stamp and REC overlay, a young curly-haired man sits at the bedside of an elderly bedridden woman, leaning in and gesturing at her repeatedly; a black cut-frame separates the footage and the date advances from 13.11.2003 to 14.11.2003, suggesting the same visit repeats the next day.",
+  "best_frame_ts": "02:27",
+  "confidence": "medium",
+  "needs_audio": true
+}

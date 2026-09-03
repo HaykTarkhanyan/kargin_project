@@ -1,0 +1,19 @@
+{
+  "video_id": "ja-t-8MEMKc",
+  "indoor_outdoor": "indoor",
+  "day_night": "mixed",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room and bedroom",
+  "character_types": ["man in denim shirt", "woman in red top", "boy"],
+  "drag": false,
+  "key_props": ["phone", "ornate couch/bed", "blanket", "curtain"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": true},
+  "visual_synopsis": "A man and woman sit together talking on a couch, then in a series of dark, cut-frame-separated night shots the man repeatedly leans over a boy sleeping in bed, while the woman is later shown alone on a bed and a face peers through a curtain.",
+  "best_frame_ts": "00:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "NDMqzE0J3AY",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment bedroom",
+  "character_types": ["man in tank top", "woman visitor", "mustached man in jacket", "mustached man on bed"],
+  "drag": false,
+  "key_props": ["red tea cup", "bed", "pillows", "blanket"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A man lounges in bed chatting with a woman who brings him a red cup of tea, until a mustached man in a jacket arrives at the door and confronts them; intercut shots show a mustached man restlessly tossing and turning in another bed.",
+  "best_frame_ts": "00:38",
+  "confidence": "low",
+  "needs_audio": true
+}

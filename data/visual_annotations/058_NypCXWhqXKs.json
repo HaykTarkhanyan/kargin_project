@@ -1,0 +1,19 @@
+{
+  "video_id": "NypCXWhqXKs",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["wigged woman", "man in suit"],
+  "drag": true,
+  "key_props": ["wash basin", "couch", "knitting needles", "yarn", "jaw bandage"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A wigged woman violently beats a man with a wash basin and kicks him unconscious onto a couch in a wood-paneled living room, then sits calmly knitting beside his motionless body, which now has a bandage tied around its jaw.",
+  "best_frame_ts": "00:13",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "LY-PrNKJxsM",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": ["suv", "sedan"],
+  "location_fine": "monastery grounds",
+  "character_types": ["businessman", "monk"],
+  "drag": false,
+  "key_props": ["small yellow fruit or ball"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached man in a suit sits in an office holding a small yellow object while talking to someone off-camera. He then drives out to an old Armenian monastery, where he meets a man in a black hooded monastic robe and the two walk and talk together among the stone ruins.",
+  "best_frame_ts": "01:34",
+  "confidence": "medium",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "5LvdQE0oHLU",
+  "indoor_outdoor": "outdoor",
+  "day_night": "night",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "cemetery",
+  "character_types": ["man in coat", "man in suit", "curly-haired man"],
+  "drag": false,
+  "key_props": ["iron cemetery fence", "tombstones", "curly wig"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "Two men in coats walk and run through a dusk-lit park that leads into a cemetery with iron fences and gravestones, and the scene cuts to a close-up of a curly-haired man in a suit dramatically singing or reacting near the graves.",
+  "best_frame_ts": "01:56",
+  "confidence": "low",
+  "needs_audio": true
+}

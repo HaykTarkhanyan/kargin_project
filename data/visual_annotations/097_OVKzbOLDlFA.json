@@ -1,0 +1,19 @@
+{
+  "video_id": "OVKzbOLDlFA",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "bar",
+  "character_types": ["bartender", "bar customer"],
+  "drag": false,
+  "key_props": ["liquor bottles", "shot glasses"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": true},
+  "visual_synopsis": "A mustached bartender listens as a series of customers lean on the bar counter, drink shots, and grow increasingly intoxicated, with a graphic transition marking each new round.",
+  "best_frame_ts": "01:53",
+  "confidence": "medium",
+  "needs_audio": true
+}

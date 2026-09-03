@@ -1,0 +1,19 @@
+{
+  "video_id": "54CspqHsW2s",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": ["cow"],
+  "vehicles": [],
+  "location_fine": "village garden/orchard",
+  "character_types": ["old woman", "man in camo jacket", "man with glasses"],
+  "drag": false,
+  "key_props": ["sack", "grape trellis"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a sunlit village garden with grapevine trellises, a man in a camouflage jacket carrying a sack meets an older woman in a floral dress and blue headscarf, and they embrace and interact closely and playfully among the trees. A cow is visible grazing nearby, and a third man in glasses appears later.",
+  "best_frame_ts": "00:28",
+  "confidence": "low",
+  "needs_audio": true
+}

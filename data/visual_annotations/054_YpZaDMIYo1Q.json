@@ -1,0 +1,19 @@
+{
+  "video_id": "YpZaDMIYo1Q",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "apartment hallway and dining room",
+  "character_types": ["man with glasses and curly hair", "woman in pink coat", "heavyset man in suit"],
+  "drag": false,
+  "key_props": ["coat hooks", "plate of food", "tie", "cup"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 3, "repeating_gag": false},
+  "visual_synopsis": "A curly-haired man in a yellow-green shirt argues with a woman in a pink coat in an apartment hallway, then sits close with a heavyset mustached man in a suit at a dining table, with a brief cutaway to food being served in a kitchen.",
+  "best_frame_ts": "00:53",
+  "confidence": "low",
+  "needs_audio": true
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "mLGEOvwcAO0",
+  "indoor_outdoor": "outdoor",
+  "day_night": "day",
+  "people_count": "crowd",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["tour bus"],
+  "location_fine": "old armenian church and countryside ruins",
+  "character_types": ["tour guide in cap", "young tourists", "mustached man in plaid shirt", "crowd of teenagers"],
+  "drag": false,
+  "key_props": ["tour bus", "wash basin", "mobile phones"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A large group of young tourists arrives by bus at an old Armenian church and mingles with a guide, while a mustached local man in a plaid shirt is later seen washing something in a basin outdoors and involved in some fast, blurred physical action near stone ruins.",
+  "best_frame_ts": "01:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

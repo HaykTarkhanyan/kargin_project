@@ -1,0 +1,19 @@
+{
+  "video_id": "fJyapqhlMjE",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "4",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "prison cell / militant hideout",
+  "character_types": ["POW soldier", "militant", "gunman"],
+  "drag": false,
+  "key_props": ["rifle", "restraints", "cigarette", "bandana", "sunglasses"],
+  "physicality": "fight",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mock war-film parody titled 'American POW' opens with fake movie credits over Arabic-style text, then shows a bloodied, bruised American soldier tied up in a bare cell being menaced and interrogated by armed, bearded militants, including a rifle pointed at his face and a cigarette forced into his mouth.",
+  "best_frame_ts": "01:33",
+  "confidence": "medium",
+  "needs_audio": true
+}

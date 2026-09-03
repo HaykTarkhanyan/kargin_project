@@ -1,0 +1,19 @@
+{
+  "video_id": "Sgb5J28l0IM",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "3",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "living room",
+  "character_types": ["bride (drag)", "mustached man", "woman"],
+  "drag": true,
+  "key_props": ["armchair", "floral painting", "table lamps"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "In a home living room, a mustached man in a striped shirt talks animatedly and points at a shy, seated bride-like character, played by a man in a wig and sweater, in what looks like a matchmaking visit. The scene then shifts to a doorway where a woman in a white jacket appears distressed, crying and covering her face.",
+  "best_frame_ts": "00:10",
+  "confidence": "medium",
+  "needs_audio": true
+}

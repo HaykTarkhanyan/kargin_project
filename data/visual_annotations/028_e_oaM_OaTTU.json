@@ -1,0 +1,19 @@
+{
+  "video_id": "e_oaM_OaTTU",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": true,
+  "animals": [],
+  "vehicles": ["marshrutka", "car"],
+  "location_fine": "music classroom (piano lesson)",
+  "character_types": ["piano teacher in corduroy jacket", "student in suit and bow tie"],
+  "drag": false,
+  "key_props": ["piano", "violin case", "bodybuilding magazine", "chalkboard with music notes", "sheet music"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A boy in a suit carries a violin case through city streets to a piano lesson. Indoors, an eccentric piano teacher in a corduroy jacket gives an animated lesson at the piano and chalkboard, at one point holding up a bodybuilding magazine, while the stone-faced boy in sunglasses looks unimpressed.",
+  "best_frame_ts": "01:36",
+  "confidence": "medium",
+  "needs_audio": true
+}

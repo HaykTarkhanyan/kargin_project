@@ -1,0 +1,19 @@
+{
+  "video_id": "aJv99i6NJZU",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "office",
+  "character_types": ["stressed office worker", "visitor in jacket"],
+  "drag": false,
+  "key_props": ["telephone", "desk papers", "photo frames", "potted plant"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "Two men sit in an office; one in a light blue shirt grows increasingly agitated, holding his head and gesturing while talking (including on the phone), while the other in a grey jacket over a yellow shirt listens calmly, occasionally smiling.",
+  "best_frame_ts": "01:07",
+  "confidence": "medium",
+  "needs_audio": true
+}

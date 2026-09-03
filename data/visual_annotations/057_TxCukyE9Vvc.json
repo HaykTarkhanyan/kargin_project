@@ -1,0 +1,19 @@
+{
+  "video_id": "TxCukyE9Vvc",
+  "indoor_outdoor": "both",
+  "day_night": "day",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "home chemistry lab and open field",
+  "character_types": ["mustached scientist", "farm worker"],
+  "drag": false,
+  "key_props": ["glass flasks", "test tubes", "chemistry apparatus", "hoe", "hay"],
+  "physicality": "physical",
+  "scene_structure": {"settings": 2, "repeating_gag": false},
+  "visual_synopsis": "A mustached amateur scientist mixes chemicals with flasks and test tubes in a home lab, intercut with outdoor scenes of a man raking and digging in a grassy field; later the scientist appears disheveled with a bandaged nose, reacting wildly as if from an explosion.",
+  "best_frame_ts": "03:13",
+  "confidence": "low",
+  "needs_audio": true
+}

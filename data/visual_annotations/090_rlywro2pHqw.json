@@ -1,0 +1,19 @@
+{
+  "video_id": "rlywro2pHqw",
+  "indoor_outdoor": "indoor",
+  "day_night": "unclear",
+  "people_count": "2",
+  "has_crowd_or_extras": false,
+  "animals": [],
+  "vehicles": [],
+  "location_fine": "small grocery / liquor shop",
+  "character_types": ["shopkeeper", "customer"],
+  "drag": false,
+  "key_props": ["wine bottles", "woven-wrapped bottle", "shelves of goods", "fedora hat", "knit cap", "chocolate box"],
+  "physicality": "talking",
+  "scene_structure": {"settings": 1, "repeating_gag": false},
+  "visual_synopsis": "A mustached shopkeeper in a knit cap enthusiastically shows off wine and bottles to a customer in a brown coat and fedora inside a small, tightly stocked grocery shop, with close-up cutaways of hands opening and examining the bottles.",
+  "best_frame_ts": "01:33",
+  "confidence": "high",
+  "needs_audio": true
+}
