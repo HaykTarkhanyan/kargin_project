@@ -1,0 +1,52 @@
+title = "Firebase migration: design, review, and all code-side implementation"
+date = "2026-09-06"
+time = "18:30"
+areas = ["web", "scripts", "tests", ".github/workflows", "docs/superpowers", "old"]
+
+done = [
+    "Brainstormed the GitHub Pages → GCP migration with the user: goals = replace Worker+Neon logging, mirror sketch data, enable future dynamic features; CSV stays source of truth; a few $/month OK",
+    "Chose (with verified current facts) static Firebase Hosting + Firestore over App Hosting SSR and hybrid; recorded DECISIONS.md #5-#7",
+    "Wrote the design spec; independent review agent returned 13 findings (Spark's 10GB cap disables the site → Blaze + budget alert; rules deploy unspecified; SDK-at-flush loses short sessions → REST commit + fetch keepalive; sync-before-deploy invariant; contentHash idempotency; Advanced Setup for DNS; etc.) — all incorporated",
+    "Wrote the 10-task implementation plan; self-review caught 4 bugs in my own plan (int-vs-double rules mismatch, 64KB keepalive budget, Python snap.get KeyError, env-leaking test)",
+    "Task 1: web/firebase.json + .firebaserc + firebase-tools 15.29.0 pinned; hosting emulator smoke test 200/200/200/404",
+    "Task 2: metadataBase + per-route canonical → karginhaghordum.am, verified in build output",
+    "Task 3+7: CI deploys firestore,hosting (gated on FIREBASE_PROJECT_ID var), then syncs the mirror after deploy; rules tests in CI with setup-java 21",
+    "Task 5: firestore.rules (events create-only + shape validation, sketches read-only) with 8 emulator tests, TDD red→green",
+    "Task 6: scripts/sync_firestore.py — contentHash diffing, 5% delete guard, 6 unit tests; emulator e2e: 702 writes then 0 writes",
+    "Task 8: web/lib/log.ts → Firestore REST documents:commit + fetch(keepalive), client clamps mirroring rules; 5 unit tests; 78/78 web, 102/102 python, tsc + lint clean",
+    "Archived logger-worker/ to old/ with decommission note (stack was never activated: no LOG_ENDPOINT var ever set)",
+    "Appended 6 LEARNINGS.md entries (Java 21, npx shim output swallowing, empty rules block, REST+rules, dormant stack, transient vitest)",
+]
+
+pending = [
+    "Task 4 (USER): create Firebase project + register web app + Firestore (default) in europe-west3 production mode + Blaze with ~$10 budget alert + Hosting release retention ~10 + service account key → GitHub secret FIREBASE_SERVICE_ACCOUNT + repo var FIREBASE_PROJECT_ID",
+    "Push to origin (13 local commits) — safe anytime; CI firebase steps skip until the var exists",
+    "Task 9: after first Firebase deploy, verify a search event lands in the Firestore events collection; delete any Cloudflare Worker / Neon project if the user ever created them (probably not)",
+    "Task 10 (USER): custom-domain Advanced Setup, cert, DNS flip, TTL wait, then retire Pages workflow + CNAME + .nojekyll",
+]
+
+next = "User does plan Task 4, pushes, watches CI deploy to <project>.web.app, then phases 3-4 verification/cutover"
+
+files = [
+    "docs/superpowers/specs/2026-09-06-firebase-migration-design.md",
+    "docs/superpowers/plans/2026-09-06-firebase-migration.md",
+    "web/firebase.json", "web/.firebaserc", "web/firestore.rules", "web/firestore.indexes.json",
+    "web/rules-tests/rules.test.ts", "web/vitest.rules.config.ts", "web/vitest.config.ts",
+    "web/app/layout.tsx", "web/lib/log.ts", "web/lib/__tests__/log.test.ts",
+    "scripts/sync_firestore.py", "tests/test_sync_firestore.py",
+    ".github/workflows/deploy.yml", "pyproject.toml", "DECISIONS.md",
+]
+
+commits = [
+    "cafc588 docs: Firebase migration design spec (reviewed) + decisions #5-#7",
+    "5bf4bb6 docs: Firebase migration implementation plan (10 tasks, 4 phases)",
+    "9eeacaa feat(web): Firebase Hosting config + firebase-tools dev dep",
+    "0c764b2 feat(web): canonical URLs pointing at karginhaghordum.am",
+    "9c66cfd ci: parallel deploy to Firebase Hosting (no-op until FIREBASE_PROJECT_ID is set)",
+    "15b5882 feat(web): Firestore security rules + emulator test suite",
+    "6b29ee6 feat(scripts): hash-diffing Firestore sketch mirror sync with delete guard",
+    "6362e70 ci: deploy Firestore rules with hosting, sync mirror after deploy, rules tests",
+    "154f138 feat(web): usage logging writes to Firestore via REST commit + keepalive",
+]
+
+notes = "The independent review earned its cost: 'Spark suffices' would have shipped a site that goes dark at 10GB/month, and lazy-SDK logging would have lost exactly the short sessions worth measuring. Portable Java 21 JRE lives at ~/.jdks/jdk-21.0.12.1+1-jre for local test:rules runs."

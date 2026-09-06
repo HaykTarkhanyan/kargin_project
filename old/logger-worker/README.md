@@ -1,5 +1,11 @@
 # Kargin Archive — usage logging (Cloudflare Worker + Neon)
 
+> **DECOMMISSIONED 2026-09-06** — replaced by direct client writes to Firestore
+> (`web/lib/log.ts` + `web/firestore.rules`; see
+> `docs/superpowers/specs/2026-09-06-firebase-migration-design.md`). This stack
+> was never activated in production: the `LOG_ENDPOINT` repo variable was never
+> set, so the live site never sent an event here. Kept as institutional record.
+
 The static site can't hold a DB credential, so anonymous usage events are POSTed to this tiny Worker, which inserts them into Neon Postgres. Logging is **off** on the site until you set the Worker URL (step 5).
 
 ## One-time setup

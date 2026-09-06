@@ -6,7 +6,13 @@
 
 **Architecture:** The Next.js static export stays untouched; `web/` gains Firebase config (`firebase.json`, rules, emulator tests), `scripts/` gains a hash-diffing Firestore sync, and `web/lib/log.ts` swaps its transport to Firestore's REST `documents:commit` via `fetch(keepalive)`. Four phases, each shippable, site never down. Spec: `docs/superpowers/specs/2026-09-06-firebase-migration-design.md`.
 
-**Tech Stack:** firebase-tools (dev dep), Firestore emulator (Java 17 present), `@firebase/rules-unit-testing` + vitest, `google-cloud-firestore` (Python, new `firebase` dep group), GitHub Actions.
+**Tech Stack:** firebase-tools (dev dep), Firestore emulator (needs Java 21 — portable JRE in `~/.jdks`), `@firebase/rules-unit-testing` + vitest, `google-cloud-firestore` (Python, new `firebase` dep group), GitHub Actions.
+
+**Status 2026-09-06:** Tasks 1, 2, 3, 5, 6, 7, 8 complete and committed (all local verifications
+green). Task 9's soak/export steps are void — the Worker+Neon stack was never activated
+(`LOG_ENDPOINT` never set), so `logger-worker/` was archived to `old/` directly. Remaining:
+Task 4 (user: create project, Blaze, secrets/vars), Task 9 live-event verification,
+Task 10 (user: DNS cutover, retire Pages).
 
 **Conventions that bind every task:** exact version pins (`==` / exact npm versions — pin whatever `npm i` / `uv add` actually installed), Python `logging` to console + `logs/<script>.log`, no silent fallbacks — fail loudly.
 
