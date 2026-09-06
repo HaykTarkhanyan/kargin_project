@@ -55,6 +55,18 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web/out
+      # Parallel host during the Firebase migration (see docs/superpowers/specs/
+      # 2026-09-06-firebase-migration-design.md). Skipped until the FIREBASE_PROJECT_ID
+      # repo variable is set; GitHub Pages keeps deploying until phase 4 cutover.
+      - name: Deploy to Firebase Hosting
+        if: ${{ vars.FIREBASE_PROJECT_ID != '' }}
+        working-directory: web
+        env:
+          FIREBASE_SA: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          printf '%s' "$FIREBASE_SA" > "$RUNNER_TEMP/firebase-sa.json"
+          export GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/firebase-sa.json"
+          npx firebase deploy --only hosting --project "${{ vars.FIREBASE_PROJECT_ID }}" --force
 
   deploy:
     needs: build
