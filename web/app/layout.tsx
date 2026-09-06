@@ -8,6 +8,10 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const arm = Noto_Sans_Armenian({ subsets: ["armenian"], weight: ["400", "600", "700", "800"], variable: "--font-arm" });
 
 export const metadata: Metadata = {
+  // The site is also reachable at <project>.web.app during the Firebase migration;
+  // canonicals keep search engines pointed at the real domain.
+  metadataBase: new URL("https://karginhaghordum.am"),
+  alternates: { canonical: "./" },
   title: "Կարգին Արխիվ — Kargin Archive",
   description: "Որոնիր 702 Կարգին սքեթչ՝ տող առ տող։",
 };
