@@ -4,19 +4,67 @@
  * (web/lib/search.ts): same transliteration, same fuzzy, no drift.
  */
 import { InlineKeyboard } from "grammy";
-import { searchSketches } from "../../web/lib/search";
+import { type Filters, searchSketches } from "../../web/lib/search";
 import { formatDuration, formatViews } from "../../web/lib/format";
 import { SITE_ORIGIN } from "../../web/lib/site";
 import type { Sketch } from "../../web/lib/types";
-import { ALL, LOCATIONS } from "./data";
+import { ACTORS, ALL, LOCATIONS } from "./data";
 
 export const PAGE = 6;
 
-/** locIdx indexes LOCATIONS; null = no filter. Same Filters the website uses. */
-export function searchTop(query: string, locIdx: number | null = null): Sketch[] {
-  const loc = locIdx !== null ? LOCATIONS[locIdx] : undefined;
-  return searchSketches(query, ALL, loc ? { location: [loc] } : {}, "views");
+export const DURATIONS = [
+  { key: "<2" as const, label: "մինչև 2ր" },
+  { key: "2-4" as const, label: "2–4ր" },
+  { key: "4+" as const, label: "4ր+" },
+];
+
+/** Plain unfiltered search — inline mode and the /start examples. */
+export function searchTop(query: string): Sketch[] {
+  return searchSketches(query, ALL, {}, "views");
 }
+
+// ---------------------------------------------------------------------------
+// View state — everything a results message needs to re-render itself, packed
+// into each button's callback_data as `<loc>:<actor>:<dur>:<offset>:<query>`
+// (indexes into the facet lists; query last so it may contain ":").
+// An EMPTY query is valid: that's browse mode ("filter down without text").
+// ---------------------------------------------------------------------------
+export interface ViewState {
+  q: string;
+  loc: number | null;
+  actor: number | null;
+  dur: number | null;
+  offset: number;
+}
+
+export const newState = (q: string): ViewState =>
+  ({ q, loc: null, actor: null, dur: null, offset: 0 });
+
+export function encodeState(s: ViewState): string {
+  return `${s.loc ?? "-"}:${s.actor ?? "-"}:${s.dur ?? "-"}:${s.offset}:${s.q}`;
+}
+
+export function decodeState(data: string): ViewState | null {
+  const m = /^(-|\d+):(-|\d+):(-|\d+):(\d+):([\s\S]*)$/.exec(data);
+  if (!m) return null;
+  const idx = (v: string) => (v === "-" ? null : Number(v));
+  return { loc: idx(m[1]), actor: idx(m[2]), dur: idx(m[3]), offset: Number(m[4]), q: m[5] };
+}
+
+export function toFilters(s: ViewState): Filters {
+  const f: Filters = {};
+  if (s.loc !== null && LOCATIONS[s.loc]) f.location = [LOCATIONS[s.loc]];
+  if (s.actor !== null && ACTORS[s.actor]) f.actors = [ACTORS[s.actor]];
+  if (s.dur !== null && DURATIONS[s.dur]) f.duration = DURATIONS[s.dur].key;
+  return f;
+}
+
+export function runSearch(state: ViewState): Sketch[] {
+  return searchSketches(state.q, ALL, toFilters(state), "views");
+}
+
+export const hasFilters = (s: ViewState): boolean =>
+  s.loc !== null || s.actor !== null || s.dur !== null;
 
 export function escapeHtml(s: string): string {
   return s.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
@@ -57,11 +105,6 @@ export function safeCallback(data: string): string | null {
   return Buffer.byteLength(data, "utf8") <= 64 ? data : null;
 }
 
-/** Paging: `m:` unfiltered, `M:<locIdx>:` filtered. */
-export function moreCallback(query: string, offset: number, locIdx: number | null = null): string | null {
-  return safeCallback(locIdx === null ? `m:${offset}:${query}` : `M:${locIdx}:${offset}:${query}`);
-}
-
 function clip(v: string, max: number): string {
   return v.length > max ? `${v.slice(0, max - 1)}…` : v;
 }
@@ -75,68 +118,100 @@ function resultEntry(n: number, s: Sketch): string {
   ].join("\n");
 }
 
+export type Panel = "l" | "a" | "d" | null;
+
+function headerLine(state: ViewState, count: number): string {
+  const parts = [state.q ? `🔍 «${escapeHtml(state.q)}»` : "🗂 Բոլոր սքեթչերը"];
+  if (state.loc !== null) parts.push(`📍 ${escapeHtml(LOCATIONS[state.loc])}`);
+  if (state.actor !== null) parts.push(`👤 ${escapeHtml(ACTORS[state.actor])}`);
+  if (state.dur !== null) parts.push(`⏱ ${DURATIONS[state.dur].label}`);
+  return `${parts.join(" · ")} — ${count} արդյունք`;
+}
+
+/** A picker's value buttons: tap sets the filter (V: logs it), ✓ clears it. */
+function panelRows(kb: InlineKeyboard, state: ViewState, panel: Exclude<Panel, null>): void {
+  const values: string[] =
+    panel === "l" ? LOCATIONS : panel === "a" ? ACTORS : DURATIONS.map((d) => d.label);
+  const activeIdx = panel === "l" ? state.loc : panel === "a" ? state.actor : state.dur;
+  const buttons: Array<{ label: string; cb: string }> = [];
+  for (const [i, value] of values.entries()) {
+    const next: ViewState = { ...state, offset: 0 };
+    if (panel === "l") next.loc = i === activeIdx ? null : i;
+    if (panel === "a") next.actor = i === activeIdx ? null : i;
+    if (panel === "d") next.dur = i === activeIdx ? null : i;
+    const cb = safeCallback(`V:${encodeState(next)}`);
+    if (cb) buttons.push({ label: `${i === activeIdx ? "✓ " : ""}${value}`, cb });
+  }
+  for (const [i, b] of buttons.entries()) {
+    if (i % 3 === 0) kb.row();
+    kb.text(b.label, b.cb);
+  }
+}
+
 /**
- * The search reply: a rich descriptive list in the message body (buttons can't
- * hold images or second lines) + compact number buttons. The 🖼 button flips
- * the same query into inline mode — the only Telegram surface with real
- * per-result thumbnails. A third row exposes the location filter: closed it
- * reads «📍 Ըստ վայրի» (or the active «📍 Տուն ✕» chip); `picker: true`
- * renders the location choices instead.
+ * The results view: a rich descriptive list (buttons can't hold images or
+ * second lines) + number buttons + a filter row (📍 վայր / 👤 դերասան /
+ * ⏱ տևողություն). Tapping a toggle unfolds that panel's values; every button
+ * carries the full encoded state so paging and filters compose. The 🖼 button
+ * flips the query into inline mode — the only surface with real thumbnails.
+ * With an empty query this doubles as the browse-everything view.
  */
-export function resultsMessage(
-  query: string, results: Sketch[], offset: number,
-  locIdx: number | null = null, picker = false,
-): { text: string; keyboard: InlineKeyboard } {
-  const locLabel = locIdx !== null ? LOCATIONS[locIdx] : null;
-  const header = locLabel
-    ? `🔍 «${escapeHtml(query)}» · 📍 ${escapeHtml(locLabel)} — ${results.length} արդյունք`
-    : `🔍 «${escapeHtml(query)}» — ${results.length} արդյունք`;
+export function resultsMessage(state: ViewState, results: Sketch[], panel: Panel = null):
+  { text: string; keyboard: InlineKeyboard } {
+  const header = headerLine(state, results.length);
 
   if (results.length === 0) {
-    const text = locLabel
-      ? `${header}\n\nԱյդ վայրում ոչինչ չգտնվեց 😕 Հանիր զտիչը կամ ընտրիր այլ վայր։`
-      : [
-          `Ոչինչ չգտնվեց «${escapeHtml(query)}» հարցումով 😕`,
-          "",
-          "Փորձիր՝",
-          "• 💬 ռեպլիկա՝ «տոռմուզ», լատինատառ «tormuz» կամ ռուսատառ «тормуз»",
-          "• 👤 դերասան՝ «Հայկո»",
-          "• 📍 վայր՝ «Հիվանդանոց», «Խանութ»",
-          "• 🎬 տեսարան՝ «հարսանիք», «կով»",
-        ].join("\n");
     const kb = new InlineKeyboard();
-    if (locLabel) {
-      const clear = safeCallback(`l:-:${query}`);
-      if (clear) kb.text("✕ Հանել զտիչը", clear).row();
+    let text: string;
+    if (hasFilters(state)) {
+      text = `${header}\n\nԱյս զտիչներով ոչինչ չգտնվեց 😕`;
+      const clear = safeCallback(`v:${encodeState({ ...newState(state.q) })}`);
+      if (clear) kb.text("✕ Հանել զտիչները", clear).row();
+    } else {
+      text = [
+        `Ոչինչ չգտնվեց «${escapeHtml(state.q)}» հարցումով 😕`,
+        "",
+        "Փորձիր՝",
+        "• 💬 ռեպլիկա՝ «տոռմուզ», լատինատառ «tormuz» կամ ռուսատառ «тормуз»",
+        "• 👤 դերասան՝ «Հայկո»",
+        "• 📍 վայր՝ «Հիվանդանոց», «Խանութ»",
+        "• 🎬 տեսարան՝ «հարսանիք», «կով»",
+        "",
+        "Կամ /browse — զննիր ամբողջ արխիվը զտիչներով։",
+      ].join("\n");
     }
     kb.text("🎲 Պատահական", "r");
     return { text, keyboard: kb };
   }
 
-  const page = results.slice(offset, offset + PAGE);
-  const text = [header, "", ...page.map((s, i) => resultEntry(offset + i + 1, s))].join("\n\n");
+  const page = results.slice(state.offset, state.offset + PAGE);
+  const text = [header, "", ...page.map((s, i) => resultEntry(state.offset + i + 1, s))].join("\n\n");
 
   const kb = new InlineKeyboard();
-  for (const [i, s] of page.entries()) kb.text(String(offset + i + 1), `s:${s.id}`);
-  kb.row().switchInlineCurrent("🖼 Նկարներով", query);
-  if (results.length > offset + PAGE) {
-    const cb = moreCallback(query, offset + PAGE, locIdx);
-    if (cb) kb.text(`➕ Ավելին (${results.length - offset - PAGE})`, cb);
+  for (const [i, s] of page.entries()) kb.text(String(state.offset + i + 1), `s:${s.id}`);
+  kb.row().switchInlineCurrent("🖼 Նկարներով", state.q);
+  if (results.length > state.offset + PAGE) {
+    const cb = safeCallback(`v:${encodeState({ ...state, offset: state.offset + PAGE })}`);
+    if (cb) kb.text(`➕ Ավելին (${results.length - state.offset - PAGE})`, cb);
   }
 
-  if (picker) {
-    // Location choices, three per row; the active one is checked and clears.
-    for (const [i, loc] of LOCATIONS.entries()) {
-      if (i % 3 === 0) kb.row();
-      const active = i === locIdx;
-      const cb = safeCallback(active ? `l:-:${query}` : `l:${i}:${query}`);
-      if (cb) kb.text(`${active ? "✓ " : ""}${loc}`, cb);
-    }
-  } else {
-    // The chip reopens the picker (switch or clear there); closed state opens it too.
-    const toggle = safeCallback(`f:${locIdx ?? "-"}:${query}`);
-    if (toggle) kb.row().text(locLabel ? `📍 ${locLabel} ✕` : "📍 Ըստ վայրի", toggle);
+  // Filter toggles: label shows the active value; tapping an open panel closes it.
+  const zeroOffset = encodeState({ ...state, offset: 0 });
+  const toggles = ([
+    ["l", state.loc !== null ? `📍 ${LOCATIONS[state.loc]}` : "📍 Վայր"],
+    ["a", state.actor !== null ? `👤 ${ACTORS[state.actor]}` : "👤 Դերասան"],
+    ["d", state.dur !== null ? `⏱ ${DURATIONS[state.dur].label}` : "⏱ Տևողություն"],
+  ] as Array<[Exclude<Panel, null>, string]>)
+    .map(([key, label]) => ({
+      label: `${label}${panel === key ? " ▴" : ""}`,
+      cb: safeCallback(panel === key ? `v:${zeroOffset}` : `p:${key}:${zeroOffset}`),
+    }))
+    .filter((t): t is { label: string; cb: string } => t.cb !== null);
+  if (toggles.length) {
+    kb.row();
+    for (const t of toggles) kb.text(t.label, t.cb);
   }
+  if (panel) panelRows(kb, state, panel);
   return { text, keyboard: kb };
 }
 
@@ -159,6 +234,8 @@ export function startText(username: string): string {
     "• 🎵 երգ — «Челентано», «Thriller»",
     "• 🎬 տեսարան — «հարսանիք», «կով», «казино»",
     "",
+    "Տեքստ չե՞ս հիշում — /browse. ամբողջ արխիվը՝ վայրի, դերասանի ու տևողության զտիչներով։",
+    "",
     `💡 Ցանկացած չաթում գրիր <code>@${username} հարցում</code>, ընտրիր սքեթչը — ու այն կհայտնվի հենց այդ չաթում՝ նկարներով ցուցակից։ Խմբերում փնտրելու միակ ձևը սա է։`,
     "",
     "Կամ սկսիր հենց հիմա 👇",
@@ -171,7 +248,7 @@ export function startKeyboard(): InlineKeyboard {
     if (i === 3) kb.row(); // 3 + 2 layout
     kb.text(`${e.emoji} ${e.q}`, `q:${e.q}`);
   }
-  return kb.row().text("🎲 Պատահական", "r").url("🌐 Կայքը", SITE_ORIGIN);
+  return kb.row().text("🗂 Զննել բոլորը", "b").text("🎲 Պատահական", "r").url("🌐 Կայքը", SITE_ORIGIN);
 }
 
 /** Inline-result subtitle: the famous line sells the sketch better than numbers. */

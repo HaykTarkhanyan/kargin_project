@@ -25,10 +25,21 @@ export function randomSketch(): Sketch {
 }
 
 /**
- * Location facet values, most frequent first. Callback data carries the INDEX
- * into this list, not the value — Armenian values eat the 64-byte budget.
+ * Facet values for the filter buttons, most frequent first. Callback data
+ * carries INDEXES into these lists, not values — Armenian values eat the
+ * 64-byte callback budget.
  */
-export const LOCATIONS: string[] = [...ALL.reduce((m, s) => {
+function byFrequency(counts: Map<string, number>): string[] {
+  return [...counts].sort((a, b) => b[1] - a[1]).map(([v]) => v);
+}
+
+export const LOCATIONS: string[] = byFrequency(ALL.reduce((m, s) => {
   m.set(s.location, (m.get(s.location) ?? 0) + 1);
   return m;
-}, new Map<string, number>())].sort((a, b) => b[1] - a[1]).map(([loc]) => loc);
+}, new Map<string, number>()));
+
+// Top 7 = everyone with 22+ sketches; the tail (≤6 sketches each) isn't worth buttons.
+export const ACTORS: string[] = byFrequency(ALL.reduce((m, s) => {
+  for (const a of s.actors) m.set(a, (m.get(a) ?? 0) + 1);
+  return m;
+}, new Map<string, number>())).slice(0, 7);

@@ -2,8 +2,8 @@ import { Bot, InlineKeyboard, InlineQueryResultBuilder } from "grammy";
 import type { Sketch } from "../../web/lib/types";
 import { byId, randomSketch } from "./data";
 import {
-  cardKeyboard, cardText, inlineDescription, resultsMessage,
-  searchTop, siteUrl, startKeyboard, startText,
+  cardKeyboard, cardText, decodeState, inlineDescription, newState, type Panel,
+  resultsMessage, runSearch, searchTop, siteUrl, startKeyboard, startText, type ViewState,
 } from "./cards";
 import { logEvent } from "./log";
 
@@ -17,17 +17,33 @@ export function createBot(token: string): Bot {
 
   const replySearch = async (
     ctx: { reply: (t: string, o?: object) => Promise<unknown>; from?: { id: number } },
-    q: string,
+    q: string, mode: "bot" | "bot-browse" = "bot",
   ) => {
-    const results = searchTop(q);
-    logEvent(ctx.from?.id, "search", { query: q, mode: "bot", resultCount: results.length });
-    const { text, keyboard } = resultsMessage(q, results, 0);
+    const state = newState(q);
+    const results = runSearch(state);
+    logEvent(ctx.from?.id, "search", { query: q, mode, resultCount: results.length });
+    const { text, keyboard } = resultsMessage(state, results);
     await ctx.reply(text, { ...HTML, reply_markup: keyboard });
+  };
+
+  const editResults = async (
+    ctx: { editMessageText: (t: string, o?: object) => Promise<unknown> },
+    state: ViewState, panel: Panel = null,
+  ) => {
+    const { text, keyboard } = resultsMessage(state, runSearch(state), panel);
+    await ctx.editMessageText(text, { ...HTML, reply_markup: keyboard });
   };
 
   bot.command(["start", "help"], (ctx) =>
     ctx.reply(startText(ctx.me.username), { ...HTML, reply_markup: startKeyboard() }),
   );
+
+  // Browse mode: the whole archive, filter down without typing anything.
+  bot.command("browse", (ctx) => replySearch(ctx, "", "bot-browse"));
+  bot.callbackQuery("b", async (ctx) => {
+    await ctx.answerCallbackQuery();
+    await replySearch(ctx, "", "bot-browse");
+  });
 
   bot.command("random", async (ctx) => {
     const s = randomSketch();
@@ -67,41 +83,29 @@ export function createBot(token: string): Bot {
     await sendCard(ctx, s);
   });
 
-  // Re-render the results message in place (paging, filter picker, filter apply).
-  const editResults = async (
-    ctx: { editMessageText: (t: string, o?: object) => Promise<unknown> },
-    q: string, offset: number, locIdx: number | null, picker = false,
-  ) => {
-    const { text, keyboard } = resultsMessage(q, searchTop(q, locIdx), offset, locIdx, picker);
+  // v: re-render with the encoded state (paging, closing a panel, clearing all).
+  bot.callbackQuery(/^v:([\s\S]+)$/, async (ctx) => {
+    await ctx.answerCallbackQuery();
+    const state = decodeState(ctx.match[1]);
+    if (state) await editResults(ctx, state);
+  });
+
+  // V: a filter value was applied or cleared — same render, but logged.
+  bot.callbackQuery(/^V:([\s\S]+)$/, async (ctx) => {
+    await ctx.answerCallbackQuery();
+    const state = decodeState(ctx.match[1]);
+    if (!state) return;
+    const results = runSearch(state);
+    logEvent(ctx.from.id, "search", { query: state.q, mode: "bot-filter", resultCount: results.length });
+    const { text, keyboard } = resultsMessage(state, results);
     await ctx.editMessageText(text, { ...HTML, reply_markup: keyboard });
-  };
-
-  // "More results": next page, unfiltered (m:) or location-filtered (M:).
-  bot.callbackQuery(/^m:(\d+):([\s\S]+)$/, async (ctx) => {
-    await ctx.answerCallbackQuery();
-    await editResults(ctx, ctx.match[2], Number(ctx.match[1]), null);
-  });
-  bot.callbackQuery(/^M:(\d+):(\d+):([\s\S]+)$/, async (ctx) => {
-    await ctx.answerCallbackQuery();
-    await editResults(ctx, ctx.match[3], Number(ctx.match[2]), Number(ctx.match[1]));
   });
 
-  // «📍» button: unfold the location choices under the current results.
-  bot.callbackQuery(/^f:(-|\d+):([\s\S]+)$/, async (ctx) => {
+  // p:<panel>: unfold a filter panel (location / actor / duration) in place.
+  bot.callbackQuery(/^p:(l|a|d):([\s\S]+)$/, async (ctx) => {
     await ctx.answerCallbackQuery();
-    const locIdx = ctx.match[1] === "-" ? null : Number(ctx.match[1]);
-    await editResults(ctx, ctx.match[2], 0, locIdx, true);
-  });
-
-  // Location picked (l:<i>) or cleared (l:-): re-render filtered from page one.
-  bot.callbackQuery(/^l:(-|\d+):([\s\S]+)$/, async (ctx) => {
-    await ctx.answerCallbackQuery();
-    const locIdx = ctx.match[1] === "-" ? null : Number(ctx.match[1]);
-    const q = ctx.match[2];
-    const results = searchTop(q, locIdx);
-    logEvent(ctx.from.id, "search", { query: q, mode: "bot-filter", resultCount: results.length });
-    const { text, keyboard } = resultsMessage(q, results, 0, locIdx);
-    await ctx.editMessageText(text, { ...HTML, reply_markup: keyboard });
+    const state = decodeState(ctx.match[2]);
+    if (state) await editResults(ctx, state, ctx.match[1] as Panel);
   });
 
   // Inline mode: @bot <query> in any chat. Empty query = most-viewed sketches.
@@ -123,6 +127,11 @@ export function createBot(token: string): Bot {
     logEvent(ctx.from.id, "open", { sketchId: ctx.chosenInlineResult.result_id, mode: "inline" });
   });
 
+  // Buttons from messages older than the current callback grammar land here.
+  bot.on("callback_query:data", (ctx) =>
+    ctx.answerCallbackQuery({ text: "Հին կոճակ է 🤷 Գրիր նոր որոնում կամ /browse" }),
+  );
+
   // A handler error must never take the bot down.
   bot.catch((err) => console.error("bot handler error:", err.error));
 
@@ -130,6 +139,7 @@ export function createBot(token: string): Bot {
 }
 
 export const COMMANDS = [
+  { command: "browse", description: "Զննել արխիվը զտիչներով 🗂" },
   { command: "random", description: "Պատահական սքեթչ 🎲" },
   { command: "help", description: "Ինչպես փնտրել" },
 ];

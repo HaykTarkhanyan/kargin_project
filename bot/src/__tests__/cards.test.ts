@@ -1,9 +1,10 @@
 import { describe, expect, it } from "vitest";
 import {
-  cardKeyboard, cardText, escapeHtml, EXAMPLES, inlineDescription, moreCallback, PAGE,
-  resultsMessage, searchTop, siteUrl, startKeyboard, startText,
+  cardKeyboard, cardText, decodeState, DURATIONS, encodeState, escapeHtml, EXAMPLES,
+  inlineDescription, newState, PAGE, resultsMessage, runSearch, searchTop, siteUrl,
+  startKeyboard, startText, type ViewState,
 } from "../cards";
-import { ALL, byId, LOCATIONS, randomSketch } from "../data";
+import { ACTORS, ALL, byId, LOCATIONS, randomSketch } from "../data";
 import type { Sketch } from "../../../web/lib/types";
 
 const sketch = (over: Partial<Sketch> = {}): Sketch => ({
@@ -53,12 +54,22 @@ describe("cardText", () => {
   });
 });
 
+describe("view state", () => {
+  it("encode/decode round-trips; query may contain ':' or be empty", () => {
+    const s: ViewState = { q: "ա:բ", loc: 1, actor: null, dur: 2, offset: 6 };
+    expect(decodeState(encodeState(s))).toEqual(s);
+    expect(decodeState(encodeState(newState("")))).toEqual(newState(""));
+    expect(decodeState("garbage")).toBeNull();
+  });
+});
+
 describe("resultsMessage", () => {
   const many = Array.from({ length: 15 }, (_, i) =>
     sketch({ id: `id${i}aaaaaaaa`, title: `Սքեթչ ${i}`, textCommon: i === 0 ? "հայտնի տող" : "" }));
+  const st = (over: Partial<ViewState> = {}): ViewState => ({ ...newState("test"), ...over });
 
-  it("lists each result with a hook line and numbers the buttons", () => {
-    const { text, keyboard } = resultsMessage("test", many, 0);
+  it("lists each result with a hook line, number buttons, and the filter toggles", () => {
+    const { text, keyboard } = resultsMessage(st(), many);
     expect(text).toContain("«test» — 15 արդյունք");
     expect(text).toContain("<b>1.</b> Սքեթչ 0");
     expect(text).toContain("★ «հայտնի տող»");    // famous line as the hook
@@ -67,75 +78,104 @@ describe("resultsMessage", () => {
     expect(rows[0].map((b) => b.text)).toEqual(["1", "2", "3", "4", "5", "6"]);
     expect((rows[0][0] as { callback_data: string }).callback_data).toBe("s:id0aaaaaaaa");
     expect((rows[1][0] as { switch_inline_query_current_chat: string }).switch_inline_query_current_chat).toBe("test");
-    expect(rows[1][1].text).toBe(`➕ Ավելին (${15 - PAGE})`);
+    expect((rows[1][1] as { callback_data: string }).callback_data).toBe(`v:-:-:-:${PAGE}:test`);
+    expect(rows[2].map((b) => b.text)).toEqual(["📍 Վայր", "👤 Դերասան", "⏱ Տևողություն"]);
+    expect((rows[2][0] as { callback_data: string }).callback_data).toBe("p:l:-:-:-:0:test");
   });
 
   it("offsets numbering and drops the more-button on the last page", () => {
-    const { text, keyboard } = resultsMessage("test", many, 12);
+    const { text, keyboard } = resultsMessage(st({ offset: 12 }), many);
     expect(text).toContain("<b>13.</b> Սքեթչ 12");
     expect(keyboard.inline_keyboard[0].map((b) => b.text)).toEqual(["13", "14", "15"]);
     expect(keyboard.inline_keyboard[1].map((b) => b.text)).toEqual(["🖼 Նկարներով"]);
   });
 
-  it("never emits callback_data over Telegram's 64-byte cap", () => {
-    expect(moreCallback("տոռմուզ", 6)).toBe("m:6:տոռմուզ");
-    expect(moreCallback("ա".repeat(40), 6)).toBeNull(); // 80+ bytes of Armenian
-    const { keyboard } = resultsMessage("ա".repeat(40), many, 0);
-    expect(keyboard.inline_keyboard[1].map((b) => b.text)).toEqual(["🖼 Նկարներով"]); // more-button dropped
-  });
-
-  it("zero results gets typed search tips and a random button", () => {
-    const { text, keyboard } = resultsMessage("xyz", [], 0);
-    expect(text).toContain("Ոչինչ չգտնվեց");
-    expect(text).toContain("📍 վայր");
-    expect((keyboard.inline_keyboard[0][0] as { callback_data: string }).callback_data).toBe("r");
-  });
-
-  it("offers the location filter row and reopens the picker from the chip", () => {
-    const closed = resultsMessage("test", many, 0).keyboard.inline_keyboard;
-    const filterRow = closed[closed.length - 1];
-    expect(filterRow[0].text).toBe("📍 Ըստ վայրի");
-    expect((filterRow[0] as { callback_data: string }).callback_data).toBe("f:-:test");
-
+  it("shows active filters as header chips and in the toggle labels", () => {
     const tun = LOCATIONS.indexOf("Տուն");
-    const chipRow = resultsMessage("test", many, 0, tun).keyboard.inline_keyboard;
-    expect(chipRow[chipRow.length - 1][0].text).toBe("📍 Տուն ✕");
-    expect((chipRow[chipRow.length - 1][0] as { callback_data: string }).callback_data).toBe(`f:${tun}:test`);
+    const state = st({ loc: tun, dur: 0 });
+    const { text, keyboard } = resultsMessage(state, many);
+    expect(text).toContain("· 📍 Տուն ·");
+    expect(text).toContain("· ⏱ մինչև 2ր —");
+    const toggles = keyboard.inline_keyboard[2].map((b) => b.text);
+    expect(toggles).toEqual(["📍 Տուն", "👤 Դերասան", "⏱ մինչև 2ր"]);
   });
 
-  it("picker lists every location, checks the active one, and pages carry the filter", () => {
+  it("panel lists values, checks the active one (tap = clear), pages keep filters", () => {
     const tun = LOCATIONS.indexOf("Տուն");
-    const { text, keyboard } = resultsMessage("test", many, 0, tun, true);
-    expect(text).toContain("· 📍 Տուն —");
+    const state = st({ loc: tun });
+    const { keyboard } = resultsMessage(state, many, "l");
     const flat = keyboard.inline_keyboard.flat();
+    expect(flat.find((b) => b.text === "📍 Տուն ▴")).toBeTruthy(); // open-panel marker
     const active = flat.find((b) => b.text === "✓ Տուն") as { callback_data: string };
-    expect(active.callback_data).toBe("l:-:test");             // tapping the check clears
+    expect(active.callback_data).toBe("V:-:-:-:0:test");           // clears the filter
     const other = flat.find((b) => b.text === "Հիվանդանոց") as { callback_data: string };
-    expect(other.callback_data).toBe(`l:${LOCATIONS.indexOf("Հիվանդանոց")}:test`);
+    expect(other.callback_data).toBe(`V:${LOCATIONS.indexOf("Հիվանդանոց")}:-:-:0:test`);
     const more = flat.find((b) => b.text.startsWith("➕")) as { callback_data: string };
-    expect(more.callback_data).toBe(`M:${tun}:${PAGE}:test`);  // filtered paging
+    expect(more.callback_data).toBe(`v:${tun}:-:-:${PAGE}:test`);  // paging keeps the filter
   });
 
-  it("filtered zero results offers clearing the filter", () => {
-    const tun = LOCATIONS.indexOf("Տուն");
-    const { text, keyboard } = resultsMessage("xyz", [], 0, tun);
-    expect(text).toContain("Հանիր զտիչը");
-    expect((keyboard.inline_keyboard[0][0] as { callback_data: string }).callback_data).toBe("l:-:xyz");
+  it("actor and duration panels index their own lists", () => {
+    const a = resultsMessage(st(), many, "a").keyboard.inline_keyboard.flat();
+    expect(a.find((b) => b.text === "Աշոտ")).toBeTruthy();
+    const d = resultsMessage(st(), many, "d").keyboard.inline_keyboard.flat();
+    const twoFour = d.find((b) => b.text === "2–4ր") as { callback_data: string };
+    expect(twoFour.callback_data).toBe("V:-:-:1:0:test");
+  });
+
+  it("browse mode (empty query) gets its own header and keeps the toggles", () => {
+    const { text, keyboard } = resultsMessage(newState(""), many);
+    expect(text).toContain("🗂 Բոլոր սքեթչերը — 15 արդյունք");
+    expect(keyboard.inline_keyboard[2].map((b) => b.text)).toEqual(["📍 Վայր", "👤 Դերասան", "⏱ Տևողություն"]);
+  });
+
+  it("drops over-budget buttons instead of emitting >64-byte callback_data", () => {
+    const { keyboard } = resultsMessage(st({ q: "ա".repeat(40) }), many);
+    const all = keyboard.inline_keyboard.flat() as Array<{ callback_data?: string }>;
+    for (const b of all) if (b.callback_data) expect(Buffer.byteLength(b.callback_data, "utf8")).toBeLessThanOrEqual(64);
+    expect(keyboard.inline_keyboard).toHaveLength(2); // numbers + 🖼 only; more/toggles dropped
+  });
+
+  it("zero results: typed tips when unfiltered, clear-all when filtered", () => {
+    const plain = resultsMessage(st({ q: "xyz" }), []);
+    expect(plain.text).toContain("Ոչինչ չգտնվեց");
+    expect(plain.text).toContain("/browse");
+    expect((plain.keyboard.inline_keyboard[0][0] as { callback_data: string }).callback_data).toBe("r");
+
+    const filtered = resultsMessage(st({ q: "xyz", loc: 0, dur: 2 }), []);
+    expect(filtered.text).toContain("Այս զտիչներով ոչինչ չգտնվեց");
+    expect((filtered.keyboard.inline_keyboard[0][0] as { callback_data: string }).callback_data).toBe("v:-:-:-:0:xyz");
   });
 });
 
-describe("location filter search", () => {
-  it("LOCATIONS covers the corpus, most frequent first", () => {
-    expect(LOCATIONS.length).toBeGreaterThanOrEqual(5);
+describe("filtered search through the shared lib", () => {
+  it("facet lists cover the corpus", () => {
     expect(LOCATIONS).toContain("Հիվանդանոց");
+    expect(ACTORS).toContain("Մկո");
+    expect(ACTORS.length).toBe(7);
   });
-  it("filtering restricts results to the location", () => {
-    const tun = LOCATIONS.indexOf("Տուն");
-    const all = searchTop("", null);
-    const filtered = searchTop("", tun);
-    expect(filtered.length).toBeGreaterThan(0);
-    expect(filtered.length).toBeLessThan(all.length);
-    expect(filtered.every((s) => s.location === "Տուն")).toBe(true);
+  it("each filter genuinely restricts, and they compose", () => {
+    const all = runSearch(newState(""));
+    const tun = runSearch({ ...newState(""), loc: LOCATIONS.indexOf("Տուն") });
+    expect(tun.length).toBeGreaterThan(0);
+    expect(tun.every((s) => s.location === "Տուն")).toBe(true);
+
+    const ashot = runSearch({ ...newState(""), actor: ACTORS.indexOf("Աշոտ") });
+    expect(ashot.length).toBeGreaterThan(0);
+    expect(ashot.every((s) => s.actors.includes("Աշոտ"))).toBe(true);
+
+    const short = runSearch({ ...newState(""), dur: 0 });
+    expect(short.length).toBeGreaterThan(0);
+    expect(short.every((s) => (s.durationSec ?? 0) < 120)).toBe(true);
+
+    const combined = runSearch({
+      ...newState(""), loc: LOCATIONS.indexOf("Տուն"), actor: ACTORS.indexOf("Մկո"), dur: 1,
+    });
+    expect(combined.length).toBeGreaterThan(0);
+    expect(combined.length).toBeLessThan(all.length);
+    expect(combined.every((s) =>
+      s.location === "Տուն" && s.actors.includes("Մկո") &&
+      (s.durationSec ?? 0) >= 120 && (s.durationSec ?? 0) <= 240,
+    )).toBe(true);
   });
 });
 
@@ -158,8 +198,9 @@ describe("start", () => {
     expect(rows).toHaveLength(3); // 3 examples + 2 examples + actions
     const callbacks = [...rows[0], ...rows[1]].map((b) => (b as { callback_data: string }).callback_data);
     expect(callbacks).toEqual(EXAMPLES.map((e) => `q:${e.q}`));
-    expect((rows[2][0] as { callback_data: string }).callback_data).toBe("r");
-    expect((rows[2][1] as { url: string }).url).toBe("https://karginhaghordum.am");
+    expect((rows[2][0] as { callback_data: string }).callback_data).toBe("b"); // browse
+    expect((rows[2][1] as { callback_data: string }).callback_data).toBe("r");
+    expect((rows[2][2] as { url: string }).url).toBe("https://karginhaghordum.am");
   });
   it("every example search actually returns results", () => {
     for (const e of EXAMPLES) expect(searchTop(e.q).length, e.q).toBeGreaterThan(0);
