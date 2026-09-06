@@ -25,6 +25,11 @@ norecursedirs = ["old", ".*", "node_modules", ".venv", "dist", "*.egg"]
 dev = [
     "pytest==9.1.0",
 ]
+firebase = [
+    # Admin-side mirror sync into Firestore. Run with:
+    # uv run --group firebase python scripts/sync_firestore.py
+    "google-cloud-firestore==2.30.0",
+]
 review = [
     # Optional: local-only curation UI. Never deployed; run with
     # uv run --group review python scripts/review_ui.py
