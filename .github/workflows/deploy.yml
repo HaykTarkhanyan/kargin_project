@@ -47,6 +47,13 @@ jobs:
       - name: Unit tests
         run: npm test
         working-directory: web
+      # The bot imports web/lib directly — run its tests so a web/lib change
+      # can't silently break the other surface.
+      - run: npm ci
+        working-directory: bot
+      - name: Bot tests + typecheck
+        run: npm test && npm run typecheck
+        working-directory: bot
       # firebase-tools 15 needs Java 21+ to run the Firestore emulator.
       - uses: actions/setup-java@v4
         with:

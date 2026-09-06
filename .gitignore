@@ -251,3 +251,4 @@ __marimo__/
 
 # any package dir (web/ has its own .gitignore; bot/ relies on this)
 node_modules/
+*.stackdump
