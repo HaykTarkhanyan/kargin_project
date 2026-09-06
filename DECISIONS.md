@@ -6,6 +6,38 @@ entries are never deleted — that we changed our mind, and why, is the point.
 
 ---
 
+## #8 — Telegram bot in Node/TS importing the website's search, on Cloud Run
+
+**Date:** 2026-09-07 · **Status:** active
+
+**Decision.** The Telegram bot (`bot/`) is Node/TypeScript with grammY and
+imports `web/lib/search.ts` (plus translit/normalize/format/types) directly by
+relative path — one search implementation for both surfaces. Hosting target is
+Cloud Run in webhook mode (scale to zero); long polling for local dev. Data is
+the same `sketches.json` artifact the site bundles, baked into the image.
+Usage events go to the same Firestore `events` collection (source `bot`,
+sha256-hashed user ids).
+
+**Why.** The old project's central defect was two surfaces with duplicated
+fuzzywuzzy search that drifted (see project CLAUDE.md). Importing the web lib
+makes drift structurally impossible — the bot's tests assert an Armenian query
+and its Latin transliteration hit the same sketches via the identical code
+path. grammY chosen over Telegraf as the most actively maintained TS-first
+framework (verified 2026-09-07). User picked all four options 2026-09-07:
+runtime, hosting, v1 features (search + inline + /random), result UX
+(youtu.be link that plays in-chat + site button).
+
+**Alternatives rejected.** Python bot (re-implements search, guaranteed
+drift); reviving `old/telegram_bot.py` (built on the duplicated-search
+pattern); Firestore as the bot's data source (702 reads per cold query for
+data that fits in memory).
+
+**What would change this.** If the site ever drops the static-bundle data
+model, the bot's fs-read of `sketches.json` moves with it. If bot traffic ever
+exceeds polling comfort locally, webhook mode is already the deploy default.
+
+---
+
 ## #7 — Log events over Firestore REST + fetch(keepalive), not the web SDK
 
 **Date:** 2026-09-06 · **Status:** active

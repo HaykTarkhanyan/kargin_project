@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "paths": { "@/*": ["../web/*"] }
+  },
+  "include": ["src/**/*.ts", "../web/lib/**/*.ts"],
+  "exclude": ["../web/lib/__tests__"]
+}

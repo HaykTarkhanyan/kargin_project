@@ -248,3 +248,6 @@ __marimo__/
 
 # Contact sheets: derived from data/video, regenerable via build_contact_sheets.py
 /data/contact_sheets/
+
+# any package dir (web/ has its own .gitignore; bot/ relies on this)
+node_modules/

@@ -1,0 +1,34 @@
+title = "Telegram search bot: Q&A decisions, full scaffold, tests green"
+date = "2026-09-07"
+time = "00:40"
+areas = ["bot", "docs/superpowers", "DECISIONS.md"]
+
+done = [
+    "Asked the 4 blocking questions in one batch before the user left; answers: Node/TS shared search, Cloud Run webhook, v1 = search+inline+/random, youtu.be-link result UX",
+    "Verified grammY is the actively-maintained TS-first choice (web) and its inline/webhook APIs from the official docs repo (Context7 MCP was NOT connected this session — used grammy.dev + raw GitHub instead)",
+    "Scaffolded bot/ with exact-pinned deps (grammy 1.46.0, fuse.js 7.5.0, TS 7.0.2 native)",
+    "bot imports web/lib/{search,translit,normalize,format,types,site} by relative path — zero alias config needed at runtime; tsconfig maps @/* only for typechecking swept lib files",
+    "Tests caught 2 real bugs: grammY InlineKeyboard trailing .row() leaves an empty row; translit parity is superset not equality (ո→o, ռ/ր→r collapse) — fixed builder, corrected test contract",
+    "TS7 gotcha: baseUrl removed (TS5102) — paths now resolve relative to tsconfig",
+    "10/10 vitest, tsc clean, esbuild bundle boots to the BOT_TOKEN guard with the corpus loaded",
+    "Dockerfile (repo-root context, data baked in), README with BotFather + Cloud Run steps, spec doc, DECISIONS #8, node_modules added to root .gitignore",
+]
+
+pending = [
+    "USER: create bot via BotFather (/newbot, /setinline, optional /setinlinefeedback), hand over BOT_TOKEN",
+    "First live smoke: cd bot && BOT_TOKEN=... npm run dev — try a search, inline mode, /random",
+    "Cloud Run deploy once the GCP project (Firebase migration Task 4) exists — commands in bot/README.md",
+    "Firebase migration user actions still pending from 2026-09-06 (project creation, secrets, DNS cutover)",
+]
+
+next = "User supplies BOT_TOKEN → live polling smoke test → Cloud Run deploy"
+
+files = [
+    "bot/src/index.ts", "bot/src/bot.ts", "bot/src/cards.ts", "bot/src/data.ts", "bot/src/log.ts",
+    "bot/src/__tests__/cards.test.ts", "bot/package.json", "bot/tsconfig.json", "bot/Dockerfile",
+    "bot/README.md", "docs/superpowers/specs/2026-09-07-telegram-bot-design.md", "DECISIONS.md",
+]
+
+commits = ["(this session's single bot commit — see git log)"]
+
+notes = "Context7 MCP tools were not available in the session despite global CLAUDE.md listing it — worth reconnecting via /mcp. The 2.6MB sketches.json is fs-read, not bundled, so the Docker image refreshes data by rebuild without recompiling."
