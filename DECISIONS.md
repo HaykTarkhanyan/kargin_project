@@ -6,6 +6,82 @@ entries are never deleted — that we changed our mind, and why, is the point.
 
 ---
 
+## #7 — Log events over Firestore REST + fetch(keepalive), not the web SDK
+
+**Date:** 2026-09-06 · **Status:** active
+
+**Decision.** The site's usage logging writes to Firestore's REST
+`documents:commit` endpoint with `fetch(keepalive)`; the Firebase web SDK is not
+loaded on the logging path. Fields are clamped client-side; security rules
+enforce the same contract as a backstop.
+
+**Why.** Independent design review showed that lazy-loading the SDK at flush
+time loses *entire short sessions* (the SDK chunk can't fetch + init + write
+while the tab is being killed), and the SDK gives no keepalive guarantee on
+unload. Rules apply to every access path including raw HTTPS, so REST loses no
+security. `fetch(keepalive)` is what the current `lib/log.ts` fallback already
+uses — delivery semantics are preserved exactly.
+
+**Alternatives rejected.** Full web SDK (heavy, unload-unreliable);
+`firebase/firestore/lite` (smaller, still no keepalive); keeping the Cloudflare
+Worker (a server we no longer need).
+
+**What would change this.** If the site later loads the Firestore SDK anyway
+for interactive features, the logging path can piggyback on it — reopen then.
+
+---
+
+## #6 — Blaze plan with a ~$10 budget alert, not Spark
+
+**Date:** 2026-09-06 · **Status:** active
+
+**Decision.** The Firebase project runs on the Blaze (pay-as-you-go) plan with
+a ~$10/month budget alert, even though expected steady-state cost is ≈ $0.
+
+**Why.** Spark's Hosting cap is 10 GB transfer/month and the failure mode is
+the site being *disabled* until next month. The built export is ~103 MB and one
+widely shared link could plausibly hit the cap. Blaze keeps every free
+allowance and converts the outage into a small bill; the user approved "a few
+$/month". It also unblocks the Firestore→BigQuery extension for analytics later.
+
+**Alternatives rejected.** Spark (site-goes-dark failure mode); pre-emptive
+paid capacity (nothing to buy — Blaze is usage-priced).
+
+**What would change this.** A real bill above a few $/month → investigate
+traffic, consider tighter caching or moving bulk assets.
+
+---
+
+## #5 — Migrate to Firebase: static Hosting + Firestore, no SSR
+
+**Date:** 2026-09-06 · **Status:** active
+
+**Decision.** Move hosting from GitHub Pages to classic Firebase Hosting,
+keeping the Next.js static export exactly as is. Firestore holds anonymous
+usage events (replacing the Cloudflare Worker + Neon Postgres) and a mirror of
+the sketch catalog for future dynamic features. `kargin_eng.csv` + annotations
+in git remain the source of truth; a CI script syncs them into Firestore after
+each successful deploy. Search keeps the statically bundled JSON.
+
+**Why.** The user wants the site on GCP with Firestore as the foundation for
+dynamic features. Since data edits are git commits, every change already
+triggers a CI rebuild — SSR's "fresh data without rebuild" buys nothing here.
+Serving the search index from Firestore would cost ~702 doc reads per visitor
+(free tier exhausted at ~70 visitors/day) and be slower than CDN-cached static
+chunks. Full design: `docs/superpowers/specs/2026-09-06-firebase-migration-design.md`.
+
+**Alternatives rejected.** Firebase App Hosting SSR (big code migration, per-view
+compute + reads, benefit void given the git workflow); hybrid static-plus-client-
+rehydrate (two data paths for the same content, permanent staleness trap);
+staying on Pages + adding Firestore only (rejected by the user — the point is
+consolidating on GCP).
+
+**What would change this.** Data starts being edited outside git (admin UI,
+crowdsourcing) → revisit SSR/App Hosting. Sustained traffic past ~70k
+reads/day on dynamic features → revisit the read model.
+
+---
+
 ## #4 — Build all four uploads now, without waiting for pilot results
 
 **Date:** 2026-08-02 · **Status:** active · **Reopens #3**
