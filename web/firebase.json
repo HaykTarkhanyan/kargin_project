@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "out",
+    "cleanUrls": false,
+    "trailingSlash": true,
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [
+      {
+        "source": "/_next/static/**",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        ]
+      }
+    ]
+  },
+  "emulators": {
+    "hosting": { "port": 5005 },
+    "firestore": { "port": 8080 },
+    "ui": { "enabled": false }
+  }
+}
