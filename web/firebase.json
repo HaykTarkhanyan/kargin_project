@@ -13,6 +13,10 @@
       }
     ]
   },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
   "emulators": {
     "hosting": { "port": 5005 },
     "firestore": { "port": 8080 },
