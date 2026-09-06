@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
-  cardText, escapeHtml, moreCallback, PAGE, resultsKeyboard, resultsText, searchTop, siteUrl,
+  cardKeyboard, cardText, escapeHtml, EXAMPLES, inlineDescription, moreCallback, PAGE,
+  resultsMessage, searchTop, siteUrl, startKeyboard, startText,
 } from "../cards";
 import { ALL, byId, randomSketch } from "../data";
 import type { Sketch } from "../../../web/lib/types";
@@ -52,37 +53,81 @@ describe("cardText", () => {
   });
 });
 
-describe("keyboards", () => {
+describe("resultsMessage", () => {
   const many = Array.from({ length: 15 }, (_, i) =>
-    sketch({ id: `id${i}aaaaaaaa`, title: `Սքեթչ ${i}` }));
+    sketch({ id: `id${i}aaaaaaaa`, title: `Սքեթչ ${i}`, textCommon: i === 0 ? "հայտնի տող" : "" }));
 
-  it("shows one page of results plus a counted more-button", () => {
-    const rows = resultsKeyboard(many, "test", 0).inline_keyboard;
-    expect(rows).toHaveLength(PAGE + 1);
-    expect(rows[0][0].text).toContain("1. Սքեթչ 0");
+  it("lists each result with a hook line and numbers the buttons", () => {
+    const { text, keyboard } = resultsMessage("test", many, 0);
+    expect(text).toContain("«test» — 15 արդյունք");
+    expect(text).toContain("<b>1.</b> Սքեթչ 0");
+    expect(text).toContain("★ «հայտնի տող»");    // famous line as the hook
+    expect(text).toContain("👥 Հայկո, Մկո");      // actors fallback hook
+    const rows = keyboard.inline_keyboard;
+    expect(rows[0].map((b) => b.text)).toEqual(["1", "2", "3", "4", "5", "6"]);
     expect((rows[0][0] as { callback_data: string }).callback_data).toBe("s:id0aaaaaaaa");
-    expect(rows[PAGE][0].text).toBe(`➕ Ավելին (${15 - PAGE})`);
+    expect((rows[1][0] as { switch_inline_query_current_chat: string }).switch_inline_query_current_chat).toBe("test");
+    expect(rows[1][1].text).toBe(`➕ Ավելին (${15 - PAGE})`);
   });
 
-  it("omits the more-button on the last page and offsets numbering", () => {
-    const rows = resultsKeyboard(many, "test", 12).inline_keyboard;
-    expect(rows).toHaveLength(3);
-    expect(rows[0][0].text).toContain("13. Սքեթչ 12");
+  it("offsets numbering and drops the more-button on the last page", () => {
+    const { text, keyboard } = resultsMessage("test", many, 12);
+    expect(text).toContain("<b>13.</b> Սքեթչ 12");
+    expect(keyboard.inline_keyboard[0].map((b) => b.text)).toEqual(["13", "14", "15"]);
+    expect(keyboard.inline_keyboard[1].map((b) => b.text)).toEqual(["🖼 Նկարներով"]);
   });
 
   it("never emits callback_data over Telegram's 64-byte cap", () => {
     expect(moreCallback("տոռմուզ", 6)).toBe("m:6:տոռմուզ");
     expect(moreCallback("ա".repeat(40), 6)).toBeNull(); // 80+ bytes of Armenian
-    const rows = resultsKeyboard(many, "ա".repeat(40), 0).inline_keyboard;
-    expect(rows).toHaveLength(PAGE); // more-button silently dropped, results intact
+    const { keyboard } = resultsMessage("ա".repeat(40), many, 0);
+    expect(keyboard.inline_keyboard[1].map((b) => b.text)).toEqual(["🖼 Նկարներով"]); // more-button dropped
+  });
+
+  it("zero results gets typed search tips and a random button", () => {
+    const { text, keyboard } = resultsMessage("xyz", [], 0);
+    expect(text).toContain("Ոչինչ չգտնվեց");
+    expect(text).toContain("📍 վայր");
+    expect((keyboard.inline_keyboard[0][0] as { callback_data: string }).callback_data).toBe("r");
+  });
+});
+
+describe("card keyboard", () => {
+  it("offers site, share-via-inline, and rethrow", () => {
+    const rows = cardKeyboard(sketch({ title: "Տոռմուզի սքեթչ" })).inline_keyboard;
+    expect(rows).toHaveLength(2);
+    expect((rows[0][0] as { url: string }).url).toBe("https://karginhaghordum.am/sketch/abc123def45/");
+    expect((rows[0][1] as { switch_inline_query: string }).switch_inline_query).toBe("Տոռմուզի սքեթչ");
+    expect((rows[1][0] as { callback_data: string }).callback_data).toBe("r");
+  });
+});
+
+describe("start", () => {
+  it("names the actual bot username for inline usage", () => {
+    expect(startText("KarginSearchBot")).toContain("@KarginSearchBot");
+  });
+  it("keyboard has one-tap typed example searches plus random and site", () => {
+    const rows = startKeyboard().inline_keyboard;
+    expect(rows).toHaveLength(3); // 3 examples + 2 examples + actions
+    const callbacks = [...rows[0], ...rows[1]].map((b) => (b as { callback_data: string }).callback_data);
+    expect(callbacks).toEqual(EXAMPLES.map((e) => `q:${e.q}`));
+    expect((rows[2][0] as { callback_data: string }).callback_data).toBe("r");
+    expect((rows[2][1] as { url: string }).url).toBe("https://karginhaghordum.am");
+  });
+  it("every example search actually returns results", () => {
+    for (const e of EXAMPLES) expect(searchTop(e.q).length, e.q).toBeGreaterThan(0);
+  });
+});
+
+describe("inlineDescription", () => {
+  it("leads with the famous line when there is one, else the actors", () => {
+    expect(inlineDescription(sketch({ textCommon: "ուր ես գնում" }))).toContain("«ուր ես գնում»");
+    expect(inlineDescription(sketch())).toContain("Հայկո, Մկո");
+    expect(inlineDescription(sketch())).toContain("⏱ 3:05 · 👁 1.2M · Բակ");
   });
 });
 
 describe("texts", () => {
-  it("zero results gets tips, hits get a count", () => {
-    expect(resultsText("xyz", 0)).toContain("Ոչինչ չգտնվեց");
-    expect(resultsText("տոռմուզ", 7)).toBe("🔍 «տոռմուզ» — 7 արդյունք");
-  });
   it("site url points at the canonical domain", () => {
     expect(siteUrl(sketch())).toBe("https://karginhaghordum.am/sketch/abc123def45/");
   });

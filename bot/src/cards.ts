@@ -40,12 +40,14 @@ export function siteUrl(s: Sketch): string {
 }
 
 export function cardKeyboard(s: Sketch): InlineKeyboard {
-  return new InlineKeyboard().url("🌐 Բացել կայքում", siteUrl(s)).text("🎲 Պատահական", "r");
-}
-
-function buttonLabel(i: number, s: Sketch): string {
-  const title = s.title.length > 42 ? `${s.title.slice(0, 41)}…` : s.title;
-  return `${i + 1}. ${title} · ${formatDuration(s.durationSec)}`;
+  // switchInline opens Telegram's chat picker and pre-fills "@bot <title>" —
+  // the exact title ranks the sketch first (title weight 4), so the tapped
+  // sketch is what lands in the chosen chat.
+  return new InlineKeyboard()
+    .url("🌐 Կայքում", siteUrl(s))
+    .switchInline("📤 Կիսվել", s.title)
+    .row()
+    .text("🎲 Էլի մեկը", "r");
 }
 
 /** Telegram caps callback_data at 64 BYTES (Armenian chars are 2 each). */
@@ -54,43 +56,92 @@ export function moreCallback(query: string, offset: number): string | null {
   return Buffer.byteLength(data, "utf8") <= 64 ? data : null;
 }
 
-export function resultsKeyboard(results: Sketch[], query: string, offset: number): InlineKeyboard {
-  // .row() only BETWEEN buttons — a trailing .row() leaves an empty row in the markup.
-  const kb = new InlineKeyboard();
-  for (const [i, s] of results.slice(offset, offset + PAGE).entries()) {
-    if (i > 0) kb.row();
-    kb.text(buttonLabel(offset + i, s), `s:${s.id}`);
-  }
-  if (results.length > offset + PAGE) {
-    const cb = moreCallback(query, offset + PAGE);
-    if (cb) kb.row().text(`➕ Ավելին (${results.length - offset - PAGE})`, cb);
-  }
-  return kb;
+function clip(v: string, max: number): string {
+  return v.length > max ? `${v.slice(0, max - 1)}…` : v;
 }
 
-export function resultsText(query: string, count: number): string {
-  if (count === 0) {
-    return [
+/** One list entry: title line + a hook line (famous line, else actors) + numbers. */
+function resultEntry(n: number, s: Sketch): string {
+  const hook = s.textCommon ? `★ «${escapeHtml(clip(s.textCommon, 60))}»` : `👥 ${escapeHtml(s.actors.join(", ") || "—")}`;
+  return [
+    `<b>${n}.</b> ${escapeHtml(clip(s.title, 70))}`,
+    `${hook} · ⏱ ${formatDuration(s.durationSec)} · 👁 ${formatViews(s.viewCount)}`,
+  ].join("\n");
+}
+
+/**
+ * The search reply: a rich descriptive list in the message body (buttons can't
+ * hold images or second lines) + compact number buttons. The 🖼 button flips
+ * the same query into inline mode — the only Telegram surface with real
+ * per-result thumbnails.
+ */
+export function resultsMessage(query: string, results: Sketch[], offset: number):
+  { text: string; keyboard: InlineKeyboard } {
+  if (results.length === 0) {
+    const text = [
       `Ոչինչ չգտնվեց «${escapeHtml(query)}» հարցումով 😕`,
       "",
       "Փորձիր՝",
-      "• կարճ բառ կամ արտահայտություն («տոռմուզ», «մետաղալոմ»)",
-      "• լատինատառ կամ ռուսատառ («tormuz», «тормуз»)",
-      "• դերասանի անուն («Հայկո»)",
+      "• 💬 ռեպլիկա՝ «տոռմուզ», լատինատառ «tormuz» կամ ռուսատառ «тормуз»",
+      "• 👤 դերասան՝ «Հայկո»",
+      "• 📍 վայր՝ «Հիվանդանոց», «Խանութ»",
+      "• 🎬 տեսարան՝ «հարսանիք», «կով»",
     ].join("\n");
+    return { text, keyboard: new InlineKeyboard().text("🎲 Պատահական", "r") };
   }
-  return `🔍 «${escapeHtml(query)}» — ${count} արդյունք`;
+  const page = results.slice(offset, offset + PAGE);
+  const text = [
+    `🔍 «${escapeHtml(query)}» — ${results.length} արդյունք`,
+    "",
+    ...page.map((s, i) => resultEntry(offset + i + 1, s)),
+  ].join("\n\n");
+
+  const kb = new InlineKeyboard();
+  for (const [i, s] of page.entries()) kb.text(String(offset + i + 1), `s:${s.id}`);
+  kb.row().switchInlineCurrent("🖼 Նկարներով", query);
+  if (results.length > offset + PAGE) {
+    const cb = moreCallback(query, offset + PAGE);
+    if (cb) kb.text(`➕ Ավելին (${results.length - offset - PAGE})`, cb);
+  }
+  return { text, keyboard: kb };
 }
 
-export const START_TEXT = [
-  "Բարև՛ 👋 Ես գտնում եմ Կարգին Հաղորդման սքեթչերը՝ ռեպլիկայով, դերասանով, երգով կամ տեսարանով։",
-  "",
-  "Պարզապես գրիր՝ ինչ ես փնտրում.",
-  "• «տոռմուզ» կամ լատինատառ «tormuz»",
-  "• «Հայկո» — դերասանի բոլոր սքեթչերը",
-  "• «казино», «հարսանիք», «կով» — տեսարանով",
-  "",
-  "💡 Ցանկացած չաթում գրիր <code>@բոտի_անունը հարցում</code> — սքեթչը կկիսվես առանց չաթից դուրս գալու։",
-  "",
-  "🎲 /random — պատահական սքեթչ",
-].join("\n");
+/** Canned searches offered as one-tap buttons under /start — one per search TYPE. */
+export const EXAMPLES = [
+  { emoji: "💬", q: "տոռմուզ" },     // catchphrase / dialogue
+  { emoji: "👤", q: "Հայկո" },       // actor
+  { emoji: "📍", q: "Հիվանդանոց" },  // location facet
+  { emoji: "🎵", q: "Челентано" },   // recognized song
+  { emoji: "🎬", q: "կով" },         // visual scene annotation
+] as const;
+
+export function startText(username: string): string {
+  return [
+    "Բարև՛ 👋 Ես գտնում եմ Կարգին Հաղորդման սքեթչերը՝ գրիր որևէ բան, ես կփնտրեմ ամեն տեղ.",
+    "",
+    "• 💬 ռեպլիկա — «տոռմուզ», լատինատառ «tormuz», ռուսատառ «тормуз»",
+    "• 👤 դերասան — «Հայկո», «Մկո»",
+    "• 📍 վայր — «Հիվանդանոց», «Խանութ», «Գրասենյակ»",
+    "• 🎵 երգ — «Челентано», «Thriller»",
+    "• 🎬 տեսարան — «հարսանիք», «կով», «казино»",
+    "",
+    `💡 Ցանկացած չաթում գրիր <code>@${username} հարցում</code>, ընտրիր սքեթչը — ու այն կհայտնվի հենց այդ չաթում՝ նկարներով ցուցակից։ Խմբերում փնտրելու միակ ձևը սա է։`,
+    "",
+    "Կամ սկսիր հենց հիմա 👇",
+  ].join("\n");
+}
+
+export function startKeyboard(): InlineKeyboard {
+  const kb = new InlineKeyboard();
+  for (const [i, e] of EXAMPLES.entries()) {
+    if (i === 3) kb.row(); // 3 + 2 layout
+    kb.text(`${e.emoji} ${e.q}`, `q:${e.q}`);
+  }
+  return kb.row().text("🎲 Պատահական", "r").url("🌐 Կայքը", SITE_ORIGIN);
+}
+
+/** Inline-result subtitle: the famous line sells the sketch better than numbers. */
+export function inlineDescription(s: Sketch): string {
+  const hook = s.textCommon ? `«${s.textCommon}»` : s.actors.join(", ");
+  return `${hook}\n⏱ ${formatDuration(s.durationSec)} · 👁 ${formatViews(s.viewCount)} · ${s.location}`;
+}

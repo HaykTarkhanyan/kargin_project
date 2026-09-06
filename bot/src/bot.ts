@@ -1,10 +1,9 @@
 import { Bot, InlineKeyboard, InlineQueryResultBuilder } from "grammy";
-import { SITE_ORIGIN } from "../../web/lib/site";
-import { formatDuration, formatViews } from "../../web/lib/format";
 import type { Sketch } from "../../web/lib/types";
 import { byId, randomSketch } from "./data";
 import {
-  cardKeyboard, cardText, PAGE, resultsKeyboard, resultsText, searchTop, siteUrl, START_TEXT,
+  cardKeyboard, cardText, inlineDescription, resultsMessage,
+  searchTop, siteUrl, startKeyboard, startText,
 } from "./cards";
 import { logEvent } from "./log";
 
@@ -16,11 +15,18 @@ export function createBot(token: string): Bot {
   const sendCard = (ctx: { reply: (t: string, o?: object) => Promise<unknown> }, s: Sketch) =>
     ctx.reply(cardText(s), { ...HTML, reply_markup: cardKeyboard(s) });
 
+  const replySearch = async (
+    ctx: { reply: (t: string, o?: object) => Promise<unknown>; from?: { id: number } },
+    q: string,
+  ) => {
+    const results = searchTop(q);
+    logEvent(ctx.from?.id, "search", { query: q, mode: "bot", resultCount: results.length });
+    const { text, keyboard } = resultsMessage(q, results, 0);
+    await ctx.reply(text, { ...HTML, reply_markup: keyboard });
+  };
+
   bot.command(["start", "help"], (ctx) =>
-    ctx.reply(START_TEXT, {
-      ...HTML,
-      reply_markup: new InlineKeyboard().text("🎲 Պատահական", "r").url("🌐 Կայքը", SITE_ORIGIN),
-    }),
+    ctx.reply(startText(ctx.me.username), { ...HTML, reply_markup: startKeyboard() }),
   );
 
   bot.command("random", async (ctx) => {
@@ -37,14 +43,13 @@ export function createBot(token: string): Bot {
       await ctx.reply("Այդպիսի հրաման չկա 🤷 Պարզապես գրիր՝ ինչ ես փնտրում, կամ /random");
       return;
     }
-    const results = searchTop(q);
-    logEvent(ctx.from?.id, "search", { query: q, mode: "bot", resultCount: results.length });
-    await ctx.reply(resultsText(q, results.length), {
-      ...HTML,
-      reply_markup: results.length
-        ? resultsKeyboard(results, q, 0)
-        : new InlineKeyboard().text("🎲 Պատահական", "r"),
-    });
+    await replySearch(ctx, q);
+  });
+
+  // One-tap example searches from the /start message.
+  bot.callbackQuery(/^q:(.+)$/, async (ctx) => {
+    await ctx.answerCallbackQuery();
+    await replySearch(ctx, ctx.match[1]);
   });
 
   bot.callbackQuery("r", async (ctx) => {
@@ -62,13 +67,13 @@ export function createBot(token: string): Bot {
     await sendCard(ctx, s);
   });
 
-  // "More results": swap the keyboard in place for the next page.
+  // "More results": swap the whole message in place for the next page.
   bot.callbackQuery(/^m:(\d+):([\s\S]+)$/, async (ctx) => {
     await ctx.answerCallbackQuery();
     const offset = Number(ctx.match[1]);
     const q = ctx.match[2];
-    const results = searchTop(q);
-    await ctx.editMessageReplyMarkup({ reply_markup: resultsKeyboard(results, q, offset) });
+    const { text, keyboard } = resultsMessage(q, searchTop(q), offset);
+    await ctx.editMessageText(text, { ...HTML, reply_markup: keyboard });
   });
 
   // Inline mode: @bot <query> in any chat. Empty query = most-viewed sketches.
@@ -76,7 +81,7 @@ export function createBot(token: string): Bot {
     const q = ctx.inlineQuery.query.trim();
     const results = searchTop(q).slice(0, 10).map((s) =>
       InlineQueryResultBuilder.article(s.id, s.title, {
-        description: `⏱ ${formatDuration(s.durationSec)} · 👁 ${formatViews(s.viewCount)} · ${s.location}`,
+        description: inlineDescription(s),
         thumbnail_url: s.thumbnail || undefined,
         reply_markup: new InlineKeyboard().url("🌐 Բացել կայքում", siteUrl(s)),
       }).text(cardText(s), HTML),
@@ -100,6 +105,3 @@ export const COMMANDS = [
   { command: "random", description: "Պատահական սքեթչ 🎲" },
   { command: "help", description: "Ինչպես փնտրել" },
 ];
-
-// Referenced by tests to assert paging math stays in sync with the keyboard.
-export { PAGE };
