@@ -58,8 +58,9 @@ jobs:
       - run: npm run build
         working-directory: web
         env:
-          # Set repo variable LOG_ENDPOINT (Settings → Variables) to your Worker URL to enable usage logging.
-          NEXT_PUBLIC_LOG_ENDPOINT: ${{ vars.LOG_ENDPOINT }}
+          # Usage logging writes straight to Firestore (see web/lib/log.ts); a
+          # no-op until the FIREBASE_PROJECT_ID repo variable is set.
+          NEXT_PUBLIC_FIREBASE_PROJECT_ID: ${{ vars.FIREBASE_PROJECT_ID }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web/out
