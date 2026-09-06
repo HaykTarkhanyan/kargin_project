@@ -7,7 +7,7 @@
  * Clamps mirror the rules contract — a rules rejection means a bug, and the
  * whole batch is dropped with a console.warn (fine for telemetry).
  */
-export type LogType = "search" | "open" | "filter" | "findname" | "copy";
+export type LogType = "search" | "open" | "filter" | "findname" | "copy" | "share";
 
 interface LogEvent {
   sessionId: string;

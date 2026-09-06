@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Anton, Inter, Noto_Sans_Armenian } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { SITE_ORIGIN } from "@/lib/site";
 
 const anton = Anton({ weight: "400", subsets: ["latin"], variable: "--font-anton" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -10,7 +11,7 @@ const arm = Noto_Sans_Armenian({ subsets: ["armenian"], weight: ["400", "600", "
 export const metadata: Metadata = {
   // The site is also reachable at <project>.web.app during the Firebase migration;
   // canonicals keep search engines pointed at the real domain.
-  metadataBase: new URL("https://karginhaghordum.am"),
+  metadataBase: new URL(SITE_ORIGIN),
   alternates: { canonical: "./" },
   title: "Կարգին Արխիվ — Kargin Archive",
   description: "Որոնիր 702 Կարգին սքեթչ՝ տող առ տող։",

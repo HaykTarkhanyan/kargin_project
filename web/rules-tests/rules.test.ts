@@ -50,6 +50,11 @@ describe("events", () => {
   it("accepts a valid anonymous create", async () => {
     await assertSucceeds(setDoc(doc(anon(), "events", "e1"), valid()));
   });
+  it("accepts a share event", async () => {
+    await assertSucceeds(
+      setDoc(doc(anon(), "events", "e1b"), { ...valid(), type: "share", query: "telegram" }),
+    );
+  });
   it("rejects an unknown type", async () => {
     await assertFails(setDoc(doc(anon(), "events", "e2"), { ...valid(), type: "hack" }));
   });

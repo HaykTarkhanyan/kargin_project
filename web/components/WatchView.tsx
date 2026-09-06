@@ -4,7 +4,9 @@ import { formatViews, formatDuration } from "@/lib/format";
 import { related } from "@/lib/related";
 import { ALL } from "@/lib/data";
 import CopyButton from "./CopyButton";
+import ShareButton from "./ShareButton";
 import RelatedList from "./RelatedList";
+import { SITE_ORIGIN } from "@/lib/site";
 import SongList from "./SongList";
 
 export default function WatchView({ s }: { s: Sketch }) {
@@ -18,8 +20,7 @@ export default function WatchView({ s }: { s: Sketch }) {
         </div>
         <div className="mt-4 flex flex-wrap gap-2.5">
           <a className="k-border rounded-lg bg-korange px-4 py-2.5 text-sm font-bold" href={s.url} target="_blank" rel="noreferrer">▶ Դիտել YouTube-ում</a>
-          <CopyButton label="🔗 Պատճենել հղումը" getHref />
-          {s.textCommon && <CopyButton label="Պատճենել տողը" value={s.textCommon} />}
+          <ShareButton url={`${SITE_ORIGIN}/sketch/${s.id}/`} title={s.title} />
         </div>
         <dl className="mt-5 grid grid-cols-2 gap-4 border-t-2 border-ink pt-5 text-sm">
           <Meta k="Վայր" v={<span className="rounded-full bg-kblue px-2.5 py-0.5 font-bold text-white">{s.location}</span>} />
@@ -32,7 +33,10 @@ export default function WatchView({ s }: { s: Sketch }) {
       <div className="bg-paper2 px-5 py-5">
         {s.textCommon && (
           <div className="mb-3 rounded-md border-2 border-ink border-l-[5px] border-l-korange bg-surface px-3 py-2.5">
-            <div className="mb-1 text-[10px] font-extrabold uppercase tracking-wider text-kred">★ Հանրահայտ տողը</div>
+            <div className="mb-1 flex items-center justify-between gap-2">
+              <div className="text-[10px] font-extrabold uppercase tracking-wider text-kred">★ Հանրահայտ տողը</div>
+              <CopyButton label="Պատճենել տողը" value={s.textCommon} compact />
+            </div>
             <div className="text-sm font-semibold leading-snug">«{s.textCommon}»</div>
           </div>
         )}
