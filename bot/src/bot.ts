@@ -51,9 +51,12 @@ export function createBot(token: string): Bot {
     await sendCard(ctx, s);
   });
 
-  // Any plain text = a search. Slash-prefixed text that reached here is an
-  // unknown command — nudge instead of searching for "/whatever".
+  // Any plain text = a search — PRIVATE chats only. In groups Telegram delivers
+  // every /command to every bot (even ones aimed at other bots), and answering
+  // those would be noise; there, the bot reacts only to its own commands and
+  // inline queries. Slash-prefixed text here is an unknown command — nudge.
   bot.on("message:text", async (ctx) => {
+    if (ctx.chat.type !== "private") return;
     const q = ctx.message.text.trim();
     if (q.startsWith("/")) {
       await ctx.reply("Այդպիսի հրաման չկա 🤷 Պարզապես գրիր՝ ինչ ես փնտրում, կամ /random");
