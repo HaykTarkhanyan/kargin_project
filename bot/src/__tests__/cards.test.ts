@@ -3,7 +3,7 @@ import {
   cardKeyboard, cardText, escapeHtml, EXAMPLES, inlineDescription, moreCallback, PAGE,
   resultsMessage, searchTop, siteUrl, startKeyboard, startText,
 } from "../cards";
-import { ALL, byId, randomSketch } from "../data";
+import { ALL, byId, LOCATIONS, randomSketch } from "../data";
 import type { Sketch } from "../../../web/lib/types";
 
 const sketch = (over: Partial<Sketch> = {}): Sketch => ({
@@ -89,6 +89,53 @@ describe("resultsMessage", () => {
     expect(text).toContain("Ոչինչ չգտնվեց");
     expect(text).toContain("📍 վայր");
     expect((keyboard.inline_keyboard[0][0] as { callback_data: string }).callback_data).toBe("r");
+  });
+
+  it("offers the location filter row and reopens the picker from the chip", () => {
+    const closed = resultsMessage("test", many, 0).keyboard.inline_keyboard;
+    const filterRow = closed[closed.length - 1];
+    expect(filterRow[0].text).toBe("📍 Ըստ վայրի");
+    expect((filterRow[0] as { callback_data: string }).callback_data).toBe("f:-:test");
+
+    const tun = LOCATIONS.indexOf("Տուն");
+    const chipRow = resultsMessage("test", many, 0, tun).keyboard.inline_keyboard;
+    expect(chipRow[chipRow.length - 1][0].text).toBe("📍 Տուն ✕");
+    expect((chipRow[chipRow.length - 1][0] as { callback_data: string }).callback_data).toBe(`f:${tun}:test`);
+  });
+
+  it("picker lists every location, checks the active one, and pages carry the filter", () => {
+    const tun = LOCATIONS.indexOf("Տուն");
+    const { text, keyboard } = resultsMessage("test", many, 0, tun, true);
+    expect(text).toContain("· 📍 Տուն —");
+    const flat = keyboard.inline_keyboard.flat();
+    const active = flat.find((b) => b.text === "✓ Տուն") as { callback_data: string };
+    expect(active.callback_data).toBe("l:-:test");             // tapping the check clears
+    const other = flat.find((b) => b.text === "Հիվանդանոց") as { callback_data: string };
+    expect(other.callback_data).toBe(`l:${LOCATIONS.indexOf("Հիվանդանոց")}:test`);
+    const more = flat.find((b) => b.text.startsWith("➕")) as { callback_data: string };
+    expect(more.callback_data).toBe(`M:${tun}:${PAGE}:test`);  // filtered paging
+  });
+
+  it("filtered zero results offers clearing the filter", () => {
+    const tun = LOCATIONS.indexOf("Տուն");
+    const { text, keyboard } = resultsMessage("xyz", [], 0, tun);
+    expect(text).toContain("Հանիր զտիչը");
+    expect((keyboard.inline_keyboard[0][0] as { callback_data: string }).callback_data).toBe("l:-:xyz");
+  });
+});
+
+describe("location filter search", () => {
+  it("LOCATIONS covers the corpus, most frequent first", () => {
+    expect(LOCATIONS.length).toBeGreaterThanOrEqual(5);
+    expect(LOCATIONS).toContain("Հիվանդանոց");
+  });
+  it("filtering restricts results to the location", () => {
+    const tun = LOCATIONS.indexOf("Տուն");
+    const all = searchTop("", null);
+    const filtered = searchTop("", tun);
+    expect(filtered.length).toBeGreaterThan(0);
+    expect(filtered.length).toBeLessThan(all.length);
+    expect(filtered.every((s) => s.location === "Տուն")).toBe(true);
   });
 });
 

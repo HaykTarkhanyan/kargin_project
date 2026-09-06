@@ -67,12 +67,40 @@ export function createBot(token: string): Bot {
     await sendCard(ctx, s);
   });
 
-  // "More results": swap the whole message in place for the next page.
+  // Re-render the results message in place (paging, filter picker, filter apply).
+  const editResults = async (
+    ctx: { editMessageText: (t: string, o?: object) => Promise<unknown> },
+    q: string, offset: number, locIdx: number | null, picker = false,
+  ) => {
+    const { text, keyboard } = resultsMessage(q, searchTop(q, locIdx), offset, locIdx, picker);
+    await ctx.editMessageText(text, { ...HTML, reply_markup: keyboard });
+  };
+
+  // "More results": next page, unfiltered (m:) or location-filtered (M:).
   bot.callbackQuery(/^m:(\d+):([\s\S]+)$/, async (ctx) => {
     await ctx.answerCallbackQuery();
-    const offset = Number(ctx.match[1]);
+    await editResults(ctx, ctx.match[2], Number(ctx.match[1]), null);
+  });
+  bot.callbackQuery(/^M:(\d+):(\d+):([\s\S]+)$/, async (ctx) => {
+    await ctx.answerCallbackQuery();
+    await editResults(ctx, ctx.match[3], Number(ctx.match[2]), Number(ctx.match[1]));
+  });
+
+  // «📍» button: unfold the location choices under the current results.
+  bot.callbackQuery(/^f:(-|\d+):([\s\S]+)$/, async (ctx) => {
+    await ctx.answerCallbackQuery();
+    const locIdx = ctx.match[1] === "-" ? null : Number(ctx.match[1]);
+    await editResults(ctx, ctx.match[2], 0, locIdx, true);
+  });
+
+  // Location picked (l:<i>) or cleared (l:-): re-render filtered from page one.
+  bot.callbackQuery(/^l:(-|\d+):([\s\S]+)$/, async (ctx) => {
+    await ctx.answerCallbackQuery();
+    const locIdx = ctx.match[1] === "-" ? null : Number(ctx.match[1]);
     const q = ctx.match[2];
-    const { text, keyboard } = resultsMessage(q, searchTop(q), offset);
+    const results = searchTop(q, locIdx);
+    logEvent(ctx.from.id, "search", { query: q, mode: "bot-filter", resultCount: results.length });
+    const { text, keyboard } = resultsMessage(q, results, 0, locIdx);
     await ctx.editMessageText(text, { ...HTML, reply_markup: keyboard });
   });
 

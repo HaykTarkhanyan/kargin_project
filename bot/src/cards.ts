@@ -8,12 +8,14 @@ import { searchSketches } from "../../web/lib/search";
 import { formatDuration, formatViews } from "../../web/lib/format";
 import { SITE_ORIGIN } from "../../web/lib/site";
 import type { Sketch } from "../../web/lib/types";
-import { ALL } from "./data";
+import { ALL, LOCATIONS } from "./data";
 
 export const PAGE = 6;
 
-export function searchTop(query: string): Sketch[] {
-  return searchSketches(query, ALL, {}, "views");
+/** locIdx indexes LOCATIONS; null = no filter. Same Filters the website uses. */
+export function searchTop(query: string, locIdx: number | null = null): Sketch[] {
+  const loc = locIdx !== null ? LOCATIONS[locIdx] : undefined;
+  return searchSketches(query, ALL, loc ? { location: [loc] } : {}, "views");
 }
 
 export function escapeHtml(s: string): string {
@@ -51,9 +53,13 @@ export function cardKeyboard(s: Sketch): InlineKeyboard {
 }
 
 /** Telegram caps callback_data at 64 BYTES (Armenian chars are 2 each). */
-export function moreCallback(query: string, offset: number): string | null {
-  const data = `m:${offset}:${query}`;
+export function safeCallback(data: string): string | null {
   return Buffer.byteLength(data, "utf8") <= 64 ? data : null;
+}
+
+/** Paging: `m:` unfiltered, `M:<locIdx>:` filtered. */
+export function moreCallback(query: string, offset: number, locIdx: number | null = null): string | null {
+  return safeCallback(locIdx === null ? `m:${offset}:${query}` : `M:${locIdx}:${offset}:${query}`);
 }
 
 function clip(v: string, max: number): string {
@@ -73,35 +79,63 @@ function resultEntry(n: number, s: Sketch): string {
  * The search reply: a rich descriptive list in the message body (buttons can't
  * hold images or second lines) + compact number buttons. The 🖼 button flips
  * the same query into inline mode — the only Telegram surface with real
- * per-result thumbnails.
+ * per-result thumbnails. A third row exposes the location filter: closed it
+ * reads «📍 Ըստ վայրի» (or the active «📍 Տուն ✕» chip); `picker: true`
+ * renders the location choices instead.
  */
-export function resultsMessage(query: string, results: Sketch[], offset: number):
-  { text: string; keyboard: InlineKeyboard } {
+export function resultsMessage(
+  query: string, results: Sketch[], offset: number,
+  locIdx: number | null = null, picker = false,
+): { text: string; keyboard: InlineKeyboard } {
+  const locLabel = locIdx !== null ? LOCATIONS[locIdx] : null;
+  const header = locLabel
+    ? `🔍 «${escapeHtml(query)}» · 📍 ${escapeHtml(locLabel)} — ${results.length} արդյունք`
+    : `🔍 «${escapeHtml(query)}» — ${results.length} արդյունք`;
+
   if (results.length === 0) {
-    const text = [
-      `Ոչինչ չգտնվեց «${escapeHtml(query)}» հարցումով 😕`,
-      "",
-      "Փորձիր՝",
-      "• 💬 ռեպլիկա՝ «տոռմուզ», լատինատառ «tormuz» կամ ռուսատառ «тормуз»",
-      "• 👤 դերասան՝ «Հայկո»",
-      "• 📍 վայր՝ «Հիվանդանոց», «Խանութ»",
-      "• 🎬 տեսարան՝ «հարսանիք», «կով»",
-    ].join("\n");
-    return { text, keyboard: new InlineKeyboard().text("🎲 Պատահական", "r") };
+    const text = locLabel
+      ? `${header}\n\nԱյդ վայրում ոչինչ չգտնվեց 😕 Հանիր զտիչը կամ ընտրիր այլ վայր։`
+      : [
+          `Ոչինչ չգտնվեց «${escapeHtml(query)}» հարցումով 😕`,
+          "",
+          "Փորձիր՝",
+          "• 💬 ռեպլիկա՝ «տոռմուզ», լատինատառ «tormuz» կամ ռուսատառ «тормуз»",
+          "• 👤 դերասան՝ «Հայկո»",
+          "• 📍 վայր՝ «Հիվանդանոց», «Խանութ»",
+          "• 🎬 տեսարան՝ «հարսանիք», «կով»",
+        ].join("\n");
+    const kb = new InlineKeyboard();
+    if (locLabel) {
+      const clear = safeCallback(`l:-:${query}`);
+      if (clear) kb.text("✕ Հանել զտիչը", clear).row();
+    }
+    kb.text("🎲 Պատահական", "r");
+    return { text, keyboard: kb };
   }
+
   const page = results.slice(offset, offset + PAGE);
-  const text = [
-    `🔍 «${escapeHtml(query)}» — ${results.length} արդյունք`,
-    "",
-    ...page.map((s, i) => resultEntry(offset + i + 1, s)),
-  ].join("\n\n");
+  const text = [header, "", ...page.map((s, i) => resultEntry(offset + i + 1, s))].join("\n\n");
 
   const kb = new InlineKeyboard();
   for (const [i, s] of page.entries()) kb.text(String(offset + i + 1), `s:${s.id}`);
   kb.row().switchInlineCurrent("🖼 Նկարներով", query);
   if (results.length > offset + PAGE) {
-    const cb = moreCallback(query, offset + PAGE);
+    const cb = moreCallback(query, offset + PAGE, locIdx);
     if (cb) kb.text(`➕ Ավելին (${results.length - offset - PAGE})`, cb);
+  }
+
+  if (picker) {
+    // Location choices, three per row; the active one is checked and clears.
+    for (const [i, loc] of LOCATIONS.entries()) {
+      if (i % 3 === 0) kb.row();
+      const active = i === locIdx;
+      const cb = safeCallback(active ? `l:-:${query}` : `l:${i}:${query}`);
+      if (cb) kb.text(`${active ? "✓ " : ""}${loc}`, cb);
+    }
+  } else {
+    // The chip reopens the picker (switch or clear there); closed state opens it too.
+    const toggle = safeCallback(`f:${locIdx ?? "-"}:${query}`);
+    if (toggle) kb.row().text(locLabel ? `📍 ${locLabel} ✕` : "📍 Ըստ վայրի", toggle);
   }
   return { text, keyboard: kb };
 }

@@ -23,3 +23,12 @@ export const byId = (id: string): Sketch | undefined => _byId.get(id);
 export function randomSketch(): Sketch {
   return ALL[Math.floor(Math.random() * ALL.length)];
 }
+
+/**
+ * Location facet values, most frequent first. Callback data carries the INDEX
+ * into this list, not the value — Armenian values eat the 64-byte budget.
+ */
+export const LOCATIONS: string[] = [...ALL.reduce((m, s) => {
+  m.set(s.location, (m.get(s.location) ?? 0) + 1);
+  return m;
+}, new Map<string, number>())].sort((a, b) => b[1] - a[1]).map(([loc]) => loc);
