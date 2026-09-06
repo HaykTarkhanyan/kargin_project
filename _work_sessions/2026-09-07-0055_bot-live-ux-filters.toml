@@ -1,0 +1,47 @@
+title = "Bot went live on @KarginSearchBot; three UX iterations: share/examples, rich results + local logging, full filters + browse; review fixed group-chat noise"
+date = "2026-09-07"
+time = "00:55"
+areas = ["bot", "web/components", "web/app/about", "web/lib", "DECISIONS.md"]
+
+done = [
+    "Reused the OLD bot account @KarginSearchBot (id 7704179077) per user — token verified via getMe, no stale webhook, zero pending updates. Token lives ONLY in bot/.env (gitignored, verified with git check-ignore). User enabled inline mode via BotFather mid-session (getMe supports_inline_queries flipped false→true; NO restart was needed — inline_query is in Telegram's default update delivery).",
+    "Bot runs LOCALLY in polling mode as a background process of the Claude session: `cd bot && node --env-file=.env dist/index.js`. It DIES when the session/laptop stops — Cloud Run is the permanent home, blocked on Firebase migration Task 4 (GCP project).",
+    "UX iteration 1 (commit 0835c53): typed /start with one-tap example searches (q:<query> callbacks), 📤 Կիսվել share button on cards via switch_inline_query, inline results describe with the famous line, dynamic ctx.me.username in /start. Site now advertises the bot: Hero pill + About section (BOT_USERNAME/BOT_URL in web/lib/site.ts).",
+    "User feedback round (mid-turn): wants usage data stored NOW, discoverable search types, thumbnails in results. Answers shipped: (1) logs/bot_events.jsonl local sink when FIREBASE_PROJECT_ID unset (verified with a real record; upgrades to Firestore automatically later); (2) typed example buttons 💬👤📍🎵🎬 + typed tips everywhere; (3) thumbnails are PHYSICALLY impossible in keyboard buttons/message lines — results became a rich list (title + ★ famous line/actors + ⏱/👁 per entry, number-only buttons) with a 🖼 switch_inline_query_current_chat bridge to inline mode, the only Telegram surface with real thumbnails.",
+    "UX iteration 2 (commit a097f11): location filter — picker under results, active chip, filtered paging.",
+    "UX iteration 3 (commit 2164cf3): ALL filters (📍 location / 👤 actor / ⏱ duration) + /browse mode (empty query = whole archive, filter down without typing). Rearchitected callbacks into ONE encoded ViewState `<loc>:<actor>:<dur>:<offset>:<query>` carried by every button; verbs: v:=render, V:=filter-apply (logged mode bot-filter), p:<l|a|d>:=open panel, plus q:/r/s:/b legacy-free. ACTORS = top 7 by frequency (cut at 22+ sketches; tail has ≤6). Old-grammar buttons answered by a catch-all 'stale button' toast.",
+    "Review pass (user-requested, inline, zero subagents; commit c4176e1): read final bot.ts+cards.ts end-to-end. FIXED a real bug — in groups Telegram delivers every /command to every bot (even /cmd@OtherBot), and the text handler would reply 'no such command' publicly; also privacy-mode-off would have made every group message a search. message:text is now private-chat-only; groups = own commands + inline only (matches /start's claim). Verified clean: state encoding round-trip incl ':' in query, 64-byte guards on every callback, no empty keyboard rows, panel index spaces, HTML escaping, handler order.",
+    "22/22 bot vitest, tsc (TS7) + esbuild green throughout; 81/81 web tests after the Hero/About change; every push CI-green (bot tests run in CI since a769ee6).",
+]
+
+pending = [
+    "USER: Firebase migration Task 4 (create GCP/Firebase project kargin-archive, Firestore europe-west3 production mode, Blaze + ~$10 alert, Hosting retention ~10, FIREBASE_SERVICE_ACCOUNT secret + FIREBASE_PROJECT_ID repo var) — unblocks Firebase Hosting deploy, sketches mirror sync, Firestore logging (site + bot), and the bot's Cloud Run deploy.",
+    "Deploy bot to Cloud Run after Task 4 — commands ready in bot/README.md; then bot survives laptop shutdown. Until then: restart with `cd bot && node --env-file=.env dist/index.js` (PowerShell: Set-Location bot; node --env-file=.env dist/index.js).",
+    "USER (optional): /setinlinefeedback in BotFather — never confirmed done; without it inline shares (chosen_inline_result) are simply not logged.",
+    "Firebase migration phases 3-4 remainder: verify live Firestore events post-Task-4, then DNS cutover of karginhaghordum.am via Hosting Advanced Setup, retire Pages + CNAME + .nojekyll (plan Task 10).",
+    "Parked in DEFERRED_TODO.md this session: log.ts try-block hardening, telemetry nits, emulator-jar CI cache, setup-java v4→v5, JSONL→Firestore backfill, find-my-name in the bot.",
+]
+
+next = "User does Firebase Task 4 → wire FIREBASE_PROJECT_ID into bot/.env too (switches logging to Firestore) → Cloud Run deploy → domain cutover. Bot feature ideas only if asked."
+
+files = [
+    "bot/src/bot.ts", "bot/src/cards.ts", "bot/src/data.ts", "bot/src/log.ts",
+    "bot/src/__tests__/cards.test.ts", "bot/.env (LOCAL ONLY, gitignored — the bot token)",
+    "web/lib/site.ts", "web/components/Hero.tsx", "web/app/about/page.tsx",
+    "logs/bot_events.jsonl (LOCAL, gitignored — usage events until Firestore exists)",
+]
+
+commits = [
+    "0835c53 feat(bot+web): richer results list, typed search examples, local usage log; site mentions the bot",
+    "a097f11 feat(bot): location filter on search results — picker, active chip, filtered paging",
+    "2164cf3 feat(bot): actor + duration filters, /browse mode, unified encoded view state",
+    "c4176e1 fix(bot): ignore group-chat text and foreign commands — private chats search, groups use inline",
+]
+
+notes = """
+Architecture worth remembering when picking up:
+- The bot imports web/lib/{search,translit,normalize,format,types,site} by RELATIVE path; only fuse.js is a shared runtime dep. Data is fs-read from web/public/data/sketches.json (not bundled) — path resolves one level under bot/ so src/ and dist/ both work; Docker copies it to the same relative layout.
+- Callback grammar (bot/src/cards.ts): every results-view button carries the full encoded state, so filters/paging/panels compose by construction. safeCallback() drops (never truncates) anything over Telegram's 64-BYTE cap — Armenian is 2 bytes/char, which is why facets are index-encoded.
+- Facet indexes derive from data frequency at boot; a corpus rebuild can reorder them, making OLD messages' filter buttons apply a mislabeled filter (self-corrects on next tap). Known, accepted.
+- Restart ritual after editing bot code: npm test && npm run typecheck && npm run build in bot/, then kill+relaunch the background node process. Telegram inline results cache per query for 300s — vary the query when eyeballing changes.
+"""
