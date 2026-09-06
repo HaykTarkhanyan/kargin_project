@@ -26,7 +26,7 @@ jobs:
       # flask -- so tests/review/* failed to import and every deploy since the
       # review UI landed (2026-08-02) died at collection. Sync the groups the
       # test suite actually imports.
-      - run: uv sync --group review
+      - run: uv sync --group review --group firebase
       - name: Python tests
         run: PYTHONPATH=. uv run pytest -q
       - name: Build site data (CSV -> sketches.json)
@@ -47,6 +47,14 @@ jobs:
       - name: Unit tests
         run: npm test
         working-directory: web
+      # firebase-tools 15 needs Java 21+ to run the Firestore emulator.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Firestore rules tests (emulator)
+        run: npm run test:rules
+        working-directory: web
       - run: npm run build
         working-directory: web
         env:
@@ -66,7 +74,14 @@ jobs:
         run: |
           printf '%s' "$FIREBASE_SA" > "$RUNNER_TEMP/firebase-sa.json"
           export GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/firebase-sa.json"
-          npx firebase deploy --only hosting --project "${{ vars.FIREBASE_PROJECT_ID }}" --force
+          npx firebase deploy --only firestore,hosting --project "${{ vars.FIREBASE_PROJECT_ID }}" --force
+      # After (not before) a successful deploy: the Firestore mirror must never
+      # hold data the deployed site doesn't reflect yet.
+      - name: Sync sketches to Firestore
+        if: ${{ vars.FIREBASE_PROJECT_ID != '' }}
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-sa.json
+        run: uv run --group firebase python scripts/sync_firestore.py --project "${{ vars.FIREBASE_PROJECT_ID }}"
 
   deploy:
     needs: build
