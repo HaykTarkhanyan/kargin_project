@@ -97,8 +97,8 @@ with the Worker); rules enforce the same contract as a backstop.
 | `type` | string | `search \| open \| filter \| findname \| copy` |
 | `query` | string? | ≤ 500 chars |
 | `mode` | string? | ≤ 32 chars |
-| `filters` | map? | rules check `is map` only (nested shape too complex for rules; client bounds it) |
-| `resultCount` | number? | |
+| `filters` | string? | JSON-stringified client-side, ≤ 1000 chars (a string is rules-checkable and shape-agnostic; a nested map is neither) |
+| `resultCount` | int? | truncated to integer client-side (rules require `is int`) |
 | `sketchId` | string? | ≤ 64 chars |
 | `source` | string? | ≤ 32 chars |
 | `ua` | string? | ≤ 256 chars (client-set now; the Worker set it server-side) |
@@ -129,12 +129,12 @@ shape validation. Acceptable for anonymous telemetry (worst case: junk rows, bou
 
 - Keep: queue + 2 s batching, `visibilitychange` flush, silent no-op when unconfigured,
   "logging must never break the app" (all errors caught and `console.warn`ed).
-- Change: flush POSTs the batch (≤ 50 events → ≤ 50 writes) to
+- Change: flush POSTs the batch (≤ 20 events → ≤ 20 writes; 20 × ~2 KB worst-case clamped
+  fields stays under the 64 KB keepalive body cap) to
   `https://firestore.googleapis.com/v1/projects/<pid>/databases/(default)/documents:commit`
   with `fetch(..., { keepalive: true })`. Each write carries the clamped fields plus an
   `updateTransforms` / server-value `REQUEST_TIME` for `ts`. No auth header — anonymous
-  create is what the rules permit. (Keepalive bodies cap at 64 KB — with clamped fields a
-  50-event batch stays well under.)
+  create is what the rules permit.
 - `sendBeacon` is dropped: it can't send `application/json` without preflight complications,
   and `fetch(keepalive)` is its modern replacement with the same unload semantics — which the
   current code already uses as its fallback (`log.ts:47`).
@@ -183,7 +183,8 @@ shape validation. Acceptable for anonymous telemetry (worst case: junk rows, bou
    rules tests green, production rules verified (a manual out-of-contract write is denied).
 3. **Logging switch.** New `log.ts` transport + client clamps; deploy; verify events land in
    Firestore from the live site. **Soak ≥ 3 days** so stale tabs still beaconing to the Worker
-   drain out. Then, in order: export all Neon rows to `data/` as CSV backup (**export last,
+   drain out. Then, in order: export all Neon rows to `internal/neon_export/` as CSV backup
+   (gitignored — usage logs don't belong in a public repo) (**export last,
    immediately before deletion** — no lost tail), delete the Worker deployment, delete the
    Neon project, move `logger-worker/` → `old/logger-worker/` with a decommission note.
 4. **Cutover.** Use Firebase Hosting custom-domain **Advanced Setup** — it provisions the
