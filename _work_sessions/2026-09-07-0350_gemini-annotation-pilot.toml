@@ -1,0 +1,38 @@
+title = "Gemini text-annotation pipeline: Vertex credits wired, 4-way pilot (model/thinking/schema/Claude), sweep prepped for tomorrow"
+date = "2026-09-07"
+time = "03:50"
+areas = ["scripts", "data/text_annotations_pilot*", "DECISIONS.md", "PROGRESS.md", "LEARNINGS.md", "CLAUDE.md", ".env"]
+
+done = [
+    "Vertex AI wired into this repo: 3 GOOGLE_* env vars copied from ipr-ate-3 (.env + .env.example) — there is NO API key for the $300 credits, auth is machine-wide ADC (metric.am.academy@gmail.com, billing account 014ED9-E2C7D1-EA001F). Smoke call through gemini-2.5-flash verified. google-genai pinned ==2.18.1.",
+    "CLAUDE.md 'Current state' refreshed (was pre-bot/web stale); data inventory checked: 702 audio/video/contact-sheets/visual-annotations, 484 transcripts, music-fingerprint pass, 32 duplicate pairs.",
+    "Model choice grounded in ArmBench-LLM (live leaderboard via Playwright, not the stale April blog): Gemini 3 Flash #1 for Armenian (0.635), beats ALL Pro models incl. gemini-3.1-pro (0.522). Newest Flashes 3.5-3.8 exist but are unbenchmarked for Armenian.",
+    "10-row pilot flash3 vs flash38 (schema v1, $0.10): near-equivalent; flash3 kept as champion. Claude experiment on 2 rows (Sonnet+Opus subagents, Fable inline): Opus/Fable summaries best (punchline capture 2/2) but search fields equivalent and cost profile wrong for 702 rows (~$65 Opus API vs ~$2 Gemini) — Claude reserved for hand-picked subsets.",
+    "Thinking on/off A/B (10 rows): thinking_budget=0 is ~55% cheaper ($0.0020/row), 2-3x faster, zero quality loss (sometimes better scene coverage). --thinking off|minimal flag added.",
+    "Schema v2 experiment (10 rows): + visual annotations in input, + title_hy/title_en, + summary_detailed_en (embedding target), + restaurant_cafe/crime topics (data-informed), - confidence (30/32 said 'high', useless). v2 resolved real premise errors: seq 273 exposed as a COMPILATION, seq 66 two-scene coverage, seq 1 gained the stick-brandishing ending.",
+    "Google hard prompt-filter saga: seq 582 blocked deterministically (PROHIBITED_CONTENT) by the phrase 'male actors play female roles' colliding with that sketch's transcript; reworded to 'in drag' — passes. Also added no-actor-guessing line (model was inventing 'played by Mko' attributions).",
+    "Sweep-hardening: --workers N thread pool, 429/5xx retry with backoff, atomic writes (tmp+rename), corrupt-output regen, per-row failure isolation (ERROR + nonzero exit + rerun-retries-gaps). Smoke-tested.",
+    "Per-call cost ledger established: data/gemini_spend_ledger.jsonl. Session spend $0.174 total, ~$299.83 credits left (COSTS.md in ipr-ate-3 confirmed credits were untouched; console credits page deep-link in LEARNINGS.md).",
+    "Decision trail written: DECISIONS.md #9; learnings (6 entries incl. prompt-filter, thinking A/B, ArmBench, uv-run stalls); PROGRESS.md updated.",
+]
+
+pending = [
+    "FULL SWEEP NOT RUN — user wants it 2026-09-08. Command: uv run python scripts/extract_text_annotations.py --model flash3 --thinking off --workers 8  (702 rows -> data/text_annotations/, ~$2.20, ~10-15 min). After: check for PROHIBITED_CONTENT failures (rephrase-retry like seq 582), spot-check ~10 outputs, then build the merge step (into sketches.json / bot data) — merge does NOT exist yet.",
+    "Embedding of summary_detailed_en with an embedding model — idea parked, model choice not made.",
+    "Deterministic tags from visual annotations (drag, indoor/outdoor, animals, location_fine) at merge time — designed, not built.",
+    "web/.firebase/ sits untracked in the working tree (another session's deploy cache) — probably wants a .gitignore entry.",
+]
+
+next = "Run the sweep (command above), triage failures, spot-check, then design+build the merge into site/bot data."
+
+files = [
+    "scripts/extract_text_annotations.py",
+    "scripts/non_essential/build_text_annotation_pilot_report.py",
+    "scripts/non_essential/README.md",
+    "data/text_annotations_pilot/ + _v2/ (incl. report.html)",
+    "data/gemini_spend_ledger.jsonl",
+    ".env / .env.example, CLAUDE.md, DECISIONS.md, PROGRESS.md, LEARNINGS.md",
+]
+commits = ["d09cc20 feat(annotations): Gemini text-annotation extraction pipeline + pilot"]
+
+notes = "Model ids on Vertex: gemini-3-flash-preview (ArmBench champion, chosen), gemini-3.8-flash (newest, unbenchmarked for hy). Filenames carry model tag: NNN_videoid__flash3-nothink.json. Pilot rows: 1 556 357 489 131 66 125 90 273 582 (seed 509, stratified by transcript/text richness). uv run intermittently stalls ~2min on this machine — use .venv/Scripts/python.exe directly when chaining."
