@@ -1,0 +1,63 @@
+{
+  "video_id": "5h70tn0asdo",
+  "seq": 1,
+  "kargin_id": 1,
+  "title": "Kargin Haghordum sketch 275 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38-nothink",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "001_Kargin_Haghordum_sketch_275_Hayko_Mko_5h70tn0asdo.hy.json"
+  },
+  "input_chars": 2860,
+  "gen_sec": 23.7,
+  "prompt_tokens": 2339,
+  "output_tokens": 350,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003067,
+  "annotation": {
+    "summary_en": "An agricultural ministry inspector visits a village farm to inspect 87 cows, only to learn from a local woman that after their only bull died, the village men took over the bull's duties in the fields to romantic music, leaving behind only one ugly cow.",
+    "keywords_hy": [
+      "գյուղնախարարություն",
+      "ստուգում",
+      "կով",
+      "ցուլ",
+      "ֆերմա",
+      "տղամարդիկ",
+      "գեշ"
+    ],
+    "keywords_en": [
+      "Ministry of Agriculture",
+      "inspection",
+      "cow",
+      "bull",
+      "farm",
+      "village men",
+      "ugly"
+    ],
+    "keywords_translit": [
+      "gyughnakhararutyun",
+      "stugum",
+      "kov",
+      "tsul",
+      "ferma",
+      "tghamardik",
+      "gesh"
+    ],
+    "catchphrases": [
+      "Բարի օր մորքուր ջան",
+      "Էս ձեր կովերը ու՞ր են",
+      "Բա որովհետև էսի գեշա"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "absurd"
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "video_id": "Nat_gqfhqco",
+  "seq": 66,
+  "kargin_id": 66,
+  "title": "Kargin Haghordum sketch 631 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1371,
+  "gen_sec": 10.28,
+  "prompt_tokens": 1493,
+  "output_tokens": 391,
+  "thoughts_tokens": 490,
+  "cost_usd": 0.004424,
+  "annotation": {
+    "summary_en": "A tour guide at a zoo insists on showing lions to visiting foreign guests, but the exasperated zookeeper refuses to call them out because they are in the middle of mating season.",
+    "keywords_hy": [
+      "կենդանաբանական այգի",
+      "գազանանոց",
+      "առյուծ",
+      "վանդակ",
+      "փիղ",
+      "էշ",
+      "բրաչնի սեզոն",
+      "էքսկուրսիա"
+    ],
+    "keywords_en": [
+      "zoo",
+      "lion",
+      "cage",
+      "zookeeper",
+      "tour guide",
+      "mating season",
+      "donkey",
+      "elephant"
+    ],
+    "keywords_translit": [
+      "kendanabanakan aygi",
+      "gazananoc",
+      "aryuts",
+      "vandak",
+      "pigh",
+      "esh",
+      "brachni sezon",
+      "ekskursia"
+    ],
+    "catchphrases": [
+      "խի ես հիմա սաղի առաջ ինձ դնում օրանգուտանի տեղ",
+      "Քուր ջան մի բան ասեմ էլի քո մոտ որ տենց սեզոն լիներ դու դուրս կգայիր"
+    ],
+    "topics": [
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

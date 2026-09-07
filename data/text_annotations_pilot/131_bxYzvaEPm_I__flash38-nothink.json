@@ -1,0 +1,63 @@
+{
+  "video_id": "bxYzvaEPm_I",
+  "seq": 131,
+  "kargin_id": 131,
+  "title": "Kargin Haghordum sketch 678 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38-nothink",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "131_Kargin_Haghordum_sketch_678_Hayko_Mko_bxYzvaEPm_I.tr.json"
+  },
+  "input_chars": 717,
+  "gen_sec": 2.35,
+  "prompt_tokens": 1113,
+  "output_tokens": 266,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.001832,
+  "annotation": {
+    "summary_en": "Tired of studying engineering mechanics ('sopromat'), two students decide to flip a coin to choose what to do next, with one immediately heading to make the bed before the toss even happens.",
+    "keywords_hy": [
+      "սապրամատ",
+      "պարապել",
+      "գիր ու ղուշ",
+      "կոպեկ",
+      "անկողին",
+      "ուսանող",
+      "գիրք"
+    ],
+    "keywords_en": [
+      "mechanics of materials",
+      "sopromat",
+      "studying",
+      "coin toss",
+      "bed",
+      "students",
+      "heads or tails"
+    ],
+    "keywords_translit": [
+      "sapramat",
+      "parapel",
+      "gir u ghush",
+      "kopek",
+      "ankoghin",
+      "usanogh",
+      "girq"
+    ],
+    "catchphrases": [
+      "ով կա ստեղ",
+      "լավ դե դու կոպեկը քցի ես էլ գնամ անկողինը բացել"
+    ],
+    "topics": [
+      "romance",
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ],
+    "confidence": "high"
+  }
+}

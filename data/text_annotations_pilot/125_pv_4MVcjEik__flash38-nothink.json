@@ -1,0 +1,65 @@
+{
+  "video_id": "pv_4MVcjEik",
+  "seq": 125,
+  "kargin_id": 125,
+  "title": "Kargin Haghordum sketch 684 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38-nothink",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1676,
+  "gen_sec": 3.24,
+  "prompt_tokens": 1707,
+  "output_tokens": 388,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002735,
+  "annotation": {
+    "summary_en": "In the army, a soldier asks a major to help him get leave to visit home for his father's birthday, and the major demands he imitate the colonel first, unaware of the cycle of officers parodying each other.",
+    "keywords_hy": [
+      "շարքային Սիմոնյան",
+      "մայոր",
+      "գնդապետ",
+      "տնազ",
+      "հանելուկ",
+      "բանակ",
+      "արձակուրդ",
+      "զորամաս"
+    ],
+    "keywords_en": [
+      "private Simonyan",
+      "major",
+      "colonel",
+      "imitation",
+      "parody",
+      "riddle",
+      "army",
+      "leave"
+    ],
+    "keywords_translit": [
+      "sharqayin Simonyan",
+      "mayor",
+      "gndapet",
+      "tnaz",
+      "haneluk",
+      "banak",
+      "ardzakurd",
+      "zoryamas"
+    ],
+    "catchphrases": [
+      "ոնց կարամ ես ուրիշ տեղ ձեր տնազը անեմ, կտամ գլուխս կջարդեմ",
+      "տղայա, հորիցսա, մորիցսա, բայց ախպերս չի, ո՞վա"
+    ],
+    "topics": [
+      "army"
+    ],
+    "humor_type": [
+      "character",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

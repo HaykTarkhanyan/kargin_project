@@ -1,0 +1,67 @@
+{
+  "video_id": "rlywro2pHqw",
+  "seq": 90,
+  "kargin_id": 90,
+  "title": "Kargin Haghordum sketch 652 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 781,
+  "gen_sec": 6.93,
+  "prompt_tokens": 1195,
+  "output_tokens": 369,
+  "thoughts_tokens": 767,
+  "cost_usd": 0.004006,
+  "annotation": {
+    "summary_en": "An elderly man repeatedly asks a shopkeeper for specific types of wine, and the shopkeeper confidently claims to have all of them, including a French wine that is supposedly missing its label.",
+    "keywords_hy": [
+      "գինի",
+      "խանութ",
+      "վաճառող",
+      "հոպար",
+      "Արենի",
+      "Ոսկեվազ",
+      "յառլիկ",
+      "Շատո"
+    ],
+    "keywords_en": [
+      "wine",
+      "shop",
+      "salesman",
+      "uncle",
+      "Areni",
+      "Voskevaz",
+      "label",
+      "Chateau"
+    ],
+    "keywords_translit": [
+      "gini",
+      "khanut",
+      "vacharogh",
+      "hopar",
+      "Areni",
+      "Voskevaz",
+      "yarlik",
+      "Shato"
+    ],
+    "catchphrases": [
+      "Բարի երեկո երիտասարդ",
+      "ինչնա շատ ոսկեվազը ցավդ տանեմ",
+      "գինու նման երկար շշեր ունենաս ցավդ տանեմ"
+    ],
+    "topics": [
+      "shop_market",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ],
+    "confidence": "high"
+  }
+}

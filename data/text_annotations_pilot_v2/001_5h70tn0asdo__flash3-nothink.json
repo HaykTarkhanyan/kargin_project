@@ -1,0 +1,75 @@
+{
+  "video_id": "5h70tn0asdo",
+  "seq": 1,
+  "kargin_id": 1,
+  "title": "Kargin Haghordum sketch 275 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "001_Kargin_Haghordum_sketch_275_Hayko_Mko_5h70tn0asdo.hy.json",
+    "visual": true
+  },
+  "input_chars": 3450,
+  "gen_sec": 10.17,
+  "prompt_tokens": 2687,
+  "output_tokens": 670,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003354,
+  "annotation": {
+    "title_hy": "Գյուղի միակ ցուլը և տղամարդիկ",
+    "title_en": "The Village Bull and the Men",
+    "summary_en": "A government official visits a farm to inspect a missing herd of cows, only to receive a bizarre explanation about how the local men replaced the deceased village bull.",
+    "summary_detailed_en": "The sketch takes place in a village cattle barn and farmyard during the day. A government official from the Department of Large, Small, and Medium Horned Animals (played by Mko), dressed in a formal suit and carrying documents, arrives to inspect a farm. He questions an elderly woman (played by Hayko in a headscarf) about the whereabouts of 87 cows listed in the records. The woman explains that their only bull, Valmont, passed away. She humorously laments the bull's death by referencing global economic terms like NASDAQ and Dow Jones, claiming the economy is in decline. When the inspector repeats his question about the cows, the woman reveals that the village men have stepped in to perform the bull's duties. She describes how they take the cows to the field every morning, play blues music, and fulfill the bull's role before returning them to the village happy. The inspector notices one cow left behind in the yard and asks why. The woman bluntly explains that the men didn't take her because she is 'ugly,' before aggressively inviting the inspector to step into a room to take over the task himself while brandishing a wooden stick.",
+    "keywords_hy": [
+      "գյուղնախարարություն",
+      "ցուլ",
+      "կովեր",
+      "գյուղ",
+      "ստուգում",
+      "տղամարդիկ",
+      "բլյուզ",
+      "գեշ",
+      "վալմոնտ"
+    ],
+    "keywords_en": [
+      "Ministry of Agriculture",
+      "bull",
+      "cows",
+      "village",
+      "inspection",
+      "men",
+      "blues music",
+      "ugly",
+      "Valmont"
+    ],
+    "keywords_translit": [
+      "gyughnakhararutyun",
+      "tsul",
+      "kover",
+      "gyugh",
+      "stugum",
+      "tghamardik",
+      "blyuz",
+      "gesh",
+      "valmont"
+    ],
+    "catchphrases": [
+      "Բարի օր մորքուր ջան",
+      "Բա որովհետև էսի գեշա",
+      "ցուլի պարտականությունները կատարում են"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

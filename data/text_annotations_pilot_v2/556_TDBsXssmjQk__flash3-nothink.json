@@ -1,0 +1,64 @@
+{
+  "video_id": "TDBsXssmjQk",
+  "seq": 556,
+  "kargin_id": 556,
+  "title": "Kargin Haghordum sketch 188 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "556_Kargin_Haghordum_sketch_188_Hayko_Mko_TDBsXssmjQk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1455,
+  "gen_sec": 4.41,
+  "prompt_tokens": 1495,
+  "output_tokens": 593,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002527,
+  "annotation": {
+    "title_hy": "Բաղդասարյան Գարիկի հասցեն",
+    "title_en": "Baghdasaryan Garik's Address",
+    "summary_en": "A confused man in a stairwell asks a neighbor for his own address, acknowledging that he knows he is Garik Baghdasaryan but insisting on being told where he lives.",
+    "summary_detailed_en": "The sketch takes place in a shabby Soviet-era apartment building stairwell. A bespectacled handyman wearing a grey knit sweater stands at a smashed-open wall niche filled with messy electrical wiring, holding a screwdriver. His neighbor, a man with curly hair wearing a leather jacket, is moving up and down the concrete stairs. The neighbor stops to talk, and the handyman tells him he isn't standing in a convenient spot, before dismissing the point. The handyman then asks the neighbor where a man named Garik Baghdasaryan lives. The neighbor looks at him in confusion and points out that the handyman himself is Garik Baghdasaryan. The handyman dismisses this obvious fact, stating that while he is fully aware that he is indeed Garik Baghdasaryan, he still needs the neighbor to tell him where exactly Garik lives. The neighbor continues to tramp up and down the stairs as the absurd argument about self-identity and location persists, ending with the neighbor crouching near the apartment door at the bottom of the wall.",
+    "keywords_hy": [
+      "Բաղդասարյան Գարիկ",
+      "շքամուտք",
+      "հարևան",
+      "էլեկտրիկ",
+      "հասցե",
+      "անհեթեթություն"
+    ],
+    "keywords_en": [
+      "Garik Baghdasaryan",
+      "stairwell",
+      "neighbor",
+      "handyman",
+      "address",
+      "absurdity",
+      "identity crisis"
+    ],
+    "keywords_translit": [
+      "Baghdasaryan Garik",
+      "shqamutq",
+      "harevan",
+      "elektrik",
+      "hasce",
+      "anhetetutyun"
+    ],
+    "catchphrases": [
+      "Արա ես գիտեմ, որ բաղդասարյան Գարիկը ես եմ, դու ինձ ասա ինքը որտեղա ապրում:"
+    ],
+    "topics": [
+      "neighbors",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

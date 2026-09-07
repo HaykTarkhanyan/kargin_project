@@ -1,0 +1,70 @@
+{
+  "video_id": "40ukYPvfUmI",
+  "seq": 357,
+  "kargin_id": 357,
+  "title": "Kargin Haghordum sketch 456 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "357_Kargin_Haghordum_sketch_456_Hayko_Mko_40ukYPvfUmI.hy.json",
+    "visual": true
+  },
+  "input_chars": 1437,
+  "gen_sec": 5.22,
+  "prompt_tokens": 1569,
+  "output_tokens": 633,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002684,
+  "annotation": {
+    "title_hy": "Կնոջ սխալմունքը մթության մեջ",
+    "title_en": "The Wife's Mistake in the Dark",
+    "summary_en": "A husband returns home exhausted only to find his wife has just been assaulted by a burglar, but she didn't scream because she mistook the intruder for him.",
+    "summary_detailed_en": "The sketch begins at night in a dark apartment. A man (played by Mko) enters the living room, visibly exhausted and muttering to himself about how tired he is while trying not to wake his wife. He is seen wearing casual clothes and eventually settling onto a couch, wrapping himself in a shiny gold blanket. He reflects on his 'black heart' compared to 'pink lemonades.' The scene shifts to the bedroom where his wife (played by Hayko) is in bed. A confrontation ensues by the window. The husband is shocked to find an intruder has just left. The wife, dressed in a nightgown, reveals a startling truth: a stranger entered through the window and assaulted her twice. When the husband asks in disbelief why she didn't make a sound or scream for help, she provides the dark punchline: she thought the intruder was her husband, and she only realized the mistake when the man started for the second time, as her husband wouldn't have had the stamina.",
+    "keywords_hy": [
+      "կին",
+      "ամուսին",
+      "բռնաբարություն",
+      "գող",
+      "սխալմունք",
+      "գիշեր",
+      "մթություն",
+      "ննջարան"
+    ],
+    "keywords_en": [
+      "wife",
+      "husband",
+      "assault",
+      "burglar",
+      "mistake",
+      "night",
+      "darkness",
+      "bedroom"
+    ],
+    "keywords_translit": [
+      "knik",
+      "amusin",
+      "brnabarutyun",
+      "gogh",
+      "sxalmunq",
+      "gisher",
+      "mtutyun",
+      "nnjaran"
+    ],
+    "catchphrases": [
+      "էս ով էր կնիկ էսի նոր ինձ երկու անգամ բռնաբարեց բա ընչի շուտ ձեն չհանիր ես գիտեի էդ դու ես մինչև որ ինքը երկրորդ անգամ չսկսեց"
+    ],
+    "topics": [
+      "family",
+      "crime",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

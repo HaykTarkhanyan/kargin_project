@@ -1,0 +1,72 @@
+{
+  "video_id": "Nat_gqfhqco",
+  "seq": 66,
+  "kargin_id": 66,
+  "title": "Kargin Haghordum sketch 631 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2101,
+  "gen_sec": 5.1,
+  "prompt_tokens": 1871,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002868,
+  "annotation": {
+    "title_hy": "Կենդանաբանական այգու առյուծները",
+    "title_en": "The Zoo Lions",
+    "summary_en": "A tour guide at a snowy zoo takes a group of students to see the animals, but the zookeeper makes absurd excuses for why the lions won't come out.",
+    "summary_detailed_en": "In a wintry outdoor zoo, a female tour guide (wearing a black coat and orange scarf) leads a group of teenage schoolchildren past various animal enclosures, including donkeys and camels. The guide attempts to convince the students that the donkeys are actually Armenian elephants who are just pretending to be donkeys because the living conditions are better. They soon reach the lion enclosure, but the cage appears empty. The guide tries calling them ('ks-ks-ks'), but they don't emerge. A scruffy zookeeper in an olive coat and a grey ushanka, leaning on a long broom, explains that the lions cannot come out because it is currently 'mating season' (braчный сезон). He uses crude, colloquial language to explain that the male and female have retreated for privacy to ensure future cubs for the zoo, calling it a 'German season.' When the guide persists, asking if they can come out for just a second for the foreign guests, the zookeeper gets annoyed, asking why she is making him look like an orangutan in front of everyone, and ends with a punchline asking if she would come out if she were in the middle of such a 'season.'",
+    "keywords_hy": [
+      "կենդանաբանական այգի",
+      "առյուծ",
+      "փիղ",
+      "էշ",
+      "էքսկուրսիա",
+      "զոոպարկ",
+      "աշակերտներ",
+      "խնամող",
+      "ձմեռ"
+    ],
+    "keywords_en": [
+      "zoo",
+      "lions",
+      "zookeeper",
+      "tour guide",
+      "mating season",
+      "elephants",
+      "donkeys",
+      "school trip",
+      "winter"
+    ],
+    "keywords_translit": [
+      "kendanabanakan aygi",
+      "aryuts",
+      "pigh",
+      "esh",
+      "exkursia",
+      "zoopark",
+      "ashakertner",
+      "xnamogh",
+      "dzmer"
+    ],
+    "catchphrases": [
+      "խի ես հիմա սաղի առաջ ինձ դնում օրանգուտանի տեղ"
+    ],
+    "topics": [
+      "other",
+      "school"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

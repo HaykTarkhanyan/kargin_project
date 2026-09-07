@@ -1,0 +1,65 @@
+{
+  "video_id": "40ukYPvfUmI",
+  "seq": 357,
+  "kargin_id": 357,
+  "title": "Kargin Haghordum sketch 456 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "357_Kargin_Haghordum_sketch_456_Hayko_Mko_40ukYPvfUmI.hy.json"
+  },
+  "input_chars": 851,
+  "gen_sec": 6.64,
+  "prompt_tokens": 1229,
+  "output_tokens": 388,
+  "thoughts_tokens": 582,
+  "cost_usd": 0.003525,
+  "annotation": {
+    "summary_en": "A husband returns home tired only for his wife to reveal she was just assaulted twice by an intruder; she claims she didn't speak up because she thought the intruder was her husband until the second encounter.",
+    "keywords_hy": [
+      "կնիկ",
+      "ամուսին",
+      "բռնաբարություն",
+      "վարդագույն լիմոնադ",
+      "քնած",
+      "անասուն",
+      "ձեն հանել"
+    ],
+    "keywords_en": [
+      "wife",
+      "husband",
+      "assault",
+      "pink lemonade",
+      "sleeping",
+      "intruder",
+      "misunderstanding"
+    ],
+    "keywords_translit": [
+      "knik",
+      "amusin",
+      "brnabarutyun",
+      "vardaguyn limonad",
+      "qnac",
+      "anasun",
+      "dzen hanel"
+    ],
+    "catchphrases": [
+      "էս ով էր կնիկ էսի նոր ինձ երկու անգամ բռնաբարեց",
+      "բա ընչի շուտ ձեն չհանիր",
+      "ես գիտեի էդ դու ես մինչև որ ինքը երկրորդ անգամ չսկսեց"
+    ],
+    "topics": [
+      "family",
+      "romance",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "dark"
+    ],
+    "confidence": "high"
+  }
+}

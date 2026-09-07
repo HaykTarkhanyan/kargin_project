@@ -1,0 +1,78 @@
+{
+  "video_id": "5h70tn0asdo",
+  "seq": 1,
+  "kargin_id": 1,
+  "title": "Kargin Haghordum sketch 275 (Hayko Mko)",
+  "model": "claude-fable-5",
+  "model_short": "fable",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "001_Kargin_Haghordum_sketch_275_Hayko_Mko_5h70tn0asdo.hy.json"
+  },
+  "input_chars": 2860,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "cost_note": "Claude Code session (subagent/inline), not paid API",
+  "annotation": {
+    "summary_en": "A Ministry of Agriculture inspector arrives in a village to audit the farm's 87 registered cows, and the local auntie explains that since Valmont, the village's only bull, died and money is too tight to replace him ('the Nazdak and Dorjos keep falling'), the village men now take the cows to the field every morning and perform the bull's duties themselves to blues music. Asked why one cow was left behind, she answers: because that one is ugly.",
+    "keywords_hy": [
+      "գյուղնախարարություն",
+      "ստուգում",
+      "կով",
+      "ցուլ",
+      "Վալմոնտ",
+      "ֆերմա",
+      "եղջերավոր անասուններ",
+      "մորքուր",
+      "բլյուզ",
+      "Նազդակ",
+      "գեշ"
+    ],
+    "keywords_en": [
+      "ministry of agriculture",
+      "livestock inspection",
+      "cows",
+      "bull",
+      "Valmont",
+      "farm",
+      "village men",
+      "blues music",
+      "Nasdaq Dow Jones",
+      "ugly cow"
+    ],
+    "keywords_translit": [
+      "gyughnakhararutyun",
+      "stugum",
+      "kov",
+      "tsul",
+      "Valmont",
+      "ferma",
+      "yeghjeravor anasunner",
+      "morqur",
+      "blyuz",
+      "Nazdak",
+      "gesh"
+    ],
+    "catchphrases": [
+      "Էս մեր գյուղի միակ ցուլը Վալմոնտս, վաղաժամ հեռացավ մեզանից",
+      "Նազդակը , Դորջոսը, բոլոր կայֆիցենտները անընդհատ ընկնում են",
+      "Այ քեզի բան, բա էս մեկին ընչի չեն տարե",
+      "Բա որովհետև էսի գեշա"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

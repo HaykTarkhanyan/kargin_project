@@ -9,7 +9,7 @@ dependencies = [
     "numpy==2.4.4", # audio fingerprinting; np.bitwise_count needs numpy >= 2.0
     "requests==2.33.1",
     "python-dotenv==1.2.2",
-    "google-genai==1.73.1",
+    "google-genai==2.18.1",
 ]
 
 [tool.uv]

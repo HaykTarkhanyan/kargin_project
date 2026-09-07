@@ -1,0 +1,71 @@
+{
+  "video_id": "rlywro2pHqw",
+  "seq": 90,
+  "kargin_id": 90,
+  "title": "Kargin Haghordum sketch 652 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1354,
+  "gen_sec": 5.66,
+  "prompt_tokens": 1534,
+  "output_tokens": 618,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002621,
+  "annotation": {
+    "title_hy": "Գինու տեսականին խանութում",
+    "title_en": "The Wine Variety Shop",
+    "summary_en": "An enthusiastic shopkeeper claims to have every specific wine variety a customer asks for, despite his inventory appearing suspiciously uniform.",
+    "summary_detailed_en": "The sketch takes place inside a cramped, small grocery and liquor shop, densely packed with shelves of goods. A customer wearing a brown coat and a fedora hat enters and greets the shopkeeper, a man with a mustache wearing a blue knit cap. The customer begins inquiring about specific Armenian and international wines. He starts by asking for Areni, then Voskevaz, and even a specific wine called 'Bear's Strength.' For every request, the shopkeeper enthusiastically confirms he has it, using the repetitive endearment 'tsavt tanem' (let me take your pain). He pulls out various bottles, including one wrapped in wicker, to satisfy the customer's requests. The interaction reaches a comedic peak when the customer asks for a French 'Chateau' wine. The shopkeeper, undeterred by his limited stock, admits he has the wine 'in cash' (meaning physically there) but simply lacks the label for it. The humor relies on the shopkeeper's desperate willingness to claim he has anything the customer desires, regardless of the truth of his inventory.",
+    "keywords_hy": [
+      "խանութ",
+      "գինի",
+      "վաճառող",
+      "Արենի",
+      "Ոսկեվազ",
+      "խանութպան",
+      "հաճախորդ",
+      "ալկոհոլ"
+    ],
+    "keywords_en": [
+      "shop",
+      "wine",
+      "salesman",
+      "Areni",
+      "Voskevaz",
+      "shopkeeper",
+      "customer",
+      "alcohol"
+    ],
+    "keywords_translit": [
+      "xanut",
+      "gini",
+      "vacharox",
+      "Areni",
+      "Voskevaz",
+      "xanutpan",
+      "hachaxord",
+      "alkohol"
+    ],
+    "catchphrases": [
+      "Բարի երեկո երիտասարդ",
+      "ինչնա շատ ոսկեվազը ցավդ տանեմ",
+      "գինու նման երկար շշեր ունենաս ցավդ տանեմ"
+    ],
+    "topics": [
+      "shop_market",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

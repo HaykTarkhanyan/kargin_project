@@ -1,0 +1,55 @@
+{
+  "video_id": "TDBsXssmjQk",
+  "seq": 556,
+  "kargin_id": 556,
+  "title": "Kargin Haghordum sketch 188 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38-nothink",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "556_Kargin_Haghordum_sketch_188_Hayko_Mko_TDBsXssmjQk.hy.json"
+  },
+  "input_chars": 649,
+  "gen_sec": 2.72,
+  "prompt_tokens": 1117,
+  "output_tokens": 277,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.001876,
+  "annotation": {
+    "summary_en": "A confused man asks someone where Garik Baghdasaryan lives, and when told that he himself is Garik Baghdasaryan, he replies that he knows who he is, he just wants to know where the guy lives.",
+    "keywords_hy": [
+      "Բաղդասարյան Գարիկ",
+      "հարմար չես կանգնել",
+      "որտեղ ա ապրում",
+      "ես գիտեմ",
+      "Գարիկ ջան"
+    ],
+    "keywords_en": [
+      "Garik Baghdasaryan",
+      "where does he live",
+      "identity confusion",
+      "lost home",
+      "amnesia"
+    ],
+    "keywords_translit": [
+      "Baghdasaryan Garik",
+      "harmar ches kangnel",
+      "vortegh a aprum",
+      "es gitem",
+      "Garik jan"
+    ],
+    "catchphrases": [
+      "Արա ես գիտեմ, որ բաղդասարյան Գարիկը ես եմ, դու ինձ ասա ինքը որտեղա ապրում:"
+    ],
+    "topics": [
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "misunderstanding"
+    ],
+    "confidence": "high"
+  }
+}

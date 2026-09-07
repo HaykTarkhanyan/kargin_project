@@ -1,0 +1,55 @@
+{
+  "video_id": "TDBsXssmjQk",
+  "seq": 556,
+  "kargin_id": 556,
+  "title": "Kargin Haghordum sketch 188 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "556_Kargin_Haghordum_sketch_188_Hayko_Mko_TDBsXssmjQk.hy.json"
+  },
+  "input_chars": 649,
+  "gen_sec": 8.74,
+  "prompt_tokens": 1117,
+  "output_tokens": 335,
+  "thoughts_tokens": 941,
+  "cost_usd": 0.004386,
+  "annotation": {
+    "summary_en": "A man asks someone where Garik Baghdasaryan lives; when the person points out that he is Garik, he admits he knows his own identity but still demands to know where he lives.",
+    "keywords_hy": [
+      "Բաղդասարյան Գարիկ",
+      "հասցե",
+      "որտեղ է ապրում",
+      "ինքն իրեն փնտրել",
+      "հարմար չես կանգնել"
+    ],
+    "keywords_en": [
+      "Garik Baghdasaryan",
+      "address",
+      "searching for himself",
+      "where does he live",
+      "absurd request"
+    ],
+    "keywords_translit": [
+      "Baghdasaryan Garik",
+      "hastse",
+      "vortegh e aprum",
+      "inqn iren pntrel",
+      "harmar ches kangnel"
+    ],
+    "catchphrases": [
+      "Արա ես գիտեմ, որ բաղդասարյան Գարիկը ես եմ, դու ինձ ասա ինքը որտեղա ապրում:"
+    ],
+    "topics": [
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "misunderstanding"
+    ],
+    "confidence": "medium"
+  }
+}

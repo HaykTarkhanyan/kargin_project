@@ -1,0 +1,62 @@
+{
+  "video_id": "40ukYPvfUmI",
+  "seq": 357,
+  "kargin_id": 357,
+  "title": "Kargin Haghordum sketch 456 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "357_Kargin_Haghordum_sketch_456_Hayko_Mko_40ukYPvfUmI.hy.json"
+  },
+  "input_chars": 851,
+  "gen_sec": 3.31,
+  "prompt_tokens": 1229,
+  "output_tokens": 379,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.001752,
+  "annotation": {
+    "summary_en": "A man returns home exhausted only to realize his wife didn't protest an intruder's assault because she mistook the stranger for her husband until the second time.",
+    "keywords_hy": [
+      "կնիկ",
+      "քնած",
+      "բռնաբարեց",
+      "ձեն չհանիր",
+      "երկրորդ անգամ",
+      "անասուն",
+      "վարդագույն լիմոնադ"
+    ],
+    "keywords_en": [
+      "wife",
+      "sleeping",
+      "assault",
+      "mistaken identity",
+      "second time",
+      "exhausted",
+      "pink lemonade"
+    ],
+    "keywords_translit": [
+      "knik",
+      "qnats",
+      "brnabarets",
+      "dzen chhanir",
+      "erkrord angam",
+      "anasun",
+      "vardaguyn limonad"
+    ],
+    "catchphrases": [
+      "էս ով էր կնիկ էսի նոր ինձ երկու անգամ բռնաբարեց բա ընչի շուտ ձեն չհանիր ես գիտեի էդ դու ես մինչև որ ինքը երկրորդ անգամ չսկսեց"
+    ],
+    "topics": [
+      "family",
+      "neighbors"
+    ],
+    "humor_type": [
+      "absurd",
+      "misunderstanding"
+    ],
+    "confidence": "high"
+  }
+}

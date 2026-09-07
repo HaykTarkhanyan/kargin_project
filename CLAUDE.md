@@ -24,34 +24,38 @@ The four general behavioral rules live in the global `~/.claude/CLAUDE.md`. Proj
 
 ## Current state
 
-This is an **old project being recreated with significant changes**. The original 2-hour vibecoded version has been moved to `old/` for reference. The root is intentionally near-empty so the rewrite can start clean.
+This is an **old project recreated with significant changes**. The original 2-hour vibecoded version lives frozen in `old/`. The rewrite is now well underway: the data pipeline has run end to end over the 702 sketches, and two user-facing surfaces exist — a live TypeScript Telegram bot (`bot/`) and a Next.js site backed by Firestore (`web/`).
 
-Repo layout right now:
+Repo layout (counts as of 2026-09; media dirs under `data/` are gitignored):
 
 ```
 .
-├── CLAUDE.md, PLAN.md, PROGRESS.md, LEARNINGS.md, NOTES.md   # project memory
-├── kargin_eng.csv                                            # source-of-truth curation data, 702 rows
+├── CLAUDE.md, PLAN.md, PROGRESS.md, LEARNINGS.md, NOTES.md, DECISIONS.md, DEFERRED_TODO.md
+├── kargin_eng.csv                  # source-of-truth curation data, 702 rows
 ├── data/
-│   ├── youtube_metadata.csv                                  # 702 rows, fetched via YouTube Data API v3
-│   ├── audio/                                                # gitignored, 702 webm/opus, 1.6 GB
-│   ├── video/                                                # gitignored, 360p smoke-test only so far
-│   ├── transcripts_raw/                                      # gitignored, yt-dlp JSON3 + .no_captions sentinels
-│   └── transcripts/                                          # gitignored, simplified per-video JSON
-├── scripts/
-│   ├── fetch_youtube_metadata_api.py                         # YouTube Data API v3, the working metadata fetcher
-│   ├── fetch_youtube_metadata.py                             # yt-dlp version, kept for reference (rate-limit issues)
-│   ├── download_audio.py                                     # bulk audio downloader
-│   ├── download_video.py                                     # bulk video downloader, 360p
-│   ├── fetch_transcripts.py                                  # YouTube source-lang captions via yt-dlp
-│   └── convert_transcripts.py                                # JSON3 → simplified per-video JSON
-├── pyproject.toml, uv.lock                                   # uv-managed deps
-├── .env.example                                              # template; real .env is gitignored
-├── internal/                                                 # gitignored — user-local curation files
-└── old/                                                      # the original codebase, frozen
+│   ├── youtube_metadata.csv        # 702 rows, YouTube Data API v3
+│   ├── audio/                      # 702 webm/opus, 1.6 GB
+│   ├── video/                      # full mp4 per sketch, named NNN_Title_<video_id>.mp4
+│   ├── contact_sheets/             # frame-grid image per video (input to annotate-sheets skill)
+│   ├── visual_annotations/         # 702 JSONs — visual annotation sweep is complete
+│   ├── transcripts_raw/            # yt-dlp JSON3 + .no_captions sentinels
+│   ├── transcripts/                # 484 simplified per-video JSONs (rest have no captions)
+│   ├── transcripts_gemini/         # small flash-lite vs pro STT pilot (18 files), not a full run
+│   ├── transcription_batch/        # batched-SRT transcription experiment
+│   ├── audio_fingerprints.npz, song_matches.csv, music_credits.csv   # music-recognition pass
+│   ├── duplicates.csv              # 32 detected duplicate pairs
+│   └── corrections.csv, backups/   # review corrections (empty now) + timestamped snapshots
+├── scripts/                        # Python pipeline: fetch, download, transcribe, fingerprint, dedupe, review UI
+├── bot/                            # TypeScript Telegram bot (live), Dockerfile
+├── web/                            # Next.js site + Firestore — has its own CLAUDE.md, read it before touching web/
+├── experiments/, docs/, tests/, _knowledge/, _work_sessions/
+├── pyproject.toml, uv.lock         # uv-managed Python deps
+├── .env.example                    # template; real .env is gitignored
+├── internal/                       # gitignored — user-local curation files
+└── old/                            # the original codebase, frozen
 ```
 
-Direction for the rewrite is captured in `NOTES.md`. Until that's decided, **don't pattern-match off `old/`** — the rewrite is not a refactor of it, and copying its choices forward (CSV-only, fuzzywuzzy row-scan search, dual duplicated surfaces) is probably wrong.
+**Don't pattern-match off `old/`** — the rewrite is not a refactor of it, and copying its choices forward (CSV-only, fuzzywuzzy row-scan search, dual duplicated surfaces) is wrong. Decisions made along the way live in `DECISIONS.md`.
 
 ## Environment
 
@@ -64,13 +68,19 @@ uv add <pkg>     # add a new dep
 uv run python scripts/<x>.py    # run a script in the venv
 ```
 
-Deps are intentionally minimal at the start of the rewrite — add only what you need.
+Add deps only when needed, pinned exact (`==`).
+
+Gemini runs via **Vertex AI** on the $300 GCP credits: three `GOOGLE_*` vars in `.env` (see `.env.example`), auth via machine-wide gcloud ADC — there is no key file to copy. The separate `GEMINI_API_KEY` in `.env` is an AI Studio key and does **not** use the credits; with `GOOGLE_GENAI_USE_VERTEXAI=true` set, `genai.Client()` routes through Vertex.
+
+`bot/` and `web/` are Node projects with their own `package.json` — `npm` there, not uv.
 
 ## The data: `kargin_eng.csv`
 
-The one artifact that survives from the old project. Columns:
+The one artifact that survives from the old project, extended during the rewrite. Columns:
 
-`titles, links, text_common, text, main_actors, main_actors_count, roles_names, location, lighting, languages, done`
+`id, titles, links, text_common, text, main_actors, main_actors_count, roles_names, location, lighting, languages, done, video_id, duplicate_of, status_final`
+
+- `id`, `video_id`, `duplicate_of`, `status_final` were added by the rewrite pipeline (`scripts/add_status_final.py`, dedupe). `status_final` is currently `False` for all 702 rows — no row has been finalized yet.
 
 - `links` are YouTube URLs (mix of `youtube.com/watch?v=...` and `youtu.be/...`, sometimes with `&list=` and `&t=` params).
 - `text` is Armenian dialogue, hand-curated, often partial.

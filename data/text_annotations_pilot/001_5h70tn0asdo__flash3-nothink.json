@@ -1,0 +1,69 @@
+{
+  "video_id": "5h70tn0asdo",
+  "seq": 1,
+  "kargin_id": 1,
+  "title": "Kargin Haghordum sketch 275 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "001_Kargin_Haghordum_sketch_275_Hayko_Mko_5h70tn0asdo.hy.json"
+  },
+  "input_chars": 2860,
+  "gen_sec": 8.52,
+  "prompt_tokens": 2339,
+  "output_tokens": 427,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00245,
+  "annotation": {
+    "summary_en": "An official from the agricultural ministry visits a village to inspect the cattle, only to be told by a local woman that since their bull died, the village men have taken over the bull's 'duties' in the fields while playing blues music.",
+    "keywords_hy": [
+      "գյուղնախարարություն",
+      "ցուլ",
+      "կով",
+      "ստուգում",
+      "գյուղացի",
+      "անասուն",
+      "ֆերմա",
+      "Վալմոնտ"
+    ],
+    "keywords_en": [
+      "ministry of agriculture",
+      "bull",
+      "cow",
+      "inspection",
+      "villager",
+      "cattle",
+      "farm",
+      "Valmont"
+    ],
+    "keywords_translit": [
+      "gyughnakhararutyun",
+      "tsul",
+      "kov",
+      "stugum",
+      "gyughatsi",
+      "anasun",
+      "ferma",
+      "Valmont"
+    ],
+    "catchphrases": [
+      "Բարի օր մորքուր ջան",
+      "Ես գյուղ նախարարության խոշոր , մանր և միջին Եղջերավոր անասունների վարչությունից եմ:",
+      "ցուլի պարտականությունները կատարում են",
+      "Բա որովհետև էսի գեշա:"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy",
+      "work"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "video_id": "Nat_gqfhqco",
+  "seq": 66,
+  "kargin_id": 66,
+  "title": "Kargin Haghordum sketch 631 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1371,
+  "gen_sec": 17.23,
+  "prompt_tokens": 1493,
+  "output_tokens": 368,
+  "thoughts_tokens": 875,
+  "cost_usd": 0.004475,
+  "annotation": {
+    "summary_en": "A zookeeper tries to justify the poor state of the zoo to a tour guide, claiming that donkeys are actually elephants pretending to be donkeys for better conditions, and refusing to bring out the lions because they are busy in the middle of their mating season.",
+    "keywords_hy": [
+      "կենդանաբանական այգի",
+      "գազանանոց",
+      "առյուծ",
+      "փիղ",
+      "էշ",
+      "բրիչնի սեզոն",
+      "էքսկուրսավար",
+      "պահակ"
+    ],
+    "keywords_en": [
+      "zoo",
+      "zookeeper",
+      "lion",
+      "elephant",
+      "donkey",
+      "mating season",
+      "tour guide",
+      "excuses"
+    ],
+    "keywords_translit": [
+      "kendanabanakan aygi",
+      "gazananoc",
+      "aryuc",
+      "pigh",
+      "esh",
+      "brachni sezon",
+      "ekskursavar",
+      "pahak"
+    ],
+    "catchphrases": [
+      "խի ես հիմա սաղի առաջ ինձ դնում օրանգուտանի տեղ"
+    ],
+    "topics": [
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

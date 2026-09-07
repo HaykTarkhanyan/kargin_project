@@ -1,0 +1,71 @@
+{
+  "video_id": "0iKAm_aZ7Og",
+  "seq": 489,
+  "kargin_id": 489,
+  "title": "Kargin Haghordum sketch 117 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "489_Kargin_Haghordum_sketch_117_Hayko_Mko_0iKAm_aZ7Og.en.json",
+    "visual": true
+  },
+  "input_chars": 3305,
+  "gen_sec": 6.53,
+  "prompt_tokens": 2461,
+  "output_tokens": 669,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003237,
+  "annotation": {
+    "title_hy": "Հոգեբուժարանի ներկայացումը և «դիակը»",
+    "title_en": "Psychiatric Ward Play and the Corpse",
+    "summary_en": "Patients in a psychiatric ward perform a bizarre play for their doctor, while one patient insists he is a corpse until a blood test proves him wrong.",
+    "summary_detailed_en": "Set in a psychiatric ward day room filled with bookshelves, the sketch follows the chaotic interactions between patients and their doctors. A patient named Pargev (played by Mko) and his fellow inmates, dressed in striped pajamas, convince their doctor (played by Hayko) to watch a play they have rehearsed for a week entitled 'Walnuts and Sour Cream.' The performance is nonsensical, involving characters named Malkhas, Barkhudarov, and others, leading to physical scuffling among the patients. In a separate sequence, a patient named Koryun is brought in, wearing a paper cap and eating agitatedly. Koryun is convinced he is a corpse and claims the doctor is a medium speaking to his spirit. To debunk this delusion, the doctor asks if corpses bleed, to which Koryun replies they do not. The doctor then pricks Koryun's finger, causing him to bleed. Instead of realizing he is alive, Koryun concludes with the punchline that he was simply mistaken and that corpses actually do have circulating blood.",
+    "keywords_hy": [
+      "հոգեբուժարան",
+      "բժիշկ",
+      "հիվանդ",
+      "դիակ",
+      "ներկայացում",
+      "պոպոք ու սմետան",
+      "արյուն",
+      "խենթ"
+    ],
+    "keywords_en": [
+      "psychiatric ward",
+      "doctor",
+      "patient",
+      "corpse",
+      "performance",
+      "walnuts and sour cream",
+      "blood",
+      "insane asylum"
+    ],
+    "keywords_translit": [
+      "hogebujaran",
+      "bzhishk",
+      "hivand",
+      "diak",
+      "nerkayacum",
+      "popok u smetan",
+      "aryun",
+      "xent"
+    ],
+    "catchphrases": [
+      "բժիշկ ջան քո համար մի հատ ահասառսուռ ներկայացում ենք հորինել",
+      "պոպոք ու սմետան ներկայացումա",
+      "փաստօրեն ես սխալվում էի բժիշկ դիակի մեջ արյուն հոսումա"
+    ],
+    "topics": [
+      "medical",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

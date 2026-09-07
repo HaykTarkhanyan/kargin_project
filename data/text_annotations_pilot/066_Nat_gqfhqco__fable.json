@@ -1,0 +1,74 @@
+{
+  "video_id": "Nat_gqfhqco",
+  "seq": 66,
+  "kargin_id": 66,
+  "title": "Kargin Haghordum sketch 631 (Hayko Mko)",
+  "model": "claude-fable-5",
+  "model_short": "fable",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1371,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "cost_note": "Claude Code session (subagent/inline), not paid API",
+  "annotation": {
+    "summary_en": "A zoo guide shows visitors the 'Armenian elephants' that are plainly donkeys ('they're just posing as donkeys - donkeys get better conditions'), then leads them to the lion cage, where the keeper explains the lions can't come out because it's mating season and the pair has secluded itself for the zoo's future cubs. When a visitor keeps insisting the lions appear for the foreign guests, the keeper snaps: if you had a season like that, would YOU come out?",
+    "keywords_hy": [
+      "կենդանաբանական այգի",
+      "փիղ",
+      "էշ",
+      "առյուծ",
+      "վանդակ",
+      "օրանգուտան",
+      "հայկական փղեր",
+      "արտասահմանից հյուրեր",
+      "ձագուկներ",
+      "էքսկուրսիա"
+    ],
+    "keywords_en": [
+      "zoo",
+      "elephants",
+      "donkeys",
+      "lions",
+      "cage",
+      "mating season",
+      "orangutan",
+      "foreign guests",
+      "zookeeper",
+      "tour guide"
+    ],
+    "keywords_translit": [
+      "kendanabanakan aygi",
+      "pigh",
+      "esh",
+      "aryuts",
+      "vandak",
+      "orangutan",
+      "haykakan pgher",
+      "artasahmanic hyurer",
+      "dzagukner",
+      "ekskursia"
+    ],
+    "catchphrases": [
+      "Ահա,սա մեր հայկական փղերն են",
+      "խի ես հիմա սաղի առաջ ինձ դնում օրանգուտանի տեղ",
+      "Քուր ջան մի բան ասեմ էլի քո մոտ որ տենց սեզոն լիներ դու դուրս կգայիր։"
+    ],
+    "topics": [
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "video_id": "40ukYPvfUmI",
+  "seq": 357,
+  "kargin_id": 357,
+  "title": "Kargin Haghordum sketch 456 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38-nothink",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "357_Kargin_Haghordum_sketch_456_Hayko_Mko_40ukYPvfUmI.hy.json"
+  },
+  "input_chars": 851,
+  "gen_sec": 3.44,
+  "prompt_tokens": 1229,
+  "output_tokens": 312,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002092,
+  "annotation": {
+    "summary_en": "A husband comes home tired trying not to wake his sleeping wife, but finds someone in bed; the wife explains an intruder just assaulted her twice, and when asked why she did not scream earlier, she admits she thought it was her husband until he started the second round.",
+    "keywords_hy": [
+      "կնիկ",
+      "քնած",
+      "բռնաբարեց",
+      "հոգնած",
+      "երկու անգամ",
+      "ամուսին",
+      "անասուն"
+    ],
+    "keywords_en": [
+      "wife",
+      "asleep",
+      "tired",
+      "husband",
+      "bedroom",
+      "two times",
+      "intruder"
+    ],
+    "keywords_translit": [
+      "knik",
+      "qnats",
+      "brnabarets",
+      "hognats",
+      "yerku angam",
+      "amusin",
+      "anasun"
+    ],
+    "catchphrases": [
+      "էս ով էր կնիկ էսի նոր ինձ երկու անգամ բռնաբարեց բա ընչի շուտ ձեն չհանիր ես գիտեի էդ դու ես մինչև որ ինքը երկրորդ անգամ չսկսեց"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "dark",
+      "absurd"
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "video_id": "mrIUW3fCUUo",
+  "seq": 273,
+  "kargin_id": 273,
+  "title": "Kargin Haghordum - Gomikavan (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38-nothink",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "273_Kargin_Haghordum_-_Gomikavan_Hayko_Mko_mrIUW3fCUUo.hy.json"
+  },
+  "input_chars": 5339,
+  "gen_sec": 4.42,
+  "prompt_tokens": 4007,
+  "output_tokens": 252,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00395,
+  "annotation": {
+    "summary_en": "Two men driving toward Meghri come across a village strangely named Gomikavan and stop to curiously ask an old villager how it got that name.",
+    "keywords_hy": [
+      "Գոմիկավան",
+      "գյուղ",
+      "Մեղրի",
+      "ճանապարհ",
+      "հարցնել",
+      "գեղ"
+    ],
+    "keywords_en": [
+      "Gomikavan",
+      "village",
+      "Meghri",
+      "road",
+      "asking",
+      "village name"
+    ],
+    "keywords_translit": [
+      "Gomikavan",
+      "gyugh",
+      "Meghri",
+      "chanaparh",
+      "hartsnel",
+      "gegh"
+    ],
+    "catchphrases": [
+      "խի ա ձեր գյուղի անունը կոմիկավան",
+      "սովետի վախվանից մեր գեղանը այդպենս է լե"
+    ],
+    "topics": [
+      "village",
+      "transport",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

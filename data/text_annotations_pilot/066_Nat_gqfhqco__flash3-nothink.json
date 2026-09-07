@@ -1,0 +1,65 @@
+{
+  "video_id": "Nat_gqfhqco",
+  "seq": 66,
+  "kargin_id": 66,
+  "title": "Kargin Haghordum sketch 631 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1371,
+  "gen_sec": 3.42,
+  "prompt_tokens": 1493,
+  "output_tokens": 343,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.001775,
+  "annotation": {
+    "summary_en": "A tour guide shows a group of tourists a zoo where donkeys are presented as elephants, and the zookeeper refuses to show the lions because they are busy mating.",
+    "keywords_hy": [
+      "կենդանաբանական այգի",
+      "առյուծ",
+      "էշ",
+      "փիղ",
+      "բրատնի սեզոն",
+      "վանդակ",
+      "գազանանոց",
+      "օրանգուտան"
+    ],
+    "keywords_en": [
+      "zoo",
+      "lion",
+      "donkey",
+      "elephant",
+      "mating season",
+      "cage",
+      "zookeeper",
+      "orangutan"
+    ],
+    "keywords_translit": [
+      "kendanabanakan aygi",
+      "aryuts",
+      "esh",
+      "pigh",
+      "brachni sezon",
+      "vandak",
+      "gazananots",
+      "orangutan"
+    ],
+    "catchphrases": [
+      "խի ես հիմա սաղի առաջ ինձ դնում օրանգուտանի տեղ"
+    ],
+    "topics": [
+      "other",
+      "work"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

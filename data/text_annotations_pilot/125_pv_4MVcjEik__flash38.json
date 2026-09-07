@@ -1,0 +1,65 @@
+{
+  "video_id": "pv_4MVcjEik",
+  "seq": 125,
+  "kargin_id": 125,
+  "title": "Kargin Haghordum sketch 684 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1676,
+  "gen_sec": 5.59,
+  "prompt_tokens": 1707,
+  "output_tokens": 382,
+  "thoughts_tokens": 510,
+  "cost_usd": 0.004625,
+  "annotation": {
+    "summary_en": "A major makes a private skilled in impersonating military officers do an impression in exchange for requesting leave for him, only to face the colonel who asks for impersonations of his own.",
+    "keywords_hy": [
+      "շարքային Սիմոնյան",
+      "մայոռ",
+      "գնդապետ",
+      "տնազ",
+      "բանակ",
+      "հանելուկ",
+      "հրամանատար",
+      "Շամշադին"
+    ],
+    "keywords_en": [
+      "Private Simonyan",
+      "major",
+      "colonel",
+      "impersonation",
+      "parody",
+      "army",
+      "riddle",
+      "military leave"
+    ],
+    "keywords_translit": [
+      "sharkayin Simonyan",
+      "mayor",
+      "gndapet",
+      "tnaz",
+      "banak",
+      "haneluk",
+      "hramanatar",
+      "Shamshadin"
+    ],
+    "catchphrases": [
+      "տղայա, հորիցսա, մորիցսա, բայց ախպերս չի, ո՞վա",
+      "ոնց կարամ ես ուրիշ տեղ ձեր տնազը անեմ, կտամ գլուխս կջարդեմ"
+    ],
+    "topics": [
+      "army"
+    ],
+    "humor_type": [
+      "character",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

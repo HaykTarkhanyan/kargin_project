@@ -1,0 +1,68 @@
+{
+  "video_id": "0iKAm_aZ7Og",
+  "seq": 489,
+  "kargin_id": 489,
+  "title": "Kargin Haghordum sketch 117 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "489_Kargin_Haghordum_sketch_117_Hayko_Mko_0iKAm_aZ7Og.en.json"
+  },
+  "input_chars": 2640,
+  "gen_sec": 8.49,
+  "prompt_tokens": 2109,
+  "output_tokens": 457,
+  "thoughts_tokens": 731,
+  "cost_usd": 0.004619,
+  "annotation": {
+    "summary_en": "In a mental asylum, patients stage a dramatic performance for their doctor, while one patient named Koryun is convinced he is a corpse. When the doctor pricks him to prove that dead bodies don't bleed, the patient simply concludes that corpses do indeed bleed.",
+    "keywords_hy": [
+      "բժիշկ",
+      "դիակ",
+      "պոպոք ու սմետան",
+      "ներկայացում",
+      "հոգեբուժարան",
+      "արյուն",
+      "ութ համար",
+      "վիտամին"
+    ],
+    "keywords_en": [
+      "doctor",
+      "corpse",
+      "walnuts and sour cream",
+      "performance",
+      "mental asylum",
+      "blood",
+      "number eight",
+      "vitamin"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "diak",
+      "popok u smetan",
+      "nerkayacum",
+      "hogebujaran",
+      "aryun",
+      "ut hamar",
+      "vitamin"
+    ],
+    "catchphrases": [
+      "պոպոք ու սմետանը այ սենց վիտամինա",
+      "բժիշկ ջան քո համար մի հատ ահասառսուռ ներկայացում ենք հորինել",
+      "փաստօրեն դու պնդոյմ ես որ դու դիակ ես",
+      "փաստօրեն ես սխալվում էի բժիշկ դիակի մեջ արյուն հոսումա"
+    ],
+    "topics": [
+      "medical",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

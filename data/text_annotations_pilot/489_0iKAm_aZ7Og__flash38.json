@@ -1,0 +1,65 @@
+{
+  "video_id": "0iKAm_aZ7Og",
+  "seq": 489,
+  "kargin_id": 489,
+  "title": "Kargin Haghordum sketch 117 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "489_Kargin_Haghordum_sketch_117_Hayko_Mko_0iKAm_aZ7Og.en.json"
+  },
+  "input_chars": 2640,
+  "gen_sec": 6.48,
+  "prompt_tokens": 2109,
+  "output_tokens": 403,
+  "thoughts_tokens": 779,
+  "cost_usd": 0.006014,
+  "annotation": {
+    "summary_en": "In a psychiatric hospital, a doctor tries to cure a delusional patient who believes he is a corpse by proving that dead bodies do not bleed, only for the patient to conclude that corpses bleed after all.",
+    "keywords_hy": [
+      "գժանոց",
+      "հոգեբուժարան",
+      "բժիշկ",
+      "դիակ",
+      "արյուն",
+      "պոպոք ու սմետան",
+      "Կորյուն",
+      "հիվանդանոց"
+    ],
+    "keywords_en": [
+      "mental hospital",
+      "psychiatric ward",
+      "doctor",
+      "corpse",
+      "blood",
+      "delusion",
+      "walnuts and sour cream",
+      "patient"
+    ],
+    "keywords_translit": [
+      "gzhanoc",
+      "hogebujaran",
+      "bzhishk",
+      "diak",
+      "aryun",
+      "popoq u smetan",
+      "Koryun",
+      "hivandanoc"
+    ],
+    "catchphrases": [
+      "արա փաստորեն ես սխալվում էի բժիշկ դիակի մեջ արյուն հոսումա",
+      "ինձի պոպոք ու սմետան տվեք պոպոք ու սմետանը այ սենց վիտամինա"
+    ],
+    "topics": [
+      "medical"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

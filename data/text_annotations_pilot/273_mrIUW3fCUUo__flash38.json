@@ -1,0 +1,66 @@
+{
+  "video_id": "mrIUW3fCUUo",
+  "seq": 273,
+  "kargin_id": 273,
+  "title": "Kargin Haghordum - Gomikavan (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "273_Kargin_Haghordum_-_Gomikavan_Hayko_Mko_mrIUW3fCUUo.hy.json"
+  },
+  "input_chars": 5339,
+  "gen_sec": 7.78,
+  "prompt_tokens": 4007,
+  "output_tokens": 408,
+  "thoughts_tokens": 817,
+  "cost_usd": 0.007599,
+  "annotation": {
+    "summary_en": "Two guys driving to Meghri stop at a village named 'Gomikavan' and bewilderedly ask a local villager why on earth the village is named that, but the locals casually treat it as completely normal.",
+    "keywords_hy": [
+      "Գոմիկավան",
+      "գյուղ",
+      "Մեղրի",
+      "մեքենա",
+      "հոպար",
+      "գյուղի անուն",
+      "ռաստամոժկա",
+      "սովետի վախտվանից"
+    ],
+    "keywords_en": [
+      "Gomikavan",
+      "village",
+      "Meghri",
+      "car",
+      "old man",
+      "village name",
+      "customs clearance",
+      "Soviet times"
+    ],
+    "keywords_translit": [
+      "Gomikavan",
+      "gyugh",
+      "Meghri",
+      "meqena",
+      "hopar",
+      "gyughi anun",
+      "rastamozhka",
+      "soveti vakhtvanits"
+    ],
+    "catchphrases": [
+      "մեզ մի հատ հարց ա տանջում խի ա ձեր գյուղի անունը Գոմիկավան",
+      "սովետի վախտվանից մեր գեղի անունը այդպես է եղել"
+    ],
+    "topics": [
+      "village",
+      "transport"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

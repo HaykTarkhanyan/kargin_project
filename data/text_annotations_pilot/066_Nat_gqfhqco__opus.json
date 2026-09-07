@@ -1,0 +1,81 @@
+{
+  "video_id": "Nat_gqfhqco",
+  "seq": 66,
+  "kargin_id": 66,
+  "title": "Kargin Haghordum sketch 631 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1371,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "cost_note": "Claude Code session (subagent/inline), not paid API",
+  "annotation": {
+    "summary_en": "A zoo guide walks visitors through the exhibits, insisting the donkeys are actually Armenian elephants just placed in the donkey pen because the conditions there are better. When the lions turn out to be invisible, he explains they are locked inside for mating season, and when a woman keeps pushing to see them, he snaps that she wouldn't come out either if she were in season.",
+    "keywords_hy": [
+      "կենդանաբանական այգի",
+      "փղեր",
+      "էշեր",
+      "առյուծներ",
+      "վանդակ",
+      "էքսկուրսավար",
+      "զուգավորման սեզոն",
+      "օրանգուտան",
+      "արտասահմանից հյուրեր",
+      "էգն ու որձը",
+      "հայկական փղեր",
+      "ձագուկներ"
+    ],
+    "keywords_en": [
+      "zoo",
+      "elephants",
+      "donkeys",
+      "lions",
+      "cage",
+      "zoo guide",
+      "mating season",
+      "tour guide",
+      "orangutan",
+      "foreign guests",
+      "animals",
+      "zoo tour"
+    ],
+    "keywords_translit": [
+      "kendanabanakan aygi",
+      "pgher",
+      "esher",
+      "aryucner",
+      "vandak",
+      "ekskursavor",
+      "zugavorman sezon",
+      "orangutan",
+      "artasahmanic hyurer",
+      "egn u vorj@",
+      "haykakan pgher",
+      "dzagukner"
+    ],
+    "catchphrases": [
+      "Օրիորդ բայց ասիգա էշեր են,ասիգա փղեր չեն",
+      "Ոչ ոչ ոչ սրանք փղեր են,ուղղակի իրանց էշի տեղ են դրել",
+      "խի ես հիմա սաղի առաջ ինձ դնում օրանգուտանի տեղ",
+      "Քուր ջան մի բան ասեմ էլի քո մոտ որ տենց սեզոն լիներ դու դուրս կգայիր"
+    ],
+    "topics": [
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ],
+    "confidence": "high"
+  }
+}

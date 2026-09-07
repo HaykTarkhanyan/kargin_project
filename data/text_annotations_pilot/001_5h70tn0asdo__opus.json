@@ -1,0 +1,83 @@
+{
+  "video_id": "5h70tn0asdo",
+  "seq": 1,
+  "kargin_id": 1,
+  "title": "Kargin Haghordum sketch 275 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "001_Kargin_Haghordum_sketch_275_Hayko_Mko_5h70tn0asdo.hy.json"
+  },
+  "input_chars": 2860,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "cost_note": "Claude Code session (subagent/inline), not paid API",
+  "annotation": {
+    "summary_en": "An inspector from the ministry's Large, Small and Medium Horned Livestock Department comes to a village farm to count 87 cows and finds none. The old woman explains their only bull, Valmont, died, so the village men now take the cows to the field every morning, put on some pleasant music (blues, for example) and perform the bull's duties themselves - and the one cow left behind was left behind because she's ugly.",
+    "keywords_hy": [
+      "գյուղ",
+      "կով",
+      "ցուլ",
+      "ֆերմա",
+      "ստուգում",
+      "նախարարություն",
+      "անասուն",
+      "եղջերավոր անասուն",
+      "գյուղի տղամարդիկ",
+      "Վալմոնտ",
+      "մորքուր",
+      "բլուս"
+    ],
+    "keywords_en": [
+      "village",
+      "cow",
+      "bull",
+      "farm inspection",
+      "ministry inspector",
+      "livestock",
+      "cattle department",
+      "dead bull",
+      "village men",
+      "blues music",
+      "ugly cow",
+      "absurd"
+    ],
+    "keywords_translit": [
+      "gyugh",
+      "kov",
+      "tsul",
+      "ferma",
+      "stugum",
+      "nakhararutyun",
+      "anasun",
+      "eghjeravor anasun",
+      "gyughi tghamardik",
+      "Valmont",
+      "morkur",
+      "blus"
+    ],
+    "catchphrases": [
+      "Ես գյուղ նախարարության խոշոր , մանր և միջին Եղջերավոր անասունների վարչությունից եմ",
+      "Էս ձեր կովերը ու՞ր են",
+      "Էս մեր գյուղի միակ ցուլը Վալմոնտս, վաղաժամ հեռացավ մեզանից",
+      "ցուլի պարտականությունները կատարում են",
+      "Բա որովհետև էսի գեշա"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

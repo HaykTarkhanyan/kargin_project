@@ -1,0 +1,69 @@
+{
+  "video_id": "pv_4MVcjEik",
+  "seq": 125,
+  "kargin_id": 125,
+  "title": "Kargin Haghordum sketch 684 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1676,
+  "gen_sec": 3.4,
+  "prompt_tokens": 1707,
+  "output_tokens": 411,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002087,
+  "annotation": {
+    "summary_en": "In a military base, a major asks a soldier talented at impressions to mimic the colonel, unaware that the person he is actually talking to is the colonel himself testing him, or vice versa, leading to a circular chain of officers asking for impressions of their superiors.",
+    "keywords_hy": [
+      "բանակ",
+      "սպա",
+      "զինվոր",
+      "տնազ",
+      "հանելուկ",
+      "մայոր",
+      "գնդապետ",
+      "շարքային",
+      "հրամանատար"
+    ],
+    "keywords_en": [
+      "army",
+      "officer",
+      "soldier",
+      "impression",
+      "mimicry",
+      "major",
+      "colonel",
+      "private",
+      "commander"
+    ],
+    "keywords_translit": [
+      "banak",
+      "spa",
+      "zinvor",
+      "tnaz",
+      "haneluk",
+      "mayor",
+      "gndapet",
+      "sharqayin",
+      "hramanatar"
+    ],
+    "catchphrases": [
+      "ոնց կարամ ես ուրիշ տեղ ձեր տնազը անեմ, կտամ գլուխս կջարդեմ",
+      "տղայա, հորիցսա, մորիցսա, բայց ախպերս չի, ո՞վա"
+    ],
+    "topics": [
+      "army",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ],
+    "confidence": "high"
+  }
+}

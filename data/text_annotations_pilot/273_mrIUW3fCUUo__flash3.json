@@ -1,0 +1,67 @@
+{
+  "video_id": "mrIUW3fCUUo",
+  "seq": 273,
+  "kargin_id": 273,
+  "title": "Kargin Haghordum - Gomikavan (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "273_Kargin_Haghordum_-_Gomikavan_Hayko_Mko_mrIUW3fCUUo.hy.json"
+  },
+  "input_chars": 5339,
+  "gen_sec": 11.92,
+  "prompt_tokens": 4007,
+  "output_tokens": 395,
+  "thoughts_tokens": 1240,
+  "cost_usd": 0.006908,
+  "annotation": {
+    "summary_en": "Two travelers stop in a village with the suspicious name 'Gomikavan' and ask an elderly resident for the history behind it, only to find the locals oblivious to the name's derogatory slang connotation.",
+    "keywords_hy": [
+      "Գոմիկավան",
+      "գյուղի անուն",
+      "Հայկո Մկո",
+      "Կարգին հաղորդում",
+      "հարցուփորձ",
+      "գյուղացի",
+      "ճանապարհ",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "Gomikavan",
+      "village name",
+      "Hayko Mko",
+      "Kargin Haghordum",
+      "interrogation",
+      "villager",
+      "road trip",
+      "funny"
+    ],
+    "keywords_translit": [
+      "Gomikavan",
+      "gyughi anun",
+      "Hayko Mko",
+      "Kargin Haghordum",
+      "hartsupordz",
+      "gyughatsi",
+      "chanaparh",
+      "tsitsagheli"
+    ],
+    "catchphrases": [
+      "խի ա ձեր գյուղի անունը կոմիկավան",
+      "Հոպա ջան, բարի օր"
+    ],
+    "topics": [
+      "village",
+      "other",
+      "transport"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

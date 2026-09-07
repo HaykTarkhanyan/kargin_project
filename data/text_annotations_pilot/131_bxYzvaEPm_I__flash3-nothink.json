@@ -1,0 +1,60 @@
+{
+  "video_id": "bxYzvaEPm_I",
+  "seq": 131,
+  "kargin_id": 131,
+  "title": "Kargin Haghordum sketch 678 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "131_Kargin_Haghordum_sketch_678_Hayko_Mko_bxYzvaEPm_I.tr.json"
+  },
+  "input_chars": 717,
+  "gen_sec": 2.12,
+  "prompt_tokens": 1113,
+  "output_tokens": 192,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.001133,
+  "annotation": {
+    "summary_en": "Two students are exhausted from studying for their strength of materials (sapramat) exam and decide to flip a coin to determine their next activity, which implies going to bed together.",
+    "keywords_hy": [
+      "սապրամատ",
+      "ուսանող",
+      "գիր ու ղուշ",
+      "անկողին",
+      "քննություն",
+      "սև գիրք"
+    ],
+    "keywords_en": [
+      "strength of materials",
+      "student",
+      "coin flip",
+      "bed",
+      "exam",
+      "black book"
+    ],
+    "keywords_translit": [
+      "sapramat",
+      "usanogh",
+      "gir u ghush",
+      "ankoghin",
+      "qnnutyun",
+      "sev girq"
+    ],
+    "catchphrases": [
+      "ով կա ստեղ",
+      "լավ դե դու կոպեկը քցի ես էլ գնամ անկողինը բացել"
+    ],
+    "topics": [
+      "school",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "d3AsbzNxb5c",
+  "seq": 582,
+  "kargin_id": 582,
+  "title": "Kargin Haghordum sketch 433 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "582_Kargin_Haghordum_sketch_433_Hayko_Mko_d3AsbzNxb5c.hy.json"
+  },
+  "input_chars": 2127,
+  "gen_sec": 2.87,
+  "prompt_tokens": 1985,
+  "output_tokens": 380,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002132,
+  "annotation": {
+    "summary_en": "An employment agent offers Edik a dream job assisting models during outfit changes at fashion shows, only to reveal a massive queue of applicants stretching all the way to Goris.",
+    "keywords_hy": [
+      "աշխատանք",
+      "մոդել",
+      "հարցազրույց",
+      "հերթ",
+      "Գորիս",
+      "աշխատավարձ",
+      "կուլիսներ",
+      "թաղման բյուրո"
+    ],
+    "keywords_en": [
+      "job",
+      "models",
+      "interview",
+      "queue",
+      "Goris",
+      "salary",
+      "backstage",
+      "funeral bureau"
+    ],
+    "keywords_translit": [
+      "ashkhatank",
+      "model",
+      "hartsazruyts",
+      "hert",
+      "Goris",
+      "ashkhatavardz",
+      "kulisner",
+      "taghman bureau"
+    ],
+    "catchphrases": [
+      "պետությունը տրամադրում է իր մեքենա ու մականուն",
+      "աշխատանքի անցնելու ցանկացողների հերթը հասնում է մինչև Գորիս"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ],
+    "confidence": "high"
+  }
+}

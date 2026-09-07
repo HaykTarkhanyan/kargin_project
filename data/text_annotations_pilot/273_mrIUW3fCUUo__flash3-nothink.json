@@ -1,0 +1,67 @@
+{
+  "video_id": "mrIUW3fCUUo",
+  "seq": 273,
+  "kargin_id": 273,
+  "title": "Kargin Haghordum - Gomikavan (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "273_Kargin_Haghordum_-_Gomikavan_Hayko_Mko_mrIUW3fCUUo.hy.json"
+  },
+  "input_chars": 5339,
+  "gen_sec": 3.35,
+  "prompt_tokens": 4007,
+  "output_tokens": 401,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003207,
+  "annotation": {
+    "summary_en": "Two men driving toward Meghri stop in a village called Gomikavan to mock the residents about the village's name, only to discover that the inhabitants are all flamboyant or gay.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "Գոմիկավան",
+      "գյուղ",
+      "ճանապարհ",
+      "ծաղրել",
+      "տղամարդիկ",
+      "տամոժնյա",
+      "Մեղրի"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "Gomikavan",
+      "village",
+      "road trip",
+      "mockery",
+      "men",
+      "customs",
+      "Meghri"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "Gomikavan",
+      "gyugh",
+      "chanaparh",
+      "tsaghrel",
+      "tghamardik",
+      "tamozhnya",
+      "Meghri"
+    ],
+    "catchphrases": [
+      "խի ա ձեր գյուղի անունը կոմիկավան",
+      "սա մեր է գոմի համար այս տղերքը կանգնած եկեք մի վայ կող խմենք ապեր"
+    ],
+    "topics": [
+      "village",
+      "transport",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ],
+    "confidence": "high"
+  }
+}

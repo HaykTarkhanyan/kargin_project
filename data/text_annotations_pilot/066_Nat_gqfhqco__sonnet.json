@@ -1,0 +1,72 @@
+{
+  "video_id": "Nat_gqfhqco",
+  "seq": 66,
+  "kargin_id": 66,
+  "title": "Kargin Haghordum sketch 631 (Hayko Mko)",
+  "model": "claude-sonnet-5",
+  "model_short": "sonnet",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1371,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "cost_note": "Claude Code session (subagent/inline), not paid API",
+  "annotation": {
+    "summary_en": "A tour guide shows visitors around a rundown zoo, insisting the animals in the elephant enclosure are really elephants even though they look like donkeys (donkeys supposedly get better conditions), then makes excuses for why the lions are nowhere to be seen - claiming it's 'mating season' and they can't come out - leading to a bickering exchange that ends with a joke about being compared to an orangutan.",
+    "keywords_hy": [
+      "գազանանոց",
+      "փղեր",
+      "էշեր",
+      "առյուծներ",
+      "վանդակ",
+      "սեզոն",
+      "օրանգուտան",
+      "արտասահմանից հյուրեր",
+      "ձագուկներ"
+    ],
+    "keywords_en": [
+      "zoo",
+      "elephants",
+      "donkeys",
+      "lions",
+      "cage",
+      "mating season",
+      "orangutan",
+      "foreign tourists",
+      "tour guide excuse"
+    ],
+    "keywords_translit": [
+      "gazananots",
+      "pgher",
+      "esher",
+      "aryucner",
+      "vandak",
+      "sezon",
+      "orangutan",
+      "artasahmanic hyurer",
+      "dzagukner"
+    ],
+    "catchphrases": [
+      "խի ես հիմա սաղի առաջ ինձ դնում օրանգուտանի տեղ",
+      "Ահա,սա մեր հայկական փղերն են",
+      "ասիգա էշեր են,ասիգա փղեր չեն",
+      "քո մոտ որ տենց սեզոն լիներ դու դուրս կգայիր"
+    ],
+    "topics": [
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "medium"
+  }
+}

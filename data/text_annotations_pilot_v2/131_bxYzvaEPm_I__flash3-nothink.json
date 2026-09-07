@@ -1,0 +1,67 @@
+{
+  "video_id": "bxYzvaEPm_I",
+  "seq": 131,
+  "kargin_id": 131,
+  "title": "Kargin Haghordum sketch 678 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "131_Kargin_Haghordum_sketch_678_Hayko_Mko_bxYzvaEPm_I.tr.json",
+    "visual": true
+  },
+  "input_chars": 1314,
+  "gen_sec": 14.88,
+  "prompt_tokens": 1454,
+  "output_tokens": 592,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002503,
+  "annotation": {
+    "title_hy": "Ուսանողների Պարապմունքը և Գիր ու Ղուշ",
+    "title_en": "Students Study and Coin Toss",
+    "summary_en": "Two exhausted students decide to take a break from their difficult studies by letting a coin toss decide their next activity.",
+    "summary_detailed_en": "The sketch is set in a worn living room where two students are overwhelmed by their academic workload. A woman styled as a schoolgirl with pigtails in a pink sweater (played by a female actress) and a man in glasses and a black jacket sit on a couch, surrounded by notebooks and script pages. The man asks for a 'black book' and specifically mentions a textbook on 'Sapramat' (Strength of Materials), a notoriously difficult subject. Both characters express extreme mental exhaustion, with the man claiming smoke is practically coming out of his brain from studying so much. To decide what to do next, the man proposes a game of 'Heads or Tails' (Gir u Ghush). He suggests that if it lands on 'Gir', they do what he wants, and if it lands on 'Ghush', they do what she wants. The girl agrees immediately, delivering the punchline that while he tosses the coin, she will go and open the bed, implying they both just want to sleep. The scene features them laughing and reacting to their scripts, with a background figure briefly running through the frame.",
+    "keywords_hy": [
+      "ուսանող",
+      "սապրամատ",
+      "գիր ու ղուշ",
+      "քննություն",
+      "անկողին",
+      "պարապել",
+      "հոգնած"
+    ],
+    "keywords_en": [
+      "student",
+      "engineering mechanics",
+      "coin toss",
+      "exam prep",
+      "bed",
+      "studying",
+      "exhausted"
+    ],
+    "keywords_translit": [
+      "usanogh",
+      "sapramat",
+      "gir u ghush",
+      "qnnutyun",
+      "ankoghin",
+      "parapel",
+      "hognats"
+    ],
+    "catchphrases": [
+      "ով կա ստեղ",
+      "լավ դե դու կոպեկը քցի ես էլ գնամ անկողինը բացել"
+    ],
+    "topics": [
+      "school",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

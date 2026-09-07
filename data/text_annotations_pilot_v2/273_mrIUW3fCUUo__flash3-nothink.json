@@ -1,0 +1,78 @@
+{
+  "video_id": "mrIUW3fCUUo",
+  "seq": 273,
+  "kargin_id": 273,
+  "title": "Kargin Haghordum - Gomikavan (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "273_Kargin_Haghordum_-_Gomikavan_Hayko_Mko_mrIUW3fCUUo.hy.json",
+    "visual": true
+  },
+  "input_chars": 6461,
+  "gen_sec": 24.63,
+  "prompt_tokens": 4470,
+  "output_tokens": 728,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.004419,
+  "annotation": {
+    "title_hy": "Գոմիկավան և բազմաբնույթ արկածներ",
+    "title_en": "Gomikavan and Diverse Adventures",
+    "summary_en": "A compilation of sketches featuring a confusing hardware store interaction, a knight rescuing a maiden, and a trip to a village with a questionable name.",
+    "summary_detailed_en": "This compilation begins with a music video parody followed by a series of disjointed comedic sketches. In one segment, Hayko plays a knight in full medieval armor who finds a princess (Mko in drag) chained up. After hearing she was kidnapped by 'Suleyman the Rapist,' the knight realizes the location is secluded and decides to take advantage of the situation himself. Another recurring scene takes place in a hardware store where a customer tries to buy laundry detergent, but the pedantic manager (Mko) and various department heads keep redirecting him based on overly specific criteria like 'manual vs. automatic' and 'white vs. colored,' until the frustrated customer demands toilet paper instead. The titular sketch involves two men (Hayko and Mko) driving to Meghri who stop in a village called 'Gomikavan.' They mock an old villager about the village's name, implying a homoerotic connotation, only to discover the village is populated by men in drag who invite them to stay. The video concludes with a kidnapping plot where two thugs hold a girl for ransom, only for the scene to devolve into absurdity involving village elders.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "Գոմիկավան",
+      "ասպետ",
+      "խանութ",
+      "լվացքի փոշի",
+      "Հայկո Մկո",
+      "կատակերգություն",
+      "գյուղ",
+      "ռաբիզ",
+      "բանտ"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "Gomikavan",
+      "knight",
+      "hardware store",
+      "laundry detergent",
+      "Hayko Mko",
+      "Armenian comedy",
+      "village",
+      "kidnapping",
+      "drag"
+    ],
+    "keywords_translit": [
+      "Kargin Haghordum",
+      "Gomikavan",
+      "aspet",
+      "khanut",
+      "lvatski poshi",
+      "Hayko Mko",
+      "katakergutyun",
+      "gyugh",
+      "rabiz",
+      "bant"
+    ],
+    "catchphrases": [
+      "Ասում ես խուլ տեղա ոչ ոք չի լսի, զավ տանեմ:",
+      "Ինձ լվացքի փոշի ա պետք։",
+      "խի ա ձեր գյուղի անունը կոմիկավան"
+    ],
+    "topics": [
+      "village",
+      "shop_market",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "video_id": "d3AsbzNxb5c",
+  "seq": 582,
+  "kargin_id": 582,
+  "title": "Kargin Haghordum sketch 433 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "582_Kargin_Haghordum_sketch_433_Hayko_Mko_d3AsbzNxb5c.hy.json"
+  },
+  "input_chars": 2127,
+  "gen_sec": 7.17,
+  "prompt_tokens": 1985,
+  "output_tokens": 376,
+  "thoughts_tokens": 548,
+  "cost_usd": 0.004954,
+  "annotation": {
+    "summary_en": "An employment recruiter offers an eager applicant a dream job assisting naked fashion models backstage for high pay, only to tell him the interview is in Goris because the queue of applicants reaches that far.",
+    "keywords_hy": [
+      "աշխատանքի տեղավորում",
+      "գործակալություն",
+      "մոդելներ",
+      "հերթ",
+      "Գորիս",
+      "աշխատանք",
+      "հարցազրույց",
+      "Էդիկ"
+    ],
+    "keywords_en": [
+      "employment agency",
+      "job interview",
+      "models",
+      "fashion show",
+      "queue",
+      "applicant",
+      "Goris",
+      "Edik"
+    ],
+    "keywords_translit": [
+      "ashxatanqi texavorum",
+      "gorcakalutyun",
+      "modelner",
+      "hert",
+      "Goris",
+      "ashxatanq",
+      "harcazruyc",
+      "Edik"
+    ],
+    "catchphrases": [
+      "Աշխատանքը Երևանում է, ուղղակի այս աշխատանքի անցնելու ցանկացողների հերթը հասնում է մինչև Գորիս"
+    ],
+    "topics": [
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ],
+    "confidence": "high"
+  }
+}

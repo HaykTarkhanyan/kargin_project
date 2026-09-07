@@ -1,0 +1,70 @@
+{
+  "video_id": "rlywro2pHqw",
+  "seq": 90,
+  "kargin_id": 90,
+  "title": "Kargin Haghordum sketch 652 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 781,
+  "gen_sec": 8.79,
+  "prompt_tokens": 1195,
+  "output_tokens": 353,
+  "thoughts_tokens": 1006,
+  "cost_usd": 0.005993,
+  "annotation": {
+    "summary_en": "A customer tests a wine seller by asking for various wine brands, which the seller readily produces from under the counter, until the customer asks for a French Chateau and the seller admits he has the wine, just not the label.",
+    "keywords_hy": [
+      "գինի",
+      "խանութ",
+      "վաճառող",
+      "արենի",
+      "ոսկեվազ",
+      "յառլիկ",
+      "պիտակ",
+      "ֆրանսիական գինի",
+      "կեղծ գինի"
+    ],
+    "keywords_en": [
+      "wine",
+      "shop",
+      "seller",
+      "Areni",
+      "Voskevaz",
+      "label",
+      "French wine",
+      "fake wine",
+      "merchant"
+    ],
+    "keywords_translit": [
+      "gini",
+      "khanut",
+      "vacharogh",
+      "areni",
+      "voskevaz",
+      "yarlik",
+      "pitak",
+      "fransiakan gini",
+      "keghts gini"
+    ],
+    "catchphrases": [
+      "ինչնա շատ ոսկեվազը ցավդ տանեմ",
+      "գինու նման երկար շշեր ունենաս ցավդ տանեմ",
+      "էտ քո ասած գինուց ունեմ էլի նաղդ պռոստը յառլիկը չունեմ ցավդ տանեմ"
+    ],
+    "topics": [
+      "shop_market",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "video_id": "TDBsXssmjQk",
+  "seq": 556,
+  "kargin_id": 556,
+  "title": "Kargin Haghordum sketch 188 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "556_Kargin_Haghordum_sketch_188_Hayko_Mko_TDBsXssmjQk.hy.json"
+  },
+  "input_chars": 649,
+  "gen_sec": 3.28,
+  "prompt_tokens": 1117,
+  "output_tokens": 339,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.001576,
+  "annotation": {
+    "summary_en": "A man named Garik Baghdasaryan asks a passerby for his own home address, claiming that while he knows who he is, he doesn't know where he lives.",
+    "keywords_hy": [
+      "Բաղդասարյան Գարիկ",
+      "հասցե",
+      "հարմար չես կանգնել",
+      "որտեղ է ապրում",
+      "տուն",
+      "անցորդ"
+    ],
+    "keywords_en": [
+      "Garik Baghdasaryan",
+      "address",
+      "forgetting home",
+      "passerby",
+      "lost man",
+      "location"
+    ],
+    "keywords_translit": [
+      "Baghdasaryan Garik",
+      "hasce",
+      "harmar ches kangnel",
+      "vortex e aprum",
+      "tun",
+      "ancord"
+    ],
+    "catchphrases": [
+      "Արա ես գիտեմ, որ բաղդասարյան Գարիկը ես եմ, դու ինձ ասա ինքը որտեղա ապրում:"
+    ],
+    "topics": [
+      "transport",
+      "neighbors"
+    ],
+    "humor_type": [
+      "absurd",
+      "misunderstanding"
+    ],
+    "confidence": "high"
+  }
+}

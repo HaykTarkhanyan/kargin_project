@@ -1,0 +1,62 @@
+{
+  "video_id": "bxYzvaEPm_I",
+  "seq": 131,
+  "kargin_id": 131,
+  "title": "Kargin Haghordum sketch 678 (Hayko Mko)",
+  "model": "gemini-3.8-flash",
+  "model_short": "flash38",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "131_Kargin_Haghordum_sketch_678_Hayko_Mko_bxYzvaEPm_I.tr.json"
+  },
+  "input_chars": 717,
+  "gen_sec": 5.09,
+  "prompt_tokens": 1113,
+  "output_tokens": 353,
+  "thoughts_tokens": 368,
+  "cost_usd": 0.003538,
+  "annotation": {
+    "summary_en": "Exhausted from studying complex mechanics of materials, two students decide to flip a coin to decide whether to do what one wants or what the other wants, only for one to immediately head to prepare the bed.",
+    "keywords_hy": [
+      "սապրամատ",
+      "գիրք",
+      "պարապել",
+      "ուղեղից ծուխ է գալիս",
+      "գիր ու ղուշ",
+      "կոպեկ քցել",
+      "անկողին"
+    ],
+    "keywords_en": [
+      "sopromat",
+      "studying",
+      "book",
+      "heads or tails",
+      "coin toss",
+      "bed",
+      "exhausted students"
+    ],
+    "keywords_translit": [
+      "sapramat",
+      "girq",
+      "parapel",
+      "ughexic tsukh e galis",
+      "gir u ghush",
+      "kopek qcél",
+      "ankoghin"
+    ],
+    "catchphrases": [
+      "ով կա ստեղ",
+      "լավ դե դու կոպեկը քցի ես էլ գնամ անկողինը բացել"
+    ],
+    "topics": [
+      "school",
+      "romance"
+    ],
+    "humor_type": [
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

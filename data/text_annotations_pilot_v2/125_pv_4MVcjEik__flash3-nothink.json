@@ -1,0 +1,74 @@
+{
+  "video_id": "pv_4MVcjEik",
+  "seq": 125,
+  "kargin_id": 125,
+  "title": "Kargin Haghordum sketch 684 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2210,
+  "gen_sec": 13.66,
+  "prompt_tokens": 2033,
+  "output_tokens": 670,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003027,
+  "annotation": {
+    "title_hy": "Շարքային Սիմոնյանի տնազը",
+    "title_en": "Private Simonyan's Impressions",
+    "summary_en": "A soldier who is talented at celebrity impressions tries to convince his major to grant him leave, leading to a risky performance of his commanding officer's behavior.",
+    "summary_detailed_en": "The sketch begins in a military base hallway where Major (played by Mko) approaches Private Simonyan (played by Hayko). Simonyan is well-known in the unit for his uncanny ability to mimic the officers. Simonyan asks the Major for a few days of leave to attend his father's birthday, noting that another soldier was recently granted such a favor. The Major, amused by Simonyan's reputation, pressures him to perform an impression of the Colonel before he agrees to help. Simonyan is hesitant, fearing the Colonel might appear, but the Major assures him he just left the Colonel's office. After Simonyan successfully tells a riddle ('Son of my father and mother, but not my brother—who is it? Me!'), the scene shifts to the Colonel's office. The Colonel (Mko) praises Simonyan's talents but reveals he knows the soldier mimics him too. Despite Simonyan's terrified denials and claims that he would never disrespect his superior, the Colonel insists on seeing the impression, leading to a comedic tension between the soldier's survival instinct and his talent for mockery.",
+    "keywords_hy": [
+      "բանակ",
+      "զինվոր",
+      "տնազ",
+      "մայոր",
+      "գնդապետ",
+      "հանելուկ",
+      "արձակուրդ",
+      "ծառայություն",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "army",
+      "soldier",
+      "impression",
+      "major",
+      "colonel",
+      "riddle",
+      "military leave",
+      "service",
+      "parody"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zinvor",
+      "tnaz",
+      "mayor",
+      "gndapet",
+      "haneluk",
+      "ardzakurd",
+      "tsarayutyun",
+      "katak"
+    ],
+    "catchphrases": [
+      "ոնց կարամ ես ուրիշ տեղ ձեր տնազը անեմ, կտամ գլուխս կջարդեմ",
+      "տղայա, հորիցսա, մորիցսա, բայց ախպերս չի, ո՞վա"
+    ],
+    "topics": [
+      "army",
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

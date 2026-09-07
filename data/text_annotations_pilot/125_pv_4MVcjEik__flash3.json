@@ -1,0 +1,69 @@
+{
+  "video_id": "pv_4MVcjEik",
+  "seq": 125,
+  "kargin_id": 125,
+  "title": "Kargin Haghordum sketch 684 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3",
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null
+  },
+  "input_chars": 1676,
+  "gen_sec": 10.49,
+  "prompt_tokens": 1707,
+  "output_tokens": 404,
+  "thoughts_tokens": 1172,
+  "cost_usd": 0.005581,
+  "annotation": {
+    "summary_en": "A soldier gifted in imitating his superiors is pressured by a Major to parody the Colonel in exchange for leave, while a recurring riddle about his identity serves as a running gag.",
+    "keywords_hy": [
+      "բանակ",
+      "զինվոր",
+      "մայոր",
+      "գնդապետ",
+      "տնազ",
+      "հանելուկ",
+      "շարքային Սիմոնյան",
+      "հրամանատար",
+      "արձակուրդ"
+    ],
+    "keywords_en": [
+      "army",
+      "soldier",
+      "major",
+      "colonel",
+      "parody",
+      "imitation",
+      "riddle",
+      "private Simonyan",
+      "commander",
+      "military leave"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zinvor",
+      "mayor",
+      "gndapet",
+      "tnaz",
+      "haneluk",
+      "sharqayin Simonyan",
+      "hramanatar",
+      "ardzakurd"
+    ],
+    "catchphrases": [
+      "ոնց կարամ ես ուրիշ տեղ ձեր տնազը անեմ, կտամ գլուխս կջարդեմ",
+      "տղայա, հորիցսա, մորիցսա, բայց ախպերս չի, ո՞վա"
+    ],
+    "topics": [
+      "army"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ],
+    "confidence": "high"
+  }
+}

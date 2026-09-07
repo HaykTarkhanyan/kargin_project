@@ -1,0 +1,69 @@
+{
+  "video_id": "5h70tn0asdo",
+  "seq": 1,
+  "kargin_id": 1,
+  "title": "Kargin Haghordum sketch 275 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "001_Kargin_Haghordum_sketch_275_Hayko_Mko_5h70tn0asdo.hy.json"
+  },
+  "input_chars": 2860,
+  "gen_sec": 9.99,
+  "prompt_tokens": 2339,
+  "output_tokens": 455,
+  "thoughts_tokens": 618,
+  "cost_usd": 0.004389,
+  "annotation": {
+    "summary_en": "An official from the Ministry of Agriculture arrives in a village to inspect the livestock, only to be told by a local woman that since their bull died, the village men have taken over the bull's 'duties' while playing blues music for the cows.",
+    "keywords_hy": [
+      "գյուղնախարարություն",
+      "կով",
+      "ցուլ",
+      "ստուգում",
+      "եղջերավոր անասուն",
+      "Վալմոնտ",
+      "գեշ",
+      "բլյուզ"
+    ],
+    "keywords_en": [
+      "Ministry of Agriculture",
+      "cow",
+      "bull",
+      "inspection",
+      "livestock",
+      "village",
+      "blues music",
+      "ugly cow"
+    ],
+    "keywords_translit": [
+      "gyughnakhararutyun",
+      "kov",
+      "tsul",
+      "stugum",
+      "yeghjeravor anasun",
+      "Valmont",
+      "gesh",
+      "blyuz"
+    ],
+    "catchphrases": [
+      "Բարի օր մորքուր ջան",
+      "Ես գյուղ նախարարության խոշոր , մանր և միջին Եղջերավոր անասունների վարչությունից եմ:",
+      "էս մեր գյուղի միակ ցուլը Վալմոնտս, վաղաժամ հեռացավ մեզանից:",
+      "Բա որովհետև էսի գեշա:"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy",
+      "work"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ],
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "video_id": "d3AsbzNxb5c",
+  "seq": 582,
+  "kargin_id": 582,
+  "title": "Kargin Haghordum sketch 433 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "582_Kargin_Haghordum_sketch_433_Hayko_Mko_d3AsbzNxb5c.hy.json",
+    "visual": true
+  },
+  "input_chars": 2721,
+  "gen_sec": 15.03,
+  "prompt_tokens": 2340,
+  "output_tokens": 619,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003027,
+  "annotation": {
+    "title_hy": "Գորիս հասնող հերթը",
+    "title_en": "The Queue to Goris",
+    "summary_en": "A job seeker is thrilled to be offered a high-paying position assisting naked models backstage, only to realize how high the competition is.",
+    "summary_detailed_en": "The sketch takes place in an employment agency office. An agent (Mko), wearing glasses and a lanyard, is finishing a phone call where he brags about finding a 'cleaner' job for a relative at the National Assembly, joking that the state provides a car and a nickname for the role. A job seeker named Edik (Hayko) enters the office, following up on a call from the previous evening. The agent offers Edik an incredible position assisting fashion models with quick wardrobe changes backstage. He highlights a high salary of 500,000 drams and emphasizes that Edik will be the only man surrounded by naked, beautiful women. Edik, excited and eager, assures the agent he has no complexes and is ready to start immediately. However, when the agent tells him to go to the distant city of Goris for the final interview, a confused Edik notes that he lives in Yerevan. The agent reveals the punchline: the job itself is in Yerevan, but the queue of applicants is so long that it stretches all the way to Goris.",
+    "keywords_hy": [
+      "աշխատանքի տեղավորում",
+      "մոդելներ",
+      "Գորիս",
+      "հարցազրույց",
+      "բարձր աշխատավարձ",
+      "գործակալություն",
+      "Էդիկ"
+    ],
+    "keywords_en": [
+      "employment agency",
+      "job interview",
+      "models",
+      "Goris",
+      "high salary",
+      "office",
+      "Edik"
+    ],
+    "keywords_translit": [
+      "ashkhatanqi teghavorum",
+      "modelner",
+      "Goris",
+      "hartsazruyts",
+      "bardzr ashxatavardz",
+      "gortsakalutyun",
+      "Edik"
+    ],
+    "catchphrases": [
+      "Աշխատանքը Երևանում է, ուղղակի այս աշխատանքի անցնելու ցանկացողների հերթը հասնում է մինչև Գորիս"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

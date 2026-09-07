@@ -1,0 +1,77 @@
+{
+  "video_id": "5h70tn0asdo",
+  "seq": 1,
+  "kargin_id": 1,
+  "title": "Kargin Haghordum sketch 275 (Hayko Mko)",
+  "model": "claude-sonnet-5",
+  "model_short": "sonnet",
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "001_Kargin_Haghordum_sketch_275_Hayko_Mko_5h70tn0asdo.hy.json"
+  },
+  "input_chars": 2860,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "cost_note": "Claude Code session (subagent/inline), not paid API",
+  "annotation": {
+    "summary_en": "A ministry inspector visits a village to check its cattle count against last year's records, and learns that after the village's only bull died, the men of the village now take turns performing the bull's duties for the cows themselves each morning, set to music, as their improvised solution amid talk of economic decline.",
+    "keywords_hy": [
+      "ստուգում",
+      "կով",
+      "ցուլ",
+      "գյուղ",
+      "նախարարություն",
+      "եղջերավոր անասուն",
+      "ֆերմա",
+      "մորքուր",
+      "տնտեսության անկում",
+      "վարչություն"
+    ],
+    "keywords_en": [
+      "livestock inspection",
+      "cow count",
+      "dead bull",
+      "village",
+      "ministry official",
+      "horned cattle department",
+      "farm",
+      "economic decline",
+      "absurd solution",
+      "bureaucracy sketch"
+    ],
+    "keywords_translit": [
+      "stugum",
+      "kov",
+      "tsul",
+      "gyugh",
+      "nakhararutyun",
+      "exjeravor anasun",
+      "ferma",
+      "morqur",
+      "tntesutyan ankum",
+      "varchutyun"
+    ],
+    "catchphrases": [
+      "Բարի օր մորքուր ջան",
+      "Բարև տղա ջան",
+      "Վայ Մայմոնդ ջան, վայ ցուլ ոնց հեռացար մեզանից",
+      "Բա որովհետև էսի գեշա",
+      "Այ քեզի բան, բա էս մեկին ընչի չեն տարե"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "absurd",
+      "satire"
+    ],
+    "confidence": "high"
+  }
+}

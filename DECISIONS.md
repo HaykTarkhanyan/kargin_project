@@ -6,6 +6,47 @@ entries are never deleted — that we changed our mind, and why, is the point.
 
 ---
 
+## #9 — Text annotations: gemini-3-flash-preview, thinking off, schema v2 with visual input
+
+**Date:** 2026-09-07 · **Status:** active (sweep pending — run scheduled for 2026-09-08)
+
+**Decision.** Extract per-sketch annotation columns (titles hy+en, short + detailed
+English summaries, keyword triplets hy/en/translit, verbatim catchphrases, topics
+from a fixed 21-value vocabulary, humor types) with `gemini-3-flash-preview` on
+Vertex AI, `thinking_budget=0`, structured output via `response_schema`, input =
+curated text + YouTube transcript + visual annotation. Script:
+`scripts/extract_text_annotations.py` (idempotent: atomic writes, skip-existing,
+corrupt-file regeneration; parallel via `--workers`; per-call cost ledger
+`data/gemini_spend_ledger.jsonl`).
+
+**Why.** ArmBench-LLM (live leaderboard, checked 2026-09-07) ranks Gemini 3 Flash
+#1 for Armenian (0.635), beating every Pro model — including Gemini's own
+(3-pro 0.595, 3.1-pro 0.522). A 10-row pilot vs `gemini-3.8-flash` (unbenchmarked
+on Armenian) showed no quality edge for 3.8 at higher cost. Disabling thinking cut
+per-row cost ~55% ($0.0044 → $0.0020 v1) with zero observed quality loss across 10
+rows (sometimes better scene coverage). Adding visual annotations (schema v2)
+resolved premise-level errors: exposed seq 273 as a compilation, fixed seq 66's
+two-scene coverage. Claude comparison (Sonnet/Opus subagents + Fable inline, 2
+rows): Opus/Fable summaries were best (punchline capture), but the gap is confined
+to summary depth — search fields were equivalent — and Claude costs ~$65 (Opus
+API) or a large session-quota bite vs ≈$2.20 total on GCP credits. Full pilot
+evidence: `data/text_annotations_pilot*/report.html`; total pilot spend $0.174.
+
+**Alternatives rejected.** `gemini-3.8-flash` (no Armenian benchmark data, +25%
+cost, no observed quality gain); Gemini Pro models (score *worse* on Armenian, cost
+more); Claude models for the bulk sweep (quality edge real but narrow; cost/quota
+profile wrong for 702 rows — reserved as an option for a hand-picked subset);
+model self-reported `confidence` field (30/32 pilot outputs said "high" — dropped
+in favor of code-side input profile); free-form tags (fragment into one-off
+values — fixed vocabulary enforced by enum instead).
+
+**What would change this.** ArmBench adding 3.5–3.8 Flash results that show a
+meaningfully stronger model; visible quality gaps in the swept summaries (a
+Claude re-pass on affected rows is the fallback); Gemini 3 Flash preview being
+deprecated (move to the then-current Flash after a 10-row re-pilot).
+
+---
+
 ## #8 — Telegram bot in Node/TS importing the website's search, on Cloud Run
 
 **Date:** 2026-09-07 · **Status:** active
