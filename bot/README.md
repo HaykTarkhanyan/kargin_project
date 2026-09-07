@@ -62,6 +62,7 @@ gcloud run services update kargin-bot --region europe-west3 \
 ```
 
 The bot registers its own webhook (with a secret token derived from
-`BOT_TOKEN`) on boot, so no manual `setWebhook` call is needed. `GET /healthz`
-answers `ok` for liveness checks. Data updates ship by rebuilding the image —
+`BOT_TOKEN`) on boot, so no manual `setWebhook` call is needed. `GET /health`
+answers `ok` for liveness checks (not `/healthz` — Google's frontend reserves
+z-suffixed paths on `run.app` URLs and 404s them itself). Data updates ship by rebuilding the image —
 `sketches.json` is baked in, same artifact the website uses.

@@ -23,7 +23,9 @@ if (webhookUrl) {
   const handle = webhookCallback(bot, "http", { secretToken });
   const port = Number(process.env.PORT ?? 8080);
   createServer((req, res) => {
-    if (req.method === "GET" && req.url === "/healthz") { res.end("ok"); return; }
+    // NOT /healthz: Google's frontend reserves z-suffixed paths on run.app
+    // URLs and answers them with its own 404 before the container sees them.
+    if (req.method === "GET" && req.url === "/health") { res.end("ok"); return; }
     if (req.method === "POST") { void handle(req, res); return; }
     res.statusCode = 404; res.end();
   }).listen(port, () => console.log(`webhook server on :${port}`));
