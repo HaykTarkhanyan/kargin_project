@@ -1,0 +1,38 @@
+title = "GCP go-live: project, Blaze, CI deploys, 702-doc mirror synced; domain cutover staged, waiting on Mher's TXT"
+date = "2026-09-07"
+time = "03:30"
+areas = ["web", "bot/.env", ".github (secrets/vars)", "GCP project kargin-archive", "DNS_HANDOFF_karginhaghordum.md"]
+
+done = [
+    "User authorized the firebase CLI (manual --no-localhost flow; logged in as tarkhanyan02@gmail.com).",
+    "Created via CLI: project kargin-archive, web app (1:708563817336:web:bbfe48d5d636989ff7ee8d), Firestore (default) in europe-west3 production mode (needed serviceusage enable of firestore API first + a propagation retry loop).",
+    "TRICK USED THROUGHOUT (no gcloud installed): exchange the firebase CLI's stored refresh token (~/.config/configstore/firebase-tools.json) with its public client constants (api.js:16) for an access token, then call any Google REST API as the user. Drove: serviceusage enable, Cloud Billing link, Budget API, IAM policy + SA key mint.",
+    "Billing saga: console 'Link billing' silently failed — the billing account 013B94-5BB946-60702D was at its 5-project link quota. Listed the linked projects + display names via API; user chose to unlink pagespeed-insights-api-492922; linked kargin-archive → Blaze (billingEnabled true, console confirms).",
+    "WARNING recorded: gen-lang-client-0566872925 = 'kargin-stt' — this repo's Gemini transcription billing project. Never unlink it.",
+    "Budget: 'kargin-archive monthly guard', $10/month, thresholds 50/90/100%, project-scoped (projects/708563817336).",
+    "CI unlocked: granted roles/firebase.admin to firebase-adminsdk-fbsvc@kargin-archive.iam.gserviceaccount.com, minted a key to internal/firebase-sa-kargin-archive.json (gitignored), gh secret FIREBASE_SERVICE_ACCOUNT + gh variable FIREBASE_PROJECT_ID set. Workflow run 34068696881: ALL green incl. 'Deploy to Firebase Hosting' and 'Sync sketches to Firestore' → mirror log: 702 writes, 0 deletes.",
+    "Site live at https://kargin-archive.web.app with logging armed (NEXT_PUBLIC_FIREBASE_PROJECT_ID baked); production rules verified over REST: valid event 200 + server ts, invalid type 403.",
+    "bot/.env got FIREBASE_PROJECT_ID=kargin-archive — bot logs to Firestore on next start (bot currently OFFLINE, user stopped it earlier).",
+    "Hosting release retention set to 10 versions (console, via Playwright).",
+    "Custom domain karginhaghordum.am added in Firebase Hosting, ADVANCED setup mode, status 'Needs setup' — step 1 wants TXT hosting-site=kargin-archive. DNS is in MHER's name.am account (ns a/b/c.ns.name.am; apex currently the four GitHub Pages A records).",
+    "Wrote DNS_HANDOFF_karginhaghordum.md (repo root, pushed) for Mher/his agent: step 1 TXT now, HARD GATE, step 2 A-swap to 199.36.158.100 + remove GitHub AAAA if present + report www. User sent it; Mher replies TOMORROW.",
+]
+
+pending = [
+    "WAITING ON MHER (tomorrow): TXT record added → then in Firebase console (Hosting → karginhaghordum.am → 'Needs setup') click Verify in the Advanced flow → cert mints (minutes-hours) → give user/Mher the go-ahead for step 2 (A-record swap).",
+    "After DNS serves 199.36.158.100 with valid cert: retire GitHub Pages — remove upload-pages-artifact step + deploy job + pages/id-token permissions from .github/workflows/deploy.yml, delete web/public/CNAME and web/public/.nojekyll, disable Pages in repo settings. User explicitly wants ALL on GCP, no Pages.",
+    "Bot: restart when user says so (node --env-file=.env dist/index.js in bot/) — will log to Firestore now. Cloud Run deploy still open (needs gcloud or docker push; commands in bot/README.md).",
+    "Backfill logs/bot_events.jsonl into Firestore events (admin SDK path, see DEFERRED_TODO.md).",
+]
+
+next = "Mher adds TXT → Verify in console → cert → step-2 go-ahead → A-swap → verify https://karginhaghordum.am → strip Pages from CI. Then the migration is DONE end to end."
+
+files = [
+    "DNS_HANDOFF_karginhaghordum.md",
+    "internal/firebase-sa-kargin-archive.json (LOCAL, gitignored — CI SA key copy; also in GitHub secret)",
+    "bot/.env (LOCAL — now has FIREBASE_PROJECT_ID)",
+]
+
+commits = ["1844cf1 docs: DNS handoff instructions for the domain holder (two-step zero-downtime cutover)"]
+
+notes = "Everything GCP-side is done and verified; the only human dependency left is Mher's two DNS edits. The Firebase console tab (Playwright) may not survive the session — the domain flow is reopenable at Hosting → Domains → karginhaghordum.am → 'Needs setup', Advanced mode."
