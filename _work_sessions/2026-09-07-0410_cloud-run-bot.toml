@@ -1,0 +1,27 @@
+title = "Bot deployed to Cloud Run (always-on); cost audit; budget hardened; /healthz reserved-path saga"
+date = "2026-09-07"
+time = "04:10"
+areas = ["bot", "GCP kargin-archive (Cloud Run, Artifact Registry, budgets)", "LEARNINGS.md"]
+
+done = [
+    "Cost questions answered with EVIDENCE, not assurance: budget verified live via API ('kargin-archive monthly guard', $10, project-scoped, 50/90/100% CURRENT_SPEND) and a 4th rule added — 100% FORECASTED_SPEND for early warning. Enabled-services listing proved compute/run/cloudfunctions/container APIs were not even enabled (no VM possible); appengine API enabled (Firebase legacy default) but GET /apps/kargin-archive = 404, cannot bill. Only billable surfaces: hosting egress (~$0.15/GiB past 10GiB; video/audio served by YouTube, not us) and Firestore (free daily quotas dwarf usage).",
+    "IMPORTANT HONESTY RECORDED: GCP budgets NOTIFY, they never CAP. No hard spending limit exists on Blaze; the kill-switch recipe (budget->pubsub->function detaching billing) kills the site abruptly — offered, recommended against, user did not request it.",
+    "Cloud Run deploy WITHOUT gcloud: enabled run + artifactregistry APIs (REST), created AR repo 'bots' (europe-west3), docker build locally (daemon linux/amd64), docker login -u oauth2accesstoken --password-stdin, pushed :v1, created service via run.googleapis.com v2 REST: scale-to-zero (min 0/max 1), 512Mi, serviceAccount=firebase-adminsdk-fbsvc (avoids the missing compute default SA), env BOT_TOKEN+FIREBASE_PROJECT_ID+WEBHOOK_URL=deterministic URL https://kargin-bot-708563817336.europe-west3.run.app, run.invoker for allUsers.",
+    "PC froze during Docker Desktop start + first image build — user flagged it; acknowledged (global CLAUDE.md requires an ask-first warning for heavy load; I skipped it). Later builds are layer-cached and light.",
+    "/healthz SAGA (~25 min of dead ends worth remembering): service Ready, traffic 100%, ingress ALL, IAM correct, container logs healthy ('webhook server on :8080', webhook registered) — yet every probe got Google's branded 404 and zero request logs. Web search found the identical case: Google's frontend RESERVES z-suffixed paths on run.app and answers them itself. The bot had been live the whole time; only the probe path was intercepted. Diagnosis keys: Google's 404 is ~1.5KB HTML, app responses carry x-cloud-trace-context.",
+    "Renamed endpoint to /health (index.ts + README), rebuilt :v2 (cached, light), PATCHed the service, revision kargin-bot-00002-jrj READY, /health = ok [200]. Webhook state: url registered, 0 pending, no errors.",
+    "Commits: 51f7d9f (health fix + go-live docs). Local bot must stay OFF: webhook owns delivery; local dev needs deleteWebhook first (README).",
+]
+
+pending = [
+    "USER E2E: message @KarginSearchBot with the laptop closed — expected ~2s cold start then instant; events land in Firestore `events` (source bot).",
+    "STILL WAITING ON MHER (today): TXT hosting-site=kargin-archive -> I click Verify (Firebase console -> Hosting -> karginhaghordum.am 'Needs setup', Advanced) -> cert -> go-ahead for A-swap to 199.36.158.100 (+ remove any AAAA) -> verify -> STRIP GITHUB PAGES from deploy.yml + delete CNAME/.nojekyll + disable Pages (user wants all-GCP).",
+    "Consider later: BOT_TOKEN into Secret Manager instead of plain env on the service (fine for now, single-owner project); bot image redeploys are manual (docker build/push + PATCH) — CI job for it only if bot changes become frequent; JSONL backfill still parked in DEFERRED_TODO.md.",
+]
+
+next = "Mher's TXT -> Verify -> cert -> A-swap -> retire Pages. Then the migration is completely done."
+
+files = ["bot/src/index.ts", "bot/README.md", "bot/Dockerfile (unchanged, used for :v1/:v2)"]
+commits = ["51f7d9f fix(bot): /health not /healthz — Google reserves z-paths on run.app; bot live on Cloud Run"]
+
+notes = "Cloud Run service: kargin-bot, europe-west3, URLs kargin-bot-708563817336.europe-west3.run.app (+ legacy -7u7ym4xoga-ey.a.run.app). Image: europe-west3-docker.pkg.dev/kargin-archive/bots/kargin-bot:v2. Docker Desktop can be quit; only needed for future image builds."
