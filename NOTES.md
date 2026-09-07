@@ -28,3 +28,12 @@ The plan is to rebuild the Kargin search project with significant changes. Direc
 - Move data to SQLite (or Parquet) so updates and indexing are cleaner.
 - Add `youtube_id` as a real column instead of parsing it on every page load.
 - Consider a thin REST/GraphQL API so future surfaces don't keep reimplementing search.
+
+## Domains (2026-09-07)
+
+Two spellings, two owners — full details incl. registrar accounts in
+`internal/DOMAINS.md` (gitignored, local only): the **gh** domain
+(karginhaghordum.am, current canonical) sits in MHER's name.am account —
+changes go through him (`DNS_HANDOFF_karginhaghordum.md`); the **x** domain
+(karginhaxordum.am) is in Hayk's own name.am account and is self-serve.
+Canonical-domain choice deliberately open until both are connected.
