@@ -4,6 +4,9 @@ import { getActorNames, getSketchesForActor, getCoStars } from "@/lib/actors";
 import { formatViews } from "@/lib/format";
 import SketchGrid from "@/components/SketchGrid";
 
+/** Cards drawn on an actor page before deferring to search. */
+const GRID_CAP = 48;
+
 export function generateStaticParams() {
   // Return raw Armenian strings — Next.js handles URL-encoding in the output path.
   // Do NOT encodeURIComponent here; that would cause double-encoding at build time.
@@ -92,9 +95,19 @@ export default async function ActorPage({ params }: { params: Promise<{ name: st
         </div>
       )}
 
-      {/* Sketches grid */}
+      {/* Sketches grid. Capped: Hayko is in 532 of them, and drawing every card
+          made this page 3.2 MB and 486 phone-screens tall. The rest are one tap
+          away in search, which already filters by actor and pages properly. */}
       <div className="mb-3 font-display text-lg tracking-wide">ՍՔԵԹՉԵՐ ({sketches.length})</div>
-      <SketchGrid items={sorted} />
+      <SketchGrid items={sorted.slice(0, GRID_CAP)} />
+      {sketches.length > GRID_CAP && (
+        <div className="mt-8 flex justify-center">
+          <Link href={`/?actor=${encodeURIComponent(actorName)}`}
+            className="k-border k-shadow inline-flex min-h-11 items-center rounded-lg bg-korange px-6 py-3 font-bold">
+            Տեսնել բոլորը ({sketches.length}) →
+          </Link>
+        </div>
+      )}
     </main>
   );
 }

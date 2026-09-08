@@ -24,7 +24,7 @@ export default function SongList({ songs, watchUrl }: { songs: Song[]; watchUrl:
               {[song.label, song.released].filter(Boolean).join(" · ")}
             </div>
           )}
-          <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
+          <div className="mt-1.5 flex flex-wrap items-center gap-2">
             {song.at.map((sec) => (
               <a
                 key={sec}
@@ -32,13 +32,14 @@ export default function SongList({ songs, watchUrl }: { songs: Song[]; watchUrl:
                 target="_blank"
                 rel="noreferrer"
                 title={`Դիտել ${formatDuration(sec)}-ից`}
-                className="rounded border-[1.5px] border-ink bg-korange px-1.5 py-0.5 text-[11px] font-bold text-[#1A1410]"
+                className="inline-flex min-h-9 items-center rounded border-[1.5px] border-ink bg-korange px-2.5 text-[11px] font-bold text-[#1A1410]"
               >
                 ▶ {formatDuration(sec)}
               </a>
             ))}
             {song.url && (
-              <a href={song.url} target="_blank" rel="noreferrer" className="text-[11px] font-semibold text-muted underline">
+              <a href={song.url} target="_blank" rel="noreferrer"
+                className="inline-flex min-h-9 items-center px-1 text-[11px] font-semibold text-muted underline">
                 Shazam
               </a>
             )}

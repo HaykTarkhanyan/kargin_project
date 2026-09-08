@@ -14,6 +14,23 @@
 html,body{ background:var(--paper); color:var(--ink); font-family:var(--font-body); }
 *:focus-visible{ outline:3px solid var(--blue); outline-offset:2px; }
 
+/* Mobile defaults. text-size-adjust stops iOS inflating body copy in landscape.
+   The default grey tap flash is dropped for a dim on press, which reads on both
+   themes; touch-only, so it never fires from a mouse passing over a control. */
+html{ -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+body{ -webkit-tap-highlight-color:transparent; }
+@media (hover:none){
+  a:active, button:active, summary:active, label:active{ opacity:.6; }
+}
+
+/* Card dialogue that overflows its pixel cap: fade the last rows instead of
+   slicing a line in half. A mask rather than a gradient overlay, so it works
+   over any card background and in both themes. */
+.fade-cut{
+  -webkit-mask-image:linear-gradient(to bottom,#000 62%,transparent 100%);
+  mask-image:linear-gradient(to bottom,#000 62%,transparent 100%);
+}
+
 /* the load-bearing motif */
 .k-shadow{ box-shadow:6px 6px 0 var(--ink); }
 .k-shadow-red{ box-shadow:6px 6px 0 var(--red); }

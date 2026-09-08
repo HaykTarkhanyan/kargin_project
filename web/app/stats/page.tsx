@@ -20,7 +20,9 @@ export default function StatsPage() {
         <Card title="Աստղային ուժ" note="հազվադեպ հյուրերն ունեն ամենաբարձր միջին դիտումը (պղպջակ = ներկայություն)">
           <Scatter points={s.actorsAvgViews.map((a) => ({ name: a.name, x: a.n, y: a.avgViews, n: a.n }))} />
         </Card>
-        <Card title="Ո՞վ ում հետ" note="միասին քանի՞ սքեթչում"><div className="overflow-x-auto"><Heatmap actors={s.coOccurrence.actors} matrix={s.coOccurrence.matrix} /></div></Card>
+        {/* overscroll-x-contain: without it, swiping the matrix past its end triggers
+            the browser's back-navigation gesture on iOS. */}
+        <Card title="Ո՞վ ում հետ" note="միասին քանի՞ սքեթչում"><div className="overflow-x-auto overscroll-x-contain"><Heatmap actors={s.coOccurrence.actors} matrix={s.coOccurrence.matrix} /></div></Card>
         <Card title="Երկարությունն ու դիտումները" note="միջին դիտում ըստ տևողության"><TrendLine points={s.durationBuckets.map((d) => ({ label: d.bucket, value: d.avgViews }))} /></Card>
         <Card title="Ստորագիր արտահայտություններ" note="ամենահաճախ զույգ բառերը"><BarList rows={s.topPhrases.map((p) => ({ label: p.p, value: p.n }))} color="#0033A0" /></Card>
         <Card title="Դերասաններ" note="քանի՞ սքեթչում"><BarList rows={s.actorsByCount.map((a) => ({ label: a.name, value: a.n }))} hrefFor={(l) => `/actor/${encodeURIComponent(l)}`} /></Card>

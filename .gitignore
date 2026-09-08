@@ -252,3 +252,6 @@ __marimo__/
 # any package dir (web/ has its own .gitignore; bot/ relies on this)
 node_modules/
 *.stackdump
+
+# firebase CLI deploy cache — machine-local, regenerated on every deploy
+.firebase/

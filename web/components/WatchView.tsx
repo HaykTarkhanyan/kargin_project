@@ -42,10 +42,10 @@ export default function WatchView({ s }: { s: Sketch }) {
         )}
         <div className="mb-4 flex flex-wrap gap-2">
           {s.actors.map((a) => (
-            <Link key={a} href={`/actor/${encodeURIComponent(a)}`} className="rounded-full border-2 border-ink bg-surface px-3 py-1 text-xs font-bold hover:bg-ink hover:text-paper">{a}</Link>
+            <Link key={a} href={`/actor/${encodeURIComponent(a)}`} className="inline-flex min-h-9 items-center rounded-full border-2 border-ink bg-surface px-3 text-xs font-bold hover:bg-ink hover:text-paper">{a}</Link>
           ))}
           {s.location !== "Այլ" && (
-            <Link href={`/?location=${encodeURIComponent(s.location)}`} className="rounded-full border-2 border-kblue bg-kblue px-3 py-1 text-xs font-bold text-white">📍 {s.location}</Link>
+            <Link href={`/?location=${encodeURIComponent(s.location)}`} className="inline-flex min-h-9 items-center rounded-full border-2 border-kblue bg-kblue px-3 text-xs font-bold text-white">📍 {s.location}</Link>
           )}
         </div>
         {s.transcript && (
@@ -56,13 +56,7 @@ export default function WatchView({ s }: { s: Sketch }) {
                 ավտոմատ ձայնաճանաչում — հնարավոր են սխալներ
               </span>
             </div>
-            {/* Capped and scrollable: some run past 4,000 characters and would
-                otherwise push everything below them off the page. */}
-            <div className="max-h-72 space-y-1 overflow-y-auto rounded-md border-2 border-ink/25 bg-surface px-3 py-2.5 text-sm leading-relaxed">
-              {s.transcript.text.split("\n").filter(Boolean).map((line, i) => (
-                <p key={i}>{line}</p>
-              ))}
-            </div>
+            <Transcript text={s.transcript.text} />
           </div>
         )}
         {s.visual && (
@@ -96,6 +90,33 @@ export default function WatchView({ s }: { s: Sketch }) {
         <div className="mb-2 border-t-2 border-ink pt-3 font-display text-base tracking-wide">ՆՄԱՆԱՏԻՊ</div>
         <RelatedList items={related(s, ALL, 6)} />
       </div>
+    </div>
+  );
+}
+/** Lines of transcript shown before the "show everything" disclosure. */
+const TRANSCRIPT_HEAD = 8;
+
+/**
+ * Some transcripts run past 4,000 characters. This used to cap them in a
+ * scrollable box, but on a phone that box sits right under the video and eats
+ * the swipe meant to scroll the page. A native <details> caps the height the
+ * same way with no nested scroller and no JavaScript.
+ */
+function Transcript({ text }: { text: string }) {
+  const lines = text.split("\n").filter(Boolean);
+  const rest = lines.slice(TRANSCRIPT_HEAD);
+  return (
+    <div className="space-y-1 rounded-md border-2 border-ink/25 bg-surface px-3 py-2.5 text-sm leading-relaxed">
+      {lines.slice(0, TRANSCRIPT_HEAD).map((line, i) => <p key={i}>{line}</p>)}
+      {rest.length > 0 && (
+        <details className="group">
+          <summary className="flex min-h-11 cursor-pointer list-none items-center text-[11px] font-extrabold uppercase tracking-wider text-kred [&::-webkit-details-marker]:hidden">
+            <span className="group-open:hidden">▾ Ամբողջ վերծանումը ({lines.length} տող)</span>
+            <span className="hidden group-open:inline">▴ Կրճատել</span>
+          </summary>
+          <div className="space-y-1">{rest.map((line, i) => <p key={i}>{line}</p>)}</div>
+        </details>
+      )}
     </div>
   );
 }

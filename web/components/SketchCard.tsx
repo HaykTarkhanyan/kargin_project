@@ -4,6 +4,9 @@ import { formatViews, formatDuration } from "@/lib/format";
 import { segmentsFor, matchedFirst } from "@/lib/segments";
 import Highlight from "./Highlight";
 
+/** Dialogue lines shown on a card before the rest is summarised as a count. */
+const PREVIEW_LINES = 5;
+
 export default function SketchCard({
   sketch: s,
   snippet,
@@ -35,10 +38,21 @@ export default function SketchCard({
     : curated;
   const matchCount = segments.filter((seg) => seg.matched).length;
   const quoteSegment = quote ? segmentsFor(quote, q)[0] : undefined;
+  // A preview, not a reading surface. This used to be a 144px scrollable box,
+  // which on a touch screen swallows the swipe meant to scroll the page — and a
+  // grid of them made most of the phone viewport a scroll trap. The card links
+  // to the full text, so it shows a fixed head and counts the rest.
+  const shown = segments.slice(0, PREVIEW_LINES);
+  const hiddenLines = segments.length - shown.length;
+  // Line count alone does not bound the height: some sketches carry their whole
+  // dialogue as one unpunctuated run, which wrapped to 2,500px in a card. Hence
+  // the pixel cap, and a fade when the preview is long enough to hit it (~38
+  // characters a row at this size) so the cut reads as deliberate.
+  const clipped = shown.reduce((n, seg) => n + seg.text.length, 0) > 190;
 
   return (
-    // flex column so the dialogue box can absorb the height the grid row gives
-    // this card; otherwise a short sketch next to a long one leaves dead space.
+    // flex column with an mt-auto footer, so cards stretched by a taller
+    // neighbour in the grid row keep their meta line pinned to the bottom.
     <Link href={`/sketch/${s.id}`} className="group flex h-full flex-col overflow-hidden rounded-xl k-border k-shadow transition hover:-translate-x-[3px] hover:-translate-y-[3px] hover:k-shadow-red bg-card">
       <div className="relative aspect-video border-b-2 border-ink bg-paper2">
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -76,12 +90,16 @@ export default function SketchCard({
                 </span>
               )}
             </div>
-            <div className="mb-3 max-h-36 min-h-0 flex-1 space-y-1 overflow-y-auto border-l-[3px] border-ink/25 pl-3 pr-1 text-sm leading-relaxed">
-              {segments.map((seg, i) => (
-                <p key={i} className={seg.matched ? "font-semibold" : "opacity-65"}>
-                  <Highlight segment={seg} />
-                </p>
-              ))}
+            <div className="mb-3">
+              <div className={`max-h-32 space-y-1 overflow-hidden border-l-[3px] border-ink/25 pl-3 pr-1 text-sm leading-relaxed ${clipped ? "fade-cut" : ""}`}>
+                {shown.map((seg, i) => (
+                  <p key={i} className={seg.matched ? "font-semibold" : "opacity-65"}>
+                    <Highlight segment={seg} />
+                  </p>
+                ))}
+              </div>
+              {/* outside the clipped box, or it would be clipped itself */}
+              {hiddenLines > 0 && <p className="mt-1 text-[11px] font-bold text-muted">+{hiddenLines} տող</p>}
             </div>
           </>
         )}

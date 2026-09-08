@@ -50,14 +50,14 @@ function Experience() {
 
   return (
     <>
-      <section className="grid grid-cols-1 gap-6 border-b-2 border-ink px-4 py-8 sm:px-8 sm:py-12 lg:grid-cols-[1fr_320px]">
+      <section className="grid grid-cols-1 gap-4 border-b-2 border-ink px-4 py-6 sm:gap-6 sm:px-8 sm:py-12 lg:grid-cols-[1fr_320px]">
         <Hero total={ALL.length} withDialogue={withDialogue} totalViews={totalViews} totalHours={totalHours} onSearch={setQuery} query={query} />
         <HeroFilters facets={facets} filters={filters} setFilters={setFilters} />
       </section>
       <main className="px-4 py-6 sm:px-8">
-        <div className="mb-6 flex items-center justify-between">
-          <div className="font-display text-2xl"><span className="text-kred">{results.length}</span> ԱՐԴՅՈՒՆՔ</div>
-          <select value={sort} onChange={(e) => setSort(e.target.value as SortKey)} className="k-border rounded-lg bg-surface px-3 py-2 text-sm font-bold">
+        <div className="mb-5 flex items-center justify-between gap-3 sm:mb-6">
+          <div className="whitespace-nowrap font-display text-xl sm:text-2xl"><span className="text-kred">{results.length}</span> ԱՐԴՅՈՒՆՔ</div>
+          <select value={sort} onChange={(e) => setSort(e.target.value as SortKey)} className="k-border min-h-11 min-w-0 rounded-lg bg-surface px-3 py-2 text-sm font-bold">
             <option value="views">Ըստ դիտումների</option><option value="newest">Ամենանորը</option><option value="random">Պատահական</option>
           </select>
         </div>

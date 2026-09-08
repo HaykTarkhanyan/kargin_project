@@ -1,10 +1,14 @@
 import { normalize, fold } from "./normalize";
 import { romanize, cyrillize } from "./translit";
 
-// `text` is stored as one string; these are the real separators in the curated
-// data. Mirrors _LINE_SPLIT in scripts/kargin_build/parse.py — deliberately NOT
-// a bare '-', which would mangle "1-2".
-const LINE_SPLIT = /[;։]/;
+// `text` is stored as one string; `;` and `։` are the real separators in the
+// curated data. Mirrors _LINE_SPLIT in scripts/kargin_build/parse.py —
+// deliberately NOT a bare '-', which would mangle "1-2".
+//
+// Newline is in here for the machine transcripts, which are the other thing
+// callers pass in and which separate their lines that way. Without it a
+// transcript comes back as two or three enormous "lines".
+const LINE_SPLIT = /[;։\n]/;
 
 export function textLines(text: string): string[] {
   return text.split(LINE_SPLIT).map((s) => s.trim()).filter(Boolean);

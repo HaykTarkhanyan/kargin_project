@@ -14,7 +14,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-10 border-b-2 border-ink bg-paper">
       <div className="flex items-center justify-between px-4 py-4 sm:px-8">
-        <Link href="/" className="flex items-baseline gap-2 text-xl font-extrabold tracking-wide">
+        {/* -my-2 keeps the bar the same height while the padding grows the tap area */}
+        <Link href="/" className="-my-2 flex items-baseline gap-2 py-2 text-xl font-extrabold tracking-wide">
           ԿԱՐԳԻՆ<span className="rounded bg-kred px-2 py-0.5 text-[9px] font-extrabold tracking-[0.26em] text-white">ARCHIVE</span>
         </Link>
         <div className="flex items-center gap-3">
@@ -27,7 +28,7 @@ export default function Header() {
           </nav>
           <ThemeToggle />
           <button
-            className="flex flex-col gap-1.5 p-2 xl:hidden"
+            className="flex h-11 w-11 flex-col items-center justify-center gap-1.5 xl:hidden"
             onClick={() => setOpen((o) => !o)}
             aria-label="Ցանկ"
             aria-expanded={open}
@@ -45,7 +46,7 @@ export default function Header() {
               key={href}
               href={href}
               onClick={() => setOpen(false)}
-              className="block border-b border-ink/20 px-4 py-3 text-sm font-semibold last:border-b-0 hover:bg-paper2"
+              className="flex min-h-12 items-center border-b border-ink/20 px-4 text-sm font-semibold last:border-b-0 hover:bg-paper2"
             >
               {label}
             </Link>

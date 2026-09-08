@@ -15,7 +15,7 @@ export default function ThemeToggle() {
   };
   return (
     <button onClick={toggle} aria-label="Փոխել թեման" title="Փոխել թեման" suppressHydrationWarning
-      className="rounded-lg border-2 border-ink px-2 py-1 text-base leading-none hover:bg-ink hover:text-paper">
+      className="flex h-11 w-11 items-center justify-center rounded-lg border-2 border-ink text-base leading-none hover:bg-ink hover:text-paper sm:h-9 sm:w-11">
       {dark ? "☀️" : "🌙"}
     </button>
   );

@@ -24,11 +24,29 @@ describe("SketchCard", () => {
     expect(screen.getByRole("link").getAttribute("href")).toContain("/sketch/ofvCL_U2Er0");
   });
 
-  it("shows the full dialogue, not just a snippet", () => {
+  it("shows the dialogue, not just a snippet", () => {
     render(<SketchCard sketch={withText} />);
     expect(screen.getByText("բարև ձեզ")).toBeTruthy();
     expect(screen.getByText("ոնց ես ախպեր")).toBeTruthy();
     expect(screen.getByText("վերջին տողը")).toBeTruthy();
+  });
+
+  // The card used to scroll its dialogue internally, which on a touch screen
+  // eats the swipe meant to scroll the page. It now previews a fixed number of
+  // lines and counts the remainder instead.
+  it("caps the preview and counts the lines it left out", () => {
+    const long = { ...s, text: Array.from({ length: 9 }, (_, i) => `տող ${i + 1}`).join("; ") } as Sketch;
+    const { container } = render(<SketchCard sketch={long} />);
+    expect(screen.getByText("տող 5")).toBeTruthy();
+    expect(screen.queryByText("տող 6")).toBeNull();
+    expect(screen.getByText("+4 տող")).toBeTruthy();
+    expect(container.querySelectorAll(".overflow-y-auto")).toHaveLength(0);
+  });
+
+  it("keeps a matched line in the preview even when it sits past the cap", () => {
+    const long = { ...s, text: Array.from({ length: 9 }, (_, i) => `տող ${i + 1}`).join("; ") } as Sketch;
+    render(<SketchCard sketch={long} query="տող 8" />);
+    expect(screen.getByText(/տող 8/)).toBeTruthy();   // matchedFirst floats it up
   });
 
   it("marks the matching text and reports how many lines matched", () => {

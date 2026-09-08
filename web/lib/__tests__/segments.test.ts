@@ -8,6 +8,11 @@ describe("textLines", () => {
   it("does not split on '-' (would mangle '1-2')", () => {
     expect(textLines("1-2 1-2")).toEqual(["1-2 1-2"]);
   });
+  // Machine transcripts are newline-separated, and cards render them through
+  // the same splitter as curated dialogue.
+  it("splits transcript lines on newlines", () => {
+    expect(textLines("ասաց գնանք տուն\nքույրս սպասում է")).toEqual(["ասաց գնանք տուն", "քույրս սպասում է"]);
+  });
   it("returns [] for empty text", () => {
     expect(textLines("")).toEqual([]);
   });

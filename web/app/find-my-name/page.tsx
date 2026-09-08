@@ -40,7 +40,7 @@ function Finder() {
         </div>
         <div className="mx-auto mt-4 flex max-w-xl flex-wrap justify-center gap-2">
           {chips.map((c) => (
-            <button key={c} onClick={() => setName(c)} className={`rounded-full border-2 border-ink px-3 py-1.5 text-sm font-bold ${name === c ? "bg-kred text-white" : "bg-surface"}`}>{c}</button>
+            <button key={c} onClick={() => setName(c)} className={`min-h-9 rounded-full border-2 border-ink px-3 py-1.5 text-sm font-bold ${name === c ? "bg-kred text-white" : "bg-surface"}`}>{c}</button>
           ))}
         </div>
       </section>
