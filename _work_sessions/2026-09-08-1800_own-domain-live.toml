@@ -1,0 +1,29 @@
+title = "karginhaxordum.am (Hayk's own domain) configured end-to-end and LIVE on Firebase Hosting"
+date = "2026-09-08"
+time = "18:00"
+areas = ["Firebase Hosting custom domains", "name.am DNS (Playwright)", "internal/DOMAINS.md", "NOTES.md"]
+
+done = [
+    "User bought karginhaxordum.am (x-spelling) in HIS OWN name.am account — independence from Mher's gh-domain timeline. Ownership split recorded: internal/DOMAINS.md (gitignored; holds Mher's email) + a no-PII pointer in NOTES.md.",
+    "Firebase: domain added to site kargin-archive via console (Playwright), Quick setup (nothing served on it — no downtime concern). Required: A 199.36.158.100 + TXT hosting-site=kargin-archive; wizard also flagged the registrar's parking A 164.90.221.98 + AAAA for removal.",
+    "name.am (Playwright, user logged in in-window): fresh domains sit on park1/park2.name.am parking NS. Switched to their hosted 'DNS Records' mode (confirms a warning modal) — that moves NS to a/b/c/d.ns.name.am backed by Amazon Route 53. Added A + TXT; parking records died with the NS switch (zone starts empty). Public propagation near-instant (verified via 8.8.8.8).",
+    "Verification stalled: Firebase console kept saying 'records not yet detected'. The Hosting REST API (firebasehosting.googleapis.com/v1beta1, EXPLICIT project path — projects/- wildcard 404s) gave the real diagnosis: ownership TXT seen (OWNERSHIP_ACTIVE same day) but Google's resolvers still served the CACHED parking A/AAAA, so the cert's HTTP ACME probe hit the parking webserver. The API even exposes the _acme-challenge TXT token for a manual DNS-01 fast path.",
+    "Resolution: caches expired overnight, cert completed WITHOUT the fast path. Confirmed 2026-09-08: HOST_ACTIVE / OWNERSHIP_ACTIVE / CERT_ACTIVE, https://karginhaxordum.am serves the site incl. sketch pages (200, valid TLS).",
+    "Ops friction twice: Playwright MCP session restarts leave a stale Chrome holding the profile lock ('Browser is already in use') — fixed by killing chrome.exe processes whose CommandLine matches ms-playwright-mcp. The name.am login session survives in the profile across those kills.",
+]
+
+pending = [
+    "MHER (gh domain, canonical): still on GitHub Pages IPs, handoff doc sent, no reply yet. His flow: TXT -> our Verify (Advanced mode dialog in Hosting -> karginhaghordum.am 'Needs setup') -> cert -> A-swap.",
+    "GitHub Pages RETIREMENT BLOCKED until the gh cutover (or a canonical switch): karginhaghordum.am is still canonical and still points at Pages.",
+    "OPEN DECISION (user's): long-term canonical domain — gh (Mher's) vs x (own). Switching to x = one line in web/lib/site.ts (SITE_ORIGIN) + redirect in Hosting; would also unblock Pages retirement without Mher. Details in internal/DOMAINS.md.",
+]
+
+next = "Either Mher replies (finish gh cutover, retire Pages) or user picks the x-domain as canonical (switch + retire Pages immediately)."
+
+files = ["internal/DOMAINS.md (local)", "NOTES.md", "PROGRESS.md"]
+commits = [
+    "6b3fc7a docs: note dual domain ownership (details in gitignored internal/)",
+    "a45222f docs: karginhaxordum.am live on Firebase Hosting",
+]
+
+notes = "Everything else in the stack was already live and untouched today: site on kargin-archive.web.app + CI, Firestore (rules, events, 702-doc mirror), bot on Cloud Run webhook. The only moving parts left in the whole migration are the two items in pending."
