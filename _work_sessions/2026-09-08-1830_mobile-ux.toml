@@ -1,0 +1,47 @@
+title = "Mobile UX pass: killed 48 touch scroll traps, bounded card height, cut actor pages 91%"
+date = "2026-09-08"
+time = "18:30"
+areas = ["web/components", "web/app", "web/lib/segments.ts", "DECISIONS.md", ".gitignore"]
+
+done = [
+    "Audited the site at 390x844 and 320x568 with Playwright, measuring rather than eyeballing: counted nested scroll containers, distance to first result, tap-target heights, horizontal overflow, DOM size and page weight. Confirmed the same numbers against LIVE production (karginhaxordum.am) so the 'before' is on record: 48 scroll traps on /, first result 1.07 screens down, autoFocus stealing focus on load.",
+    "ROOT CAUSE of the user's 'scrolling scrolls the description instead of the page' report: SketchCard's dialogue box was max-h-36 overflow-y-auto — 144px tall holding up to 5,271px of transcript, one per card, 48 per home screen. On touch the same drag gesture means both 'scroll page' and 'scroll box', and the browser gives it to whatever is under the thumb. Fixed by deleting the inner scroller, not by arbitrating the gesture.",
+    "SketchCard is now a bounded preview: 5 lines, 128px cap, overflow-hidden, a mask fade at the cut, and '+N տող' outside the box for the remainder. Card heights 478-2,536px -> 478-550px. Search highlighting and the matched-lines-float-to-top behaviour are unchanged (124 marks still render for 'բարև').",
+    "WatchView transcript: was a 288px scroll box sitting directly under the video (worst possible spot for a thumb). Now a native <details> — 8 lines then 'Ամբողջ վերծանումը (N տող)'. No JS, no trap, and it fixes the old complaint the code comment described (long transcripts pushing content off the page) without a scroller.",
+    "REAL BUG found while fixing the above: lib/segments.ts split only on ';' and '։', but machine transcripts are newline-separated — so a transcript came back as 2-3 enormous 'lines' and no line-count cap could bound it (cards still hit 2,536px). Added \\n to LINE_SPLIT (+test). Curated text has no newlines so nothing else changed.",
+    "Actor pages: capped the grid at 48 with a 'Տեսնել բոլորը (N)' link to /?actor=<name> (search already filters by actor and pages). Hayko's page 3.25 MB -> 295 KB, 11,129 -> 1,128 DOM nodes, 486 -> 40 phone-screens.",
+    "Hero: autoFocus removed in favour of a desktop-only matchMedia focus — on a phone it opened the keyboard on every load, covering the results. Input also gained type=search/enterKeyHint/autocorrect-off; kept at 17px because <16px makes iOS zoom on focus.",
+    "Filters collapse on phones via checkbox+peer CSS (not state), so the collapsed state is the server markup and there is no open-then-collapse hydration flash; expanded from lg up where it is the sidebar. Removed the doubled hero padding (16+16px a side on a 390px screen). First result 1.07 -> 0.87 screens.",
+    "Tap targets: nav rows, hamburger, theme toggle, sort select, transcript summary and filter-group summaries to >=44px; filter chips, song timestamps, Shazam links and actor chips to >=36px (17px and 23px before). Logo hit area grown with py-2/-my-2 so the header height is unchanged.",
+    "globals.css: -webkit-text-size-adjust:100% (stops iOS inflating body copy in landscape), tap-highlight replaced by an opacity dim under @media (hover:none) so taps still give feedback, and a .fade-cut mask. Stats heatmap got overscroll-x-contain so swiping it past the end cannot trigger iOS back-navigation.",
+    "Verified against the real static export (npm run build + served out/), not just dev: all 11 routes ship 0 vertical scroll containers and 0 autoFocus; no horizontal overflow at 320px; dark mode checked. 84 tests + lint + typecheck green.",
+]
+
+pending = [
+    "NOT DEPLOYED. Committed to main (c18bf88) but not pushed — CI deploys on push, and the user was away. Push when ready; deploy.yml handles hosting + Firestore + sync.",
+    "DECISIONS.md entries #10 and #11 are WRITTEN BUT UNCOMMITTED on purpose: another session has an in-flight edit in that same file (topic vocabulary 21->24), and committing the file would have swept up their work. Commit it with theirs.",
+    "Pre-existing, not from this work: Next Link prefetch 404s on the static export (__next.*.txt?_rsc=...). Harmless — navigation falls back to a full page load — but it is noise in the console on every page.",
+    "Not touched: the Telegram bot's UX. Everything here is the website only.",
+]
+
+next = "Push c18bf88 to deploy the mobile fixes, then re-measure on the live site (expect 0 scroll traps on /). The domain thread from the 18:00 session is unchanged and still the blocking one."
+
+files = [
+    "web/components/SketchCard.tsx", "web/components/WatchView.tsx", "web/components/Hero.tsx",
+    "web/components/HeroFilters.tsx", "web/components/SearchExperience.tsx", "web/components/Header.tsx",
+    "web/components/ThemeToggle.tsx", "web/components/SongList.tsx", "web/lib/segments.ts",
+    "web/app/globals.css", "web/app/actor/[name]/page.tsx", "web/app/stats/page.tsx",
+    "web/app/find-my-name/page.tsx", "DECISIONS.md (uncommitted)", ".gitignore",
+    "internal/mobile-ux-2026-09-08/ (before/after screenshots, gitignored)",
+]
+commits = ["c18bf88 fix(web): remove touch scroll traps, tighten mobile layout"]
+
+notes = """
+The user's remembered feedback was exactly right and the cause was worse than described:
+not one description field but 48 of them on a single screen. Worth keeping the measurement
+habit — every claim in this session came from a number taken in the browser at phone size,
+including the before-state captured from live production so the improvement is provable.
+Two dead ends recorded in LEARNINGS.md: capping by line count alone (a single unsplit line
+still ran 2,500px) and moving SketchGrid behind "use client" for a load-more button (the RSC
+payload then serialised all 532 sketches, so the page only fell 3.25MB -> 2.2MB).
+"""
