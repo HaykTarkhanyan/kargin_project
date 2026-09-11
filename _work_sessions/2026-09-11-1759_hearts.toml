@@ -1,0 +1,58 @@
+title = "Hearts: a heart on every card and the watch page, kept per device, every toggle logged"
+date = "2026-09-11"
+time = "17:59"
+areas = ["web/components", "web/lib", "web/firestore.rules", "web/rules-tests", "DECISIONS.md", "HANDOFF.md"]
+
+done = [
+    "Heart button on every SketchCard and on the watch page. The visitor's own hearts live in localStorage under kargin_hearts; each toggle is logged to events as 'heart' or 'unheart' with sketchId and source (card / watch). No public count. DECISIONS.md #15.",
+    "Home page: an 'Իմ սիրածները (N)' filter, shown only once there is at least one heart, with its own empty state ('none of your hearts match this search') instead of the report-a-missing-sketch prompt, which would be noise there.",
+    "Cards: the <Link> no longer wraps the card. It is stretched over an <article> (absolute inset-0 z-10) and the heart sits on z-20 as a sibling, because a button inside <a> is invalid HTML. A test asserts the heart has no <a> ancestor and the card has exactly one link.",
+    "firestore.rules: 'heart' and 'unheart' added to the events type allowlist, with a rules test. 19/19 pass on the emulator.",
+    "HeartButton rewritten on useSyncExternalStore after eslint (react-hooks/set-state-in-effect) flagged a direct setState in an effect. The first draft's sync()-in-effect only passed lint because the rule does not look inside a local function. getServerSnapshot = false is what keeps the static export and hydration consistent. New HeartButton test: aria-pressed flips both ways on click, and a heart saved earlier shows on mount.",
+    "Removed first-draft code that rested on a false premise: a comment claiming the watch page shows a second heart in the related list (RelatedList renders no hearts), and preventDefault/stopPropagation that were dead once the heart stopped being inside the link.",
+    "Verified after the rewrite: tsc 0, eslint 0, the three heart-related test files 20/20, next build exports all 702 sketch pages. The full web suite passed (in batches) before the rewrite; CI runs it again before any deploy.",
+    "Committed 1e1df40 and pushed it (ec4b869..1e1df40), after checking it was the only unpushed commit and origin/main had not moved. DECISIONS.md was staged as HEAD + #15 only, so #10, #11, #13, #14 and the other session's #12 stayed unstaged.",
+    "CI run 34633618094 green (build + deploy jobs). Verified live, not just the tick: karginhaghordum.am and kargin-archive.web.app both serve the JS chunk containing the heart code (1 of 10 chunks), and a watch page's prerendered HTML has the big heart button. The home HTML is a 10.5 KB shell without cards, so no hearts there is expected. Rules not read back from the Rules API (no gcloud token in the Git Bash shell); they shipped in the same firebase deploy command that demonstrably updated hosting.",
+    "HANDOFF.md at the repo root: a pick-up note for the next session, overwritten each session.",
+]
+
+pending = [
+    "Visual check of a card, a watch page and the home 'my hearts' filter not done: the Playwright MCP server failed to connect after the restart, and the user chose to push without it.",
+    "SearchExperience still reads hearts with the sync()-in-effect pattern the lint rule misses. It works and is hydration-safe; left alone. Moving it to useSyncExternalStore would need a cached Set snapshot.",
+    "Still uncommitted from before this session: DECISIONS.md #10, #11, #13, #14, and the other session's embeddings work (#12, types.ts `similar`, related.ts, sketches.json, scripts/embed_annotations.py, scripts/kargin_build/neighbors.py, data/embeddings/).",
+]
+
+next = "Start from HANDOFF.md. Visual pass of a card, a watch page and the home 'my hearts' filter (reconnect Playwright first), then check that heart / unheart rows land in events."
+
+files = [
+    "web/lib/hearts.ts (new)", "web/lib/__tests__/hearts.test.ts (new)",
+    "web/components/HeartButton.tsx (new)", "web/components/__tests__/HeartButton.test.tsx (new)",
+    "web/components/SketchCard.tsx", "web/components/__tests__/SketchCard.test.tsx",
+    "web/components/WatchView.tsx", "web/components/SearchExperience.tsx",
+    "web/lib/log.ts", "web/firestore.rules", "web/rules-tests/rules.test.ts",
+    "DECISIONS.md (#15 only committed)", "HANDOFF.md (new)",
+]
+commits = [
+    "1e1df40 feat(web): let visitors heart a sketch",
+]
+
+notes = """
+The PC ran out of memory mid-session (0.3 GB free, mostly the user's own
+VS Code / Chrome / bun). Two symptoms looked like test failures and were not:
+vitest 'Timeout waiting for worker to respond' on 6 files, and test:rules
+reporting '19 skipped' with exit 1 (the emulator connection failed in
+beforeAll). After a restart the same code passed both.
+
+DECISIONS.md has mixed line endings (the HEAD blob has CRLF on 274 lines) and
+carries other sessions' uncommitted entries. To commit one entry alone: build
+the blob as HEAD's first 8 lines + the new entry's exact bytes from the working
+tree + the rest of HEAD, then git hash-object -w --stdin and git update-index
+--cacheinfo. Check with git diff --cached (only the new entry) and git diff
+(none of its lines).
+
+Deploy mechanics: a push to main runs firebase deploy --only firestore,hosting
+in one CI step, then GitHub Pages in a later job. A new event type must reach
+firestore.rules no later than the site that emits it, because log.ts commits a
+batch atomically. The workflow has cancel-in-progress: true, so a second push
+during a deploy cancels it; docs-only commits can use [skip ci].
+"""
