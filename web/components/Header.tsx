@@ -6,7 +6,7 @@ import ThemeToggle from "./ThemeToggle";
 const NAV = [
   ["/", "Որոնել"], ["/random", "Պատահական"], ["/stats", "Վիճակագրություն"],
   ["/find-my-name", "Իմ անունը"], ["/songs", "Երաժշտություն"], ["/soundboard", "Ֆրազներ"],
-  ["/quizzes", "Քուիզ"], ["/changelog", "Նորություններ"], ["/about", "Մասին"],
+  ["/quizzes", "Քուիզ"], ["/data", "Տվյալներ"], ["/changelog", "Նորություններ"], ["/about", "Մասին"],
 ] as const;
 
 export default function Header() {

@@ -21,9 +21,11 @@ const ALL: Sketch[] = existsSync(DATA) ? JSON.parse(readFileSync(DATA, "utf-8"))
 
 describe.skipIf(ALL.length === 0)("real corpus regressions", () => {
   // The first query over the real corpus builds every per-sketch index and the
-  // fuzzy vocabulary. That is one-time work, not per-query cost, so it happens
-  // here rather than inside whichever test ran first.
-  beforeAll(() => { searchSketches("բարև ձեզ", ALL, {}); }, 60_000);
+  // word/near-spelling vocabulary — one-time work, not per-query cost, so it
+  // happens here rather than inside whichever test ran first. It has to be a
+  // sparse multi-word query: a common one is answered by the exact pass alone and
+  // leaves the expensive indexes unbuilt for the next test to pay for.
+  beforeAll(() => { searchSketches("զզզխխխ ղղղճճճ", ALL, {}); }, 120_000);
 
   // Every word of these is somewhere in the sketch; only the punctuation and
   // filler between them differ from what the visitor typed.

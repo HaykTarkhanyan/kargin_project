@@ -7,8 +7,8 @@ export interface Filters {
 }
 export type SortKey = "views" | "newest" | "random";
 
-// Re-exported for existing callers; the definition moved to ./normalize so that
-// importing it does not pull Fuse.js in with it.
+// Re-exported for existing callers; the definition lives in ./normalize so that
+// importing it does not drag the whole search index along with it.
 export { normalize };
 
 // Field weights: catchphrase + title rank highest, then dialogue, then people/place.

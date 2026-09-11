@@ -11,7 +11,6 @@
     "test:rules": "firebase emulators:exec --only firestore --project demo-kargin \"vitest run --config vitest.rules.config.ts\""
   },
   "dependencies": {
-    "fuse.js": "^7.4.2",
     "next": "16.2.9",
     "react": "19.2.4",
     "react-dom": "19.2.4"
