@@ -68,7 +68,7 @@ function Experience() {
               {/* The moment a report is worth most: they looked, and we failed. */}
               <div className="mt-5 text-left">
                 <FeedbackBox kind="missing" query={debouncedQuery} source="home-empty"
-                  prompt="Գիտե՞ս՝ որ սքեթչն է։" cta="Գրիր մեզ →" />
+                  prompt="Գիտե՞ս՝ որ սքեթչն է։ Նկարագրիր, ու կավելացնենք։" label="Գրիր մեզ" />
               </div>
             </div>
           : <>
@@ -79,12 +79,6 @@ function Experience() {
                 <div className="mt-8 flex justify-center">
                   <button onClick={() => setLimit((l) => l + 48)} className="k-border k-shadow rounded-lg bg-korange px-6 py-3 font-bold">Բեռնել ևս ({results.length - limit})</button>
                 </div>)}
-              {/* Quiet under a full page of results: finding nothing useful is
-                  not the same as finding nothing at all. */}
-              <div className="mt-10 border-t-2 border-ink/15 pt-5">
-                <FeedbackBox kind="missing" query={debouncedQuery} source="home"
-                  prompt="Չգտա՞ր այն, ինչ փնտրում էիր։" cta="Ասա մեզ →" />
-              </div>
             </>}
       </main>
     </>

@@ -13,15 +13,16 @@ type State = "closed" | "open" | "sending" | "sent" | "failed";
  * wrote.
  */
 export default function FeedbackBox({
-  kind, query, sketchId, source, prompt, cta,
+  kind, query, sketchId, source, label, prompt,
 }: {
   kind: FeedbackKind;
   query?: string;
   sketchId?: string;
   source: string;
-  /** The line shown while collapsed. */
-  prompt: string;
-  cta: string;
+  /** The button's own text. It has to say what it is with nothing around it. */
+  label: string;
+  /** Optional sentence above the button, where there is room to explain. */
+  prompt?: string;
 }) {
   const [state, setState] = useState<State>("closed");
   const [message, setMessage] = useState("");
@@ -50,19 +51,21 @@ export default function FeedbackBox({
 
   if (state === "sent") {
     return (
-      <div className="k-border rounded-lg border-kblue bg-surface px-4 py-3 text-sm font-semibold">
+      <div className="k-border w-full rounded-lg border-kblue bg-surface px-4 py-3 text-sm font-semibold">
         ✓ Ստացանք, շնորհակալությո՛ւն։ {contact.trim() ? "Կպատասխանենք։" : "Կնայենք։"}
       </div>
     );
   }
 
   if (state === "closed") {
+    // A bordered button, not a text link: as a link at the foot of the page this
+    // was invisible on a phone — roughly thirty screens below the search box.
     return (
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
-        <span>{prompt}</span>
+      <div>
+        {prompt && <p className="mb-2 text-sm text-muted">{prompt}</p>}
         <button onClick={open}
-          className="min-h-11 font-bold text-kred underline underline-offset-2 hover:text-ink">
-          {cta}
+          className="inline-flex min-h-11 items-center gap-2 rounded-full border-2 border-ink bg-surface px-4 py-2 text-xs font-bold hover:bg-ink hover:text-paper">
+          ✍️ {label}
         </button>
       </div>
     );
@@ -70,7 +73,9 @@ export default function FeedbackBox({
 
   const busy = state === "sending";
   return (
-    <div className="k-border k-shadow rounded-lg bg-surface p-4">
+    // w-full so that opening it inside a row of pills takes the whole line
+    // rather than being squeezed into what the collapsed button occupied.
+    <div className="k-border k-shadow w-full rounded-lg bg-surface p-4">
       <div className="mb-2 font-display text-base tracking-wide">
         {kind === "missing" ? "ՉԳՏԱ՞Ր" : "ՍԽԱ՞Լ ԿԱ"}
       </div>

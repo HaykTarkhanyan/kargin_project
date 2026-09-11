@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import { formatViews } from "@/lib/format";
 import { BOT_URL, BOT_USERNAME } from "@/lib/site";
+import FeedbackBox from "./FeedbackBox";
 
 export default function Hero({ total, withDialogue, totalViews, totalHours, onSearch, query }:
   { total: number; withDialogue: number; totalViews: number; totalHours: number; onSearch: (q: string) => void; query: string }) {
@@ -36,10 +37,16 @@ export default function Hero({ total, withDialogue, totalViews, totalHours, onSe
         <Stat n={formatViews(totalViews)} l="դիտում" c="text-korange" />
       </div>
       <p className="mt-3 text-xs text-muted">{withDialogue} սքեթչ ունի համադրված տեքստ</p>
-      <a href={BOT_URL} target="_blank" rel="noreferrer"
-        className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-full border-2 border-ink bg-surface px-4 py-2 text-xs font-bold hover:bg-ink hover:text-paper sm:mt-4">
-        <span className="text-kblue">✈</span> Նույն որոնումը Telegram-ում՝ @{BOT_USERNAME}
-      </a>
+      {/* Both of these sit with the search box rather than at the foot of the
+          page: on a phone the results run for thirty screens, and anything below
+          them may as well not exist. */}
+      <div className="mt-3 flex flex-wrap gap-2 sm:mt-4">
+        <a href={BOT_URL} target="_blank" rel="noreferrer"
+          className="inline-flex min-h-11 items-center gap-2 rounded-full border-2 border-ink bg-surface px-4 py-2 text-xs font-bold hover:bg-ink hover:text-paper">
+          <span className="text-kblue">✈</span> Telegram-ում՝ @{BOT_USERNAME}
+        </a>
+        <FeedbackBox kind="missing" query={query} source="home-hero" label="Չգտա՞ր։ Ասա մեզ" />
+      </div>
     </section>
   );
 }

@@ -94,7 +94,7 @@ export default function WatchView({ s }: { s: Sketch }) {
             description — so the people who spot the errors are the visitors. */}
         <div className="mt-5 border-t-2 border-ink/15 pt-4">
           <FeedbackBox kind="wrong" sketchId={s.id} source="watch"
-            prompt="Սխա՞լ ես նկատել այս էջում։" cta="Հաղորդիր →" />
+            prompt="Սխա՞լ ես նկատել այս էջում։" label="Հաղորդիր սխալը" />
         </div>
       </div>
     </div>
