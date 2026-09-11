@@ -220,8 +220,15 @@ export const EXAMPLES = [
   { emoji: "💬", q: "տոռմուզ" },     // catchphrase / dialogue
   { emoji: "👤", q: "Հայկո" },       // actor
   { emoji: "📍", q: "Հիվանդանոց" },  // location facet
-  { emoji: "🎵", q: "Челентано" },   // recognized song
-  { emoji: "🎬", q: "կով" },         // visual scene annotation
+  // Latin, not "Челентано": song credits are stored in Latin and the index only
+  // transliterates Armenian, so a Cyrillic spelling of a Latin name reaches
+  // nothing. It used to return sketches only because the old fuzzy pass was
+  // loose enough to match unrelated Cyrillic dialogue.
+  { emoji: "🎵", q: "Celentano" },   // recognized song
+  // "Lada", not "կով": the scene annotations are English, so an Armenian word
+  // demonstrates dialogue search all over again. Lada is in 45 sketches' visuals
+  // and in no dialogue anywhere — it can only be found by what the AI saw.
+  { emoji: "🎬", q: "Lada" },        // visual scene annotation
 ] as const;
 
 export function startText(username: string): string {

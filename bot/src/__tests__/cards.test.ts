@@ -205,6 +205,23 @@ describe("start", () => {
   it("every example search actually returns results", () => {
     for (const e of EXAMPLES) expect(searchTop(e.q).length, e.q).toBeGreaterThan(0);
   });
+  // Counting results is not enough: "Челентано" passed this for months while
+  // returning unrelated sketches, because the query never reached the Latin song
+  // credits and the old fuzzy pass matched Cyrillic dialogue instead. Each
+  // example demonstrates a search TYPE, so check it demonstrates that type.
+  it("every example returns a sketch that matches for the advertised reason", () => {
+    const why: Record<string, (s: Sketch, q: string) => boolean> = {
+      "💬": (s, q) => `${s.text} ${s.textCommon} ${s.transcript?.text ?? ""}`.toLowerCase().includes(q.toLowerCase()),
+      "👤": (s, q) => s.actors.some((a) => a.toLowerCase().includes(q.toLowerCase())),
+      "📍": (s, q) => s.location.toLowerCase().includes(q.toLowerCase()),
+      "🎵": (s, q) => (s.songs ?? []).some((g) => `${g.artist} ${g.title}`.toLowerCase().includes(q.toLowerCase())),
+      "🎬": (s, q) => JSON.stringify(s.visual ?? {}).toLowerCase().includes(q.toLowerCase()),
+    };
+    for (const e of EXAMPLES) {
+      const top = searchTop(e.q).slice(0, 5);
+      expect(top.some((s) => why[e.emoji](s, e.q)), `${e.emoji} ${e.q}`).toBe(true);
+    }
+  });
 });
 
 describe("inlineDescription", () => {
