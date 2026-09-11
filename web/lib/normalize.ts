@@ -1,9 +1,9 @@
 /**
  * Text normalization shared by search, name-finding and segment highlighting.
  *
- * Lives in its own module because `search.ts` imports Fuse.js: anything that
- * needed only `normalize` was dragging the whole fuzzy-search library into its
- * bundle, including server components that never search at all.
+ * Lives in its own module so that anything needing only `normalize` does not
+ * pull in the whole search index with it — server components that never search
+ * at all were importing the lot.
  */
 
 /** Lowercase + NFC + collapse whitespace. Changes length, so NOT for offsets. */

@@ -91,6 +91,80 @@ describe("non-string fields are searchable", () => {
   });
 });
 
+// Real usage data (2026-09-11) showed visitors typing a line they remembered and
+// getting nothing: 13 of ~56 distinct queries returned 0, almost all multi-word.
+// The stored dialogue has different punctuation and filler, so the exact
+// substring pass can never match a recalled phrase.
+describe("multi-word queries match scattered words", () => {
+  const line = mk({
+    id: "line",
+    text: "ինչ պտի ասես; էդ մեկը սովրել եմ ախպեր ջան",
+  });
+  const other = mk({ id: "other", text: "բոլորովին ուրիշ բան" });
+  const onlyOne = mk({ id: "onlyone", text: "ասես մի բան" });
+  const data = [line, other, onlyOne];
+
+  it("finds a phrase split by punctuation the visitor did not type", () => {
+    // "ասես էդ" spans the ';' — no contiguous substring, so this used to be 0.
+    expect(searchSketches("ասես էդ մեկը", data, {}).map((s) => s.id)).toContain("line");
+  });
+
+  it("still finds it when a remembered word is wrong", () => {
+    // 2 of 3 words present is enough; someone recalling a line misremembers one.
+    expect(searchSketches("պտի ասես բան", data, {}).map((s) => s.id)).toContain("line");
+  });
+
+  it("does not return sketches matching only one word of several", () => {
+    expect(searchSketches("ասես էդ մեկը", data, {}).map((s) => s.id)).not.toContain("other");
+  });
+
+  it("ranks a literal match above a scattered one", () => {
+    const literal = mk({ id: "literal", text: "ասես էդ մեկը անփոփոխ" });
+    const r = searchSketches("ասես էդ մեկը", [line, literal], {});
+    expect(r[0].id).toBe("literal");
+  });
+
+  it("ranks words found close together above the same words scattered far apart", () => {
+    const near = mk({ id: "near", text: "ասես էդ մեկը իրար կողքի" });
+    const far = mk({
+      id: "far",
+      // same three words, pages apart — a coincidence, not the line
+      text: `ասես ${"լցոն ".repeat(40)}էդ ${"լցոն ".repeat(40)}մեկը`,
+    });
+    const r = searchSketches("ասես էդ մեկը", [far, near], {});
+    expect(r[0].id).toBe("near");
+  });
+
+  it("leaves single-word queries to the exact pass", () => {
+    expect(searchSketches("ասես", data, {}).map((s) => s.id).sort()).toEqual(["line", "onlyone"]);
+  });
+
+  it("keeps matching while a word is still being typed", () => {
+    expect(searchSketches("պտի աս", data, {}).map((s) => s.id)).toContain("line");
+  });
+
+  // A visitor after the role "Սամո" searched "սարո" — one letter out. Only a
+  // near-spelling of the phrase's rarest word can reach that sketch, so fuzzy
+  // feeds into the same scoring instead of sitting in a tier of its own.
+  it("tolerates one misspelled word in a phrase", () => {
+    const misspelled = [
+      mk({ id: "samo", text: "սամո ջան արի ստեղ նստի", rolesNames: "Սամ/Սամո" }),
+      mk({ id: "noise", text: "բոլորովին ուրիշ բան" }),
+    ];
+    const ids = searchSketches("սարո արի", misspelled, {}).map((s) => s.id);
+    expect(ids).toContain("samo");
+    expect(ids).not.toContain("noise");
+  });
+
+  it("ranks the correctly spelled word above the near-spelling", () => {
+    const both = [
+      mk({ id: "exact", text: "սարո ջան արի ստեղ" }),
+      mk({ id: "near", text: "սամո ջան արի ստեղ" }),
+    ];
+    expect(searchSketches("սարո արի", both, {})[0].id).toBe("exact");
+  });
+});
+
 describe("format", () => {
   it("formats views", () => { expect(formatViews(1358199)).toBe("1.4M"); expect(formatViews(813444)).toBe("813K"); });
   it("formats duration", () => { expect(formatDuration(242)).toBe("4:02"); });

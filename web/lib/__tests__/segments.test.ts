@@ -18,6 +18,32 @@ describe("textLines", () => {
   });
 });
 
+describe("segmentsFor — multi-word", () => {
+  it("marks each word when the whole phrase is not contiguous", () => {
+    const [seg] = segmentsFor("ինչ պտի ասես", "պտի ինչ");
+    expect(seg.matched).toBe(true);
+    // sorted and non-overlapping, in text order, not query order
+    expect(seg.hits).toEqual([[0, 3], [4, 7]]);
+  });
+
+  it("still prefers a contiguous match over the per-word fallback", () => {
+    const [seg] = segmentsFor("ասես էդ մեկը", "ասես էդ");
+    expect(seg.hits).toEqual([[0, 7]]);
+  });
+
+  it("marks a line carrying only some of the words", () => {
+    const [seg] = segmentsFor("պտի գնամ", "պապա պտի ասես");
+    expect(seg.matched).toBe(true);
+    expect(seg.hits).toEqual([[0, 3]]);
+  });
+
+  it("leaves a line with none of the words unmarked", () => {
+    const [seg] = segmentsFor("բոլորովին ուրիշ", "պապա պտի ասես");
+    expect(seg.matched).toBe(false);
+    expect(seg.hits).toEqual([]);
+  });
+});
+
 describe("segmentsFor", () => {
   const text = "բարև ձեզ; ոնց ես ախպեր; վերջին տողը";
 

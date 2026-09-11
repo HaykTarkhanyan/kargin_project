@@ -37,6 +37,21 @@ function hitsIn(line: string, q: string): Array<[number, number]> {
   return out;
 }
 
+const WORD_SPLIT = /[^\p{L}\p{N}]+/u;
+
+/** Sorted and non-overlapping, which is what Highlight's cursor walk assumes. */
+function mergeRanges(ranges: Array<[number, number]>): Array<[number, number]> {
+  if (ranges.length < 2) return ranges;
+  const sorted = [...ranges].sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  const out: Array<[number, number]> = [sorted[0]];
+  for (const [start, end] of sorted.slice(1)) {
+    const last = out[out.length - 1];
+    if (start <= last[1]) last[1] = Math.max(last[1], end);
+    else out.push([start, end]);
+  }
+  return out;
+}
+
 /**
  * Split `text` into dialogue lines and mark which ones the query hits.
  *
@@ -50,18 +65,44 @@ export function segmentsFor(text: string, query: string): Segment[] {
   const q = normalize(query);
   if (!q) return lines.map((t) => ({ text: t, matched: false, hits: [] }));
 
+  // Search matches a phrase word by word, so highlighting has to as well: a card
+  // returned for a half-remembered line would otherwise show nothing marked and
+  // no reason it was there.
+  const words = q.split(WORD_SPLIT).filter(Boolean);
+
   return lines.map((line) => {
     const hits = hitsIn(line, q);
+    if (hits.length) return { text: line, matched: true, hits };
+    if (words.length > 1) {
+      const perWord = mergeRanges(words.flatMap((w) => hitsIn(line, w)));
+      if (perWord.length) return { text: line, matched: true, hits: perWord };
+    }
     const matched =
-      hits.length > 0 ||
       normalize(romanize(line)).includes(q) ||
       normalize(cyrillize(line)).includes(q);
-    return { text: line, matched, hits };
+    return { text: line, matched, hits: [] };
   });
 }
 
-/** Matched lines first, original order preserved within each group. */
+/**
+ * Matched lines first, the fullest match leading, original order kept within
+ * each group.
+ *
+ * Ordering by how much of the query a line actually covers matters once a phrase
+ * matches word by word: with "պապա պտի ասես" every line holding a bare "պտի"
+ * counts as matched, and a plain matched/unmatched split would leave the line
+ * carrying the whole phrase buried among them.
+ */
 export function matchedFirst(segments: Segment[]): Segment[] {
   if (!segments.some((s) => s.matched)) return segments;
-  return [...segments.filter((s) => s.matched), ...segments.filter((s) => !s.matched)];
+  const covered = (s: Segment) => s.hits.reduce((n, [start, end]) => n + (end - start), 0);
+  const matched = segments.filter((s) => s.matched);
+  const best = Math.max(...matched.map(covered));
+  // A stable partition rather than a sort, so lines tying on coverage stay in
+  // the order they are spoken.
+  return [
+    ...matched.filter((s) => covered(s) === best),
+    ...matched.filter((s) => covered(s) !== best),
+    ...segments.filter((s) => !s.matched),
+  ];
 }

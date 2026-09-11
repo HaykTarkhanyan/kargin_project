@@ -1,0 +1,45 @@
+title = "Usage data read, then multi-word phrase search fixed (0 results -> real answers, 2.6 s -> 0.1 s)"
+date = "2026-09-11"
+time = "11:20"
+areas = ["web/lib/search.ts", "web/lib/segments.ts", "scripts/non_essential", "DECISIONS.md", "LEARNINGS.md"]
+
+done = [
+    "Built scripts/non_essential/report_usage.py and read the Firestore events collection for the first time: 121 events over 5 days (6-10 Sept), 119 site / 2 bot, 50 site visits, 1 bot user, 40% of site events from mobile, 0 filter uses ever. Raw dump + summary land in data/usage/ (gitignored; Firestore is the source of truth).",
+    "The signal in that small dataset was the FAILURES: 13 of ~56 distinct queries returned nothing, nearly all multi-word — people typing a line they remembered. One visitor tried four spellings in a row and gave up; another walked 'բուդելնիկն ա' (4 results) -> '...ա ե' (2) -> '...ա երկու' (0).",
+    "Root cause confirmed in code, not guessed: exact matching is a contiguous substring test (stored punctuation breaks a recalled phrase), and the fuzzy fallback indexes single words but was handed the whole phrase, so it could never match either. Both surfaces share the module, so the bot was broken the same way.",
+    "Fix (DECISIONS.md #13): when exact is sparse and the query has 2+ words, match words individually and score each sketch by the share of the query's INFORMATION it accounts for (inverse document frequency). One word per phrase — the rarest, or one the archive never says — is expanded to near-spellings ranked by Levenshtein distance.",
+    "Measured before/after on the real corpus: 'լավ կառնեմ էտ' 0 results/1903 ms -> 38/187 ms; 'պապա պտի ասես' 0/1897 -> 28/25; 'էտքանը որ անում եմ' 0/2584 -> 15/108; 'ասես էդ մեկը սովրել' 0/3543 -> 16/173. Every previously-dead query now answers, 10-25x faster.",
+    "Replaced Fuse with a length-bucketed edit-distance scan for near-spellings: 85-130 ms vs 481-1096 ms, and far more precise (8 candidates within one edit of 'կառնեմ' where Fuse offered 195). Fuse's Bitap score saturates on short words — it gave 'սամո' and 457 unrelated words an identical 0.25, so no cutoff could separate them. fuse.js is no longer imported but is still in package.json — REMOVAL IS THE USER'S CALL.",
+    "Validated against ground truth from the usage log itself: a visitor searched 'սարո' and opened a sketch whose role is 'Սամո' (one letter out). Old ranked it #385 of 507; new #49 of 68; the correct spelling 'սամո' #4 of 13. That data point also caught a regression mid-work — a word-boundary index lost the substring matches Armenian suffix-gluing depends on — which is why the word pass matches substrings, like the exact pass does.",
+    "Highlighting had to follow the matching: phrase results first rendered with ZERO marks (28 results, no visible reason for any). segmentsFor now marks each matched word and merges the ranges, and matchedFirst ranks lines by how much of the query they cover, since with per-word matching nearly every line 'matches'.",
+    "Tests: 109 passing. 9 new unit tests plus web/lib/__tests__/search.corpus.test.ts, a regression suite that runs the ACTUAL failed queries against the real 702-sketch corpus (including a <1 s guard so the 3 s path cannot come back).",
+    "Also corrected an earlier false alarm: the RSC prefetch 404s I reported were an artifact of serving out/ with python -m http.server. On Firebase all 66 prefetch requests return 200 — nothing was broken, nothing to clean up. Recorded in LEARNINGS.md as a disproven theory.",
+]
+
+pending = [
+    "DECISIONS.md is UNCOMMITTED AGAIN and now holds three entries from two sessions: my #10, #11, #13 and the other session's #12 (embeddings). Committing it would sweep up their in-flight work, so it is left for whoever commits data/embeddings/ and scripts/embed_annotations.py.",
+    "fuse.js is now an unused dependency. Removing it is a library call the user makes, not me.",
+    "The first search on a cold page still costs ~5.5 s of index building (romanize + cyrillize over all 702 sketches). PRE-EXISTING and unchanged by this work, but it is the largest remaining search cost and worth a look — a prebuilt index shipped with the data would remove it.",
+    "Unchanged and still the blocking thread: Mher's karginhaghordum.am cutover, and the canonical-domain decision.",
+]
+
+next = "Nothing queued. If search work continues, the cold-start index build is the next real cost; otherwise the domain cutover is the open item."
+
+files = [
+    "web/lib/search.ts", "web/lib/segments.ts", "web/lib/normalize.ts",
+    "web/lib/__tests__/search.test.ts", "web/lib/__tests__/segments.test.ts",
+    "web/lib/__tests__/search.corpus.test.ts (new)",
+    "scripts/non_essential/report_usage.py (new)", "scripts/non_essential/README.md",
+    ".gitignore", "DEFERRED_TODO.md", "LEARNINGS.md", "DECISIONS.md (uncommitted)",
+]
+commits = ["686aad5 feat(scripts): usage report over the Firestore events collection"]
+
+notes = """
+Method worth repeating: every claim here came from a measurement, and three of the
+session's turns overturned a plausible-sounding design. Requiring "most words" gave
+538 junk results; a word-boundary index looked cleaner and quietly broke Armenian
+suffix matching; tuning thresholds as absolute numbers disabled the whole pass on
+small test datasets because information scales with corpus size. The usage log's
+search-then-open pairs turned out to be the only honest way to score a ranking
+change — worth remembering now that the events collection has real traffic in it.
+"""

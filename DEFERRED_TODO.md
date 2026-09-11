@@ -2,6 +2,12 @@
 
 Topics parked so they don't get lost. Move an item out when work starts.
 
+## ~~Multi-word phrase search returns nothing~~ — DONE 2026-09-11 (see DECISIONS.md #13)
+
+Fixed the same day it was parked. Left below for the evidence that motivated it.
+
+---
+
 ## Multi-word phrase search returns nothing (parked 2026-09-11, found in usage data)
 
 The first real usage data (121 events, `data/usage/`) shows visitors typing a
