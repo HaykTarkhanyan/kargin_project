@@ -1,0 +1,51 @@
+title = "\"Couldn't find it? Tell us\" on the site and in the bot, stored in Firestore; bot deployed without a local docker build"
+date = "2026-09-11"
+time = "13:10"
+areas = ["web/components", "web/lib", "web/firestore.rules", "bot/src", "scripts", "DECISIONS.md"]
+
+done = [
+    "Feedback on the website: a collapsed one-liner that only becomes a form on a tap. Prominent in the empty-results state (with the failed query shown back), quiet under a full page of results, and on watch pages as 'report a mistake' — that page is largely machine-written, so visitors are the ones who notice errors.",
+    "Feedback in the bot: a button on the no-results message plus /feedback. The prompt goes out with force_reply and is recognised by its own first character, so the reply carries the prompt — and the failed query — back. The bot scales to zero; anything held in memory between two updates would be gone.",
+    "Storage: a new `feedback` collection, NOT `events`. Create-only, unreadable by any client, shape- and size-capped in firestore.rules (9 new rules tests, 18 passing). Reports are the one place a person types free text a human will read — a different risk shape from telemetry, and not worth loosening the telemetry contract for. DECISIONS.md #14.",
+    "The send is awaited rather than fire-and-forget, unlike logging: someone is waiting to hear it landed. A failure is shown plainly with their text still in the box — verified by accident when a local build without NEXT_PUBLIC_FIREBASE_PROJECT_ID failed exactly that way.",
+    "Read path added to scripts/non_essential/report_usage.py, since clients deliberately cannot read the collection back. Reports print in full — there will never be so many that reading them is a burden.",
+    "Verified end to end on the LIVE site: submitted a report, read it back out of Firestore with the admin SDK (kind, source, failed query, message all correct), then deleted the test document. Collection left empty.",
+    "Bot deployed to Cloud Run as :v3 WITHOUT building a container locally. Docker Desktop was not running and a cold local build is what froze the machine on 2026-09-07, so the build went to Cloud Build instead: 807 KB of source (only what the Dockerfile COPYs), ~3 minutes, nothing running on the laptop. Kept as scripts/deploy_bot.py.",
+    "Verified after deploy: /health 200 ok, webhook registered with 0 pending and no last_error, /feedback now in getMyCommands (which proves the new image is live), and BOT_TOKEN / WEBHOOK_URL / FIREBASE_PROJECT_ID all survived the Cloud Run patch.",
+    "Fixed two bot examples that never exercised the search type they advertised: 'Челентано' could not reach the Latin-stored song credits at all (the index only transliterates Armenian) and passed only on old fuzzy noise; 'կով' matched dialogue, not the English scene annotations. Now 'Celentano' and 'Lada' (45 sketches' visuals, no dialogue anywhere). The test now asserts each example matches for its advertised REASON, which is what would have caught both. Same fix applied to the zero-result tips.",
+]
+
+pending = [
+    "DECISIONS.md STILL UNCOMMITTED and now carries four entries across two sessions — my #10, #11, #13, #14 plus the other session's #12 (embeddings). Committing it would sweep up their in-flight work. It needs to go in with data/embeddings/ and scripts/embed_annotations.py.",
+    "No rate limiting on feedback beyond the size caps. If it gets abused, App Check on the web and a per-user cooldown in the bot are the next steps, both additive. Watch the collection.",
+    "Enabled cloudbuild.googleapis.com on the project (free tier covers this; a build is ~2 min of the 2,500 free minutes a month). Also created gs://kargin-archive_cloudbuild for build sources.",
+    "fuse.js is still an unused dependency after the search rewrite — removing it is the user's call.",
+    "Cold-start search index build (~5.5 s) is still the largest remaining search cost; pre-existing.",
+    "Unchanged: Mher's karginhaghordum.am cutover and the canonical-domain decision.",
+]
+
+next = "Watch the feedback collection for real reports (uv run --group firebase python scripts/non_essential/report_usage.py). Nothing else queued."
+
+files = [
+    "web/components/FeedbackBox.tsx (new)", "web/lib/feedback.ts (new)",
+    "web/lib/__tests__/feedback.test.ts (new)", "web/components/SearchExperience.tsx",
+    "web/components/WatchView.tsx", "web/firestore.rules", "web/rules-tests/rules.test.ts",
+    "bot/src/feedback.ts (new)", "bot/src/bot.ts", "bot/src/cards.ts",
+    "bot/src/__tests__/cards.test.ts", "bot/README.md",
+    "scripts/deploy_bot.py (new)", "scripts/non_essential/report_usage.py",
+    "DECISIONS.md (uncommitted)", "LEARNINGS.md",
+]
+commits = [
+    "fc55991 feat: let visitors report a missing sketch or a mistake",
+    "9407e51 fix(bot): start examples that demonstrate the search type they claim",
+    "ea529ce fix(search): match phrases word by word, weighted by rarity",
+]
+
+notes = """
+The Cloud Build detour was worth writing down: a build now MUST name a service
+account, because the legacy {number}@cloudbuild.gserviceaccount.com is still in
+the IAM policy while Google no longer creates it. The failure is a bare 403
+"caller does not have permission" even though the caller is Owner and
+testIamPermissions confirms the permission — the wrong thread to pull. It also
+means the bot can be redeployed from this machine at any time without Docker.
+"""
