@@ -2,6 +2,39 @@
 
 Topics parked so they don't get lost. Move an item out when work starts.
 
+## Multi-word phrase search returns nothing (parked 2026-09-11, found in usage data)
+
+The first real usage data (121 events, `data/usage/`) shows visitors typing a
+**remembered line** and getting zero results. 13 of ~56 distinct site queries
+returned 0, and they are almost all multi-word:
+
+```
+էտքար անուշ եմ            0      պապա պտի ասես             0
+էտքանը թր անուշ եմ        0      լավ կառնեմ էտ             0
+էտքանը որ անում եմ        0      բուդելնիկն ա երկու հատ    0
+```
+
+One visitor tried four spellings of the same line in a row, failed every time,
+and only got a hit by deleting words back to `սարո անուշ` (14 results). Another
+walked `բուդելնիկն ա` (4 results) → `բուդելնիկն ա ե` (2) → `բուդելնիկն ա երկու`
+(**0**) — adding a word killed it.
+
+**Cause (confirmed in `web/lib/search.ts`), both paths fail the same query:**
+- Exact is a contiguous substring test — `idx.combined.includes(q)` (line ~136).
+  The stored dialogue has commas and different spacing, so a remembered phrase
+  never appears verbatim.
+- The fuzzy fallback can't rescue it: `_fuse` indexes **single unique words**
+  (line ~119), and it is queried with the whole multi-word string. `threshold:
+  0.35` against one word is hopeless for a 14-character phrase.
+
+**Likely fix:** when a query has 2+ words and exact returns nothing, fall back to
+AND-of-words (every word matches the sketch somewhere, not necessarily adjacent),
+ranking by how many words hit and how close together. Cheap — the per-sketch
+normalized `combined` string is already cached. Worth a test per zero-result
+query above, since each is a real line that exists in the corpus.
+
+Same code backs the bot, so fixing it fixes both surfaces.
+
 ## Contact sheets: one frame-grid image per sketch (parked 2026-09-03)
 
 Wanted for two uses: (1) see a whole sketch at a glance, (2) let Claude reason

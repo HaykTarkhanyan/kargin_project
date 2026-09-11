@@ -239,3 +239,54 @@ Non-obvious lessons, gotchas, and decisions discovered during work. Append-only 
 - **`autoFocus` on a search input is a mobile bug.** It opens the keyboard on load, hiding the results the visitor came for. Gate it: `window.matchMedia("(min-width: 1024px) and (pointer: fine)")`. Keep the input at >=16px font (17px here) or iOS Safari zooms the page on focus. Autofocus is still right on a single-purpose page like `/find-my-name`, where the keyboard is the point and there is nothing to cover.
 - **Killing `-webkit-tap-highlight-color` without a replacement makes taps feel dead.** Pair it with `@media (hover:none){ a:active,button:active{opacity:.6} }` so touch keeps its feedback and mice never see it.
 - **Next dev 500s on URL-encoded non-ASCII dynamic params under `output: export`** — `/actor/%D5%80...` dies with *"missing param in generateStaticParams()"* while `npm run build` exports all 13 actor pages happily. Verify these routes against the built `out/` (a plain `python -m http.server` there is enough), not the dev server. That static server also holds a lock on `out/`, so stop it before rebuilding or the build fails with `EBUSY: rmdir`.
+
+## 2026-09-08 - DISPROVEN: stripping boilerplate openers does not improve similarity
+
+**Theory.** 467 of 702 detailed summaries open with a formulaic phrase ("The sketch
+takes place in...", "The sketch begins with..."). That shared lexical prefix should
+inflate the similarity floor and compress the useful range into 0.70-0.85, so
+removing the lead-in (keeping the setting words after it) should spread the
+distribution and sharpen neighbour quality.
+
+**Test.** Re-embedded all 702 with the opener stripped (590 summaries changed) into
+side-by-side artifacts (`*__stripped.npz`), then compared on identical metrics.
+
+**Result - half right, and the half that mattered was wrong.**
+
+| metric | full | stripped |
+|---|---|---|
+| background mean (the floor) | 0.5534 | **0.4582** |
+| separation, sd above background | 2.289 | **2.631** |
+| topic Jaccard at rank 1 | **0.4559** | 0.4406 |
+| known duplicates ranked #1 | 23/23 | 23/23 |
+
+The floor did drop by 0.095 and relative separation improved, exactly as predicted.
+But neighbour *quality* did not. Judged at matched percentiles (the only fair
+comparison once the scales shift - fixed thresholds are meaningless across
+variants), `full` has higher topic agreement in **every** band: top 0.01% 0.841 vs
+0.783, top 0.1% 0.494 vs 0.468, top 0.5% 0.371 vs 0.347, top 1% 0.321 vs 0.297,
+top 2% 0.284 vs 0.263. Top-1 neighbours changed for 306/702 sketches (43.6%) and
+qualitatively the swaps are a wash at best - "The Director's Order and the
+Secretary" lost "The Boss and the Seductive Secretary" as its top match.
+
+**Why it probably failed.** The opener is not pure noise: it carries the setting
+("...in a rural village cattle barn"), and the shared frame appears to act as a
+useful alignment anchor rather than a distraction. The floor was never the problem.
+
+**One nuance in stripped's favour**: at the very top band it recovered 22/25
+duplicates vs full's 20 - removing the shared frame makes near-identical texts
+stand out. Irrelevant here, since audio fingerprinting already finds duplicates.
+
+**Decision: `full` stays the shipping variant.** Both sets of artifacts are kept
+side by side; `embed_annotations.py --variant` selects, default `full`.
+
+## 2026-09-11 — the prefetch 404s were a local-serving ghost, and what usage data says
+
+- **Disproven: the site does NOT have broken `<Link>` prefetching.** I reported RSC prefetch 404s (`__next.sketch.$d$id.txt?_rsc=…`) as a real issue after seeing them while serving `web/out/` with `python -m http.server`. On the live site every one of them is a **200** — 66 prefetch requests on the Hayko actor page, zero failures. The export writes those payloads *nested* (`__next.sketch/$d$id.txt`) but the browser asks for them *flat* (`__next.sketch.$d$id.txt`); `firebase deploy` normalises the names on upload, a dumb static file server does not. **Never diagnose static-export routing from `python -m http.server`** — it lacks the host's path handling. Check the deployed URL before calling anything broken:
+  ```powershell
+  Invoke-WebRequest "https://<host>/sketch/<id>/__next.sketch.`$d`$id.txt" -UseBasicParsing   # 200 on Firebase
+  ```
+- **A debounced search box logs prefixes, not intents.** `web/lib/log.ts` fires after a 180 ms typing pause, so one person hunting one line produced `բո → բու → բուդ → բուդելնիկ → բուդելնիկն ա → …` as seven separate "searches". Raw counts (61 searches, 56 distinct queries) therefore overstate activity by roughly 4-5x; the honest unit is the longest query in a run. Anything built on this data should collapse prefix chains per session before counting, or log on submit/blur instead.
+- **Zero-result queries are the useful signal in a tiny dataset.** 121 events is far too little for trends, but 13 zero-result queries pointed straight at a real product gap (multi-word phrase search — see `DEFERRED_TODO.md`) that no amount of aggregate counting would have surfaced. With small usage data, read the failures individually rather than charting the totals.
+- **Site "sessions" and bot "sessions" are different units and must never be summed.** The site's `sessionId` is a `sessionStorage` UUID — new per tab, per browser restart. The bot's is a truncated sha256 of the Telegram user id — stable forever. 50 site "visits" vs 1 bot "user" are not comparable numbers.
+- **Filters have never been used once** (0 `filter` events in 5 days) while search is used constantly. Worth remembering before investing more in facet UI — and it means the mobile change that collapsed the filter panel by default cost nothing measurable.

@@ -255,3 +255,8 @@ node_modules/
 
 # firebase CLI deploy cache — machine-local, regenerated on every deploy
 .firebase/
+
+# Usage dumps pulled from the Firestore `events` collection, which is the source
+# of truth. Regenerate with scripts/non_essential/report_usage.py. Kept out of git
+# because it churns on every run and holds visitors' raw search text.
+/data/usage/
