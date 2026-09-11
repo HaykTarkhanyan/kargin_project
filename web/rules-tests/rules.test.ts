@@ -70,6 +70,14 @@ describe("events", () => {
   it("rejects a non-string filters value", async () => {
     await assertFails(setDoc(doc(anon(), "events", "e6"), { ...valid(), filters: { loc: ["a"] } }));
   });
+  it("accepts a heart and an unheart", async () => {
+    await assertSucceeds(setDoc(doc(anon(), "events", "h1"), {
+      sessionId: "s1", type: "heart", sketchId: "abc123", source: "card", ua: "t", ts: serverTimestamp(),
+    }));
+    await assertSucceeds(setDoc(doc(anon(), "events", "h2"), {
+      sessionId: "s1", type: "unheart", sketchId: "abc123", source: "watch", ua: "t", ts: serverTimestamp(),
+    }));
+  });
   it("denies read, update, delete", async () => {
     await env.withSecurityRulesDisabled(async (ctx) =>
       setDoc(doc(ctx.firestore(), "events", "seed"), { sessionId: "s", type: "open" }),

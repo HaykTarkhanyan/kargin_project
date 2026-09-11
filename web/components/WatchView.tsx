@@ -7,6 +7,7 @@ import CopyButton from "./CopyButton";
 import ShareButton from "./ShareButton";
 import RelatedList from "./RelatedList";
 import FeedbackBox from "./FeedbackBox";
+import HeartButton from "./HeartButton";
 import { SITE_ORIGIN } from "@/lib/site";
 import SongList from "./SongList";
 
@@ -22,6 +23,7 @@ export default function WatchView({ s }: { s: Sketch }) {
         <div className="mt-4 flex flex-wrap gap-2.5">
           <a className="k-border rounded-lg bg-korange px-4 py-2.5 text-sm font-bold" href={s.url} target="_blank" rel="noreferrer">▶ Դիտել YouTube-ում</a>
           <ShareButton url={`${SITE_ORIGIN}/sketch/${s.id}/`} title={s.title} />
+          <HeartButton sketchId={s.id} source="watch" size="lg" />
         </div>
         <dl className="mt-5 grid grid-cols-2 gap-4 border-t-2 border-ink pt-5 text-sm">
           <Meta k="Վայր" v={<span className="rounded-full bg-kblue px-2.5 py-0.5 font-bold text-white">{s.location}</span>} />

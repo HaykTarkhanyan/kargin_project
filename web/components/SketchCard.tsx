@@ -3,6 +3,7 @@ import type { Sketch } from "@/lib/types";
 import { formatViews, formatDuration } from "@/lib/format";
 import { segmentsFor, matchedFirst } from "@/lib/segments";
 import Highlight from "./Highlight";
+import HeartButton from "./HeartButton";
 
 /** Dialogue lines shown on a card before the rest is summarised as a count. */
 const PREVIEW_LINES = 5;
@@ -53,11 +54,18 @@ export default function SketchCard({
   return (
     // flex column with an mt-auto footer, so cards stretched by a taller
     // neighbour in the grid row keep their meta line pinned to the bottom.
-    <Link href={`/sketch/${s.id}`} className="group flex h-full flex-col overflow-hidden rounded-xl k-border k-shadow transition hover:-translate-x-[3px] hover:-translate-y-[3px] hover:k-shadow-red bg-card">
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-xl k-border k-shadow transition hover:-translate-x-[3px] hover:-translate-y-[3px] hover:k-shadow-red bg-card">
+      {/* The link is stretched over the card instead of wrapping it, so the
+          heart can sit on top as a sibling. A <button> inside an <a> is invalid
+          HTML and taps it would also navigate. */}
+      <Link href={`/sketch/${s.id}`} aria-label={s.title} className="absolute inset-0 z-10" />
       <div className="relative aspect-video border-b-2 border-ink bg-paper2">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={s.thumbnail} alt={s.title} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
         <span className="absolute left-2 top-2 rounded-full bg-kblue px-2.5 py-1 text-[11px] font-bold text-white">{s.location}</span>
+        <div className="absolute right-2 top-2 z-20">
+          <HeartButton sketchId={s.id} source="card" />
+        </div>
         <span className="absolute bottom-2 right-2 rounded bg-ink px-2 py-0.5 text-[11px] font-bold text-paper">{formatDuration(s.durationSec)}</span>
         {!!s.songs?.length && (
           <span title={s.songs.map((x) => `${x.artist} — ${x.title}`).join("\n")}
@@ -111,6 +119,6 @@ export default function SketchCard({
           <span className="text-ink">{formatViews(s.viewCount)} դիտում</span>
         </div>
       </div>
-    </Link>
+    </article>
   );
 }

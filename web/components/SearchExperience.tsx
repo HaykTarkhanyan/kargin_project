@@ -5,6 +5,7 @@ import { ALL } from "@/lib/data";
 import { searchSketches, type Filters, type SortKey } from "@/lib/search";
 import { facetCounts } from "@/lib/facets";
 import { logEvent } from "@/lib/log";
+import { HEARTS_CHANGED, readHearts } from "@/lib/hearts";
 import Hero from "./Hero";
 import HeroFilters from "./HeroFilters";
 import SketchCard from "./SketchCard";
@@ -26,7 +27,23 @@ function Experience() {
   }));
   const [sort, setSort] = useState<SortKey>("views");
   const facets = useMemo(() => facetCounts(ALL), []);
-  const results = useMemo(() => searchSketches(debouncedQuery, ALL, filters, sort), [debouncedQuery, filters, sort]);
+  const found = useMemo(() => searchSketches(debouncedQuery, ALL, filters, sort), [debouncedQuery, filters, sort]);
+
+  // The visitor's own hearts, so the button is worth pressing: without somewhere
+  // to see them back, hearting is a gesture into the void. Read after mount —
+  // localStorage does not exist while this page is being exported.
+  const [hearts, setHearts] = useState<Set<string>>(new Set());
+  const [onlyHearts, setOnlyHearts] = useState(false);
+  useEffect(() => {
+    const sync = () => setHearts(readHearts());
+    sync();
+    window.addEventListener(HEARTS_CHANGED, sync);
+    return () => window.removeEventListener(HEARTS_CHANGED, sync);
+  }, []);
+  const results = useMemo(
+    () => (onlyHearts ? found.filter((s) => hearts.has(s.id)) : found),
+    [found, onlyHearts, hearts],
+  );
   const withDialogue = useMemo(() => ALL.filter((s) => s.text).length, []);
   const totalViews = useMemo(() => ALL.reduce((a, s) => a + (s.viewCount ?? 0), 0), []);
   const totalHours = useMemo(() => Math.round(ALL.reduce((a, s) => a + (s.durationSec ?? 0), 0) / 3600), []);
@@ -56,13 +73,32 @@ function Experience() {
         <HeroFilters facets={facets} filters={filters} setFilters={setFilters} />
       </section>
       <main className="px-4 py-6 sm:px-8">
-        <div className="mb-5 flex items-center justify-between gap-3 sm:mb-6">
+        <div className="mb-5 flex flex-wrap items-center justify-between gap-3 sm:mb-6">
           <div className="whitespace-nowrap font-display text-xl sm:text-2xl"><span className="text-kred">{results.length}</span> ԱՐԴՅՈՒՆՔ</div>
+          {/* Only once there is something to filter to — an empty "my hearts"
+              button advertises a list that does not exist yet. */}
+          {hearts.size > 0 && (
+            <button onClick={() => { setOnlyHearts((v) => !v); setLimit(48); }}
+              aria-pressed={onlyHearts}
+              className={`min-h-11 rounded-full border-2 border-ink px-4 text-sm font-bold ${onlyHearts ? "bg-kred text-white" : "bg-surface"}`}>
+              ❤️ Իմ սիրածները ({hearts.size})
+            </button>
+          )}
           <select value={sort} onChange={(e) => setSort(e.target.value as SortKey)} className="k-border min-h-11 min-w-0 rounded-lg bg-surface px-3 py-2 text-sm font-bold">
             <option value="views">Ըստ դիտումների</option><option value="newest">Ամենանորը</option><option value="random">Պատահական</option>
           </select>
         </div>
-        {results.length === 0
+        {results.length === 0 && onlyHearts
+          ? <div className="k-border mx-auto max-w-xl rounded-lg bg-card p-6 text-center sm:p-10">
+              {/* Not a failed search — their hearts simply do not match this
+                  query, and offering to report a missing sketch here is noise. */}
+              <p className="text-muted">Այս որոնման մեջ սիրածներիցդ ոչ մեկը չկա։</p>
+              <button onClick={() => setOnlyHearts(false)}
+                className="k-border mt-4 min-h-11 rounded-lg bg-surface px-5 text-sm font-bold">
+                Ցույց տալ բոլորը
+              </button>
+            </div>
+          : results.length === 0
           ? <div className="k-border mx-auto max-w-xl rounded-lg bg-card p-6 text-center sm:p-10">
               <p className="text-muted">Արդյունք չկա։ Փորձիր այլ բառ կամ մաքրիր զտիչները։</p>
               {/* The moment a report is worth most: they looked, and we failed. */}

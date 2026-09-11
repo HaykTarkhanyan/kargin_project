@@ -24,6 +24,16 @@ describe("SketchCard", () => {
     expect(screen.getByRole("link").getAttribute("href")).toContain("/sketch/ofvCL_U2Er0");
   });
 
+  // The link is stretched over the card rather than wrapping it, so the heart
+  // can be a sibling: a <button> inside an <a> is invalid, and tapping it would
+  // navigate as well as heart.
+  it("keeps the heart outside the link", () => {
+    const { container } = render(<SketchCard sketch={s} />);
+    const heart = screen.getByRole("button", { name: /սիրած/i });
+    expect(heart.closest("a")).toBeNull();
+    expect(container.querySelectorAll("a")).toHaveLength(1);
+  });
+
   it("shows the dialogue, not just a snippet", () => {
     render(<SketchCard sketch={withText} />);
     expect(screen.getByText("բարև ձեզ")).toBeTruthy();

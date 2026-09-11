@@ -10,7 +10,9 @@ service cloud.firestore {
       return d.keys().hasOnly(['sessionId', 'type', 'query', 'mode', 'filters',
                                'resultCount', 'sketchId', 'source', 'ua', 'ts'])
         && d.sessionId is string && d.sessionId.size() <= 64
-        && d.type in ['search', 'open', 'filter', 'findname', 'copy', 'share']
+        // 'unheart' counts too: a ranking built only from hearts would credit a
+        // sketch for a tap somebody immediately took back.
+        && d.type in ['search', 'open', 'filter', 'findname', 'copy', 'share', 'heart', 'unheart']
         && d.ts == request.time
         && (!('query' in d)       || (d.query is string && d.query.size() <= 500))
         && (!('mode' in d)        || (d.mode is string && d.mode.size() <= 32))

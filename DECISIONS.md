@@ -6,6 +6,41 @@ entries are never deleted — that we changed our mind, and why, is the point.
 
 ---
 
+## #15 — Hearts are kept per device and every toggle is logged; no public count yet
+
+**Date:** 2026-09-11 · **Status:** active
+
+**Decision.** A heart button on every sketch card and on the watch page. The
+visitor's own hearts live in `localStorage` (no account), each change is logged to
+`events` as `heart` or `unheart` with the sketch and where it was tapped, and the
+home page shows a "my hearts" filter once there is at least one. No public count
+is shown anywhere. Cards changed from one big `<a>` to an `<article>` with a
+stretched link, so the heart is a sibling of the link rather than a button inside it.
+
+**Why.** There are no accounts and no Firebase web SDK on the site (#7), so the
+device is the only place a heart can be remembered without a login. Logging reuses
+the existing event pipeline: the rules only needed two more values in the `type`
+allowlist. Both directions are logged because a ranking built from hearts alone
+would credit a sketch for a tap somebody took straight back. The filter is there
+because a heart you can never see again is a gesture into nothing. Counts are held
+back because one device is one voice - a second phone, or clearing site data, is a
+second vote - so small numbers would mean little and are cheap to inflate.
+
+**Alternatives rejected.** A per-sketch counter the client increments (rules cannot
+tell a tap from a script, so it is a public ballot box); Firebase anonymous auth
+with a per-visitor document (pulls in the auth SDK that #7 avoided, and still has
+the same one-device ceiling); a separate `hearts` collection (events already carry
+sessionId, sketchId and source, and #14's reason for splitting - free text a human
+reads - does not apply); keeping the card as one `<a>` and stopping the click
+inside it (an interactive element inside `<a>` is invalid HTML).
+
+**What would change this.** Accounts (hearts would move server-side and follow the
+person). Enough heart events to rank on - then dedupe by sessionId, net out
+unhearts, and decide whether a "most loved" list is worth showing. One sessionId
+hearting hundreds of sketches would be the sign it is being gamed.
+
+---
+
 ## #9 — Text annotations: gemini-3-flash-preview, thinking off, schema v2 with visual input
 
 **Date:** 2026-09-07 · **Status:** active (sweep pending — run scheduled for 2026-09-08)
