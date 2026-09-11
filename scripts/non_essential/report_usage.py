@@ -1,5 +1,6 @@
 """
-Pull the Firestore `events` collection (site + Telegram bot usage) and report on it.
+Pull the Firestore `events` and `feedback` collections (site + Telegram bot) and
+report on them.
 
 Two stages, deliberately separable so the report can be rebuilt without re-reading
 Firestore:
@@ -78,6 +79,32 @@ def fetch_events() -> list[dict]:
         )
     out.sort(key=lambda e: e["ts"] or "")
     log.info(f"fetched {len(out)} events from {PROJECT}/events")
+    return out
+
+
+def fetch_feedback() -> list[dict]:
+    """Visitor reports. Clients can only create these, so reading needs the admin SDK."""
+    from google.cloud import firestore
+
+    db = firestore.Client(project=PROJECT)
+    out: list[dict] = []
+    for snap in db.collection("feedback").stream():
+        d = snap.to_dict() or {}
+        ts = d.get("ts")
+        out.append(
+            {
+                "id": snap.id,
+                "ts": ts.isoformat() if hasattr(ts, "isoformat") else None,
+                "kind": d.get("kind"),
+                "message": d.get("message"),
+                "query": d.get("query"),
+                "sketchId": d.get("sketchId"),
+                "contact": d.get("contact"),
+                "source": d.get("source"),
+            }
+        )
+    out.sort(key=lambda e: e["ts"] or "")
+    log.info(f"fetched {len(out)} feedback reports")
     return out
 
 
@@ -294,6 +321,7 @@ def main() -> None:
     args = ap.parse_args()
 
     USAGE_DIR.mkdir(parents=True, exist_ok=True)
+    reports: list[dict] = []
     if args.from_dump:
         events = json.loads(args.from_dump.read_text(encoding="utf-8"))
         log.info(f"loaded {len(events)} events from {args.from_dump}")
@@ -302,6 +330,19 @@ def main() -> None:
         dump = USAGE_DIR / f"events_{datetime.now(timezone.utc):%Y-%m-%d}.json"
         dump.write_text(json.dumps(events, ensure_ascii=False, indent=2), encoding="utf-8")
         log.info(f"raw dump -> {dump}")
+
+        reports = fetch_feedback()
+        (USAGE_DIR / "feedback.json").write_text(
+            json.dumps(reports, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        # Printed in full, not counted: these are sentences a person wrote for us,
+        # and there will never be so many that reading them is a burden.
+        for r in reports:
+            when = (r["ts"] or "")[:16].replace("T", " ")
+            where = r.get("sketchId") or r.get("query") or "—"
+            log.info(f"REPORT [{r.get('kind')}] {when} ({r.get('source')}, {where}): {r.get('message')}")
+            if r.get("contact"):
+                log.info(f"        reply to: {r['contact']}")
 
     summary = summarise(events, load_titles())
     (USAGE_DIR / "usage_summary.json").write_text(

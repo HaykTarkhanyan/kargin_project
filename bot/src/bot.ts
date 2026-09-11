@@ -2,10 +2,12 @@ import { Bot, InlineKeyboard, InlineQueryResultBuilder } from "grammy";
 import type { Sketch } from "../../web/lib/types";
 import { byId, randomSketch } from "./data";
 import {
-  cardKeyboard, cardText, decodeState, inlineDescription, newState, type Panel,
-  resultsMessage, runSearch, searchTop, siteUrl, startKeyboard, startText, type ViewState,
+  cardKeyboard, cardText, decodeState, feedbackPrompt, inlineDescription, isFeedbackPrompt,
+  newState, type Panel, queryFromPrompt, resultsMessage, runSearch, searchTop, siteUrl,
+  startKeyboard, startText, type ViewState,
 } from "./cards";
 import { logEvent } from "./log";
+import { sendFeedback } from "./feedback";
 
 const HTML = { parse_mode: "HTML" as const };
 
@@ -55,9 +57,39 @@ export function createBot(token: string): Bot {
   // every /command to every bot (even ones aimed at other bots), and answering
   // those would be noise; there, the bot reacts only to its own commands and
   // inline queries. Slash-prefixed text here is an unknown command — nudge.
+  // Ask for a report. Sent with force_reply so the reply carries this prompt
+  // back to us — the bot scales to zero and cannot remember who is mid-report.
+  const askForReport = (
+    ctx: { reply: (t: string, o?: object) => Promise<unknown> }, query: string,
+  ) => ctx.reply(feedbackPrompt(query), {
+    ...HTML,
+    reply_markup: { force_reply: true, input_field_placeholder: "Նկարագրիր սքեթչը…" },
+  });
+
+  bot.command("feedback", (ctx) => askForReport(ctx, ""));
+  bot.callbackQuery(/^fb(?::([\s\S]*))?$/, async (ctx) => {
+    await ctx.answerCallbackQuery();
+    await askForReport(ctx, ctx.match[1] ?? "");
+  });
+
   bot.on("message:text", async (ctx) => {
     if (ctx.chat.type !== "private") return;
     const q = ctx.message.text.trim();
+
+    // A reply to our own prompt is a report, not a search.
+    const answering = ctx.message.reply_to_message;
+    if (answering && "text" in answering && isFeedbackPrompt(answering.text)) {
+      try {
+        await sendFeedback(ctx.from?.id, q, queryFromPrompt(answering.text ?? ""));
+        await ctx.reply("✓ Ստացանք, շնորհակալությո՛ւն։ Կնայենք։");
+      } catch (e) {
+        // Never claim a report landed when it did not — they would not send it twice.
+        console.warn("bot feedback failed", e);
+        await ctx.reply("Չստացվեց ուղարկել 😕 Փորձի՛ր մի փոքր ուշ։");
+      }
+      return;
+    }
+
     if (q.startsWith("/")) {
       await ctx.reply("Այդպիսի հրաման չկա 🤷 Պարզապես գրիր՝ ինչ ես փնտրում, կամ /random");
       return;
@@ -144,5 +176,6 @@ export function createBot(token: string): Bot {
 export const COMMANDS = [
   { command: "browse", description: "Զննել արխիվը զտիչներով 🗂" },
   { command: "random", description: "Պատահական սքեթչ 🎲" },
+  { command: "feedback", description: "Ասա՝ ինչ սքեթչ չգտար ✍️" },
   { command: "help", description: "Ինչպես փնտրել" },
 ];

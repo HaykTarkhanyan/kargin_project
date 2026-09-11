@@ -175,12 +175,19 @@ export function resultsMessage(state: ViewState, results: Sketch[], panel: Panel
         "• 💬 ռեպլիկա՝ «տոռմուզ», լատինատառ «tormuz» կամ ռուսատառ «тормуз»",
         "• 👤 դերասան՝ «Հայկո»",
         "• 📍 վայր՝ «Հիվանդանոց», «Խանութ»",
-        "• 🎬 տեսարան՝ «հարսանիք», «կով»",
+        // Anglophone on purpose: the scene descriptions are written in English,
+        // so an Armenian word here searches the dialogue instead and the tip
+        // quietly teaches the wrong thing.
+        "• 🎬 տեսարան (անգլերեն)՝ «wedding», «lada», «cow»",
         "",
         "Կամ /browse — զննիր ամբողջ արխիվը զտիչներով։",
       ].join("\n");
     }
     kb.text("🎲 Պատահական", "r");
+    // Nothing found is exactly when a report is worth most, so it is offered
+    // here rather than buried in /help.
+    const report = safeCallback(`fb:${state.q}`);
+    kb.text("✍️ Ասա մեզ՝ ինչ չգտար", report ?? "fb");
     return { text, keyboard: kb };
   }
 
@@ -213,6 +220,38 @@ export function resultsMessage(state: ViewState, results: Sketch[], panel: Panel
   }
   if (panel) panelRows(kb, state, panel);
   return { text, keyboard: kb };
+}
+
+// --- Reporting a sketch we are missing ------------------------------------
+// The bot runs on Cloud Run and scales to zero, so it cannot hold "this user is
+// writing a report" in memory between updates. Instead the prompt is sent with
+// force_reply and identified by its own first character: a reply carries the
+// prompt text back in reply_to_message, which is all the state that is needed.
+
+/** Identifies our own prompt in a reply. Must stay the first character of it. */
+export const FEEDBACK_MARK = "✍️";
+
+export function feedbackPrompt(query: string): string {
+  return [
+    `${FEEDBACK_MARK} <b>Ի՞նչ չգտար</b>`,
+    query ? `Որոնումդ՝ «${escapeHtml(query)}»` : "",
+    "",
+    "Պատասխանի՛ր այս հաղորդագրությանը և նկարագրիր սքեթչը՝ ի՞նչ են ասում, ո՞վ է խաղում, ի՞նչ է կատարվում։",
+    "Եթե ուզում ես պատասխան ստանալ, գրի՛ր նաև կապի միջոցդ։",
+  ].filter(Boolean).join("\n");
+}
+
+export function isFeedbackPrompt(text: string | undefined): boolean {
+  return !!text && text.startsWith(FEEDBACK_MARK);
+}
+
+/**
+ * The search a prompt was raised from, read back out of the prompt's own text.
+ * Telegram hands back the rendered message, so this matches the displayed line
+ * rather than the HTML that produced it.
+ */
+export function queryFromPrompt(text: string): string {
+  return /Որոնումդ՝ «([\s\S]*?)»/.exec(text)?.[1] ?? "";
 }
 
 /** Canned searches offered as one-tap buttons under /start — one per search TYPE. */

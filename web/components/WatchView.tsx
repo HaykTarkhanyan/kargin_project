@@ -6,6 +6,7 @@ import { ALL } from "@/lib/data";
 import CopyButton from "./CopyButton";
 import ShareButton from "./ShareButton";
 import RelatedList from "./RelatedList";
+import FeedbackBox from "./FeedbackBox";
 import { SITE_ORIGIN } from "@/lib/site";
 import SongList from "./SongList";
 
@@ -89,6 +90,12 @@ export default function WatchView({ s }: { s: Sketch }) {
         )}
         <div className="mb-2 border-t-2 border-ink pt-3 font-display text-base tracking-wide">ՆՄԱՆԱՏԻՊ</div>
         <RelatedList items={related(s, ALL, 6)} />
+        {/* Much of this page is machine-written — the transcript, the scene
+            description — so the people who spot the errors are the visitors. */}
+        <div className="mt-5 border-t-2 border-ink/15 pt-4">
+          <FeedbackBox kind="wrong" sketchId={s.id} source="watch"
+            prompt="Սխա՞լ ես նկատել այս էջում։" cta="Հաղորդիր →" />
+        </div>
       </div>
     </div>
   );

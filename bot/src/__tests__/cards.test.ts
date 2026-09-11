@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import {
   cardKeyboard, cardText, decodeState, DURATIONS, encodeState, escapeHtml, EXAMPLES,
-  inlineDescription, newState, PAGE, resultsMessage, runSearch, searchTop, siteUrl,
-  startKeyboard, startText, type ViewState,
+  feedbackPrompt, inlineDescription, isFeedbackPrompt, newState, PAGE, queryFromPrompt,
+  resultsMessage, runSearch, searchTop, siteUrl, startKeyboard, startText, type ViewState,
 } from "../cards";
 import { ACTORS, ALL, byId, LOCATIONS, randomSketch } from "../data";
 import type { Sketch } from "../../../web/lib/types";
@@ -235,5 +235,43 @@ describe("inlineDescription", () => {
 describe("texts", () => {
   it("site url points at the canonical domain", () => {
     expect(siteUrl(sketch())).toBe("https://karginhaghordum.am/sketch/abc123def45/");
+  });
+});
+
+// The bot scales to zero, so "this user is writing a report" cannot live in
+// memory between updates. The prompt carries its own state: force_reply hands
+// the prompt text back on the reply, and these are the two reads of it.
+describe("feedback prompt", () => {
+  it("is recognisable from the reply it comes back in", () => {
+    const prompt = feedbackPrompt("կով");
+    expect(isFeedbackPrompt(prompt)).toBe(true);
+    expect(isFeedbackPrompt("ուղղակի հաղորդագրություն")).toBe(false);
+    expect(isFeedbackPrompt(undefined)).toBe(false);
+  });
+
+  it("carries the failed search back out of its own text", () => {
+    expect(queryFromPrompt(feedbackPrompt("կով"))).toBe("կով");
+    // Telegram hands back the RENDERED message, so the check runs on the text a
+    // person sees rather than the HTML that produced it.
+    expect(queryFromPrompt(feedbackPrompt("A & B"))).toBe("A &amp; B");
+  });
+
+  it("omits the search line when the report was not raised from one", () => {
+    const prompt = feedbackPrompt("");
+    expect(prompt).not.toContain("Որոնումդ");
+    expect(queryFromPrompt(prompt)).toBe("");
+    expect(isFeedbackPrompt(prompt)).toBe(true);
+  });
+
+  it("offers the report button when a search found nothing", () => {
+    const { keyboard } = resultsMessage(newState("չկասքեթչ"), []);
+    const cbs = keyboard.inline_keyboard.flat().map((b) => (b as { callback_data?: string }).callback_data);
+    expect(cbs).toContain("fb:չկասքեթչ");
+  });
+
+  it("falls back to a bare callback when the query would overflow 64 bytes", () => {
+    const { keyboard } = resultsMessage(newState("ա".repeat(80)), []);
+    const cbs = keyboard.inline_keyboard.flat().map((b) => (b as { callback_data?: string }).callback_data);
+    expect(cbs).toContain("fb");
   });
 });

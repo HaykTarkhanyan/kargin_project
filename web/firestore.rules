@@ -21,6 +21,28 @@ service cloud.firestore {
         && (!('ua' in d)          || (d.ua is string && d.ua.size() <= 256));
     }
 
+    // Visitor-written reports: a sketch we are missing, or a mistake in one. Kept
+    // apart from `events` because this is the one place a person types free text
+    // that a human will later read, so it gets its own caps and its own shape.
+    // `message` is the only required content; everything else is context the
+    // surface fills in. Nothing here is ever readable by a client.
+    function isValidFeedback() {
+      let d = request.resource.data;
+      return d.keys().hasOnly(['kind', 'message', 'query', 'sketchId', 'contact',
+                               'source', 'sessionId', 'ua', 'ts'])
+        && d.kind in ['missing', 'wrong']
+        && d.message is string && d.message.size() > 0 && d.message.size() <= 1000
+        && d.ts == request.time
+        && (!('query' in d)     || (d.query is string && d.query.size() <= 500))
+        && (!('sketchId' in d)  || (d.sketchId is string && d.sketchId.size() <= 64))
+        // Somewhere to reply, if they want one. Free text: they may give a phone
+        // number, an email or a Telegram handle, and none of those parse alike.
+        && (!('contact' in d)   || (d.contact is string && d.contact.size() <= 200))
+        && (!('source' in d)    || (d.source is string && d.source.size() <= 32))
+        && (!('sessionId' in d) || (d.sessionId is string && d.sessionId.size() <= 64))
+        && (!('ua' in d)        || (d.ua is string && d.ua.size() <= 256));
+    }
+
     match /sketches/{id} {
       allow read: if true;
       allow write: if false;   // only the admin sync (scripts/sync_firestore.py) writes
@@ -28,6 +50,11 @@ service cloud.firestore {
 
     match /events/{id} {
       allow create: if isValidEvent();
+      allow read, update, delete: if false;
+    }
+
+    match /feedback/{id} {
+      allow create: if isValidFeedback();
       allow read, update, delete: if false;
     }
   }

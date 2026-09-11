@@ -8,6 +8,7 @@ import { logEvent } from "@/lib/log";
 import Hero from "./Hero";
 import HeroFilters from "./HeroFilters";
 import SketchCard from "./SketchCard";
+import FeedbackBox from "./FeedbackBox";
 
 function Experience() {
   const params = useSearchParams();
@@ -62,7 +63,14 @@ function Experience() {
           </select>
         </div>
         {results.length === 0
-          ? <div className="k-border rounded-lg bg-card p-10 text-center text-muted">Արդյունք չկա։ Փորձիր այլ բառ կամ մաքրիր զտիչները։</div>
+          ? <div className="k-border mx-auto max-w-xl rounded-lg bg-card p-6 text-center sm:p-10">
+              <p className="text-muted">Արդյունք չկա։ Փորձիր այլ բառ կամ մաքրիր զտիչները։</p>
+              {/* The moment a report is worth most: they looked, and we failed. */}
+              <div className="mt-5 text-left">
+                <FeedbackBox kind="missing" query={debouncedQuery} source="home-empty"
+                  prompt="Գիտե՞ս՝ որ սքեթչն է։" cta="Գրիր մեզ →" />
+              </div>
+            </div>
           : <>
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {results.slice(0, limit).map((s) => <SketchCard key={s.id} sketch={s} query={debouncedQuery} />)}
@@ -71,6 +79,12 @@ function Experience() {
                 <div className="mt-8 flex justify-center">
                   <button onClick={() => setLimit((l) => l + 48)} className="k-border k-shadow rounded-lg bg-korange px-6 py-3 font-bold">Բեռնել ևս ({results.length - limit})</button>
                 </div>)}
+              {/* Quiet under a full page of results: finding nothing useful is
+                  not the same as finding nothing at all. */}
+              <div className="mt-10 border-t-2 border-ink/15 pt-5">
+                <FeedbackBox kind="missing" query={debouncedQuery} source="home"
+                  prompt="Չգտա՞ր այն, ինչ փնտրում էիր։" cta="Ասա մեզ →" />
+              </div>
             </>}
       </main>
     </>
