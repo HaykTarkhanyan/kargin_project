@@ -1,0 +1,82 @@
+title = "Collections: browse sketches by situation, plus committing three other sessions' work"
+date = "2026-09-12"
+time = "14:45"
+areas = ["scripts", "scripts/kargin_build", "web/app/collections", "web/components", "web/lib", "tests/build", "kargin_eng.csv", "DECISIONS.md", "docs/superpowers/specs"]
+
+done = [
+    "Finished the hearts visual check on the live site with Playwright: a tap at the heart's centre hits the heart and not the stretched link, the URL does not change, storage updates, the 'my hearts' filter takes 48 cards to 1 and back, the heart survives a browser restart and the watch page comes up pressed. The heart event commit returned 200 and so did the unheart, which finally confirms the live rules accept the two new event types.",
+    "Found what the DOM checks could not: the UNHEARTED heart is nearly invisible on a card, a white heart emoji on a near-white circle. Flagged, not fixed; hearts had already shipped.",
+    "Collections designed through the brainstorming workflow, spec at docs/superpowers/specs/2026-09-12-collections-design.md (commit 5e6727d). Owner chose: several collections per sketch, seeded-then-approved membership, both a home strip and a nav entry, a four-thumbnail mosaic tile, and the four themes cards / tv / doctor / traffic police.",
+    "Data model: a `collections` column in kargin_eng.csv holding ';'-separated ascii slugs (scripts/add_collections_column.py, modelled on add_status_final.py so it refuses to write if any pre-existing column moved), and data/collections.csv for the Armenian name, description and order. scripts/kargin_build/collections.py + scripts/build_collections.py turn the two into web/public/data/collections.json, with every validation a loud failure. 18 new python tests.",
+    "Kept collections OFF the Sketch type on purpose: every sketch field ships inside the home page's JavaScript (SearchExperience is a client component importing the whole payload) and the bot image copies web/lib plus sketches.json. A separate file also left sketches.json, types.ts and assemble.py alone, which mattered because other sessions had edits in them. DECISIONS #17.",
+    "Website: /collections, /collections/[slug] (no 48-cap, unlike actor pages), CollectionTile (mosaic degrades to 3, 2 or 1 thumbnail), CollectionStrip on the home page passed into SearchExperience as a server-rendered prop, a chip on each sketch page, an eleventh nav entry, a changelog entry. 7 new web tests.",
+    "Curation: seed_collection_candidates.py searched the visual and text annotations per theme and proposed 286 candidates, each with the matching phrase as evidence and a strong/weak split. I reviewed them all and kept 80 memberships: doctor 44, traffic_police 21, tv 12, cards 3. Applied through the existing corrections.csv + apply_corrections.py path, so the edit got the same backup and validation as any other curation change.",
+    "The counts drove the design: the annotations' own topic taxonomy tags 328 of 702 sketches 'family' and 136 'money', which is a filter, not a collection. My first 'doctor' rule matched 109 sketches because a doctor gets mentioned in passing everywhere; requiring a medical SETTING cut it to 44.",
+    "Committed three other sessions' uncommitted work after verifying the tree green (pytest 102, tsc 0, lint 0, 127 web tests, build 0): embeddings similarity (#12), quiz levels (#16), the 702-file text annotation sweep, the Google Forms parse, DNS step 1b, DECISIONS #10-#16, both session logs. Seven commits, each its own topic.",
+    "Gitignored what should not be in history: .claude/worktrees/ (a nested worktree), data/embeddings/*.html (a 1.7 MB generated report), and the 53 Google Forms screenshots (21 MB) whose fate that session had left open. Committed the embedding .npz files though, because re-deriving them costs paid API calls.",
+    "Documented all four undocumented scripts in scripts/non_essential/README.md, including the two the embeddings session left out.",
+    "Caught a real bug in the visual pass: the eleventh nav item pushed the header content to 1313px, 33px past the 1265px a 1280px window leaves after the scrollbar, so every page scrolled sideways between 1280 and ~1312. Fixed by tightening the nav gap to 8px at xl and restoring 14px at 2xl; measured 33px -> 0 at 1280, clean at 1300, 1366, 1536 and 390 (commit 4b10ba6).",
+    "Verified live after deploy: /collections lists all four with counts 3/12/44/21, /collections/traffic_police/ renders its 21 cards, the home strip shows three tiles, and sketch rh2-lZwbQ9s shows both its chips, which is the ';'-separated column doing its job.",
+]
+
+pending = [
+    "The Armenian names and descriptions in data/collections.csv are MY draft and need the owner's rewrite, like the quiz wording did. Re-run build_collections.py after editing; nothing else rebuilds.",
+    "Collection membership is my judgement because the owner was away. data/collections_candidates.csv carries all 286 proposals with evidence and my marks, so any row can be changed and re-applied.",
+    "The unhearted heart's contrast on card thumbnails (white emoji on a near-white circle). Fix is a dark outline glyph in HeartButton.tsx; left for the owner to approve.",
+    "data/google_forms/ images stay local by gitignore. Committing 21 MB of screenshots is the one decision here that cannot be undone without rewriting history.",
+    "domain-dialog.md is still untracked: an accessibility dump from a Playwright session, not a document.",
+    "Unchanged: no rate limit on feedback beyond size caps, fuse.js still an unused dependency, Mher's karginhaghordum.am cutover.",
+]
+
+next = "Start from HANDOFF.md. The owner's review of the Armenian copy and of the collection membership is the only thing blocking this from being finished work."
+
+files = [
+    "docs/superpowers/specs/2026-09-12-collections-design.md (new)",
+    "scripts/add_collections_column.py (new)", "scripts/build_collections.py (new)",
+    "scripts/kargin_build/collections.py (new)", "tests/build/test_collections.py (new)",
+    "scripts/non_essential/seed_collection_candidates.py (new)",
+    "scripts/non_essential/apply_collection_candidates.py (new)",
+    "data/collections.csv (new)", "data/collections_candidates.csv (new)",
+    "kargin_eng.csv (new collections column)",
+    "web/lib/collections.ts (new)", "web/lib/__tests__/collections.test.ts (new)",
+    "web/components/CollectionTile.tsx (new)", "web/components/CollectionStrip.tsx (new)",
+    "web/components/__tests__/CollectionTile.test.tsx (new)",
+    "web/app/collections/page.tsx (new)", "web/app/collections/[slug]/page.tsx (new)",
+    "web/public/data/collections.json (new, generated)",
+    "web/app/page.tsx", "web/components/Header.tsx", "web/components/SearchExperience.tsx",
+    "web/components/WatchView.tsx", "web/lib/changelog.ts",
+    ".github/workflows/deploy.yml", "DECISIONS.md", "HANDOFF.md",
+    "scripts/non_essential/README.md", ".gitignore",
+]
+commits = [
+    "ea12b0f chore: gitignore nested worktrees, the generated similarity report, and the form captures",
+    "3f53117 feat(site): similar sketches from embeddings, not just shared actors",
+    "8f6cec2 feat(web): hand-written quiz levels with stills cut from the videos",
+    "2ea190e feat(data): text annotation sweep over all 702 sketches",
+    "bb130d8 chore(data): parse the fan-made Google Forms quizzes",
+    "798e248 docs: DNS step 1b handoff for the domain holder",
+    "eb77b07 docs: record decisions #10 through #16",
+    "5e6727d docs: collections design spec",
+    "71e8e0e feat: collections - browse sketches by situation",
+    "1a1a69c docs: session logs from the google-forms and quiz sessions",
+    "4b10ba6 fix(web): keep the desktop nav inside the bar with eleven items",
+]
+
+notes = """
+Two Playwright problems worth remembering. A stale MCP browser held its Chrome
+profile lock after /mcp reconnected, and every call failed with "Browser is
+already in use"; killing only the chrome.exe processes whose command line
+contains ms-playwright-mcp cleared it and left the owner's 26 Chrome processes
+alone. Screenshots of the home page also time out at the MCP's fixed 5s limit,
+so browser_run_code_unsafe with page.screenshot({timeout: 30000}) is the way to
+get one.
+
+A local static server must not have its working directory inside web/out, or
+next build cannot delete the folder and fails with an rmdir error. Use
+python -m http.server --directory web/out from the repo root.
+
+Git Bash parsed a quoted heredoc body and choked on the apostrophes in my
+regexes, so python files went in through the Write tool instead. Parallel Bash
+calls also share one working directory, which made a relative path in one call
+resolve against another call's cd.
+"""
