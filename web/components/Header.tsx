@@ -20,9 +20,13 @@ export default function Header() {
           ԿԱՐԳԻՆ<span className="rounded bg-kred px-2 py-0.5 text-[9px] font-extrabold tracking-[0.26em] text-white">ARCHIVE</span>
         </Link>
         <div className="flex items-center gap-3">
-          {/* xl, not lg: nine Armenian labels overflow a 1024px bar and the last
-              one gets clipped. Below xl the hamburger takes over. */}
-          <nav className="hidden gap-3.5 text-sm font-semibold xl:flex">
+          {/* xl, not lg: these Armenian labels overflow a 1024px bar and the last
+              one gets clipped. Below xl the hamburger takes over.
+              The gap tightens to 8px between xl and 2xl and only opens up above:
+              with eleven labels the bar needs 1052px at gap-3.5, and a 1280px
+              window has 1265px of layout width once the scrollbar is out, so the
+              roomier gap pushed the theme toggle off the right edge. */}
+          <nav className="hidden gap-2 text-sm font-semibold xl:flex 2xl:gap-3.5">
             {NAV.map(([href, label]) => (
               <Link key={href} href={href} className="whitespace-nowrap opacity-70 hover:opacity-100">{label}</Link>
             ))}
