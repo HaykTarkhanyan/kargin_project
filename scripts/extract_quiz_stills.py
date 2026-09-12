@@ -1,6 +1,8 @@
 """Cut the quiz stills listed in data/quiz/stills.json out of data/video/ into web/public/quiz/.
 
 Each entry: {"file": "l1-01.jpg", "video_id": "<youtube id>", "ts": "MM:SS", "note": "..."}.
+An entry with "thumbnail": true downloads the video's YouTube thumbnail instead of cutting a frame;
+that is how a video outside the archive (no file under data/video/) gets a picture.
 The output file name is chosen per question (not per video) so the URL does not reveal the answer.
 
 Usage:
@@ -11,6 +13,8 @@ import json
 import logging
 import subprocess
 from pathlib import Path
+
+import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 LIST = ROOT / "data" / "quiz" / "stills.json"
@@ -55,6 +59,14 @@ def cut(video: Path, ts: str, dest: Path) -> None:
         raise RuntimeError(f"ffmpeg produced no output for {video.name} at {ts}")
 
 
+def download_thumbnail(video_id: str, dest: Path) -> None:
+    r = requests.get(f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg", timeout=30)
+    r.raise_for_status()
+    if not r.headers.get("content-type", "").startswith("image/"):
+        raise RuntimeError(f"no thumbnail image for {video_id}: content-type {r.headers.get('content-type')!r}")
+    dest.write_bytes(r.content)
+
+
 def main() -> None:
     stills = json.loads(LIST.read_text(encoding="utf-8"))
     files = [s["file"] for s in stills]
@@ -62,8 +74,12 @@ def main() -> None:
         raise ValueError("duplicate output file names in stills.json")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for s in stills:
-        video = find_video(s["video_id"])
         dest = OUT_DIR / s["file"]
+        if s.get("thumbnail"):
+            download_thumbnail(s["video_id"], dest)
+            log.info(f"{dest.relative_to(ROOT)} <- youtube thumbnail {s['video_id']} ({dest.stat().st_size} bytes)")
+            continue
+        video = find_video(s["video_id"])
         cut(video, s["ts"], dest)
         log.info(f"{dest.relative_to(ROOT)} <- {video.name} @ {s['ts']} ({dest.stat().st_size} bytes)")
     log.info(f"wrote {len(stills)} stills to {OUT_DIR.relative_to(ROOT)}")

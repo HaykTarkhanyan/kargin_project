@@ -75,7 +75,9 @@ the owner's review sent it back, and the rule above is what replaced it. Stills 
 listed in `data/quiz/stills.json`, 640 px wide, and committed under
 `web/public/quiz/` with per-question file names. The runner gained three optional
 fields: a question image, per-option images, and a sketch id that becomes a link
-once the quiz is checked. The level/unlock/stars mechanic is unchanged.
+once the quiz is checked. The pass mark, stars and best-score memory stay, but
+every level is open from the start: the owner wants people to browse any level,
+not grind level 1 to see level 2 (2026-09-12).
 
 **Why.** The old quiz asked how many sketches the archive has and how many hours
 they run - facts about the website, not about Kargin, and nothing a fan would play

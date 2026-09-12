@@ -35,13 +35,12 @@ export default function QuizGame() {
   if (active) return <Runner quiz={active} onDone={(pct) => record(active.id, pct)} onBack={() => setActive(null)} />;
 
   const passed = (q: Quiz) => (progress[q.id] ?? 0) >= q.passPct;
-  const unlocked = (i: number) => i === 0 || passed(LEVELS[i - 1]);
   const passedCount = LEVELS.filter(passed).length;
 
   return (
     <main className="mx-auto max-w-2xl px-4 py-8 sm:px-7">
       <h1 className="font-display text-4xl sm:text-5xl">Քուիզ</h1>
-      <p className="mt-2 text-muted">Անցի՛ր մակարդակները հերթով — յուրաքանչյուրը բացում է հաջորդը։</p>
+      <p className="mt-2 text-muted">Ընտրի՛ր մակարդակը, ստուգի՛ր քեզ։</p>
 
       <div className="mt-4 h-3 overflow-hidden rounded-full border-2 border-ink bg-surface">
         <div className="h-full bg-korange transition-all" style={{ width: `${(passedCount / LEVELS.length) * 100}%` }} />
@@ -49,12 +48,11 @@ export default function QuizGame() {
       <p className="mt-1 text-sm font-bold">{passedCount}/{LEVELS.length} մակարդակ անցած</p>
 
       <div className="mt-6 space-y-4">
-        {LEVELS.map((q, i) => {
-          const open = unlocked(i);
+        {LEVELS.map((q) => {
           const best = progress[q.id] ?? 0;
           const done = passed(q);
           return (
-            <div key={q.id} className={`k-border rounded-xl p-4 ${open ? "k-shadow bg-card" : "bg-paper2 opacity-60"}`}>
+            <div key={q.id} className="k-border k-shadow rounded-xl bg-card p-4">
               <div className="flex items-center justify-between gap-3">
                 <div className="min-w-0">
                   <div className="flex items-center gap-2">
@@ -68,13 +66,9 @@ export default function QuizGame() {
                 </div>
                 <div className="shrink-0 text-right">
                   {done && <div className="text-lg leading-none">{"⭐".repeat(stars(best))}</div>}
-                  {open ? (
-                    <button onClick={() => setActive(q)} className="mt-1 k-border rounded-lg bg-korange px-4 py-2 text-sm font-bold">
-                      {done ? "Կրկնել" : "Սկսել"}
-                    </button>
-                  ) : (
-                    <div className="text-2xl">🔒</div>
-                  )}
+                  <button onClick={() => setActive(q)} className="mt-1 k-border rounded-lg bg-korange px-4 py-2 text-sm font-bold">
+                    {done ? "Կրկնել" : "Սկսել"}
+                  </button>
                 </div>
               </div>
             </div>
@@ -135,13 +129,19 @@ function Runner({ quiz, onDone, onBack }: { quiz: Quiz; onDone: (pct: number) =>
                 );
               })}
             </div>
-            {submitted && (qq.explanation || qq.sketchId) && (
+            {submitted && (qq.explanation || qq.sketchId || qq.link) && (
               <div className="mt-2 text-xs text-muted">
                 💡 {qq.explanation}
                 {qq.sketchId && (
                   <>
                     {" "}
                     <Link href={`/sketch/${qq.sketchId}`} className="font-bold underline">Դիտել սքեթչը →</Link>
+                  </>
+                )}
+                {qq.link && (
+                  <>
+                    {" "}
+                    <a href={qq.link} target="_blank" rel="noreferrer" className="font-bold underline">Դիտել YouTube-ում →</a>
                   </>
                 )}
               </div>
@@ -159,7 +159,7 @@ function Runner({ quiz, onDone, onBack }: { quiz: Quiz; onDone: (pct: number) =>
         <div className={`mt-6 rounded-xl p-5 text-center ${didPass ? "bg-ink text-paper" : "k-border bg-paper2"}`}>
           <div className="text-3xl">{didPass ? "🎉" : "💪"}</div>
           <div className="mt-1 text-xl font-bold">{correct}/{quiz.questions.length} · {Math.round(pct * 100)}%</div>
-          <div className="mt-1 text-sm">{didPass ? "Անցար։ Հաջորդ մակարդակը բացված է։" : `Պետք է ${Math.round(quiz.passPct * 100)}%։ Փորձիր նորից։`}</div>
+          <div className="mt-1 text-sm">{didPass ? "Անցա՛ր։" : `Պետք է ${Math.round(quiz.passPct * 100)}%։ Փորձիր նորից։`}</div>
           <div className="mt-3 flex justify-center gap-2">
             <button onClick={retry} className="k-border rounded-lg bg-card px-4 py-2 text-sm font-bold">Կրկնել</button>
             <button onClick={onBack} className="k-border rounded-lg bg-korange px-4 py-2 text-sm font-bold">Մակարդակներ</button>

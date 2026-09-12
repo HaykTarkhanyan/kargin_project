@@ -27,22 +27,29 @@ vi.mock("@/lib/quizzes", () => ({
         },
       ],
     },
+    { id: "t2", level: 2, title: "Test 2", difficulty: "y", passPct: 0.5, questions: [{ prompt: "q", options: ["a", "b", "c", "d"], correctIndex: 0 }] },
   ],
 }));
 
 describe("QuizGame with images", () => {
   beforeEach(() => localStorage.clear());
 
+  it("opens every level from the start, nothing locked", () => {
+    render(<QuizGame />);
+    expect(screen.getAllByText("Սկսել")).toHaveLength(2);
+    expect(screen.queryByText("🔒")).toBeNull();
+  });
+
   it("shows the question still and one picture per option", () => {
     render(<QuizGame />);
-    fireEvent.click(screen.getByText("Սկսել"));
+    fireEvent.click(screen.getAllByText("Սկսել")[0]);
     const srcs = screen.getAllByRole("presentation").map((img) => img.getAttribute("src"));
     expect(srcs).toEqual(["/quiz/still.jpg", "/quiz/p1.jpg", "/quiz/p2.jpg", "/quiz/p3.jpg", "/quiz/p4.jpg"]);
   });
 
   it("links to the sketch only after the answers are checked", () => {
     render(<QuizGame />);
-    fireEvent.click(screen.getByText("Սկսել"));
+    fireEvent.click(screen.getAllByText("Սկսել")[0]);
     expect(screen.queryByText("Դիտել սքեթչը →")).toBeNull();
     fireEvent.click(screen.getByText("a"));
     fireEvent.click(screen.getByText("2"));
