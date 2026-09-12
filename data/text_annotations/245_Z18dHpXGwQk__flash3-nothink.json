@@ -1,0 +1,71 @@
+{
+  "video_id": "Z18dHpXGwQk",
+  "seq": 245,
+  "kargin_id": 245,
+  "title": "Kargin Haghordum sketch 348 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2087,
+  "gen_sec": 14.21,
+  "prompt_tokens": 2114,
+  "output_tokens": 721,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00322,
+  "annotation": {
+    "title_hy": "Գնդապետ Կեղտիկյանի ստուգումները",
+    "title_en": "Colonel Keghtikyan's Inspections",
+    "summary_en": "A strict colonel explains the importance of surprise inspections to his subordinate, only to call a barracks and hear a soldier insult him, thinking the call is anonymous.",
+    "summary_detailed_en": "The sketch begins in an army office where a mustached Colonel sits at a desk in front of a large flag, lecturing a Lieutenant Colonel on the art of military inspections. The Colonel argues that the official protocol of inspecting every six months is useless because units clean up to look like NATO bases just for the show. He insists that a professional inspector must visit daily, arrive at night, and enter from the back to catch soldiers off guard. To prove his effectiveness, he orders an operator to connect him to a battalion. The scene cuts to a soldier in a striped shirt inside the barracks, who answers the phone while relaxing. The Colonel, pretending to be a random official, asks how often inspections occur. The soldier complains that while it should be every six months, a 'pus-filled' (tarakh) man named Colonel Keghtikyan comes every day looking for trouble. The Colonel, visibly offended, asks if he is really that bad, to which the soldier replies that he has enough pus to start a factory. When the Colonel finally reveals his identity, the soldier cheekily asks if the Colonel knows who he is. When the Colonel says no, the soldier says 'Goodbye then, pus-filled Colonel Keghtikyan' and hangs up, leaving the Colonel stunned.",
+    "keywords_hy": [
+      "բանակ",
+      "զորամաս",
+      "գնդապետ",
+      "ստուգում",
+      "զինվոր",
+      "թարախ",
+      "հեռախոս",
+      "Կեղտիկյան"
+    ],
+    "keywords_en": [
+      "army",
+      "military unit",
+      "colonel",
+      "inspection",
+      "soldier",
+      "barracks",
+      "telephone call",
+      "insult"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zoramas",
+      "gndapet",
+      "stugum",
+      "zinvor",
+      "tarax",
+      "heraxos",
+      "Keqtikyan"
+    ],
+    "catchphrases": [
+      "երկրորդ կետը; որպեսզի ստուգումը լինի արդյունավետ ինքը պետքա լինի անսպասելի",
+      "էդ նախարարությունում մի հատ թարախ Կեղտիկյան կա",
+      "իսկ դուք գիտեք դուք ում հետ եք խոսում; չէ; չէ դե ուրեմն հաջողություն"
+    ],
+    "topics": [
+      "army",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

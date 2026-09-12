@@ -1,0 +1,67 @@
+{
+  "video_id": "q_chdlOOZRI",
+  "seq": 62,
+  "kargin_id": 62,
+  "title": "Kargin Haghordum sketch 627 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "062_Kargin_Haghordum_sketch_627_Hayko_Mko_q_chdlOOZRI.hy.json",
+    "visual": true
+  },
+  "input_chars": 4988,
+  "gen_sec": 9.85,
+  "prompt_tokens": 3802,
+  "output_tokens": 570,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003611,
+  "annotation": {
+    "title_hy": "Հարուստ Փեսացուն",
+    "title_en": "The Wealthy Suitor",
+    "summary_en": "A father is furious about his daughter's pregnancy by a married man until he hears the extravagant gifts the wealthy suitor promises the family.",
+    "summary_detailed_en": "The sketch opens in a family home where a mustached father is yelling at his college-student daughter for getting pregnant by a married man, lamenting the family's public shame. The daughter insists that the man is coming over to discuss the situation. A mother in a headscarf joins them as a young man named Artak arrives in an expensive black car. Once inside the dining room, Artak bluntly explains that while he cannot marry the daughter because he is already married, he will fully provide for the child. He promises that if it is a boy, he will gift him a factory, a car dealership, and a blue building in Paris, all to be managed by the father until the child is an adult. If it is a girl, he promises a chain of perfume shops, hair salons, and a pink building in Paris, to be managed by the mother. Upon hearing this immense wealth, the father’s anger instantly vanishes. In the final punchline, the father asks what happens if the pregnancy fails, and the suitor nonchalantly suggests they just try again, which the father happily accepts.",
+    "keywords_hy": [
+      "հղիություն",
+      "հարուստ",
+      "փեսա",
+      "խայտառակություն",
+      "գործարան",
+      "Փարիզ",
+      "ամուսնացած"
+    ],
+    "keywords_en": [
+      "pregnancy",
+      "wealthy suitor",
+      "factory",
+      "Paris",
+      "married man",
+      "family scandal",
+      "inheritance"
+    ],
+    "keywords_translit": [
+      "hghiutyun",
+      "harust",
+      "pesa",
+      "xaytarakutyun",
+      "gorcaran",
+      "Pariz",
+      "amusnacac"
+    ],
+    "catchphrases": [
+      "Ամբողջ աշխարհով խայտառակ եղանք"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

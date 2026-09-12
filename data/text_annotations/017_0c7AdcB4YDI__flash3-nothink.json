@@ -1,0 +1,68 @@
+{
+  "video_id": "0c7AdcB4YDI",
+  "seq": 17,
+  "kargin_id": 17,
+  "title": "Kargin Haghordum sketch 324 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 987,
+  "gen_sec": 25.6,
+  "prompt_tokens": 1534,
+  "output_tokens": 508,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002291,
+  "annotation": {
+    "title_hy": "Ուղևորություն դեպի Իջևան",
+    "title_en": "A Trip to Ijevan",
+    "summary_en": "A woman attempts to negotiate a ride to Ijevan by offering 'alternative' payment, but the driver remains unimpressed by the low value of the transaction.",
+    "summary_detailed_en": "The sketch takes place on a sunny day along a tree-lined village road. A woman, dressed in a white jacket, a bright yellow beret, and carrying a pink handbag, is walking along the roadside. A mustached man in sunglasses drives a car slowly alongside her, leaning out of the window to engage in conversation. The woman is on her mobile phone, explaining to someone that she spent all her money at the hair salon and is trying to find a way to get to Ijevan. She flags down the driver and asks if he can take her there. When the subject of payment comes up, she suggests she can 'pay in another way' with a flirtatious implication. However, the driver shuts her down immediately, telling her he is not the type to drive all the way to Ijevan for the sake of 3,000 drams and tells her to find another fool. The sketch highlights the subversion of a typical 'flirtatious hitchhiker' trope through the driver's blunt financial pragmatism.",
+    "keywords_hy": [
+      "Իջևան",
+      "վարորդ",
+      "ճանապարհ",
+      "փող",
+      "վարսավիրանոց",
+      "ավտոմեքենա",
+      "առաջարկ"
+    ],
+    "keywords_en": [
+      "Ijevan",
+      "driver",
+      "roadside",
+      "money",
+      "hair salon",
+      "car",
+      "offer"
+    ],
+    "keywords_translit": [
+      "Ijevan",
+      "varord",
+      "chanaparh",
+      "pogh",
+      "varsaviranoc",
+      "avtomeqena",
+      "arajark"
+    ],
+    "catchphrases": [
+      "ես 3000 դրամի համար Իջևան հասնողը չեմ",
+      "ուրիշ հարիֆ ման արի"
+    ],
+    "topics": [
+      "transport",
+      "village",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

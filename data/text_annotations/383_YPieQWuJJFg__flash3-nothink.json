@@ -1,0 +1,72 @@
+{
+  "video_id": "YPieQWuJJFg",
+  "seq": 383,
+  "kargin_id": 383,
+  "title": "Kargin Haghordum sketch 147 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1549,
+  "gen_sec": 5.4,
+  "prompt_tokens": 1886,
+  "output_tokens": 736,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003151,
+  "annotation": {
+    "title_hy": "Գիժը բայց ոչ տուպոյ",
+    "title_en": "Crazy but Not Stupid",
+    "summary_en": "A driver stranded outside an asylum with a broken car wheel receives surprisingly logical mechanical advice from an inmate.",
+    "summary_detailed_en": "The sketch takes place on a residential street during the day. A mustached man wearing a flat cap is in a state of panic because the wheel ('ag') of his green Lada has fallen off right in front of a psychiatric hospital (asylum). He is seen frantically talking on a mobile phone to someone named Agop, struggling to explain the mechanical failure through static and his own agitation. While he searches for missing bolts and contemplates using a tree branch to fix the wheel, a man dressed in striped hospital pajamas runs around the area, exhibiting erratic behavior behind a chain-link fence. The driver is perplexed by his situation and the lack of tools. In a surprising turn, the man in pajamas offers a very logical solution: take one bolt from each of the other three wheels to secure the fourth one, allowing the car to reach a repair shop. The driver is impressed by the cleverness of the idea, questioning how someone in an asylum could be so smart. The sketch concludes with the iconic punchline from the inmate: 'I may be crazy, but I'm not stupid.'",
+    "keywords_hy": [
+      "գժանոց",
+      "ավտոմեքենա",
+      "ակ",
+      "բոլտ",
+      "վուլկանիզացիա",
+      "գիժ",
+      "խորհուրդ",
+      "Լադա"
+    ],
+    "keywords_en": [
+      "asylum",
+      "mental hospital",
+      "car wheel",
+      "broken car",
+      "mechanic advice",
+      "crazy person",
+      "Lada",
+      "bolts"
+    ],
+    "keywords_translit": [
+      "gzhanoc",
+      "avtomeqena",
+      "ak",
+      "bolt",
+      "vulkanizacia",
+      "gizh",
+      "khorhurd",
+      "Lada"
+    ],
+    "catchphrases": [
+      "մաշնիս ագը տակից պոգվավ ագը ագը ագըըը Ագոպ ագըը հա ագը",
+      "ապեր ջան էս ամեն մի ակից մի բոլտ հանի քցի էս ակը ձգի երեք բոլտով կամաց գնա մինչև հասնես մոտակա վուլկանիզացիան",
+      "յա դուզա ասըմ մալադեց արա էդ ոնց ֆայմար վռոդի գժանոցում ես",
+      "ապեր ջան կարողա ես գիժ եմ բայց ես տուպոյ չեմ"
+    ],
+    "topics": [
+      "transport",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

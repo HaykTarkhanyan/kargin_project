@@ -1,0 +1,71 @@
+{
+  "video_id": "zyqWBVzMpFw",
+  "seq": 219,
+  "kargin_id": 219,
+  "title": "Kargin Haghordum sketch 399 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "219_Kargin_Haghordum_sketch_399_Hayko_Mko_zyqWBVzMpFw.hy.json",
+    "visual": true
+  },
+  "input_chars": 3726,
+  "gen_sec": 18.55,
+  "prompt_tokens": 3037,
+  "output_tokens": 629,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003406,
+  "annotation": {
+    "title_hy": "Գողացված Վոլվոն և Ոստիկանությունը",
+    "title_en": "The Stolen Volvo and the Police",
+    "summary_en": "A man reports his car stolen only to realize his wife took it, but the police have already 'found' a suspect through brutal means.",
+    "summary_detailed_en": "The sketch takes place in a police station where a man in a checkered plaid suit and mustache, named Avetik Isahakyan, is reporting his dark red 1985 Volvo as stolen. The police officer at the desk is distracted, and strange screaming sounds are heard from the back room. When Avetik asks if someone is being beaten, the officer dismissively claims the boys are just playing tennis. After Avetik leaves the office, he receives a phone call from his wife and realizes there was a misunderstanding: she had simply taken the car for shopping without telling him. He rushes back into the office to withdraw his complaint. However, the scene has turned grisly; two officers have dragged in a bloodied, unconscious suspect and slumped him over the desk. Despite Avetik’s explanation that the car wasn't actually stolen, the officer tells him not to interfere with their 'work,' proudly declaring they have already caught the thief and are currently interrogating him about which other red Volvos he has 'violated.'",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "գողություն",
+      "մեքենա",
+      "Վոլվո",
+      "ծեծ",
+      "թյուրիմացություն",
+      "բաժին",
+      "հարցաքննություն"
+    ],
+    "keywords_en": [
+      "police station",
+      "car theft",
+      "Volvo",
+      "beating",
+      "misunderstanding",
+      "interrogation",
+      "false accusation",
+      "police brutality"
+    ],
+    "keywords_translit": [
+      "vostikanutyun",
+      "goghutyun",
+      "meqena",
+      "Volvo",
+      "tsets",
+      "tyurimatsutyun",
+      "bajin",
+      "hartsaqnnutyun"
+    ],
+    "catchphrases": [
+      "Ավետիք Իսահակյան",
+      "իմ հայրը մի 3 տարի առաջ վայնկոմատումա աշխատել",
+      "մենք քո մաշնի գողին արդեն գտել ենք"
+    ],
+    "topics": [
+      "police",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

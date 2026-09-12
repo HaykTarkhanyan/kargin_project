@@ -1,0 +1,72 @@
+{
+  "video_id": "moCyanUBWps",
+  "seq": 415,
+  "kargin_id": 415,
+  "title": "Kargin Haghordum - Blokpost (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1269,
+  "gen_sec": 5.4,
+  "prompt_tokens": 1680,
+  "output_tokens": 620,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.0027,
+  "annotation": {
+    "title_hy": "Հսկիչ անցագրային կետ",
+    "title_en": "Checkpoint Bribes",
+    "summary_en": "A police officer at a rural checkpoint asks two men for illegal items, only to realize they are paying him off to ignore the actual contents of their truck.",
+    "summary_detailed_en": "The sketch is set at a rural highway checkpoint during the day, featuring a boom barrier and a police officer wearing a cap and carrying a rifle. A traffic officer, Sergeant Avetisyan, stops a car containing two men—a driver in a floral shirt and a passenger in an orange shirt. The officer begins a routine inspection, asking for the vehicle's documents and the manifest for their truck. As the officer questions them about carrying weapons, narcotics, or undeclared illegal cash, the driver repeatedly responds by handing over these items directly to the officer, saying 'it's with him.' The officer is initially confused as he collects a rifle, drugs, and stacks of cash. When the officer asks if all these illegal goods belong to the men, the driver clarifies the punchline: those items were actually intended as bribes for the officer, while their real cargo remains hidden inside the truck. Realizing he is being filmed or has been caught in a blatant act of corruption, the flustered officer tells them to drive away quickly.",
+    "keywords_hy": [
+      "ոստիկան",
+      "կաշառք",
+      "բլոկպոստ",
+      "ֆուռ",
+      "զենք",
+      "թմրանյութ",
+      "փող",
+      "ճանապարհային ոստիկանություն"
+    ],
+    "keywords_en": [
+      "police officer",
+      "bribe",
+      "checkpoint",
+      "truck",
+      "weapons",
+      "narcotics",
+      "cash",
+      "traffic police"
+    ],
+    "keywords_translit": [
+      "vostikan",
+      "kasharq",
+      "blokpost",
+      "fur",
+      "zenq",
+      "tmranyut",
+      "pogh",
+      "chanaparhayin vostikanutyun"
+    ],
+    "catchphrases": [
+      "ուրուշ",
+      "չէ ախպեր ետ սաղ քոննա մերը ֆուռի մեջա",
+      "ախպեր էս նկարում եք քշի ախպեր արա"
+    ],
+    "topics": [
+      "police",
+      "crime",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

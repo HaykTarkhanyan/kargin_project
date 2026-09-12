@@ -1,0 +1,71 @@
+{
+  "video_id": "DmUrhTAdAD4",
+  "seq": 55,
+  "kargin_id": 55,
+  "title": "Kargin Haghordum sketch 620 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2927,
+  "gen_sec": 18.96,
+  "prompt_tokens": 2581,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003259,
+  "annotation": {
+    "title_hy": "Վարդան Ձյայի Պատիժը",
+    "title_en": "Vardan Dzyas Punishment",
+    "summary_en": "A mobster sentences two men to death for stealing, but the victim's request to hear a specific Vardan Sargsyan song as his last wish makes the other man beg to be shot first.",
+    "summary_detailed_en": "In a derelict industrial yard behind garages, a black sedan arrives. A mob leader in a suit and open white shirt, accompanied by muscle-bound bodyguards, confronts two local men named Gug and his companion. It is revealed that Gug stole ten tons of goods from the warehouse of a powerful boss named Vardan Dzya. The lead mobster, Smbo, explains that the boss was heartbroken by the betrayal. Smbo then delivers the boss's decision in the style of a weather forecast, chillingly announcing that the 'weather' in Yerevan for them will result in their execution. Following mafia tradition, Smbo grants each man a last wish. Gug's companion asks to hear his favorite song, 'Khent Khent' by Vardan Sargsyan. Upon hearing this, Gug—dreading the pop song more than death—desperately begs Smbo to kill him first so he doesn't have to suffer through the music. The sketch ends with Gug sitting in despair on the ground as the mobsters prepare to fulfill the musical request.",
+    "keywords_hy": [
+      "մաֆիա",
+      "գնդակահարություն",
+      "վերջին ցանկություն",
+      "Վարդան Սարգսյան",
+      "երգ",
+      "Գուգո",
+      "պատիժ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "mafia",
+      "execution",
+      "last wish",
+      "Vardan Sargsyan",
+      "pop song",
+      "punishment",
+      "gangster",
+      "humor"
+    ],
+    "keywords_translit": [
+      "mafia",
+      "gndakaharutyun",
+      "verjin tsankutyun",
+      "Vardan Sargsyan",
+      "erg",
+      "Gugo",
+      "patizh",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "չունենամ քեզ Գուգո տղա",
+      "առաջինը ինձ սպանեք",
+      "խենթ խենթ խենթ, կրակի պես խենթ աղջիկ ես"
+    ],
+    "topics": [
+      "crime",
+      "media_showbiz"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

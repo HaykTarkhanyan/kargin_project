@@ -1,0 +1,71 @@
+{
+  "video_id": "lp8MI6ZnwhM",
+  "seq": 700,
+  "kargin_id": 700,
+  "title": "Kargin Haghordum sketch 192 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "700_Kargin_Haghordum_sketch_192_Hayko_Mko_lp8MI6ZnwhM.hy.json",
+    "visual": true
+  },
+  "input_chars": 1646,
+  "gen_sec": 4.04,
+  "prompt_tokens": 1906,
+  "output_tokens": 510,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002483,
+  "annotation": {
+    "title_hy": "Բանտարկյալի կինը և պետը",
+    "title_en": "The Prisoner's Wife and the Warden",
+    "summary_en": "A prisoner and his wife discuss her efforts to reduce his sentence through negotiations with the prison warden, which involve inappropriate nighttime proposals.",
+    "summary_detailed_en": "The sketch takes place in a dim, sparse corridor, presumably within a prison or police station. A woman carrying a handbag sits alone on a bench. A uniformed officer leads a mustached man, a prisoner, to sit next to her. The man complains about the daily routine of his long sentence, mentioning the repetitive commands for waking up and going to sleep. The woman reveals that for the past 25 days, she has been visiting the prison warden to try and reduce her husband's sentence by at least one year. She explains that the warden has been making 'inappropriate nighttime proposals' to her, using seductive phrases like 'night is coming, it's going to be hot.' The prisoner listens to these disturbing details about the warden's advances on his wife. The conversation ends when the officer returns and informs the man that it is time for his release, though the emotional weight of his wife's 'negotiations' lingers as they prepare to leave.",
+    "keywords_hy": [
+      "բանտ",
+      "բանտարկյալ",
+      "բերդի պետ",
+      "կնիկ",
+      "սռոկ",
+      "ազատում",
+      "ոստիկանություն"
+    ],
+    "keywords_en": [
+      "prison",
+      "prisoner",
+      "warden",
+      "sentence reduction",
+      "wife",
+      "police station",
+      "release"
+    ],
+    "keywords_translit": [
+      "bant",
+      "bantarkyal",
+      "berdi pet",
+      "knik",
+      "srok",
+      "azatum",
+      "vostikanutyun"
+    ],
+    "catchphrases": [
+      "25 օր ա գնում-գալիս եմ",
+      "բերդի պետի մոտ",
+      "գոնե սռոկդ մի տարով իջացնեմ",
+      "ինքը նեպրիլիչնի գիշերային առաջարկություններ ա անում",
+      "ազատվելուդ ժամանակը եկել ա"
+    ],
+    "topics": [
+      "police",
+      "family",
+      "law_court"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "video_id": "vbWvlxJnC_w",
+  "seq": 312,
+  "kargin_id": 312,
+  "title": "Kargin Haghordum sketch 473 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "312_Kargin_Haghordum_sketch_473_Hayko_Mko_vbWvlxJnC_w.hy.json",
+    "visual": true
+  },
+  "input_chars": 1753,
+  "gen_sec": 30.17,
+  "prompt_tokens": 1933,
+  "output_tokens": 575,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002691,
+  "annotation": {
+    "title_hy": "Պռոշյանի սովխոզի դեղը",
+    "title_en": "Medicine for Proshyan Sovkhoz",
+    "summary_en": "An elderly passenger keeps pestering a marshrutka driver about a specific stop, only to reveal she doesn't actually need to get off there.",
+    "summary_detailed_en": "The sketch takes place inside a crowded marshrutka (minibus) traveling along a rural highway. The vehicle is filled with diverse passengers, including an older bald man, a young man in a cap, and a flamboyant woman in a blonde wig and sunglasses (played by a male comedian in drag). An elderly woman passenger (also played by a male comedian in drag) repeatedly bothers the mustached driver, asking him to alert her as soon as they reach the Proshyan Sovkhoz stop. The driver patiently assures her he will let her know. As the journey continues and music plays, she asks again, and the driver remains helpful. Finally, the driver pulls over at the requested location and tells the woman they have arrived and she can get off. In a comedic twist, the woman explains that she has no intention of getting off at this stop; rather, her daughter simply told her that when she reached Proshyan Sovkhoz, she should take her medicine.",
+    "keywords_hy": [
+      "մարշրուտկա",
+      "վարորդ",
+      "դեղ խմել",
+      "Պռոշյան սովխոզ",
+      "ուղևոր",
+      "կատակ",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "marshrutka",
+      "driver",
+      "taking medicine",
+      "Proshyan sovkhoz",
+      "passenger",
+      "joke",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "marshrutka",
+      "varord",
+      "degh khmel",
+      "Proshyan sovkhoz",
+      "ughevor",
+      "katak",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "Հասնես Պռոշյանի սովխոզ էս դեղը խմի"
+    ],
+    "topics": [
+      "transport",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

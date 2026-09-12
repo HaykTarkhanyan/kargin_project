@@ -1,0 +1,68 @@
+{
+  "video_id": "eGBMeksUdew",
+  "seq": 658,
+  "kargin_id": 658,
+  "title": "Kargin Haghordum sketch 221 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1130,
+  "gen_sec": 13.82,
+  "prompt_tokens": 1609,
+  "output_tokens": 552,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002461,
+  "annotation": {
+    "title_hy": "Ընկեր Փիրումյանի գուշակությունը",
+    "title_en": "Companian Pirumyan's Prediction",
+    "summary_en": "A schoolteacher predicts her students' future professions based on which of her physical features they find most attractive.",
+    "summary_detailed_en": "The sketch takes place in a brightly lit school classroom, featuring a chalkboard and a wall map. A teacher, played by a male actor in drag wearing a bob wig and lipstick, stands before the class to conduct a unique career guidance exercise. She explains that she will tell the children their future professions based on which part of her body they like best. A girl named Arpine says she likes the teacher's hair, leading the teacher to predict she will become a hairdresser. A boy named Erik says he likes her eyes, so she tells him he will be an ophthalmologist. Lilia picks the teacher's teeth and is told she will become a dentist. The joke concludes with a student named Andranik, who has clearly been looking at the teacher's chest. Before she can even ask him, he humorously remarks that, based on his preference, he has already figured out he is destined to become a milkman.",
+    "keywords_hy": [
+      "դպրոց",
+      "դասարան",
+      "ուսուցչուհի",
+      "աշակերտներ",
+      "մասնագիտություն",
+      "գուշակություն",
+      "կատակ",
+      "կթվոր"
+    ],
+    "keywords_en": [
+      "school",
+      "classroom",
+      "teacher",
+      "students",
+      "profession",
+      "prediction",
+      "joke",
+      "milkman"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "dasaran",
+      "usucchuhy",
+      "ashakertner",
+      "masnagitutyun",
+      "gushakutyun",
+      "katak",
+      "ktvor"
+    ],
+    "catchphrases": [
+      "Երեխաներ իմ մարնմի մասերից որն եք հավանում"
+    ],
+    "topics": [
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

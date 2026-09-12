@@ -1,0 +1,69 @@
+{
+  "video_id": "JmTVyvlDssA",
+  "seq": 330,
+  "kargin_id": 330,
+  "title": "Kargin Haghordum sketch 292 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "330_Kargin_Haghordum_sketch_292_Hayko_Mko_JmTVyvlDssA.hy.json",
+    "visual": true
+  },
+  "input_chars": 2304,
+  "gen_sec": 5.07,
+  "prompt_tokens": 2262,
+  "output_tokens": 467,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002532,
+  "annotation": {
+    "title_hy": "Օմսկից եկած ախպերը",
+    "title_en": "The Brother from Omsk",
+    "summary_en": "A hotel guest is persuaded by the manager to share his room with a supposedly 'civilized' scientist from Omsk, who turns out to be an obnoxious relative.",
+    "summary_detailed_en": "The sketch begins in a hotel administrative office where a man in a suit is managing room availability. A traveler with a suitcase is desperately looking for a room, but the manager initially claims there is no vacancy. However, when the manager realizes the guest is occupying Room 251, he changes his tone, claiming a close personal connection. The manager calls the guest in Room 251 and politely asks if his 'brother' from Omsk, whom he describes as a highly educated candidate of sciences and a handsome man with a mustache, can share the two-person room for a few days due to lack of space. The guest agrees, but the reality is far from the description. The 'relative' arrives at the room, immediately complaining of the heat and acting completely unrefined. He collapses on the bed, demanding the guest open windows and turn on fans while singing loudly. When the guest gets frustrated, the newcomer demands to be treated like a 'wife,' leading to a punchline where the guest starts bossing him around like a domestic servant, yelling for water and for him to shut up.",
+    "keywords_hy": [
+      "հյուրանոց",
+      "համար",
+      "Օմսկ",
+      "գիտությունների թեկնածու",
+      "ադմինիստրատոր",
+      "շոգ",
+      "բեղեր"
+    ],
+    "keywords_en": [
+      "hotel",
+      "room service",
+      "Omsk",
+      "scientist",
+      "roommate",
+      "annoying relative",
+      "administrator"
+    ],
+    "keywords_translit": [
+      "hyuranoc",
+      "hamar",
+      "Omsk",
+      "gitutyunneri teknacu",
+      "administrator",
+      "shoq",
+      "begher"
+    ],
+    "catchphrases": [
+      "Իմ եղբայրն է եկել Օմսկից",
+      "ինչպես կվարվեք ձեր սեփական կնոջ հետ",
+      "բաժակ ջուր բեր"
+    ],
+    "topics": [
+      "transport",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

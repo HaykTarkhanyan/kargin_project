@@ -1,0 +1,67 @@
+{
+  "video_id": "SVTouedZkkU",
+  "seq": 235,
+  "kargin_id": 235,
+  "title": "Kargin Haghordum sketch 317 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1507,
+  "gen_sec": 3.03,
+  "prompt_tokens": 1779,
+  "output_tokens": 465,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002285,
+  "annotation": {
+    "title_hy": "Գաղտնիք և Հնդկական Կինո",
+    "title_en": "Secrets and Indian Cinema",
+    "summary_en": "A husband prepares to confess a minor secret to his partner, only to be completely overshadowed by a shocking confession of infidelity.",
+    "summary_detailed_en": "The sketch takes place in a living room where two men are seated on an antique couch. One man, wearing glasses, starts a serious conversation about honesty in their two-year relationship, arguing that there should be no secrets between two people who love each other. The other man is portrayed as a flamboyant, eccentric character wearing a curly wig and a colorful patterned jacket, frequently checking his reflection in a compact mirror. The first man begins to confess that his Sunday business meetings near the 'Kino Yerevan' cinema were actually a cover for something else. However, his partner interrupts to confess first, admitting to a year-long affair with the first man's brother to 'get the weight off his chest.' Stunned by this massive revelation of betrayal, the first man dejectedly reveals his own trivial secret: he simply goes there because he loves watching Indian movies. The humor stems from the extreme disparity between a mundane personal preference and a life-altering confession of infidelity.",
+    "keywords_hy": [
+      "ամուսիններ",
+      "գաղտնիք",
+      "խոստովանություն",
+      "դավաճանություն",
+      "եղբայր",
+      "հնդկական կինո",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "husbands",
+      "secret",
+      "confession",
+      "betrayal",
+      "infidelity",
+      "Indian cinema",
+      "brother",
+      "comedy sketch"
+    ],
+    "keywords_translit": [
+      "amusinner",
+      "gaghtniq",
+      "khostovanutyun",
+      "davachanutyun",
+      "yeghbayr",
+      "hndkakan kino",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "հնդկական կինո եմ սիրում"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

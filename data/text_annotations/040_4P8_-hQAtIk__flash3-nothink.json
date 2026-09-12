@@ -1,0 +1,70 @@
+{
+  "video_id": "4P8_-hQAtIk",
+  "seq": 40,
+  "kargin_id": 40,
+  "title": "Kargin Haghordum sketch 605 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "040_Kargin_Haghordum_sketch_605_Hayko_Mko_4P8_-hQAtIk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1698,
+  "gen_sec": 10.48,
+  "prompt_tokens": 1892,
+  "output_tokens": 570,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002656,
+  "annotation": {
+    "title_hy": "Խանութի պահեստի մաքրությունը",
+    "title_en": "Cleaning the Store Warehouse",
+    "summary_en": "Three men agree to clean a store's warehouse for a week in exchange for alcohol, eventually deciding to drink right there amidst the clutter.",
+    "summary_detailed_en": "The sketch takes place in a dim, cluttered warehouse storage room filled with crates, sacks, and a prominent stove pipe overhead. Three men, wearing various hats including a fedora and a military-style camo cap, discuss a deal they made to acquire alcohol. One character explains that they were given the bottle without paying upfront because they agreed to clean the store's warehouse. The men weigh the labor involved, noting the job will take a week. One character compares this favorably to a past ordeal where they had to polish a nuclear power plant reactor for ten days just for a single bottle of vodka, calling the current deal a 'central' (great) bargain. Looking for a place to consume their prize, they decide to drink immediately in the warehouse. The scene shifts to two of them sitting at an improvised crate table, pouring drinks into plastic cups. The sketch concludes with a classic comedic complaint about the balance of priorities when one man asks if they came there to drink or to actually eat food.",
+    "keywords_hy": [
+      "պահեստ",
+      "խմիչք",
+      "արաղ",
+      "ատոմակայան",
+      "աշխատանք",
+      "մաքրություն",
+      "ընկերներ",
+      "խանութ"
+    ],
+    "keywords_en": [
+      "warehouse",
+      "alcohol",
+      "vodka",
+      "nuclear power plant",
+      "cleaning",
+      "friends",
+      "bargain",
+      "drinking"
+    ],
+    "keywords_translit": [
+      "pahest",
+      "xmichq",
+      "aragh",
+      "atomakayan",
+      "ashxatanq",
+      "maqrutyun",
+      "ynkerner",
+      "xanut"
+    ],
+    "catchphrases": [
+      "ես չեմ ջօգուն ստե եկել նք խմելու թե հաց ուտելու:"
+    ],
+    "topics": [
+      "drinking",
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

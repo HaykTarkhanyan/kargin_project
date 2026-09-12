@@ -1,0 +1,70 @@
+{
+  "video_id": "Rz_OeXNrwK8",
+  "seq": 619,
+  "kargin_id": 619,
+  "title": "Kargin Haghordum sketch 541 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1985,
+  "gen_sec": 4.68,
+  "prompt_tokens": 2115,
+  "output_tokens": 577,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002789,
+  "annotation": {
+    "title_hy": "Վատ հրաշագործը սարերում",
+    "title_en": "The Bad Magician in the Mountains",
+    "summary_en": "A stranded rock climber puts his life in the hands of a companion who claims to be a magician capable of ensuring a soft landing through magic.",
+    "summary_detailed_en": "The sketch takes place on a rocky hillside during the day. One climber is stuck high on a cliff face after his safety harness fails. Desperate, he shouts for help, explaining that he cannot descend without a rope. His companion, standing further down, dismisses the need for a rope and claims to be a powerful magician. Despite the climber's logical protests that he is at least 30 meters up and will die if he falls, the 'magician' insists on his supernatural abilities, even accusing the climber of not trusting their friendship. Eventually, the climber is convinced to let go of the rocks and jump, trusting the magic. The magician performs a series of mystical hand gestures and commands him to leap. The climber falls and hits the ground with a thud, remaining motionless. The companion walks over to the body, looks down, and dryly remarks that the man is dead, concluding that he is not actually such a good magician after all.",
+    "keywords_hy": [
+      "լեռնագնաց",
+      "հրաշագործ",
+      "սարեր",
+      "վթար",
+      "ստրախովկա",
+      "թռիչք",
+      "հավատ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "climber",
+      "magician",
+      "mountains",
+      "accident",
+      "safety rope",
+      "jump",
+      "faith",
+      "joke"
+    ],
+    "keywords_translit": [
+      "lernagnac",
+      "hrashagorc",
+      "sarer",
+      "vtary",
+      "strakhovka",
+      "tichq",
+      "havat",
+      "katak"
+    ],
+    "catchphrases": [
+      "Արա մեռավ էս հարիֆը։",
+      "Դուրսա գալի, ես շատ վատ հրաշագործ եմ"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

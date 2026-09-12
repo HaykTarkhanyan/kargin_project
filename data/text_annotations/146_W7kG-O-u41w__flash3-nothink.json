@@ -1,0 +1,69 @@
+{
+  "video_id": "W7kG-O-u41w",
+  "seq": 146,
+  "kargin_id": 146,
+  "title": "Kargin Haghordum sketch 382 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2103,
+  "gen_sec": 21.19,
+  "prompt_tokens": 2084,
+  "output_tokens": 596,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00283,
+  "annotation": {
+    "title_hy": "Պատմության Քննություն և Ռեմոնտ",
+    "title_en": "History Exam and Renovation",
+    "summary_en": "A strict history professor tries to fail his students, but after a rector demands he pass them quickly due to school renovations, the professor turns the exam into a repetitive grading loop.",
+    "summary_detailed_en": "The sketch takes place in a classroom where a strict, mustached history professor, Comrade Martirosyan, addresses his students. He warns them that his subject is not a joke and that those hoping for an easy pass will fail or even face expulsion. During his lecture, a rector enters the room and pulls the professor aside, informing him that the institute is undergoing urgent renovations and the building needs to be cleared. The rector insists that Martirosyan should pass the students immediately without failing anyone so the construction work can begin. Despite his academic pride, the professor relents. He returns to his desk and begins a surreal, repetitive process. He asks the students who among them believes they deserve a 5; they bring their grade books and he signs them. He then asks who deserves a 4, then a 3. Finally, he confronts a student who hasn't stepped forward, telling him he must go to a 'liquid' (makeup exam). When the student asks when the makeup exam is, Martirosyan immediately restarts the cycle, asking again who deserves a 5, effectively passing everyone to satisfy the renovation schedule.",
+    "keywords_hy": [
+      "քնություն",
+      "ուսանող",
+      "դասախոս",
+      "ռեկտոր",
+      "ռեմոնտ",
+      "ինստիտուտ",
+      "պատմություն",
+      "ստուգարք"
+    ],
+    "keywords_en": [
+      "exam",
+      "student",
+      "professor",
+      "rector",
+      "renovation",
+      "institute",
+      "history",
+      "grading"
+    ],
+    "keywords_translit": [
+      "qnnum",
+      "usanogh",
+      "dasaxos",
+      "rektor",
+      "remont",
+      "institut",
+      "patmutyun",
+      "stugarq"
+    ],
+    "catchphrases": [
+      "ով է գտնում որ այսօրվա քնությանը նա պատրաս է 5ի"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

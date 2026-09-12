@@ -1,0 +1,69 @@
+{
+  "video_id": "OKKWXnxY9hw",
+  "seq": 367,
+  "kargin_id": 367,
+  "title": "Kargin Haghordum sketch 297 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1680,
+  "gen_sec": 14.37,
+  "prompt_tokens": 1892,
+  "output_tokens": 592,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002722,
+  "annotation": {
+    "title_hy": "Ֆիզիկայի դասը և հացի թանկացումը",
+    "title_en": "Physics Lesson and Bread Prices",
+    "summary_en": "A physics teacher attempts to test his students' logic with a complex pseudo-scientific question, only to receive a hilariously cynical answer about the Armenian economy.",
+    "summary_detailed_en": "The sketch is set in a typical school classroom where a mustached teacher is finishing a lecture on Archimedes' principle. He writes the formula F=ρgV on the chalkboard, explaining the variables for density, gravitational acceleration, and volume with energetic gestures. After instructing the students to close their notebooks, he shifts the focus from formulas to logic. He poses a convoluted, nonsensical logical question to the class: what would happen in the context of Armenia if 'ultraviolet cytogenesis' collided with 'inframodulated compocrealism'? A student responds instantly and confidently that the price of bread and oil will go up. When the bewildered teacher asks for a justification, the student explains his father's logic: in Armenia, whenever something incomprehensible or strange happens, it is invariably followed by an increase in the price of basic staples like bread and oil. The sketch ends on this satirical note regarding local socio-economic realities.",
+    "keywords_hy": [
+      "դպրոց",
+      "ֆիզիկայի դաս",
+      "ուսուցիչ",
+      "աշակերտ",
+      "տրամաբանություն",
+      "հացի թանկացում",
+      "Արքիմեդի ուժ",
+      "բանաձև"
+    ],
+    "keywords_en": [
+      "school",
+      "physics lesson",
+      "teacher",
+      "student",
+      "logic",
+      "inflation",
+      "bread prices",
+      "Archimedes principle"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "fizikayi das",
+      "usucich",
+      "ashakert",
+      "tramabanutyun",
+      "haci tankacum",
+      "Arqimedi uj",
+      "banadzev"
+    ],
+    "catchphrases": [
+      "սկզբից մի հատ անհասկանալի բանա կատարվում, հետո Հացն ու ձեթը թանկանումա։"
+    ],
+    "topics": [
+      "school",
+      "money"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

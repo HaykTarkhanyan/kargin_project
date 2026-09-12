@@ -1,0 +1,72 @@
+{
+  "video_id": "z2jGcE3O2yA",
+  "seq": 465,
+  "kargin_id": 465,
+  "title": "Kargin Haghordum sketch 090 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "465_Kargin_Haghordum_sketch_090_Hayko_Mko_z2jGcE3O2yA.ro.json",
+    "visual": true
+  },
+  "input_chars": 2410,
+  "gen_sec": 8.41,
+  "prompt_tokens": 2285,
+  "output_tokens": 616,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002991,
+  "annotation": {
+    "title_hy": "Նկարչության դաս և տնօրենը",
+    "title_en": "Drawing Class and the Principal",
+    "summary_en": "A drawing teacher is offended when a student interprets her chalkboard sketch as a butt, leading to a hilarious misunderstanding by the school principal.",
+    "summary_detailed_en": "The sketch takes place in an elementary school classroom. A female teacher (played by a woman) informs her students that instead of them drawing, she will draw images on the chalkboard for them to guess. She draws two adjacent circles, which a student named Tigran immediately identifies as a 'butt' (hetuyk). Outraged by the perceived insolence, the teacher storms out to find the principal. In the hallway, she meets the mustached principal (played by a male comedian in a suit) and complains that the class is like 'hell' and her nerves are fried. The principal calms her down and enters the classroom to restore order. He scolds the students for their lack of gratitude toward such a specialist, their use of mobile phones, and their non-uniform clothing. However, the punchline hits when the principal looks at the chalkboard, sees the teacher's drawing, and, assuming it was a prank by a student, angrily demands to know 'Who drew this butt on the chalkboard?', proving the student's initial observation was visually accurate.",
+    "keywords_hy": [
+      "դպրոց",
+      "դասարան",
+      "ուսուցչուհի",
+      "տնօրեն",
+      "նկարչություն",
+      "գրատախտակ",
+      "հետույք",
+      "աշակերտ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "school",
+      "classroom",
+      "teacher",
+      "principal",
+      "drawing lesson",
+      "chalkboard",
+      "butt",
+      "student",
+      "kargin haghordum"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "dasaran",
+      "usucchuhi",
+      "tnoren",
+      "nkarchutyun",
+      "gratakhtak",
+      "hetuyk",
+      "ashakert",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Էս հետույքը ովա՞ գրատախտակին նկարել։"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

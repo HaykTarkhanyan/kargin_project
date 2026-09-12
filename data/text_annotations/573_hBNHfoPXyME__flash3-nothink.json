@@ -1,0 +1,72 @@
+{
+  "video_id": "hBNHfoPXyME",
+  "seq": 573,
+  "kargin_id": 573,
+  "title": "Kargin Haghordum sketch 424 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2501,
+  "gen_sec": 5.68,
+  "prompt_tokens": 2444,
+  "output_tokens": 657,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003193,
+  "annotation": {
+    "title_hy": "Խոզի մսի վաճառողը",
+    "title_en": "The Pork Seller",
+    "summary_en": "A butcher tries to justify his high meat prices with contradictory stories about what the pig ate, leading to trouble with the authorities.",
+    "summary_detailed_en": "The sketch takes place in a butcher shop, where a mustached butcher wearing a white apron stands behind a counter surrounded by hanging meat carcasses. A customer in a suit approaches and asks about the price and diet of the pig. The butcher, wanting to justify a high price of 5000 dram, claims he fed the pig luxury items like black caviar and chocolate. The customer reveals himself as a National Security officer investigating contraband luxury goods. Terrified, the butcher offers the meat as a bribe to avoid the station. When a second customer (an elderly relative) asks the same question, the butcher—fearing another undercover agent—claims the pig ate only trash, diapers, and tires. This backfires when the man reveals he is from the Sanitary-Epidemiological station, threatening to seize the 'infected' meat for testing. Finally, a third customer asks what the pig ate. Exhausted and paranoid, the butcher gives the ultimate punchline: he simply gave the pig 1000 dram a day and let the animal buy whatever it wanted to eat, washing his hands of the responsibility.",
+    "keywords_hy": [
+      "խոզի միս",
+      "մսավաճառ",
+      "սև իկրա",
+      "ազգային անվտանգություն",
+      "սանիպիտկայան",
+      "կաշառք",
+      "զիբիլ",
+      "խանութ"
+    ],
+    "keywords_en": [
+      "pork meat",
+      "butcher shop",
+      "black caviar",
+      "national security",
+      "health inspector",
+      "bribe",
+      "garbage",
+      "pig diet"
+    ],
+    "keywords_translit": [
+      "xozi mis",
+      "msavachar",
+      "sev ikra",
+      "azgayin anvtangutyun",
+      "sanepitkayan",
+      "kasharq",
+      "zibil",
+      "xanut"
+    ],
+    "catchphrases": [
+      "Ընգեր",
+      "Սանիպիտ ախպեր",
+      "Չգիտեմ ախպեր, օրեկան 1000 դրամ տվել եմ իրան ինքը իրա համար ինչ ուզե առե կերել ա"
+    ],
+    "topics": [
+      "shop_market",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

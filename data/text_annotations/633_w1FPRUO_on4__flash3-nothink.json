@@ -1,0 +1,70 @@
+{
+  "video_id": "w1FPRUO_on4",
+  "seq": 633,
+  "kargin_id": 633,
+  "title": "Kargin Haghordum sketch 555 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "633_Kargin_Haghordum_sketch_555_Hayko_Mko_w1FPRUO_on4.hy.json",
+    "visual": true
+  },
+  "input_chars": 1605,
+  "gen_sec": 9.51,
+  "prompt_tokens": 1835,
+  "output_tokens": 628,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002801,
+  "annotation": {
+    "title_hy": "Զորամասի Զամբալիտի Զեկույցը",
+    "title_en": "The Military Unit's Discipline Report",
+    "summary_en": "A proud 'zampalit' (deputy commander for political affairs) brags to his new commanding officer about how much discipline has improved under his watch.",
+    "summary_detailed_en": "The sketch is set in a military office where a high-ranking officer in camouflage with a thick mustache sits at a desk, featuring an Armenian flag and a computer in the background. A subordinate officer, acting as the 'zampalit' (deputy commander for political affairs), delivers a lengthy and self-congratulatory report to the newly appointed commanding officer. He claims that when he first arrived a year ago, discipline was in a miserable state, but thanks to his tireless work, it has reached a high level. To illustrate this 'progress,' a soldier in a striped undershirt enters the room. The soldier politely asks for permission to take the officer's car. The zampalit turns to the commander and proudly points out that a year ago, the soldier would have just stolen the car without asking, whereas now he at least seeks permission first. The zampalit rewards the soldier's 'discipline' by letting him take the vehicle, even asking for a favor in return, highlighting the absurdity of what he considers high standards of military order.",
+    "keywords_hy": [
+      "բանակ",
+      "զորամաս",
+      "զամբալիտ",
+      "հրամանատար",
+      "կարգապահություն",
+      "մայոր",
+      "զինվոր",
+      "զեկույց"
+    ],
+    "keywords_en": [
+      "army",
+      "military unit",
+      "officer",
+      "commander",
+      "discipline",
+      "major",
+      "soldier",
+      "zampalit"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zoramas",
+      "zampalit",
+      "hramanatar",
+      "kargapahutyun",
+      "mayor",
+      "zinvor",
+      "zekuyts"
+    ],
+    "catchphrases": [
+      "Ապրես ազիզ",
+      "Այ տեսնու՞մ եք, իսկ անցած տարի չէր հարցնի, միանգամից մեքենան կվերցն ու կգնար:"
+    ],
+    "topics": [
+      "army",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "absurd"
+    ]
+  }
+}

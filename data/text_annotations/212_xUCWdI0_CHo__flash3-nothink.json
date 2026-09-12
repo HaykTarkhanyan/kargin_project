@@ -1,0 +1,68 @@
+{
+  "video_id": "xUCWdI0_CHo",
+  "seq": 212,
+  "kargin_id": 212,
+  "title": "Kargin Haghordum sketch 392 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "212_Kargin_Haghordum_sketch_392_Hayko_Mko_xUCWdI0_CHo.hy.json",
+    "visual": true
+  },
+  "input_chars": 1070,
+  "gen_sec": 24.5,
+  "prompt_tokens": 1514,
+  "output_tokens": 574,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002479,
+  "annotation": {
+    "title_hy": "Փախուստ երկաթգծի վրա",
+    "title_en": "Escape on the Tracks",
+    "summary_en": "A woman flees in terror from a man chasing her through industrial areas, only to discover he has a very mundane reason for his pursuit.",
+    "summary_detailed_en": "The sketch is set in an industrial outdoor area featuring railway tracks and back alleyways during the day. A woman wearing a green top is shown running in a state of panic, being chased across overgrown fields and urban ruins by a man wearing a vest and sunglasses who appears to be an armed pursuer. The chase sequence is physically intense, moving across railway tracks and up the stairs of a pedestrian overpass. The woman, believing she is about to be a victim of a violent crime, pleads for mercy, stating she is ready for anything as long as it isn't 'by force.' In a comedic subversion of the high-stakes thriller trope, the pursuer stops, completely exasperated. Instead of being a criminal, he is simply a man in a hurry who is annoyed by her dramatic reaction. He tells her he doesn't have time for this because he is running late for work, questioning her sanity and calling her an 'animal' for wasting his time.",
+    "keywords_hy": [
+      "երկաթգիծ",
+      "հալածանք",
+      "փախուստ",
+      "ուշանալ",
+      "աշխատանք",
+      "զենք",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "railway tracks",
+      "chase",
+      "escape",
+      "running late",
+      "work",
+      "gun",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "erkatgic",
+      "halacanq",
+      "paxust",
+      "ushanal",
+      "ashxatanq",
+      "zenq",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "խնդրում եմ, ես ամեն ինչի պատրաստ եմ",
+      "քուր ջան գժվել ես ես ժամանակ չունեմ",
+      "ես գործից ուշանում եմ"
+    ],
+    "topics": [
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

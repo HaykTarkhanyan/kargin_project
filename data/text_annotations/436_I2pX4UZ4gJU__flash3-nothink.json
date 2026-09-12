@@ -1,0 +1,75 @@
+{
+  "video_id": "I2pX4UZ4gJU",
+  "seq": 436,
+  "kargin_id": 436,
+  "title": "Kargin Haghordum - Tmranyut (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "436_Kargin_Haghordum_-_Tmranyut_Hayko_Mko_I2pX4UZ4gJU.en.json",
+    "visual": true
+  },
+  "input_chars": 2065,
+  "gen_sec": 5.72,
+  "prompt_tokens": 1896,
+  "output_tokens": 651,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002901,
+  "annotation": {
+    "title_hy": "Զենք, զինամթերք, թմրանյութ",
+    "title_en": "Weapons and Narcotics Checkpoint",
+    "summary_en": "A driver at a rural checkpoint tries to act cool while being questioned by guards about illegal goods, but his phone conversation betrays him.",
+    "summary_detailed_en": "The sketch takes place at a rural military or police checkpoint during the day, featuring a road barrier and guards armed with rifles. A man in a blue car is stopped by Sergeant Avagyan, who asks the standard protocol question regarding possession of weapons, ammunition, or narcotics. The driver, acting overly familiar and relaxed, dismisses the questions with slang, at one point sarcastically asking if the officer thinks this is a comedy night. Despite his protests, the officers order him to exit the vehicle for a search. While being inspected, the driver takes a phone call, openly bragging to the person on the other end about how high he is ('in a tunnel') and mocking the guards' inability to find the drugs he has hidden in the trunk. The humor stems from the driver's blatant admission of guilt over the phone while standing right next to the officers who are searching him, showcasing his drug-induced lack of awareness.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "զենք զինամթերք",
+      "թմրանյութ",
+      "մեքենա",
+      "ստուգում",
+      "հումոր",
+      "ճանապարհային ոստիկանություն",
+      "սերժանտ",
+      "բագաժնիկ"
+    ],
+    "keywords_en": [
+      "police",
+      "weapons",
+      "narcotics",
+      "car search",
+      "checkpoint",
+      "drugs",
+      "sergeant",
+      "trunk",
+      "military checkpoint"
+    ],
+    "keywords_translit": [
+      "vostikanutyun",
+      "zenq zinamterq",
+      "tmranyut",
+      "meqena",
+      "stugum",
+      "humor",
+      "chanaparhayin vostikanutyun",
+      "serjant",
+      "bagajnik"
+    ],
+    "catchphrases": [
+      "զենք, զինամթերք, թմրանյութ",
+      "չէ լավ ա ապեր մերսի ցավդ տանեմ",
+      "բագաժնիկում ընենց տեղ եմ պայել ձև չի գտնեն"
+    ],
+    "topics": [
+      "police",
+      "crime",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

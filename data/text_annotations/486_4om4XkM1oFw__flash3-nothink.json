@@ -1,0 +1,66 @@
+{
+  "video_id": "4om4XkM1oFw",
+  "seq": 486,
+  "kargin_id": 486,
+  "title": "Kargin Haghordum sketch 114 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "486_Kargin_Haghordum_sketch_114_Hayko_Mko_4om4XkM1oFw.tr.json",
+    "visual": true
+  },
+  "input_chars": 1273,
+  "gen_sec": 12.93,
+  "prompt_tokens": 1643,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00279,
+  "annotation": {
+    "title_hy": "Երկրորդ կնոջ թաղումը",
+    "title_en": "Second Wife's Funeral",
+    "summary_en": "During a funeral procession, a man offers his condolences to a friend, only to accidentally transition into congratulations upon learning about a secret second marriage.",
+    "summary_detailed_en": "The sketch is set in a sunny residential courtyard between apartment buildings where a large funeral procession is underway. A crowd of mourners dressed in dark clothing follows a hearse carrying a coffin, with several women visibly weeping. Amidst this somber atmosphere, a young man in a striped shirt approaches his friend, Serozh, who is wearing sunglasses and looks grieving. The man offers his heartfelt condolences, asking who has passed away. Serozh reveals that he is burying his second wife. Surprised by this revelation, the friend's tone shifts instantly from mourning to excitement because he was unaware that Serozh had even remarried. Forgetting the solemnity of the funeral, the friend begins to congratulate Serozh enthusiastically on the marriage he missed, using joyful phrases like 'Achkd luys' (light to your eyes) and 'Shnorhavor' (congratulations), creating a dark comedic contrast between the burial taking place and his late celebration of the union.",
+    "keywords_hy": [
+      "թաղում",
+      "ցավակցություն",
+      "շնորհավորանք",
+      "կին",
+      "երկրորդ ամուսնություն",
+      "դիակառք",
+      "սուգ"
+    ],
+    "keywords_en": [
+      "funeral",
+      "condolences",
+      "congratulations",
+      "wife",
+      "second marriage",
+      "hearse",
+      "mourning"
+    ],
+    "keywords_translit": [
+      "taghum",
+      "tsavaktsutyun",
+      "shnorhavoranq",
+      "kin",
+      "erkrord amusnutyun",
+      "diakarq",
+      "sug"
+    ],
+    "catchphrases": [
+      "բա ապե այ սենց վատ պատմությունների մեջ ենք ապե ցավակցում եմ ապե ովա երկրորդ կնգաս եմ թաղում ոնց դու երկրորդ անգամ էիր պսակվել իիի բա ես չգիտեի շնորհավոր ցավդ տանեմ ախպերս ինչ լավ բան ասիր աչքդ լույս մեռնեմ ջանիդ"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

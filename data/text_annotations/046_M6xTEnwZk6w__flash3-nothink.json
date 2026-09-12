@@ -1,0 +1,71 @@
+{
+  "video_id": "M6xTEnwZk6w",
+  "seq": 46,
+  "kargin_id": 46,
+  "title": "Kargin Haghordum sketch 611 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2290,
+  "gen_sec": 29.75,
+  "prompt_tokens": 2148,
+  "output_tokens": 648,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003018,
+  "annotation": {
+    "title_hy": "Պրոֆեսիոնալ Մաքրողը",
+    "title_en": "The Professional Cleaner",
+    "summary_en": "A man offers his services as a 'cleaner' to a bartender, explaining his unique philosophy of conflict resolution by throwing out the root cause of any trouble.",
+    "summary_detailed_en": "In a rustic, brick-walled pub, a young man in a dark jacket approaches a bartender wearing a waistcoat and bow tie. The young man offers his services as a 'cleaner' (chistilshik) or bouncer, claiming he can handle any bad client. When the bartender insists the establishment is peaceful, the man provides increasingly absurd examples of his methods. He explains that if a man and his fiancée are bothered by drunkards at the next table, the root cause of the conflict is the girl, so he would 'take the girl and throw her out.' In another example, he suggests that if a customer gets angry because there is no soda, the gas cylinder is to blame, so he would 'take the gas cylinder and throw it out.' Throughout the conversation, a heavy-set man in a grey suit sits at a nearby table smoking and drinking coffee, occasionally falling over in a slapstick manner, eventually pulling the heavy wooden table down on top of himself. The sketch ends when the man asks for the job, and the bartender, impressed by the applicant's physical demonstration, remarks that they should wait for the manager to crawl out from under the table to decide.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "բարմեն",
+      "մաքրող",
+      "կռիվ",
+      "շպրտել",
+      "հարբած",
+      "բառ",
+      "գազի բալոն"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "cleaner",
+      "bouncer",
+      "bartender",
+      "pub conflict",
+      "throwing out",
+      "absurd logic",
+      "slapstick"
+    ],
+    "keywords_translit": [
+      "Kargin Haghordum",
+      "barmen",
+      "maqrox",
+      "kriv",
+      "shprtel",
+      "harbac",
+      "bar",
+      "gazi balon"
+    ],
+    "catchphrases": [
+      "վեկալում եմ ու շպրտում եմ",
+      "հեսա տնօրենը սեղանի տակից դուրս գա տենանք ինչ ա ասում"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "work",
+      "drinking"
+    ],
+    "humor_type": [
+      "absurd",
+      "slapstick"
+    ]
+  }
+}

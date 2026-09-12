@@ -1,0 +1,67 @@
+{
+  "video_id": "HQWbF7x1b9w",
+  "seq": 168,
+  "kargin_id": 168,
+  "title": "Kargin Haghordum sketch 212 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2274,
+  "gen_sec": 24.73,
+  "prompt_tokens": 2227,
+  "output_tokens": 448,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002457,
+  "annotation": {
+    "title_hy": "Ծովայինի դեղերը",
+    "title_en": "The Sailor's Medications",
+    "summary_en": "A veteran sailor gives his grandson advice on what to pack for a long voyage, leading to a misunderstanding at the pharmacy.",
+    "summary_detailed_en": "In a living room decorated with a model ship, a veteran sailor wearing a striped shirt and a blonde wig gives advice to his grandson, a naval officer in full white uniform who has just graduated. The grandfather, boasting about his titles like 'Captain of the First Rank' and 'Hero of the Soviet Union', insists that for a long-distance voyage, two things are essential: nausea medication and condoms. He emphasizes the dangers of ports and the risk of leaving children fatherless. The grandson repeatedly visits a local pharmacy to stock up, increasing the quantity each time at his grandfather's urging until he asks for twenty of each. The pharmacist, confused by the repetitive and specific shopping list, finally asks the punchline: if the girl makes him so nauseous that he needs medicine, why is he having sex with her in the first place? The sketch ends on this humorous misunderstanding of the two separate needs.",
+    "keywords_hy": [
+      "միչման",
+      "նավաստի",
+      "դեղատուն",
+      "պահպանակ",
+      "սրտխառնոց",
+      "ծովային",
+      "նավատորմ"
+    ],
+    "keywords_en": [
+      "midshipman",
+      "sailor",
+      "pharmacy",
+      "condoms",
+      "nausea medicine",
+      "navy",
+      "voyage"
+    ],
+    "keywords_translit": [
+      "michman",
+      "navasti",
+      "dexatun",
+      "pahpanak",
+      "srtxarnoc",
+      "tsovayin",
+      "navatorm"
+    ],
+    "catchphrases": [
+      "կապիտան պեռվըվը ռանգը գնաաաց գեռոյ սավեցկվը սայուզը սիրում եմ որ գովում են ինձ բաքվի պատվավոր քաղաքացի էդ անպայման պետք չէր ասեիր վերջը"
+    ],
+    "topics": [
+      "family",
+      "medical",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

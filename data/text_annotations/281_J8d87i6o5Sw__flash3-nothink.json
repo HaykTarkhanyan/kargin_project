@@ -1,0 +1,66 @@
+{
+  "video_id": "J8d87i6o5Sw",
+  "seq": 281,
+  "kargin_id": 281,
+  "title": "Kargin Haghordum sketch 234 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1284,
+  "gen_sec": 4.11,
+  "prompt_tokens": 1685,
+  "output_tokens": 389,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00201,
+  "annotation": {
+    "title_hy": "Ձմերուկի կեսը",
+    "title_en": "Half a Watermelon",
+    "summary_en": "A difficult customer insists on buying exactly half of a watermelon, leading a frustrated clerk to consult his manager using colorful insults.",
+    "summary_detailed_en": "The sketch begins in a grocery store where a customer approaches a clerk at the produce scale with a watermelon. The customer demands to buy only half of the watermelon, but the clerk refuses, stating they do not sell them in halves. A circular argument ensues where the customer compares the purchase to buying a portion of cheese, mocking the clerk's logic. Frustrated and unable to win the verbal sparring, the clerk leaves to consult the store manager in a back office. Standing by a desk with a calculator and shelves, the clerk describes the customer to his boss as a 'donkey,' a 'sheep,' and a 'tall, bald animal' who is making an absurd request. However, as the clerk finishes his insult, he realizes the customer has followed him into the office and is standing right behind him. Thinking quickly, the clerk gestures to the customer and tells the manager that this 'dear brother' wants to buy the other half of the watermelon, attempting to save face after his insults were overheard.",
+    "keywords_hy": [
+      "ձմերուկ",
+      "խանութ",
+      "վաճառող",
+      "կես",
+      "հաճախորդ",
+      "վեճ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "watermelon",
+      "grocery store",
+      "clerk",
+      "customer",
+      "half",
+      "argument",
+      "manager"
+    ],
+    "keywords_translit": [
+      "dzmeruk",
+      "xanut",
+      "vacharox",
+      "kes",
+      "hachaxord",
+      "vech",
+      "kargin haxordum"
+    ],
+    "catchphrases": [
+      "ձմերուկու կեսը"
+    ],
+    "topics": [
+      "shop_market",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

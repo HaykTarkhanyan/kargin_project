@@ -1,0 +1,75 @@
+{
+  "video_id": "pi2au8rx0XQ",
+  "seq": 568,
+  "kargin_id": 568,
+  "title": "Kargin Haghordum sketch 403 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "568_Kargin_Haghordum_sketch_403_Hayko_Mko_pi2au8rx0XQ.es.json",
+    "visual": true
+  },
+  "input_chars": 1739,
+  "gen_sec": 9.66,
+  "prompt_tokens": 1833,
+  "output_tokens": 628,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002801,
+  "annotation": {
+    "title_hy": "Խմած վարորդը և բոմժը",
+    "title_en": "Drunken Driver and the Tramp",
+    "summary_en": "Two men having a picnic in a forest get terrified when a mysterious figure keeps appearing at their car window while they are driving fast in the rain.",
+    "summary_detailed_en": "The sketch begins in a shaded picnic grove where two young men wearing baseball caps are enjoying a heavy meal with bread and multiple bottles. After drinking until they pass out on their picnic mat, the scene shifts to a rainy night inside their green Lada sedan. The driver and passenger are in a state of panic, trying to flee the area as a torrential downpour ruins their mood. Suddenly, a wild-haired, frightening figure appears outside the window. Despite the driver accelerating to 80 km/h, the mysterious man keeps pace with the car. The terrified friends first give him a pack of cigarettes and then a lighter through the window, hoping he will leave. They begin to wonder if the figure is a ghost. In the final twist, the figure asks if they need help pushing the car, revealing that they aren't actually driving fast but are stuck in the mud, and he has been walking alongside them the whole time.",
+    "keywords_hy": [
+      "խմած",
+      "անձրև",
+      "մեքենա",
+      "բոմժ",
+      "պիկնիկ",
+      "վախենալու",
+      "ծիծաղելի",
+      "ճանապարհ",
+      "գազ տուր"
+    ],
+    "keywords_en": [
+      "drunk",
+      "rain",
+      "car",
+      "tramp",
+      "picnic",
+      "scary",
+      "funny",
+      "road",
+      "accelerate"
+    ],
+    "keywords_translit": [
+      "xmac",
+      "andzrev",
+      "meqena",
+      "bomzh",
+      "piknik",
+      "vaxenalu",
+      "cicaxeli",
+      "chanaparh",
+      "gaz tur"
+    ],
+    "catchphrases": [
+      "դու մենակ գազ տուր գազ տուր ստեղից հելնենք",
+      "ապեր պետքա օգնեմ բռդեմ ոնց-որ լռվել էք",
+      "գնա բռդի արա այ բոմժ"
+    ],
+    "topics": [
+      "drinking",
+      "leisure_outing",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

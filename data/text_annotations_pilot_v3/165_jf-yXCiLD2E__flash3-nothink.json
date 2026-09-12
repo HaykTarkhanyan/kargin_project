@@ -1,0 +1,65 @@
+{
+  "video_id": "jf-yXCiLD2E",
+  "seq": 165,
+  "kargin_id": 165,
+  "title": "Kargin Haghordum - Nver (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1918,
+  "gen_sec": 9.29,
+  "prompt_tokens": 2021,
+  "output_tokens": 424,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002282,
+  "annotation": {
+    "title_hy": "Ծննդյան անմոռանալի նվերը",
+    "title_en": "An Unforgettable Birthday Gift",
+    "summary_en": "After his university friends leave his birthday party, a young man is visited by two neighborhood toughs who offer him a 'gift' he will never forget: a physical beating.",
+    "summary_detailed_en": "The scene opens in an apartment dining room where Alik is celebrating his birthday with university classmates. Everyone is wearing party hats, laughing, and singing 'Happy Birthday.' As the friends prepare to leave, Alik thanks them for coming. Once they depart, he hears a knock at the door and finds two men dressed in black leather jackets standing there. Thinking they are friends from the neighborhood who remembered his birthday, Alik warmly invites them in, though he warns them that the food has already run out. The two men decline the food, explaining they are only there to deliver a 'modest gift.' They mockingly discuss how they rejected ideas like ties or CDs because those items wear out and leave no lasting memories. Instead, they explain they wanted to give him something he will remember for the rest of his life. The sketch ends with the punchline that their 'gift' is a brutal beating, resulting in a physical scuffle where Alik is shoved and intimidated by the two thugs.",
+    "keywords_hy": [
+      "ծնունդ",
+      "նվեր",
+      "քուչի տղեք",
+      "ծեծ",
+      "հիշողություն",
+      "կաշվե կուրտկա"
+    ],
+    "keywords_en": [
+      "birthday",
+      "gift",
+      "neighborhood guys",
+      "beating",
+      "memory",
+      "leather jacket",
+      "party"
+    ],
+    "keywords_translit": [
+      "tsnund",
+      "nver",
+      "kuchi tgheq",
+      "tsets",
+      "hishoghutyun",
+      "kashve kurtka"
+    ],
+    "catchphrases": [
+      "Որոշինք ծնունդիդ օրով քեզ մի լավ տփենք։"
+    ],
+    "topics": [
+      "party_guests",
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

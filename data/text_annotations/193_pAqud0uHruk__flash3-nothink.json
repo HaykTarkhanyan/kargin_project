@@ -1,0 +1,66 @@
+{
+  "video_id": "pAqud0uHruk",
+  "seq": 193,
+  "kargin_id": 193,
+  "title": "Kargin Haghordum sketch 383 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "193_Kargin_Haghordum_sketch_383_Hayko_Mko_pAqud0uHruk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1352,
+  "gen_sec": 17.17,
+  "prompt_tokens": 1650,
+  "output_tokens": 582,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002571,
+  "annotation": {
+    "title_hy": "Որձ թե՞ էգ որջը",
+    "title_en": "Male or Female Moose",
+    "summary_en": "A husband and wife argue over the gender of a moose while watching a nature documentary, leading to a domestic threat.",
+    "summary_detailed_en": "The sketch takes place in a living room where a man dressed in a white shirt and tie sits on a couch next to a woman in a black turtleneck. They are watching a nature documentary on television featuring a North American moose. While a Russian-language voiceover explains the habitat and weight of the animal, the couple begins to bicker about its gender. The woman insults the animal's appearance, calling it unpleasant and insisting that based on its 'ugly face' it must be a female. The man disagrees, pointing to the large antlers as definitive proof that the animal is a male (bull). The argument escalates quickly from biological observation to personal insult. The man delivers the final punchline, warning her that if he ever ends up with antlers like that (a common Armenian metaphor for being a cuckold), she will end up with a face just as bruised and ugly as the moose. The scene ends with this darkly comedic domestic threat.",
+    "keywords_hy": [
+      "որջ",
+      "կոտոշներ",
+      "հեռուստացույց",
+      "կենդանաբանական",
+      "ամուսիններ",
+      "վեճ",
+      "դավաճանություն"
+    ],
+    "keywords_en": [
+      "moose",
+      "antlers",
+      "television",
+      "documentary",
+      "husband and wife",
+      "argument",
+      "cuckold metaphor"
+    ],
+    "keywords_translit": [
+      "vorj",
+      "kotoshner",
+      "herustacuyc",
+      "kendanabanakan",
+      "amusinner",
+      "vech",
+      "davachanutyun"
+    ],
+    "catchphrases": [
+      "Ուրեմն լսի քեզ ինչ եմ ասում եթե մի օր իմ մոտ այ սենց կոտոշներ լինի քո մոտ հաստատ այ սենց ռոժա լինելու , էղա՞վ"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

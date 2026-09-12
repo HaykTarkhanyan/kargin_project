@@ -1,0 +1,70 @@
+{
+  "video_id": "28WMu33SaYY",
+  "seq": 694,
+  "kargin_id": 694,
+  "title": "Kargin Haghordum sketch 274 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "694_Kargin_Haghordum_sketch_274_Hayko_Mko_28WMu33SaYY.hy.json",
+    "visual": true
+  },
+  "input_chars": 1684,
+  "gen_sec": 11.47,
+  "prompt_tokens": 1919,
+  "output_tokens": 619,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002816,
+  "annotation": {
+    "title_hy": "Ամուսնական պարտականություն",
+    "title_en": "Marital Duty",
+    "summary_en": "A husband performs his 'marital duty' by plucking his wife's facial hair after a session that she found incredibly satisfying.",
+    "summary_detailed_en": "The sketch opens in a bedroom where a man and his wife (played by a male actor in drag with a blonde wig and heavy makeup) are lying in bed together. The woman is ecstatic, praising the man's performance and asking if she can finally remove the towel from her face. It is revealed that his 'marital duty' was not sex, but meticulously grooming her, possibly plucking hairs with tweezers while he smokes a cigarette. The man boasts about his past skills as a taxi driver, claiming he was so good at 'handling' clients that they would cry with happiness and beg for more rides. The scene shifts to the man standing by a window in a jacket, reflecting on his life. He explains that he realized he needed a steady 'client' to manage full-time, which led to his marriage. His wife, however, complains that he hasn't found a real job in three months, while he insists that grooming her is his primary responsibility as a husband.",
+    "keywords_hy": [
+      "ամուսին",
+      "կին",
+      "ամուսնական պարտականություն",
+      "ունելի",
+      "ննջարան",
+      "տաքսիստ",
+      "հումոր",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "husband",
+      "wife",
+      "marital duty",
+      "tweezers",
+      "bedroom",
+      "taxi driver",
+      "humor",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "amusin",
+      "kin",
+      "amusnakan partakanutyun",
+      "uneli",
+      "nnjaran",
+      "taksist",
+      "humor",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "Հը ազիզ,ո՞նց էր:Շատ լավ էր:Կարա՞մ արդեն սրբիչը հանեմ?-Հանի հանի",
+      "Ախպեր,լավ հասկացանք,ես սրա ամուսինն եմ,էտ իմ ամուսնական պարտականություննա"
+    ],
+    "topics": [
+      "family",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

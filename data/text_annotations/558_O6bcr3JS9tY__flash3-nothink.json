@@ -1,0 +1,65 @@
+{
+  "video_id": "O6bcr3JS9tY",
+  "seq": 558,
+  "kargin_id": 558,
+  "title": "Kargin Haghordum sketch 190 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1025,
+  "gen_sec": 12.77,
+  "prompt_tokens": 1556,
+  "output_tokens": 569,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002485,
+  "annotation": {
+    "title_hy": "Գագոյի վիրահատության լուրերը",
+    "title_en": "Gago's Surgery News",
+    "summary_en": "A friend visits Gago in the hospital after surgery to deliver the 'good' and 'bad' news regarding his amputated legs and a nurse.",
+    "summary_detailed_en": "The sketch begins with the visual of hospital staff urgently pushing a gurney down a corridor. The scene shifts to a hospital room where Gago, a patient, is lying in bed, pale and grimacing in pain while wearing a surgical cap. His friend approaches him, noting that Gago's lips have turned the same white color as the pillow. The friend informs Gago that the surgery is over and that there are two pieces of news: one good and one bad. Gago asks for the bad news first. The friend reveals that the doctor was unable to save his legs and had to amputate both of them. When a devastated Gago asks for the good news, the friend explains that he finally managed to sell Gago's shoes to the nurse Gago had a crush on. The sketch emphasizes the absurdity of the 'good' news through the friend's casual delivery and the physical comedy of Gago's dramatic thrashing and facial expressions in the hospital bed, ending with a sharp slap to his face.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "վիրահատություն",
+      "բժիշկ",
+      "ոտքեր",
+      "լավ ու վատ լուր",
+      "Գագո",
+      "բուժքույր"
+    ],
+    "keywords_en": [
+      "hospital",
+      "surgery",
+      "doctor",
+      "legs",
+      "good and bad news",
+      "Gago",
+      "nurse"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "virahatutyun",
+      "bjishk",
+      "otker",
+      "lav u vat lur",
+      "Gago",
+      "bujquyr"
+    ],
+    "catchphrases": [
+      "Ապեր էս Պրոշներիդ գույնը բարձի գույնի հետ ես բռնցրել:"
+    ],
+    "topics": [
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

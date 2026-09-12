@@ -1,0 +1,68 @@
+{
+  "video_id": "ZCKToD60iNY",
+  "seq": 290,
+  "kargin_id": 290,
+  "title": "Kargin Haghordum sketch 407 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1887,
+  "gen_sec": 21.15,
+  "prompt_tokens": 2051,
+  "output_tokens": 440,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002345,
+  "annotation": {
+    "title_hy": "Անդոն և Հոսոն զորամասում",
+    "title_en": "Ando and Hoso in the Barracks",
+    "summary_en": "Two arrogant soldiers acting as self-appointed 'kings' of their military unit are caught off guard when a real general finally arrives.",
+    "summary_detailed_en": "The sketch takes place in military barracks where two soldiers, Ando and Hoso, dressed in striped undershirts, walk around acting like they run the facility. They treat a lower-ranking soldier with extreme disrespect, demanding water and constant updates on the arrival of a new general whom they disparagingly claim was 'sent from a chat.' Hoso expresses concern that a 'feminine' man might be in his company because his cosmetics were stolen, to which Ando tells him to just go to sleep. They repeatedly warn the guard to inform 'Ando' the moment the general appears. When a stern officer in full camo gear and glasses finally enters the room, the guard calls the unit to attention. However, instead of showing respect, the guard aggressively asks the general where he has been, stating that 'Ando,' the 'King of this place,' has been looking for him for three hours. The sketch ends with the absurd reversal of the guard ordering the general to stand up because Ando is the real authority.",
+    "keywords_hy": [
+      "բանակ",
+      "զինվոր",
+      "գեներալ",
+      "չաստ",
+      "Անդո",
+      "Հոսո",
+      "զորամաս",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "army",
+      "soldier",
+      "general",
+      "barracks",
+      "military unit",
+      "Ando",
+      "Hoso",
+      "commander"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zinvor",
+      "general",
+      "chast",
+      "Ando",
+      "Hoso",
+      "zoramas",
+      "katak"
+    ],
+    "catchphrases": [
+      "Անդոն ստեղի թագավորնա"
+    ],
+    "topics": [
+      "army"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

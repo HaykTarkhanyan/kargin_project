@@ -1,0 +1,71 @@
+{
+  "video_id": "S8bCsNnNnJE",
+  "seq": 490,
+  "kargin_id": 490,
+  "title": "Kargin Haghordum sketch 118 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2436,
+  "gen_sec": 14.17,
+  "prompt_tokens": 2346,
+  "output_tokens": 648,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003117,
+  "annotation": {
+    "title_hy": "Բակում նստած բամբասկոտ բիձեքը",
+    "title_en": "Gossiping Elders on the Bench",
+    "summary_en": "Two elderly men on a courtyard bench complain about their digestive health before shamelessly gossiping about a woman's romantic life.",
+    "summary_detailed_en": "The sketch takes place in an apartment courtyard where two elderly men, Gapho and Misha, sit on a bench with their canes. The scene opens with Misha complaining about severe constipation lasting six months. Gapho counters that he has the opposite problem: he has perfectly regular bowel movements at 7:00 and 8:00 AM every single morning like clockwork, but the issue is that he cannot wake up before 10:00 AM. Their conversation shifts as they spot a stylish younger man leaving the building. They immediately begin gossiping about a woman named Ofik, accusing her of losing her shame and hosting various young men. When Ofik, a woman in a headscarf, approaches them, she begins a long, dramatic monologue about her failing health—listing heart arrhythmia, stomach pains, liver failure, and dangerously high blood pressure. The men dismiss her complaints as 'ironing their heads' (tiring them out), claiming she is actually doing great because of her constant male visitors. The sketch ends with a vulgar double entendre when Ofik tells the 'dirty old men' that she only has one healthy part left, and when they ask to use it, she retorts that she has never denied them anything.",
+    "keywords_hy": [
+      "բակ",
+      "բիձեք",
+      "բամբասանք",
+      "հիվանդություն",
+      "դեղեր",
+      "ծերություն",
+      "նստարան",
+      "հարևաններ"
+    ],
+    "keywords_en": [
+      "courtyard",
+      "old men",
+      "gossip",
+      "illness",
+      "medication",
+      "old age",
+      "bench",
+      "neighbors"
+    ],
+    "keywords_translit": [
+      "bak",
+      "bidzeq",
+      "bambasanq",
+      "hivandutyun",
+      "degher",
+      "tserutyun",
+      "nstaran",
+      "harevanner"
+    ],
+    "catchphrases": [
+      "մարմինդ ծերությունից փըդըմա փըդըմ փըդըմ",
+      "երբ եք ուզել որ չեմ տվել փդացներ"
+    ],
+    "topics": [
+      "neighbors",
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

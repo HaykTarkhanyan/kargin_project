@@ -1,0 +1,72 @@
+{
+  "video_id": "jPbZPMl8Zmc",
+  "seq": 349,
+  "kargin_id": 349,
+  "title": "Kargin Haghordum sketch 516 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1493,
+  "gen_sec": 19.02,
+  "prompt_tokens": 1780,
+  "output_tokens": 626,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002768,
+  "annotation": {
+    "title_hy": "Փորձառու քարտուղարուհու խորհուրդները",
+    "title_en": "Experienced Secretary's Advice",
+    "summary_en": "A departing secretary gives cynical advice to her replacement about how to survive the boss, unaware that the new hire's husband is actually the boss.",
+    "summary_detailed_en": "The sketch takes place in an office interior, styled like a living area with a yellow armchair and large windows. An experienced secretary, played by a male actor in drag with a flamboyant curly wig and dramatic makeup, lounges in an armchair while smoking a cigarette. She addresses a new, younger secretary who is tidying up by the window. The older secretary offers cynical 'mentorship,' explaining that one can be late, ignore work, and focus only on personal matters as long as the boss is distracted by the secretary's attractive legs. She warns the newcomer about the boss's wife, whom she describes as a 'rare bitch' responsible for firing the last five secretaries. The veteran insists that to keep the job, the new girl must fulfill the boss's 'most amazing desires.' The comedy peaks when the veteran asks if the new girl is married. When the girl confirms she is, and points out that her husband works 'right behind that door' (implying he is the boss), the veteran's unsolicited advice immediately backfires.",
+    "keywords_hy": [
+      "քարտուղարուհի",
+      "շեֆ",
+      "խորհուրդ",
+      "աշխատանք",
+      "ամուսին",
+      "թարախ",
+      "կին",
+      "ծխախոտ"
+    ],
+    "keywords_en": [
+      "secretary",
+      "boss",
+      "advice",
+      "job",
+      "husband",
+      "office drama",
+      "drag comedy",
+      "firing"
+    ],
+    "keywords_translit": [
+      "qartuxaruhi",
+      "shef",
+      "khorhurd",
+      "ashkhatanq",
+      "amusin",
+      "tarakh",
+      "kin",
+      "cxaxot"
+    ],
+    "catchphrases": [
+      "մեր շեֆը էշի մեկնա",
+      "ստերվա րեդկոստնայա",
+      "քո սիրուն ոտիկները մեր շեֆի ուշադրության կենտրոնումա"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

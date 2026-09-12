@@ -1,0 +1,70 @@
+{
+  "video_id": "ow1FfDmKv6c",
+  "seq": 505,
+  "kargin_id": 505,
+  "title": "Kargin Haghordum sketch 133 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "505_Kargin_Haghordum_sketch_133_Hayko_Mko_ow1FfDmKv6c.hy.json",
+    "visual": true
+  },
+  "input_chars": 4570,
+  "gen_sec": 5.19,
+  "prompt_tokens": 3546,
+  "output_tokens": 711,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003906,
+  "annotation": {
+    "title_hy": "Կարմիր Խնձորի Գաղտնիքը",
+    "title_en": "The Secret of the Red Apple",
+    "summary_en": "A father and son eavesdrop on a conversation between the new bride and mother-in-law, only to discover shocking secrets about their pasts.",
+    "summary_detailed_en": "The sketch opens in a family apartment where a father and son are discussing the wedding night. The father reminisces about his own wedding twenty-five years ago and how the neighbors complained about the noise. The son is anxious about his new bride, but the father reassures him. The bride and the mother-in-law (both played by male comedians in drag) retreat to a side room to have a heart-to-heart conversation as the 'holy women of the hearth.' Suspicious, the father and son sneak to the door to eavesdrop. Inside, the bride confesses she has a secret: she tells the mother-in-law not to bother bringing the traditional 'red apple' to her parents' house. She explains her colorful past, mentioning she lived in a dormitory and has 'experience' with men, before finally bluntly stating, 'I am a man.' The mother-in-law, instead of being horrified by the gender reveal, is relieved because she thought it was 'something bad.' She then reveals her own secret: that she was actually a virgin when she married the 'idiot' father. Overhearing this, the father is devastated, calling them both 'immoral,' and the sketch ends with him distraught at the doorway.",
+    "keywords_hy": [
+      "կարմիր խնձոր",
+      "հարս ու սկեսուր",
+      "գաղտնիք",
+      "առաջին գիշեր",
+      "հարսանիք",
+      "կարգին հաղորդում",
+      "հայկո մկո"
+    ],
+    "keywords_en": [
+      "red apple",
+      "bride and mother-in-law",
+      "secret",
+      "wedding night",
+      "wedding tradition",
+      "drag comedy",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "karmir khndzor",
+      "hars u skesur",
+      "gaghtniq",
+      "arajin gisher",
+      "harsaniq",
+      "kargin haghordum",
+      "hayko mko"
+    ],
+    "catchphrases": [
+      "Ես տղա եմ:",
+      "Ոնց թե տղա: Դե ես աղջիկ չեմ:",
+      "Բա տենց ասա հասկանամ ես էլ վատ բաներ մտածեցի:",
+      "երկու դուրընգած անբարոյական"
+    ],
+    "topics": [
+      "family",
+      "wedding_funeral",
+      "neighbors"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

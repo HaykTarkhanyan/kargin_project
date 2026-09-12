@@ -1,0 +1,70 @@
+{
+  "video_id": "bugoZDFGfe8",
+  "seq": 167,
+  "kargin_id": 167,
+  "title": "Kargin Haghordum sketch 211 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "167_Kargin_Haghordum_sketch_211_Hayko_Mko_bugoZDFGfe8.tr.json",
+    "visual": true
+  },
+  "input_chars": 1746,
+  "gen_sec": 4.51,
+  "prompt_tokens": 1874,
+  "output_tokens": 560,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002617,
+  "annotation": {
+    "title_hy": "Գյուղական առևտուր և հղիություն",
+    "title_en": "Village Trade and Pregnancy",
+    "summary_en": "A man visits a home to discuss a serious matter regarding a pregnancy, but the daughter keeps trying to sell him services from their bulls at various price points.",
+    "summary_detailed_en": "The sketch takes place in a sunny village courtyard and porch under a tin roof. A man wearing a mustache and a baseball cap arrives to speak with the family. He is met by a young woman with pigtails. Before the man can state his business, the woman begins a persistent sales pitch for their livestock. She first offers a high-quality Dutch bull for 100 dollars, promising healthy offspring. When the man tries to interrupt to ask for her father, she lowers the quality and the price, offering a German bull for 50 dollars, and finally a poor-quality bull for only 20 dollars. The man, becoming increasingly frustrated, finally reveals that he is there because his daughter is pregnant by the woman's brother. The sketch concludes with a dark comedic punchline where the girl, stuck in her sales-oriented mindset, wonders aloud how much her father will charge for her brother's 'services' in this matter.",
+    "keywords_hy": [
+      "ցուլիկ",
+      "գյուղ",
+      "հղիություն",
+      "առևտուր",
+      "կով",
+      "հարսնացու",
+      "եղբայր",
+      "հայր"
+    ],
+    "keywords_en": [
+      "bull",
+      "village",
+      "pregnancy",
+      "trade",
+      "cow",
+      "brother",
+      "negotiation",
+      "rural life"
+    ],
+    "keywords_translit": [
+      "tsulik",
+      "gyugh",
+      "hghiutyun",
+      "arevtur",
+      "kov",
+      "harsnatsu",
+      "akhpor",
+      "papa"
+    ],
+    "catchphrases": [
+      "Վայ էտի ես չգիտեմ պապան ախպորս համար ինչքան կուզի։"
+    ],
+    "topics": [
+      "village",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

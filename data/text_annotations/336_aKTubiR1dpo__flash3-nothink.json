@@ -1,0 +1,69 @@
+{
+  "video_id": "aKTubiR1dpo",
+  "seq": 336,
+  "kargin_id": 336,
+  "title": "Kargin Haghordum sketch 502 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1833,
+  "gen_sec": 9.43,
+  "prompt_tokens": 1983,
+  "output_tokens": 631,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002884,
+  "annotation": {
+    "title_hy": "Զինվորը սամավոլկա և տատիկի օգնությունը",
+    "title_en": "Soldier's Escape and Grandma's Help",
+    "summary_en": "A soldier visits home briefly while AWOL and manipulates his grandmother into helping him get leave by tricking her into pulling a grenade pin.",
+    "summary_detailed_en": "The sketch takes place in an apartment kitchen where a soldier in full camouflage uniform arrives home on a 'samavolka' (AWOL/unauthorized leave). He is greeted by a grandmother figure, played by a male comedian in drag, who is overjoyed to see her grandson. The soldier is in a rush, demanding food and a hot bath. While the grandmother cooks, another man in a striped sailor shirt sits at the kitchen table, ravenously eating directly from a frying pan with exaggerated, primal gestures. The soldier asks about life in the 'civilian' world (grazhdanski), and the grandmother recounts a conflict with an electrician over unpaid bills. Confusion arises when she asks when he will become 'mebel' (furniture), and he corrects her that the term is 'dembel' (demobilization), noting he still has a year of service. Desperate to keep him home longer, the grandmother asks if there is any way he can stay. The soldier seizes the opportunity for a dark prank, handing her a grenade and telling her that if she pulls the 'ring' (kaltso), he will be granted at least ten days of leave from his unit.",
+    "keywords_hy": [
+      "զինվոր",
+      "բանակ",
+      "տատիկ",
+      "սամավոլկա",
+      "դեմբել",
+      "նռնակ",
+      "կատակ",
+      "հայկո մկո"
+    ],
+    "keywords_en": [
+      "soldier",
+      "army",
+      "grandmother",
+      "AWOL",
+      "demobilization",
+      "grenade",
+      "prank",
+      "military service"
+    ],
+    "keywords_translit": [
+      "zinvor",
+      "banak",
+      "tatik",
+      "samavolka",
+      "dembel",
+      "nrnak",
+      "katak",
+      "hayko mko"
+    ],
+    "catchphrases": [
+      "էս կալցոն որ քաշես, իմացի թոռանդ մինիմում տաս օրով չաստից թողում են տուն:"
+    ],
+    "topics": [
+      "army",
+      "family"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

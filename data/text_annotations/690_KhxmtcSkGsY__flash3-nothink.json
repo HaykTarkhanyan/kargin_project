@@ -1,0 +1,63 @@
+{
+  "video_id": "KhxmtcSkGsY",
+  "seq": 690,
+  "kargin_id": 690,
+  "title": "Kargin Haghordum sketch 270 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "690_Kargin_Haghordum_sketch_270_Hayko_Mko_KhxmtcSkGsY.hy.json",
+    "visual": true
+  },
+  "input_chars": 864,
+  "gen_sec": 5.15,
+  "prompt_tokens": 1424,
+  "output_tokens": 452,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002068,
+  "annotation": {
+    "title_hy": "Պահարանի մեջի տղամարդը",
+    "title_en": "The Man in the Wardrobe",
+    "summary_en": "A man returns home and finds a shirtless stranger hiding in his closet, leading to a confrontation about his ex-wife.",
+    "summary_detailed_en": "The sketch begins in an apartment hallway where a man dressed in a suit jacket returns home. He proceeds to the bedroom, removes his coat, and prepares to change his shirt. When he opens the wardrobe closet, he is shocked to find a shirtless man wrapped in a red robe hiding inside. Both characters react with visible startle and shock. The homeowner immediately begins to berate the intruder for his presence. The humor stems from the domestic absurdity of the situation: the man in the closet is evidently there for a romantic tryst, but the homeowner explains with exasperation that he and his wife have actually been separated for six months. He calls the intruder an idiot for hiding in a house where the woman no longer lives, revealing that she moved to another home long ago. The sketch ends on this subversion of the typical adultery trope, where the 'lover' has broken into the wrong situation.",
+    "keywords_hy": [
+      "պահարան",
+      "բաժանված",
+      "ննջասենյակ",
+      "դավաճանություն",
+      "սխալմունք",
+      "կին"
+    ],
+    "keywords_en": [
+      "wardrobe",
+      "separated",
+      "bedroom",
+      "infidelity",
+      "mistake",
+      "ex-wife"
+    ],
+    "keywords_translit": [
+      "paharan",
+      "bajanvac",
+      "nnjasenyak",
+      "davachanutyun",
+      "sxalmunq",
+      "kin"
+    ],
+    "catchphrases": [
+      "Այ դեբիլ, քեզ քանի անգամ ասեմ ես ու կինս իրարից բաժանվել ենք,ինքը տեղափոխվելա ուրիշ տուն,ու վեց ամիսա չի"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

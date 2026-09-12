@@ -1,0 +1,76 @@
+{
+  "video_id": "gzpPMpf_pmA",
+  "seq": 69,
+  "kargin_id": 69,
+  "title": "Kargin Haghordum sketch 634 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "069_Kargin_Haghordum_sketch_634_Hayko_Mko_gzpPMpf_pmA.tr.json",
+    "visual": true
+  },
+  "input_chars": 3441,
+  "gen_sec": 5.27,
+  "prompt_tokens": 2777,
+  "output_tokens": 639,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003306,
+  "annotation": {
+    "title_hy": "Խմած ամուսնու ստերը",
+    "title_en": "The Drunk Husband's Lies",
+    "summary_en": "Two women complain about their husbands' drinking habits, only for one husband to return home and explain his bruises with an absurd story about a carousel accident.",
+    "summary_detailed_en": "The sketch begins in a cozy apartment living room where two women, one a visitor in a black jacket and the other a housewife played by a male comedian in a curly ginger wig, blue eyeshadow, and red lipstick, are sitting in armchairs having coffee and pastries. They gossip extensively about the trials of marriage. The visitor complains that her husband forbid her from working, going to the gym, or seeing friends after they wed, even claiming he would treat her medical issues using an encyclopedia instead of letting her see a doctor. The conversation shifts to their husbands' drinking. The visitor laments that her husband always lies about where he was drinking. The housewife counters that her husband, Davo, is honest, but her tune changes when he actually arrives. A moustached man enters the room in a white shirt covered in red stains and scratches. When confronted about his state, he weaves a ridiculous, surreal lie involving being hit by a car, trampled by a horse, and struck by an airplane wing. The punchline reveals he was actually at the 'Monument' amusement park carousel, as he tells his wife to go ask the carousel man if she doesn't believe his injuries.",
+    "keywords_hy": [
+      "խմած",
+      "ամուսին",
+      "ստախոս",
+      "կնիկ",
+      "զրույց",
+      "կարուսել",
+      "բամբասանք",
+      "խորհուրդ",
+      "հարբած",
+      "ընկերուհիներ"
+    ],
+    "keywords_en": [
+      "drunk",
+      "husband",
+      "liar",
+      "wife",
+      "gossip",
+      "carousel",
+      "conversation",
+      "marriage advice",
+      "drunkard",
+      "friends"
+    ],
+    "keywords_translit": [
+      "khmats",
+      "amusin",
+      "stakhos",
+      "knik",
+      "zruyc",
+      "karusel",
+      "bambasanq",
+      "khorhurd",
+      "harbats",
+      "enkeruhiner"
+    ],
+    "catchphrases": [
+      "Հեսա տես ինչ ստերա փչելու"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "neighbors"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "Edx0cGNBq_Q",
+  "seq": 595,
+  "kargin_id": 595,
+  "title": "Kargin Haghordum sketch 446 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "595_Kargin_Haghordum_sketch_446_Hayko_Mko_Edx0cGNBq_Q.hy.json",
+    "visual": true
+  },
+  "input_chars": 1334,
+  "gen_sec": 11.85,
+  "prompt_tokens": 1749,
+  "output_tokens": 617,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002726,
+  "annotation": {
+    "title_hy": "Պալտոյով կովը",
+    "title_en": "The Cow in a Coat",
+    "summary_en": "An elderly man is repeatedly woken up by a prank caller who uses a nonsensical rhyming insult each time he answers the phone.",
+    "summary_detailed_en": "The sketch takes place in a bedroom at night, where an elderly gray-haired man is trying to sleep in an ornate bed. The room is decorated with porcelain figurines and multiple alarm clocks. The peace is interrupted when a red bedside telephone rings. When the man answers with 'Who is it?', the caller responds with a rhyming insult in Armenian: 'Ov a, ov a, paltoyov kov a' (Who is it? It's a cow in a coat). The man hangs up, visibly annoyed, and checks his alarm clock which shows it is 3:00 AM. The phone rings again, and the same exchange occurs. Infuriated by the persistent harassment, the man erupts into a verbal tirade, calling the prankster an 'animal' and a 'sheep,' and telling him to go play such jokes on his own father. However, he is suddenly caught off guard when a voice (suggesting his boss or a superior, Armen Vaghinakovich) identifies himself. The man immediately softens his tone and apologizes, but as soon as he asks 'Who is it?' again, the caller reverts to the same 'cow in a coat' punchline, revealing the prank continues.",
+    "keywords_hy": [
+      "կատակ",
+      "հեռախոս",
+      "զանգ",
+      "գիշեր",
+      "պալտոյով կով",
+      "քուն",
+      "զարթուցիչ",
+      "հայկո մկո"
+    ],
+    "keywords_en": [
+      "prank call",
+      "telephone",
+      "cow in a coat",
+      "middle of the night",
+      "annoyance",
+      "insult",
+      "rhyme",
+      "alarm clock"
+    ],
+    "keywords_translit": [
+      "katak",
+      "herakhos",
+      "zang",
+      "gisher",
+      "paltoyov kov",
+      "qun",
+      "zartucich",
+      "hayko mko"
+    ],
+    "catchphrases": [
+      "Ով ա ով ա պալտոյով կովն ա"
+    ],
+    "topics": [
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

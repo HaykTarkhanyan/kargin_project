@@ -1,0 +1,66 @@
+{
+  "video_id": "3Uod7MNtIok",
+  "seq": 118,
+  "kargin_id": 118,
+  "title": "Kargin Haghordum sketch 691 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "118_Kargin_Haghordum_sketch_691_Hayko_Mko_3Uod7MNtIok.ro.json",
+    "visual": true
+  },
+  "input_chars": 1643,
+  "gen_sec": 14.61,
+  "prompt_tokens": 1856,
+  "output_tokens": 568,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002632,
+  "annotation": {
+    "title_hy": "Սեքսուալ մանյակն ու բժիշկը",
+    "title_en": "The Nymphomaniac and the Doctor",
+    "summary_en": "A patient visits a doctor claiming to be a hypersexual maniac, only to reveal a second, more significant condition at the end.",
+    "summary_detailed_en": "The sketch begins in a clinic office where a doctor and a colleague in surgical scrubs are discussing a medical anomaly. The colleague, Smbatich, mentions a patient who was predicted to die ten years ago but is still alive. The doctor responds with the cynical medical joke that if a patient truly wants to live, medicine is powerless to stop them. After Smbatich leaves, a new patient enters the office. This man, wearing sunglasses and a tan trench coat, delivers an animated monologue directly to the camera with exaggerated hand gestures. He tells the doctor he suffers from two illnesses. The first is that he is a sex maniac; he proceeds to list a relentless daily schedule involving his wife, an elevator operator, a girl on the street, the boss's secretary, the deputy's secretary, the accountant twice, and his neighbor, before returning home to his wife again. When the intrigued doctor asks for the second illness, the man reveals the punchline: he is a pathological, chronic liar.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "սուտասան",
+      "սեքսոպատոլոգ",
+      "կատակ",
+      "հիվանդություն",
+      "զրույց"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "liar",
+      "nymphomaniac",
+      "joke",
+      "illness",
+      "consultation"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hivandanoc",
+      "sutasan",
+      "sexopatolog",
+      "katak",
+      "hivandutyun",
+      "zruyc"
+    ],
+    "catchphrases": [
+      "եթե հիվանդը ուզումա ապրի բժշկությունը էտը անզորա"
+    ],
+    "topics": [
+      "medical",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "MFxsb0ftWAQ",
+  "seq": 37,
+  "kargin_id": 37,
+  "title": "Kargin Haghordum sketch 603 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2050,
+  "gen_sec": 3.75,
+  "prompt_tokens": 2115,
+  "output_tokens": 508,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002582,
+  "annotation": {
+    "title_hy": "Վարսավիրանոցում և Քոբուլեթի",
+    "title_en": "In the Hair Salon and Kobuleti",
+    "summary_en": "A talkative barber and his customer exchange exaggerated stories about their summers, including drinking sea water in Georgia and comparing a wife to livestock, before a long-haired man enters for a haircut.",
+    "summary_detailed_en": "The sketch takes place in a hair salon decorated with hair-product posters and mirrors. A barber is cutting the hair of a customer (Torgom) who is wrapped in a salon cape. The conversation begins with Torgom describing his summer vacation in Kobuleti, Georgia. He claims that because sea water is healthy, he would drink a glass of it every morning to induce vomiting and 'cleanse' his stomach. When Torgom asks the barber about his summer, the barber complains that it was ruined because he had to stay in the village and look after 'that animal' all summer. Torgom jokingly agrees that the barber's wife turned out to be quite 'unfortunate.' The barber then brags about a famous singer visiting the salon in a miniskirt, claiming they eventually left a sauna together to go to a studio. The sketch transitions to a second scene where a man with very long, shaggy hair enters the shop, asking for the same haircut as last time. The barber, looking at the man's neglected hair, jokingly replies that he has only been working there for two years, implying the man hasn't had a haircut in much longer.",
+    "keywords_hy": [
+      "վարսավիրանոց",
+      "վարսավիր",
+      "Քոբուլեթի",
+      "ամառ",
+      "հարամ",
+      "ծովի ջուր",
+      "խոսկան",
+      "կտրվածք"
+    ],
+    "keywords_en": [
+      "hair salon",
+      "barber",
+      "Kobuleti",
+      "summer vacation",
+      "sea water",
+      "shaggy hair",
+      "haircut",
+      "bragging"
+    ],
+    "keywords_translit": [
+      "varsaviranoc",
+      "varsavir",
+      "Kobuleti",
+      "amar",
+      "haram",
+      "covi jur",
+      "khoskan",
+      "ktrvacq"
+    ],
+    "catchphrases": [
+      "Էդ երևի ես չէի ախպեր, ես ընդամենը երկու տարիա ինչ աշխատում եմ:"
+    ],
+    "topics": [
+      "work",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

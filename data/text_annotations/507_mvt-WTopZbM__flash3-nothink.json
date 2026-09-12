@@ -1,0 +1,66 @@
+{
+  "video_id": "mvt-WTopZbM",
+  "seq": 507,
+  "kargin_id": 507,
+  "title": "Kargin Haghordum sketch 135 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "507_Kargin_Haghordum_sketch_135_Hayko_Mko_mvt-WTopZbM.hy.json",
+    "visual": true
+  },
+  "input_chars": 2536,
+  "gen_sec": 4.12,
+  "prompt_tokens": 2407,
+  "output_tokens": 479,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00264,
+  "annotation": {
+    "title_hy": "Ուշացած ամուսինը և ջուրը",
+    "title_en": "The Late Husband and the Water",
+    "summary_en": "A wife berates her husband for coming home late, but when he asks for a glass of water, she uses it as an excuse to disappear for three hours.",
+    "summary_detailed_en": "The sketch takes place in a dark bedroom at night. A husband with a mustache enters the room late, trying to be quiet, and checks a large alarm clock which shows it is past 11:30 PM. His wife (played by a male actor in drag) is already in bed and immediately starts berating him for his tardiness, threatening that her brother Gag will set the neighborhood dogs on him if he keeps coming home late. The husband tries to defend himself, claiming he is only half an hour late and needs to sleep because his boss will fire anyone who misses work at 8:00 AM. After they both settle into bed, the husband asks his wife to bring him a glass of cold water. She initially complains about being tired and reminds him of his wedding vows to be 'obedient,' but eventually leaves the room. The scene cuts to three hours later; the wife finally returns with the water, and the husband angrily questions where she has been for three hours just to get a single glass of water.",
+    "keywords_hy": [
+      "ուշանալ",
+      "ամուսին",
+      "կին",
+      "ջուր բերել",
+      "ժամացույց",
+      "քնած",
+      "ընտանեկան վեճ"
+    ],
+    "keywords_en": [
+      "coming home late",
+      "husband",
+      "wife in drag",
+      "glass of water",
+      "alarm clock",
+      "family argument",
+      "obediant"
+    ],
+    "keywords_translit": [
+      "ushanal",
+      "amusin",
+      "kin",
+      "jur berel",
+      "jamacuyc",
+      "qnac",
+      "yntanekan vech"
+    ],
+    "catchphrases": [
+      "էս ու՞ր էիր, Ոնց ուրեմ, քո համար ջուր եմ բերում երեք ժամ ջուր էիր բերում"
+    ],
+    "topics": [
+      "family",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

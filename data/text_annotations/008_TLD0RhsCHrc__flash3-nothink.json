@@ -1,0 +1,67 @@
+{
+  "video_id": "TLD0RhsCHrc",
+  "seq": 8,
+  "kargin_id": 8,
+  "title": "Kargin Haghordum sketch 295 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "008_Kargin_Haghordum_sketch_295_Hayko_Mko_TLD0RhsCHrc.hy.json",
+    "visual": true
+  },
+  "input_chars": 771,
+  "gen_sec": 40.59,
+  "prompt_tokens": 1353,
+  "output_tokens": 506,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002195,
+  "annotation": {
+    "title_hy": "Հրաշքներ ննջարանում",
+    "title_en": "Miracles in the Bedroom",
+    "summary_en": "A man returns home to find his wife in bed with a mustached man, but the intruder tries to deflect the situation as a miracle.",
+    "summary_detailed_en": "The sketch takes place in an apartment interior during the day. A man dressed in a sharp black suit enters the home and begins searching through various rooms, including the hallway and living room, even checking the closet for something suspicious. He eventually makes his way to the bedroom doorway. Inside, he discovers a woman in bed with another man who has a prominent mustache and is wearing a white tank top. The husband is visibly shocked and angry, pointing and gesturing at the pair. Instead of acting guilty, the man in the tank top addresses the husband affectionately as 'my life' and attempts to gaslight him by describing the blatant infidelity as 'miracles.' The sketch centers on the absurd contrast between the obvious cheating and the interloper's nonchalant, pseudo-mystical reaction to being caught red-handed.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "ննջարան",
+      "ամուսին",
+      "կին",
+      "սիրեկան",
+      "հրաշքներ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "bedroom",
+      "husband",
+      "wife",
+      "lover",
+      "miracles",
+      "cheating"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "nnjaran",
+      "amusin",
+      "kin",
+      "sirekan",
+      "hrashqner",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "էս ինչա ստեղ կատարվում",
+      "հրաշքներ"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

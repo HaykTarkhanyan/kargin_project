@@ -1,0 +1,70 @@
+{
+  "video_id": "rErcpknoD_4",
+  "seq": 681,
+  "kargin_id": 681,
+  "title": "Kargin Haghordum sketch 261 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "681_Kargin_Haghordum_sketch_261_Hayko_Mko_rErcpknoD_4.hy.json",
+    "visual": true
+  },
+  "input_chars": 1812,
+  "gen_sec": 4.83,
+  "prompt_tokens": 1955,
+  "output_tokens": 619,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002835,
+  "annotation": {
+    "title_hy": "Ձրի ֆուրշետի հյուրը",
+    "title_en": "The Free Buffet Guest",
+    "summary_en": "At a formal party, an aggressive guest tries to force-feed others from the free buffet while insulting their eating habits.",
+    "summary_detailed_en": "The sketch takes place in an indoor reception room during a night party featuring a buffet table, a fireplace, and several guests. A man with a mustache stands by the food, enthusiastically consuming sandwiches and wraps. He approaches a woman wearing glasses, aggressively offering her a wrap (durum) and insisting she eat because everything is free. He complains about Armenians who visit Europe and start speaking English, claiming his own superiority because he served in Germany. He then approaches another guest, Tigran, who is wearing glasses. After discovering Tigran is the husband of one of the organizers, the mustachioed man claims he doesn't work for them but 'collaborates' by importing their medicine. When Tigran politely refuses to eat more, the man becomes confused and insulted by the concept of eating only when hungry. Upon hearing Tigran's logic that he eats when he wants and stops when he doesn't, the mustachioed man calls him a 'complete animal' for following his instincts rather than exploiting the free food. The scene features various guests in party hats and formal wear mingling in the background.",
+    "keywords_hy": [
+      "ֆուրշետ",
+      "խնջույք",
+      "ուտելիք",
+      "ձրի",
+      "բանկետ",
+      "բրդուճ",
+      "հյուր",
+      "դուրում"
+    ],
+    "keywords_en": [
+      "buffet",
+      "party",
+      "free food",
+      "banquet",
+      "sandwich",
+      "guest",
+      "interaction",
+      "durum"
+    ],
+    "keywords_translit": [
+      "furshet",
+      "khnjuyq",
+      "uteliq",
+      "dzri",
+      "banquet",
+      "brduj",
+      "hyur",
+      "durum"
+    ],
+    "catchphrases": [
+      "Քուրիկ ջան հըլը էս դուռումը մի հատ հավեսով կեր",
+      "Բարի օր ապե,անունդ ինչա,Ծիգրան,ուրախ եմ ապեր իմն էլ Տիկո"
+    ],
+    "topics": [
+      "party_guests",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

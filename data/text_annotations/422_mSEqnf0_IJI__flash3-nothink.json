@@ -1,0 +1,72 @@
+{
+  "video_id": "mSEqnf0_IJI",
+  "seq": 422,
+  "kargin_id": 422,
+  "title": "Kargin Haghordum - Dombel (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2351,
+  "gen_sec": 5.59,
+  "prompt_tokens": 2294,
+  "output_tokens": 661,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00313,
+  "annotation": {
+    "title_hy": "Գոռոյի դոմփելը",
+    "title_en": "Goro's Punishment",
+    "summary_en": "A mob boss orders his henchman, Goro, to sodomize and kill various men who have crossed his family or business.",
+    "summary_detailed_en": "In an ornate apartment, a mustached mob boss wearing a green blazer drinks whiskey and smokes while interrogating a young man who tried to seduce his daughter. The boss threatens that since the boy loves sex so much, his henchman Goro will take him to a deserted field to 'dompel' (slang for sodomize) him as punishment, noting that while theater starts with a hanger, good sex starts with Goro. The scene shifts to a black SUV driven by Goro, a silent henchman in a leather jacket. The victim desperately pleads with Goro, offering money and claiming his reputation in the neighborhood and institute will be ruined if he is 'dompled,' eventually begging to be killed instead. The boss then calls Goro via radio, presenting a second victim: Varuzh, who stole family money. The boss orders Goro to 'dompel' Varuzh and then shoot him. The sketch ends with a dark twist as the two victims, now terrified in the car, begin negotiating their fates; Varuzh, hearing the kill order, begs Goro to 'only dompel' him to avoid being murdered.",
+    "keywords_hy": [
+      "Գոռո",
+      "դոմփել",
+      "մաֆիա",
+      "կլան",
+      "վրեժ",
+      "ավտոմեքենա",
+      "հեղինակություն",
+      "փող"
+    ],
+    "keywords_en": [
+      "Goro",
+      "dompel",
+      "mob boss",
+      "henchman",
+      "revenge",
+      "SUV",
+      "reputation",
+      "money"
+    ],
+    "keywords_translit": [
+      "Goro",
+      "dompel",
+      "mafia",
+      "klan",
+      "vrezh",
+      "avtomeqena",
+      "heghinakutyun",
+      "pogh"
+    ],
+    "catchphrases": [
+      "ոնց որ ասում են լավ թատրոնը սկսումա վեշլկից իսկ լավ սեքսը սկսումա գոռոից",
+      "հըըն",
+      "ապեր հիշում էս չէ ինձ մենակ դոմփում էս"
+    ],
+    "topics": [
+      "crime",
+      "money",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

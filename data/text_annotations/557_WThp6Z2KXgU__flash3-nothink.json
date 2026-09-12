@@ -1,0 +1,67 @@
+{
+  "video_id": "WThp6Z2KXgU",
+  "seq": 557,
+  "kargin_id": 557,
+  "title": "Kargin Haghordum sketch 189 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1341,
+  "gen_sec": 5.51,
+  "prompt_tokens": 1716,
+  "output_tokens": 463,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002247,
+  "annotation": {
+    "title_hy": "Բիբիսի Հայաստան Նորություններ",
+    "title_en": "BBC Armenia News",
+    "summary_en": "A reporter for a fictional 'BBC Armenia' branch interviews a random man on a park bench, who uses the international platform to scream for help.",
+    "summary_detailed_en": "The sketch opens with a curly-haired reporter standing outdoors, introducing the newly established Armenian branch of the BBC news service. He announces that the station will broadcast weekly at 9:00 PM and begins their first segment: a live report from the center of Yerevan. Accompanied by a cameraman and a crowd of curious bystanders, the reporter approaches an elderly man sitting on a park bench next to a stroller. The reporter informs the man that they are live on air and that the entire European continent is watching him at this very moment. He asks the man to share a few words about the current situation in Armenia. Upon hearing that he has the attention of all of Europe, the man immediately looks directly into the camera lens and begins screaming 'Help!' repeatedly at the top of his lungs, highlighting the desperation of the local situation in a satirical manner.",
+    "keywords_hy": [
+      "լրագրող",
+      "հարցազրույց",
+      "Բիբիսի",
+      "նորություններ",
+      "ուղիղ եթեր",
+      "Երևան",
+      "օգնեցեք"
+    ],
+    "keywords_en": [
+      "reporter",
+      "interview",
+      "BBC News",
+      "live broadcast",
+      "Yerevan",
+      "help",
+      "satire"
+    ],
+    "keywords_translit": [
+      "lragrogh",
+      "harcazruyc",
+      "BBC",
+      "norutyunner",
+      "ughigh eter",
+      "Yerevan",
+      "ogneq"
+    ],
+    "catchphrases": [
+      "Հիմա ամբողջ Եվրոպան դիտումա: Այո:  Օգնեցեքքքք, Օգնեցեքքքք,Օգնեցեքքքք:"
+    ],
+    "topics": [
+      "media_showbiz",
+      "bureaucracy",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

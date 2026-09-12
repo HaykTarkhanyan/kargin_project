@@ -1,0 +1,76 @@
+{
+  "video_id": "-awx6fK2h-k",
+  "seq": 255,
+  "kargin_id": 255,
+  "title": "Kargin Haghordum sketch 562 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2658,
+  "gen_sec": 25.73,
+  "prompt_tokens": 2384,
+  "output_tokens": 690,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003262,
+  "annotation": {
+    "title_hy": "Խմած հաճախորդները և տաքսիստը",
+    "title_en": "Drunk Customers and the Taxi Driver",
+    "summary_en": "After a long celebration, a group of heavily intoxicated men are sent home in a taxi, but a sharp turn at a bridge causes them to physically scramble, leaving the driver confused about who lives where.",
+    "summary_detailed_en": "The sketch takes place outside an upscale stone-clad restaurant where a group of men in suits, including a heavyset man in a yellow turtleneck, are ending a long celebration for a friend named Arturik. Though one man insists on driving his jeep, the others convince him to take a taxi to stay safe. A waiter in a striped waistcoat and bow tie coordinates the departure, calling a regular taxi driver to assist the rowdy, drunken group. The waiter provides specific directions for three passengers: one living near the Armenia Lada building on Komitas, one behind the bathhouse in Bangladesh, and one near the toy store on Mashtots Avenue. The taxi driver, wearing a cardigan, confidently accepts the job. However, after driving off, the taxi quickly returns to the restaurant entrance. The driver explains to the waiter that he took a sharp turn under a bridge, causing the intoxicated men to slide and pile on top of each other in the back seat. Now physically shuffled, the driver can no longer tell which man belongs to which address and asks for the instructions again. The sketch ends with the visual of the men crammed chaotically in the back of the car.",
+    "keywords_hy": [
+      "տաքսի",
+      "խմած",
+      "ռեստորան",
+      "քեֆ",
+      "հասցե",
+      "վարորդ",
+      "Կոմիտաս",
+      "Բանգլադեշ",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "taxi",
+      "drunk",
+      "restaurant",
+      "celebration",
+      "address",
+      "driver",
+      "Komitas",
+      "Bangladesh",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "taxi",
+      "khmac",
+      "restoran",
+      "kef",
+      "hasce",
+      "varord",
+      "Komitas",
+      "Bangladesh",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "Ախպեր էսօր ոչ մեկ մաշնա չի քշելու",
+      "Էս ձախինը Կոմիտասա",
+      "Ըմբռնածա",
+      "ռեսկի պովարոտ տվի սաղ խառնվան իրար"
+    ],
+    "topics": [
+      "drinking",
+      "transport",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

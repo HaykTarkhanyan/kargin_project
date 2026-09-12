@@ -1,0 +1,73 @@
+{
+  "video_id": "zO1m7yd-HEQ",
+  "seq": 340,
+  "kargin_id": 340,
+  "title": "Kargin Haghordum sketch 507 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "340_Kargin_Haghordum_sketch_507_Hayko_Mko_zO1m7yd-HEQ.tr.json",
+    "visual": true
+  },
+  "input_chars": 3291,
+  "gen_sec": 17.99,
+  "prompt_tokens": 2768,
+  "output_tokens": 682,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00343,
+  "annotation": {
+    "title_hy": "Սլոյի Սոչիի արկածները",
+    "title_en": "Slo's Adventures in Sochi",
+    "summary_en": "While relaxing in a sauna, a man boasts to his friends about his romantic conquests in Sochi using a 'Red Book' photo album, only for one friend to recognize his own wife in the photos.",
+    "summary_detailed_en": "The sketch takes place in a sauna or spa lounge where three men are relaxing in white bathrobes. One character, Slo, has just returned from a vacation in Sochi and is eager to share his exploits. He toasts to his friends, Gevorg and another companion, while presenting a small photo album he calls his 'Red Book' of girls he met. Slo describes various women in exaggerated detail, including a girl named Kaytsa, a woman he claims is the sister of a singer from the group VIA Gra, and 'three golden fish' who fulfilled his every wish. While Slo steps away to go for a 'diving' session, Gevorg and the other friend flip through the photos. Gevorg's friend is shocked to discover a photo of his own wife, whom he had sent to Sochi alone due to work commitments. Panic-stricken, they call Slo back to explain. In a classic comedic reversal to avoid conflict, Slo quickly changes his tone, claiming that the woman in that specific photo was actually very 'respectable' and stayed loyal to her husband the whole time.",
+    "keywords_hy": [
+      "սաունա",
+      "Սոչի",
+      "Կարմիր գիրք",
+      "հանգիստ",
+      "ընկերներ",
+      "ծանոթություն",
+      "կենաց",
+      "լուսանկար",
+      "դավաճանություն"
+    ],
+    "keywords_en": [
+      "sauna",
+      "Sochi",
+      "Red Book",
+      "vacation",
+      "friends",
+      "introduction",
+      "toast",
+      "photo album",
+      "infidelity"
+    ],
+    "keywords_translit": [
+      "sauna",
+      "Sochi",
+      "Karmir girk",
+      "hangist",
+      "engerner",
+      "tsanotutyun",
+      "kenats",
+      "lusankar",
+      "davachanutyun"
+    ],
+    "catchphrases": [
+      "բա էս աղջկա մասին ինչ կասես հլը տենամ որը էսի էս էլ նենց արա չէէէ արա էսի պրիլիչնի աղջիկ էր ամուսնու հետ եկավ ամուսնու հետ գնաց"
+    ],
+    "topics": [
+      "drinking",
+      "leisure_outing",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

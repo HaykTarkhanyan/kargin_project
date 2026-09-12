@@ -1,0 +1,69 @@
+{
+  "video_id": "mP36bTMUBUU",
+  "seq": 590,
+  "kargin_id": 590,
+  "title": "Kargin Haghordum sketch 441 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "590_Kargin_Haghordum_sketch_441_Hayko_Mko_mP36bTMUBUU.hi.json",
+    "visual": true
+  },
+  "input_chars": 2128,
+  "gen_sec": 9.49,
+  "prompt_tokens": 2107,
+  "output_tokens": 597,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002844,
+  "annotation": {
+    "title_hy": "Որսորդական Պարծենկոտություն",
+    "title_en": "Hunting Boastfulness",
+    "summary_en": "Two hunters in a snowy field engage in a competitive display of marksmanship, boasting about their accuracy until one claims to have performed a surgical shot on a flying mosquito.",
+    "summary_detailed_en": "The sketch is set in a snowy outdoor field during the day, where two men dressed in winter camouflage hunting gear stand with shotguns. They address the camera in a mock-interview style, typical of a hunting show. The first hunter boasts about shooting a duck from 100 meters away, claiming it was so painful for the bird it split into three pieces. The second hunter mocks him, punning that the 'duck' was so large it was 'Ashkhabad' rather than a bird. The competition escalates as they demonstrate their skills. One hunter asks for a matchbox, places it, and shoots it to prove his precision, earning a 'Maladets' from his companion. Not to be outdone, the second hunter asks for a 10-dram coin, has the other throw it in the air, and shoots it. The final punchline occurs when one hunter asks if the other can hear a mosquito buzzing nearby. When the companion confirms he sees it flying, the hunter fires his shotgun and claims that while the mosquito is still flying, it will never be able to have children again, implying he shot its genitals.",
+    "keywords_hy": [
+      "որսորդ",
+      "հրացան",
+      "բադ",
+      "ձյուն",
+      "կրակել",
+      "որս",
+      "զավեշտ",
+      "մոծակ"
+    ],
+    "keywords_en": [
+      "hunter",
+      "shotgun",
+      "duck",
+      "snow",
+      "shooting",
+      "hunting",
+      "boasting",
+      "mosquito"
+    ],
+    "keywords_translit": [
+      "vorsord",
+      "hracan",
+      "bad",
+      "dzhyun",
+      "krakel",
+      "vors",
+      "zavesht",
+      "mocak"
+    ],
+    "catchphrases": [
+      "Թռնելը թռնում ա բայց երեխա էլ կյանքում չի ունենա"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "fsW7XueiNLg",
+  "seq": 11,
+  "kargin_id": 11,
+  "title": "Kargin Haghordum sketch 299",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3414,
+  "gen_sec": 28.14,
+  "prompt_tokens": 2751,
+  "output_tokens": 660,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003355,
+  "annotation": {
+    "title_hy": "Անսպասելի Հղիություն",
+    "title_en": "Unexpected Pregnancy",
+    "summary_en": "A doctor gives a desperate husband a bizarre 'surprise' method for conceiving a child, leading to a hilarious misunderstanding in public.",
+    "summary_detailed_en": "The sketch begins in a doctor's office where Andrei Misakovich, a physician in a blue coat, is finishing a phone call about his solo vacation to Spain, which he jokingly calls 'family rest' because he is resting from his family. A young couple, Rudik and Sona, enter seeking news about their infertility treatment. The doctor delivers the bad news that all modern methods have failed and they cannot have children. However, after sending Sona out, he pulls Rudik aside to suggest a 'secret ancestral method.' He claims that for the woman to conceive, she must be taken completely by surprise during intimacy, without any prior warning. The doctor then leaves for a 20-day vacation. Upon his return, Rudik visits the clinic again, ecstatic and bearing a wrapped gift. He informs the doctor that the method worked and his wife is pregnant. When the curious doctor asks for the details of the 'surprise,' Rudik explains he struggled for a while until he caught his wife leaning into a refrigerator. He approached her from behind and performed the act right there. The punchline hits when Rudik remarks that while his wife was shocked, the doctor should have seen the looks on the faces of all the other shoppers in the supermarket.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հղիություն",
+      "անակնկալ",
+      "սուպերմարկետ",
+      "հիվանդանոց",
+      "անպտղություն",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "doctor",
+      "pregnancy",
+      "surprise",
+      "supermarket",
+      "hospital",
+      "infertility",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hghiutyun",
+      "anaknkal",
+      "supermarket",
+      "hivandanoc",
+      "anptghutyun",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "դե ես ընտանիքիցս հանգստանում եմ",
+      "հանկարծակիի ես բերում",
+      "դուք պիտի էտ սուպերմարկետում առևտուր անողների դեմքերը տենայիք"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "shop_market"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

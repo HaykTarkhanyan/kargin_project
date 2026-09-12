@@ -1,0 +1,71 @@
+{
+  "video_id": "4vgmCuZn_Ok",
+  "seq": 244,
+  "kargin_id": 244,
+  "title": "Kargin Haghordum sketch 347 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "244_Kargin_Haghordum_sketch_347_Hayko_Mko_4vgmCuZn_Ok.tr.json",
+    "visual": true
+  },
+  "input_chars": 2810,
+  "gen_sec": 14.82,
+  "prompt_tokens": 2525,
+  "output_tokens": 669,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003269,
+  "annotation": {
+    "title_hy": "Կազինոյի բախտը և կանացի ներքնազգեստը",
+    "title_en": "Casino Luck and Bra Sizes",
+    "summary_en": "Two wives win a fortune at a casino by betting on their combined bra sizes, leading their husbands to try the same logic with a different metric.",
+    "summary_detailed_en": "The sketch alternates between a domestic setting and a casino. Two men, Samo and Gokor, are at home playing backgammon and complaining about their wives, Ruzo and Lilo, who are out shopping. The wives return excitedly, revealing they visited a casino. They explain their winning strategy: they added their bra sizes (Size 2 and Size 3) to bet on number 5, winning $3,600. The husbands are amazed and decide to try their luck the following day. At the casino roulette table, the two men in suits decide to mimic their wives' strategy. Since they don't wear bras, they decide to add up the number of times they are intimate with their wives in one night. Gokor claims 5 times, and Samo claims 7. They bet their entire $2,000 stake on number 12. The ball lands on 2. The sketch ends with the men in a physical confrontation, grabbing each other's collars, as they realize that if they hadn't lied to each other to look masculine—admitting the true numbers were likely lower—they would have actually won.",
+    "keywords_hy": [
+      "կազինո",
+      "նարդի",
+      "բուլզգալտեր",
+      "հաղթանակ",
+      "խաղադրույք",
+      "ռուլետկա",
+      "ստախոսություն",
+      "փող"
+    ],
+    "keywords_en": [
+      "casino",
+      "backgammon",
+      "bra size",
+      "roulette",
+      "betting",
+      "winning",
+      "lying",
+      "husbands and wives"
+    ],
+    "keywords_translit": [
+      "kazino",
+      "nardi",
+      "bulzgalter",
+      "haghtanak",
+      "khaghadruyq",
+      "ruletka",
+      "stakhosutyun",
+      "pogh"
+    ],
+    "catchphrases": [
+      "ես ձեր էն բյուզգալտրների ռազմերին մեռնեմ արա",
+      "իսկ որ իրար չխափեինք ճիշտ ասեինք հիմա կկրեինք"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

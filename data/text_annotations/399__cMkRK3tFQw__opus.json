@@ -1,0 +1,78 @@
+{
+  "video_id": "_cMkRK3tFQw",
+  "seq": 399,
+  "kargin_id": 399,
+  "title": "Kargin Haghordum - Pleterov sex (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "399_Kargin_Haghordum_-_Pleterov_sex_Hayko_Mko__cMkRK3tFQw.hy.json",
+    "visual": true
+  },
+  "input_chars": 2591,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Գյուղի և քաղաքի ապաշխարանքը",
+    "title_en": "Village Penance, City Penance",
+    "summary_en": "A village girl confesses a kinky encounter to her village priest and is given a crushing penance, so she takes the same confession to a city priest and gets off with one candle and a prayer.",
+    "summary_detailed_en": "On the grounds of a stone monastery, a young woman with braided pigtails tells an elderly bearded monk that she has done something terrible and repented. Pressed, she describes an encounter with a pale, cologne-scented city boy who proposed what she calls sado-maso and she calls whip sex, explaining with excruciating literalness that they took turns as animal and shepherd. The scandalised village priest calls it an enormous sin and prescribes a punishing penance: a hundred small candles, a hundred large ones and a hundred communions, after which her sin might possibly be partly forgiven. She asks whether there is an easier way; he says there is none and that any priest anywhere would tell her the same. She goes to the city instead. A younger priest at his office desk, in the middle of registering a wedding by email, hears the identical confession and rules briskly: light one small candle in church, say one prayer, done. When she protests that her village priest demanded three hundred, he explains what village clergy could possibly know about such things - in the city they simply call it erotica.",
+    "keywords_hy": [
+      "քահանա",
+      "խոստովանություն",
+      "մեղք",
+      "մոմ",
+      "եկեղեցի",
+      "վանք",
+      "գյուղ",
+      "քաղաք",
+      "ապաշխարանք",
+      "էրոտիկա"
+    ],
+    "keywords_en": [
+      "priest",
+      "confession",
+      "sin",
+      "candles",
+      "church",
+      "monastery",
+      "village",
+      "city",
+      "penance",
+      "erotica"
+    ],
+    "keywords_translit": [
+      "qahana",
+      "khostovanutyun",
+      "megh",
+      "mom",
+      "yekeghetsi",
+      "vanq",
+      "gyugh",
+      "qaghaq",
+      "apashkharanq",
+      "erotika"
+    ],
+    "catchphrases": [
+      "100 հատ փոքր 100 հատ էլ մեծ մոմ կվառես",
+      "ձեր գեղեզ բան մեկը ասում է կրոտիկա"
+    ],
+    "topics": [
+      "religion",
+      "romance",
+      "village"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

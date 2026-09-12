@@ -1,0 +1,70 @@
+{
+  "video_id": "bzVJUkNNJ9Q",
+  "seq": 446,
+  "kargin_id": 446,
+  "title": "Kargin Haghordum - Graz (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "446_Kargin_Haghordum_-_Graz_Hayko_Mko_bzVJUkNNJ9Q.tr.json",
+    "visual": true
+  },
+  "input_chars": 1825,
+  "gen_sec": 4.33,
+  "prompt_tokens": 1817,
+  "output_tokens": 484,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00236,
+  "annotation": {
+    "title_hy": "Գռազի բանկեն և բուլտերյերը",
+    "title_en": "The Bet Jar and the Bull Terrier",
+    "summary_en": "A man attempts to win a jar full of money by completing three tasks: drinking a bottle of tequila, pulling a bull terrier's tooth, and satisfying an elderly woman.",
+    "summary_detailed_en": "The sketch begins at a bar where a man notices a jar filled with money. The bartender explains it is a betting jar: to win the cash, one must pay five dollars and complete three difficult challenges. The man agrees to the terms: first, he must drink an entire bottle of tequila in one go; second, he must enter the backyard and pull a diseased tooth from a fierce bull terrier using only his bare hands; and third, he must engage in and satisfy an elderly, pimply woman in a private room provided by the bar. The man successfully downs the tequila and staggers out to face the dog. The visuals then shift to a village setting where two men are perched on a corrugated rooftop near a chimney and a stork's nest, observing the scene below. After a period of loud commotion and barking, the man returns to the bar, disheveled and drunk. In a classic comedic reversal, he asks, 'Where is the old woman whose tooth I have to pull?', implying he mistakenly tried to satisfy the dog instead of the woman.",
+    "keywords_hy": [
+      "գռազ",
+      "բար",
+      "տեկիլա",
+      "բուլտերյեր",
+      "ատամ քաշել",
+      "պառավ",
+      "փող",
+      "խաղադրույք"
+    ],
+    "keywords_en": [
+      "bet",
+      "bar",
+      "tequila",
+      "bull terrier",
+      "tooth extraction",
+      "old woman",
+      "money jar",
+      "challenge"
+    ],
+    "keywords_translit": [
+      "graz",
+      "bar",
+      "tequila",
+      "bulteryer",
+      "atam qashel",
+      "parav",
+      "pogh",
+      "khaghadruyq"
+    ],
+    "catchphrases": [
+      "հը ուրա պառավը բերեք ատամը քաշեմ"
+    ],
+    "topics": [
+      "drinking",
+      "leisure_outing",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

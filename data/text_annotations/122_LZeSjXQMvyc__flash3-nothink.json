@@ -1,0 +1,67 @@
+{
+  "video_id": "LZeSjXQMvyc",
+  "seq": 122,
+  "kargin_id": 122,
+  "title": "Kargin Haghordum sketch 687 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "122_Kargin_Haghordum_sketch_687_Hayko_Mko_LZeSjXQMvyc.ru.json",
+    "visual": true
+  },
+  "input_chars": 2757,
+  "gen_sec": 5.83,
+  "prompt_tokens": 1924,
+  "output_tokens": 593,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002741,
+  "annotation": {
+    "title_hy": "Ստալինը և բեղավոր այծը",
+    "title_en": "Stalin and the Bearded Goat",
+    "summary_en": "In a historical parody of the Kremlin in 1942, Stalin confronts a general who allegedly called him a 'bearded goat' after a tense meeting.",
+    "summary_detailed_en": "Set in a black-and-white 1942 Kremlin parody, a leader styled after Joseph Stalin sits at a desk equipped with vintage telephones and a pipe. He is giving orders to a military general with glasses, demanding that Kiev be recaptured in a single day despite the general's logistical concerns. Stalin dismisses the general's objections, stating that if he says it is necessary, it must be done. As the general leaves the office and enters the corridor, he mutters 'bearded goat' (usatiy kozyol) under his breath. A guard named Vanka immediately reports this insult to Stalin. Stalin summons the general back to the office and asks him sternly whom he was referring to when he said 'bearded goat.' The general quickly thinks on his feet and replies that he was referring to Hitler. Stalin then turns his gaze to the informant guard and suspiciously asks, 'And who did you think he was talking about, Vanka?' turning the tables on the snitch.",
+    "keywords_hy": [
+      "Ստալին",
+      "Գիտլեր",
+      "պատերազմ",
+      "գեներալ",
+      "Կրեմլ",
+      "կատակերգություն",
+      "բեղավոր այծ"
+    ],
+    "keywords_en": [
+      "Stalin",
+      "Hitler",
+      "General",
+      "Kremlin",
+      "parody",
+      "war",
+      "historical humor"
+    ],
+    "keywords_translit": [
+      "Stalin",
+      "Gitler",
+      "paterazm",
+      "general",
+      "Kreml",
+      "katakergutyun",
+      "beghavor ayts"
+    ],
+    "catchphrases": [
+      "товарищ генерал когда вы вышли из моего кабинета вы произнести фразу усатый козёл вы кого имели в виду я имел в виду Гитлера товарищ Сталин Ванька а ты на кого падумал"
+    ],
+    "topics": [
+      "bureaucracy",
+      "army",
+      "other"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

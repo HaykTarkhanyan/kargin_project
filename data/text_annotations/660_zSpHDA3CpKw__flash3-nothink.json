@@ -1,0 +1,72 @@
+{
+  "video_id": "zSpHDA3CpKw",
+  "seq": 660,
+  "kargin_id": 660,
+  "title": "Kargin Haghordum sketch 223 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1350,
+  "gen_sec": 4.81,
+  "prompt_tokens": 1718,
+  "output_tokens": 578,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002593,
+  "annotation": {
+    "title_hy": "Դասասենյակ և Վիվարո",
+    "title_en": "Classroom and Vivaro",
+    "summary_en": "A teacher asks her students to talk about their fathers' professions and what they would bring to class, leading to a joke about sports betting.",
+    "summary_detailed_en": "In a school classroom, a female teacher, played by a male actor in drag with a red wig, lipstick, and a necklace, stands before her students for a lesson without textbooks. She introduces a word game where students must name their father's profession, spell it, and imagine what he would bring to class. The teacher starts by saying her father is a waiter who would bring mineral water. Anna says her father works in a bank and would bring shiny coins. Lilit says her father is a baker who would bring cookies. Gagik attempts to say his father is a veterinarian but struggles to pronounce the long Armenian word 'anasnabuyzh'. Finally, Mihran stands up and says his father works at Vivaro (a betting company). Using gambling terminology, Mihran delivers the punchline: his father would give 0.20 odds that Gagik cannot pronounce the word 'veterinarian'. The scene features intercut shots of the teacher and the children sitting at their school desks.",
+    "keywords_hy": [
+      "դպրոց",
+      "ուսուցչուհի",
+      "դասարան",
+      "հայրիկ",
+      "մասնագիտություն",
+      "Վիվարո",
+      "խաղադրույք",
+      "աշակերտ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "school",
+      "teacher",
+      "classroom",
+      "father",
+      "profession",
+      "Vivaro",
+      "betting",
+      "student",
+      "joke"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "usucchuhi",
+      "dasaran",
+      "hayrik",
+      "masnagitutyun",
+      "Vivaro",
+      "khaghadruyq",
+      "ashakert",
+      "katak"
+    ],
+    "catchphrases": [
+      "իմ հայրիկը աշխատում է"
+    ],
+    "topics": [
+      "school",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

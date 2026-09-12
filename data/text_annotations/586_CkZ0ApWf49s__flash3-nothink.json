@@ -1,0 +1,78 @@
+{
+  "video_id": "CkZ0ApWf49s",
+  "seq": 586,
+  "kargin_id": 586,
+  "title": "Kargin Haghordum sketch 437 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "586_Kargin_Haghordum_sketch_437_Hayko_Mko_CkZ0ApWf49s.hy.json",
+    "visual": true
+  },
+  "input_chars": 3186,
+  "gen_sec": 26.73,
+  "prompt_tokens": 2781,
+  "output_tokens": 685,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003445,
+  "annotation": {
+    "title_hy": "Գերծախս Հյուրանոցում",
+    "title_en": "Hotel Overcharge",
+    "summary_en": "A diaspora Armenian tourist disputes an astronomical hotel bill for luxury services he never used, ultimately outsmarting the clerk with his own logic.",
+    "summary_detailed_en": "The sketch features a diaspora Armenian tourist (Western Armenian dialect) checking out of a hotel. The hotel clerk informs him of a $10,000 overcharge. The clerk explains that the bill includes a $2,000 luxury limousine tour to Garni-Geghard, $3,000 for a yacht fishing trip with a famous fisherman, and $5,000 for a helicopter ride to Batumi with a romantic seaside dinner. The tourist is outraged, arguing that he never saw the limousine, never ate the fish, and is deathly afraid of flying, preferring the bus. To every objection, the clerk smugly replies that it is 'his problem' because the services were fueled, prepared, and waiting for him every day. The tourist suddenly agrees to pay but demands $10,000 back from the clerk for 'moral damages' regarding an affair with his wife. When the shocked clerk denies ever touching the man's wife, the tourist delivers the punchline using the clerk's own logic: that is the clerk's problem, because his wife was lying by the pool in a bikini every day waiting for him.",
+    "keywords_hy": [
+      "հյուրանոց",
+      "հաշիվ",
+      "գերծախս",
+      "սփյուռքահայ",
+      "լիմուզին",
+      "ուղղաթիռ",
+      "տուրիստ",
+      "խորոված",
+      "ծովափ",
+      "բիքինի"
+    ],
+    "keywords_en": [
+      "hotel bill",
+      "overcharge",
+      "diaspora Armenian",
+      "limousine",
+      "helicopter",
+      "tourist",
+      "barbecue",
+      "beachside",
+      "bikini",
+      "scam"
+    ],
+    "keywords_translit": [
+      "hyuranoc",
+      "hashiv",
+      "gercaxs",
+      "spyurqahay",
+      "limuzin",
+      "uxatir",
+      "turist",
+      "xorovac",
+      "covap",
+      "bikini"
+    ],
+    "catchphrases": [
+      "դա ձեր պրոբլեմն է",
+      "այս ի՞նչ կասե՞ք",
+      "Ապերիկա քո պրոբլեմն է"
+    ],
+    "topics": [
+      "bureaucracy",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

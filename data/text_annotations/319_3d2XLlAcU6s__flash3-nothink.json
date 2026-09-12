@@ -1,0 +1,76 @@
+{
+  "video_id": "3d2XLlAcU6s",
+  "seq": 319,
+  "kargin_id": 319,
+  "title": "Kargin Haghordum sketch 480 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2084,
+  "gen_sec": 23.65,
+  "prompt_tokens": 2138,
+  "output_tokens": 681,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003112,
+  "annotation": {
+    "title_hy": "Գիշերային սարսափ պատմություններ",
+    "title_en": "Nightmare Campfire Stories",
+    "summary_en": "Three campers try to outdo each other with increasingly absurd and gruesome horror stories until one subverts the trope with a joke about the future.",
+    "summary_detailed_en": "The sketch takes place at night in a forest campsite where three young men are gathered around a glowing campfire next to their tent. One camper, wearing a bucket hat, begins telling a macabre urban legend about a family of three found dead by children in a village, only for their corpses to vanish before the authorities arrived. Not to be outdone, the second camper tells a bizarre story about twin sisters and their dog; on their 10th birthday, the sisters vanished, and the dog later gave birth to puppies that had the faces of the missing girls. The third camper raises the stakes with a tale of three villagers who slaughtered a cursed cow belonging to a local sorcerer, only to be found dead the next day with horns growing from their heads and their stomachs full of milk. The visual atmosphere is tense, with the men looking startled and a mysterious shadow appearing on the tent wall. The sketch ends when one camper asks if they have heard the story of the cannibalistic scarecrow and the four tourists. When the others say no, he dryly remarks that they couldn't have heard it because it hasn't happened yet.",
+    "keywords_hy": [
+      "սարսափ",
+      "պատմություններ",
+      "անեծք",
+      "անտառ",
+      "խարույկ",
+      "գյուղական լեգենդ",
+      "հեքիմ",
+      "կով",
+      "դիակ",
+      "քարոզ"
+    ],
+    "keywords_en": [
+      "horror stories",
+      "camping",
+      "campfire",
+      "urban legend",
+      "curse",
+      "forest",
+      "tent",
+      "ghost stories",
+      "scary",
+      "cannibal"
+    ],
+    "keywords_translit": [
+      "sarsap",
+      "patmutyunner",
+      "anetsk",
+      "antar",
+      "kharuyk",
+      "gyughakan legend",
+      "heqim",
+      "kov",
+      "diak",
+      "qaroz"
+    ],
+    "catchphrases": [
+      "Լսեք հըլը։ Իսկ մարդակեր խրտվիլակի ու 4տուրիստների պատմությունը լսե՞լ եք։ -Չէ։ -Ուրդից լսեք, հըլը չի եղել։"
+    ],
+    "topics": [
+      "leisure_outing",
+      "village",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "NmY28R9g89E",
+  "seq": 68,
+  "kargin_id": 68,
+  "title": "Kargin Haghordum sketch 633 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2821,
+  "gen_sec": 7.13,
+  "prompt_tokens": 2513,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003078,
+  "annotation": {
+    "title_hy": "Ռուդիկի նոր պայմանները",
+    "title_en": "Rudik's New Conditions",
+    "summary_en": "A frustrated office worker takes bad advice on how to handle his wife and mother-in-law, leading to a hilariously confused ultimatum.",
+    "summary_detailed_en": "In an office corridor, two coworkers in shirts and ties chat by a water cooler, drinking from red plastic cups. Rudik complains about being broke and expresses misery regarding his home life, where his wife and mother-in-law (played by a man in drag) treat him like a servant, demanding he fix lightbulbs and wash dishes. His colleague, who is not actually married himself, advises Rudik to go home, drink a glass of vodka for courage, and assert his dominance. The scene shifts to Rudik's living room. He calls his wife and mother-in-law into the hall, demands vodka, and attempts to lay down the law. He shouts that from now on, he will come and go as he pleases, play cards, and go fishing whenever he wants without complaints. However, his bravado takes a bizarre turn when he attempts to set a sleeping schedule, telling his wife they will sleep together one night and he will sleep with his mother-in-law the next. The sketch ends with the shocked mother-in-law unexpectedly agreeing, stating they must do whatever the man of the house says.",
+    "keywords_hy": [
+      "աշխատավարձ",
+      "զոքանչ",
+      "կնիկ",
+      "արաղ",
+      "տան տղամարդ",
+      "խորհուրդ",
+      "բաժանվել",
+      "ծառայել"
+    ],
+    "keywords_en": [
+      "salary",
+      "mother-in-law",
+      "wife",
+      "vodka",
+      "man of the house",
+      "advice",
+      "divorce",
+      "servant"
+    ],
+    "keywords_translit": [
+      "ashkhatavardz",
+      "zoqanch",
+      "knik",
+      "aragh",
+      "tan tghamard",
+      "khorhurd",
+      "bazhanvel",
+      "tsarayel"
+    ],
+    "catchphrases": [
+      "Ամիսը չփրծավ փողերս վերջացավ"
+    ],
+    "topics": [
+      "family",
+      "work",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

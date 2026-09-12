@@ -1,0 +1,70 @@
+{
+  "video_id": "w98pmmL9fh0",
+  "seq": 194,
+  "kargin_id": 194,
+  "title": "Kargin Haghordum sketch 531 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "194_Kargin_Haghordum_sketch_531_Hayko_Mko_w98pmmL9fh0.hy.json",
+    "visual": true
+  },
+  "input_chars": 3713,
+  "gen_sec": 28.39,
+  "prompt_tokens": 3019,
+  "output_tokens": 601,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003312,
+  "annotation": {
+    "title_hy": "Իմ ամառային արձակուրդը",
+    "title_en": "My Summer Vacation",
+    "summary_en": "A school teacher asks students about their summer holidays, leading to a hilarious lesson learned from a drunk uncle's war stories.",
+    "summary_detailed_en": "The sketch takes place in a typical school classroom during the first day back from summer vacation. A teacher (not visible, but heard) addresses the class, expressing excitement to hear about how the children spent their three-month break. An eccentric-looking man with curly hair and a patterned shirt, played by one of the comedians, is bizarrely seated among the young schoolchildren as if he were one of them. First, a girl named Ruzanna describes gardening with her grandmother and mother, concluding that care is necessary for a good harvest. Next, a boy named Erik recounts camping and fishing with his father, concluding that a man must overcome all difficulties. Finally, the teacher turns to Andranik (the adult comedian in the schoolboy role). Andranik explains that he spent the whole summer in the kitchen listening to his uncle’s stories about the war in Afghanistan. He describes a tall tale where his uncle, armed with five bottles of vodka, machine gun belts, and grenades, wiped out an entire company and five tanks after drinking all the vodka. When the teacher asks what lesson he learned, he delivers the punchline: one should never mess with his uncle when he is drunk.",
+    "keywords_hy": [
+      "դպրոց",
+      "արձակուրդ",
+      "քեռի",
+      "խմած",
+      "Աֆղանստան",
+      "պատերազմ",
+      "աշակերտ",
+      "դասարան"
+    ],
+    "keywords_en": [
+      "school",
+      "vacation",
+      "drunk uncle",
+      "Afghanistan",
+      "war stories",
+      "student",
+      "classroom",
+      "summer break"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "ardzakurd",
+      "qeri",
+      "xmac",
+      "Afganstan",
+      "paterazm",
+      "ashakert",
+      "dasaran"
+    ],
+    "catchphrases": [
+      "երբ քեռին հարբածա, հետը գլուխ չարժի դնել"
+    ],
+    "topics": [
+      "school",
+      "family",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

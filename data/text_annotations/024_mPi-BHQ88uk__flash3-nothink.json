@@ -1,0 +1,73 @@
+{
+  "video_id": "mPi-BHQ88uk",
+  "seq": 24,
+  "kargin_id": 24,
+  "title": "Kargin Haghordum - Galuboy (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1501,
+  "gen_sec": 3.57,
+  "prompt_tokens": 1772,
+  "output_tokens": 624,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002758,
+  "annotation": {
+    "title_hy": "Գալուբոյ որդիները",
+    "title_en": "The Gay Sons",
+    "summary_en": "A depressed man visits a bar to drink away his sorrows, revealing to the bartender that all three of his sons are gay, only for the final twist to reveal his daughter's preference.",
+    "summary_detailed_en": "The sketch begins with a man in a suit walking through a city street before entering a dimly lit, blue-toned bar. He approaches the bar counter, where a graying bartender wearing a vest and bow tie is working alongside a younger assistant. The man, looking distraught, orders 50 grams of vodka and refuses any appetizers (zakuski), stating he needs to get drunk to forget his misfortunes. He explains to the bartender that his eldest son is gay ('galuboy'). After another drink, he laments that 'misfortune doesn't come alone' and reveals his middle son is also gay. The bartender, while continuing to mix drinks and gesture animatedly, expresses confusion about the lifestyle, making jokes about swapping razors for epilators and urologists for gynecologists. Finally, the man reveals his youngest son is also gay. When the exasperated bartender asks if anyone in the family actually likes women, the man delivers the punchline: his daughter does. The scene ends with him asking for one last pour.",
+    "keywords_hy": [
+      "բարմեն",
+      "օղի",
+      "հարբած",
+      "ընտանիք",
+      "դժբախտություն",
+      "գալուբոյ",
+      "կատակ",
+      "խմիչք"
+    ],
+    "keywords_en": [
+      "bartender",
+      "vodka",
+      "drunk",
+      "family",
+      "misfortune",
+      "gay sons",
+      "joke",
+      "bar counter"
+    ],
+    "keywords_translit": [
+      "barmen",
+      "oghi",
+      "harbats",
+      "yntaniq",
+      "djbaxtutyun",
+      "galuboy",
+      "katak",
+      "xmichq"
+    ],
+    "catchphrases": [
+      "ջոգմ ես",
+      "դժբախտությունը մենակ չի գալիս",
+      "ձեր ընտանիքում մեկը չկա որ կինա սիրում",
+      "կա; աղջիկս ա"
+    ],
+    "topics": [
+      "drinking",
+      "family",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

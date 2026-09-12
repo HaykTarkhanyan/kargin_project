@@ -1,0 +1,75 @@
+{
+  "video_id": "Fyc5VWnAMog",
+  "seq": 241,
+  "kargin_id": 241,
+  "title": "Kargin Haghordum - Brnabarum hetenq berum (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "241_Kargin_Haghordum_-_Brnabarum_hetenq_berum_Hayko_Mko_Fyc5VWnAMog.hy.json",
+    "visual": true
+  },
+  "input_chars": 8510,
+  "gen_sec": 10.28,
+  "prompt_tokens": 5735,
+  "output_tokens": 698,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.004962,
+  "annotation": {
+    "title_hy": "Գյուղի Գերբի Կենացը",
+    "title_en": "The Village Crest Toast",
+    "summary_en": "A city driver accepts a hospitality invitation from village men, only to learn their dark tradition for those who can't handle their liquor.",
+    "summary_detailed_en": "The sketch takes place in a series of segments, concluding with a rural hospitality scene. A city driver, lost on the road to Goris, is invited by a group of villagers to drink in their orchard. The group of men, wearing flat caps and seated at a rustic outdoor table with bottles of vodka, insists he join them for a 'toast to the village crest.' As the drinking progresses, one of the guests passes out. The host nonchalantly explains that because there are no women in the village, their custom is to take any man who can't hold his drink, gang-rape him, and then bring him back. The city driver is horrified, thinking it is a joke, but the host maintains a deadpan expression, confirming it is their serious tradition. Panicked by the realization, the driver tries to lecture them on city drinking habits to avoid 'blacking out,' but eventually, the sketch cuts to the driver being physically carried away by the men while he screams in terror. The punchline occurs when the men are seen carrying him back to the table, telling him to relax because they are already 'bringing him back' after the act.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "գյուղական հյուրասիրություն",
+      "կենաց",
+      "բռնաբարություն",
+      "խմիչք",
+      "հարբած",
+      "Գորիսի ճանապարհ",
+      "քաղաքացի",
+      "գյուղացի"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "village hospitality",
+      "toast",
+      "drunk",
+      "liquor",
+      "dark humor",
+      "city driver",
+      "rural tradition",
+      "abduction"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "gyughakan hyurasirutyun",
+      "kenats",
+      "brnabarutyun",
+      "khmichk",
+      "harbats",
+      "Gorisi chanaparh",
+      "kaghakatsi",
+      "gyughatsi"
+    ],
+    "catchphrases": [
+      "մեր գեղի գերբի կենացը",
+      "տանում ենք մի հատ հավեսով բռնաբարում ենք ու հետ ենք բերում",
+      "մենք քեզ արդեն հետ ենք բերում"
+    ],
+    "topics": [
+      "drinking",
+      "village",
+      "transport"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

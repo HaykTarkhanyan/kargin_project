@@ -1,0 +1,70 @@
+{
+  "video_id": "XTx8271LtQo",
+  "seq": 651,
+  "kargin_id": 651,
+  "title": "Kargin Haghordum sketch 594 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1396,
+  "gen_sec": 4.94,
+  "prompt_tokens": 1699,
+  "output_tokens": 586,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002608,
+  "annotation": {
+    "title_hy": "Ծխապատված շենքի թմրամոլը",
+    "title_en": "The Smoked-Out Apartment",
+    "summary_en": "Two police officers attempt to arrest a drug user whose smoke is intoxicating the whole building, only to face a surreal refusal at the door.",
+    "summary_detailed_en": "The sketch begins in a dimly lit, dark stairwell where two police officers are preparing for a raid. One officer expresses fear and suggests they should have brought weapons, but the senior officer mocks him, calling him 'Rambo' and explaining that their target is just a typical drug user. According to the chief, the neighbors complained because the suspect smokes so much that the entire building fills with smoke, causing everyone to laugh even during bad situations. Meanwhile, inside the apartment, a man in a white shirt sits nervously on his couch beneath a large painting of an eagle, biting his nails while watching television. The officers knock loudly, announcing they are from the police. The tenant, clearly high, responds with confusion, asking how many they are. When the officer replies that there are two of them, the tenant hilariously suggests they just 'talk to each other' instead of bothering him. The sketch concludes with a physical scuffle at the doorway as the officers attempt to force their way in to apprehend the man.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "թմրամոլ",
+      "հարևաններ",
+      "բողոք",
+      "ծուխ",
+      "քաղմաս",
+      "կատակերգություն",
+      "ծիծաղ"
+    ],
+    "keywords_en": [
+      "police",
+      "drug user",
+      "neighbors",
+      "complaint",
+      "smoke",
+      "apartment",
+      "arrest",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "ostikanutyun",
+      "tmramol",
+      "harevanner",
+      "boghoq",
+      "tsukh",
+      "qaghmas",
+      "katakergutyun",
+      "tsitsagh"
+    ],
+    "catchphrases": [
+      "էսի տանը նստած քաշումա ամբողջ շենքը սենց ծխապատվումա"
+    ],
+    "topics": [
+      "police",
+      "neighbors",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

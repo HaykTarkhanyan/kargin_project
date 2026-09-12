@@ -1,0 +1,72 @@
+{
+  "video_id": "gAzcI3ksk-s",
+  "seq": 252,
+  "kargin_id": 252,
+  "title": "Kargin Haghordum sketch 355 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "252_Kargin_Haghordum_sketch_355_Hayko_Mko_gAzcI3ksk-s.de.json",
+    "visual": true
+  },
+  "input_chars": 3916,
+  "gen_sec": 3.62,
+  "prompt_tokens": 2815,
+  "output_tokens": 503,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002916,
+  "annotation": {
+    "title_hy": "Տիտանիկի տոմսերը",
+    "title_en": "Titanic Tickets",
+    "summary_en": "Two friends sit in a cinema where one repeatedly bets he can slap a tough-looking stranger on the back to avoid watching 'Titanic' for the eleventh time.",
+    "summary_detailed_en": "In a wood-paneled cinema auditorium, two friends are about to watch the movie 'Titanic' for the tenth time. One friend is exhausted by the repetition, but the other is obsessed with the ticket-seller and insists on staying. To make things interesting and potentially get out of the screening, they begin making bets. The protagonist claims he is brave enough to walk up to a large, intimidating bearded man sitting alone in the rows and slap him on the back, pretending he is an old friend named Gago. He successfully slaps the stranger twice, each time apologizing for 'mistaking' him for Gago, winning bets of 'Titanic' tickets and money from his stunned friend. For the third bet, involving fifteen tickets and a promise of company for every future screening, the protagonist approaches the now-furious stranger one last time. Despite the stranger's visible anger and the threat of a beating, the protagonist uses the 'mistaken identity' ruse to navigate the social tension of the theater, while his friend watches in disbelief at his 'dog-like luck' and audacity.",
+    "keywords_hy": [
+      "կինոթատրոն",
+      "Տիտանիկ",
+      "գրազ",
+      "տոմս",
+      "Գագո",
+      "կատակերգություն",
+      "Հայկո Մկո",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "cinema",
+      "Titanic",
+      "bet",
+      "tickets",
+      "Gago",
+      "comedy",
+      "Kargin Haghordum",
+      "Hayko Mko"
+    ],
+    "keywords_translit": [
+      "kinotatron",
+      "Titanic",
+      "graz",
+      "toms",
+      "Gago",
+      "katakergutyun",
+      "Hayko Mko",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "արդեն գիտենք նավը կոնկրետ որ ժամին ա խորտակվում",
+      "2 հատ տիտանիկի տոմս",
+      "Գագո ջան բարև ոնց ես",
+      "ապեր ես Գագոն չեմ դու շփոթվել ես"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

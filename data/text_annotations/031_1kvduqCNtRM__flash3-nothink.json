@@ -1,0 +1,70 @@
+{
+  "video_id": "1kvduqCNtRM",
+  "seq": 31,
+  "kargin_id": 31,
+  "title": "Kargin Haghordum sketch 338 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "031_Kargin_Haghordum_sketch_338_Hayko_Mko_1kvduqCNtRM.hy.json",
+    "visual": true
+  },
+  "input_chars": 1440,
+  "gen_sec": 5.47,
+  "prompt_tokens": 1754,
+  "output_tokens": 595,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002662,
+  "annotation": {
+    "title_hy": "Քննություն և նախաճաշ",
+    "title_en": "Exam and Breakfast",
+    "summary_en": "A student arrives for an oral exam with a bag of groceries and starts preparing a full meal while claiming the question is so complex it will take time to answer.",
+    "summary_detailed_en": "The sketch begins in a school hallway where a student greets a classmate who has just passed his exam with a top grade. The student then enters a classroom for an oral exam with an elderly teacher. The teacher notes that he is the last student of the day and urges him to draw a ticket and answer quickly so they can both go home to their families. The student sits at a desk in front of a chalkboard, but instead of writing, he pulls out a red plastic grocery bag. As he begins to answer, he claims the question is extremely difficult and the explanation will be so long that they will both get hungry. To the teacher's surprise, the student proceeds to unpack bread, tomatoes, cucumbers, cheese, and sausage, meticulously preparing a large sandwich during the exam. The teacher, rather than being angry, admits he is already hungry and tells the student to keep talking while he prepares the food. The humor stems from the absurdity of treating a formal academic setting like a kitchen counter.",
+    "keywords_hy": [
+      "քննություն",
+      "ուսանող",
+      "դասախոս",
+      "դպրոց",
+      "ուտելիք",
+      "հաց ու պանիր",
+      "բանավոր քննություն",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "exam",
+      "student",
+      "teacher",
+      "school",
+      "food",
+      "sandwich",
+      "oral exam",
+      "classroom"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "usanogh",
+      "dasaxos",
+      "dproc",
+      "uteliq",
+      "hac u panir",
+      "banavor qnnutyun",
+      "kargin"
+    ],
+    "catchphrases": [
+      "հարցը բարդա երկար եմ պատասխանելու կսովածանաք",
+      "ճիշտն ասած արդեն սոված եմ",
+      "պատմի պատմի"
+    ],
+    "topics": [
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

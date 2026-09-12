@@ -1,0 +1,69 @@
+{
+  "video_id": "40ukYPvfUmI",
+  "seq": 357,
+  "kargin_id": 357,
+  "title": "Kargin Haghordum sketch 456 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "357_Kargin_Haghordum_sketch_456_Hayko_Mko_40ukYPvfUmI.hy.json",
+    "visual": true
+  },
+  "input_chars": 1437,
+  "gen_sec": 5.02,
+  "prompt_tokens": 1739,
+  "output_tokens": 616,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002718,
+  "annotation": {
+    "title_hy": "Կնոջ սխալը մթության մեջ",
+    "title_en": "Wife's Mistake in the Dark",
+    "summary_en": "A man returns home late at night only to discover that an intruder has assaulted his wife, who didn't protest because she thought it was her husband.",
+    "summary_detailed_en": "The sketch begins at night in a dark apartment. A man returns home, visibly exhausted and muttering to himself about not waking up his sleeping wife. He is seen in the living room area, at one point wrapped in a shiny gold blanket on a couch, appearing anxious and weary. He eventually enters the bedroom where his wife is sleeping. Suddenly, a commotion occurs involving an intruder. The wife, wearing a nightgown, sits up in bed startled. A tense and gesture-heavy confrontation takes place near an open window. The man is shocked to find out that a stranger has just assaulted his wife twice. When he frantically asks why she didn't scream or make a sound earlier, she provides the absurd punchline: she thought the intruder was her husband, and she only realized something was wrong when the person started for a second time, implying her husband wouldn't have the stamina or inclination to do so.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "մութ",
+      "բռնաբարություն",
+      "ննջարան",
+      "կնիկ",
+      "ամուսիններ",
+      "սխալմունք",
+      "գիշեր"
+    ],
+    "keywords_en": [
+      "darkness",
+      "bedroom",
+      "husband and wife",
+      "mistaken identity",
+      "intruder",
+      "nightgown",
+      "exhaustion",
+      "absurd situation"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "mut",
+      "brnabarutyun",
+      "nnjaran",
+      "knik",
+      "amusinner",
+      "sxalmunq",
+      "gisher"
+    ],
+    "catchphrases": [
+      "էս ով էր կնիկ էսի նոր ինձ երկու անգամ բռնաբարեց բա ընչի շուտ ձեն չհանիր ես գիտեի էդ դու ես մինչև որ ինքը երկրորդ անգամ չսկսեց"
+    ],
+    "topics": [
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

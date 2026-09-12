@@ -1,0 +1,71 @@
+{
+  "video_id": "K6wlN6Nm-Ak",
+  "seq": 16,
+  "kargin_id": 16,
+  "title": "Kargin Haghordum sketch 323 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2447,
+  "gen_sec": 24.18,
+  "prompt_tokens": 2353,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003109,
+  "annotation": {
+    "title_hy": "Հղի կնոջ առաջարկը",
+    "title_en": "The Pregnant Wife's Offer",
+    "summary_en": "A heavily pregnant woman, exhausted by her physical state, offers her husband money to visit a neighbor for sexual satisfaction, only for a hilarious double standard to be revealed.",
+    "summary_detailed_en": "In a living room setting, a heavily pregnant woman (played in drag) wearing a red pinafore dress is sitting on a couch, talking to her husband, Arsen, who is wearing a blue shirt. The woman expresses her extreme frustration and exhaustion with being eight months pregnant, noting that they haven't been intimate in eight months. She claims she can no longer endure the wait until the ninth month. In a shocking turn, she hands Arsen 50 dollars and tells him to go to their neighbor, Anzhel, whose husband is away working abroad (khopan), to satisfy his needs. Arsen is initially shocked and resistant, worried about the scandal and the fact that Anzhel is married. However, the wife insists she is doing this out of love. Arsen eventually accepts the money, calling his wife 'a brother' for her understanding. He leaves but returns quickly with a complaint: Anzhel wants 100 dollars. The punchline hits when the wife becomes indignant, calling Anzhel 'impudent' because she had provided the same 'service' to Anzhel's husband for only 50 dollars when she herself was pregnant the previous year.",
+    "keywords_hy": [
+      "հղիություն",
+      "հարևանուհի",
+      "փող",
+      "դոլար",
+      "խանդ",
+      "խոպան",
+      "զավեշտ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "pregnancy",
+      "neighbor",
+      "money",
+      "dollars",
+      "infidelity",
+      "working abroad",
+      "husband and wife",
+      "drag comedy"
+    ],
+    "keywords_translit": [
+      "hghiutyun",
+      "harevanuhi",
+      "pogh",
+      "dolar",
+      "khand",
+      "khopan",
+      "zavesht",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "ես միշտ գիտեի որ դու իմ ախպերնես",
+      "էդ 50 դոլարը գնա տուր են մեր դեմի հարևան Անժելին"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

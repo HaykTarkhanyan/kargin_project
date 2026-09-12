@@ -1,0 +1,71 @@
+{
+  "video_id": "amnE17M7PL8",
+  "seq": 329,
+  "kargin_id": 329,
+  "title": "Kargin Haghordum sketch 291 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "329_Kargin_Haghordum_sketch_291_Hayko_Mko_amnE17M7PL8.ru.json",
+    "visual": true
+  },
+  "input_chars": 1753,
+  "gen_sec": 21.37,
+  "prompt_tokens": 1928,
+  "output_tokens": 635,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002869,
+  "annotation": {
+    "title_hy": "Ռոմանտիկ հանգիստ առանց կնոջ",
+    "title_en": "Romantic Vacation Without the Wife",
+    "summary_en": "A man arrives at a hotel for a romantic getaway with a woman, but the clerk is horrified to learn he left his toddlers home alone while his wife stayed behind.",
+    "summary_detailed_en": "The sketch begins in a wood-paneled hotel lobby near a staircase. A man wearing a bright Hawaiian shirt and a woman arrive at the reception desk to check in. The clerk, dressed in a vest and tie, confirms their reservation under the name Galstyan. The man explains they are visiting for a short weekend getaway to relax after a long work week. When the clerk asks if they have children, the man proudly mentions his sons, Pargevik and Nverik. The clerk finds it incredibly romantic that the couple left the children at home to spend quality time together, painting a vivid picture of the hotel's atmosphere: waking up to birdsong, dining by the lake with splashing fish, and walking under the moonlight. However, when the clerk asks who is watching the three-year-old and one-year-old, the man casually reveals that his wife stayed home to care for them. The clerk is left stunned by the realization that the man has brought a mistress on a 'romantic' trip while his wife stays home with the toddlers. The scene features a telephone prop and animated gestures from the clerk.",
+    "keywords_hy": [
+      "հյուրանոց",
+      "բռոնյա",
+      "ռոմանտիկ",
+      "հանգիստ",
+      "երեխաներ",
+      "դավաճանություն",
+      "ծիծաղելի",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "hotel",
+      "reservation",
+      "romantic getaway",
+      "mistress",
+      "toddlers",
+      "cheating",
+      "receptionist",
+      "weekend trip"
+    ],
+    "keywords_translit": [
+      "hyuranoc",
+      "bronya",
+      "romantik",
+      "hangist",
+      "erexaner",
+      "davachanutyun",
+      "tsitsagheli",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "բա ովա երեխաների մոտ մնացե",
+      "Ոնց ով ՝ կնիգս"
+    ],
+    "topics": [
+      "romance",
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

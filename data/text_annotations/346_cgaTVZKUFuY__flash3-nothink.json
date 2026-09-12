@@ -1,0 +1,74 @@
+{
+  "video_id": "cgaTVZKUFuY",
+  "seq": 346,
+  "kargin_id": 346,
+  "title": "Kargin Haghordum sketch 513 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2327,
+  "gen_sec": 6.25,
+  "prompt_tokens": 2141,
+  "output_tokens": 684,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003123,
+  "annotation": {
+    "title_hy": "Անպիտան աշխատողը և հովանավորը",
+    "title_en": "The Useless Employee and the Sponsor",
+    "summary_en": "A frustrated boss complains to a powerful sponsor about a completely incompetent new hire who keeps singing and making excuses.",
+    "summary_detailed_en": "Set in a typical office with grey blinds and CRT monitors, a mustachioed boss in a grey suit is reaching his breaking point. He is on the phone with a powerful benefactor, explaining that while he is grateful for the sponsor's help—ranging from getting his son out of the army to securing a free apartment on Northern Avenue—the employee the sponsor recommended is utterly useless. The employee, an effeminate young man with long shaggy hair, a colorful scarf, and red lipstick, sits at a desk acting more like 'furniture' or 'decoration' than a worker. Between the boss's complaints, the employee frequently bursts into passionate, eyes-closed singing. When the boss confronts him about his incompetence, the employee claims his mother was rushed to the hospital with a burst appendix but insists on staying at work to 'distract himself.' A moment later, the employee receives another 'call' and claims his brother just called to say his own mother also has a burst appendix—revealing his obvious lying or stupidity, as they share the same mother. The sketch satirizes nepotism and the absurdity of keeping 'untouchable' incompetent staff.",
+    "keywords_hy": [
+      "աշխատանք",
+      "տնօրեն",
+      "հովանավոր",
+      "կույրաղիք",
+      "ծույլ",
+      "բանակից ազատել",
+      "հյուսիսային պողոտա",
+      "անպիտան",
+      "գրասենյակ"
+    ],
+    "keywords_en": [
+      "work",
+      "boss",
+      "sponsor",
+      "appendix",
+      "lazy",
+      "army exemption",
+      "Northern Avenue",
+      "useless",
+      "office"
+    ],
+    "keywords_translit": [
+      "ashkhatank",
+      "tnoren",
+      "hovanavor",
+      "kuyraghik",
+      "tsuyl",
+      "banakic azatel",
+      "hyusisayin poghota",
+      "anpitan",
+      "grasenyak"
+    ],
+    "catchphrases": [
+      "ախր էսի մեբելա ցավդ տանեմ, դեկարացիյա",
+      "Հենց նոր ախպերս զանգեց, ասեց որ իրա մամայի մոտ էլա կույրաղիկը պայթել"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

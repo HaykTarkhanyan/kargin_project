@@ -1,0 +1,69 @@
+{
+  "video_id": "TraHCDDqKY8",
+  "seq": 429,
+  "kargin_id": 429,
+  "title": "Kargin Haghordum - Supermen (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1148,
+  "gen_sec": 5.9,
+  "prompt_tokens": 1604,
+  "output_tokens": 586,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00256,
+  "annotation": {
+    "title_hy": "Հարբած Սուպերմենը",
+    "title_en": "Drunk Superman",
+    "summary_en": "A woman treats her husband with unusual affection and calls him 'Superman,' only to reveal a humiliating reason for the nickname.",
+    "summary_detailed_en": "The sketch takes place in an apartment living room where a woman, played by a male actor in drag wearing a prominent red wig, is sitting on a couch. Her husband enters the room in a disheveled and intoxicated state. Unexpectedly, the wife begins to shower him with exaggerated affection and sweet nicknames, calling him 'Superman' repeatedly. She asks if her 'Superman' wants some water to freshen up, if he is hungry and wants some 'bread,' or if he is tired and needs to go to sleep. The husband, confused by this sudden change in behavior after a decade of marriage, questions her, noting that she has never said a sweet word to him in ten years. He asks why she is suddenly calling him Superman. The wife delivers the crushing punchline: she is only calling him that because he is so drunk that he put his underwear on over his trousers, just like the superhero. The visual setting includes typical domestic props like framed pictures and a couch, emphasizing the contrast between the mundane home life and the husband's ridiculous appearance.",
+    "keywords_hy": [
+      "Սուպերմեն",
+      "հարբած",
+      "կնիկ",
+      "ամուսին",
+      "տռուսիկ",
+      "շալվար",
+      "հումոր",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "Superman",
+      "drunk",
+      "wife in drag",
+      "husband",
+      "underwear",
+      "trousers",
+      "humor",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "superman",
+      "harbats",
+      "knik",
+      "amusin",
+      "trusik",
+      "shalvar",
+      "humor",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "որովհետև ամուսին ջան մենակ սուպերմեննա տռուսիկը շալվարի վրից հագնում"
+    ],
+    "topics": [
+      "family",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

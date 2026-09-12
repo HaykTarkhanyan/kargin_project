@@ -1,0 +1,71 @@
+{
+  "video_id": "Sgb5J28l0IM",
+  "seq": 18,
+  "kargin_id": 18,
+  "title": "Kargin Haghordum - Brnabarelen (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1910,
+  "gen_sec": 15.18,
+  "prompt_tokens": 2016,
+  "output_tokens": 633,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002907,
+  "annotation": {
+    "title_hy": "Ուշացած աղջիկը",
+    "title_en": "The Late Daughter",
+    "summary_en": "A strict father is furious that his daughter returned home two hours past her midnight curfew, and even a traumatic excuse cannot distract him from her lack of punctuality.",
+    "summary_detailed_en": "The sketch takes place in a domestic living room setting, featuring a mustached father in a striped shirt and a mother (played by a male actor in drag). The father is pacing and shouting, deeply agitated because their daughter has not returned home by her 12:00 AM curfew. It is now 2:15 AM, and he blames the mother for constantly defending the girl and cites the negative influence of the internet and social media sites like Odnoklassniki. He vows to lock her in her room and ban her from the computer. When the daughter finally arrives at the door appearing distressed and crying, the father immediately confronts her about the time. The daughter tearfully explains that she was raped, hoping for sympathy. However, the father remains fixated on the timeline, dismissively calculating that the act should have only taken fifteen minutes and demands to know where she spent the remaining two hours of her absence. The humor stems from the father's absurd and cold obsession with punctuality over his daughter's well-being.",
+    "keywords_hy": [
+      "ուշացում",
+      "հայր ու աղջիկ",
+      "կարգին հաղորդում",
+      "բռնաբարություն",
+      "ժամադրություն",
+      "ընտանիք",
+      "դիսկոտեկա",
+      "ինտերնետ"
+    ],
+    "keywords_en": [
+      "tardy daughter",
+      "strict father",
+      "curfew",
+      "dark humor",
+      "Kargin Haghordum",
+      "internet influence",
+      "paternal anger",
+      "logic fail"
+    ],
+    "keywords_translit": [
+      "ushacum",
+      "hayr u aghjik",
+      "kargin haghordum",
+      "brnabarutyun",
+      "zhamadrutyun",
+      "yntaniq",
+      "diskoteka",
+      "internet"
+    ],
+    "catchphrases": [
+      "էտի մաքսիմում 15 րոպե",
+      "բա էն 2 ժամը ուր էիր աղչի",
+      "հորդ ասածները քո համար մորդ поколения հա"
+    ],
+    "topics": [
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

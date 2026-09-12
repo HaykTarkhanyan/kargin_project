@@ -1,0 +1,67 @@
+{
+  "video_id": "SyfTHFAZynE",
+  "seq": 521,
+  "kargin_id": 521,
+  "title": "Kargin Haghordum sketch 155 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "521_Kargin_Haghordum_sketch_155_Hayko_Mko_SyfTHFAZynE.hy.json",
+    "visual": true
+  },
+  "input_chars": 1087,
+  "gen_sec": 4.52,
+  "prompt_tokens": 1554,
+  "output_tokens": 582,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002523,
+  "annotation": {
+    "title_hy": "Անդաստիարակ սիրեկանը",
+    "title_en": "The Ill-Mannered Lover",
+    "summary_en": "A husband catches his wife in bed with another man, but instead of being angry about the affair, he is offended by the lover's lack of manners.",
+    "summary_detailed_en": "The sketch takes place in an apartment during the day. A mustachioed man, presumably the husband, walks through the hallway and enters the bedroom, where he discovers his wife in bed with another man wearing a tank top. As the lover hastily attempts to get dressed and leave, the husband confronts him at the doorway. Surprisingly, the conflict is not about the infidelity itself. The husband expresses deep indignation at the man's lack of etiquette, calling him ill-bred or uneducated. He complains to his wife that she lets just anyone into their bed without ensuring they have proper manners. The core of the joke rests on the husband's absurd priorities: he is more upset that the stranger failed to say 'hello' to the wife or 'goodbye' to him than he is about the act of adultery. The visual setting includes a domestic bedroom with an aquarium and curtains, providing a mundane backdrop to this surreal social critique.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "կնիկ",
+      "մարդ ու կնիկ",
+      "անդաստիարակ",
+      "բարև հաջող",
+      "սիրեկան",
+      "ննջարան"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "husband and wife",
+      "ill-mannered",
+      "etiquette",
+      "lover",
+      "bedroom",
+      "absurd comedy"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "knik",
+      "mard u knik",
+      "andastiarak",
+      "barev hajogh",
+      "sirekan",
+      "nnjaran"
+    ],
+    "catchphrases": [
+      "Աղջի էս ո՞վ էր։",
+      "իսկականից էս ո՞վ էր։ անդաստիարակ, ոչ քեզ` բարև, ոչ ինձ` հաջող"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

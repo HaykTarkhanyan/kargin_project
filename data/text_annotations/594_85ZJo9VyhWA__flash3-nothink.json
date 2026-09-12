@@ -1,0 +1,66 @@
+{
+  "video_id": "85ZJo9VyhWA",
+  "seq": 594,
+  "kargin_id": 594,
+  "title": "Kargin Haghordum sketch 445 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "594_Kargin_Haghordum_sketch_445_Hayko_Mko_85ZJo9VyhWA.en.json",
+    "visual": true
+  },
+  "input_chars": 1559,
+  "gen_sec": 9.49,
+  "prompt_tokens": 1817,
+  "output_tokens": 542,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002534,
+  "annotation": {
+    "title_hy": "Լվացք լճում",
+    "title_en": "Laundry in the Lake",
+    "summary_en": "A man fishing at a pond is interrupted by a stranger who insists on stripping down and doing his laundry in the water by hand.",
+    "summary_detailed_en": "The sketch takes place outdoors at a grassy pond during the day. A fisherman sits quietly in a folding chair with his fishing rod, enjoying the peace. He is approached by a young man who politely asks if he is disturbing him. Despite the fisherman's calm responses, the stranger begins to undress, assuring the fisherman he is wearing underwear underneath. He asks the fisherman to throw him a bag containing laundry detergent. Once he has the soap, the stranger puts on a long black robe (his coat) and wades directly into the pond. He begins thrashing around and scrubbing his clothes in the water while still wearing them. When the bewildered fisherman asks if he doesn't have a washing machine at home, the man explains that he does, but he prefers the pond because his head spins whenever he is inside a washing machine. The visual humor relies on the contrast between the calm fisherman and the man's absurd, dramatic movements in the water.",
+    "keywords_hy": [
+      "ձկնորս",
+      "լիճ",
+      "լվացք",
+      "լվացքի փոշի",
+      "լվացքի մեքենա",
+      "տարօրինակ",
+      "հանվել"
+    ],
+    "keywords_en": [
+      "fisherman",
+      "lake",
+      "laundry",
+      "washing powder",
+      "washing machine",
+      "strange behavior",
+      "undressing"
+    ],
+    "keywords_translit": [
+      "dknors",
+      "lich",
+      "lvatsq",
+      "lvatsqi poshi",
+      "lvatsqi meqena",
+      "tarorinak",
+      "hanvel"
+    ],
+    "catchphrases": [
+      "լվացքի մեքենայի մեջ գլուխս ֆռում ա"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

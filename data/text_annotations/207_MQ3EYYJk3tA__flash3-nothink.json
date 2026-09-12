@@ -1,0 +1,73 @@
+{
+  "video_id": "MQ3EYYJk3tA",
+  "seq": 207,
+  "kargin_id": 207,
+  "title": "Kargin Haghordum sketch 387 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2027,
+  "gen_sec": 4.76,
+  "prompt_tokens": 2088,
+  "output_tokens": 696,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003132,
+  "annotation": {
+    "title_hy": "Կեղտոտ խոսքեր և խանդոտ ամուսին",
+    "title_en": "Dirty Words and the Jealous Husband",
+    "summary_en": "A man brags about his 'Russian school' techniques in bed to his partner, only for the encounter to be interrupted by the reality of a jealous husband.",
+    "summary_detailed_en": "The sketch opens in a bedroom where a man and a wife (played by a male actor in drag) are lying in bed after a tryst. The man, who mentions his experience working abroad in Russia (khopan), brags about his speed and stamina, comparing himself to a rapper. The wife recounts a dream where Brad Pitt and Antonio Banderas fought over her, only for her 'animal' of a husband to beat them up. The scene transitions to the man wearing a leopard-print robe and encountering the husband outside. A physical altercation occurs, leaving the man (or possibly the wife in a confusing twist of identity) heavily bandaged and using crutches. Back in the bedroom, a man asks for 'dirty words' to get excited, leading to a hilarious list of disgusting items like garbage chutes and dirty socks. The sketch concludes when the husband finally confronts the lover directly, revealing that all the previous strange interactions were 'hints' for him to stay away from his wife.",
+    "keywords_hy": [
+      "խոպան",
+      "խանդ",
+      "երազ",
+      "կեղտոտ խոսքեր",
+      "ծեծ",
+      "ռուսաստան",
+      "բանդերաս",
+      "բռեդ պիտ"
+    ],
+    "keywords_en": [
+      "migrant worker",
+      "jealousy",
+      "dream",
+      "dirty words",
+      "beating",
+      "Russia",
+      "Banderas",
+      "Brad Pitt"
+    ],
+    "keywords_translit": [
+      "khopan",
+      "khand",
+      "yeraz",
+      "keghtot khosker",
+      "tsots",
+      "Rusastan",
+      "Banderas",
+      "Bred Pit"
+    ],
+    "catchphrases": [
+      "կեղտոտ խոսքեր ասա գռգռվեմ էլի",
+      "պադյեզ, մուսռապռավոդ, տռապ, ունիտազ, խլինք",
+      "սովետաշենի զիբիլանոց, չլողցաց բոմժ, իմ նասկիները",
+      "էսօր ոնց-որ նեգռ ըլնեիր, նենց արագ էիր անում ոնց-որ ռեպ կարդաիր"
+    ],
+    "topics": [
+      "family",
+      "romance",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

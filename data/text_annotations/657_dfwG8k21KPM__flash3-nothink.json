@@ -1,0 +1,70 @@
+{
+  "video_id": "dfwG8k21KPM",
+  "seq": 657,
+  "kargin_id": 657,
+  "title": "Kargin Haghordum sketch 600 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "657_Kargin_Haghordum_sketch_600_Hayko_Mko_dfwG8k21KPM.tr.json",
+    "visual": true
+  },
+  "input_chars": 1956,
+  "gen_sec": 5.08,
+  "prompt_tokens": 2070,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002832,
+  "annotation": {
+    "title_hy": "Գնացքի սիրեկանների մաթեմատիկան",
+    "title_en": "Train Compartment Lover Math",
+    "summary_en": "Two women in a train compartment discuss the logistics and finances of having lovers, while a male passenger listens from the upper bunk.",
+    "summary_detailed_en": "The sketch takes place inside a train sleeper compartment during the day. A woman in a black wide-brimmed hat and red ruffled dress struggles with a large striped bag, settling into the compartment with a heavily made-up passenger sporting curly hair and a tan cardigan. As they settle in, a mustached man is seen resting on the upper bunk, seemingly asleep. The conversation turns to the financial struggles of the woman in the hat. The curly-haired companion suggests that she needs a man—specifically a lover who can provide financial support, boasting that her own lover gives her $500 a month. When the woman in the hat expresses doubt that anyone would pay that much for her, the conversation devolves into a bizarre mathematical negotiation. They calculate various scenarios: two lovers at $250 each, five lovers at $100 each, and finally ten part-time lovers at $50 each. The woman in the hat worries about the scheduling logistics of five working men on weekends. The sketch ends with a punchline from the mustached man on the top bunk, who has been listening the whole time, asking them to wake him up once the price drops to 500 drams.",
+    "keywords_hy": [
+      "գնացք",
+      "կուպե",
+      "սիրեկան",
+      "փող",
+      "դոլար",
+      "ճամպրուկ",
+      "ծիծաղելի",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "train",
+      "sleeper compartment",
+      "lover",
+      "money",
+      "dollars",
+      "suitcase",
+      "funny",
+      "humor"
+    ],
+    "keywords_translit": [
+      "gnacq",
+      "kupe",
+      "sirekan",
+      "pogh",
+      "dolar",
+      "champruk",
+      "tsitsagheli",
+      "humor"
+    ],
+    "catchphrases": [
+      "ՈՒֆ հոգիս գնաց։"
+    ],
+    "topics": [
+      "transport",
+      "money",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

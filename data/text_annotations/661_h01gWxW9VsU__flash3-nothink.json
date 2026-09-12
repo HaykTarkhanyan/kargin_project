@@ -1,0 +1,74 @@
+{
+  "video_id": "h01gWxW9VsU",
+  "seq": 661,
+  "kargin_id": 661,
+  "title": "Kargin Haghordum sketch 241 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "661_Kargin_Haghordum_sketch_241_Hayko_Mko_h01gWxW9VsU.hi.json",
+    "visual": true
+  },
+  "input_chars": 3267,
+  "gen_sec": 7.55,
+  "prompt_tokens": 2423,
+  "output_tokens": 646,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003149,
+  "annotation": {
+    "title_hy": "Իրավաբան ուսանողի քննությունը",
+    "title_en": "The Law Student's Exam",
+    "summary_en": "A failing law student outsmarts his elderly professor by challenging him to solve a legal logic riddle about the professor's own personal life.",
+    "summary_detailed_en": "In a university classroom setting, an elderly, bearded professor wearing a sweater vest and eyeglasses is prepared to fail a male student named Martirosyan. The professor warns him that without passing this exam, he will be expelled and miss his chance to become a lawyer who solves people's problems. The student, seeing his predicament, proposes a deal: he will ask the professor three professional questions, and if the professor cannot answer, the student gets a passing grade of '5'. The professor agrees. The student asks the professor to describe a situation that is: (a) legal but not logical, (b) logical but not legal, and (c) neither legal nor logical. When the professor fails to answer and grants the grade, the student reveals the punchline: The professor being 75 and married to a 20-year-old is legal but not logical; the young wife having a lover is not legal but logical; and the fact that the professor just gave that lover a passing grade is neither legal nor logical. A female student is seen in the background throughout the exchange.",
+    "keywords_hy": [
+      "քննություն",
+      "համալսարան",
+      "դասախոս",
+      "ուսանող",
+      "իրավաբան",
+      "լիկվիդ",
+      "տրամաբանություն",
+      "օրինական",
+      "հանելուկ"
+    ],
+    "keywords_en": [
+      "exam",
+      "university",
+      "professor",
+      "student",
+      "lawyer",
+      "logic",
+      "legal",
+      "riddle",
+      "passing grade"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "hamalsaran",
+      "dasaxos",
+      "usanogh",
+      "iravaban",
+      "likvid",
+      "tramabanutyun",
+      "orinakan",
+      "haneluk"
+    ],
+    "catchphrases": [
+      "ա օրինական է բայց տրամաբանական չի",
+      "բ տրամաբանական է բայց օրինական չի",
+      "և գ ոչ օրինական է ոչ էլ տրամաբական"
+    ],
+    "topics": [
+      "school",
+      "law_court"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

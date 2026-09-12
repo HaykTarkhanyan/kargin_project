@@ -1,0 +1,70 @@
+{
+  "video_id": "VU8zjC3tRtk",
+  "seq": 296,
+  "kargin_id": 296,
+  "title": "Kargin Haghordum sketch 415 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2136,
+  "gen_sec": 30.72,
+  "prompt_tokens": 2146,
+  "output_tokens": 609,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.0029,
+  "annotation": {
+    "title_hy": "Հացի վրա եմ, ինչ անալիզ",
+    "title_en": "Lunch Break Diagnosis",
+    "summary_en": "A doctor refuses to give a patient his medical results for three months because he is always on his lunch break, only to deliver a terminal diagnosis with a dark twist.",
+    "summary_detailed_en": "The sketch takes place in a sterile white room, presumably a clinic. A doctor, dressed in blue surgical scrubs and a cap, is seated and casually having lunch, consuming flatbread (lavash) and milk. A patient, appearing disheveled with a red neckerchief, approaches him desperately, explaining that he has been trying to get his test results for three months. Each time he visits, the doctor dismisses him with the excuse 'I'm eating bread' (haci vra em). The patient insists, forcing the doctor to move his food aside and check the files. The doctor finally reveals that the results arrived three months ago and are devastating: the patient is dying and won't even live to see the end of a popular TV series. When the shocked patient asks if there is any method of salvation, the doctor suggests 'momikner' (which usually means medical suppositories). When the patient asks where to put them, the doctor delivers the dark punchline: not as medicine, but to be lit as candles in the church sand for his soul.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "անալիզ",
+      "հացի վրա եմ",
+      "մահ",
+      "մոմիկ",
+      "եկեղեցի",
+      "հաց ուտել"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "test results",
+      "lunch break",
+      "death",
+      "candles",
+      "suppositories",
+      "medical humor"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivandanoc",
+      "analiz",
+      "haci vra em",
+      "mah",
+      "momik",
+      "ekexeci",
+      "hac utel"
+    ],
+    "catchphrases": [
+      "Լավ էլի հացի վրա եմ, ինչ անալիզ",
+      "Ոնց որտեղ, եկեղեցում ավազի մեջ"
+    ],
+    "topics": [
+      "medical",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

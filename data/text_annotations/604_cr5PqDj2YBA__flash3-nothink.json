@@ -1,0 +1,70 @@
+{
+  "video_id": "cr5PqDj2YBA",
+  "seq": 604,
+  "kargin_id": 604,
+  "title": "Kargin Haghordum sketch 481 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "604_Kargin_Haghordum_sketch_481_Hayko_Mko_cr5PqDj2YBA.tr.json",
+    "visual": true
+  },
+  "input_chars": 3254,
+  "gen_sec": 9.01,
+  "prompt_tokens": 2822,
+  "output_tokens": 652,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003367,
+  "annotation": {
+    "title_hy": "Քավորը և Դավաճանությունը",
+    "title_en": "The Godfather and Adultery",
+    "summary_en": "A man tells his godfather that he caught his wife cheating after returning from a business trip and plans to kill them, while the godfather tries to find absurd excuses to stop him.",
+    "summary_detailed_en": "The sketch opens with a man wearing a cream trench coat sneaking through a hallway into an apartment. He meets his godfather (the 'kavor'), who is dressed in a red tracksuit. The two men sit on a couch in the living room for a serious conversation. The visitor, Hovo, is distraught and tells his godfather that he caught his wife with another man after returning home early from a business trip. He declares his intention to kill them both. A young woman is shown in a separate scene writing by candlelight, presumably the wife receiving a message. The godfather desperately tries to talk Hovo out of the murder by suggesting improbable mistakes: perhaps Hovo entered the wrong building, the wrong floor, or even the wrong apartment. Hovo counters each excuse, noting that their building is the only high-rise in the neighborhood, his name is written on the floor wall, and he owns all the apartments on that floor. The godfather even suggests the woman wasn't his wife, but Hovo insists he knows her too well. The punchline comes when Hovo reveals he even sent a telegram stating his exact arrival time to avoid such a surprise, leading the godfather to absurdly suggest that maybe she just didn't receive the telegram.",
+    "keywords_hy": [
+      "քավոր",
+      "դավաճանություն",
+      "հեռագիր",
+      "սպանություն",
+      "կնոջ դավաճանություն",
+      "կարգին հաղորդում",
+      "ընտանիք",
+      "սխալմունք"
+    ],
+    "keywords_en": [
+      "godfather",
+      "betrayal",
+      "telegram",
+      "adultery",
+      "cheating wife",
+      "Kargin Haghordum",
+      "family dispute",
+      "absurd excuses"
+    ],
+    "keywords_translit": [
+      "kavor",
+      "davachanutyun",
+      "heragir",
+      "spanutyun",
+      "knoj davachanutyun",
+      "kargin haghordum",
+      "yntaniq",
+      "sxalmunq"
+    ],
+    "catchphrases": [
+      "հմի կարողա էտ աղջիկը հեռագիրդ չի ստացել"
+    ],
+    "topics": [
+      "family",
+      "crime",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

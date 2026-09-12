@@ -1,0 +1,65 @@
+{
+  "video_id": "cIU6H6DTLr8",
+  "seq": 529,
+  "kargin_id": 529,
+  "title": "Kargin Haghordum sketch 163 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "529_Kargin_Haghordum_sketch_163_Hayko_Mko_cIU6H6DTLr8.hy.json",
+    "visual": true
+  },
+  "input_chars": 1480,
+  "gen_sec": 7.91,
+  "prompt_tokens": 1811,
+  "output_tokens": 558,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00258,
+  "annotation": {
+    "title_hy": "Էժան հղիության տեստ",
+    "title_en": "Cheap Pregnancy Test",
+    "summary_en": "A newlywed couple visits a pharmacy to buy a pregnancy test but repeatedly asks for cheaper options, leading to a ridiculous final offer.",
+    "summary_detailed_en": "The sketch takes place in a pharmacy where a young couple, claiming to be recently married, approaches the counter to speak with the pharmacist and his assistant. They explain that they want to take a 'test'—initially describing it awkwardly as a 'written exam' rather than an oral one. The pharmacist realizes they are looking for a pregnancy test and offers a high-quality version for 5,000 drams that provides results in one minute. The couple, citing financial constraints, asks for cheaper alternatives. The pharmacist offers a 3,000 dram version with a 10-minute wait, then a 500 dram version requiring a full day's wait. Each time, the couple insists on something even more affordable. Finally, the pharmacist presents a 100 dram option, but with the absurd caveat that the couple will have to wait three months to see the result. The visual elements include shelves of medicine and a peculiar moment where the pharmacist uses a measuring tape on the counter during the transaction.",
+    "keywords_hy": [
+      "դեղատուն",
+      "հղիության տեստ",
+      "նորապսակներ",
+      "էժան",
+      "դեղագործ",
+      "գին սակարկել"
+    ],
+    "keywords_en": [
+      "pharmacy",
+      "pregnancy test",
+      "newlyweds",
+      "cheap",
+      "pharmacist",
+      "bargaining"
+    ],
+    "keywords_translit": [
+      "deghatun",
+      "hghiutyan test",
+      "norapsakner",
+      "ezhan",
+      "deghagorts",
+      "gin sakarkel"
+    ],
+    "catchphrases": [
+      "Իսկ ավելի էժանը չկա՞:",
+      "ուղղակի 3 ամսից նոր ցույց կտա:"
+    ],
+    "topics": [
+      "medical",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

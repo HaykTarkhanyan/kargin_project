@@ -1,0 +1,67 @@
+{
+  "video_id": "l4p3EXW1MEM",
+  "seq": 423,
+  "kargin_id": 423,
+  "title": "Kargin Haghordum - Gjer (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "423_Kargin_Haghordum_-_Gjer_Hayko_Mko_l4p3EXW1MEM.hy.json",
+    "visual": true
+  },
+  "input_chars": 1380,
+  "gen_sec": 12.26,
+  "prompt_tokens": 1713,
+  "output_tokens": 589,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002623,
+  "annotation": {
+    "title_hy": "Գժերին տեղափոխելը",
+    "title_en": "Transporting the Patients",
+    "summary_en": "A driver transports a group of mentally ill patients in a dilapidated van while one patient repeatedly tries to tell him what is wrong with the vehicle.",
+    "summary_detailed_en": "The sketch takes place inside a cluttered, aging van traveling down a tree-lined road. The driver, a mustached man, is on his phone explaining that the roof of the local asylum has leaked, forcing him to transport the 'crazy' patients to the main facility. He is stressed because the van has broken down mid-journey. In the back, the patients, including a man in a tracksuit, behave erratically, arguing and slapping each other. One patient repeatedly interrupts the driver to point out mechanical issues. When the driver insults the patient's intelligence, the patient logically argues that he cannot be 'broken' in the head because if something is broken, it smells, and his head does not smell. He further claims the doctor says they aren't crazy but rather 'hallucinating.' The patient continues to pester the driver about the breakdown, eventually revealing the obvious: that the car itself is what is broken, as the driver struggles with exposed wiring under the dashboard.",
+    "keywords_hy": [
+      "գժանոց",
+      "վարորդ",
+      "մեքենա",
+      "հոգեբուժարան",
+      "կատակ",
+      "հալյուցինացիա",
+      "մարշրուտկա"
+    ],
+    "keywords_en": [
+      "insane asylum",
+      "driver",
+      "van",
+      "mental hospital",
+      "broken car",
+      "hallucination",
+      "patients"
+    ],
+    "keywords_translit": [
+      "gzhanots",
+      "varord",
+      "meqena",
+      "hogebujaran",
+      "katak",
+      "halyucinacia",
+      "marshrutka"
+    ],
+    "catchphrases": [
+      "մեր բժիշկը ասում ա որ մենք գիրժ չենք",
+      "գլխի մեջ ոչ մի բան էլ չի փչացել որ փչանում է հոտ է գալիս"
+    ],
+    "topics": [
+      "medical",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "8U7grHLj-uY",
+  "seq": 565,
+  "kargin_id": 565,
+  "title": "Kargin Haghordum sketch 200 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "565_Kargin_Haghordum_sketch_200_Hayko_Mko_8U7grHLj-uY.pl.json",
+    "visual": true
+  },
+  "input_chars": 4028,
+  "gen_sec": 7.01,
+  "prompt_tokens": 3213,
+  "output_tokens": 530,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003196,
+  "annotation": {
+    "title_hy": "Բժշկի Ալտերնատիվ Մեթոդը",
+    "title_en": "The Doctor's Alternative Method",
+    "summary_en": "A busy surgeon suggests an unconventional 'intimate' treatment to an elderly man whose wife is bedridden, leading to a miraculous recovery and a dark realization.",
+    "summary_detailed_en": "The sketch begins in a hospital office where a busy surgeon, dressed in a surgical cap and gown, is frantically preparing for an operation. An elderly man, Pargev, approaches him desperate for help with his wife who has been bedridden and immobile for three months. The doctor, in a rush and speaking a mix of Armenian and Russian, initially asks him to wait, but eventually listens to the case. He explains that traditional medicine has failed and suggests a bizarre 'alternative medical method': the husband must go home and engage in vigorous intimate relations with his elderly wife. The scene shifts to the family home the next morning. Pargev wakes up in his pajamas to find his wife, Haykanush (played by a male actor in drag), fully recovered, active, and happily cooking a breakfast of eggs with basturma and tomatoes in the kitchen. She claims she hasn't felt this good since she was 18. While she is overjoyed, Pargev looks devastated. When asked why he is sad, he delivers the punchline: he regrets not knowing this 'cure' five years ago, as he could have saved his dying father too.",
+    "keywords_hy": [
+      "բժիշկ",
+      "վիրահատություն",
+      "այլընտրանքային բժշկություն",
+      "ծերունի",
+      "բուժում",
+      "հումոր",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "doctor",
+      "surgery",
+      "alternative medicine",
+      "miracle cure",
+      "old couple",
+      "intimate relations",
+      "regret"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "virahatutyun",
+      "aylyntranqayin bjshkutyun",
+      "tseruni",
+      "bujum",
+      "humor",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "Ախր էս բուժման ձևը որ շուտ իմանայի 5 տարի առաջ հորս էլ կփրկեի"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

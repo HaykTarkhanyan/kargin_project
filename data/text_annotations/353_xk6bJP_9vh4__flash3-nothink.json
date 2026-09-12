@@ -1,0 +1,67 @@
+{
+  "video_id": "xk6bJP_9vh4",
+  "seq": 353,
+  "kargin_id": 353,
+  "title": "Kargin Haghordum sketch 520 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2216,
+  "gen_sec": 4.92,
+  "prompt_tokens": 2212,
+  "output_tokens": 500,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002606,
+  "annotation": {
+    "title_hy": "Ծննդյան օրվա օրիգինալ նվերը",
+    "title_en": "The Original Birthday Gift",
+    "summary_en": "After a birthday party, a husband surprises his wife with an 'original' gift: sex, and tells her she will be left without a present if she refuses.",
+    "summary_detailed_en": "The sketch is set in a bedroom at night. A mustached man lies in bed while his wife, played by a male actor in drag wearing a long dark wig, red lipstick, and a satin robe, stands by the bed. They discuss her birthday party that just ended. The wife mentions that her colleagues and friends were very satisfied, though the husband complains about an American guest named Bill who got drunk and inappropriately hit on a male friend. The wife then transitions to the topic of her birthday present, reminding him that he promised an 'original surprise.' The husband proudly reveals his gift: he wants to give her 'sex.' The wife is disappointed, having expected a tangible, 'normal' gift. When she expresses her lack of interest in this particular present, the husband bluntly retorts that if she doesn't want it, she will just have to remain without any gift for her birthday. The scene concludes with the man reaching for his jeans under the blanket, emphasizing the absurdity of his 'gift.'",
+    "keywords_hy": [
+      "ծննդյան նվեր",
+      "սեքս",
+      "անակնկալ",
+      "ամուսիններ",
+      "ննջասենյակ",
+      "հարբած հյուր",
+      "ամերիկացի Բիլ"
+    ],
+    "keywords_en": [
+      "birthday gift",
+      "sex",
+      "surprise",
+      "married couple",
+      "bedroom",
+      "drunk guest",
+      "American Bill"
+    ],
+    "keywords_translit": [
+      "cnndyan nver",
+      "seqs",
+      "anaknkal",
+      "amusinner",
+      "nnjasenyak",
+      "harbac hyur",
+      "amerikaci Bil"
+    ],
+    "catchphrases": [
+      "ուզում եմ քեզի սեքս նվիրեմ էլի",
+      "չես ուզում ծնունդիդ օրով տենց առանց նվեր մնա"
+    ],
+    "topics": [
+      "family",
+      "party_guests"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

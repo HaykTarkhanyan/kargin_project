@@ -1,0 +1,69 @@
+{
+  "video_id": "1VQg6CN7eH8",
+  "seq": 592,
+  "kargin_id": 592,
+  "title": "Kargin Haghordum sketch 443 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "592_Kargin_Haghordum_sketch_443_Hayko_Mko_1VQg6CN7eH8.tr.json",
+    "visual": true
+  },
+  "input_chars": 2384,
+  "gen_sec": 5.21,
+  "prompt_tokens": 2330,
+  "output_tokens": 583,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002914,
+  "annotation": {
+    "title_hy": "Որսորդական Պատմություններ",
+    "title_en": "Hunting Stories",
+    "summary_en": "Three men at a cafe compete with increasingly exaggerated hunting stories involving rhinos, elephants, and buffaloes, until one man's lion encounter is revealed to be a zoo prank.",
+    "summary_detailed_en": "In a brick-walled cafe setting, three men sit around a table with coffee and cigarettes, engaging in a competitive exchange of 'tall tales.' The first man, wearing a red-and-olive polo shirt, describes a terrifying hunt in Tanzania where a rhinoceros charged at him; he claims he waited until it was five meters away before shooting it between the eyes with his carbine. The second man, a heavyset man in a vest, counters with a story from India where he supposedly shot a charging elephant at a distance of only three meters. Not to be outdone, the first man recounts another tale of a buffalo with sinus issues that he shot from just one meter away. Finally, a thin man in black interrupts, claiming he once faced a lion from only half a meter away. When asked if he shot it, he reveals he simply spat on it. The punchline arrives when he explains the consequence: he wasn't a brave hunter in the wild, but was simply beaten up by zoo security for harassing the animals.",
+    "keywords_hy": [
+      "որսորդ",
+      "սուտ",
+      "կաֆե",
+      "առյուծ",
+      "փիղ",
+      "գազանանոց",
+      "որս",
+      "չափազանցություն"
+    ],
+    "keywords_en": [
+      "hunter",
+      "lies",
+      "cafe",
+      "lion",
+      "elephant",
+      "zoo",
+      "hunting",
+      "exaggeration"
+    ],
+    "keywords_translit": [
+      "vorsord",
+      "sut",
+      "kafe",
+      "aryuts",
+      "pigh",
+      "gazananots",
+      "vors",
+      "chaphazantsutyun"
+    ],
+    "catchphrases": [
+      "Ինչ պտի ըլնի գազանանոցի աշխատողներով բռնին տփին"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

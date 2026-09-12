@@ -1,0 +1,73 @@
+{
+  "video_id": "My_7yrhaguw",
+  "seq": 332,
+  "kargin_id": 332,
+  "title": "Kargin Haghordum sketch 294 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2511,
+  "gen_sec": 14.49,
+  "prompt_tokens": 2434,
+  "output_tokens": 647,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003158,
+  "annotation": {
+    "title_hy": "Գրուզչիկի ընտրություն",
+    "title_en": "Choosing a Loader",
+    "summary_en": "Two office workers interview potential loaders by asking how much alcohol they can consume under various conditions, eventually hiring the one who knows his limits.",
+    "summary_detailed_en": "The sketch takes place in an office where two men are frustrated that their boss has tasked them with hiring a new loader (gruzchik). One man is annoyed by the chore, while his colleague, Gag, suggests a simple interview process to ensure the hire won't get drunk and break boxes. They decide to gauge the candidates' reliability by asking about their drinking capacity. Three candidates are waiting outside. The first candidate enters; he claims he can drink 300g, increasing to 500g if a lavish table is set. The second candidate, a larger man, enters and bases his drinking capacity entirely on the availability of food, claiming he can handle up to three bottles if the spread is good. The final candidate, a tall man, provides the same answer to every scenario: he can drink exactly one bucket (me vedro), regardless of whether there is appetizers or a New Year's feast. The interviewers decide to hire the third man because he clearly 'knows his measure' perfectly. The visual framing involves candidates entering one by one to face the interviewers at a desk.",
+    "keywords_hy": [
+      "գրուզչիկ",
+      "հարցազրույց",
+      "խմել",
+      "արաղ",
+      "զակուսկի",
+      "վեդրո",
+      "չափը գիտի",
+      "աշխատանքի ընդունում"
+    ],
+    "keywords_en": [
+      "loader",
+      "interview",
+      "drinking",
+      "vodka",
+      "appetizer",
+      "bucket",
+      "knowing one's limit",
+      "hiring"
+    ],
+    "keywords_translit": [
+      "gruzchik",
+      "hartsazruyts",
+      "xmel",
+      "aragh",
+      "zakuski",
+      "vedro",
+      "chap@ giti",
+      "ashxatanqi @ndunum"
+    ],
+    "catchphrases": [
+      "գրուզչիկ ընտրելը որնա",
+      "Արա էս ինչ անֆայմ են սրանք",
+      "Մե վեդրո",
+      "Էսի իրա չափը չոտկի գիտի"
+    ],
+    "topics": [
+      "work",
+      "drinking",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

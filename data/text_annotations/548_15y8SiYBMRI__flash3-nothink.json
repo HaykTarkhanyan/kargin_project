@@ -1,0 +1,70 @@
+{
+  "video_id": "15y8SiYBMRI",
+  "seq": 548,
+  "kargin_id": 548,
+  "title": "Kargin Haghordum sketch 180 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "548_Kargin_Haghordum_sketch_180_Hayko_Mko_15y8SiYBMRI.ro.json",
+    "visual": true
+  },
+  "input_chars": 1288,
+  "gen_sec": 4.7,
+  "prompt_tokens": 1721,
+  "output_tokens": 619,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002717,
+  "annotation": {
+    "title_hy": "Նարկոզի բժիշկը",
+    "title_en": "The Anesthesia Doctor",
+    "summary_en": "A man brings a woman in a red dress home for an encounter, but the experience ends with an absurd joke about her medical profession.",
+    "summary_detailed_en": "The sketch begins in a study filled with bookshelves where a man in glasses and a suit welcomes a woman in a red dress and a bob wig (played by a male actor in drag) to his home. The man comments on the nice setup, and they immediately discuss a payment of fifty dollars. The man leads the woman into a bedroom, which he jokingly refers to as the 'battlefield.' He sets a bizarre roleplay scenario where she is to be the legendary Armenian commander Vardan Mamikonyan and he will be the Persians, concluding that she will achieve an 'immoral victory' over him. The scene transitions to the bedroom where the two are lying together on the bed, smoking cigarettes. The man asks if she has 'construction materials' and then asks if she is a doctor. When she confirms she is an anesthesiologist, he delivers the punchline: he realized it because he didn't feel a thing during their encounter. The sketch utilizes the classic drag performance style of the show to heighten the absurdity of the transactional and underwhelming romantic situation.",
+    "keywords_hy": [
+      "նարկոզ",
+      "բժիշկ",
+      "կռվի դաշտ",
+      "Վարդան Մամիկոնյան",
+      "փող",
+      "հաղթանակ",
+      "հյուր",
+      "ծխախոտ"
+    ],
+    "keywords_en": [
+      "anesthesia",
+      "doctor",
+      "battlefield",
+      "Vardan Mamikonyan",
+      "money",
+      "victory",
+      "guest",
+      "cigarette"
+    ],
+    "keywords_translit": [
+      "narkoz",
+      "bjishk",
+      "krrvi dasht",
+      "Vardan Mamikonyan",
+      "pogh",
+      "haghtanak",
+      "hyur",
+      "tskhakhot"
+    ],
+    "catchphrases": [
+      "Ու երևի հաստատ նարկոզի բժիշկ ես։ -Հա, ի՞նչ իմացար։ -Որովհետև բան չզգացի։"
+    ],
+    "topics": [
+      "romance",
+      "medical",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

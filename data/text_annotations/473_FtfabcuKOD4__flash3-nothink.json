@@ -1,0 +1,63 @@
+{
+  "video_id": "FtfabcuKOD4",
+  "seq": 473,
+  "kargin_id": 473,
+  "title": "Kargin Haghordum sketch 099 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "473_Kargin_Haghordum_sketch_099_Hayko_Mko_FtfabcuKOD4.hy.json",
+    "visual": true
+  },
+  "input_chars": 746,
+  "gen_sec": 12.84,
+  "prompt_tokens": 1341,
+  "output_tokens": 376,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.001798,
+  "annotation": {
+    "title_hy": "Ֆլեշերը և ձուն",
+    "title_en": "The Flasher and the Egg",
+    "summary_en": "An elderly man carrying groceries is startled by a flasher in a green robe, leading to a comedic realization about his shopping list.",
+    "summary_detailed_en": "The sketch takes place during the day in a residential courtyard and street setting. An elderly man is seen walking home, struggling slightly as he carries two large yellow shopping bags filled with groceries. As he approaches a doorway, a man in drag—wearing a green robe, a wig, and exaggerated padded breasts—suddenly jumps out from the shadows to ambush him. The flasher character aggressively opens the robe to reveal his chest, intending to shock the pedestrian. The elderly man is indeed startled by the sudden movement and the sight, but instead of reacting with fear or disgust, the visual shock triggers a specific memory. He looks at the flasher's chest and exclaims that he forgot to buy eggs. The sketch uses the physical appearance of the flasher's props as a visual mnemonic for the missing item on his grocery list. The scene concludes with this absurd non-sequitur, highlighting the old man's preoccupation with his domestic chores over the lewd act occurring in front of him.",
+    "keywords_hy": [
+      "ֆլեշեր",
+      "ձու",
+      "խանութ",
+      "տոպրակ",
+      "կանաչ խալաթ",
+      "բակ"
+    ],
+    "keywords_en": [
+      "flasher",
+      "egg",
+      "groceries",
+      "shopping bags",
+      "green robe",
+      "courtyard"
+    ],
+    "keywords_translit": [
+      "flesher",
+      "dzu",
+      "xanut",
+      "toprak",
+      "kanach xalat",
+      "bak"
+    ],
+    "catchphrases": [
+      "Թու ձուն մոռացա։"
+    ],
+    "topics": [
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

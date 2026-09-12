@@ -1,0 +1,76 @@
+{
+  "video_id": "7vpP1F4L1xo",
+  "seq": 81,
+  "kargin_id": 81,
+  "title": "Kargin Haghordum sketch 661 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "081_Kargin_Haghordum_sketch_661_Hayko_Mko_7vpP1F4L1xo.tr.json",
+    "visual": true
+  },
+  "input_chars": 3613,
+  "gen_sec": 16.38,
+  "prompt_tokens": 3005,
+  "output_tokens": 684,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003554,
+  "annotation": {
+    "title_hy": "Կտազին գյուղի գիժը",
+    "title_en": "The Madman of Ktazin Village",
+    "summary_en": "Two travelers walking on a desolate road are forced by an armed man to pretend they are riding in his invisible truck, only to face a similar fate with a policeman.",
+    "summary_detailed_en": "The sketch takes place on a remote rural dirt road where two men, one in a red shirt and one in a striped shirt, are walking to visit a relative in the army. They discuss the dangerous nearby village of 'Ktazin,' a place supposedly founded by former patients of a defunct mental asylum and soldiers from an abandoned Soviet base. A mustached man holding a stick like a rifle approaches them, claiming he is driving a 'Kamaz' truck. Under the threat of his 'weapon,' the two men are forced to squat and run alongside him as if they are passengers in the vehicle. The madman even 'sings' to the radio. When they spot a police officer ahead, the men convince the madman to let them out so he won't get a ticket for carrying too many passengers. They attempt to report the madman to the officer, but the policeman turns out to be equally delusional. He pulls out a bicycle, claiming it is a motorcycle, and forces the two men to 'ride' with him—one on the back and the other squatting in an imaginary sidecar—leading to a physical scuffle.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "ճանապարհ",
+      "գիժ",
+      "Կամազ",
+      "Գայի",
+      "ոստիկան",
+      "զենք",
+      "գյուղ",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "road trip",
+      "madman",
+      "invisible truck",
+      "policeman",
+      "delusion",
+      "imaginary vehicle",
+      "rural road",
+      "comedy sketch"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "chanaparh",
+      "gizh",
+      "Kamaz",
+      "Gayi",
+      "vostikan",
+      "zenq",
+      "gyugh",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "նստեք կամազս տանեմ",
+      "յանի ընդեղ սաղ կտցրած են ու զինված",
+      "արա ասում եմ նստեք տանեմ արա",
+      "այ տղա դու կայլասկեն նստի"
+    ],
+    "topics": [
+      "transport",
+      "police",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

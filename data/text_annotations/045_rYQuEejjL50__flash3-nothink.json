@@ -1,0 +1,73 @@
+{
+  "video_id": "rYQuEejjL50",
+  "seq": 45,
+  "kargin_id": 45,
+  "title": "Kargin Haghordum sketch 610 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "045_Kargin_Haghordum_sketch_610_Hayko_Mko_rYQuEejjL50.hy.json",
+    "visual": true
+  },
+  "input_chars": 4140,
+  "gen_sec": 13.45,
+  "prompt_tokens": 3197,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003528,
+  "annotation": {
+    "title_hy": "Հայրենական պատերազմի վետերանը դպրոցում",
+    "title_en": "War Veteran in School",
+    "summary_en": "A teacher invites a World War II veteran to speak to his class, only for the hero's story to end with an embarrassing biological reality.",
+    "summary_detailed_en": "The sketch takes place in a school classroom where a teacher in a pinstripe suit is concluding a lesson on ancient history. He announces that in honor of the 60th anniversary of the Great Patriotic War, they will focus on WWII history. Before revealing a surprise, he asks the children about their grandfathers' war stories. The kids give absurd answers: one girl says her grandpa carried a flag while others had guns; one boy claims his grandpa 'paid the Germans $100 a month' to let him go home from captivity; another says his grandpa missed WWII because he got two yellow cards in WWI. The teacher then introduces the surprise guest: Arshak Papi, a highly decorated Soviet Hero wearing a cap and a jacket covered in medals. Arshak begins a dramatic story about the Battle of Stalingrad, describing being surrounded by German tanks, planes, and infantry. He describes stepping out of a trench and seeing ten Fritz soldiers with machine guns, concluding with the phrase 'I did it under myself' (I pooped). The teacher tries to save face by telling the children Arshak meant he was scared, but the veteran clarifies that while he was scared back then, he actually just did it right now in the classroom.",
+    "keywords_hy": [
+      "դպրոց",
+      "ուսուցիչ",
+      "աշակերտ",
+      "պատերազմ",
+      "վետերան",
+      "Արշակ պապի",
+      "հերոս",
+      "Ստալինգրադ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "school",
+      "teacher",
+      "students",
+      "war",
+      "veteran",
+      "Arshak Papi",
+      "hero",
+      "Stalingrad",
+      "joke"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "usucich",
+      "ashakert",
+      "paterazm",
+      "veteran",
+      "Arshak papi",
+      "heros",
+      "Stalingrad",
+      "katak"
+    ],
+    "catchphrases": [
+      "Ես էն ժամանակ վախեցա"
+    ],
+    "topics": [
+      "school",
+      "army",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

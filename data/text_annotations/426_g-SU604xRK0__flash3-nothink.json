@@ -1,0 +1,69 @@
+{
+  "video_id": "g-SU604xRK0",
+  "seq": 426,
+  "kargin_id": 426,
+  "title": "Kargin Haghordum - Manyak (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "426_Kargin_Haghordum_-_Manyak_Hayko_Mko_g-SU604xRK0.hy.json",
+    "visual": true
+  },
+  "input_chars": 1874,
+  "gen_sec": 5.55,
+  "prompt_tokens": 2050,
+  "output_tokens": 640,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002945,
+  "annotation": {
+    "title_hy": "Սերիական մարդասպանը և քննիչը",
+    "title_en": "The Serial Killer and the Investigator",
+    "summary_en": "A serial killer who murdered 22 women for not loving him politely asks the investigator to be released, revealing he even killed the one woman who did love him.",
+    "summary_detailed_en": "The sketch begins in a prison hallway where a prisoner in a traditional black-and-white striped uniform is escorted down a stairwell by a uniformed guard. They move into an interrogation setting where the prisoner is held behind bars while a mustached clerk or investigator sits at a desk covered in paperwork. The investigator addresses the prisoner as Citizen Zanamyan, noting that he has confessed to the murder of 22 women. Despite the investigator explaining that he faces life imprisonment with no mitigating circumstances, the prisoner remains oddly polite and cooperative, referring to the official as 'ape jan' (brother) and suggesting that in a small country, people should help each other. He repeatedly asks if he will be released at the end of their talk. The investigator questions his motives for killing specific victims like 21-year-old Narine and 16-year-old Irina. The prisoner’s consistent motive is that they did not love him. When the investigator finally asks if there was anyone in the world who actually loved him, the prisoner admits a woman named Gayush loved him, but he killed her too.",
+    "keywords_hy": [
+      "բանտ",
+      "մարդասպան",
+      "հարցաքննություն",
+      "ոստիկանություն",
+      "խոստովանություն",
+      "սերիական մանյակ",
+      "բանտարկյալ"
+    ],
+    "keywords_en": [
+      "prison",
+      "killer",
+      "interrogation",
+      "police",
+      "confession",
+      "serial killer",
+      "prisoner"
+    ],
+    "keywords_translit": [
+      "bant",
+      "mardaspan",
+      "harcaqnnutyun",
+      "vostikanutyun",
+      "xostovanutyun",
+      "serial manyak",
+      "bantarkyal"
+    ],
+    "catchphrases": [
+      "Ապե ջան, ինձ բաց կթողես",
+      "պուճուր երկիր է իրար պիտի օգտակար լինենք",
+      "որովհետև ինքը ինձի չէր սիրում"
+    ],
+    "topics": [
+      "police",
+      "law_court",
+      "crime"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

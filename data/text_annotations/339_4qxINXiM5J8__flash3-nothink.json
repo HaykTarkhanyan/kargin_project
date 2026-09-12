@@ -1,0 +1,73 @@
+{
+  "video_id": "4qxINXiM5J8",
+  "seq": 339,
+  "kargin_id": 339,
+  "title": "Kargin Haghordum sketch 506 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "339_Kargin_Haghordum_sketch_506_Hayko_Mko_4qxINXiM5J8.en.json",
+    "visual": true
+  },
+  "input_chars": 2919,
+  "gen_sec": 5.37,
+  "prompt_tokens": 2541,
+  "output_tokens": 647,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003211,
+  "annotation": {
+    "title_hy": "Պրինցիպյալ Ազգուշը և Ֆուտբոլը",
+    "title_en": "Principal Azgush and the Football",
+    "summary_en": "An elderly couple fights over the TV remote as the wife insists on watching her soap opera over her husband's football match, leading to a surprising confrontation with the devil.",
+    "summary_detailed_en": "In a yellow-wallpapered bedroom at night, an elderly couple sits in bed arguing over the television. The wife, Azgush (played by a male actor in drag with round glasses and a wig), wants to watch her 'clone' soap opera so she can gossip with the neighbors. The husband, in striped pajamas and holding a cane, pleads to watch a football replay, calling it his only joy. Azgush stubbornly refuses, claiming she is a 'principled woman.' The husband manages to grab the remote, leading to a 'remote revolution' where they physically struggle and trade insults. After he finally switches to the match, Azgush spitefully spoils the result, revealing it was a 0-0 draw, ruining his excitement. The scene then shifts to a darker, floral-wallpapered bedroom where the man lies alone. A devil with horns and a black cape appears over him with glowing red hands. When the devil asks why the man isn't afraid, the man delivers the punchline: he has been married to the devil's sister for 36 years, so nothing scares him anymore.",
+    "keywords_hy": [
+      "Ազգուշ",
+      "ֆուտբոլ",
+      "հեռուստացույց",
+      "կլոն",
+      "պրինցիպյալ",
+      "կռիվ",
+      "սատանա",
+      "ամուսիններ",
+      "պուլտ"
+    ],
+    "keywords_en": [
+      "Azgush",
+      "football",
+      "television",
+      "soap opera",
+      "remote control",
+      "principled",
+      "devil",
+      "elderly couple",
+      "marriage joke"
+    ],
+    "keywords_translit": [
+      "Azgush",
+      "futbol",
+      "herustacuic",
+      "klon",
+      "principyal",
+      "kriv",
+      "satana",
+      "amusinner",
+      "pult"
+    ],
+    "catchphrases": [
+      "Բայց ես ձեր քրոջ հետ արդեն 36 տարի է ամուսնացած եմ։"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

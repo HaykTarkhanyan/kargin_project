@@ -1,0 +1,66 @@
+{
+  "video_id": "4TDBR2IniV8",
+  "seq": 130,
+  "kargin_id": 130,
+  "title": "Kargin Haghordum sketch 679 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "130_Kargin_Haghordum_sketch_679_Hayko_Mko_4TDBR2IniV8.hy.json",
+    "visual": true
+  },
+  "input_chars": 870,
+  "gen_sec": 21.25,
+  "prompt_tokens": 1429,
+  "output_tokens": 492,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002191,
+  "annotation": {
+    "title_hy": "Ձկնորսը և լողորդը",
+    "title_en": "The Fisherman and the Swimmer",
+    "summary_en": "A peaceful day of fishing at a reedy lake is interrupted when a man unexpectedly appears in the water, leading to a frantic and noisy scene.",
+    "summary_detailed_en": "The sketch is set outdoors during the day at a reedy lakeside. A man dressed in a green fisherman's jacket and a bucket hat is sitting quietly by the water, holding his fishing rod and waiting for a catch. The peaceful atmosphere is suddenly shattered when another man, wearing a blue and white striped shirt, appears in the lake. Instead of a calm interaction, the scene turns into a moment of physical comedy as the man in the water begins splashing and swimming frantically, accompanied by loud vocalizations. The fisherman reacts with visible surprise and confusion to the intrusion. The dialogue consists of melodic, song-like lines about spring and love, contrasting with the chaotic physical situation in the water. The man in the lake continues his energetic movements and loud shouting as the fisherman watches the bizarre spectacle unfold in his once-quiet fishing spot.",
+    "keywords_hy": [
+      "ձկնորսություն",
+      "լիճ",
+      "լողալ",
+      "գարուն",
+      "կանաչ",
+      "կատակերգություն",
+      "ջուր"
+    ],
+    "keywords_en": [
+      "fishing",
+      "lake",
+      "swimming",
+      "spring",
+      "green hat",
+      "comedy",
+      "water splashing"
+    ],
+    "keywords_translit": [
+      "dknorsutyun",
+      "lich",
+      "loghal",
+      "garun",
+      "kanach",
+      "katakergutyun",
+      "jur"
+    ],
+    "catchphrases": [
+      "աաաաա"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "slapstick",
+      "absurd"
+    ]
+  }
+}

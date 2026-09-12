@@ -1,0 +1,70 @@
+{
+  "video_id": "1xg6L8B7Z_M",
+  "seq": 249,
+  "kargin_id": 249,
+  "title": "Kargin Haghordum sketch 352 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "249_Kargin_Haghordum_sketch_352_Hayko_Mko_1xg6L8B7Z_M.hy.json",
+    "visual": true
+  },
+  "input_chars": 1118,
+  "gen_sec": 39.11,
+  "prompt_tokens": 1579,
+  "output_tokens": 652,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002746,
+  "annotation": {
+    "title_hy": "Լեյտենանտ Ավետյանը և մարդասպանը",
+    "title_en": "Lieutenant Avetyan and the Hitman",
+    "summary_en": "A traffic policeman trying to solicit a bribe due to his hunger meets his match when the driver reveals he is a professional hitman who has been working just as long.",
+    "summary_detailed_en": "The sketch takes place at a snowy roadside checkpoint during the day. A traffic policeman, identified as Lieutenant Avetyan, stops a driver to conduct a routine check. The officer, holding his baton and wearing his official police cap, immediately begins to complain about his difficult shift. He tells the driver that he has been on duty since 8:00 AM and hasn't had a single bite to eat, strongly hinting that the driver should take this into consideration—a classic setup for soliciting a bribe. However, the driver remains unfazed. He introduces himself as 'Killer Vardanyan' (Vardanyan the Hitman) and counters the officer's complaint with his own, stating that he too has been working since 8:00 AM and asks the officer to take that into account as well. The subtext implies that his 'work' is far more dangerous than the officer's. The policeman, realizing the absurdity and potential danger of the situation, simply wishes him a safe journey and walks away. Both characters are shown preoccupied with their mobile phones during the interaction.",
+    "keywords_hy": [
+      "Ճանապարհային ոստիկան",
+      "տեսուչ",
+      "կաշառք",
+      "մարդասպան",
+      "կիլլեր",
+      "Լեյտենանտ Ավետյան",
+      "ձմեռ",
+      "ճանապարհ"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "officer",
+      "bribe",
+      "hitman",
+      "killer",
+      "Lieutenant Avetyan",
+      "winter roadside",
+      "checkpoint"
+    ],
+    "keywords_translit": [
+      "chanaparhayin vostikan",
+      "tesuch",
+      "kasharq",
+      "mardaspan",
+      "killer",
+      "Leytenant Avetyan",
+      "dzmer",
+      "chanaparh"
+    ],
+    "catchphrases": [
+      "Կիլլեռ Վարդանյան ես էլ առավոտվա 8 ից արդեն գործի եմ խնդրում եմ դուք էլ ի նկատի ունենաք"
+    ],
+    "topics": [
+      "police",
+      "transport",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

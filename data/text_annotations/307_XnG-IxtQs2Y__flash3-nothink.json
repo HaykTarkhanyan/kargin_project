@@ -1,0 +1,69 @@
+{
+  "video_id": "XnG-IxtQs2Y",
+  "seq": 307,
+  "kargin_id": 307,
+  "title": "Kargin Haghordum sketch 468 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "307_Kargin_Haghordum_sketch_468_Hayko_Mko_XnG-IxtQs2Y.tr.json",
+    "visual": true
+  },
+  "input_chars": 2533,
+  "gen_sec": 7.58,
+  "prompt_tokens": 2400,
+  "output_tokens": 586,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002958,
+  "annotation": {
+    "title_hy": "Գնացքի մաքսանենգները",
+    "title_en": "Train Smugglers",
+    "summary_en": "A train engineer and conductor discuss their illegal caviar cargo and are shocked when the customs officers refuse all bribes, leading to a strange realization.",
+    "summary_detailed_en": "The sketch is set inside a train locomotive cab where a mustached engineer is driving towards Warsaw. He talks to his assistant about their tight schedule and his plans to meet a Polish girl named Agnieszka, while also arranging for her brother to help offload some goods. The conversation shifts to their illegal cargo—boxes of black caviar—that they are smuggling for a small cut of the profit. Suddenly, a female conductor enters the cab in distress, reporting that the customs officers have discovered the hidden caviar and are threatening to file an official report. The engineer repeatedly ups the bribe: first offering one box, then three, then half the shipment, and finally $500 from his jacket. Each time, the conductor reveals she has already offered these bribes, and the officers refused. Desperate, the engineer tells her to use her 'feminine charms' to seduce them, but she admits even that failed. The engineer finally concludes that if they won't take money, caviar, or women, they can't be real customs officers, and tells her to simply kick them off the train.",
+    "keywords_hy": [
+      "գնացք",
+      "մաքսատուն",
+      "իկրա",
+      "կաշառք",
+      "վարորդ",
+      "վագոն",
+      "մաքսանենգություն",
+      "տամոժնյա"
+    ],
+    "keywords_en": [
+      "train",
+      "customs",
+      "caviar",
+      "bribe",
+      "engineer",
+      "locomotive",
+      "smuggling",
+      "border"
+    ],
+    "keywords_translit": [
+      "gnacq",
+      "tamozhnya",
+      "ikra",
+      "kasharq",
+      "varord",
+      "vagon",
+      "maqsaneugutyun"
+    ],
+    "catchphrases": [
+      "լարի դրանց թող եթան, դրանք տամոժնիկ չեն։"
+    ],
+    "topics": [
+      "transport",
+      "crime",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

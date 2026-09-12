@@ -1,0 +1,71 @@
+{
+  "video_id": "NIZVoe-eji8",
+  "seq": 593,
+  "kargin_id": 593,
+  "title": "Kargin Haghordum sketch 444 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2095,
+  "gen_sec": 4.81,
+  "prompt_tokens": 2128,
+  "output_tokens": 619,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002921,
+  "annotation": {
+    "title_hy": "Որսորդմիության նոր անդամը",
+    "title_en": "Hunting Club Initiation",
+    "summary_en": "A group of men plan a hunting trip for a new member, but the discussion devolves into a list of past alcoholic disasters that occurred during previous outings.",
+    "summary_detailed_en": "In an office decorated with an eagle statue and an Armenian flag, a commanding officer holds a meeting with his subordinates to welcome a new member, Arman, into their hunting union. The 'Chef' presents Arman with his hunting license and explains the dangers of bear hunting. He gives a bizarre piece of advice: if a bear suddenly jumps out, one must remain calm, take their own feces, and smear it into the bear's eyes to blind it before shooting. When Arman asks what happens if there is no waste material at hand, the Chef replies that once the bear appears, the waste will inevitably be there. The conversation shifts to planning the logistics for the weekend trip. The men debate how much vodka to bring, with each suggestion triggering a memory of a past failure: three bottles led to them losing their Jeep and walking home; two bottles resulted in losing three rifles; and one bottle led to them accidentally shooting their own dogs instead of rabbits. To avoid further trouble, the leader decides they will take four bottles but stay inside the Jeep without dogs or guns.",
+    "keywords_hy": [
+      "որսորդ",
+      "արջի որս",
+      "օղի",
+      "ժողով",
+      "զենք",
+      "հրացան",
+      "որսորդմիություն",
+      "խմիչք"
+    ],
+    "keywords_en": [
+      "hunter",
+      "bear hunting",
+      "vodka",
+      "meeting",
+      "weapons",
+      "rifles",
+      "hunting union",
+      "drinking"
+    ],
+    "keywords_translit": [
+      "vorsord",
+      "arji vors",
+      "oghi",
+      "jhoghov",
+      "zenq",
+      "hratsan",
+      "vorsordmiutyun",
+      "khmichq"
+    ],
+    "catchphrases": [
+      "Շեֆ բա որ էդ պահին ձեռիդ տակ կեղտ չլնի",
+      "Ապեր արջը որ հելավ դեմդ կեղտը կլնի"
+    ],
+    "topics": [
+      "leisure_outing",
+      "drinking",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

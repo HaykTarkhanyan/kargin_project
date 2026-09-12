@@ -1,0 +1,78 @@
+{
+  "video_id": "CRTZxK3yEH8",
+  "seq": 156,
+  "kargin_id": 156,
+  "title": "Kargin Haghordum sketch 530 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2052,
+  "gen_sec": 21.49,
+  "prompt_tokens": 2041,
+  "output_tokens": 675,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003045,
+  "annotation": {
+    "title_hy": "Հաց և շինանյութի խանութ",
+    "title_en": "Bread and the Hardware Store",
+    "summary_en": "A persistent customer repeatedly asks for bread at a hardware store and beats up the clerk, leading to a ridiculous misunderstanding when the clerk finally prepares for him.",
+    "summary_detailed_en": "The sketch takes place in a hardware and paint store, where a shopkeeper in a checked shirt is confronted by a tough customer wearing a thick gold chain. The customer demands bread, ignoring the shopkeeper's explanations that he only sells construction materials. After being beaten for two days by the customer for not having bread, the bruised shopkeeper seeks advice from a heavy-set official sitting at a desk with an Armenian flag. The boss advises him to simply buy a loaf of bread from across the street and keep it ready to avoid further conflict. The next day, the shopkeeper triumphantly offers a loaf of bread to the customer upon his arrival. However, the customer reveals he already bought bread from the pharmacy next door and now demands sour cream instead. Overwhelmed by the absurdity and stress, the shopkeeper eventually buries his face in a plastic bag of yellow glue to huff it, while the customer helps himself by scooping more glue out of a tub.",
+    "keywords_hy": [
+      "շինանյութի խանութ",
+      "հաց",
+      "սմետան",
+      "ծեծ",
+      "կլիենտ",
+      "կլյենտ",
+      "շեֆ",
+      "դեղատուն",
+      "սոսինձ",
+      "կլեյ"
+    ],
+    "keywords_en": [
+      "hardware store",
+      "bread",
+      "sour cream",
+      "beating",
+      "customer",
+      "boss",
+      "pharmacy",
+      "glue",
+      "huffing",
+      "gold chain"
+    ],
+    "keywords_translit": [
+      "shinanyuti khanut",
+      "hats",
+      "smetan",
+      "tsets",
+      "klyent",
+      "shef",
+      "deghatun",
+      "sosindz",
+      "kley",
+      "aper"
+    ],
+    "catchphrases": [
+      "Բարի օր ապեր: Բարի օր ախպեր ջան",
+      "ինչ ես չոքել դեմս կարողա գիտես ես Աստվածն եմ վեր կաց գնա",
+      "ապե կարողա դու էլ ես վարդագույն փուչիկ ուզում"
+    ],
+    "topics": [
+      "shop_market",
+      "bureaucracy",
+      "crime"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

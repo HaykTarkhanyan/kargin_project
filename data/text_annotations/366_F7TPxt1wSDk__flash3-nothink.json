@@ -1,0 +1,69 @@
+{
+  "video_id": "F7TPxt1wSDk",
+  "seq": 366,
+  "kargin_id": 366,
+  "title": "Kargin Haghordum sketch 494 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1854,
+  "gen_sec": 5.96,
+  "prompt_tokens": 2013,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002897,
+  "annotation": {
+    "title_hy": "Զույգ ախպերների բանակի ստուգում",
+    "title_en": "Twin Brothers at the Draft Board",
+    "summary_en": "Twin brothers try to evade military service by swapping places during a medical examination, but the plan backfires.",
+    "summary_detailed_en": "The sketch takes place during a military draft medical examination. The first twin, Karen Arakelyan, enters the office after losing a game of rock-paper-scissors with his brother. The draft officer berates him for arriving two days late, dismissing his excuse about having a school exam by stating the recruitment office is more important. The officer orders Karen to undress for a medical check-up. Outside, Karen informs his brother Aren that he was rejected due to poor eyesight. Hoping to save Aren from service as well, the twins decide to switch shirts and roles so Karen can take the exam again in Aren's place. The second twin (Karen pretending to be Aren) enters the room, but the aggressive officer immediately recognizes him despite the shirt swap. While the visual data suggests a restaurant setting, the dialogue confirms a military draft context where the brothers' attempt to cheat the system results in the officer declaring that the brother is indeed fit for service, ending the scheme.",
+    "keywords_hy": [
+      "բանակ",
+      "զինկոմիսարիատ",
+      "զույգ ախպերներ",
+      "բժշկական ստուգում",
+      "զորակոչ",
+      "կատակերգություն",
+      "խաբեություն"
+    ],
+    "keywords_en": [
+      "army",
+      "military draft",
+      "twin brothers",
+      "medical exam",
+      "recruitment office",
+      "draft dodging",
+      "comedy sketch"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zinkomisariat",
+      "zuyg axperner",
+      "bzhshkakan stugum",
+      "zorakoch",
+      "katakergutyun",
+      "xabeyutyun"
+    ],
+    "catchphrases": [
+      "քել իմ տեղն էլ մտի էլի որ ինձ էլ չտանեն",
+      "հարց չկա սպասի քել մայկեքով փոխվենք որ չջոգեն",
+      "բարևն Աստծունա անուն ազգանուն ասա"
+    ],
+    "topics": [
+      "army",
+      "family",
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

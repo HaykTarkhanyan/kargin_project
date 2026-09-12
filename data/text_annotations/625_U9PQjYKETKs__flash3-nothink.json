@@ -1,0 +1,70 @@
+{
+  "video_id": "U9PQjYKETKs",
+  "seq": 625,
+  "kargin_id": 625,
+  "title": "Kargin Haghordum sketch 547 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2675,
+  "gen_sec": 10.17,
+  "prompt_tokens": 2549,
+  "output_tokens": 625,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003149,
+  "annotation": {
+    "title_hy": "6 Ամիս և Սպիտակ Նիսսան",
+    "title_en": "6 Months and a White Nissan",
+    "summary_en": "A woman reflects on the future of her relationship during an anniversary car ride while the man is entirely preoccupied with car repairs and buying a new Nissan.",
+    "summary_detailed_en": "The sketch takes place inside a car driving along a scenic, tree-lined rural road in autumn. A man is driving and a woman is in the passenger seat. After finishing a brief phone call with friends about meeting up near Tsaghkadzor, the woman mentions that today marks their six-month anniversary. This spark of conversation triggers two completely different internal monologues presented as voice-overs. The woman experiences a romantic and existential crisis, worrying that she has pressured him into marriage, questioning if they are spiritually compatible, and wondering if she should stop waiting for a 'prince on a white horse.' Meanwhile, the man is fixated on the fact that he hasn't changed the car's oil in six months. His thoughts spiral into mechanical repairs, the cost of fixing a dent in the door, and a desire to buy a white Nissan he saw in a showroom, despite the debt. The sketch ends with a classic misunderstanding: when the woman says they don't need a 'white horse' (referring to the prince), the man agrees, thinking she is agreeing that the white car is too expensive.",
+    "keywords_hy": [
+      "մեքենա",
+      "հարաբերություններ",
+      "ներքին մենախոսություն",
+      "ամուսնություն",
+      "նիսսան",
+      "ծաղկաձոր",
+      "6 ամիս",
+      "զավեշտալի"
+    ],
+    "keywords_en": [
+      "car interior",
+      "relationships",
+      "internal monologue",
+      "marriage",
+      "Nissan",
+      "Tsaghkadzor",
+      "anniversary",
+      "misunderstanding"
+    ],
+    "keywords_translit": [
+      "meqena",
+      "haraberutyunner",
+      "nerqin menaxosutyun",
+      "amusnutyun",
+      "nissan",
+      "tsaghkadzor",
+      "6 amis",
+      "zaveshtali"
+    ],
+    "catchphrases": [
+      "Ապեր էդ խաչմերուկը շուտ ենք անցել ցավդ տանեմ."
+    ],
+    "topics": [
+      "romance",
+      "transport",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

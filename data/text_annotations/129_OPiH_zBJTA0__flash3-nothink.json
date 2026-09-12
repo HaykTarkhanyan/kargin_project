@@ -1,0 +1,70 @@
+{
+  "video_id": "OPiH_zBJTA0",
+  "seq": 129,
+  "kargin_id": 129,
+  "title": "Kargin Haghordum sketch 680 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "129_Kargin_Haghordum_sketch_680_Hayko_Mko_OPiH_zBJTA0.en.json",
+    "visual": true
+  },
+  "input_chars": 3622,
+  "gen_sec": 15.13,
+  "prompt_tokens": 2475,
+  "output_tokens": 632,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003134,
+  "annotation": {
+    "title_hy": "Փարիզյան արկածներ և Գայանե Սամսոնովնան",
+    "title_en": "Parisian Adventures and Gayane Samsonovna",
+    "summary_en": "A woman returns from a trip to France and describes how everyone in her group was repeatedly assaulted, except for one specific companion who simply 'didn't want to.'",
+    "summary_detailed_en": "The sketch begins in a hallway where a young man in a blue shirt excitedly greets a character in a curly blonde wig and a white robe, who has just returned from a trip. The setting shifts to a cluttered, book-lined study or living room where the wigged character (a woman played by a male comedian in drag) sits smoking a cigarette and recounting her travels to Paris. She describes visiting the Champs-Élysées and meeting Gérard Depardieu in a restaurant, noting they were treated exceptionally well—until the end of the day when everyone in their group was raped, except for a woman named Gayane Samsonovna. The storytelling continues with a visit to the Eiffel Tower, where the same pattern repeats: a wonderful day followed by a mass assault at the top level, again sparing only Gayane. Finally, she describes a beautiful trip to Lyon with similar results. When the confused young man asks why everyone else was targeted while Gayane Samsonovna was left alone, the woman nonchalantly delivers the punchline: Gayane simply didn't want to participate.",
+    "keywords_hy": [
+      "Փարիզ",
+      "Էյֆելյան աշտարակ",
+      "ճամփորդություն",
+      "Գայանե Սամսոնովնա",
+      "բռնաբարություն",
+      "հյուրասիրություն",
+      "ռեստորան",
+      "Շանզելիզե"
+    ],
+    "keywords_en": [
+      "Paris",
+      "Eiffel Tower",
+      "travel story",
+      "Gayane Samsonovna",
+      "sexual assault joke",
+      "vacation",
+      "restaurant",
+      "Champs-Elysees"
+    ],
+    "keywords_translit": [
+      "Pariz",
+      "Eifelyan ashtarak",
+      "champordutyun",
+      "Gayane Samsonovna",
+      "brnabarutyun",
+      "hyurasirutyun",
+      "restoran",
+      "Shanzelize"
+    ],
+    "catchphrases": [
+      "դե ինքը չէր ուզում"
+    ],
+    "topics": [
+      "leisure_outing",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "dark"
+    ]
+  }
+}

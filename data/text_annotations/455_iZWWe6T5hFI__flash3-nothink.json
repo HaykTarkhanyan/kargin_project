@@ -1,0 +1,67 @@
+{
+  "video_id": "iZWWe6T5hFI",
+  "seq": 455,
+  "kargin_id": 455,
+  "title": "Kargin Haghordum sketch 080 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "455_Kargin_Haghordum_sketch_080_Hayko_Mko_iZWWe6T5hFI.hy.json",
+    "visual": true
+  },
+  "input_chars": 2246,
+  "gen_sec": 5.18,
+  "prompt_tokens": 2125,
+  "output_tokens": 582,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002809,
+  "annotation": {
+    "title_hy": "Ֆենոմենալ հիշողությամբ երիտասարդը",
+    "title_en": "The Man with Phenomenal Memory",
+    "summary_en": "A circus host presents a man with a 'phenomenal memory' whose act consists of drinking buckets of water and threatening the audience.",
+    "summary_detailed_en": "The sketch takes place on a theater stage with a live audience, framed by a classic stage curtain. Two hosts, one wearing a vest with a bow tie and the other in a bright yellow jacket and glasses, introduce their 'traveling circus' act. After a brief performance by clowns named Lorik and Borik, they present the main attraction: a young man with a supposedly phenomenal memory. The host announces that this man will perform a feat of drinking an entire red bucket of water in front of everyone. After he finishes the first bucket to the cheers of the crowd, the host insists he drink a second one. The performer reluctantly complies. The joke reaches its peak when the host announces the grand finale: the man will now regurgitate both buckets of water onto the people sitting in the front row. As the audience members begin to panic, the host delivers the punchline, warning them that running away is useless because the young man has a phenomenal memory and will remember exactly who they are.",
+    "keywords_hy": [
+      "կրկես",
+      "ֆենոմենալ հիշողություն",
+      "դույլ",
+      "ջուր խմել",
+      "ծաղրածու",
+      "ներկայացում",
+      "հանդիսատես"
+    ],
+    "keywords_en": [
+      "circus",
+      "phenomenal memory",
+      "bucket",
+      "drinking water",
+      "clown",
+      "performance",
+      "audience"
+    ],
+    "keywords_translit": [
+      "krkes",
+      "fenomenal hishoxutyun",
+      "duyl",
+      "jur khmel",
+      "tsaxratsu",
+      "nerkayatsum",
+      "handisates"
+    ],
+    "catchphrases": [
+      "Փախնելն անիմաստ է",
+      "Երիտասարդն ունի ֆենոմենալ հիշողություն"
+    ],
+    "topics": [
+      "media_showbiz",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

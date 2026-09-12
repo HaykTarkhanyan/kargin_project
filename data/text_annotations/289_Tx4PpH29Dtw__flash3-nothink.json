@@ -1,0 +1,70 @@
+{
+  "video_id": "Tx4PpH29Dtw",
+  "seq": 289,
+  "kargin_id": 289,
+  "title": "Kargin Haghordum sketch 406 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3703,
+  "gen_sec": 6.38,
+  "prompt_tokens": 3183,
+  "output_tokens": 633,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003491,
+  "annotation": {
+    "title_hy": "Գյուղի Բարեկամի Մարաթոնը",
+    "title_en": "The Village Relative's Marathon",
+    "summary_en": "A couple tries to orchestrate a fake argument to drive out an overstaying relative, only for his indecisiveness to backfire on them.",
+    "summary_detailed_en": "The sketch begins in a cramped bedroom where a mustached husband complains to his wife about their relative, Varazdat Dzyadzya (Uncle Varazdat), who has overstayed his welcome. Living by a village schedule, the guest wakes up at 5:00 AM, snores loudly, and monopolizes the television during the football championship. When the husband learns the stay has been extended by another month, the couple panics. They hatch a 'tactic' to create a tense atmosphere: they will stage a heated argument over tea and ask the uncle to judge who is right. They hope that by siding against one of them, the uncle will feel the resulting 'tension' and decide to leave on his own. The scene shifts to the dining table where the couple, the grey-haired uncle, and a young man are eating. The husband starts a scripted fight over the number of sugar spoons in his tea (demanding four instead of his usual three). They aggressively turn to Varazdat Dzyadzya to act as a judge. In a classic subversion, the uncle calmly states that it is a difficult question and he will need exactly one month to think about it before giving his verdict, effectively securing his stay.",
+    "keywords_hy": [
+      "գյուղի բարեկամ",
+      "հյուր",
+      "վեճ",
+      "շաքարավազ",
+      "թեյ",
+      "խռմփոց",
+      "բնակարան",
+      "տակտիկա"
+    ],
+    "keywords_en": [
+      "village relative",
+      "unwanted guest",
+      "fake argument",
+      "sugar spoons",
+      "tea",
+      "snoring",
+      "small apartment",
+      "tactic"
+    ],
+    "keywords_translit": [
+      "gyughi barekam",
+      "hyur",
+      "vech",
+      "shaqaravaz",
+      "tey",
+      "khrmpoc",
+      "bnakaran",
+      "taktika"
+    ],
+    "catchphrases": [
+      "Մի ամիս, վայ մամա ջան, ես կմեռնեմ:"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "video_id": "JFAzFdOamDA",
+  "seq": 127,
+  "kargin_id": 127,
+  "title": "Kargin Haghordum sketch 682 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "127_Kargin_Haghordum_sketch_682_Hayko_Mko_JFAzFdOamDA.hy.json",
+    "visual": true
+  },
+  "input_chars": 922,
+  "gen_sec": 3.98,
+  "prompt_tokens": 1427,
+  "output_tokens": 549,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002361,
+  "annotation": {
+    "title_hy": "Կազինո և բռնցքամարտի ստոպը",
+    "title_en": "Casino and Boxing Stop",
+    "summary_en": "A man explains to his companion why he respects him, emphasizing the importance of knowing when to stop, set against a backdrop of a casino and a boxing ring.",
+    "summary_detailed_en": "The sketch begins at the entrance of a building labeled with a large CASINO sign. A doorman dressed in a formal red uniform stands outside the establishment, greeting a woman visitor as she approaches the entrance. The scene then transitions to an indoor setting designed to look like a boxing ring, characterized by red ropes. Here, the tone shifts as two men engage in a conversation. One man is wearing a white tank top, while the other is dressed in a suit but incongruously wears large white boxing gloves. The dialogue revolves around mutual respect and self-control. The man in the tank top tells his companion that he respects him specifically for his ability to 'stop on time' (vaxtin stop tas), a trait he finds admirable. He emphasizes their similarities using a mix of Armenian and Russian phrases like 'Ty i ya takie'. The visual contrast between the formal suit/casino setting and the boxing ring adds a layer of absurdity to the discussion about restraint.",
+    "keywords_hy": [
+      "կազինո",
+      "բռնցքամարտ",
+      "հարգանք",
+      "ստոպ տալ",
+      "դռնապան",
+      "ձեռնոցներ"
+    ],
+    "keywords_en": [
+      "casino",
+      "boxing ring",
+      "respect",
+      "knowing when to stop",
+      "doorman",
+      "boxing gloves"
+    ],
+    "keywords_translit": [
+      "kazino",
+      "brncqamart",
+      "harganq",
+      "stop tal",
+      "drnapan",
+      "dzernocner"
+    ],
+    "catchphrases": [
+      "քեզ գիտես ինչի համար եմ հարգում",
+      "որ կարում ես վախտին ստոպ տաս"
+    ],
+    "topics": [
+      "leisure_outing",
+      "sports"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "j5NeiB-cXX8",
+  "seq": 26,
+  "kargin_id": 26,
+  "title": "Kargin Haghordum sketch 333 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "026_Kargin_Haghordum_sketch_333_Hayko_Mko_j5NeiB-cXX8.hy.json",
+    "visual": true
+  },
+  "input_chars": 1178,
+  "gen_sec": 19.2,
+  "prompt_tokens": 1613,
+  "output_tokens": 604,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002619,
+  "annotation": {
+    "title_hy": "Զինվորական ջուրը և կոչումները",
+    "title_en": "Military Water and Ranks",
+    "summary_en": "While taking cover in a trench during military exercises, a lieutenant switches between informal brotherhood and formal military discipline to try and get water from a soldier.",
+    "summary_detailed_en": "The sketch is set in an outdoor military trench during the day, surrounded by dirt walls and filled with smoke from simulated gunfire. Two soldiers, dressed in full camouflage gear and carrying rifles, are seen running through the smoke and taking cover behind an embankment. They fire their weapons before settling into the trench. One character, a lieutenant, initially addresses the other, Private Khachatryan, as a brother ('akhpers'), asking if he has any water left. When the private confirms he has some, the lieutenant suddenly switches to a strict military persona, reprimanding the private for addressing a superior officer so informally. He threatens to report the private to the commander once the exercises are over. Maintaining this formal tone, he repeats the question: 'Private Khachatryan, do you have water?' Fearing his superior's mood shift, the private responds formally with 'No, Mr. Lieutenant.' The lieutenant immediately gives the command 'At ease' and asks what happened to the water he just said he had, realizing his discipline cost him the drink.",
+    "keywords_hy": [
+      "բանակ",
+      "զինվոր",
+      "զորավարժություն",
+      "խրամատ",
+      "լեյտենանտ",
+      "ջուր",
+      "կոչում",
+      "հրամանատար"
+    ],
+    "keywords_en": [
+      "army",
+      "soldier",
+      "military exercise",
+      "trench",
+      "lieutenant",
+      "water",
+      "military rank",
+      "commander"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zinvor",
+      "zoravarjutyun",
+      "khramat",
+      "leytenant",
+      "jur",
+      "kochum",
+      "hramanatar"
+    ],
+    "catchphrases": [
+      "Ոնց որ պոկվանք",
+      "շարքային Խաչատրյան ջուր ունես",
+      "ոչ պարոն լեյտենանտ",
+      "արա նոր ասում էիր ունեմ"
+    ],
+    "topics": [
+      "army"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

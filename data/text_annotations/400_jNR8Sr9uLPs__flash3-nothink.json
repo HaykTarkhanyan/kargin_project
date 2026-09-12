@@ -1,0 +1,74 @@
+{
+  "video_id": "jNR8Sr9uLPs",
+  "seq": 400,
+  "kargin_id": 400,
+  "title": "Kargin Haghordum - Satki,satki,satki (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "400_Kargin_Haghordum_-_Satki_satki_satki_Hayko_Mko_jNR8Sr9uLPs.ru.json",
+    "visual": true
+  },
+  "input_chars": 2459,
+  "gen_sec": 5.75,
+  "prompt_tokens": 2110,
+  "output_tokens": 661,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003038,
+  "annotation": {
+    "title_hy": "Սատկի, սատկի, սատկի",
+    "title_en": "Die, Die, Die",
+    "summary_en": "A persistent beggar singing mournful Russian songs annoys an elderly shopkeeper at night, leading to an aggressive and absurd confrontation.",
+    "summary_detailed_en": "The sketch takes place at night outside a nightclub or shop with a distinctive piano-key patterned doorway. A man dressed in a beige jacket, beanie, and scarf approaches the entrance while singing the mournful Russian song 'Gishpan' (General of the Sand Quarries). He begs an elderly woman working there for bread money, claiming he is starving. The woman, portrayed as 85 years old and still working, loses her temper, calling him a parasite and shouting that he and his family should 'satki' (die/drop dead). She repeatedly spits at him in a stylized, comedic fashion while chanting 'satki, satki, satki.' The beggar eventually enters the establishment, where he encounters a man in a maroon vest. In a surreal turn, the beggar refers to a 'Davit and the Dragon' scenario and asks to speak with Davit. He then switches his repertoire to a cheerful song about kindness from a Russian cartoon, only to be met with the same aggressive 'satki' chanting and spitting from the woman.",
+    "keywords_hy": [
+      "մուրացկան",
+      "սատկի",
+      "փող",
+      "հացի փող",
+      "Դավիթը և վիշապը",
+      "ծեր կնիկ",
+      "երգող",
+      "գիշեր"
+    ],
+    "keywords_en": [
+      "beggar",
+      "die die die",
+      "money",
+      "bread money",
+      "Davit and the dragon",
+      "old woman",
+      "singing",
+      "nighttime"
+    ],
+    "keywords_translit": [
+      "murackan",
+      "satki",
+      "pogh",
+      "haci pogh",
+      "Davit@ ev vishap@",
+      "cer knik",
+      "ergogh",
+      "gisher"
+    ],
+    "catchphrases": [
+      "մարքուր ջան ինձի մի քիչ հացի փող տուր էլի",
+      "չես տենում օբյեկտը փակա",
+      "քո նմանները դրա համար պիտի սատկեն",
+      "սատկի սատկի",
+      "Դավիթը և վիշապը"
+    ],
+    "topics": [
+      "money",
+      "shop_market",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "YyWl8raGwyg",
+  "seq": 392,
+  "kargin_id": 392,
+  "title": "Kargin Haghordum - Inchel haves uneq (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "392_Kargin_Haghordum_-_Inchel_haves_uneq_Hayko_Mko_YyWl8raGwyg.hy.json",
+    "visual": true
+  },
+  "input_chars": 1269,
+  "gen_sec": 7.4,
+  "prompt_tokens": 1617,
+  "output_tokens": 563,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002497,
+  "annotation": {
+    "title_hy": "Վզգոն և պարկերը",
+    "title_en": "Vzgo and the Bales",
+    "summary_en": "A diligent factory worker insists on staying late to finish stacking bales, only to reveal he is rushing home to catch his wife with another man.",
+    "summary_detailed_en": "The sketch begins on a factory floor filled with large machinery and stuffing bales. A mustached worker named Vzgo is approached by his coworker, Noro, who tells him the shift is over and asks if he is coming home. Vzgo selflessly insists that the others should go ahead while he stays behind to finish organizing the remaining sacks. After his colleagues depart, the scene shifts to the exterior where Vzgo is seen quickly moving past parked cars and heading to an apartment building. He climbs the stairwell and enters a bedroom. The visual punchline occurs when Vzgo finds a couple—a man and a woman—hiding under a pink blanket in a bed. Rather than reacting with rage at the infidelity, he mocks their endurance or situation, exclaiming, 'Man, what energy you guys have!' (Ara inch el haves uneq). The joke relies on the subversion of the expected 'cheating spouse' confrontation, replacing anger with a commentary on their persistence.",
+    "keywords_hy": [
+      "գործարան",
+      "աշխատավոր",
+      "դավաճանություն",
+      "մեշոկ",
+      "հավես",
+      "ննջարան",
+      "սմեն",
+      "աշխատանք"
+    ],
+    "keywords_en": [
+      "factory worker",
+      "cheating",
+      "infidelity",
+      "bales",
+      "shift work",
+      "bedroom",
+      "energy",
+      "surprise ending"
+    ],
+    "keywords_translit": [
+      "gortsaran",
+      "ashkhatavor",
+      "davachanutyun",
+      "meshok",
+      "haves",
+      "nnjaran",
+      "smen",
+      "ashkhatank"
+    ],
+    "catchphrases": [
+      "֊Արա ինչ էլ հավես ունեք։"
+    ],
+    "topics": [
+      "work",
+      "romance",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

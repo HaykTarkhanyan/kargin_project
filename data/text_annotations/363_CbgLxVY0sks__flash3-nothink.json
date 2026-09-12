@@ -1,0 +1,71 @@
+{
+  "video_id": "CbgLxVY0sks",
+  "seq": 363,
+  "kargin_id": 363,
+  "title": "Kargin Haghordum sketch 490 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "363_Kargin_Haghordum_sketch_490_Hayko_Mko_CbgLxVY0sks.ru.json",
+    "visual": true
+  },
+  "input_chars": 2534,
+  "gen_sec": 19.73,
+  "prompt_tokens": 1896,
+  "output_tokens": 587,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002709,
+  "annotation": {
+    "title_hy": "Ով շուտ է արթնանում, նրան Աստված է տալիս",
+    "title_en": "Early Bird Gets the Worm",
+    "summary_en": "A host constantly brags to his guest that his wealth comes from waking up early, until he discovers his car has been stolen by someone who woke up even earlier.",
+    "summary_detailed_en": "The sketch takes place in an elegant apartment living room where a host, wearing a bright floral shirt, prepares plates of fruit and snacks for his guest, Igor, who has curly red hair and a yellow 'Racing' t-shirt. The host wakes Igor up, speaking a mix of Armenian and Russian, insisting that they have a busy day of sightseeing and eating ahead in Garni and Geghard. Throughout their conversation on a leather couch, the host repeatedly cites the proverb 'the one who wakes up early, God provides for' as the reason for his success, luxurious home, and expensive electronics. He boasts that his disciplined morning routine is the secret to his wealth. To prove his point further, he leads Igor out onto a wrought-iron balcony to show off his new luxury SUV parked below. However, when they look down, the spot is empty. The host realizes the irony and delivers the punchline: someone must have woken up even earlier than him today to steal the jeep.",
+    "keywords_hy": [
+      "առավոտ",
+      "ջիպ",
+      "գողություն",
+      "ասացվածք",
+      "հյուր",
+      "լանչ",
+      "խորոված",
+      "ծիրան"
+    ],
+    "keywords_en": [
+      "morning",
+      "proverb",
+      "stolen car",
+      "hospitality",
+      "early riser",
+      "SUV",
+      "apartment balcony",
+      "Armenian humor"
+    ],
+    "keywords_translit": [
+      "aravot",
+      "djiper",
+      "goghutyun",
+      "asacvack",
+      "hyur",
+      "lanch",
+      "khorovac",
+      "tsiran"
+    ],
+    "catchphrases": [
+      "кто рано встает тому Бог подает",
+      "աչքիս Իգըր ջան сегодня кто то раньше меня вствл"
+    ],
+    "topics": [
+      "family",
+      "crime",
+      "party_guests"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

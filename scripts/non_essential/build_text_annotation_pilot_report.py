@@ -21,11 +21,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 PILOT_DIR = ROOT / "data" / "text_annotations_pilot"
 PILOT_V2_DIR = ROOT / "data" / "text_annotations_pilot_v2"
+PILOT_V3_DIR = ROOT / "data" / "text_annotations_pilot_v3"
 LEDGER_PATH = ROOT / "data" / "gemini_spend_ledger.jsonl"
 OUT_PATH = PILOT_DIR / "report.html"
 # (dir, tag suffix appended to model_short) pairs to load
-PILOT_DIRS = [(PILOT_DIR, ""), (PILOT_V2_DIR, "-v2")]
-MODELS = ["flash3-nothink", "flash3-nothink-v2"]
+PILOT_DIRS = [(PILOT_DIR, ""), (PILOT_V2_DIR, "-v2"), (PILOT_V3_DIR, "-v3")]
+MODELS = ["flash3-nothink-v2", "flash3-nothink-v3"]
 
 
 def setup_logging() -> None:

@@ -1,0 +1,72 @@
+{
+  "video_id": "Ha_5wRv-4sU",
+  "seq": 117,
+  "kargin_id": 117,
+  "title": "Kargin Haghordum sketch 692 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "117_Kargin_Haghordum_sketch_692_Hayko_Mko_Ha_5wRv-4sU.en.json",
+    "visual": true
+  },
+  "input_chars": 2224,
+  "gen_sec": 5.65,
+  "prompt_tokens": 2012,
+  "output_tokens": 661,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002989,
+  "annotation": {
+    "title_hy": "Գյուղական ավտոստոպ և Մրդոն",
+    "title_en": "Rural Hitchhiking and Mrdo",
+    "summary_en": "Two men in a car refuse to give rides to a pensioner and a hungry traveler, and ultimately reject a woman's suggestive offer because they simply don't need jeans.",
+    "summary_detailed_en": "The sketch takes place on a rural dirt road where two men, including a driver and his companion named Mrdo, are driving an old vehicle. They are first approached by an elderly man (hrakhper) who asks for a ride to the city. When they ask for money, he offers homemade mulberry vodka (tti aragh) instead. The passenger asks Mrdo if they need vodka, and upon hearing 'no', they coldly drive off. Next, a traveler asks for a ride to the village, offering bread instead of cash. Again, the passenger asks Mrdo if they need bread, and they drive away when he declines. Finally, a woman with sunglasses and a mobile phone approaches, explaining her car is broken and she has no cash. She offers to pay in kind ('natural means'), explaining she will start by taking off her jeans. The passenger, taking her literally, asks Mrdo if they need jeans. When Mrdo says they don't need jeans, they abandon her on the road as well. The humor stems from the men's complete lack of social awareness and their repetitive, transactional logic.",
+    "keywords_hy": [
+      "ավտոստոպ",
+      "գյուղական ճանապարհ",
+      "թթի արաղ",
+      "հաց",
+      "ջինս",
+      "Մրդո",
+      "փող չկա",
+      "ճանապարհային արկածներ"
+    ],
+    "keywords_en": [
+      "hitchhiking",
+      "rural road",
+      "mulberry vodka",
+      "bread",
+      "jeans",
+      "Mrdo",
+      "no money",
+      "roadside comedy"
+    ],
+    "keywords_translit": [
+      "avtostop",
+      "gyughakan chanaparh",
+      "tti aragh",
+      "hats",
+      "jins",
+      "Mrdo",
+      "pogh chka",
+      "chanaparhayin arkatsner"
+    ],
+    "catchphrases": [
+      "Դե ուրեմն քշա",
+      "Մրդո, մեզի թթի արաղ պետքա՞",
+      "Քուր ջան մեզի ջինս պետք չի"
+    ],
+    "topics": [
+      "transport",
+      "village",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

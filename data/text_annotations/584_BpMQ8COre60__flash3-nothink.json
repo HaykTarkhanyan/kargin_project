@@ -1,0 +1,63 @@
+{
+  "video_id": "BpMQ8COre60",
+  "seq": 584,
+  "kargin_id": 584,
+  "title": "Kargin Haghordum sketch 435 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "584_Kargin_Haghordum_sketch_435_Hayko_Mko_BpMQ8COre60.hy.json",
+    "visual": true
+  },
+  "input_chars": 1570,
+  "gen_sec": 5.66,
+  "prompt_tokens": 1837,
+  "output_tokens": 443,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002247,
+  "annotation": {
+    "title_hy": "Հիվանդի վերջին խոսքը",
+    "title_en": "The Patient's Last Words",
+    "summary_en": "A group of family and friends gather around a dying man's hospital bed, only for his 'last words' to be a desperate complaint about someone standing on his oxygen hose.",
+    "summary_detailed_en": "In a hospital room, a man lies in bed hooked up to a ventilator and breathing mask, appearing to be in his final moments. A woman and a young girl (his wife and child) along with a close friend, Hovo, stand over him, crying and offering emotional goodbyes. The man is struggling to communicate, and Hovo, believing the patient is trying to deliver his final will or a poignant last message, provides him with a piece of paper and a pen. The patient frantically scribbles something down as his condition seems to worsen. Just after the man appears to expire and the room erupts in grief, the contents of the note are revealed. Rather than a sentimental farewell, the note is a blunt, angry insult: the patient was trying to tell Hovo to get his foot off the oxygen hose. The sketch ends with the man sitting up, removing his mask, and drinking water while expressing his frustration at their stupidity.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "թթվածնի քողարկիչ",
+      "վերջին խոսք",
+      "նամակ",
+      "կատակ",
+      "հիվանդ"
+    ],
+    "keywords_en": [
+      "hospital",
+      "oxygen mask",
+      "last words",
+      "note",
+      "breathing tube",
+      "patient"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "tթvacni qoxarkich",
+      "verjin xosq",
+      "namak",
+      "katak",
+      "hivand"
+    ],
+    "catchphrases": [
+      "անասուն որտդ օդի շլանկի վրից քաշի"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

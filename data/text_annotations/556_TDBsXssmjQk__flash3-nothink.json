@@ -1,0 +1,66 @@
+{
+  "video_id": "TDBsXssmjQk",
+  "seq": 556,
+  "kargin_id": 556,
+  "title": "Kargin Haghordum sketch 188 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "556_Kargin_Haghordum_sketch_188_Hayko_Mko_TDBsXssmjQk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1455,
+  "gen_sec": 3.97,
+  "prompt_tokens": 1665,
+  "output_tokens": 433,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002132,
+  "annotation": {
+    "title_hy": "Գարիկը փնտրում է Գարիկին",
+    "title_en": "Garik Searching for Garik",
+    "summary_en": "A confused man asks his neighbor for directions to his own house, fully aware of his identity but oblivious to his location.",
+    "summary_detailed_en": "The sketch takes place in a shabby Soviet-era apartment building stairwell. A bespectacled handyman in a grey knit sweater is busy working on a smashed-open wall niche filled with messy electrical wiring, using a screwdriver to poke at the cables. A neighbor with curly hair, wearing a brown leather jacket, repeatedly walks up and down the concrete stairs, engaging in a surreal argument with the handyman. The man in the leather jacket asks the handyman where a person named Garik Baghdasaryan lives. When the handyman points out that the man asking the question is actually Garik Baghdasaryan himself, the neighbor responds with absurd logic: he admits he knows he is Garik, but he still needs to know where that specific person lives. The scene emphasizes the neighbor's stubborn confusion as he continues to pace the landing and eventually crouches by the apartment door to inspect the floor, while the handyman looks on in disbelief at the circular, nonsensical conversation.",
+    "keywords_hy": [
+      "հարևան",
+      "աստիճանավանդակ",
+      "հասցե",
+      "փնտրել",
+      "հոսանքի լարեր",
+      "Գարիկ",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "neighbor",
+      "stairwell",
+      "address",
+      "searching",
+      "electrical wires",
+      "Garik",
+      "absurdity"
+    ],
+    "keywords_translit": [
+      "harevan",
+      "astichanavandak",
+      "hasce",
+      "pntrel",
+      "hosanqi larer",
+      "Garik",
+      "tsitsagheli"
+    ],
+    "catchphrases": [
+      "Արա ես գիտեմ, որ բաղդասարյան Գարիկը ես եմ, դու ինձ ասա ինքը որտեղա ապրում:"
+    ],
+    "topics": [
+      "neighbors",
+      "family"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

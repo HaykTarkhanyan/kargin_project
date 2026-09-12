@@ -1,0 +1,67 @@
+{
+  "video_id": "uXOTZyBMya8",
+  "seq": 532,
+  "kargin_id": 532,
+  "title": "Kargin Haghordum sketch 166 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "532_Kargin_Haghordum_sketch_166_Hayko_Mko_uXOTZyBMya8.hy.json",
+    "visual": true
+  },
+  "input_chars": 1431,
+  "gen_sec": 6.01,
+  "prompt_tokens": 1788,
+  "output_tokens": 574,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002616,
+  "annotation": {
+    "title_hy": "Երկու ջենտլմեն սրճարանում",
+    "title_en": "Two Gentlemen in a Cafe",
+    "summary_en": "Two men in an upscale lounge exchange intense, flowery compliments about each other's appearance and masculine grace, only to reach a disappointing realization.",
+    "summary_detailed_en": "The sketch takes place in an upscale, wood-paneled restaurant lounge. A man dressed in a sharp pinstripe suit and pink tie is sitting alone at a table, reading a newspaper. Another man approaches and asks for permission to sit down. The newcomer immediately begins showering the first man with elaborate compliments, noting his tasteful clothing, beautiful hairstyle, and handsome appearance, remarking how rare it is to find such a man. The seated man reciprocates with equally flowery language, praising the newcomer's neat attire, confident yet smooth gait, aristocratic movements, and his combination of masculine and delicate features. They both agree that they likely have much in common to discuss over coffee. The conversation takes a sharp turn when the newcomer asks if the other is a homosexual. When the man replies 'No' and asks the same in return, the newcomer also says 'No.' They both sigh and say 'What a pity' (Apsos), ending the sketch on a subversion of their mutual admiration.",
+    "keywords_hy": [
+      "սրճարան",
+      "տղամարդիկ",
+      "կոմպլիմենտ",
+      "համասեռամոլ",
+      "հանդիպում",
+      "ափսոս",
+      "ճաշակով"
+    ],
+    "keywords_en": [
+      "cafe",
+      "men",
+      "compliments",
+      "homosexual",
+      "encounter",
+      "pity",
+      "gentlemen"
+    ],
+    "keywords_translit": [
+      "srcharan",
+      "tghamardik",
+      "kompliment",
+      "hamaseramol",
+      "handipum",
+      "apsos",
+      "chashakov"
+    ],
+    "catchphrases": [
+      "Կներեք, իսկ կարո՞ղ է դուք հոմոսեքսուալիստ եք:",
+      "Ափսոս"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

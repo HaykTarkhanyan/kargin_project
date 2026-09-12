@@ -1,0 +1,68 @@
+{
+  "video_id": "BCDNaGGDjAY",
+  "seq": 687,
+  "kargin_id": 687,
+  "title": "Kargin Haghordum - Hetapndum (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "687_Kargin_Haghordum_-_Hetapndum_Hayko_Mko_BCDNaGGDjAY.hy.json",
+    "visual": true
+  },
+  "input_chars": 2040,
+  "gen_sec": 4.38,
+  "prompt_tokens": 2106,
+  "output_tokens": 437,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002364,
+  "annotation": {
+    "title_hy": "150 դոլար մրցանակ",
+    "title_en": "150 Dollar Prize",
+    "summary_en": "A traffic police officer pulls over a driver to reward him for perfect driving, only for the passengers to accidentally reveal a series of serious crimes.",
+    "summary_detailed_en": "The sketch takes place on a rural road where an elderly man is driving a car accompanied by a woman and a young man. A traffic police officer, Lieutenant Saribekyan, follows them for ten kilometers and eventually signals them to pull over. Fearing a fine, the young man immediately offers to pay for any violations. However, the officer explains that because they drove ten kilometers without a single traffic violation, the municipality has awarded them a prize of 150 US dollars. The driver is thrilled, but the situation quickly unravels when he excitedly claims he can finally use the money to buy a driver's license. The woman passenger tries to cover for him by saying he only talks nonsense when he is drunk, revealing he is driving under the influence. As the officer reacts in shock, the young man yells that they should have never traveled so far in a stolen car. The officer attempts to call for backup as the group realizes they have confessed to multiple crimes while trying to accept a reward for good behavior.",
+    "keywords_hy": [
+      "ոստիկան",
+      "ճանապարհային ոստիկանություն",
+      "խախտում",
+      "տուգանք",
+      "մրցանակ",
+      "գողացած մեքենա",
+      "խմած վարորդ"
+    ],
+    "keywords_en": [
+      "police officer",
+      "traffic police",
+      "violation",
+      "fine",
+      "reward",
+      "stolen car",
+      "drunk driver"
+    ],
+    "keywords_translit": [
+      "vostikan",
+      "chanaparhayin vostikanutyun",
+      "khakhtum",
+      "tuganq",
+      "mrcanak",
+      "goghacats meqena",
+      "khmac varord"
+    ],
+    "catchphrases": [
+      "Այ տղա կանգնի։",
+      "Լեյտենանտ Սար"
+    ],
+    "topics": [
+      "police",
+      "crime",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

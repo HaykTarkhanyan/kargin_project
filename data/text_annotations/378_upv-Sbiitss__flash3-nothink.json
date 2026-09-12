@@ -1,0 +1,71 @@
+{
+  "video_id": "upv-Sbiitss",
+  "seq": 378,
+  "kargin_id": 378,
+  "title": "Kargin Haghordum sketch 140 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "378_Kargin_Haghordum_sketch_140_Hayko_Mko_upv-Sbiitss.hy.json",
+    "visual": true
+  },
+  "input_chars": 1958,
+  "gen_sec": 8.2,
+  "prompt_tokens": 2016,
+  "output_tokens": 571,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002721,
+  "annotation": {
+    "title_hy": "Վեց հոգով և պլանը",
+    "title_en": "Six People and the Weed",
+    "summary_en": "A group of guys relaxing in a field worry about getting caught at a police checkpoint because they are overcrowded in a car and carrying a large amount of drugs.",
+    "summary_detailed_en": "The sketch begins in a grassy outdoor field where two men dressed in black jackets and sunglasses are sitting and smoking. They are joined by several other companions. The conversation revolves around the logistics of their upcoming drive back to Yerevan. One character expresses anxiety, telling his friends to cover their ears while he talks about the danger ahead. He points out that although it is impolite to speak about people in the third person, they are currently a group of six, which is over the legal limit for their car. He warns that if the traffic police (GAI) pull them over for the simple capacity violation, the police will inevitably discover the massive amount of marijuana ('plan') they are carrying, which he claims is enough to be charged with group homicide. To solve the problem, they decide one person must crouch down to hide. The final scene shows the group in a car being pulled over at a rural roadside checkpoint by police officers standing near marked Lada patrol cars.",
+    "keywords_hy": [
+      "գայի",
+      "պլան",
+      "ոստիկանություն",
+      "մեքենա",
+      "խախտում",
+      "ընկերներ",
+      "դաշտ",
+      "կզել"
+    ],
+    "keywords_en": [
+      "police checkpoint",
+      "marijuana",
+      "overcrowded car",
+      "gangsters",
+      "traffic police",
+      "roadside",
+      "illegal substances",
+      "hiding"
+    ],
+    "keywords_translit": [
+      "gai",
+      "plan",
+      "vostikanutyun",
+      "meqena",
+      "xaxtum",
+      "ynkerner",
+      "dasht",
+      "kzel"
+    ],
+    "catchphrases": [
+      "մոտներս խմբակային սպանության չափ պլան կա",
+      "մեկը պիտի կզի"
+    ],
+    "topics": [
+      "police",
+      "crime",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

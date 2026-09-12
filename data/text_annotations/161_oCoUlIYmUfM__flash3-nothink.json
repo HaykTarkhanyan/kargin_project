@@ -1,0 +1,69 @@
+{
+  "video_id": "oCoUlIYmUfM",
+  "seq": 161,
+  "kargin_id": 161,
+  "title": "Kargin Haghordum sketch 205 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1789,
+  "gen_sec": 4.4,
+  "prompt_tokens": 2031,
+  "output_tokens": 634,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002917,
+  "annotation": {
+    "title_hy": "Խաբեբա ձին և ձմերուկները",
+    "title_en": "The Deceptive Horse and the Watermelons",
+    "summary_en": "A villager hitches a ride on a horse-drawn cart for his watermelon sacks, only to discover the driver must trick his own blind horse into thinking other horses are helping.",
+    "summary_detailed_en": "Set in a rural marshy roadside during the day, a villager carrying a heavy sack stumbles before encountering another man with a horse-drawn cart. The villager, dressed in rural attire and a flat cap, explains he needs to transport five sacks of watermelons to the city market. He pleads with the cart driver (also a mustached man in a cap) to take him along. The driver initially demands 1000 drams, claiming the 'route' has ownership fees, but eventually agrees to take the load for free when the villager insists he has no money. As they load the sacks onto the wooden cart and begin their journey, the driver shouts out names for three different horses: Bulyan, Tsaghik, and Tsitsernak. Confused, the villager asks why he called three names when there is only one horse. The driver reveals the punchline: his horse, Bulyan, is blind and extremely lazy; if the horse realized it was pulling five sacks of cargo all by itself, it would refuse to move, so he has to trick it into believing it is part of a team.",
+    "keywords_hy": [
+      "ձի",
+      "սայլ",
+      "ձմերուկ",
+      "գյուղացի",
+      "խաբեություն",
+      "բեռ",
+      "բազար",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "horse",
+      "cart",
+      "watermelon",
+      "villager",
+      "deception",
+      "cargo",
+      "market",
+      "blind horse"
+    ],
+    "keywords_translit": [
+      "dzi",
+      "sayl",
+      "dzmeruk",
+      "gyughatsi",
+      "khabeutyun",
+      "ber",
+      "bazar",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Բայց շատ աֆերիստ ձիա, էսի որ ջոգեց մենակով 5 մեշոկ գրուզ պտի տանի, առաջ չի գնա"
+    ],
+    "topics": [
+      "village",
+      "transport"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

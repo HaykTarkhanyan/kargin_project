@@ -1,0 +1,70 @@
+{
+  "video_id": "NLoJXXo_cSw",
+  "seq": 667,
+  "kargin_id": 667,
+  "title": "Kargin Haghordum sketch 247 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "667_Kargin_Haghordum_sketch_247_Hayko_Mko_NLoJXXo_cSw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1824,
+  "gen_sec": 8.07,
+  "prompt_tokens": 2003,
+  "output_tokens": 588,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002765,
+  "annotation": {
+    "title_hy": "Խմելու խոսք և անկեղծ խոստովանություն",
+    "title_en": "A Toast and a Blunt Confession",
+    "summary_en": "While drinking at a picnic, one friend refuses to go home with the other by confessing he slept with his wife, but the host completely misses the point.",
+    "summary_detailed_en": "The sketch is set in a sunny forest clearing where two male friends are enjoying a picnic. They are lying on a blanket surrounded by a spread of food and drinks. The scene begins with one friend giving a long, sentimental, and slightly incoherent toast to their parents, praising them for raising them into good people. The friend in the plaid shirt becomes increasingly animated with his hand gestures as they finish their drinks. When the host announces that the alcohol has run out but suggests they move the party to his house where he has two more bottles in the refrigerator, the other friend flatly refuses. After being pressured to explain why, the guest confesses that he cannot come over because he once slept with the host's wife and feels ashamed. In a classic displays of absurdity, the husband dismisses the confession entirely, arguing that he sleeps with his own wife every day and still goes home, so there is no reason for his friend to be embarrassed. The sketch ends with them jumping up and running through the trees.",
+    "keywords_hy": [
+      "քեֆ",
+      "անտառ",
+      "կենաց",
+      "խնջույք",
+      "կնիկ",
+      "դավաճանություն",
+      "ընկերներ",
+      "ծնողների կենաց"
+    ],
+    "keywords_en": [
+      "picnic",
+      "forest",
+      "toast",
+      "parents",
+      "infidelity",
+      "misunderstanding",
+      "drinking",
+      "friends"
+    ],
+    "keywords_translit": [
+      "kef",
+      "antar",
+      "kenats",
+      "khnjuyk",
+      "knik",
+      "davachanutyun",
+      "enkerner",
+      "cnoxneri kenats"
+    ],
+    "catchphrases": [
+      "ես իմ կնգա հետ ամեն օր քնում եմ հմի տուն չէթամ"
+    ],
+    "topics": [
+      "drinking",
+      "leisure_outing",
+      "family"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

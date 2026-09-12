@@ -1,0 +1,71 @@
+{
+  "video_id": "HW_cVMBa8bU",
+  "seq": 504,
+  "kargin_id": 504,
+  "title": "Kargin Haghordum sketch 132 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "504_Kargin_Haghordum_sketch_132_Hayko_Mko_HW_cVMBa8bU.hy.json",
+    "visual": true
+  },
+  "input_chars": 1407,
+  "gen_sec": 5.2,
+  "prompt_tokens": 1767,
+  "output_tokens": 594,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002666,
+  "annotation": {
+    "title_hy": "Տեկիլա և զարթուցիչ",
+    "title_en": "Tequila and the Alarm Clock",
+    "summary_en": "A customer at a bar sees his friend pass out from a potent mixture and decides to order the same, using an alarm clock to track his limit.",
+    "summary_detailed_en": "The sketch takes place at an indoor bar lined with various liquor bottles. A bartender, dressed in a professional vest and bowtie, is serving a customer wearing a striped shirt. Another man is seen completely passed out face-down on the bar counter. When the customer asks what his friend drank to end up in such a state, the bartender admits he accidentally mixed vodka with tequila. Surprisingly, the customer is impressed and orders the exact same concoction for himself. As he continues to drink progressively more shots, he places a small electronic device—a clock—on the counter. He explains that he brought the alarm clock to know exactly when it is time to go home. In the final beat, as the bartender offers to repeat the drink or checks the time, the customer reacts to the clock. When asked if it is two o'clock, he delivers the punchline that it isn't the time that has reached two, but that he is seeing the single alarm clock as two separate objects due to his extreme intoxication.",
+    "keywords_hy": [
+      "բարմեն",
+      "հարբած",
+      "օղի",
+      "տեկիլա",
+      "խմիչք",
+      "զարթուցիչ",
+      "բուձելնիկ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "bartender",
+      "drunk",
+      "vodka",
+      "tequila",
+      "alcohol",
+      "alarm clock",
+      "passed out",
+      "bar sketch"
+    ],
+    "keywords_translit": [
+      "barmen",
+      "harbats",
+      "oghi",
+      "tekila",
+      "khmichk",
+      "zartutsich",
+      "budzelnik",
+      "katak"
+    ],
+    "catchphrases": [
+      "Վախտնա։",
+      "Ոնց, ժամը երկուսնա։",
+      "Չէ, բուձելնիկնա 2 հատ։"
+    ],
+    "topics": [
+      "drinking",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "vyTJKuAtbeg",
+  "seq": 188,
+  "kargin_id": 188,
+  "title": "Kargin Haghordum sketch 368 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3769,
+  "gen_sec": 12.85,
+  "prompt_tokens": 3039,
+  "output_tokens": 612,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003355,
+  "annotation": {
+    "title_hy": "Ո՞ր աղջկան ընտրել",
+    "title_en": "Which Girl to Choose",
+    "summary_en": "A father gives his son $30,000 to distribute among three girlfriends to test their character and decide which one to marry.",
+    "summary_detailed_en": "The sketch takes place in an apartment living room and kitchen where a father and son are having tea. The son is constantly busy helping friends with car registration and paperwork, prompting the father to nag him about getting married. The son admits he has three girlfriends but cannot decide between them. The father proposes a test: he gives the son $30,000 from his 'stash' to give $10,000 to each girl to spend in one day. Later, the son returns with photographs of the women to report the results. The first girl spent all the money on herself (jewelry and clothes). The second girl spent it all on her family's debts and furniture. The third girl spent nothing on herself, buying gifts for the son and saving the rest for their future home. The son asks for the final verdict on who would make the best wife. Despite the third girl's loyalty and the second girl's family values, the father looks at the photos and chooses the first girl simply because she has the largest breasts, subverting the moral lesson.",
+    "keywords_hy": [
+      "ընտրություն",
+      "ամուսնություն",
+      "հայր և որդի",
+      "փողի փորձություն",
+      "հարսնացու",
+      "խորհուրդ",
+      "կոֆե",
+      "տաս հազար դոլլար"
+    ],
+    "keywords_en": [
+      "choice",
+      "marriage",
+      "father and son",
+      "money test",
+      "bride",
+      "advice",
+      "coffee",
+      "ten thousand dollars"
+    ],
+    "keywords_translit": [
+      "yntrutyun",
+      "amusnutyun",
+      "hayr ev ordi",
+      "poghi pordzutyun",
+      "harsnacu",
+      "khorhurd",
+      "kofe",
+      "tas hazar dollar"
+    ],
+    "catchphrases": [
+      "այ տղա ջան ստե ընդե զանգեմ մարդ խառնեմ որ պսակվես"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

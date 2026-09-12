@@ -1,0 +1,71 @@
+{
+  "video_id": "xwZmZD6KFhE",
+  "seq": 179,
+  "kargin_id": 179,
+  "title": "Kargin Haghordum sketch 359 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1701,
+  "gen_sec": 11.4,
+  "prompt_tokens": 1851,
+  "output_tokens": 691,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002999,
+  "annotation": {
+    "title_hy": "Կախարդական ջրհորը և կնոջ ցանկությունը",
+    "title_en": "The Magic Well and the Wife's Wish",
+    "summary_en": "A woman complains about her husband's lack of masculinity and his family before they discover a 'magic well' that supposedly grants wishes.",
+    "summary_detailed_en": "The sketch begins with a man driving a car with an old woman (played by a male actor in drag with a curly white wig) as his passenger. The woman is visibly upset, complaining that they haven't visited her home in a year. She insults her in-laws, calling her mother-in-law 'exhausted' and her father-in-law 'lecherous.' She mocks her husband's lack of masculinity, specifically accusing his father of inappropriately touching her, which the husband excuses by claiming his father has poor eyesight and mistakes her for his mother. They pull over on a rural road near a bare-tree field. The woman expresses her lifelong wish for her husband to finally become a 'real man.' They discover a pile of rocks and dirt which they believe to be a magic well. After reading instructions that a coin must be tossed to grant a wish, the woman asks her husband for change. The man throws a coin in, and the sketch ends with a physical punchline regarding the well's efficacy as the man runs away across the field alone.",
+    "keywords_hy": [
+      "կախարդական ջրհոր",
+      "կեսուր",
+      "կեսրար",
+      "տղամարդկություն",
+      "հեքիաթ",
+      "ցանկություն",
+      "կին և ամուսին",
+      "դժգոհություն"
+    ],
+    "keywords_en": [
+      "magic well",
+      "mother-in-law",
+      "father-in-law",
+      "masculinity",
+      "fairy tale",
+      "wish",
+      "husband and wife",
+      "complaint"
+    ],
+    "keywords_translit": [
+      "kakhardakan jrhor",
+      "kesur",
+      "kesrar",
+      "tghamardkutyun",
+      "heqiat",
+      "cankutyun",
+      "kin ev amusin",
+      "dzhgohutyun"
+    ],
+    "catchphrases": [
+      "էն հոգնած կիսուրիս տենամ թե ղզղնած կեսրարիս",
+      "մեջդ տղամարդկություն չկա որ հորդ ասես որ իրանց տուն ենք գնում ինձ ձեռ չքցի",
+      "էս ջրհորը լավ էլ աշխատումա"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

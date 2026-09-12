@@ -1,0 +1,67 @@
+{
+  "video_id": "aJv99i6NJZU",
+  "seq": 6,
+  "kargin_id": 6,
+  "title": "Kargin Haghordum - Stress (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "006_Kargin_Haghordum_-_Stress_Hayko_Mko_aJv99i6NJZU.hy.json",
+    "visual": true
+  },
+  "input_chars": 2765,
+  "gen_sec": 19.67,
+  "prompt_tokens": 2576,
+  "output_tokens": 604,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.0031,
+  "annotation": {
+    "title_hy": "Հոգեբույժի խորհրդատվությունը",
+    "title_en": "The Psychiatrist's Consultation",
+    "summary_en": "A stressed patient seeks help for his cheating wife, violent son, and bedwetting, only for the doctor’s antidepressants to change his attitude rather than his problems.",
+    "summary_detailed_en": "The sketch takes place in a doctor's office where a physician, initially distracted by a phone call regarding fluctuating house prices, consults with a distressed patient. The patient, wearing a grey jacket over a yellow shirt, explains his miserable life: his wife is cheating on him, and his young son is constantly involved in neighborhood gunfights and threatening people with a pistol. Most embarrassingly, the patient suffers from enuresis (bedwetting) due to the extreme stress. The doctor, portrayed as somewhat dismissive, argues that half the world's wives cheat and children will be children. He prescribes a course of antidepressants to target the underlying stress. A week later, the patient returns for a follow-up. While his external circumstances have not changed—his wife still cheats and his son is still violent—his demeanor is transformed. He is now jovial and unbothered, laughing off the chaos. When the doctor asks if the bedwetting has stopped, the patient happily replies that it hasn't, but he no longer cares because 'it dries by morning anyway.'",
+    "keywords_hy": [
+      "հոգեբույժ",
+      "սթրես",
+      "դեղահաբեր",
+      "դավաճանություն",
+      "գիշերամիզություն",
+      "բժիշկ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "psychiatrist",
+      "stress",
+      "antidepressants",
+      "infidelity",
+      "bedwetting",
+      "doctor",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "hogebuyj",
+      "stres",
+      "dexahaber",
+      "davachanutyun",
+      "gisheramizutyun",
+      "bjishk",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Մեկա մինչև առավոտ չորանում էլի:"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "law_court"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

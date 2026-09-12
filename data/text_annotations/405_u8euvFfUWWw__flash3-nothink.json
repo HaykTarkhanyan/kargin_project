@@ -1,0 +1,66 @@
+{
+  "video_id": "u8euvFfUWWw",
+  "seq": 405,
+  "kargin_id": 405,
+  "title": "Kargin Haghordum - Batman (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "405_Kargin_Haghordum_-_Batman_Hayko_Mko_u8euvFfUWWw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1009,
+  "gen_sec": 5.87,
+  "prompt_tokens": 1500,
+  "output_tokens": 576,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002478,
+  "annotation": {
+    "title_hy": "Բեթմենը թե Տերտերը",
+    "title_en": "Batman or the Priest",
+    "summary_en": "Two friends watch a man in a black cape perform stunts at a construction site, debating whether he is a superhero or a local priest.",
+    "summary_detailed_en": "The sketch takes place at an outdoor setting, primarily around an abandoned construction site and an apartment courtyard during the day. A man, wearing a makeshift black cape and a beanie, is seen running, jumping, and climbing through the concrete structures, attempting to emulate a superhero. Two friends, dressed in casual tracksuits, observe his antics from a distance. They appear to be in high spirits, commenting on the situation and reacting with laughter as the man in the cape moves through the site. The dialogue suggests they are under the influence of something, with one friend remarking on how 'high' they have gotten. As they watch the man's silhouette and movements, one friend insists that the figure is Batman. However, as the figure comes into clearer view or performs a specific action, the other friend points out that the individual is actually a 'terter' (an Armenian priest) in his black robes. The sketch concludes with the humorous realization that their initial superhero excitement was just a misunderstanding of a priest's attire, leading to the final punchline.",
+    "keywords_hy": [
+      "Բեթմեն",
+      "տերտեր",
+      "շինհրապարակ",
+      "կայֆ",
+      "սուպերհերոս",
+      "թիկնոց",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "Batman",
+      "priest",
+      "construction site",
+      "superhero",
+      "cape",
+      "hallucination",
+      "funny"
+    ],
+    "keywords_translit": [
+      "betmen",
+      "terter",
+      "shinhraparak",
+      "kayf",
+      "superheros",
+      "tiknoc",
+      "tsitsagheli"
+    ],
+    "catchphrases": [
+      "տեսար որ տերտերա դու էլ ասում էիր բեթմեննա բեթմեննա"
+    ],
+    "topics": [
+      "religion",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

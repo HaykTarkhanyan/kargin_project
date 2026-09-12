@@ -1,0 +1,67 @@
+{
+  "video_id": "bVP8dzuxVkY",
+  "seq": 601,
+  "kargin_id": 601,
+  "title": "Kargin Haghordum sketch 452 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "601_Kargin_Haghordum_sketch_452_Hayko_Mko_bVP8dzuxVkY.ro.json",
+    "visual": true
+  },
+  "input_chars": 2164,
+  "gen_sec": 5.9,
+  "prompt_tokens": 2155,
+  "output_tokens": 508,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002601,
+  "annotation": {
+    "title_hy": "Գայանե Սամսոնովնայի Փարիզյան արկածները",
+    "title_en": "Gayane Samsonovna's Paris Adventures",
+    "summary_en": "A woman in a blonde wig tells her friend about a trip to France where everyone in the group was repeatedly assaulted at every landmark except for one woman named Gayane Samsonovna.",
+    "summary_detailed_en": "The sketch takes place in an apartment living room filled with bookshelves, where a man wearing glasses and a purple shirt arrives to visit a friend. He greets a character in a flamboyant blonde curly wig and a white bathrobe, referring to her as his 'giraffe.' They sit down, smoke cigarettes, and begin an animated conversation about the character's recent trip to Paris. The blonde character describes the luxury of the Champs-Élysées, the food, the coffee, and seeing Gérard Depardieu, but adds that at the end of the day, everyone in the group was raped except for a woman named Gayane Samsonovna. The story continues with a visit to the Eiffel Tower, where the same outcome occurs on the top floor. Finally, she describes a trip to Lyon, praising its beauty and bridges, only for the same tragedy to strike again, excluding Gayane Samsonovna. When the man finally asks why everyone was targeted except Gayane, the blonde character delivers the punchline: 'Because she didn't want to.'",
+    "keywords_hy": [
+      "Փարիզ",
+      "Շանզելիզե",
+      "Էյֆելյան աշտարակ",
+      "բռնաբարություն",
+      "Գայանե Սամսոնովնա",
+      "զբոսաշրջիկ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "Paris",
+      "Champs-Elysees",
+      "Eiffel Tower",
+      "tourist group",
+      "Gayane Samsonovna",
+      "vacation story",
+      "blonde wig"
+    ],
+    "keywords_translit": [
+      "Pariz",
+      "Shanzelize",
+      "Eyfelyan ashtarak",
+      "brnabarutyun",
+      "Gayane Samsonovna",
+      "zbosashrjik",
+      "katak"
+    ],
+    "catchphrases": [
+      "Բայց ես մի բան չեմ հասկանում ինչի բոլորիդ բռնաբարեցին իսկ Գայանե Սամսոնովնային ոչ",
+      "Դե ինքը չէր ուզում"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

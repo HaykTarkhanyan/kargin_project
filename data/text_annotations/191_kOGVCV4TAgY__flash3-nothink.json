@@ -1,0 +1,69 @@
+{
+  "video_id": "kOGVCV4TAgY",
+  "seq": 191,
+  "kargin_id": 191,
+  "title": "Kargin Haghordum sketch 371 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2157,
+  "gen_sec": 31.35,
+  "prompt_tokens": 2119,
+  "output_tokens": 638,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002973,
+  "annotation": {
+    "title_hy": "Մանկական բժիշկը և կաթը",
+    "title_en": "The Pediatrician and the Milk",
+    "summary_en": "A pediatrician frustrated by parents who don't bring their children to appointments accidentally examines a woman who isn't actually the baby's mother.",
+    "summary_detailed_en": "The sketch takes place in a clinic office where a frustrated pediatrician, wearing glasses and a mustache, berates a heavyset man for never bringing his sick child to appointments. The doctor recalls a past mistake where the father misdescribed a dislocated arm as chickenpox, leading to a year of wrong treatment. He demands that at the very least, the man should bring stool samples for analysis, leading to an absurd negotiation about the quantity of 'liquid' or 'solid' samples required. The scene transitions to a second appointment where a woman (played in drag) arrives with a swaddled baby. The woman complains that the infant cries incessantly whenever awake. The doctor, suspecting the baby is hungry, asks if the child is breastfed. When she confirms, he insists on examining her breasts for milk production. After the examination, he bluntly informs her she has no milk and the baby is starving. The punchline occurs when the woman calmly reveals she is actually the baby's aunt, adding she doesn't regret coming for the examination anyway.",
+    "keywords_hy": [
+      "մանկական բժիշկ",
+      "հիվանդանոց",
+      "անալիզ",
+      "կաթ",
+      "մորաքույր",
+      "երեխա",
+      "լաց լինել",
+      "բժշկական ստուգում"
+    ],
+    "keywords_en": [
+      "pediatrician",
+      "clinic",
+      "stool sample",
+      "breastfeeding",
+      "aunt",
+      "crying baby",
+      "medical exam",
+      "misunderstanding"
+    ],
+    "keywords_translit": [
+      "mankakan bjishk",
+      "hivandanoc",
+      "analiz",
+      "kat",
+      "moraquyr",
+      "erexan",
+      "lac linel",
+      "bjshkakan stugum"
+    ],
+    "catchphrases": [
+      "Այ ընկեր , ես Ձեզ հազար անգամ ասել եմ ես մանկական բժիշկ եմ որ գալիս եք իմ մոտ Ձեր երեխային Ձեր հետ բերեք"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

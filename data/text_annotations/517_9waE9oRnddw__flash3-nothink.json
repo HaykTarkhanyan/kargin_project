@@ -1,0 +1,72 @@
+{
+  "video_id": "9waE9oRnddw",
+  "seq": 517,
+  "kargin_id": 517,
+  "title": "Kargin Haghordum sketch 151 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "517_Kargin_Haghordum_sketch_151_Hayko_Mko_9waE9oRnddw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1551,
+  "gen_sec": 4.54,
+  "prompt_tokens": 1848,
+  "output_tokens": 593,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002703,
+  "annotation": {
+    "title_hy": "Արաղ զիբելանոցից",
+    "title_en": "Vodka from the Dumpster",
+    "summary_en": "Three men find a discarded bottle of vodka in a dumpster and celebrate their luck until the low-quality alcohol makes them all fall ill.",
+    "summary_detailed_en": "The sketch takes place in a modest living room where three men—one with curly hair, one heavyset in a jacket, and one in a green sweater—are gathered around a low table. They are excitedly discussing a bottle of vodka they found near a dumpster by a police station. They view this find as a divine sign, repeatedly exclaiming that 'God exists' because they have alcohol despite having no work or money. As they begin to drink, using real glasses rather than drinking from the neck of the bottle, they become increasingly intoxicated and emotional, shouting and crying about their life circumstances. One character mentions his deceased father, Vazgen, in a confusing exchange. The atmosphere shifts from celebration to physical distress as the poor quality of the 'dumpster vodka' takes its toll. The men begin to slump over the table and couch, losing consciousness. The sketch ends with a panicked phone call to the ambulance service (Skory), reporting that three people have been poisoned by vodka at a specific address.",
+    "keywords_hy": [
+      "արաղ",
+      "զիբելանոց",
+      "խմիչք",
+      "հարբած",
+      "շտապ օգնություն",
+      "թունավորում",
+      "ընկերներ",
+      "աղքատություն"
+    ],
+    "keywords_en": [
+      "vodka",
+      "dumpster",
+      "alcohol",
+      "drunk",
+      "ambulance",
+      "poisoning",
+      "friends",
+      "poverty"
+    ],
+    "keywords_translit": [
+      "aragh",
+      "zibelanoc",
+      "xmichq",
+      "harbac",
+      "shtap ognutyun",
+      "tunavorum",
+      "enkerner",
+      "axqatutyun"
+    ],
+    "catchphrases": [
+      "Աստված կա, հը՞",
+      "նատուրի զիբելանոցի մոտ",
+      "Ալո սկոռին է"
+    ],
+    "topics": [
+      "drinking",
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

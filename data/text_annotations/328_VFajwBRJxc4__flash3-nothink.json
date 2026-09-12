@@ -1,0 +1,76 @@
+{
+  "video_id": "VFajwBRJxc4",
+  "seq": 328,
+  "kargin_id": 328,
+  "title": "Kargin Haghordum sketch 290 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2782,
+  "gen_sec": 19.44,
+  "prompt_tokens": 2253,
+  "output_tokens": 679,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003164,
+  "annotation": {
+    "title_hy": "Գորտի խորհուրդը և դատարանը",
+    "title_en": "The Frog's Advice and the Court",
+    "summary_en": "A lawyer attempts to explain away a statutory rape charge by spinning a fairy tale about a magical frog that helped his client win at golf and gambling.",
+    "summary_detailed_en": "The sketch is structured as a series of visual flashbacks narrated by a defense attorney in a crowded courtroom. The story begins on a golf course, where a young man in white golf attire is struggling in a high-stakes championship worth twenty thousand dollars. According to the narrative, a magical frog appears and instructs him to use an eight-iron instead of a seven-iron, leading him to victory. Visuals show the golfer practicing and receiving a trophy. The story moves to a casino, where the man, acting on the frog's advice, bets his entire winnings on the number five at the roulette table and bankrupts the house, supported by scenes of a croupier and stacks of cash. In the final segment, the man is in a luxury hotel room with the frog. He asks how he can repay the creature, and the frog requests a kiss. Upon kissing the frog, it transforms into a beautiful fifteen-year-old girl. The sketch concludes back in the courtroom, where the lawyer turns to the judge and the Armenian flag, claiming this magical transformation is the only reason his client was caught kissing an underage girl in a hotel room.",
+    "keywords_hy": [
+      "գորտ",
+      "դատարան",
+      "գոլֆ",
+      "կազինո",
+      "փաստաբան",
+      "համբույր",
+      "հեքիաթ",
+      "արդարացում",
+      "անչափահաս",
+      "չեմպիոն"
+    ],
+    "keywords_en": [
+      "frog",
+      "courtroom",
+      "golf",
+      "casino",
+      "lawyer",
+      "kiss",
+      "fairy tale",
+      "excuse",
+      "underage",
+      "champion"
+    ],
+    "keywords_translit": [
+      "gort",
+      "dataran",
+      "golf",
+      "kazino",
+      "pastaban",
+      "hambuyr",
+      "heqiat",
+      "ardaracum",
+      "anchapahas",
+      "chempion"
+    ],
+    "catchphrases": [
+      "հարգելի դատարան, ահա թե ինչպես ստացվեց, որ իմ պաշտպանյալը  իր համարում համբուրում էր այս  անչափահաս աղջկան"
+    ],
+    "topics": [
+      "law_court",
+      "crime",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "satire",
+      "absurd"
+    ]
+  }
+}

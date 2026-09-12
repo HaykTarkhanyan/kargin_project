@@ -1,0 +1,67 @@
+{
+  "video_id": "-tIeNlhQlDg",
+  "seq": 113,
+  "kargin_id": 113,
+  "title": "Kargin Haghordum sketch 696 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "113_Kargin_Haghordum_sketch_696_Hayko_Mko_-tIeNlhQlDg.hy.json",
+    "visual": true
+  },
+  "input_chars": 1910,
+  "gen_sec": 52.28,
+  "prompt_tokens": 1965,
+  "output_tokens": 458,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002357,
+  "annotation": {
+    "title_hy": "Սնայպեր թոռը",
+    "title_en": "Sniper Grandson",
+    "summary_en": "A man in an SUV argues with an old woman on a village road, only to be terrified when she claims her grandson is a sniper hidden nearby.",
+    "summary_detailed_en": "The sketch takes place on a rural village roadside next to an orchard. A man in an olive shirt and sunglasses, accompanied by bodyguards in suits, pulls up in a white SUV and begins honking loudly at an old woman (played by a male actor in drag with a white wig and headscarf) who is sitting on a folding chair. The man shouts that he is honking to call his friend, whose nickname is 'Di-dit'. The old woman scolds him for disturbing the whole village, and a heated argument ensues where she warns him that her grandson will handle the situation. The man mockingly returns two hours later to see if this grandson has arrived. The old woman informs him that her grandson is actually a sniper who has already taken a hidden position nearby. Panic ensues as the man and his bodyguards rush out of their vehicles (a Pajero and a white Lada Niva) to take cover near an unfinished stone house. The sketch ends with the old woman jumping up and bolting away, leaving her chair empty as the tough guys hide in fear of an invisible marksman.",
+    "keywords_hy": [
+      "սնայպեր",
+      "պառավ",
+      "գյուղ",
+      "սիգնալ",
+      "թոռ",
+      "ներողամիտ",
+      "թիկնապահ"
+    ],
+    "keywords_en": [
+      "sniper",
+      "old woman",
+      "village",
+      "honking",
+      "grandson",
+      "bodyguards",
+      "SUV"
+    ],
+    "keywords_translit": [
+      "snayper",
+      "parav",
+      "gyugh",
+      "signal",
+      "tor",
+      "neroghamit",
+      "tiknapah"
+    ],
+    "catchphrases": [
+      "այ պառավ դու գլուխս մի հարդուկի"
+    ],
+    "topics": [
+      "village",
+      "neighbors",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "jf-yXCiLD2E",
+  "seq": 165,
+  "kargin_id": 165,
+  "title": "Kargin Haghordum - Nver (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1918,
+  "gen_sec": 19.45,
+  "prompt_tokens": 2021,
+  "output_tokens": 475,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002436,
+  "annotation": {
+    "title_hy": "Ծննդյան Համեստ Նվեր",
+    "title_en": "A Modest Birthday Gift",
+    "summary_en": "After his friends leave his birthday party, a young man is visited by two neighborhood thugs who offer him a 'gift' he will never forget: a physical beating.",
+    "summary_detailed_en": "The sketch opens in an apartment dining room where a host, Alik, is celebrating his birthday with several friends. They are all wearing colorful party hats, singing 'Happy Birthday' in Russian, and gathered around a table with a cake. As the party ends, Alik thanks his classmates for coming, and they say their goodbyes. Just as the apartment clears out, Alik hears a knock at the door and finds two men dressed in black leather jackets standing there. Thinking they are late guests, he welcomes them in, though he warns them that the food is finished. The two men, portraying stereotypical neighborhood 'tughs' or 'street guys,' explain they couldn't miss their childhood friend's birthday. They mock traditional gifts like ties or music CDs, arguing those items eventually wear out and leave no lasting memories. Instead, they announce they have brought a gift that Alik will remember for his entire life. The punchline arrives when they reveal the gift is a severe physical beating, which they proceed to deliver right in the hallway.",
+    "keywords_hy": [
+      "ծնունդ",
+      "նվեր",
+      "ծեծ",
+      "կարգին հաղորդում",
+      "հյուրեր",
+      "քուչի տղա",
+      "տոնական"
+    ],
+    "keywords_en": [
+      "birthday",
+      "gift",
+      "beating",
+      "street guys",
+      "party",
+      "leather jacket",
+      "celebration"
+    ],
+    "keywords_translit": [
+      "tsnund",
+      "nver",
+      "tsets",
+      "kargin haghordum",
+      "hyurer",
+      "kuchi tgha",
+      "tonakan"
+    ],
+    "catchphrases": [
+      "Որոշինք ծնունդիդ օրով քեզ մի լավ տփենք։"
+    ],
+    "topics": [
+      "party_guests",
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

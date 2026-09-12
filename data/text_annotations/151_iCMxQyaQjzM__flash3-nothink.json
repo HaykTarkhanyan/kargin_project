@@ -1,0 +1,70 @@
+{
+  "video_id": "iCMxQyaQjzM",
+  "seq": 151,
+  "kargin_id": 151,
+  "title": "Kargin Haghordum sketch 525 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "151_Kargin_Haghordum_sketch_525_Hayko_Mko_iCMxQyaQjzM.tr.json",
+    "visual": true
+  },
+  "input_chars": 3577,
+  "gen_sec": 8.65,
+  "prompt_tokens": 2743,
+  "output_tokens": 487,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002832,
+  "annotation": {
+    "title_hy": "Անձնագրի Վավերացման Տառապանքները",
+    "title_en": "Passport Validation Struggles",
+    "summary_en": "A desperate hockey fan tries to navigate a bureaucratic nightmare to renew his passport in time for a trip to the Olympic finals, eventually seeking divine intervention.",
+    "summary_detailed_en": "A man wearing a black coat and patterned tie visits a shabby government office building to renew his expired passport validation. He explains to a blonde typist that he has won a ticket to the Olympic hockey finals, and since his Italian visa expires the next day, he needs the stamp immediately. The typist coldly insists he must return on Saturday. Desperate, he pleads with a series of officials behind desks piled with files and documents, mentioning that hockey is the meaning of his life. One official, claiming to be a fan, gives him a tip to visit a senior boss under a false name, but the boss is equally dismissive, mocking his 'show' and emotional outbursts. The man even offers souvenirs from the games to no avail. Finally, having failed at every bureaucratic level, the scene shifts to a snowy outdoor setting where the man enters a church. He stands before the altar with arms raised, begging God to make tomorrow Saturday. A divine voice responds that the request will be granted, but not until Friday.",
+    "keywords_hy": [
+      "անձնագիր",
+      "հոկեյ",
+      "բյուրոկրատիա",
+      "վիզա",
+      "եկեղեցի",
+      "պետական հիմնարկ",
+      "օլիմպիադա",
+      "տոմս"
+    ],
+    "keywords_en": [
+      "passport",
+      "hockey",
+      "bureaucracy",
+      "visa",
+      "church",
+      "government office",
+      "olympics",
+      "ticket"
+    ],
+    "keywords_translit": [
+      "andznagir",
+      "hokey",
+      "byurokratia",
+      "viza",
+      "ekexeci",
+      "petakan himnark",
+      "olimpiada",
+      "toms"
+    ],
+    "catchphrases": [
+      "Դե լավ էլի մի հատ պեչատա էլի դրեք գնամ"
+    ],
+    "topics": [
+      "bureaucracy",
+      "religion",
+      "sports"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

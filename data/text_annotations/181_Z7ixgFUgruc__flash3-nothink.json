@@ -1,0 +1,72 @@
+{
+  "video_id": "Z7ixgFUgruc",
+  "seq": 181,
+  "kargin_id": 181,
+  "title": "Kargin Haghordum sketch 361 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "181_Kargin_Haghordum_sketch_361_Hayko_Mko_Z7ixgFUgruc.hy.json",
+    "visual": true
+  },
+  "input_chars": 2729,
+  "gen_sec": 14.95,
+  "prompt_tokens": 2440,
+  "output_tokens": 540,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00284,
+  "annotation": {
+    "title_hy": "Կոլխոզի ժողովը և տրակտորիստ Սահակը",
+    "title_en": "The Kolkhoz Meeting and Sahak the Tractor Driver",
+    "summary_en": "A Soviet kolkhoz committee meets to decide the punishment for a drunken tractor driver who crashed their only tractor into a lake.",
+    "summary_detailed_en": "In a Soviet-era meeting hall adorned with a red flag, a committee chairman wearing a flat cap and a female secretary in a red headscarf preside over a formal disciplinary hearing. They are discussing Comrade Sahak, the village tractor driver, who got drunk and drove the kolkhoz's only tractor into a lake, destroying 600 hectares of land in the process. The chairman stresses that they are on the verge of their seventh five-year plan and must maintain their first-place standing. Sahak's wife, a milkmaid, tries to defend him, but the chairman reminds her to prioritize the kolkhoz over her marriage. An audience member named Mukuch, portrayed as a shirtless man in a blacksmith's apron, repeatedly stands up and aggressively demands to break Sahak's head. The chairman refuses, arguing that Sahak is their only tractor driver and they cannot afford to lose him before the harvest. In the final punchline, Mukuch suggests breaking the village barber's head instead; when asked why, he reasons that the village has two barbers, making one of them expendable.",
+    "keywords_hy": [
+      "կոլխոզ",
+      "տրակտորիստ",
+      "խորհրդային",
+      "ժողով",
+      "հնգամյակ",
+      "պատիժ",
+      "վարսավիր",
+      "Մկուչ"
+    ],
+    "keywords_en": [
+      "kolkhoz",
+      "tractor driver",
+      "Soviet meeting",
+      "five-year plan",
+      "punishment",
+      "barber",
+      "committee",
+      "village humor"
+    ],
+    "keywords_translit": [
+      "kolxoz",
+      "traktorist",
+      "xorhrdayin",
+      "joxov",
+      "hngamyak",
+      "patij",
+      "varsavir",
+      "Mkuch"
+    ],
+    "catchphrases": [
+      "Ընկեր Սահակը, լինելով ալկոհոլի ազդեցության տակ, վերցրել է կոլխոզին պատկանող տրակտորը",
+      "թույլ տվեք ես Սահակի գլուխը ջարդեմ",
+      "Դե վարսավիրից երկու հատ ունենք"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy",
+      "work"
+    ],
+    "humor_type": [
+      "satire",
+      "absurd"
+    ]
+  }
+}

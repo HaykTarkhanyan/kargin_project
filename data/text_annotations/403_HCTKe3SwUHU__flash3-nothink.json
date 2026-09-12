@@ -1,0 +1,79 @@
+{
+  "video_id": "HCTKe3SwUHU",
+  "seq": 403,
+  "kargin_id": 403,
+  "title": "Kargin Haghordum - Remont (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3132,
+  "gen_sec": 10.97,
+  "prompt_tokens": 2745,
+  "output_tokens": 698,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003467,
+  "annotation": {
+    "title_hy": "Պետոյի դանդաղ ռեմոնտը",
+    "title_en": "Peto's Slow Renovation",
+    "summary_en": "A frustrated homeowner confronts his lazy and illogical construction worker, Peto, who has spent a month doing nothing but installing one window.",
+    "summary_detailed_en": "The sketch takes place inside a dusty construction site of a new apartment. A man in a suit (the owner) arrives to find the construction worker, Peto, wearing a hard hat but making zero progress. The owner is furious because he was the first to buy an apartment in the building, and while all the neighbors have already moved in, his place is still just cinderblocks and sand. Peto offers absurd excuses, claiming he didn't want to weaken the wall by cutting a door frame and questioning if the owner actually intended to use the other room. He repeatedly brags about 'installing the window' and cleaning the windowsill until it shines, despite the rest of the flat being a mess. The owner gives him a 10-day ultimatum before leaving for Moscow. When he returns, Peto has suddenly finished everything. When the owner asks how he finished a month's work in one day, Peto shamelessly claims it was because the owner didn't explain the instructions 'clearly' enough the first time. The scene ends with physical frustration as the owner realizes he is dealing with complete incompetence.",
+    "keywords_hy": [
+      "ռեմոնտ",
+      "շինարարություն",
+      "Պետո",
+      "լուսամուտ",
+      "վարպետ",
+      "գաջ",
+      "նորակառույց",
+      "աշխատող",
+      "բնակարան",
+      "դիզայներ"
+    ],
+    "keywords_en": [
+      "renovation",
+      "construction",
+      "worker",
+      "lazy",
+      "apartment",
+      "window installation",
+      "master",
+      "repair",
+      "designer",
+      "scaffolding"
+    ],
+    "keywords_translit": [
+      "remont",
+      "shinararutyun",
+      "Peto",
+      "lusamut",
+      "varpet",
+      "gaj",
+      "norakaruyc",
+      "ashxatox",
+      "bnakaran",
+      "dizayner"
+    ],
+    "catchphrases": [
+      "լուսամուտը դրիմ",
+      "հմի նայում ես վաաախ",
+      "արագ արագ հավեսով ցպնելով քսեմ կեթա",
+      "դե էն ժամանակ ոնց որ տենց չոտկի չէիր ասում էլի"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "video_id": "K2iU6Dl84Cg",
+  "seq": 112,
+  "kargin_id": 112,
+  "title": "Kargin Haghordum sketch 697 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3030,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Սփյուռքահայն ու թաքսիստը",
+    "title_en": "The Diaspora Visitor and the Taxi Driver",
+    "summary_en": "A Yerevan taxi driver haggles with a diaspora Armenian looking for paid company and sends him to the circus district; the woman he finds there turns out to be the driver's own wife.",
+    "summary_detailed_en": "At an airport taxi rank, a mustached driver in a flat cap greets a diaspora Armenian who speaks Western Armenian sprinkled with broken English and welcomes him with mangled tourist patter about Armenia being the best country in the world. The visitor explains that he came with his wife last time and has come alone this time to enjoy himself with Armenian girls. The driver sizes him up, quotes a discounted rate, and when the visitor balks at the price mocks him as a bargain-hunting patriot fit only for the circus - trading on the near-rhyme between krkes, the circus, and grkes, to embrace, telling him cheap girls can be had near the circus at nine o'clock. The visitor approaches a red-haired woman by the circus, negotiates in his stilted dialect, and is taken back to a floral-wallpapered flat. The encounter is interrupted when her husband comes home unexpectedly early, and he is the taxi driver, who greets his passenger with a strained line about what an unpleasant business this is.",
+    "keywords_hy": [
+      "թաքսիստ",
+      "սփյուռքահայ",
+      "կրկես",
+      "ցիռկ",
+      "օդանավակայան",
+      "դոլար",
+      "աղջիկներ",
+      "ամուսին",
+      "բարբառ",
+      "Երևան"
+    ],
+    "keywords_en": [
+      "taxi driver",
+      "diaspora Armenian",
+      "circus",
+      "airport",
+      "dollars",
+      "haggling",
+      "prostitution",
+      "husband",
+      "Western Armenian",
+      "Yerevan"
+    ],
+    "keywords_translit": [
+      "taqsist",
+      "spyurqahay",
+      "krkes",
+      "tsirk",
+      "odanavakayan",
+      "dolar",
+      "aghjikner",
+      "amusin",
+      "barbar",
+      "Yerevan"
+    ],
+    "catchphrases": [
+      "իյա սփյուռքահայ ես դե ուրեմն բարև ախպարս",
+      "can i help me ախպերս",
+      "ոնց որ ասում են կրկես էժան գներով աղջիկներին գրկես",
+      "չէ կրկեսը ես եմ"
+    ],
+    "topics": [
+      "transport",
+      "romance",
+      "money"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "video_id": "arKFsgNrwro",
+  "seq": 49,
+  "kargin_id": 49,
+  "title": "Kargin Haghordum sketch 614 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "049_Kargin_Haghordum_sketch_614_Hayko_Mko_arKFsgNrwro.ro.json",
+    "visual": true
+  },
+  "input_chars": 2242,
+  "gen_sec": 4.12,
+  "prompt_tokens": 2159,
+  "output_tokens": 561,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002763,
+  "annotation": {
+    "title_hy": "Ինչից են սկսվում պատերազմները",
+    "title_en": "How Wars Begin",
+    "summary_en": "A schoolboy asks how wars start, leading his grandfather to tell a silly story about world leaders that spirals into a real domestic war between the parents.",
+    "summary_detailed_en": "The sketch takes place in a modest living room where a schoolboy in a black tracksuit is attempting to do his homework. He turns to his father, who is buried in a newspaper, and asks how wars begin. The father (a mustachioed man) attempts to explain global conflict through a 'domestic' example involving world leaders: he describes a party for the President of France where the King of Spain accidentally bumps the shoulder of the American President, leading to a petty argument over respect. The mother (a male actor in a curly red wig, lipstick, and a blanket) interrupts, criticizing the father's absurd explanation and his late-night habits. The intellectual discussion quickly devolves into a loud domestic dispute about why the father came home at 3:00 AM for the last ten nights. As the parents shout and the father demands the mother lower her tone, the boy watches the chaos unfold. Seeing his parents on the verge of a physical altercation, the boy realizes the real-life demonstration is the perfect answer to his question, concluding that he finally understands how wars start.",
+    "keywords_hy": [
+      "պատերազմ",
+      "ընտանեկան վեճ",
+      "դասեր",
+      "պրեզիդենտ",
+      "կատակերգություն",
+      "հայր ու մայր",
+      "երեխա"
+    ],
+    "keywords_en": [
+      "war",
+      "family argument",
+      "homework",
+      "president",
+      "comedy",
+      "parents",
+      "child"
+    ],
+    "keywords_translit": [
+      "paterazm",
+      "yntanekan vech",
+      "daser",
+      "prezident",
+      "katakergutyun",
+      "hayr u mayr",
+      "erekha"
+    ],
+    "catchphrases": [
+      "արա չի արքա ա"
+    ],
+    "topics": [
+      "family",
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

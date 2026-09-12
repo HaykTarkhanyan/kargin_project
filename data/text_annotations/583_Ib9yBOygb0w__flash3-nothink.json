@@ -1,0 +1,72 @@
+{
+  "video_id": "Ib9yBOygb0w",
+  "seq": 583,
+  "kargin_id": 583,
+  "title": "Kargin Haghordum sketch 434 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "583_Kargin_Haghordum_sketch_434_Hayko_Mko_Ib9yBOygb0w.hy.json",
+    "visual": true
+  },
+  "input_chars": 1899,
+  "gen_sec": 18.33,
+  "prompt_tokens": 2042,
+  "output_tokens": 684,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003073,
+  "annotation": {
+    "title_hy": "Գրագետ հարևանը և Գառնիկը",
+    "title_en": "The Literate Neighbor and Garnik",
+    "summary_en": "A neighbor tries to lecture a man about famous inventors while lending him a lightbulb, only to be hit with a punchline about his wife's infidelity.",
+    "summary_detailed_en": "The sketch takes place in a cramped apartment setting, specifically near a hallway wardrobe and living room. A man wearing a shaggy wig and a loud, flashy patterned tracksuit approaches his neighbor, a bespectacled man in a striped shirt, to ask for a working lightbulb because his bathroom bulb has burnt out. As the neighbor provides the bulb, he begins to condescendingly lecture the man on his lack of education. He asks if he knows Thomas Edison, explaining he is the inventor of the lightbulb. When the man mentions calling if the bulb doesn't work, the neighbor asks if he knows Alexander Bell, the inventor of the telephone, and mocks him for not reading books to 'become a man.' He also mentions Pavel Yablochkov regarding electricity. Fed up with the elitist attitude, the man in the tracksuit asks the neighbor if he knows a certain 'Garnik Simonyan.' When the bookish neighbor admits he doesn't know him, the man delivers the punchline: Garnik is the guy who enjoys himself at the saunas with the neighbor's wife while the neighbor stays home all day reading books.",
+    "keywords_hy": [
+      "լամպուշկա",
+      "հարևան",
+      "գիրք կարդալ",
+      "Էդիսոն",
+      "Ալեքսանդր Բել",
+      "դավաճանություն",
+      "կատակ",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "lightbulb",
+      "neighbor",
+      "reading books",
+      "Thomas Edison",
+      "Alexander Bell",
+      "cheating wife",
+      "intellectual snob",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "lampushka",
+      "harevan",
+      "girk kardal",
+      "Edison",
+      "Aleksandr Bell",
+      "davachanutyun",
+      "katak",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "Այ որ տանը նստեիր, մի քիչ կարդայիր",
+      "մարդ չեք դառել, ոչ մեկին չեք ճանաչում",
+      "ինքը կնգանտ հետ սաունաներում կայֆավատ է լինում"
+    ],
+    "topics": [
+      "neighbors",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

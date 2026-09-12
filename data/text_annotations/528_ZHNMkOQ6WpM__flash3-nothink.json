@@ -1,0 +1,67 @@
+{
+  "video_id": "ZHNMkOQ6WpM",
+  "seq": 528,
+  "kargin_id": 528,
+  "title": "Kargin Haghordum sketch 162 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "528_Kargin_Haghordum_sketch_162_Hayko_Mko_ZHNMkOQ6WpM.pl.json",
+    "visual": true
+  },
+  "input_chars": 2426,
+  "gen_sec": 21.28,
+  "prompt_tokens": 2248,
+  "output_tokens": 578,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002858,
+  "annotation": {
+    "title_hy": "Գուշակելու ընդունակություն",
+    "title_en": "The Ability to Predict",
+    "summary_en": "A woman visits a therapist seeking supernatural abilities through hypnosis, only to realize the therapist's true intentions mid-session.",
+    "summary_detailed_en": "The sketch takes place in a professional office filled with bookshelves. A client (a woman in a red wig played by a male actor in drag) is consulting with a male therapist in a grey suit. The client explains that her friend gained the ability to read minds after a hypnosis session with him. Despite the therapist's initial claims that such occurrences are one-in-a-million, the client offers a large sum of money to be hypnotized so she can gain the power to predict the future. Motivated by the money, the therapist immediately agrees and instructs her to wear a blindfold and lie on a leather couch. As he begins the hypnosis count, he starts to undress her. The client, sensing his actions despite the blindfold, asks if he is undressing her and if he intends to take advantage of her. The therapist, not missing a beat, tells her that she is already beginning to successfully predict the future, turning his predatory behavior into a dark punchline about her 'newly acquired' powers.",
+    "keywords_hy": [
+      "հոգեբան",
+      "հիպնոս",
+      "ապագան գուշակել",
+      "բժիշկ",
+      "բազմոց",
+      "դիմակ",
+      "գումար"
+    ],
+    "keywords_en": [
+      "therapist",
+      "hypnosis",
+      "predicting the future",
+      "doctor",
+      "couch",
+      "blindfold",
+      "money"
+    ],
+    "keywords_translit": [
+      "hogeban",
+      "hipnos",
+      "apagan gushakel",
+      "bzhishk",
+      "bazmoc",
+      "dimak",
+      "gumar"
+    ],
+    "catchphrases": [
+      "Բժիշկ էս հանվացնում եք ինձ;",
+      "այ տեսնում եք կամաց կամաց սկսում եք ապագան գուշակել"
+    ],
+    "topics": [
+      "medical",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

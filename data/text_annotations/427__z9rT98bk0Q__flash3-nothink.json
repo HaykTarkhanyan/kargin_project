@@ -1,0 +1,67 @@
+{
+  "video_id": "_z9rT98bk0Q",
+  "seq": 427,
+  "kargin_id": 427,
+  "title": "Kargin Haghordum - Xoz (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "427_Kargin_Haghordum_-_Xoz_Hayko_Mko__z9rT98bk0Q.hy.json",
+    "visual": true
+  },
+  "input_chars": 1166,
+  "gen_sec": 8.17,
+  "prompt_tokens": 1607,
+  "output_tokens": 576,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002531,
+  "annotation": {
+    "title_hy": "Խոզը երթուղայինում",
+    "title_en": "The Pig in the Minibus",
+    "summary_en": "A passenger boards a crowded van carrying a live pig and accidentally insults a woman in drag by questioning who the real 'pig' is.",
+    "summary_detailed_en": "The sketch begins with a man wearing a plaid shirt walking down a rural, tree-lined road toward a parked white minibus (marshrutka). As he approaches the vehicle, he asks the driver to stop and wait. Upon boarding the crowded van interior, the man finds there are no free seats. He carries a live pig with him, which causes immediate discomfort among the passengers. A young man inside offers his spot, but the passenger declines, claiming he just ate and the standing position will help his digestion. He asks a woman (played by a male actor in drag) to hold his belonging. As the van moves, the passenger's behavior becomes increasingly boorish and physically imposing in the cramped space. He makes exaggerated queasy gestures, and tension rises when the woman complains about his behavior, calling him a 'pig' because of his conduct and the animal he brought along. The man delivers the punchline by looking at the woman's disheveled appearance and retorted, asking her to look at her own state and questioning whether he or she is the real pig.",
+    "keywords_hy": [
+      "երթուղային",
+      "խոզ",
+      "տրանսպորտ",
+      "ուղևոր",
+      "գյուղական",
+      "կատակերգություն",
+      "մարշրուտկա"
+    ],
+    "keywords_en": [
+      "minibus",
+      "pig",
+      "transport",
+      "passenger",
+      "rural",
+      "comedy",
+      "marshrutka"
+    ],
+    "keywords_translit": [
+      "ertughayin",
+      "xoz",
+      "transport",
+      "ughevor",
+      "gyughakan",
+      "katakergutyun",
+      "marshrutka"
+    ],
+    "catchphrases": [
+      "Մորքուր ջան, խոզը ես եմ թե դու, հլը վիճակդ նայի"
+    ],
+    "topics": [
+      "transport",
+      "village",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "tKigCXpjzt4",
+  "seq": 348,
+  "kargin_id": 348,
+  "title": "Kargin Haghordum sketch 515 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "348_Kargin_Haghordum_sketch_515_Hayko_Mko_tKigCXpjzt4.hy.json",
+    "visual": true
+  },
+  "input_chars": 3223,
+  "gen_sec": 7.39,
+  "prompt_tokens": 2613,
+  "output_tokens": 608,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003131,
+  "annotation": {
+    "title_hy": "Պարոն Ղարիբյանի վատ լուրերը",
+    "title_en": "Mr. Gharibyan's Bad News",
+    "summary_en": "A businessman returns from abroad to find his secretary reporting a series of catastrophic business failures, only to end on a surprising personal note.",
+    "summary_detailed_en": "The sketch opens in a bright office corridor where Mr. Gharibyan, a mustachioed manager in a grey suit, returns from a trip abroad. He settles at his desk in a private office equipped with a CRT monitor and a fax machine. His secretary, a woman with curly hair wearing a black turtleneck, is initially seen working in the outer office before entering his room with papers. As Mr. Gharibyan sips a small cup of coffee and asks for news, the secretary delivers an increasingly intense and wide-eyed rant in extreme close-up. She lists a series of disasters: the factory was raided and fined 1.5 million dollars, their German partners cancelled their contracts leading to a lawsuit in Berlin, the bank is auctioning his villa and cars due to loan defaults, and bald men in black jackets have threatened a hostile takeover within two hours. The tension is punctuated by intercut illustrations of a commando with a rifle. When the stunned boss asks if there is any good news from the last ten days, the secretary smiles and reveals the punchline: they are going to have a baby.",
+    "keywords_hy": [
+      "գործարար",
+      "քարտուղարուհի",
+      "գործարան",
+      "տուգանք",
+      "աճուրդ",
+      "լավ լուր",
+      "բիզնես",
+      "հղիություն"
+    ],
+    "keywords_en": [
+      "businessman",
+      "secretary",
+      "factory",
+      "fine",
+      "auction",
+      "good news",
+      "business",
+      "pregnancy"
+    ],
+    "keywords_translit": [
+      "gortsarar",
+      "qartuxaruhi",
+      "gortsaran",
+      "tuganq",
+      "achurd",
+      "lav lur",
+      "biznes",
+      "hxiutyun"
+    ],
+    "catchphrases": [
+      "Մի հատ անցի մոտս",
+      "Մենք երեխա ենք ունենալու"
+    ],
+    "topics": [
+      "work",
+      "money",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

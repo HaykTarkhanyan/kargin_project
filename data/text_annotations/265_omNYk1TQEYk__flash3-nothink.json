@@ -1,0 +1,70 @@
+{
+  "video_id": "omNYk1TQEYk",
+  "seq": 265,
+  "kargin_id": 265,
+  "title": "Kargin Haghordum sketch 573 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1700,
+  "gen_sec": 16.13,
+  "prompt_tokens": 1876,
+  "output_tokens": 659,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002915,
+  "annotation": {
+    "title_hy": "Կրոնի պատմության դասը",
+    "title_en": "History of Religion Class",
+    "summary_en": "A priest lecturing a classroom on the dangers of temptation accidentally convinces a student to pursue a life of vice by describing it too vividly.",
+    "summary_detailed_en": "The sketch takes place in a school classroom where a priest, dressed in a traditional black cassock and wearing a cross necklace, is delivering a lecture to a group of schoolchildren. He begins the second semester of a 'History of Religion' course. After briefly reviewing the adoption of Christianity in Armenia, he pivots to the day's specific topic: the purity and salvation of the soul. He warns the young students about the many temptations surrounding them in life, insisting that one must renounce them to save their soul. He describes a slippery slope starting with a single small cigarette, which leads to heavy drinking, girls, irregular sexual relations, luxury cars, night clubs, and a life of debauchery and dissipation. During the lecture, visual cues show him gesturing animatedly and even holding a cigarette. When he finishes his vivid description of these 'sins,' a young man in the class raises his hand. Instead of a spiritual question, the student asks where he can find that first 'small cigarette' the priest mentioned. Offended by the boy's eagerness to start a life of vice, the priest angrily kicks him out of the classroom.",
+    "keywords_hy": [
+      "քահանա",
+      "դպրոց",
+      "դասարան",
+      "կրոնի պատմություն",
+      "գայթակղություն",
+      "ծխախոտ",
+      "աշակերտ",
+      "եկեղեցի"
+    ],
+    "keywords_en": [
+      "priest",
+      "school",
+      "classroom",
+      "history of religion",
+      "temptation",
+      "cigarette",
+      "student",
+      "church"
+    ],
+    "keywords_translit": [
+      "qahana",
+      "dproc",
+      "dasaran",
+      "kroni patmutyun",
+      "gaytakghutyun",
+      "cxaxot",
+      "ashakert",
+      "ekexeci"
+    ],
+    "catchphrases": [
+      "խմիչքը աղջիկներ անկանոն սեռական հարաբերություններ շքեղ մեքենաներ գիշերային ակումբներ ցոփ և շվայթ կյանք",
+      "կներեք իսկ էտ փոքրիկ ծխախոտից որտեղից կարանք ճարենք"
+    ],
+    "topics": [
+      "school",
+      "religion"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

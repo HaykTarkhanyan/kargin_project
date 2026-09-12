@@ -1,0 +1,72 @@
+{
+  "video_id": "n6sBvXJ1Upw",
+  "seq": 148,
+  "kargin_id": 148,
+  "title": "Kargin Haghordum sketch 522 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1098,
+  "gen_sec": 4.56,
+  "prompt_tokens": 1606,
+  "output_tokens": 675,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002828,
+  "annotation": {
+    "title_hy": "Անկուշտ փեսան և բուխանկեն",
+    "title_en": "The Insatiable Son-in-Law",
+    "summary_en": "A husband begs his tired wife for something late at night, leading his mother-in-law to believe they are being intimate, only to reveal he is just obsessed with eating bread.",
+    "summary_detailed_en": "The sketch takes place in a bedroom where a couple is lying in bed. The husband is persistently pestering his wife to engage in an activity he claims she promised him the previous day. The wife, visibly exhausted, tries to dismiss him, but the husband continues to beg, using desperate language like 'I can't take it anymore' and 'please don't refuse me.' He even mocks her hesitation by asking if she thinks she was brought by a stork. Their loud, suggestive-sounding conversation awakens the wife's mother in the other room. The mother-in-law, hearing the husband's cries of 'Oh, mama jan,' rushes to check on them, clearly suspecting a moment of sexual passion or domestic distress. However, the subversion occurs when it is revealed that the husband's desperation was entirely about food. The wife tells her mother to buy more bread tomorrow, and the mother-in-law realizes the 'insatiable' groom has just finished his sixth loaf of bread in a single night.",
+    "keywords_hy": [
+      "անկուշտ փեսա",
+      "հաց ուտել",
+      "բուխանկե",
+      "ննջարան",
+      "զոքանչ",
+      "ամուսիններ",
+      "կատակ",
+      "արգիլ"
+    ],
+    "keywords_en": [
+      "insatiable son-in-law",
+      "eating bread",
+      "loaf of bread",
+      "bedroom",
+      "mother-in-law",
+      "married couple",
+      "stork myth",
+      "hunger"
+    ],
+    "keywords_translit": [
+      "ankusht pesa",
+      "hac utel",
+      "bukhanke",
+      "nnjaran",
+      "zoqanch",
+      "amusinner",
+      "katak",
+      "aragil"
+    ],
+    "catchphrases": [
+      "ինչնա ամոթ կարողա քեզ արագիլնա բերել",
+      "պետքա անհրաժեշտա էլ չեմ դիմանում",
+      "վախ մամա ջան",
+      "վայ Անկուշտ փեսա մի գիշերվա մեջ վեցերորդ բուխանկենա ուտում"
+    ],
+    "topics": [
+      "family",
+      "drinking"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

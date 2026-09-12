@@ -1,0 +1,70 @@
+{
+  "video_id": "7B4T8FLXXJs",
+  "seq": 627,
+  "kargin_id": 627,
+  "title": "Kargin Haghordum sketch 549 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "627_Kargin_Haghordum_sketch_549_Hayko_Mko_7B4T8FLXXJs.tr.json",
+    "visual": true
+  },
+  "input_chars": 1705,
+  "gen_sec": 4.83,
+  "prompt_tokens": 1946,
+  "output_tokens": 586,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002731,
+  "annotation": {
+    "title_hy": "Զինվորը և Զգուշավոր Տատիկը",
+    "title_en": "The Soldier and the Cautious Grandma",
+    "summary_en": "A hungry soldier returning home from service begs an old woman for food and shelter, but she is hesitant to let him in due to concerns about her teenage granddaughter.",
+    "summary_detailed_en": "The sketch begins at night in a rural setting, where a young soldier in uniform, carrying his gear, approaches a rustic stone house. He knocks on the door and explains to an older woman (played by a male actor in drag wearing a floral robe and headscarf) that he has been traveling for three days, is exhausted, and needs a place to sleep and eat. The grandmother is initially hostile and refuses to let him in, explaining that she has a sixteen-year-old granddaughter coming home soon and fears the soldier will take advantage of her. The soldier pleads his case, emphasizing his exhaustion from walking over 100 kilometers and his service protecting the borders. Convinced of his lack of strength, she eventually lets him in. Inside the kitchen, the soldier sits in his undershirt at a wooden table while the woman serves him a meal and a drink. The sketch ends with a comedic twist when the soldier, after eating, asks where the young granddaughter is, revealing his true interests despite his previous claims of exhaustion.",
+    "keywords_hy": [
+      "զինվոր",
+      "տատիկ",
+      "թոռնիկ",
+      "հաց ուտել",
+      "զորացրված",
+      "գյուղական տուն",
+      "սոված",
+      "ճանապարհ"
+    ],
+    "keywords_en": [
+      "soldier",
+      "grandmother",
+      "granddaughter",
+      "meal",
+      "demobilized",
+      "rural house",
+      "hungry",
+      "night"
+    ],
+    "keywords_translit": [
+      "zinvor",
+      "tatik",
+      "tornik",
+      "hac utel",
+      "zoracrvats",
+      "gyughakan tun",
+      "sovac",
+      "chanaparh"
+    ],
+    "catchphrases": [
+      "Բայց քեզ պիտի խելոք պահես"
+    ],
+    "topics": [
+      "family",
+      "army",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

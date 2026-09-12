@@ -1,0 +1,68 @@
+{
+  "video_id": "bHv-5tqagpU",
+  "seq": 691,
+  "kargin_id": 691,
+  "title": "Kargin Haghordum sketch 271 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "691_Kargin_Haghordum_sketch_271_Hayko_Mko_bHv-5tqagpU.hy.json",
+    "visual": true
+  },
+  "input_chars": 1529,
+  "gen_sec": 4.27,
+  "prompt_tokens": 1826,
+  "output_tokens": 551,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002566,
+  "annotation": {
+    "title_hy": "Հղիության երեք փուլերը",
+    "title_en": "Three Stages of Pregnancy",
+    "summary_en": "A doctor uses animal metaphors to explain to a couple how their sex life must change during the three trimesters of pregnancy.",
+    "summary_detailed_en": "The sketch takes place in a doctor's office where a man and his pregnant wife (played by a male actor in drag with long hair and a patterned dress) are consulting with a doctor wearing blue scrubs and surgical gloves. The doctor begins by joyfully announcing that the wife is pregnant. When the husband asks how this will affect their intimate 'moments' and sexual life, the doctor explains that pregnancy is divided into three distinct phases. The first trimester is the 'Human Phase,' where they can behave like normal people as they did before. The second trimester is the 'Dog Phase,' implying a change in positions. The punchline arrives with the third trimester, which the doctor labels the 'Wolf Phase.' When the husband asks what that entails, the doctor explains that it is the period when physical intimacy is no longer allowed, leaving the husband to simply lie in bed next to his wife and howl like a wolf in frustration.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հղիություն",
+      "եռամսյակ",
+      "սեռական կյանք",
+      "կին",
+      "ամուսին",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "doctor",
+      "pregnancy",
+      "trimester",
+      "sexual life",
+      "wife",
+      "husband",
+      "humor"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hghiutyun",
+      "eramsyak",
+      "serakan kyanq",
+      "kin",
+      "amusin",
+      "humor"
+    ],
+    "catchphrases": [
+      "Բժի՞շկ:Ինչա՞ պատահել:",
+      "աչքիս ինչ որ շատ երկարեց",
+      "դուք կողքը պառկած ոռնում եք"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

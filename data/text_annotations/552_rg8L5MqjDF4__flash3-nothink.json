@@ -1,0 +1,73 @@
+{
+  "video_id": "rg8L5MqjDF4",
+  "seq": 552,
+  "kargin_id": 552,
+  "title": "Kargin Haghordum sketch 184 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1894,
+  "gen_sec": 4.58,
+  "prompt_tokens": 2076,
+  "output_tokens": 614,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00288,
+  "annotation": {
+    "title_hy": "Գոքորի դավաճանությունը",
+    "title_en": "Gokor's Betrayal",
+    "summary_en": "A man ends up in a full-body cast after blindly reacting to a stranger's shout about a cheating wife, despite not being married or named Gokor.",
+    "summary_detailed_en": "The sketch begins in a bar designed like a stone grotto, where a man enters and finds the bartender telling an animated story. The bartender laments about his missing accountant who fled the office three days after being hired. He regrets not listening to his father's advice as a child, though he admits he has no idea what that advice was because he wasn't listening. Suddenly, a man rushes into the bar, screams 'Gokor, your wife is cheating on you!', and runs out. The scene shifts to a bedroom where a man named Valer is seen in a full-body plaster cast, with his legs suspended in a complex traction rig. Two friends visit him, bringing beer, sunflower seeds, and tea. Valer explains that he ended up under a bus because of his nerves. When he heard the man in the bar shout about Gokor's wife, he instinctively chased after him in a panic. The punchline reveals that Valer is neither married nor named Gokor; he simply acted on pure nervous impulse.",
+    "keywords_hy": [
+      "Գոքոր",
+      "դավաճանություն",
+      "հաշվապահ",
+      "ավտոբուս",
+      "գիպս",
+      "բառ",
+      "խմիչք",
+      "հիվանդ",
+      "նեռվեր"
+    ],
+    "keywords_en": [
+      "Gokor",
+      "betrayal",
+      "accountant",
+      "bus accident",
+      "plaster cast",
+      "bar",
+      "drinks",
+      "patient",
+      "nerves"
+    ],
+    "keywords_translit": [
+      "Gokor",
+      "davachanutyun",
+      "hashvapah",
+      "avtobus",
+      "gips",
+      "bar",
+      "xmichq",
+      "hivand",
+      "nerver"
+    ],
+    "catchphrases": [
+      "Ախր ոչ ամուսնացած եմ, ոչ անունսա Գոքոր։"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "medical",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "-KoZV7oGH3A",
+  "seq": 359,
+  "kargin_id": 359,
+  "title": "Kargin Haghordum sketch 458 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "359_Kargin_Haghordum_sketch_458_Hayko_Mko_-KoZV7oGH3A.tr.json",
+    "visual": true
+  },
+  "input_chars": 2424,
+  "gen_sec": 4.17,
+  "prompt_tokens": 2255,
+  "output_tokens": 638,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003041,
+  "annotation": {
+    "title_hy": "Պտիչի գրիպ և փետուրներ",
+    "title_en": "Bird Flu and Feathers",
+    "summary_en": "A patient claims he has turned into a bird after catching 'bird flu' in China, leading the doctor to 'pluck' imaginary feathers from his body.",
+    "summary_detailed_en": "The sketch is set in a medical clinic office where a doctor asks a nurse for an update on the patients. A patient wearing a bright orange wig and a brown jacket enters, claiming he is a bird—specifically a male bird. He explains that while importing clothes from China, he was treated to 'Ptichi Moloko' (Bird's Milk cake) and subsequently contracted bird flu. He complains that he feels covered in feathers that are pricking him from the inside of his coat. The doctor plays along with the delusion to 'cure' him. In a highly physical sequence, the doctor begins aggressively 'plucking' invisible feathers from the patient's body, including from under his arms and even out of his nose, tossing the imaginary feathers to the floor. After the 'procedure,' the doctor tells him his skin is now smooth and advises him to use cologne to prevent pimples. The sketch ends with the doctor calling the nurse to bring a broom to sweep up the non-existent feathers, while the patient leaves feeling 'light' and 'free.'",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդ",
+      "պտիչի գրիպ",
+      "փետուր",
+      "հիվանդանոց",
+      "չինաստան",
+      "ծիտ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "doctor",
+      "patient",
+      "bird flu",
+      "feathers",
+      "hospital",
+      "China",
+      "bird",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivand",
+      "ptichi grip",
+      "petur",
+      "hivandanoc",
+      "chinastan",
+      "tsit",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Չինաստանից շոր մոր էի բերում ստեղ ծախում էի ամեն ինչ սկսվեց նրանից որ ընդեղ պտիչի մալակո հյուրասիրեցինու դրանից հետո պտիչի գրիպ հիվանդացա"
+    ],
+    "topics": [
+      "medical"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

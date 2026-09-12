@@ -1,0 +1,73 @@
+{
+  "video_id": "LY-PrNKJxsM",
+  "seq": 65,
+  "kargin_id": 65,
+  "title": "Kargin Haghordum sketch 630 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3103,
+  "gen_sec": 26.59,
+  "prompt_tokens": 2700,
+  "output_tokens": 640,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00327,
+  "annotation": {
+    "title_hy": "Մեկ տարվա կյանք",
+    "title_en": "One Year of Life",
+    "summary_en": "After a doctor tells a wealthy man he only has one year to live, a monk offers him a peculiar way to make that year feel significantly longer.",
+    "summary_detailed_en": "A wealthy, mustached businessman in a suit sits in a modern office, devastated by a medical diagnosis. A doctor (off-camera) explains that his spinal tumor is inoperable and he has only one year left to live. The man, obsessed with his material possessions, jokes that his new car still has two years of warranty, making the second year a waste. Desperate for a miracle, he travels to a serene Armenian monastery to seek spiritual advice. Clad in a suit and carrying a small yellow fruit, he meets a monk in a black hooded robe among the ancient stone ruins. He confesses that he gained his wealth through sinful means and believes God is punishing him. The monk asks about his lifestyle and then advises him to sell his luxury Infiniti for a rusted Zaporozhets, divorce his beauty-queen wife to marry an ugly, toothless homeless woman, and move from his four luxury apartments to a shack in a remote village without plumbing. When the businessman asks if these sacrifices will extend his life, the monk delivers the punchline: it won't lengthen his life, but the misery will make that one year feel like ten.",
+    "keywords_hy": [
+      "եկեղեցի",
+      "հրաշք",
+      "բժիշկ",
+      "հարուստ",
+      "մեղք",
+      "տեր հայր",
+      "ախտորոշում",
+      "հումոր",
+      "վերջին ցանկություն"
+    ],
+    "keywords_en": [
+      "monastery",
+      "miracle",
+      "doctor",
+      "wealthy man",
+      "sin",
+      "priest",
+      "diagnosis",
+      "humor",
+      "last wish"
+    ],
+    "keywords_translit": [
+      "ekexeci",
+      "hrashq",
+      "bjishk",
+      "harust",
+      "mexq",
+      "ter hayr",
+      "axtoroshum",
+      "humor",
+      "verjin cankutyun"
+    ],
+    "catchphrases": [
+      "Ուղղակի պայմանները այնքան վատ կլինեն, որ այդ մի տարին քեզ 10 տարի կթվա:"
+    ],
+    "topics": [
+      "medical",
+      "religion",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

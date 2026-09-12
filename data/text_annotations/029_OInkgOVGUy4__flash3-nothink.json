@@ -1,0 +1,70 @@
+{
+  "video_id": "OInkgOVGUy4",
+  "seq": 29,
+  "kargin_id": 29,
+  "title": "Kargin Haghordum sketch 336 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1826,
+  "gen_sec": 4.12,
+  "prompt_tokens": 1987,
+  "output_tokens": 595,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002779,
+  "annotation": {
+    "title_hy": "Անօրինական Բիսետկան և Շանտաժիստը",
+    "title_en": "Illegal Gazebo and the Blackmailer",
+    "summary_en": "A corrupt official practices threatening a client over the phone with the help of an assistant holding cue cards, only to be interrupted by a man confused about his own illegal rooftop gazebo.",
+    "summary_detailed_en": "The sketch takes place in an office setting where a mustached businessman in a suit is sitting at his desk. He is practicing a series of aggressive threats over a telephone, including burning down a car, a dacha, and harming family members. An assistant with curly hair stands by his side, holding up handwritten cue cards in Armenian to prompt the businessman on which threats to deliver next. The businessman struggles to stay focused, at one point getting his threats confused between the client's daughter and his dog. The assistant exits and re-enters the office to facilitate the 'performance.' The scene shifts when a nervous man enters the office seeking advice on how to legalize an illegal gazebo built on the roof of a 16th-floor apartment. The visitor is clearly conflicted, mentioning his mother forced him to come despite the structure being illegal. After a rambling explanation, the visitor decides to leave, but the businessman stops him, coolly suggesting they smoke first, implying the start of a shady negotiation. No drag roles are present in this sketch.",
+    "keywords_hy": [
+      "կաշառք",
+      "բիսետկա",
+      "շանտաժ",
+      "գրասենյակ",
+      "հեռախոս",
+      "անօրինական",
+      "ծխել",
+      "կոռուպցիա"
+    ],
+    "keywords_en": [
+      "bribe",
+      "gazebo",
+      "blackmail",
+      "office",
+      "telephone",
+      "illegal",
+      "smoking",
+      "corruption"
+    ],
+    "keywords_translit": [
+      "kasharq",
+      "bisetka",
+      "shantazh",
+      "grasenyak",
+      "heraxos",
+      "anorinakan",
+      "cxel",
+      "korupcia"
+    ],
+    "catchphrases": [
+      "սկզբի համար մի հատ ծխենք"
+    ],
+    "topics": [
+      "bureaucracy",
+      "crime",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

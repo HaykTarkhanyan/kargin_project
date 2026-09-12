@@ -1,0 +1,72 @@
+{
+  "video_id": "1YZw1lwtBEc",
+  "seq": 35,
+  "kargin_id": 35,
+  "title": "Kargin Haghordum sketch 342 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "035_Kargin_Haghordum_sketch_342_Hayko_Mko_1YZw1lwtBEc.tr.json",
+    "visual": true
+  },
+  "input_chars": 2743,
+  "gen_sec": 24.68,
+  "prompt_tokens": 2479,
+  "output_tokens": 612,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003076,
+  "annotation": {
+    "title_hy": "Կանադայի գործարանի տնօրենը",
+    "title_en": "The Canada Branch Director",
+    "summary_en": "An employee is offered a promotion to lead a new factory in Canada, only to make a disastrous insult about Canadians to his boss.",
+    "summary_detailed_en": "The sketch takes place in a formal executive setting with leather couches. A young employee named Arsen arrives slightly late to a meeting in a conference hall, explaining that he first looked for his boss, Mr. Saribekyan, in his private office. Mr. Saribekyan calms the nervous Arsen, assuring him that the news is positive. He announces that the company is opening a new transformer factory in Canada and has chosen Arsen to be the director due to his experience and single status. The boss explains the economic benefits, including lower taxes and cheaper shipping. Arsen praises the business move but expresses hesitation about Canada as a location. He cites a crude stereotype, claiming that everyone in Canada is either a hockey player or a prostitute. The boss, offended, tells Arsen to control his language because his own wife is from Canada. Arsen, oblivious to the danger, digs his hole deeper by innocently asking which hockey team she plays for, implying the alternative is the only other possibility.",
+    "keywords_hy": [
+      "Կանադա",
+      "գործարան",
+      "տնօրեն",
+      "աշխատանք",
+      "հոկեյիստ",
+      "տրանսֆորմատոր",
+      "առաջարկ",
+      "սխալ"
+    ],
+    "keywords_en": [
+      "Canada",
+      "factory",
+      "director",
+      "promotion",
+      "hockey player",
+      "transformer",
+      "business meeting",
+      "insult"
+    ],
+    "keywords_translit": [
+      "Kanada",
+      "gortsaran",
+      "tnoren",
+      "ashkhatank",
+      "hokeist",
+      "transformator",
+      "arajark",
+      "skhal"
+    ],
+    "catchphrases": [
+      "Կանադա Կանադա գնա փող աշխատի գյադա",
+      "Կանադայում բոլորը կամ խակեիստ են կամ էլ պուտանկա",
+      "իսկ որ թիմում ա խաղում"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

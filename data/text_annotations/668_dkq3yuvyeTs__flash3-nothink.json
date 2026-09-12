@@ -1,0 +1,70 @@
+{
+  "video_id": "dkq3yuvyeTs",
+  "seq": 668,
+  "kargin_id": 668,
+  "title": "Kargin Haghordum sketch 248 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "668_Kargin_Haghordum_sketch_248_Hayko_Mko_dkq3yuvyeTs.tr.json",
+    "visual": true
+  },
+  "input_chars": 1890,
+  "gen_sec": 5.57,
+  "prompt_tokens": 1971,
+  "output_tokens": 475,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002411,
+  "annotation": {
+    "title_hy": "Սանասարի հիասթափությունը",
+    "title_en": "Sanasar's Disappointment",
+    "summary_en": "A village man complains to his friend about his lack of recognition for good deeds, only to be remembered by the whole village for one unfortunate incident with a donkey.",
+    "summary_detailed_en": "In a rural setting, two men sit at a small outdoor table against a weathered wall, sharing a rustic meal of bread, onions, and tomatoes while drinking. The main character, Sanasar, wears a beanie and mustache, expressing his bitterness to his friend Ferdo about the lack of gratitude in their village. He recounts how he cut down his own trees to build the village bridge, yet no one calls him 'Sanasar the bridge builder.' He describes planting entire orchards that feed the village, yet no one calls him 'Sanasar the gardener.' He even mentions designing and overseeing the construction of the local club after it burned down, but he was never honored as an architect. The dialogue builds up to a classic crude punchline: despite all his noble contributions, he is only famous for one singular encounter with a donkey, which has defined his reputation among the villagers forever. The sketch concludes with the characters departing the scene, featuring a motorcycle sidecar and a truck in the village background.",
+    "keywords_hy": [
+      "գյուղացի",
+      "կամուրջ",
+      "այգեգործ",
+      "ճարտարապետ",
+      "հիասթափություն",
+      "խմելու հաց",
+      "Սանասար",
+      "Ֆեռդո"
+    ],
+    "keywords_en": [
+      "villager",
+      "bridge builder",
+      "gardener",
+      "architect",
+      "donkey joke",
+      "village life",
+      "unrecognized merit",
+      "drinking friends"
+    ],
+    "keywords_translit": [
+      "gyughatsi",
+      "kamurj",
+      "aygegorts",
+      "chartarapet",
+      "hiastaputyun",
+      "xmelu hats",
+      "Sanasar",
+      "Ferdo"
+    ],
+    "catchphrases": [
+      "էհ Սանո ջան արի միատ էլ խմենք"
+    ],
+    "topics": [
+      "village",
+      "drinking",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

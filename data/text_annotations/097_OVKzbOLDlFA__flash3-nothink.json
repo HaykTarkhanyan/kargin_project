@@ -1,0 +1,70 @@
+{
+  "video_id": "OVKzbOLDlFA",
+  "seq": 97,
+  "kargin_id": 97,
+  "title": "Kargin Haghordum sketch 638 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "097_Kargin_Haghordum_sketch_638_Hayko_Mko_OVKzbOLDlFA.de.json",
+    "visual": true
+  },
+  "input_chars": 2009,
+  "gen_sec": 15.85,
+  "prompt_tokens": 2012,
+  "output_tokens": 611,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002839,
+  "annotation": {
+    "title_hy": "Հավատարիմ ընկերոջ բաժինը",
+    "title_en": "The Loyal Friend's Share",
+    "summary_en": "A bar customer always orders two shots of vodka to drink for himself and his absent friend, until he suddenly switches to one shot for a surprising reason.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit bar where a mustached bartender is approached by a talkative customer. The customer first acts as if he is a regular, though the bartender points out it is likely his first time there. After hearing a rhyming list of vodka varieties like Finland, Greenland, and Lapland, the customer orders 'two shots.' Every time he returns to the bar, depicted through graphic transitions showing his increasing intoxication, he insists on ordering two 50g shots of vodka. When the curious bartender finally asks why he always drinks in pairs, the man emotionally explains that he has a very close friend, and since they can't be together, he always drinks one for himself and one for his buddy. In the final scene, the man arrives looking somber and orders only a single shot. The bartender, concerned that something tragic happened to the friend, asks for the reason. The man nonchalantly replies that his friend is fine, but he personally quit drinking for health reasons, so he is now only drinking his friend's portion.",
+    "keywords_hy": [
+      "բարմեն",
+      "հաճախորդ",
+      "օղի",
+      "խմել",
+      "ընկերություն",
+      "երկու բաժակ",
+      "հարբած",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "bartender",
+      "customer",
+      "vodka",
+      "drinking",
+      "friendship",
+      "two shots",
+      "drunk",
+      "bar joke"
+    ],
+    "keywords_translit": [
+      "barmen",
+      "hachaxord",
+      "oghi",
+      "xmel",
+      "enkerutyun",
+      "erku bajak",
+      "harbats",
+      "katak"
+    ],
+    "catchphrases": [
+      "կարող է դուք առաջին անգամ եք մեր մոտ",
+      "2 հատ լից",
+      "էս քանի օրը սիրտս լավ չի ես խմելը թարգեցի"
+    ],
+    "topics": [
+      "drinking",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational"
+    ]
+  }
+}

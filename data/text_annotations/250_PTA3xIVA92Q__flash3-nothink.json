@@ -1,0 +1,76 @@
+{
+  "video_id": "PTA3xIVA92Q",
+  "seq": 250,
+  "kargin_id": 250,
+  "title": "Kargin Haghordum - Mardaspanner (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1627,
+  "gen_sec": 5.22,
+  "prompt_tokens": 1884,
+  "output_tokens": 672,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002958,
+  "annotation": {
+    "title_hy": "Վարձու Մարդասպանների Ռեմոնտը",
+    "title_en": "The Hitmen's Renovation",
+    "summary_en": "Two incompetent hitmen wait in a stairwell for their target, complaining about car repairs and home renovations before encountering their victim.",
+    "summary_detailed_en": "The sketch takes place in a dim, indoor stairwell where two hitmen wearing hooded jackets are waiting for their target, a factory director. Rather than focusing on the mission, they engage in a mundane conversation about car troubles and home improvements. One hitman explains that his car's muffler was broken, so he absurdly used the silencer from his gun to fix the vehicle. They express anxiety because the target is running late, not out of professional concern, but because one hitman is desperate to get paid by the client to finish his home renovations and buy a new refrigerator. They decide not to shoot him on the stairs to avoid noise and instead plot to lure him by imitating puppy sounds, knowing he loves dogs. When the target finally arrives, the hitmen casually introduce themselves as two men named Armen and inform him that his wife ordered the hit. The sketch ends with a dark joke where they tell the target to sit between the two Armens and make a final wish before the sound of a gunshot and a physical struggle.",
+    "keywords_hy": [
+      "մարդասպան",
+      "վարձու",
+      "գլուշիտել",
+      "զենք",
+      "ռեմոնտ",
+      "աստիճաններ",
+      "պատվեր",
+      "կատակ",
+      "Հայկո Մկո"
+    ],
+    "keywords_en": [
+      "hitmen",
+      "assassins",
+      "muffler",
+      "silencer",
+      "renovation",
+      "stairwell",
+      "contract killer",
+      "humor",
+      "Armenian comedy"
+    ],
+    "keywords_translit": [
+      "mardaspan",
+      "vardzu",
+      "glushitel",
+      "zenq",
+      "remont",
+      "astichanner",
+      "patver",
+      "katak",
+      "Hayko Mko"
+    ],
+    "catchphrases": [
+      "զենքիս գլուշիտելը դրի մաշնիս վրա",
+      "ռեմոնտս կիսատ կմնա",
+      "մենք վարձու մարդասպան ենք և ձեզ մեզ պատվիրելա ձեր կինը",
+      "պահի քո վերջին ցանկությունը"
+    ],
+    "topics": [
+      "crime",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

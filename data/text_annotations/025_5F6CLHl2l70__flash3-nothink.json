@@ -1,0 +1,72 @@
+{
+  "video_id": "5F6CLHl2l70",
+  "seq": 25,
+  "kargin_id": 25,
+  "title": "Kargin Haghordum - Jorik (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "025_Kargin_Haghordum_-_Jorik_Hayko_Mko_5F6CLHl2l70.es.json",
+    "visual": true
+  },
+  "input_chars": 1581,
+  "gen_sec": 25.18,
+  "prompt_tokens": 1826,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002842,
+  "annotation": {
+    "title_hy": "Ժորիկը պահարանում",
+    "title_en": "Jorik in the Wardrobe",
+    "summary_en": "A suspicious husband repeatedly finds his wife wearing only a towel and tights, leading him to discover her lover, Jorik, hiding in various spots around the house.",
+    "summary_detailed_en": "The sketch takes place in a domestic apartment setting. A suspicious husband in a black jacket returns home to find his wife (played by a male actor in drag) lounging on the sofa wearing nothing but a bath towel over her tights. When he questions her attire, she claims she decided to bathe because the water was running, but admits she 'forgot' to take off her tights. The husband's suspicion leads him to a wardrobe closet, where he discovers a shirtless young man named Jorik. In a bizarrely calm moment of sarcasm, the husband compliments Jorik's hairstyle before physically dragging him out for 'utilization.' The scene repeats with the husband returning again to find his wife in the same towel-and-tights outfit. He scolds her for forgetting to remove the tights again. He then confronts Jorik once more, threatening to 'pulverize' them both. The physical comedy escalates with scuffles and threats of violence, including references to Desdemona, as the husband tries to handle his wife's blatant infidelity and the recurring presence of the lover in their home.",
+    "keywords_hy": [
+      "Ժորիկ",
+      "դավաճանություն",
+      "պահարան",
+      "սրբիչ",
+      "կալգոտկա",
+      "խանդ",
+      "ամուսին",
+      "կնիկ"
+    ],
+    "keywords_en": [
+      "Jorik",
+      "infidelity",
+      "wardrobe",
+      "towel",
+      "tights",
+      "jealousy",
+      "husband",
+      "hiding"
+    ],
+    "keywords_translit": [
+      "Jorik",
+      "davachanutyun",
+      "paharan",
+      "srpych",
+      "kalgota",
+      "khand",
+      "amusin",
+      "knik"
+    ],
+    "catchphrases": [
+      "բա կալգոտկեքը խի չես հանե",
+      "Ժորիկին ուտիլիզացիա արի",
+      "աղչի դեզդեմոն",
+      "էս ինչ էլ լավնա պրիչոսկեդ Ժոր ջան"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "vbsC8iAwZE4",
+  "seq": 435,
+  "kargin_id": 435,
+  "title": "Kargin Haghordum - Deputatner (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "435_Kargin_Haghordum_-_Deputatner_Hayko_Mko_vbsC8iAwZE4.hy.json",
+    "visual": true
+  },
+  "input_chars": 3338,
+  "gen_sec": 20.39,
+  "prompt_tokens": 2889,
+  "output_tokens": 661,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003427,
+  "annotation": {
+    "title_hy": "Պատգամավորների Օրինագծերը",
+    "title_en": "The Parliamentarians' Bill",
+    "summary_en": "Two corrupt politicians debate raising prices on citizens by 30%, only to find a passerby who enthusiastically supports a 200% price hike because of his profession.",
+    "summary_detailed_en": "The sketch takes place in an autumn park where two well-dressed politicians, Avanes and Sanasar, are discussing recent activities in the National Assembly. Sanasar describes a chaotic scene where a fellow deputy performed athletic stunts, jumping between desks to press buttons for absent colleagues, successfully passing a bill with 250 votes despite only 10 members being present. The conversation shifts to a proposal to increase all prices in Armenia by 30%. While Sanasar initially feigns concern for the poor, Avanes insists that the people live better than them. To settle the debate, they stop a passerby in a tan trench coat to ask how he would survive such an increase. The man remains indifferent to a 10%, 20%, and even 30% hike. When the politicians jokingly ask how he would handle a 200% price increase—where meat would jump to 8000 drams—the man gleefully replies that he would be able to buy a new car and a brand-name house in a month. The punchline reveals his motivation: he works at a morgue, meaning he profits from the increased death rate caused by poverty.",
+    "keywords_hy": [
+      "պատգամավոր",
+      "ազգային ժողով",
+      "օրինագիծ",
+      "գների թանկացում",
+      "կազինո",
+      "մորգ",
+      "քաղաքական երգիծանք",
+      "կաշառակերություն"
+    ],
+    "keywords_en": [
+      "parliament member",
+      "National Assembly",
+      "price hike",
+      "bill",
+      "casino",
+      "morgue",
+      "political satire",
+      "corruption"
+    ],
+    "keywords_translit": [
+      "patgamavor",
+      "azgayin zhoghov",
+      "orinagits",
+      "gneri thankatsum",
+      "kazino",
+      "morg",
+      "qaghaqakan ergitsanq",
+      "kasharakerutyun"
+    ],
+    "catchphrases": [
+      "250 ձայնով իր օրինագիծը անցկացրեց",
+      "Ես մորգում եմ աշխատում"
+    ],
+    "topics": [
+      "bureaucracy",
+      "money",
+      "medical"
+    ],
+    "humor_type": [
+      "satire",
+      "dark"
+    ]
+  }
+}

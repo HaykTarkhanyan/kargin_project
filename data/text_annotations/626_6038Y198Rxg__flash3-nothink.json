@@ -1,0 +1,70 @@
+{
+  "video_id": "6038Y198Rxg",
+  "seq": 626,
+  "kargin_id": 626,
+  "title": "Kargin Haghordum sketch 548 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "626_Kargin_Haghordum_sketch_548_Hayko_Mko_6038Y198Rxg.tr.json",
+    "visual": true
+  },
+  "input_chars": 1406,
+  "gen_sec": 5.35,
+  "prompt_tokens": 1748,
+  "output_tokens": 588,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002638,
+  "annotation": {
+    "title_hy": "Մոռացկոտ Պապիկը և Վարդը",
+    "title_en": "Forgetful Grandpa and Vard",
+    "summary_en": "Two elderly men play backgammon and brag about their outings, leading to a punchline about one man's failing memory regarding his wife's name.",
+    "summary_detailed_en": "The sketch takes place in a sunny orchard yard where two men are seated at an outdoor table covered with a cloth and a fruit bowl, playing a lively game of backgammon. One man, wearing a gray jacket and eyeglasses, recounts a disappointing trip to a strip club in Moscow with his grandson, complaining that the poles blocked his view. The other man, dressed in a blazer, counters by boasting about a wonderful three-hour dinner his son treated him and his wife to at a fancy restaurant. When asked for the name of the restaurant, the second man struggles to remember. In a roundabout attempt to jog his memory, he asks his friend for the name of a thorny flower with a red bud. When the friend provides the word 'Rose' (Vard), the man turns to his wife (a woman in a patterned robe standing nearby) and shouts, 'Vard, what was the name of that restaurant yesterday?', revealing he had forgotten his own wife's name while trying to recall the venue.",
+    "keywords_hy": [
+      "նարդի",
+      "պապիկներ",
+      "հիշողություն",
+      "ռեստորան",
+      "ստրիպտիզ",
+      "այգի",
+      "կատակ",
+      "Վարդ"
+    ],
+    "keywords_en": [
+      "backgammon",
+      "grandpas",
+      "memory loss",
+      "restaurant",
+      "strip club",
+      "orchard",
+      "joke",
+      "Vard"
+    ],
+    "keywords_translit": [
+      "nardi",
+      "papikner",
+      "hishoghutyun",
+      "restoran",
+      "striptiz",
+      "aygi",
+      "katak",
+      "Vard"
+    ],
+    "catchphrases": [
+      "ես իրա ցավը տանեմ, տարել էր ինձ ու պարավիս ռեստորան"
+    ],
+    "topics": [
+      "family",
+      "restaurant_cafe",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

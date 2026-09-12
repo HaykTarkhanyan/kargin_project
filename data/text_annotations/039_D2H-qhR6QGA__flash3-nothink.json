@@ -1,0 +1,66 @@
+{
+  "video_id": "D2H-qhR6QGA",
+  "seq": 39,
+  "kargin_id": 39,
+  "title": "Kargin Haghordum sketch 604 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1772,
+  "gen_sec": 14.94,
+  "prompt_tokens": 1926,
+  "output_tokens": 536,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002571,
+  "annotation": {
+    "title_hy": "Որդու Անակնկալ Ընկերուհին",
+    "title_en": "The Son's Surprise Girlfriend",
+    "summary_en": "An anxious mother suspects her son is in love, only for him to bring home a pregnant girlfriend and play a cruel naming prank on his shocked father.",
+    "summary_detailed_en": "The sketch takes place in an apartment living room where a woman in a pink robe talks anxiously to her husband, who is wearing a white vest and reading a magazine. She details her suspicions that their son has fallen in love, noting his late nights, excessive phone calls, and sudden happiness. She reminisces about his loud crying as a baby and how the neighbors preferred the crying to her own singing. Suddenly, the son arrives with his girlfriend, a woman in a black coat and a red scarf. The son introduces her as 'Vardanush' and announces they are getting married because she is six months pregnant. The father is horrified, both by the name 'Vardanush' and the unexpected pregnancy, and begins a frantic rant about the son's internet usage and lectures. In a final twist, the son reveals it was a prank, stating her real name is actually Suzy, leaving his parents in a state of shock.",
+    "keywords_hy": [
+      "ընտանիք",
+      "ծնողներ",
+      "հղիություն",
+      "կատակ",
+      "սիրահարվել",
+      "ամուսնություն",
+      "հարևաններ"
+    ],
+    "keywords_en": [
+      "family",
+      "parents",
+      "pregnancy",
+      "prank",
+      "falling in love",
+      "marriage",
+      "neighbors"
+    ],
+    "keywords_translit": [
+      "yntaniq",
+      "cnoghner",
+      "hghiutyun",
+      "katak",
+      "siraharvel",
+      "amusnutyun",
+      "harevanner"
+    ],
+    "catchphrases": [
+      "Ինչ Վարդանուշ արա, էս ինչ ես անում արա:"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

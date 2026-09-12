@@ -1,0 +1,68 @@
+{
+  "video_id": "o4r6M4zxoUo",
+  "seq": 20,
+  "kargin_id": 20,
+  "title": "Kargin Haghordum sketch 327 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "020_Kargin_Haghordum_sketch_327_Hayko_Mko_o4r6M4zxoUo.hy.json",
+    "visual": true
+  },
+  "input_chars": 4352,
+  "gen_sec": 3.96,
+  "prompt_tokens": 3507,
+  "output_tokens": 505,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003269,
+  "annotation": {
+    "title_hy": "Զավի և Խաչի Ռազբորկան",
+    "title_en": "Zav and Khach's Showdown",
+    "summary_en": "Zav tries to convince his friend Khach to help him confront a mutual friend returning from Turkey, but their 'brotherly bond' falls apart over a request for a television.",
+    "summary_detailed_en": "The sketch takes place on a dirt path in a forest during the day. Two young men, Zav and Khach, are walking while wearing flat caps and leather jackets, gesturing animatedly as Zav tells a convoluted story. Zav explains that while his friend was away in Turkey 'picking chips,' he looked after the friend's girlfriend. However, neighborhood guys warned him she was 'spoiled.' Zav told his friend in Turkey to dump her, and now the friend has returned and wants a 'razborka' (confrontation). Zav, fearing a fight, flatters Khach by calling him his only true brother and claiming he would share millions of dollars or even his last piece of bread with him. Emboldened, Khach asks to borrow Zav's spare TV for a sick relative. Zav immediately turns hostile, calling him a 'rat' for asking. As they approach the meeting spot, they see the friend from Turkey (a heavyset man in sunglasses). Realizing the friend is not alone and they are outnumbered, the 'tough' duo loses their nerve and runs away.",
+    "keywords_hy": [
+      "ռազբորկա",
+      "ընկերություն",
+      "Թուրքիա",
+      "հեռուստացույց",
+      "կռիս",
+      "քուչի տղերք",
+      "ճամփու դնել"
+    ],
+    "keywords_en": [
+      "confrontation",
+      "friendship",
+      "Turkey",
+      "television",
+      "rat",
+      "neighborhood guys",
+      "loyalty"
+    ],
+    "keywords_translit": [
+      "razborka",
+      "enkerutyun",
+      "Turqia",
+      "herustacuyc",
+      "kris",
+      "quchi tgherq",
+      "jampu dnel"
+    ],
+    "catchphrases": [
+      "արա մորս արև- կարող ա",
+      "արա Խաչ կռիսականդ խրիր"
+    ],
+    "topics": [
+      "neighbors",
+      "crime",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

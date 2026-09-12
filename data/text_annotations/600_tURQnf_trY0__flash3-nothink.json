@@ -1,0 +1,70 @@
+{
+  "video_id": "tURQnf_trY0",
+  "seq": 600,
+  "kargin_id": 600,
+  "title": "Kargin Haghordum sketch 451 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3438,
+  "gen_sec": 5.7,
+  "prompt_tokens": 2918,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003388,
+  "annotation": {
+    "title_hy": "Փարիզի «Ջոգող» Ֆրանսուհին",
+    "title_en": "The Sharp-Witted Parisian Girl",
+    "summary_en": "A man tells his friend about his trip to Paris and a date with a French woman where they communicated through drawings, leading to a hilarious misunderstanding of her intentions.",
+    "summary_detailed_en": "The sketch opens in a restaurant with pink walls where one man is boastfully telling his friend about his recent trip to Paris. The scene transitions into a green-tinted flashback showing the storyteller sitting at an outdoor patio cafe near European monuments. He shows his friend photos, confusing the Eiffel Tower with Artashat and the Arc de Triomphe with a 'triumphal box.' He recounts a story of meeting a beautiful French woman in a restaurant. Because he speaks no French, he communicates by drawing symbols on paper: first a flower to get her attention, then wine glasses to suggest a drink, and finally a plate with cutlery to invite her to dinner. He is amazed by how 'sharp-witted' (jogogh) the French are, as she understands every drawing immediately. The punchline arrives when the woman draws a bed on a piece of paper and hands it to him. The man, completely oblivious to her romantic proposition, tells his friend he is still baffled by how she managed to 'know' that he works in a furniture workshop.",
+    "keywords_hy": [
+      "Փարիզ",
+      "Էյֆելյան աշտարակ",
+      "ռեստորան",
+      "ժամադրություն",
+      "նկարել",
+      "մեբելի ցեխ",
+      "ֆրանսուհի",
+      "վիզա"
+    ],
+    "keywords_en": [
+      "Paris",
+      "Eiffel Tower",
+      "restaurant",
+      "date",
+      "drawing",
+      "furniture workshop",
+      "French woman",
+      "misunderstanding"
+    ],
+    "keywords_translit": [
+      "Pariz",
+      "Eifelyan ashtarak",
+      "restoran",
+      "zhamadrutyun",
+      "nkarel",
+      "mebeli tsex",
+      "fransuhi",
+      "viza"
+    ],
+    "catchphrases": [
+      "ես միչև հիմա չեմ հասկացել թե էդ աղջիկը ոնց ջոգեց որ ես մեբելի ցեխում եմ աշխատում"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "leisure_outing",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

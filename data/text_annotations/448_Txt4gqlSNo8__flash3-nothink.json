@@ -1,0 +1,70 @@
+{
+  "video_id": "Txt4gqlSNo8",
+  "seq": 448,
+  "kargin_id": 448,
+  "title": "Kargin Haghordum - Ban chem hishum (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "448_Kargin_Haghordum_-_Ban_chem_hishum_Hayko_Mko_Txt4gqlSNo8.en.json",
+    "visual": true
+  },
+  "input_chars": 1714,
+  "gen_sec": 5.06,
+  "prompt_tokens": 1797,
+  "output_tokens": 590,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002668,
+  "annotation": {
+    "title_hy": "Խմած ու Ռենջ Ռովեռը",
+    "title_en": "Drunk and the Range Rover",
+    "summary_en": "Two friends suffering from extreme memory loss after a night of heavy drinking discover they accidentally bought a luxury SUV.",
+    "summary_detailed_en": "The sketch opens in a formal boardroom setting where a man in a suit is sitting at a large table, looking disoriented. He is engaged in a heated, circular argument with his friend about who should have stopped their wild behavior the previous night, using a metaphor about who acts as the 'brakes' (tormuz) in their relationship. Neither can remember anything that happened. The man in the suit receives a phone call and is shocked to hear from a car dealership. The caller informs him that they visited the showroom the day before, purchased a Range Rover, and even left an additional hundred thousand dollars in cash. His friend joins him in the room, and they realize that instead of simply spending all their money on alcohol as they assumed, they had actually made a massive luxury purchase while intoxicated. The scene ends with physical realization and comedic disbelief as they try to piece together their extravagant, drunken mistakes.",
+    "keywords_hy": [
+      "խմած",
+      "խումար",
+      "հիշողության կորուստ",
+      "Ռենջ Ռովեռ",
+      "ավտոսրահ",
+      "փող",
+      "հարբած",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "drunk",
+      "hangover",
+      "memory loss",
+      "Range Rover",
+      "car dealership",
+      "money",
+      "intoxicated",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "khmac",
+      "khumar",
+      "hishoghutyan korust",
+      "Range Rover",
+      "avtosrah",
+      "pogh",
+      "harbac",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "ստոպ տայիր հա բայց ես խի պտի ստոպ տամ դու ստոպ տայիր կարողա գիդես մեր մեջի տոռմուզիկը ես եմ"
+    ],
+    "topics": [
+      "drinking",
+      "money",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

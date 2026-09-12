@@ -1,0 +1,71 @@
+{
+  "video_id": "HB8G9zual8A",
+  "seq": 331,
+  "kargin_id": 331,
+  "title": "Kargin Haghordum sketch 293 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "331_Kargin_Haghordum_sketch_293_Hayko_Mko_HB8G9zual8A.hy.json",
+    "visual": true
+  },
+  "input_chars": 2078,
+  "gen_sec": 5.98,
+  "prompt_tokens": 2176,
+  "output_tokens": 617,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002939,
+  "annotation": {
+    "title_hy": "Կրկնակի բեղմնավորում և ճանապարհային ոստիկանը",
+    "title_en": "Double Fertilization and the Traffic Cop",
+    "summary_en": "A father punishes his son for a bad grade in biology before a family trip, only to be pulled over by a traffic officer who forgot his pen.",
+    "summary_detailed_en": "The sketch begins in a domestic setting where a mustached man is preparing for his birthday celebration at a summer house (dacha). While getting ready with a woman and a young boy in a cap, the father checks the boy's school diary and discovers a grade of 'two' in biology. The boy explains the topic was 'double fertilization,' but the stern father, despite the mother's pleas, forbids the boy from attending the birthday party as punishment, deciding to drop him off at his grandmother's house instead. The family sets off in their car along a tree-lined rural road. During the drive, the father is distracted by his anger and makes an illegal turn. A traffic police officer pulls them over. The father tries to use humor to escape a ticket, joking that he couldn't possibly go 'left' (cheat) with his wife sitting right there. The officer is unmoved and prepares to write a citation, but realizes he left his pen at the station. In the final twist, the son produces a pen and gives it to the officer as an early birthday gift for his father, ensuring the ticket is written.",
+    "keywords_hy": [
+      "ծնունդ",
+      "օրագիր",
+      "երկուս",
+      "կենսաբանություն",
+      "ոստիկան",
+      "տուգանք",
+      "գրիչ",
+      "դաչա"
+    ],
+    "keywords_en": [
+      "birthday",
+      "diary",
+      "bad grade",
+      "biology",
+      "traffic police",
+      "fine",
+      "pen",
+      "summer house"
+    ],
+    "keywords_translit": [
+      "tsnund",
+      "oragir",
+      "erkus",
+      "kensabanutyun",
+      "vostikan",
+      "tugank",
+      "grich",
+      "dacha"
+    ],
+    "catchphrases": [
+      "կրկնակի բեղմնավորում",
+      "արա վարչությունում եմ թողել"
+    ],
+    "topics": [
+      "family",
+      "police",
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

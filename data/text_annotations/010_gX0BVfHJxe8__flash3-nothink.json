@@ -1,0 +1,67 @@
+{
+  "video_id": "gX0BVfHJxe8",
+  "seq": 10,
+  "kargin_id": 10,
+  "title": "Kargin Haghordum sketch 298 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1314,
+  "gen_sec": 32.06,
+  "prompt_tokens": 1700,
+  "output_tokens": 623,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002719,
+  "annotation": {
+    "title_hy": "Անշարժ գույքի գործակալության քարտուղարուհին",
+    "title_en": "The Real Estate Secretary",
+    "summary_en": "A real estate agent returning from a business trip offers his new secretary a raise, only to realize his definition of 'pleasure' differs from her previous boss.",
+    "summary_detailed_en": "The sketch takes place in the office of 'VVP Real Estate Agency', identifiable by a desk calendar or card and an Armenian flag on the desk. A man dressed in a shirt and tie is finishing a phone call with a Mr. Hovsepyan, explaining that his business trip to Moscow to finalize real estate contracts was successful and he will bring the documents tomorrow. A woman in a blouse, the new secretary, enters the room. The man explains he has been away for twenty days and asks for her name; she introduces herself as Lilia. Upon learning she started on the 4th, he notes that she is due for her salary next week. He asks what her previous salary was, and she replies 150 dollars. He suggestively tells her he would 'gladly' pay her 300 dollars. The punchline occurs when she retorts that at her previous job, they 'gladly' paid her 600 dollars, implying the extra pay was tied to sexual favors rather than professional duties.",
+    "keywords_hy": [
+      "անշարժ գույք",
+      "քարտուղարուհի",
+      "աշխատավարձ",
+      "գործուղում",
+      "գրասենյակ",
+      "հաճույքով",
+      "պայմանագիր"
+    ],
+    "keywords_en": [
+      "real estate",
+      "secretary",
+      "salary",
+      "business trip",
+      "office",
+      "with pleasure",
+      "contract"
+    ],
+    "keywords_translit": [
+      "ansharj guyq",
+      "qartugharuhi",
+      "ashkhatavardz",
+      "gordzughum",
+      "grasenyak",
+      "hachuyqov",
+      "paymanagir"
+    ],
+    "catchphrases": [
+      "բայց ես հաճույքով ձեզ 300 դոլար կվճարեի",
+      "բայց ինձ ընդեղ հաճույքով 600 էին տալիս"
+    ],
+    "topics": [
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

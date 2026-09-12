@@ -1,0 +1,69 @@
+{
+  "video_id": "i6OOJVFZuw0",
+  "seq": 286,
+  "kargin_id": 286,
+  "title": "Kargin Haghordum sketch 239 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3025,
+  "gen_sec": 5.49,
+  "prompt_tokens": 2778,
+  "output_tokens": 632,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003285,
+  "annotation": {
+    "title_hy": "Ընդունելության քննություն",
+    "title_en": "The Entrance Exam",
+    "summary_en": "Two corrupt and desperate university examiners try to fill their faculty quota by accepting incompetent students while rejecting the only qualified candidate.",
+    "summary_detailed_en": "The sketch takes place in an examination committee office where two professors, one grey-haired in a suit and the other bearded with glasses, are reviewing admission results. They are worried that their faculty will be shut down if they do not fill the state-ordered student quota, leading them to lower their standards to an absurd level. A series of young men enter the room one by one. The first student fails basic squares of numbers (guessing 310, 344, 515 for 25 squared), yet the head examiner argues they should accept him because he has a 'searching mind.' The second student stubbornly insists that 59 squared is 64; the examiner decides to admit him as well, praising his 'persistence.' Finally, a bright student enters and correctly identifies the squares of 32 and 45. After he leaves, the examiners agree he was the smartest candidate of the day, but they ultimately reject him because they have already filled all the spots with the previous idiots. The scene highlights the dysfunction and corruption within the educational system through absurd logic.",
+    "keywords_hy": [
+      "քննություն",
+      "համալսարան",
+      "ուսանող",
+      "դասախոս",
+      "մաթեմատիկա",
+      "կաշառակերություն",
+      "ընդունելություն",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "examination",
+      "university",
+      "student",
+      "professor",
+      "mathematics",
+      "corruption",
+      "admission",
+      "absurd logic"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "hamalsaran",
+      "usanogh",
+      "dasakhos",
+      "matematika",
+      "kasharakerutyun",
+      "yndunelutyun",
+      "tsitsagheli"
+    ],
+    "catchphrases": [
+      "Էս 50 հոգուց ամենախելացի երեխեն էս էր, սրան անպայման պետքա վերցնել։ Պետքա, Բայց ափսոս էլ տեղ չկա։"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "absurd"
+    ]
+  }
+}

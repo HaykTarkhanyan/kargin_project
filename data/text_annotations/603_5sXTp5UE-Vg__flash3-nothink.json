@@ -1,0 +1,65 @@
+{
+  "video_id": "5sXTp5UE-Vg",
+  "seq": 603,
+  "kargin_id": 603,
+  "title": "Kargin Haghordum sketch 460 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "603_Kargin_Haghordum_sketch_460_Hayko_Mko_5sXTp5UE-Vg.ro.json",
+    "visual": true
+  },
+  "input_chars": 1202,
+  "gen_sec": 4.33,
+  "prompt_tokens": 1620,
+  "output_tokens": 525,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002385,
+  "annotation": {
+    "title_hy": "Աղամանների տեսակները",
+    "title_en": "Types of Salt Shakers",
+    "summary_en": "A customer at a pizza restaurant is confused when the waiter offers two peculiar types of salt shakers with bizarre names.",
+    "summary_detailed_en": "In a Mama Mia pizza restaurant, two men are seated at a table enjoying a pizza and drinking Coca-Cola. One customer realizes the waiter forgot the salt and calls him over. The waiter apologizes but explains that the restaurant offers two distinct types of salt shakers, asking the customer which one he would prefer. Perplexed, the customer asks for clarification. The waiter identifies the two types by their strange names: one is called 'Ara ari ara' (Hey, come here, hey) and the other is 'Vay qo ara' (Oh, you, hey). Curious and slightly annoyed by the absurdity, the customer asks to see both. The waiter brings them out, but the customer remains confused about how to distinguish between them. The waiter suggests that once the customer tries using them, he will immediately understand which is which based on the experience. The sketch ends with the customer repeating the nonsensical names in disbelief while trying to process the logic of the restaurant's seasoning service.",
+    "keywords_hy": [
+      "պիցցերիա",
+      "մատուցող",
+      "աղաման",
+      "աղ",
+      "ռեստորան",
+      "հաճախորդ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "pizzeria",
+      "waiter",
+      "salt shaker",
+      "salt",
+      "restaurant",
+      "customer",
+      "joke"
+    ],
+    "keywords_translit": [
+      "picceria",
+      "matucogh",
+      "aghaman",
+      "agh",
+      "restoran",
+      "hachaxord",
+      "katak"
+    ],
+    "catchphrases": [
+      "Դե լավ ասենք թե արա արի արա վայ քո արա"
+    ],
+    "topics": [
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

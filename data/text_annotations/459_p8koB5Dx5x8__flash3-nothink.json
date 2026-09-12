@@ -1,0 +1,78 @@
+{
+  "video_id": "p8koB5Dx5x8",
+  "seq": 459,
+  "kargin_id": 459,
+  "title": "Kargin Haghordum sketch 084 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "459_Kargin_Haghordum_sketch_084_Hayko_Mko_p8koB5Dx5x8.hy.json",
+    "visual": true
+  },
+  "input_chars": 2576,
+  "gen_sec": 5.66,
+  "prompt_tokens": 2427,
+  "output_tokens": 703,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003322,
+  "annotation": {
+    "title_hy": "Կալանավորի փախուստը և կովը",
+    "title_en": "The Prisoner's Escape and the Cow",
+    "summary_en": "Two police officers tracking an escaped convict follow his footprints to a herd of cows, only to find the fugitive has tried a very strange disguise.",
+    "summary_detailed_en": "The sketch opens with two uniformed police officers walking through a rural, grassy field near a river. They are discussing the escape of a prisoner from a nearby colony, with the senior officer explaining how the convict tricked a guard by offering candy. As they track the fugitive, they notice his footprints suddenly change into cow tracks. The senior officer theorizes that the prisoner is wearing a 'cow maskirovka' (disguise) and has blended into a nearby herd of cattle to evade capture. Instead of inspecting each cow individually, they decide to interrogate the local shepherd. They approach a shirtless man wrapped in a yellow cloth who is sitting with a wooden staff. When asked if he recognizes his cows, the shepherd points out a dark brown 'cow' that doesn't belong to him. He explains he knew it wasn't his because fifteen minutes ago, that specific cow walked up to him and asked where the nearest bus stop was. The punchline reveals that the prisoner's disguise was foiled by his own politeness or ignorance of the local bus routes, leaving the officers stunned.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "քննիչ",
+      "փախուստ",
+      "կալանավոր",
+      "կով",
+      "հետքեր",
+      "հովիվ",
+      "գյուղ",
+      "ծիծաղելի",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "police",
+      "investigator",
+      "escape",
+      "prisoner",
+      "cow",
+      "footprints",
+      "shepherd",
+      "rural",
+      "funny",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "ostikanutyun",
+      "qnnich",
+      "paxust",
+      "kalanavor",
+      "kov",
+      "hetqer",
+      "hoviv",
+      "gyugh",
+      "tsitsagheli",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "կալանավորի հետքերը փոխվում է, դառնում է կովի հետքեր",
+      "Մասկիրովկա եղել կովիտի գնացել խառնվել է այն նախիրի հետ",
+      "հորեղբր ստեղ ավտոբուսի աստանովկեն որտեղ է"
+    ],
+    "topics": [
+      "police",
+      "village",
+      "crime"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

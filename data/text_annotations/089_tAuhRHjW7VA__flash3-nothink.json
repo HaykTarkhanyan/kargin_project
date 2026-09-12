@@ -1,0 +1,71 @@
+{
+  "video_id": "tAuhRHjW7VA",
+  "seq": 89,
+  "kargin_id": 89,
+  "title": "Kargin Haghordum sketch 653 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "089_Kargin_Haghordum_sketch_653_Hayko_Mko_tAuhRHjW7VA.hy.json",
+    "visual": true
+  },
+  "input_chars": 2566,
+  "gen_sec": 5.03,
+  "prompt_tokens": 2358,
+  "output_tokens": 629,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003066,
+  "annotation": {
+    "title_hy": "1.3 միլիոն դոլարի համբալը",
+    "title_en": "The 1.3 Million Dollar Hamabal",
+    "summary_en": "A rude customer with a massive bank balance insults a bank teller, only for the bank director to side with the wealthy client.",
+    "summary_detailed_en": "The sketch takes place in a bank or currency exchange office, featuring a teller behind a window and a customer with an exaggerated padded belly wearing a yellow tie. The customer aggressively demands a 'plastic card,' which he mispronounces as 'lastichka' and 'plastirinvi kartoshka' (plasticine potato). Despite the teller's polite demeanor, the customer repeatedly calls him a 'hambal' (low-class porter/idiot), boasting that he has held an account there for five years. The scene shifts to a businessman in a gray suit, identified as Mr. Tunoyan, pacing a hallway and talking on a cell phone. The teller calls the director to report the verbal abuse, seeking advice on how to handle the customer who just called him a 'hambal' twice. The director asks for the client's balance. Upon hearing the customer has 1,350,000 USD in his account, the director immediately tells the employee to give the man his card and calls the employee a 'hambal' himself, prioritizing the large deposit over the staff's dignity.",
+    "keywords_hy": [
+      "բանկ",
+      "հաճախորդ",
+      "վարկ",
+      "համբալ",
+      "պլաստիկ քարտ",
+      "փող",
+      "տնօրեն",
+      "հաշիվ"
+    ],
+    "keywords_en": [
+      "bank",
+      "customer",
+      "credit",
+      "hambal",
+      "plastic card",
+      "money",
+      "director",
+      "bank account"
+    ],
+    "keywords_translit": [
+      "bank",
+      "hachakhord",
+      "vark",
+      "hambal",
+      "plastik kart",
+      "pogh",
+      "tnoren",
+      "hashiv"
+    ],
+    "catchphrases": [
+      "ես ձեր բանկում 5 տարիա հաշիվ եմ բացել",
+      "էտ պլաստիրինվի կարտոշկեքից ինձ խի չեք տալի այ համբալ"
+    ],
+    "topics": [
+      "money",
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

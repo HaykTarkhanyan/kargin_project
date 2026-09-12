@@ -1,0 +1,70 @@
+{
+  "video_id": "Ih6PZ4KK4v0",
+  "seq": 472,
+  "kargin_id": 472,
+  "title": "Kargin Haghordum sketch 098 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2497,
+  "gen_sec": 5.14,
+  "prompt_tokens": 2422,
+  "output_tokens": 635,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003116,
+  "annotation": {
+    "title_hy": "Հոտ հանողը մարշուտկում",
+    "title_en": "The Farter in the Minibus",
+    "summary_en": "Passengers in a crowded minibus are outraged by a foul smell, leading to a clever psychological trap to identify the culprit.",
+    "summary_detailed_en": "The scene takes place inside a typical Armenian marshrutka (minibus) during the day. An older woman and a male passenger are complaining loudly about a terrible smell, accusing someone of using the public transport as a toilet. The passengers, including a young woman and a young man, express their disgust, noting that in the old days, people had the decency to hold it in. The driver, frustrated by the bickering and the odor, threatens to kick everyone out unless the culprit confesses. A young man enters the vehicle and immediately recoils from the stench. He offers to use a special 'calculation method' to identify the offender so that the innocent passengers don't have to suffer. He asks the driver for a rope or cord. The driver provides a long strip of fabric or rope, which is tied from the rearview mirror to the back of the bus. The young man instructs everyone to stand up and hold onto the rope simultaneously. Once everyone confirms they are holding it, he asks, 'Is the one who made the smell holding it too?' One passenger reflexively answers, 'Yes, I'm holding it too,' instantly revealing himself as the culprit. The passengers and driver immediately turn on him, forcing him out of the bus.",
+    "keywords_hy": [
+      "մարշուտկա",
+      "հասարակական տրանսպորտ",
+      "հոտ",
+      "վարորդ",
+      "ուղևոր",
+      "կատակ",
+      "թակարդ",
+      "խայտառակություն"
+    ],
+    "keywords_en": [
+      "minibus",
+      "public transport",
+      "smell",
+      "driver",
+      "passenger",
+      "joke",
+      "trap",
+      "embarrassment"
+    ],
+    "keywords_translit": [
+      "marshrutka",
+      "hasarakakan transport",
+      "hot",
+      "varord",
+      "ughevor",
+      "katak",
+      "takard",
+      "khaytarakutyun"
+    ],
+    "catchphrases": [
+      "Էն հոտ հանողն էլա բռնե՞լ։ -Հա, ես էլ եմ բռնել։"
+    ],
+    "topics": [
+      "transport",
+      "neighbors",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

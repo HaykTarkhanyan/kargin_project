@@ -1,0 +1,73 @@
+{
+  "video_id": "CFm_JkzEL8Q",
+  "seq": 375,
+  "kargin_id": 375,
+  "title": "Kargin Haghordum sketch 095 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3034,
+  "gen_sec": 12.49,
+  "prompt_tokens": 2792,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003328,
+  "annotation": {
+    "title_hy": "Կոնսերվատորիայի ընդունելություն",
+    "title_en": "Conservatory Admission",
+    "summary_en": "A corrupt father tries to bribe his way into getting his dim-witted son into the music conservatory to avoid military service.",
+    "summary_detailed_en": "The sketch begins in an outdoor courtyard where a father, Garnik, is berating his long-haired, dim-witted son, Valodik, for being unprepared. Garnik explains that he is paying a bribe to get Valodik into the music conservatory specifically to avoid him having to serve in the army and 'embarrass the nation.' When Valodik asks if his father wanted a boy or a girl before he was born, Garnik bluntly replies he just wanted to have a good time. A contact named Vacho arrives and informs Garnik that while the first two exams were forged successfully, a ministry official will be present for the third exam: Solfeggio. Valodik must physically attend and try to guess the notes played on a piano. Vacho assures them that the result doesn't matter as long as he is present. The scene shifts to the audition room where Valodik stands with his back to the piano. The instructor plays a note, and Valodik fails miserably to identify anything, leading to a comedic display of his complete lack of musical talent despite the fixed outcome.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "կոնսերվատորիա",
+      "բանակից ազատվել",
+      "կաշառք",
+      "քննություն",
+      "Սոլֆեջո",
+      "երաժշտական դպրոց",
+      "քաշել",
+      "Հայկո Մկո"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "conservatory",
+      "army evasion",
+      "bribery",
+      "exam",
+      "solfeggio",
+      "music school",
+      "corruption",
+      "Hayko Mko"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "konservatoria",
+      "banakic azatvel",
+      "kasharq",
+      "qnnutyun",
+      "solfejo",
+      "erazhshtakan dproc",
+      "qashel",
+      "Hayko Mko"
+    ],
+    "catchphrases": [
+      "Քո հոր փողերը պատրաստա էտի հերիքա"
+    ],
+    "topics": [
+      "school",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "video_id": "5SCafg9ddio",
+  "seq": 254,
+  "kargin_id": 254,
+  "title": "Kargin Haghordum sketch 561 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "254_Kargin_Haghordum_sketch_561_Hayko_Mko_5SCafg9ddio.tr.json",
+    "visual": true
+  },
+  "input_chars": 2998,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Հարյուր դրամ պակաս",
+    "title_en": "A Hundred Drams Short",
+    "summary_en": "Three hungover men on a building site are a hundred drams short of a bottle and shake down a passer-by for it, until he turns out to be a theatre actor and they give him money instead.",
+    "summary_detailed_en": "On a rubble-strewn lot beside an unfinished concrete building, three village men are in crisis: they have not had a drink since yesterday and one of them is shaking badly. The runner returns with two hundred drams, and an argument breaks out because any self-respecting bottle of vodka costs three hundred - even counting the hundred they stole from the church the day before, they are short. They blame the global downturn, observing that the American president said the crisis would hit the most vulnerable, meaning the three of them. A man in a raincoat walks across the empty field and they intercept him with an elaborate pitch, claiming they neither drink nor smoke and are collecting to build an old people's home, then dropping the pretence and threatening him outright for a hundred drams. He insists he has none. Asked what he does for a living, he answers that he is an actor at the theatre. Without missing a beat the ringleader tells his friend to take out a hundred drams, give it to him, and let him go.",
+    "keywords_hy": [
+      "արաղ",
+      "հարյուր դրամ",
+      "կրիզիս",
+      "շինհրապարակ",
+      "դերասան",
+      "թատրոն",
+      "ծերանոց",
+      "եկեղեցի",
+      "գյուղացի",
+      "խմել"
+    ],
+    "keywords_en": [
+      "vodka",
+      "hundred drams",
+      "crisis",
+      "building site",
+      "actor",
+      "theatre",
+      "old people's home",
+      "church",
+      "villagers",
+      "drinking"
+    ],
+    "keywords_translit": [
+      "aragh",
+      "haryur dram",
+      "krizis",
+      "shinhraparak",
+      "derasan",
+      "tatron",
+      "tseranots",
+      "yekeghetsi",
+      "gyughatsi",
+      "khmel"
+    ],
+    "catchphrases": [
+      "բոժը մոյ երեկվանից չենք խմել էս վիճակը ինձի կազմաքանդումա արդեն",
+      "ծերանոցի կենացը էլի ցավդ տանեմ",
+      "արա Սքե հանի սրան հարյուր դրամ տուր թող էթա"
+    ],
+    "topics": [
+      "drinking",
+      "money",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

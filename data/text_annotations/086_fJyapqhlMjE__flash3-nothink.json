@@ -1,0 +1,67 @@
+{
+  "video_id": "fJyapqhlMjE",
+  "seq": 86,
+  "kargin_id": 86,
+  "title": "Kargin Haghordum sketch 656 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "086_Kargin_Haghordum_sketch_656_Hayko_Mko_fJyapqhlMjE.ru.json",
+    "visual": true
+  },
+  "input_chars": 1883,
+  "gen_sec": 9.47,
+  "prompt_tokens": 1670,
+  "output_tokens": 542,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002461,
+  "annotation": {
+    "title_hy": "Ամերիկյան գերի",
+    "title_en": "American POW",
+    "summary_en": "A parody of a war film where armed militants unsuccessfully attempt to extract military secrets from a captured American soldier who only knows how to say his name.",
+    "summary_detailed_en": "This sketch is a parody of a war film, opening with fake movie credits overlaying Arabic-style text. The setting is a dim, concrete prison cell or militant hideout. A bloodied and bruised American soldier is tied up in a chair, appearing as a POW. A bearded militant, wearing a bandana and sunglasses and carrying a rifle, is frustrated because his subordinate has failed to get any information. The militants speak in Russian, stressing the urgency because 'the Americans are attacking tomorrow.' The lead militant dismisses his partner and takes over the interrogation personally. He tries a 'good cop' approach by offering the prisoner a cigarette, then immediately turns aggressive, demanding to know the number of tanks in the American arsenal. However, no matter how much they yell or threaten him, the soldier remains calm and repeatedly recites 'What is your name? My name is John Smith' in a robotic, textbook-style English. The humor stems from the soldier's inability to provide any information other than the most basic introductory English phrase, rendering the high-stakes interrogation absurd.",
+    "keywords_hy": [
+      "գերի",
+      "զինվոր",
+      "հարցաքննություն",
+      "ամերիկացի",
+      "տանկ",
+      "անգլերեն",
+      "ահաբեկիչ"
+    ],
+    "keywords_en": [
+      "prisoner",
+      "soldier",
+      "interrogation",
+      "American",
+      "tanks",
+      "English language",
+      "militant"
+    ],
+    "keywords_translit": [
+      "geri",
+      "zinvor",
+      "harcaqnnutyun",
+      "amerikaci",
+      "tank",
+      "angleren",
+      "ahabekich"
+    ],
+    "catchphrases": [
+      "what is your name",
+      "my name is john smith"
+    ],
+    "topics": [
+      "army",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

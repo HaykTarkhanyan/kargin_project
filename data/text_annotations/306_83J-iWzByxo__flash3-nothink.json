@@ -1,0 +1,66 @@
+{
+  "video_id": "83J-iWzByxo",
+  "seq": 306,
+  "kargin_id": 306,
+  "title": "Kargin Haghordum sketch 467 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "306_Kargin_Haghordum_sketch_467_Hayko_Mko_83J-iWzByxo.tr.json",
+    "visual": true
+  },
+  "input_chars": 1796,
+  "gen_sec": 5.62,
+  "prompt_tokens": 2004,
+  "output_tokens": 512,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002538,
+  "annotation": {
+    "title_hy": "Կարմիր գոգնոցը",
+    "title_en": "The Red Apron",
+    "summary_en": "A lazy wife lounges on the couch gossiping on the phone while barking orders at her husband, who performs all the household chores wearing a specific red apron.",
+    "summary_detailed_en": "The sketch takes place in an apartment where a woman (played by a male comedian in drag), dressed in a gold satin robe, lounges comfortably on a couch. Throughout the entire sketch, she is preoccupied with eating snacks, watching television, and gossiping on the phone with her friend Narus. Meanwhile, her husband, dressed in a plaid shirt and wearing bright yellow rubber gloves, is shown working tirelessly. The scene transitions between different rooms to emphasize his labor: he is seen washing a mountain of dishes at the kitchen sink, mopping the floors in the hallway and bedroom, and scrubbing towels in the bathroom. Every few moments, the wife interrupts her phone conversation to command her husband to put on the 'red apron' and complete another chore. The humor stems from the complete role reversal and her nonchalant attitude toward his exhaustion. In the final scene, the husband, visibly drained from the constant cleaning, finally snaps and complains that he is tired of the red apron. When the wife asks what he means, he reveals the absurdity of the situation by demanding a blue apron instead. The sketch ends with the wife asking her phone contact if they have a blue one in the house.",
+    "keywords_hy": [
+      "տնային տնտեսուհի",
+      "գոգնոց",
+      "աման լվանալ",
+      "հեռախոսով խոսել",
+      "ամուսին և կին",
+      "բամբասանք",
+      "մաքրություն"
+    ],
+    "keywords_en": [
+      "housewife",
+      "apron",
+      "washing dishes",
+      "phone gossip",
+      "husband and wife",
+      "household chores",
+      "role reversal"
+    ],
+    "keywords_translit": [
+      "tnayin tntesuhi",
+      "gognoc",
+      "aman lvanal",
+      "heraxosov xosel",
+      "amusin ev kin",
+      "bambasanq",
+      "maqrunyun"
+    ],
+    "catchphrases": [
+      "Դե կյանք ջան, կապույտ գոգնոց եմ ուզում։"
+    ],
+    "topics": [
+      "family",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

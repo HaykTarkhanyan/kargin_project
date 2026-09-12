@@ -1,0 +1,72 @@
+{
+  "video_id": "XJ6L4B2mluA",
+  "seq": 442,
+  "kargin_id": 442,
+  "title": "Kargin Haghordum - Azniv chi (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2727,
+  "gen_sec": 12.09,
+  "prompt_tokens": 2542,
+  "output_tokens": 666,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003269,
+  "annotation": {
+    "title_hy": "Շեֆի պաշտպանները և արդար կռիվը",
+    "title_en": "Protecting the Boss and a Fair Fight",
+    "summary_en": "Bodyguards for a powerful boss discuss their duties before getting into a road dispute where their obsession with 'fairness' allows the offender to walk away.",
+    "summary_detailed_en": "The sketch begins with two men in a car driving down a tree-lined rural road. The driver lectures his partner about their duties protecting their 'boss,' a man so busy he supposedly works as both a 'deputy' and a 'parliament member' simultaneously. The driver mocks his partner for a past mistake where he beat up a bathhouse attendant for hitting the boss with a bundle of twigs (a traditional bath ritual), explaining he must learn when protection is actually necessary. Suddenly, another vehicle hits their car. A group of men in dark coats (the bodyguards) gets out to confront the driver who hit them, who is an elderly man. As they prepare to beat him up, the old man argues that it is 'not fair' (azniv chi) for four men to fight one. Obsessed with the logic of a fair fight, the bodyguards begin reshuffling their sides, sending two men to join the old man's side. When this creates a new imbalance, they continue to shift until they realize they are only fighting each other. They ultimately tell the old man to just leave so they can resolve the 'unfairness' among themselves, letting the culprit go free.",
+    "keywords_hy": [
+      "կարգին հաղորդում",
+      "շեֆ",
+      "ազնիվ չի",
+      "բիձա",
+      "թիկնապահ",
+      "բաղնիք",
+      "ավել",
+      "ավտոպատահար"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "bodyguards",
+      "fair fight",
+      "boss",
+      "car accident",
+      "bathhouse",
+      "street logic",
+      "Armenian comedy"
+    ],
+    "keywords_translit": [
+      "kargin haghordum",
+      "shef",
+      "azniv chi",
+      "bidza",
+      "tiknapah",
+      "baghniq",
+      "avel",
+      "avtopatahar"
+    ],
+    "catchphrases": [
+      "ըտենց ազնիվ չի",
+      "ճիշտա ասում բձեն",
+      "բձեն երեքը երկուսի վրա էտի ազնիվ չի"
+    ],
+    "topics": [
+      "transport",
+      "crime",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

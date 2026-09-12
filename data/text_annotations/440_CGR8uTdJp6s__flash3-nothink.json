@@ -1,0 +1,74 @@
+{
+  "video_id": "CGR8uTdJp6s",
+  "seq": 440,
+  "kargin_id": 440,
+  "title": "Kargin Haghordum - Zugaranya (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "440_Kargin_Haghordum_-_Zugaranya_Hayko_Mko_CGR8uTdJp6s.hy.json",
+    "visual": true
+  },
+  "input_chars": 2104,
+  "gen_sec": 12.11,
+  "prompt_tokens": 2214,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002928,
+  "annotation": {
+    "title_hy": "Գիշերային տան շրջայց",
+    "title_en": "Late Night Home Tour",
+    "summary_en": "An intoxicated man insists on giving his reluctant friend a tour of his apartment at 3 AM, leading to a series of physical altercations and absurd descriptions of the rooms.",
+    "summary_detailed_en": "The sketch begins at 3 AM outside an apartment, where one man is trying to say goodbye and go home, but his intoxicated friend refuses to let him leave, insisting they go inside for a drink. Despite the guest's protests about the late hour and what the family will think, the host drags him into the hallway. The host proceeds to give an absurd 'home tour' while the two men engage in a slapstick physical struggle, repeatedly slapping and shoving each other. The host describes the 'kalidor' (hallway) as versatile because you can use it to both enter and leave the house. He then shows the 'zugaranya' (bathroom/toilet), explaining vaguely that the whole family bathes and 'does their business' there using colloquial terms like 'puki-muki.' The sketch concludes as the host drags his exhausted friend into the 'spalnya' (bedroom), pointing out where he and his wife sleep, even though people are clearly trying to rest, all while the two continue their aggressive physical bickering.",
+    "keywords_hy": [
+      "հարբած",
+      "հյուր",
+      "տան շրջայց",
+      "կռիվ",
+      "ապտակ",
+      "գիշեր",
+      "ընկերներ",
+      "զուգարան",
+      "ննջասենյակ"
+    ],
+    "keywords_en": [
+      "drunk",
+      "guest",
+      "home tour",
+      "fight",
+      "slapping",
+      "night",
+      "friends",
+      "bathroom",
+      "bedroom"
+    ],
+    "keywords_translit": [
+      "harbats",
+      "hyur",
+      "tan shrjayts",
+      "kriv",
+      "aptak",
+      "gisher",
+      "ynkerner",
+      "zugaranya",
+      "spalnya"
+    ],
+    "catchphrases": [
+      "սա մեր զուգարանյանը",
+      "պուկի մուկի էլի"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

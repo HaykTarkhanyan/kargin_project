@@ -1,0 +1,68 @@
+{
+  "video_id": "W0XFxz082oE",
+  "seq": 361,
+  "kargin_id": 361,
+  "title": "Kargin Haghordum sketch 225 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1971,
+  "gen_sec": 7.09,
+  "prompt_tokens": 2005,
+  "output_tokens": 632,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002899,
+  "annotation": {
+    "title_hy": "Փորձանք և դժբախտություն դպրոցում",
+    "title_en": "Misfortune and Calamity in School",
+    "summary_en": "A strict teacher tries to explain the linguistic difference between 'trouble' and 'misfortune,' only for a student to deliver a witty, insulting retort.",
+    "summary_detailed_en": "The sketch takes place in a classroom setting where a male actor in drag plays Comrade Petrosyan, a teacher wearing a red curly wig, lipstick, and a striped cardigan. She sits at a desk in front of a blackboard, lecturing the class on the definitions of 'trouble' (pordzank) and 'misfortune' (dzhbakhtutyun). When a student named Mkhitaryan asks to leave early for his birthday, she coldly refuses, stating that family celebrations have nothing to do with the Armenian language. The teacher then asks the students for examples of the vocabulary words. A student named Gor defines 'trouble' as the teacher's balcony collapsing while she is standing on it. The teacher finds the example morbid but linguistically accurate. For the definition of 'misfortune,' she calls on Mkhitaryan again. In a moment of revenge for her earlier strictness, Mkhitaryan deadpans that 'misfortune' is the fact that Gor's scenario about the balcony will never actually happen, effectively wishing for the teacher's demise. The scene utilizes frequent cuts between the teacher and the pairs of students at their desks.",
+    "keywords_hy": [
+      "դպրոց",
+      "ուսուցիչ",
+      "աշակերտ",
+      "հայոց լեզու",
+      "դասարան",
+      "ծննդյան օր",
+      "փորձանք",
+      "դժբախտություն"
+    ],
+    "keywords_en": [
+      "school",
+      "teacher",
+      "student",
+      "Armenian language",
+      "classroom",
+      "birthday",
+      "trouble",
+      "misfortune"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "usucich",
+      "ashakert",
+      "hayoc lezu",
+      "dasaran",
+      "cnndyan or",
+      "pordzank",
+      "dzhbakhtutyun"
+    ],
+    "catchphrases": [
+      "֊Դժբախտությունն էտ ենա, որ Գոռի ասածը երբեք չի կատարվի։"
+    ],
+    "topics": [
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

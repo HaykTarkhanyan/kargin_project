@@ -1,0 +1,70 @@
+{
+  "video_id": "PU3ourr4rKA",
+  "seq": 678,
+  "kargin_id": 678,
+  "title": "Kargin Haghordum sketch 258 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2011,
+  "gen_sec": 6.61,
+  "prompt_tokens": 2035,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002815,
+  "annotation": {
+    "title_hy": "Երեքը չորսի վրա լուսանկար",
+    "title_en": "Three by Four Photo",
+    "summary_en": "A group of athletes in tracksuits visits a professional photographer to take a '3x4' photo, which they hilariously misunderstand as a combat composition.",
+    "summary_detailed_en": "The sketch begins in a photography studio where a mustached photographer wearing a beret finishes a session with a mother and her two children. As they leave, a large group of young men dressed in red and blue tracksuits enters the studio. They request a photo, and the photographer asks if they want a group portrait. However, one of the men explains they need a shot of 'three attacking four.' The professional photographer, interpreting this as an artistic composition, instructs three of them to look dominant, proud, and aggressive, while the other four are told to look submissive, fearful, and oppressed. They pose in a chaotic, physical pile-up, mock-fighting in front of the vintage tripod camera. After the shutter clicks, the photographer informs them the prints will be ready the next day and asks why seven people only ordered two copies. The punchline reveals the linguistic misunderstanding: their coach told them they needed two '3x4' (three by four centimeter) ID photos, which they interpreted as a literal description of three people fighting four.",
+    "keywords_hy": [
+      "լուսանկարիչ",
+      "ֆոտոստուդիա",
+      "սպորտսմեններ",
+      "թյուրիմացություն",
+      "երեքը չորսի վրա",
+      "կոմպոզիցիա",
+      "նկարվել",
+      "տրենեռ"
+    ],
+    "keywords_en": [
+      "photographer",
+      "photo studio",
+      "athletes",
+      "misunderstanding",
+      "three by four",
+      "composition",
+      "tracksuits",
+      "ID photo"
+    ],
+    "keywords_translit": [
+      "lusankarich",
+      "fotostudia",
+      "sportsmenner",
+      "tyurimatsutyun",
+      "ireqy chorsi vra",
+      "kompozicia",
+      "nkarvel",
+      "trener"
+    ],
+    "catchphrases": [
+      "իրեքը չորսի վրա"
+    ],
+    "topics": [
+      "work",
+      "sports",
+      "other"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

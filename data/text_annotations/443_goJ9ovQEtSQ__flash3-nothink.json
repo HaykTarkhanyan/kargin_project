@@ -1,0 +1,71 @@
+{
+  "video_id": "goJ9ovQEtSQ",
+  "seq": 443,
+  "kargin_id": 443,
+  "title": "Kargin Haghordum - Nissan (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1951,
+  "gen_sec": 9.31,
+  "prompt_tokens": 2049,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002956,
+  "annotation": {
+    "title_hy": "Նիսան Քաշքայ և փլված պատը",
+    "title_en": "Nissan Qashqai and the Collapsed Wall",
+    "summary_en": "A customer at a car dealership inquires about the expensive Nissan Qashqai, only to reveal a bizarre reason for needing that specific model.",
+    "summary_detailed_en": "The sketch takes place in a bright Nissan car dealership showroom. A customer wearing a tan jacket approaches an enthusiastic, mustached car salesman to inquire about a silver Nissan Qashqai SUV. The customer asks a series of technical questions in colloquial Armenian, verifying if the car has a leather interior, 'zadni' (reverse gear/camera), parking sensors, and 'climax control' (a malapropism for climate control). The salesman politely corrects him, noting features like power mirrors and a 'tiptronic' gearbox. When the price is revealed to be over ten million drams, the customer repeatedly complains that it is too expensive, even when offered a three-year installment plan. The salesman eventually suggests that the man should look for a more affordable car, like a Nissan Tiida. The customer agrees it would be more logical, but delivers the punchline: he only wants this specific Qashqai because his stone wall collapsed, and the gap in the wall is exactly the size and shape of this particular vehicle.",
+    "keywords_hy": [
+      "ավտոսրահ",
+      "Նիսան",
+      "ապառիկ",
+      "մեքենա",
+      "թանկ",
+      "վաճառող",
+      "հաճախորդ",
+      "կլիմատ կոնտրոլ"
+    ],
+    "keywords_en": [
+      "car dealership",
+      "Nissan Qashqai",
+      "installment plan",
+      "expensive",
+      "car salesman",
+      "customer",
+      "tiptronic",
+      "collapsed wall"
+    ],
+    "keywords_translit": [
+      "avtosrah",
+      "Nissan",
+      "apariq",
+      "meqena",
+      "tanga",
+      "vacharox",
+      "hachaxord",
+      "klimat kontrol"
+    ],
+    "catchphrases": [
+      "ավելի ճիշտ չէր լինի որ դուք ձեր համար ավելի մատչելի մեքենա ընտրեիք",
+      "պռոստը շարածս պատը փլվելա տոշնի սենց մաշնի վրա"
+    ],
+    "topics": [
+      "shop_market",
+      "money",
+      "transport"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "video_id": "-ZoqTxj7rfQ",
+  "seq": 153,
+  "kargin_id": 153,
+  "title": "Kargin Haghordum sketch 527 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "153_Kargin_Haghordum_sketch_527_Hayko_Mko_-ZoqTxj7rfQ.hy.json",
+    "visual": true
+  },
+  "input_chars": 1172,
+  "gen_sec": 12.34,
+  "prompt_tokens": 1617,
+  "output_tokens": 527,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00239,
+  "annotation": {
+    "title_hy": "Շան պես սողացող կինը",
+    "title_en": "The Crawling Woman",
+    "summary_en": "A man training his dog in the woods is shocked to encounter a woman crawling on all fours like a wild animal.",
+    "summary_detailed_en": "The sketch takes place on a wooded dirt path during the day. A woman wearing a colorful patterned top, carrying a handbag, and appearing with wild, disheveled hair is seen walking alone. Suddenly, she drops her bag and falls to her knees, beginning to crawl rapidly and frantically across the ground as if possessed or imitating a feral creature. A man wearing a cap and holding a golden retriever on a leash is in the same area. He is seen giving commands to his dog, such as 'Stand up,' 'Lie down,' and 'Crawl.' As the woman approaches him on all fours, the man reacts with alarm, asking if something has happened or if she is feeling unwell. The woman, seemingly oblivious to her own strange behavior, asks him what he is doing there. The man delivers the punchline, explaining that he was simply training his dog when he suddenly saw her coming toward him on all fours.",
+    "keywords_hy": [
+      "շուն",
+      "սողալ",
+      "անտառ",
+      "վարժեցում",
+      "տիկին",
+      "ծիծաղելի",
+      "տարօրինակ"
+    ],
+    "keywords_en": [
+      "dog",
+      "crawling",
+      "woods",
+      "training",
+      "woman",
+      "funny",
+      "strange"
+    ],
+    "keywords_translit": [
+      "shun",
+      "soghal",
+      "antar",
+      "varzhetsum",
+      "tikin",
+      "tsitsagheli",
+      "tarorinak"
+    ],
+    "catchphrases": [
+      "ես իմ համար շանս հետ պարապում էի տենամ չոքեչոք գալիս եք ։"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

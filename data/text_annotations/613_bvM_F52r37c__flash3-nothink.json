@@ -1,0 +1,68 @@
+{
+  "video_id": "bvM_F52r37c",
+  "seq": 613,
+  "kargin_id": 613,
+  "title": "Kargin Haghordum sketch 495 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1415,
+  "gen_sec": 8.74,
+  "prompt_tokens": 1728,
+  "output_tokens": 556,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002532,
+  "annotation": {
+    "title_hy": "Իրա ամեն ինչով",
+    "title_en": "With Everything It Comes With",
+    "summary_en": "A demanding customer orders a long list of absurd dishes and sides at a restaurant, repeatedly using the phrase \"with everything it comes with.\"",
+    "summary_detailed_en": "In a restaurant lounge setting identified as the Cherry Club, a customer with a specific and demanding palate places an order with a mustached waiter. The customer starts by ordering bread and mixed greens, emphasizing that everything must come 'with everything it comes with.' The order escalates into absurdity as he asks for lemon squeezed into yogurt and then inquires about black and red caviar. He specifically asks for 'green caviar that hasn't ripened yet,' suggesting it be served alongside the greens. The requests become increasingly bizarre, including 'sturgeon thighs' and 'trout hips.' Throughout the scene, the customer repeatedly uses the catchphrase 'ira amen inchov' (with everything it comes with). Finally, overwhelmed by his own complex order, he tells the waiter to sit at the next table, write everything down, and bring it all quickly because he is starving. Later, a second customer sees the lavish spread and tells the waiter he wants exactly what the first man is having. The scene ends with the waiter assisting the now-tipsy customer as they walk through the venue.",
+    "keywords_hy": [
+      "ռեստորան",
+      "մատուցող",
+      "պատվեր",
+      "հաճախորդ",
+      "իրա ամեն ինչով",
+      "իկռա",
+      "իշխան",
+      "ուտելիք"
+    ],
+    "keywords_en": [
+      "restaurant",
+      "waiter",
+      "order",
+      "customer",
+      "with everything",
+      "caviar",
+      "trout",
+      "food"
+    ],
+    "keywords_translit": [
+      "restoran",
+      "matucox",
+      "patver",
+      "hachaxord",
+      "ira amen inchov",
+      "ikra",
+      "ishxan",
+      "uteliyq"
+    ],
+    "catchphrases": [
+      "իրա ամեն ինչով"
+    ],
+    "topics": [
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

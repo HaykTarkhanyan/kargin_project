@@ -1,0 +1,70 @@
+{
+  "video_id": "A2TJpch1-tw",
+  "seq": 485,
+  "kargin_id": 485,
+  "title": "Kargin Haghordum sketch 113 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "485_Kargin_Haghordum_sketch_113_Hayko_Mko_A2TJpch1-tw.tr.json",
+    "visual": true
+  },
+  "input_chars": 2207,
+  "gen_sec": 8.05,
+  "prompt_tokens": 2209,
+  "output_tokens": 677,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003135,
+  "annotation": {
+    "title_hy": "Կնոջս մորթը չգաս",
+    "title_en": "Don't Skin My Wife",
+    "summary_en": "A husband misinterprets his wife's sexual fantasies and roleplay requests as literal instructions for a dark crime.",
+    "summary_detailed_en": "The sketch begins in an apartment bedroom where a husband and his wife (played by a man in drag with a red wig) are lounging in bed. The wife praises the husband's 'performance' the previous night, comparing his speed to a rapper or a 'negro' and discussing his past experiences working abroad in Russia (khopan). The husband boasts about his time in Russia with 'khakhlushka' women while coughing heavily, claiming he has tuberculosis but dismissing it as common. The wife then shares a 'nightmare' where Brad Pitt and Antonio Banderas fought over her, but her 'beast' of a husband beat them up and kicked them out. Eager for more action, the wife asks the husband to speak 'dirty words' to her to get her excited. He responds with literal filth—mentioning garbage chutes, toilets, and snot. Finally, she asks him to do something extreme, which he misinterprets. The scene shifts to the couple being heavily bandaged with crutches and casts. The punchline reveals the husband thought she wanted him to skin her ('mort' vs 'mot'), leading to a violent misunderstanding.",
+    "keywords_hy": [
+      "կարգին հաղորդում",
+      "խոպան",
+      "երազ",
+      "կեղտոտ խոսքեր",
+      "տուբերկուլոզ",
+      "թյուրիմացություն",
+      "կնոջ մորթ",
+      "նամյոկ"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "roleplay",
+      "dirty talk",
+      "misunderstanding",
+      "Russia work",
+      "dream",
+      "tuberculosis",
+      "literal interpretation"
+    ],
+    "keywords_translit": [
+      "kargin haghordum",
+      "khopan",
+      "eraz",
+      "kekhtot khosker",
+      "tuberkuloz",
+      "tyurimacutyun",
+      "knoj mort",
+      "namyok"
+    ],
+    "catchphrases": [
+      "սպասի ախպեր դու ինձնից ինչ ես ուզում ուզում եմ որ կնգաս մորդ չգաս բա տենց էլ ասա թե չէ էս քանի օրա նամյոկներ ես տալիս"
+    ],
+    "topics": [
+      "family",
+      "medical",
+      "neighbors"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

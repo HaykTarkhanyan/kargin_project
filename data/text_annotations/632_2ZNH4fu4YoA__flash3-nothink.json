@@ -1,0 +1,66 @@
+{
+  "video_id": "2ZNH4fu4YoA",
+  "seq": 632,
+  "kargin_id": 632,
+  "title": "Kargin Haghordum sketch 554 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "632_Kargin_Haghordum_sketch_554_Hayko_Mko_2ZNH4fu4YoA.tr.json",
+    "visual": true
+  },
+  "input_chars": 1309,
+  "gen_sec": 4.01,
+  "prompt_tokens": 1702,
+  "output_tokens": 422,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002117,
+  "annotation": {
+    "title_hy": "Գողերն ու Հայկո-Մկոն",
+    "title_en": "The Burglars and Hayko-Mko",
+    "summary_en": "Two burglars break into an apartment only to find the resident couple in the middle of a domestic dispute, leading to an awkward encounter.",
+    "summary_detailed_en": "The sketch begins with desaturated, film-noir-style footage of two burglars wearing dark jackets and beanies, armed with knives, nervously creeping up an apartment stairwell. They whisper to each other about being quiet so as not to be heard from inside. One thief is worried about being recognized, but his partner scoffs, joking that they aren't celebrities like 'Hayko and Mko' whom everyone would know. Once they burst into the living room, they find a husband and wife sitting on the couch watching an old TV. The domestic reality is far from the cinematic tension; the husband asks his wife, Marine, to heat up dinner since he is hungry from work, but she coldly refuses, reminding him she is still not speaking to him. The burglars stand awkwardly with their knives near the dresser as the couple continues their mundane argument. The husband pleads with his wife not to speak to him with such 'munat' (sullenness), while the burglars eventually engage in a physical struggle with the residents.",
+    "keywords_hy": [
+      "գողեր",
+      "բնակարան",
+      "կողոպուտ",
+      "ամուսիններ",
+      "վեճ",
+      "դանակ",
+      "սև ու սպիտակ"
+    ],
+    "keywords_en": [
+      "burglars",
+      "apartment",
+      "robbery",
+      "husband and wife",
+      "argument",
+      "knife",
+      "film noir"
+    ],
+    "keywords_translit": [
+      "gogher",
+      "bnakaran",
+      "koghoput",
+      "amusinner",
+      "vech",
+      "danak",
+      "sev u spitak"
+    ],
+    "catchphrases": [
+      "Ցավդ տանեմ, ինչի ես հետս մունաթով խոսում որ"
+    ],
+    "topics": [
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

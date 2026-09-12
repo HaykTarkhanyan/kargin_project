@@ -1,0 +1,69 @@
+{
+  "video_id": "7ZWLrWrEjJo",
+  "seq": 30,
+  "kargin_id": 30,
+  "title": "Kargin Haghordum sketch 337 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "030_Kargin_Haghordum_sketch_337_Hayko_Mko_7ZWLrWrEjJo.hi.json",
+    "visual": true
+  },
+  "input_chars": 1432,
+  "gen_sec": 17.75,
+  "prompt_tokens": 1729,
+  "output_tokens": 482,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002311,
+  "annotation": {
+    "title_hy": "Դիետիկ Քյաբաբ",
+    "title_en": "Diet Kebab",
+    "summary_en": "A man takes his date to a cafe and tries to order a 'diet kebab' as a joke, but the outing takes an awkward turn when he insults her family.",
+    "summary_detailed_en": "The sketch takes place at an outdoor restaurant or cafe. A man wearing sunglasses is on a date with a curly-haired woman. When the waiter, dressed in an orange polo shirt, approaches to take their order, the man jokingly asks for a cola and a kebab for himself, and a 'diet cola and a diet kebab' for his date. When the confused waiter asks what a diet kebab is, the man mockingly suggests it means no kebab at all. The man then boasts to his date that he finally took her out, complaining about how she always tells her mother they never go anywhere. He proceeds to insult her mother, calling her a 'cunning boy' (guy) for orchestrating the date. The situation escalates when two young women walk past the table; the man stares at them, and when his date questions who they are, he rudely tells her to wait while he figures out how to explain to the strangers who she is. The sketch concludes with the woman physically reacting and leaving the man sitting alone and dejected.",
+    "keywords_hy": [
+      "կաֆե",
+      "ռեստորան",
+      "քյաբաբ",
+      "դիետիկ",
+      "ժամադրություն",
+      "մատուցող",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "cafe",
+      "restaurant",
+      "kebab",
+      "diet",
+      "date",
+      "waiter",
+      "joke",
+      "insult"
+    ],
+    "keywords_translit": [
+      "kafe",
+      "restoran",
+      "kyabab",
+      "dietik",
+      "zhamadrutyun",
+      "matucogh",
+      "katak"
+    ],
+    "catchphrases": [
+      "կնգաս էլ մի հատ դիետիկ կոլա մի հատ էլ դիետիկ քյաբաբ",
+      "ապեր վսյո կատակը պրծավ գնա գործդ արա",
+      "սպասի էլի ես մտածում եմ նրան ոնց բացատրեմ թե դու ով ես"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

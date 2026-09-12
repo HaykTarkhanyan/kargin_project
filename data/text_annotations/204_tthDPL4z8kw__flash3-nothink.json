@@ -1,0 +1,67 @@
+{
+  "video_id": "tthDPL4z8kw",
+  "seq": 204,
+  "kargin_id": 204,
+  "title": "Kargin Haghordum - Sirekanner (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "204_Kargin_Haghordum_-_Sirekanner_Hayko_Mko_tthDPL4z8kw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1803,
+  "gen_sec": 7.82,
+  "prompt_tokens": 1933,
+  "output_tokens": 545,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002602,
+  "annotation": {
+    "title_hy": "Կնոջ սերը ստուգելու ձևը",
+    "title_en": "Testing the Wife's Love",
+    "summary_en": "A husband catches his wife's lover in the bedroom and proposes a fake double-suicide pact to see which one of them she will mourn first.",
+    "summary_detailed_en": "The sketch begins with a man in a yellow shirt and tie entering his apartment, where he discovers his wife in bed and finds her shirtless, mustached lover hiding. Instead of a typical violent confrontation, the husband reveals he has known about the three-year affair and admits he loves his wife so much that he wants to leave the choice to her. He proposes a bizarre test: he will fire his gun twice into the air, and both men will play dead on the floor. When the wife enters the room after hearing the shots, whoever she rushes to first is the one she truly loves; the loser must pack their bags and disappear forever. The lover agrees to the plan. Two shots ring out, and both men lie motionless. However, the sketch ends with a twist when the wife, hearing the silence, calls out to a third person that the two 'idiots' have killed each other, revealing her own indifference to both of them.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "ատրճանակ",
+      "սիրեկան",
+      "ամուսին",
+      "փորձություն",
+      "կնոջ սերը",
+      "կրակոց"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "pistol",
+      "lover",
+      "husband",
+      "test of love",
+      "wife",
+      "fake death"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "atrtchanak",
+      "sirekan",
+      "amusin",
+      "pordzutyun",
+      "knoj sery",
+      "krakoc"
+    ],
+    "catchphrases": [
+      "կնգաս սրտում տեղ ունես"
+    ],
+    "topics": [
+      "family",
+      "romance",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

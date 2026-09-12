@@ -1,0 +1,72 @@
+{
+  "video_id": "QLRXsgR_mCI",
+  "seq": 102,
+  "kargin_id": 102,
+  "title": "Kargin Haghordum sketch 643 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "102_Kargin_Haghordum_sketch_643_Hayko_Mko_QLRXsgR_mCI.en.json",
+    "visual": true
+  },
+  "input_chars": 3963,
+  "gen_sec": 5.11,
+  "prompt_tokens": 2644,
+  "output_tokens": 652,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003278,
+  "annotation": {
+    "title_hy": "Ուղղիչ օրինակ կնոջ համար",
+    "title_en": "Example for the Wife",
+    "summary_en": "A drunk man aggressively confronts a beggar in a snowy park, only to invite him home as a cautionary example for his wife.",
+    "summary_detailed_en": "Set in a snowy outdoor park during the day, the sketch features two men in winter gear: one in a fur ushanka hat and another in an overcoat. The man in the ushanka, who is visibly intoxicated and aggressive, confronts the other man, a homeless beggar who is wearing multiple layers of clothing. The interaction begins with a physical scuffle and a chase where the drunk man tackles the beggar into the snow. During the confrontation, the drunk man interrogates the beggar about his habits, asking if he spends money on alcohol, women, or gambling. The beggar insists he has no vices and avoids all such activities. Upon hearing this, the drunk man's attitude shifts from aggression to a strange kind of respect mixed with a hidden agenda. He offers the beggar a cigarette and insists he come to his house for a hot meal and to have his clothes washed. The punchline reveals the motive: he wants his wife to see the pathetic state of a man who doesn't drink, cheat, or gamble, using the beggar as a negative example of what happens to 'virtuous' men.",
+    "keywords_hy": [
+      "հարբած",
+      "մուրացկան",
+      "ձյուն",
+      "զբոսայգի",
+      "խրատ",
+      "կին",
+      "փող",
+      "կաղամբ",
+      "բիչոկ"
+    ],
+    "keywords_en": [
+      "drunk man",
+      "beggar",
+      "snowy park",
+      "lesson",
+      "wife",
+      "money",
+      "cabbage",
+      "cigarette butt"
+    ],
+    "keywords_translit": [
+      "harbats",
+      "muratskan",
+      "dzyun",
+      "zbosaygi",
+      "khrat",
+      "knik",
+      "pogh",
+      "kaghamb",
+      "bichok"
+    ],
+    "catchphrases": [
+      "դու պետքա գաս մեր տուն որ կնիկս հասկանա թե ինչա լինում են մարդկանց հետ որոնք ոչ խմում են ոչ լեվի են գնում ոչ էլ ղումար են խաղում"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

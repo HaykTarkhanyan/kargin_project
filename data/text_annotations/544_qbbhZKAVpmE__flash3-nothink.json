@@ -1,0 +1,70 @@
+{
+  "video_id": "qbbhZKAVpmE",
+  "seq": 544,
+  "kargin_id": 544,
+  "title": "Kargin Haghordum sketch 176 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "544_Kargin_Haghordum_sketch_176_Hayko_Mko_qbbhZKAVpmE.hy.json",
+    "visual": true
+  },
+  "input_chars": 1722,
+  "gen_sec": 7.82,
+  "prompt_tokens": 1915,
+  "output_tokens": 641,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00288,
+  "annotation": {
+    "title_hy": "Գրասենյակի բացվող դիվանը",
+    "title_en": "The Office Sofa Bed",
+    "summary_en": "A secretary gossiping on the phone about an overpriced crocodile bag mistakenly believes she is being fired when the boss orders the furniture to be moved.",
+    "summary_detailed_en": "The sketch takes place in a typical office setting. A secretary is sitting at her desk, surrounded by a computer, a wall calendar, and papers, engrossed in a long personal phone call with her friend Lus. She gossips about her shopping trip, describing an incredibly expensive crocodile skin handbag she saw, joking that for that price, she could buy a real crocodile and two monkeys from the zoo as change. While she is talking, a boss figure (a man with a mustache) is seen in a separate office area gesturing animatedly. An older male visitor or worker is also present. The secretary's casual conversation is abruptly interrupted when she sees furniture being moved out. She panics, confronting her boss, Mr. Harutyunyan, asking if she is being fired. The boss, confused by her reaction, clarifies the situation with a punchline: she isn't being fired; they were simply taking away the 'sofa bed' (folding sofa) she was sitting on or that was in the room.",
+    "keywords_hy": [
+      "գրասենյակ",
+      "քարտուղարուհի",
+      "հեռախոսազանգ",
+      "կրակադիլի կաշի",
+      "սումչկա",
+      "աշխատանքից հանել",
+      "բացվող դիվան",
+      "զոոպարկ"
+    ],
+    "keywords_en": [
+      "office",
+      "secretary",
+      "phone call",
+      "crocodile skin",
+      "handbag",
+      "getting fired",
+      "sofa bed",
+      "zoo"
+    ],
+    "keywords_translit": [
+      "grasenyak",
+      "qartuxaruhi",
+      "heraxosazang",
+      "krakadili kashi",
+      "sumchka",
+      "ashxatanqic hanel",
+      "bacvox divan",
+      "zoopark"
+    ],
+    "catchphrases": [
+      "լսի մի հատ նենց սումչկա եմ տեսել, կրակադիլի կաշվից,բայց վրեն հոր գինն էին դրել:"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

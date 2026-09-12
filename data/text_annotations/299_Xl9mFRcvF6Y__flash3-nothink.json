@@ -1,0 +1,75 @@
+{
+  "video_id": "Xl9mFRcvF6Y",
+  "seq": 299,
+  "kargin_id": 299,
+  "title": "Kargin Haghordum sketch 418 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3173,
+  "gen_sec": 21.11,
+  "prompt_tokens": 2766,
+  "output_tokens": 695,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003468,
+  "annotation": {
+    "title_hy": "Համբալների 100 Դոլարը",
+    "title_en": "The Porters' 100 Dollars",
+    "summary_en": "Two laborers find a hundred-dollar bill and struggle between their conscience to spend it on their children or their desire to spend it all on vodka.",
+    "summary_detailed_en": "The sketch takes place in an industrial warehouse filled with sacks and crates. Two laborers, Mozg and Butul, are working when they find a hundred-dollar bill. Mozg, feeling a sudden pang of responsibility, suggests using the money to buy notebooks for their children so they can attend university and not end up as manual laborers ('hambal') like themselves. However, Butul, wearing a flat cap, constantly manipulates the conversation toward drinking, claiming one notebook isn't enough for university and four or five bicycles are needed for sports. They eventually decide to buy ten bottles of vodka and just one loaf of bread, which Butul even mocks as being too much bread. As they sit at a small table and get increasingly intoxicated, Mozg has a moral crisis, lamenting that as a man of 'five professions' (carrying stones, cement, pianos, crates, and vodka cases), he is failing his children. To settle the debate, Butul proposes a game of chance involving a bottle cap hidden behind his back; if Mozg guesses the hand, it proves God intended the money for more vodka. The sketch ends with Mozg desperately trying to guess the hand to justify their drinking.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "հարյուր դոլար",
+      "համբալ",
+      "արաղ",
+      "Մոզգ",
+      "Բութուլ",
+      "բանվոր",
+      "խմել",
+      "ինստիտուտ",
+      "տետր"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "hundred dollars",
+      "porters",
+      "vodka",
+      "laborers",
+      "warehouse",
+      "drinking",
+      "university",
+      "notebooks",
+      "working class"
+    ],
+    "keywords_translit": [
+      "haryur dolar",
+      "hambal",
+      "aragh",
+      "Mozg",
+      "Butul",
+      "banvor",
+      "khmel",
+      "institut",
+      "tetr"
+    ],
+    "catchphrases": [
+      "բա ես հինգը մասնագիտության տեր տղա արա մոզգ արա ընգել եմ քո խելքին,սխալ ենք անում Բութուլ,պտի էրեխեքի վրա ծախսենք"
+    ],
+    "topics": [
+      "work",
+      "money",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

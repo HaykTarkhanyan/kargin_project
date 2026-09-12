@@ -1,0 +1,70 @@
+{
+  "video_id": "MO4IeuSmo08",
+  "seq": 50,
+  "kargin_id": 50,
+  "title": "Kargin Haghordum sketch 615 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1924,
+  "gen_sec": 7.1,
+  "prompt_tokens": 1728,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002754,
+  "annotation": {
+    "title_hy": "Հյուրանոցի երկտեղանոց համարը",
+    "title_en": "The Double Hotel Room",
+    "summary_en": "A factory director and his accountant must share a single double room in Moscow due to a booking error, leading to a shift in their professional relationship.",
+    "summary_detailed_en": "Set in a hotel in Moscow during the busy pre-New Year season, the sketch begins with a hotel receptionist in a shirt and tie leading two guests up a white staircase. The guests are a mustachioed man in a heavy black overcoat and a young blonde woman. The receptionist explains in Russian that they were unable to hold the two separate single rooms previously booked and offers a single double room instead. The man expresses concern, clarifying to the receptionist, Gavrila, that they are not a married couple but a factory director and a chief accountant. Despite his initial hesitation about the appropriateness of the arrangement, the director tips the receptionist with a dollar, and they accept the room. The receptionist exits after jokingly using the Armenian phrase 'aravazelov ari steg'. Inside the room, which features a double bed and wall-mounted TV, the tension eases. After the woman changes into a nightdress and gets into bed, the man emerges from the bathroom in a white singlet. He asks if they should sleep as colleagues or as a married couple. When she chooses the latter, the scene ends with them giggling and playfully wrestling with pillows.",
+    "keywords_hy": [
+      "հյուրանոց",
+      "Մոսկվա",
+      "հաշվապահ",
+      "տնօրեն",
+      "գործուղում",
+      "երկտեղանոց համար",
+      "կաշառք",
+      "դոլար"
+    ],
+    "keywords_en": [
+      "hotel",
+      "Moscow",
+      "accountant",
+      "director",
+      "business trip",
+      "double room",
+      "receptionist",
+      "bribe"
+    ],
+    "keywords_translit": [
+      "hyuranoc",
+      "Moskva",
+      "hashvapah",
+      "tnoren",
+      "gorcughum",
+      "erkteghanoc hamar",
+      "kasharq",
+      "dolar"
+    ],
+    "catchphrases": [
+      "հիմա ոնց որ դիրեկտոր ու հաշվապահ ենք քնելո՞ւ թե՞ ոնց որ մարդ ու կնիկ"
+    ],
+    "topics": [
+      "work",
+      "romance",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "lfKiq6Qe880",
+  "seq": 396,
+  "kargin_id": 396,
+  "title": "Kargin Haghordum - Nsti meqenan (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "396_Kargin_Haghordum_-_Nsti_meqenan_Hayko_Mko_lfKiq6Qe880.hi.json",
+    "visual": true
+  },
+  "input_chars": 1514,
+  "gen_sec": 16.93,
+  "prompt_tokens": 1730,
+  "output_tokens": 634,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002767,
+  "annotation": {
+    "title_hy": "Հնամաշ Մոսկվիչը և Դպրոցը",
+    "title_en": "The Old Moskvich and School",
+    "summary_en": "A father desperately tries to bribe his daughter with treats and toys to get into his old car, but she is too embarrassed to be seen in it at school.",
+    "summary_detailed_en": "The sketch takes place on a street outside a school during the day. A schoolgirl wearing a white top and a red backpack is walking home along a wall. Her father, a grinning man wearing glasses, follows her slowly in a beat-up red Moskvich (or Lada style) car. The father repeatedly calls out to her, using pet names like 'Balik jan' and 'Aziz jan,' trying to bribe her to get into the vehicle. He offers to buy her ice cream, a soft toy, and even a bicycle if she just agrees to get in. The daughter stubbornly refuses each offer, continuing to walk as her father keeps pace with the car. The visual sequence emphasizes the repetition of her walking and him driving alongside. Finally, she snaps in frustration, revealing the true reason for her defiance: she has told him a thousand times not to pick her up from school in that 'exploded' (decrepit) old Moskvich. She is deeply embarrassed by the car's appearance in front of her peers.",
+    "keywords_hy": [
+      "հայր և աղջիկ",
+      "դպրոց",
+      "մեքենա",
+      "Մոսկվիչ",
+      "ամոթ",
+      "կաշառք",
+      "պապա",
+      "աշակերտ"
+    ],
+    "keywords_en": [
+      "father and daughter",
+      "school",
+      "old car",
+      "Moskvich",
+      "embarrassment",
+      "bribe",
+      "parenting",
+      "student"
+    ],
+    "keywords_translit": [
+      "hayr ev aghjik",
+      "dproc",
+      "meqena",
+      "moskvich",
+      "amot",
+      "kasharq",
+      "papa",
+      "ashakert"
+    ],
+    "catchphrases": [
+      "֊Չեմ նստում վաբշե պապ, ես քեզ հազար անգամ ասել եմ, որ էս պայթած մասկվիչով, իմ հետևից դպրոց մի արի։"
+    ],
+    "topics": [
+      "family",
+      "school",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

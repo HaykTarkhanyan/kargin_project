@@ -1,0 +1,71 @@
+{
+  "video_id": "uLfQ7nMfIHE",
+  "seq": 418,
+  "kargin_id": 418,
+  "title": "Kargin Haghordum - Chem havatum (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "418_Kargin_Haghordum_-_Chem_havatum_Hayko_Mko_uLfQ7nMfIHE.hy.json",
+    "visual": true
+  },
+  "input_chars": 2837,
+  "gen_sec": 5.22,
+  "prompt_tokens": 2424,
+  "output_tokens": 641,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003135,
+  "annotation": {
+    "title_hy": "Ֆուտբոլ թե Պանիխիդա",
+    "title_en": "Football or Wake",
+    "summary_en": "Three friends hurry to attend a wake for a 92-year-old grandmother, solely so they can fulfill their social obligation and leave quickly to watch a football match.",
+    "summary_detailed_en": "The sketch begins in a sunny courtyard where two neighborhood men—one in a black t-shirt with suspenders and another in an orange vest—discuss the death of a 92-year-old grandmother. Valer and Gag argue about attending the wake (panikhida); Gag is anxious because a major football match, which happens only once every four years, is about to start. They are joined by a third friend, Styop, who arrives late wearing a bright pink t-shirt. To save time, they put on black clothes over their bright outfits right in the stairwell of the apartment building. Their plan is to enter, offer condolences to the grandson, and leave immediately without talking to anyone else. As they approach the apartment, they encounter a heavy-set woman in black weeping hysterically by the door and older mourners sitting on stools in the corridor. When the woman wails 'I don't believe it!' (chem havatum) repeatedly, the lead friend, annoyed by the delay, bluntly tells her to move aside and give way to those who actually do 'believe it' so they can get inside and finish the ceremony.",
+    "keywords_hy": [
+      "թաղում",
+      "ֆուտբոլ",
+      "ցավակցություն",
+      "հարևաններ",
+      "պանիխիդա",
+      "չեմ հավատում",
+      "ուշանալ",
+      "սև շորեր"
+    ],
+    "keywords_en": [
+      "funeral",
+      "wake",
+      "football match",
+      "condolences",
+      "neighbors",
+      "I don't believe it",
+      "hurrying",
+      "mourning clothes"
+    ],
+    "keywords_translit": [
+      "taghum",
+      "futbol",
+      "tsavaktsutyun",
+      "harevanner",
+      "panikhida",
+      "chem havatum",
+      "ushanal",
+      "sev shorer"
+    ],
+    "catchphrases": [
+      "չեմ հավատում.",
+      "քուր ջան են կոմ գնա ճանապարհ տու նրանց ով հավատումա."
+    ],
+    "topics": [
+      "wedding_funeral",
+      "neighbors",
+      "sports"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "rojemkApj58",
+  "seq": 537,
+  "kargin_id": 537,
+  "title": "Kargin Haghordum sketch 171 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "537_Kargin_Haghordum_sketch_171_Hayko_Mko_rojemkApj58.hy.json",
+    "visual": true
+  },
+  "input_chars": 1693,
+  "gen_sec": 6.27,
+  "prompt_tokens": 1842,
+  "output_tokens": 585,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002676,
+  "annotation": {
+    "title_hy": "Արտրիտի պատճառը և Հռոմի Պապը",
+    "title_en": "Arthritis and the Pope",
+    "summary_en": "A man boards a bus and asks a monk about the causes of arthritis, only to reveal the diagnosis belongs to the Pope after hearing a list of sinful causes.",
+    "summary_detailed_en": "The sketch begins with a man wearing a cap running down a rural roadside to flag down a yellow marshrutka (minibus). Once inside, the man sits among other passengers, including two hooded monks wearing large cross necklaces and two young women. While holding a newspaper and a bottle of beer, the man strikes up a conversation with one of the monks. He asks the 'Holy Father' what causes arthritis. The monk delivers a stern religious lecture, explaining that arthritis is a disease that afflicts those who have strayed from religion, engage in promiscuous sexual relations, and abuse alcohol. The man reacts with exaggerated shock and concern, leading the monk to assume the man is worried about his own health. The monk attempts to comfort him, asking how long he has suffered from the condition. In a classic subversion, the man reveals he isn't sick at all; he was simply reading a newspaper headline stating that the Pope has arthritis, implying the monk's list of sins applies to the head of the church. The man is also seen with a lipstick mark on his cheek during the commute.",
+    "keywords_hy": [
+      "Տեր հայր",
+      "մարշրուտկա",
+      "արտրիտ",
+      "Հռոմի Պապ",
+      "եկեղեցի",
+      "հիվանդություն",
+      "ալկոհոլ"
+    ],
+    "keywords_en": [
+      "priest",
+      "monk",
+      "minibus",
+      "arthritis",
+      "Pope",
+      "church",
+      "sin",
+      "public transport"
+    ],
+    "keywords_translit": [
+      "ter hayr",
+      "marshrutka",
+      "artrit",
+      "Hromi Pap",
+      "ekexeci",
+      "hivandutyun",
+      "alkohol"
+    ],
+    "catchphrases": [
+      "հռոմի պապու մոտա արտրիտ"
+    ],
+    "topics": [
+      "religion",
+      "transport",
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

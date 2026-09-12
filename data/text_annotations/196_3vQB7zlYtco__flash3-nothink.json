@@ -1,0 +1,68 @@
+{
+  "video_id": "3vQB7zlYtco",
+  "seq": 196,
+  "kargin_id": 196,
+  "title": "Kargin Haghordum sketch 533 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "196_Kargin_Haghordum_sketch_533_Hayko_Mko_3vQB7zlYtco.tr.json",
+    "visual": true
+  },
+  "input_chars": 2038,
+  "gen_sec": 4.94,
+  "prompt_tokens": 1955,
+  "output_tokens": 571,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002691,
+  "annotation": {
+    "title_hy": "Պյութագորասի թեորեմը և կացինը",
+    "title_en": "Pythagoras' Theorem and the Axe",
+    "summary_en": "A math teacher gives an increasingly intense and manic lecture on geometry and trigonometry to a silent classroom of students.",
+    "summary_detailed_en": "The sketch begins in a school corridor as a young teacher, dressed in a formal suit, walks into his classroom. Upon entering, he removes his jacket and remains in his shirtsleeves and waistcoat, immediately beginning a dense lecture on geometry. He writes feverishly on the blackboard, illustrating right-angled triangles and detailing the Pythagorean theorem. He explains the relationship between the legs (a and b) and the hypotenuse (c), deriving the formula for the square root. The lecture quickly expands into tangents, cotangents, and the surface area of quadrilaterals. While the teacher grows more manic and rapid-fire in his delivery, the teenage students sit at their desks in stunned silence, staring back at him. In the final scene, the visual style shifts to a heavy red tint, and the teacher is shown in a tight close-up. He continues to lecture with intense focus while inexplicably holding a hatchet (axe) in one hand, concluding the lesson by telling the students that if they aren't interested, they shouldn't come.",
+    "keywords_hy": [
+      "ուսուցիչ",
+      "դպրոց",
+      "դասարան",
+      "երկրաչափություն",
+      "Պյութագորասի թեորեմ",
+      "եռանկյուն",
+      "կացին",
+      "դաս"
+    ],
+    "keywords_en": [
+      "teacher",
+      "school",
+      "classroom",
+      "geometry",
+      "Pythagorean theorem",
+      "triangle",
+      "axe",
+      "lesson"
+    ],
+    "keywords_translit": [
+      "usucich",
+      "dproc",
+      "dasaran",
+      "erkrachaputyun",
+      "Pyutagorasi teorem",
+      "erankyun",
+      "kacin",
+      "das"
+    ],
+    "catchphrases": [
+      "ում հետաքրքիր չի թող չգա"
+    ],
+    "topics": [
+      "school"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

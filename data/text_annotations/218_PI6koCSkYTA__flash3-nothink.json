@@ -1,0 +1,73 @@
+{
+  "video_id": "PI6koCSkYTA",
+  "seq": 218,
+  "kargin_id": 218,
+  "title": "Kargin Haghordum sketch 398 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "218_Kargin_Haghordum_sketch_398_Hayko_Mko_PI6koCSkYTA.hy.json",
+    "visual": true
+  },
+  "input_chars": 2008,
+  "gen_sec": 8.29,
+  "prompt_tokens": 2029,
+  "output_tokens": 672,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003031,
+  "annotation": {
+    "title_hy": "Կորած հինգ հազարանոցը մարշրուտկայում",
+    "title_en": "The Lost Five Thousand in the Van",
+    "summary_en": "A passenger boards a crowded minivan and attempts to find a lost five thousand dram bill by tricking an elderly woman into standing up.",
+    "summary_detailed_en": "The sketch takes place inside a crowded minivan (marshrutka) traveling down a tree-lined road. The van is filled with various passengers, including a driver, a bearded man, and an elderly woman (played by one of the male actors in drag). A man wearing a bright floral shirt and sunglasses is picked up from the roadside. Upon entering the cramped vehicle, he complains loudly about the lack of seating and the noise, sarcastically comparing the chatter to a running tractor that needs to be turned off for some peace. To solve his seating problem, he asks the passengers if anyone has lost a five thousand dram bill. When the elderly woman claims she might have lost it, the man tells her to get up and look for it. The joke lies in his manipulative attempt to get her to vacate her seat so he can sit down. The visual setting captures the claustrophobic atmosphere of Armenian public transport with passengers packed closely together.",
+    "keywords_hy": [
+      "մարշրուտկա",
+      "ուղևոր",
+      "5000 դրամ",
+      "տեղ չկա",
+      "խաբեբա",
+      "տրանսպորտ",
+      "ծաղկավոր շորտեր",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "minivan",
+      "passenger",
+      "five thousand dram",
+      "no seats",
+      "trickster",
+      "transport",
+      "floral shirt",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "marshrutka",
+      "ughevor",
+      "hing hazar dram",
+      "tegh chka",
+      "khabeba",
+      "transport",
+      "tsaghkavor shorter",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "ապե բա միատ խոդ տված տրակտոր չլներ",
+      "Ինչի որ ապեր",
+      "Ապե դե անջատեյինք գլուխներս խախանդվեր էլի",
+      "Մորքուր ջան բա նստել ես, հել մի հատ հլը տես ուրա էդ հինգ հազարը"
+    ],
+    "topics": [
+      "transport",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

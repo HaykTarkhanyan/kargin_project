@@ -1,0 +1,73 @@
+{
+  "video_id": "DZERKfVqWmc",
+  "seq": 272,
+  "kargin_id": 272,
+  "title": "Kargin Haghordum sketch 580 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1671,
+  "gen_sec": 6.04,
+  "prompt_tokens": 1913,
+  "output_tokens": 646,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002894,
+  "annotation": {
+    "title_hy": "Զգույշ տատիկը և պապիկը",
+    "title_en": "The Cautious Grandma and Grandpa",
+    "summary_en": "A grandmother has a long, supportive phone call with her grandson about his grades, but turns into a paranoid interrogator when her husband returns home.",
+    "summary_detailed_en": "The sketch is set in a bedroom at night. A character appearing as an elderly woman (played by a male actor in drag) wearing a gray wig, glasses, and a ruffled nightgown lies in bed talking on a corded telephone. She speaks affectionately to her grandson, praising him for his high grades in math and physics while worrying about a lower grade in biology. She abruptly ends the call when she hears her husband arrive. A man in pajamas enters the room, and the grandmother immediately begins a rapid-fire interrogation. She asks if he fixed the tractor, dug the latrine, fed the chickens and the dog, and shut off the gas and water. The husband answers yes to every task. However, when she grills him about the front door security—asking about the top lock, bottom lock, and the triple-bolt middle lock—he admits he forgot to attach the safety chain. The grandmother erupts in panic, claiming that because of his one oversight, they will surely be robbed, despite the multiple other locks being secured. The physical humor concludes with the husband approaching the bed with a hammer, highlighting the absurd domestic tension.",
+    "keywords_hy": [
+      "տատիկ",
+      "պապիկ",
+      "հեռախոս",
+      "դասեր",
+      "թոռնիկ",
+      "կողպեք",
+      "զամոկ",
+      "տունը թալանել",
+      "հարցուփորձ"
+    ],
+    "keywords_en": [
+      "grandmother",
+      "grandfather",
+      "telephone",
+      "grades",
+      "grandson",
+      "lock",
+      "security",
+      "robbery",
+      "interrogation"
+    ],
+    "keywords_translit": [
+      "tatik",
+      "papik",
+      "heraxos",
+      "daser",
+      "tornik",
+      "koxpeq",
+      "zamok",
+      "tun@ talanel",
+      "harcuprdz"
+    ],
+    "catchphrases": [
+      "Թոռնիկ ջան հա ջան մեռնի տատին էն ձենիդ",
+      "Բա ոնց թող գան թող թալանեն թող տանեն էս տունը"
+    ],
+    "topics": [
+      "family",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

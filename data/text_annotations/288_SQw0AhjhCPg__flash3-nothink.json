@@ -1,0 +1,69 @@
+{
+  "video_id": "SQw0AhjhCPg",
+  "seq": 288,
+  "kargin_id": 288,
+  "title": "Kargin Haghordum sketch 405 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3205,
+  "gen_sec": 33.34,
+  "prompt_tokens": 2524,
+  "output_tokens": 520,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002822,
+  "annotation": {
+    "title_hy": "Կեղծ ռեզյումե և մետրդոտել",
+    "title_en": "Fake Resume and Maître d'",
+    "summary_en": "A job seeker claims to have worked at world-class hotels, but as the manager calls each one, he uncovers increasingly bizarre and negative feedback about the candidate.",
+    "summary_detailed_en": "The sketch begins in a hotel lobby where a young man with big, curly hair inquires about a Maître d' (metradatel) position. He is directed to the manager's office on the 5th floor. In the office, the manager, a mustached man in a suit, asks for a resume. The candidate claims he has worked at the world's most prestigious establishments: the 'Forst' in New York, the 'Healthen' (Hilton) in London, and the Ritz in Paris. The manager decides to verify these claims immediately by calling each hotel. Speaking in broken English, the manager introduces himself as 'Andranik from Armenia.' After each call, he delivers scathing reviews to the candidate: the New York hotel says he is rude and argumentative; the London hotel claims he is messy, unshaven, and never wears a tie; and the Paris hotel allegedly reports that he is gay. Despite this disastrous feedback and the manager's warnings about professional conduct, the scene ends with a bizarre twist. The manager hires him on a trial basis but then demands a kiss on the cheek, revealing his own hypocrisy regarding the 'negative' reports.",
+    "keywords_hy": [
+      "հյուրանոց",
+      "աշխատանքի ընդունում",
+      "ռեզյումե",
+      "մետրդոտել",
+      "հեռախոսազանգ",
+      "տնօրեն",
+      "կատակ",
+      "Հայկո Մկո"
+    ],
+    "keywords_en": [
+      "hotel",
+      "job interview",
+      "resume",
+      "maitre d",
+      "phone call",
+      "manager",
+      "broken english",
+      "hiring"
+    ],
+    "keywords_translit": [
+      "hyuranoc",
+      "ashkhatanqi yndunum",
+      "rezume",
+      "metradatel",
+      "heraxosazang",
+      "tnoren",
+      "katak",
+      "Hayko Mko"
+    ],
+    "catchphrases": [
+      "It's Andranik from Armenia."
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

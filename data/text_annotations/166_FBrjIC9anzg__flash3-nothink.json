@@ -1,0 +1,69 @@
+{
+  "video_id": "FBrjIC9anzg",
+  "seq": 166,
+  "kargin_id": 166,
+  "title": "Kargin Haghordum sketch 210 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2117,
+  "gen_sec": 6.11,
+  "prompt_tokens": 2084,
+  "output_tokens": 478,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002476,
+  "annotation": {
+    "title_hy": "Գյուղատնտեսության դասախոսություն",
+    "title_en": "Agriculture Lecture",
+    "summary_en": "A professor lectures students on the livestock quotas in Armenia, leading to a humorous debate between a male and female student regarding a bull's daily performance.",
+    "summary_detailed_en": "The sketch takes place in a university lecture hall where a shaggy-haired, bearded professor stands before a chalkboard featuring sketches of animals. He delivers a serious lecture on agricultural economics, explaining that livestock income accounts for 40% of the sector. He discusses the need to replenish cattle populations for the meat industry, dismissing artificial insemination in favor of natural breeding. The core of the joke begins when he announces a new Ministry of Agriculture regulation: a healthy Armenian bull must mate 12 times a day. A female student, shocked, asks him to repeat the number for the 'back row.' After the professor repeats that a self-respecting bull must perform 12 times daily, a male student pipes up to ask if this occurs with one cow or twelve different cows. When the professor confirms it is twelve different cows, the male student triumphantly asks the professor to repeat that specific detail for the 'front row' where the girl is sitting, punctuated by a dramatic raised fist.",
+    "keywords_hy": [
+      "համալսարան",
+      "դասախոս",
+      "ուսանող",
+      "գյուղատնտեսություն",
+      "ցուլ",
+      "կով",
+      "զուգակցում",
+      "ակադեմիա"
+    ],
+    "keywords_en": [
+      "university",
+      "professor",
+      "student",
+      "agriculture",
+      "bull",
+      "cow",
+      "mating",
+      "lecture hall"
+    ],
+    "keywords_translit": [
+      "hamalsaran",
+      "dasaxos",
+      "usanogh",
+      "gyughatntesutyun",
+      "cul",
+      "kov",
+      "zugakcum",
+      "akademia"
+    ],
+    "catchphrases": [
+      "Ըհը, դե ուրեմն խնդրում եմ էդ նույնը կրկնեք հատուկ առաջին շարքի համար։"
+    ],
+    "topics": [
+      "school",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

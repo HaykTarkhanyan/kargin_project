@@ -1,0 +1,67 @@
+{
+  "video_id": "2h3gcv92FTw",
+  "seq": 41,
+  "kargin_id": 41,
+  "title": "Kargin Haghordum sketch 606 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "041_Kargin_Haghordum_sketch_606_Hayko_Mko_2h3gcv92FTw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1237,
+  "gen_sec": 12.28,
+  "prompt_tokens": 1594,
+  "output_tokens": 557,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002468,
+  "annotation": {
+    "title_hy": "Թերթերից կիմանաս",
+    "title_en": "You'll Read It in the News",
+    "summary_en": "A husband returns home late and battered, telling his wife that she'll have to read tomorrow's newspapers to find out what happened.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit apartment living room. A character in a curly wig and pink outfit (a woman played by one of the male actors in drag) sits on the couch watching television. A wall clock is visible, indicating the lateness of the hour. A man wearing a black leather jacket enters the room, clearly intoxicated and physically disheveled. The woman immediately begins to scold him, reminding him of her rule not to return after 11 PM or drink more than a single glass. The man dismisses her, joking that he mixed up the numbers again. As he collapses onto the couch with his head near her lap, the woman notices severe bruises and marks on his face. When she frantically asks what happened and who he got into a fight with, the man responds lethargically that he isn't in the mood to talk, telling her she will find out the details from the newspapers tomorrow. The sketch concludes with the woman's shocked reaction as she realizes the scale of the trouble he caused.",
+    "keywords_hy": [
+      "ուշանալ",
+      "կռիվ",
+      "թերթեր",
+      "խմած",
+      "ամուսիններ",
+      "ծեծված",
+      "ժամացույց"
+    ],
+    "keywords_en": [
+      "late night",
+      "fight",
+      "newspapers",
+      "drunk",
+      "married couple",
+      "battered face",
+      "wall clock"
+    ],
+    "keywords_translit": [
+      "ushanale",
+      "kriv",
+      "terteric",
+      "khmac",
+      "amusinner",
+      "cecvac",
+      "jamacuyc"
+    ],
+    "catchphrases": [
+      "թու արա էլի թվերը խառնել եմ",
+      "վաղը թերթերից կիմանաս"
+    ],
+    "topics": [
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

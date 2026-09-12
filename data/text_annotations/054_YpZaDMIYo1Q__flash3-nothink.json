@@ -1,0 +1,70 @@
+{
+  "video_id": "YpZaDMIYo1Q",
+  "seq": 54,
+  "kargin_id": 54,
+  "title": "Kargin Haghordum sketch 619 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3071,
+  "gen_sec": 31.04,
+  "prompt_tokens": 2588,
+  "output_tokens": 608,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003118,
+  "annotation": {
+    "title_hy": "Խաշլամայի Պլանը",
+    "title_en": "The Khashlama Plan",
+    "summary_en": "A nervous employee attempts to secure a promotion by inviting his boss to dinner, only to realize he has no food and must stage a culinary disaster.",
+    "summary_detailed_en": "In a poorly furnished apartment, Petrosyan, a nervous man in a lime green shirt and tie, arrives home and panics upon realizing there is nothing to eat. He informs his wife (a male actor in a blonde wig and pink coat) that his boss, Mr. Meliksetyan, is coming over in thirty minutes to discuss a potential promotion to department head. With only two eggs available, the couple devises a deceptive plan: Petrosyan will loudly order his wife to heat up a non-existent 'khashlama' (a rich meat stew). During the meal, she will drop a heavy pot to create a loud crash, claim she spilled the stew, and then serve a simple omelet as a fallback. The boss arrives early, and the men sit at a carpet-covered table. Petrosyan attempts to sycophantically lobby for the job vacated by Gurgenich. When the rehearsed crash finally occurs, Petrosyan prompts his wife, asking if she accidentally spilled the expensive khashlama. The plan backfires when the wife, misunderstanding the script, tearfully announces that she actually spilled the eggs, leaving them with absolutely nothing to serve the boss.",
+    "keywords_hy": [
+      "խաշլամա",
+      "ձվածեղ",
+      "պավիշենիա",
+      "շեֆ",
+      "պլան",
+      "խաբեություն",
+      "աղքատություն",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "khashlama",
+      "omelet",
+      "promotion",
+      "boss",
+      "dinner guest",
+      "deception",
+      "fake meal",
+      "poverty"
+    ],
+    "keywords_translit": [
+      "khashlama",
+      "dzvadzegh",
+      "pavishenia",
+      "shef",
+      "plan",
+      "khabeutyun",
+      "axqatutyun",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "խաշլաման շուռ տվեցի"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "party_guests"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

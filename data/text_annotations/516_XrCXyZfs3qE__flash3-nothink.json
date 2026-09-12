@@ -1,0 +1,73 @@
+{
+  "video_id": "XrCXyZfs3qE",
+  "seq": 516,
+  "kargin_id": 516,
+  "title": "Kargin Haghordum sketch 150 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2540,
+  "gen_sec": 17.96,
+  "prompt_tokens": 2300,
+  "output_tokens": 708,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003274,
+  "annotation": {
+    "title_hy": "Հարբեցողի բուժումը",
+    "title_en": "Curing the Alcoholic",
+    "summary_en": "A doctor attempts to treat a chronic alcoholic by limiting him to 100 grams of vodka a day, only to realize the patient is seeing multiple doctors to bypass the limit.",
+    "summary_detailed_en": "The sketch takes place in a clinic consulting room where a bespectacled doctor in a white lab coat is seated at his desk. He first finishes a phone call with a woman, explaining that he treats serious addictions like smoking and drugs, not minor habits like nose-picking or nail-biting. A patient enters, a man with shaggy hair and a mustache wearing a purple and red tracksuit jacket. The patient complains that his family has fallen apart due to his drinking habit, which he claims started as early as 4th or 5th grade. Although the patient downplays his consumption as 'only' two liters a day, the doctor diagnoses a severe case. The doctor prescribes medication but sets a strict condition: the patient must not drink more than 100 grams of vodka daily. A week later, the patient returns looking visibly intoxicated. When the doctor accuses him of drinking at least four bottles and breaking the 100-gram rule, the patient reveals the punchline: he is seeing multiple doctors at once so he can collect and drink the 100-gram allowance from each one.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հարբեցող",
+      "օղի",
+      "կախվածություն",
+      "բուժում",
+      "դեղատոմս",
+      "խմիչք",
+      "հիվանդանոց"
+    ],
+    "keywords_en": [
+      "doctor",
+      "alcoholic",
+      "vodka",
+      "addiction",
+      "treatment",
+      "prescription",
+      "drinking",
+      "clinic"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "harbecogh",
+      "oghi",
+      "kakhvatsutyun",
+      "buzhum",
+      "deghatoms",
+      "khmichk",
+      "hivandanoc"
+    ],
+    "catchphrases": [
+      "քթի մեջ փորելով, հետևը քորելով, կամ եղունգները կրծելով ես ընդհանրապես չեմ զբաղվում",
+      "բժիշկ էս հովին նստեմ էլի",
+      "դուք չպետք է օրեկան օգտագործեք 100 գրամից ավել օղի",
+      "կարողա գիտես մենակ քու մոտ եմ բուժվում"
+    ],
+    "topics": [
+      "medical",
+      "drinking",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

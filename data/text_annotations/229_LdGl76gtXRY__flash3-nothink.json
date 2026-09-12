@@ -1,0 +1,71 @@
+{
+  "video_id": "LdGl76gtXRY",
+  "seq": 229,
+  "kargin_id": 229,
+  "title": "Kargin Haghordum sketch 311 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1868,
+  "gen_sec": 6.2,
+  "prompt_tokens": 1953,
+  "output_tokens": 581,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00272,
+  "annotation": {
+    "title_hy": "Կաթիկ, թե՞ միսիկ",
+    "title_en": "Milk or Meat",
+    "summary_en": "Two lazy villagers ignore an elderly woman's requests to fix her fence, spending the whole day smoking and talking about their cows.",
+    "summary_detailed_en": "In a rural village yard setting, two men—one in a plaid shirt and the other in an army jacket and flat cap—are lounging lazily on the grass next to a pile of dung. They spend the entire day smoking and drinking while sheep graze behind them. The conversation centers on one man's struggle with his cow, which only gives milk once a day. The other man reveals his 'secret' technique: he threatens the animal by asking if he is taking milk or meat today. Throughout the sketch, an old woman (played by a male actor in drag) wearing a white headscarf and a striped jumper repeatedly approaches them. She hauls a blue washing basin and a red bucket, begging the men to fix her broken fence wires. Each time, the men respond with the same stalling phrase: they will do it right after they finish their cigarette. As day turns to dusk, the woman loses her patience and screams at the 'hooligans' to leave. The men remain unbothered, replying that they will leave right after one last smoke.",
+    "keywords_hy": [
+      "գյուղ",
+      "կով",
+      "կաթ",
+      "ծխել",
+      "ալարկոտ",
+      "զաբոռ",
+      "տատիկ",
+      "խուժան"
+    ],
+    "keywords_en": [
+      "village",
+      "cow",
+      "milk",
+      "smoking",
+      "lazy",
+      "fence",
+      "grandmother",
+      "hooligan"
+    ],
+    "keywords_translit": [
+      "gyugh",
+      "kov",
+      "kat",
+      "tsxel",
+      "alarkot",
+      "zabor",
+      "tatik",
+      "xujan"
+    ],
+    "catchphrases": [
+      "էսօր կաթիկ եմ տանում թե՞ միսիկ",
+      "Հա տատի ջան, հեսա ծխենք ու գնանք"
+    ],
+    "topics": [
+      "village",
+      "neighbors",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

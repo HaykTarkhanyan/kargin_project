@@ -1,0 +1,70 @@
+{
+  "video_id": "md3Fg6xgJfo",
+  "seq": 560,
+  "kargin_id": 560,
+  "title": "Kargin Haghordum sketch 193 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "560_Kargin_Haghordum_sketch_193_Hayko_Mko_md3Fg6xgJfo.tr.json",
+    "visual": true
+  },
+  "input_chars": 1402,
+  "gen_sec": 10.95,
+  "prompt_tokens": 1725,
+  "output_tokens": 575,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002587,
+  "annotation": {
+    "title_hy": "Զբոսաշրջիկը և արագավազ շունը",
+    "title_en": "The Tourist and the Fast Dog",
+    "summary_en": "A lost tourist in a shirt and tie asks a villager for a shortcut to catch his tour bus, leading to an unconventional solution involving a dog.",
+    "summary_detailed_en": "Set on a dry, grassy hillside in the Armenian countryside with snow-capped mountains in the distance, the sketch begins with an anxious city man wearing a white shirt and necktie running across the field. He encounters a mustachioed village man wearing a flat cap who is sitting calmly on a rock with his tan dog. The city man explains that he has fallen behind his tour group and needs to reach the top of a nearby mountain within ten minutes, or his bus will leave without him. When the villager informs him it normally takes thirty minutes, the tourist pleads for a faster way. The villager agrees it is possible and suddenly commands his dog with the phrase 'Bisbit fas!' The dog apparently chases or frightens the man into running at extreme speeds. The villager casually wishes him a safe journey as the tourist sprints away across the landscape to make his deadline.",
+    "keywords_hy": [
+      "զբոսաշրջիկ",
+      "սարերում",
+      "գյուղացի",
+      "շուն",
+      "ավտոբուս",
+      "արագություն",
+      "հնարավոր ա",
+      "բիսկբիթ ֆաս"
+    ],
+    "keywords_en": [
+      "tourist",
+      "mountains",
+      "villager",
+      "dog",
+      "bus",
+      "speed",
+      "shortcut",
+      "hiking"
+    ],
+    "keywords_translit": [
+      "zbosashrjik",
+      "sarerum",
+      "gyughaci",
+      "shun",
+      "avtobus",
+      "aragutyun",
+      "hnaravor a",
+      "bisbit fas"
+    ],
+    "catchphrases": [
+      "Հնարավոր ա։ Բիսկբիթ ֆաս։Բարի ճանապարհ ախպեր։"
+    ],
+    "topics": [
+      "village",
+      "leisure_outing",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

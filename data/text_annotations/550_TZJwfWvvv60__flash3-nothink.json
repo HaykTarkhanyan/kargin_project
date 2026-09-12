@@ -1,0 +1,71 @@
+{
+  "video_id": "TZJwfWvvv60",
+  "seq": 550,
+  "kargin_id": 550,
+  "title": "Kargin Haghordum sketch 182 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1583,
+  "gen_sec": 5.02,
+  "prompt_tokens": 1875,
+  "output_tokens": 641,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00286,
+  "annotation": {
+    "title_hy": "Գաղտնի հանդիպում և կնոջ մարդը",
+    "title_en": "Secret Meeting and the Husband",
+    "summary_en": "A man meets his lover in a park and shows off his luxury car, only to be aggressively confronted by her actual husband.",
+    "summary_detailed_en": "The sketch takes place in a wooded park path during the day. A man named Argisht (Argisht jan) meets with his girlfriend on a park bench, expressing relief that they are meeting in an open area rather than their usual hidden spots. He shows off a black SUV to her, revealing that he has glued together original paintings by Aivazovsky and Martiros Saryan inside the glove compartment as a gift. As the two share an affectionate moment, a nervous-looking man in glasses hovers nearby. Suddenly, a group of men in black suits appears near the vehicle. One of the men aggressively confronts the man in glasses, insulting him and telling him to go home for looking at his girlfriend. However, the man in glasses reveals the twist: he isn't a stranger, but the woman's husband, and he can't go home because his wife (who is sitting with the lover) has the house keys. The lover, unfazed by the husband's presence, casually asks for an introduction.",
+    "keywords_hy": [
+      "Այվազովսկի",
+      "Մարտիրոս Սարյան",
+      "այգի",
+      "սիրեկան",
+      "ամուսին",
+      "բանալի",
+      "սև մեքենա",
+      "ծանոթություն"
+    ],
+    "keywords_en": [
+      "Aivazovsky",
+      "Martiros Saryan",
+      "park bench",
+      "lover",
+      "husband",
+      "car keys",
+      "black SUV",
+      "confrontation"
+    ],
+    "keywords_translit": [
+      "Ayvazovski",
+      "Martiros Saryan",
+      "aygi",
+      "sirekan",
+      "amusin",
+      "banali",
+      "sev meqena",
+      "tsanotutyun"
+    ],
+    "catchphrases": [
+      "հլը դավայ ռադ ըլի տուն այ փդած",
+      "Ճիշտն ասած ես ուզում էի գնաի տուն, ուղղակի բանալին կնոջս մոտա մնացել"
+    ],
+    "topics": [
+      "romance",
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "video_id": "8ZXHMEFAfNo",
+  "seq": 110,
+  "kargin_id": 110,
+  "title": "Kargin Haghordum sketch 699 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "110_Kargin_Haghordum_sketch_699_Hayko_Mko_8ZXHMEFAfNo.hy.json",
+    "visual": true
+  },
+  "input_chars": 2297,
+  "gen_sec": 21.27,
+  "prompt_tokens": 2093,
+  "output_tokens": 628,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00293,
+  "annotation": {
+    "title_hy": "Խմած վախտ ռուլին չեմ նստում",
+    "title_en": "I Don't Drive While Drunk",
+    "summary_en": "A persistent man tries various pickup lines on a woman hitchhiking, but once he actually succeeds and gets invited home, he passes out and refuses to 'drive.'",
+    "summary_detailed_en": "The sketch begins on a rural tree-lined road where a young woman is walking and hitchhiking. A series of men in cars approach her with various propositions. The first man invites her to go out of town to light a campfire and stay warm, which she rejects as having addressed the wrong person. The second man suggests going to the haystacks for an 'inspection,' which she insults. Finally, a mustached man in a suit approaches her on foot and asks if she wants to 'go for five laps' (5 krug) with him. Surprisingly, she agrees. The scene shifts to an apartment living room with floral wallpaper, decorated with roses and citrus fruits. The man, the woman, and another female hostess are drinking cognac and wine. The man eventually gets so intoxicated that he passes out and begins snoring. When the woman tries to wake him up, telling him it is time to go for those 'five laps' he promised, the man drunkenly refuses, delivering the punchline that he never gets behind the wheel while he is drunk.",
+    "keywords_hy": [
+      "խարույկ",
+      "ծղոտներ",
+      "հարբած",
+      "ղեկին",
+      "ավտո",
+      "քշել",
+      "կռուգ",
+      "հանդիպում",
+      "խմած"
+    ],
+    "keywords_en": [
+      "hitchhiking",
+      "pickup lines",
+      "drunk driving",
+      "driving laps",
+      "haystack",
+      "campfire",
+      "mustache",
+      "passed out"
+    ],
+    "keywords_translit": [
+      "kharuyk",
+      "tsghotner",
+      "harbats",
+      "ghekine",
+      "avto",
+      "qshel",
+      "krug",
+      "handipum",
+      "khmats"
+    ],
+    "catchphrases": [
+      "քուրիկ ջան չգնանք իրար հետ մի 5 կռուգ քշենք",
+      "ես խմած վախտ ռուլյի չեմ նստում"
+    ],
+    "topics": [
+      "romance",
+      "drinking",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

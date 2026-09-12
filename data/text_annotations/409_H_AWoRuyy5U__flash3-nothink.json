@@ -1,0 +1,67 @@
+{
+  "video_id": "H_AWoRuyy5U",
+  "seq": 409,
+  "kargin_id": 409,
+  "title": "Kargin Haghordum - Kartoshka (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "409_Kargin_Haghordum_-_Kartoshka_Hayko_Mko_H_AWoRuyy5U.hy.json",
+    "visual": true
+  },
+  "input_chars": 1968,
+  "gen_sec": 14.14,
+  "prompt_tokens": 2092,
+  "output_tokens": 582,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002792,
+  "annotation": {
+    "title_hy": "Կարտոշկայի պարկերը",
+    "title_en": "The Potato Sacks",
+    "summary_en": "Two lovers of a married woman try to organize a schedule for their visits, but they are forced to hide in sacks when the husband unexpectedly returns home.",
+    "summary_detailed_en": "The sketch begins in a domestic interior where two men are having a serious negotiation. They are both lovers of the same married woman and are trying to coordinate their visiting schedule to avoid running into each other, noting that the husband is away on business trips three days a week (Monday, Tuesday, and Wednesday). They discuss logistics, like calling a day in advance if one can't make it so the day 'doesn't go to waste.' The woman is present, wearing a robe. Suddenly, the husband (dressed in a suit) returns home unexpectedly because his flight to Paris was delayed by two days. In a panic, the two lovers hide inside large plastic-wrapped sacks in the room. The husband enters and notices the bulky sacks, asking what they are. The woman claims her grandfather brought them. The husband, excited, kicks one of the sacks and jokes that they might have pork or meat for a 'khashlama' feast. When he kicks the other sack and it remains silent, he concludes that since it doesn't make a sound, it must be filled with potatoes ('kartoshka').",
+    "keywords_hy": [
+      "սիրեկան",
+      "ամուսին",
+      "կարտոշկա",
+      "պարկ",
+      "գրաֆիկ",
+      "դավաճանություն",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "lover",
+      "husband",
+      "potato",
+      "sack",
+      "schedule",
+      "betrayal",
+      "hiding"
+    ],
+    "keywords_translit": [
+      "sirekan",
+      "amusin",
+      "kartoshka",
+      "park",
+      "grafik",
+      "davachanutyun",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Արա չես ջոկում որ ձայն չենք անում ուրեմն կարտոշկա էդ"
+    ],
+    "topics": [
+      "family",
+      "romance",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "sOWmXDL8T68",
+  "seq": 530,
+  "kargin_id": 530,
+  "title": "Kargin Haghordum sketch 164 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "530_Kargin_Haghordum_sketch_164_Hayko_Mko_sOWmXDL8T68.hy.json",
+    "visual": true
+  },
+  "input_chars": 1150,
+  "gen_sec": 4.7,
+  "prompt_tokens": 1610,
+  "output_tokens": 622,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002671,
+  "annotation": {
+    "title_hy": "Էժան պրեզերվատիվի ընտրությունը",
+    "title_en": "Choosing a Cheap Condom",
+    "summary_en": "After hearing the exorbitant prices of baby supplies like diapers and strollers, a customer decides to buy a cheap condom instead to avoid future costs.",
+    "summary_detailed_en": "The sketch takes place in a brightly lit, well-stocked pharmacy or baby supply store. Two shop clerks wearing matching striped polo uniforms serve a customer with manic, over-the-top enthusiasm. The customer inquires about the prices of various newborn essentials. The clerks list the prices: diapers cost 7,000 drams, while a set including a pacifier, bottle, and thermal bag costs 15,000 drams. When the customer asks about high-quality baby bathtubs, the clerk suggests a pink one for a girl or a black one for a boy, priced at 21,000 drams. The customer totals the amount to 43,000 drams. Realizing how expensive it is to raise a child, the customer has a change of heart. Instead of purchasing the expensive baby gear, the customer asks for a 200-dram condom, opting for a cheap method of prevention rather than the high cost of parenthood. The humor relies on the sharp contrast between the clerks' bubbly sales pitch and the customer's cynical financial realization.",
+    "keywords_hy": [
+      "դեղատուն",
+      "խանութ",
+      "պամպերս",
+      "գին",
+      "պրեզերվատիվ",
+      "երեխայի խնամք",
+      "սոսկա",
+      "վաննոչկա"
+    ],
+    "keywords_en": [
+      "pharmacy",
+      "shop",
+      "diapers",
+      "price",
+      "condom",
+      "baby care",
+      "pacifier",
+      "baby bath"
+    ],
+    "keywords_translit": [
+      "dexatun",
+      "xanut",
+      "pampers",
+      "gin",
+      "prezervativ",
+      "erexayi khnamq",
+      "soska",
+      "vannochka"
+    ],
+    "catchphrases": [
+      "Չէ, ավելի լավ է 200 դրամանոց պրեզերվատիվ տուր:"
+    ],
+    "topics": [
+      "shop_market",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

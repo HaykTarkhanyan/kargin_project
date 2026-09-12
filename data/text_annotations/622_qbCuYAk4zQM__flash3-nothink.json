@@ -1,0 +1,71 @@
+{
+  "video_id": "qbCuYAk4zQM",
+  "seq": 622,
+  "kargin_id": 622,
+  "title": "Kargin Haghordum sketch 544 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "622_Kargin_Haghordum_sketch_544_Hayko_Mko_qbCuYAk4zQM.hy.json",
+    "visual": true
+  },
+  "input_chars": 5393,
+  "gen_sec": 15.97,
+  "prompt_tokens": 4206,
+  "output_tokens": 619,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00396,
+  "annotation": {
+    "title_hy": "Սպասք լվացողների ավազակախումբը",
+    "title_en": "The Dishwasher Gangsters",
+    "summary_en": "Two dishwasher colleagues decide to transition into a life of crime by robbing a man in the mountains, only to discover his grandfather is a much more experienced criminal.",
+    "summary_detailed_en": "Set against a snowy hillside, two men who have worked side-by-side as dishwashers for five years decide they cannot get ahead through honest labor. One man, wearing a beanie and sunglasses, convinces his friend Gugo that they should use a knife he found to rob someone. They target a man carrying a yellow bag, who claims to have no money and is only delivering lunch ('pereriv') to his grandfather. After a comedic exchange where the robbers foolishly show their faces and ask if the victim will recognize them later, the victim offers to lead them to his grandfather for money. They trek through the snow to find the grandfather, a tough old man armed with a rifle. The grandfather pays a 'delivery fee' of 100 dollars but then tricks one of the robbers into trying to rob a nearby skier. The scene concludes with the realization that the grandfather is the master thief, having accumulated his wealth by picking off small amounts from many victims, leaving the amateur dishwashers outplayed by a seasoned mountain bandit.",
+    "keywords_hy": [
+      "աման լվացող",
+      "գողություն",
+      "դանակ",
+      "պապիկ",
+      "սարեր",
+      "ձյուն",
+      "Կարգին հաղորդում",
+      "Հայկո Մկո"
+    ],
+    "keywords_en": [
+      "dishwashers",
+      "robbery",
+      "knife",
+      "grandfather",
+      "mountains",
+      "snow",
+      "Kargin Haghordum",
+      "Hayko Mko"
+    ],
+    "keywords_translit": [
+      "aman lvacox",
+      "goxutyun",
+      "danak",
+      "papik",
+      "sarer",
+      "dzyun",
+      "Kargin Haghordum",
+      "Hayko Mko"
+    ],
+    "catchphrases": [
+      "Ապե կայնի, հոգնամ",
+      "Այ տենց տղա ջան կոպեկ, կոպեկ հավաքել եմ"
+    ],
+    "topics": [
+      "crime",
+      "work",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

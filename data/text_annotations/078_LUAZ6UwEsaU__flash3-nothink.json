@@ -1,0 +1,72 @@
+{
+  "video_id": "LUAZ6UwEsaU",
+  "seq": 78,
+  "kargin_id": 78,
+  "title": "Kargin Haghordum sketch 664 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2245,
+  "gen_sec": 53.25,
+  "prompt_tokens": 2184,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002889,
+  "annotation": {
+    "title_hy": "Ֆիլանիդի թելադրությունը",
+    "title_en": "Filanid's Dictation",
+    "summary_en": "A strict elderly tutor gives an aspiring philology student absurd etymological explanations for Armenian words during a dictation session.",
+    "summary_detailed_en": "The sketch takes place in a classic Soviet-style living room decorated with a wall carpet. An elderly woman with white hair and a red neck scarf, acting as a tutor, dictates a text to a young man named Filanid, who wears round glasses, a yellow shirt, and a grey vest. The dictation is about Persians leaving the Persian Gulf. The tutor provides bizarre mnemonic devices for spelling: she explains 'Parsik' (Persian) comes from 'par' (dance) and 'sik' (go away), and 'tsots' (gulf) comes from 'tso' (a Gyumri greeting) and 'ts' (goodbye). When she finds 'salat' (salad) written with a 'ts', the student justifies it by saying he thought there was onion in the salad. After the lesson, the tutor tells Filanid to practice daily to please his mother, Goharik Arakelovna. As he prepares to leave and puts on a brown coat, she warns him about the heavy rain outside and invites him to stay. The scene shifts to her watching a CRT television alone, then back to the door where Filanid returns, grinning with his yellow writing pad, having used the rain as an excuse to come back inside.",
+    "keywords_hy": [
+      "թելադրություն",
+      "ուսուցիչ",
+      "բանասիրական",
+      "ուսանող",
+      "քերականություն",
+      "հայոց լեզու",
+      "ծիծաղելի ստուգաբանություն",
+      "անձրև"
+    ],
+    "keywords_en": [
+      "dictation",
+      "tutor",
+      "philology",
+      "student",
+      "grammar",
+      "Armenian language",
+      "funny etymology",
+      "rain"
+    ],
+    "keywords_translit": [
+      "teladrutyun",
+      "usucich",
+      "banasirakan",
+      "usanogh",
+      "qerakanutyun",
+      "hayoc lezu",
+      "tsitsagheli stugabanutyun",
+      "andzrev"
+    ],
+    "catchphrases": [
+      "պարի և սիկ արա հեռացիր",
+      "ծնունդով Գյումրիից և ց",
+      "ինչու ես դու որոշել ընդունվել հենց բանասիրական"
+    ],
+    "topics": [
+      "school",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

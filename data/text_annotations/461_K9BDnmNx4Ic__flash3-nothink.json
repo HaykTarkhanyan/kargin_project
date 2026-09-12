@@ -1,0 +1,71 @@
+{
+  "video_id": "K9BDnmNx4Ic",
+  "seq": 461,
+  "kargin_id": 461,
+  "title": "Kargin Haghordum sketch 086 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "461_Kargin_Haghordum_sketch_086_Hayko_Mko_K9BDnmNx4Ic.hy.json",
+    "visual": true
+  },
+  "input_chars": 2288,
+  "gen_sec": 6.05,
+  "prompt_tokens": 2087,
+  "output_tokens": 649,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002991,
+  "annotation": {
+    "title_hy": "Պրոֆեսորի նախկին աշխատողները",
+    "title_en": "The Professor's Former Employees",
+    "summary_en": "An elderly professor encounters several former assistants on the street, discovering that one became a politician and another a wealthy socialite, while the third is still stuck in his department.",
+    "summary_detailed_en": "The sketch is presented as a mock-report or a series of street encounters featuring an eccentric professor in a grey wig, glasses, and a goatee. The professor is first approached by a heavy-set man in sunglasses sitting in the back of a luxury car. The man, Armen, reminds the professor that he used to work at his university department. The professor recalls him as someone who spent all day eating in the buffet. When asked what he does now, Armen reveals he is a Member of Parliament, leading the professor to quipping that he is 'still eating.' Next, a woman in a red coat and polka-dot headscarf (played by an actor) approaches. She identifies herself as Arpine, a former lab assistant. She reveals she married a wealthy Frenchman and now lives in Paris, inviting the professor to visit. Finally, the professor meets a man scavenging through a roadside rubbish dump. Assuming this is another successful alumnus, the professor asks when he worked at the department. The man dejectedly replies that he hasn't left yet—he is still currently employed there, highlighting the poor financial state of academics compared to those who moved into politics or marriage.",
+    "keywords_hy": [
+      "պրոֆեսոր",
+      "կաֆեդրա",
+      "պատգամավոր",
+      "ուտել",
+      "հարուստ",
+      "աղբանոց",
+      "հումոր",
+      "աշխատող"
+    ],
+    "keywords_en": [
+      "professor",
+      "university department",
+      "MP",
+      "politician",
+      "wealthy",
+      "rubbish dump",
+      "former employee",
+      "career"
+    ],
+    "keywords_translit": [
+      "profesor",
+      "kafedra",
+      "patgamavor",
+      "utel",
+      "harust",
+      "aghbanoc",
+      "humor",
+      "ashxatogh"
+    ],
+    "catchphrases": [
+      "Փաստորեն էլի ուտում էր։",
+      "Բայց ինչի ժամանակին: Ես հիմա էլ եմ ձեր կաֆեդրայում աշխատում:"
+    ],
+    "topics": [
+      "work",
+      "money",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

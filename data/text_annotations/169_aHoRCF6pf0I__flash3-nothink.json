@@ -1,0 +1,70 @@
+{
+  "video_id": "aHoRCF6pf0I",
+  "seq": 169,
+  "kargin_id": 169,
+  "title": "Kargin Haghordum sketch 213 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2080,
+  "gen_sec": 4.46,
+  "prompt_tokens": 2190,
+  "output_tokens": 623,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002964,
+  "annotation": {
+    "title_hy": "Արդարադատության Գինը",
+    "title_en": "The Price of Justice",
+    "summary_en": "Two judges discuss a moral and professional dilemma involving conflicting bribes from both the defense and the victim's side.",
+    "summary_detailed_en": "The sketch takes place in a judge's wood-paneled office, adorned with an Armenian flag and a gavel. Armen Borisich, an experienced judge wearing black judicial robes, welcomes his younger colleague, Aram. Armen begins by complaining about the exhaustion of his current absurd case involving a Kamaz driver who raped a bear, noting the court ruled the driver must divorce his wife to marry the animal. Aram then presents his own crisis: he has been unable to sleep for five nights because both sides of a case he is presiding over have offered him massive bribes. The defense offered $100,000, while the victim's side offered $110,000. Seeking professional advice on how to handle the situation fairly, Aram is stunned by Armen’s 'legal' solution. Armen Borisich nonchalantly suggests that Aram simply return $10,000 to the victim's side to equalize the amounts at $100,000 each, and then proceed to judge the case 'strictly according to the law.' The sketch concludes with the cynical irony of Armenian judicial corruption presented as professional wisdom.",
+    "keywords_hy": [
+      "դատավոր",
+      "կաշառք",
+      "դատարան",
+      "փող",
+      "օրենք",
+      "արդարադատություն",
+      "խորհուրդ",
+      "նիստ"
+    ],
+    "keywords_en": [
+      "judge",
+      "bribe",
+      "court",
+      "money",
+      "law",
+      "justice",
+      "advice",
+      "hearing"
+    ],
+    "keywords_translit": [
+      "datavor",
+      "kasharq",
+      "dataran",
+      "pogh",
+      "orenq",
+      "ardaradatutyun",
+      "khorhurd",
+      "nist"
+    ],
+    "catchphrases": [
+      "հա լավ ինչ ես խորացել էդ տուժող կողմի 110000 ից 10000 ը տուր իրանց ու դիր լրիվ օրենքով դատի։"
+    ],
+    "topics": [
+      "law_court",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

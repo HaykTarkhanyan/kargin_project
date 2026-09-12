@@ -1,0 +1,70 @@
+{
+  "video_id": "IqipbpCUrfY",
+  "seq": 175,
+  "kargin_id": 175,
+  "title": "Kargin Haghordum sketch 219 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1938,
+  "gen_sec": 8.37,
+  "prompt_tokens": 2027,
+  "output_tokens": 478,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002448,
+  "annotation": {
+    "title_hy": "Աշխատավարձի բարձրացման ծրագիրը",
+    "title_en": "The Salary Increase Program",
+    "summary_en": "An animated boss proposes a 'fair' computer program to calculate employee salaries, only to reveal a catch that puts his programmers at risk.",
+    "summary_detailed_en": "In an office conference room, a mustached businessman in a suit addresses a group of employees gathered around a large table. He acknowledges their formal request for a salary increase, noting it is a natural desire but stating his opinion differs from theirs, as he believes they are already well-paid. To resolve the dispute 'civilizedly,' he announces a plan to have his company's programmers develop a special software program. This program will factor in hours worked, vacation days, holidays, and break times against their total annual salary. He claims the computer, not he, will be the final judge of whether their pay matches their output. However, he delivers a manipulative punchline: if the computer determines the salaries are indeed too low, he will raise them, but the funds for the increase will be taken directly out of the programmers' own salaries. The scene features the boss becoming increasingly animated, waving papers while his colleagues react with a mix of boredom, exasperation, and amusement.",
+    "keywords_hy": [
+      "աշխատավարձ",
+      "բիզնեսմեն",
+      "տնօրեն",
+      "գրասենյակ",
+      "բողոք",
+      "ծրագրավորող",
+      "ժողով",
+      "համակարգիչ"
+    ],
+    "keywords_en": [
+      "salary",
+      "businessman",
+      "director",
+      "office",
+      "complaint",
+      "programmer",
+      "meeting",
+      "computer"
+    ],
+    "keywords_translit": [
+      "ashkhatavardz",
+      "biznesmen",
+      "tnoren",
+      "grasenyak",
+      "boghoq",
+      "tsragravorogh",
+      "zhoghov",
+      "hamakargich"
+    ],
+    "catchphrases": [
+      "իմ կարծիքը կտրուկ տարբերվումա Ձեր կարծիքից"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

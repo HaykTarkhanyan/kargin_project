@@ -1,0 +1,74 @@
+{
+  "video_id": "_xoYUJw1Hfg",
+  "seq": 87,
+  "kargin_id": 87,
+  "title": "Kargin Haghordum sketch 655 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3233,
+  "gen_sec": 17.8,
+  "prompt_tokens": 2789,
+  "output_tokens": 648,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003338,
+  "annotation": {
+    "title_hy": "Հայր և որդի ռեստորանում",
+    "title_en": "Father and Son at the Bar",
+    "summary_en": "Two drunk men in a Russian bar discover they live in the same building and apartment, only for the bartender to reveal they are actually father and son who failed to recognize each other.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit restaurant or bar, possibly in Russia, where two Armenian men are drinking heavily. One man wears a traditional Caucasian papakha fur hat and a leather jacket, while the younger man wears a flat cap. They strike up a conversation, excited to find a fellow 'zemlyak' (countryman) in a foreign land. The younger man complains about his suspicions of his wife's infidelity, noting that no matter which city he moves to in Russia—from Omsk to Pskov to Vladivostok—the same electrician always shows up at his house. As they bond, they realize they are both from Artashat and live in the same Russian neighborhood on Pervomayskiy Lane, in the same building (#35), and the same entryway. The tension rises when they both claim to live in apartment 24. They begin to argue aggressively, questioning each other's memory and sobriety. The sketch ends with a punchline delivered by the bartender to a patron: he explains that these two are a father and son who, whenever they get drunk, completely fail to recognize one another.",
+    "keywords_hy": [
+      "ռեստորան",
+      "խմած",
+      "հայր ու որդի",
+      "դավաճանություն",
+      "հարևան",
+      "բնակարան",
+      "արտաշատցի",
+      "խմիչք",
+      "զեմլյակ"
+    ],
+    "keywords_en": [
+      "restaurant",
+      "drunk",
+      "father and son",
+      "infidelity",
+      "neighbors",
+      "apartment",
+      "Artashat",
+      "drinking",
+      "countrymen"
+    ],
+    "keywords_translit": [
+      "restoran",
+      "xmac",
+      "hayr u ordi",
+      "davachanutyun",
+      "harevan",
+      "bnakaran",
+      "artashatci",
+      "xmichq",
+      "zemlyak"
+    ],
+    "catchphrases": [
+      "Положи эта музыка который хочу чтоб всегда положил",
+      "24-ը էտի մեր կվարծիրենա"
+    ],
+    "topics": [
+      "drinking",
+      "restaurant_cafe",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "GfQNUC7DKrE",
+  "seq": 437,
+  "kargin_id": 437,
+  "title": "Kargin Haghordum - Kankurent (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2059,
+  "gen_sec": 17.42,
+  "prompt_tokens": 2133,
+  "output_tokens": 664,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003058,
+  "annotation": {
+    "title_hy": "Կանկուրենտ շունը",
+    "title_en": "Competitive Dog",
+    "summary_en": "Two friends discuss investment advice and soccer betting in a park, leading to a cynical joke about betting against the Armenian national team and a man chasing a dog he views as a business rival.",
+    "summary_detailed_en": "In a lush forest park, two men are seated on large rocks engaged in an animated conversation. One man wears a red tank top and a baseball cap, while his companion wears a 'CECHY' athletic jersey. The first man asks for investment advice, noting that the other has been in the t-shirt manufacturing business for five years. The businessman cynically explains he had to switch from long-sleeve to short-sleeve shirts just to save on fabric costs. When the topic shifts to sports betting, they discuss a mutual friend who lost his house betting on a 'sure' soccer match and is now homeless. The companion suggests a 'guaranteed' win: wait for the Armenian national team to play in the World Cup and bet a fortune against them, because 'the boys won't let you down' by accidentally winning. The scene is interrupted by a man in a plaid shirt who frantically chases after a dog, shouting for a plastic bag and threatening to kill it. When the friends try to intervene, claiming the dog is man's best friend, the man retorts with the punchline that while the dog might be a friend to some, to him, it is a business competitor.",
+    "keywords_hy": [
+      "ֆուտբոլ",
+      "խաղադրույք",
+      "շուն",
+      "ներդրում",
+      "մայկա",
+      "կանկուրենտ",
+      "բիզնես",
+      "հայաստանի հավաքական"
+    ],
+    "keywords_en": [
+      "soccer",
+      "betting",
+      "dog",
+      "investment",
+      "t-shirt business",
+      "competitor",
+      "business",
+      "Armenian national team"
+    ],
+    "keywords_translit": [
+      "futbol",
+      "khaghadruyk",
+      "shun",
+      "nerdrum",
+      "mayka",
+      "kankurent",
+      "biznes",
+      "Hayastani havakakan"
+    ],
+    "catchphrases": [
+      "Ում հմար շունա, ումա հմար կանկուրենտ",
+      "գիտես որ տղերքը պադվադիտ չեն անի",
+      "արա ցելեֆանս բեր արա"
+    ],
+    "topics": [
+      "money",
+      "sports",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

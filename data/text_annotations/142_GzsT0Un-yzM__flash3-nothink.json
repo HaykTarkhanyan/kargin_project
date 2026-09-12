@@ -1,0 +1,62 @@
+{
+  "video_id": "GzsT0Un-yzM",
+  "seq": 142,
+  "kargin_id": 142,
+  "title": "Kargin Haghordum sketch 378 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1869,
+  "gen_sec": 3.09,
+  "prompt_tokens": 1922,
+  "output_tokens": 371,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002074,
+  "annotation": {
+    "title_hy": "UNICEF-ի սեռական հետազոտությունը",
+    "title_en": "The UNICEF Sexual Survey",
+    "summary_en": "A professor conducts a survey on the frequency of sexual relations among his students for a UNICEF study, leading to an overly enthusiastic response from one student.",
+    "summary_detailed_en": "The sketch takes place in a university lecture hall where a bespectacled professor, wearing a wig, stands before a classroom of students. He discusses the importance of sexual pathology and the health benefits of regular sexual relations, citing a global study organized by UNICEF that will conclude in Munich in 2011. The professor explains that he is personally conducting the research in Yerevan and asks the students to answer four questions honestly. He polls the class on who has relations every day, once a week, and once a month, recording the varied responses. The final question concerns those who have relations only once a year. One male student jumps up, waving his arms and shouting with extreme joy and excitement. Perplexed by the student's jubilant reaction to such a low frequency, the professor asks why he is so happy. The student ecstatically delivers the punchline: because that one day is today.",
+    "keywords_hy": [
+      "դասախոս",
+      "համալսարան",
+      "ուսանող",
+      "հարցում",
+      "սեռական հարաբերություն",
+      "ուրախություն"
+    ],
+    "keywords_en": [
+      "professor",
+      "university",
+      "student",
+      "survey",
+      "sexual relations",
+      "enthusiasm",
+      "UNICEF"
+    ],
+    "keywords_translit": [
+      "dasaxos",
+      "hamalsaran",
+      "usanogh",
+      "harcum",
+      "serakan haraberutyun",
+      "uraxutyun"
+    ],
+    "catchphrases": [
+      "որովհետև էդ օրը էսօրա"
+    ],
+    "topics": [
+      "school"
+    ],
+    "humor_type": [
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "xQpgwwduLeI",
+  "seq": 12,
+  "kargin_id": 12,
+  "title": "Kargin Haghordum sketch 300",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1316,
+  "gen_sec": 10.06,
+  "prompt_tokens": 1608,
+  "output_tokens": 622,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00267,
+  "annotation": {
+    "title_hy": "Կոտրված ցուցամատը և հեռախոսագծերը",
+    "title_en": "Broken Finger and the Phone Lines",
+    "summary_en": "A patient complains that his whole body hurts wherever he touches it, only for the doctor to reveal his finger is broken and a surprise guest to reveal his own identity.",
+    "summary_detailed_en": "The sketch takes place in a polyclinic doctor's examination room. A nervous male patient enters and sits with a female doctor, complaining of a bizarre condition where his entire body experiences sharp pain wherever he touches it. To demonstrate, he pokes his chest and head, crying out in pain each time. The doctor examines him and quickly diagnoses that the man's entire body isn't the problem; rather, his index finger is simply broken. She then demands he undress. The patient is confused as to why he needs to strip for a broken finger. The scene shifts focus to a third character: an old village man wearing a flat cap who has been waiting behind the examination curtain. In a sudden twist, the old man opens his jacket to reveal a very hairy chest before buttoning it back up. The sketch concludes with the reveal that the 'doctor' isn't a medical professional at all, but rather someone who just came to check the telephone lines.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդ",
+      "կոտրված մատ",
+      "ցավ",
+      "պոլիկլինիկա",
+      "հեռախոսի գծեր",
+      "ախտորոշում"
+    ],
+    "keywords_en": [
+      "doctor",
+      "patient",
+      "broken finger",
+      "pain",
+      "polyclinic",
+      "phone lines",
+      "diagnosis"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivand",
+      "kotrvats mat",
+      "tsav",
+      "poliklinika",
+      "herakhosi gtser",
+      "akhtoroshum"
+    ],
+    "catchphrases": [
+      "ամեն տեղս ցավումա որտեղ կպնում եմ ցավումա",
+      "ձեր ցուցամատը կոտրված է հանվեք",
+      "ես վապշե էկել էի հեռախոսների գծերը ստուգեի"
+    ],
+    "topics": [
+      "medical",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

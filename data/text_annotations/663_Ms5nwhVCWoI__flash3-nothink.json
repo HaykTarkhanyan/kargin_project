@@ -1,0 +1,68 @@
+{
+  "video_id": "Ms5nwhVCWoI",
+  "seq": 663,
+  "kargin_id": 663,
+  "title": "Kargin Haghordum sketch 243 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1408,
+  "gen_sec": 13.26,
+  "prompt_tokens": 1726,
+  "output_tokens": 580,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002603,
+  "annotation": {
+    "title_hy": "Էլեոնորայի ամուսինը և ցիվիլ մեթոդները",
+    "title_en": "Eleonora's Husband and Civil Methods",
+    "summary_en": "A man confronts his wife's former lover in an office, attempting to handle the infidelity through 'civil' and modern conversation.",
+    "summary_detailed_en": "The sketch takes place in an office setting, featuring a young worker wearing eyeglasses, suspenders, and a mustache, and an older office manager in a dark suit. The younger man approaches the manager to discuss a personal matter, but is initially rebuffed and told that personal matters are only discussed after 6:00 PM. Persistent, the younger man insists he won't leave until they talk, emphasizing that he is a 'modern man' who prefers to solve problems using 'civil methods.' He begins an interrogation, asking the manager if he vacationed in Spain on the Mediterranean Sea the previous year. When the manager confirms, the visitor asks if he met a woman named Eleonora and engaged in an intimate relationship with her. The manager nonchalantly admits to the affair. The visitor then reveals his identity as Eleonora’s husband, stating firmly that he does not like the situation. The sketch ends with the manager’s dry, unexpected punchline: 'To be honest, I didn't like it either.'",
+    "keywords_hy": [
+      "դավաճանություն",
+      "գրասենյակ",
+      "ամուսին",
+      "խոսակցություն",
+      "քաղաքակիրթ",
+      "հանգիստ",
+      "Իսպանիա"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "office",
+      "husband",
+      "conversation",
+      "civil methods",
+      "vacation",
+      "Spain",
+      "confrontation"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "grasenyak",
+      "amusin",
+      "xosakcutyun",
+      "civil metodner",
+      "hangist",
+      "Ispania"
+    ],
+    "catchphrases": [
+      "Ճիշտն ասած իմ դուրն էլ չեկավ"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

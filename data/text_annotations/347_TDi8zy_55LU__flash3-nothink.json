@@ -1,0 +1,70 @@
+{
+  "video_id": "TDi8zy_55LU",
+  "seq": 347,
+  "kargin_id": 347,
+  "title": "Kargin Haghordum sketch 514 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1188,
+  "gen_sec": 5.34,
+  "prompt_tokens": 1639,
+  "output_tokens": 604,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002632,
+  "annotation": {
+    "title_hy": "Տնօրենի սիրուհի քարտուղարուհին",
+    "title_en": "The Director's Mistress Secretary",
+    "summary_en": "A lazy secretary argues with her boss, reminding him that their sexual history gives her the right to ignore her professional duties.",
+    "summary_detailed_en": "The sketch takes place in an office setting, featuring a businesswoman seated at her desk with a computer monitor and telephone, and a man dressed in a shirt and tie. The woman starts by complaining about how tired she is after only thirty minutes of work, deciding she will leave for home after another half hour. The man, who is the director, enters the room visibly frustrated, questioning why she hasn't answered the second phone line for two hours. She dismissively explains she was talking to a girlfriend. When the director screams at her for her unprofessional behavior, asking if she thinks she is in a cafe rather than at work, she remains completely unfazed. She mocks his authority, reminding him that since they have slept together a few times, he has no right to speak to her in that tone. When he indignantly asks who told her she could speak to a director that way, she delivers the punchline: her gynecologist and her lawyer told her so.",
+    "keywords_hy": [
+      "գրասենյակ",
+      "տնօրեն",
+      "քարտուղարուհի",
+      "աշխատանք",
+      "ծույլ",
+      "վեճ",
+      "հեռախոս",
+      "սիրուհի"
+    ],
+    "keywords_en": [
+      "office",
+      "director",
+      "secretary",
+      "work",
+      "lazy",
+      "argument",
+      "telephone",
+      "mistress"
+    ],
+    "keywords_translit": [
+      "grasenyak",
+      "tnoren",
+      "qartuxaruhi",
+      "ashxatanq",
+      "tsuyl",
+      "vech",
+      "heraxos",
+      "siruhi"
+    ],
+    "catchphrases": [
+      "ովա քեզ ասել որ դու կարաս իմ հետ տենց խոսաս  ովա ասել հա ովա ասել իմ գինեկոլոգն ու փաստաբանը"
+    ],
+    "topics": [
+      "work",
+      "romance",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

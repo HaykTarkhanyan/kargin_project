@@ -1,0 +1,71 @@
+{
+  "video_id": "pv_4MVcjEik",
+  "seq": 125,
+  "kargin_id": 125,
+  "title": "Kargin Haghordum sketch 684 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2210,
+  "gen_sec": 8.62,
+  "prompt_tokens": 2203,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00307,
+  "annotation": {
+    "title_hy": "Զինվորական Տնազը",
+    "title_en": "Military Mimicry",
+    "summary_en": "A soldier who is skilled at mimicking his superiors gets caught in a trap when a Major asks him to impersonate a Colonel to help a fellow soldier.",
+    "summary_detailed_en": "The sketch begins in a military base hallway where a Major and Private Simonyan are walking and talking. The Major praises the soldier's uncanny ability to mimic the mannerisms and voices of all the officers. Simonyan asks for a favor: he wants to go home for a few days for his father's birthday, mentioning that a fellow soldier from the fourth platoon was granted similar leave. The Major, amused by Simonyan's talent, challenges him to impersonate the Colonel so they can 'rehearse' how to ask for the leave. After a brief riddle about being his father and mother's son but not his brother (to which the answer is 'myself'), the scene shifts to the Colonel's office. The office is decorated with the Armenian flag and military documents. The Major enters to petition for Simonyan's leave, calling him a 'beloved soldier.' However, the Colonel reveals he knows about the mimicry and asks the Major if he can also do impressions. The joke turns on the irony of officers threatening to 'break heads' over being mimicked while simultaneously demanding to be entertained by those very impressions, leading to a tense bureaucratic standoff about respect and discipline.",
+    "keywords_hy": [
+      "բանակ",
+      "սպա",
+      "զինվոր",
+      "տնազ",
+      "հանելուկ",
+      "մայոր",
+      "գնդապետ",
+      "ծառայություն"
+    ],
+    "keywords_en": [
+      "army",
+      "military base",
+      "soldier",
+      "mimicry",
+      "officer",
+      "riddle",
+      "impersonation",
+      "colonel"
+    ],
+    "keywords_translit": [
+      "banak",
+      "spa",
+      "zinvor",
+      "tnaz",
+      "haneluk",
+      "mayor",
+      "gndapet",
+      "tsarayutyun"
+    ],
+    "catchphrases": [
+      "ոնց կարամ ես ուրիշ տեղ ձեր տնազը անեմ, կտամ գլուխս կջարդեմ",
+      "տղայա, հորիցսա, մորիցսա, բայց ախպերս չի, ո՞վա"
+    ],
+    "topics": [
+      "army",
+      "bureaucracy",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

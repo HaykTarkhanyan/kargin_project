@@ -1,0 +1,68 @@
+{
+  "video_id": "qunPSBfJJW4",
+  "seq": 334,
+  "kargin_id": 334,
+  "title": "Kargin Haghordum sketch 501 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "334_Kargin_Haghordum_sketch_501_Hayko_Mko_qunPSBfJJW4.en.json",
+    "visual": true
+  },
+  "input_chars": 2208,
+  "gen_sec": 14.12,
+  "prompt_tokens": 2004,
+  "output_tokens": 587,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002763,
+  "annotation": {
+    "title_hy": "Օղի քաշող բիձեն և ոստիկանը",
+    "title_en": "The Moonshining Old Man and the Cop",
+    "summary_en": "A police officer threatens an elderly man for illegally distilling moonshine, but the stubborn old man remains undeterred by the threat of prison.",
+    "summary_detailed_en": "The sketch takes place in a rustic village yard where an elderly man wearing a flat cap is operating a homemade moonshine still. A police officer, initially seen spying over a wall and talking on his phone, confronts the old man about his illegal activities. The officer reports to his captain that he has discovered a woman sending infants to school and university, before turning his attention to the 'narco-baron' grandfather distilling alcohol. The officer threatens to call an operational group to arrest him, but the old man remains defiantly calm, offering the officer a drink to 'become a human.' A comedic back-and-forth ensues where the officer claims they will imprison the old man, his son, and his grandson to stop the production. The old man delivers the punchline: by the time they get to his grandson, he will have finished his own sentence, been released, and will simply start distilling again. Despite the legal tension, the visual cues show the two eventually sitting together, drinking the moonshine and eating oranges.",
+    "keywords_hy": [
+      "ոստիկան",
+      "օղի քաշել",
+      "բիձա",
+      "գյուղ",
+      "արաղ",
+      "բանտ",
+      "օպերատիվ խումբ"
+    ],
+    "keywords_en": [
+      "police officer",
+      "moonshine",
+      "distilling",
+      "old man",
+      "village",
+      "prison threat",
+      "vodka"
+    ],
+    "keywords_translit": [
+      "vostikan",
+      "oghi kashel",
+      "bidza",
+      "gyugh",
+      "aragh",
+      "bant",
+      "operativ khumb"
+    ],
+    "catchphrases": [
+      "մի հիսուն խմես մարդ դառնաս",
+      "Այ էդ ժամանակ, ես հելած կլնեմ ու  էլի ես կքաշեմ"
+    ],
+    "topics": [
+      "police",
+      "village",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

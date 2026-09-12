@@ -1,0 +1,68 @@
+{
+  "video_id": "A8_n7aME-yM",
+  "seq": 675,
+  "kargin_id": 675,
+  "title": "Kargin Haghordum - Football (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "675_Kargin_Haghordum_-_Football_Hayko_Mko_A8_n7aME-yM.en.json",
+    "visual": true
+  },
+  "input_chars": 1923,
+  "gen_sec": 5.11,
+  "prompt_tokens": 1891,
+  "output_tokens": 558,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00262,
+  "annotation": {
+    "title_hy": "Նոր ֆուտբոլիստը և մարզիչը",
+    "title_en": "The New Footballer and the Coach",
+    "summary_en": "A new player joins a football team, but the coach's simplified instructions reveal his low opinion of the rest of the squad.",
+    "summary_detailed_en": "The sketch begins in a football locker room where a manager in a tie and jacket introduces a new player to the team, who are all dressed in red jerseys. The manager explains that the new signing will participate in training today and start playing in matches from tomorrow. He mentions that the contracts are signed and instructs the new player to visit accounting after practice to collect his payment. The scene shifts to an outdoor football field where a coach in a tracksuit and whistle leads the training session. The coach demonstrates basic goalkeeping dives and kicks while repeatedly chanting simplified phrases like 'ball, goal, ball, strike, goal' in a rhythmic, primitive manner. The new player, confused by the simplistic and repetitive shouting, tells the coach that he actually understands Armenian perfectly well. The coach then reveals the punchline: he wasn't speaking that way for the new player's benefit, but rather because he believes the rest of the players are 'idiots' who can only understand such basic commands.",
+    "keywords_hy": [
+      "ֆուտբոլ",
+      "մարզիչ",
+      "գոլ",
+      "գնդակ",
+      "հանդերձարան",
+      "պայմանագիր",
+      "մարզում",
+      "ֆուտբոլիստ"
+    ],
+    "keywords_en": [
+      "football",
+      "soccer",
+      "coach",
+      "goal",
+      "training",
+      "locker room",
+      "athlete",
+      "sports contract"
+    ],
+    "keywords_translit": [
+      "futbol",
+      "marzich",
+      "gol",
+      "gndak",
+      "handerdzaran",
+      "paymanagir",
+      "marzum",
+      "futbolist"
+    ],
+    "catchphrases": [
+      "գնդակ գոլ գնդակ գոլ գնդակ ուդառ գոլ"
+    ],
+    "topics": [
+      "sports"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

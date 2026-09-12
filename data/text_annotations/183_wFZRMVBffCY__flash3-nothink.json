@@ -1,0 +1,78 @@
+{
+  "video_id": "wFZRMVBffCY",
+  "seq": 183,
+  "kargin_id": 183,
+  "title": "Kargin Haghordum sketch 363 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "183_Kargin_Haghordum_sketch_363_Hayko_Mko_wFZRMVBffCY.hy.json",
+    "visual": true
+  },
+  "input_chars": 3129,
+  "gen_sec": 4.84,
+  "prompt_tokens": 2752,
+  "output_tokens": 736,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003584,
+  "annotation": {
+    "title_hy": "Շեֆի Կոմպյուտերը և Տղան",
+    "title_en": "The Boss's Computer and Son",
+    "summary_en": "A boss reviews expensive office equipment invoices including a literal rug for a mouse, then insists his son be treated exactly like his other children when hired as a deputy.",
+    "summary_detailed_en": "The sketch takes place in a cluttered office where a boss with a mustache, dressed in a suit, sits behind a desk filled with papers, a liquor bottle, and framed certificates. He reviews invoices presented by his employee, Simonyan, for new computer equipment. The boss is initially impressed by the high prices—$2000 for the computer, $900 for the monitor, and $1500 for the printer. However, he becomes outraged when he sees a $150 charge for a 'mouse' and a 'rug' (khali/mousepad), sarcastically suggesting they should buy slippers for cockroaches next. When he realizes Simonyan has provided a literal mouse and a physical rug, he demands they be removed due to the smell. The conversation then shifts to the boss's son, who has allegedly graduated university in a single year. The boss claims his son is so hardworking he refuses to live off his father's wealth. He decides to hire the son as Simonyan's deputy, sternly instructing Simonyan not to give him special treatment, but rather to treat him 'exactly like any of my other children' who are presumably already embedded in his business empire.",
+    "keywords_hy": [
+      "կամպյուտր",
+      "շեֆ",
+      "Սիմոնյան",
+      "հաշիվ ֆակտուրա",
+      "մկնիկ",
+      "խալի",
+      "գործարան",
+      "աշխատանք",
+      "զամ",
+      "հարուստ"
+    ],
+    "keywords_en": [
+      "computer",
+      "boss",
+      "Simonyan",
+      "invoice",
+      "mouse",
+      "rug",
+      "factory",
+      "work",
+      "deputy",
+      "wealthy"
+    ],
+    "keywords_translit": [
+      "kompyutr",
+      "shef",
+      "Simonyan",
+      "hashiv faktura",
+      "mknik",
+      "khali",
+      "gortsaran",
+      "ashkhatank",
+      "zam",
+      "harust"
+    ],
+    "catchphrases": [
+      "հը Սիմոնյան կամպյուտրս առար",
+      "կամպյուտեր 2000 դոլար լավա լավա",
+      "իրան վերաբերվելու ես նույն ձև ոնց որ իմ յուրաքանչյուր ուրիշ երեխեքիցս մեկին"
+    ],
+    "topics": [
+      "work",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "absurd",
+      "satire"
+    ]
+  }
+}

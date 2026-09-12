@@ -1,0 +1,70 @@
+{
+  "video_id": "K_kuz43dZJc",
+  "seq": 388,
+  "kargin_id": 388,
+  "title": "Kargin Haghordum - T@riq (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1398,
+  "gen_sec": 12.14,
+  "prompt_tokens": 1673,
+  "output_tokens": 620,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002697,
+  "annotation": {
+    "title_hy": "Աֆղանստանի վետերանները և թրիքը",
+    "title_en": "Afghanistan Veterans and the Droppings",
+    "summary_en": "Two men discuss old war wounds and Afghanistan memories in a winter park, only for the conversation to shift abruptly to an encounter with animal droppings.",
+    "summary_detailed_en": "The sketch takes place in a city park during winter, where a man wearing a white knit cap sits on a green bench talking to a bearded man dressed in a beret and an orange-and-black work vest. They discuss a lingering injury from a shrapnel wound sustained during the Soviet-Afghan War, with the man in the cap explaining he still hasn't had surgery. The man in the vest recommends a 'good surgeon' who was also a fellow 'Avgan' (Afghan veteran) with a 'light hand.' As the man in the white cap gets up and walks down the paved path, he encounters a third man in a black coat and fur hat. They continue the walk while reminiscing about their service, repeatedly chanting 'Avgan, Afghanistan, 1984.' However, the nostalgic atmosphere is broken when a close-up shows a dress shoe stepping directly into a large pile of orange animal droppings on the pavement. The punchline subverts the heroic war stories with the mundane reality of the messy sidewalk, shifting from 'Afghanistan' to '40 meters away from the dung.'",
+    "keywords_hy": [
+      "Աֆղանստան",
+      "վետերան",
+      "վիրահատություն",
+      "այգի",
+      "թրիք",
+      "հիշողություն",
+      "ընկերներ"
+    ],
+    "keywords_en": [
+      "Afghanistan",
+      "veteran",
+      "surgery",
+      "park",
+      "droppings",
+      "memories",
+      "friends"
+    ],
+    "keywords_translit": [
+      "Avganstan",
+      "veteran",
+      "virahatutyun",
+      "aygi",
+      "triq",
+      "hishoghutyun",
+      "enkerner"
+    ],
+    "catchphrases": [
+      "Աֆղանստան 84 թիվ",
+      "տո չէ այ ախպեր ջան թրիք 40 մետր էն կոմ",
+      "ավգան",
+      "авган"
+    ],
+    "topics": [
+      "leisure_outing",
+      "medical",
+      "army"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

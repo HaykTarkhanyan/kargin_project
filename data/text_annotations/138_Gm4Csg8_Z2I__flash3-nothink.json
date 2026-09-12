@@ -1,0 +1,70 @@
+{
+  "video_id": "Gm4Csg8_Z2I",
+  "seq": 138,
+  "kargin_id": 138,
+  "title": "Kargin Haghordum sketch 374 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "138_Kargin_Haghordum_sketch_374_Hayko_Mko_Gm4Csg8_Z2I.hy.json",
+    "visual": true
+  },
+  "input_chars": 1559,
+  "gen_sec": 18.89,
+  "prompt_tokens": 1780,
+  "output_tokens": 554,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002552,
+  "annotation": {
+    "title_hy": "Իններորդ հարկից ընկնողը",
+    "title_en": "The One Falling from the Ninth Floor",
+    "summary_en": "A boy cries while a girl laughs about a gruesome suicide they witnessed, but the boy's reason for crying is unexpected.",
+    "summary_detailed_en": "The sketch takes place in a Soviet-block residential courtyard during the day. An ambulance is present with paramedics tending to a body on a stretcher, suggesting a tragic event has just occurred. Two children, a boy and a girl, encounter an elderly man wearing an obviously fake grey beard and wig. The man notices the girl is laughing hysterically and asks what happened. She describes in graphic, dark comedic detail how someone just jumped from the ninth floor, hitting the asphalt so hard that their head, hands, and shoes flew in different directions, covering the yard in blood and intestines. The man scolds her for finding such a tragedy funny. He then turns to the boy, who is sobbing uncontrollably, and asks why he is crying so hard. The boy delivers the dark punchline: he is crying simply because he missed seeing the whole gruesome spectacle. The sketch ends with the trio walking together down a tree-lined street.",
+    "keywords_hy": [
+      "իններորդ հարկ",
+      "հայաթ",
+      "արյուն",
+      "երեխաներ",
+      "ծիծաղել",
+      "լացել",
+      "շտապ օգնություն",
+      "ծերունի"
+    ],
+    "keywords_en": [
+      "ninth floor",
+      "courtyard",
+      "blood",
+      "children",
+      "laughing",
+      "crying",
+      "ambulance",
+      "old man"
+    ],
+    "keywords_translit": [
+      "innerord hark",
+      "hayat",
+      "aryun",
+      "erexaner",
+      "tsitsaghel",
+      "latsel",
+      "shtap ognutyun",
+      "tseruni"
+    ],
+    "catchphrases": [
+      "որովհետև ես էդ ամենինչը չտեսա"
+    ],
+    "topics": [
+      "neighbors",
+      "medical",
+      "other"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

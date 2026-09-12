@@ -1,0 +1,72 @@
+{
+  "video_id": "xKIAGtRttaw",
+  "seq": 108,
+  "kargin_id": 108,
+  "title": "Kargin Haghordum sketch 649 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "108_Kargin_Haghordum_sketch_649_Hayko_Mko_xKIAGtRttaw.hy.json",
+    "visual": true
+  },
+  "input_chars": 3520,
+  "gen_sec": 19.87,
+  "prompt_tokens": 3015,
+  "output_tokens": 688,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003572,
+  "annotation": {
+    "title_hy": "Ճանապարհային Ոստիկանը և Գրազը",
+    "title_en": "The Traffic Cop and the Bet",
+    "summary_en": "A corrupt traffic police officer tries to scam a driver by betting $50 that a breathalyzer will turn red, only to realize his device is actually broken after the whole family 'tests' positive.",
+    "summary_detailed_en": "The sketch takes place on a city street where a traffic police officer stops a driver named Adrisyan. The officer goes through a routine check of the driver's documents, first aid kit, and spare tire, but finally accuses the driver of being drunk. When the driver denies it, the officer proposes a $50 bet rather than a formal fine, claiming his breathalyzer will prove the intoxication. The driver, confident in his sobriety, accepts. When the driver blows into the device, it turns red, but he insists the machine is faulty. To prove his point, the driver suggests his wife (sitting in the car) should blow into it. Surprisingly, the device turns red for her too. Growing suspicious, the driver has his young child blow into the breathalyzer, and it turns red once again. The officer, realizing he has won the 'bet' through a technicality, takes the money and sends them off. After they leave, the officer talks to his colleague, Gevorgyan, realizing the device is actually broken and gives a positive reading to everyone, joking that even the kids 'wouldn't be hurt by a couple of drinks.'",
+    "keywords_hy": [
+      "Ճանապարհային ոստիկանություն",
+      "գրազ",
+      "խմած վիճակ",
+      "տուգանք",
+      "կաշառք",
+      "փչելու սարք",
+      "Կարգին հաղորդում",
+      "Հայկո Մկո"
+    ],
+    "keywords_en": [
+      "Traffic police",
+      "bet",
+      "drunk driving",
+      "breathalyzer",
+      "police scam",
+      "bribe",
+      "Kargin Haghordum",
+      "Hayko Mko"
+    ],
+    "keywords_translit": [
+      "chanaparhayin ostikanutyun",
+      "graz",
+      "khmac vichak",
+      "tuganq",
+      "kasharq",
+      "pchelu sarq",
+      "Kargin Haghordum",
+      "Hayko Mko"
+    ],
+    "catchphrases": [
+      "Արի 50$-ի վրա։",
+      "Այս կնիկդ էլ է խմած արա",
+      "Երեխան էլ է խմած"
+    ],
+    "topics": [
+      "police",
+      "transport",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

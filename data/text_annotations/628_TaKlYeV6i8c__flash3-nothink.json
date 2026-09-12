@@ -1,0 +1,67 @@
+{
+  "video_id": "TaKlYeV6i8c",
+  "seq": 628,
+  "kargin_id": 628,
+  "title": "Kargin Haghordum sketch 550 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1710,
+  "gen_sec": 4.83,
+  "prompt_tokens": 1954,
+  "output_tokens": 564,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002669,
+  "annotation": {
+    "title_hy": "Դասարանցի ատամնաբույժը",
+    "title_en": "The Classmate Dentist",
+    "summary_en": "A routine dental visit turns into a painful trip down memory lane when the dentist realizes her patient is a former classmate who used to bully her.",
+    "summary_detailed_en": "The sketch takes place in a dental clinic where a male patient in a suit is waiting for his procedure. A female dentist (played by a male actor in drag) wearing a blonde wig, surgical cap, and mask enters, explaining she is subbing for the regular doctor. As she prepares a syringe for anesthesia, she recognizes the patient as her old classmate, Armen. The two begin a nostalgic conversation about their school years. Armen mentions he is now a taxi driver, while the dentist reveals she actually works as an accountant and only moonlights at the clinic for extra money. The mood shifts when she reminds him how he used to torment her in class—poking her with needles and nails, pulling her hair, and writing on her neck with a pen until she cried. In an act of delayed revenge for his childhood bullying, she decides to forego the painkiller. She discards the syringe and violently pulls his tooth out with forceps without any anesthesia, mocking his past behavior as he screams in pain.",
+    "keywords_hy": [
+      "ատամնաբույժ",
+      "դասարանցի",
+      "վրեժ",
+      "ատամի ցավ",
+      "բժիշկ",
+      "դպրոցական հուշեր",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "dentist",
+      "classmate",
+      "revenge",
+      "tooth extraction",
+      "doctor",
+      "school memories",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "atamnabuyj",
+      "dasaranci",
+      "vrezh",
+      "atami tsav",
+      "bzhishk",
+      "dprocakan husher",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Բացեք ձեր բերանը"
+    ],
+    "topics": [
+      "medical",
+      "school",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

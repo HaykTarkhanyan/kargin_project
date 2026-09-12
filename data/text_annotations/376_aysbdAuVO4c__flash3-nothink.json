@@ -1,0 +1,69 @@
+{
+  "video_id": "aysbdAuVO4c",
+  "seq": 376,
+  "kargin_id": 376,
+  "title": "Kargin Haghordum sketch 100 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2360,
+  "gen_sec": 5.41,
+  "prompt_tokens": 2333,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003099,
+  "annotation": {
+    "title_hy": "Թիֆլիսից բերած Վազ 2106",
+    "title_en": "Lada from Tbilisi",
+    "summary_en": "Two friends drive back from Tbilisi in a newly purchased Lada, arguing over whether they saved enough money compared to the local Yerevan market.",
+    "summary_detailed_en": "The sketch takes place inside a VAZ-2106 driving along a rural road. Two men are returning to Yerevan from Tbilisi after purchasing the car. The passenger, Gug, defends the purchase, arguing that they saved money despite the long trip. They discuss a rival car they saw in the Yerevan market that featured a rabbit-fur steering wheel cover and a cobra-shaped gear shifter, which would have cost slightly more. As they drive, the driver repeatedly nods off, nearly causing an accident while Gug calculates their savings—only twenty dollars after gas. Tensions rise as a third heavy-set passenger in the back remains asleep after eating all their food. Gug, who only has two thousand drams left for his wife's birthday, is reluctant to spend it on snacks. Finally, they pull over at a roadside kebab stand. Gug instructs his friends to order three kebabs while he sets the car's security systems, but the passenger immediately tries to save money by changing the order to two.",
+    "keywords_hy": [
+      "Վազ 2106",
+      "Թիֆլիս",
+      "ավտոշուկա",
+      "քյաբաբ",
+      "բազար",
+      "բենզին",
+      "փող"
+    ],
+    "keywords_en": [
+      "Lada",
+      "Tbilisi",
+      "car market",
+      "kebab",
+      "bargaining",
+      "gasoline",
+      "savings"
+    ],
+    "keywords_translit": [
+      "Vaz 2106",
+      "Tiflis",
+      "avtoshuka",
+      "qabab",
+      "bazar",
+      "benzin",
+      "pogh"
+    ],
+    "catchphrases": [
+      "հա դե ինչ ասեմ ախպեր հենա կակռազ քյաբաբնոցա կանգնի",
+      "ապե դուք երեք հատ քյաբաբ զակազ տվեք մինչև ես սեկրետները քցեմ սիգնալիզացիան միացնեմ",
+      "հարազատ ջան երեք հատ քյաբաբ դիր սարքի երկու հատ"
+    ],
+    "topics": [
+      "transport",
+      "money",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

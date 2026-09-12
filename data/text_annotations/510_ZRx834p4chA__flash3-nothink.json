@@ -1,0 +1,78 @@
+{
+  "video_id": "ZRx834p4chA",
+  "seq": 510,
+  "kargin_id": 510,
+  "title": "Kargin Haghordum sketch 138 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "510_Kargin_Haghordum_sketch_138_Hayko_Mko_ZRx834p4chA.hy.json",
+    "visual": true
+  },
+  "input_chars": 3297,
+  "gen_sec": 25.85,
+  "prompt_tokens": 2711,
+  "output_tokens": 716,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003503,
+  "annotation": {
+    "title_hy": "Փեսան և Պապական Ավանդույթները",
+    "title_en": "The Son-in-Law and Patriarchal Traditions",
+    "summary_en": "A father insists on marrying off his daughters one by one to a wealthy groom from America, despite the daughters repeatedly dying, just to secure a monthly $500 payment.",
+    "summary_detailed_en": "The sketch begins in a lively living room where a family celebrates the marriage of their eldest daughter to Karen, who lives in America. The father is thrilled, not just for the union, but because Karen has promised to send $500 every month. The atmosphere is festive with champagne and fruit on the table. However, the scene abruptly shifts to a house of mourning; the women are wearing black headscarves and weeping. It is revealed that the eldest daughter has died. Instead of grieving, the father quickly cites 'ancient patriarchal traditions' to justify marrying Karen to his middle daughter, Armine, to keep the $500 monthly deal alive. The cycle repeats absurdly: as the young man in the leather jacket returns to the door with each new bride, the father is informed of their sudden deaths. Each time, he suppresses the family's grief, dismisses the tragedy as 'temporary,' and immediately offers the next daughter in line (the middle one, then the youngest) to the groom, constantly checking if the $500 offer is still on the table. The sketch concludes with the dark irony of the father prioritizing the financial arrangement over the lives of his children.",
+    "keywords_hy": [
+      "փեսա",
+      "Ամերիկա",
+      "փող",
+      "ավանդույթ",
+      "սուգ",
+      "մահ",
+      "հարսանիք",
+      "500 դոլար",
+      "ծնող",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "son-in-law",
+      "America",
+      "money",
+      "tradition",
+      "mourning",
+      "death",
+      "wedding",
+      "500 dollars",
+      "parent",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "phesa",
+      "Amerika",
+      "pogh",
+      "avanduyt",
+      "sug",
+      "mah",
+      "harsanik",
+      "hing haruyr dolar",
+      "cnogh",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "բաժակները խմենք մեր երեխեքին մի հատ բարի ճանապարհ մաղթենք",
+      "փեսա ջան այն 500դոարը ուժի մեջ է",
+      "ըստ մեր պապական ավանդույթների"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "wedding_funeral"
+    ],
+    "humor_type": [
+      "absurd",
+      "dark"
+    ]
+  }
+}

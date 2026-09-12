@@ -1,0 +1,73 @@
+{
+  "video_id": "-oFwyHwg4TM",
+  "seq": 433,
+  "kargin_id": 433,
+  "title": "Kargin Haghordum - Prava (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1811,
+  "gen_sec": 9.64,
+  "prompt_tokens": 2039,
+  "output_tokens": 560,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002699,
+  "annotation": {
+    "title_hy": "Կաշառակեր վարորդը և ոստիկանները",
+    "title_en": "The Bribing Driver and the Police",
+    "summary_en": "Two traffic police officers pull over a driver who solves every legal violation by handing out larger and larger sums of cash to each officer personally.",
+    "summary_detailed_en": "On a rural highway roadside checkpoint during the day, two traffic police officers wait for a 'high-quality' car to pull over, hoping for a significant payout rather than dealing with old Soviet-era vehicles. They stop a white SUV driven by a man in a grey suit. The driver is overly enthusiastic, praising the officers' luck for stopping him and offering to 'neutralize their pain.' As the officers point out various violations—starting with a missing technical inspection sticker, then illegal window tinting, and then a missing first-aid kit—the driver remains unfazed. For each violation, he hands out increasing amounts of cash (20, 50, and 100 dollar bills) to each officer individually. The sketch reaches its climax when one officer asks if the driver even has a license ('prava'). The driver, staying true to his method, pulls out a stack of driver's licenses and hands one to each officer, repeating his catchphrase that they have no problems now. The scene ends with the driver celebrating his ability to buy his way out of anything.",
+    "keywords_hy": [
+      "ճանապարհային ոստիկանություն",
+      "կաշառք",
+      "փող",
+      "տուգանք",
+      "մեքենա",
+      "պռավա",
+      "տեսուչ",
+      "հայկո մկո"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "bribe",
+      "bribery",
+      "cash",
+      "driver's license",
+      "highway",
+      "police officer",
+      "corruption"
+    ],
+    "keywords_translit": [
+      "tchanaparhayin vostikanutyun",
+      "kasharq",
+      "pogh",
+      "tuganqu",
+      "meqena",
+      "prava",
+      "tesuch",
+      "hayko mko"
+    ],
+    "catchphrases": [
+      "բա մարդ ձեր նման բախտ չունենար, իմ նման տղու կանգնցներ",
+      "ցավներդ ասեք, մի հատ ցավազրկեմ",
+      "էս քեզ 100 դոլար,էս քեզ 100 դոլար, էս էլ քեզ 100 դոլար",
+      "էս քեզ պռավա, էս քեզ պռավա, էս էլ քեզ պռավա"
+    ],
+    "topics": [
+      "police",
+      "money",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

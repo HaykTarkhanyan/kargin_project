@@ -1,0 +1,67 @@
+{
+  "video_id": "8r_Q9kcZ3SA",
+  "seq": 203,
+  "kargin_id": 203,
+  "title": "Kargin Haghordum sketch 540 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1277,
+  "gen_sec": 28.39,
+  "prompt_tokens": 1643,
+  "output_tokens": 595,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002607,
+  "annotation": {
+    "title_hy": "Կնոջ սիլի-բիլիները և Արմենը",
+    "title_en": "Wife's Flirting and Armen",
+    "summary_en": "A man storms into his friend's office to ask hypothetical questions about undesirable women, only to reveal he knows the friend is having an affair with his wife.",
+    "summary_detailed_en": "The sketch begins with a black SUV parking outside an industrial-looking building. A man, Sako, walks purposefully through a corridor and past a reception area into a private company office. Inside, a businessman named Armen is sitting at a desk equipped with a computer monitor, a desk phone, and a framed picture. Sako enters despite protests from the staff. He begins to grill Armen with a series of strange questions. He asks if Armen likes 'stupid women,' to which Armen says no. He then asks if Armen likes women who smoke, drink heavily, and come home drunk causing trouble; Armen again replies negatively, questioning why anyone would like that. Finally, Sako asks if Armen likes women who cannot cook or do anything useful. When Armen confirms that such women are clearly unattractive, Sako explodes with the punchline, asking why Armen is having an affair ('sili-bilis') with his wife then. The scene captures Armen's shock as Sako reveals he knows about the betrayal, ending the confrontation on a tense and comedic note.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "գրասենյակ",
+      "ընկերներ",
+      "հարց ու պատասխան",
+      "սիլի-բիլի",
+      "կին",
+      "խանդ"
+    ],
+    "keywords_en": [
+      "betrayal",
+      "office",
+      "friends",
+      "questioning",
+      "affair",
+      "wife",
+      "jealousy"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "grasenyak",
+      "ynkerner",
+      "harts u pataskhan",
+      "sili-bili",
+      "kin",
+      "khand"
+    ],
+    "catchphrases": [
+      "արա բա որ տենց խի ես կնգաս հետ սիլի-բիլիներ անում"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

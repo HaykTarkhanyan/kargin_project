@@ -1,0 +1,70 @@
+{
+  "video_id": "goMkbrJ5znE",
+  "seq": 51,
+  "kargin_id": 51,
+  "title": "Kargin Haghordum sketch 616 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "051_Kargin_Haghordum_sketch_616_Hayko_Mko_goMkbrJ5znE.tr.json",
+    "visual": true
+  },
+  "input_chars": 1734,
+  "gen_sec": 52.51,
+  "prompt_tokens": 1882,
+  "output_tokens": 605,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002756,
+  "annotation": {
+    "title_hy": "Գյուղացին և ներքին ձայնը",
+    "title_en": "The Farmer and the Inner Voice",
+    "summary_en": "A simple farmer follows the advice of his 'inner voice' to perform absurd tasks in the field, only to realize the voice finds his misfortune entertaining.",
+    "summary_detailed_en": "The sketch takes place in a village pasture where a mustached farmer, dressed in a rustic orange jacket and a yellow felt cap, is leading his donkey. Suddenly, he hears a voice telling him to stop. When he asks who it is, the voice claims to be his 'inner voice' and promises to provide him with 'pleasant moments.' The farmer, trusting and curious, follows the voice's instructions to go toward a haystack. Once there, the voice tells him to tear the haystack apart. Despite his confusion, the farmer complies, only to be told to move on to the next task. The voice then directs him toward a nearby river/irrigation canal. The farmer is instructed to throw a large jug (karas) into the water. After the farmer tosses the vessel, resulting in a loud splash, he asks what the 'pleasant moment' is. The voice laughs and remarks on how satisfying the splashing sound was, revealing that the 'pleasant moments' were only for the voice itself at the farmer's expense. The visual ends with the farmer reacting to the realization near the water's edge.",
+    "keywords_hy": [
+      "ներքին ձայն",
+      "գյուղացի",
+      "խոտի դեզ",
+      "կարաս",
+      "գետ",
+      "ավանակ",
+      "հաճելի պահեր",
+      "բլթոց"
+    ],
+    "keywords_en": [
+      "inner voice",
+      "farmer",
+      "haystack",
+      "clay jug",
+      "river",
+      "donkey",
+      "pleasant moments",
+      "splash"
+    ],
+    "keywords_translit": [
+      "nerqin dzayn",
+      "gyughaci",
+      "khoti dez",
+      "karas",
+      "get",
+      "ishuk",
+      "hacheli paher",
+      "bltoc"
+    ],
+    "catchphrases": [
+      "Էս քո ներքին ձայնն ա ախպս",
+      "լավ բլթաց չէ՞ ախպս"
+    ],
+    "topics": [
+      "village",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

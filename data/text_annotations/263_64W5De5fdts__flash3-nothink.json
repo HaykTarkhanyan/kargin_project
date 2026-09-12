@@ -1,0 +1,70 @@
+{
+  "video_id": "64W5De5fdts",
+  "seq": 263,
+  "kargin_id": 263,
+  "title": "Kargin Haghordum sketch 571 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "263_Kargin_Haghordum_sketch_571_Hayko_Mko_64W5De5fdts.tr.json",
+    "visual": true
+  },
+  "input_chars": 1740,
+  "gen_sec": 14.98,
+  "prompt_tokens": 1910,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002752,
+  "annotation": {
+    "title_hy": "Խոստովանություն և նոր հասցեներ",
+    "title_en": "Confession and New Addresses",
+    "summary_en": "A man visits a priest to confess to adultery but refuses to name the woman, leading the priest to guess several local candidates.",
+    "summary_detailed_en": "The sketch takes place outside a snow-covered stone monastery. A man wearing a beanie and a hooded jacket approaches a priest (represented by a bearded man) to confess his sins. He admits to having an affair with a married woman, calling it a 'different class of sin.' The priest insists that for absolution, the man must reveal the woman's identity. When the man refuses, the priest begins guessing local women, describing them in vivid, scandalous detail: the tractor driver Vaghinak's promiscuous young wife, the veterinarian's uninhibited sister, and the village head's provocative daughter, Sergine. Despite the priest's probing, the man continues to deny each one and refuses to name his partner. Frustrated, the priest denies him absolution and sends him away. Outside, the man meets a friend. When asked if he received forgiveness, the man excitedly reveals his true motive: he didn't care about the absolution; he just wanted to get three 'bomb' new addresses of easy women from the priest's guesses.",
+    "keywords_hy": [
+      "խոստովանություն",
+      "տերհայր",
+      "եկեղեցի",
+      "մեղք",
+      "շնություն",
+      "հասցեներ",
+      "գյուղապետ",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "confession",
+      "priest",
+      "church",
+      "sin",
+      "adultery",
+      "addresses",
+      "village head",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "xostovanutyun",
+      "ter hayr",
+      "ekexeci",
+      "mexq",
+      "shnutyun",
+      "hascener",
+      "gyuxapet",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "իրեք հատ ընենց նոր հասցե եմ իմացեե մեկը մեկից բոմբ"
+    ],
+    "topics": [
+      "religion",
+      "village",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "video_id": "nGjL-1Me690",
+  "seq": 666,
+  "kargin_id": 666,
+  "title": "Kargin Haghordum sketch 246 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "666_Kargin_Haghordum_sketch_246_Hayko_Mko_nGjL-1Me690.hy.json",
+    "visual": true
+  },
+  "input_chars": 5144,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Հինգը յաշիկ արաղ",
+    "title_en": "Five Crates of Vodka",
+    "summary_en": "A TV crew interviews Armenia's oldest man about his most interesting story, and every anecdote he offers turns out to be unbroadcastable in exactly the same way.",
+    "summary_detailed_en": "A reporter in sunglasses and his cameraman hike across a rural hillside looking for a villager the locals say walks down to the end of the gorge at first light and sits there until dark. Checking the archive, the reporter confirms he is the oldest man in Armenia at a hundred and twenty-six. They find him in a field in a fur hat, greet him at a shout, and ask for the most interesting story of his life. He tells it: his friend's wife once got lost in the forest, the men of the whole village gathered, took five crates of vodka, searched for three days and nights, found her, celebrated by drinking the five crates, and then the men of the whole village assaulted her before going home merry. The reporter explains carefully that two to three million people watch them, children and women among them, and asks for a different story. The old man obliges - this time the village cow got lost, and the anecdote runs to exactly the same shape and ending. Asked instead for his most frightening story, he begins: one day it was he who got lost in the forest, and the men of the whole village gathered with five crates.",
+    "keywords_hy": [
+      "ամենատարեց",
+      "126 տարեկան",
+      "ռեպորտաժ",
+      "հեռուստատեսություն",
+      "գյուղ",
+      "անտառ",
+      "արաղ",
+      "յաշիկ",
+      "կով",
+      "պատմություն"
+    ],
+    "keywords_en": [
+      "oldest man",
+      "126 years old",
+      "TV report",
+      "reporter",
+      "village",
+      "forest",
+      "vodka",
+      "crates",
+      "cow",
+      "interview"
+    ],
+    "keywords_translit": [
+      "amenatarets",
+      "126 tarekan",
+      "reportazh",
+      "herustatesutyun",
+      "gyugh",
+      "antar",
+      "aragh",
+      "yashik",
+      "kov",
+      "patmutyun"
+    ],
+    "catchphrases": [
+      "Հինգը յաշիկ արաղ",
+      "էտա հետաքրքիր պատմությունը",
+      "արի թեման լրիվ փոխենք դու մեզ պատմի քո հետ կատարված ամենասարսափելի պատմությունը"
+    ],
+    "topics": [
+      "village",
+      "media_showbiz",
+      "drinking"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

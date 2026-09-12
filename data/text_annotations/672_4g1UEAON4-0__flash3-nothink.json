@@ -1,0 +1,73 @@
+{
+  "video_id": "4g1UEAON4-0",
+  "seq": 672,
+  "kargin_id": 672,
+  "title": "Kargin Haghordum sketch 252 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "672_Kargin_Haghordum_sketch_252_Hayko_Mko_4g1UEAON4-0.tr.json",
+    "visual": true
+  },
+  "input_chars": 2636,
+  "gen_sec": 6.32,
+  "prompt_tokens": 2358,
+  "output_tokens": 611,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003012,
+  "annotation": {
+    "title_hy": "Պատմության Քննություն և Ծանոթներ",
+    "title_en": "History Exam and Connections",
+    "summary_en": "Three students take a history exam, but their grades depend more on their political connections than their knowledge of the atomic bombings.",
+    "summary_detailed_en": "The sketch takes place in an educational setting where three students prepare to take a history exam from a stern professor. Before entering, they discuss their advantages: one has the backing of a Minister, another the Deputy Minister, while the third, Soghomonyan, relies solely on his excellent knowledge. The first student enters the office, where the professor sits at a desk with a lamp and notebook. Knowing the student is backed by a 'very important person,' the professor asks an incredibly easy question about which country the US dropped an atomic bomb on. After guessing China first, the student corrects himself to Japan and receives a top grade. The second student, backed by the Deputy Minister, is asked the same question plus the names of the cities, Hiroshima and Nagasaki, and also receives a top grade. Finally, Soghomonyan enters. Despite answering the country, the cities, and the exact death tolls (140,000 and 73,000) correctly, the professor—realizing the boy has no powerful sponsors—demands that he list the first and last names of every single victim to pass.",
+    "keywords_hy": [
+      "քննություն",
+      "դասախոս",
+      "ուսանող",
+      "ծանոթ",
+      "մինիստր",
+      "պատմություն",
+      "Հերոսիմա",
+      "ատոմային ռումբ",
+      "կաշառք"
+    ],
+    "keywords_en": [
+      "exam",
+      "professor",
+      "student",
+      "connections",
+      "minister",
+      "history",
+      "Hiroshima",
+      "atomic bomb",
+      "corruption"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "dasaxos",
+      "usanogh",
+      "tsanot",
+      "ministr",
+      "patmutyun",
+      "Herosima",
+      "atomayin rumb",
+      "kasharq"
+    ],
+    "catchphrases": [
+      "Հերոսիմա Նակասակւ"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy",
+      "law_court"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "iXQc7hUtK2I",
+  "seq": 414,
+  "kargin_id": 414,
+  "title": "Kargin Haghordum - Hett em gali (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1855,
+  "gen_sec": 15.37,
+  "prompt_tokens": 1964,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002779,
+  "annotation": {
+    "title_hy": "Ուսանողական քեֆը և պապան",
+    "title_en": "Student Party and Dad",
+    "summary_en": "A student tries to defy his strict mother's orders to stay home and study, only to have his father unexpectedly join his rebellion.",
+    "summary_detailed_en": "The sketch begins in a wallpapered apartment room where a young man wearing glasses and a plaid shirt, Grisha, is arguing with a flamboyant man in a patterned shirt with a perm. Grisha explains that he wants to celebrate the end of the semester with his friends, but he is met with strict resistance, being told he has an exam in mechanics to study for. Grisha pleads that he is a top student and wants to enjoy his youth, meet girls, and create memories, unlike his father who only drinks. Eventually, Grisha reaches a breaking point and defiantly declares that he is an adult and will go out to drink and party regardless of permission. As he prepares to leave, his father—who was previously seen passed out on the lawn outside near a television—suddenly jumps up. Instead of stopping his son as expected, the father enthusiastically joins the rebellion, telling Grisha to wait because he is coming along to the party too.",
+    "keywords_hy": [
+      "ուսանող",
+      "քննություն",
+      "քեֆ",
+      "ծնողներ",
+      "խմել",
+      "մեխանիկա",
+      "սեսիա",
+      "հայր և որդի"
+    ],
+    "keywords_en": [
+      "student",
+      "exam",
+      "party",
+      "parents",
+      "drinking",
+      "mechanics",
+      "session",
+      "father and son"
+    ],
+    "keywords_translit": [
+      "usanogh",
+      "qnnutyun",
+      "qef",
+      "cnoghner",
+      "xmel",
+      "mexanika",
+      "sesia",
+      "hayr ev ordi"
+    ],
+    "catchphrases": [
+      "կուռսում ածականս բացակա են դրե",
+      "Պապ ջան, չփորձես ինձ կանգնացնել",
+      "Արա ինչ կանգնացել, կայնի հետդ եմ գալի"
+    ],
+    "topics": [
+      "family",
+      "school",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

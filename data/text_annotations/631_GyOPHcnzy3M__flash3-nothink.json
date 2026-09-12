@@ -1,0 +1,70 @@
+{
+  "video_id": "GyOPHcnzy3M",
+  "seq": 631,
+  "kargin_id": 631,
+  "title": "Kargin Haghordum sketch 553 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2626,
+  "gen_sec": 4.8,
+  "prompt_tokens": 2502,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003048,
+  "annotation": {
+    "title_hy": "Երեք Հաշմանդամ և Բարի Փերին",
+    "title_en": "Three Disabled Men and the Good Fairy",
+    "summary_en": "Two elderly disabled friends are joined by a young man with a limp until a magical fairy appears to heal them all, leading to an unexpected reaction from the youngest.",
+    "summary_detailed_en": "The sketch is set in a foggy autumn park with fallen leaves and a street sweeper working in the background. Two elderly friends, Hakob (who is blind) and Davit (who is deaf and mute), sit on a park bench struggling to communicate. They are joined by Khachik, a younger man with a noticeable limp, who acts as a translator between them using sign language. Khachik shares his sorrow about being rejected by a girl's parents because one of his legs is shorter than the other. Hakob comforts him, wishing for a miracle so they could all be 'normal.' Suddenly, a magical fairy in a glowing white robe appears with sparkling light effects. She heals Hakob, restoring his sight, and he runs off in joy. She then heals Davit, giving him hearing and speech, and he chases after Hakob. However, when the fairy offers to fix Khachik’s leg, he panics and pushes her magic wand away. He explains that if he is cured, he will no longer be exempt from the military and will be drafted into the army, choosing his disability over service.",
+    "keywords_hy": [
+      "բարի փերի",
+      "հաշմանդամ",
+      "այգի",
+      "հրաշք",
+      "բանակից թռնել",
+      "կույր",
+      "խուլ ու համր",
+      "կաղ"
+    ],
+    "keywords_en": [
+      "good fairy",
+      "disabled",
+      "park",
+      "miracle",
+      "draft dodging",
+      "blind man",
+      "deaf mute",
+      "limp"
+    ],
+    "keywords_translit": [
+      "bari peri",
+      "hashmandam",
+      "aygi",
+      "hrashq",
+      "banakic trnel",
+      "kuyr",
+      "khul u hamr",
+      "kagh"
+    ],
+    "catchphrases": [
+      "Ոնց ես"
+    ],
+    "topics": [
+      "army",
+      "leisure_outing",
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

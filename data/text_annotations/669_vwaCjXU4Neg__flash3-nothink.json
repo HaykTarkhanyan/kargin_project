@@ -1,0 +1,75 @@
+{
+  "video_id": "vwaCjXU4Neg",
+  "seq": 669,
+  "kargin_id": 669,
+  "title": "Kargin Haghordum sketch 249 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "669_Kargin_Haghordum_sketch_249_Hayko_Mko_vwaCjXU4Neg.hy.json",
+    "visual": true
+  },
+  "input_chars": 2553,
+  "gen_sec": 7.39,
+  "prompt_tokens": 2317,
+  "output_tokens": 659,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003136,
+  "annotation": {
+    "title_hy": "Աներոջ դժգոհություն և ջահել",
+    "title_en": "Father-in-law's Grudge and the Youngster",
+    "summary_en": "A man driving an SUV rants on the phone to his wife about her father's lack of respect, only to be insulted by another driver during the commute.",
+    "summary_detailed_en": "The sketch begins with a mustached man driving a black SUV through a rural, dusty road lined with orchards. Throughout the journey, he is on his mobile phone, venting aggressively to his wife about her father. He reminds her of the days when her family was poor ('sitting on zero') and he was the one providing them with meat once a month. He bitterly recounts how his father-in-law used to borrow money and even wear his underwear—specifically mentioning striped ones and ones with apple patterns. He is particularly offended because the father-in-law called him 'kid' (jahel) in front of everyone. The driver threatens that for the sake of his mother-in-law, whom he respects, he won't take action yet, but warns that if it happens again, he has a plastic surgeon friend who will 'rejuvenate' the old man without anesthesia. After the rant ends and a brief transition, a younger man is seen driving a different car on the same track, peering over the wheel. The younger man calls the first driver a 'donkey' (esh), leading to a final comedic exchange of insults where the first driver calls him a 'porter' (hambal).",
+    "keywords_hy": [
+      "խորոված",
+      "աներ",
+      "զոքանչ",
+      "պարտք",
+      "վիրաբույժ",
+      "ավտոմեքենա",
+      "հեռախոս",
+      "էշ",
+      "համբալ",
+      "գծավոր թումբաներ"
+    ],
+    "keywords_en": [
+      "father-in-law",
+      "khorovats",
+      "debt",
+      "plastic surgeon",
+      "driving",
+      "phone call",
+      "insult",
+      "donkey",
+      "rural road",
+      "underwear"
+    ],
+    "keywords_translit": [
+      "khorovats",
+      "aner",
+      "zoqanch",
+      "partq",
+      "virabuyzh",
+      "avtomeqena",
+      "herakhos",
+      "esh",
+      "hambal",
+      "gtsavor tumbaner"
+    ],
+    "catchphrases": [
+      "էշ"
+    ],
+    "topics": [
+      "family",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

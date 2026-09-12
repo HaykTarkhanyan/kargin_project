@@ -1,0 +1,69 @@
+{
+  "video_id": "AflDz3lCrhk",
+  "seq": 487,
+  "kargin_id": 487,
+  "title": "Kargin Haghordum sketch 115 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "487_Kargin_Haghordum_sketch_115_Hayko_Mko_AflDz3lCrhk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1940,
+  "gen_sec": 12.03,
+  "prompt_tokens": 2050,
+  "output_tokens": 627,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002906,
+  "annotation": {
+    "title_hy": "Զուգարանի թուղթ և հազարանոց",
+    "title_en": "Toilet Paper and Change",
+    "summary_en": "While standing at the urinals in an airport restroom, a man desperately asks his neighbor for toilet paper or a newspaper before offering a large bill to be broken into smaller change.",
+    "summary_detailed_en": "The sketch begins at an airport terminal where travelers are queuing, transitioning to a restroom setting. A man in a suit and tie is standing at a urinal when he is approached by another man, who wears a flat cap and a tan blazer. The man in the blazer, identifying himself as Karen, explains that he is about to fly to Brussels and decided to use the restroom before his flight. However, he discovers his stall is out of toilet paper. He asks his 'neighbor' at the urinals if there is any paper available in his cabinet. When the man in the suit informs him there is no paper at all, the conversation turns increasingly desperate. Karen asks if there are any magazines or newspapers he could use instead. When the man in the suit says no, the punchline arrives as Karen presents a large banknote, asking if he could at least get change for it in one-thousand dram bills, implying he intends to use the money as a substitute for toilet paper. The exchange leads to a physical confrontation between the two men.",
+    "keywords_hy": [
+      "օդանավակայան",
+      "զուգարան",
+      "հարևան",
+      "զուգարանի թուղթ",
+      "փող մանրել",
+      "Բրյուսել",
+      "հազարանոց",
+      "թռիչք"
+    ],
+    "keywords_en": [
+      "airport",
+      "restroom",
+      "toilet paper",
+      "neighbor",
+      "breaking change",
+      "Brussels",
+      "banknote",
+      "flight"
+    ],
+    "keywords_translit": [
+      "odanavakayan",
+      "zugaran",
+      "harevan",
+      "zugarani tuxt",
+      "pox manrel",
+      "Bryusel",
+      "hazaranoc",
+      "trixq"
+    ],
+    "catchphrases": [
+      "կարողա ինչ որ ժուռնալ թերթ ունենաք չէ չունեմ ցավդ տանեմ կներեք իկ կարողա էսի հազարնոցներով մանրեիք"
+    ],
+    "topics": [
+      "transport",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

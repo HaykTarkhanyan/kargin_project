@@ -1,0 +1,70 @@
+{
+  "video_id": "U6_PAZlgrOo",
+  "seq": 267,
+  "kargin_id": 267,
+  "title": "Kargin Haghordum sketch 575 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2044,
+  "gen_sec": 24.37,
+  "prompt_tokens": 2008,
+  "output_tokens": 614,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002846,
+  "annotation": {
+    "title_hy": "Տնօրենի սխալ զանգը",
+    "title_en": "The Boss's Wrong Call",
+    "summary_en": "An aggressive boss yells at his employee over the phone, only to realize later at home that he accidentally called his own housekeeper and insulted her instead.",
+    "summary_detailed_en": "The sketch begins in a corporate office where a boss, wearing a suit and red tie, sits behind a desk. He is in a fit of rage, delivering a poetic rant to a female employee about how his staff is 'plucking his nerves like guitar strings.' He gives strict orders that no one is to leave early and that the office must be locked up by her and 'Anza.' The scene transitions to a wet city street at dusk as the boss drives home in a black sedan. He enters his heavily furnished apartment, where he is met by his wife—a character played by a male actor in a blonde wig and dress. The wife reveals the 'joyful news' that their housekeeper has just quit. When the husband asks why, she explains that he called the housekeeper an hour ago and unleashed a torrent of filthy insults, even attacking her parents, before slamming the phone down. The sketch ends with the husband's sheepish realization: he thought he was yelling at his wife the whole time.",
+    "keywords_hy": [
+      "տնօրեն",
+      "աշխատող",
+      "հեռախոսազանգ",
+      "նեռվեր",
+      "տնային տնտեսուհի",
+      "սխալմունք",
+      "կնիկ",
+      "հայհոյանք"
+    ],
+    "keywords_en": [
+      "boss",
+      "employee",
+      "phone call",
+      "nerves",
+      "housekeeper",
+      "mistake",
+      "wife",
+      "insults"
+    ],
+    "keywords_translit": [
+      "tnoren",
+      "ashxatogh",
+      "heraxosazang",
+      "nerver",
+      "tnayin tntesuhi",
+      "sxalmunq",
+      "knik",
+      "hayhoyanq"
+    ],
+    "catchphrases": [
+      "արա խի եք նեռվերս վեկալում սենց փռում հատիկ-հատիկ անում ու վրեն գիթառ նվագում խի"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

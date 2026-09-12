@@ -1,0 +1,70 @@
+{
+  "video_id": "331ZGPNEFBs",
+  "seq": 553,
+  "kargin_id": 553,
+  "title": "Kargin Haghordum sketch 185 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "553_Kargin_Haghordum_sketch_185_Hayko_Mko_331ZGPNEFBs.bg.json",
+    "visual": true
+  },
+  "input_chars": 1473,
+  "gen_sec": 9.97,
+  "prompt_tokens": 1811,
+  "output_tokens": 615,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00275,
+  "annotation": {
+    "title_hy": "500 դոլարանոց գժական արաղը",
+    "title_en": "The $500 Crazy Vodka",
+    "summary_en": "A man at a bar complains that the alcohol isn't affecting him and asks for a 'crazy' drink, only to realize the madness lies in the price.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit bar where two men in patterned shirts are sitting, smoking cigarettes and drinking. One man is heavily intoxicated and boasting about his plans for a birthday party in the neighboring building, joking that he intends to drink so much he might 'give birth' there. He complains to his companion and the bartender that he has already had five glasses of vodka and feels absolutely nothing, questioning when the 'credits will roll' on his sobriety. He asks for something 'crazy' (gzhakan) to drink, hoping for a stronger effect. After another patron in a white jacket briefly joins and slumps over the table, the man insists on the special drink, claiming 'we only live once.' The bartender pours him a glass of what looks like ordinary vodka. When the man skeptically asks what exactly makes this particular drink 'crazy' since it looks and tastes normal, the bartender delivers the punchline: the drink is 'crazy' because a single glass costs $500.",
+    "keywords_hy": [
+      "բար",
+      "արաղ",
+      "խմիչք",
+      "հարբած",
+      "ծնունդ",
+      "թանկարժեք",
+      "կատակ",
+      "հինգ հարյուր դոլար"
+    ],
+    "keywords_en": [
+      "bar",
+      "vodka",
+      "drinking",
+      "drunk",
+      "birthday party",
+      "expensive drink",
+      "joke",
+      "five hundred dollars"
+    ],
+    "keywords_translit": [
+      "bar",
+      "aragh",
+      "xmichq",
+      "harbac",
+      "cnund",
+      "tankarjeq",
+      "katak",
+      "hing haryur dolar"
+    ],
+    "catchphrases": [
+      "Հա բայց այ ախպեր էսի սովորական արաղա, սրա որ մոմենտնա ո՞ր գժական։ -Սրա մի բաժակը 500$ ա։"
+    ],
+    "topics": [
+      "drinking",
+      "money",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

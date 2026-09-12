@@ -1,0 +1,73 @@
+{
+  "video_id": "M1hWImC8Vl4",
+  "seq": 611,
+  "kargin_id": 611,
+  "title": "Kargin Haghordum sketch 489 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2478,
+  "gen_sec": 9.88,
+  "prompt_tokens": 2390,
+  "output_tokens": 601,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002998,
+  "annotation": {
+    "title_hy": "Կույրն ու հաշմանդամը",
+    "title_en": "The Blind and the Disabled",
+    "summary_en": "A panhandler at a church yard changes his disability to solicit money from a Western Armenian couple, only to accidentally reveal his fraud.",
+    "summary_detailed_en": "Set in the outdoor courtyard of a historic stone church, a disheveled man is seen panhandling. He uses various personas to elicit sympathy from passersby, including carrying a toy piano keyboard and a cardboard sign. He sings mournful songs about life's hardships and being 'blind.' A couple speaking in Western Armenian dialect approaches him. The woman is particularly moved by his plight, even when her companion remarks on the man's lack of musical talent. The panhandler cycles through different stories, claiming to be a father of three and a graduate of multiple institutes whose life was derailed by a tragic accident under a train while traveling to Kobuleti. He switches between being blind and being physically disabled to maximize donations. However, the charade falls apart when he gets too comfortable in conversation. While discussing how difficult it is to be blind, he says, 'Back when I was blind,' inadvertently admitting that his current state is a lie. Realizing they have been swindled by a fake beggar, the couple becomes angry, calling him a bandit and a scoundrel as he tries to quickly gather the money and flee.",
+    "keywords_hy": [
+      "մուրացկան",
+      "եկեղեցի",
+      "կույր",
+      "ինվալիդ",
+      "հաշմանդամ",
+      "սփյուռքահայ",
+      "խաբեբա",
+      "ողորմություն",
+      "փող"
+    ],
+    "keywords_en": [
+      "panhandler",
+      "beggar",
+      "church",
+      "blind",
+      "disabled",
+      "diaspora",
+      "fraud",
+      "scammer",
+      "donations"
+    ],
+    "keywords_translit": [
+      "murackan",
+      "ekexeci",
+      "kuyr",
+      "invalid",
+      "hashmandam",
+      "spyurqahay",
+      "khabeba",
+      "oxormutyun",
+      "pogh"
+    ],
+    "catchphrases": [
+      "ես որ կույր էի"
+    ],
+    "topics": [
+      "religion",
+      "money",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

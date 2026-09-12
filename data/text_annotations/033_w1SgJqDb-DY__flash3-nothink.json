@@ -1,0 +1,71 @@
+{
+  "video_id": "w1SgJqDb-DY",
+  "seq": 33,
+  "kargin_id": 33,
+  "title": "Kargin Haghordum sketch 340 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "033_Kargin_Haghordum_sketch_340_Hayko_Mko_w1SgJqDb-DY.hy.json",
+    "visual": true
+  },
+  "input_chars": 1845,
+  "gen_sec": 18.29,
+  "prompt_tokens": 1960,
+  "output_tokens": 598,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002774,
+  "annotation": {
+    "title_hy": "Նեմեցները սարից գալիս են",
+    "title_en": "The Germans are Coming",
+    "summary_en": "In a World War II parody, a hesitant sergeant refuses to give the order to fire on the approaching Germans until he hears a specific detail about their physical appearance.",
+    "summary_detailed_en": "Set on a grassy hillside battlefield during a parody of a World War II conflict, two soldiers in period military uniforms are seen crawling and grappling amidst smoke effects and the sound of gunfire. A soldier repeatedly reports to his sergeant that the German forces (nemetsnere) are descending from the hill and attacking. While neighboring battalions have already opened fire, the sergeant insists on waiting, claiming it is still too early. Even after the soldier reports that half their battalion has been wiped out and the enemy is closing in, the sergeant remains unmoved, repeating his command to wait until they are closer. The tension peaks when the soldier informs him that the Germans have entered their trench (akop). The sergeant finally asks for a description of the enemy. When the soldier mentions there are muscular men with blonde hair and blue eyes among them, the sergeant finally changes his mind and commands his subordinate to open fire ruthlessly, providing a comedic twist on his previous hesitation.",
+    "keywords_hy": [
+      "պատերազմ",
+      "սերժանտ",
+      "նեմեցներ",
+      "հրաման",
+      "կրակ",
+      "խրամատ",
+      "զինվոր",
+      "ճակատամարտ"
+    ],
+    "keywords_en": [
+      "war",
+      "sergeant",
+      "Germans",
+      "order to fire",
+      "trench",
+      "soldier",
+      "battlefield",
+      "WWII parody"
+    ],
+    "keywords_translit": [
+      "paterazm",
+      "serzhant",
+      "nemetsnere",
+      "hraman",
+      "krak",
+      "akop",
+      "zinvor",
+      "chakatamart"
+    ],
+    "catchphrases": [
+      "նեմեցները սարից գալիս են մեր վրա",
+      "շուտ ա հլը",
+      "կյաժ մազերով կապույտ աչքերով մկանոտ տղաներ",
+      "անխնա կրակ"
+    ],
+    "topics": [
+      "army"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

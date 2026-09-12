@@ -1,0 +1,71 @@
+{
+  "video_id": "z3FMKrxzWhc",
+  "seq": 19,
+  "kargin_id": 19,
+  "title": "Kargin Haghordum sketch 326 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "019_Kargin_Haghordum_sketch_326_Hayko_Mko_z3FMKrxzWhc.hy.json",
+    "visual": true
+  },
+  "input_chars": 3407,
+  "gen_sec": 19.36,
+  "prompt_tokens": 2824,
+  "output_tokens": 592,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003188,
+  "annotation": {
+    "title_hy": "Հիվանդի վերջին խոսքը",
+    "title_en": "Patient's Last Words",
+    "summary_en": "A man on his deathbed gives final advice to his family, revealing his cynical views on their futures and a spiteful wish for his wife.",
+    "summary_detailed_en": "The sketch is set in a modest apartment bedroom where a grey-haired man lies propped up in a sickbed. His family—a wife (played by a male actor in a curly wig and glasses), a young daughter, and a young son—sits somberly around him. The man begins a long deathbed monologue, claiming the doctor gave him three months but the family's expressions suggest he is dying today. He critiques his daughter, Meline, for hanging out in cafes with a minister's daughter, predicting she will end up as a waitress for her rich friend. He then turns to his son, dismissing the boy's sunflower seed business (simushka) as a dead end, advising him to upgrade to walnuts or hazelnuts because of impending city bans. In the final punchline, he asks his wife to marry their neighbor Serozh after he passes. When she asks why since Serozh is a bad man, the dying man dryly replies, 'He deserves it,' revealing his request is a punishment for the neighbor rather than a kindness to his wife.",
+    "keywords_hy": [
+      "հիվանդ",
+      "մահամերձ",
+      "կտակ",
+      "ընտանիք",
+      "սիմուշկա",
+      "հարևան",
+      "կատակ",
+      "վերջին խոսք"
+    ],
+    "keywords_en": [
+      "sickbed",
+      "deathbed",
+      "dying man",
+      "family",
+      "sunflower seeds",
+      "neighbor",
+      "last words",
+      "inheritance"
+    ],
+    "keywords_translit": [
+      "hivand",
+      "mahamerdz",
+      "ktak",
+      "yntaniq",
+      "simushka",
+      "harevan",
+      "katak",
+      "verjin khosq"
+    ],
+    "catchphrases": [
+      "ոնց ես ապեր",
+      "իրան հասնում ա"
+    ],
+    "topics": [
+      "family",
+      "medical",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

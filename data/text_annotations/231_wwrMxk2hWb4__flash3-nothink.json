@@ -1,0 +1,73 @@
+{
+  "video_id": "wwrMxk2hWb4",
+  "seq": 231,
+  "kargin_id": 231,
+  "title": "Kargin Haghordum sketch 313 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "231_Kargin_Haghordum_sketch_313_Hayko_Mko_wwrMxk2hWb4.hy.json",
+    "visual": true
+  },
+  "input_chars": 2511,
+  "gen_sec": 4.33,
+  "prompt_tokens": 2476,
+  "output_tokens": 615,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003083,
+  "annotation": {
+    "title_hy": "Սամոն և Փիրուզի կոմպլիմենտները",
+    "title_en": "Samo, Piruz, and the Debt",
+    "summary_en": "A romantic bedroom scene turns stressful when a husband worries about a $300 debt, leading his wife to call the creditor and transfer the insomnia to him.",
+    "summary_detailed_en": "In a dimly lit bedroom at night, a woman (played by a male actor in drag) with a blonde wig lies in bed next to her mustached husband, Samo. She is brushing her hair and fishing for compliments, repeatedly prompting Samo to compare her eyes to pearls, her hair to river waves, and her lips to rose petals. Samo flatly repeats these poetic comparisons back to her, but he is clearly distressed. When Piruz asks why he looks so miserable despite her beauty, Samo reveals he owes $300 to a colleague named Vagho and has no way to pay him back by morning, meaning he won't be able to sleep all night from worry. After confirming that Vagho doesn't know where they live, Piruz takes the corded telephone and calls the creditor directly. She bluntly informs Vagho that Samo cannot pay the debt tomorrow and it is unclear when he ever will. She then hangs up and tells Samo to go to sleep, smugly noting that now it is Vagho who won't be able to sleep. The sketch ends with them flinging the blanket over themselves.",
+    "keywords_hy": [
+      "պարտք",
+      "կոմպլիմենտ",
+      "անկողին",
+      "հեռախոս",
+      "փող",
+      "քուն",
+      "կատակերգություն",
+      "Սամո",
+      "Փիրուզ"
+    ],
+    "keywords_en": [
+      "debt",
+      "compliment",
+      "bedroom",
+      "telephone",
+      "money",
+      "insomnia",
+      "comedy",
+      "Samo",
+      "Piruz"
+    ],
+    "keywords_translit": [
+      "partq",
+      "kompliment",
+      "ankoghin",
+      "heraxos",
+      "pogh",
+      "qun",
+      "katakergutyun",
+      "Samo",
+      "Piruz"
+    ],
+    "catchphrases": [
+      "այ հիմա թող Վաղոն չքնի"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

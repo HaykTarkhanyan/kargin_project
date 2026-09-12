@@ -1,0 +1,72 @@
+{
+  "video_id": "jXXdxRcmpNY",
+  "seq": 475,
+  "kargin_id": 475,
+  "title": "Kargin Haghordum sketch 103 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "475_Kargin_Haghordum_sketch_103_Hayko_Mko_jXXdxRcmpNY.tr.json",
+    "visual": true
+  },
+  "input_chars": 1442,
+  "gen_sec": 12.7,
+  "prompt_tokens": 1775,
+  "output_tokens": 624,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002759,
+  "annotation": {
+    "title_hy": "Խմածը և Քաղաքապետարանը",
+    "title_en": "Drunk and the Municipality",
+    "summary_en": "A drunk husband returns home with his equally intoxicated friend Serozh, only to face his wife's ultimatum and a surprising group punishment.",
+    "summary_detailed_en": "The sketch begins in an apartment stairwell and hallway where two heavily intoxicated men, a husband and his friend Serozh, are stumbling home. The husband attempts to lock the door behind them to continue the party inside. Upon entering the kitchen, they are confronted by the man's wife, who is immediately suspicious of their condition. A repetitive argument ensues where the husband denies being drunk. The wife sets a linguistic trap, challenging him to say the word 'Kaghakapetaran' (Municipality). Realizing he cannot pronounce the complex word in his stupor, the husband immediately confesses. The wife expresses her deep frustration, noting he has come home drunk every day for a month. In a moment of physical comedy involving jackets and kitchen counters, she announces a strict punishment: one month of no sex. When Serozh, the friend, starts laughing at his friend's misfortune, the wife delivers the punchline by looking directly at him and stating that the punishment applies to him as well, implying an absurdly close or shared domestic arrangement between the three.",
+    "keywords_hy": [
+      "խմած",
+      "քաղաքապետարան",
+      "հարբած",
+      "ընկեր",
+      "կին",
+      "պատիժ",
+      "կատակ",
+      "սեքս"
+    ],
+    "keywords_en": [
+      "drunk",
+      "municipality",
+      "intoxicated",
+      "friend",
+      "wife",
+      "punishment",
+      "joke",
+      "abstinence"
+    ],
+    "keywords_translit": [
+      "khmats",
+      "kaghakapetaran",
+      "harbats",
+      "enker",
+      "knik",
+      "patizh",
+      "katak",
+      "sex"
+    ],
+    "catchphrases": [
+      "Դե հըլը ասա քաղաքապետարան։",
+      "Հա լավ խմած եմ։",
+      "Դու ի՞նչ ես խնդում Սերոժ, էդ քեզ էլա վերաբերվում։"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

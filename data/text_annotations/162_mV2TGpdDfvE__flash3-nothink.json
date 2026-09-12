@@ -1,0 +1,70 @@
+{
+  "video_id": "mV2TGpdDfvE",
+  "seq": 162,
+  "kargin_id": 162,
+  "title": "Kargin Haghordum sketch 206 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1445,
+  "gen_sec": 5.19,
+  "prompt_tokens": 1728,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002754,
+  "annotation": {
+    "title_hy": "Կնոջ վատ երազը",
+    "title_en": "The Wife's Bad Dream",
+    "summary_en": "A woman recounts a terrifying nightmare to her husband where she was chased by Mexican-hat-wearing bandits and saved herself by grabbing a tree, only for the husband to reveal the physical reality of her 'tree'.",
+    "summary_detailed_en": "The sketch begins with a nightmare sequence outdoors at night. A figure in a white nightgown wanders through a dark, rocky landscape when they are suddenly confronted by two menacing bandits wearing wide-brimmed Mexican-style hats, armed with a knife and a guitar. The victim attempts to escape but finds themselves trapped by a cliff, eventually jumping off to avoid the attackers. In the dream, the victim survives by grabbing onto a tree branch extending from the cliffside. The scene cuts to a domestic bedroom setting at night, where a husband (Mamikon) and wife are lying in bed. The wife, wearing hair rollers, is visibly distressed and panicking as she recounts the terrifying details of the dream to her husband. She explains how she was chased by the men with the axe, hammer, and guitar and how she was saved by the tree. The sketch ends with a situational punchline when the husband, looking uncomfortable, tells her that she is safe now and can finally 'let go of the tree,' implying she has been gripping a part of his body in her sleep.",
+    "keywords_hy": [
+      "երազ",
+      "մղձավանջ",
+      "գողեր",
+      "ժայռ",
+      "ամուսիններ",
+      "ննջարան",
+      "բիգուդի",
+      "ծառ",
+      "մեքսիկական գլխարկ"
+    ],
+    "keywords_en": [
+      "dream",
+      "nightmare",
+      "thieves",
+      "cliff",
+      "spouses",
+      "bedroom",
+      "hair rollers",
+      "tree",
+      "Mexican hat"
+    ],
+    "keywords_translit": [
+      "eraz",
+      "meghdzavanj",
+      "gogher",
+      "zhayr",
+      "amusinner",
+      "nnjaran",
+      "bigudi",
+      "tsar",
+      "meksikakan glkhark"
+    ],
+    "catchphrases": [
+      "Տենում ես կնիկ ջան դու փրկվեցիր ամեն ինչ նորմալա ընենց որ ծառը արդեն կարաս բաց թողես։"
+    ],
+    "topics": [
+      "family"
+    ],
+    "humor_type": [
+      "situational"
+    ]
+  }
+}

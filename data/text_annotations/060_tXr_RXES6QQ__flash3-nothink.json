@@ -1,0 +1,67 @@
+{
+  "video_id": "tXr_RXES6QQ",
+  "seq": 60,
+  "kargin_id": 60,
+  "title": "Kargin Haghordum sketch 626 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1723,
+  "gen_sec": 15.84,
+  "prompt_tokens": 1892,
+  "output_tokens": 565,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002641,
+  "annotation": {
+    "title_hy": "Հաստիքների կրճատում և խտրականություն",
+    "title_en": "Staff Reduction and Discrimination",
+    "summary_en": "During an office meeting about layoffs, employees use various claims of discrimination to protect their jobs, leading to a desperate confession from the last man.",
+    "summary_detailed_en": "In an office boardroom setting, a group of employees sits around a conference table with a telephone, printer, and papers visible. A boss figure informs the staff, including a businesswoman and several men in suits, that the central office has ordered a staff reduction and one person must be fired. The employees immediately begin defending their positions by citing legal protections against discrimination. One man claims he cannot be fired because he has a speech impediment. The woman (a red-haired character) argues that firing her would constitute gender discrimination. An older employee highlights his 40 years of service, stating his dismissal would be age discrimination. Left with no other excuse to avoid being the one let go, the final young office worker pauses to think and then desperately declares that he is gay ('galuboy') to claim protection based on sexual orientation. The sketch satirizes how people exploit social protections and political correctness to save their own skin in a professional environment.",
+    "keywords_hy": [
+      "գրասենյակ",
+      "աշխատանքից ազատում",
+      "խտրականություն",
+      "հաստիքների կրճատում",
+      "ժողով",
+      "գալուբոյ",
+      "շեֆ"
+    ],
+    "keywords_en": [
+      "office",
+      "firing",
+      "discrimination",
+      "staff reduction",
+      "meeting",
+      "layoffs",
+      "boss"
+    ],
+    "keywords_translit": [
+      "grasenyak",
+      "ashkhatankits azatum",
+      "khtrakanutyun",
+      "hastikneri krchatum",
+      "joxov",
+      "galuboy",
+      "shef"
+    ],
+    "catchphrases": [
+      "Ոնց գցում բռնում եմ ես էլ գալուբոյ եմ։"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "law_court"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

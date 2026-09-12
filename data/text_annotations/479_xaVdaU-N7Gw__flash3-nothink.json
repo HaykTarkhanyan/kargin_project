@@ -1,0 +1,73 @@
+{
+  "video_id": "xaVdaU-N7Gw",
+  "seq": 479,
+  "kargin_id": 479,
+  "title": "Kargin Haghordum sketch 107 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "479_Kargin_Haghordum_sketch_107_Hayko_Mko_xaVdaU-N7Gw.en.json",
+    "visual": true
+  },
+  "input_chars": 2545,
+  "gen_sec": 5.11,
+  "prompt_tokens": 2047,
+  "output_tokens": 626,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002902,
+  "annotation": {
+    "title_hy": "Այծեմնիկն ու Ասպետը",
+    "title_en": "Aydzemnik and the Knight",
+    "summary_en": "A medieval knight discovers a beautiful princess chained to a rock who claims to have been kidnapped and raped, but the knight's heroic intentions quickly turn opportunistic.",
+    "summary_detailed_en": "The sketch is presented as a mock-epic drama set on a rocky, volcanic hillside. A woman (Princess Aydzemnik) in a flowing white peasant blouse is chained to the rocks, crying out for help. A bearded medieval hero, wearing a conical metal helmet and a red plastic crate strapped to his chest as makeshift armor, approaches on horseback. The dialogue is stylized and theatrical. The knight praises Aydzemnik's legendary beauty and asks who committed such a crime against her. She reveals that a villain named Suleyman kidnapped and raped her three or four times. The knight is initially outraged, swearing by the gods to take revenge. However, when he asks why she didn't scream for help, she explains that the location is so remote and desolate that no one could possibly hear her. Upon hearing this, the knight’s chivalry vanishes instantly. Realizing there are no witnesses, he decides to take advantage of the situation himself, telling her, 'Since you say it's a deaf place and no one will hear, let me tell you something,' before moving in to join the cycle of abuse.",
+    "keywords_hy": [
+      "ասպետ",
+      "արքայադուստր",
+      "շղթայված",
+      "լեռներ",
+      "բռնաբար",
+      "Այծեմնիկ",
+      "ձի",
+      "զրահ",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "knight",
+      "princess",
+      "chained",
+      "mountains",
+      "medieval",
+      "horse",
+      "plastic crate",
+      "satire",
+      "damsel in distress"
+    ],
+    "keywords_translit": [
+      "aspet",
+      "arkayadustr",
+      "shghtayvats",
+      "lerner",
+      "brnabar",
+      "Aydzemnik",
+      "dzi",
+      "zrah",
+      "tsitsagheli"
+    ],
+    "catchphrases": [
+      "Ասում ես խուլ տեղա, ոչ-ոք չի լսի"
+    ],
+    "topics": [
+      "other",
+      "crime",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

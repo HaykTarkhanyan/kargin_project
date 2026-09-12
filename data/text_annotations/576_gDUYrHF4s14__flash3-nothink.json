@@ -1,0 +1,69 @@
+{
+  "video_id": "gDUYrHF4s14",
+  "seq": 576,
+  "kargin_id": 576,
+  "title": "Kargin Haghordum sketch 427 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2306,
+  "gen_sec": 6.0,
+  "prompt_tokens": 2266,
+  "output_tokens": 738,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003347,
+  "annotation": {
+    "title_hy": "Ծառ թե՞ Ստոլբա",
+    "title_en": "Tree or Pole",
+    "summary_en": "Two heavily intoxicated friends in a park mistake trees for utility poles, only for one to realize he is hallucinating both objects and extra people.",
+    "summary_detailed_en": "Set in a bare autumn park, two men in jackets are having a conversation while visibly intoxicated. The first man remarks on the 'poles' (stolba) surrounding them, complaining that they lack light fixtures. The second man corrects him, stating that they are actually trees. Panicked by his inability to distinguish nature from infrastructure, the first man begs to be taken to a hospital, addressing a group of 'boys' who aren't there. The second man informs him that he is standing there alone, leading the first man to spiral further into a drug or alcohol-induced hallucination. Attempting to help, the second man tells his friend to hold onto a 'tree-pole' while he seeks directions. He approaches a long-haired, mustached man from behind, mistakenly addressing him as 'Morkur' (auntie/old lady). The long-haired man, offended by the feminine address, threatens him by saying if he calls him 'morkur' one more time, he will end up in the hospital instantly. The visual setting includes autumn trees, a park bench, and brief interactions with a child and a construction worker in a hard hat.",
+    "keywords_hy": [
+      "ստոլբա",
+      "ծառ",
+      "հիվանդանոց",
+      "մորքուր",
+      "հարբած",
+      "այգի",
+      "հալյուցինացիա"
+    ],
+    "keywords_en": [
+      "pole",
+      "tree",
+      "hospital",
+      "auntie",
+      "drunk",
+      "park",
+      "hallucination"
+    ],
+    "keywords_translit": [
+      "stolba",
+      "tsar",
+      "hivandanots",
+      "morkur",
+      "harbats",
+      "aygi",
+      "halyutsinatsia"
+    ],
+    "catchphrases": [
+      "ախպեր ինձ տարեք հիվանդանոց էլի, տղեք ջան ինձ տարեք հիվանդանոց էլի",
+      "Ապե լավ երևի մեկից հարցնեմ, լսի հլը դու ստե ստոլբից բռնվի, ես հեսա գալիս եմ, արա ստոլբ, էս ես էլ եմ վատանում",
+      "ապեր էս ծառաստոլբից բռնվի հեսա գալիս եմ",
+      "Մի անգամ էլ ինձ մորքուր ասիր մի րոպեից հաստատ ընդե կլնես"
+    ],
+    "topics": [
+      "leisure_outing",
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "9K9gMmUjG88",
+  "seq": 642,
+  "kargin_id": 642,
+  "title": "Kargin Haghordum sketch 585 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1941,
+  "gen_sec": 6.49,
+  "prompt_tokens": 2088,
+  "output_tokens": 640,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002964,
+  "annotation": {
+    "title_hy": "Հաջողակ Կինը և Տնային Տնտես Մարդը",
+    "title_en": "The Lucky Wife and the Househusband",
+    "summary_en": "A woman constantly 'finds' expensive luxury items in random places like trash chutes and taxis, while her husband, who is doing chores, shares his own unfortunate find.",
+    "summary_detailed_en": "The sketch takes place in a kitchen where a man, wearing a floral apron and doing household chores like washing dishes, is joined by his wife (played by a male actor in drag). The wife enters wearing a new blouse, claiming she found it discarded near the trash chute and that it coincidentally fits her perfectly. As the husband asks for food, she continues to show off new acquisitions. She reveals an expensive-looking necklace and a ring, claiming she found them in a taxi and decided to keep them since the driver didn't claim them. Later, she appears in a luxurious fur coat, telling a ridiculous story about finding it hanging on a hanger inside an elevator. Each time, the husband expresses amazement at her luck. The sketch concludes with a dry punchline when the husband attempts to share his own 'lucky find'; he tells her he found a pair of men's underwear in their own bed, but notes that unfortunately, they weren't his size, oblivious to the implication of his wife's infidelity.",
+    "keywords_hy": [
+      "շուբա",
+      "գտածո",
+      "դավաճանություն",
+      "խոհանոց",
+      "բախտ",
+      "ծիծաղելի",
+      "աշխատավարձ",
+      "գույք"
+    ],
+    "keywords_en": [
+      "fur coat",
+      "found items",
+      "infidelity",
+      "kitchen",
+      "luck",
+      "funny",
+      "salary",
+      "luxury goods"
+    ],
+    "keywords_translit": [
+      "shuba",
+      "gtatso",
+      "davachanutyun",
+      "xohanoc",
+      "baxt",
+      "tsitsagheli",
+      "ashxatavardz",
+      "guyq"
+    ],
+    "catchphrases": [
+      "Այ որ մարդու բախտը բերումա բերումա,օրինակ ես էն օրը  տեղաշորից տղամարդու թումբաններ գտա,էն էլ իմ ռազմերը չէր։"
+    ],
+    "topics": [
+      "family",
+      "romance",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

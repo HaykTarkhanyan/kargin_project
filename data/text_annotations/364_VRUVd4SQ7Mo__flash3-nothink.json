@@ -1,0 +1,74 @@
+{
+  "video_id": "VRUVd4SQ7Mo",
+  "seq": 364,
+  "kargin_id": 364,
+  "title": "Kargin Haghordum sketch 491 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "364_Kargin_Haghordum_sketch_491_Hayko_Mko_VRUVd4SQ7Mo.tr.json",
+    "visual": true
+  },
+  "input_chars": 2415,
+  "gen_sec": 21.03,
+  "prompt_tokens": 2173,
+  "output_tokens": 675,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003111,
+  "annotation": {
+    "title_hy": "Օլիգարխի մահը և դժոխքը",
+    "title_en": "Oligarch's Death and Hell",
+    "summary_en": "A wealthy oligarch dies from a bizarre combination of sex and an apple, only to find that his attempts to bribe his way into heaven with past charities are rejected at the afterlife check-in.",
+    "summary_detailed_en": "The sketch begins in a bedroom where a mustachioed man in a white undershirt is seen in distress. He bites into a red apple and suddenly dies, lying motionless on the bed. The setting shifts to a bright, white afterlife purgatory featuring direction signs for 'Hell' and 'Paradise'. The deceased man, now dressed in a formal black suit, encounters an angel clerk wearing a white bow-tie and feathered wings, who is working on a laptop adorned with small angel wings. The angel informs the man, identified as an oligarch named Vardges, that he has been assigned to Hell. The cause of death is jokingly cited as an 'unbearable' combination of sex and an apple. Vardges is outraged and begins listing his earthly 'good deeds' as bribes: building five churches, gifting luxury cars to priests, and distributing thousands of dollars to the poor and elderly during religious holidays. Despite his list of expensive charities, the angel remains unmoved, calmly stating that they will simply refund the money he spent and proceed with his placement in Hell.",
+    "keywords_hy": [
+      "օլիգարխ",
+      "դժոխք",
+      "դրախտ",
+      "հրեշտակ",
+      "եկեղեցի",
+      "բարերար",
+      "փող",
+      "մահ",
+      "խնձոր"
+    ],
+    "keywords_en": [
+      "oligarch",
+      "hell",
+      "heaven",
+      "angel",
+      "church",
+      "charity",
+      "money",
+      "death",
+      "apple"
+    ],
+    "keywords_translit": [
+      "oligarkh",
+      "dzhokhq",
+      "drakht",
+      "hreshtak",
+      "ekeghetsi",
+      "bareraran",
+      "pogh",
+      "mah",
+      "khndzor"
+    ],
+    "catchphrases": [
+      "ինչ դժողք ես հինգ հատ եկեղեցի եմ սարքել",
+      "ընկեր ջան դուք գնում եք դժողք իսկ ձեր ծախսաց փողերի համար մի անհանգստացեք մենք ձեզ կվերադարձնենք"
+    ],
+    "topics": [
+      "religion",
+      "money",
+      "other"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

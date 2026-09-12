@@ -1,0 +1,70 @@
+{
+  "video_id": "NIjCAVy4yoA",
+  "seq": 96,
+  "kargin_id": 96,
+  "title": "Kargin Haghordum sketch 637 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "096_Kargin_Haghordum_sketch_637_Hayko_Mko_NIjCAVy4yoA.ru.json",
+    "visual": true
+  },
+  "input_chars": 3251,
+  "gen_sec": 12.31,
+  "prompt_tokens": 2485,
+  "output_tokens": 637,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003154,
+  "annotation": {
+    "title_hy": "Ո՞վ է տարել հաղթանակը",
+    "title_en": "Who Took the Victory?",
+    "summary_en": "A schoolteacher is exasperated when her students and colleagues misunderstand a history question, interpreting 'who took the victory' as a literal theft.",
+    "summary_detailed_en": "The sketch takes place in a school classroom decorated with posters, where a female teacher (played by a male actor in drag) is preparing her class for an upcoming inspection by the Ministry of Education. She asks a student named Musikyan, who is wearing a red neckerchief, a simple history question: 'Who took the victory in World War II?' Musikyan, misunderstanding the Armenian word for 'winning' (tanel) as 'stealing/taking away,' frantically denies taking it and suggests the teacher ask Spartak instead. Frustrated by the student's ignorance, the teacher storms out to complain to the school's head of studies (played by a male actor in drag). To her horror, the administrator also takes the question literally, insisting that if Musikyan said he didn't take it, he's probably lying. Finally, the teacher brings the issue to the school principal. The principal, sitting in an office with potted plants, expresses mock concern before concluding that if the kids in that specific class 'took' something, there is no chance of getting it back, confirming the entire school staff is equally clueless.",
+    "keywords_hy": [
+      "դպրոց",
+      "ուսուցչուհի",
+      "հաղթանակ",
+      "աշակերտ",
+      "տգետ",
+      "երկրորդ համաշխարհային պատերազմ",
+      "տնօրեն",
+      "ուսմասվար"
+    ],
+    "keywords_en": [
+      "school",
+      "teacher",
+      "victory",
+      "student",
+      "ignorant",
+      "World War II",
+      "principal",
+      "misunderstanding"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "usucchuhi",
+      "haghtanak",
+      "ashakert",
+      "tget",
+      "erkrord hamashxarhayin paterazm",
+      "tnoren",
+      "usmasvar"
+    ],
+    "catchphrases": [
+      "երկրորդ համաշխարաին պատերազմում հաղթանակը ովա տարել",
+      "ազնիվ խոսք ես չեմ տարել"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

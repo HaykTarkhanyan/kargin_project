@@ -1,0 +1,75 @@
+{
+  "video_id": "cbR5i3gj684",
+  "seq": 511,
+  "kargin_id": 511,
+  "title": "Kargin Haghordum sketch 139 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2981,
+  "gen_sec": 5.66,
+  "prompt_tokens": 2610,
+  "output_tokens": 710,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003435,
+  "annotation": {
+    "title_hy": "Կիչան գյուղի երկարակյացները",
+    "title_en": "The Long-lived Elders of Kichan",
+    "summary_en": "A TV reporter visits a remote village in Artsakh to interview centenarians about their secrets to longevity, only to encounter a shocking surprise with the third man.",
+    "summary_detailed_en": "The sketch opens on a grassy mountainside in Nagorno-Karabakh, where a TV reporter and his crew are filming a segment about the new North-South highway. The reporter explains they are in Kichan, a village famous for its long-lived inhabitants who average 100 years of age. They approach three bearded men sitting by a stone wall. The first elder, 98-year-old Beglar, attributes his health to walking 10 kilometers every night, breathing fresh air, and avoiding smoking and drinking. The second, 101-year-old Mamikon, claims his secret is morning walks and a similarly clean lifestyle. The reporter is amazed until he interviews the third man, Arzuman. Unlike the others, Arzuman boasts about smoking two packs of cigarettes a day, drinking excessive amounts of vodka, partying, and causing trouble for the local girls. When the baffled reporter asks how he survived such a lifestyle to reach such a 'venerable age,' Arzuman reveals he is actually only 26 years old. The sketch ends abruptly when his mother yells for him to come home, and he submissively obeys.",
+    "keywords_hy": [
+      "լրագրող",
+      "հարցազրույց",
+      "Կիչան գյուղ",
+      "երկարակյաց",
+      "ծերունի",
+      "Արցախ",
+      "կատակ",
+      "խմել",
+      "ծխել"
+    ],
+    "keywords_en": [
+      "reporter",
+      "interview",
+      "Kichan village",
+      "longevity",
+      "old man",
+      "Artsakh",
+      "joke",
+      "drinking",
+      "smoking"
+    ],
+    "keywords_translit": [
+      "lragrogh",
+      "hartsazruyts",
+      "Kichan gyugh",
+      "yerkarakyats",
+      "tseruni",
+      "Artsakh",
+      "katak",
+      "khmel",
+      "tskhel"
+    ],
+    "catchphrases": [
+      "հա բայց ինչ տարիք ա որ 26 տարեկան տղա եմ",
+      "ընտե գալուց 3 հատ 120ոց բիձա եմ տեսե",
+      "դե մի խոսքով էնքան լավա էնքան քյոքա"
+    ],
+    "topics": [
+      "media_showbiz",
+      "village",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "upUFjVrN0i8",
+  "seq": 116,
+  "kargin_id": 116,
+  "title": "Kargin Haghordum sketch 693 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "116_Kargin_Haghordum_sketch_693_Hayko_Mko_upUFjVrN0i8.hy.json",
+    "visual": true
+  },
+  "input_chars": 3440,
+  "gen_sec": 5.28,
+  "prompt_tokens": 2952,
+  "output_tokens": 600,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003276,
+  "annotation": {
+    "title_hy": "Բարի Գալուստ Կամերա",
+    "title_en": "Welcome to the Cell",
+    "summary_en": "An experienced inmate named Galust welcomes three new cellmates to prison, treating the cell like a luxury apartment and downplaying their sentences.",
+    "summary_detailed_en": "The sketch takes place in a stone-walled prison cell featuring bunk beds and chains. Galust, a long-term inmate who has been alone for two years, enthusiastically greets three new prisoners as if they were long-awaited guests in his home. He introduces himself with a pun on his name, Galust, saying 'Bari Galust' (Welcome). He proceeds to give a 'real estate tour' of the cell, describing it as a studio apartment that functions as a living room and bedroom simultaneously, with the unique 'plus' of having a toilet right in the room. He jokingly complains about the 'bad neighbors'—other criminals who swear at night. Galust then asks the new arrivals about their sentences. When one says four years, Galust dismisses it as nothing, counting out 'summer, winter' four times. When the second man says two years, he repeats the logic with seasons. However, when the third man with glasses says he only got three months, Galust acts concerned, claiming his situation is much worse because he has to count 'day, night' rapidly hundreds of times, leading to a frantic repetitive list that serves as the punchline.",
+    "keywords_hy": [
+      "բանտ",
+      "կամերա",
+      "Գալուստ",
+      "բարի գալուստ",
+      "դատապարտյալ",
+      "սրոկ",
+      "հանցագործ",
+      "բանտախուց"
+    ],
+    "keywords_en": [
+      "prison",
+      "cell",
+      "inmate",
+      "sentence",
+      "Galust",
+      "criminal",
+      "jail",
+      "prison cell"
+    ],
+    "keywords_translit": [
+      "bant",
+      "kamera",
+      "Galust",
+      "bari galust",
+      "datapartyals",
+      "srok",
+      "hancagorc",
+      "bantaxuc"
+    ],
+    "catchphrases": [
+      "Ապե քո վիճակը վաբշե լավ չի"
+    ],
+    "topics": [
+      "crime",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

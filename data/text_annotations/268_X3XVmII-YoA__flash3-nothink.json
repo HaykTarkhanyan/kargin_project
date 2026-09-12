@@ -1,0 +1,71 @@
+{
+  "video_id": "X3XVmII-YoA",
+  "seq": 268,
+  "kargin_id": 268,
+  "title": "Kargin Haghordum sketch 576 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1429,
+  "gen_sec": 5.55,
+  "prompt_tokens": 1807,
+  "output_tokens": 587,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002665,
+  "annotation": {
+    "title_hy": "Տրամաբանական Պարտք և Սեքս",
+    "title_en": "Logical Debt and Sex",
+    "summary_en": "A man explains how he ended up in debt without buying anything due to confusing logic, then reveals how he got a black eye by insulting his wife.",
+    "summary_detailed_en": "Inside a small workshop decorated with floral curtains, an older mechanic works at a sparking bench grinder while talking to a younger man wearing a cap and mustache. The younger man recounts a bizarre interaction with his neighbor. He explains that he went to borrow ten dollars to buy a tool, promising to pay back twenty the next day. The neighbor handed over ten dollars but then called him back, suggesting that since he has to pay twenty tomorrow anyway, he should just return the ten he currently has and only pay the remaining ten tomorrow. The man agreed and gave the money back, only to realize later that he now owes ten dollars without having the tool or the cash. He notes that mathematically it seemed correct but he ended up cheated. The conversation then shifts to the younger man's bruised eye. He explains that while lying in bed, his wife pointed out they hadn't had sex in six months. He foolishly replied, 'Not us, you,' implying she was the only one not having it, leading to his physical injury.",
+    "keywords_hy": [
+      "հարևան",
+      "պարտք",
+      "տասը դոլար",
+      "տրամաբանություն",
+      "կնիկ",
+      "կատակ",
+      "արհեստանոց",
+      "սեքս"
+    ],
+    "keywords_en": [
+      "neighbor",
+      "debt",
+      "ten dollars",
+      "logic",
+      "wife",
+      "joke",
+      "workshop",
+      "black eye"
+    ],
+    "keywords_translit": [
+      "harevan",
+      "partq",
+      "tase dolar",
+      "tramabanutyun",
+      "knik",
+      "katak",
+      "arhestanoc",
+      "sex"
+    ],
+    "catchphrases": [
+      "ոչ գործիքը առա համե տաս դոլարը պարտք մնացի",
+      "մենք չէ դու"
+    ],
+    "topics": [
+      "neighbors",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "video_id": "K6xpw9baTrY",
+  "seq": 292,
+  "kargin_id": 292,
+  "title": "Kargin Haghordum sketch 409 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1954,
+  "gen_sec": 21.37,
+  "prompt_tokens": 2084,
+  "output_tokens": 651,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002995,
+  "annotation": {
+    "title_hy": "Ոստիկանական «Գաղտնիքներ»",
+    "title_en": "Police Secrets",
+    "summary_en": "Two police officers sit in their patrol car discussing high-profile unsolved crimes, only to reveal that their own incompetence or corruption is keeping those cases a secret.",
+    "summary_detailed_en": "The sketch takes place inside a police patrol car on a rural road during the day. Two mustached police officers, played by Hayko and Mko, sit waiting for an informant. The junior officer asks his boss about several recent crimes: a robbery and shooting at a house in a canyon, a violent theft at a kiosk in the Massiv district where the clerk was knocked unconscious, and an armed robbery at a restaurant where a witness even caught the getaway car's license plate. For every inquiry, the senior officer smugly replies that the case remains a 'secret' (gaghtniq). Meanwhile, visual cuts show a parallel scene of gangsters in sunglasses threatening a man with a gun over a briefcase full of money. The junior officer complains that while they are out in the field catching criminals, the ones in the office can't solve simple cases. Suddenly, the 'informants' arrive; they are the criminals themselves. They hand a bag through the window, and the senior officer tells them to get lost. When the junior officer asks what was revealed, the boss simply says 'Secrets, secrets,' implying they are in on the take, and tells him to drive away.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "մեքենա",
+      "հանցագործություն",
+      "գաղտնիք",
+      "կաշառք",
+      "քննիչ",
+      "թալան",
+      "ոստիկան",
+      "ծախված"
+    ],
+    "keywords_en": [
+      "police",
+      "car",
+      "crime",
+      "secret",
+      "bribery",
+      "investigator",
+      "robbery",
+      "officer",
+      "corrupt"
+    ],
+    "keywords_translit": [
+      "vostikanutyun",
+      "meqena",
+      "hancagortsutyun",
+      "gaghtniq",
+      "kasharq",
+      "qnnic",
+      "talan",
+      "vostikan",
+      "tsakhvats"
+    ],
+    "catchphrases": [
+      "Գաղտնիքներ, գաղտնիքներ, քշի, քշի գնացինք։ Քշի արա։"
+    ],
+    "topics": [
+      "police",
+      "crime",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "LTjzI3_hPaY",
+  "seq": 636,
+  "kargin_id": 636,
+  "title": "Kargin Haghordum sketch 558 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "636_Kargin_Haghordum_sketch_558_Hayko_Mko_LTjzI3_hPaY.hy.json",
+    "visual": true
+  },
+  "input_chars": 1426,
+  "gen_sec": 6.32,
+  "prompt_tokens": 1718,
+  "output_tokens": 614,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002701,
+  "annotation": {
+    "title_hy": "Կոմունիստների ձրի սրսկումը",
+    "title_en": "Free Vaccinations under Communists",
+    "summary_en": "Two men reminisce about the Soviet era while dealing with drug withdrawal, leading to a domestic misunderstanding with a grandmother in drag.",
+    "summary_detailed_en": "The sketch begins in a dimly lit apartment stairwell where two men are engaged in a tense, physical exchange. One man, wearing an open white shirt, expresses his frustration and physical discomfort, claiming he has been seeing the world in its 'real dimensions' for a week and feels a sense of emptiness. The other man, in a black shirt, nostalgically recalls the Soviet era, specifically how the authorities would take an entire class of students for free vaccinations (a metaphor for drug use). The scene then shifts to an apartment interior, featuring a bookshelf and a radio. One of the men is visibly distressed when an elderly woman, played by one of the male actors in drag wearing a floral nightgown and a traditional headscarf, enters the room. She gestures emphatically and speaks to him, leading to a comedic misunderstanding where it is revealed that the man accidentally took the grandmother's blood pressure medication instead of his own substances. The sketch concludes with the grandmother's repetitive questioning and the man's emotional reaction to the mix-up.",
+    "keywords_hy": [
+      "կոմունիստներ",
+      "սրսկում",
+      "դեղեր",
+      "տատիկ",
+      "ճնշման դեղ",
+      "դասարան",
+      "լոքշություն"
+    ],
+    "keywords_en": [
+      "communists",
+      "injection",
+      "medication",
+      "grandmother",
+      "blood pressure",
+      "soviet nostalgia",
+      "drag"
+    ],
+    "keywords_translit": [
+      "komunistner",
+      "srskum",
+      "degher",
+      "tatik",
+      "chnshman degh",
+      "dasaran",
+      "loqshutyun"
+    ],
+    "catchphrases": [
+      "Ասա թոռնիկ, ասա թոռնիկ, ասա թոռնիկ",
+      "Արա լավ չէր կոմունիստների վախտով, սաղ դասարանին տանում ձրի սրսկում բերում էին։"
+    ],
+    "topics": [
+      "family",
+      "medical",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

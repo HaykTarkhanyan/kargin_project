@@ -1,0 +1,70 @@
+{
+  "video_id": "QMH1oz2EoVg",
+  "seq": 638,
+  "kargin_id": 638,
+  "title": "Kargin Haghordum sketch 581 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2470,
+  "gen_sec": 11.33,
+  "prompt_tokens": 2392,
+  "output_tokens": 578,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00293,
+  "annotation": {
+    "title_hy": "Տրակտորիստը սեքսապատոլոգի մոտ",
+    "title_en": "The Tractor Driver and the Sexologist",
+    "summary_en": "A village tractor driver seeks help because the vibration of his tractor causes unwanted arousal, leading to a disastrous hunting season misunderstanding.",
+    "summary_detailed_en": "The sketch takes place in a doctor's office where a village tractor driver, wearing a flat cap and mustache, arrives with a delegation including the village head, a teacher, and a physical education instructor. He explains to the doctor, who is a sexologist, that the vibration of his tractor while plowing the fields causes him to become uncontrollably aroused, preventing him from working. The doctor suggests a Pavlovian solution: take a shotgun to the field, and whenever the vibration causes arousal, fire the gun into the air. The sound will signal his wife to come to the field so they can resolve the issue, allowing him to return to work. Six months later, the group returns to the office looking devastated. The driver explains that the method worked perfectly all summer. However, now that autumn has arrived, he can no longer find his wife; because hunting season has opened, people are firing guns everywhere, and she is constantly running from one gunshot to the next.",
+    "keywords_hy": [
+      "բժիշկ",
+      "տրակտորիստ",
+      "սեքսապատոլոգ",
+      "գյուղացի",
+      "հրացան",
+      "որսի սեզոն",
+      "դաշտ",
+      "վիբրացիա"
+    ],
+    "keywords_en": [
+      "doctor",
+      "tractor driver",
+      "sexologist",
+      "villager",
+      "shotgun",
+      "hunting season",
+      "field",
+      "vibration"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "traktorist",
+      "sexapatolog",
+      "gyughaci",
+      "hracan",
+      "orsi sezon",
+      "dasht",
+      "vibracia"
+    ],
+    "catchphrases": [
+      "Ասումա գեղում ապրա հրացան պահա։"
+    ],
+    "topics": [
+      "medical",
+      "village",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

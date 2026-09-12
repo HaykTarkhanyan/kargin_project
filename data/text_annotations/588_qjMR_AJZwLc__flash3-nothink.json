@@ -1,0 +1,67 @@
+{
+  "video_id": "qjMR_AJZwLc",
+  "seq": 588,
+  "kargin_id": 588,
+  "title": "Kargin Haghordum sketch 439 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "588_Kargin_Haghordum_sketch_439_Hayko_Mko_qjMR_AJZwLc.hy.json",
+    "visual": true
+  },
+  "input_chars": 1341,
+  "gen_sec": 4.2,
+  "prompt_tokens": 1731,
+  "output_tokens": 471,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002279,
+  "annotation": {
+    "title_hy": "Որսորդներն ու բադը",
+    "title_en": "Hunters and the Duck",
+    "summary_en": "Two unsuccessful hunters argue over who shot a single duck and decide to settle the dispute with a contest of physical endurance.",
+    "summary_detailed_en": "The sketch is set in an open grassy field where two hunters, dressed in full camouflage gear, bucket hats, and carrying shotguns, are complaining about their lack of luck. One hunter worries about being mocked by his friends, while the other promised meat for a class reunion. Suddenly, they spot and shoot a duck. A heated argument ensues over who actually landed the shot, as they both fired simultaneously. To decide who gets to take the duck home, they agree on a 'manly' test of strength: they will take turns hitting each other as hard as possible. The one who screams or gives in to the pain loses, while the one who endures in silence wins the duck. The first hunter takes a powerful swing and strikes the other, who reacts with a pained yelp. The sketch concludes with the second hunter preparing his revenge strike, asking if the first one really wants the duck that badly.",
+    "keywords_hy": [
+      "որսորդ",
+      "բադ",
+      "որսորդություն",
+      "հրացան",
+      "կամուֆլյաժ",
+      "վեճ",
+      "տղամարդկություն"
+    ],
+    "keywords_en": [
+      "hunter",
+      "duck",
+      "hunting",
+      "shotgun",
+      "camouflage",
+      "dispute",
+      "manliness"
+    ],
+    "keywords_translit": [
+      "vorsord",
+      "bad",
+      "vorsordutyun",
+      "hratsan",
+      "kamuflav",
+      "vech",
+      "tghamardkutyun"
+    ],
+    "catchphrases": [
+      "Արա քո ցավը տանեմ, խփինք արա, խփինք արա",
+      "ով որ գոռաց չդիմացավ ցավին դա կրվում է",
+      "տղավարի դիմացավ չգոռաց կրում է"
+    ],
+    "topics": [
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

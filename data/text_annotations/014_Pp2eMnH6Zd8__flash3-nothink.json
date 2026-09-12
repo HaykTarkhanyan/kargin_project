@@ -1,0 +1,69 @@
+{
+  "video_id": "Pp2eMnH6Zd8",
+  "seq": 14,
+  "kargin_id": 14,
+  "title": "Kargin Haghordum sketch 302 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3421,
+  "gen_sec": 29.86,
+  "prompt_tokens": 2725,
+  "output_tokens": 530,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002952,
+  "annotation": {
+    "title_hy": "Կեղտոտ պապիկի խոստովանությունը",
+    "title_en": "The Nasty Grandpa's Confession",
+    "summary_en": "A dying man confesses to his family that he was the one who reported all their crimes to the police, before making a final bizarre request for forgiveness.",
+    "summary_detailed_en": "In a sepia-toned living room with traditional carpets on the walls, a grey-haired old man lies on a divan, supposedly on his deathbed. He gathers his grandson, daughter-in-law, and son to confess his sins. He reveals that he was the 'nasty' person responsible for all their past misfortunes: he called the military police when his grandson went AWOL to visit him, he informed the manager when his daughter-in-law faked his employment for a higher pension, and he reported his own son for stealing medicine from a pharmacy to save his life. The family, stunned by his spiteful nature, agrees to forgive him. However, the old man insists on a specific ritual for true forgiveness: they must heat up clothes irons and sear his flesh after he passes to vent their anger. As he appears to die, the family members take two electric irons and press them onto his chest like makeshift defibrillators. The sketch ends with a uniformed police officer entering the smoke-filled room, stating he received a tip-off from a resident—the old man himself—about a corpse being burned with irons.",
+    "keywords_hy": [
+      "խոստովանություն",
+      "մահամերձ",
+      "ոստիկանություն",
+      "հարազատներ",
+      "հարդուկ",
+      "զանգել",
+      "դավաճանություն"
+    ],
+    "keywords_en": [
+      "confession",
+      "deathbed",
+      "police",
+      "relatives",
+      "iron",
+      "betrayal",
+      "snitch"
+    ],
+    "keywords_translit": [
+      "xostovanutyun",
+      "mahamerdz",
+      "ostikanutyun",
+      "harazatner",
+      "harduk",
+      "zangel",
+      "davachanutyun"
+    ],
+    "catchphrases": [
+      "բա այ տենց կեղտոտ պապի ունես",
+      "դե ուրեմն մարդա մի հատ հարդուկ ճարեք",
+      "հարդուկներով դիակ են վառում"
+    ],
+    "topics": [
+      "family",
+      "police",
+      "law_court"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

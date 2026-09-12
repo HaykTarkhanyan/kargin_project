@@ -1,0 +1,68 @@
+{
+  "video_id": "e3ZzwEC5pZ0",
+  "seq": 497,
+  "kargin_id": 497,
+  "title": "Kargin Haghordum sketch 125 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2292,
+  "gen_sec": 5.06,
+  "prompt_tokens": 2237,
+  "output_tokens": 704,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00323,
+  "annotation": {
+    "title_hy": "Վաղարշակ պապիի առաջարկը",
+    "title_en": "Grandpa Vagharshak's Proposal",
+    "summary_en": "An elderly neighbor persistently offers a young woman increasing amounts of money to open her robe, only to reveal a cheap trick after she finally agrees.",
+    "summary_detailed_en": "In a decrepit apartment hallway, a young woman named Irina is approached by her elderly neighbor, Vagharshak Papi, who is dressed in a suit and hat and carrying a cane. Vagharshak claims he has something difficult to discuss. Irina initially assumes he is collecting the monthly elevator fee, but he clarifies that his wife or daughter-in-law handles that. He then makes a shocking request: he wants her to open her robe so he can see her. When Irina reacts with outrage at his inappropriate behavior, Vagharshak begins bidding, starting at ten dollars and quickly escalating to fifty. As Irina pulls out her cell phone to call her boyfriend, Arthur, for help, the old man desperate increases his offer to two thousand dollars. Intrigued by the massive sum, Irina cancels the call and gives him two seconds to look. She opens her robe, and Vagharshak stares intently, crying out to God in excitement. However, the punchline hits when Irina asks for the money, and Vagharshak admits he has no idea where he is going to find two thousand dollars, revealing he was bluffing just to get a look.",
+    "keywords_hy": [
+      "Վաղարշակ պապի",
+      "հարևան",
+      "լիֆտի փող",
+      "խալաթ",
+      "երկու հազար դոլար",
+      "Իրինա",
+      "շենքի միջանցք"
+    ],
+    "keywords_en": [
+      "Grandpa Vagharshak",
+      "neighbor",
+      "elevator money",
+      "robe",
+      "two thousand dollars",
+      "Irina",
+      "apartment hallway"
+    ],
+    "keywords_translit": [
+      "Vagharshak papi",
+      "harevan",
+      "lifti pogh",
+      "khalat",
+      "erku hazar dolar",
+      "Irina",
+      "shenqi mijancq"
+    ],
+    "catchphrases": [
+      "երկու հազար երկու հազար դոլար Վաղարշակ պապի երկու վայրկյան ունեք",
+      "սպասի չփագես ես հլը ստե եմ ես ստե եմ պահի պահի պահի տենց մնա",
+      "Աստված ջան մտածում եմ էդ երկու հազար դոլարը որդեից եմ ճարելու"
+    ],
+    "topics": [
+      "neighbors",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

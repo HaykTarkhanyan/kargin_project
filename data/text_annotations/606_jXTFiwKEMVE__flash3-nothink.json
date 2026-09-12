@@ -1,0 +1,70 @@
+{
+  "video_id": "jXTFiwKEMVE",
+  "seq": 606,
+  "kargin_id": 606,
+  "title": "Kargin Haghordum sketch 483 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1617,
+  "gen_sec": 3.74,
+  "prompt_tokens": 1838,
+  "output_tokens": 431,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002212,
+  "annotation": {
+    "title_hy": "Փիսիկն ու չորս թաթերը",
+    "title_en": "The Kitty and the Four Paws",
+    "summary_en": "A police officer deals with a thief and a woman who complains that her husband calls her a 'kitty' before throwing her off a balcony.",
+    "summary_detailed_en": "The sketch takes place in a police station office where a uniformed officer is interrogating a man in dark clothing about a shoplifting incident. The officer asks the thief if he thought about his elderly mother while stealing clothes; the thief responds that he did, but couldn't find anything in her size. Frustrated, the officer orders the man to go into the next room and start beating himself up until he arrives. Shortly after, a woman (played by a male actor in drag) enters the office wearing a reddish wig and a bandage wrapped around her jaw. She wishes to file a complaint against her husband. She explains that when her husband comes home drunk, he calls her a 'kitty'. The officer initially finds this romantic, noting many women would love such a nickname, until the woman delivers the punchline: he only calls her that before throwing her off their fifth-floor balcony to see if she will land on all four paws.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "գողություն",
+      "բողոք",
+      "ամուսին",
+      "փիսիկ",
+      "ծեծ",
+      "հիվանդ",
+      "կարմիր կեղծամ"
+    ],
+    "keywords_en": [
+      "police station",
+      "theft",
+      "complaint",
+      "husband",
+      "kitty",
+      "beating",
+      "toothache",
+      "drag"
+    ],
+    "keywords_translit": [
+      "vostikanutyun",
+      "goxutyun",
+      "boxoq",
+      "amusin",
+      "pisik",
+      "tset",
+      "hivand",
+      "karmir kexcam"
+    ],
+    "catchphrases": [
+      "էթըմ ես մտնըմ ես կողքի կաբինետ սկսըմ ես քեզ տփել հեսա գալիս եմ"
+    ],
+    "topics": [
+      "police",
+      "crime",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "96mxdWDAUZU",
+  "seq": 283,
+  "kargin_id": 283,
+  "title": "Kargin Haghordum sketch 236 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "283_Kargin_Haghordum_sketch_236_Hayko_Mko_96mxdWDAUZU.hy.json",
+    "visual": true
+  },
+  "input_chars": 2659,
+  "gen_sec": 13.05,
+  "prompt_tokens": 2492,
+  "output_tokens": 669,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003253,
+  "annotation": {
+    "title_hy": "Տղամարդու սակարկությունը կնոջ հետ",
+    "title_en": "Haggling with the Wife",
+    "summary_en": "A man argues with his wife about his philandering ways, only for the conversation to turn into a negotiation over a night of intimacy.",
+    "summary_detailed_en": "The sketch begins in a home living room where a man, dressed in a black vest and white shirt with a prominent mustache, is confronted by his wife. The dialogue starts with the man self-deprecatingly calling himself a 'chmo' (loser), while his wife criticizes his lack of involvement in their son's life, mentioning that their son has been in the army for three months without his father checking in. The man dismisses her concerns with absurd excuses. When the wife accuses him of constantly chasing women, he compares himself to their dog chasing cars—arguing that just because the dog chases a car doesn't mean it can drive it. The argument shifts to his spending habits on other women. He confesses he pays a hundred dollars for a night out. Shocked by the high price, the wife claims she can provide an unforgettable night for only twenty dollars. Intrigued by the bargain, the man agrees and they move to the bedroom. The final scene shows the two lying in bed among pillows, smoking cigarettes and looking exhausted. The man's punchline is that despite the savings, 'cheap remains cheap.'",
+    "keywords_hy": [
+      "բանակ",
+      "սակարկություն",
+      "փող",
+      "ամուսիններ",
+      "մաչո",
+      "չմո",
+      "էժան",
+      "ընտանեկան վեճ"
+    ],
+    "keywords_en": [
+      "army",
+      "haggling",
+      "money",
+      "married couple",
+      "macho",
+      "chmo",
+      "cheap",
+      "family argument"
+    ],
+    "keywords_translit": [
+      "banak",
+      "sakarkutyun",
+      "pogh",
+      "amusinner",
+      "macho",
+      "chmo",
+      "ezhan",
+      "yntanekan vech"
+    ],
+    "catchphrases": [
+      "Արա բայց ինչ չմո եմ ես",
+      "վիլիտի չմո էլի",
+      "չմո չես մաչո",
+      "քսան դոլլարով գիտես քեզ ինչ անմոռանալի գիշեր կպարգևեմ",
+      "դե էժանը մնումա էժան"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "army"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

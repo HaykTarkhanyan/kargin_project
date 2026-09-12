@@ -1,0 +1,73 @@
+{
+  "video_id": "fLkqwqJCaow",
+  "seq": 94,
+  "kargin_id": 94,
+  "title": "Kargin Haghordum sketch 635 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "094_Kargin_Haghordum_sketch_635_Hayko_Mko_fLkqwqJCaow.hy.json",
+    "visual": true
+  },
+  "input_chars": 2022,
+  "gen_sec": 4.97,
+  "prompt_tokens": 2161,
+  "output_tokens": 686,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003138,
+  "annotation": {
+    "title_hy": "Ռեստորանի Շփոթմունքը և 100 Դոլարը",
+    "title_en": "The Restaurant Confusion and $100 Bill",
+    "summary_en": "A demanding customer in a restaurant orders fish and wine while rushing the waiter, only to challenge a higher bill by claiming he remembers the price was exactly $100.",
+    "summary_detailed_en": "The sketch takes place inside a restaurant, likely 'Cherry Club' based on the visual setting. A waiter stands ready as a seated customer begins a rapid-fire, confusing order. The customer asks what hot dishes are available but interrupts himself to decide on fish. He then asks what fish dishes they have, specifically settling on trout ('karmrakhayt'). When asked about salads and wine, he ignores the waiter's suggestion of white wine for fish and insists on red. The customer is in a visible hurry, demanding the entertainment show start early, but the waiter informs him it cannot start before 9:00 PM. Frustrated, the customer simply tells the waiter to change the ashtray. As the scene progresses, the customer eats and drinks, eventually slumped over his plate. When it comes time to pay, the waiter tries to charge $200. The customer, suddenly alert, catches him in the act, triumphantly claiming he remembers perfectly that the bill was supposed to be $100, though the entire interaction suggests he was barely coherent.",
+    "keywords_hy": [
+      "ռեստորան",
+      "մատուցող",
+      "ձուկ",
+      "հաշիվ",
+      "կարմրախայթ",
+      "100 դոլար",
+      "հաճախորդ",
+      "գինի"
+    ],
+    "keywords_en": [
+      "restaurant",
+      "waiter",
+      "fish",
+      "bill",
+      "trout",
+      "100 dollars",
+      "customer",
+      "wine"
+    ],
+    "keywords_translit": [
+      "restoran",
+      "matucogh",
+      "dzuk",
+      "hashiv",
+      "karmrakhayt",
+      "100 dolar",
+      "hachaxord",
+      "gini"
+    ],
+    "catchphrases": [
+      "100 դոլար",
+      "բռնվար ես ամեն ինչ լավ հիշում եմ հաշիվը 100 դոլարա",
+      "մեր մոտ շոուն իննից շուտ չի սկսվում",
+      "լաաավ դե ուրեմն մոխրամանը փոխի",
+      "հաշիվը"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

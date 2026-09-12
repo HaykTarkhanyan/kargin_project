@@ -1,0 +1,74 @@
+{
+  "video_id": "WuzT_vKu-u4",
+  "seq": 514,
+  "kargin_id": 514,
+  "title": "Kargin Haghordum sketch 148 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2529,
+  "gen_sec": 8.47,
+  "prompt_tokens": 2387,
+  "output_tokens": 717,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003345,
+  "annotation": {
+    "title_hy": "Գողականը Ակնաբույժի Մոտ",
+    "title_en": "The Criminal at the Ophthalmologist",
+    "summary_en": "A former convict visits an eye doctor to get a signature for his parole paperwork but ends up in a heated exchange of criminal slang when the doctor tests his vision.",
+    "summary_detailed_en": "The sketch takes place in an eye doctor's office where an ophthalmologist, dressed in a white coat and sporting a mustache, is confronted by a patient wearing a black leather jacket. The patient, who claims to be recently released from prison, demands a signature on his parole documents for the police department. When the doctor refuses to sign without a proper examination, the patient tries to intimidate him using aggressive 'goghakan' (criminal) slang. To his surprise, the doctor retaliates with even sharper criminal jargon, calling the patient a 'large adult diaper' and threatening to replace his eyes with walnuts. The doctor reveals he knows the lifestyle from watching Armenian TV series, while the patient quips he prefers watching KVN. The doctor forces the patient to undergo a vision test using an eye chart and machine. The patient fails to read even the largest letters, leading the doctor to diagnose him with nearsightedness. The patient laments his situation, noting that on top of being illiterate, he is now 'blind,' before being kicked out of the office.",
+    "keywords_hy": [
+      "ակնաբույժ",
+      "հիվանդանոց",
+      "գողական",
+      "բանտից ելած",
+      "աչքի ստուգում",
+      "սպիտակ խալաթ",
+      "ստորագրություն",
+      "կարճատես"
+    ],
+    "keywords_en": [
+      "ophthalmologist",
+      "eye doctor",
+      "criminal slang",
+      "former convict",
+      "vision test",
+      "eye chart",
+      "parole",
+      "medical office"
+    ],
+    "keywords_translit": [
+      "aknabuyzh",
+      "hivandanoc",
+      "goghakan",
+      "bantic elac",
+      "achki stugum",
+      "spitak xalat",
+      "storagrutyun",
+      "karchates"
+    ],
+    "catchphrases": [
+      "էս հիվանդանոցում ոնց-որ սաղ հիվանդ լինեն",
+      "դու ուրդու բժիշկ էս",
+      "արա այ մեծ մարդու պամպեռս",
+      "ցենտրա ախպեր հերիք չի անգրագետ էի հիմա էլ դուրս էկավ քյոռ եմ",
+      "սերիալ էս նայում ես ԿՎՆ եմ նայել"
+    ],
+    "topics": [
+      "medical",
+      "crime",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

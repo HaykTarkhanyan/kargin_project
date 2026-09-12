@@ -1,0 +1,68 @@
+{
+  "video_id": "I7OQpkJuUng",
+  "seq": 215,
+  "kargin_id": 215,
+  "title": "Kargin Haghordum - Mards Tupoya (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "215_Kargin_Haghordum_-_Mards_Tupoya_Hayko_Mko_I7OQpkJuUng.hy.json",
+    "visual": true
+  },
+  "input_chars": 1061,
+  "gen_sec": 3.47,
+  "prompt_tokens": 1527,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00256,
+  "annotation": {
+    "title_hy": "Տուպոյ ամուսինը և վերանորոգողը",
+    "title_en": "Stupid Husband and the Repairman",
+    "summary_en": "A repairman repeatedly interrupts a newlywed couple in their bedroom, but the oblivious husband fails to understand what is happening despite the obvious context.",
+    "summary_detailed_en": "The sketch is set in a bedroom where a newlywed couple is seen in bed together, with a large framed wedding photo prominently displayed on the wall behind them. The couple is shown playing and wrestling affectionately. The scene is repeatedly interrupted by a repairman wearing grey work coveralls who enters from the hallway. Each time the repairman opens the door, he reacts awkwardly to the intimate scene. In the dialogue, the wife laments her husband's lack of intelligence, stating that her husband is 'tupoy' (stupid). When the repairman asks what they are doing, the husband gives nonsensical answers to avoid the obvious reality. In one instance, he claims they are playing football ('Futbol enq khaghum ape'), and when the repairman expresses disbelief, the husband sarcastically or obliviously claims they are cooking dinner ('Chash enq ephum'). The sketch relies on the physical comedy of the constant interruptions and the husband's absurd denials of the situation.",
+    "keywords_hy": [
+      "ննջարան",
+      "նորապսակներ",
+      "վերանորոգող",
+      "տուպոյ",
+      "ֆուտբոլ ենք խաղում",
+      "ամուսին",
+      "կին"
+    ],
+    "keywords_en": [
+      "bedroom",
+      "newlyweds",
+      "repairman",
+      "stupid husband",
+      "playing football",
+      "interruption",
+      "marriage"
+    ],
+    "keywords_translit": [
+      "nnjaran",
+      "norapsakner",
+      "veranorogogh",
+      "tupoy",
+      "futbol enq khaghum",
+      "amusin",
+      "kin"
+    ],
+    "catchphrases": [
+      "Ֆուտբոլ ենք խաղում ապե",
+      "Չէ խաբում եք, ֆուտբոլ չեք խաղում, էս ինչ եք անում",
+      "Ճաշ ենք էփում"
+    ],
+    "topics": [
+      "family",
+      "work"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

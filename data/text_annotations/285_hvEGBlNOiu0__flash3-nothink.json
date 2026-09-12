@@ -1,0 +1,70 @@
+{
+  "video_id": "hvEGBlNOiu0",
+  "seq": 285,
+  "kargin_id": 285,
+  "title": "Kargin Haghordum sketch 238 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1181,
+  "gen_sec": 31.54,
+  "prompt_tokens": 1595,
+  "output_tokens": 575,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002523,
+  "annotation": {
+    "title_hy": "Քննություն կոնյակով",
+    "title_en": "Exam with Cognac",
+    "summary_en": "A student attempts to pass his exam by providing the professor with cognac and snacks instead of academic answers.",
+    "summary_detailed_en": "The sketch begins in a school hallway where a young male student in a light blue shirt walks past maps and other students toward his examination. He enters an office to meet a grey-haired professor, Mr. Sukiasyan. The professor hands the student an exam questionnaire, granting him five minutes to prepare. However, the student immediately declares he is ready. Instead of reciting academic material, the student produces a bottle of cognac (referred to as champagne in visual notes, but cognac in dialogue) and pours it into glasses. As he provides the alcohol, the professor praises his 'preparation' for the first question. The student then suggests that a lemon slice would pair perfectly with the drink; when he produces the lemon, the professor commends his excellent preparation for the second question. Finally, the student suggests that fruits like peaches are also a great match. When it turns out he doesn't have any peaches, the professor expresses disappointment, noting that the grade could have been 'excellent' today if the snack selection had been complete. The scene highlights the casual bribery and drinking culture depicted in educational settings.",
+    "keywords_hy": [
+      "քննություն",
+      "ուսանող",
+      "դասախոս",
+      "կոնյակ",
+      "լիմոն",
+      "կաշառք",
+      "համալսարան",
+      "դպրոց"
+    ],
+    "keywords_en": [
+      "exam",
+      "student",
+      "professor",
+      "cognac",
+      "lemon",
+      "bribery",
+      "university",
+      "school"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "usanogh",
+      "dasaxos",
+      "konyak",
+      "limon",
+      "kasharq",
+      "hamalsaran",
+      "dproc"
+    ],
+    "catchphrases": [
+      "Ափսոս, կարող էր այսօր գերազանց լիներ։"
+    ],
+    "topics": [
+      "school",
+      "drinking",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

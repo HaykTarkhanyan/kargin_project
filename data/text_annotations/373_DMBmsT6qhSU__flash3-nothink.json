@@ -1,0 +1,71 @@
+{
+  "video_id": "DMBmsT6qhSU",
+  "seq": 373,
+  "kargin_id": 373,
+  "title": "Kargin Haghordum - Harcazruyc (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3135,
+  "gen_sec": 6.26,
+  "prompt_tokens": 2754,
+  "output_tokens": 652,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003333,
+  "annotation": {
+    "title_hy": "Ծխելու հաշվարկը և Բաղնիքը",
+    "title_en": "The Smoking Math and the Sauna",
+    "summary_en": "A TV reporter tries to lecture a smoker about the money he could have saved, only to find out the man is much wealthier than he assumed.",
+    "summary_detailed_en": "A news reporter and his cameraman, Sam, are in the Bangladesh district of Yerevan to film a segment on the financial cost of smoking. The reporter explains that they had to stage a previous segment about gay people by having the cameraman dress in drag, leading to a hilarious misunderstanding of his reputation. They spot a man in a suit jacket smoking on the street and approach him for an interview. The reporter asks the man about his habits, and the man reveals he has smoked two packs of high-quality cigarettes daily for thirty years since the age of sixteen. The reporter pulls out a calculator to perform a smug mathematical breakdown, showing the man the massive amount of money he has wasted. He points to a large, luxurious bathhouse/sauna building nearby, claiming that if the man hadn't smoked, he could have owned such a property. The man calmly asks if the reporter smokes; when the reporter says no and admits he doesn't own the building either, the man reveals he actually owns the bathhouse, effectively turning the lecture on its head as the punchline.",
+    "keywords_hy": [
+      "ծխել",
+      "հարցազրույց",
+      "հեռուստատեսություն",
+      "բաղնիք",
+      "փող",
+      "հաշվարկ",
+      "Բանգլադեշ",
+      "ծխող մարդ"
+    ],
+    "keywords_en": [
+      "smoking",
+      "interview",
+      "television",
+      "sauna",
+      "money",
+      "calculation",
+      "reporter",
+      "smoker"
+    ],
+    "keywords_translit": [
+      "cxel",
+      "harcazruyc",
+      "herustatesutyun",
+      "baghniq",
+      "pogh",
+      "hashvark",
+      "Bangladesh",
+      "cxogh mard"
+    ],
+    "catchphrases": [
+      "Ֆիրմա, որակով,վերջի թիվ",
+      "Բա տենումես ջահել ջան,կյանքը ինչ հետաքրքիր բանա, համ ես ծխում եմ, համ էլ ես բաղնիքը իմնա"
+    ],
+    "topics": [
+      "media_showbiz",
+      "money",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

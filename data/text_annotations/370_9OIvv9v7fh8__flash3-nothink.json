@@ -1,0 +1,71 @@
+{
+  "video_id": "9OIvv9v7fh8",
+  "seq": 370,
+  "kargin_id": 370,
+  "title": "Kargin Haghordum - Vaxo (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "370_Kargin_Haghordum_-_Vaxo_Hayko_Mko_9OIvv9v7fh8.hy.json",
+    "visual": true
+  },
+  "input_chars": 2368,
+  "gen_sec": 8.84,
+  "prompt_tokens": 2217,
+  "output_tokens": 666,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003106,
+  "annotation": {
+    "title_hy": "Վաղոն և ցմահ բանտարկյալը",
+    "title_en": "Vakho and the Life Sentence",
+    "summary_en": "In a pitch-black prison cell, a prisoner repeatedly strikes matches to wake up his cellmate, Vakho, just to ask for the time, only to be reminded that they are both serving life sentences.",
+    "summary_detailed_en": "The sketch takes place in a pitch-dark room where the only source of light comes from matches being struck. A man lies in the dark and periodically strikes a match, illuminating his own face and a wind-up alarm clock sitting on a wooden table. Each time he lights a match, he wakes his cellmate, Vakho, with overly affectionate and poetic praise, calling him 'king,' 'prince,' and 'long-time friend,' just to ask for the current time. Vakho patiently answers—three o'clock, four o'clock, half-past four—while the man thanks him profusely. After several repetitions of this cycle, Vakho finally snaps, pointing out the absurdity of the situation: it doesn't matter what time it is because they have both been sentenced to life imprisonment. The darkness of the scene is finally broken by a washed-out wide shot revealing a bleak, cell-like room with a grilled window. The sketch ends with a guard or cellmate shouting for everyone to wake up because it is six o'clock, ending the repetitive cycle of the long night.",
+    "keywords_hy": [
+      "Վաղո",
+      "ժամը քանիսն է",
+      "բանտ",
+      "ցմահ բանտարկություն",
+      "լուցկի",
+      "խավար",
+      "կատակերգություն",
+      "բանտախուց"
+    ],
+    "keywords_en": [
+      "Vakho",
+      "what time is it",
+      "prison",
+      "life sentence",
+      "matches",
+      "darkness",
+      "comedy sketch",
+      "prison cell"
+    ],
+    "keywords_translit": [
+      "Vakho",
+      "zhamy qanisn e",
+      "bant",
+      "cmah bantarkutyun",
+      "lucki",
+      "khavar",
+      "kargin haghordum",
+      "bantakhuc"
+    ],
+    "catchphrases": [
+      "Վաղո ջան մի հատ ժամը չէիր ասի",
+      "Վաղո ախպեր, թագավոր ախպեր, իմ արքայազն ախպեր",
+      "մեկա մեզ ցմահ են տվել"
+    ],
+    "topics": [
+      "crime",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "0BdBDzNV8wM",
+  "seq": 177,
+  "kargin_id": 177,
+  "title": "Kargin Haghordum sketch 357 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "177_Kargin_Haghordum_sketch_357_Hayko_Mko_0BdBDzNV8wM.tr.json",
+    "visual": true
+  },
+  "input_chars": 1706,
+  "gen_sec": 13.97,
+  "prompt_tokens": 1898,
+  "output_tokens": 596,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002737,
+  "annotation": {
+    "title_hy": "Կռիվ կլոունի հետ",
+    "title_en": "Fight with a Clown",
+    "summary_en": "A worried wife calls the police and friends late at night looking for her missing husband, who finally returns home covered in lipstick marks with a ridiculous excuse.",
+    "summary_detailed_en": "The sketch takes place late at night in a dimly lit living room. A woman (played by a male actor in drag) sits in an armchair, visibly distressed, holding a telephone. She first calls a friend named Ham, apologizing for the late hour and checking if her husband is with him. She then calls the police station to report her husband, Andranik Mnatsakanyan, missing, fearing he has been in an accident. Her husband finally enters the house at 5:00 AM. He is in a disheveled state, his face and white shirt covered in bright red lipstick kiss marks. The wife erupts in anger, calling him an animal and a 'bomzh', explaining that she has contacted all his friends and even the authorities. When she demands to know why he is covered in lipstick and blonde hair, the husband offers a bizarre, deadpan excuse: he claims he spent the entire night fighting with a clown. The sketch ends with their heated physical argument.",
+    "keywords_hy": [
+      "ամուսին",
+      "կին",
+      "ուշացած",
+      "պամադա",
+      "կլոուն",
+      "խանդ",
+      "ոստիկանություն",
+      "դավաճանություն"
+    ],
+    "keywords_en": [
+      "husband",
+      "wife",
+      "late home",
+      "lipstick marks",
+      "clown",
+      "jealousy",
+      "police",
+      "betrayal"
+    ],
+    "keywords_translit": [
+      "amusin",
+      "knik",
+      "ushatsats",
+      "pamada",
+      "kloun",
+      "khand",
+      "vostikanutyun",
+      "davachanutyun"
+    ],
+    "catchphrases": [
+      "տո այ անասուն գիշերավ 5-նա տանը չես",
+      "կնիկ ջան չես հավատա սաղ գիշեր մի հատ կլոունի հետ կռիվ եմ արել"
+    ],
+    "topics": [
+      "family",
+      "police"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

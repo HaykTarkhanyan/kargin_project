@@ -1,0 +1,70 @@
+{
+  "video_id": "cmyL6zHoFeY",
+  "seq": 157,
+  "kargin_id": 157,
+  "title": "Kargin Haghordum sketch 201 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1512,
+  "gen_sec": 8.87,
+  "prompt_tokens": 1761,
+  "output_tokens": 566,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002579,
+  "annotation": {
+    "title_hy": "Ընտրությունների Քարոզարշավ",
+    "title_en": "Election Campaign",
+    "summary_en": "Two election campaigners try to convince a resident to sign for their candidate, only to discover the resident knows the candidate's criminal history all too well.",
+    "summary_detailed_en": "The sketch is set in the hallway of an apartment building. A male campaigner wearing glasses and a female campaigner with curly hair are going door-to-door, carrying campaign pamphlets and an election poster featuring a checkbox. They knock on a door and are greeted by a male resident. The campaigners deliver a prepared speech, claiming their candidate, Hamlet Hamik Hamoyan, is a local who understands the neighborhood's problems. They praise his human qualities, describing him as fair, kind, and well-meaning based on their 'personal experience.' The resident asks to see the pamphlet and immediately recognizes the candidate. When the resident mentions he knows the man well, the campaigners initially think it's a positive endorsement, but the resident reveals that the candidate has had him arrested multiple times. The campaigners' facade drops instantly, with the woman admitting it's just a job for a salary. The resident points out how the candidate's eyes look untrustworthy as the interaction turns awkward.",
+    "keywords_hy": [
+      "ընտրություններ",
+      "քարոզարշավ",
+      "թեկնածու",
+      "ստորագրություն",
+      "հարևան",
+      "բնակարան",
+      "ոստիկանություն",
+      "բռնել տալ"
+    ],
+    "keywords_en": [
+      "elections",
+      "campaign",
+      "candidate",
+      "signature",
+      "neighbor",
+      "apartment",
+      "police",
+      "arrest"
+    ],
+    "keywords_translit": [
+      "yntrutyunner",
+      "qarozarshav",
+      "teknacu",
+      "storagrutyun",
+      "harevan",
+      "bnakaran",
+      "ostikanutyun",
+      "brnel tal"
+    ],
+    "catchphrases": [
+      "Էդ ովա է, հլը տուր տենամ"
+    ],
+    "topics": [
+      "bureaucracy",
+      "neighbors",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

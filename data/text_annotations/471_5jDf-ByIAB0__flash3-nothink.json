@@ -1,0 +1,71 @@
+{
+  "video_id": "5jDf-ByIAB0",
+  "seq": 471,
+  "kargin_id": 471,
+  "title": "Kargin Haghordum sketch 097 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "471_Kargin_Haghordum_sketch_097_Hayko_Mko_5jDf-ByIAB0.tr.json",
+    "visual": true
+  },
+  "input_chars": 1846,
+  "gen_sec": 6.62,
+  "prompt_tokens": 2052,
+  "output_tokens": 615,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002871,
+  "annotation": {
+    "title_hy": "Անակոնդի պարտքը",
+    "title_en": "Anaconda's Debt",
+    "summary_en": "A ruthless gangster named Anaconda prepares to execute a debtor in a junkyard, only to have the victim ask for death once he realizes how miserable his life is.",
+    "summary_detailed_en": "The sketch takes place in a desolate junkyard during the day, where a gangster (nicknamed 'Anaconda') and his bald henchman have kidnapped a man. The scene begins with the henchman pulling the bound victim out of a car trunk, with Anaconda sarcastically commenting on the 'fresh air' outside the trunk. The captive is dragged towards a corrugated metal wall amidst scrap metal. Anaconda intimidates the man, explaining that this is the 'final stop of life's minibus' and that he is the one in charge of the route. He scolds the victim for failing to pay back a debt despite multiple warnings. Calling himself 'Anaconda,' the gangster demands his weapon from his henchman to execute the man as an example to others. Initially, the victim begs for his life, citing his wife, four children, and parents who all live together in a single-room rental. However, as he lists his endless burdens—being the sole provider for eight people and working day and night to support them—he suddenly stops, reevaluates his miserable existence, and tells the gangster, 'Actually, go ahead and kill me, brother.'",
+    "keywords_hy": [
+      "Անակոնդ",
+      "պարտք",
+      "գանգստեր",
+      "առևանգում",
+      "աղբանոց",
+      "մարշուտկա",
+      "հումոր",
+      "ծանր կյանք"
+    ],
+    "keywords_en": [
+      "Anaconda",
+      "debt",
+      "gangster",
+      "kidnapping",
+      "junkyard",
+      "minibus",
+      "execution",
+      "poverty"
+    ],
+    "keywords_translit": [
+      "Anakond",
+      "partq",
+      "gangster",
+      "arevangum",
+      "aghbanoc",
+      "marshutka",
+      "humor",
+      "tsanr kyanq"
+    ],
+    "catchphrases": [
+      "Սաղ իմ վզին են",
+      "Չնայած, սպանի է ապեր"
+    ],
+    "topics": [
+      "crime",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

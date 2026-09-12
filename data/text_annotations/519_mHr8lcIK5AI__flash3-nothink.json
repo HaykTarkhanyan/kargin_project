@@ -1,0 +1,71 @@
+{
+  "video_id": "mHr8lcIK5AI",
+  "seq": 519,
+  "kargin_id": 519,
+  "title": "Kargin Haghordum sketch 153 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "519_Kargin_Haghordum_sketch_153_Hayko_Mko_mHr8lcIK5AI.hy.json",
+    "visual": true
+  },
+  "input_chars": 2737,
+  "gen_sec": 5.48,
+  "prompt_tokens": 2495,
+  "output_tokens": 661,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00323,
+  "annotation": {
+    "title_hy": "Սիմոնյան Ալվարդի Անալիզները",
+    "title_en": "Alvard Simonyan's Test Results",
+    "summary_en": "A confused doctor receives test results for two different patients named Alvard Simonyan—one with diabetes and one with syphilis—and gives a husband dangerously mixed-up medical advice.",
+    "summary_detailed_en": "The sketch takes place in a medical clinic where a mustachioed doctor wearing scrubs and a surgical cap is busy managing patients and phone calls. A female patient named Alvard Simonyan visits, complaining of symptoms like weight loss and dry mouth; the doctor treats her with flirtatious unprofessionalism before sending her for lab tests. Later, the doctor meets with a colleague who delivers the results for two different patients who coincidentally share the exact same name: Alvard Simonyan. One patient has syphilis (Treponema pallidum), and the other has severe diabetes with high blood sugar. The doctor, visibly hungover from the night before and confused by the scientific terms, fails to distinguish between the two files. When a man arrives to collect his wife's results, the doctor creates a chaotic medical diagnostic test: he tells the husband to buy his wife a kilogram of sweets. He explains that if she eats the sugar and doesn't fall ill (proving she doesn't have diabetes), then the husband must 'forget about sex,' implying she is the one with the venereal disease. The sketch ends on this absurd and medically negligent punchline.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "անալիզ",
+      "շաքարախտ",
+      "սիֆիլիս",
+      "սխալմունք",
+      "կատակերգություն",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "medical tests",
+      "diabetes",
+      "syphilis",
+      "mistaken identity",
+      "comedy sketch",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hivandanots",
+      "analiz",
+      "shaqaraxth",
+      "sifilis",
+      "sxalmunq",
+      "katakergutyun",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "Սիմոնյան Ալվարդ",
+      "Հաջողություն չէ, կյանք ջան",
+      "քեզ հլը գիշեր նոր պիտի բարևեմ"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

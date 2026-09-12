@@ -1,0 +1,68 @@
+{
+  "video_id": "eXVMl1B1rks",
+  "seq": 103,
+  "kargin_id": 103,
+  "title": "Kargin Haghordum sketch 644 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "103_Kargin_Haghordum_sketch_644_Hayko_Mko_eXVMl1B1rks.hy.json",
+    "visual": true
+  },
+  "input_chars": 1206,
+  "gen_sec": 8.37,
+  "prompt_tokens": 1583,
+  "output_tokens": 586,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00255,
+  "annotation": {
+    "title_hy": "Սադոյանի ձայնը և բուդիլնիկը",
+    "title_en": "Sadoyan's Voice as an Alarm",
+    "summary_en": "While waiting in a government building hallway, a man complains that a politician's voice is so loud it acts like an unwanted alarm clock.",
+    "summary_detailed_en": "The sketch takes place in the grand hallway of a government building, characterized by marble walls and large wooden doors. Two men in formal suits are present. One man, who appears nervous and wears a distinctive mustache, paces back and forth, frequently wiping his face and checking a notebook while smoking a cigarette. The visual transitions from the exterior of the building to the interior corridor where the interaction occurs. The men appear to be bureaucrats or individuals waiting for a high-stakes meeting. During their conversation, one man asks the other if he is having trouble sleeping. He delivers the central joke of the sketch, comparing the loud, piercing voice of the Armenian politician Arshak Sadoyan to an alarm clock that keeps everyone awake. The dialogue fragments suggest a discussion about the persistence of certain political speeches and their effect on the public's nerves. The sketch ends with the humorous observation that Sadoyan's voice is effectively a 'budilnik' (alarm clock) that prevents any rest.",
+    "keywords_hy": [
+      "Սադոյան",
+      "բուդիլնիկ",
+      "քուն",
+      "կառավարության շենք",
+      "քաղաքականություն",
+      "ծխախոտ",
+      "միջանցք"
+    ],
+    "keywords_en": [
+      "Sadoyan",
+      "alarm clock",
+      "sleep",
+      "government building",
+      "politics",
+      "cigarette",
+      "hallway"
+    ],
+    "keywords_translit": [
+      "Sadoyan",
+      "budilnik",
+      "qun",
+      "karavarutyan shenq",
+      "qaghaqakanutyun",
+      "tskhakhot",
+      "mijanq"
+    ],
+    "catchphrases": [
+      "էս քո քուննել չի տանում",
+      "Սադոյանի ձենը ոնց որ բուդիլնիկ ըլնի արա"
+    ],
+    "topics": [
+      "bureaucracy",
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

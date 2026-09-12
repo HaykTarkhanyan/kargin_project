@@ -1,0 +1,65 @@
+{
+  "video_id": "syOoThNi4Xs",
+  "seq": 280,
+  "kargin_id": 280,
+  "title": "Kargin Haghordum sketch 233 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "280_Kargin_Haghordum_sketch_233_Hayko_Mko_syOoThNi4Xs.hy.json",
+    "visual": true
+  },
+  "input_chars": 1945,
+  "gen_sec": 18.96,
+  "prompt_tokens": 2058,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00285,
+  "annotation": {
+    "title_hy": "Երկու ձմերուկ և զիպը",
+    "title_en": "Two Watermelons and the Zipper",
+    "summary_en": "A man carrying two large watermelons enters a public restroom and asks a stranger to help him unzip his pants because his hands are full.",
+    "summary_detailed_en": "In a public restroom setting, a man enters carrying two large watermelons, looking distressed. He encounters another man dressed in a tan suit and glasses who appears to be a teacher. The man with the watermelons explains that he bought these for his two sons but now has an urgent physical need. Because his hands are occupied by the heavy fruit, he asks the stranger to unzip his fly for him. When the stranger hesitates, citing that they are both men, the man with the watermelons urges him to think in a 'European' and modern 22nd-century way. Reluctantly, the stranger assists. After finishing his business at the urinal, the man again asks the stranger to pull the zipper back up so his wife won't get the wrong idea. Finally, in a comedic subversion of the original problem, the man asks the stranger to hold the watermelons so he can wash his hands, leading the stranger to realize he could have just held the watermelons from the beginning.",
+    "keywords_hy": [
+      "ձմերուկ",
+      "զուգարան",
+      "ցեպ",
+      "անհարմար իրավիճակ",
+      "եվրոպական մտածելակերպ",
+      "հանրային զուգարան"
+    ],
+    "keywords_en": [
+      "watermelon",
+      "public restroom",
+      "zipper",
+      "awkward situation",
+      "European thinking",
+      "unzipping"
+    ],
+    "keywords_translit": [
+      "dzmeruk",
+      "zugarans",
+      "tsep",
+      "anharmar iravichak",
+      "evropakan mtatselakerp",
+      "hanrayin zugarans"
+    ],
+    "catchphrases": [
+      "եկեք մի քիչ եվրոպական մտածենք",
+      "ցեպս իջացրու էլի ձեռներս զբաղված",
+      "22-րդ դարի շեմին ենք"
+    ],
+    "topics": [
+      "other",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

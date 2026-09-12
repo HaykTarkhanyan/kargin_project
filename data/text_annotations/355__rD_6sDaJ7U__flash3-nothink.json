@@ -1,0 +1,71 @@
+{
+  "video_id": "_rD_6sDaJ7U",
+  "seq": 355,
+  "kargin_id": 355,
+  "title": "Kargin Haghordum sketch 454 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "355_Kargin_Haghordum_sketch_454_Hayko_Mko__rD_6sDaJ7U.tr.json",
+    "visual": true
+  },
+  "input_chars": 2346,
+  "gen_sec": 13.31,
+  "prompt_tokens": 2198,
+  "output_tokens": 595,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002884,
+  "annotation": {
+    "title_hy": "Մամիկոնի կովերը",
+    "title_en": "Mamikon's Cows",
+    "summary_en": "A shepherd frantically yells to his distant neighbor Mamikon about missing cows until a man with binoculars helps him see the situation.",
+    "summary_detailed_en": "The sketch takes place on a rural hillside pasture during the day, featuring a shepherd wearing a black wool cap and holding a staff. The shepherd is in a panic because he believes his cows have gone missing and might have mixed with the herd of his neighbor, Mamikon, who is located on a distant slope. He repeatedly screams 'Mamikooooon!' at the top of his lungs, trying to ask if the cows are there, but Mamikon keeps shouting back that he cannot hear him. A second man, dressed in a yellow shirt and blue cap, enters the scene carrying binoculars. The man suggests that instead of shouting, the shepherd should use the binoculars to see for himself. As they peer through the lens, they scan the landscape, seeing the sheep, cows, and a distant electricity pylon. They eventually spot a small figure in the distance waving and jumping. The humor stems from the absurdly long-distance shouting match and the shepherd's frustration at not being heard despite his aggressive yelling.",
+    "keywords_hy": [
+      "հովիվ",
+      "կովեր",
+      "սարեր",
+      "հեռադիտակ",
+      "Մամիկոն",
+      "գոռալ",
+      "կորած կովեր",
+      "գյուղական կյանք"
+    ],
+    "keywords_en": [
+      "shepherd",
+      "cows",
+      "mountains",
+      "binoculars",
+      "Mamikon",
+      "shouting",
+      "lost cows",
+      "rural life"
+    ],
+    "keywords_translit": [
+      "hoviv",
+      "kover",
+      "sarer",
+      "heraditak",
+      "Mamikon",
+      "goral",
+      "korac kover",
+      "gyughakan kyanq"
+    ],
+    "catchphrases": [
+      "Մամիկոոոոն կարողա կովերս մոտդ են էկել",
+      "չեմ լսում ինչ ես ասում",
+      "ասում եմ կովերը կովերը"
+    ],
+    "topics": [
+      "village",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

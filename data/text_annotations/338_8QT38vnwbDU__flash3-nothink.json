@@ -1,0 +1,72 @@
+{
+  "video_id": "8QT38vnwbDU",
+  "seq": 338,
+  "kargin_id": 338,
+  "title": "Kargin Haghordum sketch 505 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "338_Kargin_Haghordum_sketch_505_Hayko_Mko_8QT38vnwbDU.tr.json",
+    "visual": true
+  },
+  "input_chars": 2473,
+  "gen_sec": 10.71,
+  "prompt_tokens": 2423,
+  "output_tokens": 707,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003332,
+  "annotation": {
+    "title_hy": "Սլեսառների հանելուկները",
+    "title_en": "The Locksmiths' Riddles",
+    "summary_en": "Two locksmiths take a break in their workshop to complain about the new 12-year school system and test each other with simple elementary school riddles.",
+    "summary_detailed_en": "The sketch takes place in a dim, cluttered industrial workshop filled with pipes and old machinery. Two men, a mustached locksmith in an olive shirt and a curly-haired assistant named Samo in a checkered shirt, are sitting together during a work break. The lead locksmith drinks from a cup and complains about the educational reforms in Armenia, specifically how the school term was extended from ten to twelve years. He jokes that his son now has to 'serve' two more years, which Samo mistakenly thinks refers to a juvenile detention center (malaletka). The conversation shifts to the absurdity of fourth-grade math books containing simple riddles. The lead locksmith quizzes Samo with these riddles: one about a squirrel and one about a woodpecker. Each time, the dim-witted Samo confidently guesses that the answer is a 'hammer' (chaguch). Even when the riddle describes a monkey jumping from tree to tree eating a banana, Samo remains confused, wondering how a hammer could possibly fly between trees. The humor stems from the contrast between the gritty setting and the childlike riddles, as well as Samo's obsession with his work tools.",
+    "keywords_hy": [
+      "սլեսառ",
+      "հանելուկ",
+      "դպրոց",
+      "չագուչ",
+      "փայտփորիկ",
+      "սկյուռիկ",
+      "12-ամյա կրթություն",
+      "աշխատանոց"
+    ],
+    "keywords_en": [
+      "locksmith",
+      "riddle",
+      "school system",
+      "hammer",
+      "woodpecker",
+      "squirrel",
+      "workshop",
+      "education reform"
+    ],
+    "keywords_translit": [
+      "slesar",
+      "haneluk",
+      "dproc",
+      "chaguch",
+      "paytporik",
+      "skyurik",
+      "tasnerku tari",
+      "ashxatanoc"
+    ],
+    "catchphrases": [
+      "ՈՒրդե, Մալալետկո՞ւմ,   -Տո չէ  այ ախպեր ջան , դպրոցում",
+      "Նյուտոնը ֆիզիկայով չի հարստացե, էնի խնձորի գործա արե արա",
+      "Հա ես էլ ասում եմ չագուչը ծառից ծառ ոնց կարա թռնի"
+    ],
+    "topics": [
+      "work",
+      "school",
+      "drinking"
+    ],
+    "humor_type": [
+      "character",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "-paMG4kj9gg",
+  "seq": 4,
+  "kargin_id": 4,
+  "title": "Kargin Haghordum sketch 278 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "004_Kargin_Haghordum_sketch_278_Hayko_Mko_-paMG4kj9gg.hy.json",
+    "visual": true
+  },
+  "input_chars": 1345,
+  "gen_sec": 38.36,
+  "prompt_tokens": 1704,
+  "output_tokens": 478,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002286,
+  "annotation": {
+    "title_hy": "Տնօրենի հրամանը և քարտուղարուհին",
+    "title_en": "The Director's Order and the Secretary",
+    "summary_en": "A boss discusses a 15 million dram contract over the phone before scolding his assistant for taking his instructions on where to post a notice too literally.",
+    "summary_detailed_en": "The sketch takes place in a director's office, decorated with trophies and wall certificates. The boss, dressed in a formal suit, is sprawled in his office chair engaged in a long, animated phone conversation with someone named Davit regarding a 15 million dram payment and a 'hydro-plast' contract. During the call, his secretary enters, and he asks her to bring the physical contract to clarify the terms. After the phone call concludes, the boss calls in his young assistant, Razmik. He is furious because a written order he issued was found taped to the secretary's backside. When the boss demands an explanation for this absurd act, Razmik innocently explains that he was simply following the boss's specific instructions to 'stick the order somewhere everyone will see it.' The sketch concludes with the boss reacting to this literal interpretation of his command, even suggesting it might be good for business advertising since everyone is indeed looking at her.",
+    "keywords_hy": [
+      "տնօրեն",
+      "քարտուղարուհի",
+      "պայմանագիր",
+      "հրաման",
+      "բիզնես",
+      "գումար",
+      "գրասենյակ"
+    ],
+    "keywords_en": [
+      "director",
+      "secretary",
+      "contract",
+      "order",
+      "business",
+      "money",
+      "office"
+    ],
+    "keywords_translit": [
+      "tnoren",
+      "qartugharuhi",
+      "paymanagir",
+      "hraman",
+      "biznes",
+      "gumar",
+      "grasenyak"
+    ],
+    "catchphrases": [
+      "հրամանը քարտուղարու հետևին կպցրած",
+      "նենց տեղ կպցրեց, որ բոլորը տեսնան"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

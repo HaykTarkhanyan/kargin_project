@@ -1,0 +1,74 @@
+{
+  "video_id": "8dn6nxfcJSA",
+  "seq": 228,
+  "kargin_id": 228,
+  "title": "Kargin Haghordum sketch 310 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "228_Kargin_Haghordum_sketch_310_Hayko_Mko_8dn6nxfcJSA.tr.json",
+    "visual": true
+  },
+  "input_chars": 2509,
+  "gen_sec": 8.95,
+  "prompt_tokens": 2449,
+  "output_tokens": 677,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003255,
+  "annotation": {
+    "title_hy": "Տասը տարվա ընկերը",
+    "title_en": "The Ten Year Friend",
+    "summary_en": "A man aggressively reunions with an old school friend at a bar, talking incessantly about his own life before revealing he only approached him to ask for a loan.",
+    "summary_detailed_en": "The sketch takes place in a bar where two men are sitting at the counter with beer mugs and a bag of chips. One man (Vache) approaches another (Vagho) with extreme enthusiasm, claiming they haven't seen each other in ten years and that he has been searching for him for ten days. Vache dominates the conversation, barely letting Vagho speak. He asks about Vagho's family and military service, only to immediately launch into absurd stories about his own life. He claims his wife gave birth underwater and now the baby is healthy as long as they feed it and change the aquarium water. He further boasts about losing five-thousand-dollar bets with military recruiters to avoid the draft and driving recklessly in a Lada 2106 to provoke traffic police. After this long, hyperactive monologue filled with terms of endearment, Vache finally gets to the point: he asks Vagho for a hundred-dollar loan. Vagho, seeing through the fake friendliness, sarcastically asks Vache to kiss his back, noting that Vache took a very long way around just to ask for money.",
+    "keywords_hy": [
+      "դպրոցական ընկեր",
+      "բանակ",
+      "պարտք",
+      "հարյուր դոլար",
+      "ակվարիում",
+      "ծննդաբերություն",
+      "զրո վեց",
+      "կարմրուկ",
+      "վայենկոմատ"
+    ],
+    "keywords_en": [
+      "school friend",
+      "military draft",
+      "loan",
+      "hundred dollars",
+      "aquarium",
+      "childbirth",
+      "Lada 06",
+      "measles",
+      "recruitment office"
+    ],
+    "keywords_translit": [
+      "dprocakan enker",
+      "banak",
+      "partq",
+      "haryur dolar",
+      "akvarium",
+      "cnndaberutyun",
+      "zro vec",
+      "karmruk",
+      "vayenkomat"
+    ],
+    "catchphrases": [
+      "ախպեր ջան, կարողա դու կարմրուկ ես",
+      "երեխեդ ոնց են, ամուսնացար չամուսանացար, երեխա ունեցար չունեցար"
+    ],
+    "topics": [
+      "money",
+      "drinking",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

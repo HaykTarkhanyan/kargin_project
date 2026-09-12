@@ -1,0 +1,73 @@
+{
+  "video_id": "417TLKVD54U",
+  "seq": 522,
+  "kargin_id": 522,
+  "title": "Kargin Haghordum sketch 156 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "522_Kargin_Haghordum_sketch_156_Hayko_Mko_417TLKVD54U.tr.json",
+    "visual": true
+  },
+  "input_chars": 2156,
+  "gen_sec": 10.04,
+  "prompt_tokens": 2121,
+  "output_tokens": 623,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002929,
+  "annotation": {
+    "title_hy": "Իմաստունների իմաստունը",
+    "title_en": "The Wisest of the Wise",
+    "summary_en": "An angel appears to a man and offers him a choice between infinite money, eternal love, or supreme wisdom, leading to a regrettable realization.",
+    "summary_detailed_en": "The sketch takes place in a living room where a man named Hovhannes Robert Grigoryan is suddenly visited by a supernatural being. Initially, the visitor appears in a dark suit, but after being scolded by the man for not appearing 'angelic' enough, he expends energy to transform. He reappears wearing a flowing white robe and a curly orange wig, looking like a traditional angel or spirit. The angel explains that Hovhannes has won a celestial lottery and is granted one of three gifts: infinite wealth, a legendary love that poets will write about, or supreme wisdom to become the 'wisest of the wise.' Without hesitation, the man chooses wisdom. The angel grants the wish and invites him to sit. After a moment of profound silence where he reflects on the state of the world, the man gains instant clarity. When the angel asks what his first wise insight is, the man looks at him with deep regret and says, 'I should have taken the money.'",
+    "keywords_hy": [
+      "հրեշտակ",
+      "իմաստություն",
+      "փող",
+      "խաղարկություն",
+      "երազանք",
+      "ընտրություն",
+      "կատակերգություն",
+      "Հայկո Մկո"
+    ],
+    "keywords_en": [
+      "angel",
+      "wisdom",
+      "money",
+      "lottery",
+      "wishes",
+      "choice",
+      "comedy",
+      "Hayko Mko"
+    ],
+    "keywords_translit": [
+      "hreshtak",
+      "imastutyun",
+      "pogh",
+      "khagharkutyun",
+      "erazank",
+      "yntrutyun",
+      "katakergutyun",
+      "Hayko Mko"
+    ],
+    "catchphrases": [
+      "Գրիգորյան հովհաննես Ռոբերտի",
+      "հենց նոր ես քո պատճառով շատ հոգնեցի",
+      "ֆեն եմ շահել",
+      "պտի փողը վեկալեի"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "religion"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

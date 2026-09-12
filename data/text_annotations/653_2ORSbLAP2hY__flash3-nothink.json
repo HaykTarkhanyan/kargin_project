@@ -1,0 +1,67 @@
+{
+  "video_id": "2ORSbLAP2hY",
+  "seq": 653,
+  "kargin_id": 653,
+  "title": "Kargin Haghordum sketch 596 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "653_Kargin_Haghordum_sketch_596_Hayko_Mko_2ORSbLAP2hY.en.json",
+    "visual": true
+  },
+  "input_chars": 1349,
+  "gen_sec": 12.96,
+  "prompt_tokens": 1640,
+  "output_tokens": 462,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002206,
+  "annotation": {
+    "title_hy": "Սխալ պադեզդ և օտար տուն",
+    "title_en": "Wrong Entrance and Strange Bed",
+    "summary_en": "A man wakes up in a stranger's bed to a woman's demands to get dressed, only to realize he has entered the wrong apartment or building.",
+    "summary_detailed_en": "The sketch begins in a bedroom where a man is fast asleep. A woman in a red dress is seen hiding behind a wardrobe, watching him. A second man, wearing a grey cardigan, enters the room and begins aggressively demanding that the sleeping man get out of bed and get dressed. The man in the grey cardigan warns him about a previous 'incident' and insists they must leave because it is late. The sleeping man, initially groggy and stubborn, insists on staying in bed. Suddenly, a realization hits both men. The man in bed snaps awake, yelling 'Who are you?' and 'What are you doing in my bed?' while calling the intruder a 'jackal.' A physical scuffle ensues as the man in the cardigan pulls him out of bed. The scene shifts to a hotel-like corridor near room 33 and an elevator, where the confused man realizes his massive blunder. The sketch ends with his embarrassed apology, claiming he must have mistaken the entrance to the building.",
+    "keywords_hy": [
+      "սխալվել",
+      "տեղաշոր",
+      "քուն",
+      "հյուրանոց",
+      "վեճ",
+      "շփոթմունք",
+      "պադեզդ"
+    ],
+    "keywords_en": [
+      "mistake",
+      "wrong bed",
+      "apartment entrance",
+      "hotel corridor",
+      "argument",
+      "confusion",
+      "intruder"
+    ],
+    "keywords_translit": [
+      "sxalvel",
+      "teghashor",
+      "qun",
+      "hyuranoc",
+      "vech",
+      "shpothmunq",
+      "padezd"
+    ],
+    "catchphrases": [
+      "Քուր ջան  հազար ներողություն երևի պադեզդը շփոթել եմ։"
+    ],
+    "topics": [
+      "neighbors",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "qgUcDdWTOqE",
+  "seq": 13,
+  "kargin_id": 13,
+  "title": "Kargin Haghordum sketch 301 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "013_Kargin_Haghordum_sketch_301_Hayko_Mko_qgUcDdWTOqE.hy.json",
+    "visual": true
+  },
+  "input_chars": 1497,
+  "gen_sec": 9.01,
+  "prompt_tokens": 1760,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002812,
+  "annotation": {
+    "title_hy": "Ուսուցչուհին և խմիչքի խնդիրը",
+    "title_en": "The Teacher and the Drinking Math Problem",
+    "summary_en": "A schoolteacher in drag dictates a bizarre math problem to her students about the alcohol purchases of two 'intelligent' women.",
+    "summary_detailed_en": "The sketch takes place in a school classroom during the day, featuring a teacher played by a male actor in drag. The teacher, wearing heavy makeup and a wig, instructs the schoolchildren to open their notebooks and write down a word problem. As she walks between the rows of desks, she describes a scenario where two intelligent, middle-aged, educated women decide to spend their evening in an interesting way. According to the teacher, these women go to a shop and purchase one bottle of champagne, one bottle of wine, one bottle of martini, and two bottles of vodka. One student, referred to as Serobyan, asks what the actual question of the math problem is. The teacher, showing signs of physical exhaustion and dropping her head onto a desk with exaggerated expressions, delivers the punchline: the real question is why, after all that, did they still need to drink two more bottles of beer? The sketch uses the classroom setting and the contrast between the educational environment and the excessive list of alcohol to create humor.",
+    "keywords_hy": [
+      "դպրոց",
+      "ուսուցչուհի",
+      "խնդիր",
+      "խմիչք",
+      "օղի",
+      "գարեջուր",
+      "դասարան",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "school",
+      "teacher",
+      "math problem",
+      "alcohol",
+      "vodka",
+      "beer",
+      "classroom",
+      "drag"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "usucchuhin",
+      "khndir",
+      "khmichq",
+      "oghi",
+      "garejur",
+      "dasaran",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Բացեք տետրերը; գրեք; խնդիր",
+      "2 ինտիլիգենտ միջին տարիքի կրթված կին",
+      "հարցը էնա որ թե էտքանից հետո էլ ինչներին էր պետք խմել ևս 2 շիշ գարեջուր"
+    ],
+    "topics": [
+      "school",
+      "drinking"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "video_id": "a3yO4k2Z6Vw",
+  "seq": 602,
+  "kargin_id": 602,
+  "title": "Kargin Haghordum sketch 459 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1279,
+  "gen_sec": 5.1,
+  "prompt_tokens": 1713,
+  "output_tokens": 583,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002605,
+  "annotation": {
+    "title_hy": "Հոկտեմբերյանի կոստյումը և քեռու թաղումը",
+    "title_en": "The Suit from Hoktemberyan",
+    "summary_en": "Two men discuss a borrowed suit that was used for a funeral, while being interrupted by a young girl playing in the park.",
+    "summary_detailed_en": "Set outdoors on a park bench during a day in autumn, two men are engaged in a close and intense conversation. One man compliments the other's item, prompting a discussion about shopping in Hoktemberyan (Armavir). The conversation turns tense when the first man asks about a suit he lent a month ago for a funeral. The second man nonchalantly explains that since he borrowed the suit specifically for his uncle's funeral, they buried the uncle in that very suit, expressing regret over the uncle's death but not the loss of the garment. Throughout the exchange, a young girl wearing a party hat repeatedly interrupts them, asking for permission to play nearby. The men allow her to stay, noting that a character named Hakob isn't around to object. The sketch ends with the girl's playfulness causing a minor disturbance, leading to the frustrated exclamation that she played with something so much she broke it.",
+    "keywords_hy": [
+      "Հոկտեմբերյան",
+      "Արմավիր",
+      "կոստյում",
+      "թաղում",
+      "քեռի",
+      "այգի",
+      "նստարան",
+      "պարտք",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "Hoktemberyan",
+      "Armavir",
+      "suit",
+      "funeral",
+      "uncle",
+      "park bench",
+      "borrowed clothes",
+      "interruption",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "Hoktemberyan",
+      "Armavir",
+      "kostyum",
+      "taghum",
+      "qeri",
+      "aygi",
+      "nstaran",
+      "partq",
+      "humor"
+    ],
+    "catchphrases": [
+      "Արա էնքան խաղաց փչացրեց արա"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "neighbors",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

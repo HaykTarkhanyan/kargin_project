@@ -1,0 +1,67 @@
+{
+  "video_id": "SCeGm1WOxIE",
+  "seq": 413,
+  "kargin_id": 413,
+  "title": "Kargin Haghordum - Voxch aroxch (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1177,
+  "gen_sec": 5.54,
+  "prompt_tokens": 1612,
+  "output_tokens": 602,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002612,
+  "annotation": {
+    "title_hy": "Տնտեսվար Վզգոյի կենացը",
+    "title_en": "Vzgo the Custodian's Toast",
+    "summary_en": "A group of school staff members gather for a drink, where one man's attempt at a poetic toast is repeatedly ignored in favor of a custodian's repetitive catchphrase.",
+    "summary_detailed_en": "The sketch takes place in an apartment living room where four men are gathered around a table spread with a bottle of vodka, shot glasses, and pickled cucumbers. The characters represent the staff of a school, including a physical education teacher (phys-ruk), a shop teacher, and a custodian named Vzgo. One man, wearing a suit and glasses (Grigoryan), attempts to elevate the atmosphere by delivering a sophisticated, poetic toast. He speaks eloquently about the intimate atmosphere and the gathering of different professionals, even quoting the famous Armenian poet Paruyr Sevak. However, his intellectual contribution is completely ignored by the others. The man in the gray zip jacket repeatedly interrupts by urging the custodian to pour more and give a toast. The custodian, Vzgo, who wears a flat cap and sweater, refuses to engage in any complex speech. Every time he is asked to speak, he simply grunts the same brief, repetitive catchphrase: 'Voghj aroghj' (Healthy and well). The humor stems from the sharp contrast between the teacher's flowery rhetoric and the custodian's blunt, two-word toast.",
+    "keywords_hy": [
+      "կենաց",
+      "օղի",
+      "տնտեսվար",
+      "ֆիզռուկ",
+      "դպրոց",
+      "ողջ առողջ",
+      "Պարույր Սևակ"
+    ],
+    "keywords_en": [
+      "toast",
+      "vodka",
+      "custodian",
+      "school staff",
+      "physical education teacher",
+      "drinking session",
+      "poetry"
+    ],
+    "keywords_translit": [
+      "kenats",
+      "oghi",
+      "tntesvar",
+      "fizruk",
+      "dproc",
+      "voghj aroghj",
+      "Paruyr Sevak"
+    ],
+    "catchphrases": [
+      "ֆիզռուկ լցա վզգո կենաց ասա",
+      "ողջ առողջ"
+    ],
+    "topics": [
+      "drinking",
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

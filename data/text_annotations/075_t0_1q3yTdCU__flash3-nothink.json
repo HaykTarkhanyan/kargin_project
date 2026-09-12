@@ -1,0 +1,70 @@
+{
+  "video_id": "t0_1q3yTdCU",
+  "seq": 75,
+  "kargin_id": 75,
+  "title": "Kargin Haghordum sketch 667 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "075_Kargin_Haghordum_sketch_667_Hayko_Mko_t0_1q3yTdCU.hy.json",
+    "visual": true
+  },
+  "input_chars": 2976,
+  "gen_sec": 10.34,
+  "prompt_tokens": 2527,
+  "output_tokens": 632,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003159,
+  "annotation": {
+    "title_hy": "Համակարգչային ռադիոռեզոնանս բժիշկը",
+    "title_en": "The Computer Radio-Resonance Doctor",
+    "summary_en": "A family skeptical of expensive hospitals visits a faith-healer who uses 'foreign methods' and computer beams to miraculously cure a young man in a wheelchair.",
+    "summary_detailed_en": "The sketch begins in a clinic corridor where a family is discussing the exorbitant costs of surgery. A heavy-set relative complains that everyone just wants money: nurses want $20, the ward costs $100, the surgeon wants $300, and the anesthesiologist charges $500—clarifying that while putting someone to sleep only costs $10, the remaining $490 is the fee to actually wake up. They decide to see a new doctor who studied abroad and allegedly lets patients pay what they can. They wheel a young man wearing a red baseball cap and a checkered blanket into a hall. The doctor, a bearded man in a blue shirt and tie, claims his method is based on 'computer radio-resonance.' As visual effects show beams of light emitting from computer monitors, the doctor performs sweeping, faith-healer gestures, counting off stages of the treatment. Despite the young man's initial doubt, the doctor commands him to get up and walk. The sketch ends back in the corridor where the young man is indeed walking, but the cynical relative remains unimpressed, complaining that there are no 'real' doctors anymore because he didn't even bother to check the patient's blood pressure.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "նարկոզ",
+      "սայլակ",
+      "բուժում",
+      "փող",
+      "ռադիոռեզոնանս",
+      "հրաշք"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "anesthesia",
+      "wheelchair",
+      "treatment",
+      "money",
+      "radio-resonance",
+      "miracle cure"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hivandanoc",
+      "narkoz",
+      "saylak",
+      "buzhum",
+      "pogh",
+      "radiorezonans",
+      "hrashq"
+    ],
+    "catchphrases": [
+      "Ստե բժիշկ չկա"
+    ],
+    "topics": [
+      "medical",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

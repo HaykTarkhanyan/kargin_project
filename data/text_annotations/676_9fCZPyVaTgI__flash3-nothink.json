@@ -1,0 +1,70 @@
+{
+  "video_id": "9fCZPyVaTgI",
+  "seq": 676,
+  "kargin_id": 676,
+  "title": "Kargin Haghordum sketch 256 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "676_Kargin_Haghordum_sketch_256_Hayko_Mko_9fCZPyVaTgI.ro.json",
+    "visual": true
+  },
+  "input_chars": 1500,
+  "gen_sec": 4.48,
+  "prompt_tokens": 1767,
+  "output_tokens": 548,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002528,
+  "annotation": {
+    "title_hy": "Ճիշտ կողմնորոշված ամուսինը",
+    "title_en": "The Correctly Oriented Husband",
+    "summary_en": "A wife berates her husband for doing free renovations for friends instead of earning money, while the husband tries to distract his son from homework.",
+    "summary_detailed_en": "The sketch takes place in a domestic living room where a man with a mustache is trying to watch a Real Madrid football match on television. A character played by a male actor in drag, wearing a blonde wig and a red pinafore, stands over him, relentlessly complaining about their financial situation. The wife character mocks the husband for his lack of career ambition, noting that even when he traveled to America and visited Disneyland with ten friends, he ended up doing free renovations for everyone instead of charging wealthy Persians. She claims he has never made a 'correct choice' in his life except for marrying her, a decision she suggests he will soon regret. Amidst this lecture, she denies him coffee. In a humorous reversal of parental roles, the father turns to his son, who is diligently doing homework at the table with a notebook and a trophy nearby, and tells him to stop studying and go play football outside because athletes earn millions, while the wife continues her animated tirade.",
+    "keywords_hy": [
+      "ռեմոնտ",
+      "Դիսնեյլենդ",
+      "ֆուտբոլ",
+      "ընտանիք",
+      "փող",
+      "սուրճ",
+      "հայաթ",
+      "դասեր"
+    ],
+    "keywords_en": [
+      "renovation",
+      "Disneyland",
+      "football",
+      "family",
+      "money",
+      "coffee",
+      "homework",
+      "nagging wife"
+    ],
+    "keywords_translit": [
+      "remont",
+      "Disneyland",
+      "futbol",
+      "entaniq",
+      "pogh",
+      "surch",
+      "hayat",
+      "daser"
+    ],
+    "catchphrases": [
+      "ճիշտ կողմնորոշվես"
+    ],
+    "topics": [
+      "family",
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

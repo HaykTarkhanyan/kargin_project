@@ -1,0 +1,70 @@
+{
+  "video_id": "DNGjblhdcNk",
+  "seq": 610,
+  "kargin_id": 610,
+  "title": "Kargin Haghordum sketch 488 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1537,
+  "gen_sec": 8.29,
+  "prompt_tokens": 1768,
+  "output_tokens": 624,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002756,
+  "annotation": {
+    "title_hy": "Հղի կինը և անհետացած ամուսինը",
+    "title_en": "The Pregnant Wife and the Missing Husband",
+    "summary_en": "A pregnant woman in drag calls the police to report her husband missing, but quickly switches to plotting revenge against him with her unborn child.",
+    "summary_detailed_en": "The sketch begins in a living room where a character in drag, appearing heavily pregnant and wearing a padded red apron and a curly reddish wig, sits next to a television playing old black-and-white film footage. The character is on a corded rotary telephone, speaking with the police in a distressed tone to report that her husband, Shavarsh, has been missing for three days. She provides a description, noting he was wearing a white shirt and black pants. However, as soon as she hangs up, her tone shifts completely. Rubbing her belly, she begins a long monologue addressed to her unborn child, promising that they will grow up to become the Minister of Trade to raise vodka prices so high the 'stingy drunkard' father can't afford it, or the Minister of Justice to pass laws requiring wives' permission to buy alcohol. She even considers the child becoming a boxer to physically discipline the father. The scene shifts to a hallway where the 'missing' husband, a man with a mustache in a white shirt, suddenly appears. The wife immediately tells the child to pretend the father is just a 'sister' as the man embraces her, revealing he was simply out drinking.",
+    "keywords_hy": [
+      "հղի կին",
+      "հարբեցող ամուսին",
+      "ոստիկանություն",
+      "զանգ",
+      "նախարար",
+      "խմիչք",
+      "կատակերգություն",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "pregnant wife",
+      "drunk husband",
+      "police call",
+      "minister",
+      "alcohol prices",
+      "revenge",
+      "drag comedy",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "hghi kin",
+      "harbecox amusin",
+      "vostikanutyun",
+      "zang",
+      "naxarar",
+      "xmichq",
+      "katakergutyun",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "կասես քուրս ես"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "police"
+    ],
+    "humor_type": [
+      "character",
+      "situational"
+    ]
+  }
+}

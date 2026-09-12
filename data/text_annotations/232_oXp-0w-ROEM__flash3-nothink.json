@@ -1,0 +1,67 @@
+{
+  "video_id": "oXp-0w-ROEM",
+  "seq": 232,
+  "kargin_id": 232,
+  "title": "Kargin Haghordum sketch 314 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "232_Kargin_Haghordum_sketch_314_Hayko_Mko_oXp-0w-ROEM.hy.json",
+    "visual": true
+  },
+  "input_chars": 3628,
+  "gen_sec": 13.68,
+  "prompt_tokens": 3045,
+  "output_tokens": 611,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003355,
+  "annotation": {
+    "title_hy": "Երկար մազեր և մեքենա",
+    "title_en": "Long Hair and the Car",
+    "summary_en": "A father refuses to lend his long-haired son the car until he gets a haircut, leading to a biblical argument about personal grooming.",
+    "summary_detailed_en": "The sketch takes place in an apartment kitchen and living room. A father, dressed in a suit with a mustache, expresses his deep frustration to his wife (a housewife in an apron) about their son's long hair. He complains that he is ashamed in front of his friends and has had to invent various excuses, even resorting to claiming his son is actually a girl to justify the length. When the son, a long-haired guitarist, enters and asks to borrow the car to go to karaoke with friends, the father strictly refuses, telling him he won't see the car until he gets a haircut. The mother intervenes, worrying that the sensitive teenager might harm himself due to the conflict, and urges the father to go reconcile with him. In the next scene, the father finds the son reading the Bible. The son points out that Jesus Christ also had long hair and never cut it. The father quickly counters with a witty punchline: if the son continues reading, he will see that Jesus also went everywhere on foot.",
+    "keywords_hy": [
+      "երկար մազեր",
+      "հայր և որդի",
+      "մեքենա",
+      "աստվածաշունչ",
+      "վարսավիր",
+      "կարաոկե",
+      "խայտառակ լինել"
+    ],
+    "keywords_en": [
+      "long hair",
+      "father and son",
+      "car request",
+      "bible",
+      "haircut",
+      "karaoke",
+      "embarrassment"
+    ],
+    "keywords_translit": [
+      "erkar mazer",
+      "hayr ev ordi",
+      "mashna",
+      "astvatsashunch",
+      "varsavir",
+      "karaoke",
+      "khaytarak"
+    ],
+    "catchphrases": [
+      "ախպեր, դու սխալ ես հիշում, իմը տղա չի աղջիկա,աղջկա մոտ պտի երկար մազեր ըլնի, խի պտի կդրի որ"
+    ],
+    "topics": [
+      "family",
+      "transport",
+      "religion"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

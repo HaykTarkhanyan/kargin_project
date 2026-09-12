@@ -1,0 +1,68 @@
+{
+  "video_id": "e_oaM_OaTTU",
+  "seq": 28,
+  "kargin_id": 28,
+  "title": "Kargin Haghordum sketch 335 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "028_Kargin_Haghordum_sketch_335_Hayko_Mko_e_oaM_OaTTU.ar.json",
+    "visual": true
+  },
+  "input_chars": 1542,
+  "gen_sec": 23.15,
+  "prompt_tokens": 1759,
+  "output_tokens": 612,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002716,
+  "annotation": {
+    "title_hy": "Ջութակի պատյանով թալան",
+    "title_en": "Violin Case Bank Heist",
+    "summary_en": "A student arrives at his music lesson only to reveal that his father has taken his violin to rob a bank, leaving the boy with the father's weapon.",
+    "summary_detailed_en": "The sketch begins with a young boy (Gevorik) in a formal suit and sunglasses leaving home, telling his father he is heading to his Tuesday violin lesson. The scene shifts to a music classroom featuring a chalkboard with musical notes and a piano. The eccentric teacher, dressed in a corduroy jacket, reprimands Gevorik for entering without knocking, noting that such behavior would lead to being buried alive in the Middle Ages. The teacher delivers a dramatic monologue about the soul of music, using a bodybuilding magazine as an unexpected prop while explaining that music is not just random sounds but love. When he finally instructs the boy to open his violin case for the lesson, the boy reveals the contents to the shocked instructor. Instead of a violin, the case contains a weapon. The boy matter-of-factly explains the mix-up, stating that his father is currently robbing a bank using the violin, while the boy is left with the tools for the heist at his music lesson.",
+    "keywords_hy": [
+      "ջութակ",
+      "երաժշտության դաս",
+      "ուսուցիչ",
+      "բանկի թալան",
+      "գործիք",
+      "կատակերգություն",
+      "Գևորիկ"
+    ],
+    "keywords_en": [
+      "violin",
+      "music lesson",
+      "teacher",
+      "bank robbery",
+      "violin case",
+      "comedy sketch",
+      "student"
+    ],
+    "keywords_translit": [
+      "jutak",
+      "erazhshtutyan das",
+      "usucich",
+      "banki talan",
+      "gorciq",
+      "katakergutyun",
+      "Gevorik"
+    ],
+    "catchphrases": [
+      "Գևորիկ ես քեզ բազմիցս զգուշացրել եմ որ այս լսարան առանց թակելու չենք մտնում",
+      "սա նշանակում է որ պապան հիմա բանկը ջութակով է թալանում"
+    ],
+    "topics": [
+      "school",
+      "crime",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

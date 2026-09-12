@@ -1,0 +1,76 @@
+{
+  "video_id": "-VwDzvytdbc",
+  "seq": 298,
+  "kargin_id": 298,
+  "title": "Kargin Haghordum sketch 417 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "298_Kargin_Haghordum_sketch_417_Hayko_Mko_-VwDzvytdbc.ro.json",
+    "visual": true
+  },
+  "input_chars": 2756,
+  "gen_sec": 10.16,
+  "prompt_tokens": 2492,
+  "output_tokens": 647,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003187,
+  "annotation": {
+    "title_hy": "Մորգի արձակուրդը և կոնսիլիումը",
+    "title_en": "Morgue Vacation and Consultation",
+    "summary_en": "A group of doctors engages in a highly technical and urgent medical consultation, only for the morgue director to reveal his selfish motivation for the timeline.",
+    "summary_detailed_en": "The sketch begins in a hospital hallway where a doctor arrives late, frantically worrying about a medical consultation ('consilium') that started twenty minutes ago. He speaks with a staff member before entering a meeting room. Inside, the chief physician, a man with a mustache and glasses, reprimands him for the delay. The late doctor, who works in the morgue, excuses himself by describing a horrific car accident where three bodies were so mangled they became a 'human puzzle.' The chief physician dismisses this, claiming he even left a surgery mid-way to be on time. The doctors then debate a complex case involving a patient with kidney failure, heart insufficiency, low lung capacity, and high blood sugar who needs a liver transplant. They argue over medical priorities like beta-blockers and nitrogen levels. The tension peaks as they struggle to find a surgical window, until the morgue doctor insists they finish everything by the 20th of the month. The punchline reveals his urgency isn't medical: he is closing the morgue doors to go on vacation.",
+    "keywords_hy": [
+      "բժիշկներ",
+      "հիվանդանոց",
+      "կոնսիլիում",
+      "մորգ",
+      "դիահերձարան",
+      "վիրահատություն",
+      "արձակուրդ",
+      "փազլ",
+      "շաքար",
+      "երիկամ"
+    ],
+    "keywords_en": [
+      "doctors",
+      "hospital",
+      "medical consultation",
+      "morgue",
+      "surgery",
+      "vacation",
+      "human puzzle",
+      "pathologist",
+      "chief physician",
+      "kidney failure"
+    ],
+    "keywords_translit": [
+      "bjishkner",
+      "hivandanoc",
+      "konsilium",
+      "morg",
+      "diaherdzaran",
+      "virahatutyun",
+      "ardzakurd",
+      "puzzle",
+      "shaqar",
+      "erikam"
+    ],
+    "catchphrases": [
+      "մորգիս դռները փակում եմ, էթում եմ արձակուրդ։"
+    ],
+    "topics": [
+      "medical",
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

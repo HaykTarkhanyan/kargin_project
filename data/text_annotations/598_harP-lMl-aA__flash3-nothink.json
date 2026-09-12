@@ -1,0 +1,69 @@
+{
+  "video_id": "harP-lMl-aA",
+  "seq": 598,
+  "kargin_id": 598,
+  "title": "Kargin Haghordum sketch 449 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "598_Kargin_Haghordum_sketch_449_Hayko_Mko_harP-lMl-aA.ru.json",
+    "visual": true
+  },
+  "input_chars": 2500,
+  "gen_sec": 6.11,
+  "prompt_tokens": 1952,
+  "output_tokens": 534,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002578,
+  "annotation": {
+    "title_hy": "Խումար և թութակ",
+    "title_en": "Hangover and the Parrot",
+    "summary_en": "A severely hungover man wakes up after a heavy drinking session and interacts with his pet parrot while trying to recover in his apartment.",
+    "summary_detailed_en": "The sketch opens in an apartment bedroom where a man wakes up in a state of extreme distress, suffering from a severe hangover. He is sprawled out on a table surrounded by empty vodka bottles and messy remains of a party. The man, looking disheveled and barely conscious, stumbles through the apartment toward the kitchen. The sequence emphasizes his physical struggle to move and maintain balance. In the kitchen, he encounters his pet parrot housed in a cage. Throughout the scene, the man repeatedly sings or mutters the lyrics to the Russian classic song 'Vashe Blagorodie, Gospozha Razluka,' seemingly stuck on a loop as his mind tries to function. He attempts to tend to the bird and himself, eventually sitting down at a kitchen table covered with a checkered tablecloth. He tries to soothe his condition with water and snacks, including an onion and items from the refrigerator, while continuing his melancholic, drunken singing. The sketch concludes with the exhausted man remarking on how long and difficult the day has been.",
+    "keywords_hy": [
+      "խումար",
+      "օղի",
+      "թութակ",
+      "խմած",
+      "առավոտ",
+      "երգել",
+      "հարբեցող",
+      "տուն"
+    ],
+    "keywords_en": [
+      "hangover",
+      "vodka",
+      "parrot",
+      "drunk",
+      "morning",
+      "singing",
+      "alcoholic",
+      "apartment"
+    ],
+    "keywords_translit": [
+      "khumar",
+      "oghi",
+      "tutan",
+      "khmats",
+      "aravot",
+      "ergel",
+      "harbetsogh",
+      "tun"
+    ],
+    "catchphrases": [
+      "Շատ երկար օր էր շատ"
+    ],
+    "topics": [
+      "drinking",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "vRC3QrYvYrI",
+  "seq": 617,
+  "kargin_id": 617,
+  "title": "Kargin Haghordum sketch 499 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "617_Kargin_Haghordum_sketch_499_Hayko_Mko_vRC3QrYvYrI.hy.json",
+    "visual": true
+  },
+  "input_chars": 3403,
+  "gen_sec": 4.88,
+  "prompt_tokens": 2885,
+  "output_tokens": 579,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00318,
+  "annotation": {
+    "title_hy": "Ռոք աստղը և հարկային տեսուչը",
+    "title_en": "The Rock Star and the Tax Inspector",
+    "summary_en": "A rock star brags about his sold-out concerts to a man he believes is a fan, only to discover the man is actually from the tax office.",
+    "summary_detailed_en": "The sketch begins with a long-haired rock star wearing a red headband performing energetically on a theater stage with an electric guitar. After the show, he retreats to a backstage dressing room where he hangs his guitar and admires himself in the mirror. A man wearing a shirt and tie, carrying a small recorder, enters and introduces himself as a fan who wants to ask a couple of questions. The fan asks about the low ticket sales for today's concert, claiming only 10% were sold. The boastful singer corrects him, lying that the show was 100% sold out and they even sold 1,000 standing-room tickets. When the visitor cites low numbers for yesterday and the day before, the singer continues to exaggerate, claiming they sold tickets for lying-down spots and even spots in mid-air to double the hall's capacity. The atmosphere shifts instantly when the visitor reveals he is not actually a fan, but a tax inspector investigating their revenue. The singer is left stunned as his own boasts provide evidence of tax evasion.",
+    "keywords_hy": [
+      "ռոք աստղ",
+      "հարկային",
+      "համերգ",
+      "տոմսեր",
+      "խաբեբա",
+      "երաժիշտ",
+      "հարցազրույց"
+    ],
+    "keywords_en": [
+      "rock star",
+      "tax inspector",
+      "concert",
+      "tickets",
+      "sold out",
+      "musician",
+      "interview"
+    ],
+    "keywords_translit": [
+      "roq astgh",
+      "harkayin",
+      "hamerg",
+      "tomser",
+      "khabeba",
+      "erazhisht",
+      "hartsazruyts"
+    ],
+    "catchphrases": [
+      "ես հարկայինի աշխատող եմ"
+    ],
+    "topics": [
+      "media_showbiz",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

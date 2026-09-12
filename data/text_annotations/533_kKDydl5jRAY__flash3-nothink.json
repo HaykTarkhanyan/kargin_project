@@ -1,0 +1,74 @@
+{
+  "video_id": "kKDydl5jRAY",
+  "seq": 533,
+  "kargin_id": 533,
+  "title": "Kargin Haghordum sketch 167 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "533_Kargin_Haghordum_sketch_167_Hayko_Mko_kKDydl5jRAY.hy.json",
+    "visual": true
+  },
+  "input_chars": 2498,
+  "gen_sec": 5.52,
+  "prompt_tokens": 2419,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003178,
+  "annotation": {
+    "title_hy": "Կորյունի հոգեբուժարանի բեմադրությունը",
+    "title_en": "Koryun's Hospital Performance",
+    "summary_en": "In a psychiatric hospital, patients try to impress a doctor with a performance called 'Popo and Sour Cream' before a delusional man insists he is a corpse.",
+    "summary_detailed_en": "The sketch takes place in a psychiatric hospital ward where patients dressed in pajamas and white caps are interacting. Two patients approach an orderly or doctor, pleading with him to watch their rehearsed theatrical performance titled 'Popo and Sour Cream' (Popo u Smetan). Despite the doctor's initial reluctance, they perform a short, chaotic scene involving a character named Koryun. The scene quickly devolves into a physical scuffle where patients are dragged across the floor. Later, the doctor sits across from Koryun, a patient who is convinced he is a corpse. When the doctor points out that corpses cannot talk, Koryun claims the doctor is simply speaking to his soul and even pretends to be transparent. To prove he is alive, the doctor asks if corpses bleed; Koryun correctly answers no. The doctor then pricks Koryun's finger with a needle. Seeing his own blood, Koryun does not realize he is alive, but instead confidently concludes that he was wrong and that corpses actually do have blood circulation.",
+    "keywords_hy": [
+      "հոգեբուժարան",
+      "բժիշկ",
+      "հիվանդ",
+      "դիակ",
+      "արյուն",
+      "ներկայացում",
+      "Կորյուն",
+      "խենթանոց",
+      "ծաղկազմակերպեմ"
+    ],
+    "keywords_en": [
+      "psychiatric hospital",
+      "doctor",
+      "patient",
+      "corpse",
+      "blood",
+      "performance",
+      "insane asylum",
+      "delusional",
+      "medical humor"
+    ],
+    "keywords_translit": [
+      "hogebujaran",
+      "bzhishk",
+      "hivand",
+      "diak",
+      "aryun",
+      "nerkayacum",
+      "Koryun",
+      "xentanoc",
+      "tsaghkazmakerpem"
+    ],
+    "catchphrases": [
+      "Պատիվ պատի հանգիստ",
+      "Փաստորեն ես սխալվում էի բժիշկ: Դիակի մեջ արյուն հոսում է:"
+    ],
+    "topics": [
+      "medical",
+      "bureaucracy",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

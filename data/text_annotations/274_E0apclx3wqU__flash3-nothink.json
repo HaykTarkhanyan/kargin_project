@@ -1,0 +1,72 @@
+{
+  "video_id": "E0apclx3wqU",
+  "seq": 274,
+  "kargin_id": 274,
+  "title": "Kargin Haghordum sketch 227 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "274_Kargin_Haghordum_sketch_227_Hayko_Mko_E0apclx3wqU.hy.json",
+    "visual": true
+  },
+  "input_chars": 6845,
+  "gen_sec": 16.51,
+  "prompt_tokens": 4806,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.004332,
+  "annotation": {
+    "title_hy": "Խոստովանություն և Շնություն",
+    "title_en": "Confession and Adultery",
+    "summary_en": "A sinner refuses to name the married woman he slept with during confession, only to realize the priest is providing a list of new potential targets.",
+    "summary_detailed_en": "The sketch takes place in a village setting where a young man approaches a priest near an old stone church to seek absolution for a specific sin: he has committed adultery with a married woman. The priest, played with comedic authority, insists on knowing the woman's identity to grant forgiveness. When the sinner repeatedly refuses to name her out of loyalty, the priest begins guessing local candidates, describing them in vivid, scandalous detail—mentioning the tractor driver's young wife, the veterinarian's sister, and the village head's provocative wife, Sergine. The sinner denies involvement with any of them. Frustrated, the priest kicks him out without absolution. However, the man leaves in high spirits. When his friend asks why he is happy despite being denied forgiveness, the man reveals his ulterior motive: by refusing to talk, he successfully tricked the priest into giving him a verified list of all the most 'available' and 'unfaithful' women in the village for his future exploits. The sketch concludes with him celebrating his new 'address list.'",
+    "keywords_hy": [
+      "Տեր Հայր",
+      "խոստովանություն",
+      "մեղքերի թողություն",
+      "շնություն",
+      "գյուղի կյանք",
+      "քահանա",
+      "ծաղր",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "Priest",
+      "confession",
+      "absolution",
+      "adultery",
+      "village life",
+      "church",
+      "sinner",
+      "infidelity"
+    ],
+    "keywords_translit": [
+      "Ter Hayr",
+      "xostovanutyun",
+      "meghqeri toghutyun",
+      "shnutyun",
+      "gyughi kyanq",
+      "qahana",
+      "tsaghr",
+      "humor"
+    ],
+    "catchphrases": [
+      "Տեր Հայր ջան, այս անգամ լրիվ ուրիշ կլասի մեղք եմ գործել",
+      "Անունը ասա՛:",
+      "հատ անպենց նոր հասցե եմ իմացել"
+    ],
+    "topics": [
+      "religion",
+      "village",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

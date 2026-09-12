@@ -1,0 +1,68 @@
+{
+  "video_id": "wzPFKJHpNMs",
+  "seq": 261,
+  "kargin_id": 261,
+  "title": "Kargin Haghordum sketch 568 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "261_Kargin_Haghordum_sketch_568_Hayko_Mko_wzPFKJHpNMs.hy.json",
+    "visual": true
+  },
+  "input_chars": 1444,
+  "gen_sec": 12.05,
+  "prompt_tokens": 1787,
+  "output_tokens": 579,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002631,
+  "annotation": {
+    "title_hy": "Երկրորդ Կնոջ Թաղումը",
+    "title_en": "Second Wife's Funeral",
+    "summary_en": "While attending a funeral procession, a man is shocked to learn his friend was married a second time and switches from mourning to congratulations.",
+    "summary_detailed_en": "The sketch takes place outdoors during a funeral procession between large apartment blocks. A large crowd of mourners dressed in black follows a hearse through the courtyard. A man in a striped shirt approaches one of the mourners, Seroj, who is wearing sunglasses and looks somber. The man explains he was just passing by and stopped to see what happened after noticing the crowd. When Seroj sadly reveals that they are burying his second wife, the man is taken completely by surprise. Instead of maintaining his condolences, he becomes genuinely excited and delighted by the news of a second marriage he didn't know about. He immediately switches his tone from grief to celebration, shouting congratulations ('Shnorhavor!'), telling his friend his 'eyes are bright' (a traditional Armenian congratulatory phrase), and embracing the news as a wonderful surprise, completely ignoring the fact that they are currently at a funeral.",
+    "keywords_hy": [
+      "թաղում",
+      "ցավակցություն",
+      "պսակվել",
+      "երկրորդ կին",
+      "շնորհավոր",
+      "հուղարկավորություն",
+      "սուգ"
+    ],
+    "keywords_en": [
+      "funeral",
+      "condolences",
+      "second wife",
+      "wedding anniversary",
+      "mourning",
+      "congratulations",
+      "procession"
+    ],
+    "keywords_translit": [
+      "taghum",
+      "tsavaktsutyun",
+      "psakvel",
+      "erkrord kin",
+      "shnorhavor",
+      "hugharkavorutyun",
+      "sug"
+    ],
+    "catchphrases": [
+      "երկրորդ կնգաս եմ թաղում",
+      "ոնց դու երկրորդ անգամ էիր պսակվել",
+      "ի բա ես չգիտեի շնորհավոր ցավդ տանեմ"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

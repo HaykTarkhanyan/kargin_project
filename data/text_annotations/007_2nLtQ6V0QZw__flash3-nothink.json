@@ -1,0 +1,69 @@
+{
+  "video_id": "2nLtQ6V0QZw",
+  "seq": 7,
+  "kargin_id": 7,
+  "title": "Kargin Haghordum sketch 281 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "007_Kargin_Haghordum_sketch_281_Hayko_Mko_2nLtQ6V0QZw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1602,
+  "gen_sec": 25.99,
+  "prompt_tokens": 1845,
+  "output_tokens": 444,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002254,
+  "annotation": {
+    "title_hy": "Հիտլերը և էժան տեխնիկան",
+    "title_en": "Hitler and Cheap Equipment",
+    "summary_en": "A parody of a Nazi war room where officers discuss military strategy and their preference for shopping in Dubai over France.",
+    "summary_detailed_en": "The sketch is set in a WWII-parody Nazi war room, decorated with swastika flags, portraits, and a large campaign map. Two uniformed officers, including a caricature of Hitler, discuss their failed attempts to take Moscow. They admit that while the city is surrounded, they lack the necessary weaponry and technology to finish the job. When one officer suggests sourcing equipment from France for its quality, the leader rejects this, proposing they instead buy the same technology from Dubai at cheaper prices. The dialogue is peppered with mock-German phrases and broken Armenian with Russian loanwords. They briefly mention plans to party with Polish girls in the evening. The sketch ends with a satirical twist regarding secrecy, as they realize a Russian spy has been present the entire time, but they decide not to arrest him because it would be pointless as he will just be released anyway.",
+    "keywords_hy": [
+      "Հիտլեր",
+      "նացիստներ",
+      "քարտեզ",
+      "պատերազմ",
+      "Դուբայ",
+      "լրտես",
+      "զենք",
+      "զավեշտ"
+    ],
+    "keywords_en": [
+      "Hitler",
+      "Nazis",
+      "war room",
+      "campaign map",
+      "Dubai",
+      "spy",
+      "weapons",
+      "parody"
+    ],
+    "keywords_translit": [
+      "Hitler",
+      "nacistner",
+      "qartez",
+      "paterazm",
+      "Dubai",
+      "lrtes",
+      "zenq",
+      "zavesht"
+    ],
+    "catchphrases": [
+      "Իմ երազում ես տեսնել ինչպես մաֆի ուղեղ չափախել ինձ",
+      "Մենք այս երեկո կայֆավատ լինել"
+    ],
+    "topics": [
+      "other"
+    ],
+    "humor_type": [
+      "satire",
+      "absurd"
+    ]
+  }
+}

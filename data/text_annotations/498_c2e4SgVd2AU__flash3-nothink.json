@@ -1,0 +1,72 @@
+{
+  "video_id": "c2e4SgVd2AU",
+  "seq": 498,
+  "kargin_id": 498,
+  "title": "Kargin Haghordum sketch 126 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "498_Kargin_Haghordum_sketch_126_Hayko_Mko_c2e4SgVd2AU.hi.json",
+    "visual": true
+  },
+  "input_chars": 2504,
+  "gen_sec": 6.75,
+  "prompt_tokens": 2368,
+  "output_tokens": 709,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003311,
+  "annotation": {
+    "title_hy": "Ստամոքսի վիրահատություն և կլիզմա",
+    "title_en": "Stomach Surgery and Enema Diet",
+    "summary_en": "A doctor informs a patient that after losing three-quarters of his stomach, he must be fed exclusively via enemas, leading to a literal interpretation of 'chewing'.",
+    "summary_detailed_en": "In a hospital doctor's office, a physician (in a white coat) consults with his patient, Armen, and Armen's wife. The doctor explains that Armen has had three-quarters of his stomach removed and is recovering well, looking 'like a cucumber'. However, he delivers strict post-operative instructions: for the next month, Armen cannot eat through his mouth to avoid rupturing the internal stitches. Instead, his wife must prepare semolina porridge (manaya kasha) and later potato puree or rice, and administer these meals using an enema through the rectum. The doctor warns that any oral consumption could lead to internal bleeding or death. One month later, Armen returns for a follow-up, looking healthy with rosy cheeks. The doctor is impressed but notices Armen is strangely wiggling his backside. When asked why, Armen reveals the absurdity of his new physical reality: he just saw a friend who offered him chewing gum, and since he can only 'eat' from the other end, he is 'chewing' it with his buttocks.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "ստամոքս",
+      "վիրահատություն",
+      "կլիզմա",
+      "մանայա կաշա",
+      "ծամոն",
+      "դիետա",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "stomach surgery",
+      "enema",
+      "semolina porridge",
+      "chewing gum",
+      "diet instructions",
+      "medical humor",
+      "recovery"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hivandanots",
+      "stamoqs",
+      "virahatutyun",
+      "klizma",
+      "manaya kasha",
+      "tsamon",
+      "dieta",
+      "katak"
+    ],
+    "catchphrases": [
+      "ոնց ես քեզ զգում լավ եմ Ռուբեն Տիգրանովիչ էս մի ամսվա մեջ լավ ոտի կանգնա որնց էիր ասում կակ ագուռչիկ բա քամակդ ինչի ես տենց շարժում հա էսի հեչ նոր ընգերոչս տեսա ծամոն հուրասիրեց"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

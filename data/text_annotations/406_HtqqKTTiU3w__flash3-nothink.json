@@ -1,0 +1,68 @@
+{
+  "video_id": "HtqqKTTiU3w",
+  "seq": 406,
+  "kargin_id": 406,
+  "title": "Kargin Haghordum - Porchn u gaishnik@ (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "406_Kargin_Haghordum_-_Porchn_u_gaishnik@_Hayko_Mko_HtqqKTTiU3w.en.json",
+    "visual": true
+  },
+  "input_chars": 2097,
+  "gen_sec": 7.35,
+  "prompt_tokens": 1949,
+  "output_tokens": 690,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003044,
+  "annotation": {
+    "title_hy": "Գայիշնիկ Սողոմոնյանն ու պոռճերը",
+    "title_en": "Sergeant Soghomonyan and the Spoiled Brats",
+    "summary_en": "A strict rural traffic officer intimidates two spoiled city youths, schooling them on respect and preventing them from bragging about resisting the law.",
+    "summary_detailed_en": "The sketch takes place on a dusty rural road lined with oil derricks. A traffic police officer, Sergeant Soghomonyan, wearing a formal police cap and sunglasses, has pulled over two young men dressed in tracksuits and racing-style shirts. The officer delivers a harsh lecture to the driver, mocking the 'city tricks' and 'spoiled brat' (porch) behavior common in the capital. He derides the way these youths usually call their influential fathers or aunts to get out of trouble, asserting that such nepotism does not work in his district. He physically strikes the driver, explaining that in his jurisdiction, a driver must have their documents ready to greet the officer properly. When the passenger asks why he was also hit, the Sergeant explains he hit him so that when they return to the city, the passenger won't brag to the driver about how he would have fought back if he were in his shoes. After the intimidation, the officer abruptly bids them a 'pleasant journey' and walks away.",
+    "keywords_hy": [
+      "գայիշնիկ",
+      "ոստիկանություն",
+      "սերժանտ Սողոմոնյան",
+      "լակոտ",
+      "պոռճ",
+      "ճանապարհային ոստիկան",
+      "գյուղական ճանապարհ"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "police officer",
+      "spoiled youth",
+      "Sergeant Soghomonyan",
+      "rural road",
+      "bribery attempt",
+      "intimidation"
+    ],
+    "keywords_translit": [
+      "gaishnik",
+      "vostikanutyun",
+      "serjant Soghomonyan",
+      "lakot",
+      "porch",
+      "janaparhayin vostikan",
+      "gyughakan janaparh"
+    ],
+    "catchphrases": [
+      "յանի նենց ուզում ես ասես սերժանտ Սողոմոնյան դեմի ս-երը բռնցրել ես հա",
+      "այ չումո",
+      "իրան էլ խփում եմ նրա համար որ գնաք քաղաք քեզ չասի էդ գայշնիկը ինձ խփեր գլուխը կջարդեյի էղավ բարի ճանապարհ"
+    ],
+    "topics": [
+      "police",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "video_id": "-jCLqYZVTFQ",
+  "seq": 682,
+  "kargin_id": 682,
+  "title": "Kargin Haghordum sketch 262 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "682_Kargin_Haghordum_sketch_262_Hayko_Mko_-jCLqYZVTFQ.hy.json",
+    "visual": true
+  },
+  "input_chars": 1640,
+  "gen_sec": 5.05,
+  "prompt_tokens": 1812,
+  "output_tokens": 654,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002868,
+  "annotation": {
+    "title_hy": "Ամուսնության առաջարկ և ֆուտբոլ",
+    "title_en": "Marriage Proposal and Football",
+    "summary_en": "A man makes a nervous marriage proposal at a restaurant, only for the scene to shift to his casual life watching football with a friend.",
+    "summary_detailed_en": "The sketch begins in a romantic restaurant setting where a man in a suit is on a date with a woman wearing a sequined top. Amidst candles and cocktail glasses, the man struggles through a nervous speech, mentioning how they grew up, studied, and served in the army together. He eventually presents a ring box and asks her to be his 'permanent, main wife.' The woman is stunned, comparing the sudden proposal to wanting to play for Barcelona but getting an offer from Shakhtar, and asks for time to think. The scene abruptly cuts to an apartment at night, where the same man, now wearing a football jersey, is drinking beer on a couch with a friend in an orange shirt. They are intensely focused on a Real Madrid vs. Barcelona match on television. When the doorbell rings, the woman from the restaurant appears, announcing she has made her decision and accepts the proposal. The man, however, is now completely preoccupied with the game and annoyed by the interruption during the match.",
+    "keywords_hy": [
+      "ամուսնության առաջարկ",
+      "մատանի",
+      "ռեստորան",
+      "ֆուտբոլ",
+      "Բարսելոնա",
+      "Ռեալ Մադրիդ",
+      "կին",
+      "ընկերներ",
+      "գարեջուր"
+    ],
+    "keywords_en": [
+      "marriage proposal",
+      "engagement ring",
+      "restaurant date",
+      "football match",
+      "Barcelona",
+      "Real Madrid",
+      "soccer",
+      "beer",
+      "friends"
+    ],
+    "keywords_translit": [
+      "amusnutyan arajark",
+      "matani",
+      "restoran",
+      "futbol",
+      "Barselona",
+      "Real Madrid",
+      "kin",
+      "ynkerner",
+      "garejur"
+    ],
+    "catchphrases": [
+      "ես...մտածումեյի...որ...էս ամեն ինչը շատ հեշտ կանցնի,բայց էս ամեն ինչը շատ դժվար ա։",
+      "դու ինձ առաջարկություն ես անում",
+      "Ռեալ Բարսելոն է սկսել"
+    ],
+    "topics": [
+      "romance",
+      "sports",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

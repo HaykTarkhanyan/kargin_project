@@ -1,0 +1,72 @@
+{
+  "video_id": "yzBeTsyR8ys",
+  "seq": 499,
+  "kargin_id": 499,
+  "title": "Kargin Haghordum sketch 127 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "499_Kargin_Haghordum_sketch_127_Hayko_Mko_yzBeTsyR8ys.en.json",
+    "visual": true
+  },
+  "input_chars": 3585,
+  "gen_sec": 4.87,
+  "prompt_tokens": 2471,
+  "output_tokens": 648,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00318,
+  "annotation": {
+    "title_hy": "Խմբակային սպանության չափ պլան",
+    "title_en": "A Massive Amount of Weed",
+    "summary_en": "A group of friends celebrates a large purchase of marijuana in a rural field but begins to panic about getting caught at a police checkpoint on their way back to Yerevan.",
+    "summary_detailed_en": "The sketch takes place in a dry, rural field next to a small brick shed during the day. A group of men, dressed in leather jackets, caps, and sunglasses, are gathered to finalize a deal for a large quantity of marijuana. One character boasts about the quality of the 'goods,' claiming he watered the plants with milk every day. While most of the group is celebratory and laughing, one friend becomes increasingly anxious and paranoid. He ruins the mood by pointing out the logistical dangers: they are six people in one car, which will surely be pulled over at the police checkpoint (GAI post) on the way to Yerevan. He emphasizes that they are carrying so much drugs that the police will treat it like a 'mass murder' charge. To avoid being spotted as an over-capacity vehicle, they jokingly suggest one person must crouch down in the car. The sketch ends with the visual of a police Lada car arriving and an officer standing by the road, signaling the group's inevitable trouble.",
+    "keywords_hy": [
+      "պլան",
+      "խոտ",
+      "կաշվե կուրտկա",
+      "գայի պոստ",
+      "դեգուստատոր",
+      "տարմազիտ",
+      "քուչա",
+      "երրորդ դեմք"
+    ],
+    "keywords_en": [
+      "marijuana",
+      "leather jacket",
+      "police checkpoint",
+      "degustator",
+      "rural field",
+      "smuggling",
+      "group of friends",
+      "paranoia"
+    ],
+    "keywords_translit": [
+      "plan",
+      "khot",
+      "kashve kurtka",
+      "gayi post",
+      "degustator",
+      "tarmazit",
+      "kucha",
+      "errord demq"
+    ],
+    "catchphrases": [
+      "մոտներս խմբակային սպանության չափ պլան կա ընգեր ջան",
+      "արա լավ էս ով ես դու եքա ուրախությունը դարձրիր էքնաու",
+      "գային որ տեսավ մեզնից մեկը կկզի"
+    ],
+    "topics": [
+      "crime",
+      "police",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

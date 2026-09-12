@@ -1,0 +1,74 @@
+{
+  "video_id": "TsRukoHsytQ",
+  "seq": 180,
+  "kargin_id": 180,
+  "title": "Kargin Haghordum sketch 360 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2569,
+  "gen_sec": 21.65,
+  "prompt_tokens": 2328,
+  "output_tokens": 638,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003078,
+  "annotation": {
+    "title_hy": "Գյուղսովետի Ժողով",
+    "title_en": "Village Council Meeting",
+    "summary_en": "A village council chairman leads a meeting about building a school and safety precautions, only to reveal a disastrous food shortage with a darkly comedic silver lining.",
+    "summary_detailed_en": "The sketch is set in a Soviet-style village meeting hall, decorated with a red banner featuring Lenin's portrait. A mustached chairman and a female secretary (wearing a traditional headscarf) sit at the front table, presiding over an audience of villagers. The chairman announces that the village council has allocated funds to build its first school. He insists on strict safety protocols, demanding that every villager wear a construction helmet near the site. A villager in a green jacket argues that fate determines one's life, not helmets, prompting the chairman to tell a story about a girl who wore a helmet and survived a falling brick, though she has been laughing uncontrollably ever since. After dismissing the school discussion because construction won't start for a year, the chairman moves to current affairs. He asks whether they want the good news or the bad news first. The bad news is that the wheat in the barns has rotted, meaning the villagers will have to eat manure (manure/dung) all winter. The 'good' news is that they have plenty of it.",
+    "keywords_hy": [
+      "գյուղսովետ",
+      "ժողով",
+      "շինարարություն",
+      "կասկա",
+      "կիռպիչ",
+      "ցորեն",
+      "թրիք",
+      "Լենին",
+      "գյուղացիներ"
+    ],
+    "keywords_en": [
+      "village council",
+      "meeting",
+      "construction",
+      "safety helmet",
+      "brick",
+      "wheat",
+      "manure",
+      "Lenin",
+      "villagers"
+    ],
+    "keywords_translit": [
+      "gyughsovet",
+      "joghov",
+      "shinararutyun",
+      "kaska",
+      "kirpich",
+      "tsoren",
+      "triq",
+      "Lenin",
+      "gyughatsiner"
+    ],
+    "catchphrases": [
+      "ա գյուդում եմ ես էտ աղջկան էդի մինչև հիմա խնդումա",
+      "թրիք լիքը ունենք"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy",
+      "school"
+    ],
+    "humor_type": [
+      "satire",
+      "dark"
+    ]
+  }
+}

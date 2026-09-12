@@ -1,0 +1,73 @@
+{
+  "video_id": "EJbI_w-Fktg",
+  "seq": 144,
+  "kargin_id": 144,
+  "title": "Kargin Haghordum sketch 380 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3769,
+  "gen_sec": 24.36,
+  "prompt_tokens": 3261,
+  "output_tokens": 695,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003716,
+  "annotation": {
+    "title_hy": "Կեսը Լեվի, Կեսը Պռավի",
+    "title_en": "Half Left, Half Right",
+    "summary_en": "A corrupt traffic officer tries to trick a driver into admitting his cargo is illegal, only for the punchline to reveal a literal misunderstanding of the word 'left'.",
+    "summary_detailed_en": "Set at a rural road police checkpoint, a traffic officer (Sargent Eniyan) stops a white van to inspect documents. The officer checks the driver's papers, mocking the driver for using newspapers to cover his cargo. They briefly discuss TV shows, where the officer expresses his dislike for 'Kargin Haghordum' in a meta-joke, preferring other comedians. The officer then tries to entrap the driver by giving his 'word as a captain' that he will release him if the driver admits what is 'not right' (nito) with the cargo. The driver admits that half the cargo is 'levi' (slang for illegal/black market). Keeping his word, the officer lets the driver go, but immediately radios ahead to his partner, 'Chamur', to intercept the van for a $300 bribe, planning to split the money. The scene repeats as the partner stops the same van and confronts the driver about the 'levi' goods. The driver, confused by how they know, finally reveals the punchline: he is literally transporting shoes, and half of them are for the left foot ('levi') and half are for the right foot ('pravi').",
+    "keywords_hy": [
+      "Ճանապարհային Ոստիկանություն",
+      "կաշառք",
+      "տուգանք",
+      "լեվի ապրանք",
+      "կոշիկ",
+      "չամուռ",
+      "տեսուչ",
+      "վարորդ"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "bribe",
+      "illegal goods",
+      "shoes",
+      "checkpoint",
+      "police officer",
+      "driver",
+      "wordplay"
+    ],
+    "keywords_translit": [
+      "chanaparhayin vostikanutyun",
+      "kasharq",
+      "tuganq",
+      "levi apranq",
+      "koshik",
+      "chamur",
+      "tesuch",
+      "varord"
+    ],
+    "catchphrases": [
+      "Կապիտանի խոսք եմ տալի",
+      "չամուռ աֆերիստին",
+      "փողն էլ վերջում կիսարյան կանենք",
+      "կոշիկ եմ տանում,կեսը լեվիյա կեսը պռավիյա"
+    ],
+    "topics": [
+      "police",
+      "transport",
+      "work"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

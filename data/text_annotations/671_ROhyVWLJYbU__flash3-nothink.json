@@ -1,0 +1,68 @@
+{
+  "video_id": "ROhyVWLJYbU",
+  "seq": 671,
+  "kargin_id": 671,
+  "title": "Kargin Haghordum sketch 251 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1104,
+  "gen_sec": 4.46,
+  "prompt_tokens": 1540,
+  "output_tokens": 554,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002432,
+  "annotation": {
+    "title_hy": "Որտեղից են հայտնվում երեխաները",
+    "title_en": "Where Do Babies Come From",
+    "summary_en": "A young boy asks his parents where he came from, receiving two very different allegorical versions involving a goat and a noble deer.",
+    "summary_detailed_en": "The sketch takes place in a domestic living room setting. A young boy sits on a sofa next to his father, who wears a mustache and glasses. The boy asks how he came into this world. The father explains that in the forest, a beautiful goat was jumping around when suddenly another goat appeared, and that is how the boy was born. A television in the background displays old footage of a baby and a family photo, supporting the domestic theme. The scene then cuts to a woman sitting at a vanity table applying makeup. The boy approaches her and asks the same question. The woman, played by an actress, provides a more romanticized version, claiming a noble deer encountered the beautiful goat in the forest. When the boy mentions that his father called the animal a goat, the mother delivers the punchline, asserting that it was indeed a noble deer, but that his father was a goat and remained a goat. The sketch uses the double meaning of the word 'goat' in Armenian culture as both a literal animal and a disparaging term.",
+    "keywords_hy": [
+      "երեխա",
+      "ծնողներ",
+      "այծ",
+      "եղջերու",
+      "ընտանիք",
+      "հարց ու պատասխան",
+      "անտառ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "child",
+      "parents",
+      "goat",
+      "deer",
+      "family",
+      "explanation",
+      "forest",
+      "joke"
+    ],
+    "keywords_translit": [
+      "erekha",
+      "cnoghner",
+      "ayc",
+      "yeghjeru",
+      "yntaniq",
+      "harc u patasxan",
+      "antar",
+      "katak"
+    ],
+    "catchphrases": [
+      "անտառում ցատկոտում էր այծը և..."
+    ],
+    "topics": [
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "xhQb_6ooXYM",
+  "seq": 133,
+  "kargin_id": 133,
+  "title": "Kargin Haghordum sketch 676 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "133_Kargin_Haghordum_sketch_676_Hayko_Mko_xhQb_6ooXYM.pl.json",
+    "visual": true
+  },
+  "input_chars": 2218,
+  "gen_sec": 36.0,
+  "prompt_tokens": 2121,
+  "output_tokens": 633,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00296,
+  "annotation": {
+    "title_hy": "Գործակալ Ֆոքսը Երևանում",
+    "title_en": "Agent Fox in Yerevan",
+    "summary_en": "A British intelligence officer briefs Agent Fox on a dangerous new mission: to replace Agent James, who has been working undercover in Yerevan for ten years.",
+    "summary_detailed_en": "The sketch begins with establishing shots of London, including Big Ben and modern architecture, before transitioning to a classic, wood-paneled British intelligence office. Two men in formal suits and ties sit in leather armchairs, surrounded by props suggesting high-level espionage: a chess set, a globe, extensive bookshelves, and a map of the world. The superior officer briefs Agent Fox, praising his previous successes in Iraq, Afghanistan, and Pakistan. He explains that since the fall of the Soviet Union, the region has become a priority. Fox's specific mission is to replace Agent James, who has successfully remained undercover in Yerevan for a decade. The superior warns Fox that the local population in Armenia is exceptionally clever, prone to gossip, and full of swindlers, making deep cover nearly impossible to maintain. Fox is instructed to travel to the Armenian capital and take over James's apartment, which is located above a flower shop on Kotovsky Street and equipped with advanced surveillance gear. The scene emphasizes the contrast between British formality and the chaotic social landscape described in Yerevan, ending as Fox accepts the mission and receives James's return tickets and documents.",
+    "keywords_hy": [
+      "լրտես",
+      "հետախույզ",
+      "գործակալ",
+      "Լոնդոն",
+      "Երևան",
+      "անգլիացի",
+      "միսիա",
+      "գաղտնի"
+    ],
+    "keywords_en": [
+      "spy",
+      "intelligence agent",
+      "London",
+      "Yerevan",
+      "British secret service",
+      "Agent Fox",
+      "undercover",
+      "espionage"
+    ],
+    "keywords_translit": [
+      "lrtes",
+      "hetaxuyz",
+      "gortsakal",
+      "London",
+      "Yerevan",
+      "angliaci",
+      "misia",
+      "gaxtni"
+    ],
+    "catchphrases": [
+      "Լոնդոն, M6 հետախուզական կետրոնական գրասենյակ",
+      "տեղի մնակչությունը շատ խելացի է, աֆերիստ և մաբմասկոտ"
+    ],
+    "topics": [
+      "bureaucracy",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

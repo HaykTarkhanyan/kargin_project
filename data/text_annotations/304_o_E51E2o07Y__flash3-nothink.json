@@ -1,0 +1,69 @@
+{
+  "video_id": "o_E51E2o07Y",
+  "seq": 304,
+  "kargin_id": 304,
+  "title": "Kargin Haghordum sketch 465 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "304_Kargin_Haghordum_sketch_465_Hayko_Mko_o_E51E2o07Y.hy.json",
+    "visual": true
+  },
+  "input_chars": 1049,
+  "gen_sec": 21.03,
+  "prompt_tokens": 1474,
+  "output_tokens": 591,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00251,
+  "annotation": {
+    "title_hy": "Կնոջ դժգոհությունը և ընկերուհին",
+    "title_en": "Wife's Complaint and the Girlfriend",
+    "summary_en": "A frustrated housewife vents about her marriage while doing chores, only to quickly change her tone when her secret lover calls.",
+    "summary_detailed_en": "The sketch is set in a domestic apartment living room. A housewife, played by a male comedian in drag wearing a pink robe, a shaggy wig, and slippers, is seen performing various household chores including vacuuming, ironing, and watching the news on television. Throughout these activities, she expresses extreme frustration and regret, calling her husband an 'animal' and an 'ass' while wondering aloud how she ever married him. The husband, a man with a mustache wearing pajamas, remains largely indifferent, relaxing on the couch while his wife works. The tension escalates as the wife confronts him with raised fists near the doorway. However, the mood shifts when the husband retreats to the bathroom to take a phone call. When he asks his wife who was calling her earlier, she dismissively and calmly claims it was just her girlfriend, despite the previous curated dialogue suggesting a secret meeting was being arranged with someone else. The humor stems from the sharp contrast between her aggressive domestic behavior and her secretive, calm phone persona.",
+    "keywords_hy": [
+      "կին և ամուսին",
+      "տնային տնտեսուհի",
+      "հեռախոսազանգ",
+      "ամուսնություն",
+      "փոշեկուլ",
+      "արդուկել",
+      "խանդ",
+      "դժգոհություն"
+    ],
+    "keywords_en": [
+      "husband and wife",
+      "housewife",
+      "phone call",
+      "marriage",
+      "vacuum cleaner",
+      "ironing",
+      "jealousy",
+      "complaint"
+    ],
+    "keywords_translit": [
+      "kin ev amusin",
+      "tnayin tntesuhi",
+      "heraxosazang",
+      "amusnutyun",
+      "poshekul",
+      "ardukel",
+      "xand",
+      "djgohutyun"
+    ],
+    "catchphrases": [
+      "Ո՞վ էր զանգում որ։ -Հեչ ընկերուհիս էր։"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

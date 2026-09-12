@@ -1,0 +1,70 @@
+{
+  "video_id": "HlgdRBKwBM0",
+  "seq": 609,
+  "kargin_id": 609,
+  "title": "Kargin Haghordum sketch 487 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1923,
+  "gen_sec": 5.1,
+  "prompt_tokens": 2045,
+  "output_tokens": 570,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002732,
+  "annotation": {
+    "title_hy": "Անհաջողակ առևանգողները",
+    "title_en": "The Unsuccessful Kidnappers",
+    "summary_en": "Two kidnappers planning to spend ransom money are annoyed by their victim's screaming, only to face a complication when they encounter the police.",
+    "summary_detailed_en": "Two men are driving in a car, discussing their grand plans for the ransom money they expect to receive. One dreams of buying and customizing a Hummer, while the other wants to pay for his mother's dental work. In the back seat, a kidnapped woman with her hands bound in rope screams for help and threatens them, claiming her father is friends with the Human Rights Defender. The kidnappers, annoyed by her persistent 'hysterical' screaming and loud insults, decide to pull over on a tree-lined road to move her to the trunk. As they struggle with their noisy captive, the scene shifts to an encounter involving a police officer. The woman, thinking she is being rescued, pleads with the officer for help and calls her captors scum. However, the sketch subverts expectations when the interaction with the law doesn't go as planned for the victim, as the kidnappers try to maintain their composure while dealing with both the police presence and their loud hostage.",
+    "keywords_hy": [
+      "առևանգում",
+      "փրկագին",
+      "ոստիկան",
+      "բագաժնիկ",
+      "հիստերիկ",
+      "մարդու իրավունքների պաշտպան",
+      "կապած",
+      "մեքենա"
+    ],
+    "keywords_en": [
+      "kidnapping",
+      "ransom",
+      "police officer",
+      "car trunk",
+      "hysterical",
+      "human rights defender",
+      "bound hands",
+      "car interior"
+    ],
+    "keywords_translit": [
+      "arevangum",
+      "prkagin",
+      "ostikan",
+      "bagajnik",
+      "histerik",
+      "mardu iravunqneri pashtpan",
+      "kapac",
+      "meqena"
+    ],
+    "catchphrases": [
+      "հիստերիկ"
+    ],
+    "topics": [
+      "crime",
+      "police",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

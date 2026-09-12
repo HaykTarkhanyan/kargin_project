@@ -1,0 +1,69 @@
+{
+  "video_id": "97eKFmfo81M",
+  "seq": 83,
+  "kargin_id": 83,
+  "title": "Kargin Haghordum sketch 659 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "083_Kargin_Haghordum_sketch_659_Hayko_Mko_97eKFmfo81M.ru.json",
+    "visual": true
+  },
+  "input_chars": 3115,
+  "gen_sec": 5.01,
+  "prompt_tokens": 2435,
+  "output_tokens": 561,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002901,
+  "annotation": {
+    "title_hy": "Ողնաշարի տրամվայա և դաժան կատակ",
+    "title_en": "Spine Trauma and the Cruel Joke",
+    "summary_en": "A doctor gives a husband a long list of demanding caretaking duties for his injured wife, only to reveal a dark punchline.",
+    "summary_detailed_en": "The sketch takes place in a hospital corridor where a surgeon and hospital orderlies are rushing a patient on a gurney into surgery. A distressed man with a mustache follows them, asking about the status of his wife, who fell from a high floor while cleaning windows. The doctor describes the injury as 'spine trauma' and enters the operating room. Later, the surgeon returns to the man and delivers a grave prognosis: the wife has survived but is completely paralyzed and will remain immobile for at least 15 years. He details an exhausting caregiving routine, including feeding her three times a day, bathing her weekly, and reading Russian and Armenian classics like Lermontov, Tyutchev, and Tumanyan for two hours every night. The doctor even insists the husband must fulfill his 'marital duties' daily since her organs still function. As the husband becomes visibly overwhelmed by the burden, the doctor suddenly tells him to relax, claiming he was just joking—before bluntly revealing that the wife actually died.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "վիրահատություն",
+      "կատակ",
+      "ողնաշար",
+      "խնամք",
+      "ամուսին",
+      "մահ"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "surgery",
+      "joke",
+      "spine",
+      "caregiving",
+      "husband",
+      "death"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivandanoc",
+      "virahatutyun",
+      "katak",
+      "oghnashar",
+      "khnamq",
+      "amusin",
+      "mah"
+    ],
+    "catchphrases": [
+      "հա լավ հանգստացի կատակ էի անում"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "RuPhyn4rfk0",
+  "seq": 145,
+  "kargin_id": 145,
+  "title": "Kargin Haghordum sketch 381 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "145_Kargin_Haghordum_sketch_381_Hayko_Mko_RuPhyn4rfk0.hy.json",
+    "visual": true
+  },
+  "input_chars": 1108,
+  "gen_sec": 14.8,
+  "prompt_tokens": 1574,
+  "output_tokens": 539,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002404,
+  "annotation": {
+    "title_hy": "Լիժեքը և Ժեկը",
+    "title_en": "Skis in the Stairwell",
+    "summary_en": "A man heading to the housing office (Zhek) to report a leaky roof is baffled to see his neighbor carrying full ski gear through their cramped apartment corridor.",
+    "summary_detailed_en": "The sketch takes place in a narrow, dimly lit apartment stairwell corridor. A man wearing a beanie and a casual jacket is trying to navigate the hallway when he encounters his neighbor, who is also wearing a beanie but is fully equipped with long skis and ski poles. The first man complains about the building's maintenance, noting that snow has piled up on the roof and is causing leaks ('krish') inside. He explains he is on his way to the 'Zhek' (local housing maintenance office) to demand repairs. The neighbor, despite the cramped indoor setting, seems intent on his skiing trip. As they struggle to pass each other in the tight space, a physical confrontation ensues with pushing and shoving. The first man expresses his support for the neighbor's initiative but remains genuinely confused by the practicality of the situation, leading to the central humorous question regarding why he is lugging skis through the building during a housing crisis.",
+    "keywords_hy": [
+      "լիժա",
+      "ժեկ",
+      "կռիշ",
+      "հարևաններ",
+      "ձյուն",
+      "կաթել",
+      "շենքի միջանցք"
+    ],
+    "keywords_en": [
+      "skis",
+      "maintenance office",
+      "leaking roof",
+      "neighbors",
+      "snow",
+      "stairwell",
+      "apartment building"
+    ],
+    "keywords_translit": [
+      "lizha",
+      "zhek",
+      "krish",
+      "harevanner",
+      "dzyun",
+      "katel",
+      "shenqi mijancq"
+    ],
+    "catchphrases": [
+      "բա էս լիժեքը ինչի ես հետդ տանում"
+    ],
+    "topics": [
+      "neighbors",
+      "bureaucracy",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

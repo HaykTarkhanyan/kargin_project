@@ -1,0 +1,70 @@
+{
+  "video_id": "XZlWDs9Zge8",
+  "seq": 147,
+  "kargin_id": 147,
+  "title": "Kargin Haghordum sketch 521 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1894,
+  "gen_sec": 15.56,
+  "prompt_tokens": 2001,
+  "output_tokens": 603,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00281,
+  "annotation": {
+    "title_hy": "Ուրախ և տխուր լուրը",
+    "title_en": "Happy and Sad News",
+    "summary_en": "A husband argues with his wife about his lack of involvement in household chores, leading to a punchline where she gives him news that makes him both happy and sad.",
+    "summary_detailed_en": "The sketch takes place in a kitchen during the day. A mustached husband sits at the breakfast table, which is set with coffee cups and a ketchup bottle, while his wife, wearing a pink top, stands nearby preparing coffee. The wife complains that he is never home and neglects household duties and the children. The husband defensively explains that he works long hours to provide for the family and cannot balance his job with chores like taking the kids to school. Frustrated by her persistence, he challenges her to say something that would make him feel both happy and sad at the same time, believing it to be an impossible task. The wife calmly accepts the challenge and delivers the crushing punchline: she tells him that he is better at sex than his own brother. This revelation leaves him in a state of conflicted emotion—pride in his performance but devastated by the implication of her infidelity with his sibling.",
+    "keywords_hy": [
+      "ամուսիններ",
+      "կռիվ",
+      "խոհանոց",
+      "ուրախություն",
+      "տխրություն",
+      "դավաճանություն",
+      "կատակ",
+      "տղամարդու գործ"
+    ],
+    "keywords_en": [
+      "married couple",
+      "argument",
+      "kitchen",
+      "happy and sad",
+      "infidelity",
+      "joke",
+      "household chores",
+      "brother"
+    ],
+    "keywords_translit": [
+      "amusinner",
+      "kriv",
+      "xohanoc",
+      "uraxutyun",
+      "txrutyun",
+      "davachanutyun",
+      "katak",
+      "tghamardu gorc"
+    ],
+    "catchphrases": [
+      "Դու ավելի լավ ես սեքսով զբաղվում , քան ախպերդ",
+      "էս կնիկը ինչա ուզում ինձանից",
+      "մի հատ բան ասա ինձ , որից ես համ կուրախանամ , համ կտխրեմ"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational"
+    ]
+  }
+}

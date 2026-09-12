@@ -1,0 +1,72 @@
+{
+  "video_id": "BJnORz1WFMo",
+  "seq": 564,
+  "kargin_id": 564,
+  "title": "Kargin Haghordum sketch 199 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "564_Kargin_Haghordum_sketch_199_Hayko_Mko_BJnORz1WFMo.hy.json",
+    "visual": true
+  },
+  "input_chars": 2430,
+  "gen_sec": 17.73,
+  "prompt_tokens": 2344,
+  "output_tokens": 636,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00308,
+  "annotation": {
+    "title_hy": "Հաշվապահի ընտրություն",
+    "title_en": "Choosing an Accountant",
+    "summary_en": "A business owner and his incompetent cousin interview candidates for an accounting position, rejecting honesty and professionalism in favor of corruption.",
+    "summary_detailed_en": "In a typical office setting, a businessman explains to his dim-witted cousin (who is also his deputy) that they need to hire an accountant who can handle 'shady' dealings. The businessman warns his cousin that if he were to die suddenly—whether from choking on kebab or slipping in the mud—the cousin would be the second-in-command and must know how to handle the new hire. They begin interviewing candidates for the role. The first candidate, a young woman, answers that two times two equals four. She is rejected for being 'too honest' and likely to confess to auditors. The second candidate asks, 'How much do you need it to be?', but is rejected for being too social and likely to conspire with other employees. Finally, a woman in a red coat enters. When asked the same question, she replies that the answer is 79: 50 for the bosses, 25 for her, and 4 for the state (kassa). The businessmen are delighted, having finally found a corrupt accountant who speaks their language. The sketch satirizes systemic corruption and the hiring of unqualified, dishonest staff in local businesses.",
+    "keywords_hy": [
+      "հաշվապահ",
+      "հարցազրույց",
+      "կոռուպցիա",
+      "ֆիրմա",
+      "բիզնես",
+      "փող",
+      "ծանոթով",
+      "հարց ու պատասխան"
+    ],
+    "keywords_en": [
+      "accountant",
+      "job interview",
+      "corruption",
+      "firm",
+      "business",
+      "money",
+      "nepotism",
+      "bribery"
+    ],
+    "keywords_translit": [
+      "hashvapah",
+      "hartsazruyts",
+      "koruptsia",
+      "firma",
+      "biznes",
+      "pogh",
+      "tsanotov",
+      "harts u patasxan"
+    ],
+    "catchphrases": [
+      "երկու անգամ երկու",
+      "իսկ ձեզ ինչքա՞ն է պետք",
+      "50-ը ձեզ, 25-ը ինձ"
+    ],
+    "topics": [
+      "work",
+      "money",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

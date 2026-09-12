@@ -1,0 +1,71 @@
+{
+  "video_id": "EzQr9kXIp0U",
+  "seq": 466,
+  "kargin_id": 466,
+  "title": "Kargin Haghordum sketch 091 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "466_Kargin_Haghordum_sketch_091_Hayko_Mko_EzQr9kXIp0U.hy.json",
+    "visual": true
+  },
+  "input_chars": 1353,
+  "gen_sec": 5.21,
+  "prompt_tokens": 1754,
+  "output_tokens": 619,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002734,
+  "annotation": {
+    "title_hy": "Գերմանական Հարցաքննություն",
+    "title_en": "Nazi Interrogation",
+    "summary_en": "Two Nazi officers interrogate various partisans during the war, but the officer orders an immediate execution the moment he encounters an Armenian prisoner.",
+    "summary_detailed_en": "The sketch takes place in a wood-paneled office designed as a Nazi-parody interrogation room, complete with swastika armbands, an officer cap, and a portrait on the wall. Two Nazi officers sit at a desk discussing good news from the front lines, stating their troops have advanced another 50 kilometers. They decide to get to work interrogating captured partisans. The first prisoner, a Russian, is brought in and interrogated briefly before being sent off. The second, a Ukrainian named Nikol Gavrilov, is ordered to be shot immediately. Finally, a third prisoner wearing a striped shirt is brought in. When he identifies himself as Armenian ('Armyan'), the lead officer panics and screams to have him shot instantly without a single question. When his subordinate asks why they aren't interrogating the Armenian like the others, the officer explains the practical danger: if you start talking to an Armenian and ask a couple of questions, it will inevitably turn out that you are either acquaintances or long-lost relatives, making it impossible to finish the job.",
+    "keywords_hy": [
+      "գերմանացի",
+      "հարցաքննություն",
+      "պարտիզան",
+      "գնդակահարել",
+      "հայ",
+      "ծանոթ",
+      "բարեկամ",
+      "ֆաշիստ"
+    ],
+    "keywords_en": [
+      "German",
+      "interrogation",
+      "partisan",
+      "execution",
+      "Armenian",
+      "acquaintance",
+      "relative",
+      "Nazi parody"
+    ],
+    "keywords_translit": [
+      "germanaci",
+      "harcaqnnutyun",
+      "partizan",
+      "gndakaharel",
+      "hay",
+      "canot",
+      "barekam",
+      "fashist"
+    ],
+    "catchphrases": [
+      "Հայաստանից եմ արմյան արմյան",
+      "գնդակարել հենց հիմա արագ գնդակարել սրան",
+      "կամ ծանոթ դուրս կգա կամ էլ բարեկամ"
+    ],
+    "topics": [
+      "army",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

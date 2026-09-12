@@ -1,0 +1,78 @@
+{
+  "video_id": "s-zo29VaCao",
+  "seq": 438,
+  "kargin_id": 438,
+  "title": "Kargin Haghordum - DVD (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "438_Kargin_Haghordum_-_DVD_Hayko_Mko_s-zo29VaCao.hy.json",
+    "visual": true
+  },
+  "input_chars": 2903,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Լոտոյով շահած DVD-ն",
+    "title_en": "The Lottery DVD",
+    "summary_en": "A father and daughter broken down on a highway have won a million and a DVD player on lottery tickets; when racketeers arrive they hide the million and lose the DVD player instead.",
+    "summary_detailed_en": "A white Soviet-era sedan sits on the shoulder of a bleak winter highway with a board propped against it. The father is furious - the car stood in the yard twelve months a year and has now died in the middle of nowhere - while his daughter tries to keep his spirits up, because they have won on two lottery tickets: a million on one and a DVD player on the other. He does not see the point of the second until she explains that no one in their village has a DVD player, so theirs will become the village's number one house with everyone coming to watch. Spotting men approaching, they hurriedly hide the million and her gold. Two heavy-set men get out of a dark SUV and lean into the window with a practised pitch about helping the boys who are in trouble. The family plead that they are villagers with no money, not even for petrol. The men search their pockets, find nothing, and settle for taking the DVD player as a fine. They drive off, and the father is left quietly pleased at how well he hid the million.",
+    "keywords_hy": [
+      "լոտո",
+      "DVD",
+      "մեքենա",
+      "ճանապարհ",
+      "գյուղ",
+      "մի միլիոն",
+      "տուգանք",
+      "գանգստեր",
+      "թալան",
+      "ոսկեղեն"
+    ],
+    "keywords_en": [
+      "lottery",
+      "DVD player",
+      "car breakdown",
+      "highway",
+      "village",
+      "million",
+      "racketeers",
+      "shakedown",
+      "gold",
+      "hiding money"
+    ],
+    "keywords_translit": [
+      "loto",
+      "DVD",
+      "mashin",
+      "chanaparh",
+      "gyugh",
+      "mi milion",
+      "tugank",
+      "gangster",
+      "talan",
+      "voskeghen"
+    ],
+    "catchphrases": [
+      "Դե որ փող չունեք որպես տուժ DVD-ին պիտի տաք մեզ",
+      "լավ տեղ եմ չէ պահել"
+    ],
+    "topics": [
+      "transport",
+      "crime",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

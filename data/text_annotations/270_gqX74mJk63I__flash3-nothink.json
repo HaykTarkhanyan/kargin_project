@@ -1,0 +1,68 @@
+{
+  "video_id": "gqX74mJk63I",
+  "seq": 270,
+  "kargin_id": 270,
+  "title": "Kargin Haghordum sketch 578 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1948,
+  "gen_sec": 22.21,
+  "prompt_tokens": 2128,
+  "output_tokens": 594,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002846,
+  "annotation": {
+    "title_hy": "Տոնական խմիչք և բաղնիք",
+    "title_en": "Holiday Drinking and the Bath",
+    "summary_en": "A woman complains about her alcoholic husband until her friend claims her own husband only drinks on holidays or when going to the bath, leading to a comedic exit.",
+    "summary_detailed_en": "The sketch takes place in a wallpapered apartment living room where two women (both played by male actors in drag) are sitting at a small table decorated with a flower vase and a fish aquarium. The host, Svet, serves coffee to her friend Emma, who is visibly distressed and describing a 'nightmare night' with her drunken husband. Emma laments that his constant drinking is causing the neighbors to complain and giving their children complexes because the neighborhood kids mock them. Svet tries to comfort her, boasting that her own husband is 'stationary' compared to Emma's; he supposedly only drinks on public holidays or when he goes to the bath. Just then, two men enter the room. One of the men asks what holiday it is today, seeing the women gathered. When Svet confirms there is absolutely no holiday occurring, the man immediately announces that in that case, he is heading to the bath, revealing his loophole for daily drinking. The humor relies on the subversion of the wife's defense of her husband's sobriety.",
+    "keywords_hy": [
+      "հարբեցողություն",
+      "հարևաններ",
+      "բաղնիք",
+      "տոն օր",
+      "սուրճ խմել",
+      "կնիկամարդ",
+      "ընտանեկան վեճ"
+    ],
+    "keywords_en": [
+      "alcoholism",
+      "neighbors",
+      "bathhouse",
+      "holiday",
+      "drinking habit",
+      "coffee talk",
+      "drag comedy",
+      "family life"
+    ],
+    "keywords_translit": [
+      "harbecoxutyun",
+      "harevanner",
+      "baxniq",
+      "ton or",
+      "surj xmel",
+      "knikamard",
+      "yntanekan vech"
+    ],
+    "catchphrases": [
+      "֊Հաստատ ոչ մի տոն չկա։ Դե որ ըտենցա ես հելա բաղնիք։"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

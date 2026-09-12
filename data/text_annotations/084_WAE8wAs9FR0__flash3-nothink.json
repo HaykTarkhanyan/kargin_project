@@ -1,0 +1,79 @@
+{
+  "video_id": "WAE8wAs9FR0",
+  "seq": 84,
+  "kargin_id": 84,
+  "title": "Kargin Haghordum sketch 658 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3297,
+  "gen_sec": 7.74,
+  "prompt_tokens": 2793,
+  "output_tokens": 718,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00355,
+  "annotation": {
+    "title_hy": "Պապայի վերջին կամքը",
+    "title_en": "Grandpa's Last Will",
+    "summary_en": "A woman and her son film the final wishes of their dying family patriarch, but the wife shamelessly manipulates every inheritance decision to favor her children over the person providing the medical aid.",
+    "summary_detailed_en": "The sketch is presented as a home video recording, featuring a date stamp (starting December 13) and a REC overlay. A young man sits by a bed where an elderly, bedridden patriarch (played by a male comedian in drag) is supposedly dying from severe pain. The man’s wife stands off-camera (or is being addressed), explaining to their relatives in America that they are filming his last will. The dying man, Simon, is being kept on 'cocaine' (a comedic substitution for painkillers) sent by his son-in-law, Armenak. Every time Simon tries to bequeath an asset—the car, the garage, the camera, and the house—to his helpful son-in-law Armenak, the wife immediately interrupts and manipulates his words. She guilt-trips him or flat-out lies to the camera, claiming he meant to give the items to their other children (Armen, Karen, Karine, or Armine). The sketch culminates in an argument where Simon, frustrated by the blatant theft of his legacy, asks his wife who is actually the one dying. The final scene cuts to December 14, where the young man informs Armenak that Simon died not from illness, but from a 'cocaine overdose.'",
+    "keywords_hy": [
+      "կտակ",
+      "ժառանգություն",
+      "հիվանդ",
+      "կակային",
+      "պերեդոզիրովկա",
+      "փեսա",
+      "Ամերիկա",
+      "տուն",
+      "ավտո",
+      "գարաժ"
+    ],
+    "keywords_en": [
+      "will",
+      "inheritance",
+      "sickbed",
+      "cocaine",
+      "overdose",
+      "son-in-law",
+      "America",
+      "house",
+      "car",
+      "garage"
+    ],
+    "keywords_translit": [
+      "ktak",
+      "jarangutyun",
+      "hivand",
+      "kakayin",
+      "peredozirovka",
+      "phesa",
+      "Amerika",
+      "tun",
+      "avto",
+      "garaj"
+    ],
+    "catchphrases": [
+      "կամեռան անջտի",
+      "կակայինի վրա ենք պահում",
+      "աղջի հիմա դու ես մեռնողը թե ես",
+      "կակայինի պերեդազիրովկա էր"
+    ],
+    "topics": [
+      "family",
+      "medical",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "video_id": "5h70tn0asdo",
+  "seq": 1,
+  "kargin_id": 1,
+  "title": "Kargin Haghordum sketch 275 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "001_Kargin_Haghordum_sketch_275_Hayko_Mko_5h70tn0asdo.hy.json",
+    "visual": true
+  },
+  "input_chars": 3450,
+  "gen_sec": 21.42,
+  "prompt_tokens": 2857,
+  "output_tokens": 724,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003601,
+  "annotation": {
+    "title_hy": "Գյուղնախարարության ստուգումը և Վալմոնտը",
+    "title_en": "The Ministry Inspection and Valmont",
+    "summary_en": "An inspector from the Ministry of Agriculture visits a village farm to count cows, only to hear an absurd story about how the local men have replaced their deceased bull.",
+    "summary_detailed_en": "The sketch takes place in a rural village cattle barn and farmyard. A man in a suit, acting as an inspector from the Ministry of Agriculture's department for large and small horned livestock, arrives to conduct a check. He informs an elderly village woman (played by a man in drag, wearing a headscarf) that according to last year's records, there should be 87 cows. The woman, brandishing a wooden stick, explains that the village's only bull, Valmont, has passed away. She blames the economic downturn, citing the Dow Jones and Nasdaq indices as reasons they cannot afford a new one. When the inspector repeats his question about the missing cows, she reveals an absurd solution: the village men take the cows to the fields every morning, play blues music, and perform the bull's 'duties' themselves. She notes they bring the cows back happily every evening. The inspector notices one cow left behind in the barn and asks why. The woman explains that particular cow is 'too ugly' for the men to service, leading to a final comedic proposition.",
+    "keywords_hy": [
+      "գյուղնախարարություն",
+      "ստուգում",
+      "կով",
+      "ցուլ",
+      "գյուղացի",
+      "տնտեսություն",
+      "վալմոնտ",
+      "դաշտ",
+      "բլյուզ"
+    ],
+    "keywords_en": [
+      "ministry of agriculture",
+      "inspection",
+      "cow",
+      "bull",
+      "villager",
+      "economy",
+      "valmont",
+      "field",
+      "blues music"
+    ],
+    "keywords_translit": [
+      "gyughnakhararutyun",
+      "stugum",
+      "kov",
+      "tsul",
+      "gyughatsi",
+      "tntesutyun",
+      "valmont",
+      "dasht",
+      "blyuz"
+    ],
+    "catchphrases": [
+      "Բարի օր մորքուր ջան",
+      "Ես գյուղ նախարարության խոշոր , մանր և միջին Եղջերավոր անասունների վարչությունից եմ:",
+      "Նազդակը , Դորջոսը, բոլոր կայֆիցենտները անընդհատ ընկնում են:",
+      "Բա որովհետև էսի գեշա:"
+    ],
+    "topics": [
+      "village",
+      "bureaucracy",
+      "work"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "eYibG0176rM",
+  "seq": 444,
+  "kargin_id": 444,
+  "title": "Kargin Haghordum - Xoti vra nstac (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "444_Kargin_Haghordum_-_Xoti_vra_nstac_Hayko_Mko_eYibG0176rM.tr.json",
+    "visual": true
+  },
+  "input_chars": 1831,
+  "gen_sec": 22.13,
+  "prompt_tokens": 1854,
+  "output_tokens": 618,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002781,
+  "annotation": {
+    "title_hy": "Խոտի վրա նստած",
+    "title_en": "Sitting on the Grass",
+    "summary_en": "A policeman aggressively interrogates a young man for 'sitting on the grass,' confusing the literal act with smoking marijuana, only to later empathize with a sad child who is also forbidden from sitting on the lawn.",
+    "summary_detailed_en": "In a sunlit city park, a policeman wearing a light blue summer uniform and a peaked cap is patrolling. He stops for a drink at a traditional stone fountain before noticing a young man in a black shirt lounging on the grass. The officer approaches and begins an aggressive shakedown, accusing the man of smoking 'khot' (grass/weed). Despite the young man's insistence that it is just a regular cigarette, the officer remains hostile, shouting that there are children in the park and threatening him with years in prison for his behavior. He repeatedly uses the double entendre of 'sitting on the grass' to imply both the physical act and drug-related delinquency. After ordering the man to leave and promising to keep him under surveillance, the officer encounters a sad little girl. When she explains she is sad because her mother won't let her sit on the grass, the officer suddenly becomes sympathetic, exclaiming how deeply he understands her frustration, subverting his previous law-enforcement persona.",
+    "keywords_hy": [
+      "ոստիկան",
+      "խոտ",
+      "այգի",
+      "ծխել",
+      "ծիծաղելի",
+      "կարգին հաղորդում",
+      "լեյտենանտ"
+    ],
+    "keywords_en": [
+      "policeman",
+      "grass",
+      "park",
+      "smoking",
+      "pun",
+      "marijuana",
+      "misunderstanding",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "ostikan",
+      "khot",
+      "aygi",
+      "tsxel",
+      "tsitsagheli",
+      "kargin haghordum",
+      "leytenant"
+    ],
+    "catchphrases": [
+      "բալիկ ջան էս ինչի ես տխուր մաման չի թողում խոտի վրա նստեմ չի թողում խոտի վրա նստես արա բալիկ ջան ոնց եմ քեզ հասկանում ոնց եմ քեզ հասկանում"
+    ],
+    "topics": [
+      "police",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

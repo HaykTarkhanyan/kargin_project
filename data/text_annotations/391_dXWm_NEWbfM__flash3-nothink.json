@@ -1,0 +1,66 @@
+{
+  "video_id": "dXWm_NEWbfM",
+  "seq": 391,
+  "kargin_id": 391,
+  "title": "Kargin Haghordum - Analiz (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "391_Kargin_Haghordum_-_Analiz_Hayko_Mko_dXWm_NEWbfM.en.json",
+    "visual": true
+  },
+  "input_chars": 1582,
+  "gen_sec": 7.57,
+  "prompt_tokens": 1744,
+  "output_tokens": 594,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002654,
+  "annotation": {
+    "title_hy": "Անալիզների Պատասխանը",
+    "title_en": "The Test Results",
+    "summary_en": "An elderly man recovering from an illness calls his family to visit, but his medical test results arrive in the form of a hazmat team.",
+    "summary_detailed_en": "The sketch takes place in the bedroom of an elderly man who is lying in bed, covered in a white pillow and blanket. His face is visibly covered in large, red, diseased-looking blotches and sores. He is on the phone with his family, complaining that they didn't bring his grandchildren to see him. He insists he is no longer contagious and is feeling much better. He mentions that he even walked to the local polyclinic himself that morning to submit his medical tests (analizner) and is expecting the results shortly. He encourages his relative to bring the kids over immediately. Suddenly, he hears a knock at the door and assumes it is the polyclinic calling or visiting with his results. The scene shifts as two figures dressed in full yellow biohazard suits and gas masks enter the room. They ask if he is the one who submitted tests at the polyclinic that morning. When he confirms, the hazmat-suited responders react with panicked shouting and immediate alarm, implying his condition is far more dangerous and infectious than he realized.",
+    "keywords_hy": [
+      "պոլիկլինիկա",
+      "անալիզներ",
+      "հիվանդ",
+      "հակագազ",
+      "վարակ",
+      "հոպար",
+      "բժշկական"
+    ],
+    "keywords_en": [
+      "polyclinic",
+      "medical tests",
+      "sick man",
+      "gas mask",
+      "infection",
+      "hazmat suit",
+      "contagious"
+    ],
+    "keywords_translit": [
+      "poliklinika",
+      "analizner",
+      "hivand",
+      "hakagaz",
+      "varak",
+      "hopar",
+      "bzhshkakan"
+    ],
+    "catchphrases": [
+      "Հոպար Էսօր դու ես առավոտը պոլիկլինիկայում անալիզներ հանձնել։ Հա տղեք ջան։ Աաաաա, աաաա։"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

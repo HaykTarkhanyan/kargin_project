@@ -1,0 +1,70 @@
+{
+  "video_id": "bmgJman6_ho",
+  "seq": 114,
+  "kargin_id": 114,
+  "title": "Kargin Haghordum sketch 695 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "114_Kargin_Haghordum_sketch_695_Hayko_Mko_bmgJman6_ho.pt.json",
+    "visual": true
+  },
+  "input_chars": 1877,
+  "gen_sec": 20.58,
+  "prompt_tokens": 1892,
+  "output_tokens": 581,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002689,
+  "annotation": {
+    "title_hy": "Մառշուտկայի կողոպուտը",
+    "title_en": "The Minibus Robbery",
+    "summary_en": "A minibus full of passengers is stopped by an armed robber, but the situation devolves into chaotic phone calls and the driver categorizing passengers.",
+    "summary_detailed_en": "The sketch begins with a minibus traveling along a scenic forest road. Suddenly, a masked gunman steps into the road, aiming a weapon and forcing the vehicle to stop. Inside the crowded minibus, the atmosphere is surprisingly casual rather than fearful. One male passenger is loudly talking on his mobile phone, promising friends he will bring extra vodka and pickles to their gathering, insisting they don't start without him. He even hands his phone to the bus driver to prove to his friends that he is actually on the bus. The driver, played by one of the lead comedians, takes control of the situation in an absurd way. He begins to categorize the female passengers based on their relationship status and perceived intelligence, drawing a line down the middle of the aisle. When a woman passenger protests, claiming she has been married for five years and never looked at another man, the driver simply reassigns her to a different row. The sketch highlights the mundane reactions of Armenians to an extreme situation like a robbery.",
+    "keywords_hy": [
+      "մառշուտկա",
+      "կողոպուտ",
+      "վարորդ",
+      "ուղևոր",
+      "հեռախոսով խոսել",
+      "ավազակ",
+      "հումոր",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "minibus",
+      "robbery",
+      "bus driver",
+      "passenger",
+      "phone call",
+      "gunman",
+      "marshrutka",
+      "comedy sketch"
+    ],
+    "keywords_translit": [
+      "marshrutka",
+      "koghoput",
+      "varord",
+      "ughevor",
+      "heraxosov xosel",
+      "avazak",
+      "humor",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "Հա ձեր կյանքին մեռնեմ ախպեր"
+    ],
+    "topics": [
+      "transport",
+      "crime",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

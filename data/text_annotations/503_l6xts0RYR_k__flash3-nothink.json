@@ -1,0 +1,69 @@
+{
+  "video_id": "l6xts0RYR_k",
+  "seq": 503,
+  "kargin_id": 503,
+  "title": "Kargin Haghordum sketch 131 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "503_Kargin_Haghordum_sketch_131_Hayko_Mko_l6xts0RYR_k.hy.json",
+    "visual": true
+  },
+  "input_chars": 2316,
+  "gen_sec": 5.68,
+  "prompt_tokens": 2386,
+  "output_tokens": 687,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003254,
+  "annotation": {
+    "title_hy": "17 հոգի կողմ են",
+    "title_en": "17 People in Favor",
+    "summary_en": "A man visits a doctor to request a vasectomy using mechanical metaphors, revealing a hilarious family voting breakdown for the decision.",
+    "summary_detailed_en": "The sketch takes place in a medical office where a bespectacled doctor is seated at his desk, which is equipped with a desk lamp, pen holder, and calculator. A man wearing a mustache, flat cap, and tweed jacket enters. The man struggles to find the right way to address the professional, testing various greetings like 'Ay bzhishk' before settling on a simple 'Bzhishk'. He approaches the doctor with a secretive request, asking for a procedure to ensure he has no more children. He describes the surgery using automotive and mechanical metaphors, telling the doctor to 'cut a wire' (provulka), 'tear out a spring' (pruzhina), or 'loosen a bolt.' The doctor, maintaining a serious tone, warns him that such a procedure is permanent—once a wire is cut, it cannot be reconnected, and once a nut (gayka) is stripped, it won't tighten again. The doctor advises him to go home and discuss the serious decision with his family. The man nonchalantly reveals that they have already voted on it: 2 people are against it, while 17 people are in favor, implying a massive, perhaps overwhelmed household.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "երեխա չունենալ",
+      "ընտանիք",
+      "քվեարկություն",
+      "մեխանիզմ",
+      "վիրահատություն"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "vasectomy",
+      "large family",
+      "voting",
+      "mechanical metaphors",
+      "surgery"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hivandanoc",
+      "erekha chunenal",
+      "entaniq",
+      "qvearkutyun",
+      "mexanizm",
+      "virahatutyun"
+    ],
+    "catchphrases": [
+      "Սպիտակ խալաթով հիվանդանոցի աշխատող։",
+      "Այ բժիշկ, Չէ չի ըլնում։",
+      "Մի հատ պրովուլկաա կտրի, պրուժինա պոկի, բոլտա թուլացրու",
+      "2 հոգի դեմ են, 17 հոգի կողմ։"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

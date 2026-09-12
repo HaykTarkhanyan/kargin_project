@@ -1,0 +1,70 @@
+{
+  "video_id": "dwXDsd5eBsE",
+  "seq": 513,
+  "kargin_id": 513,
+  "title": "Kargin Haghordum sketch 143 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "513_Kargin_Haghordum_sketch_143_Hayko_Mko_dwXDsd5eBsE.hy.json",
+    "visual": true
+  },
+  "input_chars": 1612,
+  "gen_sec": 12.15,
+  "prompt_tokens": 1862,
+  "output_tokens": 596,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002719,
+  "annotation": {
+    "title_hy": "Ցիանիտի կալի և դեղատուն",
+    "title_en": "Potassium Cyanide and the Pharmacy",
+    "summary_en": "A pharmacist chases down a customer to inform him he was accidentally given potassium cyanide instead of calcium gluconate, only to demand the price difference after learning he already swallowed it.",
+    "summary_detailed_en": "The sketch takes place in a residential courtyard near a pharmacy sign during the day. A man dressed in striped pajamas leaves the building, looking at a note and checking his mobile phone. He begins to stagger dizzily down the street, clutching his head in physical distress. A woman in a white pharmacist's coat (played by a female actress, not in drag) catches up to him urgently. She asks if he just bought calcium gluconate for his bones, which he confirms. She then reveals a grave 'misunderstanding': she accidentally gave him potassium cyanide, a lethal poison, instead of the intended supplement. When she asks for the bottle back to exchange it, the man weakly admits he has already swallowed the pill. Instead of showing concern for his impending death or calling for medical help, the pharmacist reacts with bureaucratic greed, telling him that since the poison is more expensive, he needs to quickly pay an additional 250 drams. The sketch concludes with the man collapsed on the ground by a doorway.",
+    "keywords_hy": [
+      "դեղատուն",
+      "թույն",
+      "ցիանիդ",
+      "կալցի գլյուկոնատ",
+      "դեղագործ",
+      "փող",
+      "հիվանդ",
+      "դեղ"
+    ],
+    "keywords_en": [
+      "pharmacy",
+      "poison",
+      "cyanide",
+      "calcium gluconate",
+      "pharmacist",
+      "money",
+      "patient",
+      "medicine"
+    ],
+    "keywords_translit": [
+      "deghatun",
+      "tuyun",
+      "tsianit",
+      "kalci glyukonat",
+      "deghagorts",
+      "pogh",
+      "hivand",
+      "degh"
+    ],
+    "catchphrases": [
+      "դե ուրեմն շուտ շուտ 250 դրամ էլ ավելացրեք․"
+    ],
+    "topics": [
+      "medical",
+      "money",
+      "shop_market"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

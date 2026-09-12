@@ -1,0 +1,73 @@
+{
+  "video_id": "YKOvyZiBsss",
+  "seq": 187,
+  "kargin_id": 187,
+  "title": "Kargin Haghordum sketch 367 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3240,
+  "gen_sec": 23.05,
+  "prompt_tokens": 2755,
+  "output_tokens": 702,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003484,
+  "annotation": {
+    "title_hy": "Ծույլ ամուսնու հաջողակ օրը",
+    "title_en": "Lazy Husband's Lucky Day",
+    "summary_en": "A chronically lazy and drunk man is forced by his wife to go to work, only to find his boss rewards his absence and he wins a car from a lottery ticket.",
+    "summary_detailed_en": "The sketch begins in a modest bedroom where a woman in a shaggy wig (played in drag) berates her husband for sleeping for five consecutive days. She complains about their poverty, mentioning the lack of sugar and the children's tuition, and threatens to leave him if he doesn't beg his boss for his job back. The husband, wearing a striped shirt and appearing hungover, reluctantly gets out of bed, lamenting his 'sad' life story. He meets his boss in an open field near apartment blocks. Instead of firing him for his five-day absence, the boss (a man with grey hair) gives him his salary, a bonus, and even pay for the days he missed, claiming he doesn't like people 'going over his head' to God. When the boss realizes the man is drunk again, he kindly sends him home to rest until 8 AM the next day. On his way, the man buys a 300-dram lottery ticket from a neighbor. He scratches it to find three matching car symbols. In a final twist of absurd luck and dark humor, he wins the car but immediately learns his mother has passed away, concluding that everything is 'hitting' at once today.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "ծույլ ամուսին",
+      "խմած",
+      "բրիգադիր",
+      "լոտո",
+      "ավտոմեքենա",
+      "շահում",
+      "հարբեցող",
+      "ընտանեկան վեճ"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "lazy husband",
+      "drunk worker",
+      "boss",
+      "lottery ticket",
+      "winning a car",
+      "unemployment",
+      "family argument",
+      "absurd luck"
+    ],
+    "keywords_translit": [
+      "tsuyl amusin",
+      "khmats",
+      "brigadir",
+      "loto",
+      "avtomeqena",
+      "shahum",
+      "harbetsogh",
+      "yntanekan vech",
+      "lav mard"
+    ],
+    "catchphrases": [
+      "ա ինչ անենք դու էլ ամբողջ օրը տելեվիզր ես նայում հաղորդավարները դեմքով արդեն քեզ ճանաչում են"
+    ],
+    "topics": [
+      "family",
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

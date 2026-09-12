@@ -1,0 +1,71 @@
+{
+  "video_id": "2311QdBFp4o",
+  "seq": 566,
+  "kargin_id": 566,
+  "title": "Kargin Haghordum sketch 401 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "566_Kargin_Haghordum_sketch_401_Hayko_Mko_2311QdBFp4o.hy.json",
+    "visual": true
+  },
+  "input_chars": 1024,
+  "gen_sec": 4.43,
+  "prompt_tokens": 1514,
+  "output_tokens": 516,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002305,
+  "annotation": {
+    "title_hy": "Գագոյի և Վարդի զինվորական հրամանները",
+    "title_en": "Gago and Vard's Military Orders",
+    "summary_en": "A soldier in a barracks room practices strange physical movements and orders himself to change pace while talking to absent comrades named Gago and Vard.",
+    "summary_detailed_en": "The sketch takes place at night inside a dim military barracks room. A soldier wearing a camouflage uniform enters the room, which contains basic furniture and a bed covered with a floral blanket. The soldier begins a series of repetitive and slightly absurd physical actions alone. He changes out of his outer tunic into a traditional striped military undershirt and lies down on the bed, rolling around and adjusting his position frantically. Throughout the scene, he speaks as if addressing others who are not there, repeatedly urging 'Gag' (Gago) to go slower and then pleading with 'Vard' to hurry up and act faster. The humor stems from the character's internal conflict and strange behavior while solitary. At one point, he puts on a peaked officer's cap and begins barked commands at himself, shouting for the imaginary listeners to follow his orders. The sketch concludes with him performing a rhythmic 'one-two, one-two' drill, highlighting the psychological strain or absurdity of his nighttime routine in the army setting.",
+    "keywords_hy": [
+      "զինվոր",
+      "զորանոց",
+      "հրաման",
+      "Գագո",
+      "Վարդ",
+      "բանակ",
+      "քուն",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "soldier",
+      "barracks",
+      "military",
+      "orders",
+      "Gago",
+      "Vard",
+      "bed",
+      "army humor"
+    ],
+    "keywords_translit": [
+      "zinvor",
+      "zoranoc",
+      "hraman",
+      "Gago",
+      "Vard",
+      "banak",
+      "qun",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Գագ ջան այ տենց դանդաղ",
+      "Վարդ միքիչ արագ արա էլի Վարդ ջան",
+      "թողնել լսի հրամանս",
+      "1 2 1 2"
+    ],
+    "topics": [
+      "army"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

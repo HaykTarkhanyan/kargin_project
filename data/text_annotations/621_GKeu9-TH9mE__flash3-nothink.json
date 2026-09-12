@@ -1,0 +1,70 @@
+{
+  "video_id": "GKeu9-TH9mE",
+  "seq": 621,
+  "kargin_id": 621,
+  "title": "Kargin Haghordum sketch 543 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1409,
+  "gen_sec": 5.17,
+  "prompt_tokens": 1722,
+  "output_tokens": 582,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002607,
+  "annotation": {
+    "title_hy": "Տատիկը և թոռնիկի հարցերը",
+    "title_en": "Grandma and the Grandchild's Questions",
+    "summary_en": "A grandmother tries to hide the truth about the child's father by claiming he is Santa Claus, but a question about a neighbor's lover leads to a shocking discovery.",
+    "summary_detailed_en": "The sketch begins in a living room where an elderly woman (played by a male actor in drag) is busy mixing ingredients in a bowl. Her young granddaughter returns from school, boasting about her grades. The grandmother questions why she is late, and the girl explains that the teacher asked all the students about their parents' professions. The girl reveals she told the teacher she hasn't seen her father since she was little. When she asks what her father's job is, the grandmother inventively claims he is Santa Claus, who left the girl as a gift one night and departed. The conversation takes a turn when the girl mentions her classmate Armine, whose father is reportedly the neighbor's 'lover' (sirekan). As the girl asks for a definition of the word, the scene transitions into a physical sequence. The sketch concludes with a visual punchline: the grandmother opens a wardrobe closet only to recoil in horror at a skeleton prop wearing a wig hanging inside, implying a dark or absurd secret regarding the 'lovers' mentioned in the dialogue.",
+    "keywords_hy": [
+      "տատիկ",
+      "թոռնիկ",
+      "դպրոց",
+      "ձմեռ պապա",
+      "սիրեկան",
+      "կմախք",
+      "զգեստապահարան",
+      "ընտանիք"
+    ],
+    "keywords_en": [
+      "grandmother",
+      "grandchild",
+      "school grades",
+      "Santa Claus",
+      "lover",
+      "skeleton",
+      "wardrobe",
+      "family secret"
+    ],
+    "keywords_translit": [
+      "tatik",
+      "tornik",
+      "dproc",
+      "dzmer papa",
+      "sirekan",
+      "kmaxq",
+      "zgestapaharan",
+      "yntaniq"
+    ],
+    "catchphrases": [
+      "Սիրեկան"
+    ],
+    "topics": [
+      "family",
+      "school",
+      "neighbors"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

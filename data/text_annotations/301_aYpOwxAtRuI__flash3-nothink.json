@@ -1,0 +1,74 @@
+{
+  "video_id": "aYpOwxAtRuI",
+  "seq": 301,
+  "kargin_id": 301,
+  "title": "Kargin Haghordum sketch 462 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "301_Kargin_Haghordum_sketch_462_Hayko_Mko_aYpOwxAtRuI.it.json",
+    "visual": true
+  },
+  "input_chars": 1946,
+  "gen_sec": 8.27,
+  "prompt_tokens": 1918,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002849,
+  "annotation": {
+    "title_hy": "Ծույլ հայրը և մանկական սրճարանը",
+    "title_en": "The Lazy Father and the Kid's Cafe",
+    "summary_en": "A lazy father is nagged by his wife to take their son out, but he ends up taking the boy to a bar so he can drink alcohol instead.",
+    "summary_detailed_en": "The sketch begins in a domestic living room where a lazy, mustached father (Argisht) is lounging on the couch. His wife, dressed in a floral top, berates him for his unemployment and lack of involvement with their son, Abulo. She mocks him for still wearing his wedding shoes and complains that the neighbors think the boy is an orphan. Under pressure, Argisht agrees to take the boy to a 'children's cafe.' He puts on a leather jacket and they leave the apartment. The scene shifts to a dimly lit bar or restaurant featuring an arcade machine. Instead of a child-friendly environment, the father sits at the bar drinking whiskey or beer. When his son asks if they can get some ice cream to go with the outing, the father delivers the punchline, reprimanding the boy by asking if he is crazy for wanting ice cream right after drinking beer, implying he is treating the child like a drinking buddy.",
+    "keywords_hy": [
+      "ծույլ ամուսին",
+      "ընտանիք",
+      "գարեջուր",
+      "պիվա",
+      "մանկական կաֆե",
+      "հայր և որդի",
+      "մուրաբա",
+      "կոշիկ",
+      "դիվան"
+    ],
+    "keywords_en": [
+      "lazy husband",
+      "family argument",
+      "beer",
+      "kids cafe",
+      "father and son",
+      "jam",
+      "wedding shoes",
+      "couch potato",
+      "bar"
+    ],
+    "keywords_translit": [
+      "tsuyl amusin",
+      "yntaniq",
+      "garejur",
+      "piva",
+      "mankakan kafe",
+      "hayr ev ordi",
+      "muraba",
+      "koshik",
+      "divan"
+    ],
+    "catchphrases": [
+      "Պապ արի մառոժնի էլ վերցնենք էլի:",
+      "Տղա ջան գժվել ես, պիվից հետո ինչ մառոժնի:"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

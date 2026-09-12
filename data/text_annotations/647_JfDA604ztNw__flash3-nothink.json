@@ -1,0 +1,69 @@
+{
+  "video_id": "JfDA604ztNw",
+  "seq": 647,
+  "kargin_id": 647,
+  "title": "Kargin Haghordum sketch 590 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "647_Kargin_Haghordum_sketch_590_Hayko_Mko_JfDA604ztNw.ru.json",
+    "visual": true
+  },
+  "input_chars": 3301,
+  "gen_sec": 5.83,
+  "prompt_tokens": 2496,
+  "output_tokens": 713,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003387,
+  "annotation": {
+    "title_hy": "Հիվանդին թվում է",
+    "title_en": "The Patient Seems to Think",
+    "summary_en": "A doctor instructs a nurse to always describe patients' complaints as mere illusions, leading to a grimly literal punchline when a patient passes away.",
+    "summary_detailed_en": "Set in a desaturated hospital corridor, the sketch begins with a mustached surgeon in green surgical gear finishing a phone call where he gives restrictive health advice, including only having sex once a month. He is approached by a long-haired nurse (a male comedian in drag with lipstick and a white cap). The nurse reports that the patient in Room 6 is in a worsening condition. The surgeon, Robert Artsrunovich, dismisses this, explaining that patients have a habit of exaggerating their suffering. He strictly instructs the nurse never to say a patient is in pain or has a fever, but rather to say 'it seems to the patient' that they are in pain or have a fever. He insists that as doctors, they know the reality while patients only have perceptions. The scene transitions to the next morning. The surgeon greets the nurse and asks how the night shift went and how the patient in Room 6 is doing. The nurse, following the doctor's semantic rules perfectly, calmly reports that 'it seems to the patient in Room 6 that he has died.' The sketch ends with the visual of a sheet-covered body being wheeled past on a gurney.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "բժիշկ",
+      "բուժքույր",
+      "ախտորոշում",
+      "հերթապահություն",
+      "մահացած հիվանդ",
+      "հիվանդին թվում է",
+      "սեքսը կնոջ հետ"
+    ],
+    "keywords_en": [
+      "hospital",
+      "doctor",
+      "nurse",
+      "diagnosis",
+      "night shift",
+      "dead patient",
+      "patient thinks",
+      "medical humor"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "bjishk",
+      "bujquyr",
+      "axtoroshum",
+      "hertapahutyun",
+      "mahacac hivand",
+      "hivandin tvum e",
+      "sex@ knoj het"
+    ],
+    "catchphrases": [
+      "Ընկեր ջան ախր  ես էլ քեզ էտ եմ ասում ծխել չի կարելի,խմել չի կարելի,յուղոտ բաներ ուտել չի կարելի,սեքսը մենակ սեփական կնոջ հետ,ինչի սեփական կնոջ հետ որովհետև ամիսը մեկ անգամից ավել չի կարելի"
+    ],
+    "topics": [
+      "medical",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "jLZNtQKFoAc",
+  "seq": 460,
+  "kargin_id": 460,
+  "title": "Kargin Haghordum sketch 085 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "460_Kargin_Haghordum_sketch_085_Hayko_Mko_jLZNtQKFoAc.hy.json",
+    "visual": true
+  },
+  "input_chars": 2301,
+  "gen_sec": 4.58,
+  "prompt_tokens": 2173,
+  "output_tokens": 577,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002818,
+  "annotation": {
+    "title_hy": "Գրաֆիկով չհանդիպելը",
+    "title_en": "Not Meeting According to Schedule",
+    "summary_en": "A husband attempts to break up with his wife by proposing a schedule of months when they will 'absolutely not meet,' using complex logic to maintain the relationship.",
+    "summary_detailed_en": "The sketch takes place in a small kitchen where a wife, wearing a red bob wig and a pink satin dressing gown (played by a male actor in drag), is confronted by her husband in a red checkered shirt. The scene is introduced by an elderly narrator with tinted glasses and a cane sitting in a dark room. The husband initially declares that their relationship is over and they must stop meeting, fearing her husband (referenced as 'Kesar') might catch them. However, when the wife threatens to expose their 'dealings' to the entire building, the husband quickly shifts tactics. He proposes a compromise: they will indeed stop meeting, but strictly according to a monthly schedule. He absurdly lists months like January, February, and March as times they will 'not meet,' while physically crowding her against the kitchen wall. He even offers 'spring discounts' for April and May, extending the convoluted logic through the school season and New Year. The sketch concludes with the elderly narrator addressing the camera from a bright hallway, commenting on the ridiculous nature of the argument.",
+    "keywords_hy": [
+      "կին և ամուսին",
+      "գրաֆիկ",
+      "ամիսներ",
+      "կռիվ",
+      "խայտառակ",
+      "զեղչ",
+      "խոհանոց"
+    ],
+    "keywords_en": [
+      "husband and wife",
+      "schedule",
+      "months",
+      "argument",
+      "scandal",
+      "discount",
+      "kitchen"
+    ],
+    "keywords_translit": [
+      "kin ev amusin",
+      "grafik",
+      "amisner",
+      "kriv",
+      "xaytarrak",
+      "zexj",
+      "xohanoc"
+    ],
+    "catchphrases": [
+      "մեր մեջ ինչ եղել չի եղել անցել գնացել ա",
+      "գարնանային զեղչ ցավդ տանեմ"
+    ],
+    "topics": [
+      "family",
+      "neighbors"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "87QkHyAc5HA",
+  "seq": 384,
+  "kargin_id": 384,
+  "title": "Kargin Haghordum - Intelekt (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "384_Kargin_Haghordum_-_Intelekt_Hayko_Mko_87QkHyAc5HA.hy.json",
+    "visual": true
+  },
+  "input_chars": 2152,
+  "gen_sec": 7.07,
+  "prompt_tokens": 2087,
+  "output_tokens": 646,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002981,
+  "annotation": {
+    "title_hy": "Ինտելեկտի Ուժը",
+    "title_en": "The Power of Intellect",
+    "summary_en": "Two ditch-diggers question why their boss earns ten times more while lounging in the shade, only to receive a painful physical lesson on the meaning of 'intellect.'",
+    "summary_detailed_en": "In a sunny orchard, two laborers—one wearing a red baseball cap and the other a black mop-cut wig—are exhausted from digging a hole with shovels. They notice their boss, a man dressed in a light-colored suit and sunglasses, sitting comfortably in a folding chair by his blue SUV, drinking water and enjoying the shade. Frustrated by the inequality, one worker, Bobol, decides to confront the boss about why he earns ten times more money for doing no physical labor. The boss explains that the difference lies in 'intellect.' To demonstrate, the boss places his hand against a tree trunk and tells Bobol to punch it as hard as he can. Right as Bobol swings, the boss moves his hand, causing Bobol to smash his fist into the tree. Returning to the pit, Bobol tries to explain the concept to his coworker. Lacking a tree, Bobol places his own hand over his face and tells his partner to hit it with a shovel as hard as he can. He pulls his hand away at the last second, leading to his partner being knocked unconscious by the shovel. The sketch ends with the partner lying face-down in the grass.",
+    "keywords_hy": [
+      "բանվոր",
+      "փոս փորել",
+      "ինտելեկտ",
+      "շեֆ",
+      "լապատկա",
+      "աշխատանք",
+      "անարդարություն",
+      "հիմարություն"
+    ],
+    "keywords_en": [
+      "laborer",
+      "ditch digging",
+      "intellect",
+      "boss",
+      "shovel",
+      "workplace inequality",
+      "intellectual superiority",
+      "physical comedy"
+    ],
+    "keywords_translit": [
+      "banvor",
+      "pos pvorel",
+      "intelekt",
+      "shef",
+      "lapatka",
+      "ashkhatank",
+      "anardarutyun",
+      "himarutyun"
+    ],
+    "catchphrases": [
+      "էս անարդարության պատճառը ինտելեկտն ա",
+      "Լսի հլը բոբոլիկ",
+      "ինչքան ուժ ունես խփի"
+    ],
+    "topics": [
+      "work",
+      "village"
+    ],
+    "humor_type": [
+      "slapstick",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "video_id": "oLDjVa73B4o",
+  "seq": 650,
+  "kargin_id": 650,
+  "title": "Kargin Haghordum sketch 593 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "650_Kargin_Haghordum_sketch_593_Hayko_Mko_oLDjVa73B4o.tr.json",
+    "visual": true
+  },
+  "input_chars": 2049,
+  "gen_sec": 5.35,
+  "prompt_tokens": 1999,
+  "output_tokens": 473,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002419,
+  "annotation": {
+    "title_hy": "Խանութի անհատական մոտեցումը",
+    "title_en": "Individual Store Approach",
+    "summary_en": "A customer is frustrated by an overly bureaucratic hardware store where every minute detail requires moving to a different department, only to reveal his urgent need for toilet paper.",
+    "summary_detailed_en": "The sketch takes place in a large hardware and construction supplies store. A man in a suit, identifying himself as the manager, greets a customer and boasts about the store's 'individual approach' to every client. When the customer asks for laundry detergent, he is sent to another department. There, a female clerk starts the same scripted greeting, but the customer interrupts. The process repeats through several sections: he must specify if it is for hand washing or automatic machines, then for white or colored clothes, and finally for synthetic or cotton fabrics. Each choice requires moving to a new employee. In the final scene, set against stacks of cement bags and plumbing supplies, the customer reaches his breaking point. He reveals he is carrying a toilet bowl and points to various bathroom fixtures, losing his temper. In a crude punchline, he shouts that he has already shown his backside to the staff and demands that they just give him a roll of toilet paper immediately.",
+    "keywords_hy": [
+      "խանութ",
+      "վաճառող",
+      "լվացքի փոշի",
+      "զուգարանի թուղթ",
+      "անհատական մոտեցում",
+      "բյուրոկրատիա",
+      "շինանյութ"
+    ],
+    "keywords_en": [
+      "store",
+      "clerk",
+      "laundry detergent",
+      "toilet paper",
+      "individual approach",
+      "bureaucracy",
+      "hardware store"
+    ],
+    "keywords_translit": [
+      "xanut",
+      "vacharox",
+      "lvatsqi poshi",
+      "zugarani tuxt",
+      "anhatakan motecum",
+      "byurokratia",
+      "shinanyut"
+    ],
+    "catchphrases": [
+      "Ընձի մի հատ զուգարանի թուղթ տվեք արա։"
+    ],
+    "topics": [
+      "shop_market",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

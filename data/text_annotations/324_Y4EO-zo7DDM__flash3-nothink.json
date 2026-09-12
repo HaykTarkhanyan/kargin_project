@@ -1,0 +1,71 @@
+{
+  "video_id": "Y4EO-zo7DDM",
+  "seq": 324,
+  "kargin_id": 324,
+  "title": "Kargin Haghordum sketch 286 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "324_Kargin_Haghordum_sketch_286_Hayko_Mko_Y4EO-zo7DDM.hy.json",
+    "visual": true
+  },
+  "input_chars": 3750,
+  "gen_sec": 14.85,
+  "prompt_tokens": 3220,
+  "output_tokens": 626,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003488,
+  "annotation": {
+    "title_hy": "Գոմիկավան գյուղի անունը",
+    "title_en": "The Village of Gomikavan",
+    "summary_en": "Two friends driving toward Meghri stop in a village with a suspicious name to ask a local farmer why it's called 'Gomikavan'.",
+    "summary_detailed_en": "The sketch begins with two friends driving a black SUV toward Meghri, discussing their plans to clear the car through customs (rastamozhnya) with the help of some connections. Suddenly, they notice a village sign that shocks them: 'Gomikavan'. Intrigued and confused by the name's implication, they decide to enter the village and investigate the origin of the name. They pull up to a farmhouse where an older, mustached farmer is working in a yard with a grapevine trellis and a hoe. The men greet him respectfully, clarifying they aren't lost or looking for trouble, but are simply dying to know why the village is named Gomikavan. The farmer admits he has no idea, despite living there since Soviet times. He calls out to his spouse for answers, using masculine terms of address like 'Sako' and 'akhpers' (my brother), despite referring to her as his wife. A person appears, and they all eventually head inside for coffee, leaving the mystery of the village's name unanswered but highlighting the bizarre local vernacular where everyone addresses each other as 'brother'.",
+    "keywords_hy": [
+      "Գոմիկավան",
+      "Մեղրի",
+      "գյուղ",
+      "ռաստամոժնյա",
+      "հոպար",
+      "ախպեր",
+      "ճանապարհ",
+      "գյուղացի"
+    ],
+    "keywords_en": [
+      "Gomikavan",
+      "Meghri",
+      "village name",
+      "customs clearance",
+      "farmer",
+      "brother",
+      "road trip",
+      "village life"
+    ],
+    "keywords_translit": [
+      "Gomikavan",
+      "Meghri",
+      "gegh",
+      "rastamozhnya",
+      "hopar",
+      "axper",
+      "chanaparh",
+      "gyughaci"
+    ],
+    "catchphrases": [
+      "Հա էլի, խի էլի",
+      "աղջի Սաքո, հըլը արի ախպերս"
+    ],
+    "topics": [
+      "village",
+      "transport",
+      "family"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

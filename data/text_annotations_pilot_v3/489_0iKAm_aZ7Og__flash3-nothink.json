@@ -1,0 +1,72 @@
+{
+  "video_id": "0iKAm_aZ7Og",
+  "seq": 489,
+  "kargin_id": 489,
+  "title": "Kargin Haghordum sketch 117 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "489_Kargin_Haghordum_sketch_117_Hayko_Mko_0iKAm_aZ7Og.en.json",
+    "visual": true
+  },
+  "input_chars": 3305,
+  "gen_sec": 5.55,
+  "prompt_tokens": 2631,
+  "output_tokens": 688,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003379,
+  "annotation": {
+    "title_hy": "Հոգեբուժարանի Մեռելը",
+    "title_en": "The Corpse in the Psych Ward",
+    "summary_en": "A patient in a psychiatric hospital is convinced he is a corpse, but when a doctor pricks his finger and draws blood, he draws a bizarrely logical conclusion.",
+    "summary_detailed_en": "The sketch takes place in a psychiatric ward day room filled with bookshelves and chess sets. In the first scene, the patients, wearing striped pajamas and makeshift paper hats, are highly agitated. One patient insists on having 'walnuts and sour cream' for vitamins, claiming he cannot smoke. A group of patients attempts to stage a theatrical performance for a doctor they call 'Pargev,' introducing themselves with grand names like Malkhas and Barkhudarov. They carry out a 'funeral' for a patient named Koryun who has convinced himself he is dead. In the second scene, a doctor sits across from Koryun to debunk his delusion. The doctor asks if corpses have circulating blood, to which Koryun confidently replies 'no.' To prove a point, the doctor pricks Koryun's finger, causing it to bleed. Instead of realizing he is alive, Koryun gasps in shock and concludes that he was simply wrong about biology, exclaiming that it turns out dead bodies actually do have flowing blood.",
+    "keywords_hy": [
+      "հոգեբուժարան",
+      "գիժ",
+      "բժիշկ",
+      "մեռել",
+      "արյուն",
+      "պոպոք ու սմետան",
+      "ներկայացում",
+      "ախտորոշում"
+    ],
+    "keywords_en": [
+      "psychiatric ward",
+      "madman",
+      "doctor",
+      "corpse",
+      "blood",
+      "walnuts and sour cream",
+      "performance",
+      "diagnosis"
+    ],
+    "keywords_translit": [
+      "hogebujaran",
+      "gizh",
+      "bzhishk",
+      "merel",
+      "aryun",
+      "popok u smetan",
+      "nerkayacum",
+      "axtoroshum"
+    ],
+    "catchphrases": [
+      "ինձի պոպոք ու սմետան տվեք պոպոք ու սմետանը այ սենց վիտամինա",
+      "բժիշկ ջան քո համար մի հատ ահասառսուռ ներկայացում ենք հորինել",
+      "փաստօրեն ես սխալվում էի բժիշկ դիակի մեջ արյուն հոսումա"
+    ],
+    "topics": [
+      "medical",
+      "law_court",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "video_id": "9UhfhxILg4o",
+  "seq": 520,
+  "kargin_id": 520,
+  "title": "Kargin Haghordum sketch 154 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2004,
+  "gen_sec": 10.86,
+  "prompt_tokens": 2062,
+  "output_tokens": 654,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002993,
+  "annotation": {
+    "title_hy": "Էքստրիմալ տուրիզմ և ավտոտրենինգ",
+    "title_en": "Extreme Tourism and Auto-training",
+    "summary_en": "A group of freezing tourists huddled in the snowy mountains is led through a psychological 'warming' exercise by their guide, which takes an unexpected turn.",
+    "summary_detailed_en": "The sketch takes place on a snowy, freezing mountainside where four men are huddled closely together, wrapped in heavy blankets and colorful winter hats. The tourists are shivering and complaining about the lack of firewood and the high price they paid for this 'vacation,' threatening to complain to the club's management once they return to the city. One man, acting as their guide, insists that this is the essence of extreme tourism and claims he has survived days in the mountains without heat. To warm them up without a fire, he suggests a session of 'auto-training.' He instructs everyone to take off their sunglasses, close their eyes, and visualize themselves in the scorching Sahara Desert at 50 degrees Celsius. He describes the intense heat where sweat evaporates before reaching the ground and saliva vanishes mid-air. He describes a caravan of camels in the distance, focusing on one camel approaching them under the blistering sun. As the tourists become engrossed in the imagery, the guide describes the camel collapsing onto the glowing hot sand from the heat, but ends with the absurd punchline that the camel starts to feel cold.",
+    "keywords_hy": [
+      "էքստրիմալ տուրիզմ",
+      "սարեր",
+      "ձյուն",
+      "ցուրտ",
+      "ավտոտրենինգ",
+      "անապատ",
+      "ուղտ",
+      "արշավ",
+      "զբոսաշրջիկ"
+    ],
+    "keywords_en": [
+      "extreme tourism",
+      "mountains",
+      "snow",
+      "cold",
+      "auto-training",
+      "desert",
+      "camel",
+      "hiking",
+      "tourist"
+    ],
+    "keywords_translit": [
+      "ekstremal turizm",
+      "sarer",
+      "dzyun",
+      "tsurt",
+      "avtotrening",
+      "anapat",
+      "ught",
+      "arshav",
+      "zbosashrjik"
+    ],
+    "catchphrases": [
+      "անապատի արև",
+      "շիկացած ավազ",
+      "ուղտերի քարավան",
+      "ու սկսում ա մրսել"
+    ],
+    "topics": [
+      "leisure_outing",
+      "transport",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

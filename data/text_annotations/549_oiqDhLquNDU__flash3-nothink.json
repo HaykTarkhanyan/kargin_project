@@ -1,0 +1,70 @@
+{
+  "video_id": "oiqDhLquNDU",
+  "seq": 549,
+  "kargin_id": 549,
+  "title": "Kargin Haghordum sketch 181 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "549_Kargin_Haghordum_sketch_181_Hayko_Mko_oiqDhLquNDU.hy.json",
+    "visual": true
+  },
+  "input_chars": 4915,
+  "gen_sec": 14.26,
+  "prompt_tokens": 3684,
+  "output_tokens": 657,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003813,
+  "annotation": {
+    "title_hy": "Աշխատասեր Հայրիկն ու Որդին",
+    "title_en": "The Hardworking Father and Son",
+    "summary_en": "A soldier returns from the army to discuss marriage with his father, only to discover that every local girl he likes is actually his half-sister due to his father's 'hard work' with the neighbors.",
+    "summary_detailed_en": "The sketch begins in a domestic setting where a young man in a military uniform returns home from his service. He is greeted with extreme excitement by his father and a female family member (played by a male comedian in drag), who fuss over how thin he has become. Once they settle in a room filled with bookshelves, the father encourages his son to get married and asks if he has a sweetheart. The son mentions Luso, the daughter of a neighbor named Sirush. The father dejectedly explains that during the Soviet era, he was very 'hardworking' and spent his nights at Sirush's house while her husband was away; therefore, Luso is the son's half-sister. The son then suggests Vardushik, another neighbor's daughter, but the father repeats the same story about his 'hardworking' nature at that house too, revealing she is also a half-sister. Finally, the mother (played by a male comedian in drag) enters and tells the boy he can marry whoever he wants because those girls aren't actually his sisters—revealing through a final punchline that she was also quite 'hardworking' in her youth, implying the son is not the father's biological child.",
+    "keywords_hy": [
+      "բանակ",
+      "զինվոր",
+      "հարևան",
+      "ամուսնություն",
+      "դավաճանություն",
+      "քույր",
+      "աշխատասեր",
+      "հայր ու որդի"
+    ],
+    "keywords_en": [
+      "army",
+      "soldier",
+      "neighbor",
+      "marriage",
+      "infidelity",
+      "sister",
+      "hardworking",
+      "father and son"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zinvor",
+      "harevan",
+      "amusnutyun",
+      "davachanutyun",
+      "quyr",
+      "ashkhataser",
+      "hayr u ordi"
+    ],
+    "catchphrases": [
+      "Որովհետև տղա ջան, ջահել ժամանակ ես էլ նենց ոչինչ աշխատասեր աղջիկ էի"
+    ],
+    "topics": [
+      "family",
+      "army",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

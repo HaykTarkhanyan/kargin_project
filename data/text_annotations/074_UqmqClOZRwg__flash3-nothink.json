@@ -1,0 +1,69 @@
+{
+  "video_id": "UqmqClOZRwg",
+  "seq": 74,
+  "kargin_id": 74,
+  "title": "Kargin Haghordum sketch 668 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2378,
+  "gen_sec": 14.74,
+  "prompt_tokens": 2332,
+  "output_tokens": 621,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003029,
+  "annotation": {
+    "title_hy": "Կախարդ տատիկը և երեք ցանկությունները",
+    "title_en": "The Witch Grandma and Three Wishes",
+    "summary_en": "A kind villager shares his meal with a hungry old woman who reveals she is a witch, but he wastes all three wishes on the same historical hero.",
+    "summary_detailed_en": "In a rural field surrounded by pine woods, a mustached man in traditional village attire is eating when he encounters an old woman (played by a male actor in drag) dressed in black with a headscarf and a walking cane. The woman claims she hasn't eaten in ten days, and the kind man offers her his food. Touched by his generosity, the woman reveals she is a witch and offers to grant him three wishes. Instead of asking for wealth or cars, the man expresses a poetic desire to witness the spirit of Armenian history. He asks to see the legendary general Vardan Mamikonyan run past from a distance. The witch reluctantly obliges, calling out the hero's name. For his second wish, the man asks to see the same hero run by even closer to feel his heroic spirit. The witch complies again but calls the request 'rubbish.' When the man uses his final wish to ask for Vardan Mamikonyan to pass by a third time, right in front of his face, the witch loses her patience. She shouts at him, asking if he knows the name of any other hero, ending the encounter on a note of frustration at his repetitive imagination.",
+    "keywords_hy": [
+      "կախարդ",
+      "տատիկ",
+      "երեք ցանկություն",
+      "Վարդան Մամիկոնյան",
+      "գյուղացի",
+      "հերոս",
+      "ուտելիք",
+      "բարություն"
+    ],
+    "keywords_en": [
+      "witch",
+      "grandma",
+      "three wishes",
+      "Vardan Mamikonyan",
+      "villager",
+      "hero",
+      "food",
+      "kindness"
+    ],
+    "keywords_translit": [
+      "kaxard",
+      "tatik",
+      "ereq cankutyun",
+      "Vardan Mamikonyan",
+      "gyughaci",
+      "heros",
+      "uteliqu",
+      "barutyun"
+    ],
+    "catchphrases": [
+      "Էլ ուրիշ հերոսի անուն չգիտես"
+    ],
+    "topics": [
+      "village",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "VZcxFrT4BKk",
+  "seq": 695,
+  "kargin_id": 695,
+  "title": "Kargin Haghordum sketch 569 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2431,
+  "gen_sec": 5.58,
+  "prompt_tokens": 2180,
+  "output_tokens": 694,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003172,
+  "annotation": {
+    "title_hy": "Սեքսապատոլոգի մոտ",
+    "title_en": "At the Sexologist",
+    "summary_en": "A woman explains to a sexologist that her lack of intimacy with her husband is caused by her exhausting 'payment methods' for daily expenses, leading the doctor to offer the same deal.",
+    "summary_detailed_en": "The sketch takes place in a doctor's consulting room where a mustached doctor in blue scrubs and glasses is initially seen fiddling with his mobile phone. A heavyset male patient in a black Adidas jacket enters with his wife (an old woman in a white curly wig and purple jacket, played by a male actor in drag). The doctor identifies that they are visiting a sexologist due to problems in their intimate life and asks who is to blame. The husband blames the wife, and the doctor asks him to step out to speak with her privately. The wife explains that their financial situation deteriorated, but she refused to give up her lifestyle, such as taking taxis. She reveals that whenever she lacks money for the taxi, the driver asks, 'Are you paying, or what?' to which she chooses 'or what.' This pattern repeats with her boss when she is late, the taxi driver on the way home, and the electrician regarding the utility bill. By the time she reaches her husband, she is physically exhausted. After hearing the long list of her sexual barters, the doctor leans forward and delivers the punchline, mirroring the others: 'Should I tell your husband this story, or what?'",
+    "keywords_hy": [
+      "սեքսապատոլոգ",
+      "բժիշկ",
+      "տաքսի",
+      "փող չկա",
+      "կարգին հաղորդում",
+      "հայկո մկո",
+      "դիալոգ",
+      "թե ոնց"
+    ],
+    "keywords_en": [
+      "sexologist",
+      "doctor",
+      "taxi driver",
+      "no money",
+      "Kargin Haghordum",
+      "Hayko Mko",
+      "barter",
+      "or what"
+    ],
+    "keywords_translit": [
+      "sexapatolog",
+      "bzhishk",
+      "taksi",
+      "pogh chka",
+      "kargin haghordum",
+      "hayko mko",
+      "dialog",
+      "te vonc"
+    ],
+    "catchphrases": [
+      "հիմա փող եք տալու թե ոնց",
+      "հիմա ուշացման համար քեզ գործից հանեմ թե ոնց",
+      "Լսի հլը հիմա էս պատմությունները ամուսնուդ պատմում եմ թե ոնց"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "video_id": "vjxy9-s0sqU",
+  "seq": 343,
+  "kargin_id": 343,
+  "title": "Kargin Haghordum sketch 510 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "343_Kargin_Haghordum_sketch_510_Hayko_Mko_vjxy9-s0sqU.hy.json",
+    "visual": true
+  },
+  "input_chars": 2994,
+  "gen_sec": 5.75,
+  "prompt_tokens": 2669,
+  "output_tokens": 720,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003495,
+  "annotation": {
+    "title_hy": "Կարգին քարտուղարուհու փնտրտուք",
+    "title_en": "Searching for a Proper Secretary",
+    "summary_en": "A boss and his assistant review candidates for a secretary position, prioritizing physical appearance and lack of education over professional skills.",
+    "summary_detailed_en": "The sketch takes place in a formal office setting where a mustached businessman sits at his desk, flanked by an Armenian flag. He is consulting with a stern, older female assistant wearing eyeglasses and a black shawl. They are reviewing resumes for a new secretary. The boss dismisses one candidate as looking like a church choir singer with crooked legs, and mistakenly reads a phone number as body measurements. They call in the next candidate, Arevik Stepanyan, who enters the office wearing a tight, short red dress and stockings. The boss is immediately infatuated with her appearance, asking for her height and 'square meters' (measurements). When she answers 90-60-90, he is thrilled. After she leaves, the boss praises her for only having a high school education and knowing no foreign languages, calling it 'perfect.' However, the assistant reveals a shocking detail: the woman is married with four children. The boss is stunned, noting that she doesn't look like she has four kids, before realizing the assistant meant the boss himself is the one with the family obligations.",
+    "keywords_hy": [
+      "քարտուղարուհի",
+      "գրասենյակ",
+      "հարցազրույց",
+      "չափսեր",
+      "90-60-90",
+      "կրթություն",
+      "աշխատանք",
+      "տնօրեն"
+    ],
+    "keywords_en": [
+      "secretary",
+      "office",
+      "interview",
+      "measurements",
+      "90-60-90",
+      "education",
+      "job search",
+      "boss"
+    ],
+    "keywords_translit": [
+      "qartugharuhi",
+      "grasenyak",
+      "hartsazruyts",
+      "chapsher",
+      "90-60-90",
+      "krtutyun",
+      "ashkhatank",
+      "tnoren"
+    ],
+    "catchphrases": [
+      "էտի ոնց որ եկեղեցու խոռի երգչուհի լինի,էդ դրա ոտերը հաստատ ծուռա",
+      "Բարևիկ, բարևիկ,կարմիր Արևիկ",
+      "ունի միջնակարգ կրթություն,լավա,  ոչ մի լեզվի չի տիրապետում, ընտիրա",
+      "Ամուսնացած, չորս երեխա"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

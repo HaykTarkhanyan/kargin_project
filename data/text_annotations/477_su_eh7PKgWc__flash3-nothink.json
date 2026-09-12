@@ -1,0 +1,72 @@
+{
+  "video_id": "su_eh7PKgWc",
+  "seq": 477,
+  "kargin_id": 477,
+  "title": "Kargin Haghordum sketch 105 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "477_Kargin_Haghordum_sketch_105_Hayko_Mko_su_eh7PKgWc.hy.json",
+    "visual": true
+  },
+  "input_chars": 2678,
+  "gen_sec": 5.58,
+  "prompt_tokens": 2503,
+  "output_tokens": 524,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002824,
+  "annotation": {
+    "title_hy": "Գյուղի հյուրասիրությունը",
+    "title_en": "Village Hospitality",
+    "summary_en": "A city driver gets lost and is invited by hospitable villagers to a drinking session, only to discover their dark traditions regarding those who pass out.",
+    "summary_detailed_en": "The sketch begins with a city man in a car who has lost his way to Goris. He stops to ask for directions from a local villager. The villager, wearing a beanie, insists that since city visitors are rare, he must come and enjoy local hospitality. They move to an outdoor picnic setting under some trees where other villagers (one wearing a beret) are gathered around a table with drinks and food. The host proposes a series of confusing, traditional toasts about the 'village emblem.' The city guest, trying to be polite, drinks multiple shots of potent 'mulberry vodka' despite the bizarre atmosphere. Suddenly, one of the villagers faints (passes out). The guest watches in horror as the others drag the unconscious man away. When he asks where they took him, the villager calmly explains that since there are no women in the village, they take anyone who passes out to be gang-raped as a group activity before bringing them back. Horrified but drunk, the city man tries to school them on how to drink properly without fainting. However, the strong alcohol hits him, and he passes out too. The final scene shows the dazed man lying on a rug in a field, realizing the villagers are carrying him away to fulfill their dark tradition as they 'bring him back.'",
+    "keywords_hy": [
+      "գյուղ",
+      "հյուրասիրություն",
+      "խմել",
+      "արաղ",
+      "բռնաբարություն",
+      "Գորիս",
+      "ճանապարհ",
+      "թամադա"
+    ],
+    "keywords_en": [
+      "village",
+      "hospitality",
+      "drinking",
+      "vodka",
+      "rape",
+      "Goris",
+      "road",
+      "toastmaster"
+    ],
+    "keywords_translit": [
+      "gyugh",
+      "hyurasirutyun",
+      "xmel",
+      "aragh",
+      "brnabarutyun",
+      "Goris",
+      "chanaparh",
+      "tamada"
+    ],
+    "catchphrases": [
+      "Հենա մեր գեղովը 1000-ից մեկ ա քաղաքացի անցնում",
+      "Մեր գեղումը կնանիկ չկա",
+      "տանում ենք մի հատ հավեսով բռնաբարում ենք ու հետ ենք բերում"
+    ],
+    "topics": [
+      "village",
+      "drinking",
+      "transport"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

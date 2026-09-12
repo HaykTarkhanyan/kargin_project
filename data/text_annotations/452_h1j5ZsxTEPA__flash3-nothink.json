@@ -1,0 +1,70 @@
+{
+  "video_id": "h1j5ZsxTEPA",
+  "seq": 452,
+  "kargin_id": 452,
+  "title": "Kargin Haghordum sketch 077 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1381,
+  "gen_sec": 5.32,
+  "prompt_tokens": 1740,
+  "output_tokens": 591,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002643,
+  "annotation": {
+    "title_hy": "Կամանդիրովկից շուտ վերադարձած տանտերը",
+    "title_en": "Returning Home One Day Early",
+    "summary_en": "A man returns home early from a business trip only to find a stranger in a bathrobe living in his house who refuses to let him in until the next day.",
+    "summary_detailed_en": "The sketch takes place outdoors at the stone gate of a countryside house. A man dressed in a formal trench coat and tie arrives by car, presumably returning from a business trip. He is met at the gate by another man wearing a colorful plaid bathrobe and a mustache, who acts as if he owns the place. When the man in the trench coat identifies himself as the homeowner returning from a 'kamandirovka' (business trip), the man in the bathrobe calls out to a woman named Alvart inside the house. He mockingly tells her that someone claiming to be her husband, Sashik, has arrived. Instead of welcoming him, the man in the bathrobe tells Sashik that he has arrived one day too early and needs to 'get lost' and come back tomorrow. Even when the homeowner pleads that he has nowhere else to go and is extremely hungry, the stranger only offers him day-old borscht to take away, insistently closing the gate on him until the scheduled return date.",
+    "keywords_hy": [
+      "կամանդիրովկա",
+      "տանտեր",
+      "դավաճանություն",
+      "բորշ",
+      "հյուր",
+      "խանդ",
+      "Սաշիկ",
+      "դարպաս"
+    ],
+    "keywords_en": [
+      "business trip",
+      "homeowner",
+      "infidelity",
+      "borscht",
+      "stranger",
+      "gate",
+      "returning early",
+      "bathrobe"
+    ],
+    "keywords_translit": [
+      "kamandirovka",
+      "tanter",
+      "davachanutyun",
+      "borsh",
+      "hyur",
+      "xand",
+      "Sashik",
+      "darpas"
+    ],
+    "catchphrases": [
+      "ապեր մի օրվա բորշ կուտես հա դե վաղը կգաս չէ չէ չէէէէ"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

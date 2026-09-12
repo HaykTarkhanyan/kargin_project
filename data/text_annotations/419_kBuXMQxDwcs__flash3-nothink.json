@@ -1,0 +1,72 @@
+{
+  "video_id": "kBuXMQxDwcs",
+  "seq": 419,
+  "kargin_id": 419,
+  "title": "Kargin Haghordum - Qaxmas (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "419_Kargin_Haghordum_-_Qaxmas_Hayko_Mko_kBuXMQxDwcs.hy.json",
+    "visual": true
+  },
+  "input_chars": 2025,
+  "gen_sec": 9.41,
+  "prompt_tokens": 2103,
+  "output_tokens": 614,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002893,
+  "annotation": {
+    "title_hy": "Ոստիկանական հարցաքննություն",
+    "title_en": "Police Interrogation",
+    "summary_en": "A frustrated police officer tries to extract a witness statement or confession from two uncooperative and seemingly dim-witted suspects.",
+    "summary_detailed_en": "The sketch is filmed with a distinctive green night-vision aesthetic, set in a dimly lit police office equipped with old rotary telephones, a desk lamp, and a wall calendar. A mustached police officer is interrogating a suspect nicknamed 'Bantik', who keeps insisting he saw a murder victim on a date that is chronologically impossible, given the victim was in America. The officer expresses his frustration, mentioning how he was beaten by his superiors because of the suspect's stupidity. Growing tired of the contradictions, the officer orders his subordinate, Mazmanyan, to take the 'ox' away and bring in the next 'animal'. The second suspect, referred to as Vachapnyak, enters. The officer tries a 'fresh start' approach, offering him a pen and paper to write a confession. When the suspect refuses, claiming he is not a 'writer', the officer sarcastically suggests he 'sing' (snitch) instead. The scene escalates as the officer loses his temper, boasting that even non-writers become newspaper editors after his interrogations, before ultimately forcing the suspect into submission.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "հարցաքննություն",
+      "վկա",
+      "քննիչ",
+      "հանցագործություն",
+      "բանտիկ",
+      "ծեծ",
+      "խոստովանություն"
+    ],
+    "keywords_en": [
+      "police",
+      "interrogation",
+      "witness",
+      "investigator",
+      "crime",
+      "confession",
+      "beating",
+      "suspect"
+    ],
+    "keywords_translit": [
+      "vostikanutyun",
+      "harcaqnnutyun",
+      "vka",
+      "qnnich",
+      "hancagorcutyun",
+      "bantik",
+      "cec",
+      "xostovanutyun"
+    ],
+    "catchphrases": [
+      "Արա, այ բանտիկ",
+      "ես գրող տղա չեմ",
+      "ուրեմն կերգես"
+    ],
+    "topics": [
+      "police",
+      "crime",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "YoGuj76WvJI",
+  "seq": 640,
+  "kargin_id": 640,
+  "title": "Kargin Haghordum sketch 583 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "640_Kargin_Haghordum_sketch_583_Hayko_Mko_YoGuj76WvJI.hi.json",
+    "visual": true
+  },
+  "input_chars": 2424,
+  "gen_sec": 5.68,
+  "prompt_tokens": 2256,
+  "output_tokens": 623,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002997,
+  "annotation": {
+    "title_hy": "Ստամոքսի վիրահատություն և կլիզմա",
+    "title_en": "Stomach Surgery and Enemas",
+    "summary_en": "A doctor informs a patient that he must be fed exclusively via enemas after stomach surgery, leading to a strange side effect when the patient tries to chew gum.",
+    "summary_detailed_en": "In a hospital clinic office, a doctor in a white coat enthusiastically greets his patient, Armen, who recently underwent surgery to remove three-quarters of his stomach. Despite Armen's complaints of pain, the doctor dismisses them with jokes, even suggesting they will play football together on a PlayStation in a month. The doctor explains the discharge instructions to Armen's wife (played by a woman, not in drag): because of the surgery, Armen cannot eat by mouth for a month. Instead, she must prepare semolina porridge (mannaya kasha) and administer it via an enema. He warns that eating normally would cause internal bleeding. The scene shifts to a later follow-up in the hospital corridor. The doctor notices Armen looking much healthier, with rosy cheeks and improved hemoglobin. However, he is baffled by Armen's peculiar, rhythmic hip movements as he walks. When questioned, Armen reveals the source of the mechanical motion: he ran into a friend outside who offered him chewing gum, and his body is reflexively reacting to the 'eating' process through the enema site.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "ստամոքսի վիրահատություն",
+      "կլիզմա",
+      "մաննայա կաշա",
+      "ծամոն",
+      "դուրս գրում",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "stomach surgery",
+      "enema",
+      "semolina porridge",
+      "chewing gum",
+      "discharge",
+      "medical humor"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivandanoc",
+      "stamoqsi virahatutyun",
+      "klizma",
+      "mannaya kasha",
+      "tsamon",
+      "durs grum",
+      "humor"
+    ],
+    "catchphrases": [
+      "Հլը նայի ոնցա լավացել, щеки порозовели гемоглобина очевидно поднялся"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

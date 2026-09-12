@@ -1,0 +1,70 @@
+{
+  "video_id": "an_rQSvxrIM",
+  "seq": 543,
+  "kargin_id": 543,
+  "title": "Kargin Haghordum sketch 175 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1760,
+  "gen_sec": 12.57,
+  "prompt_tokens": 1996,
+  "output_tokens": 589,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002765,
+  "annotation": {
+    "title_hy": "Աղջիկ փախցնելու «Պռոեկտը»",
+    "title_en": "The Girl Kidnapping Project",
+    "summary_en": "A young man attempts to 'kidnap' a girl for marriage, only to realize her family is so eager to get rid of her they already paid for the getaway taxi.",
+    "summary_detailed_en": "The sketch takes place in a residential courtyard surrounded by garages. A young man wearing a denim jacket and a flat cap meets a woman who hands him a pink bag, followed by a young girl who climbs down a ladder from a balcony as part of a secret plan to elope. The man, speaking in a mix of Armenian and Russian loanwords, boasts about his 'project' and his connections at the airport parking lot to ensure their flight to Moscow goes smoothly. He even mentions they will stay with his sister-in-law, revealing to the girl's surprise that he is already married. As they prepare to escape, the man asks the taxi driver how much the fare to the airport will be. The punchline arrives when the driver informs him that he doesn't need to worry about the payment because the girl's family has already prepaid for the taxi just to ensure she is finally taken away. The group drives off, celebrating a 'kidnapping' that the family was clearly in favor of.",
+    "keywords_hy": [
+      "աղջիկ փախցնել",
+      "սամայլոտ",
+      "աիրոպորտ",
+      "աստիճան",
+      "տաքսի",
+      "փախուստ",
+      "ամուսնություն",
+      "տաքսիստ"
+    ],
+    "keywords_en": [
+      "kidnapping a girl",
+      "eloping",
+      "airplane",
+      "airport",
+      "ladder",
+      "taxi driver",
+      "marriage",
+      "escape"
+    ],
+    "keywords_translit": [
+      "aghjik pakhcnel",
+      "samalyot",
+      "airport",
+      "astichan",
+      "taxi",
+      "pakhust",
+      "amusnutyun",
+      "taxist"
+    ],
+    "catchphrases": [
+      "Աղջկա տնեցիք արդեն վճարել են։"
+    ],
+    "topics": [
+      "romance",
+      "family",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

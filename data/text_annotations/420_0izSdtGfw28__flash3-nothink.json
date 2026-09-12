@@ -1,0 +1,74 @@
+{
+  "video_id": "0izSdtGfw28",
+  "seq": 420,
+  "kargin_id": 420,
+  "title": "Kargin Haghordum - Pastoren tunytela poqr (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "420_Kargin_Haghordum_-_Pastoren_tunytela_poqr_Hayko_Mko_0izSdtGfw28.hy.json",
+    "visual": true
+  },
+  "input_chars": 1381,
+  "gen_sec": 9.95,
+  "prompt_tokens": 1709,
+  "output_tokens": 659,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002831,
+  "annotation": {
+    "title_hy": "Առաջին հարսանեկան գիշերը և հյուրերը",
+    "title_en": "First Wedding Night and Guests",
+    "summary_en": "A boisterous family sends off a newlywed couple to their bedroom, but the groom's relative lingers with awkward advice and observations about the house.",
+    "summary_detailed_en": "The sketch begins in a decorated reception room where a newlywed couple—a groom in a tuxedo and a bride in a white dress and veil—are celebrating with relatives. An older man in a dark suit (the kavor or godfather figure) and a woman in a red dress are finishing their drinks and preparing to leave. The atmosphere is jovial as the older man insistently toasts the occasion. He makes awkward jokes about the couple's 'first night' together, advising them not to wake the whole building with their noise. Despite the woman's attempts to hurry him out so the 'tired' youngsters can rest, he continues to linger, offering a mangled Russian proverb about a red apple. The scene shifts to the bedroom, which features ornate lace bedding. As the couple finally settles in to be alone, the older relative makes a final intrusive comment, noting that he didn't have time to look around earlier and bluntly observing that the house is actually quite small. The humor is derived from the social awkwardness of relatives overstaying their welcome during an intimate moment.",
+    "keywords_hy": [
+      "հարսանիք",
+      "առաջին գիշեր",
+      "քավոր",
+      "նորապսակներ",
+      "հարս ու փեսա",
+      "հյուրեր",
+      "կատակ",
+      "տուն",
+      "նեղվածք"
+    ],
+    "keywords_en": [
+      "wedding",
+      "first night",
+      "godfather",
+      "newlyweds",
+      "bride and groom",
+      "guests",
+      "joke",
+      "small house",
+      "intrusive relatives"
+    ],
+    "keywords_translit": [
+      "harsaniq",
+      "arajin gisher",
+      "qavor",
+      "norapsakner",
+      "hars u pesa",
+      "hyurer",
+      "katak",
+      "tun",
+      "neghvatsq"
+    ],
+    "catchphrases": [
+      "ոնց որ ասում ա ռուսը կարմիր խնձորը ծառից հեռու չի ընկնում",
+      "փաստորեն տունդ էլ է փոքր"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "family",
+      "party_guests"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

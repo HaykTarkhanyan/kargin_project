@@ -1,0 +1,70 @@
+{
+  "video_id": "aeiBCku2UbE",
+  "seq": 234,
+  "kargin_id": 234,
+  "title": "Kargin Haghordum sketch 316 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1555,
+  "gen_sec": 34.88,
+  "prompt_tokens": 1839,
+  "output_tokens": 621,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002783,
+  "annotation": {
+    "title_hy": "Պետավտոտեսչության նորեկը և Ղարաբաղցին",
+    "title_en": "The Rookie Cop and the Karabakh Plates",
+    "summary_en": "A senior traffic police officer teaches a rookie about the 'rules' of the road, only to immediately change his judgment when he realizes a driver has Karabakh license plates.",
+    "summary_detailed_en": "The sketch takes place on a tree-lined rural roadside where a senior traffic police officer is training a new recruit named Melikyan. The senior officer explains the formal principles of the job—protecting the innocent, punishing the guilty, and being objective—before introducing the 'secret' Armenian rule: the ability to flip everything if the moment is right. He spots a Niva following another car too closely and predicts a rear-end collision. When the accident occurs, he identifies the rear driver as 100% guilty for not maintaining distance. However, upon approaching the scene and seeing the driver's Karabakh (Artsakh) license plates, the officer instantly reverses his stance. Despite the clear evidence of a rear-end collision, he begins accusing the front driver of reversing into the Karabakh man's car. The sketch satirizes the arbitrary and often biased nature of traffic law enforcement and the social hierarchies influenced by regional identity, as the officer tries to teach the recruit how to 'catch the moment' of corruption.",
+    "keywords_hy": [
+      "Պետավտոտեսչություն",
+      "ոստիկան",
+      "ճանապարհային ոստիկանություն",
+      "Ղարաբաղի համարներ",
+      "ավտովթար",
+      "տուգանք",
+      "կաշառք",
+      "ակտ գրել"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "GAI",
+      "police officer",
+      "car accident",
+      "Karabakh plates",
+      "corruption",
+      "rookie cop",
+      "roadside check"
+    ],
+    "keywords_translit": [
+      "petavtoteschutyun",
+      "vostikan",
+      "chanaparhayin vostikanutyun",
+      "Gharabaghi hamarner",
+      "avtovtar",
+      "tuganqu",
+      "kasharq",
+      "akt grel"
+    ],
+    "catchphrases": [
+      "պարզենք ինչա ըլե"
+    ],
+    "topics": [
+      "police",
+      "transport",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

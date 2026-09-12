@@ -1,0 +1,67 @@
+{
+  "video_id": "KcBfrqmfrAE",
+  "seq": 430,
+  "kargin_id": 430,
+  "title": "Kargin Haghordum - Afganistan (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "430_Kargin_Haghordum_-_Afganistan_Hayko_Mko_KcBfrqmfrAE.hy.json",
+    "visual": true
+  },
+  "input_chars": 1244,
+  "gen_sec": 4.32,
+  "prompt_tokens": 1674,
+  "output_tokens": 563,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002526,
+  "annotation": {
+    "title_hy": "Ականապատված ճանապարհներ և Ղուրանը",
+    "title_en": "Mined Roads and the Quran",
+    "summary_en": "A man in Afghanistan justifies why his wife walks ahead of him, despite religious tradition, due to the modern danger of landmines.",
+    "summary_detailed_en": "The sketch takes place in an open, golden grassland field during the day, identified by a title card as Afghanistan. A man, Mustafa, dressed in a military-style vest and cap, is walking across the field. Behind him walks another man, Mr. Ahmed. In front of Mustafa, a figure completely covered in a black burqa (Fatima) leads the way. Mr. Ahmed calls out to Mustafa, reprimanding him for his behavior. He points out that according to the Quran, a wife must always walk behind her husband, not in front of him, and tells him that his actions are wrong. Mustafa stops and delivers the punchline, explaining that when the Quran was written, the roads were not full of landmines. The humor lies in the dark subversion of religious tradition for the sake of survival, using his wife as a human mine detector. The scene ends with a short musical sting as they continue their walk across the potentially dangerous terrain.",
+    "keywords_hy": [
+      "Աֆղանստան",
+      "Ղուրան",
+      "ական",
+      "բուրկա",
+      "ականապատված",
+      "ամուսին և կին",
+      "սխալ"
+    ],
+    "keywords_en": [
+      "Afghanistan",
+      "Quran",
+      "landmine",
+      "burqa",
+      "mined roads",
+      "husband and wife",
+      "tradition"
+    ],
+    "keywords_translit": [
+      "Afganistan",
+      "Ghuran",
+      "akan",
+      "burka",
+      "akanapatvats",
+      "amusin ev kin",
+      "sxal"
+    ],
+    "catchphrases": [
+      "Պարոն Ախմեդ, երբ Ղուրանը գրում էին, էդ ժամանակ ճամփեքը ականապատված չէին"
+    ],
+    "topics": [
+      "religion",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "satire",
+      "dark"
+    ]
+  }
+}

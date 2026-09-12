@@ -1,0 +1,73 @@
+{
+  "video_id": "H-vL_9n6yVk",
+  "seq": 493,
+  "kargin_id": 493,
+  "title": "Kargin Haghordum sketch 121 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "493_Kargin_Haghordum_sketch_121_Hayko_Mko_H-vL_9n6yVk.en.json",
+    "visual": true
+  },
+  "input_chars": 2751,
+  "gen_sec": 5.01,
+  "prompt_tokens": 2206,
+  "output_tokens": 673,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003122,
+  "annotation": {
+    "title_hy": "Զապորոժեցի սիգնալիզացիան",
+    "title_en": "The Zaporozhets Alarm",
+    "summary_en": "A young thug mocks an old man for installing a security alarm on his battered, worthless Zaporozhets car.",
+    "summary_detailed_en": "In an outdoor garage parking lot, an old man named Yuri (Yurik) is sitting inside his extremely weathered and battered Zaporozhets (ZAZ). A young man wearing sunglasses, Volodik, approaches and begins pestering him with exaggerated hand gestures. Volodik mocks the old car's low ground clearance and suggests that Yuri, as a friend of his father, deserves a much better vehicle like a BMW X6 or a Lexus LX. He warns Yuri that he will eventually hit the undercarriage and spend a fortune on repairs. When Yuri tells him to leave so he can finish his work, Volodik asks what kind of 'work' could possibly be done on such a junker. Yuri reveals he is installing a security alarm system. Volodik bursts into laughter, questioning who would ever want to steal a Zaporozhets. Yuri delivers the punchline, explaining that while people steal expensive cars, they only use his car as a place to relieve themselves.",
+    "keywords_hy": [
+      "Զապորոժեց",
+      "սիգնալիզացիա",
+      "քուչա",
+      "ավտոմեքենա",
+      "ծաղր",
+      "հին մեքենա",
+      "Յուրի ձյա",
+      "Վալոդիկ"
+    ],
+    "keywords_en": [
+      "Zaporozhets",
+      "car alarm",
+      "street culture",
+      "old car",
+      "mockery",
+      "neighborhood",
+      "thug lifestyle",
+      "luxury cars"
+    ],
+    "keywords_translit": [
+      "Zaporozhets",
+      "signalizacia",
+      "kucha",
+      "avtomeqena",
+      "tsaghr",
+      "hin meqena",
+      "Yuri dzya",
+      "Valodik"
+    ],
+    "catchphrases": [
+      "Յուրիկ ջան ձյա Յուրիկ ձյա ջան ոնց ես լավ թմ",
+      "զապդ հանել մեյդան շուխուռ ես դրել",
+      "ինչ եմ անում մաշնիս վրա սիգնալիզացիա եմ դնում",
+      "էդ ձեր մաշնեքն են թալում իմի մեջ գալի չիշիկ են անում"
+    ],
+    "topics": [
+      "transport",
+      "neighbors",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "video_id": "mHi92lKcp90",
+  "seq": 239,
+  "kargin_id": 239,
+  "title": "Kargin Haghordum sketch 321 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1454,
+  "gen_sec": 5.58,
+  "prompt_tokens": 1805,
+  "output_tokens": 635,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002808,
+  "annotation": {
+    "title_hy": "Ներքին Ձայնը և Աշխատավարձը",
+    "title_en": "The Inner Voice and the Salary",
+    "summary_en": "A man carrying payroll cash runs out of gas and encounters a gang of thugs, only to be led into a trap by his own 'inner voice'.",
+    "summary_detailed_en": "The sketch begins on a rural winter road where a mustached man is driving a black car. He is talking urgently on his mobile phone to his boss, explaining that he has just withdrawn the bank cash for the employees' salaries. Suddenly, the car runs out of gas. Worried about carrying the large sum of money, he decides to take a shortcut through a barren winter field, estimating a ten-minute walk to the office. As he walks through the snow-dusted landscape wearing a flat cap, he encounters three intimidating men in dark leather jackets and sunglasses who appear to be gangsters. Terrified, the man hears a voice in his head—his 'inner voice'. The voice advises him that if he spits on the tall boss of the gang, the others will think he is tougher than their leader and run away. He follows this absurd advice and spits on the gangster. The gang immediately reacts with violence, chasing and beating him. The 'inner voice' then mockingly concludes, 'Now you're screwed.'",
+    "keywords_hy": [
+      "ներքին ձայն",
+      "աշխատավարձ",
+      "բենզինը վերջացավ",
+      "գանգստերներ",
+      "ծեծ",
+      "դաշտ",
+      "փողոցային խուժան",
+      "փողեր"
+    ],
+    "keywords_en": [
+      "inner voice",
+      "salary",
+      "out of gas",
+      "gangsters",
+      "beating",
+      "winter field",
+      "payroll",
+      "thugs"
+    ],
+    "keywords_translit": [
+      "nerqin dzayn",
+      "ashkhatavardz",
+      "benzin@ verjacav",
+      "gangsterner",
+      "tcedz",
+      "dasht",
+      "poghocayin khujan",
+      "pogher"
+    ],
+    "catchphrases": [
+      "Ո՞վա",
+      "Քո ներքին ձայնը",
+      "Ուստա բա ինչ անեմ",
+      "էս ում վրա ես թքում, այ ոչխար"
+    ],
+    "topics": [
+      "money",
+      "crime",
+      "transport"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

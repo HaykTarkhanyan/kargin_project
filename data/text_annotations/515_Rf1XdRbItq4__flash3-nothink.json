@@ -1,0 +1,74 @@
+{
+  "video_id": "Rf1XdRbItq4",
+  "seq": 515,
+  "kargin_id": 515,
+  "title": "Kargin Haghordum sketch 149 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2363,
+  "gen_sec": 5.13,
+  "prompt_tokens": 2172,
+  "output_tokens": 707,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003207,
+  "annotation": {
+    "title_hy": "Հարբած Կինը և Խղճուկ Ամուսինը",
+    "title_en": "The Drunk Wife and The Pitiful Husband",
+    "summary_en": "A long-suffering husband finds his wife passed out at a bar and brings her home, only to decide on divorce while she is in a drunken stupor.",
+    "summary_detailed_en": "The sketch begins in a dimly lit bar late at night, where a woman (played in drag) wearing a bright purple bob wig and a red blazer sits heavily intoxicated, smoking and slumping over her whiskey glass. Her husband, a thin man in glasses and a sweater vest, enters and confronts her about her constant drinking and his exhaustion from searching for her across the city's bars at 2:00 AM. The wife reacts with slurred, philosophical complaints, questioning why he never looks for her in museums or libraries instead. After a brief dispute over the bar tab, the scene shifts to their apartment bedroom. The wife is completely incapacitated, lying across the bed. The husband, reaching his breaking point, answers a phone call from his mother. He admits he was wrong to ignore her warnings about this marriage and declares he will finally file for divorce in the morning. The sketch ends with a twist of irony as he hands the phone to the barely conscious wife, telling her that her mother is calling.",
+    "keywords_hy": [
+      "հարբած կին",
+      "բար",
+      "ամուսնալուծություն",
+      "խմիչք",
+      "զանգ մամային",
+      "գարեջրվել",
+      "թատրոն",
+      "գրադարան"
+    ],
+    "keywords_en": [
+      "drunk wife",
+      "bar",
+      "divorce",
+      "alcohol",
+      "call to mom",
+      "purple wig",
+      "drag comedy",
+      "late night"
+    ],
+    "keywords_translit": [
+      "harbats kin",
+      "bar",
+      "amusnalutsutyun",
+      "khmichk",
+      "zang mamayin",
+      "garejvel",
+      "tatron",
+      "gradaran"
+    ],
+    "catchphrases": [
+      "գիշրեվա երկուսն ա, դու նորից նստած արբենում ես",
+      "ինչի ինձ ոչ մի անգամ ման չես եկել թատրոնում, կամ թանգարանում օրինակ, կամ գրադարանու",
+      "դու ամբողջովին գարեջրվել ես",
+      "ջահել էի չէի հասկանում մամ ջան",
+      "աղջի արի մերդ ա"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

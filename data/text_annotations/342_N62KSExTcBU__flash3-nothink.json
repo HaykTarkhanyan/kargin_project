@@ -1,0 +1,73 @@
+{
+  "video_id": "N62KSExTcBU",
+  "seq": 342,
+  "kargin_id": 342,
+  "title": "Kargin Haghordum sketch 509 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 4150,
+  "gen_sec": 26.64,
+  "prompt_tokens": 3399,
+  "output_tokens": 785,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.004054,
+  "annotation": {
+    "title_hy": "Զոքանչի Սեկրետը",
+    "title_en": "The Mother-in-Law Secret",
+    "summary_en": "A driver stranded by his broken-down Lada asks several passersby for mechanical help, only for the final technician's question about a 'secret' to lead to an awkward confession.",
+    "summary_detailed_en": "The sketch is set on a tree-lined roadside where a man stands by his broken-down white VAZ-2106 (Lada) with the hood open. He is on the phone with a friend named Ash, explaining that he will be late for a birthday party because the car, which he claims belongs to his nephew, has stalled. First, a man in a striped shirt stops to help. The driver pretends he usually drives 'firm' cars and isn't used to Soviet models. They discuss the fuel pump (benzinanasos), but despite 'fiddling' with it while the driver tries to start the engine, the car remains dead. Next, a more formal man offers help, suggesting the battery is dead, but he also leaves when he cannot find a 'secret' (a hidden anti-theft switch). Finally, an older man in a flat cap arrives, offering a convoluted explanation about the 'zaklatno' getting wet. He tells the driver to pump the pedals while he works. When the old man asks if the driver has a 'secret', the driver shamefully confesses his actual life secret: he sleeps with his mother-in-law. The old man yells in frustration, realizing the driver misunderstood the automotive term for a personal confession.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "ավտոմեքենա",
+      "մաշնա",
+      "խարաբա",
+      "բենզանասոս",
+      "սեկրետ",
+      "զոքանչ",
+      "Չարբախ",
+      "կաչայտ անել"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "broken car",
+      "Lada",
+      "mechanic",
+      "fuel pump",
+      "anti-theft switch",
+      "mother-in-law",
+      "Charbakh",
+      "roadside assistance"
+    ],
+    "keywords_translit": [
+      "mashna",
+      "kharaba",
+      "benzinanasos",
+      "sekret",
+      "zoqanch",
+      "Charbakh",
+      "kachayt anel",
+      "khod tal"
+    ],
+    "catchphrases": [
+      "դու նստի կաչայտ արա ես էլ փորձեմ ցակլատնոն հետ գանեմ որ բացի նստի կաչայտ արա կաչայտ արա կաչայտ մի արա կաչայտ արա կաչայտ միա արա",
+      "լսի կարողա սեկրետ ունես ճիշտն ասած ունեմ հոպար ջան զոքանչիս հետ եմ քնըմ"
+    ],
+    "topics": [
+      "transport",
+      "family",
+      "party_guests"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

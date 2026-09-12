@@ -1,0 +1,69 @@
+{
+  "video_id": "PyjE3Bg7VPQ",
+  "seq": 269,
+  "kargin_id": 269,
+  "title": "Kargin Haghordum sketch 577 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "269_Kargin_Haghordum_sketch_577_Hayko_Mko_PyjE3Bg7VPQ.en.json",
+    "visual": true
+  },
+  "input_chars": 3407,
+  "gen_sec": 18.01,
+  "prompt_tokens": 3034,
+  "output_tokens": 677,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003548,
+  "annotation": {
+    "title_hy": "Ուստա Վազգենն ու աշկերտ Գևորիկը",
+    "title_en": "Master Vazgen and Apprentice Gevorik",
+    "summary_en": "A clever apprentice outsmarts his arrogant master at a woodturning workshop by turning their betting game against him.",
+    "summary_detailed_en": "Set in a cluttered indoor machine workshop, Usta Vazgen (a master craftsman wearing a black beret) and Gevorik (his apprentice wearing a distinctive white paper work cap) are standing by a lathe machine. Gevorik pleads for more responsibility, but Vazgen dismisses him, claiming he needs months more training and mocking his intelligence. They agree to a betting game: Vazgen will ask questions about safety and technique. If Gevorik fails to answer, he pays 100 drams; however, if Gevorik asks a question Vazgen cannot answer, the master must pay 5,000 drams. Vazgen wins the first three rounds with basic questions about securing parts, buttoning clothes for safety, and choosing the right cutting tool, collecting 100 drams each time as Gevorik 'forgets' the answers. Gevorik then asks a hyper-specific technical question about the exact lathe speed needed to produce 450 wood shavings per second. Vazgen, stumped, grumbles and pays the 5,000 drams. When Vazgen asks for the correct answer, Gevorik admits he doesn't know either, paying back 100 drams but keeping the massive profit.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "Ուստա Վազգեն",
+      "աշկերտ",
+      "ստանոկ",
+      "արհեստանոց",
+      "Գևորիկ",
+      "հարց ու պատասխան",
+      "գրազ"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "master and apprentice",
+      "lathe machine",
+      "workshop",
+      "betting",
+      "carpentry",
+      "safety rules",
+      "workplace humor"
+    ],
+    "keywords_translit": [
+      "Usta Vazgen",
+      "ashkert",
+      "stanok",
+      "arhestanoc",
+      "Gevorik",
+      "harc u patasxan",
+      "graz",
+      "chotki"
+    ],
+    "catchphrases": [
+      "Արա Գևորիկ դու էնքան հաց ու պանիր պտի ուտես, որ էս ստանոկով գործ անես։"
+    ],
+    "topics": [
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "zruwk12QBHk",
+  "seq": 214,
+  "kargin_id": 214,
+  "title": "Kargin Haghordum sketch 394 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1181,
+  "gen_sec": 4.3,
+  "prompt_tokens": 1659,
+  "output_tokens": 597,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00262,
+  "annotation": {
+    "title_hy": "Անկողնային գործունեության տարելից",
+    "title_en": "Bedside Anniversary Surprise",
+    "summary_en": "A man surprises his mistress with a ring for their fifth anniversary in bed, only for her to receive a phone call from her husband who claims to be at the office with the man.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit bedroom where a man and a woman are lying together in bed. The man, wearing a dark shirt, turns off the television to grab the woman's attention. He asks her to guess what special day it is, rejecting her guesses of their birthdays. He enthusiastically announces that it is the fifth anniversary of their 'joint bedroom activities.' To celebrate, he presents her with a surprise—a ring—accompanied by a playful sound effect. The woman is delighted by the gift but is interrupted by a phone call from her husband. The husband, unaware of the situation, tells her he is stuck at the office working late with his boss and won't be home until morning. In a comedic twist of irony, the mistress tells her lover that her husband is indeed at the office with him. Realizing they have the whole night ahead of them without interruption, they decide to continue their celebration until morning. The scene features a colorful tracksuit jacket on the bed and the use of a mobile phone for the pivotal call.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "անկողին",
+      "մատանի",
+      "անակնկալ",
+      "տարելից",
+      "ամուսին",
+      "սիրեկան",
+      "հեռախոսազանգ"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "bed",
+      "anniversary",
+      "surprise",
+      "ring",
+      "husband",
+      "lover",
+      "phone call"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "ankoghin",
+      "matani",
+      "anaknkal",
+      "tarelic",
+      "amusin",
+      "sirekan",
+      "heraxosazang"
+    ],
+    "catchphrases": [
+      "բայոյոյոյո",
+      "Ասեց առավոտը կգա,օֆիսում էր ՝ քո հետ"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

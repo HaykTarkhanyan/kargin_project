@@ -1,0 +1,71 @@
+{
+  "video_id": "Cx4bMlneeh8",
+  "seq": 500,
+  "kargin_id": 500,
+  "title": "Kargin Haghordum sketch 128 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "500_Kargin_Haghordum_sketch_128_Hayko_Mko_Cx4bMlneeh8.hy.json",
+    "visual": true
+  },
+  "input_chars": 2278,
+  "gen_sec": 11.92,
+  "prompt_tokens": 2197,
+  "output_tokens": 700,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003198,
+  "annotation": {
+    "title_hy": "Կարմիր Գլխարկը և Գայլի Թերթը",
+    "title_en": "Little Red Riding Hood and the Wolf's Newspaper",
+    "summary_en": "A parody of Little Red Riding Hood where the big bad wolf ignores the girl's treats and instead asks for the newspaper lining her basket for his own bathroom needs.",
+    "summary_detailed_en": "Set in a bright autumn forest, this sketch is a comedic subversion of the Little Red Riding Hood fairy tale. A woman dressed as Red Riding Hood walks through the woods carrying a picnic basket. She is joined by a man in a green bird costume, and they sing about being the most loyal friends who can overcome any trial together. Suddenly, a man in a shaggy, low-budget wolf costume appears. In a moment of physical comedy and cowardice, the bird character panics, shouts insults at the wolf, and flees, leaving Red Riding Hood alone. When the wolf approaches, the dialogue shifts from fairy-tale tropes to crude reality. Rather than trying to eat her or her mother's pastries ('perashki-merashki'), the wolf asks if she has lined the bottom of her basket with a newspaper. When she confirms she has, the wolf asks her to crumple up the paper and give it to him, implying he needs it for hygiene after using the 'outdoor' facilities. The sketch concludes with this absurd request, subverting the predatory nature of the character into a mundane, gritty necessity.",
+    "keywords_hy": [
+      "Կարմիր Գլխարկ",
+      "Գայլ",
+      "անտառ",
+      "կարկանդակ",
+      "թերթ",
+      "հեքիաթ",
+      "նապաստակ",
+      "պեռաշկի"
+    ],
+    "keywords_en": [
+      "Little Red Riding Hood",
+      "Wolf",
+      "forest",
+      "pastries",
+      "newspaper",
+      "fairy tale parody",
+      "bird costume",
+      "picnic basket"
+    ],
+    "keywords_translit": [
+      "Karmir Glkhark",
+      "Gayl",
+      "antar",
+      "karkandak",
+      "tert",
+      "heqiat",
+      "napastak",
+      "perashki"
+    ],
+    "catchphrases": [
+      "գայլը գայլը գայլը գիժա էսի արա բռնռլա տալի համբալը թու",
+      "պեռաշկի մեռաշկի ես տանում",
+      "իսկ էդ պեռաշկու տակ գազետ փռել ես ազիզ դե էդ գազետը մի հատ ճմրթի տուր էլի"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "satire"
+    ]
+  }
+}

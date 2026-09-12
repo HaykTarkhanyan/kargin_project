@@ -1,0 +1,70 @@
+{
+  "video_id": "cLAP5VdCAc8",
+  "seq": 109,
+  "kargin_id": 109,
+  "title": "Kargin Haghordum sketch 702 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1816,
+  "gen_sec": 34.05,
+  "prompt_tokens": 1849,
+  "output_tokens": 652,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002881,
+  "annotation": {
+    "title_hy": "Դետեկտիվը և դավաճան ամուսինը",
+    "title_en": "The Detective and the Cheating Husband",
+    "summary_en": "A private investigator shows a woman incriminating video evidence of her husband's dangerous affairs, only for the husband to face the consequences at home.",
+    "summary_detailed_en": "The sketch takes place in a minimalist white room furnished with red armchairs and a CRT television. A private investigator, depicted as a heavyset man wearing a fedora and a dark suit, meets with a woman (played by a male actor in drag with a curly wig and cardigan). The detective informs her that her suspicions were correct: her husband has a mistress. He explains that the husband preferred extremely dangerous and uncomfortable settings for his trysts, including a specific episode where he was hanging off the Kievyan Bridge. Despite an operator being injured during the filming, they secured the evidence. The detective plays the tape on a VCR, causing the wife to react with distress and eventually cry. After she pays him, the detective shamelessly asks to keep the tape to rent it out at his side-business video rental shop because his family needs the money. After he leaves, the husband (a mustached man in a white shirt) arrives home. When he asks why his wife is sad, she shows him the 'adventure film' he starred in. The sketch concludes with her physically disciplining him, referencing the bridge incident as a punishment to be repeated three times a day.",
+    "keywords_hy": [
+      "դետեկտիվ",
+      "դավաճանություն",
+      "սիրուհի",
+      "տեսաերիզ",
+      "Կիևյան կամուրջ",
+      "ապացույց",
+      "կասետների պռակատ",
+      "ընտանեկան վեճ"
+    ],
+    "keywords_en": [
+      "detective",
+      "infidelity",
+      "mistress",
+      "videotape",
+      "Kievyan bridge",
+      "evidence",
+      "video rental",
+      "family argument"
+    ],
+    "keywords_translit": [
+      "detektiv",
+      "davachanutyun",
+      "siruhi",
+      "tesaeriz",
+      "Kievyan kamurj",
+      "apacuyc",
+      "kasetneri prokat",
+      "yntanekan vech"
+    ],
+    "catchphrases": [
+      "ինչ ենք անելու այ էս այ էս մեկ էլ այ էս մոստի վրայինից օրը 3 անգամ"
+    ],
+    "topics": [
+      "family",
+      "crime",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

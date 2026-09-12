@@ -1,0 +1,67 @@
+{
+  "video_id": "wxieqyrzFss",
+  "seq": 607,
+  "kargin_id": 607,
+  "title": "Kargin Haghordum sketch 485 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1269,
+  "gen_sec": 9.85,
+  "prompt_tokens": 1545,
+  "output_tokens": 529,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002359,
+  "annotation": {
+    "title_hy": "Կոնֆետի տուփի նվերը",
+    "title_en": "The Gift of Candy",
+    "summary_en": "A father returns home with a box of chocolates and offers it to whoever always obeys the mother and never argues with her.",
+    "summary_detailed_en": "The sketch is set in a wood-paneled apartment living room where three small children are sitting on the floor watching cartoons on a CRT television. A young mother in a yellow top sits on a patterned sofa, looking bored and skeptical. A man in a grey suit and glasses, appearing as a nerdy suitor or father figure, enters the room holding a small bunch of tulips in cellophane and a box of chocolates. He addresses the children warmly, announcing that he has brought a surprise. He explains that since there is only one box of candy, it will go to the person who always listens to the mother, never talks back or argues with her, performs her requests immediately, and for whom her word is law. He asks the children to guess who deserves the gift. Instead of naming one of themselves, one of the children deadpans the punchline: 'It goes to you, Papa,' implying the father is the only one who submissively follows all the mother's orders.",
+    "keywords_hy": [
+      "ընտանիք",
+      "կոնֆետների տուփ",
+      "անակնկալ",
+      "հայրիկ",
+      "երեխաներ",
+      "մայրիկ",
+      "հնազանդություն",
+      "նվեր"
+    ],
+    "keywords_en": [
+      "family",
+      "box of chocolates",
+      "surprise",
+      "father",
+      "children",
+      "mother",
+      "obedience",
+      "gift"
+    ],
+    "keywords_translit": [
+      "yntaniq",
+      "konfetneri tup",
+      "anaknkal",
+      "hayrik",
+      "erexaner",
+      "mayrik",
+      "hnazandutyun",
+      "nver"
+    ],
+    "catchphrases": [
+      "քեզ, պապա"
+    ],
+    "topics": [
+      "family"
+    ],
+    "humor_type": [
+      "situational"
+    ]
+  }
+}

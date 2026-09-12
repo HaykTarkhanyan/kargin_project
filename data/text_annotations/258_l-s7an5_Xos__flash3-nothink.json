@@ -1,0 +1,67 @@
+{
+  "video_id": "l-s7an5_Xos",
+  "seq": 258,
+  "kargin_id": 258,
+  "title": "Kargin Haghordum sketch 565 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "258_Kargin_Haghordum_sketch_565_Hayko_Mko_l-s7an5_Xos.fr.json",
+    "visual": true
+  },
+  "input_chars": 2006,
+  "gen_sec": 18.16,
+  "prompt_tokens": 1959,
+  "output_tokens": 605,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002794,
+  "annotation": {
+    "title_hy": "Անհավատարիմ ամուսինը տաքսու մեջ",
+    "title_en": "The Unfaithful Husband in a Taxi",
+    "summary_en": "A man puts his wife in a taxi to head home so he can drink with friends, only to immediately call his mistress from the same car, unaware his wife is still listening.",
+    "summary_detailed_en": "The sketch begins on a city street at night. A man tells his wife to go home and sleep while he stays out late to drink with 'the boys.' He puts her into a taxi, paying the driver to ensure she arrives safely. The scene transitions to the interior of the taxi where the woman is sitting. The driver mentions he needs to take a specific route to make a U-turn. Suddenly, the husband jumps into the same taxi (or calls from within proximity, confusing the situation). He pulls out his mobile phone and makes a loud, affectionate call to his mistress, oblivious to the fact that his wife is sitting right there. He tells the person on the phone that he just sent his 'beige wife' home and is now in a taxi on his way to see her, calling her his 'favorite love.' The wife stares in shock and anger as the husband tells the driver to 'just drive,' leading to her calling him an idiot as the realization of his blatant infidelity sets in.",
+    "keywords_hy": [
+      "տաքսի",
+      "դավաճանություն",
+      "հարբած ամուսին",
+      "կնիկ",
+      "սիրուհի",
+      "հեռախոսով խոսել",
+      "գիշերային Երևան"
+    ],
+    "keywords_en": [
+      "taxi",
+      "infidelity",
+      "cheating husband",
+      "mistress",
+      "phone call",
+      "night street",
+      "drunk husband"
+    ],
+    "keywords_translit": [
+      "taxi",
+      "davachanutyun",
+      "harbats amusin",
+      "knik",
+      "siruhi",
+      "heraxosy",
+      "gisherayin Yerevan"
+    ],
+    "catchphrases": [
+      "Հա կյանքս, արա դու գիտես դու ով ես, արա, արա դու իմ ամենասիրած սիրածն ես քյասար:"
+    ],
+    "topics": [
+      "family",
+      "transport",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

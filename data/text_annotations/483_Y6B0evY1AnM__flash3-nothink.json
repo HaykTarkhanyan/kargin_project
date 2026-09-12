@@ -1,0 +1,66 @@
+{
+  "video_id": "Y6B0evY1AnM",
+  "seq": 483,
+  "kargin_id": 483,
+  "title": "Kargin Haghordum sketch 111 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "483_Kargin_Haghordum_sketch_111_Hayko_Mko_Y6B0evY1AnM.hy.json",
+    "visual": true
+  },
+  "input_chars": 1259,
+  "gen_sec": 10.87,
+  "prompt_tokens": 1627,
+  "output_tokens": 561,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002497,
+  "annotation": {
+    "title_hy": "Ֆորտ Բոյար Սառայում",
+    "title_en": "Fort Boyard in the Shed",
+    "summary_en": "A routine request to fetch a key from a shed turns into a high-stakes, physical parody of the game show Fort Boyard.",
+    "summary_detailed_en": "The sketch takes place in a rural backyard courtyard during the day. A man dressed in drag as an old woman wearing a leopard-print robe, a curly wig, and holding a cane is arguing with a man dressed in a white tracksuit. The old woman urgently asks a character named Habet to quickly fetch a key for the storage room (chulan) from the shed (saray), complaining about her leg and the lack of time. The man in the tracksuit responds hysterically, claiming that this isn't just a shed, but 'Fort Boyard.' A countdown timer graphic appears on the screen, mimicking the French game show's aesthetic. The interaction quickly devolves into physical slapstick as the two characters bicker and scuffle. The man uses a wooden stick to fight back as they run around the yard. The sketch parodies the intense pressure of game show challenges within a mundane domestic setting, concluding with a fiery scene-transition effect after the man announces he has secured the first key.",
+    "keywords_hy": [
+      "Ֆորտ Բոյար",
+      "սառայ",
+      "բանալի",
+      "կնիկ",
+      "կռիվ",
+      "Հաբեթ",
+      "չուլան"
+    ],
+    "keywords_en": [
+      "Fort Boyard",
+      "shed",
+      "key",
+      "drag",
+      "backyard",
+      "slapstick",
+      "countdown"
+    ],
+    "keywords_translit": [
+      "Fort Boyar",
+      "saray",
+      "banali",
+      "knik",
+      "kriv",
+      "Habet",
+      "chulan"
+    ],
+    "catchphrases": [
+      "Հաբեթ էս ինչա էղել հետդ աղչի կնիկ էսի սառայի չի  էսի ֆորտ բոյարա"
+    ],
+    "topics": [
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "slapstick",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "t79x_fKiVEk",
+  "seq": 536,
+  "kargin_id": 536,
+  "title": "Kargin Haghordum sketch 170 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "536_Kargin_Haghordum_sketch_170_Hayko_Mko_t79x_fKiVEk.hy.json",
+    "visual": true
+  },
+  "input_chars": 3522,
+  "gen_sec": 5.12,
+  "prompt_tokens": 2810,
+  "output_tokens": 694,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003487,
+  "annotation": {
+    "title_hy": "Աբգար Ենոքյանի Անակնկալ Այցը",
+    "title_en": "Abgar Yenoqyan's Surprise Visit",
+    "summary_en": "A TV crew interviews Abgar Yenoqyan, a wealthy and eccentric businessman who claims to be breeding Armenian bulls with Belgian cows while running a fund to hinder Armenian-Belgian relations.",
+    "summary_detailed_en": "The sketch is presented as a television segment called 'Surprise Visit.' A female TV journalist (wearing glasses and holding a yellow microphone) and her cameraman interview a man named Abgar Yenoqyan, a self-proclaimed businessman and philanthropist with a thick mustache and a pinstripe jacket. They are seated on a village garden veranda decorated with plaster busts and wine bottles. When the journalist asks Abgar about the meaning of happiness, he deflects, accusing her of asking about money instead of family. He then discusses his business venture: importing two special cows from Belgium (one white, one black) to breed with an Armenian bull for meat. During the interview, a frizzy-haired village worker (played by a man in drag) repeatedly bursts out from the sunlit orchard to deliver updates in crude language. The worker shouts that the bull has 'domphets' (slammed/banged) the black cow, prompting Abgar to scold him for his language in front of the female reporter, telling him to say the bull 'surprised' the cow instead. The joke culminates when the worker returns to report that instead of the white cow, the bull has 'surprised' the black cow again.",
+    "keywords_hy": [
+      "Աբգար Ենոքյան",
+      "հարցազրույց",
+      "բիզնեսմեն",
+      "բելգիական կով",
+      "ցուլ",
+      "անակնկալ այցելություն",
+      "զարմացնել",
+      "դոմփել"
+    ],
+    "keywords_en": [
+      "Abgar Yenoqyan",
+      "interview",
+      "businessman",
+      "Belgian cow",
+      "bull",
+      "surprise visit",
+      "to surprise",
+      "breeding"
+    ],
+    "keywords_translit": [
+      "Abgar Yenoqyan",
+      "hartsazruyts",
+      "biznesmen",
+      "belgiakan kov",
+      "tsul",
+      "anaknkal aytselutyun",
+      "zarmatsnel",
+      "dompel"
+    ],
+    "catchphrases": [
+      "մեր ցուլը այն սևկովին զարմացրեց",
+      "ինքը նորից այն սևին դոմփեց"
+    ],
+    "topics": [
+      "media_showbiz",
+      "village",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

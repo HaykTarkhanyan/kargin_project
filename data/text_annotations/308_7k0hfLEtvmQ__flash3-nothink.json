@@ -1,0 +1,67 @@
+{
+  "video_id": "7k0hfLEtvmQ",
+  "seq": 308,
+  "kargin_id": 308,
+  "title": "Kargin Haghordum sketch 469 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "308_Kargin_Haghordum_sketch_469_Hayko_Mko_7k0hfLEtvmQ.ro.json",
+    "visual": true
+  },
+  "input_chars": 2177,
+  "gen_sec": 24.12,
+  "prompt_tokens": 2181,
+  "output_tokens": 497,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002582,
+  "annotation": {
+    "title_hy": "Տոմս դեպի Թիֆլիս և զոքանչը",
+    "title_en": "Ticket to Tbilisi and Mother-in-Law",
+    "summary_en": "A group of rowdy men buy train tickets to Tbilisi to cause trouble, followed by a man who insists on buying a ticket in the same filthy carriage for his mother-in-law.",
+    "summary_detailed_en": "The sketch begins at a train station ticket window where a female clerk (in a blue uniform and glasses) deals with a group of rude male customers. The men boast about scaring people and demand the cheapest 'freshly baked' tickets to Tbilisi, specifically asking for a carriage where they can spit sunflower seeds on other passengers. After they leave, a well-dressed man approaches the window. The clerk warns him that the carriage the 'animals' just booked is the worst one—a cheap 'platzkart' filled with a company of soldiers suffering from dysentery. To her surprise, the man insists on buying a ticket for that exact carriage, specifically requesting the seat right next to the toilet. The scene then cuts to a city street where the man is driving a car with a smiling female passenger. He reveals his plan: he bought the miserable ticket for his mother-in-law, sarcastically quoting the phrase 'a mother-in-law is a human's friend' while sending her off to the worst possible travel conditions.",
+    "keywords_hy": [
+      "գնացքի տոմս",
+      "Թիֆլիս",
+      "զոքանչ",
+      "վագոն",
+      "տոմսարկղ",
+      "կատակ",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "train ticket",
+      "Tbilisi",
+      "mother-in-law",
+      "train carriage",
+      "ticket booth",
+      "joke",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "gnacqi toms",
+      "Tiflis",
+      "zoqanch",
+      "vagon",
+      "tomsarkgh",
+      "katak",
+      "Kargin Haghordum"
+    ],
+    "catchphrases": [
+      "Ասումա զոքանչ դռուգ չելովեկա"
+    ],
+    "topics": [
+      "transport",
+      "family",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

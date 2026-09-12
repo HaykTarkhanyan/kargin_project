@@ -1,0 +1,63 @@
+{
+  "video_id": "TDBsXssmjQk",
+  "seq": 556,
+  "kargin_id": 556,
+  "title": "Kargin Haghordum sketch 188 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "556_Kargin_Haghordum_sketch_188_Hayko_Mko_TDBsXssmjQk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1455,
+  "gen_sec": 4.54,
+  "prompt_tokens": 1665,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002629,
+  "annotation": {
+    "title_hy": "Բաղդասարյան Գարիկի հասցեն",
+    "title_en": "Garik Baghdasaryan's Address",
+    "summary_en": "A man in a stairwell asks a technician where Garik Baghdasaryan lives, only to be told that he is Garik himself, leading to an absurd circular argument.",
+    "summary_detailed_en": "The sketch takes place in the dingy, concrete stairwell of a Soviet-era apartment building. A bespectacled handyman wearing a grey knit sweater is working on a smashed-open wall niche, poking at a messy tangle of electrical wiring with a screwdriver. A curly-haired man wearing a leather jacket approaches him and asks for directions, specifically looking for where a man named Garik Baghdasaryan lives. The technician points out that the man asking the question is actually Garik Baghdasaryan himself. The man in the leather jacket becomes frustrated, pacing up and down the stairs to continue the argument. He acknowledges that he knows his own identity is Garik Baghdasaryan, but insists that the technician should still tell him where 'he' (the person Garik) lives. The sketch highlights a classic absurdist misunderstanding, concluding with the man in the leather jacket crouching by an apartment door at the bottom of the wall, still preoccupied with his illogical search for his own residence while the technician looks on in confusion.",
+    "keywords_hy": [
+      "Բաղդասարյան Գարիկ",
+      "շենքի մուտք",
+      "էլեկտրիկ",
+      "հասցե",
+      "հարմար չես կանգնել",
+      "անհեթեթություն"
+    ],
+    "keywords_en": [
+      "Garik Baghdasaryan",
+      "apartment stairwell",
+      "technician",
+      "address search",
+      "absurdist dialogue",
+      "identity confusion"
+    ],
+    "keywords_translit": [
+      "Baghdasaryan Garik",
+      "shenqi mutq",
+      "elektrik",
+      "hasce",
+      "harmar ches kangnel",
+      "anhetetutyun"
+    ],
+    "catchphrases": [
+      "Արա ես գիտեմ, որ բաղդասարյան Գարիկը ես եմ, դու ինձ ասա ինքը որտեղա ապրում:"
+    ],
+    "topics": [
+      "neighbors",
+      "work"
+    ],
+    "humor_type": [
+      "absurd",
+      "misunderstanding"
+    ]
+  }
+}

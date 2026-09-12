@@ -1,0 +1,73 @@
+{
+  "video_id": "OiLneEZ-2xk",
+  "seq": 470,
+  "kargin_id": 470,
+  "title": "Kargin Haghordum sketch 096 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "470_Kargin_Haghordum_sketch_096_Hayko_Mko_OiLneEZ-2xk.en.json",
+    "visual": true
+  },
+  "input_chars": 2310,
+  "gen_sec": 4.73,
+  "prompt_tokens": 1979,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002811,
+  "annotation": {
+    "title_hy": "Տերտերի գնացուցակը և հարսի գեղեցկությունը",
+    "title_en": "The Priest's Fee and the Bride's Beauty",
+    "summary_en": "A groom asks a priest how much he owes for the wedding ceremony, only to offer a tiny amount after the priest tells him to pay based on his bride's beauty.",
+    "summary_detailed_en": "The sketch takes place during a wedding ceremony inside a church. A bearded priest, wearing traditional vestments and a cross necklace, is officiating the marriage of a young couple. He asks the bride if she will be obedient and asks the groom if he will stand by her through life's hardships, including mundane problems like a broken washing machine or running out of coffee. After the vows, the priest uses a confusing religious phrase which he then translates as an invitation for guests to congratulate the newlyweds. The groom, feeling unsure of the protocol, asks the priest for the specific cost of the ceremony. The priest declines a fixed fee, suggesting instead that the groom make a donation reflecting how much he values his bride's beauty. In a cynical punchline, the groom hands over a very small amount of money and asks for change back, implying he does not find his new wife particularly attractive. The sketch ends with the priest's stunned reaction to the meager 'donation'.",
+    "keywords_hy": [
+      "եկեղեցի",
+      "հարսանիք",
+      "տերտեր",
+      "պսակադրություն",
+      "հարսնացու",
+      "փեսա",
+      "նվիրատվություն",
+      "զդաչի",
+      "գեղեցկություն"
+    ],
+    "keywords_en": [
+      "church",
+      "wedding",
+      "priest",
+      "ceremony",
+      "bride",
+      "groom",
+      "donation",
+      "change",
+      "beauty"
+    ],
+    "keywords_translit": [
+      "ekexeci",
+      "harsaniq",
+      "terter",
+      "psakadrutyun",
+      "harsnacu",
+      "pesa",
+      "nviratvutyun",
+      "zdachi",
+      "gexeckutyun"
+    ],
+    "catchphrases": [
+      "Ապեր էս զդաչին վեկալ"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "religion",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

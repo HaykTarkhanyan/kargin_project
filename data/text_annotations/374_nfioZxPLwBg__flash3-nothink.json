@@ -1,0 +1,76 @@
+{
+  "video_id": "nfioZxPLwBg",
+  "seq": 374,
+  "kargin_id": 374,
+  "title": "Kargin Haghordum - Gyuxi marmnavachar@ (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3120,
+  "gen_sec": 6.34,
+  "prompt_tokens": 2642,
+  "output_tokens": 840,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003841,
+  "annotation": {
+    "title_hy": "Գյուղի մարմնավաճառի նվիրատվությունը",
+    "title_en": "The Village Prostitute's Donation",
+    "summary_en": "A village head and a priest try to raise money for a new church, but only the local prostitute is willing to provide the full sum.",
+    "summary_detailed_en": "The sketch takes place in a village meeting hall where the village head (Garnik) and a priest (Ter Hayr Karpis) address a crowd of villagers. They explain that the American-Armenian benefactor funding their new church has died, leaving them $5,000 short. Garnik asks the village elite for help: first Valod, the head of the electric grid, who claims the villagers are too poor to even pay their utility bills; then Minas, a farm director, who lists a comedic series of agricultural disasters from hail to infected pigs to justify his lack of funds. Finally, Vacho, the head of the water utility, also refuses. Unexpectedly, Vaditer, the village’s only prostitute (a woman in a red dress with a flower in her hair), offers to donate the full $5,000. The priest initially refuses, claiming the money is 'dirty' due to her profession. The punchline comes when the village head urges the priest to take it anyway, assuring him it is 'clean' because it is actually all the village men's money that they paid to her.",
+    "keywords_hy": [
+      "գյուղապետ",
+      "տեր հայր",
+      "եկեղեցի",
+      "փող",
+      "ժողով",
+      "մարմնավաճառ",
+      "նվիրատվություն",
+      "կեղտոտ փողեր",
+      "գյուղի ժողով"
+    ],
+    "keywords_en": [
+      "village head",
+      "priest",
+      "church",
+      "money",
+      "meeting",
+      "prostitute",
+      "donation",
+      "dirty money",
+      "village meeting"
+    ],
+    "keywords_translit": [
+      "gyughapet",
+      "ter hayr",
+      "ekeghetsi",
+      "pogh",
+      "joghov",
+      "marmnavachar",
+      "nviratvutyun",
+      "keghtot pogher",
+      "gyughi joghov"
+    ],
+    "catchphrases": [
+      "տեր հայր ջան լավ գործա արվում բարի գործա արվում ես որոշեցի որ ես ձեզ կօգնեմ իմ կողմից հինգ հազար դոլար ձեզ փող կտամ Վադիթերնա մեր գյուղի միակ մարմնավաճառը",
+      "շնորհակալ եմ ձեր առաջարկի համար բայց ես պետք է հրաժարվեմ այդ փողերից աանի որ այդ փողերը կեղտոտ փողեր են",
+      "արա դե տեր հայր ջան արխային վեգալ էդի մեր փողերնա",
+      "գյուղապետ ջան կյանքիդ մեռնեմ ասըմ ես փող տուր ոնց կարկուտը ջարդեց"
+    ],
+    "topics": [
+      "village",
+      "religion",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

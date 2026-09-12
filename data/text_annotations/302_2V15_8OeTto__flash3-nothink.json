@@ -1,0 +1,70 @@
+{
+  "video_id": "2V15_8OeTto",
+  "seq": 302,
+  "kargin_id": 302,
+  "title": "Kargin Haghordum sketch 463 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "302_Kargin_Haghordum_sketch_463_Hayko_Mko_2V15_8OeTto.ro.json",
+    "visual": true
+  },
+  "input_chars": 1674,
+  "gen_sec": 23.25,
+  "prompt_tokens": 1831,
+  "output_tokens": 621,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002779,
+  "annotation": {
+    "title_hy": "Պապիկը և թոռնիկների ապագան",
+    "title_en": "Grandpa and the Grandsons' Future",
+    "summary_en": "An elderly man talks on the phone about his well-behaved grandchildren reading magazines, while in reality, the boys are looking at adult content.",
+    "summary_detailed_en": "The sketch is set in a living room where an elderly, gray-haired grandfather sits on a couch, talking on a landline telephone. He tells the caller that the children are doing well and are 'quietly reading magazines.' In reality, the two grandsons sitting beside him are browsing a Playboy magazine and a football magazine. The grandfather, oblivious to the specific nature of the adult content, begins a philosophical discussion about timeless masterpieces like Alexander Dumas' 'The Three Musketeers,' arguing that one should choose a profession that lives for centuries. He asks the first grandson, Abul, what he wants to be when he grows up. Abul replies he wants to be a footballer, leading the grandfather to praise Pelé's lasting legacy. However, when he asks the second grandson, Ando, about his aspirations, the boy—distracted by the provocative imagery in the magazines and on the TV in the background—simply replies that he just wants to 'grow up.' The humor stems from the contrast between the grandfather's high-minded ideals and the boys' premature interest in adult themes.",
+    "keywords_hy": [
+      "պապիկ",
+      "թոռնիկ",
+      "ժուռնալ",
+      "ապագա",
+      "մասնագիտություն",
+      "ֆուտբոլիստ",
+      "հեռախոսով խոսել",
+      "երեք հրացանակիրներ"
+    ],
+    "keywords_en": [
+      "grandfather",
+      "grandson",
+      "magazine",
+      "future career",
+      "profession",
+      "footballer",
+      "phone call",
+      "Three Musketeers"
+    ],
+    "keywords_translit": [
+      "papik",
+      "tornik",
+      "zhurnal",
+      "apaga",
+      "masnagitutyun",
+      "futbolist",
+      "heraxosov xosel",
+      "ereq hracanakirner"
+    ],
+    "catchphrases": [
+      "Պապի ջան, ես ուզում եմ մեծանամ, պռոստը մեծանամ:"
+    ],
+    "topics": [
+      "family",
+      "sports",
+      "media_showbiz"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

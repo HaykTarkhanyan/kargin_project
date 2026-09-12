@@ -1,0 +1,79 @@
+{
+  "video_id": "9crBnxb6ZT4",
+  "seq": 612,
+  "kargin_id": 612,
+  "title": "Kargin Haghordum sketch 493 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1829,
+  "gen_sec": 7.2,
+  "prompt_tokens": 2005,
+  "output_tokens": 640,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002923,
+  "annotation": {
+    "title_hy": "Ուստա Սպոն և Վազգենչիկը",
+    "title_en": "Usta Spo and Vazgenchik",
+    "summary_en": "Two construction workers endure electric shocks while debating the romantic philosophies of building materials and sandwich condiments.",
+    "summary_detailed_en": "The sketch takes place in an apartment undergoing renovation, characterized by exposed electrical wires and a bare light bulb hanging from the ceiling. Two workers, Usta Spo and his younger assistant Vazgenchik, are busy with the repairs. Usta Spo wears a makeshift newspaper cap and a jacket, while Vazgenchik is in a striped shirt. A recurring physical gag occurs as they handle the wiring, receiving mild electric shocks that punctuate their surreal conversation. Usta Spo explains his 'philosophical' view of construction, claiming that putty doesn't like plaster, and that cement will 'obey' the plaster if whispered to. They eventually take a break ('pereviv') to eat bread and sandwiches out of plastic bags. The dialogue shifts to absurdity as Vazgenchik asks Spo personal questions about hygiene after sex and why he eats sandwiches with ketchup if he hates them. The punchline arrives when Vazgenchik asks why Spo's wife of 15 years hasn't realized he dislikes ketchup, only for Spo to reveal that he actually makes the sandwiches himself every morning.",
+    "keywords_hy": [
+      "ուտելիք",
+      "շինարարություն",
+      "գյաջ",
+      "ցեմենտ",
+      "բուտեռբրոդ",
+      "կետչուպ",
+      "մայոնեզ",
+      "հոսանք",
+      "ուստա",
+      "աշխատանք"
+    ],
+    "keywords_en": [
+      "food",
+      "construction",
+      "plaster",
+      "cement",
+      "sandwich",
+      "ketchup",
+      "mayonnaise",
+      "electric shock",
+      "master worker",
+      "renovation"
+    ],
+    "keywords_translit": [
+      "utelikh",
+      "shinararutyun",
+      "gyaj",
+      "tsement",
+      "buterbrod",
+      "ketchup",
+      "mayonez",
+      "hosanq",
+      "usta",
+      "ashkhatanq"
+    ],
+    "catchphrases": [
+      "ուստա Սպո",
+      "կետչուսով ա",
+      "կեչուտով ա",
+      "Վազգենչիկ"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "drinking"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

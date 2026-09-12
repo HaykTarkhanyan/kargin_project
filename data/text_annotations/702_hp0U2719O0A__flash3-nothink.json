@@ -1,0 +1,71 @@
+{
+  "video_id": "hp0U2719O0A",
+  "seq": 702,
+  "kargin_id": 702,
+  "title": "Kargin Haghordum sketch 672 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "702_Kargin_Haghordum_sketch_672_Hayko_Mko_hp0U2719O0A.hy.json",
+    "visual": true
+  },
+  "input_chars": 1446,
+  "gen_sec": 10.84,
+  "prompt_tokens": 1808,
+  "output_tokens": 639,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002821,
+  "annotation": {
+    "title_hy": "Տեխնիկները բաղնիքում",
+    "title_en": "The Technicians in the Bathroom",
+    "summary_en": "A suspicious husband returns home to find two men in their underwear hiding in his bathroom and kitchen, but they claim to be specialized plumbing technicians.",
+    "summary_detailed_en": "The sketch begins with a man in a suit returning home, hungry and tired, asking his wife Siranush to warm up some food while he washes his hands. Upon entering the bathroom, he discovers a man standing in his underwear. When the husband angrily demands to know who the stranger is, the woman claims he is a 'technician.' The stranger argues that for a mere 1,000 drams, he shouldn't be expected to get his good clothes dirty. Suspicion rises when a second man is found in similar attire. The husband questions why two people are needed for such a simple job. The men explain their 'specializations': one supposedly graduated from the 'Toilet Faculty' of plumbing, while the other specialized in 'Bathrooms and Drains.' The absurd explanation leads the husband to politely invite both half-naked men to the kitchen for tea to avoid them catching a cold. The sketch concludes with the awkward visual of the four of them sitting at the kitchen table, while one of the men even asks his colleague to pass the 'tea' while they continue the charade.",
+    "keywords_hy": [
+      "սանտեխնիկ",
+      "դավաճանություն",
+      "բաղնիք",
+      "կիսավարտիք",
+      "թեյ խմել",
+      "ծիծաղելի",
+      "կարգին հաղորդում",
+      "ֆակուլտետ"
+    ],
+    "keywords_en": [
+      "plumber",
+      "infidelity",
+      "bathroom",
+      "underwear",
+      "tea drinking",
+      "technician",
+      "excuses",
+      "specialization"
+    ],
+    "keywords_translit": [
+      "santekhnik",
+      "davachanutyun",
+      "baghniq",
+      "kisavartiq",
+      "tey khmel",
+      "tsitsagheli",
+      "kargin haghordum",
+      "fakultet"
+    ],
+    "catchphrases": [
+      "սա տեխնիկն է",
+      "ինքը սանտեխնիկայի զուգարանական ֆակուլտետն է ավարտել"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "work"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

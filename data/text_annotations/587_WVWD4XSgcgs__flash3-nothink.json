@@ -1,0 +1,70 @@
+{
+  "video_id": "WVWD4XSgcgs",
+  "seq": 587,
+  "kargin_id": 587,
+  "title": "Kargin Haghordum sketch 438 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "587_Kargin_Haghordum_sketch_438_Hayko_Mko_WVWD4XSgcgs.hy.json",
+    "visual": true
+  },
+  "input_chars": 2318,
+  "gen_sec": 15.11,
+  "prompt_tokens": 2277,
+  "output_tokens": 447,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002479,
+  "annotation": {
+    "title_hy": "Արջի որսի խորհուրդը",
+    "title_en": "The Bear Hunting Advice",
+    "summary_en": "A naive city hunter boasting about his expensive gear ignores a forest ranger's warnings about the dangers of hunting bears with inadequate weapons.",
+    "summary_detailed_en": "In a bare forest during the day, a younger man dressed in brand-new, professional camouflage gear and carrying a high-tech hunting rifle walks with an older forest ranger wearing a trench coat and fur hat. They arrive at the location in an SUV. The younger man is extremely excited, boasting that he just bought his weapon and equipment five hours ago to ruin a bear's day. The older man, acting as a mentor, warns him that bear hunting is a 'thankless job' and tells him that both his father and grandfather went out to hunt bears with axes, and neither story ended well. The city hunter ignores the warning, mocking the old man's simple rural mindset and bragging that his modern rifle with its scope is the kind of weapon used on high-profile criminals and international fugitives. He laughs at the idea of using an axe, but the sketch ends with the ranger revealing the punchline: it is no longer safe to enter the forest because not only does the bear now have two axes from his relatives, but it also likely has an automatic weapon from the last person who ignored the advice.",
+    "keywords_hy": [
+      "որսորդ",
+      "անտառապահ",
+      "արջի որս",
+      "հրացան",
+      "կացին",
+      "անտառ",
+      "զենք",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "hunter",
+      "forest ranger",
+      "bear hunting",
+      "rifle",
+      "axe",
+      "woods",
+      "weapon",
+      "funny"
+    ],
+    "keywords_translit": [
+      "vorsord",
+      "antarapah",
+      "arji vors",
+      "hracan",
+      "kacin",
+      "antar",
+      "zenq",
+      "tsitsagheli"
+    ],
+    "catchphrases": [
+      "արջի որսը անշնորհակալ գործը",
+      "պապեր կացնո հաուս պիտի գնա"
+    ],
+    "topics": [
+      "leisure_outing",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

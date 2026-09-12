@@ -1,0 +1,66 @@
+{
+  "video_id": "UKLBaltVKKc",
+  "seq": 356,
+  "kargin_id": 356,
+  "title": "Kargin Haghordum sketch 455 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1176,
+  "gen_sec": 5.23,
+  "prompt_tokens": 1557,
+  "output_tokens": 538,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002393,
+  "annotation": {
+    "title_hy": "Պատրաստ լինել ամենավատին",
+    "title_en": "Prepare for the Worst",
+    "summary_en": "A misunderstanding arises between two relatives regarding the health of their mother and the definition of 'the worst' outcome.",
+    "summary_detailed_en": "The sketch begins in an apartment living room where a character in drag, wearing a curly orange wig and a plaid vest, sits on a couch crying while talking on a telephone. An old tube television is visible nearby. The character is distressed while watching a broadcast of a policeman detaining a young man. A mustached man then arrives at the apartment, and the two move to the hallway for an emotional conversation. The dialogue reveals a conflicting report from a doctor regarding their mother's health. The mustached man claims the doctor said she is healthy as a horse and will be discharged soon to live with them. However, the first character is devastated, explaining that the doctor told them to 'prepare for the worst.' The dark punchline hinges on the realization that for this character, the mother moving back into their home to live with them is considered the worst possible outcome, rather than her death. The sketch concludes with an exchange of a small gift bag and their continued emotional debate.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "բժիշկ",
+      "մամա",
+      "վատ լուր",
+      "զոքանչ",
+      "կատակ",
+      "տուն"
+    ],
+    "keywords_en": [
+      "hospital",
+      "doctor",
+      "mother",
+      "bad news",
+      "misunderstanding",
+      "living together",
+      "apartment"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "bzhishk",
+      "mama",
+      "vat lur",
+      "zoqanch",
+      "katak",
+      "tun"
+    ],
+    "catchphrases": [
+      "ես չգիտեմ քեզ ինչա ասել բայց ինձ ասեց որ պատրաստ լինեմ ամենավատին"
+    ],
+    "topics": [
+      "family",
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

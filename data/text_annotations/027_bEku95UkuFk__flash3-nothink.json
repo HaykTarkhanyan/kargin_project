@@ -1,0 +1,60 @@
+{
+  "video_id": "bEku95UkuFk",
+  "seq": 27,
+  "kargin_id": 27,
+  "title": "Kargin Haghordum sketch 334 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "027_Kargin_Haghordum_sketch_334_Hayko_Mko_bEku95UkuFk.hy.json",
+    "visual": true
+  },
+  "input_chars": 583,
+  "gen_sec": 13.36,
+  "prompt_tokens": 1284,
+  "output_tokens": 388,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.001806,
+  "annotation": {
+    "title_hy": "Զինվորը բաց դաշտում",
+    "title_en": "Soldier in the Open Field",
+    "summary_en": "A soldier in uniform maneuvers through an open field and wooded area, performing tactical movements near a roadside sign.",
+    "summary_detailed_en": "The sketch takes place in an outdoor setting featuring an open field with sparse woods during the day. The scene is presented in a distinct sepia-toned visual style. A male character, dressed in a full military uniform including a military cap and heavy coat, is the sole focus of the sequence. He is seen performing a series of tactical military maneuvers across the landscape. The soldier runs through the tall grass, crouches for cover, and crawls along the ground as if navigating a combat zone or training exercise. At one point, he pauses his movement near a roadside signpost containing Armenian text. The physicality of the performance emphasizes the soldier's cautious navigation of the terrain. The sketch relies on visual storytelling and physical action within this specific military-themed environment, utilizing the sparse woods and open field to establish a sense of isolation and focus on the individual soldier's movements.",
+    "keywords_hy": [
+      "զինվոր",
+      "բանակ",
+      "դաշտ",
+      "համազգեստ",
+      "զինվորական",
+      "տակտիկա"
+    ],
+    "keywords_en": [
+      "soldier",
+      "army",
+      "field",
+      "uniform",
+      "military",
+      "tactical"
+    ],
+    "keywords_translit": [
+      "zinvor",
+      "banak",
+      "dasht",
+      "hamazgest",
+      "zinvorakan",
+      "taktika"
+    ],
+    "catchphrases": [],
+    "topics": [
+      "army"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

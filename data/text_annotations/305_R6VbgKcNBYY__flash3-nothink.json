@@ -1,0 +1,70 @@
+{
+  "video_id": "R6VbgKcNBYY",
+  "seq": 305,
+  "kargin_id": 305,
+  "title": "Kargin Haghordum sketch 466 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3695,
+  "gen_sec": 9.56,
+  "prompt_tokens": 3125,
+  "output_tokens": 634,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003465,
+  "annotation": {
+    "title_hy": "Բանակից խուսափելու ձևը",
+    "title_en": "Avoiding the Army",
+    "summary_en": "Three friends try to break one's arm to help him dodge the draft by scaring him with nonsensical army dilemmas, only for a butcher to intervene.",
+    "summary_detailed_en": "A young man, Artyomik, is distraught about his upcoming military service call the next morning. His friends sit with him on a couch in a living room, terrorizing him with absurd 'catch-22' scenarios about army life: if he sweeps the floor he breaks, if he doesn't sweep he gets beaten until he breaks; if he drops a cigarette he betrays his friends, if he doesn't he isn't a 'good guy.' Desperate, they decide to break Artyomik's arm to get a six-month medical deferment. After the friends fail to break it despite painful attempts, they call their neighbor Vardan, a professional butcher. Vardan examines the arm like a piece of meat, criticizes the 'quality' of the bruised flesh, and finally delivers a professional blow. The scene shifts to a corridor where Artyomik appears with his arm in a sling. He reveals the irony: the military doctors granted him a full exemption not because of the broken arm, but because he has chronic kidney disease. Vardan, outraged that they wasted a perfectly good arm without checking his health first, chases the group away in frustration.",
+    "keywords_hy": [
+      "բանակ",
+      "վայնկամատ",
+      "ձեռք ջարդել",
+      "մսավաճառ",
+      "զինվոր",
+      "կարգին հաղորդում",
+      "հայկո մկո",
+      "ծառայություն"
+    ],
+    "keywords_en": [
+      "army",
+      "draft dodger",
+      "broken arm",
+      "butcher",
+      "military service",
+      "kargin haghordum",
+      "hayko mko",
+      "exemption"
+    ],
+    "keywords_translit": [
+      "banak",
+      "vaynkamat",
+      "dzerq jardel",
+      "msavachar",
+      "zinvor",
+      "kargin haghordum",
+      "hayko mko",
+      "tsarayutyun"
+    ],
+    "catchphrases": [
+      "Մինակ ջարդո՞ւմ եմ, թե աղում էլ եմ։"
+    ],
+    "topics": [
+      "army",
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

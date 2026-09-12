@@ -1,0 +1,67 @@
+{
+  "video_id": "1knVCwhPp4A",
+  "seq": 492,
+  "kargin_id": 492,
+  "title": "Kargin Haghordum sketch 120 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "492_Kargin_Haghordum_sketch_120_Hayko_Mko_1knVCwhPp4A.en.json",
+    "visual": true
+  },
+  "input_chars": 3452,
+  "gen_sec": 4.75,
+  "prompt_tokens": 2737,
+  "output_tokens": 649,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003315,
+  "annotation": {
+    "title_hy": "Մալենան և հեռադիտակը",
+    "title_en": "Malena and the Binoculars",
+    "summary_en": "A man becomes obsessed with spying on a beautiful neighbor he calls Malena, only to be confronted by her in his own hallway.",
+    "summary_detailed_en": "The sketch begins in a dimly lit apartment hallway at night. A man in a coat confronts his disheveled friend, who is wrapped in a blanket and has been missing for a month, ignoring calls and skipping work. The disheveled man explains that he hasn't been working; instead, he has been captivated by a pair of binoculars his friend gave him. He explains that he spends every evening watching a woman in the opposite building whom he has named 'Malena.' He describes her routine in detail, noting that she constantly undresses, especially when she returns home at 7:00 PM. As the clock strikes seven, the two men frantically turn off the lights to spy on her. They take turns grabbing the binoculars, excitedly narrating her every move as she takes off her coat and lets down her hair. Suddenly, the woman disappears from view, leaving the man devastated that he 'lost' her. The punchline occurs when a glamorous red-haired woman in a red dress (the real Malena) walks right up to them in the hallway. Instead of being a distant fantasy, she reveals she knows he has been watching by calling him a pervert and asking if he knows where she put her yellow blouse.",
+    "keywords_hy": [
+      "հեռադիտակ",
+      "հարևանուհի",
+      "հետևել",
+      "Մալենա",
+      "դեղին բլուզկա",
+      "իզվռաշենց",
+      "անհետացում"
+    ],
+    "keywords_en": [
+      "binoculars",
+      "neighbor",
+      "spying",
+      "Malena",
+      "yellow blouse",
+      "pervert",
+      "obsession"
+    ],
+    "keywords_translit": [
+      "heraditak",
+      "harevanuhi",
+      "hetevel",
+      "Malena",
+      "deghin bluzka",
+      "izvrashenec",
+      "anhetacum"
+    ],
+    "catchphrases": [
+      "պրիվետ մռութ  բարև ձեզ լսի իզվռաշենց դեղին բլուզկես չեմ գտնում կարողա իմանաս որտեղ եմ դրել"
+    ],
+    "topics": [
+      "neighbors",
+      "leisure_outing",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

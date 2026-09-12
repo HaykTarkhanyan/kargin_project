@@ -1,0 +1,71 @@
+{
+  "video_id": "D1-SuteQWMs",
+  "seq": 630,
+  "kargin_id": 630,
+  "title": "Kargin Haghordum sketch 552 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "630_Kargin_Haghordum_sketch_552_Hayko_Mko_D1-SuteQWMs.hy.json",
+    "visual": true
+  },
+  "input_chars": 2121,
+  "gen_sec": 5.61,
+  "prompt_tokens": 2069,
+  "output_tokens": 618,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002888,
+  "annotation": {
+    "title_hy": "Ֆուտբոլ, թոշակ և պատռված սվիտր",
+    "title_en": "Football, Pension and the Ripped Sweater",
+    "summary_en": "An elderly couple bickers about football schedules and their wedding anniversary while waiting for their grandchildren to visit on pension day.",
+    "summary_detailed_en": "The sketch takes place in a typical Armenian apartment decorated with a traditional wall carpet. An elderly couple, both played by men (with the wife wearing a white wig and glasses), sit on a sofa in front of a CRT television. The wife complains that her husband remembers every football match schedule but forgets their wedding anniversary. The husband defends himself by linking the date to a specific football match result where a team won 2-1. They discuss their grandchildren's upcoming visit, which they cynically attribute to it being pension day. The wife attempts to get the husband to sew his navy striped sweater, but he refuses, claiming he cannot sew. When the grandson arrives—a scruffy young man in a plaid shirt—the wife shows him the sweater, which is visibly ripped. In the hallway and stairwell, the grandson reacts with wide-eyed frustration and shouting, realizing he is being tasked with repairs or dealing with the old couple's antics before he eventually trudges away.",
+    "keywords_hy": [
+      "ֆուտբոլ",
+      "ամուսիններ",
+      "թոշակ",
+      "սվիտր",
+      "թոռնիկ",
+      "կարգին հաղորդում",
+      "հայկո մկո",
+      "տատիկ պապիկ"
+    ],
+    "keywords_en": [
+      "football",
+      "anniversary",
+      "pension",
+      "grandparents",
+      "sweater",
+      "drag comedy",
+      "apartment",
+      "old couple"
+    ],
+    "keywords_translit": [
+      "futbol",
+      "amusinner",
+      "toshak",
+      "svitr",
+      "tornik",
+      "kargin haghordum",
+      "hayko mko",
+      "tatik papik"
+    ],
+    "catchphrases": [
+      "Ես սվիտր կարող չեմ",
+      "Լավ հիշում ես, որ ժամին ինչ ֆուտբոլ կա, բայց սկի չես հիշում, որ օրն ենք ամուսնացել:"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "sports"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

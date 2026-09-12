@@ -1,0 +1,64 @@
+{
+  "video_id": "GUYB2fDpe9Q",
+  "seq": 85,
+  "kargin_id": 85,
+  "title": "Kargin Haghordum sketch 657 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "085_Kargin_Haghordum_sketch_657_Hayko_Mko_GUYB2fDpe9Q.hy.json",
+    "visual": true
+  },
+  "input_chars": 782,
+  "gen_sec": 4.89,
+  "prompt_tokens": 1348,
+  "output_tokens": 542,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.0023,
+  "annotation": {
+    "title_hy": "Բորշչևսկու փաստաբանական գրասենյակը",
+    "title_en": "Borshchevsky the Lawyer",
+    "summary_en": "A client visits the prestigious law office of a man named Borshchevsky to discuss a case, resulting in an absurdly agitated legal consultation.",
+    "summary_detailed_en": "The sketch begins with a satirical establishing shot of New York City skyscrapers and a title card to set a high-stakes, international tone. The scene shifts to an office corridor featuring various parody law firm signs on the doors. A client with a thick mustache enters the office of a lawyer named 'Borshchevsky'. The office is professionally furnished with a large desk, legal books, and various papers, reinforcing the lawyer's supposed status. The client sits down and attempts to speak seriously and honestly about his situation, using some Russian phrases common in formal Armenian settings like 'Здравствуйте' (Hello). As the consultation progresses, the interaction between the lawyer and the client loses its professional veneer. The conversation escalates into a series of exaggerated, agitated facial expressions and wild hand gestures. The comedy stems from the contrast between the prestigious 'New York' law office setting and the increasingly frantic and nonsensical behavior of the two men as they discuss the 'rules' and legal advice.",
+    "keywords_hy": [
+      "փաստաբան",
+      "գրասենյակ",
+      "Բորշչևսկի",
+      "իրավաբան",
+      "խորհրդատվություն",
+      "Նյու Յորք",
+      "օրենք"
+    ],
+    "keywords_en": [
+      "lawyer",
+      "office",
+      "Borshchevsky",
+      "attorney",
+      "consultation",
+      "New York",
+      "legal"
+    ],
+    "keywords_translit": [
+      "pustaban",
+      "grasenyak",
+      "Borshchevsky",
+      "iravaban",
+      "khorhrdatvutyun",
+      "New York",
+      "orenq"
+    ],
+    "catchphrases": [],
+    "topics": [
+      "law_court",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

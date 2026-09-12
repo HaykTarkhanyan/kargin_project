@@ -1,0 +1,68 @@
+{
+  "video_id": "WHkadKCrhqQ",
+  "seq": 64,
+  "kargin_id": 64,
+  "title": "Kargin Haghordum sketch 629 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1311,
+  "gen_sec": 5.82,
+  "prompt_tokens": 1722,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002658,
+  "annotation": {
+    "title_hy": "Գեղեցիկ հիվանդը և բժշկի պլանները",
+    "title_en": "The Beautiful Patient and the Doctor's Plans",
+    "summary_en": "A doctor plans a private visit to a beautiful patient he is discharging, only to be interrupted by a male nurse's eccentric medication mixing method.",
+    "summary_detailed_en": "The sketch is set in a desaturated, black-and-white hospital environment. A goateed doctor and a nurse stand in a corridor discussing a patient in room four, whom they describe as a beautiful young girl. The doctor enthusiastically decides to discharge her because she has recovered, but he gives the nurse specific, suspicious instructions for her: she must go home, undress, lie down, take her medicine, and most importantly, not open the door for anyone unless she hears a specific rhythmic knock. As the doctor demonstrates the knock, he enters the room and finds a male nurse jumping frantically on the patient's bed. When the doctor demands an explanation for this physical behavior, the male nurse explains he forgot to shake the medicine before administering it, so he is shaking the patient instead. After the male nurse leaves, the doctor leans in close to the bed, stroking the patient and calling her 'beautiful' and 'ornate.' However, the sketch ends with a twist when it is revealed the patient is actually a man who is simply hallucinating or delirious, as the doctor remarks on his continued 'rambling.'",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "բուժքույր",
+      "դեղեր",
+      "զառանցանք",
+      "պալատ",
+      "հիվանդ",
+      "սիրուն աղջիկ"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "nurse",
+      "patient",
+      "medicine",
+      "hallucination",
+      "medical exam",
+      "beautiful girl"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivandanoc",
+      "bujquyru",
+      "dexer",
+      "zarancanq",
+      "palat",
+      "hivand",
+      "sirun aghjik"
+    ],
+    "catchphrases": [
+      "Էս հլը զառանցումա հա։"
+    ],
+    "topics": [
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

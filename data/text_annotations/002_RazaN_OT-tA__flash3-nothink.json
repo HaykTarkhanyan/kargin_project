@@ -1,0 +1,72 @@
+{
+  "video_id": "RazaN_OT-tA",
+  "seq": 2,
+  "kargin_id": 2,
+  "title": "Kargin Haghordum - Shef (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "002_Kargin_Haghordum_-_Shef_Hayko_Mko_RazaN_OT-tA.hy.json",
+    "visual": true
+  },
+  "input_chars": 2065,
+  "gen_sec": 14.45,
+  "prompt_tokens": 2106,
+  "output_tokens": 524,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002625,
+  "annotation": {
+    "title_hy": "Խանդոտ նշանածը և շեֆը",
+    "title_en": "The Jealous Fiancé and the Boss",
+    "summary_en": "A woman forces her jealous fiancé to visit her office to prove that her boss is an unattractive older man not worth worrying about.",
+    "summary_detailed_en": "The sketch begins with a young man arriving at an office building, frustrated that his fiancée called him away from his friends for an urgent matter. In the hallway, the blonde secretary (a woman in a red dress) argues with him, insisting they must settle a recurring argument about her workplace once and for all. She threatens to end their relationship if he doesn't meet her boss immediately. Reluctantly, the man agrees. They enter the private office of the boss, Mr. Tigranyan, an older man with a mustache sitting behind a desk littered with documents. The woman introduces her fiancé, Karen, to the boss. When the boss politely asks what brings them there, the woman reveals her true motive: she wanted Karen to see with his own eyes that her boss is a bald, fat, unattractive man with bad teeth, thereby ending his jealousy. The boss is left stunned and insulted by the blunt description as the couple stands among shelves of television sets and office equipment, with the fiancé realizing the absurdity of the situation.",
+    "keywords_hy": [
+      "խանդ",
+      "նշանած",
+      "շեֆ",
+      "գրասենյակ",
+      "քաչալ",
+      "հարաբերություններ",
+      "կատակ",
+      "աշխատավայր"
+    ],
+    "keywords_en": [
+      "jealousy",
+      "fiance",
+      "boss",
+      "office",
+      "secretary",
+      "bald",
+      "relationship problems",
+      "workplace comedy"
+    ],
+    "keywords_translit": [
+      "xand",
+      "nshanats",
+      "shef",
+      "grasenyak",
+      "qachal",
+      "haraberutyunner",
+      "katak",
+      "ashxatavayr"
+    ],
+    "catchphrases": [
+      "Եկա՞ր:",
+      "Պարոն Տիգրանյան, դուք ազատ եք:",
+      "ուղղակի ուզում էի կարենը տենար որ դուք քաչալ հաստերով փչացած ատամներով տարիքով անդուր մարդ եք"
+    ],
+    "topics": [
+      "work",
+      "romance",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

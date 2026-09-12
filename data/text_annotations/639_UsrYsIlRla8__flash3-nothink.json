@@ -1,0 +1,67 @@
+{
+  "video_id": "UsrYsIlRla8",
+  "seq": 639,
+  "kargin_id": 639,
+  "title": "Kargin Haghordum sketch 582 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "639_Kargin_Haghordum_sketch_582_Hayko_Mko_UsrYsIlRla8.ru.json",
+    "visual": true
+  },
+  "input_chars": 1930,
+  "gen_sec": 8.37,
+  "prompt_tokens": 1995,
+  "output_tokens": 610,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002828,
+  "annotation": {
+    "title_hy": "Արմենչիկի սիրահարը և վարորդը",
+    "title_en": "Armenchik Fan and the Driver",
+    "summary_en": "A driver picks up a woman on a rural road, but when she turns out to be an obsessive fan of the singer Armenchik, his attempts at seduction backfire.",
+    "summary_detailed_en": "The sketch takes place on a dusty rural dirt road where a mustached man wearing a straw hat is driving a blue Lada. He stops to pick up a glamorous woman in a black dress who needs a ride to the city. The driver, attempting to be charming, compliments her appearance and offers to throw out a sack of peppers to make room for her. As they drive through the green fields, he asks about her musical tastes, listing icons like Alla Pugacheva and modern acts like DJ BoBo. However, the woman insists on listening only to Armenchik. When the driver realizes he doesn't have the CD, he suddenly claims the car has broken down, declaring that 'fate has shown its villainous side' so they must spend the night in this remote area. To his shock, the woman bluntly agrees to 'spend the night' immediately so they can leave quickly. Offended by her transactional attitude and her obsession with Armenchik, the driver has a change of heart, claiming he is a family man who doesn't need this, and kicks her out of the car.",
+    "keywords_hy": [
+      "Արմենչիկ",
+      "Լադա",
+      "գյուղական ճանապարհ",
+      "վարորդ",
+      "ճակատագիր",
+      "երաժշտություն",
+      "մեքենա"
+    ],
+    "keywords_en": [
+      "Armenchik",
+      "Lada car",
+      "countryside road",
+      "driver",
+      "fate",
+      "music taste",
+      "hitchhiking"
+    ],
+    "keywords_translit": [
+      "Armenchik",
+      "Lada",
+      "gyughakan janaparh",
+      "varord",
+      "chakatagir",
+      "erazhshtutyun",
+      "meqena"
+    ],
+    "catchphrases": [
+      "Վերջը ճակատագիրը իրա подлец կողմերը ցույց տվեց"
+    ],
+    "topics": [
+      "transport",
+      "romance",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

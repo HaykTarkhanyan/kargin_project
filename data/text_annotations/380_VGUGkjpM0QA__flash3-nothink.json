@@ -1,0 +1,67 @@
+{
+  "video_id": "VGUGkjpM0QA",
+  "seq": 380,
+  "kargin_id": 380,
+  "title": "Kargin Haghordum sketch 144 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "380_Kargin_Haghordum_sketch_144_Hayko_Mko_VGUGkjpM0QA.de.json",
+    "visual": true
+  },
+  "input_chars": 1884,
+  "gen_sec": 9.22,
+  "prompt_tokens": 2033,
+  "output_tokens": 613,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002856,
+  "annotation": {
+    "title_hy": "Հարուստ փեսացուի հարցաքննությունը",
+    "title_en": "The Rich Groom's Interrogation",
+    "summary_en": "A wealthy father interviews his daughter's suitor in his office, only to realize the young man's 'fortune' includes the father's own dowry money.",
+    "summary_detailed_en": "The sketch is set in a government-style office featuring a desk, a computer monitor, and an Armenian flag. A man acting as a high-ranking official or businessman, Mr. Meloyan, sits behind the desk when his secretary announces that his daughter Armine's boyfriend has arrived. A young man named Robert, dressed in a white shirt, enters for a formal introduction. Mr. Meloyan explains that while his daughter spoke highly of him, he needs 'solid' answers to assess the suitor's worth. He asks about Robert's background and learns his parents are from Georgia. The conversation turns to finances, where Robert claims a net worth of 301,000 dollars. Impressed, the father offers an additional 300,000 dollars as a dowry, calculating a combined family budget of 601,000 dollars. However, the punchline reveals that Robert's total of 301,000 already included the 300,000 he expected to receive from the father, meaning his personal wealth is only 1,000 dollars.",
+    "keywords_hy": [
+      "հայր ու փեսա",
+      "օժիտ",
+      "հարցաքննություն",
+      "փող",
+      "ամուսնություն",
+      "աշխատասենյակ",
+      "հարստություն"
+    ],
+    "keywords_en": [
+      "father and groom",
+      "dowry",
+      "interrogation",
+      "money",
+      "marriage",
+      "office",
+      "wealth"
+    ],
+    "keywords_translit": [
+      "hayr u pesa",
+      "ojit",
+      "harcaknnutyun",
+      "pogh",
+      "amusnutyun",
+      "ashkhatasenyak",
+      "harstutyun"
+    ],
+    "catchphrases": [
+      "Բայց դե գիտես աղջկա խոսքը ասնավաննի չի"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

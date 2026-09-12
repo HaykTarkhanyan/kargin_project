@@ -1,0 +1,68 @@
+{
+  "video_id": "UvuNYEX2F8Q",
+  "seq": 137,
+  "kargin_id": 137,
+  "title": "Kargin Haghordum sketch 373 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2186,
+  "gen_sec": 12.63,
+  "prompt_tokens": 2156,
+  "output_tokens": 647,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003019,
+  "annotation": {
+    "title_hy": "Պարոն Պետրոսյանի քարտուղարուհին",
+    "title_en": "Mr. Petrosyan's Secretary",
+    "summary_en": "A boss interviews a new secretary who only says 'good' to everything, until she reveals a very specific vocabulary at the end.",
+    "summary_detailed_en": "The sketch is set in a formal office, likely a government or high-level corporate setting, featuring a desk with an Armenian flag, computers, and telephones. The boss, Mr. Petrosyan, starts by finishing a phone call where he micromanages his wife's grocery shopping, complaining that she can't even pick potatoes without him. An employee enters to announce a candidate for the secretary position. The boss expresses his disdain for the previous secretary, mocking her style, speech, and 'pepper-shaped' shoes. The new candidate, a woman in a red leather jacket, enters. Throughout the interview, she answers every single question about her skills, language proficiency (English, Armenian, Russian), and appearance with the single word 'Lav' (Good). The boss proceeds to explain office equipment, including a fax machine and a series of telephones he jokingly categorizes by political affiliation. He emphasizes a trick with the clocks: the guests' clock must be five minutes fast to ensure they leave his office sooner. After hiring her, the boss finally asks if she knows any words other than 'good,' to which she bluntly replies 'sex, striptease, massage.' Stunned, he simply responds with her own catchphrase: 'Lav.'",
+    "keywords_hy": [
+      "քարտուղարուհի",
+      "հարցազրույց",
+      "գրասենյակ",
+      "Պարոն Պետրոսյան",
+      "լավ",
+      "ֆաքս",
+      "հեռախոս"
+    ],
+    "keywords_en": [
+      "secretary",
+      "job interview",
+      "office",
+      "Mr. Petrosyan",
+      "good",
+      "fax machine",
+      "boss"
+    ],
+    "keywords_translit": [
+      "qartugharuhi",
+      "harcazruyc",
+      "grasenyak",
+      "Paron Petrosyan",
+      "lav",
+      "faqs",
+      "heraxos"
+    ],
+    "catchphrases": [
+      "լավ",
+      "աղջիկ ջան դու բացի լավից ուրիշ ինչ բառ գիտես",
+      "սեքս, ստրիպտիզ, մասսաջ"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "ja-t-8MEMKc",
+  "seq": 9,
+  "kargin_id": 9,
+  "title": "Kargin Haghordum sketch 296 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1282,
+  "gen_sec": 21.49,
+  "prompt_tokens": 1669,
+  "output_tokens": 603,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002644,
+  "annotation": {
+    "title_hy": "Հեքիաթ Պատմող Հայրը",
+    "title_en": "The Fairy Tale Dad",
+    "summary_en": "A husband complains to his wife about his expensive doctor-prescribed vacations before being tasked with telling their son a bedtime story.",
+    "summary_detailed_en": "The sketch begins in a living room where a man in a denim shirt and a woman in a red top are sitting on an ornate couch. The man lists an extravagant treatment plan prescribed by his doctor involving twenty days at the sea, twenty days in the mountains, and twenty days in Australia. The woman dryly suggests they start by visiting a different doctor tomorrow. Their son then asks for a bedtime story. The woman, claiming she has told so many stories she could pass a university history exam, insists the father take over. The scene shifts to a dark bedroom where the man leans over the boy in bed. He attempts to tell a modern, nonsensical fairy tale about a 'dzogh-pchogh' (a fixer/blower or handyman) who had two sons: one who fixed things and one who blew things. Through a series of night-time cuts, the man continues his bizarre narration until the boy finally falls asleep. The sketch concludes with the man checking on the sleeping child and reporting back to the woman.",
+    "keywords_hy": [
+      "հեքիաթ",
+      "բժիշկ",
+      "քնել",
+      "ընտանիք",
+      "հայր ու որդի",
+      "հանգիստ",
+      "ծով",
+      "դզող փչող"
+    ],
+    "keywords_en": [
+      "fairy tale",
+      "doctor",
+      "sleeping",
+      "family",
+      "father and son",
+      "vacation",
+      "bedtime story",
+      "handyman"
+    ],
+    "keywords_translit": [
+      "heqiat",
+      "bzhishk",
+      "qnel",
+      "yntaniq",
+      "hayr u ordi",
+      "hangist",
+      "tsov",
+      "dzogh pchogh"
+    ],
+    "catchphrases": [
+      "սկսում ենք նրանից որ վաղը գնում ենք ուրիշ բժշկի մոտ",
+      "լինումա չի լինում մի հատ դզող փչողա լինում"
+    ],
+    "topics": [
+      "family",
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

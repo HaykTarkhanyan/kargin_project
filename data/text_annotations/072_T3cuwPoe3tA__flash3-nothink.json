@@ -1,0 +1,73 @@
+{
+  "video_id": "T3cuwPoe3tA",
+  "seq": 72,
+  "kargin_id": 72,
+  "title": "Kargin Haghordum - Araj mi @ngi (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "072_Kargin_Haghordum_-_Araj_mi_@ngi_Hayko_Mko_T3cuwPoe3tA.en.json",
+    "visual": true
+  },
+  "input_chars": 4353,
+  "gen_sec": 19.19,
+  "prompt_tokens": 2856,
+  "output_tokens": 682,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003474,
+  "annotation": {
+    "title_hy": "Ով է եղել մեր տանը",
+    "title_en": "Who Was in Our House",
+    "summary_en": "A jealous husband interrogates his tied-up wife by parodying a TV quiz show to uncover the details of her affair with their neighbor Gegham.",
+    "summary_detailed_en": "The sketch takes place in a living room decorated to mimic a TV game show like 'Who Wants to Be a Millionaire.' A man wearing a tank top and suspenders acts as the host and contestant, using on-screen graphics to ask himself multiple-choice questions about who visited his home during his absence. His wife is tied to a chair next to him, serving as the 'hostage' of the game. The man uses his 'call a friend' lifeline to call his childhood friend Gago, who confirms that the neighbor, Gegham, was seen leaving the house. The man then moves to the second question regarding what his wife and Gegham were doing, using a '50/50' lifeline to conclude they were having an affair ('sili-bili'). The parody shifts into a dark interrogation as he holds a gun to his wife's head, demanding a chronological account of the physical intimacy. As the wife describes the neighbor kissing her forehead, lips, neck, and chest, the husband ironically complains that she is skipping ahead in the story, demanding every detail in the exact order it happened.",
+    "keywords_hy": [
+      "խանդ",
+      "հարց ու պատասխան",
+      "հարևան Գեղամը",
+      "դավաճանություն",
+      "զանգ ընկերոջը",
+      "հիսուն հիսուն",
+      "ատրճանակ",
+      "հարցազրույց"
+    ],
+    "keywords_en": [
+      "jealousy",
+      "quiz show parody",
+      "neighbor Gegham",
+      "infidelity",
+      "call a friend",
+      "interrogation",
+      "gunshot",
+      "50/50 lifeline"
+    ],
+    "keywords_translit": [
+      "xand",
+      "harc u patasxan",
+      "harevan Geghamy",
+      "davachanutyun",
+      "zang ynkerojy",
+      "hisun hisun",
+      "atrtchanak",
+      "harcazruyc"
+    ],
+    "catchphrases": [
+      "ով էղել մեր տանը իմ բացակայության ժամանակ",
+      "դու առաջ մի ընկնի",
+      "յաա լավ տժացելա Գեղամը",
+      "հիսուն հիսունից մնաց"
+    ],
+    "topics": [
+      "family",
+      "media_showbiz",
+      "crime"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

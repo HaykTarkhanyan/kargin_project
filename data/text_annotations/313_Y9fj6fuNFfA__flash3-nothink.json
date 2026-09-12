@@ -1,0 +1,67 @@
+{
+  "video_id": "Y9fj6fuNFfA",
+  "seq": 313,
+  "kargin_id": 313,
+  "title": "Kargin Haghordum sketch 474 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2216,
+  "gen_sec": 5.09,
+  "prompt_tokens": 2150,
+  "output_tokens": 585,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00283,
+  "annotation": {
+    "title_hy": "Կիսվող բրթուճը ռեստորանում",
+    "title_en": "The Shared Sandwich at the Restaurant",
+    "summary_en": "An elderly couple at a high-end restaurant insists on sharing a single sandwich because they share everything in life, but the real reason for the wait is more practical.",
+    "summary_detailed_en": "In an elegant indoor restaurant named 'Continental,' an elderly man and woman, both using canes, are seated at a table decorated with wine glasses, a candle, and cloth napkins. A waiter approaches and lists expensive gourmet dishes like veal tongue in wine and New York steak. The old man dismisses these, asking simply for 'a sandwich.' The waiter, frustrated, complains to his manager, Karine Albertovna, that a large group of people (implied as a metaphor for the couple's stubbornness) ordered a single sandwich just to sit for hours. The manager orders him to serve them. The man tells his wife how wonderful it is to be at a restaurant where she doesn't have to cook or wash dishes. The waitress, moved by their modesty, offers them a second sandwich for free. The man declines, explaining that as a couple married for 50 years, they share everything in life. When the waitress later notices the woman isn't eating and asks why, the husband reveals the punchline: she is waiting for her turn to use the shared dentures.",
+    "keywords_hy": [
+      "ռեստորան",
+      "բրթուճ",
+      "ծերունի",
+      "պրոտեզ",
+      "ամուսիններ",
+      "կիսել",
+      "աֆիցիանտ"
+    ],
+    "keywords_en": [
+      "restaurant",
+      "sandwich",
+      "elderly couple",
+      "dentures",
+      "sharing",
+      "waiter",
+      "50th anniversary"
+    ],
+    "keywords_translit": [
+      "restoran",
+      "brtuch",
+      "tseruni",
+      "protez",
+      "amusinner",
+      "kisel",
+      "aficiant"
+    ],
+    "catchphrases": [
+      "Իսկ ուտելու ի՞նչ ունեք",
+      "Պրոտեզին եմ սպասում"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

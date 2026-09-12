@@ -1,0 +1,73 @@
+{
+  "video_id": "f6VD3ITakLc",
+  "seq": 209,
+  "kargin_id": 209,
+  "title": "Kargin Haghordum sketch 389 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2448,
+  "gen_sec": 10.66,
+  "prompt_tokens": 2286,
+  "output_tokens": 652,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003099,
+  "annotation": {
+    "title_hy": "Լոգիկա և Հայություն Հոլանդիայում",
+    "title_en": "Logic and Armenianness in Holland",
+    "summary_en": "Two friends wandering the canals of Amsterdam discuss philosophy and logic before using their 'Armenian spirit' to negotiate for a fraction of an expensive chocolate bar.",
+    "summary_detailed_en": "The sketch begins outdoors in Amsterdam, where two friends, dressed in souvenir beanie hats, walk along a canal featuring boats and a swan. One character explains to the other that they are experiencing 'European vibes,' which prompts him to offer philosophical advice. He uses a series of riddles about two men—one clean and one dirty—going to a bathhouse to explain the concepts of logic, ideology, and philosophy. When the first friend craves a specific chocolate bar that costs 20 Euros, they realize they only have 5 Euros. The second friend defines this predicament as 'mathematics,' but the first friend counters with 'Armenianness' (hayutyun), proposing they convince a shopkeeper to cut the chocolate into quarters. They enter a local grocery shop and interact with a shopkeeper and a female assistant. Despite the language barrier and initial refusal, they successfully plead for the portion by mentioning Dutch pride and football player Edgar Manucharyan. The shopkeeper gives them the chocolate but also hands them a fuse, which the friends mistake for an insult or a trap, fleeing before the police are called.",
+    "keywords_hy": [
+      "Ամստերդամ",
+      "լոգիկա",
+      "հայություն",
+      "շոկոլադ",
+      "Եվրոպա",
+      "փիլիսոփայություն",
+      "խանութ",
+      "հայկական",
+      "առևտուր"
+    ],
+    "keywords_en": [
+      "Amsterdam",
+      "logic",
+      "Armenianness",
+      "chocolate",
+      "Europe",
+      "philosophy",
+      "shop",
+      "Armenian identity",
+      "bargaining"
+    ],
+    "keywords_translit": [
+      "Amsterdam",
+      "logika",
+      "hayutyun",
+      "shokolad",
+      "Evropa",
+      "piliso payutyun",
+      "khanut",
+      "haykakan",
+      "arevtur"
+    ],
+    "catchphrases": [
+      "2 հոգի գալիս են, մեկը մաքուրա մեկը կեղտոտ, դրանցից որ մեկնա էթում բաղնիք լողանա"
+    ],
+    "topics": [
+      "shop_market",
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

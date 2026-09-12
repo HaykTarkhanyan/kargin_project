@@ -1,0 +1,68 @@
+{
+  "video_id": "PxR8KBmDkSM",
+  "seq": 115,
+  "kargin_id": 115,
+  "title": "Kargin Haghordum sketch 694 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1558,
+  "gen_sec": 14.13,
+  "prompt_tokens": 1839,
+  "output_tokens": 578,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002653,
+  "annotation": {
+    "title_hy": "Նամյոկով զոքանչին",
+    "title_en": "Hints for the Mother-in-Law",
+    "summary_en": "A husband plots to use indirect hints to tell his mother-in-law she is unwelcome, resulting in a brutal insult the moment she arrives.",
+    "summary_detailed_en": "The sketch begins in an apartment living room where a couple is sitting on a couch. The wife, played by a male actor in drag wearing a blonde wig and white nightgown, is reading a newspaper with her husband. The husband reads a news report about a waitress being stabbed at a bar and cynically suggests that his mother-in-law should take the now-vacant job. When the wife scolds him for being too blunt and cynical toward her mother—who helps clean the house and watch the kids—she suggests he should use subtle hints ('namyok') instead of being rude. The husband agrees to try this approach just as the mother-in-law arrives at the door with a suitcase. In the hallway, she announces she plans to stay until she becomes a nuisance. Following his wife's advice to use a 'hint,' the husband immediately retorts that she won't even have time to finish a cup of coffee, implying she is already a nuisance and should leave.",
+    "keywords_hy": [
+      "զոքանչ",
+      "նամյոկ",
+      "թերթ",
+      "հարս ու փեսա",
+      "կատակ",
+      "ընտանեկան",
+      "հյուր"
+    ],
+    "keywords_en": [
+      "mother-in-law",
+      "hint",
+      "newspaper",
+      "insult",
+      "family argument",
+      "guest",
+      "apartment"
+    ],
+    "keywords_translit": [
+      "zoqanch",
+      "namyok",
+      "tert",
+      "hars u pesa",
+      "katak",
+      "yntanekan",
+      "hyur"
+    ],
+    "catchphrases": [
+      "Մինչև ձեզ չզզվացնեմ:",
+      "Էս փաստորեն մի հատ կոֆե էլ չես հասցնի խմել հա:"
+    ],
+    "topics": [
+      "family",
+      "party_guests",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

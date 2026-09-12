@@ -1,0 +1,70 @@
+{
+  "video_id": "snuBhwDwi1E",
+  "seq": 42,
+  "kargin_id": 42,
+  "title": "Kargin Haghordum sketch 607 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "042_Kargin_Haghordum_sketch_607_Hayko_Mko_snuBhwDwi1E.hy.json",
+    "visual": true
+  },
+  "input_chars": 2856,
+  "gen_sec": 21.85,
+  "prompt_tokens": 2437,
+  "output_tokens": 578,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002952,
+  "annotation": {
+    "title_hy": "Անուշիկի վատ ճաշերը",
+    "title_en": "Anushik's Terrible Cooking",
+    "summary_en": "A wife complains that her husband avoids her and her cooking, but when she reveals a burglar is eating her food, the husband suggests they'll be burying a body by morning.",
+    "summary_detailed_en": "The sketch takes place in an apartment bedroom at night, bathed in a cold blue light. A husband wearing a white undershirt and glasses lies in a double bed next to his wife, Anushik (played by a male actor in a curly wig, glasses, and a nightgown). The wife begins a long complaint, accusing Nerses of distancing himself, never taking her to social gatherings, and avoiding her home-cooked meals. When she asks to be taken somewhere, Nerses mockingly promises to take her with him when he throws out the trash. The wife grows hysterical, twice leaping out of bed to shout out the window about their impending divorce and what the neighbors think, while the husband remains on his pillow, frustrated and asking for his Valerian drops. The tone shifts when Anushik claims there is a thief in the kitchen eating her food. Upon hearing this, the husband realizes that if anyone is eating her notoriously bad cooking, they will surely die; he calmly suggests they just go to sleep and bury the body in the morning.",
+    "keywords_hy": [
+      "ամուսիններ",
+      "ճաշ",
+      "գող",
+      "խանդ",
+      "բաժանվել",
+      "անկողին",
+      "հարևաններ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "married couple",
+      "cooking",
+      "thief",
+      "divorce",
+      "bed",
+      "neighbors",
+      "bad food",
+      "burglary"
+    ],
+    "keywords_translit": [
+      "amusinner",
+      "chash",
+      "gogh",
+      "khand",
+      "bazhanvel",
+      "ankoghin",
+      "harevanner",
+      "katak"
+    ],
+    "catchphrases": [
+      "Ասում ես քո պատրաստած ճաշնա ուտում"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "O1LDjwZcN9s",
+  "seq": 92,
+  "kargin_id": 92,
+  "title": "Kargin Haghordum sketch 650 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1885,
+  "gen_sec": 29.67,
+  "prompt_tokens": 2051,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002822,
+  "annotation": {
+    "title_hy": "Նախարարի Շոֆեռը",
+    "title_en": "The Minister's Driver",
+    "summary_en": "A minister takes the wheel to show his driver how to handle traffic police, leading to a confusing encounter for the officer.",
+    "summary_detailed_en": "The sketch begins inside a car driving along a countryside road. A driver named Sukias is chatting with his boss, a government minister, about neighborhood gossip, his son's karate lessons, and the weather. The minister grows impatient with Sukias's slow driving and the excuse that the speed limit is strictly enforced on this government road. To prove a point, the minister orders Sukias to pull over so they can swap seats, claiming no officer would dare stop him. As the minister speeds down the road, Sukias becomes terrified, begging him to slow down as they approach a curve. A mustachioed traffic policeman eventually flags them down. The officer, Sergeant Gukasyan, approaches the window and notes the speeding violation, asking for documents. After the minister provides his ID, the officer immediately lets them go with a polite 'safe journey.' When the officer's partner asks why he let a violator go without a ticket, the officer replies with the punchline: he doesn't know who the important passenger was, but his chauffeur was the Minister.",
+    "keywords_hy": [
+      "նախարար",
+      "շոֆեռ",
+      "գայիշնիկ",
+      "ոստիկան",
+      "արագություն",
+      "ճանապարհային ոստիկանություն",
+      "խախտում",
+      "ավտոմեքենա"
+    ],
+    "keywords_en": [
+      "minister",
+      "driver",
+      "traffic police",
+      "speeding",
+      "violation",
+      "government official",
+      "car",
+      "police officer"
+    ],
+    "keywords_translit": [
+      "naxarar",
+      "shofer",
+      "gayishnik",
+      "vostikan",
+      "aragutyun",
+      "chanaparhayin vostikanutyun",
+      "xaxtum",
+      "avtomeqena"
+    ],
+    "catchphrases": [
+      "չգիտեմ ով էր բայց շոֆեռը նախարար էր"
+    ],
+    "topics": [
+      "transport",
+      "police",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

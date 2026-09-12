@@ -1,0 +1,70 @@
+{
+  "video_id": "jJg5UCxtdO4",
+  "seq": 226,
+  "kargin_id": 226,
+  "title": "Kargin Haghordum sketch 308 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2955,
+  "gen_sec": 4.33,
+  "prompt_tokens": 2543,
+  "output_tokens": 565,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002966,
+  "annotation": {
+    "title_hy": "Երգող Փոստատարը",
+    "title_en": "The Singing Postman",
+    "summary_en": "A postman refuses to deliver a telegram to a man nicknamed 'Chkhko' unless he follows an old tradition of singing the message, leading to a dark birthday surprise.",
+    "summary_detailed_en": "The sketch takes place in a Soviet-era apartment stairwell where a postman, wearing a fur ushanka and carrying a clipboard and shoulder bag, arrives looking for a man named Varazdat Kazuryan. When he asks for this name, the tenant, a man in a light patterned sweater known to his friends as 'Chkhko,' is mortified that his formal name has been revealed, fearing his friends will mock him for a year. A neighbor woman (played in drag) watches while holding fruit. The tenant refuses to sign for the telegram unless the postman follows an 'old Soviet tradition' of singing the message first. The postman initially refuses, claiming management banned singing seventeen years ago, but relents after receiving a large bribe equivalent to a year's salary. As the tenant gathers his family and friends in the doorway to celebrate his birthday, the postman leads a joyous rendition of 'Happy Birthday' ('Qo tony shnorhavor'). The mood shifts instantly when the postman sings the final improvised line of the song: 'Your brother has died,' leaving the crowd in shock as the sketch ends in a physical scrum.",
+    "keywords_hy": [
+      "փոստատար",
+      "հեռագիր",
+      "ծննդյան տոն",
+      "Չխկո",
+      "երգել",
+      "հարևանուհի",
+      "կաշառք"
+    ],
+    "keywords_en": [
+      "postman",
+      "telegram",
+      "birthday",
+      "Chkhko",
+      "singing",
+      "neighbor woman",
+      "bribe",
+      "bad news"
+    ],
+    "keywords_translit": [
+      "postatar",
+      "heragir",
+      "tsnndyan ton",
+      "Chkhko",
+      "ergel",
+      "harevanuhi",
+      "kasharq"
+    ],
+    "catchphrases": [
+      "Կարողա ես ձեր հանդեպ սխալ բան արեցի, որ ձեր անուն ազգանունը ասեցի",
+      "մինչև ահ էդ հեռագիրը չերգես, քո թղթի մեջ ստորագրող չկա",
+      "Քո տոնը շնորհավոր, քո տոնը շնորհավոր, լինես, լինես, լինես, լինես դու բախտավոր, ձեր եղբայրնա մահացել"
+    ],
+    "topics": [
+      "neighbors",
+      "party_guests",
+      "wedding_funeral"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

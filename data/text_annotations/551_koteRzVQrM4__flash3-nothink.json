@@ -1,0 +1,70 @@
+{
+  "video_id": "koteRzVQrM4",
+  "seq": 551,
+  "kargin_id": 551,
+  "title": "Kargin Haghordum sketch 183 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "551_Kargin_Haghordum_sketch_183_Hayko_Mko_koteRzVQrM4.hy.json",
+    "visual": true
+  },
+  "input_chars": 2472,
+  "gen_sec": 4.28,
+  "prompt_tokens": 2415,
+  "output_tokens": 492,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002684,
+  "annotation": {
+    "title_hy": "Հին ձևերը չկա՞ն",
+    "title_en": "Are the Old Ways Gone?",
+    "summary_en": "A man who has just been released from prison is baffled by how much the world has changed, from currency and geography to the way children are conceived.",
+    "summary_detailed_en": "The sketch begins with a uniformed man leaving a high-security facility, telling the guards he will see them soon. As he enters the city, he boards a passenger van (marshrutka) carrying a plastic bag. Sitting among the passengers, including a woman in a blonde wig (played in drag) and a child, he attempts to interact with the modern world using outdated Soviet knowledge. He first asks the driver to change rubles into kopeks, only to be told that the currency is now drams, dollars, and euros. He then asks for a ride to the 'Lenin Statue,' but the driver informs him the statue is long gone. Confused, he asks who the current Party Secretary of the 26 Commissars region is, learning that the position has been replaced by a district head (taghapet). The climax occurs when the child asks the mother how babies are born. The mother explains that the blood of the mother and father mix to create a child. The ex-convict, hearing this final piece of 'new' information, asks the woman in disbelief if the 'old ways' of making babies no longer exist either.",
+    "keywords_hy": [
+      "բանտարկյալ",
+      "ռուբլի",
+      "Լենինի արձան",
+      "թաղապետ",
+      "հին ձևերը",
+      "երթուղային",
+      "խորհրդային",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "prisoner",
+      "ruble",
+      "Lenin statue",
+      "district head",
+      "old ways",
+      "passenger van",
+      "Soviet era",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "bantarkyal",
+      "rubli",
+      "Lenini ardzan",
+      "taghapet",
+      "hin dzevery",
+      "ertughayin",
+      "khorhrdayin",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "Քուր ջան, մի հատ բան հարցնեմ էլի։ Իսկ էն հին ձևերը էլ չկա՞։"
+    ],
+    "topics": [
+      "transport",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

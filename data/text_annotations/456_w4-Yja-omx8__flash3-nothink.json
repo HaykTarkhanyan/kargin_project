@@ -1,0 +1,70 @@
+{
+  "video_id": "w4-Yja-omx8",
+  "seq": 456,
+  "kargin_id": 456,
+  "title": "Kargin Haghordum sketch 081 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "456_Kargin_Haghordum_sketch_081_Hayko_Mko_w4-Yja-omx8.hy.json",
+    "visual": true
+  },
+  "input_chars": 3359,
+  "gen_sec": 6.37,
+  "prompt_tokens": 2844,
+  "output_tokens": 655,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003387,
+  "annotation": {
+    "title_hy": "Թաղապետի Ընտրություն և Ցուցակ",
+    "title_en": "District Head Elections and The List",
+    "summary_en": "A man boastfully claims he is no longer afraid of local political intimidation, only to be confronted with a bizarre 'event' list that isn't about politics at all.",
+    "summary_detailed_en": "The sketch begins in a living room where a bearded man (Soghomon) is reading a newspaper and talking to a woman visitor. He observes that his neighbor, Vacho, has been walking around with a list, signaling the start of local district head elections. Soghomon goes on a brave rant, declaring that the 'atmosphere of fear' is broken and they will vote for whoever they want this time, ignoring bribes. However, his bravado quickly crumbles into paranoia as he warns the woman not to repeat his rebellious words at work or in the yard, fearing he spoke too much. Later, in a hallway setting, Vacho (dressed in a tracksuit) approaches Soghomon. Soghomon immediately tries to act tough about the elections, but Vacho dismisses him, saying it isn't time for that yet. Instead, Vacho reveals he is organizing a 'group sex' event and reads a list of participants including the local welder, electrician, and aquarium builder. When Vacho invites Soghomon and his wife to join, a stunned Soghomon refuses, leading Vacho to casually cross him off the list and move on.",
+    "keywords_hy": [
+      "թաղապետի ընտրություն",
+      "ցուցակ",
+      "հարևան",
+      "վախի մթնոլորտ",
+      "բիսեդկա",
+      "ակվարիում սարքող",
+      "սվարչիկ",
+      "էլեկտրիկ"
+    ],
+    "keywords_en": [
+      "district head elections",
+      "neighbor",
+      "list",
+      "atmosphere of fear",
+      "group sex joke",
+      "apartment building",
+      "welder",
+      "electrician"
+    ],
+    "keywords_translit": [
+      "taghapeti yntrutyun",
+      "tsutsak",
+      "harevan",
+      "vakhi mtnolort",
+      "bisedka",
+      "akvaryum sarqogh",
+      "svarchik",
+      "elektrik"
+    ],
+    "catchphrases": [
+      "Հարց չկա ախպեր, դե քեզ ցուցակից ջնջում եմ"
+    ],
+    "topics": [
+      "neighbors",
+      "bureaucracy",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

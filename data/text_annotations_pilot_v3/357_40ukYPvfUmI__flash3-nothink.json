@@ -1,0 +1,69 @@
+{
+  "video_id": "40ukYPvfUmI",
+  "seq": 357,
+  "kargin_id": 357,
+  "title": "Kargin Haghordum sketch 456 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "357_Kargin_Haghordum_sketch_456_Hayko_Mko_40ukYPvfUmI.hy.json",
+    "visual": true
+  },
+  "input_chars": 1437,
+  "gen_sec": 5.4,
+  "prompt_tokens": 1739,
+  "output_tokens": 617,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002721,
+  "annotation": {
+    "title_hy": "Կնոջ սխալմունքը մթության մեջ",
+    "title_en": "The Wife's Mistake in the Dark",
+    "summary_en": "A husband returns home late to find his wife complaining that she was assaulted twice, only to realize she didn't object because she thought it was him.",
+    "summary_detailed_en": "The sketch begins at night in a dark apartment hallway as a man enters, looking visibly exhausted and weary. He expresses concern about waking his sleeping wife while holding a bottle of 'Kargin Lemonade.' He initially settles on a living room couch, wrapping himself in a distinctive shiny gold blanket, looking anxious and tired. Eventually, he moves into the bedroom where his wife is sleeping. The wife suddenly sits up in bed, startled and distressed. A tense and gesture-heavy confrontation ensues near an open window. She frantically tells her husband that a stranger just entered through the window and raped her twice. When the husband, horrified, asks why she didn't scream or make a sound sooner, she delivers the dark punchline: she thought the intruder was her husband and only realized something was wrong when he started the second time. The scene ends with the husband's stunned reaction to her casual admission.",
+    "keywords_hy": [
+      "կնիկ",
+      "դավաճանություն",
+      "բռնաբարություն",
+      "մութ",
+      "ննջարան",
+      "ամուսիններ",
+      "սխալմունք",
+      "Կարգին Լիմոնադ"
+    ],
+    "keywords_en": [
+      "wife",
+      "husband",
+      "darkness",
+      "bedroom",
+      "intruder",
+      "mistaken identity",
+      "lemonade",
+      "nighttime"
+    ],
+    "keywords_translit": [
+      "knik",
+      "davachanutyun",
+      "brnabarutyun",
+      "mut",
+      "nnjaran",
+      "amusinner",
+      "sxalmunq",
+      "Kargin Limonad"
+    ],
+    "catchphrases": [
+      "էս ով էր կնիկ էսի նոր ինձ երկու անգամ բռնաբարեց բա ընչի շուտ ձեն չհանիր ես գիտեի էդ դու ես մինչև որ ինքը երկրորդ անգամ չսկսեց"
+    ],
+    "topics": [
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

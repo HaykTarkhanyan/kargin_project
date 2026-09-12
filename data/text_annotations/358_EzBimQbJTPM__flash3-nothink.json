@@ -1,0 +1,71 @@
+{
+  "video_id": "EzBimQbJTPM",
+  "seq": 358,
+  "kargin_id": 358,
+  "title": "Kargin Haghordum sketch 457 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "358_Kargin_Haghordum_sketch_457_Hayko_Mko_EzBimQbJTPM.tr.json",
+    "visual": true
+  },
+  "input_chars": 1954,
+  "gen_sec": 11.58,
+  "prompt_tokens": 2022,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002979,
+  "annotation": {
+    "title_hy": "Փյունիկը Պախտագորի դեմ",
+    "title_en": "Pyunik vs Pakhtakor",
+    "summary_en": "A football-obsessed husband chooses an important match over a romantic dinner or a social visit with his wife.",
+    "summary_detailed_en": "The sketch takes place in a hotel room setting. A man, appearing in a bathrobe with shaving cream on his face and hair in curlers (implied by the dialogue), is confronted about his plans for the evening. His partner (portrayed through the dialogue as his wife who has spent time getting ready with masks and rollers) suggests going to a restaurant to see people and show themselves off, or at least visiting their friends, Styopa's family, who have invited them five times. However, the man, Simon, is completely focused on the upcoming football match between Pyunik and Pakhtakor. He explains that he has waited a month for this championship game where the winner advances to the next stage. Dressed in a striped tracksuit and cap, he searches for his flag, insisting that he must be at the stadium to shout his supporting slogans like 'Pyunik hup tur!' rather than watching a goal on TV. When accused of loving Pyunik more than his own wife, he bluntly retorts that he even loves the opposing team, Pakhtakor, more than her before heading out.",
+    "keywords_hy": [
+      "ֆուտբոլ",
+      "Փյունիկ",
+      "Պախտագոր",
+      "խաղ",
+      "ամուսիններ",
+      "ռեստորան",
+      "երկրպագու",
+      "հայկական հումոր"
+    ],
+    "keywords_en": [
+      "football",
+      "soccer",
+      "Pyunik",
+      "Pakhtakor",
+      "fanatic",
+      "husband and wife",
+      "match",
+      "sports fan"
+    ],
+    "keywords_translit": [
+      "futbol",
+      "Pyunik",
+      "Pakhtagor",
+      "khagh",
+      "amusinner",
+      "restoran",
+      "erkrpagu",
+      "kargin"
+    ],
+    "catchphrases": [
+      "Լսի Սիմոն տղա, իմ մոտ նենց տպավորություն ա, որ դու էդ Փյունիկը ինձանից շատ ես սիրում։",
+      "Գիտես, ինձ թվումա ես Պախտագորին էլ եմ Քեզանից շատ սիրում։"
+    ],
+    "topics": [
+      "family",
+      "sports",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "d3AsbzNxb5c",
+  "seq": 582,
+  "kargin_id": 582,
+  "title": "Kargin Haghordum sketch 433 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "582_Kargin_Haghordum_sketch_433_Hayko_Mko_d3AsbzNxb5c.hy.json",
+    "visual": true
+  },
+  "input_chars": 2721,
+  "gen_sec": 5.66,
+  "prompt_tokens": 2495,
+  "output_tokens": 672,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003263,
+  "annotation": {
+    "title_hy": "Զբաղվածության գործակալություն",
+    "title_en": "The Employment Agency",
+    "summary_en": "An employment agent offers a young man a dream job helping models undress backstage, only to reveal the catch at the end.",
+    "summary_detailed_en": "The sketch takes place in an employment agency office where an agent sits at a desk cluttered with a computer and telephone. The agent is finishing a phone call where he ironically discusses finding a job for a general's nephew as a cleaner in the National Assembly, joking that the state provides a car and a nickname for the role. A job seeker named Edik enters the office, wearing a coat and a lanyard. The agent enthusiastically informs Edik that he has found him a high-paying position (500,000 drams) working backstage at fashion shows. The job entails helping female models change their clothes quickly between runway appearances. Edik is thrilled and ready to start immediately. The agent confirms Edik is unmarried, noting that being surrounded by naked models often causes jealousy in wives. He checks if Edik will feel 'discomfort' or 'complexes' around beautiful naked bodies, to which Edik eagerly replies he will be perfectly comfortable. However, the punchline arrives when the agent tells Edik he must go to the distant city of Goris for the final interview; although the job is in Yerevan, the queue of men applying for this specific position is so long it stretches all the way to Goris.",
+    "keywords_hy": [
+      "աշխատանք",
+      "գործակալություն",
+      "մոդելներ",
+      "հարցազրույց",
+      "Գորիս",
+      "բարձր աշխատավարձ",
+      "հերթ",
+      "զբաղվածության կենտրոն"
+    ],
+    "keywords_en": [
+      "job",
+      "employment agency",
+      "models",
+      "interview",
+      "Goris",
+      "high salary",
+      "queue",
+      "backstage"
+    ],
+    "keywords_translit": [
+      "ashkhatank",
+      "gortsakalutyun",
+      "modelner",
+      "hartsazruyts",
+      "Goris",
+      "bardzr ashkhatavardz",
+      "hert",
+      "zbaghvatsutyan kentron"
+    ],
+    "catchphrases": [
+      "պետությունը տրամադրում է իր մեքենա ու մականուն",
+      "աշխատանքի անցնելու ցանկացողների հերթը հասնում է մինչև Գորիս"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

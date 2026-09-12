@@ -1,0 +1,70 @@
+{
+  "video_id": "CcDMgyCFmVk",
+  "seq": 293,
+  "kargin_id": 293,
+  "title": "Kargin Haghordum sketch 410 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3175,
+  "gen_sec": 11.27,
+  "prompt_tokens": 2861,
+  "output_tokens": 622,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003296,
+  "annotation": {
+    "title_hy": "Հիմար ոստիկանները և Օպերացիան",
+    "title_en": "Stupid Cops and the Operation",
+    "summary_en": "Two incompetent police officers report to their chief about how they followed a notorious burglar all day, only to lose him at a movie theater because they didn't want to watch the same film for a sixth time.",
+    "summary_detailed_en": "The sketch takes place in a wood-paneled government office decorated with small flags. A senior police officer with a mustache sits at his desk, receiving a report from two of his subordinates regarding a surveillance operation. The officers explain how they followed a high-profile suspect in a red Moskvitch, describing a series of mundane events: following him through the city, watching him change money at a currency exchange (where they mistakenly thought he was upset about a low exchange rate rather than planning a robbery), and eventually trailing him to a movie theater. The junior officers detail how they waited outside the theater hall for the suspect to emerge. When the film ended and the suspect was nowhere to be found, they realized they had lost him. The chief becomes furious, revealing that the suspect is a notorious serial burglar they have been trying to catch for two years. When he demands to know why they didn't follow him into the cinema hall to make the arrest, the officers nonchalantly reply that they had already seen that particular movie five times and didn't want to watch it again.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "հետապնդում",
+      "կարմիր մասկվիչ",
+      "կինոթատրոն",
+      "գողություն",
+      "քննիչ",
+      "զեկույց",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "police",
+      "surveillance",
+      "red Moskvitch",
+      "movie theater",
+      "burglary",
+      "investigator",
+      "report",
+      "funny cops"
+    ],
+    "keywords_translit": [
+      "vostikanutyun",
+      "hetapndum",
+      "karmir maskvich",
+      "kinotatron",
+      "goghutyun",
+      "qnnich",
+      "zekuyc",
+      "tsitsagheli"
+    ],
+    "catchphrases": [
+      "Արա, հօ դուք գիժ չեք"
+    ],
+    "topics": [
+      "police",
+      "crime",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "5LRCQjkTqP0",
+  "seq": 365,
+  "kargin_id": 365,
+  "title": "Kargin Haghordum sketch 492 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "365_Kargin_Haghordum_sketch_492_Hayko_Mko_5LRCQjkTqP0.hy.json",
+    "visual": true
+  },
+  "input_chars": 2301,
+  "gen_sec": 14.31,
+  "prompt_tokens": 2306,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003082,
+  "annotation": {
+    "title_hy": "Խաղող վաճառողները և ամենագետը",
+    "title_en": "The Grape Sellers and the Know-it-all",
+    "summary_en": "Two village grape sellers try to overcharge a wealthy driver, but he attempts to lower the price by claiming to know everyone in their village.",
+    "summary_detailed_en": "The sketch takes place at a roadside grape stand where two young villagers, Sisak and Hamlet, are selling grapes under a beach umbrella. When a wealthy man in a suit pulls up in an SUV, the sellers decide to exploit his apparent wealth by quoting an outrageous price of 45,000 drams per crate, claiming the grapes are a rare Spanish variety that only grows in their village, 'Aragon'. The driver, unfazed, begins a persistent negotiation strategy by claiming intimate knowledge of their village residents. He name-drops the village head Mamikon and the school director, implying he knows personal secrets about their wives. As the driver continues to list people he knows, including their neighbor Valod the tractor driver, he subtly hints at having affairs with their wives. Fearing that the man's 'knowledge' is getting too close to home and that he might reveal scandalous information about their own families next, the sellers quickly cave. The sketch concludes with the intimidated sellers helping the man load the crates into his car at a massive discount just to get him to stop talking.",
+    "keywords_hy": [
+      "խաղող",
+      "վաճառել",
+      "գյուղացի",
+      "ճանաչել",
+      "գին",
+      "առևտուր",
+      "ճանապարհ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "grapes",
+      "selling",
+      "villager",
+      "negotiation",
+      "price",
+      "roadside stand",
+      "wealthy driver",
+      "blackmail"
+    ],
+    "keywords_translit": [
+      "khaghogh",
+      "vacharel",
+      "gyughatsi",
+      "chanachel",
+      "gin",
+      "arevtur",
+      "chanaparh",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "բարի օր գյուղի արտար ժողովրդին",
+      "Համլետ արի գինը իջնենք թե չէ սա կամաց-կամաց մեր տներին է մոտիկանում"
+    ],
+    "topics": [
+      "shop_market",
+      "village",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

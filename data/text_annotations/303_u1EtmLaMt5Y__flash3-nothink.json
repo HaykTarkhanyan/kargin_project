@@ -1,0 +1,71 @@
+{
+  "video_id": "u1EtmLaMt5Y",
+  "seq": 303,
+  "kargin_id": 303,
+  "title": "Kargin Haghordum sketch 464 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "303_Kargin_Haghordum_sketch_464_Hayko_Mko_u1EtmLaMt5Y.hy.json",
+    "visual": true
+  },
+  "input_chars": 3661,
+  "gen_sec": 4.66,
+  "prompt_tokens": 2998,
+  "output_tokens": 651,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003452,
+  "annotation": {
+    "title_hy": "Էլեկտրականության Թեժ Գիծ և Փոշեկուլ",
+    "title_en": "Electricity Hot-line and Vacuum",
+    "summary_en": "An elderly woman mistakes a high-energy vacuum salesman for a TV news crew investigating her power outage, leading to a messy misunderstanding.",
+    "summary_detailed_en": "The sketch opens in a cluttered apartment where an elderly woman (played by a man in drag, wearing a gray wig and glasses) is talking on a landline phone. She complains that she has had no electricity for two weeks and claims she called a TV station's 'hotline' to send a film crew to document the neglect. A young man enters, and the woman, thinking he is from the media, is eager to show him the situation. However, the man clarifies he is a supervisor from 'Progress and Cleaning,' a former ballet dancer who now sells vacuums. To demonstrate his product's power, he dumps a sack of garbage onto her living room floor. He arrogantly boasts that his vacuum is so efficient that he is willing to eat any dust left behind with a spoon. The punchline hits when the old woman heads for the kitchen to fetch a spoon, reminding him that since she hasn't had electricity for two weeks, his vacuum won't even turn on, leaving him to face the pile of trash.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "փոշեկուլ",
+      "լույս չկա",
+      "թեժ գիծ",
+      "Վանուշ Խանամիրյան",
+      "պարուսույց",
+      "գովազդ",
+      "տատիկ"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "vacuum cleaner",
+      "no electricity",
+      "hotline",
+      "ballet teacher",
+      "salesman",
+      "garbage",
+      "old woman"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "poshekul",
+      "luys chka",
+      "tezh gits",
+      "Vanush Khanamiryan",
+      "parusuyts",
+      "govazd",
+      "tatik"
+    ],
+    "catchphrases": [
+      "Չեմ մանմ, ես մենակ Վանուշ Խանամիրյանին եմ ընդունմ",
+      "Գդալի հետևից։ 2շաբաթա լույս չունենք։"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

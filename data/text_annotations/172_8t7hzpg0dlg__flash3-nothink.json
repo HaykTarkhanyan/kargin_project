@@ -1,0 +1,68 @@
+{
+  "video_id": "8t7hzpg0dlg",
+  "seq": 172,
+  "kargin_id": 172,
+  "title": "Kargin Haghordum sketch 216 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "172_Kargin_Haghordum_sketch_216_Hayko_Mko_8t7hzpg0dlg.hy.json",
+    "visual": true
+  },
+  "input_chars": 1909,
+  "gen_sec": 4.62,
+  "prompt_tokens": 2001,
+  "output_tokens": 458,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002374,
+  "annotation": {
+    "title_hy": "Ստախոս պատգամավորի թեկնածուն",
+    "title_en": "The Lying Candidate",
+    "summary_en": "A guilt-ridden driver tries to confess to accidentally killing a political candidate, but a lazy police officer refuses to book him, claiming candidates always lie.",
+    "summary_detailed_en": "The sketch begins with a high-stakes environment in a police station. A superior officer sternly warns his subordinate, Soghomonyan, that inspectors are coming from the central office. He threatens that unless all paperwork is completed by 10 AM, Soghomonyan will lose his rank, regardless of how many murders he solves. The scene shifts to a man in a beige jacket and knit cap who is frantic after hitting a political candidate with his car. He decides to turn himself in. At the police station, he confesses to the officer that he ran over a candidate. The officer, preoccupied with his paperwork deadline, dismissively claims the candidate must have walked under the wheels himself and tells the man he is free to go. Even when the man confesses to burying the victim in a forest to avoid traffic accidents, the officer thanks him for his public service. Finally, the man admits the candidate was screaming that he was still alive while being buried. The officer nonchalantly tells him not to believe candidates because they lie to everyone, and sends the man away once more.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "պատգամավորի թեկնածու",
+      "հանձնվել",
+      "քննիչ",
+      "թաղել",
+      "սուտասան",
+      "վթար"
+    ],
+    "keywords_en": [
+      "police station",
+      "political candidate",
+      "confession",
+      "detective",
+      "burial",
+      "liar",
+      "car accident"
+    ],
+    "keywords_translit": [
+      "ostikanutyun",
+      "patgamavori teknatsu",
+      "handznvel",
+      "kannich",
+      "taghel",
+      "sutasan",
+      "vtar"
+    ],
+    "catchphrases": [
+      "դրանց մի հավատա, դրանք սաղին խաբում են",
+      "աստղերիցդ մեկը պոկելու եմ"
+    ],
+    "topics": [
+      "police",
+      "crime",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "absurd"
+    ]
+  }
+}

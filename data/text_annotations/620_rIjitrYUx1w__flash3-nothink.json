@@ -1,0 +1,63 @@
+{
+  "video_id": "rIjitrYUx1w",
+  "seq": 620,
+  "kargin_id": 620,
+  "title": "Kargin Haghordum sketch 542 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "620_Kargin_Haghordum_sketch_542_Hayko_Mko_rIjitrYUx1w.hy.json",
+    "visual": true
+  },
+  "input_chars": 1961,
+  "gen_sec": 6.02,
+  "prompt_tokens": 2059,
+  "output_tokens": 579,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002766,
+  "annotation": {
+    "title_hy": "Կիսարյան 8 բնակարան 16",
+    "title_en": "Kisaryan 8 Apartment 16",
+    "summary_en": "A husband receives a series of phone messages intended for him, culminating in a secret lover's invitation that is overheard by his wife who was supposed to be on duty.",
+    "summary_detailed_en": "The sketch takes place in an apartment living room. A shirtless, mustached man is at home when he receives several phone messages. The first two messages are from a business associate named Moso regarding a transaction for roofing sheets (shifer) with Armo. However, the third message is from his mistress, who calls the house phone thinking his wife is on night duty. She expresses how much she misses him and gives a specific address: Kisaryan 8, apartment 16, urging him to visit before 5:00 PM and warning him to delete the message so his 'crazy wife' doesn't find out. As the man prepares to leave, his wife—a woman in drag wearing a curly wig and a zebra-print top—confronts him. The husband, realizing he has been caught, tries to lie, claiming he just received an emergency call and needs to leave. The wife, having heard everything, delivers the punchline that he doesn't need to go to the address because she has already 'gone' there (implying she is ready to deal with the situation).",
+    "keywords_hy": [
+      "դավաճանություն",
+      "հեռախոսազանգ",
+      "հերթապահություն",
+      "շիֆեր",
+      "կատաղած կին",
+      "սիրուհի"
+    ],
+    "keywords_en": [
+      "cheating husband",
+      "phone call",
+      "mistress",
+      "night shift",
+      "roofing sheets",
+      "jealous wife"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "heraxosazang",
+      "hertapahutyun",
+      "shifer",
+      "kataghad knik",
+      "siruhi"
+    ],
+    "catchphrases": [
+      "Կարաս չգնաս, ես արդեն գնացել եմ"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

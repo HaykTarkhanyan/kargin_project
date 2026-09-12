@@ -1,0 +1,67 @@
+{
+  "video_id": "HihCVmDFnnw",
+  "seq": 121,
+  "kargin_id": 121,
+  "title": "Kargin Haghordum sketch 688 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1455,
+  "gen_sec": 31.32,
+  "prompt_tokens": 1784,
+  "output_tokens": 574,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002614,
+  "annotation": {
+    "title_hy": "Հազար դոլար և խալաթը",
+    "title_en": "One Thousand Dollars and the Robe",
+    "summary_en": "A neighbor offers a woman one thousand dollars just to look under her bathrobe, a sum her husband was expecting as a debt repayment.",
+    "summary_detailed_en": "The sketch begins in a domestic apartment setting where a husband is sitting on the couch reading a newspaper while his wife, wearing a bathrobe and a towel turban on her head, has just finished bathing. They discuss the city's water schedule, complaining that the authorities have limited running water to only one hour a day. The wife mentions she wants to read the paper before bathing, but the husband warns her the water will be cut off soon. A knock at the door reveals their neighbor, Vigen. When the wife answers, Vigen offers her a surprising deal: he will give her one thousand dollars cash just to open her bathrobe so he can look. She agrees, takes the money, and closes the door. When the husband asks who was at the door, she lies and says it was just Vigen collecting money for the elevator. The husband then reveals the irony: Vigen owed him exactly one thousand dollars and had promised to bring it over that day.",
+    "keywords_hy": [
+      "հարևան",
+      "պարտք",
+      "խալաթ",
+      "լողանալ",
+      "ջրի գրաֆիկ",
+      "հազար դոլար",
+      "խաբեություն"
+    ],
+    "keywords_en": [
+      "neighbor",
+      "debt",
+      "bathrobe",
+      "shower",
+      "water schedule",
+      "one thousand dollars",
+      "deception"
+    ],
+    "keywords_translit": [
+      "harevan",
+      "partq",
+      "khalat",
+      "loghanal",
+      "jri grafik",
+      "hazar dolar",
+      "khabeutyun"
+    ],
+    "catchphrases": [
+      "Բա ոնց, խեղճ ժողովուդը մութ ու ցուրտ տարիները տեսավ, հիմա ցամաք ու կեղտոտ տարիներնա տենալու"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

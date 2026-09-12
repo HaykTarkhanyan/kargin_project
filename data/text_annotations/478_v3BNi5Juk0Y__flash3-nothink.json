@@ -1,0 +1,70 @@
+{
+  "video_id": "v3BNi5Juk0Y",
+  "seq": 478,
+  "kargin_id": 478,
+  "title": "Kargin Haghordum sketch 106 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "478_Kargin_Haghordum_sketch_106_Hayko_Mko_v3BNi5Juk0Y.hy.json",
+    "visual": true
+  },
+  "input_chars": 1773,
+  "gen_sec": 10.65,
+  "prompt_tokens": 1996,
+  "output_tokens": 397,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002189,
+  "annotation": {
+    "title_hy": "Խումարը և պաչիկը",
+    "title_en": "The Hangover and the Kiss",
+    "summary_en": "A man nursing a severe hangover after a party rejects alcohol for a cure, only to be offered a kiss by a creepy woman in a red wig.",
+    "summary_detailed_en": "The sketch begins with a chaotic house party scene involving a physical fight among guests in front of a red curtain. The setting then shifts to a bedroom at night where a man lies in bed, suffering from a debilitating hangover. He explains that he and his friends were celebrating the birth of Gago’s son and drank excessively. A woman (played by a male actor in drag wearing a distinctive red wig and wide-eyed expression) hovers over him with exaggerated concern. She repeatedly asks if he wants a drink to feel better, offering both vodka and beer, but the man miserably refuses both. Finally, she asks if a kiss would help him recover. The man, still lying down and feeling nauseous, delivers the punchline by suggesting that if she kisses him, he might 'give it back' (implying he will vomit on her), which he thinks might actually make him feel better.",
+    "keywords_hy": [
+      "խումար",
+      "խմած",
+      "խնջույք",
+      "կին",
+      "ամուսին",
+      "կատակերգություն",
+      "հարբած",
+      "պաչիկ"
+    ],
+    "keywords_en": [
+      "hangover",
+      "drunk",
+      "party",
+      "wife",
+      "husband",
+      "comedy",
+      "kiss",
+      "drag"
+    ],
+    "keywords_translit": [
+      "khumar",
+      "khmats",
+      "khnjuyq",
+      "kin",
+      "amusin",
+      "katakergutyun",
+      "harbats",
+      "pachik"
+    ],
+    "catchphrases": [
+      "Լավ ուզում ես մի հատ պաչի հետ տամ դզվեմ էլի։"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "party_guests"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

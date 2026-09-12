@@ -1,0 +1,70 @@
+{
+  "video_id": "hxad0XaMleI",
+  "seq": 652,
+  "kargin_id": 652,
+  "title": "Kargin Haghordum sketch 595 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1934,
+  "gen_sec": 5.39,
+  "prompt_tokens": 2081,
+  "output_tokens": 574,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002763,
+  "annotation": {
+    "title_hy": "Կուխնիում նստած",
+    "title_en": "Sitting in the Kitchen",
+    "summary_en": "Two friends brag about spending New Year's in Hawaii and Brazil, only for the third friend to remind them they were all together in a kitchen getting high.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit living room setting where two men are sitting closely on a sofa. One character, appearing visibly intoxicated or dazed, discusses a mysterious transaction involving a neighbor named Boya, using the catchphrase 'I took it from him and gave him money for it.' The conversation takes an absurd turn as they contemplate how long it would take for someone to fall from the 100th floor, concluding the person would die after five days due to lack of food and water during the fall. Attempting to change the mood, they discuss New Year's Eve. One man describes a luxurious trip to Hawaii filled with sand, sun, mulatto girls, and endless black caviar and cognac. The second man describes a vibrant Brazilian carnival with music, feathers, and naked women. The punchline arrives when Samo, the third friend, reminds them that they actually spent New Year's Eve together in the kitchen; the others were simply hallucinating because they were high while he remained sober.",
+    "keywords_hy": [
+      "նոր տարի",
+      "խմած",
+      "հավայան կղզիներ",
+      "բրազիլիա",
+      "կուխնի",
+      "հաշիշ",
+      "կատակ",
+      "հարբած"
+    ],
+    "keywords_en": [
+      "New Year",
+      "Hawaii",
+      "Brazil",
+      "hallucination",
+      "kitchen",
+      "drugs",
+      "intoxicated",
+      "bragging"
+    ],
+    "keywords_translit": [
+      "nor tari",
+      "xmac",
+      "havayan kxiner",
+      "brazilia",
+      "kuxni",
+      "hashish",
+      "katak",
+      "harbac"
+    ],
+    "catchphrases": [
+      "Դրանից վերցրի տեղը փող տվի"
+    ],
+    "topics": [
+      "drinking",
+      "party_guests",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

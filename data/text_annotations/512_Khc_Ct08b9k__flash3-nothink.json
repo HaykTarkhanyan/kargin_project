@@ -1,0 +1,74 @@
+{
+  "video_id": "Khc_Ct08b9k",
+  "seq": 512,
+  "kargin_id": 512,
+  "title": "Kargin Haghordum sketch 141 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1528,
+  "gen_sec": 10.99,
+  "prompt_tokens": 1794,
+  "output_tokens": 672,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002913,
+  "annotation": {
+    "title_hy": "Ժամը վեցին ականջներդ կտրելու եմ",
+    "title_en": "I'll Cut Your Ears at Six",
+    "summary_en": "A police officer scolds a boy for skipping school, only to be terrified when the boy's father takes the boy's threat literally.",
+    "summary_detailed_en": "The sketch begins in an autumn park where a police officer spots a young boy sitting on a bench during school hours. The officer aggressively orders the boy to go back to class. The boy nonchalantly responds that he has ditched school. When the officer continues to yell and threaten him, the boy calmly tells him, 'Uncle, at exactly 6 o'clock today, I am going to cut off your ears.' Offended, the officer chases the boy through the street and into an apartment stairwell to confront his parents. He knocks on the door and is met by a large, muscular man in a tank top (the boy's father) who is brandishing two large kitchen knives. The officer politely tries to complain about the boy's behavior and the specific threat about cutting off his ears at 6 o'clock. The father, completely unfazed and menacing, checks his watch and asks, 'If he said 6 o'clock, why have you come so early?' The sketch ends with the officer's terrified reaction as he realizes the father intended to follow through with the boy's threat.",
+    "keywords_hy": [
+      "ոստիկան",
+      "դպրոցից փախնել",
+      "ականջ կտրել",
+      "սպառնալիք",
+      "այգի",
+      "հայր և որդի",
+      "դանակ",
+      "ծնողական ժողով"
+    ],
+    "keywords_en": [
+      "police officer",
+      "skipping school",
+      "cutting ears",
+      "threat",
+      "park",
+      "father and son",
+      "knives",
+      "muscle man"
+    ],
+    "keywords_translit": [
+      "vostikan",
+      "dprocic paxnel",
+      "akanj ktrel",
+      "sparnaliq",
+      "aygi",
+      "hayr ev ordi",
+      "danak",
+      "hopar"
+    ],
+    "catchphrases": [
+      "հոպար էսօր ժամը վեցին ականջներդ կտռելու եմ",
+      "բարևեց ուրիշ",
+      "կներեց հետո",
+      "ժամը վեցինա ասել",
+      "բա խի էս շուտ եկել"
+    ],
+    "topics": [
+      "police",
+      "family",
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

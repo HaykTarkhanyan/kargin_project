@@ -1,0 +1,71 @@
+{
+  "video_id": "fRBQxWaVbpc",
+  "seq": 662,
+  "kargin_id": 662,
+  "title": "Kargin Haghordum sketch 242 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2056,
+  "gen_sec": 4.83,
+  "prompt_tokens": 2078,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002968,
+  "annotation": {
+    "title_hy": "Տրամաբանական Շղթա և Ակվարիում",
+    "title_en": "The Logical Chain and the Aquarium",
+    "summary_en": "A philosophy professor uses an absurd 'logical chain' involving an aquarium to prove a student's masculinity before passing him.",
+    "summary_detailed_en": "The sketch is set in a wood-paneled office where a bespectacled professor (Meliksetyan), wearing a gray suit and a curly wig, is conducting an oral philosophy exam. He is frustrated with a student in a white shirt, questioning if the young man is a student or 'emptiness' itself. The professor offers one last chance by asking about a 'logical chain.' When the student fails to answer, the professor explains the concept through a bizarre deduction: if the student has an aquarium at home, he must love nature; if he loves nature, he loves beauty; if he loves beauty, he must love women; and if he loves women, he is a 'normal man' and not gay. Despite the student's lack of knowledge, the professor decides to pass him to encourage future study. The visual annotation shows the two men leaving the office and walking down a hallway together holding academic booklets (stugman grquyks), concluding the encounter on a successful note for the unprepared student.",
+    "keywords_hy": [
+      "քննություն",
+      "փիլիսոփայություն",
+      "տրամաբանություն",
+      "ակվարիում",
+      "ուսանող",
+      "դասախոս",
+      "համալսարան",
+      "շղթա"
+    ],
+    "keywords_en": [
+      "exam",
+      "philosophy",
+      "logic",
+      "aquarium",
+      "student",
+      "professor",
+      "university",
+      "logical chain"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "pilisopayutyun",
+      "tramabanutyun",
+      "akvarium",
+      "usanogh",
+      "dasaxos",
+      "hamalsaran",
+      "shghta"
+    ],
+    "catchphrases": [
+      "Եթե դու ակվարիում ունես ուրեմն դու բնություն ես սիրում",
+      "եթե կանանց ես սիրում ուրեմն դու նոռմալ տղամարդ ես",
+      "ձեր լեզվով ասած գոմիկ չես"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "absurd",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "2yBuEs8UXcE",
+  "seq": 458,
+  "kargin_id": 458,
+  "title": "Kargin Haghordum sketch 083 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "458_Kargin_Haghordum_sketch_083_Hayko_Mko_2yBuEs8UXcE.ro.json",
+    "visual": true
+  },
+  "input_chars": 2066,
+  "gen_sec": 22.16,
+  "prompt_tokens": 2146,
+  "output_tokens": 605,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002888,
+  "annotation": {
+    "title_hy": "Համբույր և Բուժող Համբույր",
+    "title_en": "The Kiss and the Healer",
+    "summary_en": "A shy young man avoids kissing his girlfriend in a public park, until his attempts to 'cure' her pains with kisses attract the attention of an elderly bystander.",
+    "summary_detailed_en": "The sketch takes place in a leafy park, specifically a known 'lovers' park,' where a young man named Perch and his girlfriend Kristik are sitting on a bench. Kristik is eager to be affectionate, but Perch is extremely hesitant and self-conscious, complaining that there are too many people watching. Kristik reminds him that everyone is busy with their own affairs, but Perch continues to stall, asking for 'one more minute' to get used to the situation. A nearby elderly man with a cane watches them, which further paralyzes Perch with embarrassment, despite Kristik's insistence that the old man was young once too. To prompt him into action, Kristik begins complaining of aches in different parts of her body. Perch kisses her head and shoulders to 'make the pain go away.' When she confirms the 'treatment' works, she points to various spots for more kisses. Seeing this display of 'miraculous healing,' the elderly man suddenly leans in and asks Perch if he also treats hemorrhoids for money, delivering a surprising and awkward punchline that halts the romantic moment.",
+    "keywords_hy": [
+      "այգի",
+      "համբույր",
+      "նստարան",
+      "ամաչկոտ",
+      "պապիկ",
+      "բուժել",
+      "ցավ",
+      "սիրահարներ"
+    ],
+    "keywords_en": [
+      "park",
+      "kiss",
+      "bench",
+      "shy",
+      "grandfather",
+      "healing",
+      "pain",
+      "lovers"
+    ],
+    "keywords_translit": [
+      "aygi",
+      "hambuyr",
+      "nstaran",
+      "amachkot",
+      "papik",
+      "bujel",
+      "tsav",
+      "siraharner"
+    ],
+    "catchphrases": [
+      "Հա բայց մի րոպեից էլի",
+      "Մի քիչ պապիկին ընտելանամ"
+    ],
+    "topics": [
+      "romance",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

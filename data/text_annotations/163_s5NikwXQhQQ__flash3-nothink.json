@@ -1,0 +1,73 @@
+{
+  "video_id": "s5NikwXQhQQ",
+  "seq": 163,
+  "kargin_id": 163,
+  "title": "Kargin Haghordum sketch 207 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1803,
+  "gen_sec": 9.36,
+  "prompt_tokens": 2011,
+  "output_tokens": 621,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002869,
+  "annotation": {
+    "title_hy": "Էլմիրա ծյոծյայի պաչիկը",
+    "title_en": "Aunt Elmira's Kiss",
+    "summary_en": "A mother prepares for a visit from her friend Elmira while complaining about her husband's laziness, leading to a child's honest revelation about his father's past behavior.",
+    "summary_detailed_en": "The sketch takes place in a home kitchen where a father and his young son, Areg, are sitting at the breakfast table. The mother (a male actor in drag wearing a wig and apron) is hectically preparing for a visit from her friend, Elmira. She complains that her husband is useless, recounting how she had to carry twenty kilograms of groceries up nine flights of stairs because the elevator was broken. The husband jokingly retorts that he did help by opening the apartment door for her. When Areg mentions dreaming about candy, the father mockingly promises him bigger candies in his next dream if he behaves. The doorbell rings, and Elmira (another male actor in drag) enters. The mother and Elmira try to coax Areg into kissing his 'Auntie' Elmira, but the boy stubbornly refuses. When pressed by his mother to explain why he won't kiss the guest, the child reveals the punchline: last time his father tried to kiss her, Elmira slapped him (chapalagh).",
+    "keywords_hy": [
+      "կարգին հաղորդում",
+      "ընկերուհի",
+      "շուրթեր",
+      "չափալաղ",
+      "երազ",
+      "լիֆտ",
+      "հյուր",
+      "ընտանիք",
+      "երեխա"
+    ],
+    "keywords_en": [
+      "friend",
+      "kiss",
+      "slap",
+      "dream",
+      "elevator",
+      "guest",
+      "family",
+      "child",
+      "kargin haghordum"
+    ],
+    "keywords_translit": [
+      "kargin haghordum",
+      "ynkeruhi",
+      "shurter",
+      "chapalagh",
+      "eraz",
+      "lift",
+      "hyur",
+      "yntaniq",
+      "erexa"
+    ],
+    "catchphrases": [
+      "Ով ասեց, որ չեմ օգնել , բա դուռը քեզ ո՞վ բացեց։"
+    ],
+    "topics": [
+      "family",
+      "party_guests",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "hvUyvsaVmQQ",
+  "seq": 480,
+  "kargin_id": 480,
+  "title": "Kargin Haghordum sketch 108 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1977,
+  "gen_sec": 4.54,
+  "prompt_tokens": 2039,
+  "output_tokens": 635,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002925,
+  "annotation": {
+    "title_hy": "Խանութի անհատական մոտեցումը",
+    "title_en": "Individual Shop Service",
+    "summary_en": "A customer is forced to navigate a series of overly specific departments in a hardware store just to buy simple laundry detergent, leading to an explosive outburst.",
+    "summary_detailed_en": "The sketch takes place inside a small household goods and hardware shop. A customer enters and is greeted by a shop manager in a suit and glasses who boasts about the store's 'individual approach' to every client. When the customer asks for laundry detergent, the manager directs him to the next department. There, a saleswoman with a lanyard badge asks if he needs it for hand washing or an automatic machine; when he answers 'automatic', she sends him to another department. The cycle repeats as the staff ask increasingly granular questions, including whether the laundry is white or colored, and if the fabric is synthetic or cotton. The customer, growing visibly agitated among the shelves and stacked sacks of goods, finally loses his temper. In a dramatic outburst, he flings off his light jacket and shouts that he has already provided details about his toilet, his tiles, and even his anatomy, finally demanding a simple roll of toilet paper instead. The sketch mocks the absurdity of bureaucratic service and excessive categorization in retail.",
+    "keywords_hy": [
+      "խանութ",
+      "լվացքի փոշի",
+      "վաճառող",
+      "մենեջեր",
+      "զուգարանի թուղթ",
+      "անհատական մոտեցում",
+      "կարգին հաղորդում",
+      "հաճախորդ"
+    ],
+    "keywords_en": [
+      "shop",
+      "laundry detergent",
+      "saleswoman",
+      "manager",
+      "toilet paper",
+      "customer service",
+      "bureaucracy",
+      "department"
+    ],
+    "keywords_translit": [
+      "xanut",
+      "lvatsqi poshi",
+      "vacharox",
+      "menejer",
+      "zugarani tuxt",
+      "anhatakan motecum",
+      "kargin haxordum",
+      "hachaxord"
+    ],
+    "catchphrases": [
+      "Լվացքի փոշիները կողքի բաժնում են",
+      "Ինձ պետք ա լվացքի փոշի, ավտոմատ, գունավոր հանգուստ լվալու համար, թղթից տուփով, ֆիռման վափշե կապ չունի",
+      "Էսի ունիտազս ա, էս էլ զուգարանիս մետլախը, էս էլ կաֆելը, քամակս էլ կես ժամ առաջ եմ ցույց տվե ընձի մի հատ զուգարանի թուղթ տվեք արա"
+    ],
+    "topics": [
+      "shop_market",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

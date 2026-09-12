@@ -1,0 +1,69 @@
+{
+  "video_id": "F65-KmCZpNc",
+  "seq": 407,
+  "kargin_id": 407,
+  "title": "Kargin Haghordum - Mlicu anekdot@ (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "407_Kargin_Haghordum_-_Mlicu_anekdot@_Hayko_Mko_F65-KmCZpNc.hy.json",
+    "visual": true
+  },
+  "input_chars": 1836,
+  "gen_sec": 12.95,
+  "prompt_tokens": 2016,
+  "output_tokens": 485,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002463,
+  "annotation": {
+    "title_hy": "Մլիցու անեկդոտը գնացքում",
+    "title_en": "The Policeman Joke on a Train",
+    "summary_en": "Two passengers in a train compartment share food and drinks while exchanging nonsensical and surreal jokes about Aparan inhabitants and police officers.",
+    "summary_detailed_en": "The sketch is set inside a train compartment during the day, where two male passengers, dressed in vibrant, colorful tracksuit jackets and flat caps, are seated across from each other. They have spread out a meal with a food tray and a bottle, creating a friendly atmosphere as they travel. The conversation revolves around sharing various 'Abarantsi' (Aparan) jokes, which are a staple of Armenian humor. One character tells a joke about a stuttering man, while another shares a surreal punchline about a boy whose head opens like a parachute after being hit. The dialogue features a mix of colloquial Armenian and Russian-influenced slang. The climax of the scene occurs when one passenger asks what the difference is between a policeman ('mlitsu') and a broken tractor. Before the punchline can be fully resolved, the storyteller descends into a fit of uncontrollable laughter. The visual transition shows a train conductor appearing in the corridor as the passengers continue their boisterous interaction, fueled by their drinking and joking.",
+    "keywords_hy": [
+      "գնացք",
+      "անեկդոտ",
+      "Ապարանցի",
+      "մլիցա",
+      "կուպե",
+      "խմիչք",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "train",
+      "joke",
+      "Aparan",
+      "policeman",
+      "compartment",
+      "drinking",
+      "tracksuit"
+    ],
+    "keywords_translit": [
+      "gnacq",
+      "anekdot",
+      "Aparanci",
+      "mlica",
+      "kupe",
+      "xmichq",
+      "katak"
+    ],
+    "catchphrases": [
+      "լից ախպեր լից մի քիչ կյանքներս գունազարդենք",
+      "տեղդ փոխի ձենդ կտրտում ա",
+      "բա մլու մասին անեկդուտը լսել ես"
+    ],
+    "topics": [
+      "transport",
+      "drinking",
+      "police"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

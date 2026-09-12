@@ -1,0 +1,74 @@
+{
+  "video_id": "7rP-ITVzPOQ",
+  "seq": 21,
+  "kargin_id": 21,
+  "title": "Kargin Haghordum sketch 328 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "021_Kargin_Haghordum_sketch_328_Hayko_Mko_7rP-ITVzPOQ.ro.json",
+    "visual": true
+  },
+  "input_chars": 1679,
+  "gen_sec": 5.52,
+  "prompt_tokens": 1803,
+  "output_tokens": 629,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002789,
+  "annotation": {
+    "title_hy": "Գնդակահարության տեսարան",
+    "title_en": "Execution Scene",
+    "summary_en": "A group of captives are led to an embankment to be executed by militants, but the process is interrupted when one captive refuses to die.",
+    "summary_detailed_en": "The sketch takes place in a rural field with a dirt embankment and a brick shed. A group of young men, wearing open camouflage jackets and one in a striped telnyashka shirt, are roped together and marched across the field under the orders of a bearded commander in a beret and a heavyset armed soldier. The commander declares that today is the worst day of their lives because they are about to be executed since the government failed to meet their demands. He mockingly announces that the execution will follow 'Arab traditions' from right to left. While one captive considers fleeing, the other is paralyzed by fear. When the commander orders the execution to begin, the soldier aims his rifle, but the captive at the end of the line begins to argue and provokes them, while another begs for his life. The executioner hesitates to shoot the man who is pleading, justifying it to his leader by saying the man clearly 'doesn't want to' be shot, turning the grim execution into a ridiculous negotiation.",
+    "keywords_hy": [
+      "գնդակահարություն",
+      "զինվորական",
+      "հրամանատար",
+      "գերիներ",
+      "դաշտ",
+      "զենք",
+      "ծաղր",
+      "արաբական ադաթներ"
+    ],
+    "keywords_en": [
+      "execution",
+      "military",
+      "commander",
+      "captives",
+      "hostages",
+      "field",
+      "weapons",
+      "firing squad",
+      "satire"
+    ],
+    "keywords_translit": [
+      "gndakaharutyun",
+      "zinvorakan",
+      "hramanatar",
+      "geriner",
+      "dasht",
+      "zenq",
+      "tsaghr",
+      "arabakan adatner"
+    ],
+    "catchphrases": [
+      "տանում ենք ձեզ գնդակահարենք",
+      "գնդակահարությունը կկատարվի արաբական ադաթներով",
+      "կրակի այ արնախում անասուն",
+      "չես տեսնում չի ուզում"
+    ],
+    "topics": [
+      "army",
+      "crime",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "iGuN0A4qWIU",
+  "seq": 243,
+  "kargin_id": 243,
+  "title": "Kargin Haghordum - Kayfavat (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "243_Kargin_Haghordum_-_Kayfavat_Hayko_Mko_iGuN0A4qWIU.hi.json",
+    "visual": true
+  },
+  "input_chars": 2064,
+  "gen_sec": 3.0,
+  "prompt_tokens": 2104,
+  "output_tokens": 449,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002399,
+  "annotation": {
+    "title_hy": "Աստվածաշունչ և կայֆավատ",
+    "title_en": "Bible and Kayfavat",
+    "summary_en": "Two bored guys decide to pull a prank on a devout man leaving a church by testing the biblical principle of turning the other cheek.",
+    "summary_detailed_en": "Set on a village street near an old stone church, two local men (played by Hayko and Mko) are lounging by a stone wall and a wooden barrel. They notice a devout young man who visits the church at the same time every day. Bored and looking for entertainment, they decide to 'kayfavat' (mock/prank) him. They stop the man and question his faith, asking if he is a Jehovah's Witness or a regular believer. After mocking his new Bible and making fun of his devotion, one of the men asks if he truly follows the scripture, specifically the part about turning the other cheek if slapped. When the believer confirms his adherence to this rule, the protagonist slaps him across the face once, then twice. The believer stands his ground until the third slap. At this point, the protagonist explains that the Bible says nothing about the third slap, leading to a physical altercation where the 'devout' man finally fights back, and the scene ends in a chaotic scuffle.",
+    "keywords_hy": [
+      "եկեղեցի",
+      "աստվածաշունչ",
+      "չափալախ",
+      "կայֆավատ",
+      "հավատացյալ",
+      "կռիվ",
+      "բիսետկա"
+    ],
+    "keywords_en": [
+      "church",
+      "Bible",
+      "slap",
+      "prank",
+      "believer",
+      "fight",
+      "turning the other cheek"
+    ],
+    "keywords_translit": [
+      "ekexeci",
+      "astvacashunch",
+      "chapalax",
+      "kayfavat",
+      "havatacyal",
+      "kriv",
+      "bisetka"
+    ],
+    "catchphrases": [
+      "երրորդ չափալախի մասին աստվածաշնչում ոչ մի բան գրած չի",
+      "ուրախացրա մերձավորիդ նենց ոնց ինքդ քեզ"
+    ],
+    "topics": [
+      "religion",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

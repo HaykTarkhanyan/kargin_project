@@ -1,0 +1,70 @@
+{
+  "video_id": "RcTQt_nnpbA",
+  "seq": 578,
+  "kargin_id": 578,
+  "title": "Kargin Haghordum sketch 429 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "578_Kargin_Haghordum_sketch_429_Hayko_Mko_RcTQt_nnpbA.hy.json",
+    "visual": true
+  },
+  "input_chars": 2731,
+  "gen_sec": 18.21,
+  "prompt_tokens": 2482,
+  "output_tokens": 516,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002789,
+  "annotation": {
+    "title_hy": "Հայկական զրույց Ամստերդամում",
+    "title_en": "Armenian Chat in Amsterdam",
+    "summary_en": "While riding a canal boat in Amsterdam, a local Armenian emigrant shares stories about his unfaithful wife and lazy son with a visiting tourist.",
+    "summary_detailed_en": "The sketch takes place on a canal tour boat in Amsterdam. One character, a local resident wearing a VivaCell-MTS branded flat cap, sits with a visiting tourist in a dark jacket. The local man is overjoyed to see another Armenian after two months. As the boat passes under bridges and by historic canal buildings, the local man complains about his life, revealing that his wife cheated on him in Yerevan even after he sent a telegram announcing his arrival. He then pivots to joking about his son's lack of intelligence and academic failure, framing it as 'saving' his father 100 dollars by failing to promote to the next grade. The visitor reveals he is a cleaner at the Armenian National Assembly earning only 100 dollars a month. The local man, noting the visitor's kind eyes and glasses, encourages him to quit and move to Amsterdam to work with him, but the visitor humorously refuses, claiming he won't leave politics for a mere 100 dollars. The scene features a real canal boat setting with a captain at the wheel and other passengers in the background.",
+    "keywords_hy": [
+      "Ամստերդամ",
+      "զբոսաշրջիկ",
+      "հեռագիր",
+      "դավաճանություն",
+      "Ազգային ժողով",
+      "հավաքարար",
+      "ծովային զբոսանք"
+    ],
+    "keywords_en": [
+      "Amsterdam",
+      "canal boat",
+      "tourist",
+      "telegram",
+      "infidelity",
+      "National Assembly",
+      "cleaner",
+      "emigrant"
+    ],
+    "keywords_translit": [
+      "Amsterdam",
+      "zbosasrjik",
+      "heragir",
+      "davachanutyun",
+      "Azgayin Zhoghov",
+      "havaqarar",
+      "tsovayin zbosanq"
+    ],
+    "catchphrases": [
+      "ցավդ տանեմ",
+      "100 դոլար էկոնոմիա արիր",
+      "քաղաքականությունը չեմ թողնի"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

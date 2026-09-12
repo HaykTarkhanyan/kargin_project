@@ -1,0 +1,67 @@
+{
+  "video_id": "YP4Q6dkI_0o",
+  "seq": 481,
+  "kargin_id": 481,
+  "title": "Kargin Haghordum sketch 109 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "481_Kargin_Haghordum_sketch_109_Hayko_Mko_YP4Q6dkI_0o.tr.json",
+    "visual": true
+  },
+  "input_chars": 2601,
+  "gen_sec": 14.56,
+  "prompt_tokens": 2416,
+  "output_tokens": 662,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003194,
+  "annotation": {
+    "title_hy": "Գոմիկավան գյուղի անունը",
+    "title_en": "The Village of Gomikavan",
+    "summary_en": "Two men traveling to Meghri stop in a village with the strange name Gomikavan to mockingly ask the locals about its origins.",
+    "summary_detailed_en": "The sketch begins with two men driving an SUV through the Armenian countryside toward Meghri, discussing their plans for customs clearance (rastamozhnya) and car washing. They suddenly notice a road sign for a village named 'Gomikavan' and, amused by the name, decide to turn back to investigate. They park in a rural courtyard surrounded by stone walls and grapevines. They approach an elderly village man (mustached, holding a farm tool) who is tending to his tomatoes. The visitors arrogantly admit they aren't lost or hungry but simply stopped to mockingly ask why the village has such an unusual name. The confused villager explains the name dates back to the Soviet era but doesn't know the exact reason. He calls over another resident (a man in a striped shirt carrying a swaddled bundle, addressed as a woman 'Sako' in the dialogue, though the visual suggests a male-presenting character) to help explain. The sketch focuses on the clash between the condescending city men and the hospitable, yet bewildered, villagers who eventually invite the travelers inside for coffee.",
+    "keywords_hy": [
+      "Գոմիկավան",
+      "Մեղրի",
+      "տամոժնյա",
+      "գյուղացի",
+      "ճամփա",
+      "կայֆավատ",
+      "ծաղրել"
+    ],
+    "keywords_en": [
+      "Gomikavan",
+      "village name",
+      "Meghri",
+      "road trip",
+      "customs",
+      "villagers",
+      "mockery"
+    ],
+    "keywords_translit": [
+      "Gomikavan",
+      "Meghri",
+      "tamozhnya",
+      "gyughaci",
+      "champah",
+      "kayfavat",
+      "tsaghrel"
+    ],
+    "catchphrases": [
+      "Հոպար ջան մենք ոչ սոված ենք, ոչ քաղցած ենք, ոչ ճամփեն ենք կորցրել, ոչ էլ մոլորվել ենք, ոչ էլ նենց լկտի լակոտներ ենք էկել ենք ուզում ենք քո վրա կայֆավատ ըլնենք"
+    ],
+    "topics": [
+      "village",
+      "transport",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

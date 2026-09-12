@@ -1,0 +1,69 @@
+{
+  "video_id": "xVpyEOc0y_Y",
+  "seq": 591,
+  "kargin_id": 591,
+  "title": "Kargin Haghordum sketch 442 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2115,
+  "gen_sec": 11.56,
+  "prompt_tokens": 2116,
+  "output_tokens": 486,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002516,
+  "annotation": {
+    "title_hy": "Որսորդը և բժիշկը",
+    "title_en": "The Hunter and the Doctor",
+    "summary_en": "A soldier recounts his failed hunting trip to a doctor, who suggests he could have 'killed' someone more easily at the hospital.",
+    "summary_detailed_en": "The sketch begins in a hospital setting where a man in military fatigues visits a doctor friend named Argamich. The doctor, appearing frantic and wearing a surgical cap, discusses a recent case involving a patient with kidney stones. The soldier, Suren, displays a humorous lack of medical knowledge, requiring the doctor to explain that 'yerikam' is 'pochka' (kidney) and confusing the roles of organs. They discuss modern laser treatments versus 'primitive' surgeries. The conversation shifts as Argamich asks Suren about his recent hunting trip. Suren describes a disastrous excursion where he tracked a wild boar for three hours only to realize he forgot his ammunition. He then recounts tracking a deer for five hours, but claims he couldn't shoot it because it looked at him with his wife's eyes. After complaining that he spent two days in the forest and failed to kill a single thing, the doctor delivers the cynical punchline: if Suren really wanted to kill someone, he should have just stayed at the hospital.",
+    "keywords_hy": [
+      "բժիշկ",
+      "որսորդ",
+      "հիվանդանոց",
+      "պոչկա",
+      "եղնիկ",
+      "որս",
+      "հրացան",
+      "լազեր"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hunter",
+      "hospital",
+      "kidney stones",
+      "deer",
+      "hunting",
+      "rifle",
+      "laser"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "vorsord",
+      "hivandanots",
+      "pochka",
+      "eghnik",
+      "vors",
+      "hratsan",
+      "lazer"
+    ],
+    "catchphrases": [
+      "Սուրեն ես քո վրա զարմանում եմ եթե ուզում էիր մեկին սպանեիր էնա մնայիր հիվանդանոցում"
+    ],
+    "topics": [
+      "medical",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

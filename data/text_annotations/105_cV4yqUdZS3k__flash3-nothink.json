@@ -1,0 +1,67 @@
+{
+  "video_id": "cV4yqUdZS3k",
+  "seq": 105,
+  "kargin_id": 105,
+  "title": "Kargin Haghordum sketch 646 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "105_Kargin_Haghordum_sketch_646_Hayko_Mko_cV4yqUdZS3k.hy.json",
+    "visual": true
+  },
+  "input_chars": 1418,
+  "gen_sec": 10.08,
+  "prompt_tokens": 1757,
+  "output_tokens": 524,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00245,
+  "annotation": {
+    "title_hy": "Գողը և Խոսող Թութակը",
+    "title_en": "The Thief and the Talking Parrot",
+    "summary_en": "A burglar breaks into a dark house at night and is relentlessly greeted by a repetitive talking parrot before facing a guard dog.",
+    "summary_detailed_en": "The sketch takes place at night inside a dark, cluttered living room or study filled with bookshelves. A burglar wearing a black jacket and a beanie cap sneaks into the house, attempting to be quiet. However, he is immediately noticed by a parrot in a birdcage. The parrot repeatedly squawks the phrase 'Hello, please come in' in Armenian ('Barev dzez, hametseq khndrem'). The burglar becomes increasingly annoyed and nervous by the bird's constant chatter, at one point calling the bird a 'stupid bird' and asking if it knows any other words. The situation escalates when the burglar encounters a large black dog. The bird suddenly changes its tune and shouts 'Fas!' (the attack command for dogs). The sketch ends with the burglar physically overwhelmed, appearing frightened and disheveled, wrapped in a blanket after the confrontation with the animals.",
+    "keywords_hy": [
+      "գող",
+      "թութակ",
+      "շուն",
+      "բարև ձեզ համեցեք",
+      "ֆաս",
+      "գիշեր",
+      "բնակարանային գողություն"
+    ],
+    "keywords_en": [
+      "thief",
+      "parrot",
+      "dog",
+      "burglary",
+      "birdcage",
+      "attack command",
+      "talking bird"
+    ],
+    "keywords_translit": [
+      "gogh",
+      "tutak",
+      "shun",
+      "barev dzez hametseq",
+      "fas",
+      "gisher",
+      "bnakaranayin goghutyun"
+    ],
+    "catchphrases": [
+      "Բարև ձեզ համեցեք խնդրեմ",
+      "ֆաս"
+    ],
+    "topics": [
+      "crime",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

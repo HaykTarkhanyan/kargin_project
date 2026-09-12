@@ -1,0 +1,67 @@
+{
+  "video_id": "BKzC7Ph5FxM",
+  "seq": 648,
+  "kargin_id": 648,
+  "title": "Kargin Haghordum sketch 591 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "648_Kargin_Haghordum_sketch_591_Hayko_Mko_BKzC7Ph5FxM.hy.json",
+    "visual": true
+  },
+  "input_chars": 1580,
+  "gen_sec": 5.55,
+  "prompt_tokens": 1828,
+  "output_tokens": 575,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002639,
+  "annotation": {
+    "title_hy": "Հարբած տղամարդը և հացի խանութը",
+    "title_en": "The Drunk Man and the Bread Store",
+    "summary_en": "A woman discovers a drunk man collapsed in her stairwell and, despite finding him attractive, decides to leave him there to run to the grocery store before it closes.",
+    "summary_detailed_en": "The sketch begins in an apartment stairwell where a woman in a red cardigan finds a man in a red shirt collapsed on the floor. She observes that he is heavily intoxicated and foaming at the mouth, yet she remarks to herself that he has a good physique and would look quite handsome if cleaned up, noting she has dreamed of such a man for five years. Checking her wristwatch, she realizes it is nearly five o'clock and the bread shop is about to close. Faced with the dilemma of helping the man or getting food, she decides he isn't going anywhere in his condition and leaves him to rush downstairs. The scene shifts to an outdoor grocery stall where she hurriedly buys produce. As she struggles with the broken elevator and decides to take the stairs, she jokes to herself that an outsider might think she hadn't eaten bread for five years rather than missing a man. The humor is derived from her prioritization of grocery shopping over the medical emergency of a 'dream man' in her hallway.",
+    "keywords_hy": [
+      "հարբած",
+      "աստիճանավանդակ",
+      "հացի խանութ",
+      "լիֆտ",
+      "տղամարդ",
+      "երազանք",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "drunk man",
+      "stairwell",
+      "bread shop",
+      "elevator",
+      "dream man",
+      "shopping",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "harbats",
+      "astitchanavandak",
+      "hatsi khanut",
+      "lift",
+      "tghamard",
+      "erazanq",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "Ամեն մի հարբած չգիտես ոնց հասնումա 8-րդ հարկ"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "shop_market"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

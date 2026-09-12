@@ -1,0 +1,65 @@
+{
+  "video_id": "rGxJc7LyiKs",
+  "seq": 311,
+  "kargin_id": 311,
+  "title": "Kargin Haghordum sketch 472 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "311_Kargin_Haghordum_sketch_472_Hayko_Mko_rGxJc7LyiKs.hy.json",
+    "visual": true
+  },
+  "input_chars": 2003,
+  "gen_sec": 4.66,
+  "prompt_tokens": 2026,
+  "output_tokens": 556,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002681,
+  "annotation": {
+    "title_hy": "Կինը հակագազով",
+    "title_en": "Wife in a Gas Mask",
+    "summary_en": "A neglected housewife tries to get her husband's attention by wearing a gas mask to bed after complaining that he never notices her appearance.",
+    "summary_detailed_en": "The sketch begins in a kitchen where a housewife (played by a male actor in drag), wearing a voluminous curly wig and heavy makeup, sits at a table with a red checked tablecloth. She nags her young son while he eats, telling him to chew slowly, eat with bread, and leave the bones for his father, whom she insults by saying even bones are too good for him. She laments that after ten years of marriage, her husband Samvel never notices her changes in hairstyle or lipstick. She sarcastically muses that even if she wore a gas mask, he wouldn't notice, then decides it is actually a good idea. The scene shifts to the bedroom at night. The husband sits shirtless on the edge of the plaid-covered bed, looking exhausted. The wife enters and gets under the covers wearing a full Soviet-style rubber gas mask. When she finally asks Samvel if he notices anything new about her, he barely looks back and indifferently asks if she got a suntan, providing the final punchline regarding his total lack of attention.",
+    "keywords_hy": [
+      "հակագազ",
+      "ուշադրություն",
+      "ամուսիններ",
+      "զագառ",
+      "խոհանոց",
+      "դժգոհ կին",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "gas mask",
+      "attention",
+      "married couple",
+      "suntan",
+      "kitchen",
+      "neglected wife",
+      "kargin haghordum"
+    ],
+    "keywords_translit": [
+      "hakagaz",
+      "ushadrutyun",
+      "amusinner",
+      "zagar",
+      "xohanoc",
+      "djgoh kin",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Զագառ ես ընդունե՞լ։"
+    ],
+    "topics": [
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

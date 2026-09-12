@@ -1,0 +1,71 @@
+{
+  "video_id": "EmP2r80o6RU",
+  "seq": 141,
+  "kargin_id": 141,
+  "title": "Kargin Haghordum sketch 377 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3550,
+  "gen_sec": 17.36,
+  "prompt_tokens": 2866,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003323,
+  "annotation": {
+    "title_hy": "Ծույլ ընկերոջ գործը",
+    "title_en": "The Lazy Friend's Business",
+    "summary_en": "A destitute man is given a simple job by his successful friend to collect bank funds and split them, but once he becomes wealthy, he complains about having to share the money.",
+    "summary_detailed_en": "The sketch begins in a dim, shabby apartment where a disheveled woman in a housecoat lets in a man wearing a suit and orange tie. The visitor, Sako, finds his childhood friend Manuk sprawled on a couch in a deep depression. Manuk complains about his extreme poverty, his lack of food, and his family's dire situation. Sako, who has arrived from Moscow to help, offers him a simple job: once a month, Manuk must go to the bank, withdraw a sum of money from a specific account, count it, keep exactly half for himself, and transfer the other half back to Sako. Manuk is initially overjoyed. The scene cuts to a well-furnished, luxurious living room. Manuk, now wealthy and wearing a striped shirt and gold chain, smokes on a leather sofa with a bearded friend. He boasts about his new renovations, a three-story dacha in Jrvezh, and his Jaguar. However, when asked about his job, he complains bitterly, stating that although he does the 'hard work' of going to the bank and counting the money, Sako unfairly takes half of it.",
+    "keywords_hy": [
+      "բանկ",
+      "հաշվեհամար",
+      "փող",
+      "ընկերություն",
+      "ծույլ",
+      "դժգոհություն",
+      "հարստություն",
+      "Մոսկվա"
+    ],
+    "keywords_en": [
+      "bank",
+      "bank account",
+      "money",
+      "friendship",
+      "lazy",
+      "complaint",
+      "wealth",
+      "Moscow"
+    ],
+    "keywords_translit": [
+      "bank",
+      "hashvehamar",
+      "pogh",
+      "ynkerutyun",
+      "tsuyl",
+      "dzhgohutyun",
+      "harstutyun",
+      "Moskva"
+    ],
+    "catchphrases": [
+      "սաղ գործը ես եմ անում, փողի կեսը վեկալումա իրան",
+      "մլյարդով,մայսնով"
+    ],
+    "topics": [
+      "money",
+      "family",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

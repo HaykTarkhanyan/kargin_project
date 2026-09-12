@@ -1,0 +1,68 @@
+{
+  "video_id": "hfQb2B0KVs4",
+  "seq": 271,
+  "kargin_id": 271,
+  "title": "Kargin Haghordum sketch 579 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1648,
+  "gen_sec": 18.82,
+  "prompt_tokens": 1925,
+  "output_tokens": 442,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002288,
+  "annotation": {
+    "title_hy": "Մասնագետ բժիշկը և պապիկը",
+    "title_en": "The Specialist Doctor and the Grandpa",
+    "summary_en": "A doctor treats an elderly man for pneumonia, leading to a comedic argument about the effectiveness of the treatment and the doctor's professional pride regarding causes of death.",
+    "summary_detailed_en": "The sketch takes place in a doctor's office, where a physician dressed in blue medical scrubs and a surgical cap sits behind a desk featuring a computer monitor. Across from him sits an elderly patient with a mustache, wearing a brown suit. The scene begins with the doctor asking the man to breathe deeply, but the conversation quickly turns into a series of comedic misunderstandings. The patient complains that he cannot take his prescribed medication four times a day after meals because no one at home feeds him that often. When the doctor prescribes a strong antibiotic called 'Augmentin Ter-os', the old man mistakenly thinks the doctor is referring to someone named 'Petros'. The tension rises as the patient questions why his pneumonia has worsened despite a month of treatment, citing fears that he might be treated for one thing but die of another. The doctor, offended by the implication of incompetence, delivers the punchline: he assures the patient that when he treats someone for pneumonia, they die exclusively from pneumonia.",
+    "keywords_hy": [
+      "բժիշկ",
+      "թոքաբորբ",
+      "դեղեր",
+      "հիվանդ",
+      "հիվանդանոց",
+      "պապիկ",
+      "հումոր",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "doctor",
+      "pneumonia",
+      "medicine",
+      "patient",
+      "hospital",
+      "grandfather",
+      "humor",
+      "joke"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "toqaborb",
+      "dexer",
+      "hivand",
+      "hivandanoc",
+      "papik",
+      "humor",
+      "katak"
+    ],
+    "catchphrases": [
+      "Երբ որ ես բուժում եմ թոքերի բորբոքումից հիվանդը մեռնումա միայն թոքերի բորբոքումից:"
+    ],
+    "topics": [
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

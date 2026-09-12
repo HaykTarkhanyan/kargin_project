@@ -1,0 +1,70 @@
+{
+  "video_id": "65lQYk5SUAY",
+  "seq": 385,
+  "kargin_id": 385,
+  "title": "Kargin Haghordum - Harsaniq (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "385_Kargin_Haghordum_-_Harsaniq_Hayko_Mko_65lQYk5SUAY.el.json",
+    "visual": true
+  },
+  "input_chars": 2121,
+  "gen_sec": 9.36,
+  "prompt_tokens": 2123,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002991,
+  "annotation": {
+    "title_hy": "Հարսանեկան Թամադայի Պահանջը",
+    "title_en": "The Wedding Toastmaster's Demand",
+    "summary_en": "During a lively wedding celebration, a persistent toastmaster interrupts the flow of traditional ceremonies to make a bizarre and inappropriate request of the bride.",
+    "summary_detailed_en": "The sketch is set in a bustling wedding banquet hall filled with energetic guests dancing to loud music. A toastmaster, dressed in a suit, takes control of the event, coordinating the traditional bouquet toss. He asks all the men, including the groom, to sit down so the bride can throw her flowers to the eligible bachelors. However, the scene quickly shifts as the toastmaster launches into a long-winded, repetitive speech addressed to the guests and the 'Godfather' (Kavor). He recounts every step of the day—from the bride's house to the church and the groom's house—before arriving at his true intention. Despite the celebratory atmosphere and the presence of the groom and guests at the dinner tables, the toastmaster makes a surreal and increasingly awkward demand: he insists that the bride come over and 'tousle' or beat him up (gzmrter) from head to toe. The groom attempts to intervene, but the toastmaster persists in his absurd request, claiming it is a 'beautiful moment' that everyone must witness.",
+    "keywords_hy": [
+      "հարսանիք",
+      "թամադա",
+      "հարսի բուկետ",
+      "քավոր",
+      "խնջույք",
+      "ռեստորան",
+      "ամուսնություն",
+      "զավեշտալի"
+    ],
+    "keywords_en": [
+      "wedding",
+      "toastmaster",
+      "bride's bouquet",
+      "kavor",
+      "banquet",
+      "restaurant",
+      "marriage",
+      "absurd"
+    ],
+    "keywords_translit": [
+      "harsaniq",
+      "tamada",
+      "harsi buket",
+      "qavor",
+      "khnjuyq",
+      "restoran",
+      "amusnutyun",
+      "zaveshtali"
+    ],
+    "catchphrases": [
+      "Հարգելի սեղանակիցներ, հարազատներ, մեր համար Էսօր շատ ուրախ, երջանիկ օրա։ Մենք ամուսնացնում ենք մեր հարսին և փեսային։"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "party_guests",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

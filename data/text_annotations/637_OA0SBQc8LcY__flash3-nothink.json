@@ -1,0 +1,71 @@
+{
+  "video_id": "OA0SBQc8LcY",
+  "seq": 637,
+  "kargin_id": 637,
+  "title": "Kargin Haghordum sketch 559 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "637_Kargin_Haghordum_sketch_559_Hayko_Mko_OA0SBQc8LcY.hy.json",
+    "visual": true
+  },
+  "input_chars": 1504,
+  "gen_sec": 5.46,
+  "prompt_tokens": 1758,
+  "output_tokens": 587,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00264,
+  "annotation": {
+    "title_hy": "Տատիկի եկամտի աղբյուրը",
+    "title_en": "Grandma's Source of Income",
+    "summary_en": "A police officer stops an elderly woman carrying a bag full of money and discovers her unconventional method of taxing people who urinate in the bushes.",
+    "summary_detailed_en": "The sketch takes place on a barren rural roadside on the outskirts of the city during the day. A police officer in a full uniform and cap is walking alongside an elderly woman, played by one of the male actors in drag wearing a blonde wig, glasses, and a headscarf. The officer is suspicious of the large amount of money the woman is carrying in her handbag and questions whether she committed a theft. The woman defensively claims the money is hers. When the officer threatens to take her to the station, she explains her 'business model': nearby football fans often use the local bushes as a toilet instead of finding a restroom. She hides in the bushes and surprises the men mid-act, demanding they either pay her or face a 'painful' physical consequence. She then shows him a separate sack. When the officer asks what is inside the sack, she reveals that since not everyone had money on them, she took alternative forms of 'payment.' The sketch ends with the officer helping her carry the bags, seemingly accepting her bizarre logic.",
+    "keywords_hy": [
+      "ոստիկան",
+      "տատիկ",
+      "փող",
+      "թփեր",
+      "ֆուտբոլ",
+      "տուգանք",
+      "գողություն",
+      "կաշառք"
+    ],
+    "keywords_en": [
+      "police officer",
+      "grandma",
+      "money",
+      "bushes",
+      "football fans",
+      "fine",
+      "theft",
+      "extortion"
+    ],
+    "keywords_translit": [
+      "vostikan",
+      "tatik",
+      "pogh",
+      "tper",
+      "futbol",
+      "tuganq",
+      "goghutyun",
+      "kasharq"
+    ],
+    "catchphrases": [
+      "Իմ փողերնա Ազիզ ջան",
+      "Դե բոլորը չէին, էր փող ունեին"
+    ],
+    "topics": [
+      "police",
+      "money",
+      "crime"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

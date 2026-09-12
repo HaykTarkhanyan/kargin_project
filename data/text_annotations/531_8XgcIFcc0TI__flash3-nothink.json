@@ -1,0 +1,71 @@
+{
+  "video_id": "8XgcIFcc0TI",
+  "seq": 531,
+  "kargin_id": 531,
+  "title": "Kargin Haghordum sketch 165 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "531_Kargin_Haghordum_sketch_165_Hayko_Mko_8XgcIFcc0TI.hy.json",
+    "visual": true
+  },
+  "input_chars": 2844,
+  "gen_sec": 5.74,
+  "prompt_tokens": 2632,
+  "output_tokens": 622,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003182,
+  "annotation": {
+    "title_hy": "Ճշգրիտ հաշվարկված լուծողականը",
+    "title_en": "The Precisely Timed Laxative",
+    "summary_en": "A pharmacist prepares a potent custom laxative for a constipated customer, meticulously calculating the exact travel time to the man's bathroom.",
+    "summary_detailed_en": "The sketch is set in a pharmacy where a customer arrives complaining of severe constipation. He admits he was too embarrassed to see the new female doctor at the clinic. The pharmacist explains that they have a very powerful, custom-made laxative, but warns that its timing must be calculated perfectly to avoid an accident. The two begin a detailed, second-by-second calculation of the customer's journey home: walking 100 meters behind the pharmacy (60 seconds), reaching the first entrance (30 seconds), taking the elevator to the 8th floor (20 seconds), opening the front door (10 seconds), and reaching the bathroom on the right (10 seconds). After the math is complete, the pharmacist gives him the dose, and the customer drinks it and sprints out. While the customer is gone, the pharmacist takes a phone call discussing stock for upcoming elections, predicting a need for heart meds and then digestive aids for post-election feasting. Suddenly, the customer returns, looking defeated and disheveled. The pharmacist asks if the timing was wrong, but the customer reveals the unpredictable flaw: the elevator wasn't working.",
+    "keywords_hy": [
+      "դեղատուն",
+      "փորկապություն",
+      "դեղագործ",
+      "լուծողական",
+      "հաշվարկ",
+      "լիֆտ",
+      "զապոռ",
+      "զուգարան"
+    ],
+    "keywords_en": [
+      "pharmacy",
+      "constipation",
+      "pharmacist",
+      "laxative",
+      "calculation",
+      "elevator",
+      "bathroom",
+      "medical humor"
+    ],
+    "keywords_translit": [
+      "deghatun",
+      "porkaputyun",
+      "deghagorts",
+      "lutsoghakan",
+      "hashvark",
+      "lift",
+      "zapor",
+      "zugaran"
+    ],
+    "catchphrases": [
+      "Հա, փորկապություն է ձեր մոտ:",
+      "լիֆտը չէր աշխատում"
+    ],
+    "topics": [
+      "medical",
+      "bureaucracy",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "alABhSPvMtU",
+  "seq": 206,
+  "kargin_id": 206,
+  "title": "Kargin Haghordum sketch 386 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1699,
+  "gen_sec": 20.64,
+  "prompt_tokens": 1913,
+  "output_tokens": 585,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002711,
+  "annotation": {
+    "title_hy": "Տեսուչի ընտանեկան կյանքը",
+    "title_en": "Traffic Inspector's Family Life",
+    "summary_en": "A traffic police officer returns home to his family, where even his daughter mimics his roadside commands and a news report about increased fines brings financial hope to the household.",
+    "summary_detailed_en": "The sketch is set inside an apartment living room. A uniformed police officer (Lieutenant Saribekyan) arrives home and humorously greets his wife, who is wearing a leopard-print dress, using formal police jargon. The wife is upset because he forgot to pick up their daughter from school. He dismisses the mistake, jokingly suggesting they could have left her there since they have to take her back the next morning anyway. Their young daughter joins them on a red sofa, and the officer boasts that he brags to his colleagues about her ability to mimic his work. The daughter demonstrates by perfectly imitating a police siren and a radio command: 'White 06, pull over to the right!' The family then turns on the television to watch the evening news. The news anchor announces a new law passed by the National Assembly that increases traffic violation fines tenfold. Hearing this potential for increased 'income,' the daughter immediately asks her father if he will now buy her a new computer, to which he happily agrees, seeing the legislative change as a family windfall.",
+    "keywords_hy": [
+      "պետավտոտեսչություն",
+      "ոստիկան",
+      "տուգանք",
+      "ընտանիք",
+      "հեռուստացույց",
+      "լուրեր",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "policeman",
+      "fines",
+      "family",
+      "television",
+      "news broadcast",
+      "corruption joke"
+    ],
+    "keywords_translit": [
+      "petavtoteschutyun",
+      "ostikan",
+      "tuganq",
+      "yntaniq",
+      "herustacuyc",
+      "lurer",
+      "katak"
+    ],
+    "catchphrases": [
+      "Բարև ձեզ պարոն կնիկ",
+      "աջ քաշեք կանգնեք, խըշ խըշ"
+    ],
+    "topics": [
+      "family",
+      "police",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

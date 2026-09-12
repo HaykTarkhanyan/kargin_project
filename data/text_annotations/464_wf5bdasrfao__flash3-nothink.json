@@ -1,0 +1,69 @@
+{
+  "video_id": "wf5bdasrfao",
+  "seq": 464,
+  "kargin_id": 464,
+  "title": "Kargin Haghordum sketch 089 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "464_Kargin_Haghordum_sketch_089_Hayko_Mko_wf5bdasrfao.en.json",
+    "visual": true
+  },
+  "input_chars": 1452,
+  "gen_sec": 5.82,
+  "prompt_tokens": 1695,
+  "output_tokens": 626,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002726,
+  "annotation": {
+    "title_hy": "Խեղճ գիտնականը և թալանչին",
+    "title_en": "The Poor Scholar and the Robber",
+    "summary_en": "A mugger attempts to rob a passerby on a desolate road but discovers his victim is a penniless Jehovah's Witness PhD candidate with absolutely nothing to steal.",
+    "summary_detailed_en": "The sketch takes place on a desolate industrial dirt road next to a long concrete fence during the day. A man wearing a brown suit and carrying a stack of papers is walking when he is stalked and eventually ambushed by a mugger wearing a dark beanie and jacket. The attacker grabs the man from behind in a chokehold and violently pins him against the fence, demanding his wallet and money. The victim calmly explains he has no money. The mugger then demands his watch, then his wedding ring, and finally his baptismal cross, but the victim reveals he has no watch, is not married, and is a Jehovah's Witness and therefore has no cross. When asked about a mobile phone, the victim claims he is on a waiting list for one but hasn't received it yet. The mugger, frustrated that the only item the man is carrying is a dissertation paper, realizes the man is completely destitute. In a subversion of the typical robbery, the mugger gives up on stealing and instead demands that the victim at least give him a piggyback ride to the next corner.",
+    "keywords_hy": [
+      "թալան",
+      "գիտնական",
+      "դիսերտացիա",
+      "Եհովայի վկա",
+      "փող չկա",
+      "գողություն",
+      "փողոցային հարձակում"
+    ],
+    "keywords_en": [
+      "robbery",
+      "mugger",
+      "dissertation",
+      "penniless",
+      "Jehovah's Witness",
+      "no money",
+      "scholar"
+    ],
+    "keywords_translit": [
+      "talan",
+      "gitnakan",
+      "disertacia",
+      "yehovayi vka",
+      "pogh chka",
+      "goghutyun",
+      "poghocayin hardzakum"
+    ],
+    "catchphrases": [
+      "Ոշի բան չունես չեմ ջոգում։",
+      "Չէ ոչ մի բան։",
+      "Լավ գոնե մինչև էն ուգլը տար։"
+    ],
+    "topics": [
+      "crime",
+      "religion",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

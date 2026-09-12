@@ -1,0 +1,75 @@
+{
+  "video_id": "xq3hpMwZF4E",
+  "seq": 404,
+  "kargin_id": 404,
+  "title": "Kargin Haghordum - Avaria (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "404_Kargin_Haghordum_-_Avaria_Hayko_Mko_xq3hpMwZF4E.hy.json",
+    "visual": true
+  },
+  "input_chars": 1097,
+  "gen_sec": 14.65,
+  "prompt_tokens": 1629,
+  "output_tokens": 648,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002759,
+  "annotation": {
+    "title_hy": "Ավտովթար և Հեռախոսազանգ",
+    "title_en": "Car Crash and Business Call",
+    "summary_en": "A busy man multi-tasking on a business call causes a car accident and proceeds to berate his son for the expensive mistake.",
+    "summary_detailed_en": "The sketch begins at the roadside during the day. A businessman is driving while engaged in an animated and chaotic phone conversation, presumably dealing with international business in Moscow. He expresses intense frustration with his employees, shouting about having hired five managers for a factory who still can't handle basic issues without calling him. During this distracted driving, a collision occurs. The scene shifts to a face-to-face confrontation between two men next to two black cars that have crashed. One man, appearing as the authoritative father figure, launches into a loud, aggressive tirade against the other man, who is his son. He repeatedly asks if the youth understands the massive financial burden he has just placed on his father. The father insults his son, calling him a 'donkey' and a 'sheep,' emphasizing that he will have to spend a fortune to repair both vehicles because the son was 'speeding' (gazavat). The son stands by apologetically, quietly asking for forgiveness for the 'accident.'",
+    "keywords_hy": [
+      "ավտովթար",
+      "հեռախոսով խոսել",
+      "հայր և որդի",
+      "բիզնեսմեն",
+      "մեքենա",
+      "վիճաբանություն",
+      "գազավատ",
+      "փող",
+      "ծախսեր"
+    ],
+    "keywords_en": [
+      "car crash",
+      "phone call",
+      "father and son",
+      "businessman",
+      "car accident",
+      "argument",
+      "speeding",
+      "money",
+      "expenses"
+    ],
+    "keywords_translit": [
+      "avtovtar",
+      "heraxosylov xosel",
+      "hayr ev ordi",
+      "biznesmen",
+      "meqena",
+      "vichabanutyun",
+      "gazavat",
+      "pogh",
+      "caxser"
+    ],
+    "catchphrases": [
+      "դու ջոկիր հենց նոր ինչ արիր",
+      "դու ջոկիր թե հորդ ինչ ծախսերի տակ գցիր",
+      "լավ էլի պապ ջան կներես միամիտ եղավ"
+    ],
+    "topics": [
+      "transport",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

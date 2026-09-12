@@ -1,0 +1,78 @@
+{
+  "video_id": "LTFdwmRrjBY",
+  "seq": 107,
+  "kargin_id": 107,
+  "title": "Kargin Haghordum sketch 648 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "107_Kargin_Haghordum_sketch_648_Hayko_Mko_LTFdwmRrjBY.hy.json",
+    "visual": true
+  },
+  "input_chars": 3792,
+  "gen_sec": 20.47,
+  "prompt_tokens": 3260,
+  "output_tokens": 653,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003589,
+  "annotation": {
+    "title_hy": "Ֆուտբոլային Խաղադրույքներ",
+    "title_en": "Football Betting",
+    "summary_en": "Two unlucky football fans lose all their money by following a stranger's ridiculous conspiracy theories about fixed matches involving the Queen of England and Putin.",
+    "summary_detailed_en": "Set in a sports cafe, two friends wearing football jerseys are excitedly watching a match and betting on England to win. They are approached by a seemingly well-informed older man who convinces them that the match is rigged. He claims his grandson is the Queen of England's head of security and that the Queen was threatened by Swiss banks to lose the game. Trusting his 'inside information,' the friends change their bet to Switzerland, only for England to win 3-0, leaving them broke. Undeterred, they decide to bet their remaining utility bill money on Spain against Russia. The old man reappears, now claiming his grandson has been promoted to Putin’s personal driver. He spins a new yarn about Putin threatening the Spanish Prime Minister with a tourism boycott, forcing Spain to lose. The friends foolishly switch their bet to Russia, lose everything again, and are left starving and penniless, arguing over a few coins for a sandwich while the old man's predictions prove disastrously wrong.",
+    "keywords_hy": [
+      "ֆուտբոլ",
+      "խաղադրույք",
+      "բուքմեյքեր",
+      "Անգլիա",
+      "Ռուսաստան",
+      "Պուտին",
+      "թագուհի",
+      "փող",
+      "կրվել",
+      "համոզել"
+    ],
+    "keywords_en": [
+      "football",
+      "betting",
+      "bookmaker",
+      "England",
+      "Russia",
+      "Putin",
+      "Queen",
+      "money",
+      "losing",
+      "conspiracy"
+    ],
+    "keywords_translit": [
+      "futbol",
+      "khaghadruyk",
+      "bukmeyker",
+      "Anglia",
+      "Rusastan",
+      "Putin",
+      "taguhi",
+      "pogh",
+      "krvel",
+      "hamozel"
+    ],
+    "catchphrases": [
+      "Շատ վատ բան եք արել։",
+      "Ամեն ինչը, տղերք ջան, որոշվում ա խաղից առաջ։",
+      "ախպորս թոռը թագուհու ախրանի պետն է"
+    ],
+    "topics": [
+      "sports",
+      "money",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "video_id": "n7qNyBP1lHE",
+  "seq": 47,
+  "kargin_id": 47,
+  "title": "Kargin Haghordum sketch 612 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "047_Kargin_Haghordum_sketch_612_Hayko_Mko_n7qNyBP1lHE.hy.json",
+    "visual": true
+  },
+  "input_chars": 4115,
+  "gen_sec": 15.88,
+  "prompt_tokens": 3219,
+  "output_tokens": 639,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003527,
+  "annotation": {
+    "title_hy": "Զինկոմի հարցազրույցը",
+    "title_en": "The Recruitment Officer's Interview",
+    "summary_en": "A nervous recruit undergoes a tactical preparation test by a Major, only to realize he is the only one defending the border in every hypothetical scenario.",
+    "summary_detailed_en": "The sketch is set in a military recruitment office, decorated with an Armenian flag and office supplies. A young recruit in a leather jacket waits outside, nervously discussing his fears about being sent to the border with a colleague. He enters the office to meet a Major (played by a comedian in military camouflage). The Major explains that the current batch of recruits is being sent to the border zone and needs to test the recruit's 'imagination' and readiness. He presents 'Situation Number 1': the recruit is alone in a trench with one enemy on the right and one on the left. The recruit asks if he has an automatic weapon, and upon confirmation, 'shoots' them both. The scenarios escalate in 'Situation Number 2', adding four enemies and a tank, which the recruit handles by asking for a grenade. Finally, in 'Situation Number 3', the Major describes a massive onslaught: 20 enemies, 10 tanks, and aerial bombardment. The recruit, realizing the absurdity of the hypothetical burden, delivers the punchline by asking if he is the only soldier serving on the entire border.",
+    "keywords_hy": [
+      "բանակ",
+      "զինկոմ",
+      "սահման",
+      "զորակոչիկ",
+      "մայոր",
+      "խրամատ",
+      "թշնամի",
+      "ավտոմատ",
+      "տանկ",
+      "ծառայություն"
+    ],
+    "keywords_en": [
+      "army",
+      "military officer",
+      "border",
+      "recruit",
+      "major",
+      "trench",
+      "enemy",
+      "automatic rifle",
+      "tank",
+      "military service"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zinkom",
+      "sahman",
+      "zorakochik",
+      "mayor",
+      "xramat",
+      "tshnami",
+      "avtomat",
+      "tank",
+      "tsarayutyun"
+    ],
+    "catchphrases": [
+      "ֆանտաստիկադ լավ ա՞ աշխատում",
+      "ես մենակ ե՞մ ծառայելու"
+    ],
+    "topics": [
+      "army",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "video_id": "zcRPQIR6CYk",
+  "seq": 297,
+  "kargin_id": 297,
+  "title": "Kargin Haghordum sketch 416 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "297_Kargin_Haghordum_sketch_416_Hayko_Mko_zcRPQIR6CYk.en.json",
+    "visual": true
+  },
+  "input_chars": 2430,
+  "gen_sec": 17.21,
+  "prompt_tokens": 2301,
+  "output_tokens": 675,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003175,
+  "annotation": {
+    "title_hy": "Ժամադրություն և շատակերություն",
+    "title_en": "The Expensive Date",
+    "summary_en": "A man tries to pick up a young woman at a restaurant by showing off his wealth, only to be shocked by her massive food order.",
+    "summary_detailed_en": "The sketch begins with a man in a suit and a young woman on a date at an upscale restaurant featuring medieval decor, including a suit of armor. The man starts by questioning the woman about her age, confirming she is 16, and asks if she has any intimidating male relatives like muscular uncles or brothers. When she mentions her brother is a dhol (drum) student at the Conservatory, he dismisses the threat and suggests they have a meal before going somewhere private to 'relax' (lyagzvel). He calls the waiter over and begins to order an incredibly lavish spread, including summer assortments, fish, black caviar, julienne, salads, pork, lamb, and chicken kebabs, stuffed lamb leg, and multiple types of fish like sturgeon and trout. He tops it off with whiskey, martini, and cognac. However, the punchline hits when he asks the woman if she usually eats this much at home. She dryly responds that she doesn't eat like this at home because at home, no one has the intention of 'relaxing' with her, implying she is exploiting his ulterior motives for a free feast.",
+    "keywords_hy": [
+      "ռեստորան",
+      "ժամադրություն",
+      "շատակերություն",
+      "ճաշացանկ",
+      "խորոված",
+      "հարուստ",
+      "մատուցող",
+      "Կարգին հաղորդում",
+      "Հայկո Մկո"
+    ],
+    "keywords_en": [
+      "restaurant",
+      "date",
+      "overeating",
+      "menu",
+      "barbecue",
+      "rich guy",
+      "waiter",
+      "Kargin Haghordum",
+      "Hayko Mko"
+    ],
+    "keywords_translit": [
+      "restoran",
+      "zhamadrutyun",
+      "shatakerutyun",
+      "chashacank",
+      "khorovats",
+      "harust",
+      "matucogh",
+      "Kargin Haghordum",
+      "Hayko Mko"
+    ],
+    "catchphrases": [
+      "Աչիկ ջան, դու տանն էլ ես էսքան ուտում։ Չէ, տանը չէ։ Բա էլ ինչի տանը չէ, ստեղ հա ։"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "romance",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

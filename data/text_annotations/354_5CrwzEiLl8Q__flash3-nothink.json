@@ -1,0 +1,75 @@
+{
+  "video_id": "5CrwzEiLl8Q",
+  "seq": 354,
+  "kargin_id": 354,
+  "title": "Kargin Haghordum sketch 453 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "354_Kargin_Haghordum_sketch_453_Hayko_Mko_5CrwzEiLl8Q.tr.json",
+    "visual": true
+  },
+  "input_chars": 3123,
+  "gen_sec": 7.73,
+  "prompt_tokens": 2636,
+  "output_tokens": 680,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003358,
+  "annotation": {
+    "title_hy": "Վարկի Պարտքը և Տատիկը",
+    "title_en": "Loan Debt and the Old Lady",
+    "summary_en": "A desperate young man facing bankruptcy attempts to jump off a cliff, only to be tricked by an old woman into a sexual favor in exchange for a magical promise of money.",
+    "summary_detailed_en": "The sketch begins on a rural hillside where a young man is talking on his cell phone, receiving news from his friends that they cannot help him with the 100,000 dollar debt he owes the bank. Overwhelmed by the loss of his factory, cars, and property, he prepares to commit suicide by jumping off the cliff. He is interrupted by an old woman (played by a male comedian in a curly gray wig and glasses). The man explains his 30% interest rate loan misery, and the old woman claims to be a powerful sorceress who can solve his problems. She describes a magical hunchback witch in a blue cloak who can make money appear—only to reveal she is describing herself. She promises that within three hours, the exact amount of money he needs will be in his desk drawer, but only if he satisfies her sexually first. The man reluctantly agrees to the 'service' to save his assets. They move to the doorway of a stone-and-wood farm building. After the act, the man asks if the money will really be there; the old lady confirms it and sends him on his way. As he runs off, she laughs to herself, calling him a fool for still believing in fairy tales.",
+    "keywords_hy": [
+      "վարկ",
+      "բանկ",
+      "պարտք",
+      "ինքնասպանություն",
+      "տատիկ",
+      "կախարդ",
+      "խաբեբա",
+      "փող",
+      "հեքիաթ"
+    ],
+    "keywords_en": [
+      "loan",
+      "bank",
+      "debt",
+      "suicide",
+      "grandmother",
+      "witch",
+      "scammer",
+      "money",
+      "fairy tale"
+    ],
+    "keywords_translit": [
+      "vark",
+      "bank",
+      "partq",
+      "inqnaspanutyun",
+      "tatik",
+      "kaxard",
+      "xabeba",
+      "pogh",
+      "heqiat"
+    ],
+    "catchphrases": [
+      "արի արի պառվա կազանովա",
+      "ահագին աշխատելու տեղ ունես",
+      "եքա էշա մինչև հիմա հեքիաթներինա հավատում"
+    ],
+    "topics": [
+      "money",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

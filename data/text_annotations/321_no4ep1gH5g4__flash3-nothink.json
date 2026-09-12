@@ -1,0 +1,66 @@
+{
+  "video_id": "no4ep1gH5g4",
+  "seq": 321,
+  "kargin_id": 321,
+  "title": "Kargin Haghordum sketch 283 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "321_Kargin_Haghordum_sketch_283_Hayko_Mko_no4ep1gH5g4.hy.json",
+    "visual": true
+  },
+  "input_chars": 830,
+  "gen_sec": 3.6,
+  "prompt_tokens": 1447,
+  "output_tokens": 377,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.001855,
+  "annotation": {
+    "title_hy": "Դռան աչքի հարված",
+    "title_en": "Door Peephole Strike",
+    "summary_en": "A man in a coat and fedora approaches an apartment door cautiously, only to be struck by a dart through the peephole.",
+    "summary_detailed_en": "The sketch takes place in an indoor setting, specifically an apartment stairwell. A man wearing a long trench coat and a fedora, carrying a professional briefcase, climbs the stairs with a look of intense caution. He glances around nervously, behaving like a spy or someone involved in a clandestine meeting. He approaches a wooden apartment door and leans in to peer through the peephole to see what is on the other side. Suddenly, an unseen person from inside the apartment thrusts a red-and-white dart attached to a long stick directly through the peephole toward the man. The humor is derived from the repetitive counting dialogue, where the numbers 31 and 32 are repeated multiple times, suggesting a tally of victims. The physical comedy centers on the man's unexpected injury in a place where he thought he was the one doing the observing.",
+    "keywords_hy": [
+      "դռան աչք",
+      "մուտք",
+      "աստիճաններ",
+      "դարթս",
+      "հարված",
+      "գաղտնի",
+      "երեսուն մեկ"
+    ],
+    "keywords_en": [
+      "door peephole",
+      "stairwell",
+      "dart",
+      "briefcase",
+      "fedora",
+      "stealth",
+      "number 31"
+    ],
+    "keywords_translit": [
+      "dran achq",
+      "mutq",
+      "astichanner",
+      "darts",
+      "harvats",
+      "gaghtni",
+      "eresun mek"
+    ],
+    "catchphrases": [
+      "31, 31, 31",
+      "32"
+    ],
+    "topics": [
+      "other"
+    ],
+    "humor_type": [
+      "slapstick",
+      "absurd"
+    ]
+  }
+}

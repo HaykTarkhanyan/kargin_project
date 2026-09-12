@@ -1,0 +1,71 @@
+{
+  "video_id": "Ky6n5_pKveM",
+  "seq": 251,
+  "kargin_id": 251,
+  "title": "Kargin Haghordum  - Qvid (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "251_Kargin_Haghordum_-_Qvid_Hayko_Mko_Ky6n5_pKveM.hy.json",
+    "visual": true
+  },
+  "input_chars": 2279,
+  "gen_sec": 11.61,
+  "prompt_tokens": 2288,
+  "output_tokens": 487,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002605,
+  "annotation": {
+    "title_hy": "Ընկերություն և քվիդ",
+    "title_en": "Friendship and Qvid",
+    "summary_en": "Two drunk friends engage in an absurd philosophical discussion about what could break their bond, leading to a bizarre conclusion about becoming relatives through betrayal.",
+    "summary_detailed_en": "The sketch takes place in a domestic dining room where two men are sitting at a 'supra' table heavily laden with a bottle of vodka, jars of pickles, canned fish, and tomatoes. Both characters are visibly intoxicated, speaking with slurred, emotional intensity. The conversation begins with a series of long, rambling toasts about justice, labor, and the wisdom of their ancestors. They constantly interrupt each other with terms of endearment, hugging and kissing while declaring their inseparable brotherhood. One man quotes a pseudo-philosophical line, attributing it vaguely to famous figures like Gndo, Nardos, or Spielberg, questioning what could possibly defeat their friendship. He suggests that while enemies or prison couldn't break them, a woman might be the only threat. To test the logic, the other man poses a hypothetical scenario: if he were to sleep with his friend's wife, what would they become? Instead of saying 'enemies,' he concludes that they would become 'relatives,' specifically 'qvid' (a dialect/slang term for a specific type of in-law relationship). The sketch ends with their drunken camaraderie devolving into physical shoving and a slap.",
+    "keywords_hy": [
+      "ընկերություն",
+      "խմած",
+      "քվիդ",
+      "կենաց",
+      "սեղան",
+      "նարդոս",
+      "արդարություն",
+      "հարբած"
+    ],
+    "keywords_en": [
+      "friendship",
+      "drunk",
+      "qvid",
+      "toast",
+      "dining table",
+      "logic",
+      "betrayal",
+      "relatives"
+    ],
+    "keywords_translit": [
+      "ynkerutyun",
+      "xmac",
+      "qvid",
+      "kenac",
+      "seghan",
+      "nardos",
+      "ardarutyun",
+      "harbac"
+    ],
+    "catchphrases": [
+      "այս հացը վկա",
+      "մենք լինում ենք քվիդ"
+    ],
+    "topics": [
+      "drinking",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

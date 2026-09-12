@@ -1,0 +1,73 @@
+{
+  "video_id": "YoVa3ycxg-E",
+  "seq": 236,
+  "kargin_id": 236,
+  "title": "Kargin Haghordum sketch 318 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2470,
+  "gen_sec": 24.24,
+  "prompt_tokens": 2323,
+  "output_tokens": 731,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003354,
+  "annotation": {
+    "title_hy": "Լարվածության Սեանս",
+    "title_en": "Stress Relief Session",
+    "summary_en": "A socially isolated, aggressive man visits a doctor to help find friends, only to have the doctor perform a self-soothing meditation on himself instead of treating the patient.",
+    "summary_detailed_en": "The sketch takes place in what appears to be a clinic waiting room. A man wearing a blue medical cap and scrub top sits alone, repeating a mantra to himself about how calm he is and how his car's rattling is just a wheel issue, not the transmission. A visitor in a plaid shirt and dark jacket enters and asks who the doctor is. The man in the scrub cap begins a bizarre routine, pretending to consult invisible colleagues like a 'Mr. Romanovsky' before announcing that he is indeed the doctor. The visitor, who is extremely rude, calls the doctor a 'greasy-skinned, short, and ugly person' and complains that he has no friends. The doctor identifies him as an 'honest but unfriendly' type and claims his dissertation was on 'wide-day friends.' He instructs the patient to sit for a stress-relief session. However, during the session, the doctor stands behind the patient and guides him to close his eyes, but instead of helping the patient, the doctor recites affirmations about his own happy life, his loving wife, and his career. The patient finally interrupts, noting he is happy for the doctor but still needs help himself.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդ",
+      "լարվածություն",
+      "սեանս",
+      "ընկեր չունեմ",
+      "ինքնաներշնչում",
+      "կլինիկա",
+      "հոգեբան"
+    ],
+    "keywords_en": [
+      "doctor",
+      "patient",
+      "tension",
+      "session",
+      "no friends",
+      "self-hypnosis",
+      "clinic",
+      "psychologist"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hivand",
+      "larvatsutyun",
+      "seans",
+      "ynker chunem",
+      "inqnanershnchum",
+      "klinika",
+      "hogeban"
+    ],
+    "catchphrases": [
+      "Ստե ովա՞ բժիշկը",
+      "այ յուղոտ մաշկով, կոլոտ ու բեջուռա անձնավորություն",
+      "մեքենայի դխկոցը ակիցա, ոչ թե ավտոմատ կառոպկայից",
+      "ինչ նոր հիվանդություն կառաջարկեք ժամանակակից բժշկությանը",
+      "ես լիքը ուրախ եմ քո համար, ինձ ինչո՞վ կարաս օգնես"
+    ],
+    "topics": [
+      "medical",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

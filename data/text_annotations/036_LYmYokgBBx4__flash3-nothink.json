@@ -1,0 +1,70 @@
+{
+  "video_id": "LYmYokgBBx4",
+  "seq": 36,
+  "kargin_id": 36,
+  "title": "Kargin Haghordum sketch 601 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3017,
+  "gen_sec": 16.43,
+  "prompt_tokens": 2804,
+  "output_tokens": 665,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003397,
+  "annotation": {
+    "title_hy": "Գիշերային զանգերի միջնորդը",
+    "title_en": "The Late Night Call Mediator",
+    "summary_en": "A man becomes an accidental middleman for a medical emergency between a caller and a doctor because he is afraid to hang up during the middle of the night.",
+    "summary_detailed_en": "In a darkened house at night, a man in striped pajamas receives a wrong number call while his wife is sleeping. The caller is frantic, claiming a friend named Samson has been rushed to the hospital and they need to reach his doctor, Valeri Giorgich. Despite the man explaining it is a wrong number, the caller pleads for help, claiming he has no minutes left on his phone and it is a matter of life and death. The pajama-clad man, cupping his hand over the phone to whisper, reluctantly agrees to call the doctor, whose number is identical except for the last digit. The man finds himself trapped in a long series of relay calls: he calls the doctor, then calls the original friend back to report the doctor has no car, then calls a taxi service to send a cab to Vratsakan 8, then calls the doctor again to give him the taxi's license plate number. Throughout the ordeal, he sneaks around the house and sits on the edge of the bed where his wife is sleeping, trying to remain quiet. The sketch ends when he finally finishes the mediation; as he prepares to start his day, his wife wakes up and asks if he is just coming home, to which he exhaustedlly lies, saying he is just heading to the office early because of a busy workload.",
+    "keywords_hy": [
+      "սխալ զանգ",
+      "հեռախոս",
+      "գիշեր",
+      "տաքսի սերվիս",
+      "հիվանդանոց",
+      "բժիշկ",
+      "գաղտնի",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "wrong number",
+      "phone call",
+      "night time",
+      "taxi service",
+      "hospital",
+      "doctor",
+      "secretive",
+      "comedy sketch"
+    ],
+    "keywords_translit": [
+      "sxal zang",
+      "heraxos",
+      "gisher",
+      "taxi service",
+      "hivandanoc",
+      "bjishk",
+      "gaghtni",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "Ախպեր կյանքի ու մահու հարցա, րոպե չունեմ ցավդ տանեմ"
+    ],
+    "topics": [
+      "family",
+      "medical",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

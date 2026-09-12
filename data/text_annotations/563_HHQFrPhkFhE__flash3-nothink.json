@@ -1,0 +1,70 @@
+{
+  "video_id": "HHQFrPhkFhE",
+  "seq": 563,
+  "kargin_id": 563,
+  "title": "Kargin Haghordum sketch 198 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1791,
+  "gen_sec": 3.94,
+  "prompt_tokens": 2063,
+  "output_tokens": 461,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002414,
+  "annotation": {
+    "title_hy": "Կաշառակեր Դասախոսի Ռեկլամը",
+    "title_en": "The Briber Professor's Advertisement",
+    "summary_en": "A corrupt professor gets angry at his assistant for tearing down a 'wanted' poster identifying him as a bribe-taker, viewing it as free advertising that brings in new clients.",
+    "summary_detailed_en": "The sketch takes place in a restaurant where a professor (Mr. Ghazaryan) and his student/assistant Samvel are seated. The waitress serves them, and Ghazaryan orders a black coffee for himself and a beefsteak for Samvel, despite Samvel not being hungry. Samvel reveals he pulled Ghazaryan out of class because he saw the professor's photo posted near the metro on a board shaming corrupt faculty. Samvel proudly explains that he tore the photo down and threw it away to protect the professor's honor. To his shock, Ghazaryan becomes furious, calling Samvel a fool. The professor explains that during the week the poster was up, he made more money through 'side deals' than he did in ten years, viewing the public shaming as highly effective free advertising. He instructs Samvel to go back and glue the picture up again, making sure to write 'bribe-taker' and include his phone number. The sketch ends with the professor complaining about dirty dishes; when the waitress blames a sick dishwasher, he boasts that he has been working with tuberculosis for two months without complaint.",
+    "keywords_hy": [
+      "կաշառակեր",
+      "դասախոս",
+      "ռեկլամ",
+      "ճաշարան",
+      "ուսանող",
+      "ասպիրանտ",
+      "սուրճ",
+      "կաշառք"
+    ],
+    "keywords_en": [
+      "bribe-taker",
+      "professor",
+      "advertisement",
+      "restaurant",
+      "student",
+      "aspirant",
+      "coffee",
+      "bribery"
+    ],
+    "keywords_translit": [
+      "kasharaker",
+      "dasaxos",
+      "reklam",
+      "chasharan",
+      "usanogh",
+      "aspirant",
+      "surch",
+      "kasharq"
+    ],
+    "catchphrases": [
+      "Քեզ ո՞վ էր խնդրում էդ անեիր, այ հիմար"
+    ],
+    "topics": [
+      "school",
+      "restaurant_cafe",
+      "money"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "udiaDq37-_E",
+  "seq": 524,
+  "kargin_id": 524,
+  "title": "Kargin Haghordum sketch 158 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "524_Kargin_Haghordum_sketch_158_Hayko_Mko_udiaDq37-_E.hy.json",
+    "visual": true
+  },
+  "input_chars": 2584,
+  "gen_sec": 4.7,
+  "prompt_tokens": 2403,
+  "output_tokens": 586,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00296,
+  "annotation": {
+    "title_hy": "Լեկցիա ալկոհոլիզմի դեմ",
+    "title_en": "Lecture Against Alcoholism",
+    "summary_en": "A young lecturer attempts to discourage village residents from drinking using a biological example, only for a local to offer a literal-minded rebuttal.",
+    "summary_detailed_en": "In a community hall during the day, a young presenter dressed in a shirt and tie stands before a seated audience of older men. He is delivering an animated presentation against alcoholism, supported by a whiteboard displaying percentage charts and statistics. He explains that while general alcohol usage is at 30%, it rises to 70% in villages, prompting the Council of Europe to intervene. To conclude his lecture, he proposes a 'natural' example involving livestock to prove that alcohol is harmful. He asks the audience of cattle breeders: if you place one bucket of water and one bucket of vodka in front of an animal, which one will it drink? A man in the audience, wearing a plaid shirt, responds correctly that the animal would drink the water. When the lecturer triumphantly asks 'Why?', expecting a response about health or instinct, the villager bluntly retorts, 'Because he's an animal, an animal!' implying only a beast would choose water over vodka. The sketch ends with this subversion of the lecturer's logic.",
+    "keywords_hy": [
+      "ալկոհոլիզմ",
+      "լեկցիա",
+      "գյուղացի",
+      "անասուն",
+      "օղի",
+      "դույլ",
+      "Եվրախորհուրդ",
+      "հակաալկոհոլային"
+    ],
+    "keywords_en": [
+      "alcoholism",
+      "lecture",
+      "villager",
+      "animal",
+      "vodka",
+      "bucket",
+      "European Council",
+      "anti-drinking"
+    ],
+    "keywords_translit": [
+      "alkoholizm",
+      "lekcia",
+      "gyughaci",
+      "anasun",
+      "oghi",
+      "duyl",
+      "Evrakhorhurd",
+      "hakaalkoholayin"
+    ],
+    "catchphrases": [
+      "որովհետև անասունա անասուն"
+    ],
+    "topics": [
+      "village",
+      "drinking",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

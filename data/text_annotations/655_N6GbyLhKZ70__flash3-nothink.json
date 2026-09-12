@@ -1,0 +1,69 @@
+{
+  "video_id": "N6GbyLhKZ70",
+  "seq": 655,
+  "kargin_id": 655,
+  "title": "Kargin Haghordum sketch 598 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1343,
+  "gen_sec": 13.36,
+  "prompt_tokens": 1750,
+  "output_tokens": 592,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002651,
+  "annotation": {
+    "title_hy": "Հովիկը և Գուգո ձյաձյան",
+    "title_en": "Hovik and Uncle Gugo",
+    "summary_en": "A young boy plays a gross prank on his neighbor, and despite his father's supposed discipline, the child remains defiant.",
+    "summary_detailed_en": "The sketch takes place across two apartment balconies during the day. A man named Gugo is leaning out of his window when he is greeted by his young neighbor, Hovik. The boy asks Gugo to say the number 'five,' and when Gugo obliges, Hovik delivers a crude rhyming joke, telling him to eat a wagon full of snot. Offended by the lack of respect, Gugo calls for the boy's father, Gokor. Gokor appears and apologizes, promising to discipline his son for his foul mouth. The scene cuts to a later time where Gugo is back on his balcony wearing a robe and smoking a cigarette. He sees Hovik again and assumes the father's 'educational talk' worked. Testing the boy, Gugo says the number 'five' again, expecting a polite response. Instead, the boy smugly informs him that his original insult from the previous day still stands, proving the father's discipline was completely ineffective. The humor relies on the subversion of the typical 'scolded child' trope.",
+    "keywords_hy": [
+      "հարևաններ",
+      "դաստիարակություն",
+      "բալկոն",
+      "կատակ",
+      "երեխա",
+      "Գուգո",
+      "Հովիկ",
+      "հայկական հումոր"
+    ],
+    "keywords_en": [
+      "neighbors",
+      "upbringing",
+      "balcony",
+      "prank",
+      "child",
+      "Gugo",
+      "Hovik",
+      "Armenian humor"
+    ],
+    "keywords_translit": [
+      "harevanner",
+      "dastiarakutyun",
+      "balkon",
+      "katak",
+      "erexа",
+      "Gugo",
+      "Hovik",
+      "haykakan humor"
+    ],
+    "catchphrases": [
+      "Գուգո ձյաձյա էրեկվա ասածս ուժի մեջա;"
+    ],
+    "topics": [
+      "neighbors",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

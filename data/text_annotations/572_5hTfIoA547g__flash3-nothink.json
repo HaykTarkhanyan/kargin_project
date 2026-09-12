@@ -1,0 +1,69 @@
+{
+  "video_id": "5hTfIoA547g",
+  "seq": 572,
+  "kargin_id": 572,
+  "title": "Kargin Haghordum sketch 423 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "572_Kargin_Haghordum_sketch_423_Hayko_Mko_5hTfIoA547g.ru.json",
+    "visual": true
+  },
+  "input_chars": 2423,
+  "gen_sec": 4.81,
+  "prompt_tokens": 2104,
+  "output_tokens": 581,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002795,
+  "annotation": {
+    "title_hy": "Հայ զբոսաշրջիկները Ամստերդամում",
+    "title_en": "Armenian Tourists in Amsterdam",
+    "summary_en": "A couple visiting a museum in Amsterdam confuses famous artwork for reality and reacts nonchalantly to breaking an ancient royal vase.",
+    "summary_detailed_en": "The sketch follows a group of Armenian tourists visiting a museum in Amsterdam, led by a guide speaking broken Russian. One tourist wears a yellow tartan blazer and a boater hat, while his partner is a man in drag wearing an exaggerated red curly wig. They start outside a grand brick building where they discuss their future marriage; the partner reveals they will have three children because she already has three living with her mother. Inside the gallery, the guide presents a painting by 'Rembrand' depicting an empty street, titled 'Fools.' When the couple asks where the fools are, the guide quips that they are at home, leading the tourists to call him a 'clown.' As they wander, one tourist accidentally knocks over and shatters a 14th-century royal vase. When their companion frantically explains the historical value of the broken artifact, the tourist dismissively responds that he was worried for a second because he thought the vase was new, not old. The sketch ends with them walking away unimpressed by the cultural heritage.",
+    "keywords_hy": [
+      "Ամստերդամ",
+      "թանգարան",
+      "զբոսաշրջիկ",
+      "Ռեմբրանդ",
+      "սափոր",
+      "ամուսնություն",
+      "էքսկուրսիա"
+    ],
+    "keywords_en": [
+      "Amsterdam",
+      "museum",
+      "tourist",
+      "Rembrandt",
+      "vase",
+      "marriage",
+      "excursion"
+    ],
+    "keywords_translit": [
+      "Amsterdam",
+      "tangaran",
+      "zbosashrjik",
+      "Rembrandt",
+      "saphor",
+      "amusnutyun",
+      "ekskursia"
+    ],
+    "catchphrases": [
+      "Ըլավ",
+      "Կլոուն",
+      "Հա լավ վախեցա, ես էլ գիտեմ նոր ա"
+    ],
+    "topics": [
+      "leisure_outing",
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

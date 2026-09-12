@@ -1,0 +1,70 @@
+{
+  "video_id": "kolSov5YzHw",
+  "seq": 561,
+  "kargin_id": 561,
+  "title": "Kargin Haghordum sketch 196 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2123,
+  "gen_sec": 5.09,
+  "prompt_tokens": 2365,
+  "output_tokens": 624,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003054,
+  "annotation": {
+    "title_hy": "Պրոֆեսիոնալ բոքսյորը հիվանդանոցում",
+    "title_en": "Professional Boxer at the Clinic",
+    "summary_en": "A bloodied patient keeps jumping up every time the doctor counts to eight, revealing that his conditioning as a professional boxer overrides the sedative's effects.",
+    "summary_detailed_en": "The sketch is set in a clinic exam room where a doctor in blue scrubs is treating a male patient who has been severely beaten in a street fight. The patient, covered in blood and visible injuries, pleads with the doctor not to report the incident to the police, bragging that although they were outnumbered, they gave their opponents a matching beating. As the doctor attempts to administer a sedative to manage the intense pain, he uses a syringe and tweezers while the patient winces in agony. The humor arises from a repetitive physical gag: every time the doctor injects the medicine and begins a countdown to ten to let the anesthesia work, the patient suddenly springs up from the exam table at the count of eight. Despite multiple doses, the patient cannot remain lying down. The friend or witness finally explains the absurdity to the confused doctor—the patient is a professional boxer, and his subconscious training forces him to stand up before the referee's count of ten ends. The sketch ends with the realization that the medical countdown is triggering his athletic instincts.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "բոքսյոր",
+      "ծեծկռտուք",
+      "սրսկում",
+      "ցավազրկող",
+      "քաղմաս",
+      "հաշվել"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "boxer",
+      "street fight",
+      "injection",
+      "painkiller",
+      "countdown",
+      "referee count"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivandanoc",
+      "boqsyor",
+      "ceckrtuq",
+      "srskum",
+      "cavazrkogh",
+      "qaghmas",
+      "hashvel"
+    ],
+    "catchphrases": [
+      "Պրոֆեսիոնալ բաքսյորա, Մինչև 10֊ը հաշվում ես, 8֊ից հելնում կանգնում ա։"
+    ],
+    "topics": [
+      "medical",
+      "sports",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

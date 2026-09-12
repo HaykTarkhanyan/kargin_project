@@ -1,0 +1,70 @@
+{
+  "video_id": "1KxxApbZa6M",
+  "seq": 545,
+  "kargin_id": 545,
+  "title": "Kargin Haghordum sketch 177 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "545_Kargin_Haghordum_sketch_177_Hayko_Mko_1KxxApbZa6M.ar.json",
+    "visual": true
+  },
+  "input_chars": 1786,
+  "gen_sec": 5.84,
+  "prompt_tokens": 1976,
+  "output_tokens": 586,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002746,
+  "annotation": {
+    "title_hy": "Բադն ու լողորդը",
+    "title_en": "The Duck and the Swimmer",
+    "summary_en": "Two men drinking vodka in the summer heat by a canal misguide a passerby about the water's depth based on a duck's height.",
+    "summary_detailed_en": "The sketch takes place in a grassy outdoor field during a hot day, with the silhouette of Mount Ararat visible in the background. Two men, one wearing a straw hat and the other bearded, sit on the ground enjoying a bottle of vodka and snacks. They complain about the intense heat and the difficulty of drinking in such weather. The dialogue starts with a joke where one man asks what would happen if he drank the whole bottle alone; the other threatens to break his head, causing blood to leak from his ears and nose. As they continue drinking, they toast to the local ducks. A shirtless young man approaches and asks if the nearby irrigation canal is deep. The two drinkers confidently tell him it is safe to swim. The young man jumps in and immediately begins drowning and shouting for help. When he climbs out soaked and confronts them for lying about the depth, one of the drinkers nonchalantly replies that he thought it was shallow because a duck had just passed through that spot standing up.",
+    "keywords_hy": [
+      "արաղ խմել",
+      "շոգ",
+      "բադ",
+      "ջրանցք",
+      "խորություն",
+      "հարբած",
+      "լողալ",
+      "Արարատ լեռ"
+    ],
+    "keywords_en": [
+      "drinking vodka",
+      "summer heat",
+      "duck",
+      "canal",
+      "water depth",
+      "drunk",
+      "swimming",
+      "Mount Ararat"
+    ],
+    "keywords_translit": [
+      "aragh khmel",
+      "shog",
+      "bad",
+      "jrantsq",
+      "khorutyun",
+      "harbats",
+      "loghal",
+      "Ararat ler"
+    ],
+    "catchphrases": [
+      "Բա ասում էիր խորը չի։ -Արա այ ախպեր ջան ես ինչ իմանամ, նոր մի հատ բադ անցավ ստեից էր։"
+    ],
+    "topics": [
+      "drinking",
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

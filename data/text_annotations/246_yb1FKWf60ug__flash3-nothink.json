@@ -1,0 +1,71 @@
+{
+  "video_id": "yb1FKWf60ug",
+  "seq": 246,
+  "kargin_id": 246,
+  "title": "Kargin Haghordum sketch 349 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2657,
+  "gen_sec": 31.42,
+  "prompt_tokens": 2247,
+  "output_tokens": 623,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002992,
+  "annotation": {
+    "title_hy": "Գաղտնի Գործակալի Փորձություն",
+    "title_en": "Secret Agent Test",
+    "summary_en": "A secret agency tests three candidates by ordering them to kill their own relatives with what they believe are loaded weapons.",
+    "summary_detailed_en": "The sketch is set in a dark, film-noir style interrogation hall resembling a Soviet-era commission room. Two high-ranking officials sit behind a desk lit by a single lamp, discussing a ten-year training program funded by the state. They have gathered the relatives of three candidates—a sister, a brother, and a wife with children—to conduct a final loyalty test. The officials explain that candidates will be given guns loaded with blanks and ordered to kill their loved ones; those who obey become secret agents, while those who fail will be demoted to kindergarten security. The first candidate, Khachatryan, is ordered to kill his sister but refuses, losing his badge. The second, Barseghyan, is ordered to kill his brother and also refuses out of moral conscience. Finally, Gevorgyan is ordered to kill his wife and children. Unlike the others, he enters the room and a series of loud bangs and screams are heard. He emerges with a bloodied face, messy hair, and a wrecked suit, complaining that the gun was loaded with blanks and he almost failed the test, but luckily he had his own knife on him to finish the job.",
+    "keywords_hy": [
+      "գաղտնի գործակալ",
+      "փորձություն",
+      "հրաման",
+      "զենք",
+      "դատարկ փամփուշտ",
+      "ընտանիք",
+      "դանակ",
+      "քննություն"
+    ],
+    "keywords_en": [
+      "secret agent",
+      "test",
+      "loyalty",
+      "blank cartridges",
+      "military order",
+      "interrogation",
+      "family",
+      "knife"
+    ],
+    "keywords_translit": [
+      "gaghtni gortsakal",
+      "pordzutyun",
+      "hraman",
+      "zenk",
+      "datark pampusht",
+      "entanik",
+      "danak",
+      "knnutyun"
+    ],
+    "catchphrases": [
+      "նպատակն արդարացնում է միջոցները",
+      "լավա դանակս մոտս էր"
+    ],
+    "topics": [
+      "army",
+      "family",
+      "law_court"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "nT_GlxMoTvQ",
+  "seq": 52,
+  "kargin_id": 52,
+  "title": "Kargin Haghordum sketch 617 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "052_Kargin_Haghordum_sketch_617_Hayko_Mko_nT_GlxMoTvQ.hy.json",
+    "visual": true
+  },
+  "input_chars": 2328,
+  "gen_sec": 22.13,
+  "prompt_tokens": 2229,
+  "output_tokens": 573,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002834,
+  "annotation": {
+    "title_hy": "Ում ոտերն են",
+    "title_en": "Whose Legs are These?",
+    "summary_en": "A husband confronts his wife about a pair of male legs sticking out from her bed, only for her to justify the lover's presence by listing all the luxury items he pays for.",
+    "summary_detailed_en": "The sketch takes place in a bedroom where a wife in a red top is lounging in bed, casually filing her nails. Her husband, dressed in a grey work jacket, stands in the doorway and points out a pair of hairy male legs sticking out from under the white blanket at the foot of the bed. Instead of denying the affair, the wife calmly interrogates the husband about their lifestyle. She asks who bought her expensive fur coat, who paid for her world cruise, who covers their children's tuition, and who pays for the gasoline in the car he drives. To every question, she clarifies that it wasn't the husband, but 'him' (the owner of the legs). She further points out that the free goods the husband gets from the local shop to impress his friends are also thanks to the lover's influence. Realizing his entire comfortable life is funded by the man in the bed, the husband's anger vanishes. The sketch ends with the husband submissively tucking the lover's feet back under the covers so he doesn't catch a cold.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "ոտքեր",
+      "շուբ",
+      "կրուիզ",
+      "փող",
+      "ամուսին",
+      "կին",
+      "սիրեկան"
+    ],
+    "keywords_en": [
+      "cheating",
+      "legs",
+      "fur coat",
+      "cruise",
+      "money",
+      "husband",
+      "wife",
+      "lover"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "otqer",
+      "shub",
+      "kruiz",
+      "pogh",
+      "amusin",
+      "kin",
+      "sirekan"
+    ],
+    "catchphrases": [
+      "ոտերը ծածկի որ չմրսի"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

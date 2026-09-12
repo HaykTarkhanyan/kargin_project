@@ -1,0 +1,74 @@
+{
+  "video_id": "C1hueP-askc",
+  "seq": 327,
+  "kargin_id": 327,
+  "title": "Kargin Haghordum sketch 289 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2297,
+  "gen_sec": 20.56,
+  "prompt_tokens": 2237,
+  "output_tokens": 684,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00317,
+  "annotation": {
+    "title_hy": "Գող սպասուհին և Գեորգի Սմբատիչը",
+    "title_en": "The Thief Maid and Georgi Smbatich",
+    "summary_en": "An employer catches his maid stealing money and threatens to call the police unless she can impress him with a special 'trick' to make amends.",
+    "summary_detailed_en": "The sketch takes place in an apartment living room furnished with a china cabinet and wall art. An employer, Georgi Smbatich, confronts his maid, accusing her of stealing from his salary payments. He threatens to call the police ('1-02'). The maid, played by a young woman, becomes desperate and begs him not to call, offering to return the money, work for free for a year, and handle all household chores like laundry and ironing. When Georgi Smbatich remains unmoved and begins dialing the police, the maid promises to perform a 'firmayin' (signature) trick that he will never forget to compensate for her actions. An eccentric man with a blond wig and glasses is involved in the heated exchange as she tries to stop the call. She attempts various maneuvers, including what she calls 'giving him a start' (khodi tal), but the elderly man with a cane repeatedly complains that nothing is working. Despite her efforts to distract or please him with her 'tricks,' the employer remains dissatisfied and continues to threaten her with the authorities.",
+    "keywords_hy": [
+      "սպասուհի",
+      "գողություն",
+      "փող",
+      "քաղմաս",
+      "ոստիկանություն",
+      "աշխատավարձ",
+      "տրյուկ",
+      "խոդի տալ"
+    ],
+    "keywords_en": [
+      "maid",
+      "theft",
+      "money",
+      "police station",
+      "salary",
+      "trick",
+      "threat",
+      "apartment"
+    ],
+    "keywords_translit": [
+      "spasuhi",
+      "goghutyun",
+      "pogh",
+      "qaghmas",
+      "ostikanutyun",
+      "ashkhatavardz",
+      "tryuk",
+      "khodi tal"
+    ],
+    "catchphrases": [
+      "սուս մնա 1-02",
+      "հիմա նենց բան կանեմ որ դուք ամբողջ կյանքում չեք մոռանա",
+      "հեսա ձեզ խոդի կտամ պապի ջան",
+      "չես տենում չի ստացվում",
+      "չէէէ աչքիս զանգում եմ քաղմաս"
+    ],
+    "topics": [
+      "work",
+      "crime",
+      "police"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

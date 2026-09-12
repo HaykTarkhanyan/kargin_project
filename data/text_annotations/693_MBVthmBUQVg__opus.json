@@ -1,0 +1,79 @@
+{
+  "video_id": "MBVthmBUQVg",
+  "seq": 693,
+  "kargin_id": 693,
+  "title": "Kargin Haghordum sketch 273 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "693_Kargin_Haghordum_sketch_273_Hayko_Mko_MBVthmBUQVg.hy.json",
+    "visual": true
+  },
+  "input_chars": 2877,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Գերանդու զանգուլակները",
+    "title_en": "The Bells on the Scythe",
+    "summary_en": "A priest is so moved by a farmer who hangs bells on his scythe to spare the insects that he keeps absolving him, as each confession gets worse than the last.",
+    "summary_detailed_en": "In an orchard, a mustached farmer in a straw hat greets a passing bearded priest, briefly mistaking the churchman's address for his own father calling him and explaining that he grew up in an orphanage with neither father nor mother. The priest, from the neighbouring village, says he heard a wonderful ringing and asks about it: the farmer has hung little bells on his scythe, because the grass is full of beetles, ants and small creatures, and the ringing frightens them off so they are not cut down - let them reach their homes, lay their eggs and raise their young. Overcome by such kindness, the priest offers to absolve any sin then and there. The farmer confesses that while his employer and his wife were away in the city he was alone in the house with the daughter. Citing the bells, the priest forgives him. The farmer immediately produces a second confession involving the wife, and is forgiven again, more reluctantly. When a third begins in the same pattern, the priest concludes that perhaps those bells should never have been hung on the scythe at all.",
+    "keywords_hy": [
+      "քահանա",
+      "գերանդի",
+      "զանգուլակ",
+      "մրջյուն",
+      "խոտ հնձել",
+      "մեղք",
+      "թողություն",
+      "խազեին",
+      "այգի",
+      "մանկատուն"
+    ],
+    "keywords_en": [
+      "priest",
+      "scythe",
+      "bells",
+      "ants",
+      "mowing",
+      "sin",
+      "absolution",
+      "employer",
+      "orchard",
+      "orphanage"
+    ],
+    "keywords_translit": [
+      "qahana",
+      "gerandi",
+      "zangulak",
+      "mrjyun",
+      "khot hndzel",
+      "megh",
+      "toghutyun",
+      "khazein",
+      "aygi",
+      "mankatun"
+    ],
+    "catchphrases": [
+      "Բարի առավոտ որդյակս:-Բարև պապա ջան:Տղա ջան վեր կաց ես քո պապան չեմ",
+      "Սա ուղղակի եկեղեցական դիմելաձև է",
+      "աչքիս այդ զանգուլակները դու գերանդիի վրա չպիտի կախեիր"
+    ],
+    "topics": [
+      "religion",
+      "village",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

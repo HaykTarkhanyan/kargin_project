@@ -1,0 +1,70 @@
+{
+  "video_id": "41OefT1qctA",
+  "seq": 540,
+  "kargin_id": 540,
+  "title": "Kargin Haghordum sketch 172 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "540_Kargin_Haghordum_sketch_172_Hayko_Mko_41OefT1qctA.hy.json",
+    "visual": true
+  },
+  "input_chars": 1343,
+  "gen_sec": 4.57,
+  "prompt_tokens": 1740,
+  "output_tokens": 591,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002643,
+  "annotation": {
+    "title_hy": "Կարևոր շեֆը և հեռախոսը",
+    "title_en": "The Important Boss and the Phone",
+    "summary_en": "An arrogant boss tries to impress a visitor by pretending to be extremely busy with important calls, only to be exposed by the very man he is ignoring.",
+    "summary_detailed_en": "The sketch takes place in a cluttered office featuring a CRT monitor, a typewriter, and a wall map. A secretary (Armine) is seen tidying up and applying lipstick while the boss sits at his desk. The boss scolds the secretary for cleaning his desk because he had supposedly written an important phone number in the dust. A man with a mustache, wearing a white shirt, enters the office. The boss, attempting to appear like a high-powered executive, ignores the visitor and begins a series of animated, performative phone calls. He speaks loudly into his desk phone, telling a supposed 'administrative' caller that he is far too busy to take on new clients this month and suggesting they try again next month. He acts dismissive of their gratitude, projecting an image of extreme professional demand. After finishing his fake display of importance, he finally turns to the visitor. The punchline is delivered when the visitor reveals he is actually the technician who has come specifically to repair the broken, non-functional telephone the boss was just pretending to use.",
+    "keywords_hy": [
+      "շեֆ",
+      "գրասենյակ",
+      "հեռախոս",
+      "քարտուղարուհի",
+      "վարպետ",
+      "սուտ",
+      "զանգ",
+      "փոշի"
+    ],
+    "keywords_en": [
+      "boss",
+      "office",
+      "telephone",
+      "secretary",
+      "repairman",
+      "lying",
+      "fake call",
+      "dust"
+    ],
+    "keywords_translit": [
+      "shef",
+      "grasenyak",
+      "heraxos",
+      "qartuxaruhi",
+      "varpet",
+      "sut",
+      "zang",
+      "poshi"
+    ],
+    "catchphrases": [
+      "փոշու վրա հոգու հեռախոսի համար էր",
+      "կլիենտները լիքն են"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

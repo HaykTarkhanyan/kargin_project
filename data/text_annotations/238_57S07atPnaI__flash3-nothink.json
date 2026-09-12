@@ -1,0 +1,70 @@
+{
+  "video_id": "57S07atPnaI",
+  "seq": 238,
+  "kargin_id": 238,
+  "title": "Kargin Haghordum sketch 320 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "238_Kargin_Haghordum_sketch_320_Hayko_Mko_57S07atPnaI.hi.json",
+    "visual": true
+  },
+  "input_chars": 2181,
+  "gen_sec": 8.55,
+  "prompt_tokens": 2201,
+  "output_tokens": 618,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002954,
+  "annotation": {
+    "title_hy": "Գողացված փողը և մութ միջանցքը",
+    "title_en": "Stolen Cash and the Dark Corridor",
+    "summary_en": "A man tries to explain a complicated getaway plan to his slow-witted friend after stealing a large sum of money, only to be mugged by a stranger.",
+    "summary_detailed_en": "The sketch begins in an office setting where a man in a white shirt and necktie is sitting in an office chair, visibly agitated and drinking coffee. He explains to his friend (Sako) that a certain Aslanyan left a box full of cash behind after a briefing. He calculated that the amount exceeds fifty years of their salaries combined. He devises an escape plan: the friend should take the money through a dark connecting corridor between buildings to avoid the main entrance security, while the protagonist meets him with a car. However, the friend repeatedly fails to understand the simple instructions, leading to a frustrated exchange. Eventually, the plan is set in motion. In the second scene, the man is walking through the dark corridor carrying the bag of money. He is suddenly confronted by a mustached man in dark clothing. When the protagonist realizes the mugger genuinely doesn't recognize him, he jokes that he is about to 'get rich' before being robbed, playing on the irony of his failed heist. The sketch ends with the mugging taking place in the dark hallway.",
+    "keywords_hy": [
+      "փող",
+      "գողություն",
+      "մութ միջանցք",
+      "հարստանալ",
+      "պլան",
+      "օֆիս",
+      "տուպոյ",
+      "հարստանալու եմ"
+    ],
+    "keywords_en": [
+      "money",
+      "robbery",
+      "dark corridor",
+      "get rich",
+      "heist plan",
+      "office",
+      "stupid friend",
+      "mugger"
+    ],
+    "keywords_translit": [
+      "pogh",
+      "goghutyun",
+      "mut mijantsk",
+      "harstanal",
+      "plan",
+      "ofis",
+      "tupoy",
+      "harstanalu em"
+    ],
+    "catchphrases": [
+      "Լուրջ ես ասում, չճանաչեցի՞ր;   -Չէ;    դե ուրեմն հարստաալու եմ;"
+    ],
+    "topics": [
+      "crime",
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

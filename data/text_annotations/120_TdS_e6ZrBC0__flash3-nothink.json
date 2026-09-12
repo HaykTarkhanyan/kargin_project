@@ -1,0 +1,70 @@
+{
+  "video_id": "TdS_e6ZrBC0",
+  "seq": 120,
+  "kargin_id": 120,
+  "title": "Kargin Haghordum sketch 689 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "120_Kargin_Haghordum_sketch_689_Hayko_Mko_TdS_e6ZrBC0.fr.json",
+    "visual": true
+  },
+  "input_chars": 3467,
+  "gen_sec": 30.7,
+  "prompt_tokens": 2647,
+  "output_tokens": 597,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003115,
+  "annotation": {
+    "title_hy": "Հինգի Լյովը և ուժեղ խմողը",
+    "title_en": "Lyov of Five and the Strong Drinker",
+    "summary_en": "Two men at a bar gossip about neighborhood tough guys and watch in awe as a legendary drinker downs multiple glasses of vodka without flinching.",
+    "summary_detailed_en": "Set in a dimly lit bar, the sketch begins with two friends (played by the male lead comedians) engaged in a fast-paced, slang-heavy conversation about a meeting of various local 'tough guys' from different neighborhoods like Charentsavan and Abovyan. They recount how these masters of verbal sparring decided to call a truce and go out to eat, mentioning a character named 'Proch' who paid the bill. The visual shifts as a third man, heavily tattooed and wearing sunglasses, sits at the bar counter. One friend introduces him as 'Lyov of Five,' explaining that he is the city's strongest drinker. As Lyov begins to down large tea glasses filled with vodka, the two friends provide a play-by-play commentary, marveling at his lack of reaction. They joke about his nickname, questioning if it refers to his school grade or neighborhood, before revealing his drinking prowess. After Lyov downs his fifth glass without a single facial expression change, the observers realize it is time to leave before they get caught up in the legendary drinker's orbit.",
+    "keywords_hy": [
+      "բար",
+      "արաղ",
+      "խմող",
+      "քյարթու",
+      "բազար",
+      "ախպերություն",
+      "թաղային հեղինակություն",
+      "զրույց"
+    ],
+    "keywords_en": [
+      "bar",
+      "vodka",
+      "heavy drinker",
+      "slang",
+      "tough guys",
+      "neighborhood authorities",
+      "drinking contest",
+      "gossip"
+    ],
+    "keywords_translit": [
+      "bar",
+      "aragh",
+      "khmogh",
+      "kyartu",
+      "bazar",
+      "akhperutyun",
+      "taghayin heghinakutyun",
+      "zruyts"
+    ],
+    "catchphrases": [
+      "Հլը ջոգի ինչ դեմքեր են հավաքվե"
+    ],
+    "topics": [
+      "drinking",
+      "restaurant_cafe",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

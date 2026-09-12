@@ -1,0 +1,70 @@
+{
+  "video_id": "cZlUHn9xle8",
+  "seq": 368,
+  "kargin_id": 368,
+  "title": "Kargin Haghordum sketch 484 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2547,
+  "gen_sec": 11.94,
+  "prompt_tokens": 2564,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00325,
+  "annotation": {
+    "title_hy": "Խարդախ ամուսինը և արյան դոնորը",
+    "title_en": "The Scammer Husband and the Blood Donor",
+    "summary_en": "A man explains his insurance fraud scheme involving his wife's surgeries to a friend, but refuses to donate blood to a dying foreigner for fear the foreigner will scam him back.",
+    "summary_detailed_en": "The sketch begins in a hospital lobby where two friends meet. One man reveals his elaborate scam: he brings his wife (the daughter of a wealthy man) for unnecessary appendicitis surgeries every week because they have a medical insurance contract. He admits he splits the insurance payouts with the surgeons to 'squeeze' money out of the insurance company and his rich father-in-law. The scene shifts to the urgency of an operating room where a surgeon and nurse are treating a rich foreigner involved in a car accident. The patient has internal bleeding and needs a rare Type 4 Negative blood transfusion. The doctor identifies that one of the men in the lobby has this exact blood type. Despite the doctor offering increasing amounts of money—from $1,000 up to $10,000—the man flatly refuses to donate. When his friend asks why he won't help for such a large sum, the man delivers the punchline: he is such a professional scammer that he believes if even one drop of his blood enters the foreigner's body, the foreigner will wake up with his personality and scam them all.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "ապահովագրություն",
+      "վիրաբույժ",
+      "արյան փոխներարկում",
+      "խարդախություն",
+      "կույրաղիք",
+      "փող",
+      "քցել"
+    ],
+    "keywords_en": [
+      "hospital",
+      "insurance fraud",
+      "surgeon",
+      "blood transfusion",
+      "scammer",
+      "appendicitis",
+      "money",
+      "foreigner"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "apahovagrutyun",
+      "virabuyj",
+      "aryan poxnerarkum",
+      "xardaxutyun",
+      "kuyraxix",
+      "pogh",
+      "qcel"
+    ],
+    "catchphrases": [
+      "Ախպերս իմ արյունից որ մի կաթիլ սրա օրգանիզմ գնաց, էսի որ զարթնեց, իմացի մեզի հաստատ քցելուա։"
+    ],
+    "topics": [
+      "medical",
+      "money",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

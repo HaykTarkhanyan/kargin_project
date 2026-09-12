@@ -1,0 +1,71 @@
+{
+  "video_id": "HrjZOMeOMzw",
+  "seq": 506,
+  "kargin_id": 506,
+  "title": "Kargin Haghordum sketch 134 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1697,
+  "gen_sec": 8.12,
+  "prompt_tokens": 1874,
+  "output_tokens": 598,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002731,
+  "annotation": {
+    "title_hy": "Մկների իրավունքները և եվրոպացիները",
+    "title_en": "Mouse Rights and Europeans",
+    "summary_en": "A manufacturer of rat poison complains about European animal rights inspectors before insulting his foreign guests to their faces, forgetting they have a translator.",
+    "summary_detailed_en": "The sketch takes place in a formal office setting, decorated with an Armenian flag, where a mustached businessman or government official sits at his desk. He is seen complaining over the phone about the absurdly strict regulations imposed by European animal rights organizations. He explains that these inspectors are coming to check his rat poison production; if the mice die instantly, it is fine, but if they suffer, he faces massive fines for violating 'mouse rights.' A secretary enters to announce that the foreign visitors have arrived. The official tries to act sophisticated, welcoming three men in suits with broken English, offering them seats and 'cofe.' He then calls his secretary, Gayane, back into the room and instructs her in Armenian to bring coffee for 'these three animals' (anasun). The joke concludes when one of the guests politely corrects him in Armenian, stating that he should only bring coffee for 'two animals,' as he is actually the translator and understood the insult perfectly.",
+    "keywords_hy": [
+      "մկան դեղ",
+      "եվրոպացի",
+      "ստուգում",
+      "թարգմանիչ",
+      "անասուն",
+      "կոֆե",
+      "իրավունքներ",
+      "շտրաֆ"
+    ],
+    "keywords_en": [
+      "rat poison",
+      "European inspectors",
+      "animal rights",
+      "translator",
+      "insult",
+      "office humor",
+      "coffee",
+      "fine"
+    ],
+    "keywords_translit": [
+      "mkan degh",
+      "evropaci",
+      "stugum",
+      "targmanich",
+      "anasun",
+      "kofe",
+      "iravunqner",
+      "shtraf"
+    ],
+    "catchphrases": [
+      "Գայանե ջան էս 3 անասունին կոֆե բեր։",
+      "Excuse me. Երկու անասունին, ես թարգմանիչն եմ։"
+    ],
+    "topics": [
+      "bureaucracy",
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "satire"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "9nbEy4CLxHs",
+  "seq": 208,
+  "kargin_id": 208,
+  "title": "Kargin Haghordum sketch 388 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "208_Kargin_Haghordum_sketch_388_Hayko_Mko_9nbEy4CLxHs.ro.json",
+    "visual": true
+  },
+  "input_chars": 1164,
+  "gen_sec": 9.98,
+  "prompt_tokens": 1600,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002729,
+  "annotation": {
+    "title_hy": "Գյուղի սուպերմարկետի պրյանիկը",
+    "title_en": "The Village Shop's Gingerbread",
+    "summary_en": "A customer in a rural shop tries to buy fresh snacks, but the honest shopkeeper tries to steer him toward two-year-old moldy gingerbread for a suspicious reason.",
+    "summary_detailed_en": "The sketch is set in a small, quiet village shop, depicted by a white Lada parked outside a modest building. Inside, a young man wearing a tracksuit and a cap approaches the counter to buy snacks. He addresses the shopkeeper, a grey-haired man with a mustache, sarcastically referring to him as the owner of the 'village supermarket chain.' When the customer asks if the gingerbread (pryanik) is fresh, the shopkeeper is brutally honest, admitting that they are about two years old, have started to grow mold on the sides, and even have a bad smell. Disgusted by the description, the young man decides to buy cookies instead. However, the shopkeeper insists that the customer should take his advice and stick with the old gingerbread. The humor relies on the absurdity of a merchant actively discouraging a buyer from a better product in favor of something nearly inedible, implying the cookies might be even more dangerous than the moldy gingerbread. The scene features authentic village shop props including an old-fashioned scale and crowded shelves of miscellaneous goods.",
+    "keywords_hy": [
+      "գյուղի խանութ",
+      "սուպերմարկետ",
+      "պրյանիկ",
+      "բորբոսնած",
+      "հոպար",
+      "հայկո մկո",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "village shop",
+      "supermarket",
+      "gingerbread",
+      "moldy food",
+      "shopkeeper",
+      "Hayko Mko",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "gyughi xanut",
+      "supermarket",
+      "pryanik",
+      "borbosnats",
+      "hopar",
+      "hayko mko",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "ինչքան հասկացա էս գյուղի սուպերմարկետների ցանցը դու ես հա",
+      "տղա ջան իմ խորհուրդը լսես պրյանիկը կվեկալես"
+    ],
+    "topics": [
+      "shop_market",
+      "village"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

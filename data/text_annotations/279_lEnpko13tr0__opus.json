@@ -1,0 +1,78 @@
+{
+  "video_id": "lEnpko13tr0",
+  "seq": 279,
+  "kargin_id": 279,
+  "title": "Kargin Haghordum sketch 232 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "279_Kargin_Haghordum_sketch_232_Hayko_Mko_lEnpko13tr0.hy.json",
+    "visual": true
+  },
+  "input_chars": 1948,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Ձմեռ պապին սպանեցի",
+    "title_en": "Who Shot Ded Moroz",
+    "summary_en": "Broke parents who lied last year about why Ded Moroz skipped their children face the same problem again, and the father solves it permanently with a shotgun.",
+    "summary_detailed_en": "In a New Year-decorated apartment, two children ask their mother whether Ded Moroz will bring presents tonight. She reminds them that he skipped last year because they had misbehaved, and the elder points out that this year he got nothing but top marks and did nothing wrong, so surely the presents will come. Alone, the mother tells the father that they lied to the children last year to cover having no money, and that this year the poor things have genuinely not put a foot wrong - they must manage at least a small present. The father protests that there is no money at all: the New Year table is bare except for the tree, guests are coming to eat the tree, and she can think what she likes but nothing will appear. He says he will handle the question himself, picks up a shotgun and leaves. He returns and tells the children cheerfully that nothing is wrong - he has just shot Ded Moroz, so next year there will be no presents either, and the problem is closed for good.",
+    "keywords_hy": [
+      "Նոր տարի",
+      "Ձմեռ պապի",
+      "նվեր",
+      "տոնածառ",
+      "հրացան",
+      "երեխաներ",
+      "փող չկա",
+      "ծնողներ",
+      "խաբել",
+      "տոն"
+    ],
+    "keywords_en": [
+      "New Year",
+      "Ded Moroz",
+      "Santa",
+      "present",
+      "Christmas tree",
+      "shotgun",
+      "children",
+      "no money",
+      "parents",
+      "holiday"
+    ],
+    "keywords_translit": [
+      "Nor tari",
+      "Dzmer papi",
+      "nver",
+      "tonatsar",
+      "hratsan",
+      "yerekhaner",
+      "pogh chka",
+      "tsnoghner",
+      "khabel",
+      "ton"
+    ],
+    "catchphrases": [
+      "հենց նոր ձմեռ պապուն սպանեցի",
+      "մամ այսօր ձմեռ պապին նվեր բերելու է"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "party_guests"
+    ],
+    "humor_type": [
+      "dark",
+      "absurd"
+    ]
+  }
+}

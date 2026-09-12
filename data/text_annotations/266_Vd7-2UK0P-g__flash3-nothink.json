@@ -1,0 +1,71 @@
+{
+  "video_id": "Vd7-2UK0P-g",
+  "seq": 266,
+  "kargin_id": 266,
+  "title": "Kargin Haghordum sketch 574 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1784,
+  "gen_sec": 44.48,
+  "prompt_tokens": 1987,
+  "output_tokens": 677,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003024,
+  "annotation": {
+    "title_hy": "Լոտոյի շահում և շուրջերկրյա ճանապարհորդություն",
+    "title_en": "Lottery Win and World Tour",
+    "summary_en": "An office worker tells a story about her divorce and a street encounter before a lucky lottery winner arrives at the travel agency seeking an expensive world tour.",
+    "summary_detailed_en": "The sketch takes place in a travel agency office decorated with destination posters. It begins with a conversation between a male travel agent in a suit and his female colleague. The woman explains the reason for her divorce, claiming she couldn't live with someone who smokes, drinks, and fights all night—ironically adding that her husband couldn't handle it either. She then recounts an incident where a young man in a Jeep offered her a watch to sleep with him, which the agent realizes is why she was two hours late for work. A customer, an older man wearing a flat cap and a jacket, enters the office wanting a 'pleasant rest.' When offered affordable five-star packages to Egypt or Antalya, he rejects them, stating he wants to travel the entire world. He reveals he won one million dollars in the lottery and begins counting out stacks of cash. The agent remarks that he would have died of joy if he won that much, to which the customer dryly replies that he was lucky and only suffered a stroke.",
+    "keywords_hy": [
+      "տուրիստական գործակալություն",
+      "ճամփորդություն",
+      "լոտո",
+      "շահում",
+      "միլիոն դոլար",
+      "ինսուլտ",
+      "ամուսնալուծություն",
+      "աշխարհի շուրջ"
+    ],
+    "keywords_en": [
+      "travel agency",
+      "lottery win",
+      "million dollars",
+      "stroke",
+      "world tour",
+      "vacation",
+      "divorce",
+      "travel agent"
+    ],
+    "keywords_translit": [
+      "turisticakan gortsakalutyun",
+      "champordutyun",
+      "loto",
+      "shahum",
+      "million dolar",
+      "insult",
+      "amusnalutsutyun",
+      "ashkharhi shurj"
+    ],
+    "catchphrases": [
+      "Շնորհավորում եմ ձեզ, ճիշտն ասած եթե ես մի միլիոն դոլար շահեի, տեղում ուրախությունից կմեռնեի:",
+      "Իմ բախտը բերեց, ես մենակ ինսուլտ ստացա:"
+    ],
+    "topics": [
+      "work",
+      "money",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

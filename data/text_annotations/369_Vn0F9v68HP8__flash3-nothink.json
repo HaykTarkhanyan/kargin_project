@@ -1,0 +1,75 @@
+{
+  "video_id": "Vn0F9v68HP8",
+  "seq": 369,
+  "kargin_id": 369,
+  "title": "Kargin Haghordum - Galiboy (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3133,
+  "gen_sec": 19.84,
+  "prompt_tokens": 2703,
+  "output_tokens": 681,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003394,
+  "annotation": {
+    "title_hy": "Գալիբոյի Հայրը",
+    "title_en": "The Gay Boy's Father",
+    "summary_en": "Three fathers boast about their sons' massive financial successes in Europe, only for the fourth friend to arrive and reveal the shocking secret behind how one of the sons actually acquired his wealth.",
+    "summary_detailed_en": "The sketch takes place at a luxurious poolside villa terrace where three middle-aged men are drinking beer and eating kebabs. One man, wearing a plaid bathrobe, leads a toast to their children, specifically bragging about his son who moved to Europe, became a successful real estate agent, and recently gifted a four-room apartment in central Paris to a friend. The second man counters with a story about his son, a high-rolling car dealer who gifted his friend a Ferrari. The third man boasts that his son became a bank manager in Europe and arranged a thirty-year, zero-interest loan for a friend. They celebrate the 'brotherly love' and generosity of their successful sons. However, a fourth man arrives in a suit looking distressed. When questioned, he reveals he just received a call from Paris. He tells the first man that his son is actually a 'galiboy' (gay boy). The punchline reveals that the gay community is extremely supportive; the son doesn't work at all, and his 'friends' were the ones who actually gave him the Ferrari, the Paris apartment, and the million-dollar loan so he could live a life of luxury.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "Հայկո Մկո",
+      "գալիբոյ",
+      "կենաց",
+      "եվրոպա",
+      "հարուստ",
+      "տղեքի կենացը",
+      "փարիզ",
+      "ֆեռարի"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "Hayko Mko",
+      "toast",
+      "Europe",
+      "gay boy",
+      "wealthy fathers",
+      "Paris apartment",
+      "Ferrari",
+      "loan"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "Hayko Mko",
+      "galiboy",
+      "kenac",
+      "evropa",
+      "harust",
+      "tgheqi kenacy",
+      "pariz",
+      "ferrari"
+    ],
+    "catchphrases": [
+      "էս գալիբոբները սպայկա են",
+      "տղես գալիբոյա արա",
+      "էրեխեքի կենացը խմենք"
+    ],
+    "topics": [
+      "drinking",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

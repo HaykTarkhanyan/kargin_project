@@ -1,0 +1,72 @@
+{
+  "video_id": "iyFXOu6etNQ",
+  "seq": 152,
+  "kargin_id": 152,
+  "title": "Kargin Haghordum sketch 526 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3256,
+  "gen_sec": 9.77,
+  "prompt_tokens": 2661,
+  "output_tokens": 682,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003377,
+  "annotation": {
+    "title_hy": "Կախարդի թուրմը և կնոջից ազատվելը",
+    "title_en": "The Wizard's Potion and Getting Rid of the Wife",
+    "summary_en": "A man seeks the help of a mystical village oddball to deal with his talkative wife, only for the 'magical' solution to be a blunt, violent instruction.",
+    "summary_detailed_en": "The sketch is set in a scruffy village yard and a shed filled with fishing nets and herbs. A mustached man in a striped polo shirt approaches a long-haired village mystic wearing a beaded headband and a heavy gold pendant. The visitor complains incessantly about his wife, claiming she talks too much and prevents him from eating or sleeping. The mystic, who speaks in strange incantations and addresses the visitor as 'sister' despite his mustache, initially offers a hitman-style solution before suggesting a magical potion. He lists absurd ingredients like 'frog tails' and 'turtle livers.' When the man returns with the ingredients, the mystic prepares a jar of liquid. The punchline reveals the 'magic': he tells the man to place the jar by his wife's bed at night; when she wakes up thirsty and leans over to drink it, the husband should simply smash her head in with an axe. The sketch features quick cuts between the two men as they exchange dialogue, with the mystic performing mock-ritualistic gestures.",
+    "keywords_hy": [
+      "ատամի ցավ",
+      "կախարդ",
+      "թուրմ",
+      "գորտի պոչ",
+      "կնոջից ազատվել",
+      "գյուղացի",
+      "զվարճալի",
+      "կացին"
+    ],
+    "keywords_en": [
+      "toothache",
+      "wizard",
+      "potion",
+      "frog tail",
+      "get rid of wife",
+      "villager",
+      "funny dialogue",
+      "axe"
+    ],
+    "keywords_translit": [
+      "atami tsav",
+      "kaxard",
+      "turm",
+      "gorti poch",
+      "knojic azatvel",
+      "gyughaci",
+      "zvartshali",
+      "katsin"
+    ],
+    "catchphrases": [
+      "ԱԱԱյ ապուշ խոսակցություններ գնացեք խելոք խոսակցություններ եկեք",
+      "Գլխացավ հեռացիր ատամի ցավ արի գլխացավ հեռացի ատամի ցավ արի",
+      "Որդե ես տեսե բեղերով քուր արա"
+    ],
+    "topics": [
+      "family",
+      "village",
+      "crime"
+    ],
+    "humor_type": [
+      "absurd",
+      "dark"
+    ]
+  }
+}

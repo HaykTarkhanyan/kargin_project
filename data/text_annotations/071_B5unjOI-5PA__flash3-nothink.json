@@ -1,0 +1,69 @@
+{
+  "video_id": "B5unjOI-5PA",
+  "seq": 71,
+  "kargin_id": 71,
+  "title": "Kargin Haghordum sketch 671 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1799,
+  "gen_sec": 17.43,
+  "prompt_tokens": 1864,
+  "output_tokens": 651,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002885,
+  "annotation": {
+    "title_hy": "Ծառայության արագությունը",
+    "title_en": "Service Speed",
+    "summary_en": "A domestic helper or worker is sent on endless rapid-fire errands by a neighbor until it turns out he was actually hired for a specific job.",
+    "summary_detailed_en": "The sketch is set in the stairwell and courtyard of a typical Soviet-era apartment block. A man wearing a grey-beige suit is working when he is approached by a neighbor in a white undershirt. The neighbor treats the man like a personal servant, using overly affectionate diminutive language while constantly sending him on errands. He tells the worker he has come home too early and is surely hungry, but immediately demands he run to get bread because they have none. The man complies, rushing back and forth. Next, the neighbor demands he fetch water so they can cook a meal. The neighbor praises his speed, comparing him to a 'cosmonaut.' Finally, the neighbor hands him a red plastic bucket to take outside and empty so the house doesn't get dirty. In the courtyard, the man is seen frantically chasing something on the ground, using his jacket as a swatter and a small hand net. It is eventually revealed that he is a pest catcher. The neighbor finally hands him a 100-dollar bill, telling him to go to a restaurant for an hour or two while they figure things out, to which the worker expresses relief that the errand-running is over.",
+    "keywords_hy": [
+      "հաց բերել",
+      "հարյուր դոլար",
+      "արագավազ",
+      "հարևան",
+      "ծառայություն",
+      "կասմանավտ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "bread delivery",
+      "hundred dollars",
+      "fast runner",
+      "neighbor",
+      "service",
+      "cosmonaut",
+      "errands"
+    ],
+    "keywords_translit": [
+      "hac berel",
+      "haryur dolar",
+      "aragavaz",
+      "harevan",
+      "carayutyun",
+      "kasmanavt",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "քաղցրս ինչի էսքան շուտ էկար թարսի պես",
+      "վազի քաղցր ջան վազի",
+      "Հա բա տենց էլ ասեք թե չէ գնա հաց բեր ջուր բեր էսի թափ տուր"
+    ],
+    "topics": [
+      "neighbors",
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

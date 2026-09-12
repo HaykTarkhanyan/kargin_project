@@ -1,0 +1,75 @@
+{
+  "video_id": "82r9vHp8k0Y",
+  "seq": 686,
+  "kargin_id": 686,
+  "title": "Kargin Haghordum sketch 266 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "686_Kargin_Haghordum_sketch_266_Hayko_Mko_82r9vHp8k0Y.hy.json",
+    "visual": true
+  },
+  "input_chars": 2338,
+  "gen_sec": 9.85,
+  "prompt_tokens": 2318,
+  "output_tokens": 657,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00313,
+  "annotation": {
+    "title_hy": "Ճանապարհային Ոստիկանն ու Ապտեչկան",
+    "title_en": "The Policeman and the First Aid Kit",
+    "summary_en": "A pedantic traffic police officer pulls over a delivery driver and finds creative ways to issue multiple fines by critiquing every item inside the car's first aid kit.",
+    "summary_detailed_en": "On a rural road during the day, a traffic police officer pulls over a driver delivering bread to local shops. The driver, wearing a simple sweater, claims he was driving carefully at forty kilometers per hour, but the officer is determined to find a violation. When the driver insists everything is in order, the officer decides to perform a strict inspection of the vehicle's first aid kit (aptecha). The officer proceeds to 'give birth' to multiple fines (acts) based on the state of the medical supplies. He complains that the kit is in poor condition, points out that the bandages are not sterile because the packaging is open, and notes that the alcohol has been used. He even checks the expiration date on a medicine bottle to justify a fourth fine. Despite the driver's protests, the officer treats the kit like a 'nursery for fines.' In a final comedic twist, the officer decides to consolidate the four specific violations into one major fine for not having a functional first aid kit at all.",
+    "keywords_hy": [
+      "Ճանապարհային ոստիկանություն",
+      "տուգանք",
+      "ակտ",
+      "դեղատնակ",
+      "ապտեչկա",
+      "վարորդ",
+      "կարգին հաղորդում",
+      "բինտ",
+      "յոդ"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "fine",
+      "ticket",
+      "first aid kit",
+      "driver",
+      "roadside inspection",
+      "bandage",
+      "corruption",
+      "police officer"
+    ],
+    "keywords_translit": [
+      "chanaparhayin vostikanutyun",
+      "tuganq",
+      "akt",
+      "dexatnak",
+      "aptechka",
+      "varord",
+      "kargin haghordum",
+      "bint",
+      "yod"
+    ],
+    "catchphrases": [
+      "Այ ախպեր էս ինչ ես անում,",
+      "Առաջին ակտը ծնվեց։",
+      "ապտեշկա չի սա ակտերի մարգարյանն է"
+    ],
+    "topics": [
+      "police",
+      "transport",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

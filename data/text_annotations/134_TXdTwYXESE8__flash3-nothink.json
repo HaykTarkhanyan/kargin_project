@@ -1,0 +1,75 @@
+{
+  "video_id": "TXdTwYXESE8",
+  "seq": 134,
+  "kargin_id": 134,
+  "title": "Kargin Haghordum sketch 675 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "134_Kargin_Haghordum_sketch_675_Hayko_Mko_TXdTwYXESE8.de.json",
+    "visual": true
+  },
+  "input_chars": 2921,
+  "gen_sec": 34.74,
+  "prompt_tokens": 2525,
+  "output_tokens": 679,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.0033,
+  "annotation": {
+    "title_hy": "Կոլխոզի Ժողովը և Միսակը",
+    "title_en": "The Kolkhoz Meeting and Misak",
+    "summary_en": "During a Soviet-era village meeting, a collective farm chairman keeps adding more labor tasks to the only efficient worker, Misak, until Misak makes a sarcastic suggestion of his own.",
+    "summary_detailed_en": "The sketch is set in a Soviet-style assembly hall decorated with a red communist banner. A chairman wearing a leather jacket and a thick mustache addresses a small group of villagers, including a man in a fur ushanka (Ghazak), a man in a striped tank top (Spiridon), and several women in headscarves. The chairman complains that the kolkhoz is failing its production plans because the tractor drivers and milkmaids are lazy. He highlights Misak, the mower, as the only hard worker and asks for suggestions to make the village match Misak's productivity. One by one, the villagers suggest adding more burdens to Misak: Ghazak suggests attaching a plow to Misak's back so he can plow while mowing; Spiridon suggests adding a rake; and the women suggest giving him seeds to sow and a canister of water to irrigate at the same time. The chairman rewards each suggestion with a promise of a cash prize. Finally, Misak himself speaks up, sarcastically suggesting they strap a giant flashlight to his head so he can continue working through the night.",
+    "keywords_hy": [
+      "կոլխոզ",
+      "ժողով",
+      "հնձվոր",
+      "Միսակ",
+      "գյուղ",
+      "նախագահ",
+      "պլան",
+      "խորհրդային",
+      "աշխատավոր"
+    ],
+    "keywords_en": [
+      "kolkhoz",
+      "collective farm",
+      "meeting",
+      "Misak",
+      "village",
+      "chairman",
+      "Soviet union",
+      "labor",
+      "mower"
+    ],
+    "keywords_translit": [
+      "kolkhoz",
+      "zhoghov",
+      "hndzvor",
+      "Misak",
+      "gyugh",
+      "naxagah",
+      "plan",
+      "khorhrdayin",
+      "ashkhatavor"
+    ],
+    "catchphrases": [
+      "կոլխոզի կողմից քեզ դրամական պարգև",
+      "Կլնի գլխիս էլ մի հատ մեծ ֆանար կպցնենք",
+      "Դե որ գիշերն էլ պախատ անեմ"
+    ],
+    "topics": [
+      "village",
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "absurd"
+    ]
+  }
+}

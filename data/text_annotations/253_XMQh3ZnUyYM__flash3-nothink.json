@@ -1,0 +1,68 @@
+{
+  "video_id": "XMQh3ZnUyYM",
+  "seq": 253,
+  "kargin_id": 253,
+  "title": "Kargin Haghordum sketch 356 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1447,
+  "gen_sec": 30.14,
+  "prompt_tokens": 1656,
+  "output_tokens": 628,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002712,
+  "annotation": {
+    "title_hy": "Կավիճե կլորակը",
+    "title_en": "The Chalk Circle",
+    "summary_en": "A husband catches his wife with a lover and tries to punish him by forcing him to stay inside a chalk circle on the floor.",
+    "summary_detailed_en": "The sketch takes place in a family apartment during the day. A man wearing spectacles and a checked shirt discovers his wife in bed with another man, who is wearing an undershirt and shorts. A confrontation ensues, involving shouting and physical shoving as the husband calls the lover a 'traitor.' The situation escalates until the husband, Sasun, demands to know if there is any chalk in the house. Once he obtains a piece of chalk, he draws a white circle on the terracotta-colored floor and commands the lover to stand inside it. He threatens the man, stating that if he steps out of the circle, he will 'eat his head' the next day. Later, the wife (played by a young woman in a cream dress) returns to find the lover still standing rigidly inside the chalk circle. She informs him that Sasun has long since left the house. The lover, attempting to save face, claims he wasn't actually afraid of that 'hambal' (buffoon), bragging that he actually stepped out of the circle twice during the night when no one was looking.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "կավիճ",
+      "կլորակ",
+      "սիրեկան",
+      "ամուսին",
+      "վախկոտ",
+      "ծիծաղելի իրավիճակ"
+    ],
+    "keywords_en": [
+      "betrayal",
+      "chalk",
+      "circle",
+      "lover",
+      "husband",
+      "coward",
+      "funny situation"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "kavich",
+      "klorak",
+      "sirekan",
+      "amusin",
+      "vaxkot",
+      "tsitsagheli iravichak"
+    ],
+    "catchphrases": [
+      "Կավիճ ունեք արա տանը",
+      "սրա մեջից դուրս եկար վաղը գլուխդ կուտեմ",
+      "գիշերվա ընթացքում ես երկու անգամ արդեն էս կլորակից դուրս եմ եկել"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

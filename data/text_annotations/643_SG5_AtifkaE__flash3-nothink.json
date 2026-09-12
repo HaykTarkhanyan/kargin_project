@@ -1,0 +1,69 @@
+{
+  "video_id": "SG5_AtifkaE",
+  "seq": 643,
+  "kargin_id": 643,
+  "title": "Kargin Haghordum sketch 586 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1267,
+  "gen_sec": 5.07,
+  "prompt_tokens": 1648,
+  "output_tokens": 655,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002789,
+  "annotation": {
+    "title_hy": "Զինակոչիկի հրաժեշտը և դավաճանությունը",
+    "title_en": "The Recruit's Farewell and Betrayal",
+    "summary_en": "A young man being drafted into the army says a tearful goodbye to his girlfriend, only for both to confess to cheating on each other.",
+    "summary_detailed_en": "The sketch takes place in a hallway that appears to be a military recruitment or processing office. A young man, wearing glasses and a numbered identification tag pinned to his jacket, is preparing to depart for his service. He is accompanied by a young woman (his girlfriend or wife) and a uniformed officer who is supervising the process. The officer, referred to as 'Dmbuzyan', impatiently tells the recruit to move along and lose weight, noting they only have ten minutes left. The couple shares a seemingly heartfelt, emotional moment; the woman strokes his face and rests her head against him, having brought him warm clothes and asking about his violin. However, the tone shifts abruptly when she confesses that because he has been away (or is going away) and she is a young woman, she has cheated on him. The recruit immediately counters by confessing that he has also cheated on her. When she claims she didn't want to do it, he sarcastically or nonchalantly replies that he didn't want to either, subverting the typical tragic goodbye trope with mutual infidelity.",
+    "keywords_hy": [
+      "բանակ",
+      "զինվոր",
+      "դավաճանություն",
+      "հրաժեշտ",
+      "զինկոմիսարիատ",
+      "կատակերգություն",
+      "խոստովանություն"
+    ],
+    "keywords_en": [
+      "army",
+      "soldier",
+      "cheating",
+      "farewell",
+      "recruitment office",
+      "comedy",
+      "confession"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zinvor",
+      "davachanutyun",
+      "hrazhesht",
+      "zinkomisariat",
+      "katakergutyun",
+      "xostovanutyun"
+    ],
+    "catchphrases": [
+      "Գիտես ջան ես էլ քեզ բան ունեմ ասելու ես էլ եմ քեզ ուրիշի հետ դավաճանել։",
+      "Բայց ես չէի ուզում։",
+      "Դե ջան ես էլ չէի ուզում։"
+    ],
+    "topics": [
+      "army",
+      "romance",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

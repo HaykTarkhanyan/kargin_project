@@ -1,0 +1,71 @@
+{
+  "video_id": "eK9amfuPTP8",
+  "seq": 431,
+  "kargin_id": 431,
+  "title": "Kargin Haghordum - Galuboy (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "431_Kargin_Haghordum_-_Galuboy_Hayko_Mko_eK9amfuPTP8.en.json",
+    "visual": true
+  },
+  "input_chars": 1693,
+  "gen_sec": 8.84,
+  "prompt_tokens": 1742,
+  "output_tokens": 678,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002905,
+  "annotation": {
+    "title_hy": "Գալուբոյների դեմ զենք",
+    "title_en": "Weapons Against Gays",
+    "summary_en": "A customer asking for specific lethal weapons is initially told they are out of stock, until he asks if the shop has something against 'galuboys' (gay men).",
+    "summary_detailed_en": "The sketch takes place inside a specialized gun shop, decorated with rifles, camouflage jackets, and taxidermy trophies. A customer in a floral shirt approaches the shop clerk, who is wearing a camo jacket and a mustache. The customer asks for various dangerous items: first, a large knife that can penetrate deep; then, a Winchester rifle with a long barrel; and finally, a pistol. To each request, the clerk dismissively replies that they do not have any in stock. Frustrated by the lack of service, the customer asks, 'I don't understand, do you have something against galuboys (gay men)?' using a double meaning of the phrase 'against.' The clerk immediately changes his demeanor, interpreting the question literally as a request for weapons to use against gay people. He suddenly reveals a hidden inventory, excitedly boasting about their excellent knives, Winchesters, and pistols specifically for that purpose. He pantomimes loading a gun and aiming, making repetitive shooting sounds ('op op op op') to satisfy the customer's supposed target preference.",
+    "keywords_hy": [
+      "զենքի խանութ",
+      "դանակ",
+      "հրացան",
+      "վինչեստր",
+      "ատրճանակ",
+      "գալուբոյ",
+      "կատակ",
+      "խտրականություն"
+    ],
+    "keywords_en": [
+      "gun shop",
+      "knife",
+      "rifle",
+      "Winchester",
+      "pistol",
+      "homophobia",
+      "wordplay",
+      "clerk"
+    ],
+    "keywords_translit": [
+      "zenqi khanut",
+      "danak",
+      "hracan",
+      "vinchestr",
+      "pistolet",
+      "galuboy",
+      "katak",
+      "aper"
+    ],
+    "catchphrases": [
+      "ես չեմ հասկանում դուք գալուբոյների դեմ ինչ-որ բան ունեք",
+      "գալուբոյների դեմ սենց լավ դանականեր ունենք սենց լավ վինչեստեռներ ունենք գալուբոյների դեմ պիստալետներ",
+      "այ սենց զարիժատ արիր պահում էս վրեն օպ օպ օպ օպ"
+    ],
+    "topics": [
+      "shop_market",
+      "crime"
+    ],
+    "humor_type": [
+      "wordplay",
+      "satire"
+    ]
+  }
+}

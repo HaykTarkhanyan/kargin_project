@@ -1,0 +1,67 @@
+{
+  "video_id": "50l5B5sOBns",
+  "seq": 216,
+  "kargin_id": 216,
+  "title": "Kargin Haghordum - Marshrutkum (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "216_Kargin_Haghordum_-_Marshrutkum_Hayko_Mko_50l5B5sOBns.hy.json",
+    "visual": true
+  },
+  "input_chars": 1365,
+  "gen_sec": 27.94,
+  "prompt_tokens": 1707,
+  "output_tokens": 510,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002384,
+  "annotation": {
+    "title_hy": "Խցկված երթուղայինը և աշխատավարձը",
+    "title_en": "Cramped Marshrutka and the Salary",
+    "summary_en": "A passenger tries to reassure an uncomfortable woman in a packed minibus that the bulge in his pocket is just his newly received salary.",
+    "summary_detailed_en": "The sketch takes place inside a yellow 'marshrutka' minibus traveling along a rural road. The vehicle is extremely overcrowded, with passengers standing and sitting shoulder-to-shoulder. One man is pressed tightly against a woman who is visibly uncomfortable with the physical proximity. As the woman complains about him pressing his body against her, the man awkwardly explains that he just received his monthly salary and the bulge in his pocket is actually a large wad of cash, telling her not to think anything else. When the minibus stops to pick up even more passengers, one of the riders complains to the driver that there is no room left to stand. The driver ignores the lack of space and continues to load people. Later, as another passenger asks to get off at the next stop, the first man continues his awkward interaction, leading to a punchline about his salary 'increasing' at every stop due to the constant physical contact and crowding within the cramped interior.",
+    "keywords_hy": [
+      "երթուղային",
+      "մարշրուտկա",
+      "կանգառ",
+      "աշխատավարձ",
+      "ուղևոր",
+      "վարորդ",
+      "խցկված"
+    ],
+    "keywords_en": [
+      "minibus",
+      "marshrutka",
+      "passengers",
+      "salary",
+      "crowded",
+      "bus stop",
+      "transportation"
+    ],
+    "keywords_translit": [
+      "marshrutka",
+      "ertughayin",
+      "kangar",
+      "ashkhatavardz",
+      "ughevor",
+      "varord",
+      "xckvac"
+    ],
+    "catchphrases": [
+      "հոպար ջան ստեղ սկի կանգնելու տեղ չկա դու մարդ ես վեկալում",
+      "տիկին ուղղակի էսօր աշխատավարձ եմ ստացել, ամբողջ գումարը գրպանումսա",
+      "ուրիշ բան չմտածեք"
+    ],
+    "topics": [
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

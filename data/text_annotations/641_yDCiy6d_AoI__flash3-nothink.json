@@ -1,0 +1,64 @@
+{
+  "video_id": "yDCiy6d_AoI",
+  "seq": 641,
+  "kargin_id": 641,
+  "title": "Kargin Haghordum sketch 584 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "641_Kargin_Haghordum_sketch_584_Hayko_Mko_yDCiy6d_AoI.hy.json",
+    "visual": true
+  },
+  "input_chars": 2535,
+  "gen_sec": 4.34,
+  "prompt_tokens": 2407,
+  "output_tokens": 468,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002607,
+  "annotation": {
+    "title_hy": "Ծարավ Գողը և Փոքրիկը",
+    "title_en": "The Thirsty Burglar",
+    "summary_en": "A burglar breaking into an apartment convinces a young girl he is the new cleaner, but he is horrified to learn where the water he has been drinking is coming from.",
+    "summary_detailed_en": "The sketch takes place at night in a living room where a burglar, wearing a trench coat, beret, and gloves, is busily robbing an apartment. He is seen rifling through a glass cabinet, pocketing jewelry and cash, and drinking wine from a bottle. Suddenly, a young girl appears. To cover his tracks, he convinces the child that he is the family's new cleaner and that her parents simply forgot to mention his arrival. While continuing to loot the home, the burglar complains of thirst and repeatedly sends the girl to fetch him water. He drinks several small glasses of water, praising the girl for her speed and asking for more, even requesting a larger glass and colder water. The joke reaches its climax when the burglar asks for yet another refill. The little girl innocently explains that she cannot reach the sink faucet because she is too short, and reveals that the 'water' she has been bringing him from the toilet has finally run out. The burglar is left in shock at what he has consumed.",
+    "keywords_hy": [
+      "գող",
+      "հավաքարար",
+      "ունիտազի ջուր",
+      "բնակարանային գողություն",
+      "երեխա",
+      "ծարավ"
+    ],
+    "keywords_en": [
+      "burglar",
+      "cleaner",
+      "toilet water",
+      "apartment robbery",
+      "child",
+      "thirsty"
+    ],
+    "keywords_translit": [
+      "gogh",
+      "havaqarar",
+      "unitazi jur",
+      "bnakarayin goghutyun",
+      "erexa",
+      "tsarav"
+    ],
+    "catchphrases": [
+      "Ձյաձյա ծորակին բոյս չի հասնում ունիտազի ջուրն էլ վերջացավ։"
+    ],
+    "topics": [
+      "crime",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

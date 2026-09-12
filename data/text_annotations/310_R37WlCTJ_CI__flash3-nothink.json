@@ -1,0 +1,69 @@
+{
+  "video_id": "R37WlCTJ_CI",
+  "seq": 310,
+  "kargin_id": 310,
+  "title": "Kargin Haghordum sketch 471 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2627,
+  "gen_sec": 21.09,
+  "prompt_tokens": 2459,
+  "output_tokens": 632,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003125,
+  "annotation": {
+    "title_hy": "Վչոյի պանիխիդան և հեռուստացույցը",
+    "title_en": "Vcho's Wake and the TV",
+    "summary_en": "During a friend's wake, a young man persistently asks to watch TV despite his friend's protests about the somber occasion.",
+    "summary_detailed_en": "The sketch is set in a living room during a funeral wake, where mourners dressed in black gather around an open casket adorned with white carnations and candles. A young man, visibly exhausted, tells the older relatives, Uncle Karlen, Aunt Ofik, and his sister, to go upstairs and sleep, noting that tomorrow will be a difficult day involving grave digging, blocking the road, and the hearse. Once the relatives leave, two young men remain to watch over their deceased friend, Vcho. One friend is deeply emotional, commenting on how much Vcho has wasted away, while the other friend remains bizarrely indifferent, repeatedly asking to turn on the TV. The grieving friend is outraged, reminding him that Vcho has died, but the other insists that just because Vcho is gone doesn't mean no one else can operate the remote. They discuss Vcho’s fears—dentists and the dark—joking that the dark is scary because you never know how many dentists are hiding in it. The sketch highlights the absurdity of their casual conversation next to the body.",
+    "keywords_hy": [
+      "պանիխիդա",
+      "մեռել",
+      "թաղում",
+      "հեռուստացույց",
+      "դիակ",
+      "ատամնաբույժ",
+      "սև տորթ",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "wake",
+      "funeral",
+      "casket",
+      "television",
+      "mourning",
+      "dentist",
+      "black cake",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "panikhida",
+      "merel",
+      "taghum",
+      "televizor",
+      "diak",
+      "atamnabuyj",
+      "sev tort",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "Ապեր հասկացանք, որ մեռելա, հմի բացի Վչոյից ոչ ոք չի կարում տելեվիզռը միացնի։"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "family"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

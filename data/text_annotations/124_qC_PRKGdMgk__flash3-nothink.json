@@ -1,0 +1,73 @@
+{
+  "video_id": "qC_PRKGdMgk",
+  "seq": 124,
+  "kargin_id": 124,
+  "title": "Kargin Haghordum sketch 685 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "124_Kargin_Haghordum_sketch_685_Hayko_Mko_qC_PRKGdMgk.hy.json",
+    "visual": true
+  },
+  "input_chars": 2374,
+  "gen_sec": 16.24,
+  "prompt_tokens": 2272,
+  "output_tokens": 641,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003059,
+  "annotation": {
+    "title_hy": "Գելենջիկ թե՞ Սեքս",
+    "title_en": "Gelendzhik or Sex",
+    "summary_en": "Two elderly women discuss medical advice regarding their health, weighing the difficulty of walking 800 kilometers against the intimacy requirements suggested by the doctor.",
+    "summary_detailed_en": "The sketch takes place in a living room with prominent red floral wallpaper, featuring two elderly women with heavy makeup and red lipstick, both played by male actors in drag. One character wears a gray curly wig and glasses, while the other has reddish-brown hair. A pill bottle is visible on the table, setting the scene for a conversation about health. The character Smbo recounts a recent doctor's visit, complaining about her deep, husky voice. The doctor reportedly joked that her voice is normal for someone who has smoked since age two, suggesting she switch to slim cigarettes if she wants a thinner voice. More seriously, Smbo mentions her worsening atherosclerosis. The doctor prescribed walking 800 kilometers a week—roughly the distance to Gelendzhik and back. When Smbo protested the difficulty, the doctor offered an alternative: one hour of intimacy daily with her husband. The sketch ends with the punchline where the woman reconsidering the long journey, concluding that Gelendzhik might not be that far away after all.",
+    "keywords_hy": [
+      "բժիշկ",
+      "ծխել",
+      "Գելենջիկ",
+      "անալիզներ",
+      "սեքս",
+      "հաստ ձայն",
+      "բարակ սիգարետ",
+      "քայլել",
+      "առողջություն"
+    ],
+    "keywords_en": [
+      "doctor",
+      "smoking",
+      "Gelendzhik",
+      "medical tests",
+      "sex",
+      "deep voice",
+      "slim cigarettes",
+      "walking",
+      "health"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "cxel",
+      "Gelendzhik",
+      "analizner",
+      "sex",
+      "hast dzayn",
+      "barak sigaret",
+      "qaylel",
+      "aroghjutyun"
+    ],
+    "catchphrases": [
+      "բայց ոնց-որ Գելենջիկը էդքան էլ հեռու չէր",
+      "եթե ուզում էք մի քիչ գոնե բարականա, բարակ սիգարետներ ծխեք"
+    ],
+    "topics": [
+      "family",
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

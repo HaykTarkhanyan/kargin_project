@@ -1,0 +1,69 @@
+{
+  "video_id": "ZJK7CXG4Rn8",
+  "seq": 260,
+  "kargin_id": 260,
+  "title": "Kargin Haghordum sketch 567 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "260_Kargin_Haghordum_sketch_567_Hayko_Mko_ZJK7CXG4Rn8.hy.json",
+    "visual": true
+  },
+  "input_chars": 2508,
+  "gen_sec": 25.81,
+  "prompt_tokens": 2400,
+  "output_tokens": 612,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003036,
+  "annotation": {
+    "title_hy": "Մեռնող ամուսնու վերջին ցանկությունը",
+    "title_en": "The Dying Husband's Last Wish",
+    "summary_en": "A man on his deathbed after a car accident confesses to having a mistress and insists his wife let her attend his funeral.",
+    "summary_detailed_en": "The sketch takes place in a hospital room where Qajik, a man heavily bandaged after a severe car accident, lies in bed. A female doctor (played by one of the male actors in drag) informs his family that he has only a few hours to live. Qajik’s wife and children enter the room, and he remains stubborn even in his final moments, refusing to admit he should have worn a seatbelt. After ordering his children to leave so he can speak privately with his wife, he drops a bombshell: he has a mistress. The wife is outraged, processing both his impending death and his infidelity simultaneously. Qajik invokes the 'last wish' of a dying man, demanding that his mistress be allowed to attend the funeral alongside the family. Despite the wife's concerns about what the neighbors and children will say, she eventually gives in to his persistent badgering, sarcastically remarking that now she won't be able to enjoy the funeral at all. Qajik gives her final instructions to call the mistress and tell her to wear the earrings he bought her.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "ավտովթար",
+      "վերջին ցանկություն",
+      "սիրած",
+      "թաղում",
+      "ռեմեն",
+      "ամուսնական դավաճանություն"
+    ],
+    "keywords_en": [
+      "hospital",
+      "car accident",
+      "last wish",
+      "mistress",
+      "funeral",
+      "seatbelt",
+      "infidelity"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "avtovtar",
+      "verjin cankutyun",
+      "sirac",
+      "taghum",
+      "remen",
+      "davachanutyun"
+    ],
+    "catchphrases": [
+      "ռեմենա չեմ գցի",
+      "ես սիրած ունեմ",
+      "Ես էդ թաղումից ոչ մի հաճույք չեմ ստանա"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "wedding_funeral"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

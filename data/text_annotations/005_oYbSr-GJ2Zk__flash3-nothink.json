@@ -1,0 +1,70 @@
+{
+  "video_id": "oYbSr-GJ2Zk",
+  "seq": 5,
+  "kargin_id": 5,
+  "title": "Kargin Haghordum sketch 279 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "005_Kargin_Haghordum_sketch_279_Hayko_Mko_oYbSr-GJ2Zk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1414,
+  "gen_sec": 26.34,
+  "prompt_tokens": 1794,
+  "output_tokens": 600,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002697,
+  "annotation": {
+    "title_hy": "Գիպսով հաճախորդը և բարմենը",
+    "title_en": "The Customer in a Cast",
+    "summary_en": "A man with his arm in a heavy plaster cast visits a bar and constantly asks the bartender for physical assistance with basic tasks.",
+    "summary_detailed_en": "The sketch takes place in a bar lounge setting where a bow-tied bartender is serving a mustached man sitting in an armchair. The customer's arm is encased in a large, heavy plaster cast, which he claims happened while he was sleeping. Despite his injury, he orders a beer for 300 drams. Since he cannot move his arm, he asks the bartender to retrieve the money from his pocket. Finding only 200 drams, the bartender waives the difference, and the customer asks for salty pretzel sticks instead of change. Throughout the scene, the customer repeatedly inconveniences the bartender, asking him to open the beer, feed him the snacks, and provide a cigarette. Despite the bartender's patient assistance, the interaction becomes increasingly absurd as the man continues to smoke and drink through his disability. The sketch ends when the customer, feeling the effects of the beer, asks for the restroom. The bartender informs him that their toilet is located two stops away in a nearby factory, highlighting the inconvenience of the location.",
+    "keywords_hy": [
+      "գարեջուր",
+      "գիպս",
+      "բարմեն",
+      "խմիչք",
+      "սիգարետ",
+      "զուգարան",
+      "հիվանդ",
+      "ծաղրանկար"
+    ],
+    "keywords_en": [
+      "beer",
+      "plaster cast",
+      "bartender",
+      "drinking",
+      "cigarette",
+      "restroom",
+      "injured man",
+      "bar lounge"
+    ],
+    "keywords_translit": [
+      "garejur",
+      "gips",
+      "barmen",
+      "xmichq",
+      "sigaret",
+      "zugaran",
+      "hivand",
+      "tsaxrankar"
+    ],
+    "catchphrases": [
+      "Ապե՛ր, որ խնդրեմ գրպանիցս կհանես փողը:",
+      "Գարեջուրը իր սև գործը արեց:"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "medical"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "video_id": "KoKuzghICis",
+  "seq": 23,
+  "kargin_id": 23,
+  "title": "Kargin Haghordum sketch 330",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2230,
+  "gen_sec": 15.64,
+  "prompt_tokens": 2181,
+  "output_tokens": 693,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00317,
+  "annotation": {
+    "title_hy": "Մադագասկարի ժամացույցը և երեխեքի կենացը",
+    "title_en": "Madagascar Clock and Toast to Kids",
+    "summary_en": "Friends at a dinner party exchange funny stories about their children's wit before one guest shows off a 'clock' from Madagascar that tells time through neighborly reactions.",
+    "summary_detailed_en": "The sketch takes place in a wood-paneled dining room where a group of friends—a man in a vest and tie, an older man in a suit, and two women—are gathered around a table filled with food and alcohol. The conversation begins with a series of toasts. One man tells a story about his son Serozhik asking for water; when threatened with having his ears cut off for being lazy, the boy cleverly asks his father to bring the water when he comes to cut the ears. Another guest shares a story about catching his 12-year-old son with a cigarette butt, only for the boy to nonchalantly offer it to him to smoke. The bachelor of the group then brags about his travels, showing off 'souvenirs' like bananas from Africa and furniture from Parakar. The climax occurs when he presents a kitchen ladle as a 'Madagascar clock.' To prove it works, he bangs it loudly on a pot. A neighbor screams from off-screen, 'It is 1:30 in the morning, let people sleep!', confirming the time to the amused group.",
+    "keywords_hy": [
+      "կենաց",
+      "երեխեք",
+      "ժամացույց",
+      "խմել",
+      "կատակ",
+      "հարևան",
+      "բիչոկ",
+      "ջուր",
+      "սուվենիր"
+    ],
+    "keywords_en": [
+      "toast",
+      "children",
+      "clock",
+      "drinking",
+      "joke",
+      "neighbor",
+      "cigarette butt",
+      "water",
+      "souvenir"
+    ],
+    "keywords_translit": [
+      "kenats",
+      "erexeq",
+      "jamacuyc",
+      "xmel",
+      "katak",
+      "harevan",
+      "bichok",
+      "jur",
+      "suvenir"
+    ],
+    "catchphrases": [
+      "Էրեխեքի կենացը",
+      "պապ որ կգաս ականջներս կտրելու մի բաժակ ջուր բեր",
+      "պապ ջան ոչ մեկինը եթե ուզում ես վեկալ ծխի",
+      "արա գիշերվա ժամը 1 անց 30 ա"
+    ],
+    "topics": [
+      "party_guests",
+      "family",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

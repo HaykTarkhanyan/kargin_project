@@ -1,0 +1,79 @@
+{
+  "video_id": "kxQdokoQXTA",
+  "seq": 80,
+  "kargin_id": 80,
+  "title": "Kargin Haghordum sketch 662 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1870,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Տիկին, դուք սխալվել եք",
+    "title_en": "Madam, You Are Mistaken",
+    "summary_en": "A woman confronts a man in a cafe certain he is her husband out with another woman; he calmly insists she has the wrong man, and at home she works out from the position of his mole that she did not.",
+    "summary_detailed_en": "A heavyset woman with big hair walks into a cafe, sees a man sharing drinks with a young woman, and rounds on him as her husband Samvel. He answers with unshakeable politeness that his name is Arsen, that they are not nearly close enough for her to be looking for him, and that she is mistaken. She works through the evidence: the same clothes she bought, the same shoes, the same voice he uses when angry, even the same mole on his neck. He tells her not to drag his late grandmother into it and repeats the refrain - madam, you are mistaken. She announces she will go home and check. At the flat her husband greets her from bed and she recounts the embarrassing scene, saying she picked a fight with a man who looked exactly like him. He agrees it was a mix-up, pointing out that the other man's mole was on the left side of his neck while his own is on the right. She replies that his is on the left too, and the alibi collapses on the last line.",
+    "keywords_hy": [
+      "սրճարան",
+      "ամուսին",
+      "խալ",
+      "շփոթություն",
+      "Սամվել",
+      "Արսեն",
+      "կասկած",
+      "դավաճանություն",
+      "կոշիկ",
+      "ձայն"
+    ],
+    "keywords_en": [
+      "cafe",
+      "husband",
+      "mole",
+      "mistaken identity",
+      "Samvel",
+      "Arsen",
+      "suspicion",
+      "infidelity",
+      "shoes",
+      "voice"
+    ],
+    "keywords_translit": [
+      "srjaran",
+      "amusin",
+      "khal",
+      "shpotutyun",
+      "Samvel",
+      "Arsen",
+      "kaskac",
+      "davachanutyun",
+      "koshik",
+      "dzayn"
+    ],
+    "catchphrases": [
+      "տիկին ջան; ես քո համար Սամվելիկ չեմ; ես Արսենն եմ",
+      "դուք սխալվել եք",
+      "այ նոր եմ հասկանում, նրա խալը վզի ձախ կողմից էր; քոնը աջ"
+    ],
+    "topics": [
+      "romance",
+      "family",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

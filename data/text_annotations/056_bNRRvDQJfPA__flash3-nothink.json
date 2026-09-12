@@ -1,0 +1,68 @@
+{
+  "video_id": "bNRRvDQJfPA",
+  "seq": 56,
+  "kargin_id": 56,
+  "title": "Kargin Haghordum sketch 621 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1875,
+  "gen_sec": 15.86,
+  "prompt_tokens": 2022,
+  "output_tokens": 586,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002769,
+  "annotation": {
+    "title_hy": "Քիմիայի դասը և սև լուծույթը",
+    "title_en": "Chemistry Class and the Black Solution",
+    "summary_en": "A chemistry teacher grades students based on the color of their chemical solutions, but a student's unexpected black mixture leads to a panicked reaction.",
+    "summary_detailed_en": "The sketch takes place in a school chemistry classroom, featuring a teacher with a messy gray wig and animated gestures sitting at a desk filled with glass flasks, test tubes, and lab equipment, with a periodic table visible in the background. The teacher, Comrade Azotyan, goes around the room checking the results of a lab experiment. He grades students based on the color of their solutions: a pink solution earns a perfect 5, orange solutions get a 5-minus due to insufficient manganese, and green solutions result in a 4 for missing copper. He expresses nostalgia for stricter times when a light blue solution would have earned a beating, giving the student a 3 instead. The tension builds as he approaches Andranik, a struggling student. When Andranik reveals his solution has turned completely black, the teacher is horrified. Realizing the volatile or dangerous nature of the botched experiment, he shouts the punchline, giving Andranik a failing grade and ordering the entire class to hit the floor for safety.",
+    "keywords_hy": [
+      "քիմիայի դաս",
+      "ուսուցիչ",
+      "փորձանոթ",
+      "դպրոց",
+      "աշակերտ",
+      "լուծույթ",
+      "ծիծաղելի քիմիա",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "chemistry class",
+      "teacher",
+      "test tube",
+      "school",
+      "student",
+      "chemical solution",
+      "funny chemistry",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "qimiyayi das",
+      "usucich",
+      "pordzanot",
+      "dproc",
+      "ashakert",
+      "lucuyt",
+      "cicaleli qimiya",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "Անդրանիկ 2, դասարան պարկի։"
+    ],
+    "topics": [
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

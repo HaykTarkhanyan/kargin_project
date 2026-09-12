@@ -1,0 +1,73 @@
+{
+  "video_id": "eSGwM7ZNPnA",
+  "seq": 197,
+  "kargin_id": 197,
+  "title": "Kargin Haghordum sketch 534 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "197_Kargin_Haghordum_sketch_534_Hayko_Mko_eSGwM7ZNPnA.en.json",
+    "visual": true
+  },
+  "input_chars": 1854,
+  "gen_sec": 4.41,
+  "prompt_tokens": 1907,
+  "output_tokens": 626,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002832,
+  "annotation": {
+    "title_hy": "Խումարով վիրաբույժները",
+    "title_en": "Hungover Surgeons",
+    "summary_en": "Two doctors discuss their wild night of drinking and singing before one tries to treat patients despite his lost voice and massive hangover.",
+    "summary_detailed_en": "The sketch takes place in a doctor's office where a mustached surgeon in blue scrubs and a surgical cap is suffering from a severe hangover. He complains to his colleague, Samvel, about his headache and his raspy, lost voice, explaining that he sang so much the previous night it felt like someone was playing guitar on his vocal cords. They gossip about their friend Vavlich, a respected surgeon who got so drunk he acted like a pig. The protagonist mocks Vavlich, claiming he only wears his surgical mask after operations so the relatives of patients won't recognize him if the surgery fails. Despite his condition, the doctor prepares to see patients. A male patient enters, followed by a woman in a floral top and another with red hair. When the doctor curtly tells a patient to undress ('hanveq'), the patient humorously retorts by asking why the doctor isn't undressing either, highlighting the absurdity of the doctor's disheveled, hungover state in a professional setting.",
+    "keywords_hy": [
+      "բժիշկ",
+      "վիրաբույժ",
+      "խումար",
+      "հիվանդանոց",
+      "հարբած",
+      "ձայնը կտրվել",
+      "վիրահատություն",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "doctor",
+      "surgeon",
+      "hangover",
+      "hospital",
+      "drunk",
+      "lost voice",
+      "surgery",
+      "comedy sketch"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "virabuyj",
+      "khumar",
+      "hivandanoc",
+      "harbac",
+      "dzayne ktrvel",
+      "virahatutyun",
+      "katak"
+    ],
+    "catchphrases": [
+      "էտի սկի վիրահությունից հետո մասկին չի հանում",
+      "ընջի",
+      "դե որ վիրահատությունը անհաջող անցնի հիվանդատերերը չճանաչեն",
+      "բժիշկ բա դուք չեք հանվում"
+    ],
+    "topics": [
+      "medical",
+      "drinking",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

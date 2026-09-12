@@ -1,0 +1,66 @@
+{
+  "video_id": "TIgUl9q5mLQ",
+  "seq": 616,
+  "kargin_id": 616,
+  "title": "Kargin Haghordum sketch 498 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1305,
+  "gen_sec": 6.39,
+  "prompt_tokens": 1707,
+  "output_tokens": 538,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002468,
+  "annotation": {
+    "title_hy": "Որդերով ձկնորսություն",
+    "title_en": "Fishing with Worms",
+    "summary_en": "A father and son are fishing without luck, only for the father to discover his son has eaten all the bait-attracting snacks their mother packed.",
+    "summary_detailed_en": "The sketch is set at a quiet riverside fishing spot during the day. An older man, dressed in a camouflage jacket and a straw hat, is fishing alongside a teenage boy in sportswear. They are sitting together on a small wooden dock, casting their lines into the water. The father, frustrated that the fish aren't biting despite using worms as bait, suggests using the food their mother packed to attract the fish. He asks his son, Hakobik, to take out the sandwiches so they can crumble the bread into the water. Hakobik reveals he has already eaten them. The father then suggests using the boiled potatoes, but the boy admits he ate those too. Finally, the father asks for the boiled eggs to use as chum, only to find out his son has consumed those as well. Exhausted and annoyed that the boy has eaten all the potential bait, the father delivers the punchline, telling the boy he might as well eat the worms too so they can just go home.",
+    "keywords_hy": [
+      "ձկնորսություն",
+      "հայր և որդի",
+      "որդեր",
+      "ուտելիք",
+      "գետ",
+      "ձուկ բռնել",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "fishing",
+      "father and son",
+      "worms",
+      "bait",
+      "riverbank",
+      "eating",
+      "snacks"
+    ],
+    "keywords_translit": [
+      "dzknorsutyun",
+      "hayr ev ordi",
+      "vorder",
+      "uteliqu",
+      "get",
+      "dzuk brnel",
+      "katak"
+    ],
+    "catchphrases": [
+      "էս որդերն էլ կեր էթանք տուն"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

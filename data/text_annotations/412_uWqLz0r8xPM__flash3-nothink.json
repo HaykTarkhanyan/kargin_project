@@ -1,0 +1,67 @@
+{
+  "video_id": "uWqLz0r8xPM",
+  "seq": 412,
+  "kargin_id": 412,
+  "title": "Kargin Haghordum - Lav chi (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "412_Kargin_Haghordum_-_Lav_chi_Hayko_Mko_uWqLz0r8xPM.hy.json",
+    "visual": true
+  },
+  "input_chars": 973,
+  "gen_sec": 10.07,
+  "prompt_tokens": 1546,
+  "output_tokens": 529,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00236,
+  "annotation": {
+    "title_hy": "Լավ չի ձկնորսը",
+    "title_en": "The Unlucky Fisherman",
+    "summary_en": "A fisherman standing by a snowy canal complains about his lack of luck, leading to a humorous misunderstanding regarding his friend's wife.",
+    "summary_detailed_en": "The sketch takes place on a cold, snowy canal bank during winter. A man, dressed in a heavy padded coat and an incongruous straw hat, is seen holding a fishing rod and trying to catch something. He is frustrated and animated, complaining to his friend about how nothing is biting despite trying every method possible, even joking about using a lizard's backside as bait. The conversation takes a turn toward his personal life as he admits he has no secrets from his close friend. He mentions visiting the friend's wife, to which the friend responds with the critical phrase, 'It is not good.' The fisherman becomes visibly confused and defensive about the family's reactions, noting the irony that while the husband says the situation 'is not good,' the wife claimed she 'wasn't feeling good' in a different sense. The humor stems from the linguistic ambiguity of the phrase 'Lav chi' and the awkward implications of his visit to a friend's wife.",
+    "keywords_hy": [
+      "ձկնորսություն",
+      "ձմեռ",
+      "կատակ",
+      "ընկեր",
+      "կնիկ",
+      "լավ չի",
+      "կարթ"
+    ],
+    "keywords_en": [
+      "fishing",
+      "winter",
+      "joke",
+      "friend",
+      "wife",
+      "not good",
+      "fishing rod"
+    ],
+    "keywords_translit": [
+      "dzknorsutyun",
+      "dzmer",
+      "katak",
+      "enker",
+      "knik",
+      "lav chi",
+      "karth"
+    ],
+    "catchphrases": [
+      "Լավ չէ",
+      "կնիկդ ասում է լավ չեմ ջոկում"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

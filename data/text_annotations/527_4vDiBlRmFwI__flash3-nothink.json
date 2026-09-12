@@ -1,0 +1,73 @@
+{
+  "video_id": "4vDiBlRmFwI",
+  "seq": 527,
+  "kargin_id": 527,
+  "title": "Kargin Haghordum sketch 161 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "527_Kargin_Haghordum_sketch_161_Hayko_Mko_4vDiBlRmFwI.tr.json",
+    "visual": true
+  },
+  "input_chars": 2496,
+  "gen_sec": 5.57,
+  "prompt_tokens": 2385,
+  "output_tokens": 684,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003244,
+  "annotation": {
+    "title_hy": "Մոռացված Անունը",
+    "title_en": "The Forgotten Name",
+    "summary_en": "A man returns from Germany and visits his friend, admiring how he addresses his wife with various sweet pet names, only to learn the awkward truth behind the romantic gestures.",
+    "summary_detailed_en": "The sketch takes place in a living room where a man wearing a striped sweater (Hamlet) enthusiastically welcomes his friend Berjerak, who is wearing a yellow sweater and has just returned from Germany. They sit in armchairs to catch up on their lives. Berjerak explains his failed business venture in Germany: he opened a small kiosk next to a massive supermarket, buying cigarette packs for 20 Euros and selling individual cigarettes for 1 Euro each. When Hamlet asks about the profit, Berjerak explains his 'genius' logic—since there was no profit, he didn't have to pay income tax. Throughout the conversation, a woman in a red top (Hamlet's wife) repeatedly brings them items like cigarettes, ashtrays, coffee, cookies, and water. Each time she enters, Hamlet addresses her with a different, incredibly affectionate pet name: 'my deer,' 'my little fish,' 'my sweet one,' 'my little bird,' and 'my heart.' Impressed, Berjerak comments on how beautiful it is that after ten years of marriage, Hamlet still speaks to his wife with such romantic fire. In the closing punchline, Hamlet leans in and whispers the embarrassing truth: he isn't being romantic, he has simply forgotten her name.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "Հայկո Մկո",
+      "հյուր",
+      "Գերմանիա",
+      "սիգարետ",
+      "բիզնես",
+      "ամուսնություն",
+      "անունը մոռանալ",
+      "քնքուշ բառեր"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "Hayko Mko",
+      "guest",
+      "Germany",
+      "cigarettes",
+      "business",
+      "marriage",
+      "forgotten name",
+      "pet names"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "Hayko Mko",
+      "hyur",
+      "Germania",
+      "sigaret",
+      "biznes",
+      "amusnutyun",
+      "anuny moranal",
+      "qnqush barer"
+    ],
+    "catchphrases": [
+      "միքիչ ամոթ բանա էղել, ճիշտն ասած անունն եմ մոռացել"
+    ],
+    "topics": [
+      "family",
+      "party_guests",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

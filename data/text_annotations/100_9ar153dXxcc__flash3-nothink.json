@@ -1,0 +1,73 @@
+{
+  "video_id": "9ar153dXxcc",
+  "seq": 100,
+  "kargin_id": 100,
+  "title": "Kargin Haghordum sketch 641 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "100_Kargin_Haghordum_sketch_641_Hayko_Mko_9ar153dXxcc.hi.json",
+    "visual": true
+  },
+  "input_chars": 2915,
+  "gen_sec": 20.16,
+  "prompt_tokens": 2643,
+  "output_tokens": 721,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003484,
+  "annotation": {
+    "title_hy": "Ավտովթար և Հաշտության Բաժակ",
+    "title_en": "Car Accident and Reconciliation Drink",
+    "summary_en": "After a minor car accident, a high-strung man demands specific compensation from a repentant driver, only for the situation to turn into a roadside drinking session.",
+    "summary_detailed_en": "The sketch takes place on a tree-lined roadside following a minor vehicle collision. A man in a suit and mustache acts aggressively, accusing the other driver—a man wearing glasses—of crossing the line and causing the crash. The suited man insists on waiting for the traffic police and mocks the other driver's offer of 10,000 AMD, claiming the damage is precisely 11,200 AMD. The driver with glasses attempts to de-escalate the situation using street slang like 'akhper jan' (brother) and 'unger jan' (friend), eventually convincing the angry victim that he is a 'respectable' person despite the suit. To seal their agreement to fix the car today at a specific mechanic, the driver brings out vodka, glasses, and snacks. They toast to avoiding further trouble. After the victim drinks a shot, he realizes the other man isn't drinking. The driver reveals he is waiting for the inspectors to arrive and leave before he touches the alcohol, quickly asking for chewing gum to hide the smell, revealing his opportunistic nature.",
+    "keywords_hy": [
+      "ավտովթար",
+      "վիճաբանություն",
+      "պետավտոտեսուչ",
+      "խմիչք",
+      "հաշտություն",
+      "ժեշտ",
+      "11200 դրամ",
+      "փողոցային վեճ"
+    ],
+    "keywords_en": [
+      "car accident",
+      "roadside dispute",
+      "traffic police",
+      "vodka",
+      "bribe",
+      "settlement",
+      "Armenian comedy",
+      "car repair"
+    ],
+    "keywords_translit": [
+      "avtovtar",
+      "vichabanutyun",
+      "petavtotesuch",
+      "khmichk",
+      "hashtutyun",
+      "zhesht",
+      "akhper jan",
+      "unger jan"
+    ],
+    "catchphrases": [
+      "ինչ լինումա ճիշտ էք ասում էս ֆեռումին լինի",
+      "են ամենամինիմալ հաշվարկներով 11000 11200 դրամի գործա, հեսա պետավտոտեսուչները կգան",
+      "ես լավ էլ միթի եմ, վիթի, փիթի, բիթի",
+      "ընգեր ջան, ախպեր ջան"
+    ],
+    "topics": [
+      "transport",
+      "drinking",
+      "police"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

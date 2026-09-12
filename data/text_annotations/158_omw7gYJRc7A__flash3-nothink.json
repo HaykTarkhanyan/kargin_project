@@ -1,0 +1,73 @@
+{
+  "video_id": "omw7gYJRc7A",
+  "seq": 158,
+  "kargin_id": 158,
+  "title": "Kargin Haghordum sketch 202 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "158_Kargin_Haghordum_sketch_202_Hayko_Mko_omw7gYJRc7A.hy.json",
+    "visual": true
+  },
+  "input_chars": 2446,
+  "gen_sec": 16.12,
+  "prompt_tokens": 2429,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003012,
+  "annotation": {
+    "title_hy": "Նոր սպորտային համազգեստի թրջոցը",
+    "title_en": "Wetting the New Tracksuit",
+    "summary_en": "A man at a bar drinks excessive amounts of vodka to 'celebrate' his expensive new tracksuit, refusing food until the very end.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit bar at night. A customer wearing a flashy, colorful tracksuit and a thick mustache sits at the counter, being served by a bartender. The customer, calling the bartender 'Barmo' as a play on the name Armen, explains he is celebrating the purchase of a new tracksuit that allegedly cost 2000 dollars. Following the Armenian tradition of 'wetting' a new purchase, he orders shot after shot of vodka. The bartender grows concerned about the man drinking so much on an empty stomach, but the customer dismisses the concern with absurd logic, stating that only Persian elephants drink a lot before battle. He refuses small snacks, claiming only ants eat small things. Throughout the scene, he smokes and repeatedly demands more liquor, becoming visibly intoxicated. Finally, the bartender convinces him to eat a piece of bread (bulki). The customer eats it, but immediately continues his drinking spree, leading to a comedic display of stubbornness and excessive celebration.",
+    "keywords_hy": [
+      "բար",
+      "բարմեն",
+      "սպարծիվկա",
+      "խմել",
+      "օղի",
+      "թռջել",
+      "հարբած",
+      "բուլկի",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "bar",
+      "bartender",
+      "tracksuit",
+      "drinking",
+      "vodka",
+      "celebration",
+      "drunk",
+      "bread roll",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "bar",
+      "barmen",
+      "sparcivka",
+      "xmel",
+      "oghi",
+      "trjel",
+      "harbac",
+      "bulki",
+      "katak"
+    ],
+    "catchphrases": [
+      "Փոքր բան թող մրջյունները ուտեն, մենք ուտելուց մեծը կուտենք"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "drinking",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

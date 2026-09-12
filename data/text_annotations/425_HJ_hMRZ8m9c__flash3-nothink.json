@@ -1,0 +1,68 @@
+{
+  "video_id": "HJ_hMRZ8m9c",
+  "seq": 425,
+  "kargin_id": 425,
+  "title": "Kargin Haghordum - Maaaaama (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "425_Kargin_Haghordum_-_Maaaaama_Hayko_Mko_HJ_hMRZ8m9c.hy.json",
+    "visual": true
+  },
+  "input_chars": 914,
+  "gen_sec": 7.72,
+  "prompt_tokens": 1469,
+  "output_tokens": 573,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002453,
+  "annotation": {
+    "title_hy": "Մամա, պապային կանչի",
+    "title_en": "Mama, Call Papa",
+    "summary_en": "A boy stands in a courtyard shouting repeatedly for his mother until she finally answers from a window, only for him to ask her to call his father.",
+    "summary_detailed_en": "The sketch is set in a typical Soviet-style apartment courtyard during the day, featuring garages, a chain-link fence, and clotheslines in the background. A young boy stands alone in the middle of the yard, throwing his head back and shouting 'Mama!' at the top of his lungs over and over again. He continues this repetitive shouting for a significant amount of time, creating a sense of urgency. Eventually, a woman leans out of a window from one of the upper floors of the apartment building to address the noise. She asks him why he is shouting so loudly and tells him to just say what he needs. Instead of having a message for her, the boy reveals the anti-climactic reason for his yelling by asking his mother to go get his father and bring him to the window instead. The humor derives from the boy's persistence and the triviality of the request after such an elaborate and loud summoning of his mother.",
+    "keywords_hy": [
+      "բակ",
+      "մամա",
+      "պապա",
+      "գոռալ",
+      "պատուհան",
+      "շենքի բակ",
+      "կանչել"
+    ],
+    "keywords_en": [
+      "courtyard",
+      "mama",
+      "papa",
+      "shouting",
+      "window",
+      "apartment building",
+      "calling out"
+    ],
+    "keywords_translit": [
+      "bak",
+      "mama",
+      "papa",
+      "goral",
+      "patuhan",
+      "shenqi bak",
+      "kanchel"
+    ],
+    "catchphrases": [
+      "Մամա, մամա, մամա, այ մամ, մամ, մամա, այ մամ , մամա",
+      "Ինչ ես ձենդ գլուխդ քցել, ասա",
+      "Մա հլը պապային կանչի, մամա"
+    ],
+    "topics": [
+      "family",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

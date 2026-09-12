@@ -1,0 +1,69 @@
+{
+  "video_id": "LUxG_e5VkFg",
+  "seq": 394,
+  "kargin_id": 394,
+  "title": "Kargin Haghordum - Mrganushi garlaxner@ (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1980,
+  "gen_sec": 26.84,
+  "prompt_tokens": 1985,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002961,
+  "annotation": {
+    "title_hy": "Մրցանուշի Գառլախները",
+    "title_en": "The Gangsters of Mrganush",
+    "summary_en": "A group of kidnappers explains their brutal 'special promotion' to their victims, leading to an unexpected identity crisis for one of the captives.",
+    "summary_detailed_en": "The sketch is shot in a desaturated, gritty gangster-film style. It begins with a black SUV driving through a bleak village landscape and pulling up at a yard filled with building stones. Two henchmen dressed in black enter a dim, impoverished kitchen to confront their captives: a blonde woman, a man in a knit beanie, and a man with a blonde mustache wearing a blazer. The lead gangster reveals that they are the notorious 'Gangsters of Mrganush' (Mrganushi garlaxner), known from the crime show '02' for kidnapping people for ransom. He menacingly explains a 'special promotion' where he rapes the captives before the ransom is paid. He starts with the woman, but when she reveals her name is Violeta, he refuses, claiming he cannot do it because that is his mother's name. He then turns his attention to the man in the beanie. Desperate to escape the same fate, the man quickly claims that while his passport name is Arshak, everyone actually calls him Violeta, hoping the shared name will save him too.",
+    "keywords_hy": [
+      "ավազակախումբ",
+      "առևանգում",
+      "Մրցանուշ",
+      "բռնաբարություն",
+      "հանցագործ",
+      "Վիոլետա",
+      "02 ոստիկանություն",
+      "գառլախներ"
+    ],
+    "keywords_en": [
+      "gangsters",
+      "kidnapping",
+      "Mrganush",
+      "ransom",
+      "criminals",
+      "Violeta",
+      "02 police show",
+      "heavies"
+    ],
+    "keywords_translit": [
+      "avazakaxumb",
+      "arevangum",
+      "Mrganush",
+      "brnabarutyun",
+      "hancagorc",
+      "Violeta",
+      "02 vostikanutyun",
+      "garlaxner"
+    ],
+    "catchphrases": [
+      "անունդ ինչա հոպար ջան տղա ըան վապշետը պասպրտով անունս Արշկա բայց չգիտեմ ինչի բոլորը ինձի Վիոլետա են ասում"
+    ],
+    "topics": [
+      "crime",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

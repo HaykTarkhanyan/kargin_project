@@ -1,0 +1,63 @@
+{
+  "video_id": "lJxT04MIuaQ",
+  "seq": 474,
+  "kargin_id": 474,
+  "title": "Kargin Haghordum sketch 102 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 962,
+  "gen_sec": 4.64,
+  "prompt_tokens": 1541,
+  "output_tokens": 424,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002043,
+  "annotation": {
+    "title_hy": "Տան Պայթյունի և Կորստի Մասին",
+    "title_en": "Explosion and Loss Dialogue",
+    "summary_en": "A man casually recounts to his friend how his house exploded and his entire family died, maintaining a bizarrely mundane tone throughout the conversation.",
+    "summary_detailed_en": "The sketch takes place outdoors among ancient stone ruins during the day. Two men are seated together, one wearing a tracksuit and the other a robe with a mustache. The man in the tracksuit asks his friend, Abo, what happened to his house. Abo calmly explains that two days ago, while he was on his shift, the gas tank exploded, destroying everything. His friend laments that they had warned him many times about the danger of that gas tank. When asked about his wife and children, Abo nonchalantly mentions that because he had just fully refilled the tank, the explosion was so powerful that no one survived. The friend is shocked, reacting with disbelief and grief, yet the conversation continues with a surreal normalcy. As they smoke and talk amidst the ruins, the sketch highlights the dark absurdity of Abo's casual attitude toward the total destruction of his life and family, ending with the recurring inquiry about how he is doing otherwise.",
+    "keywords_hy": [
+      "գազի բալոն",
+      "պայթյուն",
+      "ավերակներ",
+      "ընտանիքի կորուստ",
+      "սև հումոր",
+      "Աբո"
+    ],
+    "keywords_en": [
+      "gas tank",
+      "explosion",
+      "ruins",
+      "family loss",
+      "dark humor",
+      "Abo"
+    ],
+    "keywords_translit": [
+      "gazi balon",
+      "paytyun",
+      "averakner",
+      "yntaniqi korust",
+      "sev humor",
+      "Abo"
+    ],
+    "catchphrases": [
+      "Բա ուրիշ ո՞նց ես ապեր։"
+    ],
+    "topics": [
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

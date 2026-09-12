@@ -1,0 +1,75 @@
+{
+  "video_id": "be_Bps_kR2M",
+  "seq": 488,
+  "kargin_id": 488,
+  "title": "Kargin Haghordum sketch 116 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "488_Kargin_Haghordum_sketch_116_Hayko_Mko_be_Bps_kR2M.en.json",
+    "visual": true
+  },
+  "input_chars": 3020,
+  "gen_sec": 5.24,
+  "prompt_tokens": 2242,
+  "output_tokens": 555,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002786,
+  "annotation": {
+    "title_hy": "Խոստովանություն եկեղեցում",
+    "title_en": "Confession at the Church",
+    "summary_en": "A man seeks absolution from a priest for an affair with a married woman, but he is actually using the priest's guesses to find new targets for seduction.",
+    "summary_detailed_en": "The sketch is set outdoors on a snowy day at a historic stone church. A man in a beanie and turtleneck approaches a robed priest to confess the sin of adultery with a married woman. The priest, eager to give absolution, demands to know the woman's identity to fully 'open the soul.' When the man refuses to name her out of discretion, the priest begins to list local women he suspects: the tractor driver Vaghinak's promiscuous young wife, the veterinarian's uninhibited sister, and the village head's provocative daughter, Sergine. The man continues to deny each name, leading the frustrated priest to kick him out without absolution. After leaving, the man meets his bearded friend by a notice board. When the friend asks if he received forgiveness, the man excitedly reveals his true motive: he didn't care about the penance, but he successfully tricked the priest into giving him three 'bomb' new addresses of unfaithful women in the village.",
+    "keywords_hy": [
+      "եկեղեցի",
+      "տեր հայր",
+      "խոստովանություն",
+      "մեղք",
+      "շնություն",
+      "գյուղ",
+      "խաչքար",
+      "ձյուն",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "church",
+      "priest",
+      "confession",
+      "sin",
+      "adultery",
+      "village",
+      "absolution",
+      "khachkar",
+      "snow",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "ekexeci",
+      "ter hayr",
+      "xostovanutyun",
+      "mexq",
+      "shnutyun",
+      "gyux",
+      "xachqar",
+      "dzyun",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "տեր հայր ջան անունը կներեք բայց չեմ ասի դե որ տենց է գնա այստեղից ոչ մի մեղքերի թողություն էլ չես ստանա",
+      "երեք հատ նենց նոր հասցե եմ իմացե մեկը մեկից բոմբ"
+    ],
+    "topics": [
+      "religion",
+      "village",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

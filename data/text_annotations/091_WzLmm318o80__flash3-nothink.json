@@ -1,0 +1,74 @@
+{
+  "video_id": "WzLmm318o80",
+  "seq": 91,
+  "kargin_id": 91,
+  "title": "Kargin Haghordum sketch 651 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "091_Kargin_Haghordum_sketch_651_Hayko_Mko_WzLmm318o80.ru.json",
+    "visual": true
+  },
+  "input_chars": 1924,
+  "gen_sec": 17.16,
+  "prompt_tokens": 1883,
+  "output_tokens": 627,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002822,
+  "annotation": {
+    "title_hy": "Նկարչի բուժող բժիշկը",
+    "title_en": "The Artist's Treating Physician",
+    "summary_en": "An art gallery worker tells a struggling artist that his doctor bought all his paintings after confirming that art prices skyrocket after a painter's death.",
+    "summary_detailed_en": "The sketch is set in an indoor art gallery with walls covered in various framed paintings. A series of eccentric characters, including two men wearing matching blue tracksuits, a long-haired bohemian artist, and an art critic wearing a beret, scarf, and embroidered vest, all take turns standing in front of the artwork. They each strike an identical, pretentious chin-in-hand thinking pose as they examine the paintings. The tracksuit-wearing visitors mockingly refer to the art as 'scribbles' (khzbzel) and quickly leave to avoid being blamed for the messy aesthetic. Later, the long-haired artist asks the gallery worker for news regarding his sales. The worker solemnly explains that three days ago, a man asked if it was true that a painter's work triples or quadruples in value after they die. Upon hearing yes, the man bought the entire collection. When the artist asks why the worker looks so sad despite this good news, the punchline reveals that the mysterious buyer was actually the artist's own treating physician, implying the doctor knows the artist is about to die.",
+    "keywords_hy": [
+      "նկարիչ",
+      "ցուցահանդես",
+      "նկարներ",
+      "բժիշկ",
+      "արվեստ",
+      "պատկերասրահ",
+      "խզբզել",
+      "մահ",
+      "գին"
+    ],
+    "keywords_en": [
+      "artist",
+      "exhibition",
+      "paintings",
+      "doctor",
+      "art",
+      "art gallery",
+      "scribbles",
+      "death",
+      "price"
+    ],
+    "keywords_translit": [
+      "nkarich",
+      "cucahandes",
+      "nkarner",
+      "bjishk",
+      "arvest",
+      "patkerasrah",
+      "khzbzel",
+      "mah",
+      "gin"
+    ],
+    "catchphrases": [
+      "ախպեր էսի դու ես խզբզել",
+      "այդ մարդը ձեր բուժող բժիշկն էր"
+    ],
+    "topics": [
+      "work",
+      "medical",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

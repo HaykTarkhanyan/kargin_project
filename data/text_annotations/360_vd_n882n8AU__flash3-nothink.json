@@ -1,0 +1,69 @@
+{
+  "video_id": "vd_n882n8AU",
+  "seq": 360,
+  "kargin_id": 360,
+  "title": "Kargin Haghordum sketch 224 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "360_Kargin_Haghordum_sketch_224_Hayko_Mko_vd_n882n8AU.hy.json",
+    "visual": true
+  },
+  "input_chars": 4976,
+  "gen_sec": 11.83,
+  "prompt_tokens": 3725,
+  "output_tokens": 649,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003809,
+  "annotation": {
+    "title_hy": "Խելացի Վազգենը և Տնօրենը",
+    "title_en": "Smart Vazgen and the Principal",
+    "summary_en": "A gifted first-grader asks to be moved to the third grade, but his 'logical' answers to the teacher's riddles lead to a scandalous misunderstanding for the school principal.",
+    "summary_detailed_en": "The sketch opens on September 1st in a festive first-grade classroom decorated with balloons and roses. A teacher, Mrs. Mikaelyan, welcomes the class, but a young student named Vazgen, dressed formally in a checked waistcoat and bow tie, refuses to sit down. He claims he is too smart for the first grade and demands to be moved to the third grade. After he correctly answers multiplication questions (3x3 and 6x6), the teacher takes him to the principal's office. The principal, a mustachioed man in a suit, tests Vazgen with a simple word problem involving Spider-Man and Batman, which Vazgen answers easily. To further prove his intellect, Mrs. Mikaelyan asks Vazgen two riddle-like questions: what does a cow have four of that she has only two of (legs), and what does he have in his pants that she does not (pockets). Vazgen answers correctly and steps out. The punchline arrives when the principal, looking shocked, suggests moving the boy straight to the fifth grade because he himself had dirty-minded, incorrect answers to both of the teacher's riddles.",
+    "keywords_hy": [
+      "դպրոց",
+      "սեպտեմբերի 1",
+      "աշակերտ",
+      "տնօրեն",
+      "ուսուցչուհի",
+      "առաջին դասարան",
+      "հանելուկ",
+      "խելացի երեխա"
+    ],
+    "keywords_en": [
+      "school",
+      "September 1",
+      "student",
+      "principal",
+      "teacher",
+      "first grade",
+      "riddle",
+      "smart kid"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "septemberi 1",
+      "ashakert",
+      "tnoren",
+      "usucchuhi",
+      "arajin dasaran",
+      "haneluk",
+      "xelaci erexa"
+    ],
+    "catchphrases": [
+      "Ես խելացի եմ, ուզում եմ միանգամից երրորդ դասարան տեղափոխվեմ"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

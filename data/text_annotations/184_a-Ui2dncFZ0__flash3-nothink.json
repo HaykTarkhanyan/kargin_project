@@ -1,0 +1,70 @@
+{
+  "video_id": "a-Ui2dncFZ0",
+  "seq": 184,
+  "kargin_id": 184,
+  "title": "Kargin Haghordum - Kondi Tner (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "184_Kargin_Haghordum_-_Kondi_Tner_Hayko_Mko_a-Ui2dncFZ0.tr.json",
+    "visual": true
+  },
+  "input_chars": 2462,
+  "gen_sec": 13.0,
+  "prompt_tokens": 2265,
+  "output_tokens": 578,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002867,
+  "annotation": {
+    "title_hy": "Պատգամավորների Օրինագիծը",
+    "title_en": "The Deputies' Bill",
+    "summary_en": "Two politicians in a luxury mansion discuss a new bill to demolish five thousand homes in Kond, but the public only cares about a single house on the zoo road.",
+    "summary_detailed_en": "In the lavish garden of a private mansion featuring a swimming pool and a wooden gazebo, two men dressed in formal suits (Lusakich and Arshakich) act as Members of Parliament, engaged in a heated debate over paperwork. They discuss the necessity of a 'detailed approach' versus a quick implementation for their legislative plans. A young man with glasses approaches them, recognizing them from television, and eagerly asks about the new bill they are discussing, expressing his active interest in politics. The politicians, claiming transparency with their voters, reveal their plan: they intend to demolish five thousand private homes in the historic Kond neighborhood to build new constructions. However, they also mention plans to demolish one specific house on the road to the zoo. The punchline hits when the citizen ignores the massive displacement of five thousand families in Kond and only asks for the reasoning behind demolishing the single house near the zoo, proving the politicians' cynical theory that people focus on trivial details rather than major systemic changes.",
+    "keywords_hy": [
+      "պատգամավոր",
+      "օրինագիծ",
+      "Կոնդ",
+      "քանդել",
+      "նաստրոյկա",
+      "քաղաքականություն",
+      "գազանանոց",
+      "հաշվարկ"
+    ],
+    "keywords_en": [
+      "member of parliament",
+      "bill",
+      "Kond district",
+      "demolition",
+      "construction",
+      "politics",
+      "zoo road",
+      "legislation"
+    ],
+    "keywords_translit": [
+      "patgamavor",
+      "orinagic",
+      "Kond",
+      "qandel",
+      "nastroyka",
+      "qaxaqakanutyun",
+      "gazananoc",
+      "hashvark"
+    ],
+    "catchphrases": [
+      "տեղը նաստրոյկայա բանա սարքենք"
+    ],
+    "topics": [
+      "bureaucracy",
+      "other",
+      "money"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

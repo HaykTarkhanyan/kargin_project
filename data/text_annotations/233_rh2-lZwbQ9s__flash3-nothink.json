@@ -1,0 +1,73 @@
+{
+  "video_id": "rh2-lZwbQ9s",
+  "seq": 233,
+  "kargin_id": 233,
+  "title": "Kargin Haghordum sketch 315 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "233_Kargin_Haghordum_sketch_315_Hayko_Mko_rh2-lZwbQ9s.hy.json",
+    "visual": true
+  },
+  "input_chars": 3318,
+  "gen_sec": 10.26,
+  "prompt_tokens": 2887,
+  "output_tokens": 714,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003585,
+  "annotation": {
+    "title_hy": "Հիվանդանոցային Կազինո",
+    "title_en": "Hospital Casino",
+    "summary_en": "Two hospital patients decide to gamble their medical treatments on a card game, leading to an absurd medical check-up where the doctor discovers their stakes and a missing patient.",
+    "summary_detailed_en": "The sketch takes place in a hospital ward where two patients, Khachatryan and Hakobyan, are sitting on a red couch in their pajamas. Bored and exhausted by the constant cycle of blood and urine tests, they decide to play a card game. Instead of money, they bet on their medical procedures: the loser must undergo both their own and the winner's upcoming lab tests and consume the winner's prescribed antibiotics and antifungal medications (Nystatin). A mustached doctor enters with a clipboard and two nurses, catching them mid-game. He scolds them for turning the ward into a casino, noting that patients who lose their meds in gambling cause trouble when their families complain about high medical bills. The doctor performs a confusing examination of Khachatryan, reading his test results in a contradictory sequence from 'not bad' to 'terrible.' When the doctor asks about the third patient in the ward, Hakobyan casually explains that the man 'didn't feel well, so he went home.' The sketch ends with the doctor's bewildered reaction to a hospitalized patient leaving just because they felt ill.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "անալիզ",
+      "բժիշկ",
+      "կարտ խաղալ",
+      "դեղեր",
+      "հիվանդ",
+      "կազինո",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "hospital",
+      "medical tests",
+      "doctor",
+      "playing cards",
+      "medication",
+      "patient",
+      "casino",
+      "humor"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "analiz",
+      "bjishk",
+      "kart xaxal",
+      "dexer",
+      "hivand",
+      "kazino",
+      "humor"
+    ],
+    "catchphrases": [
+      "կրվողը համ իրա տեղնա անալիզ հանձնում, համ կրողի տեղը",
+      "Հա համաձայն եմբայց էսօրվա անծիբյոտիներն էլ հետը",
+      "ամբողջ դեղերդ կրվում ես",
+      "Բժիշկ ջան, ցերեկը իրան մի քիչ լավ չէր զգում, գնաց տուն",
+      "Ոնց ասումա գնաց տուն, հո դուք հիվանդ չեք արա"
+    ],
+    "topics": [
+      "medical",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

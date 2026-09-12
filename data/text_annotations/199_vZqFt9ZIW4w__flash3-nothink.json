@@ -1,0 +1,74 @@
+{
+  "video_id": "vZqFt9ZIW4w",
+  "seq": 199,
+  "kargin_id": 199,
+  "title": "Kargin Haghordum sketch 536 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "199_Kargin_Haghordum_sketch_536_Hayko_Mko_vZqFt9ZIW4w.hy.json",
+    "visual": true
+  },
+  "input_chars": 4228,
+  "gen_sec": 8.18,
+  "prompt_tokens": 3397,
+  "output_tokens": 719,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003855,
+  "annotation": {
+    "title_hy": "Կաշառակեր Հրամանատարի Հարցազրույցը",
+    "title_en": "Corrupt Commander's Interview",
+    "summary_en": "A strict Lieutenant Colonel interviews three soldiers about their attitude toward service, alcohol, and women, only to reward the one who brings bribes.",
+    "summary_detailed_en": "The sketch begins in a military unit (chast) anteroom where soldiers in camouflage uniforms discuss the fearsome reputation of their commander, nicknamed 'Moroz' (Frost) for his supposed cold, strict adherence to regulations. They nervously speculate about his interview questions regarding service, alcohol, and women. The scene shifts to the commander's office, decorated with an Armenian flag, a globe, and a desk telephone. The Lieutenant Colonel first interviews Lieutenant Hakobyan, who gives textbook-perfect, virtuous answers: he is dedicated to the service, never drinks, and is strictly faithful to his wife. Disappointed by his honesty, the commander gives him a lowly, redundant deputy position. The second soldier, Dashyan, admits to occasional drinking and a lazy attitude toward service, earning him a post as a pig-pen commander. Finally, Junior Lieutenant Hovsepyan enters and bluntly informs the commander that he has a car parked outside with five women and five crates of vodka, ready for orders. Delighted, the commander immediately promotes him to Chief of Staff and calls his wife, Siranush, on the desk phone to lie about being at a ministry meeting so he can go party with the recruit.",
+    "keywords_hy": [
+      "բանակ",
+      "հրամանատար",
+      "ծառայություն",
+      "խմիչք",
+      "կաշառք",
+      "զինվորական",
+      "չաստ",
+      "օղի",
+      "հարցազրույց"
+    ],
+    "keywords_en": [
+      "army",
+      "commander",
+      "military service",
+      "alcohol",
+      "bribery",
+      "soldier",
+      "military unit",
+      "vodka",
+      "interview"
+    ],
+    "keywords_translit": [
+      "banak",
+      "hramanatar",
+      "tsarayutyun",
+      "khmichk",
+      "kashark",
+      "zinvorakan",
+      "chast",
+      "oghi",
+      "hartsazruyts"
+    ],
+    "catchphrases": [
+      "մի հատ շտապ միացրեք նախարարություն, նախարարություն մի հատ շտապ միացրեք տուն",
+      "էս չաստի դեմը մաշնես կանգնածա, մեջը 5 հատ աղջիկ, 5 յաշիկ արաղ, ծառայությունից էլ սպասում եմ ձեր հրամաններին"
+    ],
+    "topics": [
+      "army",
+      "bureaucracy",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

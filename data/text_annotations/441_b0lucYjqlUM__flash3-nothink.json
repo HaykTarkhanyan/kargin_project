@@ -1,0 +1,70 @@
+{
+  "video_id": "b0lucYjqlUM",
+  "seq": 441,
+  "kargin_id": 441,
+  "title": "Kargin Haghordum - Vormtnoxner@ (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "441_Kargin_Haghordum_-_Vormtnoxner@_Hayko_Mko_b0lucYjqlUM.tr.json",
+    "visual": true
+  },
+  "input_chars": 1521,
+  "gen_sec": 6.25,
+  "prompt_tokens": 1817,
+  "output_tokens": 647,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00285,
+  "annotation": {
+    "title_hy": "Անհաջողակ Կատակասերը և Սիմոնյանը",
+    "title_en": "The Unlucky Jokester and Simonyan",
+    "summary_en": "A man in a committee meeting tells repetitive jokes about a demon to his colleagues, but one member remains stoic because he is quitting the next day.",
+    "summary_detailed_en": "The sketch takes place in a formal office meeting room or committee setting. Three men in suits sit behind a long table equipped with paper cups and a large water bottle. One man takes the lead, enthusiastically telling ethnic jokes involving a demon and three nationalities (an Armenian, a Russian, and a Georgian). In his first joke, the demon forces them to eat a sack of potatoes; the Armenian succeeds, but the demon eats him anyway because the display made the demon hungry for potatoes. In the second joke, the demon challenges Osama Bin Laden to surprise him, resulting in Bin Laden blowing the demon up. While the other colleague laughs hysterically, the third man, Simonyan, sits with a grimacing, stoic expression. When the storyteller asks Simonyan why he isn't laughing at these 'funny' stories, Simonyan dryly reveals the reason for his lack of sycophancy: he has already found a new job and starts tomorrow, so he no longer needs to pretend to find his colleague's jokes amusing.",
+    "keywords_hy": [
+      "աշխատավայր",
+      "անեկդոտ",
+      "դև",
+      "կատակ",
+      "հայ ռուս վրացի",
+      "ժողով",
+      "Սիմոնյան",
+      "աշխատանքից դուրս գալ"
+    ],
+    "keywords_en": [
+      "office",
+      "meeting",
+      "joke",
+      "demon joke",
+      "Armenian Russian Georgian",
+      "colleagues",
+      "quitting job",
+      "Simonyan"
+    ],
+    "keywords_translit": [
+      "ashkhatavayr",
+      "anekdot",
+      "dev",
+      "katak",
+      "hay rus vraci",
+      "joghov",
+      "Simonyan",
+      "ashkhatankic durs gal"
+    ],
+    "catchphrases": [
+      "Սիմոնյա՞ն, էս բա դու ինչի՞ չես ծիծաղում",
+      "ա ինչ անիմաստ ծիծաղամ, մեկ ա վաղվանից ուրիշ տեղ եմ աշխատելու."
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

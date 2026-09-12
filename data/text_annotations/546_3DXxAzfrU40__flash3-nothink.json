@@ -1,0 +1,78 @@
+{
+  "video_id": "3DXxAzfrU40",
+  "seq": 546,
+  "kargin_id": 546,
+  "title": "Kargin Haghordum sketch 178 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "546_Kargin_Haghordum_sketch_178_Hayko_Mko_3DXxAzfrU40.hy.json",
+    "visual": true
+  },
+  "input_chars": 2580,
+  "gen_sec": 5.93,
+  "prompt_tokens": 2401,
+  "output_tokens": 706,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003319,
+  "annotation": {
+    "title_hy": "Լութվիկն ու ընկերը կլուբում",
+    "title_en": "Lutvik and Friend in the Club",
+    "summary_en": "Two provincial men visit a trendy Yerevan lounge bar where they struggle to adapt their village habits and attempt to woo women with rustic offers.",
+    "summary_detailed_en": "The sketch takes place in a red-toned, upscale Yerevan lounge bar. Two men from the village, wearing fur caps, leather jackets, and pinstripe suits, arrive feeling out of place but acting tough. One man, Lutvik, is introduced by his friend as a legendary sheep-slayer from their region. They mistake the 'club' for a village hangout and mock the decor, comparing the tile work to Lutvik's father's masonry. When the waiter approaches, Lutvik tries to order village staples like sheep's cheese, 'ghaurma', and an absurd 'sheep cappuccino.' The scene transitions to the men attempting to pick up women in the lounge. One man approaches a woman reading a book and offers to take her back to his remote village to be a 'queen' among 'real men,' away from city life. The woman rejects him, citing a rumor that men in isolated villages sleep with livestock (cows, donkeys, pigs, and ducks). Offended but persistent, the man tries to convince her he actually lives in Yerevan to save face. The sketch highlights the comedic contrast between provincial machismo and urban sophistication.",
+    "keywords_hy": [
+      "Լութվիկ",
+      "գյուղացի",
+      "քաղաք",
+      "կլուբ",
+      "ոչխար",
+      "ղավուրմա",
+      "բար",
+      "ծամոն",
+      "հանդիպում",
+      "կաֆել"
+    ],
+    "keywords_en": [
+      "Lutvik",
+      "villager",
+      "city life",
+      "lounge bar",
+      "sheep",
+      "ghaurma",
+      "pickup artist",
+      "tiles",
+      "provincial",
+      "flirting"
+    ],
+    "keywords_translit": [
+      "Lutvik",
+      "gyughaci",
+      "qaghaq",
+      "klub",
+      "ochxar",
+      "ghavurma",
+      "bar",
+      "tsamon",
+      "handipum",
+      "kafel"
+    ],
+    "catchphrases": [
+      "Լութվիկի պես ոշխար մեր տարածաշրջանում մորդող չկա",
+      "կապուչին ոչխարի",
+      "արի քեզ տանենք մեր սարերի միջի գեղը ու սարքենք թագուհի"
+    ],
+    "topics": [
+      "leisure_outing",
+      "restaurant_cafe",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

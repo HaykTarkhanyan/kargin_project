@@ -1,0 +1,72 @@
+{
+  "video_id": "6FXHg3S0F-0",
+  "seq": 382,
+  "kargin_id": 382,
+  "title": "Kargin Haghordum sketch 146 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "382_Kargin_Haghordum_sketch_146_Hayko_Mko_6FXHg3S0F-0.tr.json",
+    "visual": true
+  },
+  "input_chars": 2669,
+  "gen_sec": 10.28,
+  "prompt_tokens": 2393,
+  "output_tokens": 706,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003315,
+  "annotation": {
+    "title_hy": "Ամուսնալուծության Գործը",
+    "title_en": "The Divorce Case",
+    "summary_en": "A manipulative lawyer tries to coach his client, a woman seeking divorce, by twisting her words to make her appear as a victim and claim 50% of her wealthy husband's assets.",
+    "summary_detailed_en": "The sketch takes place in a professional office setting where a lawyer in a suit and tie sits behind a desk with a small flag, consulting with a female client. The client is a woman played by a male comedian in drag, wearing a purple wig, heavy red lipstick, and using a long cigarette holder. The lawyer explains that since her husband is wealthy and wants a divorce, they should aim for 50% of his assets. He begins 'coaching' her by distorting her answers to his questions. When she says her husband only drinks on special occasions two or three times a year, the lawyer suggests those occasions could be daily, framing him as an alcoholic and her as a victim. When she mentions he is a boxer but has never hit her, the lawyer suggests he hits her so hard she loses consciousness and forgets the abuse. The woman enthusiastically catches on to his tactics. The final joke occurs when the lawyer questions their intimate life; she claims they have only had sex three times in ten years. The lawyer is delighted, calling it a 'won case' of neglect, until he asks how many children she has, and she nonchalantly replies 'six', exposing the absurdity of their fabricated testimony.",
+    "keywords_hy": [
+      "փաստաբան",
+      "ամուսնալուծություն",
+      "դատ",
+      "հարբեցող",
+      "բաքսյոռ",
+      "ունեցվածքի բաժանում",
+      "ինտիմ հարաբերություններ",
+      "զոհ"
+    ],
+    "keywords_en": [
+      "lawyer",
+      "divorce",
+      "court case",
+      "alcoholic",
+      "boxer",
+      "division of property",
+      "intimate relations",
+      "victim"
+    ],
+    "keywords_translit": [
+      "pastaban",
+      "amusnalucutyun",
+      "dat",
+      "harbecox",
+      "baqsyor",
+      "unecvacqi bajanum",
+      "intim haraberutyunner",
+      "zoh"
+    ],
+    "catchphrases": [
+      "փաստորեն ինչա դուրս գալիս որ ինքը հարբեցողա իսկ դուք զոհ",
+      "լավ ջոգեցի ուր եք տանում",
+      "ջոգում եք ինչ եմ ուզում արած ըլնեմ դուրս սկսում ես գալ"
+    ],
+    "topics": [
+      "law_court",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

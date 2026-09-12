@@ -1,0 +1,76 @@
+{
+  "video_id": "tC0oTbzztk8",
+  "seq": 468,
+  "kargin_id": 468,
+  "title": "Kargin Haghordum sketch 093 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "468_Kargin_Haghordum_sketch_093_Hayko_Mko_tC0oTbzztk8.hy.json",
+    "visual": true
+  },
+  "input_chars": 3054,
+  "gen_sec": 5.27,
+  "prompt_tokens": 2758,
+  "output_tokens": 551,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003032,
+  "annotation": {
+    "title_hy": "Տորթի Փողը և Ճանապարհային Ոստիկանը",
+    "title_en": "The Cake Money and the Traffic Cop",
+    "summary_en": "A desperate traffic police officer, pressured by his wife to bring home a birthday cake despite no traffic, finally stops a driver and forces him to pay for an impromptu dance.",
+    "summary_detailed_en": "The sketch opens on a narrow, rural roadside where a traffic police officer (Sergeant Khachatryan) is stationed. He receives a phone call from his wife, who reminds him that tomorrow is their child's birthday. When she insists he must not return home without a birthday cake, he complains that business has been non-existent all day on this quiet road. Just as he hangs up, a driver approaches in a new car. The officer excitedly remarks that a 'cake' is coming to him on its own wheels. He stops the driver and conducts a thorough inspection, checking for a driver's license, technical passport, inspection sticker, and a first-aid kit. To the officer's frustration, the driver is perfectly law-abiding and has every required item. Desperate for money, the officer asks if the car has a radio. When the driver confirms, the officer tells him to turn it on. In an absurd turn, the officer begins dancing violently in front of (and eventually on) the car, brandishing a weapon, and demands payment from the bewildered driver for the 'performance.'",
+    "keywords_hy": [
+      "ճանապարհային ոստիկանություն",
+      "գայի",
+      "տորթ",
+      "ծնունդ",
+      "փող",
+      "տուգանք",
+      "պարել",
+      "սերժանտ",
+      "կաշառք",
+      "մեքենա"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "GAI",
+      "birthday cake",
+      "money",
+      "fine",
+      "dancing",
+      "sergeant",
+      "bribery",
+      "driver",
+      "rural road"
+    ],
+    "keywords_translit": [
+      "chanaparhayin vostikanutyun",
+      "gayi",
+      "tort",
+      "cnund",
+      "pogh",
+      "tuganq",
+      "parel",
+      "serzhant",
+      "kasharq",
+      "meqena"
+    ],
+    "catchphrases": [
+      "Ի՞նչ ես էշցած նայում արա, չես տենում քո համար եմ պարում, փող տուր փող։"
+    ],
+    "topics": [
+      "police",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

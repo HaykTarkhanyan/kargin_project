@@ -1,0 +1,70 @@
+{
+  "video_id": "4Vai3furaS8",
+  "seq": 462,
+  "kargin_id": 462,
+  "title": "Kargin Haghordum sketch 087 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "462_Kargin_Haghordum_sketch_087_Hayko_Mko_4Vai3furaS8.tr.json",
+    "visual": true
+  },
+  "input_chars": 1816,
+  "gen_sec": 6.1,
+  "prompt_tokens": 1963,
+  "output_tokens": 637,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002893,
+  "annotation": {
+    "title_hy": "Զինվորի քեռու մահը",
+    "title_en": "The Soldier's Uncle's Death",
+    "summary_en": "An officer instructs a subordinate to gently inform a soldier that his uncle has died, but the subordinate delivers the news in the most blunt and insensitive way possible.",
+    "summary_detailed_en": "The sketch takes place at a military base courtyard during the day. A high-ranking officer with a mustache, dressed in a formal military uniform, calls over a subordinate soldier named Asoyan. The commander informs Asoyan that Private Martirosyan's uncle has passed away and emphasizes that the news must be delivered with extreme tact and delicacy to avoid 'post-traumatic syndrome.' He warns Asoyan not to be blunt, using a humorous analogy about losing one's temper after a soccer match. Asoyan promises to use subtle hints ('namyok') and approaches a formation of soldiers standing at attention. He commands the entire squad to line up and orders anyone whose uncle is still alive to take one step forward. As Private Martirosyan begins to step forward with the others, Asoyan barks at him to stay back and move to the rear. He then offers a dry, sarcastic 'condolences' to the bewildered soldier, completely failing the commander's request for sensitivity. The scene features authentic military camouflage costumes and a rigid parade-ground setting that contrasts with the absurdity of the communication.",
+    "keywords_hy": [
+      "բանակ",
+      "սպա",
+      "զինվոր",
+      "նամյոկ",
+      "քեռի",
+      "մահ",
+      "հրամանատար",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "army",
+      "military base",
+      "officer",
+      "soldier",
+      "uncle",
+      "death notification",
+      "subtlety",
+      "dark humor"
+    ],
+    "keywords_translit": [
+      "banak",
+      "spa",
+      "zinvor",
+      "namyok",
+      "qeri",
+      "mah",
+      "hramanatar",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Ուրեմնս ուշադիր ում քեռին որ մեռած չի մի քայլ առաջ, արա Մարտիրոսյան դու ուր էս առաջ գալի հետ գնա, հետ գնա արա"
+    ],
+    "topics": [
+      "army",
+      "bureaucracy",
+      "wedding_funeral"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

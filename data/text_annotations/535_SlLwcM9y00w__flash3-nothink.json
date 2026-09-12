@@ -1,0 +1,72 @@
+{
+  "video_id": "SlLwcM9y00w",
+  "seq": 535,
+  "kargin_id": 535,
+  "title": "Kargin Haghordum sketch 169 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "535_Kargin_Haghordum_sketch_169_Hayko_Mko_SlLwcM9y00w.hy.json",
+    "visual": true
+  },
+  "input_chars": 1414,
+  "gen_sec": 6.75,
+  "prompt_tokens": 1806,
+  "output_tokens": 633,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002802,
+  "annotation": {
+    "title_hy": "Մեխանիկը և սրտի վիրաբույժը",
+    "title_en": "The Mechanic and the Heart Surgeon",
+    "summary_en": "An auto mechanic complains to his customer, a heart surgeon, about the unfair pay gap between their professions despite both working on 'hearts.'",
+    "summary_detailed_en": "The sketch takes place in an auto repair garage filled with wheel rims and tools. A mechanic is working on a car with the hood open, adjusting the valves for his customer. When he asks the customer about his profession, the man reveals he is a cardiovascular surgeon. Upon learning that a single heart surgery costs $3,000, the mechanic becomes indignant. He argues that life is unfair because they essentially do the same job: he works on the 'heart' of the car (the engine) all day but only receives $30, while the surgeon earns 100 times more for the same task. The surgeon listens patiently before challenging the mechanic's logic. In a witty rebuttal, the surgeon dares the mechanic to perform his repairs while the 'engine' (the heart) is still running, highlighting the life-or-death stakes of medical surgery. The sketch concludes with the mechanic facing the reality of their differing professional pressures.",
+    "keywords_hy": [
+      "ավտոմեխանիկ",
+      "սրտի վիրաբույժ",
+      "մատոռ",
+      "ավտոտնակ",
+      "աշխատավարձ",
+      "անարդար կյանք",
+      "վիրահատություն",
+      "մեքենայի սիրտ"
+    ],
+    "keywords_en": [
+      "mechanic",
+      "heart surgeon",
+      "car engine",
+      "garage",
+      "salary gap",
+      "surgery",
+      "unfair life",
+      "car repair"
+    ],
+    "keywords_translit": [
+      "avtomekhanik",
+      "srti virabuyzh",
+      "mator",
+      "avtotnak",
+      "ashkhatavardz",
+      "anardar kyanq",
+      "virahatutyun",
+      "meqenayi sirt"
+    ],
+    "catchphrases": [
+      "Էսի անարդար կյանք էլի հոպար",
+      "մատորն էլ մաշնի սիրտն է",
+      "Այ հիմա նույնն է, դե սպս սարքիր"
+    ],
+    "topics": [
+      "work",
+      "medical",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "video_id": "0vhomjPY064",
+  "seq": 629,
+  "kargin_id": 629,
+  "title": "Kargin Haghordum sketch 551 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "629_Kargin_Haghordum_sketch_551_Hayko_Mko_0vhomjPY064.hy.json",
+    "visual": true
+  },
+  "input_chars": 3529,
+  "gen_sec": 5.69,
+  "prompt_tokens": 2958,
+  "output_tokens": 650,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003429,
+  "annotation": {
+    "title_hy": "Տնական Արաղը և Միլիցեն",
+    "title_en": "Moonshine and the Police",
+    "summary_en": "Two men hide a bottle of moonshine from a nosy neighbor and practice avoiding the police by role-playing a search, only to have the real police drink it all.",
+    "summary_detailed_en": "The sketch takes place in a cramped, old-fashioned apartment. One man tells a boastful story about his uncle (hopar) arriving in a modified VAZ-2106 to rescue him and giving him a bottle of potent home-distilled moonshine (samagon). Afraid that their nosy neighbor has already reported them to the police, the two men decide to play a game to test their hiding spots. One man puts on a military peaked cap and role-plays a police officer (progressively 'promoting' himself from Lieutenant to Colonel) who 'searches' the apartment for illegal alcohol. Each time the 'officer' finds the bottle—first near the dresser, then under the trophy-topped TV—they celebrate by drinking a glass to test the quality, concluding that if it was found, it 'wasn't hidden well enough.' By the time a real police officer actually arrives at the door following a tip, the men are already tipsy. When the officer demands the illegal moonshine, the man dryly informs him that his 'colleagues' already came by and drank the entire bottle.",
+    "keywords_hy": [
+      "սամագոն",
+      "խմիչք",
+      "ոստիկան",
+      "միլիցա",
+      "թաքցնել",
+      "հարևան",
+      "հոպար",
+      "06",
+      "արաղ"
+    ],
+    "keywords_en": [
+      "moonshine",
+      "samagon",
+      "police search",
+      "hiding spot",
+      "neighbor",
+      "apartment",
+      "drinking",
+      "roleplay",
+      "homemade vodka"
+    ],
+    "keywords_translit": [
+      "samagon",
+      "xmichq",
+      "vostikan",
+      "milica",
+      "taqcnel",
+      "harevan",
+      "hopar",
+      "zibil",
+      "aragh"
+    ],
+    "catchphrases": [
+      "Մարդը մի հատ չափալաղ",
+      "Փաստորեն լավ չէիր պահել",
+      "ձերոնք մի քիչ առաջ եկան սաղ խմեցին ու գնացին"
+    ],
+    "topics": [
+      "police",
+      "drinking",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

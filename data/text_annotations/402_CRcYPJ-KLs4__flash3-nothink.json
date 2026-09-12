@@ -1,0 +1,71 @@
+{
+  "video_id": "CRcYPJ-KLs4",
+  "seq": 402,
+  "kargin_id": 402,
+  "title": "Kargin Haghordum - Baxtagushak (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "402_Kargin_Haghordum_-_Baxtagushak_Hayko_Mko_CRcYPJ-KLs4.hy.json",
+    "visual": true
+  },
+  "input_chars": 1938,
+  "gen_sec": 11.87,
+  "prompt_tokens": 2090,
+  "output_tokens": 623,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002914,
+  "annotation": {
+    "title_hy": "Բախտագուշակի ծառայությունները",
+    "title_en": "The Fortune Teller's Services",
+    "summary_en": "A flamboyant fortune teller uses mystical rituals and an adding machine to solve love problems, but his spell works a little too literally.",
+    "summary_detailed_en": "The sketch is set in a dimly lit, red-curtained room serving as a fortune teller's parlor. A man dressed in drag as a garish fortune teller, wearing a curly blonde wig and a fur-trimmed robe, conducts a session for a client. He is accompanied by a female assistant. The fortune teller demonstrates his 'powers' by correctly identifying the names of the client's suitors, Babken and Grisha, while consulting a board of pinned photos and using an old-fashioned adding machine as a mystical tool. A distressed woman enters, pleading for help because her husband has abandoned her and their children for a mistress. The fortune teller performs a dramatic ritual with candles, chanting a spell for the husband to return home. However, the punchline occurs when the woman returns later, frantic. Although the spell worked and her husband returned, it wasn't the one she expected—it was her first husband, whom they had buried five years prior.",
+    "keywords_hy": [
+      "բախտագուշակ",
+      "գուշակություն",
+      "կախարդանք",
+      "մոմեր",
+      "ամուսին",
+      "ծիծաղելի",
+      "հարություն",
+      "սիրուհի"
+    ],
+    "keywords_en": [
+      "fortune teller",
+      "prophecy",
+      "magic spell",
+      "candles",
+      "husband",
+      "funny",
+      "resurrection",
+      "mistress"
+    ],
+    "keywords_translit": [
+      "baxtagushak",
+      "gushakutyun",
+      "kaxardank",
+      "momer",
+      "amusin",
+      "tsitsaxeli",
+      "harutyun",
+      "siruhi"
+    ],
+    "catchphrases": [
+      "Բաց աչքերդ ազի ջան վեր կաց ու հանգիստ գնա տուն վաղը ամուսինդ կվերադառնա",
+      "վերադարձա բայց առաջին ամուսինս էն որ հինգ տարի առաջ էինք թաղել"
+    ],
+    "topics": [
+      "family",
+      "romance",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "bG0Vzk2SuQU",
+  "seq": 325,
+  "kargin_id": 325,
+  "title": "Kargin Haghordum sketch 287 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2502,
+  "gen_sec": 6.25,
+  "prompt_tokens": 2417,
+  "output_tokens": 593,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002987,
+  "annotation": {
+    "title_hy": "Գոմիկների Թեստը",
+    "title_en": "The Gay Test",
+    "summary_en": "A patient visits a psychoanalyst to prove he sees the world correctly, but labels everyone in the doctor's Rorschach-style test as gay.",
+    "summary_detailed_en": "The sketch takes place in a professional office, featuring a patient wearing a patterned shirt and a doctor wearing glasses and a white medical coat. The patient explains that his wife, friends, and even his mechanic claim he perceives the world incorrectly. He demands either a certificate of sanity to silence his critics or 'corrective drops' to fix his perception. The doctor decides to conduct a psychological perception test using various images. When shown a picture of three men, the patient immediately labels them as 'three gays' because they are together without women. Next, when shown a visual of a flock of geese (or people in a group) flying, the patient calls them a 'flock of gays' because they are all looking at the person in front of them. Finally, when the doctor asks how the patient perceives him, the patient calls the doctor gay as well, reasoning that only a gay person would spend all day collecting and looking at pictures of gay people. The office features an eye chart with Armenian letters and a telephone on the desk.",
+    "keywords_hy": [
+      "հոգեբան",
+      "բժիշկ",
+      "թեստ",
+      "գոմիկ",
+      "սխալ ընկալում",
+      "սպռավկա",
+      "հոգեվիճակ",
+      "ախտորոշում"
+    ],
+    "keywords_en": [
+      "psychologist",
+      "doctor",
+      "test",
+      "gay",
+      "perception",
+      "certificate",
+      "mental state",
+      "diagnosis"
+    ],
+    "keywords_translit": [
+      "hogeban",
+      "bzhishk",
+      "test",
+      "gomik",
+      "sxal ynkalum",
+      "spravka",
+      "hogevichak",
+      "axtoroshum"
+    ],
+    "catchphrases": [
+      "Վաբշետը խորհուրդ տվեց, որ գամ քո մոտ, բժիշկ ապեր"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

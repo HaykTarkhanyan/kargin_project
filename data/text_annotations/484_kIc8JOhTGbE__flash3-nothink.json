@@ -1,0 +1,70 @@
+{
+  "video_id": "kIc8JOhTGbE",
+  "seq": 484,
+  "kargin_id": 484,
+  "title": "Kargin Haghordum sketch 112 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "484_Kargin_Haghordum_sketch_112_Hayko_Mko_kIc8JOhTGbE.tr.json",
+    "visual": true
+  },
+  "input_chars": 4098,
+  "gen_sec": 4.95,
+  "prompt_tokens": 3154,
+  "output_tokens": 622,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003443,
+  "annotation": {
+    "title_hy": "Բանակից խուսափելու ձևը",
+    "title_en": "Avoiding the Army",
+    "summary_en": "A young man tries to avoid his military service by letting his friends and a professional butcher break his arm, only to discover he was already exempt for medical reasons.",
+    "summary_detailed_en": "The sketch begins in an apartment where Artyomik is distressed about his upcoming military enlistment. His friends frighten him with absurd, lose-lose scenarios about army life, such as being forced to sweep floors with a razor or getting caught during a 'samavolka' (unauthorized leave). To help him avoid service, they decide to break his arm to secure a six-month deferment. After several failed and painful attempts using a wooden club, they call in a neighbor named Vardan, who is a professional butcher. Vardan approaches the task with professional scrutiny, critiquing the 'quality' of Artyomik’s arm as if it were meat and eventually striking a blow. Later, the setting shifts to a hallway where Artyomik appears with his arm in a sling. He reveals that the military commission actually exempted him from service entirely, not because of the broken arm, but because he has a chronic kidney condition. The sketch ends with his friends and the butcher feeling cheated of their 'hard work,' suggesting they should have checked his kidneys before wasting time breaking his arms.",
+    "keywords_hy": [
+      "բանակ",
+      "վայենկամատ",
+      "զինվոր",
+      "թև ջարդել",
+      "մսավաճառ",
+      "սամավոլկա",
+      "կատակերգություն",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "army",
+      "conscription",
+      "draft dodging",
+      "broken arm",
+      "butcher",
+      "military service",
+      "exempt",
+      "comedy sketch"
+    ],
+    "keywords_translit": [
+      "banak",
+      "vayenkomat",
+      "zinvor",
+      "tev jardel",
+      "msavachar",
+      "samavolka",
+      "katakergutyun",
+      "Kargin haghordum"
+    ],
+    "catchphrases": [
+      "բա հիմա որնա ճիշտ ասել թե չասել ապե էտի ոչ մեկ չգիտի"
+    ],
+    "topics": [
+      "army",
+      "family",
+      "medical"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

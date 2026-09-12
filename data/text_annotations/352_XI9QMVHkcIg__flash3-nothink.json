@@ -1,0 +1,74 @@
+{
+  "video_id": "XI9QMVHkcIg",
+  "seq": 352,
+  "kargin_id": 352,
+  "title": "Kargin Haghordum sketch 519 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2091,
+  "gen_sec": 7.87,
+  "prompt_tokens": 2092,
+  "output_tokens": 697,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003137,
+  "annotation": {
+    "title_hy": "Մի սենյականոց բնակարանը և թաղումը",
+    "title_en": "One-room Apartment and the Funeral",
+    "summary_en": "A couple living in a cramped one-room apartment tries to get privacy from their child and grandfather, but their scheme to pay the kid to count people outside backfires.",
+    "summary_detailed_en": "The sketch takes place in a cramped one-room apartment where a husband and wife are frustrated by the lack of privacy, living with both their young child and the husband's elderly father. The wife complains that people in large apartments can do 'other things' besides eating, implying their intimate life is non-existent. The husband desperately tries to clear the room, urging the grandfather to take the child to the kitchen to play. When the grandfather resists, the husband comes up with a trick: he tells his son to go to the balcony and count every person wearing black clothes, promising 100 drams for each one. The grandfather eventually realizes they are being ushered away so the couple can have sex, grumbling that tomorrow they might send the kid to the army just for their pleasure. The punchline hits when the child keeps coming back inside, excitedly shouting 'Another hundred drams, Grandpa!' because a large funeral procession is passing by. The grandfather turns to his son, calling him a fool and joking that a prostitute would have been cheaper than paying the kid for all the mourners in the street.",
+    "keywords_hy": [
+      "մեկ սենյականոց",
+      "ընտանիք",
+      "սեքս",
+      "հարյուր դրամ",
+      "թաղում",
+      "բալկոն",
+      "երեխա",
+      "պապիկ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "one-room apartment",
+      "family",
+      "privacy",
+      "funeral",
+      "bribe",
+      "balcony",
+      "grandfather",
+      "child",
+      "100 drams"
+    ],
+    "keywords_translit": [
+      "mek senyakanots",
+      "yntaniq",
+      "sex",
+      "haryur dram",
+      "taghum",
+      "balkon",
+      "erexan",
+      "papik",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "հարյուր դրամ մի հատ էլ հարյուր դրամ էլի հարյուր դրամ",
+      "արա հարիֆ այ հարիֆ ինչա էղելաչքիս պուտանկեն վրետ ավելի էժան նստեր ստե թաղումա գալի"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "wedding_funeral"
+    ],
+    "humor_type": [
+      "situational",
+      "situational"
+    ]
+  }
+}

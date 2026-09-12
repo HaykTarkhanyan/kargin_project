@@ -1,0 +1,68 @@
+{
+  "video_id": "DeOxiMRihZ0",
+  "seq": 333,
+  "kargin_id": 333,
+  "title": "Kargin Haghordum - Sumka (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "333_Kargin_Haghordum_-_Sumka_Hayko_Mko_DeOxiMRihZ0.hy.json",
+    "visual": true
+  },
+  "input_chars": 1615,
+  "gen_sec": 5.55,
+  "prompt_tokens": 1857,
+  "output_tokens": 582,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002675,
+  "annotation": {
+    "title_hy": "Տատիկի Գողացված Սումկան",
+    "title_en": "The Grandma's Stolen Bag",
+    "summary_en": "An elderly woman in a stairwell cries for help after being robbed of her small pension, only for a strange twist to occur when she is offered money.",
+    "summary_detailed_en": "The sketch takes place in a dim, indoor apartment stairwell or hallway. A character playing an elderly woman in drag (wearing a fur hat) is seen in distress, shouting that her 'sumka' (bag) has been stolen by thieves. She laments to a man nearby that her entire pension of five thousand drams was inside the bag and cries out about her misfortune. Visuals show a hooded man and another man in a fedora brandishing a knife, establishing the atmosphere of a mugging. A bearded man in a suit approaches to console her, asking if there was money inside. When she confirms her loss, the man kindly offers her cash to compensate for the stolen amount. The woman gratefully accepts the money, calling him 'aziz jan' (dear), but the sketch ends with a comedic punchline as she shamelessly asks him to give her the physical bag back as well, implying a strange interaction between the victim and the perceived helper or thief.",
+    "keywords_hy": [
+      "սումկա",
+      "թոշակ",
+      "գողություն",
+      "տատիկ",
+      "աստիճանավանդակ",
+      "հինգ հազար դրամ",
+      "կողոպուտ"
+    ],
+    "keywords_en": [
+      "handbag",
+      "pension",
+      "robbery",
+      "grandma",
+      "stairwell",
+      "five thousand dram",
+      "mugging"
+    ],
+    "keywords_translit": [
+      "sumka",
+      "toshak",
+      "goghutyun",
+      "tatik",
+      "astichanavandak",
+      "hing hazar dram",
+      "koghoput"
+    ],
+    "catchphrases": [
+      "սումկես էլ տուր էլի",
+      "թոշակս հինգ հազար դրամա,էդ էլ գողացավ տարավ"
+    ],
+    "topics": [
+      "crime",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

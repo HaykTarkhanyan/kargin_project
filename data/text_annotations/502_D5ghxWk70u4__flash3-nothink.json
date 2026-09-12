@@ -1,0 +1,69 @@
+{
+  "video_id": "D5ghxWk70u4",
+  "seq": 502,
+  "kargin_id": 502,
+  "title": "Kargin Haghordum sketch 130 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1333,
+  "gen_sec": 4.94,
+  "prompt_tokens": 1753,
+  "output_tokens": 674,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002899,
+  "annotation": {
+    "title_hy": "Զոքանչի ախորժակը",
+    "title_en": "Mother-in-law's Appetite",
+    "summary_en": "A young boy asks his father hypothetical questions about which animals or objects are strongest, leading to a joke about a mother-in-law's infinite capacity to consume at her son-in-law's expense.",
+    "summary_detailed_en": "The sketch takes place in a domestic dining room setting where a family is gathered around a table filled with food and orange juice. The characters include a father, his young son Razmik (Razo), a young woman serving the meal, and an older woman (the grandmother/mother-in-law). The scene begins with the mother offering food to Razo, who declines, questioning why his own mother isn't joining them. The father explains she already ate. Razo then begins a series of 'who would win' questions, asking whether a whale or a dinosaur is stronger. The father patiently explains it depends on the environment: the whale in water, the dinosaur on land, and an airplane in the sky. The conversation shifts when the father asks Razo to pour more juice for the grandmother. The boy becomes curious about the grandmother's limits, asking if she could drink one liter, five liters, or even twenty liters of juice. The punchline arrives when the boy asks if she could drink a whole cistern; the father cynically remarks that as long as a mother-in-law lives at her son-in-law's expense, she is capable of consuming entire cisterns and train wagons of food and drink.",
+    "keywords_hy": [
+      "զոքանչ",
+      "փեսա",
+      "ընտանիք",
+      "հաց ուտել",
+      "հումոր",
+      "երեխայի հարցեր",
+      "ձվաձեղ",
+      "սոկ"
+    ],
+    "keywords_en": [
+      "mother-in-law",
+      "son-in-law",
+      "family dinner",
+      "appetite",
+      "child's questions",
+      "orange juice",
+      "whale vs dinosaur",
+      "household humor"
+    ],
+    "keywords_translit": [
+      "zoqanch",
+      "phesa",
+      "entaniq",
+      "hac utel",
+      "humor",
+      "erexayi harcer",
+      "dzvadzegh",
+      "sok"
+    ],
+    "catchphrases": [
+      "քանի զոքանչը փեսու հաշվինա ապրում ինքը կարա ցիստերներով ու վագոններով ուտի ու խմի"
+    ],
+    "topics": [
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

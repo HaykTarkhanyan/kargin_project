@@ -1,0 +1,72 @@
+{
+  "video_id": "waPMHq6NVT8",
+  "seq": 61,
+  "kargin_id": 61,
+  "title": "Kargin Haghordum sketch 625 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1566,
+  "gen_sec": 11.16,
+  "prompt_tokens": 1887,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002873,
+  "annotation": {
+    "title_hy": "Խոպանից վերադարձ և պապայի կորուստը",
+    "title_en": "Returning from Khopan and Losing Papa",
+    "summary_en": "A man returns from seasonal work in Russia to find his brother grieving because their father fell from an apple tree, leading to a literal misunderstanding about 'losing' him.",
+    "summary_detailed_en": "The sketch begins with a man in a red cap driving a taxi, chatting with a passenger who has just returned from 'khopan' (seasonal work) in Russia. The passenger explains that he was working near Pskov with his mother, who stayed behind to finish plastering work. Upon arriving at a village courtyard, the traveler greets his brother, Hro, who is lounging on an outdoor bed listening to a boombox. The mood quickly shifts as Hro tearfully announces a great misfortune: their father climbed the large apple tree in the garden to pick fruit, slipped, and they 'lost' him. The returning brother, taking the word literally, asks if they have checked under the tree yet. Hro, exasperated by the misunderstanding, bluntly clarifies that their father is actually in the morgue, though he sarcastically offers to go and look under the tree if it makes his brother feel better. The sketch highlights the contrast between the mundane migrant worker talk and the dark absurdity of the family tragedy.",
+    "keywords_hy": [
+      "խոպան",
+      "տաքսի",
+      "գյուղ",
+      "եղբայրներ",
+      "մորգ",
+      "ծառից ընկնել",
+      "դժբախտություն",
+      "խնձորի ծառ"
+    ],
+    "keywords_en": [
+      "khopan",
+      "taxi driver",
+      "village",
+      "brothers",
+      "morgue",
+      "falling from tree",
+      "misfortune",
+      "apple tree"
+    ],
+    "keywords_translit": [
+      "khopan",
+      "taxi",
+      "gyugh",
+      "yeghbayrner",
+      "morg",
+      "tsaric ynknel",
+      "dzhbakhtutyun",
+      "khndzori tsar"
+    ],
+    "catchphrases": [
+      "Հրո իսկ ծառի տակ նայել եք։",
+      "Գնանք իրար հետ նայենք։",
+      "Պապան մորգումա, Բայց որ ուզում ես նայենք։"
+    ],
+    "topics": [
+      "family",
+      "village",
+      "work"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "dark"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "3bEwVKXicsQ",
+  "seq": 159,
+  "kargin_id": 159,
+  "title": "Kargin Haghordum - Graz (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1623,
+  "gen_sec": 6.66,
+  "prompt_tokens": 1788,
+  "output_tokens": 555,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002559,
+  "annotation": {
+    "title_hy": "Գրազ Բարում",
+    "title_en": "The Bar Bet",
+    "summary_en": "A bar customer attempts a multi-stage bet involving tequila, a pit bull, and an old woman, with a hilarious mix-up at the end.",
+    "summary_detailed_en": "In a brick-and-timber pub, a bartender wearing a red shirt, black waistcoat, and red bow tie explains the rules of a high-stakes bet to a shaggy-haired customer in a white shirt and grey waistcoat. To win the pot of money in a glass jar, the customer must complete three challenges: drink a full bottle of tequila, pull a rotten tooth from a dangerous pit bull in the backyard using only his bare hands, and satisfy an elderly woman upstairs. The customer pays his five dollars and downs the tequila in one go. Visually, he then bolts out of the front door. A moment later, he returns to the bar, his white shirt covered in splatter and his hair disheveled. Staggering and clearly intoxicated, he delivers the punchline by asking, 'Where is the old woman whose tooth I have to pull?', revealing he confused the tasks due to the alcohol. Two other patrons are seen drinking and smoking in the background throughout the sketch.",
+    "keywords_hy": [
+      "գրազ",
+      "բարմեն",
+      "խմիչք",
+      "բար",
+      "տեկիլա",
+      "շուն",
+      "պառավ",
+      "ատամ քաշել"
+    ],
+    "keywords_en": [
+      "bet",
+      "bartender",
+      "drinking",
+      "bar",
+      "tequila",
+      "dog",
+      "old woman",
+      "pulling teeth"
+    ],
+    "keywords_translit": [
+      "graz",
+      "barmen",
+      "xmichq",
+      "bar",
+      "tekila",
+      "shun",
+      "parav",
+      "atam qashel"
+    ],
+    "catchphrases": [
+      "Ըհը, ուրա պարավը , բերեք ատամը քաշեմ"
+    ],
+    "topics": [
+      "drinking",
+      "restaurant_cafe",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

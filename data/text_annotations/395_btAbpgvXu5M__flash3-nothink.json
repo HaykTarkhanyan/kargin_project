@@ -1,0 +1,70 @@
+{
+  "video_id": "btAbpgvXu5M",
+  "seq": 395,
+  "kargin_id": 395,
+  "title": "Kargin Haghordum - Ker ay annasun (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2188,
+  "gen_sec": 11.91,
+  "prompt_tokens": 2220,
+  "output_tokens": 608,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002934,
+  "annotation": {
+    "title_hy": "Կեր այ անասուն",
+    "title_en": "Eat You Animal",
+    "summary_en": "A homesick Armenian man in Los Angeles pays a waiter $500 to cook a fish terribly and insult him so he can feel like he is back home with his wife.",
+    "summary_detailed_en": "In a restaurant decorated with various national flags, a mustached patron engages in a conversation with a young waiter wearing a vest and bowtie. The patron, who has been living alone in Los Angeles for a year, explains he has a 'special mission' for the waiter. He requests a specific type of fish (Crucian carp) but demands it be prepared in the worst possible way: unwashed, uncleaned, coated in excessive salt and pepper, and fried in a dry pan without oil or butter until one side is burnt and the other is raw. The most crucial part of the request is the service; the patron instructs the waiter to throw the plate at him and shout 'Eat, you animal!' (Ker ay annasun). The waiter is initially confused but agrees when offered a $500 tip. The sketch concludes with the waiter performing the insult and the patron happily embracing him, tearfully admitting that the mistreatment reminds him of how much he misses his wife's behavior back home.",
+    "keywords_hy": [
+      "ռեստորան",
+      "ձուկ",
+      "Լոս Անջելես",
+      "կարոտ",
+      "կնիկ",
+      "մատուցող",
+      "հայկական հումոր",
+      "չաեվոյ"
+    ],
+    "keywords_en": [
+      "restaurant",
+      "fish",
+      "Los Angeles",
+      "homesickness",
+      "wife",
+      "waiter",
+      "insult",
+      "special mission"
+    ],
+    "keywords_translit": [
+      "restoran",
+      "dzuk",
+      "Los Anjeles",
+      "karot",
+      "knik",
+      "matucogh",
+      "haykakan humor",
+      "chaevoy"
+    ],
+    "catchphrases": [
+      "էդ ձուկը որ բերես դեմս նորմալ ձևով չդնես, կբերես սենց կշպրտես դեմս, կասես կեր Այ անասուն"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "RO0ws8Io19M",
+  "seq": 149,
+  "kargin_id": 149,
+  "title": "Kargin Haghordum sketch 523 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2093,
+  "gen_sec": 5.01,
+  "prompt_tokens": 2120,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003028,
+  "annotation": {
+    "title_hy": "Սեքսապատոլոգի մոտ",
+    "title_en": "At the Sexopathologist",
+    "summary_en": "A man brings his partner to a sexopathologist complaining of performance issues, only to reveal he was just looking for a free place to have sex.",
+    "summary_detailed_en": "The sketch takes place in a medical clinic examination room, where a doctor wearing a surgical cap sits near a microscope. A man with a mustache enters with a woman, greeting the doctor as the 'physician of pleasant moments.' He explains that while the 'desire' is there, the 'opportunity' or 'capability' is missing. The doctor initially offers medication, but the man insists on a physical examination, mentioning a 'new method' he heard about. The doctor explains the method involves performing the intimate act in his presence. To the doctor's surprise, the man is not shy at all. He leads the woman behind a curtain where there is a bed. The doctor monitors them, giving instructions to move to the left, and eventually concludes that everything is functioning perfectly. As they leave, the man reveals the true punchline to the camera: he knew he didn't have a medical problem; he just didn't have a place to stay and exploited the doctor's office for a free room.",
+    "keywords_hy": [
+      "բժիշկ",
+      "սեքսապատոլոգ",
+      "հիվանդանոց",
+      "կլինիկա",
+      "խաբեբա",
+      "զույգ",
+      "ախտորոշում"
+    ],
+    "keywords_en": [
+      "doctor",
+      "sexopathologist",
+      "hospital",
+      "clinic",
+      "scammer",
+      "couple",
+      "diagnosis"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "sexapatolog",
+      "hivandanoc",
+      "klinika",
+      "khabeba",
+      "zuyg",
+      "akhtoroshum"
+    ],
+    "catchphrases": [
+      "Բարև իմ հայ ազգի բժշկություն",
+      "Կարելիա ներմուծվել",
+      "ասենք ցանկությունը կա բայց ասենք հնարավորություն չկա էլի",
+      "Ախպեր չէ ինչ ամաչել ցավդ տանեմ",
+      "Արա էս բժիշկները ինչ միամիտ են գիտեմ որ պռոբլեմ չկա պռոստը տեղ չկա"
+    ],
+    "topics": [
+      "medical",
+      "romance"
+    ],
+    "humor_type": [
+      "situational"
+    ]
+  }
+}

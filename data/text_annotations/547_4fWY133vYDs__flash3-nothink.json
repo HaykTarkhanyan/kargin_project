@@ -1,0 +1,69 @@
+{
+  "video_id": "4fWY133vYDs",
+  "seq": 547,
+  "kargin_id": 547,
+  "title": "Kargin Haghordum sketch 179 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "547_Kargin_Haghordum_sketch_179_Hayko_Mko_4fWY133vYDs.hy.json",
+    "visual": true
+  },
+  "input_chars": 2221,
+  "gen_sec": 11.7,
+  "prompt_tokens": 2180,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003022,
+  "annotation": {
+    "title_hy": "Հոգեբուժարանի ստուգում և բաժակի պոչը",
+    "title_en": "Psychiatric Evaluation and the Cup Handle",
+    "summary_en": "A psychiatrist evaluates a patient's sanity regarding the upcoming elections before meeting a woman whose husband has started eating tea glasses.",
+    "summary_detailed_en": "The sketch takes place in the office of a chief psychiatrist. In the first scene, a bespectacled doctor interviews a male patient who has been in the asylum for a year. The doctor notes that the staff reports progress but insists on a personal evaluation. He asks the patient who will win the upcoming presidential election; when the patient names a specific populist figure (Tigran Karapetich), the doctor concludes he is still insane and sends him back for another year. In the second scene, a woman with red hair (played by a male actor in drag) enters the office visibly distressed. She explains that her husband of fifteen years has suddenly begun acting strangely, specifically by eating his tea glass after finishing his drink. The doctor is initially shocked by the behavior. However, the punchline reveals the doctor is just as delusional as the patients when he remarks that eating the glass is indeed strange because the handle is the tastiest part of the cup.",
+    "keywords_hy": [
+      "հոգեբուժարան",
+      "բժիշկ",
+      "գժանոց",
+      "նախագահական ընտրություններ",
+      "թեյի բաժակ",
+      "հոգեբույժ",
+      "ախտորոշում"
+    ],
+    "keywords_en": [
+      "psychiatric hospital",
+      "doctor",
+      "asylum",
+      "presidential elections",
+      "tea glass",
+      "psychiatrist",
+      "diagnosis"
+    ],
+    "keywords_translit": [
+      "hogebujaran",
+      "bzhishk",
+      "gzhanoc",
+      "naxagahakan yntrutyunner",
+      "teyi bajak",
+      "hogebuyzh",
+      "axtoroshum"
+    ],
+    "catchphrases": [
+      "Հա, փաստորեն չեք բուժվել, կհանդիպենք նախագահական ընտրություններից հետո:",
+      "չէ գիտեք այդ բաժակի պոչը չի ուտում",
+      "որովհետև պոչը ադ բաժակի ամենահամով մասն"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

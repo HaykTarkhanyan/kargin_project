@@ -1,0 +1,71 @@
+{
+  "video_id": "31-baXiIagE",
+  "seq": 634,
+  "kargin_id": 634,
+  "title": "Kargin Haghordum sketch 556 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "634_Kargin_Haghordum_sketch_556_Hayko_Mko_31-baXiIagE.hy.json",
+    "visual": true
+  },
+  "input_chars": 2063,
+  "gen_sec": 8.76,
+  "prompt_tokens": 2131,
+  "output_tokens": 636,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002974,
+  "annotation": {
+    "title_hy": "Մաքսավորի ընտանիքի հարստությունը",
+    "title_en": "The Customs Official's Family Wealth",
+    "summary_en": "A daughter complains to her mother about not being allowed to use their luxury cars, furs, and jewelry in public until her father retires from his job at the customs office.",
+    "summary_detailed_en": "The sketch features two characters in a lavishly decorated interior with a staircase, lamps, and a couch. A mother, played in drag with a blonde bob and heavy makeup, sits with her daughter, also played in drag. The daughter is frustrated, complaining that despite owning ten diamond necklaces, ten fur coats, and twenty luxury cars, her parents never allow her to use them outside the house. She asks for permission to drive the yellow or red Porsche, but her mother insists she only drive it within their 40-meter courtyard. When the daughter asks to wear her fur coat or jewelry, the mother tells her to walk around their five-story mansion but never to step outside the gate dressed like that. The daughter asks when she will finally get to enjoy their wealth. The mother reveals the punchline: she needs to be patient and hide the wealth until her father finishes his career at the customs office (Tamojnya), implying the riches were acquired through corruption and must be kept secret to avoid suspicion.",
+    "keywords_hy": [
+      "մաքսավոր",
+      "հարստություն",
+      "շուբա",
+      "բրիլիանտ",
+      "Պորշ",
+      "կաշառք",
+      "տամոժնյա",
+      "ճոխություն"
+    ],
+    "keywords_en": [
+      "customs official",
+      "wealth",
+      "fur coat",
+      "diamonds",
+      "Porsche",
+      "corruption",
+      "hiding money",
+      "luxury"
+    ],
+    "keywords_translit": [
+      "maqsavor",
+      "harstutyun",
+      "shuba",
+      "briliant",
+      "porsh",
+      "kashar",
+      "tamojnya",
+      "choxutyun"
+    ],
+    "catchphrases": [
+      "Շուբետ հագի, 5 հարկանոց տան մեջ ման արի",
+      "Մամ ջան չհասկացա, 10 հատ բրիլիանտից կոլյե ունեմ, չեք թողնում հագնեմ"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

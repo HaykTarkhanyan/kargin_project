@@ -1,0 +1,72 @@
+{
+  "video_id": "y1yeDFDTxy4",
+  "seq": 692,
+  "kargin_id": 692,
+  "title": "Kargin Haghordum sketch 272 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "692_Kargin_Haghordum_sketch_272_Hayko_Mko_y1yeDFDTxy4.hy.json",
+    "visual": true
+  },
+  "input_chars": 3049,
+  "gen_sec": 7.57,
+  "prompt_tokens": 2723,
+  "output_tokens": 677,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003392,
+  "annotation": {
+    "title_hy": "Տանկերի հարցն ու սիրահարված սերժանտը",
+    "title_en": "The Tank Question and the Smitten Sergeant",
+    "summary_en": "A Minister saves a soldier's love life by promoting him through every rank in the army within minutes to convince a stubborn General to give away his daughter's hand in marriage.",
+    "summary_detailed_en": "The sketch takes place at a rural army outpost yard under a grapevine trellis. A mustached Minister, wearing sunglasses and a military uniform, is briefing subordinates about water supplies during alerts. A soldier, Sergeant Malkhasyan, interrupts with a question about the 'tank issue.' The Minister jokes that they are pimped-out tanks with xenon lights and wide exhausts. Grateful for Malkhasyan's presence, the Minister offers to grant him any wish. The Sergeant confesses he is in love with a General's daughter, but the General refuses permission for them to marry. The Minister calls the General over and begins a rapid-fire negotiation. Each time the General rejects the suitor based on social status and rank, the Minister instantly promotes Malkhasyan—from Sergeant to Lieutenant, Captain, Major, Lieutenant Colonel, and finally Colonel. The General remains elitist, claiming even a Colonel is beneath his daughter. Finally, the Minister promotes Malkhasyan to the rank of General. In the punchline, the newly promoted General Malkhasyan, realizing his new high status, suddenly decides he can find a 'better girl' than the General's daughter and walks away, leaving the General stunned.",
+    "keywords_hy": [
+      "բանակ",
+      "սերժանտ",
+      "գեներալ",
+      "նախարար",
+      "կոչում",
+      "ամուսնություն",
+      "տանկ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "army",
+      "sergeant",
+      "general",
+      "minister",
+      "military rank",
+      "marriage",
+      "tank",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "banak",
+      "serjant",
+      "general",
+      "naxarar",
+      "kochum",
+      "amusnutyun",
+      "tank",
+      "kargin haxordum"
+    ],
+    "catchphrases": [
+      "Եվ այդ միջոցառումները կազմակերպվում են",
+      "Պարոն նախարար,իսկ տանկերի հարցը ոնցա լուծվելու:",
+      "Մալխասյան, այսօր կյանքս փրկեցիր:"
+    ],
+    "topics": [
+      "army",
+      "romance",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

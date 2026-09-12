@@ -1,0 +1,70 @@
+{
+  "video_id": "NUyAGOvCJFQ",
+  "seq": 101,
+  "kargin_id": 101,
+  "title": "Kargin Haghordum sketch 642 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "101_Kargin_Haghordum_sketch_642_Hayko_Mko_NUyAGOvCJFQ.ru.json",
+    "visual": true
+  },
+  "input_chars": 2695,
+  "gen_sec": 8.11,
+  "prompt_tokens": 2262,
+  "output_tokens": 650,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003081,
+  "annotation": {
+    "title_hy": "Բերիմորը և անգլիացի լորդը",
+    "title_en": "Barrymore and the English Lord",
+    "summary_en": "An English aristocrat mistreats his loyal butler Barrymore with insults and bizarre requests to avoid showing joy at his mother-in-law's recovery.",
+    "summary_detailed_en": "Set in England in 1914, the sketch takes place in a dimly lit, wood-paneled dining room decorated with candles and a tea set. An English aristocrat sits at the table, addressing his elderly butler, Barrymore. The aristocrat begins with a bizarre, nostalgic monologue, reminiscing about how he used to flick or pinch Barrymore as a child while the butler begged him to stop. He follows this by calling Barrymore various insults like 'animal' and 'beast,' claiming they are such good friends that his insults shouldn't matter. When the butler serves dinner, the lord inquires about his mother-in-law Antoinette's health. Upon hearing she is being discharged from the hospital, he instructs Barrymore to cut off the family dog's tail so that there will be 'no sign of joy' in the house when she arrives. Finally, hearing a commotion outside, Barrymore explains that 'promiscuous women' are protesting. When the lord asks why they are shouting if they are already well-paid, Barrymore delivers the punchline: 'Because they are whores, sir.'",
+    "keywords_hy": [
+      "Բերիմոր",
+      "անգլիացի",
+      "լորդ",
+      "ծառա",
+      "կատակ",
+      "կնոջ մայրը",
+      "ցույց",
+      "անգլիա"
+    ],
+    "keywords_en": [
+      "Barrymore",
+      "English lord",
+      "butler",
+      "aristocrat",
+      "mother-in-law",
+      "protest",
+      "England",
+      "servant"
+    ],
+    "keywords_translit": [
+      "Berimor",
+      "angliaci",
+      "lord",
+      "tsara",
+      "katak",
+      "knoj mayre",
+      "cuyc",
+      "Anglia"
+    ],
+    "catchphrases": [
+      "Բերիմոր հիշում ես երբ մենք փոքր էինք ես քեզ կտացնում էի դու ասում էիր սեր մի կտացրեք ես նորից էի կտացնում"
+    ],
+    "topics": [
+      "family",
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "satire",
+      "character"
+    ]
+  }
+}

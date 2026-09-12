@@ -1,0 +1,72 @@
+{
+  "video_id": "Mz3kyHocFIc",
+  "seq": 53,
+  "kargin_id": 53,
+  "title": "Kargin Haghordum sketch 618 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2392,
+  "gen_sec": 22.9,
+  "prompt_tokens": 2354,
+  "output_tokens": 592,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002953,
+  "annotation": {
+    "title_hy": "Խանութի անվճռական տղան",
+    "title_en": "The Indecisive Boy at the Shop",
+    "summary_en": "A frustrated shopkeeper summons a boy's father to complain about the child's constant indecisiveness, only for the father to demonstrate the exact same behavior.",
+    "summary_detailed_en": "The sketch takes place in a small grocery store where a young boy is shopping. The store clerk becomes increasingly agitated as the boy repeatedly changes his mind about what he wants to buy, switching between chocolate, wine, juice, sausage, and oil. Fed up with the constant back-and-forth, the clerk refuses to give the boy the items and demands to see his father, intending to explain how the boy's behavior is disrespectful to adults. When the father arrives, he initially mistakes the clerk for a tax official, nervously reporting that his quarterly accounts are settled. Once the clerk clarifies the situation and explains the boy's annoying indecisiveness, the father promises to punish his son. However, the father immediately mirrors his son's flaw: he cycles through a series of punishments—breaking his head, beating him with a belt, pulling his ears, putting him in the corner, and taking away his joystick—constantly changing his mind and saying 'no, wait' before settling on a new idea, proving that the trait is inherited.",
+    "keywords_hy": [
+      "խանութ",
+      "վաճառող",
+      "անվճռական",
+      "հայր ու որդի",
+      "երեխա",
+      "շոկոլադ",
+      "գինի",
+      "երշիկ",
+      "պատիժ"
+    ],
+    "keywords_en": [
+      "grocery store",
+      "shopkeeper",
+      "indecisive",
+      "father and son",
+      "child",
+      "chocolate",
+      "wine",
+      "sausage",
+      "punishment"
+    ],
+    "keywords_translit": [
+      "khanut",
+      "vacharkhogh",
+      "anvchrakan",
+      "hayr u ordi",
+      "erekha",
+      "shokolad",
+      "gini",
+      "ershik",
+      "patizh"
+    ],
+    "catchphrases": [
+      "ես պապան եմ"
+    ],
+    "topics": [
+      "shop_market",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "yhXKkn32Tas",
+  "seq": 618,
+  "kargin_id": 618,
+  "title": "Kargin Haghordum sketch 500 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "618_Kargin_Haghordum_sketch_500_Hayko_Mko_yhXKkn32Tas.tr.json",
+    "visual": true
+  },
+  "input_chars": 3125,
+  "gen_sec": 11.54,
+  "prompt_tokens": 2734,
+  "output_tokens": 596,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003155,
+  "annotation": {
+    "title_hy": "Տղա թե՞ Աղջիկ",
+    "title_en": "Boy or Girl?",
+    "summary_en": "Two hyper-masculine men at a hospital refuse to accept the news of a baby girl's birth, bullying the medical staff until they 'change' the gender to a boy.",
+    "summary_detailed_en": "The sketch takes place in a hospital corridor where two men dressed in leather jackets and beanies are waiting for the birth of one of their children. The prospective father expresses his intense desire for a son, equating masculinity with his own pride and boasting about his wild celebrations when his previous son was born. A nurse approaches and politely announces that a beautiful baby girl has been born. The men react with aggressive disbelief, accusing the staff of being on a hidden camera show and claiming it is impossible for a man like him to have a daughter. They demand to see a doctor, insisting that they need a 'driver, a soldier, or a prosecutor,' not a girl. After intimidating both a surgeon and the department head with their tough-guy personas, the doctor suddenly 'corrects' the news, claiming it was actually twins and a boy has now arrived. The sketch ends with the men walking away smugly, convinced their intimidation tactics forced the medical staff to produce a male heir, with the punchline: 'Did you see how they got scared?'",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "հիվանդանոց",
+      "ծննդատուն",
+      "տղա էրեխա",
+      "աղջիկ էրեխա",
+      "բժիշկ",
+      "քյարթու",
+      "լավ տղա"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "hospital",
+      "maternity ward",
+      "baby boy",
+      "baby girl",
+      "doctor",
+      "tough guys",
+      "gender disappointment"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "hivandanoc",
+      "cnndatun",
+      "tgha erexa",
+      "aghjik erexa",
+      "bjishk",
+      "kyartu",
+      "lav tgha"
+    ],
+    "catchphrases": [
+      "ջոգիր ոնց վախցան"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

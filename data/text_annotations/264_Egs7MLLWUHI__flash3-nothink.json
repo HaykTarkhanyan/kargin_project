@@ -1,0 +1,72 @@
+{
+  "video_id": "Egs7MLLWUHI",
+  "seq": 264,
+  "kargin_id": 264,
+  "title": "Kargin Haghordum sketch 572 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "264_Kargin_Haghordum_sketch_572_Hayko_Mko_Egs7MLLWUHI.hy.json",
+    "visual": true
+  },
+  "input_chars": 2206,
+  "gen_sec": 8.85,
+  "prompt_tokens": 2284,
+  "output_tokens": 628,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003026,
+  "annotation": {
+    "title_hy": "Տեր հոր պսակի խորհուրդը",
+    "title_en": "The Monk's Marriage Advice",
+    "summary_en": "A young man seeks advice from a monk about whether he should marry a girl, leading to a rapid-fire series of contradictions based on her flaws and her father's wealth.",
+    "summary_detailed_en": "The sketch takes place in a monastery courtyard. Initially, a man (monk) is seen finishing a business-like conversation about a baptism, suggesting a state-sponsored godfather program and mentioning he might be found at a nearby construction shop. A young man then approaches the hooded monk to seek spiritual guidance regarding his upcoming marriage. The dialogue follows a repetitive, comedic pattern: the young man lists a reason to marry (wealth, a house, a high-ranking father) and the monk enthusiastically says 'Marry!', but when the young man lists a downside (the girl is ugly, has a large mole with hair, or smells bad), the monk immediately switches to 'Don't marry!'. The monk's advice flips constantly based on material gain versus personal disgust, even factoring in the father's political aspirations. Frustrated by the inconsistent guidance and the monk's lack of genuine spiritual insight, the young man complains. The monk finally loses his patience, tells the boy to go become a Muslim so he can annoy a Mullah instead, and physically strikes him with a book to end the conversation.",
+    "keywords_hy": [
+      "Տեր հայր",
+      "խորհուրդ",
+      "պսակադրություն",
+      "եկեղեցի",
+      "հարուստ աներ",
+      "կնունք",
+      "քավոր",
+      "ծաղր"
+    ],
+    "keywords_en": [
+      "monk",
+      "priest",
+      "marriage advice",
+      "church",
+      "wealthy father",
+      "baptism",
+      "godfather",
+      "monastery"
+    ],
+    "keywords_translit": [
+      "ter hayr",
+      "khorhurd",
+      "psakadrutyun",
+      "ekeghetsi",
+      "harust aner",
+      "knunq",
+      "qavor",
+      "tsaghr"
+    ],
+    "catchphrases": [
+      "պսակվի",
+      "մի պսակվի",
+      "Պետությունը ձեզ տրամադրում է անվճար քավոր"
+    ],
+    "topics": [
+      "religion",
+      "wedding_funeral",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

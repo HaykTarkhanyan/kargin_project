@@ -1,0 +1,69 @@
+{
+  "video_id": "5whA7Y64K-s",
+  "seq": 469,
+  "kargin_id": 469,
+  "title": "Kargin Haghordum sketch 094 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "469_Kargin_Haghordum_sketch_094_Hayko_Mko_5whA7Y64K-s.tr.json",
+    "visual": true
+  },
+  "input_chars": 1409,
+  "gen_sec": 5.42,
+  "prompt_tokens": 1803,
+  "output_tokens": 619,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002758,
+  "annotation": {
+    "title_hy": "Կանալիզացիա և հարուստների հոտը",
+    "title_en": "Sewage and the Rich Neighbors",
+    "summary_en": "A seasoned plumber explains to his apprentice that the foul smell in the building is particularly strong because they are working in a wealthy neighborhood where people eat more.",
+    "summary_detailed_en": "The sketch takes place in a dark, industrial setting filled with pipes, resembling a basement or a boiler room. Two workers, a veteran plumber (the 'Chef') and his young apprentice Vladik (Vle), are attempting to fix a sewage leak. The 'Chef' wears a beret and is covered in grease, while Vladik wears a baseball cap. Throughout the scene, the master plumber continuously smears dark grease or oil onto Vladik's face while asking for various tools, including an adjustable wrench and a pipe wrench. When Vladik complains about the unbearable stench of the sewage, the master philosophically explains that every sewer has its own 'flavor and scent.' He notes that this is a building for the wealthy, and since they eat more, the resulting smell is naturally more intense. The master plumber cites his late mentor's advice about approaching gaskets with 'love' and asks for a cigarette and toilet paper. He concludes by telling Vladik to watch and learn, warning that otherwise, he will spend his entire life just handing over tools to others.",
+    "keywords_hy": [
+      "կանալիզացիա",
+      "փականագործ",
+      "սանտեխնիկ",
+      "հարուստների շենք",
+      "գործիքներ",
+      "հոտ",
+      "աշակերտ",
+      "կլյուչ"
+    ],
+    "keywords_en": [
+      "sewage",
+      "plumber",
+      "apprentice",
+      "rich building",
+      "tools",
+      "smell",
+      "wrench",
+      "basement"
+    ],
+    "keywords_translit": [
+      "kanalizacia",
+      "pakanagorts",
+      "santexnik",
+      "harustneri shenq",
+      "gortsiqner",
+      "hot",
+      "ashakert",
+      "klyuch"
+    ],
+    "catchphrases": [
+      "Վլադիկ ջան ինչ որ անում եմ սովորի թե չէ սաղ կյանքդ կլյուչ տվող կմնաս;"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

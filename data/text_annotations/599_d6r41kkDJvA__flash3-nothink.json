@@ -1,0 +1,70 @@
+{
+  "video_id": "d6r41kkDJvA",
+  "seq": 599,
+  "kargin_id": 599,
+  "title": "Kargin Haghordum sketch 450 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1538,
+  "gen_sec": 9.49,
+  "prompt_tokens": 1787,
+  "output_tokens": 584,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002646,
+  "annotation": {
+    "title_hy": "Ճակատագրի խաչմերուկը",
+    "title_en": "Crossroads of Fate",
+    "summary_en": "In a cloud-filled afterlife, souls face judgment from a gatekeeper who decides whether they deserve paradise or hell based on their earthly reputations.",
+    "summary_detailed_en": "Set in a celestial afterlife with a blue sky and fluffy white clouds, an angelic host stands before a queue of souls dressed in white robes. The host delivers a series of judgments based on how these individuals lived their earthly lives. The first character is praised for being honest, hardworking, and loving his family, earning him a place in 'right paradise.' Next, a woman approaches; the host notes that although she might think she is good, the stories heard from men who arrived before her have condemned her to hell. The third soul is a traffic policeman, complete with his military cap and baton. He claims to have been a 'man of the law' his whole life. However, the host reveals that while he enforced the law, he also frequently broke it, leaving his fate uncertain between paradise and hell. In a clever punchline, the policeman asks the angel if he can just stay and 'stand at this intersection,' reverting to his professional habits in the afterlife.",
+    "keywords_hy": [
+      "դրախտ",
+      "դժոխք",
+      "ճակատագիր",
+      "խաչմերուկ",
+      "ոստիկան",
+      "հրեշտակ",
+      "դատաստան",
+      "հանդերձյալ աշխարհ"
+    ],
+    "keywords_en": [
+      "paradise",
+      "hell",
+      "fate",
+      "crossroads",
+      "policeman",
+      "angel",
+      "judgment",
+      "afterlife"
+    ],
+    "keywords_translit": [
+      "drakht",
+      "dzhokhk",
+      "chakatagir",
+      "khachmeruk",
+      "ostikan",
+      "hreshtak",
+      "datatastan",
+      "handerdzyal ashxarh"
+    ],
+    "catchphrases": [
+      "Ձյաձ ջան կլնի էս խաչմերուկին կանգնեմ"
+    ],
+    "topics": [
+      "religion",
+      "police",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

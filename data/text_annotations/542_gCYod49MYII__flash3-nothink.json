@@ -1,0 +1,70 @@
+{
+  "video_id": "gCYod49MYII",
+  "seq": 542,
+  "kargin_id": 542,
+  "title": "Kargin Haghordum sketch 174 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2621,
+  "gen_sec": 9.55,
+  "prompt_tokens": 2478,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003171,
+  "annotation": {
+    "title_hy": "Ժլատ այրին և աստմայի դեղերը",
+    "title_en": "The Stingy Widow and Asthma Meds",
+    "summary_en": "A wealthy but extremely stingy man invites his struggling old classmate to a cafe, only to reveal he is looking for a new wife specifically with asthma to use up his late wife's leftover medicine.",
+    "summary_detailed_en": "The sketch begins on a tree-lined avenue where a man in a striped polo shirt (Voskan) rudely yells at a pedestrian for crossing the street in front of his black luxury sedan, only to realize the pedestrian is his old university classmate, Kostik. Seeing Kostik is struggling financially, Voskan magnanimously invites him to a nearby outdoor gazebo cafe for a meal. The setting shifts to a wooden lattice gazebo where a large platter of food and orange juice are served. While Kostik talks about his financial hardships and his wife losing her job, Voskan ignores his friend's plight, focusing instead on his own health and the quality of the food. When Kostik kindly suggests that the widowed Voskan should remarry to have an heir for his vast wealth, Voskan reveals his absurdly pragmatic plan. He admits he is already looking for a new wife, but insists she must suffer from asthma. The punchline reveals his motivation: his late wife left behind a large supply of expensive asthma medication, and he cannot bear to let it go to waste or expire.",
+    "keywords_hy": [
+      "կուրսի տղա",
+      "ժլատություն",
+      "աստմայի դեղ",
+      "հարուստ",
+      "ճոխ մեքենա",
+      "օբյեկտ",
+      "ընկերություն",
+      "ամուսնություն"
+    ],
+    "keywords_en": [
+      "classmate",
+      "stinginess",
+      "asthma medicine",
+      "wealthy",
+      "luxury car",
+      "cafe",
+      "remarriage",
+      "absurd logic"
+    ],
+    "keywords_translit": [
+      "kursi tgha",
+      "zhlatutyun",
+      "astmayi degh",
+      "harust",
+      "chox meqena",
+      "obyekt",
+      "ynkerutyun",
+      "amusnutyun"
+    ],
+    "catchphrases": [
+      "Ապեր դե էն օղորմածիկ կնոջիցս լիքը թանգանոց դեղա մնացել։ Ափսոսա։"
+    ],
+    "topics": [
+      "money",
+      "restaurant_cafe",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

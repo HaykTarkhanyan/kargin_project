@@ -1,0 +1,70 @@
+{
+  "video_id": "_OF9JzCnuPY",
+  "seq": 314,
+  "kargin_id": 314,
+  "title": "Kargin Haghordum sketch 475 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3639,
+  "gen_sec": 19.46,
+  "prompt_tokens": 3132,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003495,
+  "annotation": {
+    "title_hy": "Հոգեբուժարանի դուրսգրման պլանը",
+    "title_en": "The Mental Asylum Discharge Plan",
+    "summary_en": "A doctor under pressure to meet discharge quotas tries to release two patients, but discovers one is unresponsive and the other is obsessively focused on smashing windows.",
+    "summary_detailed_en": "The sketch takes place in a psychiatric hospital office where a doctor, wearing blue scrubs and a surgical cap, complains to a nurse about government pressure to discharge at least two patients monthly to save the state budget. He first interviews Tigran, a well-dressed patient in glasses who appears sane. However, it quickly becomes clear Tigran is catatonic, repeating only the words 'Tigran' and 'Engineer' regardless of the question. Despite this, the doctor is desperate to meet his quota. Next, they bring in Shalakho, an eccentric patient with wild, frizzy hair and a loud personality. When asked what he would do if released, Shalakho immediately threatens to build a slingshot and break every window in the asylum. One month later, the doctor holds a follow-up. He ignores Tigran’s obvious mental state and approves his release. He then interviews a reformed-looking Shalakho. Shalakho describes a romantic plan: getting a job, a house, and inviting a girl for dinner and dancing. As the doctor becomes excited by the apparent progress, Shalakho’s story takes a turn: after undressing the girl, he plans to take the elastic band from her underwear to build a slingshot and smash every window in the hospital.",
+    "keywords_hy": [
+      "հոգեբուժարան",
+      "բժիշկ",
+      "հիվանդ",
+      "ինժիներ",
+      "ռագադկա",
+      "պատուհան ջարդել",
+      "բուժքույր",
+      "գժանոց"
+    ],
+    "keywords_en": [
+      "mental asylum",
+      "doctor",
+      "patient",
+      "engineer",
+      "slingshot",
+      "breaking windows",
+      "nurse",
+      "psychiatric ward"
+    ],
+    "keywords_translit": [
+      "hogebujaran",
+      "bzhishk",
+      "hivand",
+      "inzhiner",
+      "ragadka",
+      "patuhan jardel",
+      "buzhquyr",
+      "gzhanoc"
+    ],
+    "catchphrases": [
+      "Տիգրան",
+      "ինժիներ"
+    ],
+    "topics": [
+      "medical",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "TxCukyE9Vvc",
+  "seq": 57,
+  "kargin_id": 57,
+  "title": "Kargin Haghordum sketch 622 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2860,
+  "gen_sec": 8.97,
+  "prompt_tokens": 2534,
+  "output_tokens": 669,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003274,
+  "annotation": {
+    "title_hy": "Պրոֆեսորը և փտած դաշտը",
+    "title_en": "The Professor and the Rotting Field",
+    "summary_en": "A desperate farmer repeatedly seeks advice from a mock professor to save his rotting field, only to have each absurd suggestion fail until the entire land is ruined.",
+    "summary_detailed_en": "The sketch is presented as a mock documentary or interview series alternating between two distinct settings. A moustached village man, wearing a grey blazer and a white headwrap, speaks directly to the camera about his rotting field. He visits a 'professor'—a wild-haired man in a white lab coat with a piece of plaster across his nose, surrounded by scientific glassware. The farmer explains that 25% of his land is rotting and asks for a professional solution. The professor confidently suggests buying plaster (gypsum) from a specific shop, dissolving it in a bucket of water, and watering the field. Visuals intercut between their dialogue and B-roll footage of a man scything grass and stirring a bucket with a wooden pole. When the farmer returns to report that half the field is now gone, the professor pivoting to a new tactic: scattering the dry plaster powder manually. This also fails, leading to a third visit where the farmer pleads to save the last remaining 'sotka' (100 square meters). The professor’s final advice is to bury the plaster under the soil with a shovel. In the final scene, the farmer reveals the entire field has rotted away. The professor responds with cold, scientific curiosity, lamenting that he still had many 'interesting versions' left to try.",
+    "keywords_hy": [
+      "պրոֆեսոր",
+      "գյուղացի",
+      "դաշտ",
+      "գիպս",
+      "խորհուրդ",
+      "հողագործություն",
+      "փտած հող",
+      "ծիծաղելի փորձեր"
+    ],
+    "keywords_en": [
+      "professor",
+      "farmer",
+      "rotting field",
+      "gypsum",
+      "absurd advice",
+      "agriculture",
+      "mad scientist",
+      "failed experiments"
+    ],
+    "keywords_translit": [
+      "profesor",
+      "gyughatsi",
+      "dasht",
+      "gips",
+      "khorhurd",
+      "hoghagortsutyun",
+      "pdat hogh",
+      "tsitsagheli pordzer"
+    ],
+    "catchphrases": [
+      "Ափսոս, հլը էնքան հետաքրքիր տարբերակներ ունեի:"
+    ],
+    "topics": [
+      "village",
+      "media_showbiz",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

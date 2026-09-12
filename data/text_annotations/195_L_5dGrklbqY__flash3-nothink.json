@@ -1,0 +1,71 @@
+{
+  "video_id": "L_5dGrklbqY",
+  "seq": 195,
+  "kargin_id": 195,
+  "title": "Kargin Haghordum sketch 532 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "195_Kargin_Haghordum_sketch_532_Hayko_Mko_L_5dGrklbqY.ru.json",
+    "visual": true
+  },
+  "input_chars": 3215,
+  "gen_sec": 13.6,
+  "prompt_tokens": 2621,
+  "output_tokens": 604,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003123,
+  "annotation": {
+    "title_hy": "Պարտքով դասատուն",
+    "title_en": "The Indebted Teacher",
+    "summary_en": "A father tells his son not to study Russian because the teacher owes him money, leading to a clever confrontation in the classroom.",
+    "summary_detailed_en": "The sketch begins in a domestic setting where a mustached father, lounging on a couch in an undershirt, finds his young son, Erik, studying Russian. When the father learns the teacher is Comrade Simonyan—a man who reportedly cannot speak Russian well—he reveals that the teacher has owed him 500 dollars for three years. He encourages Erik to stop studying and go play instead, suggesting that if the teacher asks questions, Erik should simply ask about the debt. The scene transitions to the classroom where the same mustached man, now portraying the teacher in a vest, attempts to conduct a lesson in hilariously broken Russian, referring to the subject as 'Russian Pagan' (yazichnika) and mispronouncing Pushkin. When he calls on Erik to recite the assignment, Erik pretends he cannot hear him from his desk. The teacher, skeptical that sound doesn't travel five meters, swaps places with the boy. Standing at the back of the room, Erik loudly asks when the teacher is going to pay back his father's money. The teacher immediately feigns deafness, concluding that indeed, nothing can be heard from that spot.",
+    "keywords_hy": [
+      "ռուսերենի դասատու",
+      "պարտք",
+      "դպրոց",
+      "հայր և որդի",
+      "կատակ",
+      "փող",
+      "Պուշկին",
+      "դասարան"
+    ],
+    "keywords_en": [
+      "Russian teacher",
+      "debt",
+      "school",
+      "father and son",
+      "joke",
+      "money",
+      "Pushkin",
+      "classroom"
+    ],
+    "keywords_translit": [
+      "rusereni dasatu",
+      "partq",
+      "dproc",
+      "hayr ev ordi",
+      "katak",
+      "pogh",
+      "Pushkin",
+      "dasaran"
+    ],
+    "catchphrases": [
+      "Իսկականից բան չի լսվում;",
+      "я как заканчивался , сразу  поднимался"
+    ],
+    "topics": [
+      "school",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

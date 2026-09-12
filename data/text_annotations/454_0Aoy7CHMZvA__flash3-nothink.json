@@ -1,0 +1,73 @@
+{
+  "video_id": "0Aoy7CHMZvA",
+  "seq": 454,
+  "kargin_id": 454,
+  "title": "Kargin Haghordum sketch 079 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1718,
+  "gen_sec": 7.6,
+  "prompt_tokens": 1912,
+  "output_tokens": 591,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002729,
+  "annotation": {
+    "title_hy": "Սիրահարված ավազակը այգում",
+    "title_en": "The Lovestruck Mugger in the Park",
+    "summary_en": "A man walking through a park is accosted by a strange criminal who uses romantic and flirtatious language to harass him.",
+    "summary_detailed_en": "In an autumn park, a young man wearing a white coat walks along a path while talking on his mobile phone, telling his friend 'Sam' he will arrive in 15 minutes. He is suddenly intercepted by a man wearing a black beanie and sunglasses. Instead of a typical mugging, the aggressor begins speaking in a bizarrely romantic and poetic way, describing the path as a 'stony, thorny life journey full of leaves.' When the young man expresses confusion and urgency, the criminal clarifies his intent by saying 'I want you, my life' and 'I love you' in a mock-romantic tone. The victim tries to flee, but the aggressor mocks his masculinity, asking if they should skip the kissing and find a park bench immediately. The victim eventually encounters a uniformed police officer and complains that everyone in the park is 'gay.' However, the sketch ends with a twist as the officer, instead of helping, insults the victim for entering 'their' park and chases him away, implying the officer is part of the same subculture.",
+    "keywords_hy": [
+      "այգի",
+      "ավազակ",
+      "ոստիկան",
+      "սեր",
+      "հարձակում",
+      "ծաղր",
+      "սկամեյկա",
+      "աշուն",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "park",
+      "mugger",
+      "police officer",
+      "love",
+      "harassment",
+      "satire",
+      "bench",
+      "autumn",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "aygi",
+      "avazak",
+      "vostikan",
+      "ser",
+      "hardzakum",
+      "tsaghr",
+      "skameyka",
+      "ashun",
+      "katak"
+    ],
+    "catchphrases": [
+      "Խի ես փախնում, տղա չե՞ս"
+    ],
+    "topics": [
+      "leisure_outing",
+      "police",
+      "crime"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

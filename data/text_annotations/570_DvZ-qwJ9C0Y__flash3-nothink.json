@@ -1,0 +1,67 @@
+{
+  "video_id": "DvZ-qwJ9C0Y",
+  "seq": 570,
+  "kargin_id": 570,
+  "title": "Kargin Haghordum sketch 421 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2032,
+  "gen_sec": 5.98,
+  "prompt_tokens": 2125,
+  "output_tokens": 464,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002455,
+  "annotation": {
+    "title_hy": "Ծառի տակ պառկողը",
+    "title_en": "Lying Under the Tree",
+    "summary_en": "A busy man tries to motivate a lazy stranger to build a farming empire, only for the man to point out he is already achieving the ultimate goal: doing nothing.",
+    "summary_detailed_en": "The sketch begins with a man driving a car along a rural road, venting his frustrations over the phone about people who constantly demand raises without wanting to work. He spots a man lying lazily on a low stone wall under the shade of trees, balancing a water bottle on his chest. Incensed by this idleness, the driver pulls up and starts lecturing him, suggesting he get up and water the fruit trees behind him. He explains a long-term business plan: sell the fruit, buy more land, invest in seedlings, and create a large capital base. Every time the driver pauses, the man on the wall phlegmatically asks, 'For what?' (Enchi humar?). The driver continues his elaborate vision, describing how the man could buy machinery, build a factory for juices and jams, and generate massive wealth. When the driver finally concludes that the goal of all this hard work is to eventually be able to lie under a tree and do nothing, the lazy man simply replies that he is already doing exactly that. The sketch ends with the driver stunned by the man's logic.",
+    "keywords_hy": [
+      "ծույլ",
+      "աշխատավարձ",
+      "բիզնես",
+      "ծառի տակ",
+      "գյուղ",
+      "հողագործություն",
+      "գործարար"
+    ],
+    "keywords_en": [
+      "lazy man",
+      "salary",
+      "business plan",
+      "under the tree",
+      "rural",
+      "farming",
+      "entrepreneur"
+    ],
+    "keywords_translit": [
+      "tsuyl",
+      "ashkhatavardz",
+      "biznes",
+      "tsari tak",
+      "gyugh",
+      "hoghagortsutyun",
+      "gortsarar"
+    ],
+    "catchphrases": [
+      "Ընչի հըմար"
+    ],
+    "topics": [
+      "work",
+      "money",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

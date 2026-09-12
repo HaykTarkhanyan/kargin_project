@@ -1,0 +1,68 @@
+{
+  "video_id": "d3AsbzNxb5c",
+  "seq": 582,
+  "kargin_id": 582,
+  "title": "Kargin Haghordum sketch 433 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "582_Kargin_Haghordum_sketch_433_Hayko_Mko_d3AsbzNxb5c.hy.json",
+    "visual": true
+  },
+  "input_chars": 2721,
+  "gen_sec": 4.77,
+  "prompt_tokens": 2495,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003138,
+  "annotation": {
+    "title_hy": "Զբաղվածության կենտրոնի հերթը",
+    "title_en": "The Employment Agency Queue",
+    "summary_en": "An employment agent offers a man a dream job helping undressed models change clothes, only to reveal the catch at the end.",
+    "summary_detailed_en": "The scene takes place in an employment agency office. An agent, wearing glasses and sitting behind a desk with a computer and phone, finishes a humorous phone call where he discusses finding a job for a 'sad-faced boy' at a funeral parlor and a position for a general's nephew in the National Assembly that includes a state car and a nickname. A job seeker named Edik, wearing a dark coat and a lanyard, enters the office. The agent enthusiastically describes a high-paying position (500,000 drams) helping models quickly change clothes behind the scenes at fashion shows. He asks if Edik is married, explaining that the job involves being the only man surrounded by naked models. When Edik eagerly agrees, claiming he won't feel any discomfort or complexes, the agent tells him he must travel to the distant city of Goris for the final interview. When a confused Edik asks why, since the job is in Yerevan, the agent delivers the punchline: the queue of men waiting for this specific job is so long that it stretches all the way to Goris.",
+    "keywords_hy": [
+      "աշխատանքի տեղավորում",
+      "գործակալություն",
+      "մոդելներ",
+      "աշխատավարձ",
+      "Գորիս",
+      "հերթ",
+      "զբաղվածության կենտրոն"
+    ],
+    "keywords_en": [
+      "employment agency",
+      "job interview",
+      "models",
+      "high salary",
+      "Goris",
+      "long queue",
+      "fashion show"
+    ],
+    "keywords_translit": [
+      "ashxatanqi texavorum",
+      "gorcakalutyun",
+      "modelner",
+      "ashxatavardz",
+      "Goris",
+      "hert",
+      "zbaghvatsutyan kentron"
+    ],
+    "catchphrases": [
+      "պետությունը տրամադրում է իր մեքենա ու մականուն",
+      "աշխատանքի անցնելու ցանկացողների հերթը հասնում է մինչև Գորիս"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "jZVDSlF5KsA",
+  "seq": 259,
+  "kargin_id": 259,
+  "title": "Kargin Haghordum sketch 566 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1714,
+  "gen_sec": 4.8,
+  "prompt_tokens": 1935,
+  "output_tokens": 707,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003088,
+  "annotation": {
+    "title_hy": "Տաքսիստը և հղի ուղևորը",
+    "title_en": "The Taxi Driver and the Pregnant Passenger",
+    "summary_en": "A chatty taxi driver entertains a female passenger with absurd commentary on celebrities before making an awkward comment about her pregnancy.",
+    "summary_detailed_en": "The sketch takes place inside a taxi driving along a snowy road. A taxi driver wearing a black cap is driving a woman, played by one of the male actors in drag wearing a wig, lipstick, and a red scarf. The driver is extremely talkative, complimenting the passenger and asking if she is traveling abroad. He launches into a satirical rant about international celebrities, specifically criticizing Jennifer Lopez for insuring her backside for a million dollars and Pamela Anderson for her breast implants, which he claims were done 'without a permit from the Cadastre.' He jokes that if Armenian women were allowed, their chests could serve as airport runways. The driver then mentions that she is the third pregnant woman he has driven to the airport that day. When the woman clarifies that she is not actually pregnant, the driver delivers the punchline, suggesting that they haven't reached the airport yet, implying he has plenty of time to change that status.",
+    "keywords_hy": [
+      "տաքսի",
+      "տաքսիստ",
+      "օդանավակայան",
+      "հղի",
+      "Ջենիֆեր Լոպես",
+      "Պամելա Անդերսոն",
+      "կադաստր",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "taxi driver",
+      "airport",
+      "pregnant",
+      "Jennifer Lopez",
+      "Pamela Anderson",
+      "cadastre",
+      "passenger",
+      "drag"
+    ],
+    "keywords_translit": [
+      "taksi",
+      "taksist",
+      "odanavakayan",
+      "hghi",
+      "Jennifer Lopez",
+      "Pamela Anderson",
+      "kadastr",
+      "tsitsagheli"
+    ],
+    "catchphrases": [
+      "Հայաստանում քիչ արժանի հետույքներ կան որ խոսքի անապահով փողոցներում ֆռֆռում են բա էն Պամիլյա Անդերսոնը վեկալելա առանց կադաստրի թույլատվության դոշերը առաջա տվե խի ցավդ տանեմ որ կադաստրը թողեր դոշերը էնքան առաջ կտային էնքան առաջ կտային կդառնար վզլյոտնի պոլոսա վրեն կարար դաժե սամալյոտ վայրէջէ կատարեր"
+    ],
+    "topics": [
+      "transport",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

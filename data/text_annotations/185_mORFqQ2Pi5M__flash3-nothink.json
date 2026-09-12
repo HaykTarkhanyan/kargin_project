@@ -1,0 +1,70 @@
+{
+  "video_id": "mORFqQ2Pi5M",
+  "seq": 185,
+  "kargin_id": 185,
+  "title": "Kargin Haghordum sketch 365 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "185_Kargin_Haghordum_sketch_365_Hayko_Mko_mORFqQ2Pi5M.hy.json",
+    "visual": true
+  },
+  "input_chars": 5572,
+  "gen_sec": 5.04,
+  "prompt_tokens": 4136,
+  "output_tokens": 494,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00355,
+  "annotation": {
+    "title_hy": "Աշոտիկի քննության ապացույցը",
+    "title_en": "Proof of Ashotik's Exam",
+    "summary_en": "A teacher visits a mother to prove her son cheated on an exam, leading to a hilarious revelation about the boy's honesty.",
+    "summary_detailed_en": "The sketch takes place in a period-style apartment sitting room where a mother (in a patterned robe) receives a visit from her son’s teacher, Anna Surenovna (played by a young man in a dandy-style outfit with a red cravat). The teacher explains that Ashotik is failing most subjects, except for a four in drawing, and accuses him of lying about cheating during an exam. The mother, defensive, blames the boy's struggles on his alcoholic father. Suddenly, the father (wearing a leather jacket) enters after a two-day absence, sparking a brief domestic argument where he jokes that the mother only calls hospitals and morgues to see if he has died yet. The teacher presents papers as evidence of cheating, comparing Ashotik's answers to his classmate Armine's. While the first two answers are identical (including a shared mistake), the punchline arrives with the third question: when asked who wrote 'The Capture of Tmkaberd', Armine wrote 'I don't know', and Ashotik wrote 'I don't know either'.",
+    "keywords_hy": [
+      "դպրոց",
+      "քննություն",
+      "արտագրել",
+      "ուսուցչուհի",
+      "ծնողական",
+      "խաբեություն",
+      "Հովհաննես Թումանյան",
+      "Գևորգ Մարզպետունի"
+    ],
+    "keywords_en": [
+      "school",
+      "exam",
+      "cheating",
+      "teacher",
+      "parental visit",
+      "deception",
+      "Armenian literature",
+      "Ashotik"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "qnnutyun",
+      "artagrel",
+      "usucchuhy",
+      "cnoghakan",
+      "xabeyutyun",
+      "Hovhannes Tumanyan",
+      "Gevorg Marzpetuni"
+    ],
+    "catchphrases": [
+      "զանգել ես մորգերը հիվանդանոցները որ առաջինը իմանաս որ ես սատկել եմ"
+    ],
+    "topics": [
+      "school",
+      "family",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

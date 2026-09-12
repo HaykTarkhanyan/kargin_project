@@ -1,0 +1,75 @@
+{
+  "video_id": "ETyz3YbZ2ls",
+  "seq": 397,
+  "kargin_id": 397,
+  "title": "Kargin Haghordum - Banki talanum (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "397_Kargin_Haghordum_-_Banki_talanum_Hayko_Mko_ETyz3YbZ2ls.hy.json",
+    "visual": true
+  },
+  "input_chars": 1724,
+  "gen_sec": 11.68,
+  "prompt_tokens": 1908,
+  "output_tokens": 615,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002799,
+  "annotation": {
+    "title_hy": "Բանկի կողոպուտ և զոքանչ",
+    "title_en": "Bank Robbery and the Mother-in-Law",
+    "summary_en": "A bank robbery is interrupted by a domestic dispute when a man realizes his own mother-in-law is the customer he is attempting to rob.",
+    "summary_detailed_en": "The sketch begins in a bank lobby where a man in a denim jacket is arguing with an older woman wearing a pearl necklace about withdrawing money for an apartment. The man complains that the current funds only cover a one-bedroom flat, while the woman retorts that she doesn't care about his living conditions as long as her daughter and grandchild can live with her. The tension peaks when a robber wearing a beanie and gloves bursts in, brandishing a gun. He forces everyone to lie down, calls the teller 'beauty,' and demands all the cash. He then orders a bank employee named Avetisyan to bring the security camera recordings. However, the robbery takes a surreal turn when the robber recognizes the customers. The ending reveals a familial connection, as the man in the denim jacket identifies the woman as his mother-in-law ('zoqanch'). The chaotic scene involves a physical struggle with the security guard and a chase through the bank offices as the robber tries to manage his professional crime and his personal family baggage simultaneously.",
+    "keywords_hy": [
+      "բանկ",
+      "կողոպուտ",
+      "զոքանչ",
+      "փող",
+      "ատրճանակ",
+      "բնակարան",
+      "տուն",
+      "հաշիվ",
+      "հարձակում"
+    ],
+    "keywords_en": [
+      "bank",
+      "robbery",
+      "mother-in-law",
+      "money",
+      "gun",
+      "apartment",
+      "teller",
+      "security guard",
+      "heist"
+    ],
+    "keywords_translit": [
+      "bank",
+      "koghoput",
+      "zoqanch",
+      "pogh",
+      "atrtchanak",
+      "bnakaran",
+      "tun",
+      "hashiv",
+      "hardzakum"
+    ],
+    "catchphrases": [
+      "Հլը սաղ պառկած",
+      "Ո՞նց եք ճակատագրի գերիներ",
+      "զորքանչես"
+    ],
+    "topics": [
+      "crime",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

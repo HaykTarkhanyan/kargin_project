@@ -1,0 +1,74 @@
+{
+  "video_id": "3lZpdy48GFI",
+  "seq": 635,
+  "kargin_id": 635,
+  "title": "Kargin Haghordum sketch 557 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "635_Kargin_Haghordum_sketch_557_Hayko_Mko_3lZpdy48GFI.hy.json",
+    "visual": true
+  },
+  "input_chars": 2697,
+  "gen_sec": 5.21,
+  "prompt_tokens": 2495,
+  "output_tokens": 673,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003266,
+  "annotation": {
+    "title_hy": "Աճպարարը Մաքսատանը",
+    "title_en": "The Magician at Customs",
+    "summary_en": "A circus magician visits a high-ranking customs official to ask for a discount on importing rabbits, only to end up in a competitive display of 'magic' tricks.",
+    "summary_detailed_en": "The sketch takes place in a formal government office, where a mustached customs official in a suit sits behind a large desk adorned with the Armenian flag. A visitor wearing a distinctive orange patterned sweater, identifying himself as a circus magician, explains that he needs to clear three rabbits through customs but cannot afford the high fees due to the circus's poor financial state. The official, feeling nostalgic about the circus, agrees to help on the condition that the magician performs a trick. They move to the window, where the magician points out a large truck (fura) outside. Chanting the rhyming words 'Nur, dur, fur,' he makes the truck vanish instantly. The official panics, shouting that the truck was extremely expensive and demanding he bring it back. After the magician 'returns' the vehicle, the official decides to show off his own brand of bureaucratic 'magic.' He points to a truck filled with expensive black caviar and, with a metaphorical wave of his hand, declares that on paper, it has now officially become a truck filled with peas. The sketch satirizes corruption by framing customs fraud as a form of high-level illusionism.",
+    "keywords_hy": [
+      "մաքսատուն",
+      "աճպարար",
+      "ֆոկուս",
+      "ֆուռ",
+      "նապաստակ",
+      "կրկես",
+      "կաշառք",
+      "սև իկրա",
+      "մաքսանենգություն"
+    ],
+    "keywords_en": [
+      "customs office",
+      "magician",
+      "magic trick",
+      "truck",
+      "rabbits",
+      "circus",
+      "corruption",
+      "black caviar",
+      "smuggling"
+    ],
+    "keywords_translit": [
+      "maqsatun",
+      "achparar",
+      "fokus",
+      "fur",
+      "napastak",
+      "krkes",
+      "kasharq",
+      "sev ikra",
+      "maquanengutyun"
+    ],
+    "catchphrases": [
+      "Նուռ, դուռ, ֆուռ",
+      "Արա էս ինչ արիր արա։ Էսի գիտես ինչ թանկանոց ֆուռա շուտ֊շուտ հետ բեր այ կլոուն։"
+    ],
+    "topics": [
+      "bureaucracy",
+      "crime",
+      "work"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

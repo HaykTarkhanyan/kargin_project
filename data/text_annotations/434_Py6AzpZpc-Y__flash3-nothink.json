@@ -1,0 +1,75 @@
+{
+  "video_id": "Py6AzpZpc-Y",
+  "seq": 434,
+  "kargin_id": 434,
+  "title": "Kargin Haghordum - Tashuma (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1857,
+  "gen_sec": 6.58,
+  "prompt_tokens": 2042,
+  "output_tokens": 661,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003004,
+  "annotation": {
+    "title_hy": "Քար տաշող բանվորները",
+    "title_en": "The Stone Carvers",
+    "summary_en": "Three laborers discuss their heavy workload and their suspicions that their wives are being 'carved' by other men, based on the new luxury items appearing in their homes.",
+    "summary_detailed_en": "Set in a rundown industrial yard with a rusty metal shed and stacked bricks, three men dressed in matching khaki work jackets and dark berets take a break from their labor. The scene begins with them discussing the grueling task of carving stones, getting confused over the math of their daily quota and the remaining stones to be carved. The conversation shifts to their lunch break and family life. One laborer laments that his wife ignores him and expresses suspicion about her infidelity, noting that whenever he returns home, there is a new chandelier, leading him to joke that the boss of a chandelier factory is 'carving' (tashum) her. A second laborer shares similar suspicions, claiming a furniture store owner must be 'carving' his wife because he constantly finds new furniture at home. The sketch concludes with the third worker claiming the director of the public baths is 'carving' his wife; when asked how he knows, he gives the literal punchline that he walked into the bathroom and saw them 'carving'.",
+    "keywords_hy": [
+      "քար տաշող",
+      "բանվորներ",
+      "կասկած",
+      "դավաճանություն",
+      "լուստրա",
+      "մեբել",
+      "բաղնիք",
+      "աշխատանք",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "stone carvers",
+      "laborers",
+      "infidelity",
+      "cheating wife",
+      "chandelier",
+      "furniture",
+      "public baths",
+      "construction site",
+      "workplace humor"
+    ],
+    "keywords_translit": [
+      "qar tashogh",
+      "banvorner",
+      "kaskats",
+      "davachanutyun",
+      "lustra",
+      "mebel",
+      "baghniq",
+      "ashxatanq",
+      "humor"
+    ],
+    "catchphrases": [
+      "սրան լուստրի ցեխի շեֆն ա տաշում",
+      "մեբելի ցեխի տերն ա տաշում",
+      "բաղնիքի դիրեկտրն ա տաշում",
+      "էն օրը մտա բաղնիք տեսա տաշումա"
+    ],
+    "topics": [
+      "work",
+      "family"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

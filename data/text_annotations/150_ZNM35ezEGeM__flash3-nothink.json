@@ -1,0 +1,71 @@
+{
+  "video_id": "ZNM35ezEGeM",
+  "seq": 150,
+  "kargin_id": 150,
+  "title": "Kargin Haghordum sketch 524 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2792,
+  "gen_sec": 20.65,
+  "prompt_tokens": 2463,
+  "output_tokens": 697,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003322,
+  "annotation": {
+    "title_hy": "Խնդիրներ Կնոջ Հետ",
+    "title_en": "Problems with the Wife",
+    "summary_en": "A man seeks medical advice for intimacy issues with his wife, but hilariously clarifies that his 'performance' is perfectly fine with his eleven mistresses.",
+    "summary_detailed_en": "The sketch takes place in a minimalist hospital corridor. A man with a thick mustache wearing a black jacket over a colorful floral shirt is consulting a surgeon dressed in blue scrubs with a surgical mask hanging around his neck. The man is distressed, comparing a doctor to a 'priest in blue clothes,' and explains that he has been having serious 'problems' with his wife for three months. The doctor, assuming the patient is suffering from impotence, reassures him that it happens to everyone and mentions he has used medication for similar issues himself, even though he is not married. Their conversation is briefly interrupted by a young woman named Angela Harutyunyan who enters the frame holding a document, asking for a signature to complete her medical check-up. The doctor tells her to undress behind a curtain for an exam, which she finds unnecessary. After she leaves, the doctor promises the man a cure so effective he will be able to have ten mistresses. The punchline hits when the man reveals he already has eleven mistresses and is successfully cheating; his only medical concern is specifically why things aren't working with his wife.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "կնիկ",
+      "սիրուհի",
+      "դեղ",
+      "պռոբլեմ",
+      "բուժում",
+      "տղամարդու խնդիր"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "wife",
+      "mistress",
+      "impotence",
+      "medication",
+      "medical checkup",
+      "cheating"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivandanoc",
+      "knik",
+      "siruhi",
+      "degh",
+      "problem",
+      "bujum",
+      "tghamardu khndir"
+    ],
+    "catchphrases": [
+      "գիտեմ ասենք որ բժիշկը էդի նույն տերտերնա պռոստը կապուտ շորորով էլի",
+      "Արա փողը պռոբլեմ չի էլի մեռնեմ գլխիդ էն ինչ-որ պետքա կանենք բայց ընենց բան ասեմ դու վնիկատ արա էլի ցավդ տանեմ"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

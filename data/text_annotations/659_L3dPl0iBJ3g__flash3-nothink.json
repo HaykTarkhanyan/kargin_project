@@ -1,0 +1,76 @@
+{
+  "video_id": "L3dPl0iBJ3g",
+  "seq": 659,
+  "kargin_id": 659,
+  "title": "Kargin Haghordum sketch 222 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1242,
+  "gen_sec": 7.7,
+  "prompt_tokens": 1653,
+  "output_tokens": 646,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002765,
+  "annotation": {
+    "title_hy": "Մաթեմատիկայի դասը և պարտքերը",
+    "title_en": "Math Lesson and Debts",
+    "summary_en": "A teacher tries to help a new student with a math problem involving household debts, only to discover the family's unorthodox method of financial management.",
+    "summary_detailed_en": "The sketch is set in a typical school classroom during the day, featuring a male teacher wearing a tan coat, necktie, and eyeglasses. After the math lesson concludes and the other students remain chatting in the background at their desks, the teacher calls over a student named Myasnik for a private tutoring session. The teacher explains that because Myasnik's family recently moved to the neighborhood, he has fallen behind his classmates. To help him catch up, the teacher proposes a 'practical' life-based math word problem. He lists a series of massive debts the family has accrued at the local shop: Myasnik owes 20 dollars, his mother owes 1,000, his sister owes 500, and his father owes a staggering 250,000 dollars. The teacher asks the boy to calculate the total sum needed to pay off the debts. Despite the teacher's encouragement to think hard, Myasnik repeatedly claims he doesn't know the answer. When the teacher asks why he cannot solve it, the boy delivers the punchline: in his family, when they owe that much money, they don't calculate the sum—they simply run away from home.",
+    "keywords_hy": [
+      "դպրոց",
+      "ուսուցիչ",
+      "աշակերտ",
+      "դասարան",
+      "մաթեմատիկա",
+      "խնդիր",
+      "պարտք",
+      "փող",
+      "խանութ",
+      "փախչել"
+    ],
+    "keywords_en": [
+      "school",
+      "teacher",
+      "student",
+      "classroom",
+      "mathematics",
+      "word problem",
+      "debt",
+      "money",
+      "shop",
+      "running away"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "usucich",
+      "ashakert",
+      "dasaran",
+      "matematika",
+      "khndir",
+      "partq",
+      "pogh",
+      "khanut",
+      "pakhchel"
+    ],
+    "catchphrases": [
+      "Խանութին պարտք է մնում"
+    ],
+    "topics": [
+      "school",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

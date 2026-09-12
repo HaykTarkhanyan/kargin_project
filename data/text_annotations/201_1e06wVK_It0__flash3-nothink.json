@@ -1,0 +1,72 @@
+{
+  "video_id": "1e06wVK_It0",
+  "seq": 201,
+  "kargin_id": 201,
+  "title": "Kargin Haghordum sketch 538 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "201_Kargin_Haghordum_sketch_538_Hayko_Mko_1e06wVK_It0.hy.json",
+    "visual": true
+  },
+  "input_chars": 1680,
+  "gen_sec": 21.35,
+  "prompt_tokens": 1912,
+  "output_tokens": 573,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002675,
+  "annotation": {
+    "title_hy": "Վեներական շղթա",
+    "title_en": "Venereal Chain",
+    "summary_en": "A worried man visits the doctor to report a chain reaction of a venereal disease infection spreading through his entire household and beyond.",
+    "summary_detailed_en": "The sketch takes place in a hospital office where a mustached man in a suit visits a doctor and another staff member in a blue coat to discuss a sensitive medical issue. He begins to explain a 'chain' of infections, starting with his son who visited a sauna with a prostitute and contracted a venereal disease (syphilis). The father explains that the son then infected the young housemaid. The man reveals that he himself then caught it from the housemaid. As the doctor listens, the man further admits that he passed the infection to his wife. The escalating series of confessions creates a chaotic realization of how interconnected everyone has become through the disease. The dialogue features colloquialisms and medical concern, ending in a realization of the disaster that one person's actions caused for the whole family circle. The setting includes medical props like ID badges and white coats, emphasizing the clinical yet absurd nature of the conversation.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդություն",
+      "սիֆիլիս",
+      "սաունա",
+      "վարակ",
+      "հիվանդանոց",
+      "ընտանիք",
+      "դավաճանություն"
+    ],
+    "keywords_en": [
+      "doctor",
+      "disease",
+      "syphilis",
+      "sauna",
+      "infection",
+      "hospital",
+      "family",
+      "infidelity"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hivandutyun",
+      "sifilis",
+      "sauna",
+      "varak",
+      "hivandanoc",
+      "yntaniq",
+      "davachanutyun"
+    ],
+    "catchphrases": [
+      "մի հատ կեղտոտ պուտանկի հետ է կապնվում",
+      "ռեկաշետով ես վարակվա",
+      "սաղս վարակվանք"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

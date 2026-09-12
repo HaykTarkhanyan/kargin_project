@@ -1,0 +1,70 @@
+{
+  "video_id": "oO9GgcTPJIM",
+  "seq": 99,
+  "kargin_id": 99,
+  "title": "Kargin Haghordum sketch 640 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "099_Kargin_Haghordum_sketch_640_Hayko_Mko_oO9GgcTPJIM.hy.json",
+    "visual": true
+  },
+  "input_chars": 1851,
+  "gen_sec": 4.26,
+  "prompt_tokens": 2006,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.0028,
+  "annotation": {
+    "title_hy": "Կապիկների բարեկամները և տնայինը",
+    "title_en": "Monkey Relatives and Homework",
+    "summary_en": "A woman gossips on the phone about her son's question about evolution before the boy tries to trick his way out of doing homework.",
+    "summary_detailed_en": "The sketch begins in a living room where a character—a woman with a blonde wig played by a male comedian in drag—is lounging, watching television and talking on a vintage rotary phone. She gossips with a friend named Syos about the joys of married life compared to their past. She recounts a humorous exchange with her son, who asked if humans evolved from monkeys; she mockingly replied that she wouldn't know because she hasn't met his father’s side of the family. The scene shifts when the doorbell rings, and she assumes her son is home from school. A schoolboy enters the house, followed by a mustached man in a red bandana (a delivery person or worker). The woman immediately asks her son about his homework. When the boy claims they weren't assigned any, she becomes suspicious, calling out 'Syuzi' and suggesting that if there is no schoolwork, he must wash the dishes instead. The sketch blends domestic banter with a cynical take on family genetics and academic laziness.",
+    "keywords_hy": [
+      "կապիկ",
+      "տնային աշխատանք",
+      "հեռախոս",
+      "դպրոց",
+      "ամուսնական կյանք",
+      "հումոր",
+      "բարեկամներ",
+      "աման լվալ"
+    ],
+    "keywords_en": [
+      "monkey",
+      "homework",
+      "telephone",
+      "school",
+      "married life",
+      "humor",
+      "relatives",
+      "washing dishes"
+    ],
+    "keywords_translit": [
+      "kapik",
+      "tnayin ashkhatank",
+      "herakhos",
+      "dproc",
+      "amusnakan kyanq",
+      "humor",
+      "barekamner",
+      "aman lval"
+    ],
+    "catchphrases": [
+      "չգիտեմ ես քո հոր բարեկամներին չեմ տեսել",
+      "դե ուրեմն պիտի ամանները լվամ"
+    ],
+    "topics": [
+      "family",
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

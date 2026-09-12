@@ -1,0 +1,66 @@
+{
+  "video_id": "AJV8j3XuVpM",
+  "seq": 411,
+  "kargin_id": 411,
+  "title": "Kargin Haghordum - zgush,kamac (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "411_Kargin_Haghordum_-_zgush_kamac_Hayko_Mko_AJV8j3XuVpM.en.json",
+    "visual": true
+  },
+  "input_chars": 1081,
+  "gen_sec": 12.65,
+  "prompt_tokens": 1547,
+  "output_tokens": 553,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002432,
+  "annotation": {
+    "title_hy": "Ձվածեղ և Զգույշ Կամաց",
+    "title_en": "Omelet and Careful Slow",
+    "summary_en": "A husband gets his revenge on his backseat-driving wife by micromanaging her while she tries to fry eggs in the kitchen.",
+    "summary_detailed_en": "The sketch takes place in a domestic kitchen where a wife character, played in drag wearing a curly wig and an apron, is attempting to cook eggs on a stove. Her mustached husband stands right over her shoulder, intensely observing every move. He begins to aggressively micromanage the cooking process, shouting instructions like a backseat driver. He yells at her to add more butter, panics because she hasn't cracked the eggs yet while the oil is heating, and constantly repeats the phrase 'Careful, slow.' He nags her about adding salt and screams in agony when he thinks the eggs are sticking to the side of the pan. Eventually, the wife snaps and asks him to be quiet so she can do her job. The husband reveals his true motive: he wanted her to experience exactly how he feels when he is driving the car and she won't stop giving him unsolicited advice from the passenger seat. The sketch highlights the domestic tension of constant interference through a role-reversal metaphor.",
+    "keywords_hy": [
+      "ձվածեղ",
+      "խոհանոց",
+      "ամուսիններ",
+      "մեքենա քշել",
+      "զգույշ կամաց",
+      "խորհուրդ տալ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "omelet",
+      "kitchen",
+      "married couple",
+      "driving advice",
+      "careful slow",
+      "backseat driver",
+      "kargin haghordum"
+    ],
+    "keywords_translit": [
+      "dzvadzegh",
+      "khohanots",
+      "amusinner",
+      "meqena qshel",
+      "zgush kamac",
+      "khorhurd tal",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "զգույշ կամաց"
+    ],
+    "topics": [
+      "family",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "4ho-TLZy3xM",
+  "seq": 665,
+  "kargin_id": 665,
+  "title": "Kargin Haghordum sketch 245 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "665_Kargin_Haghordum_sketch_245_Hayko_Mko_4ho-TLZy3xM.tr.json",
+    "visual": true
+  },
+  "input_chars": 1548,
+  "gen_sec": 7.21,
+  "prompt_tokens": 1796,
+  "output_tokens": 605,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002713,
+  "annotation": {
+    "title_hy": "Վարսավիրանոցի որոնումը այգում",
+    "title_en": "Searching for a Barber in the Park",
+    "summary_en": "A visitor from Gori searches for a barbershop in a park to prepare for his father's wedding, only to realize he is asking for directions from a bald local.",
+    "summary_detailed_en": "Set in a rainy autumn park, the sketch features a traveler from Gori who has come to Yerevan for his father's wedding. Carrying a sense of urgency as he must return in two days, he wanders through the park where people are seen walking under umbrellas and an accordion busker plays in the background. He first encounters a man from Karabakh who is also unfamiliar with the area. The traveler is looking for a specific, well-regarded barbershop he was told is located inside the park. He eventually approaches a local man wearing a gold chain who claims to visit the park every single day. When the traveler becomes frustrated that a daily visitor doesn't know the location of the barbershop, the local man reveals the simple, humorous reason for his ignorance: he is completely bald and has never had a need for a barber. The scene emphasizes the absurdity of looking for a service in a public park and the ironic encounter between a man in need of a haircut and one who cannot provide help due to his own lack of hair.",
+    "keywords_hy": [
+      "այգի",
+      "վարսավիրանոց",
+      "քաչալ",
+      "Գորի",
+      "Ղարաբաղ",
+      "հարսանիք",
+      "Երևան",
+      "անձրև",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "park",
+      "barbershop",
+      "bald",
+      "Gori",
+      "Karabakh",
+      "wedding",
+      "Yerevan",
+      "rain",
+      "humor"
+    ],
+    "keywords_translit": [
+      "aygi",
+      "varsaviranoc",
+      "qachal",
+      "Gori",
+      "Gharabagh",
+      "harsaniq",
+      "Yerevan",
+      "andzrev",
+      "humor"
+    ],
+    "catchphrases": [
+      "ինձ պետք չի ախպեր ջան ես քաչալ եմ"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

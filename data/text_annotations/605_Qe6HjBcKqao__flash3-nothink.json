@@ -1,0 +1,70 @@
+{
+  "video_id": "Qe6HjBcKqao",
+  "seq": 605,
+  "kargin_id": 605,
+  "title": "Kargin Haghordum sketch 482 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2717,
+  "gen_sec": 6.12,
+  "prompt_tokens": 2475,
+  "output_tokens": 595,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003023,
+  "annotation": {
+    "title_hy": "Ոստիկանություն և Սամվելը",
+    "title_en": "The Police and Samvel",
+    "summary_en": "A suspect is repeatedly beaten at a police station because officers cannot verify his address, unaware that his friend is covering for him by lying to the investigators.",
+    "summary_detailed_en": "The sketch takes place in a police station office where a captain and his subordinate are interrogating a disheveled man detained for sleeping in a park without identification. The officers are frustrated because every time they send someone to verify the man's address—Komitas 25, Apartment 2—the report comes back saying no such person lives there. The captain scolds his subordinate for his aggressive interrogation techniques, jokingly asking if he thinks this is the Ministry of Culture or a woodworking shop, yet he eventually joins in the threats as the suspect insists on the same address. The scene includes physical comedy as the officers rough up the detainee, who identifies himself as Samvel Khachatryan. After a final phone check confirms the address is 'empty' of such a resident, the captain decides to release the man to avoid further trouble. The punchline occurs outside the station, where Samvel meets his friend. The friend asks for a treat (magharich) as a favor, revealing he was the one the police spoke to; he proudly claims he protected Samvel by telling the police three times that no one by that name lived there.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "հարցաքննություն",
+      "ծեծ",
+      "հասցե",
+      "Կոմիտաս",
+      "ոստիկան",
+      "բաժին",
+      "սխալմունք"
+    ],
+    "keywords_en": [
+      "police station",
+      "interrogation",
+      "beating",
+      "address",
+      "Komitas",
+      "police officer",
+      "misunderstanding",
+      "alibi"
+    ],
+    "keywords_translit": [
+      "vostikanutyun",
+      "harcaqnnutyun",
+      "ceckrtuq",
+      "hasce",
+      "Komitas",
+      "milica",
+      "bazhin",
+      "sxalmunq"
+    ],
+    "catchphrases": [
+      "դու չփոշմանես"
+    ],
+    "topics": [
+      "police",
+      "neighbors",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "ofvCL_U2Er0",
+  "seq": 79,
+  "kargin_id": 79,
+  "title": "Kargin Haghordum sketch 663 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2391,
+  "gen_sec": 20.24,
+  "prompt_tokens": 2320,
+  "output_tokens": 596,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002948,
+  "annotation": {
+    "title_hy": "Ուզբեկ փեսան և օժիտը",
+    "title_en": "The Uzbek Groom and the Dowry",
+    "summary_en": "A protective father refuses to let his daughter marry an Uzbek man until the suitor starts offering increasing amounts of cash.",
+    "summary_detailed_en": "The sketch begins in a kitchen where a mustached father, Styop, complains to his wife (a performer in a curly red wig) about their daughter's suitor. Styop is adamant that his daughter must marry an Armenian, or at the very least, someone from a 'developed' country like England or Japan, so he can maintain his reputation in the neighborhood. He mocks the suitor's Uzbek heritage, recalling his own army days in Afghanistan. The daughter enters, urging them to meet the guest who has been waiting for two hours. The scene shifts to a living room where they meet the suitor, Ian, who is dressed in a suit. Through the daughter’s translation, Ian asks for permission to marry her. Styop initially refuses, stating his daughter is not for sale. However, as Ian offers $10,000, then $40,000, then $50,000, Styop’s resolve weakens. When the offer reaches $80,000, Styop looks at the stack of hundred-dollar bills and suddenly decides that the suitor actually looks more Japanese than Uzbek, happily accepting the match.",
+    "keywords_hy": [
+      "ուզբեկ",
+      "փեսա",
+      "փող",
+      "ամուսնություն",
+      "դոլար",
+      "հարսանիք",
+      "քուչա",
+      "զարգացած երկիր"
+    ],
+    "keywords_en": [
+      "Uzbek",
+      "groom",
+      "money",
+      "marriage",
+      "dollars",
+      "wedding",
+      "neighborhood reputation",
+      "dowry"
+    ],
+    "keywords_translit": [
+      "uzbek",
+      "pesa",
+      "pogh",
+      "amusnutyun",
+      "dolar",
+      "harsaniq",
+      "qucha",
+      "zargacac erkir"
+    ],
+    "catchphrases": [
+      "արա էսի ուզբեկ ա"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

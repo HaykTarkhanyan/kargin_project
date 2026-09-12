@@ -1,0 +1,71 @@
+{
+  "video_id": "GYewdqQfAws",
+  "seq": 685,
+  "kargin_id": 685,
+  "title": "Kargin Haghordum sketch 265 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "685_Kargin_Haghordum_sketch_265_Hayko_Mko_GYewdqQfAws.hy.json",
+    "visual": true
+  },
+  "input_chars": 915,
+  "gen_sec": 5.89,
+  "prompt_tokens": 1447,
+  "output_tokens": 621,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002587,
+  "annotation": {
+    "title_hy": "Լեյտենանտ Հարությունյանի ճանապարհային տուրքը",
+    "title_en": "Lieutenant Harutyunyan's Road Toll",
+    "summary_en": "A corrupt traffic police officer stops a driver and lists an increasingly serious series of violations just to extract a bribe.",
+    "summary_detailed_en": "The sketch is set on a quiet rural road during the day, where a traffic police officer, Lieutenant Harutyunyan, is stationed. Wearing a standard police cap and carrying a baton, he stops a vehicle to perform a routine check that quickly turns into an interrogation. The officer confronts the driver with a mounting list of serious legal infractions: crossing the solid line, exceeding the speed limit, and driving under the influence of alcohol. He even escalates the accusations by claiming the vehicle itself is stolen. Despite the gravity of these crimes—speeding, drunk driving, and grand theft auto—the tone remains cynical rather than urgent. The interaction follows the familiar pattern of roadside corruption in the series, where the officer uses the intimidation of these charges solely to facilitate a bribe. The scene concludes as the officer accepts cash handed through the window and immediately allows the criminal driver to continue on their way, ignoring all the violations he just listed.",
+    "keywords_hy": [
+      "պետավտոտեսուչ",
+      "ոստիկան",
+      "կաշառք",
+      "ճանապարհային ոստիկանություն",
+      "արագության գերազանցում",
+      "ալկոհոլ",
+      "գողացած մեքենա",
+      "տուգանք"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "police officer",
+      "bribe",
+      "speeding",
+      "drunk driving",
+      "stolen car",
+      "corruption",
+      "highway patrol"
+    ],
+    "keywords_translit": [
+      "petavtotesuch",
+      "vostikan",
+      "kasharq",
+      "chanaparhayin vostikanutyun",
+      "aragutyan gerazancum",
+      "alkohol",
+      "goxacac meqena",
+      "tuganq"
+    ],
+    "catchphrases": [
+      "Լեյտենանտ Հարությունյան,դուք",
+      "ու ձեր արագությունը գերազանցում է նորման,ու ալկո"
+    ],
+    "topics": [
+      "police",
+      "transport",
+      "crime"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

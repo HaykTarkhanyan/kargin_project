@@ -1,0 +1,70 @@
+{
+  "video_id": "DRblWvbacrM",
+  "seq": 362,
+  "kargin_id": 362,
+  "title": "Kargin Haghordum sketch 420 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1426,
+  "gen_sec": 25.74,
+  "prompt_tokens": 1689,
+  "output_tokens": 617,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002695,
+  "annotation": {
+    "title_hy": "Մուկ բռնելու նոր ձևը",
+    "title_en": "The New Way to Catch a Mouse",
+    "summary_en": "A woman frantically tries to hide her lover when her husband returns home early, leading to a bizarre excuse involving a mouse and a white sack.",
+    "summary_detailed_en": "The sketch begins with a frantic scene in an apartment where a woman wearing a red robe is seen rushing between the bedroom and the stairwell. A shirtless man is lounging in her bed, and they engage in a brief, chaotic interaction involving a pillow. The tension rises as the woman realizes her husband has returned home unexpectedly early. In the hallway, she encounters her husband, a man dressed in a formal suit and carrying a briefcase. He praises himself for being a good husband who provided the car and the home renovations, noting his punctual work schedule. However, he catches her in a state of disarray. To explain the presence of another man or the general chaos, a bizarre plan is hatched involving a large white sack (or coat). The husband forces the white garment over the woman's head, claiming it is a 'new way' to drive a mouse out of the house by shouting 'ksh-ksh' at it. The sketch ends with a meta-joke when the hidden lover, instead of fleeing, asks why the husband isn't leaving yet, as he is interested in this mouse-catching method for his own home.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "մուկ",
+      "ամուսին",
+      "կնոջ սիրեկան",
+      "խալաթ",
+      "ծիծաղելի իրավիճակ",
+      "քշել",
+      "մեշոկ"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "mouse",
+      "husband",
+      "lover",
+      "robe",
+      "funny situation",
+      "hiding",
+      "excuse"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "muk",
+      "amusin",
+      "knoj sirekan",
+      "khalat",
+      "tsitsagheli iravichak",
+      "qshel",
+      "meshok"
+    ],
+    "catchphrases": [
+      "ինչի չես գնում մեր տանն էլ մուկ կա ինձելա հետաքրքիր"
+    ],
+    "topics": [
+      "family",
+      "romance",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

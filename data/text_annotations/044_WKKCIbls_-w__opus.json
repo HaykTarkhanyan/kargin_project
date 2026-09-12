@@ -1,0 +1,78 @@
+{
+  "video_id": "WKKCIbls_-w",
+  "seq": 44,
+  "kargin_id": 44,
+  "title": "Kargin Haghordum sketch 609 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2416,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Ծնգա հա ծնգ",
+    "title_en": "The Bucket Alarm",
+    "summary_en": "A villager rigs a pipe-and-bucket alarm so his wife can summon him from a distant field, insisting she only sound it for real emergencies; she keeps ringing it over trivia, and the one report that finally satisfies him is a horrifying one.",
+    "summary_detailed_en": "In and around a half-ruined village house and a grass field, a long-haired villager in a work shirt explains his invention straight to camera: an ordinary bucket and an ordinary pipe, which his wife is to bang together if anything happens while he is away mowing, three kilometres off. He drills her and their two sons on the rule - only ring it for something serious. He leaves with his scythe and the banging starts almost at once. He runs back: the boys were throwing stones at each other. He rages and returns to the field. It rings again: the washing line snapped and the laundry is in the mud. He threatens to take the scythe to her if she ever rings it for nothing again. The final time she reports that intruders robbed the house, tied up the children and assaulted her - and he answers approvingly that this one is different: now that is worth ringing for. The joke is the husband's monstrous scale of what counts as an emergency.",
+    "keywords_hy": [
+      "գյուղ",
+      "վեդռո",
+      "տռուբա",
+      "ծնգոց",
+      "դաշտ",
+      "գերանդի",
+      "խոտ հնձել",
+      "կնիկ",
+      "երեխեքը",
+      "թալան"
+    ],
+    "keywords_en": [
+      "village",
+      "bucket",
+      "pipe",
+      "alarm signal",
+      "field",
+      "scythe",
+      "mowing",
+      "wife",
+      "children",
+      "robbery"
+    ],
+    "keywords_translit": [
+      "gyugh",
+      "vedro",
+      "truba",
+      "tsngots",
+      "dasht",
+      "gerandi",
+      "khot hndzel",
+      "knik",
+      "yerekhek",
+      "talan"
+    ],
+    "catchphrases": [
+      "ծնգա հա ծնգ",
+      "ըհը այ էսի ուրիշ բան"
+    ],
+    "topics": [
+      "village",
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

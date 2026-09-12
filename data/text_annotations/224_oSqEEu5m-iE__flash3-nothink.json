@@ -1,0 +1,71 @@
+{
+  "video_id": "oSqEEu5m-iE",
+  "seq": 224,
+  "kargin_id": 224,
+  "title": "Kargin Haghordum - Txamard em uzum (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "224_Kargin_Haghordum_-_Txamard_em_uzum_Hayko_Mko_oSqEEu5m-iE.hy.json",
+    "visual": true
+  },
+  "input_chars": 1405,
+  "gen_sec": 6.65,
+  "prompt_tokens": 1730,
+  "output_tokens": 572,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002581,
+  "annotation": {
+    "title_hy": "Տղամարդ եմ ուզում, հեծանիվ եմ ուզում",
+    "title_en": "I Want a Man, I Want a Bicycle",
+    "summary_en": "A young man wearing a wig fantasizes about being a beautiful woman pursued by a lover, only to reveal his true material desire to his friend.",
+    "summary_detailed_en": "In a home setting, a boy is seen wearing a long blonde wig, standing in front of a mirror and acting out a dramatic feminine persona. He laments that his beauty is going to waste and repeatedly exclaims that he wants a man. The scene shifts into a fantasy sequence where a man with a mustache appears, offering him a rose. The boy, in drag, flirtatiously tells the man he was just dreaming of him. However, the reality is interrupted by the presence of another boy (Mushegh) sitting at a nearby desk with a notebook and pencil, whom the 'woman' sharply tells to stop staring and get back to his lessons. After the romantic roleplay with the man, the sketch reaches its punchline when the character drops the romantic act and suddenly shouts that he actually just wants a bicycle. The humor derives from the absurd contrast between the intense, dramatic drag performance and the childish, mundane desire for a bike.",
+    "keywords_hy": [
+      "կեղծամ",
+      "հեծանիվ",
+      "երազանք",
+      "տղամարդ",
+      "հայելու առաջ",
+      "դասեր",
+      "ծաղիկ",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "wig",
+      "bicycle",
+      "fantasy",
+      "man",
+      "mirror",
+      "homework",
+      "flower",
+      "comedy",
+      "drag"
+    ],
+    "keywords_translit": [
+      "kexcam",
+      "hecaniv",
+      "erazanq",
+      "txamard",
+      "hayelu araj",
+      "daser",
+      "caxik",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "հեծանիվ եմ ուզում",
+      "տղամարդ եմ ուզում"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

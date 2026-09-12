@@ -1,0 +1,68 @@
+{
+  "video_id": "oewiZYAGujY",
+  "seq": 646,
+  "kargin_id": 646,
+  "title": "Kargin Haghordum sketch 589 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "646_Kargin_Haghordum_sketch_589_Hayko_Mko_oewiZYAGujY.hy.json",
+    "visual": true
+  },
+  "input_chars": 2817,
+  "gen_sec": 3.66,
+  "prompt_tokens": 2502,
+  "output_tokens": 407,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002472,
+  "annotation": {
+    "title_hy": "Մահամերձի Խոստովանությունը",
+    "title_en": "Deathbed Confession",
+    "summary_en": "A dying man confesses his infidelities to his wife, only to discover she already knew and has taken her own revenge.",
+    "summary_detailed_en": "The sketch takes place in a bedroom where a mustached man named Gagik lies gravely ill in bed. A female doctor finishes her examination with a stethoscope and advises the family that while he should be in the hospital, they can wait until morning to see if his condition improves. The man's son and daughter are present, appearing concerned. After the doctor and children leave the room to prepare tea, Gagik is left alone with his wife, Margarit (a middle-aged woman played by a male actor in a blonde bob wig and makeup). Fearing he won't survive the night, Gagik asks Margarit to close the door so he can confess his sins. He admits to having slept with her sister and even her mother. The sketch concludes with a dark comedic twist when Margarit calmly reveals she already knew about his betrayals, which is exactly why she has poisoned him, explaining his terminal state.",
+    "keywords_hy": [
+      "հիվանդ",
+      "խոստովանություն",
+      "դավաճանություն",
+      "թույն",
+      "բժիշկ",
+      "մահամերձ",
+      "կնոջ դեր"
+    ],
+    "keywords_en": [
+      "sick man",
+      "confession",
+      "infidelity",
+      "poison",
+      "doctor",
+      "deathbed",
+      "drag",
+      "betrayal"
+    ],
+    "keywords_translit": [
+      "hivand",
+      "xostovanutyun",
+      "davachanutyun",
+      "tuyun",
+      "bjishk",
+      "mahamerdz",
+      "knoj der"
+    ],
+    "catchphrases": [
+      "Գիտեմ Գագ ջան գիտեմ դրա համար էլ քեզ թույն էլ եմ։"
+    ],
+    "topics": [
+      "family",
+      "medical",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "yW_p-x7N2bw",
+  "seq": 237,
+  "kargin_id": 237,
+  "title": "Kargin Haghordum sketch 319 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2940,
+  "gen_sec": 35.28,
+  "prompt_tokens": 2649,
+  "output_tokens": 694,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003406,
+  "annotation": {
+    "title_hy": "Հոգեբանն ու Անմերժելի Կինը",
+    "title_en": "The Psychologist and the Irresistible Woman",
+    "summary_en": "A psychologist mistakenly labeled as 'insane' due to a typo on his door treats a woman who suffers not from her inability to refuse men, but from the guilt she feels the next day.",
+    "summary_detailed_en": "The sketch is set in a doctor's office where a bespectacled psychologist in a white coat is first seen complaining to a sign-maker. The sign-maker made a typo on his office door, writing 'Hogekan' (Insane/Mental) instead of 'Hogeban' (Psychologist), which caused a five-day lack of patients until a nurse noticed. A woman in a green sweater, referred by a mutual friend, enters the office for a consultation. She confides in the doctor that she is searching for her soulmate but has a recurring problem: she is unable to refuse any man's advances, and every date ends in bed. The doctor, constantly repeating 'lav, lav, lav' (good, good, good) with exaggerated gestures, listens intently. When he proposes to use hypnosis so she can finally start saying 'no' to men, the woman delivers the punchline: she doesn't want to learn how to refuse them; she just wants the doctor to make her stop feeling like a fool the next morning. The doctor is left stunned by her logic.",
+    "keywords_hy": [
+      "հոգեբան",
+      "հիվանդանոց",
+      "տրաֆարետ",
+      "սխալ",
+      "հիպնոզ",
+      "խորհրդատվություն",
+      "կին",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "psychologist",
+      "hospital",
+      "stencil",
+      "typo",
+      "hypnosis",
+      "consultation",
+      "woman",
+      "funny"
+    ],
+    "keywords_translit": [
+      "hogeban",
+      "hivandanoc",
+      "trafaret",
+      "sxal",
+      "hipnoz",
+      "xorhrdatvutyun",
+      "kin",
+      "caxali"
+    ],
+    "catchphrases": [
+      "Լա լա լա լա լա լա լա լավ, լավ",
+      "դուք հիվանդանոց եք եկել, ոչ թե քաղմաս",
+      "բայց ինչու մերժել, դուք չեք կարող ուղղակի էնպես անել, որ ես ինձ հիմար չզգամ"
+    ],
+    "topics": [
+      "medical",
+      "romance",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

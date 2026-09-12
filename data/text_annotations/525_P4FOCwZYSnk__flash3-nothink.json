@@ -1,0 +1,72 @@
+{
+  "video_id": "P4FOCwZYSnk",
+  "seq": 525,
+  "kargin_id": 525,
+  "title": "Kargin Haghordum sketch 159 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "525_Kargin_Haghordum_sketch_159_Hayko_Mko_P4FOCwZYSnk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1801,
+  "gen_sec": 5.47,
+  "prompt_tokens": 1997,
+  "output_tokens": 600,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002798,
+  "annotation": {
+    "title_hy": "Կնոջ դավաճանությունը և փակված ծակը",
+    "title_en": "Wife's Infidelity and the Covered Keyhole",
+    "summary_en": "A man asks his friend to spy on his wife, but the investigation ends abruptly when a piece of clothing covers the keyhole at the critical moment.",
+    "summary_detailed_en": "The sketch takes place in a narrow apartment hallway featuring wood-paneled doors. A man (Sur) meets his friend to get a report on his wife's fidelity, having previously given the friend his house keys to facilitate the surveillance. The friend describes how he caught the wife entering the house with a young man around twenty years old. He explains that he followed them inside and watched through a hole in the bedroom door. The storytelling is intercut with intense, stylized black-and-white shots of the men physically grappling and confronting each other closely. The friend details how the wife turned on music and began a striptease, removing her denim jacket and then her sweater. As the tension peaks and the husband eagerly asks what happened after she removed her bra, the friend reveals the anticlimax: the wife threw her bra right onto the door, perfectly covering the peephole and blocking his view. The sketch ends with the husband's frustration at the unresolved and uncertain situation.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "հետևել",
+      "բանալի",
+      "հարևան",
+      "ծակ",
+      "լվճիկ",
+      "կնիկ",
+      "կասկած"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "spying",
+      "keyhole",
+      "surveillance",
+      "cheating wife",
+      "apartment hallway",
+      "denim jacket",
+      "lingerie"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "hetevel",
+      "banali",
+      "harevan",
+      "tsak",
+      "lvchik",
+      "knik",
+      "kaskats"
+    ],
+    "catchphrases": [
+      "այդ երգը ես լավ եմ հիշում",
+      "սկսեց պարել",
+      "դրանից հետո բան չես տեսել"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

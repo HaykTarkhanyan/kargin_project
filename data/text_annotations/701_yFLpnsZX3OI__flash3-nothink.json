@@ -1,0 +1,71 @@
+{
+  "video_id": "yFLpnsZX3OI",
+  "seq": 701,
+  "kargin_id": 701,
+  "title": "Kargin Haghordum sketch 404 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "701_Kargin_Haghordum_sketch_404_Hayko_Mko_yFLpnsZX3OI.hy.json",
+    "visual": true
+  },
+  "input_chars": 1049,
+  "gen_sec": 10.26,
+  "prompt_tokens": 1572,
+  "output_tokens": 646,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002724,
+  "annotation": {
+    "title_hy": "Մոսկովսկի Պրիվետ և Կեսգիշերային Զանգ",
+    "title_en": "Moscow Greeting and the Midnight Call",
+    "summary_en": "A tuxedo-clad man experiences a breakdown in a luxury setting, leading to a confusing and possibly tragic late-night phone call about his wife.",
+    "summary_detailed_en": "The sketch opens in a high-end location, possibly a hotel suite or a mansion, where a man wearing a tuxedo escorts a woman in a blue evening gown down a grand staircase. The atmosphere initially suggests wealth and elegance. After the woman departs, the tone shifts dramatically as the man begins to struggle emotionally. In a moment of internal conflict, he is seen arguing with his own reflection in a wardrobe mirror, showcasing a fragmented mental state. He eventually slumps into an armchair and decides to make a phone call in the middle of the night. The dialogue is a mix of Russian and Armenian, featuring phrases like 'Moskovski privet.' He calls a man to check in, but the conversation turns dark when he mentions 'Vardush,' the man's wife. Despite the caller claiming to be doing well, the recipient of the call indicates things are 'not good.' The visual transitions conclude with a shot of a smiling woman's face, contrasting with the man's disheveled state and the somber news about his wife.",
+    "keywords_hy": [
+      "սմոքինգ",
+      "հեռախոսազանգ",
+      "հայելու հետ խոսել",
+      "Մոսկովսկի պրիվետ",
+      "Վարդուշ",
+      "կեսգիշեր",
+      "հարուստ",
+      "կապույտ զգեստ"
+    ],
+    "keywords_en": [
+      "tuxedo",
+      "phone call",
+      "talking to mirror",
+      "Moscow greeting",
+      "Vardush",
+      "midnight",
+      "wealthy",
+      "blue dress"
+    ],
+    "keywords_translit": [
+      "smoking",
+      "heraxosazang",
+      "hayelu het xosel",
+      "Moskovski privet",
+      "Vardush",
+      "kesgisher",
+      "harust",
+      "kapuyt zgest"
+    ],
+    "catchphrases": [
+      "ախպոր աս",
+      "վար ջան մասկովսկի պրիմետ",
+      "ապե կինդ Վարդուշը"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

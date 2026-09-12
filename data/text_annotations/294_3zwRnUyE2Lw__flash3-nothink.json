@@ -1,0 +1,70 @@
+{
+  "video_id": "3zwRnUyE2Lw",
+  "seq": 294,
+  "kargin_id": 294,
+  "title": "Kargin Haghordum sketch 412 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "294_Kargin_Haghordum_sketch_412_Hayko_Mko_3zwRnUyE2Lw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1152,
+  "gen_sec": 5.19,
+  "prompt_tokens": 1604,
+  "output_tokens": 582,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002548,
+  "annotation": {
+    "title_hy": "Առաջին ամուսնական գիշերը",
+    "title_en": "The First Wedding Night",
+    "summary_en": "A groom praises his new bride's virtue on their wedding night, unaware of the ironic truth behind her 'purity.'",
+    "summary_detailed_en": "The sketch takes place in an apartment bedroom immediately following a wedding ceremony. A man dressed as a bride (played in drag) wearing a curly wig, a white veil, and a full wedding gown is comically carried and jostled through a hallway and into the room by a groom wearing a white dress shirt and tie. The groom sets her down and sits beside her on the bed, beginning to loosen his tie as he prepares for their first night together. He speaks sentimentally, telling her that if she had given herself to him before marriage, he would never have married her because he would have realized she wasn't 'the one.' He praises her for knowing what she was doing by making him wait. The punchline arrives when the bride, speaking with a cynical tone, admits that she only 'knew what she was doing' because of how many times she had been screwed over or failed before finally finding the right way to deceive him or play the part correctly.",
+    "keywords_hy": [
+      "ամուսնություն",
+      "հարսանիք",
+      "հարս",
+      "փեսա",
+      "առաջին գիշեր",
+      "խաբեություն",
+      "կատակերգություն",
+      "զավեշտ"
+    ],
+    "keywords_en": [
+      "marriage",
+      "wedding",
+      "bride in drag",
+      "groom",
+      "wedding night",
+      "deception",
+      "comedy",
+      "first night"
+    ],
+    "keywords_translit": [
+      "amusnutyun",
+      "harsaniq",
+      "hars",
+      "pesa",
+      "arajin gisher",
+      "khabeyutyun",
+      "katakergutyun",
+      "zavesht"
+    ],
+    "catchphrases": [
+      "Որ իմանաս քանի անգամ եմ քաշվել մինչև ճիշտ ձևը գտել եմ"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

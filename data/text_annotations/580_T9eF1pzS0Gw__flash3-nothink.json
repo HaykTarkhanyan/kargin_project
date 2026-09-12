@@ -1,0 +1,71 @@
+{
+  "video_id": "T9eF1pzS0Gw",
+  "seq": 580,
+  "kargin_id": 580,
+  "title": "Kargin Haghordum sketch 431 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "580_Kargin_Haghordum_sketch_431_Hayko_Mko_T9eF1pzS0Gw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1341,
+  "gen_sec": 8.89,
+  "prompt_tokens": 1697,
+  "output_tokens": 617,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.0027,
+  "annotation": {
+    "title_hy": "Երկգլխանի երեխան և հիվանդանոցը",
+    "title_en": "The Two-Headed Baby and the Hospital",
+    "summary_en": "A young man visits a patient in drag who is obsessed with a dream about a two-headed baby before he disguises himself as a doctor.",
+    "summary_detailed_en": "The sketch begins in an ornately decorated hospital room where a young man is visiting an elderly female patient, played by a male actor in a blonde wig and floral nightgown. The patient, Heghin, is distressed about a recurring nightmare involving giving birth to a two-headed baby. The young man attempts to comfort her, even engaging in a brief pillow scuffle, before receiving a phone call. He encourages her to breathe as if in labor, shouting 'Shnchi!' (Breathe!). In a shift of setting, the man puts on a white doctor's coat and walks confidently down a hospital corridor, gesturing dramatically to others. He encounters a surgeon in green scrubs and a surgical cap. They discuss the delivery of the baby. The man is relieved to hear that the child was born with only one head, thanking God for the outcome. The humor stems from the character's transition from a visitor to a fake medical professional and the absurdity of the patient's birth-related anxieties.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "ծննդաբերություն",
+      "բժիշկ",
+      "երազ",
+      "երկգլխանի երեխա",
+      "Հեղին",
+      "սպիտակ խալաթ",
+      "զավեշտ"
+    ],
+    "keywords_en": [
+      "hospital",
+      "childbirth",
+      "doctor",
+      "dream",
+      "two-headed baby",
+      "Heghin",
+      "white coat",
+      "comedy sketch"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "cnndaberutyun",
+      "bjishk",
+      "eraz",
+      "erkglxani erexa",
+      "Heghin",
+      "spitak xalat",
+      "zavesht"
+    ],
+    "catchphrases": [
+      "ոչինչ կանցնի ոչինչ ջան",
+      "շնչի շնչի",
+      "երկու գլխանի հա"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

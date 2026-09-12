@@ -1,0 +1,69 @@
+{
+  "video_id": "h7IqrsqBy1M",
+  "seq": 295,
+  "kargin_id": 295,
+  "title": "Kargin Haghordum sketch 414 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1942,
+  "gen_sec": 6.21,
+  "prompt_tokens": 2082,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002862,
+  "annotation": {
+    "title_hy": "Բժշկի մոմիկները և գիշերային զանգը",
+    "title_en": "The Doctor's Suppositories and the Late Call",
+    "summary_en": "An elderly couple confuses their medication instructions and decides to call their doctor in the middle of the night to ask what to do with a suppository.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit apartment where two elderly men (one wearing a headscarf, though not explicitly in drag according to the visual data) sit at a table cluttered with medical items. Rafik is complaining about back pain while his partner, Azgush, tries to organize a confusing array of medications. Azgush recites a complicated schedule: some pills are for before eating, some for after, and others are specifically for before or after using the restroom. They reach a point of confusion regarding 'momikner' (suppositories/candles). Rafik suggests he should probably just swallow them, but Azgush insists they must call Doctor Petrosyan immediately to be sure, despite it being one in the morning. After a brief argument about the etiquette of waking a doctor late at night, Rafik gives in to Azgush's persistence and dials the phone. He politely introduces himself, but as soon as he asks what he should do with the suppositories, the doctor presumably delivers a vulgar response. Rafik hangs up, frustratedly telling his wife that he knew the doctor would get angry and swear at them for calling so late.",
+    "keywords_hy": [
+      "դեղեր",
+      "բժիշկ",
+      "մոմիկ",
+      "զանգ",
+      "հիվանդ",
+      "գիշեր",
+      "ծերունի",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "medication",
+      "doctor",
+      "suppository",
+      "late night call",
+      "patient",
+      "elderly couple",
+      "medical confusion",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "degher",
+      "bjishk",
+      "momik",
+      "zang",
+      "hivand",
+      "gisher",
+      "tseruni",
+      "humor"
+    ],
+    "catchphrases": [
+      "ԷԷ դե այ կնիկ ասի չզանգեմ ուշ ժամա"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

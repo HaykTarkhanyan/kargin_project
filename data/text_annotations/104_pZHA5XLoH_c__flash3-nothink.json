@@ -1,0 +1,67 @@
+{
+  "video_id": "pZHA5XLoH_c",
+  "seq": 104,
+  "kargin_id": 104,
+  "title": "Kargin Haghordum sketch 645 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "104_Kargin_Haghordum_sketch_645_Hayko_Mko_pZHA5XLoH_c.hy.json",
+    "visual": true
+  },
+  "input_chars": 1825,
+  "gen_sec": 10.9,
+  "prompt_tokens": 1964,
+  "output_tokens": 509,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002509,
+  "annotation": {
+    "title_hy": "Դավաճանություն և ալարկոտ սիրեկանը",
+    "title_en": "Adultery and the Lazy Lover",
+    "summary_en": "A woman complains about her lover's lack of romantic enthusiasm in bed, only for the scene to turn chaotic when the risk of being caught by her husband arises.",
+    "summary_detailed_en": "The sketch takes place in a bedroom during the day. A woman is in bed with a man, and she is frustrated by his lack of romantic passion. She complains that he never gives her compliments, telling him that his tongue will dry up if he ever says something nice like 'you are incomparable.' She forces him to repeat romantic phrases after her, such as 'you are the only one for me' and 'I am crazy about you.' When she asks him to say something original from his own heart, he simply says 'good night.' Offended by his apathy, she laments that she is betraying her 'pure and honest' husband for such a 'nobody.' The man dismisses her guilt, arguing that since the husband is at work, they are just keeping busy rather than truly betraying him. The dynamic shifts when a second man (the husband) is sensed, causing the first man to jump out of bed shirtless in a panic, frantically grabbing his clothes from the closet to flee, while the woman reminds him that his place is only in the bedding, not in the house.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "անկողին",
+      "ննջարան",
+      "սիրեկան",
+      "ամուսին",
+      "զուլալ",
+      "բարի գիշեր"
+    ],
+    "keywords_en": [
+      "betrayal",
+      "adultery",
+      "bedroom",
+      "lover",
+      "cheating",
+      "husband",
+      "laziness"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "ankoghin",
+      "nnjaran",
+      "sirekan",
+      "amusin",
+      "zulal",
+      "bari gisher"
+    ],
+    "catchphrases": [
+      "լեզուդ կչորանան մի օր ասես լավ էր",
+      "քանի անգամ քեզ ասեմ քո տեղը տեղաշորումա էս իրա տեղնա"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

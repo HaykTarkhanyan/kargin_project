@@ -1,0 +1,70 @@
+{
+  "video_id": "088OKSJV3QE",
+  "seq": 534,
+  "kargin_id": 534,
+  "title": "Kargin Haghordum sketch 168 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "534_Kargin_Haghordum_sketch_168_Hayko_Mko_088OKSJV3QE.hy.json",
+    "visual": true
+  },
+  "input_chars": 1463,
+  "gen_sec": 6.77,
+  "prompt_tokens": 1781,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002712,
+  "annotation": {
+    "title_hy": "Հիվանդանոցի սպասասրահում և դագաղագործը",
+    "title_en": "Hospital Waiting Room and the Carpenter",
+    "summary_en": "A hypochondriac man worries about his health in a hospital waiting room, only to have his results read by a man who turns out to be a coffin maker.",
+    "summary_detailed_en": "The sketch takes place in a hospital waiting room with blue chairs. Two men are engaged in an animated conversation. One character, Abo, is trying to calm his friend who is convinced he is deathly ill. The hypochondriac friend complains about a constant stomach ache, headaches, and a leg cramp, while Abo dismisses these symptoms as psychological. A man in a lab coat holding documents enters the scene, appearing to be a medical professional. He approaches the pair and calls out for Samvel Petrosyan. When the patient confirms his identity, the man in the coat asks for his height (1 meter 75 centimeters). The patient, hoping for a diagnosis, asks how his test results look. In a dark comedic twist, the man in the coat reveals he is not a doctor, but a 'plotnik' (carpenter) who is there to measure the man for a coffin. The sketch ends with the patient's realization of his impending 'fate'.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "անալիզներ",
+      "բժիշկ",
+      "դագաղագործ",
+      "հիվանդ",
+      "ստամոքսի ցավ",
+      "սպասասրահ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "hospital",
+      "medical tests",
+      "doctor",
+      "coffin maker",
+      "patient",
+      "stomach ache",
+      "waiting room",
+      "dark humor"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "analizner",
+      "bjishk",
+      "dagaghagorc",
+      "hivand",
+      "stamoqsi cav",
+      "spasasrah",
+      "katak"
+    ],
+    "catchphrases": [
+      "ախպեր ջան ես բժիշկ չեմ ես պլոտնիկ եմ",
+      "դագաղ եմ սարքում"
+    ],
+    "topics": [
+      "medical",
+      "wedding_funeral"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

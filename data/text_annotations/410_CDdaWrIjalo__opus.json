@@ -1,0 +1,79 @@
+{
+  "video_id": "CDdaWrIjalo",
+  "seq": 410,
+  "kargin_id": 410,
+  "title": "Kargin Haghordum - Dembel (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "410_Kargin_Haghordum_-_Dembel_Hayko_Mko_CDdaWrIjalo.hy.json",
+    "visual": true
+  },
+  "input_chars": 2032,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Դեմբելի ալիբին",
+    "title_en": "The Demobbed Soldier's Alibi",
+    "summary_en": "A soldier heading home after service is robbed of everything, then begs the robber to shoot him so his wife will believe he was robbed rather than think he spent the money on girls.",
+    "summary_detailed_en": "A soldier in camouflage and a blue beret walks a forest path recounting his journey home to camera. He is stopped and told to hand over his money. He protests that he has three thousand drams in total, that he still has to reach the city, and that he promised his wife a present. The robber is unmoved, tells him to think harder before making promises, and asks what is in the sack - condensed milk from the mess hall for his children. That goes too. Dismissed with a mock order to about-face and march, the soldier asks permission to speak: if he turns up empty-handed his wife will never believe he was robbed, she will decide he spent it on girls, so would the robber please shoot him, so he can show a wound. The robber obliges. The soldier then keeps requesting more - through the right arm, because his wife knows the right is his strong one, then the stomach so his abdominals do not look weak, then a couple through the ribs, then the right again - until the robber runs out of ammunition entirely.",
+    "keywords_hy": [
+      "դեմբել",
+      "զինվոր",
+      "թալան",
+      "կրակել",
+      "կնիկ",
+      "խտացրած կաթ",
+      "անտառ",
+      "բանակ",
+      "երեք հազար դրամ",
+      "նվեր"
+    ],
+    "keywords_en": [
+      "demobbed soldier",
+      "army",
+      "robbery",
+      "shooting",
+      "wife",
+      "condensed milk",
+      "forest",
+      "alibi",
+      "three thousand drams",
+      "present"
+    ],
+    "keywords_translit": [
+      "dembel",
+      "zinvor",
+      "talan",
+      "krakel",
+      "knik",
+      "khtatsrats kat",
+      "antar",
+      "banak",
+      "yereq hazar dram",
+      "nver"
+    ],
+    "catchphrases": [
+      "հիմա մախի դարը չի արա հիմա տեխնիկայի դար ա",
+      "վերխս հանեմ, վրեն կրակես",
+      "արա ախպերը այնքան ասիր կրակի պատրոններս պրծր"
+    ],
+    "topics": [
+      "army",
+      "crime",
+      "family"
+    ],
+    "humor_type": [
+      "absurd",
+      "dark"
+    ]
+  }
+}

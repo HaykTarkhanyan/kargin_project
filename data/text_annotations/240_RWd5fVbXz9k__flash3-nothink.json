@@ -1,0 +1,70 @@
+{
+  "video_id": "RWd5fVbXz9k",
+  "seq": 240,
+  "kargin_id": 240,
+  "title": "Kargin Haghordum sketch 343 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1064,
+  "gen_sec": 21.65,
+  "prompt_tokens": 1525,
+  "output_tokens": 584,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002515,
+  "annotation": {
+    "title_hy": "Լեյտենանտից կապիտան հարևանը",
+    "title_en": "From Lieutenant to Captain",
+    "summary_en": "A man notices his police officer neighbor has been promoted overnight and questions him about which of their friends he had to arrest to get the rank.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit, wood-paneled apartment hallway featuring wooden doors and wall sconces. A man wearing a light-colored uniform shirt and tie is seen sneaking through the corridor, cautiously checking doors. In a quick cut, a man wearing only briefs is seen fleeing past a police officer in a cap on a stairwell. The main interaction occurs between two neighbors in the hallway. One man, wearing a black turtleneck, confronts his neighbor, who is dressed in a police uniform. The man in the turtleneck expresses shock at the officer's sudden promotion, noting that he was a lieutenant just yesterday but is now a captain. He jokingly asks if the officer busted a major criminal gang involving their mutual friends or arrested 'Chelovek Papuk' to earn the new stripes. The officer remains dismissive, repeating a cryptic line about how there is always 'something' to deal with at their house. The scene ends with an animated argument where one man swings his arm at the other.",
+    "keywords_hy": [
+      "ոստիկան",
+      "հարևան",
+      "կոչում",
+      "լեյտենանտ",
+      "կապիտան",
+      "զիբիլ",
+      "հանցախումբ",
+      "մունդիր"
+    ],
+    "keywords_en": [
+      "police officer",
+      "neighbor",
+      "rank",
+      "lieutenant",
+      "captain",
+      "trash",
+      "criminal gang",
+      "uniform"
+    ],
+    "keywords_translit": [
+      "vostikan",
+      "harevan",
+      "kochum",
+      "leytenant",
+      "kapitan",
+      "zibil",
+      "hancakhumb",
+      "mundir"
+    ],
+    "catchphrases": [
+      "մեր տանը միշտ էլ բան կա",
+      "երեկ լեյտենանտ էիր էսօր կապիտան ես"
+    ],
+    "topics": [
+      "police",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

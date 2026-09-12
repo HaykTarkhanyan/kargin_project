@@ -1,0 +1,69 @@
+{
+  "video_id": "yR5uv3YX0yk",
+  "seq": 526,
+  "kargin_id": 526,
+  "title": "Kargin Haghordum sketch 160 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1148,
+  "gen_sec": 8.37,
+  "prompt_tokens": 1608,
+  "output_tokens": 578,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002538,
+  "annotation": {
+    "title_hy": "Քեռին և թունավոր սունկը",
+    "title_en": "Uncle and the Poisonous Mushroom",
+    "summary_en": "An eccentric uncle remains completely indifferent while a young boy repeatedly reports his friend's life-threatening accidents.",
+    "summary_detailed_en": "The sketch is set in a sunny marshland field where an eccentric man, dressed in a vibrant yellow robe, a red bow tie, and a straw hat, sits comfortably while reviewing script pages or documents. A young boy in a striped shirt, Karenchik, approaches him with urgent news. The boy reminds his uncle of a poisonous mushroom he had pointed out to them the previous week, informing him that his friend, Gayanchik, has just eaten it. The uncle, completely unbothered and focused on his own tasks, tells the boy to stop interrupting his work and go play. A moment later, the boy returns with even more dire news, stating that while they were playing by the river, the current swept Gayanchik away and she is now drowning. The uncle maintains his absurdly calm demeanor, telling Karenchik not to worry because, according to him, Gayanchik had no chance of surviving after eating that poisonous mushroom anyway. The humor derives from the man's cold, bureaucratic-like detachment from a child's death.",
+    "keywords_hy": [
+      "քեռի",
+      "երեխա",
+      "սունկ",
+      "թունավոր",
+      "գետ",
+      "անտարբերություն",
+      "խեղդվել",
+      "դաշտ"
+    ],
+    "keywords_en": [
+      "uncle",
+      "child",
+      "mushroom",
+      "poisonous",
+      "river",
+      "indifference",
+      "drowning",
+      "marshland"
+    ],
+    "keywords_translit": [
+      "qeri",
+      "erexа",
+      "sunk",
+      "tunavor",
+      "get",
+      "antraberutyun",
+      "xexdvel",
+      "dasht"
+    ],
+    "catchphrases": [
+      "մի անհանգստացի, մեկա Գայանչիկը էդ սունկից հետո էլ ապրելու շանս չուներ։"
+    ],
+    "topics": [
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "dark"
+    ]
+  }
+}

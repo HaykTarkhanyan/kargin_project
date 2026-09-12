@@ -1,0 +1,64 @@
+{
+  "video_id": "2O9HN34yawo",
+  "seq": 198,
+  "kargin_id": 198,
+  "title": "Kargin Haghordum sketch 535 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "198_Kargin_Haghordum_sketch_535_Hayko_Mko_2O9HN34yawo.hy.json",
+    "visual": true
+  },
+  "input_chars": 1388,
+  "gen_sec": 22.73,
+  "prompt_tokens": 1745,
+  "output_tokens": 424,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002145,
+  "annotation": {
+    "title_hy": "Հղի կինը մարշրուտկայում",
+    "title_en": "The Pregnant Woman in the Minibus",
+    "summary_en": "A woman claims to be pregnant to secure a seat in a crowded minibus, only to reveal a very literal interpretation of her timing.",
+    "summary_detailed_en": "The sketch begins on a sunny street where a woman wearing a platinum blonde wig approaches an older woman. The younger woman asks which minibus (marshrutka) goes to the Republic Square. The older woman responds sarcastically, suggesting she can tell her which bus goes to the cemetery instead, noting that the woman's flashy outfit matches her rude attitude. The scene then transitions to the interior of a crowded yellow marshrutka. The older woman asks the driver if they are heading to the square, and he confirms. A conflict arises when the younger blonde woman demands a seat, shaming the other passengers for not giving up their place for a 'pregnant woman.' A polite man with glasses immediately stands up to offer his seat. However, when a passenger asks where her pregnant belly is, the woman nonchalantly replies, 'My dear, what belly? It's only been two hours.' The sketch ends with the realization that she is claiming pregnancy status immediately after conception to manipulate fellow passengers.",
+    "keywords_hy": [
+      "մարշրուտկա",
+      "հղի կին",
+      "հրապարակ",
+      "տրանսպորտ",
+      "կատակ",
+      "խաբեություն"
+    ],
+    "keywords_en": [
+      "minibus",
+      "marshrutka",
+      "pregnant woman",
+      "public transport",
+      "lie",
+      "republic square"
+    ],
+    "keywords_translit": [
+      "marshrutka",
+      "hghi kin",
+      "hraparak",
+      "transport",
+      "katak",
+      "xabeyutyun"
+    ],
+    "catchphrases": [
+      "հրապարակ ինչ ես անում տատի, կարամ ասեմ գերեզմաններ որնա տանում",
+      "երկու ժամից ինչ փոր"
+    ],
+    "topics": [
+      "transport",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

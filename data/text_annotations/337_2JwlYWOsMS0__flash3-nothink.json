@@ -1,0 +1,66 @@
+{
+  "video_id": "2JwlYWOsMS0",
+  "seq": 337,
+  "kargin_id": 337,
+  "title": "Kargin Haghordum sketch 504 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1030,
+  "gen_sec": 11.06,
+  "prompt_tokens": 1531,
+  "output_tokens": 552,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002422,
+  "annotation": {
+    "title_hy": "Դանդաղաշարժ Սանտեխնիկը",
+    "title_en": "The Slow Plumber",
+    "summary_en": "A woman frantically begs a plumber to finish his work before her husband returns, but the plumber refuses to be rushed despite the risk of scandal.",
+    "summary_detailed_en": "The sketch takes place in an apartment bathroom where a plumber with a thick mustache and blue overalls is lying on his back under the sink. He is working with a wrench and various tools, his legs propped up against the wall. A woman in a bright red dress stands over him, visibly anxious and repeatedly urging him to hurry up. She warns him that her husband will be home in exactly one hour and that if the job isn't finished, both of them will be disgraced. The plumber, however, remains calm and stubborn, using a mix of Armenian and Russian loanwords to explain that a plumber 'doesn't like fast driving.' He threatens that if she keeps rushing him, he might burst a pipe and create even more work. The irony and humor stem from the woman's desperate pleas for him to finish the repair quickly, contrasting with his complete lack of urgency, culminating in her remark that the problem is exactly that he isn't doing anything while the clock is ticking.",
+    "keywords_hy": [
+      "սանտեխնիկ",
+      "խողովակ",
+      "լոգարան",
+      "ամուսին",
+      "շտապել",
+      "վարպետ",
+      "վերանորոգում"
+    ],
+    "keywords_en": [
+      "plumber",
+      "bathroom",
+      "husband",
+      "hurry",
+      "repair",
+      "sink",
+      "wrench"
+    ],
+    "keywords_translit": [
+      "santexnik",
+      "xoxovak",
+      "logaran",
+      "amusin",
+      "shtapel",
+      "varpet",
+      "veranorogum"
+    ],
+    "catchphrases": [
+      "Հենց էդա, որ ոչ մի բան չես անում,արագացրու, մի ժամ մնաց"
+    ],
+    "topics": [
+      "family",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

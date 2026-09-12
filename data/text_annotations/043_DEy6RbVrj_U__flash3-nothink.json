@@ -1,0 +1,70 @@
+{
+  "video_id": "DEy6RbVrj_U",
+  "seq": 43,
+  "kargin_id": 43,
+  "title": "Kargin Haghordum sketch 608 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "043_Kargin_Haghordum_sketch_608_Hayko_Mko_DEy6RbVrj_U.hy.json",
+    "visual": true
+  },
+  "input_chars": 920,
+  "gen_sec": 11.87,
+  "prompt_tokens": 1450,
+  "output_tokens": 558,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002399,
+  "annotation": {
+    "title_hy": "Մորուքը և սխալ կինը",
+    "title_en": "The Beard and the Wrong Wife",
+    "summary_en": "A man returns home expecting his wife to notice his shaved beard, only to realize in the heat of a romantic moment that he has entered the wrong apartment.",
+    "summary_detailed_en": "The sketch takes place in a living room where a woman is sitting on a sofa, surrounded by pillows, watching a romantic movie on the television and talking on the telephone. A man dressed in a suit enters the room carrying a single rose, creating a romantic atmosphere. He suggests they move to the bedroom, and he proudly asks her if she noticed he shaved his beard and if it suits him. They embrace happily at first, but the mood abruptly shifts when he suddenly realizes he is not looking at his wife. He exclaims in shock, 'Oh, it's you!' and the woman, confused and agitated, questions who else it would be. The man realizes his mistake, mentioning that his father had warned him about such things, leading to a tense and awkward exchange. The sketch ends with the man visibly distressed and the woman sitting alone on the sofa looking upset after the bizarre intrusion.",
+    "keywords_hy": [
+      "ննջարան",
+      "մորուք",
+      "թրաշել",
+      "վարդ",
+      "սխալմունք",
+      "կնիկ",
+      "հարևան",
+      "հեռախոս"
+    ],
+    "keywords_en": [
+      "bedroom",
+      "beard",
+      "shaved",
+      "rose",
+      "mistake",
+      "wife",
+      "neighbor",
+      "telephone"
+    ],
+    "keywords_translit": [
+      "nnjaran",
+      "moruq",
+      "trashel",
+      "vard",
+      "sxalmunq",
+      "knik",
+      "harevan",
+      "heraxos"
+    ],
+    "catchphrases": [
+      "Վայ, էս դու ես։",
+      "Վայ, բա ով պտի լիներ արա, հերս ասում էր էլի։"
+    ],
+    "topics": [
+      "family",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

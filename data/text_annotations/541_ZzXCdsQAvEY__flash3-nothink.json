@@ -1,0 +1,67 @@
+{
+  "video_id": "ZzXCdsQAvEY",
+  "seq": 541,
+  "kargin_id": 541,
+  "title": "Kargin Haghordum sketch 173 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2642,
+  "gen_sec": 24.57,
+  "prompt_tokens": 2601,
+  "output_tokens": 625,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003175,
+  "annotation": {
+    "title_hy": "Ճանապարհային վթար և փոխհատուցում",
+    "title_en": "Roadside Accident and Compensation",
+    "summary_en": "A debt collector talking on his phone accidentally hits an elderly man with his car, then performs a 'health check' only to realize he can profit from the situation.",
+    "summary_detailed_en": "The sketch opens on a rural roadside where a man is driving while heatedly discussing debt collection and percentage splits over his cell phone. He argues with someone named Mrjo about how the 'state' takes its cut and how they should divide the money 50-50. During the call, he accidentally hits an elderly man with his car. The driver gets out and approaches the older man, who is standing near a white Soviet-era sedan. Instead of showing genuine concern for the man's well-being, the driver performs a series of absurd physical tests to ensure the victim is not seriously injured—asking him to shake himself out like a character from a folk tale, hop on one leg, and check his ears. Once the driver confirms that the elderly man is perfectly fine and has no broken bones or internal injuries, his demeanor shifts from faux-concern to predatory opportunism. Upon learning the man lives on the fourth floor of a stone building without an elevator, the driver decides to 'compensate' for the car damage by forcing the old man to sell his apartment, leading him away to settle the new 'debt'.",
+    "keywords_hy": [
+      "ավտոպատահար",
+      "փողի հարցեր",
+      "պարտք",
+      "փոխհատուցում",
+      "հեռախոսով խոսել",
+      "ճանապարհ",
+      "խարդախություն"
+    ],
+    "keywords_en": [
+      "car accident",
+      "money debt",
+      "roadside",
+      "compensation",
+      "extortion",
+      "scam",
+      "elderly man"
+    ],
+    "keywords_translit": [
+      "avtopatahar",
+      "poghi harcer",
+      "partq",
+      "poxhatucum",
+      "heraxosyov xosel",
+      "chanaparh",
+      "xardaxutyun"
+    ],
+    "catchphrases": [
+      "Դե քել, քել եթանք տենանք տունդ քանիսո՞վ ենք ծախում, քել։"
+    ],
+    "topics": [
+      "transport",
+      "money",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

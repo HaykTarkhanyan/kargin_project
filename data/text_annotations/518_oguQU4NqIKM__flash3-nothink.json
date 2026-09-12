@@ -1,0 +1,71 @@
+{
+  "video_id": "oguQU4NqIKM",
+  "seq": 518,
+  "kargin_id": 518,
+  "title": "Kargin Haghordum sketch 152 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "518_Kargin_Haghordum_sketch_152_Hayko_Mko_oguQU4NqIKM.hy.json",
+    "visual": true
+  },
+  "input_chars": 4186,
+  "gen_sec": 10.88,
+  "prompt_tokens": 3323,
+  "output_tokens": 678,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003696,
+  "annotation": {
+    "title_hy": "Ամերիկահայ Թոքմաջյանը և «Հյուպատոսը»",
+    "title_en": "Mr. Tokmajyan and the Consul",
+    "summary_en": "A naive Armenian-American tourist is tricked by a street thug into paying for a fake 'consular visit' after rejecting a menu of bizarre underground services.",
+    "summary_detailed_en": "In a hotel lobby, Mr. Tokmajyan, a Western-Armenian speaking tourist from the USA dressed in a trench coat and fedora, informs a hotel employee of his plans to photograph Yerevan. The employee explains they are going to Garni-Geghard instead of Sevan because fish prices have skyrocketed, and strictly advises Tokmajyan that if anything happens, he should not call the police but immediately demand the American Consul. Later, while exploring near a stone wall and an abandoned building, Tokmajyan is accosted by a tough guy in a leather jacket and sunglasses. The street criminal offers him a 'menu' of illicit services, including young girls, 'shameless old women,' and even a corpse to dismember for those with specific tastes. Remembering the hotel clerk's advice, Tokmajyan refuses everything and demands the American Consul. The thug, sensing a new scam, claims that calling the consul is an available 'service' but it will be very expensive. The sketch ends with the gullible tourist agreeing to pay for the 'consular' meeting.",
+    "keywords_hy": [
+      "Թոքմաջյան",
+      "Ամերիկահայ",
+      "հյուպատոս",
+      "Սևանի սիգա",
+      "Գառնի Գեղարդ",
+      "փող աշխատել",
+      "խաբեբայություն",
+      "փողոցային տղա"
+    ],
+    "keywords_en": [
+      "Armenian-American",
+      "tourist",
+      "consul",
+      "Sevan fish",
+      "extortion",
+      "street thug",
+      "Western Armenian dialect",
+      "scam"
+    ],
+    "keywords_translit": [
+      "Tokmajyan",
+      "Amerikahay",
+      "hyupatos",
+      "Sevani siga",
+      "Garni Geghard",
+      "pogh ashxatel",
+      "xabebayutyun",
+      "poghocayin tgha"
+    ],
+    "catchphrases": [
+      "Ես կպահանջեմ ամերիկայի հյուպատոսին",
+      "պրինցիպի ձև ա պռոստը վրեդ թանկ կնստի"
+    ],
+    "topics": [
+      "crime",
+      "leisure_outing",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

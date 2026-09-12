@@ -1,0 +1,68 @@
+{
+  "video_id": "Cwo1ZwjbfBg",
+  "seq": 160,
+  "kargin_id": 160,
+  "title": "Kargin Haghordum sketch 204 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1946,
+  "gen_sec": 2.94,
+  "prompt_tokens": 2089,
+  "output_tokens": 455,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00241,
+  "annotation": {
+    "title_hy": "Էլիտար կոշիկի խանութը",
+    "title_en": "The Elite Shoe Store",
+    "summary_en": "A man tries on increasingly large sizes of high-end shoes in an elite store, only to realize the fit issue was caused by his long toenails.",
+    "summary_detailed_en": "The sketch is set in an upscale clothing and shoe boutique. A customer with a mustache, wearing a green shirt and a coat he claims belonged to his grandfather for protection, enters with a companion in a fedora. The salesman emphasizes that the shop is 'elite' and meant for high-class clientele. The customer is uninterested in buying a new coat and insists on keeping his grandfather's 'lucky' socks. He begins trying on various high-end dress shoes, including 'Francesco Smalto' models, moving through sizes 44 and 46. Despite the large sizes, he complains that the shoes are too tight. After the salesman informs him that size 46 is the largest available, the customer steps away briefly. He returns and asks to try the size 44 again. When the confused salesman asks how a smaller size could possibly fit when the larger one didn't, the customer reveals the absurd punchline: he simply forgot to cut his toenails, which was the only reason the shoes didn't fit.",
+    "keywords_hy": [
+      "կոշիկի խանութ",
+      "էլիտար",
+      "հագուստ",
+      "ոտնաման",
+      "եղունգ",
+      "չափս",
+      "վաճառող",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "shoe store",
+      "elite shop",
+      "toenails",
+      "shoe size",
+      "salesman",
+      "shopping",
+      "luxury",
+      "grandfather's coat"
+    ],
+    "keywords_translit": [
+      "koshiki khanut",
+      "elitar",
+      "hagust",
+      "votnaman",
+      "eghung",
+      "chaps",
+      "vacharogh",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "Արա ընգեր ջան, սավսեմ մտքիցս թռել էր, եղունգներս չէի կտրել։"
+    ],
+    "topics": [
+      "shop_market"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

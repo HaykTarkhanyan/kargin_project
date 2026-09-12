@@ -1,0 +1,70 @@
+{
+  "video_id": "Ek4ZeurlKjw",
+  "seq": 106,
+  "kargin_id": 106,
+  "title": "Kargin Haghordum sketch 647 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "106_Kargin_Haghordum_sketch_647_Hayko_Mko_Ek4ZeurlKjw.ro.json",
+    "visual": true
+  },
+  "input_chars": 1702,
+  "gen_sec": 25.9,
+  "prompt_tokens": 1816,
+  "output_tokens": 574,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00263,
+  "annotation": {
+    "title_hy": "Ֆեռդինանտի Նամակը",
+    "title_en": "Ferdinand's Letter",
+    "summary_en": "A noblewoman in 15th-century France delivers a dramatic, tearful monologue to her deceased lover's portrait before being forced to fulfill her duties with a rich, elderly count.",
+    "summary_detailed_en": "The sketch opens with a title card reading 'Orlean FRANCE 1432' against a dark castle backdrop. A character played in drag, dressed as a noblewoman in a dark cloak and a long blonde wig, walks through a candlelit stone hall holding a candle holder. She stops before an oil portrait of a mustachioed man named Ferdinand and begins a melodramatic monologue. She laments that although only a month has passed since his death, it feels like decades. She explains that her family has fallen on hard times, forcing her father to arrange a marriage with the wealthy but 'disgusting and wrinkled' Count De Bruy. In a final emotional plea, she tells the portrait that Ferdinand was her first and last true love, even as she must now head to the Count's bedroom to perform her marital duties. The scene transitions to the woman in a white gown, holding a fan and a letter, continuing her theatrical mourning with the signature wail, 'Ferdinand, woo-hoo!'",
+    "keywords_hy": [
+      "Ֆեռդինանտ",
+      "նամակ",
+      "կոմս",
+      "միջնադար",
+      "ամուսնություն",
+      "դղյակ",
+      "սեր",
+      "մենախոսություն"
+    ],
+    "keywords_en": [
+      "Ferdinand",
+      "letter",
+      "count",
+      "medieval",
+      "marriage",
+      "castle",
+      "love",
+      "monologue"
+    ],
+    "keywords_translit": [
+      "Ferdinand",
+      "namak",
+      "koms",
+      "mijnadar",
+      "amusnutyun",
+      "dxyak",
+      "ser",
+      "menaxosutyun"
+    ],
+    "catchphrases": [
+      "Ֆեռդինանտ ուհու"
+    ],
+    "topics": [
+      "romance",
+      "wedding_funeral",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

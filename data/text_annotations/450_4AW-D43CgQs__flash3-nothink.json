@@ -1,0 +1,66 @@
+{
+  "video_id": "4AW-D43CgQs",
+  "seq": 450,
+  "kargin_id": 450,
+  "title": "Kargin Haghordum sketch 075 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "450_Kargin_Haghordum_sketch_075_Hayko_Mko_4AW-D43CgQs.hy.json",
+    "visual": true
+  },
+  "input_chars": 961,
+  "gen_sec": 7.1,
+  "prompt_tokens": 1485,
+  "output_tokens": 531,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002335,
+  "annotation": {
+    "title_hy": "Ո՞րն է հայրդ",
+    "title_en": "Which one is your father?",
+    "summary_en": "A boy tells a man that his father is in a fight, leading to a confusion about which combatant is the actual parent.",
+    "summary_detailed_en": "In a sunny outdoor park setting, a young man approaches another man in a white shirt with urgent news, repeatedly calling out 'Uncle' (dzadz). The boy frantically explains that his father is currently involved in a physical altercation with someone nearby. The man in the white shirt follows the boy along a park pathway to the scene of the conflict. Upon reaching a spot where two individuals are actively brawling on the ground, the man looks at the chaotic scene and asks the boy to identify which of the two fighters is his father. The boy responds with the punchline that the combatants are currently in the middle of figuring exactly that out themselves. The visual sequences include a police officer sitting on a park bench guarding his cap earlier in the scene, and a chase through the park trees before the physical fight occurs on the path. The sketch ends with the resolution of the identities during the struggle.",
+    "keywords_hy": [
+      "կռիվ",
+      "այգի",
+      "հայր",
+      "ոստիկան",
+      "ծեծկռտուք",
+      "երեխա",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "fight",
+      "park",
+      "father",
+      "police officer",
+      "brawl",
+      "child",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "kriv",
+      "aygi",
+      "hayr",
+      "vostikan",
+      "tsetskrtuk",
+      "erekha",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "բա սրանցից որ մեկնա հերդ իրանք վենց էդ էլ պարզում են"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

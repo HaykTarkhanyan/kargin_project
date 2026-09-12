@@ -1,0 +1,70 @@
+{
+  "video_id": "dtB4fvHeUM8",
+  "seq": 284,
+  "kargin_id": 284,
+  "title": "Kargin Haghordum sketch 237 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "284_Kargin_Haghordum_sketch_237_Hayko_Mko_dtB4fvHeUM8.tr.json",
+    "visual": true
+  },
+  "input_chars": 2965,
+  "gen_sec": 5.58,
+  "prompt_tokens": 2654,
+  "output_tokens": 623,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003196,
+  "annotation": {
+    "title_hy": "Ավտոբուսի աերոդինամիկայի քննությունը",
+    "title_en": "The Bus Aerodynamics Exam",
+    "summary_en": "A cunning university professor tries to fail students by asking a trap question about how opening a bus window affects aerodynamics, until a clever girl outsmarts him.",
+    "summary_detailed_en": "The sketch takes place in a university office where a mustached professor in a brown suit, Mr. Voskanyan, is conducting oral exams. Outside in the hallway, students are nervous. The first student enters, and the professor dismisses the exam tickets to ask a 'simple' situational question. He asks what the student would do if it were hot on a bus. When the student says he would open the window, the professor demands a complex explanation of the window's effect on the bus's aerodynamics. The student fails and warns his friend, the chubby man in the pink shirt, that the 'bus moment' is a trap. Despite the warning, the next student is led into the same logical trap and fails. Finally, a young woman enters. The professor tries the same tactic, asking what she would do if it were hot. She replies she would unbutton her jacket. He keeps pressing, saying it is still hot, and she systematically lists removing her clothes layer by layer. In the punchline, she defiantly tells the professor she will strip completely naked before she ever opens that window, successfully avoiding his aerodynamic trap.",
+    "keywords_hy": [
+      "քննություն",
+      "համալսարան",
+      "դասախոս",
+      "ավտոբուս",
+      "աերոդինամիկա",
+      "ուսանող",
+      "կատակ",
+      "հարց ու պատասխան"
+    ],
+    "keywords_en": [
+      "examination",
+      "university",
+      "professor",
+      "bus",
+      "aerodynamics",
+      "student",
+      "joke",
+      "trap question"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "hamalsaran",
+      "dasaxos",
+      "avtobus",
+      "aerodynamika",
+      "usanogh",
+      "katak",
+      "harc u patasxan"
+    ],
+    "catchphrases": [
+      "Վայ արա։ Աչքիս էս տարի նորից նույն կուրսում մնամ。"
+    ],
+    "topics": [
+      "school",
+      "transport",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "tI8nk1ggm-k",
+  "seq": 202,
+  "kargin_id": 202,
+  "title": "Kargin Haghordum sketch 539 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "202_Kargin_Haghordum_sketch_539_Hayko_Mko_tI8nk1ggm-k.hy.json",
+    "visual": true
+  },
+  "input_chars": 2800,
+  "gen_sec": 12.07,
+  "prompt_tokens": 2552,
+  "output_tokens": 621,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003139,
+  "annotation": {
+    "title_hy": "Սիգարետի գնացած տղան",
+    "title_en": "The Boy Who Went for Cigarettes",
+    "summary_en": "A successful millionaire returns to his village after 20 years to reunite with his father, only for the old man to prioritize the cigarettes he sent him to buy two decades ago.",
+    "summary_detailed_en": "The sketch begins with a man driving a dark SUV along a scenic, tree-lined road, speaking on his mobile phone about his arrival in his home village and commenting on the quality of the new North-South highway. The scene shifts to an outdoor orchard setting. A younger man, dressed in a grey blazer, approaches an older man in a dark sweater. The younger man asks the 'hopar' (uncle) if he remembers a son he sent out to buy cigarettes twenty years ago who never returned. When the old man confirms he remembers, the son launches into a grand success story: after leaving for cigarettes, he met someone who took him to Yerevan, worked for a month, saved money, and moved to America. There, he became a multimillionaire, built massive businesses, and became a philanthropist supporting orphanages and nursing homes, even investing in the highway. He emotionally reveals that he is that long-lost son standing before him. The father, unimpressed by the wealth and success, dismisses the achievements and demands to know if he finally brought the cigarettes, calling him a 'lakot' (brat).",
+    "keywords_hy": [
+      "սիգարետ",
+      "հայր և որդի",
+      "միլիոնատեր",
+      "Ամերիկա",
+      "գյուղ",
+      "հյուսիս-հարավ",
+      "բարեգործություն",
+      "վերադարձ"
+    ],
+    "keywords_en": [
+      "cigarettes",
+      "father and son",
+      "millionaire",
+      "America",
+      "village",
+      "North-South road",
+      "philanthropy",
+      "return home"
+    ],
+    "keywords_translit": [
+      "sigaret",
+      "hayr ev ordi",
+      "millionater",
+      "Amerika",
+      "gyugh",
+      "hyusis-harav",
+      "baregortsutyun",
+      "veradardz"
+    ],
+    "catchphrases": [
+      "սիգարետներս բերել ես այ շատ լակոտ"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

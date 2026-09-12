@@ -1,0 +1,70 @@
+{
+  "video_id": "AXFZ8ymj--w",
+  "seq": 379,
+  "kargin_id": 379,
+  "title": "Kargin Haghordum sketch 142 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3479,
+  "gen_sec": 9.01,
+  "prompt_tokens": 3028,
+  "output_tokens": 595,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003299,
+  "annotation": {
+    "title_hy": "Ամուսնության 25-ամյակը",
+    "title_en": "25th Wedding Anniversary",
+    "summary_en": "During their 25th anniversary celebration, a couple decides to be honest about their past infidelities, leading to shocking revelations from the wife.",
+    "summary_detailed_en": "The sketch takes place in a living room where a man in a suit (Vardan) and his wife, Mareta (played by a male actor in drag wearing a wig and red lipstick), are celebrating their 25th wedding anniversary with champagne and snacks. Vardan makes a long, sentimental speech about their years together, their children, and their endurance through arguments. He eventually confesses that he cheated once at a sauna during a friend's birthday party after initially refusing. When he asks Mareta if she has ever been unfaithful, she calmly admits to three instances. She explains each time as a sacrifice for his benefit: first, she slept with a factory director to get Vardan a job; second, she slept with a chief surgeon to secure a life-saving surgery for Vardan when they had no money; and third, she slept with seventy people to secure the final seventy votes he needed to be elected as a member of parliament. The punchline highlights the massive scale of her 'sacrifices' compared to his single incident.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "ամուսնություն",
+      "տարեդարձ",
+      "խոստովանություն",
+      "կենաց",
+      "պատգամավոր",
+      "ձայներ",
+      "վիրահատություն"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "marriage",
+      "anniversary",
+      "confession",
+      "toast",
+      "member of parliament",
+      "votes",
+      "surgery"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "amusnutyun",
+      "taredardz",
+      "xostovanutyun",
+      "kenats",
+      "patgamavor",
+      "dzayner",
+      "virahatutyun"
+    ],
+    "catchphrases": [
+      "Բա որ երկրորդը եղելա, Առաջինն էլա եղել"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "6bl5UzPlxtE",
+  "seq": 123,
+  "kargin_id": 123,
+  "title": "Kargin Haghordum sketch 686 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "123_Kargin_Haghordum_sketch_686_Hayko_Mko_6bl5UzPlxtE.ru.json",
+    "visual": true
+  },
+  "input_chars": 3667,
+  "gen_sec": 9.73,
+  "prompt_tokens": 2950,
+  "output_tokens": 705,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00359,
+  "annotation": {
+    "title_hy": "Խոպանից եկած ընկերները",
+    "title_en": "Friends Back from Khopan",
+    "summary_en": "Two friends reunite after years of working abroad in Russia, discussing their new lives, ugly wives, and the challenges of living with a Russian bride when you don't speak the language.",
+    "summary_detailed_en": "The sketch takes place in an apartment where two friends, one wearing a beret and the other a tracksuit, are sitting at a dining table filled with food and drinks. They reminisce about their time working abroad ('khopan') in Russia. One friend describes his 'successful' business selling medicinal herbs, claiming he earned enough for a BMW X5 and two apartments because the herbs 'helped' his finances. The conversation turns to marriage; the friend in the beret shows a photo of his wife, which is so frightening that the other friend asks to keep it to scare his children away from climbing the furniture. The tracksuit-wearing friend then introduces his own Russian wife, Lena (played by a red-haired woman in a floral robe). A major comedic point arises from his complete lack of Russian language skills; he uses a nonsense string of famous names like 'Pushkin, Putin, Kirkorov' as a greeting and can only summon or dismiss his wife by using the broken phrase 'Lena idi zdes' (Lena come here), regardless of whether she needs to come or go.",
+    "keywords_hy": [
+      "խոպան",
+      "խոտեր",
+      "ռուսաստան",
+      "ռուսի հարս",
+      "ծիծաղելի",
+      "հայկո մկո",
+      "կարգին հաղորդում",
+      "բարեկամներ"
+    ],
+    "keywords_en": [
+      "khopan",
+      "migrant workers",
+      "Russian wife",
+      "language barrier",
+      "medicinal herbs",
+      "comedy sketch",
+      "Armenian humor",
+      "reunion"
+    ],
+    "keywords_translit": [
+      "khopan",
+      "khoter",
+      "rusi hars",
+      "Hayko Mko",
+      "Kargin Haghordum",
+      "khopanist",
+      "Lena idi zdes"
+    ],
+    "catchphrases": [
+      "էդ խոտերը օգնումա; ոնց չի օգնում մի տարվա մեջ մի հատ իքս 5 առա 2 հատ էլ կվառտիռ",
+      "здрасти досвидания пошел пушкин путин владимир владимерович киркоров",
+      "Լենա իդի զգես",
+      "ապե գդտետոն(где-то) փոխածա, տեղը ոչմեկ չգիտի"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "party_guests"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

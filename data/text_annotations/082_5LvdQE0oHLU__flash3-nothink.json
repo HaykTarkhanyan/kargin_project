@@ -1,0 +1,71 @@
+{
+  "video_id": "5LvdQE0oHLU",
+  "seq": 82,
+  "kargin_id": 82,
+  "title": "Kargin Haghordum sketch 660 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "082_Kargin_Haghordum_sketch_660_Hayko_Mko_5LvdQE0oHLU.tr.json",
+    "visual": true
+  },
+  "input_chars": 1789,
+  "gen_sec": 5.58,
+  "prompt_tokens": 1884,
+  "output_tokens": 629,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002829,
+  "annotation": {
+    "title_hy": "Գիշերային զրույց գերեզմանոցում",
+    "title_en": "Nighttime Chat at the Cemetery",
+    "summary_en": "Two friends argue about taking a shortcut through a dark cemetery after a birthday party, only for one of them to encounter a man sitting among the graves at night.",
+    "summary_detailed_en": "The sketch begins at night as two men in light overcoats walk home from a birthday party. They discuss the event, including a girl named Marish who was supposedly looking at one of them. One man suggests taking a shortcut through the local village cemetery to get home faster, but his friend is terrified, fearing that corpses might rise and eat them. Refusing the shortcut, the fearful friend takes the long way around, while the bolder man enters the cemetery alone. As he walks through the dark, blue-tinted graveyard filled with headstones and iron railings, he suddenly encounters a man with wild, pale hair wearing a formal suit and tie, sitting inside one of the grave enclosures. Startled and nearly suffering a heart attack, the traveler scolds the man for working in the cemetery in the middle of the night and waking the dead. The punchline arrives when the man in the grave explains he is there at night because his 'stupid grandchildren' engraved his name incorrectly on the headstone, implying he is actually a ghost or a corpse correcting his own monument.",
+    "keywords_hy": [
+      "գերեզմանոց",
+      "գիշեր",
+      "վախ",
+      "կարճ ճանապարհ",
+      "հոգի",
+      "դիակ",
+      "ծնունդ",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "cemetery",
+      "night",
+      "fear",
+      "shortcut",
+      "ghost",
+      "corpse",
+      "birthday party",
+      "grave"
+    ],
+    "keywords_translit": [
+      "gerezmanoc",
+      "gisher",
+      "vax",
+      "kyasar",
+      "hogi",
+      "diak",
+      "cnund",
+      "humor"
+    ],
+    "catchphrases": [
+      "գերեզմանոցը քյասար կճղենք կանցնենք",
+      "ես գերեզմանոցով գալացողը չեմ",
+      "ախմախ թոռներս անունս սխալ են գրել"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

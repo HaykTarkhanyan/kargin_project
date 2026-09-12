@@ -1,0 +1,72 @@
+{
+  "video_id": "e1urTVhye64",
+  "seq": 173,
+  "kargin_id": 173,
+  "title": "Kargin Haghordum sketch 217 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "173_Kargin_Haghordum_sketch_217_Hayko_Mko_e1urTVhye64.tr.json",
+    "visual": true
+  },
+  "input_chars": 1836,
+  "gen_sec": 18.12,
+  "prompt_tokens": 2018,
+  "output_tokens": 636,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002917,
+  "annotation": {
+    "title_hy": "Պրոֆեսիոնալ բոքսյոր ամուսինը",
+    "title_en": "Professional Boxer Husband",
+    "summary_en": "A mother gives marriage advice to her daughter while spanking her, only for the daughter to reveal at the end that she has killed her husband.",
+    "summary_detailed_en": "The sketch takes place in a living room where an older woman with curly hair (played by a male comedian in drag) is sitting on a couch. The mother is initially knitting when she begins scolding a young woman, also her daughter, who is dressed in black. The mother physically pulls the daughter across her lap and proceeds to spank her repeatedly while lecturing her about marital problems. The mother complains that she warned the daughter not to marry a professional boxer, noting that his beatings would be 'professional.' She compares the situation to her own marriage, recalling how the daughter's father, Gevorik, would beat her in the yard until the neighbors intervened. The mother shares old-fashioned, toxic advice about a wife's place being in the kitchen and how the 'stability' of a family depends on the woman's cleverness to smooth things over. After the long lecture and physical punishment, the daughter finally speaks up. In a shocking dark comedy twist, she asks what she should do with her husband's corpse, revealing she has murdered him in response to his abuse.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "մայր ու աղջիկ",
+      "ծեծ",
+      "բոքսյոր",
+      "խորհուրդ",
+      "դիակ",
+      "ամուսնություն",
+      "ընտանեկան կռիվ"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "mother and daughter",
+      "spanking",
+      "boxer",
+      "advice",
+      "corpse",
+      "marriage",
+      "domestic dispute"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "mayr u aghjik",
+      "tsets",
+      "boqsyor",
+      "khorhurd",
+      "diak",
+      "amusnutyun",
+      "entanekan kriv"
+    ],
+    "catchphrases": [
+      "դրա հետ մի ամուսնացի",
+      "էդի պրոֆեսիոնալ բաքսյոր ա",
+      "բա դիակի հետ ինչ անեմ"
+    ],
+    "topics": [
+      "family",
+      "crime",
+      "neighbors"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

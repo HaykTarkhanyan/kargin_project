@@ -1,0 +1,71 @@
+{
+  "video_id": "IfCuuiv9drk",
+  "seq": 126,
+  "kargin_id": 126,
+  "title": "Kargin Haghordum sketch 683 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2227,
+  "gen_sec": 18.12,
+  "prompt_tokens": 2244,
+  "output_tokens": 609,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002949,
+  "annotation": {
+    "title_hy": "Բժիշկը և փակված ճամպրուկը",
+    "title_en": "The Doctor and the Stuck Suitcase",
+    "summary_en": "A family waits anxiously as a doctor requests increasingly heavy-duty tools like pliers and an electric saw, only to reveal they were for opening a stuck suitcase.",
+    "summary_detailed_en": "The sketch takes place in a hospital setting where a family is anxiously waiting for a doctor to treat their elderly father. A man and a woman in the corridor argue loudly, blaming each other for the father's condition; they mention feeding him seven-day-old borscht, tricking him into eating spicy peppers as a joke, and letting his grandson practice karate moves on him. They even regret making him donate a liter of blood just to buy a March 8th gift. Inside the patient's room, a female doctor (played by a male actor in a white coat) asks for a series of increasingly alarming medical 'tools.' First, she requests a screwdriver, then pliers, and finally an electric saw. The family becomes terrified, fearing the worst for the patient's surgery. However, the punchline reveals that the medical emergency is non-existent; the doctor finally emerges or explains that she only needed the heavy tools because she couldn't get her personal suitcase open. The patient was never the primary focus of her 'operation.'",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "ճամպրուկ",
+      "ատֆյորկա",
+      "սղոց",
+      "բորշ",
+      "կատակ",
+      "հայրիկ"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "suitcase",
+      "screwdriver",
+      "electric saw",
+      "pliers",
+      "borscht",
+      "medical parody"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hivandanoc",
+      "champruk",
+      "atfyorka",
+      "sghoc",
+      "borsh",
+      "katak",
+      "pap"
+    ],
+    "catchphrases": [
+      "Հա փաստորեն պապային պտի բուժենք",
+      "Քել պապ ջան",
+      "էս չամադանս չեմ կարում բացեմ"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "QL4ZKNEWB7c",
+  "seq": 428,
+  "kargin_id": 428,
+  "title": "Kargin Haghordum - Mafia (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "428_Kargin_Haghordum_-_Mafia_Hayko_Mko_QL4ZKNEWB7c.hy.json",
+    "visual": true
+  },
+  "input_chars": 1888,
+  "gen_sec": 8.86,
+  "prompt_tokens": 2060,
+  "output_tokens": 588,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002794,
+  "annotation": {
+    "title_hy": "Կանխիկ հարուստը և մաֆիան",
+    "title_en": "The Cash-Rich Victim and the Mafia",
+    "summary_en": "Two mobsters interrogate a man they believe is a wealthy rural resident by repeatedly dunking his head into a water trough.",
+    "summary_detailed_en": "The sketch takes place on a rural hillside next to a concrete water trough. A mob boss in a black suit and sunglasses, accompanied by his subordinate in a white shirt, arrives to oversee an interrogation. They have captured a man whom they believe is a 'cash-rich' aristocrat based on a tip from his neighbor, despite his ragged appearance. A shirtless enforcer repeatedly shoves the victim's head underwater in the trough to force a confession about hidden sacks of diamonds and gold. The boss explains the logic that modern wealthy people dress like beggars, while those in suits are just rich on credit. The victim continuously denies having any valuables, even as water spouts from his mouth between submersions. The sketch concludes with the victim frustrating the mobsters not because he is stubborn, but because the water in the trough is too murky for him to see the 'gold' they are asking about, subverting the interrogation into a literal misunderstanding.",
+    "keywords_hy": [
+      "մաֆիա",
+      "ոսկի",
+      "բռլյանտ",
+      "հարցաքննություն",
+      "ջուր",
+      "հարուստ",
+      "գյուղ",
+      "կանխիկ"
+    ],
+    "keywords_en": [
+      "mafia",
+      "gold",
+      "diamonds",
+      "interrogation",
+      "water trough",
+      "rich",
+      "village",
+      "cash"
+    ],
+    "keywords_translit": [
+      "mafia",
+      "oski",
+      "brlyant",
+      "harcaknnutyun",
+      "jur",
+      "harust",
+      "gyugh",
+      "kankhik"
+    ],
+    "catchphrases": [
+      "կանխիկները սենց են լինում",
+      "ոսկի, բռլյանտ զարդեղեն կա՞",
+      "ջուրը պղտոր է, բան չի երևում"
+    ],
+    "topics": [
+      "crime",
+      "village",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

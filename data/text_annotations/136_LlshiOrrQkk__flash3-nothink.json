@@ -1,0 +1,71 @@
+{
+  "video_id": "LlshiOrrQkk",
+  "seq": 136,
+  "kargin_id": 136,
+  "title": "Kargin Haghordum sketch 673 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2490,
+  "gen_sec": 7.81,
+  "prompt_tokens": 2357,
+  "output_tokens": 654,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003141,
+  "annotation": {
+    "title_hy": "Ինֆինիտի և հինգ հազար դրամ",
+    "title_en": "Infinity and Five Thousand Drams",
+    "summary_en": "A wealthy man praying for a luxury SUV gets annoyed by an elderly woman praying for a small heating subsidy and pays her off to keep her quiet.",
+    "summary_detailed_en": "The sketch is set inside a dimly lit church decorated with religious icons, candles, and a carved khachkar (stone cross). A man dressed in a dark suit stands before the altar, praying out loud to God. He thanks God for helping him acquire a piece of land through bribery and then begins his new request: he wants a luxury Infinity SUV. He specifies that he needs a more expensive model than his friend's, featuring exotic leather interiors like deer and monkey skin, promising to build a church in return if he gets it. While he is passionately pleading for the car, an elderly woman (played by one of the male actors in drag) wearing a headscarf enters. She begins her own humble prayer, asking for 5,000 drams to cover her electricity bill, explaining she is a lonely pensioner. The two prayers begin to overlap in a repetitive, rhythmic fashion, with the man shouting 'Infinity!' and the woman pleading 'Five thousand drams!'. Frustrated that her small request is distracting God from his grand plan, the man pulls out 5,000 drams, hands it to her, and tells her to take the money and stop distracting God with such 'small matters' so he can continue his negotiation for the SUV.",
+    "keywords_hy": [
+      "եկեղեցի",
+      "աղոթք",
+      "ինֆինիտի",
+      "փող",
+      "հինգ հազար դրամ",
+      "թոշակառու",
+      "ջիպ",
+      "կաշառք"
+    ],
+    "keywords_en": [
+      "church",
+      "prayer",
+      "Infinity SUV",
+      "money",
+      "five thousand drams",
+      "pensioner",
+      "jeep",
+      "bribery"
+    ],
+    "keywords_translit": [
+      "ekexeci",
+      "axotq",
+      "infiniti",
+      "pox",
+      "hing hazar dram",
+      "toshakaru",
+      "jip",
+      "kasharq"
+    ],
+    "catchphrases": [
+      "էս հինգ հազարը վեկալ,Աստծուն մանր գործերով մի շեղի",
+      "Ինֆինիտի"
+    ],
+    "topics": [
+      "religion",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

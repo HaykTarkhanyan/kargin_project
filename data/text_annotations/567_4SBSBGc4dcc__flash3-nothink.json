@@ -1,0 +1,70 @@
+{
+  "video_id": "4SBSBGc4dcc",
+  "seq": 567,
+  "kargin_id": 567,
+  "title": "Kargin Haghordum sketch 402 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "567_Kargin_Haghordum_sketch_402_Hayko_Mko_4SBSBGc4dcc.hy.json",
+    "visual": true
+  },
+  "input_chars": 1055,
+  "gen_sec": 4.45,
+  "prompt_tokens": 1551,
+  "output_tokens": 564,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002468,
+  "annotation": {
+    "title_hy": "Հաշվիր թռնող ձյաձյաներին",
+    "title_en": "Count the Flying Guys",
+    "summary_en": "To distract a young boy playing in the yard, a man tells him to count the 'unpleasant men' who are about to fly out of a nearby window.",
+    "summary_detailed_en": "The sketch takes place in a residential yard during the day, where a young boy is sitting on the ground playing with a toy bucket and shovels near a blue metal gate and a parked car. A man, who has clearly been involved in a violent altercation, approaches the child to keep him occupied while the chaos continues. He tells the boy in a comforting but strained voice to watch the nearby window, claiming that many 'unpleasant men' are going to come flying out of it, and the boy's job is simply to sit and count them. As the boy starts to count, the scene intercuts with the man himself being violently beaten and thrown against a tree. The man is seen with visible blood on his face, suffering from the physical assault. After being tossed out again, the boy shouts 'one!', but the man quickly interrupts him, crawling back into frame to clarify that he shouldn't be counted yet because it is just him again.",
+    "keywords_hy": [
+      "երեխա",
+      "բակ",
+      "ծեծկռտուք",
+      "հաշվել",
+      "պատուհան",
+      "խաղալիք",
+      "արյուն",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "child",
+      "yard",
+      "fight",
+      "counting",
+      "window",
+      "toys",
+      "blood",
+      "joke"
+    ],
+    "keywords_translit": [
+      "erekha",
+      "bak",
+      "tsotskrtuq",
+      "hashvel",
+      "patuhan",
+      "khaghaliq",
+      "aryun",
+      "katak"
+    ],
+    "catchphrases": [
+      "սպասի ազիզ ջան հլը մի հաշվի էս էլի ես եմ"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

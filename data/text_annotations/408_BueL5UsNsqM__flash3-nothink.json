@@ -1,0 +1,72 @@
+{
+  "video_id": "BueL5UsNsqM",
+  "seq": 408,
+  "kargin_id": 408,
+  "title": "Kargin Haghordum - Bosha, pchacac (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1767,
+  "gen_sec": 5.59,
+  "prompt_tokens": 1948,
+  "output_tokens": 620,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002834,
+  "annotation": {
+    "title_hy": "Դպրոցի Հավաքարարների Կռիվը",
+    "title_en": "School Cleaners' Quarrel",
+    "summary_en": "Two school staff members engage in a heated shouting match over cleaning duties and personal reputations until an observer intervenes with a humorous verdict.",
+    "summary_detailed_en": "The sketch is set in a school hallway lined with bulletin boards. A cleaner wearing a loud, patterned outfit is busy mopping the floor. A conflict arises when one character accuses the other of lazily throwing dirt and trash on the floor instead of into the bucket, arguing that while their job is to sweep, the other's job is to wash windows and manage their own waste. The argument quickly turns personal and financial; the first cleaner complains that since the other was hired, their salary has been cut in half. The newcomer dismisses the complaints, questioning why the other is prying into how they got the job through the principal. The dispute devolves into a repetitive, rhythmic exchange of insults, with one shouting 'Bosha' (beggar/gypsy) and the other shouting 'Pchacats' (spoiled/corrupt). A man in a flat cap enters the scene as they are screaming at each other. He breaks into a brief Russian song about a girls' holiday before delivering the punchline: he tells them both to stop fighting because they are both right about each other.",
+    "keywords_hy": [
+      "դպրոց",
+      "հավաքարար",
+      "կռիվ",
+      "հայկո մկո",
+      "բոշա",
+      "փչացած",
+      "տնօրեն",
+      "աշխատավարձ"
+    ],
+    "keywords_en": [
+      "school",
+      "cleaner",
+      "argument",
+      "janitor",
+      "insults",
+      "salary",
+      "principal",
+      "shouting match"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "havaqarar",
+      "kriv",
+      "hayko mko",
+      "bosha",
+      "pchacac",
+      "tnoren",
+      "ashxatavardz"
+    ],
+    "catchphrases": [
+      "աղջկեք ջան մի կռվեք երկուսդ էլ ճիշտ եք",
+      "փչացած",
+      "բոշա"
+    ],
+    "topics": [
+      "school",
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

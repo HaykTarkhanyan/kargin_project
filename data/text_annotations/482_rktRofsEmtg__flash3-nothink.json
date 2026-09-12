@@ -1,0 +1,70 @@
+{
+  "video_id": "rktRofsEmtg",
+  "seq": 482,
+  "kargin_id": 482,
+  "title": "Kargin Haghordum sketch 110 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "482_Kargin_Haghordum_sketch_110_Hayko_Mko_rktRofsEmtg.hy.json",
+    "visual": true
+  },
+  "input_chars": 3472,
+  "gen_sec": 6.52,
+  "prompt_tokens": 2864,
+  "output_tokens": 604,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003244,
+  "annotation": {
+    "title_hy": "Առևանգողները և Մարդու Իրավունքների Պաշտպանը",
+    "title_en": "The Kidnappers and the Human Rights Defender",
+    "summary_en": "Two kidnappers plan their future with the ransom money until their victim claims her father is friends with the Human Rights Defender, leading to a series of panicked decisions.",
+    "summary_detailed_en": "The sketch begins inside a car where two men are driving a kidnapped woman whose wrists are bound with rope. As they drive through a rural, tree-lined road, the kidnappers lightheartedly discuss their plans for the ransom money; one wants to buy and fix up a Hummer, while the other wants to pay for his mother's dental work. The kidnapped woman interrupts their dreaming, defiantly stating that her father will never pay and that his close friend is the Human Rights Defender (Ombudsman). Panicked by this high-level connection, the kidnappers briefly consider turning back but decide to silence her by stuffing her into the trunk of their black sedan. The victim continues to scream and threaten them with jail time. In a sudden twist at the roadside, the kidnappers are intercepted. A uniformed police officer and an armed man are seen near a blue car. The woman, thinking she is saved, thanks them for catching the 'scum' who kidnapped her, only for the officer to rudely tell her to move out of the way so they can continue their own business, implying a secondary crime or corrupt encounter is taking place.",
+    "keywords_hy": [
+      "առևանգում",
+      "փրկագին",
+      "բեռնախցիկ",
+      "մարդու իրավունքների պաշտպան",
+      "ոստիկան",
+      "համեռ",
+      "ատամներ",
+      "կապած"
+    ],
+    "keywords_en": [
+      "kidnapping",
+      "ransom",
+      "car trunk",
+      "human rights defender",
+      "police",
+      "Hummer",
+      "hostage",
+      "bound hands"
+    ],
+    "keywords_translit": [
+      "arevangum",
+      "prkagin",
+      "bagajnik",
+      "mardu iravunqneri pashtpan",
+      "vostikan",
+      "hammer",
+      "atamner",
+      "kapats"
+    ],
+    "catchphrases": [
+      "իմ պապան ձեզ ոչ մի փող էլ չի տա իրա ընգերը գիտեք ովա իրա ընգերը մարդու իրավունքների պաշտպանա տես ախպեր էտի ռաշոտ չէինք արել ջոգում ես ախպեր ջան արի ստեից ռազվառոդ արա հետ էթանք"
+    ],
+    "topics": [
+      "crime",
+      "police",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

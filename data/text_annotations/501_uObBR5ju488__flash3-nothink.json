@@ -1,0 +1,70 @@
+{
+  "video_id": "uObBR5ju488",
+  "seq": 501,
+  "kargin_id": 501,
+  "title": "Kargin Haghordum sketch 129 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "501_Kargin_Haghordum_sketch_129_Hayko_Mko_uObBR5ju488.hy.json",
+    "visual": true
+  },
+  "input_chars": 1963,
+  "gen_sec": 13.25,
+  "prompt_tokens": 2162,
+  "output_tokens": 609,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002908,
+  "annotation": {
+    "title_hy": "Զուգարանի հարևանը և 1000 դրամանոցները",
+    "title_en": "The Toilet Neighbor and the 1000 Drams",
+    "summary_en": "A man at the airport asks his neighbor in the bathroom stall for toilet paper, eventually asking to break a large bill when no paper is available.",
+    "summary_detailed_en": "The sketch is set in an airport restroom, featuring two men in adjacent toilet stalls. One character is a businessman dressed in a formal suit, while the other is a man wearing a flat cap and sporting a mustache. The businessman, who claims he is about to fly to Brussels, initiates a conversation through the stall wall, introducing himself as the 'toilet neighbor.' He explains that he needed to relieve himself before his flight but realized too late that his stall is out of toilet paper. He asks the neighbor if he has any paper to spare. When the neighbor replies that there is absolutely no paper in his stall either, the businessman desperately asks for a magazine or a newspaper. Receiving another negative response, the sketch reaches its absurd climax when the businessman asks if the neighbor can at least break a large banknote into 1000 dram bills, implying he intends to use the money as a substitute for toilet paper. The visual includes props like urinals and the exchange of cash in an airport setting.",
+    "keywords_hy": [
+      "զուգարան",
+      "օդանավակայան",
+      "թուղթ",
+      "փող մանրել",
+      "հարևան",
+      "Բրյուսել",
+      "1000 դրամ",
+      "կաբինկա"
+    ],
+    "keywords_en": [
+      "restroom",
+      "airport",
+      "toilet paper",
+      "breaking money",
+      "neighbor",
+      "Brussels",
+      "1000 dram",
+      "bathroom stall"
+    ],
+    "keywords_translit": [
+      "zugaran",
+      "odanavakayan",
+      "tuxt",
+      "pogh manrel",
+      "harevan",
+      "Bryusel",
+      "1000 dram",
+      "kabinka"
+    ],
+    "catchphrases": [
+      "֊Կներեք, իսկ կարողա՞ էսի 1000 նոցներով մանրեիք։"
+    ],
+    "topics": [
+      "transport",
+      "neighbors",
+      "money"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

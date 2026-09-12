@@ -1,0 +1,67 @@
+{
+  "video_id": "lAeG87Rui7M",
+  "seq": 664,
+  "kargin_id": 664,
+  "title": "Kargin Haghordum sketch 244 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "664_Kargin_Haghordum_sketch_244_Hayko_Mko_lAeG87Rui7M.hy.json",
+    "visual": true
+  },
+  "input_chars": 1177,
+  "gen_sec": 8.5,
+  "prompt_tokens": 1655,
+  "output_tokens": 582,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002574,
+  "annotation": {
+    "title_hy": "Խմող ամուսինն ու կնոջ դաստիարակությունը",
+    "title_en": "The Drinking Husband and Wife's Discipline",
+    "summary_en": "A wife tries to discipline her alcoholic husband with physical violence, only for him to turn her repetitive scolding into an invitation to drink more.",
+    "summary_detailed_en": "The sketch takes place in a domestic living room setting, decorated with a cabinet and a shelf filled with various carved figurines. A wife, played by a male actor in a long-haired wig, is furiously berating her husband, who wears a white sweater. She screams that she is exhausted by his behavior and that he has brought shame upon their entire family. The scene is physically aggressive, as the wife repeatedly slaps, hits, and pushes the cowering husband while he recoils in fear. She attempts a new method of 'discipline' by repeatedly and aggressively asking him if he will ever drink again. The husband initially denies it, shouting 'No!' as he is pummeled. However, as the wife continues to obsessively repeat the question 'Will you drink again?' over and over, the husband's resistance breaks in an unexpected way. The sketch ends with a classic subversion: instead of being reformed, the husband gives in to the suggestion, telling her she has convinced him and asking her to pour him another glass.",
+    "keywords_hy": [
+      "խմիչք",
+      "հարբեցող",
+      "ծեծկռտուք",
+      "ընտանեկան վեճ",
+      "կնոջ կերպար",
+      "դաստիարակություն",
+      "համոզել"
+    ],
+    "keywords_en": [
+      "drinking",
+      "alcoholic",
+      "family fight",
+      "wife character",
+      "drag comedy",
+      "discipline",
+      "persuasion"
+    ],
+    "keywords_translit": [
+      "xmichq",
+      "harbecox",
+      "ceckrtuq",
+      "yntanekan vech",
+      "knoj kerpar",
+      "dastiarakutyun",
+      "hamozel"
+    ],
+    "catchphrases": [
+      "Էլի կխմես",
+      "լավ համոզիր լից"
+    ],
+    "topics": [
+      "family",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

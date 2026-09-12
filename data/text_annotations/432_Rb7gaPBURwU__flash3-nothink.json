@@ -1,0 +1,68 @@
+{
+  "video_id": "Rb7gaPBURwU",
+  "seq": 432,
+  "kargin_id": 432,
+  "title": "Kargin Haghordum - Pozavor (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1722,
+  "gen_sec": 13.08,
+  "prompt_tokens": 1947,
+  "output_tokens": 593,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002752,
+  "annotation": {
+    "title_hy": "Պոզավոր Պետյան",
+    "title_en": "The Cuckold Petya",
+    "summary_en": "A husband receives anonymous prank calls informing him that he is a cuckold, leading to a heated argument with his wife.",
+    "summary_detailed_en": "The sketch is set in a domestic environment, alternating between a living room and a bedroom. A man with glasses, wearing a dark sweater, sits on a couch and answers a yellow rotary phone. A prank caller addresses him as 'Pozavor' (horned/cuckold) and 'Petya', claiming his wife is cheating on him so much that horns have grown on his head. The man, agitated, confronts his wife—a woman in lingerie lying on a bed with a teddy bear. He accuses her of wandering around while he works to pay for electricity, food, and her clothes, dismissing her claims that she is out for 'practice.' When she asks who told him such nonsense, he claims his friends told him, then admits he doesn't have friends but 'kind people' call to keep him informed. The man forbids her from leaving the house, calling her ungrateful. The phone rings again; the man answers, and the prankster mocks him further, calling him a snitch for reporting the affair to his wife.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "հեռախոսազանգ",
+      "պոզավոր",
+      "կատակ",
+      "ընտանեկան վեճ",
+      "խանդ",
+      "զանգահարող"
+    ],
+    "keywords_en": [
+      "cuckold",
+      "infidelity",
+      "phone prank",
+      "jealous husband",
+      "cheating wife",
+      "anonymous call",
+      "domestic argument"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "heraxosazang",
+      "pozavor",
+      "katak",
+      "entanekan vech",
+      "xand",
+      "zangaharox"
+    ],
+    "catchphrases": [
+      "Բարև պոզավոր",
+      "Տո քեզ որտեղից ընկեր",
+      "Արա բացի պոզավորից, համ էլ գործ տվող ես է"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

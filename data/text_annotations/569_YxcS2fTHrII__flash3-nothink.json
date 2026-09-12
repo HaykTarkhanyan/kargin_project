@@ -1,0 +1,66 @@
+{
+  "video_id": "YxcS2fTHrII",
+  "seq": 569,
+  "kargin_id": 569,
+  "title": "Kargin Haghordum sketch 419 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1561,
+  "gen_sec": 4.67,
+  "prompt_tokens": 1821,
+  "output_tokens": 477,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002341,
+  "annotation": {
+    "title_hy": "Վաչոյի շինարարական ցրվածությունը",
+    "title_en": "Vacho's Construction Absentmindedness",
+    "summary_en": "A housewife complains on the phone about her husband's grueling construction job in Parakar, only for him to absentmindedly bring buckets of mud home instead of going to work.",
+    "summary_detailed_en": "The sketch begins in an apartment living room where a housewife, played by a male comedian in drag with curly hair, is dusting a wardrobe cabinet and chandelier while talking on a mobile phone to a friend named Varsik. She explains that she stayed home to clean and laments her husband Vacho's exhausting work schedule. She describes his long days at a construction site in Parakar, claiming he works from 7 AM to 11 PM, returns home shattered and thin, and has become incredibly absentminded due to fatigue. She mentions that he frequently forgets things she asks him to bring home. The conversation is interrupted when the doorbell rings. The housewife opens the door to find Vacho, an elderly man carrying two heavy metal buckets filled with wet mud/cement. Surprised, she asks why he is home and why he brought buckets of mud into the house. Vacho realizes his mistake, exclaiming that he got lost in his thoughts while his coworkers are waiting for him with the hoist ready. The sketch ends confirming the housewife's earlier claims about his mental state.",
+    "keywords_hy": [
+      "շինարարություն",
+      "ցրված",
+      "վեդրո",
+      "ցեխ",
+      "հոգնածություն",
+      "զանգ",
+      "տնային տնտեսուհի"
+    ],
+    "keywords_en": [
+      "construction",
+      "absentminded",
+      "buckets",
+      "mud",
+      "fatigue",
+      "phone call",
+      "housewife"
+    ],
+    "keywords_translit": [
+      "shinararutyun",
+      "crvac",
+      "vedro",
+      "cix",
+      "hognacutyun",
+      "zang",
+      "tnayin tntesuhi"
+    ],
+    "catchphrases": [
+      "Թու արա էլի մտքերով ընգա"
+    ],
+    "topics": [
+      "family",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

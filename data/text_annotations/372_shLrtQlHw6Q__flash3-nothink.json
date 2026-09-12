@@ -1,0 +1,80 @@
+{
+  "video_id": "shLrtQlHw6Q",
+  "seq": 372,
+  "kargin_id": 372,
+  "title": "Kargin Haghordum - Pashtonya (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2154,
+  "gen_sec": 6.17,
+  "prompt_tokens": 2166,
+  "output_tokens": 736,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003291,
+  "annotation": {
+    "title_hy": "Կոռումպացված Պաշտոնյան և Գողը",
+    "title_en": "The Corrupt Official and the Mugger",
+    "summary_en": "A corrupt government official complains about citizens blocking his illegal construction projects until he gets held up at knifepoint by a man who demands his money back on behalf of the taxpayers.",
+    "summary_detailed_en": "The sketch begins with a mustached government official wearing a suit and necktie, driving his car and ranting angrily about a community meeting he just attended. He mocks residents who complained that his illegal garages block children's play areas, arguing absurdly that a garage cannot physically 'bother' a child. He continues his tirade against an elderly man who objected to a planned gas station in a park where seniors play chess, labeling the citizens as 'selfish' for wanting what is best for the people instead of letting him build his business. He laments that his corrupt earnings are 'vanishing like water' on his second home and dacha, preventing him from buying a Porsche. Feeling agitated, he pulls over in a rural countryside field to 'relax.' As he walks through the grass, a man (appearing like a local or a vagrant) approaches and pulls a knife on him, demanding his money. When the official tries to intimidate him by screaming that he is a member of the government, the mugger cleverly retorts that since he is the government, he should 'give our money back,' turning the mugging into a symbolic reclamation of tax money.",
+    "keywords_hy": [
+      "պաշտոնյա",
+      "կառավարություն",
+      "կոռուպցիա",
+      "բենզակալոնկա",
+      "գարաժ",
+      "բողոք",
+      "ժողովուրդ",
+      "փող",
+      "գողություն",
+      "դանակ"
+    ],
+    "keywords_en": [
+      "official",
+      "government",
+      "corruption",
+      "gas station",
+      "garage",
+      "complaint",
+      "taxpayer",
+      "money",
+      "robbery",
+      "knife"
+    ],
+    "keywords_translit": [
+      "pashtonya",
+      "karavarutyun",
+      "korupcia",
+      "benzakalonka",
+      "garaj",
+      "boghoq",
+      "jhoghovurd",
+      "pogh",
+      "goghutyun",
+      "danak"
+    ],
+    "catchphrases": [
+      "բա էն լակոտի ասածը",
+      "Ով էն պառավը",
+      "արա, տո ոնց կարա գարաժը  երեխուն խանգարի",
+      "Կառավարության անդա՞մ ես",
+      "Դե ուրեմն մեր փողերը հանի տուր"
+    ],
+    "topics": [
+      "bureaucracy",
+      "crime",
+      "money"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

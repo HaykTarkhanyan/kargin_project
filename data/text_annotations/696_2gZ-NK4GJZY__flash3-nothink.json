@@ -1,0 +1,66 @@
+{
+  "video_id": "2gZ-NK4GJZY",
+  "seq": 696,
+  "kargin_id": 696,
+  "title": "Kargin Haghordum - Sex mashni mech (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "696_Kargin_Haghordum_-_Sex_mashni_mech_Hayko_Mko_2gZ-NK4GJZY.hy.json",
+    "visual": true
+  },
+  "input_chars": 1381,
+  "gen_sec": 5.09,
+  "prompt_tokens": 1662,
+  "output_tokens": 487,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002292,
+  "annotation": {
+    "title_hy": "Սեքս մեքենայի մեջ և ոստիկանը",
+    "title_en": "Sex in the Car and the Policeman",
+    "summary_en": "A police officer catches a man having sex in a parked car in a public park and attempts to extort him with a steep fine.",
+    "summary_detailed_en": "The sketch takes place on a quiet park road during the day. A traffic police officer, wearing a standard police cap, is patrolling the area when he notices a parked car. Upon looking through the window, he reacts with exaggerated shock, covering his eyes at what he sees inside. Inside the car, a shirtless man is caught in an intimate moment. The officer reaches through the open window, physically grabbing and pulling at the man while berating him for his behavior in a public space. The officer claims that engaging in such acts in a public place is a violation of public order and demands a fine of 100 dollars. When the man protests, the officer realizes there are two people involved and immediately doubles the demand to 200 dollars. The man humorously retorts that if they actually had 100 dollars, they would have just gone to a hotel instead of staying in the car. The scene highlights the opportunistic corruption of the officer and the absurdity of the fine.",
+    "keywords_hy": [
+      "ոստիկան",
+      "տուգանք",
+      "մեքենա",
+      "հասարակական վայր",
+      "կաշառք",
+      "սեքս"
+    ],
+    "keywords_en": [
+      "police officer",
+      "fine",
+      "car",
+      "public place",
+      "bribery",
+      "sex"
+    ],
+    "keywords_translit": [
+      "vostikan",
+      "tugank",
+      "meqena",
+      "hasarakakan vayr",
+      "kasharq",
+      "sex"
+    ],
+    "catchphrases": [
+      "100 դոլար ունենայինք հյուրանոց կգնայինք.",
+      "էս 2 հոգով եք. դե ուրեմն 200 դոլար.",
+      "տուգանք ա հասնում 100 դոլար տուր."
+    ],
+    "topics": [
+      "police",
+      "leisure_outing",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

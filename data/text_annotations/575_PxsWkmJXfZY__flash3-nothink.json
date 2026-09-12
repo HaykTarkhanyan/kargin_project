@@ -1,0 +1,70 @@
+{
+  "video_id": "PxsWkmJXfZY",
+  "seq": 575,
+  "kargin_id": 575,
+  "title": "Kargin Haghordum sketch 426 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "575_Kargin_Haghordum_sketch_426_Hayko_Mko_PxsWkmJXfZY.hy.json",
+    "visual": true
+  },
+  "input_chars": 1340,
+  "gen_sec": 7.67,
+  "prompt_tokens": 1676,
+  "output_tokens": 582,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002584,
+  "annotation": {
+    "title_hy": "Հեռուստացույցի շոուն և հյուրը",
+    "title_en": "The TV Show and the Guest",
+    "summary_en": "Two men spend a long time drinking tea and watching a repetitive TV show until a sudden doorbell reveals how eagerly one has been waiting for an escape.",
+    "summary_detailed_en": "The sketch takes place in a modest living room where two men are sitting closely on a couch. One man wears a bright yellow shirt while the other features a beard and a dark shirt. They are focused on a television set that is playing a rhythmic, upbeat show with a recurring song about joy and laughter ('Mez mot urakh khagh u tsitsagh'). The atmosphere is one of domestic boredom, emphasized by visual cuts to an analog clock on the wall showing the passage of time as they repeatedly pour tea from a teapot. The repetitive lyrics of the TV show, involving 'Yo-yo' sounds and upbeat rhymes, fill the silence between the characters. Eventually, a doorbell rings, breaking the monotony. The man in the yellow shirt immediately stands up and rushes toward the hallway to open it. The visitor is shocked by the speed of the response, leading to the punchline where he remarks on how 'reactive' they are for opening the door before the bell has even finished ringing.",
+    "keywords_hy": [
+      "հեռուստացույց",
+      "թեյաման",
+      "զանգ",
+      "հյուր",
+      "երգ",
+      "ժամացույց",
+      "ռեակտիվ",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "television",
+      "teapot",
+      "doorbell",
+      "guest",
+      "reactive",
+      "waiting",
+      "boredom",
+      "comedy song"
+    ],
+    "keywords_translit": [
+      "herustacuyc",
+      "teyaman",
+      "zang",
+      "hyur",
+      "erg",
+      "zamacuyc",
+      "reaktiv",
+      "katak"
+    ],
+    "catchphrases": [
+      "Արա էս ռեակտիվ եք, զանգը չտված դուռը բացում եք"
+    ],
+    "topics": [
+      "family",
+      "party_guests",
+      "media_showbiz"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

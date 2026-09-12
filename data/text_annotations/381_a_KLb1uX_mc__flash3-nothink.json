@@ -1,0 +1,66 @@
+{
+  "video_id": "a_KLb1uX_mc",
+  "seq": 381,
+  "kargin_id": 381,
+  "title": "Kargin Haghordum sketch 145 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "381_Kargin_Haghordum_sketch_145_Hayko_Mko_a_KLb1uX_mc.tr.json",
+    "visual": true
+  },
+  "input_chars": 1804,
+  "gen_sec": 10.23,
+  "prompt_tokens": 2053,
+  "output_tokens": 583,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002776,
+  "annotation": {
+    "title_hy": "Ծովափնյա հանգիստ և ամուսնալուծություն",
+    "title_en": "Beach Vacation and Divorce",
+    "summary_en": "A husband and his wife, who has just returned from the seaside, engage in a caustic argument about her questionable income and their upcoming divorce.",
+    "summary_detailed_en": "The sketch takes place in a domestic living room with floral wallpaper. A husband sits on the couch reading a newspaper when his wife, played by a male actor in drag wearing a curly blonde wig, headband, and red top, enters carrying a handbag and shopping bags. She has just returned from a vacation at the sea. The husband immediately begins mocking her, suggesting she should have walked the beach with a 'for rent' sign on her back to attract foreigners. The wife retorted by insulting his intelligence and his job as a draftsman. The conversation reveals their toxic relationship: the husband mentions that their divorce papers are ready and they will be legally separated in two days. The wife explains she stayed at the beach because that is where her 'clientele' was. When the husband mockingly asks how much she earned from her 'body sales,' she proudly claims 1,000 dollars. The sketch ends with a sharp exchange where the husband claims he wouldn't pay more than a dollar for her, and she retorts that she wouldn't take more than a dollar from him anyway.",
+    "keywords_hy": [
+      "ամուսնալուծություն",
+      "ծովափ",
+      "կլիենտուրա",
+      "փող",
+      "վիճաբանություն",
+      "խանդ",
+      "ամուսիններ"
+    ],
+    "keywords_en": [
+      "divorce",
+      "seaside",
+      "clientele",
+      "money",
+      "argument",
+      "jealousy",
+      "married couple"
+    ],
+    "keywords_translit": [
+      "amusnalucutyun",
+      "covap",
+      "klientura",
+      "pogh",
+      "vichabanutyun",
+      "xand",
+      "amusinner"
+    ],
+    "catchphrases": [
+      "Բաժանվի տենամ էդ աշխատավարձովդ քանի օրից սովից կմեռնես։"
+    ],
+    "topics": [
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

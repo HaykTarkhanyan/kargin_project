@@ -1,0 +1,69 @@
+{
+  "video_id": "f1rGyGwoJ68",
+  "seq": 309,
+  "kargin_id": 309,
+  "title": "Kargin Haghordum sketch 470 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2673,
+  "gen_sec": 5.15,
+  "prompt_tokens": 2407,
+  "output_tokens": 585,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002959,
+  "annotation": {
+    "title_hy": "Ձայնի բարակացում և փոմփոլիկներ",
+    "title_en": "Voice Thinning and Pompholiks",
+    "summary_en": "A man undergoes a drastic surgical procedure to thin his voice for his wife, only to realize too late the biological consequences.",
+    "summary_detailed_en": "In a hospital consulting room, a mustached man in a black work jacket consults with a surgeon in blue scrubs regarding his deep, gravelly voice, which his wife dislikes. The man explains he wants a higher voice as a gift for her. The surgeon informs him that traditional throat medicine won't work, but proposes a '100% effective' small operation: removing his testicles to raise his pitch by 3-4 octaves. Eager to please his wife, the man agrees, and the surgeon immediately arranges the operating room via phone. The scene transitions to an apartment hallway where the man, now speaking in a comically high-pitched voice, surprises his wife (a red-haired woman in a dressing gown). She is delighted by the sound until he reveals the method: the removal of his 'pompholiks' (testicles). Horrified, she asks how they will have children. Realizing his mistake, the man rushes back to the clinic, begging the surgeon to sew them back on. The sketch ends with the surgeon bluntly informing him that it is too late.",
+    "keywords_hy": [
+      "բժիշկ",
+      "օպերացիա",
+      "ձայն",
+      "ամորձիներ",
+      "փոմփոլիկ",
+      "հիվանդանոց",
+      "կատակ",
+      "վիրահատություն"
+    ],
+    "keywords_en": [
+      "doctor",
+      "operation",
+      "voice",
+      "testicles",
+      "pompholik",
+      "hospital",
+      "joke",
+      "surgery"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "operacia",
+      "dzayn",
+      "amordziner",
+      "pompolik",
+      "hivandanoc",
+      "katak",
+      "virahatutyun"
+    ],
+    "catchphrases": [
+      "Ապե ձև չի, արդեն ուշա։"
+    ],
+    "topics": [
+      "medical",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

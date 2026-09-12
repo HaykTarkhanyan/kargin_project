@@ -1,0 +1,69 @@
+{
+  "video_id": "P-82k6qN3KU",
+  "seq": 189,
+  "kargin_id": 189,
+  "title": "Kargin Haghordum sketch 369 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1636,
+  "gen_sec": 17.47,
+  "prompt_tokens": 1848,
+  "output_tokens": 561,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002607,
+  "annotation": {
+    "title_hy": "Կրիայի թաղման խոստումը",
+    "title_en": "The Turtle's Funeral Promise",
+    "summary_en": "A child becomes excited about the prospect of a lavish party following a pet turtle's death, leading to a dark request when the pet turns out to be alive.",
+    "summary_detailed_en": "In a living room filled with stuffed toys, a mother (an actor in female drag) talks to her daughter (played by an adult male actor in a blonde curly wig and pink robe, portraying an oversized baby) about a pet turtle brought from Sochi by Grandpa Hamo. The mother warns the child to be gentle with the pet. Suddenly, the child shouts that the turtle has died. To console the grieving child, the mother describes an elaborate plan: they will place the turtle in a beautiful box, bury it in the garden with flowers, and then host a massive feast. She promises a huge cake, candies, ice cream, and a lavish 'funeral party' where all the girl's school and neighborhood friends will be invited to celebrate. However, the mother suddenly notices the turtle moving and joyfully exclaims that it is actually alive. Disappointed by the loss of the promised party, the child looks at her mother and asks if she can kill the turtle herself to make the celebration happen.",
+    "keywords_hy": [
+      "կրիա",
+      "թաղում",
+      "տորթ",
+      "երեխա",
+      "նվեր",
+      "զավեշտ",
+      "ընտանիք",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "turtle",
+      "funeral",
+      "cake",
+      "oversized baby",
+      "pet death",
+      "dark humor",
+      "drag comedy",
+      "party promise"
+    ],
+    "keywords_translit": [
+      "kria",
+      "taghum",
+      "tort",
+      "erekha",
+      "nver",
+      "zavesht",
+      "yntaniq",
+      "katak"
+    ],
+    "catchphrases": [
+      "Մամ իսկ կարելիա ես կրիաին սատկացնեմ"
+    ],
+    "topics": [
+      "family",
+      "wedding_funeral"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

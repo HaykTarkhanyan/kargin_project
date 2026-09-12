@@ -1,0 +1,77 @@
+{
+  "video_id": "7arnxebkEUU",
+  "seq": 377,
+  "kargin_id": 377,
+  "title": "Kargin Haghordum sketch 101 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "377_Kargin_Haghordum_sketch_101_Hayko_Mko_7arnxebkEUU.en.json",
+    "visual": true
+  },
+  "input_chars": 3712,
+  "gen_sec": 9.35,
+  "prompt_tokens": 2855,
+  "output_tokens": 830,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003917,
+  "annotation": {
+    "title_hy": "Գողացված կովի տրամաբանությունը",
+    "title_en": "The Logic of the Stolen Cow",
+    "summary_en": "An old man and his sons use absurd, chain-link logic to accuse a neighbor of stealing their cow, eventually convincing even the police chief with their bizarre reasoning.",
+    "summary_detailed_en": "The sketch begins in a village setting where Usta Mamikon informs his three sons, all wearing identical plaid shirts, that their cow has been stolen. Through a series of ridiculous logical leaps—reasoning that if a 'beast' stole it, the thief must be thin; if he is thin, he is from the neighboring village; and if he is from that village, it must be a man named Serob—they decide to confront him. They find Serob and physically assault him, demanding the cow back while Serob maintains his innocence despite the beating. The scene shifts to a police station where Mamikon presents his 'evidence' to the police chief. The chief is initially skeptical of their flawed deductive reasoning and decides to test them by hiding an object in a box. The sons apply the same absurd logic: since the box is square, the object is round; since it is round, it is orange-colored; therefore, it is an orange. When the chief sees they are actually correct about the hidden orange, he is so stunned that he immediately orders Serob to return the cow, fully converted to their illogical way of thinking.",
+    "keywords_hy": [
+      "կով",
+      "գողություն",
+      "տրամաբանություն",
+      "ոստիկանություն",
+      "Սերոբ",
+      "Ուստա Մամիկոն",
+      "հայվան",
+      "նարինջ",
+      "ապացույց"
+    ],
+    "keywords_en": [
+      "cow",
+      "theft",
+      "logic",
+      "police station",
+      "Serob",
+      "Usta Mamikon",
+      "beast",
+      "orange",
+      "evidence"
+    ],
+    "keywords_translit": [
+      "kov",
+      "goghutyun",
+      "tramabanutyun",
+      "vostikanutyun",
+      "Serob",
+      "Usta Mamikon",
+      "hayvan",
+      "narinj",
+      "apacuyc"
+    ],
+    "catchphrases": [
+      "ախր այ ուստա ջան այ Մամիկոն ջան առաջին հերթին դա ապացույց չի երկրորդ հերթին էլ ես մտածում եմ էդ ինչ լոգիկայա որ դուք դրանով մտածում եք դե եթե տենցա ասեք էս տուփի մեջ ինչա ըհն",
+      "նաչալնիկ ջան եթե տուփը քառակուսիա ուրեմն մեջինը կլորա",
+      "եթե կլորա ուրեմն նարնջգույնա",
+      "եթե նարջնջագույան ուրեմն տուփի մեջինը ապելսինա",
+      "լսի Սերոբ էս մարդկանց կովը բեր հետ տուր արա"
+    ],
+    "topics": [
+      "village",
+      "police",
+      "family"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

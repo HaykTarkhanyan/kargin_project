@@ -1,0 +1,67 @@
+{
+  "video_id": "DNU5NBurfEE",
+  "seq": 132,
+  "kargin_id": 132,
+  "title": "Kargin Haghordum sketch 677 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "132_Kargin_Haghordum_sketch_677_Hayko_Mko_DNU5NBurfEE.en.json",
+    "visual": true
+  },
+  "input_chars": 1321,
+  "gen_sec": 4.45,
+  "prompt_tokens": 1642,
+  "output_tokens": 608,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002645,
+  "annotation": {
+    "title_hy": "Անգլիացի շպիոնի տունը",
+    "title_en": "The English Spy's House",
+    "summary_en": "An elderly woman selling sunflower seeds gives a man confusing directions to a flower shop based on the location of a supposed English spy.",
+    "summary_detailed_en": "The sketch takes place on a city street beside a stone wall during the day. An elderly woman, dressed in a trenchcoat and headscarf, is sitting on a stone ledge with a small suitcase, selling home-grown sunflower seeds ('semushka'). An elderly man wearing a hat and a trenchcoat approaches her. The woman greets him warmly and asks how many cups of pure, homemade seeds he would like to buy. The man repeatedly says 'thas' (cup), which the woman joyfully misinterprets as 'tas' (ten), praising him for being such a 'good boy' for buying ten cups. The man then asks if there is a flower shop on this street. The woman confirms there is and provides specific directions: he must walk straight down the street until he reaches the house of the 'English spy,' noting that the shop is located right underneath it. The humor stems from the woman's casual mention of a spy's residence as a local landmark and the initial misunderstanding over the quantity of seeds.",
+    "keywords_hy": [
+      "սեմուշկա",
+      "թաթի",
+      "անգլիացի շպիոն",
+      "ծաղկի խանութ",
+      "փողոց",
+      "հին Երևան",
+      "ուղղություն հարցնել"
+    ],
+    "keywords_en": [
+      "sunflower seeds",
+      "grandma",
+      "English spy",
+      "flower shop",
+      "street directions",
+      "old woman",
+      "misunderstanding"
+    ],
+    "keywords_translit": [
+      "semushka",
+      "tati",
+      "angliaci shpion",
+      "tsaghki khanut",
+      "poghoc",
+      "hin Erevan",
+      "ughghutyun harcnel"
+    ],
+    "catchphrases": [
+      "էն անգլիացի շպիոնի տունը կա, այ դրա տակը",
+      "ես գիտեյի որ դու սենց լավ տղա ես"
+    ],
+    "topics": [
+      "shop_market",
+      "neighbors"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "7v5AY7QdJQA",
+  "seq": 171,
+  "kargin_id": 171,
+  "title": "Kargin Haghordum sketch 215 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "171_Kargin_Haghordum_sketch_215_Hayko_Mko_7v5AY7QdJQA.tr.json",
+    "visual": true
+  },
+  "input_chars": 2321,
+  "gen_sec": 12.56,
+  "prompt_tokens": 2246,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003055,
+  "annotation": {
+    "title_hy": "Գող պապիկը դպրոցում",
+    "title_en": "Thief Grandpa at School",
+    "summary_en": "A former convict is asked by his grandson to pretend to be a war veteran at school, but his retelling of a secret mission turns into a story about a burglary and running from the police.",
+    "summary_detailed_en": "The sketch begins with a young boy named Hakobik visiting his grandfather at his workplace, where the old man is wearing a beanie and playing a board game. Hakobik asks his grandfather to visit his school for 'Veteran Week' to share war stories. The grandfather initially refuses, admitting he spent his life serving six prison terms ('srok') in labor colonies rather than in the military. However, to save his grandson's reputation, he agrees to come. The scene shifts to a classroom where a teacher introduces Hakobik's grandfather to the students. Dressed in a tan jacket, the grandfather begins narrating a 1943 'reconnaissance' mission to steal a map from a Gestapo safe. He describes digging a tunnel under the apartment and cracking the safe using 'old methods' (burglary techniques). When he mentions the alarm going off and fleeing to the roof to avoid 'SS soldiers' and then to the basement to avoid 'Gestapo officers,' he concludes the story by saying they were caught. When a student asks if the Germans caught them, he reflexively replies with the punchline: 'No man, the cops (mentere)!', revealing his war story was actually a description of a criminal heist.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "դպրոց",
+      "պատերազմի վետերան",
+      "գողական",
+      "բանտարկյալ",
+      "սուտասան",
+      "դասարան",
+      "Հայկո Մկո"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "school classroom",
+      "war veteran",
+      "criminal slang",
+      "convict",
+      "burglary",
+      "police",
+      "funny grandpa"
+    ],
+    "keywords_translit": [
+      "kargin haghordum",
+      "dproc",
+      "paterazmi veteran",
+      "goghakan",
+      "bantarkyal",
+      "sutasan",
+      "dasaran",
+      "mentere"
+    ],
+    "catchphrases": [
+      "տո չէ հա այ մարդ մենթերը"
+    ],
+    "topics": [
+      "school",
+      "crime",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

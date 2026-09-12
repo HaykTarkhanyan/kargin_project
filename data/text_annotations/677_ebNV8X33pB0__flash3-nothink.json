@@ -1,0 +1,67 @@
+{
+  "video_id": "ebNV8X33pB0",
+  "seq": 677,
+  "kargin_id": 677,
+  "title": "Kargin Haghordum sketch 257 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "677_Kargin_Haghordum_sketch_257_Hayko_Mko_ebNV8X33pB0.hy.json",
+    "visual": true
+  },
+  "input_chars": 1228,
+  "gen_sec": 5.89,
+  "prompt_tokens": 1596,
+  "output_tokens": 557,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002469,
+  "annotation": {
+    "title_hy": "Հաբեթը և Ֆորդ Բոյարը",
+    "title_en": "Habet and Fort Boyard",
+    "summary_en": "An elderly couple's simple chore in a cluttered backyard turns into a high-stakes, timed competition parodying the game show Fort Boyard.",
+    "summary_detailed_en": "The sketch takes place in a cluttered outdoor backyard or courtyard filled with wooden crates and debris. An elderly woman, dressed in a leopard-print coat and played by a male comedian in drag, asks her husband Habet, who uses a cane, to go fetch something from the shed ('saray'). As Habet struggles and appears physically distressed, he declares that this isn't just a shed, but a 'Fort Boyard' challenge. The mundane task of finding a key transforms into a slapstick parody of the famous French game show. The two characters engage in a physical brawl, using their canes and wooden sticks as weapons, and at one point, chairs are thrown. The scene is stylistically edited with comic visual effects, including a countdown timer graphic and fire effects, simulating timed rounds of a fight. The humor stems from the juxtaposition of their frail elderly appearances with the intense, competitive energy of an action game show, culminating in Habet's pride at securing the 'first key.'",
+    "keywords_hy": [
+      "Հաբեթ",
+      "Ֆորդ Բոյար",
+      "սառայ",
+      "բանալի",
+      "կռիվ",
+      "ծերունիներ",
+      "չուլան"
+    ],
+    "keywords_en": [
+      "Habet",
+      "Fort Boyard",
+      "shed",
+      "key",
+      "fight",
+      "elderly couple",
+      "slapstick",
+      "pantry"
+    ],
+    "keywords_translit": [
+      "Habet",
+      "Ford Boyar",
+      "saray",
+      "banali",
+      "kriv",
+      "tseruniner",
+      "chulan"
+    ],
+    "catchphrases": [
+      "էսի սառայ չի էսի ֆորդ բոյարա"
+    ],
+    "topics": [
+      "family",
+      "neighbors"
+    ],
+    "humor_type": [
+      "slapstick",
+      "situational"
+    ]
+  }
+}

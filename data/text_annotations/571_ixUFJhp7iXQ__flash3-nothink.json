@@ -1,0 +1,69 @@
+{
+  "video_id": "ixUFJhp7iXQ",
+  "seq": 571,
+  "kargin_id": 571,
+  "title": "Kargin Haghordum sketch 422 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1426,
+  "gen_sec": 9.74,
+  "prompt_tokens": 1766,
+  "output_tokens": 581,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002626,
+  "annotation": {
+    "title_hy": "Խմած ամուսինը և ճանճերը",
+    "title_en": "The Drunken Husband and the Flies",
+    "summary_en": "A drunk husband tries to justify breaking his sobriety vow to his wife and boasts about his ability to distinguish the gender of the flies he kills.",
+    "summary_detailed_en": "The sketch takes place in a living room where a man in a black shirt is sitting on a couch, visibly intoxicated. His wife, played by a male comedian in a pink robe and a bright orange wig, is annoyed by his state. A television in the background shows nature footage, which the husband demands be changed because he claims to 'hate animals.' This prompts the wife to point out the hypocrisy, as he promised to stay sober for six months but has come home 'drinking like an animal' again. The husband argues semantics, claiming he didn't promise to stay sober for six months consecutively, but rather intended to alternate days of drinking throughout the year. As he starts swatting at the air and his wife's wig, he claims to have killed five flies. When the skeptical wife asks how he can possibly know that he killed two males and three females, he delivers the punchline: the two males were sitting on a beer glass, and the three females were on the phone.",
+    "keywords_hy": [
+      "խմած",
+      "խնամի",
+      "կին և ամուսին",
+      "ճանճ",
+      "գարեջուր",
+      "հեռախոս",
+      "կատակ",
+      "հարբած"
+    ],
+    "keywords_en": [
+      "drunk husband",
+      "husband and wife",
+      "flies",
+      "beer glass",
+      "sobriety",
+      "telephone",
+      "drag",
+      "living room"
+    ],
+    "keywords_translit": [
+      "khmats",
+      "kin ev amusín",
+      "chanch",
+      "pivi bakal",
+      "herakhos",
+      "katak",
+      "harbats"
+    ],
+    "catchphrases": [
+      "2 հատ որձ, 3 հատ էգը",
+      "2-ը պիվի բակալի վրա էին նստած, 3-ը հեռախոսի"
+    ],
+    "topics": [
+      "family",
+      "drinking"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

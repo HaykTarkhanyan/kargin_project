@@ -1,0 +1,67 @@
+{
+  "video_id": "J4g5N8mot14",
+  "seq": 256,
+  "kargin_id": 256,
+  "title": "Kargin Haghordum sketch 563 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1336,
+  "gen_sec": 18.99,
+  "prompt_tokens": 1737,
+  "output_tokens": 636,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002776,
+  "annotation": {
+    "title_hy": "Անարգելակ Տաքսիստը",
+    "title_en": "The Brakeless Taxi",
+    "summary_en": "A passenger hails a private driver acting like a taxi service, only to find out the driver's safety method involves checking life lines instead of using brakes.",
+    "summary_detailed_en": "The sketch is set on a rural road where an eccentric passenger wearing a flat cap, sunglasses, and carrying a cane hails a vehicle. He asks the driver if it is a taxi service, to which the driver responds that he is an individual entrepreneur but offers to provide the full service experience, including radio static and smoking during the trip. The passenger agrees to a ride to Dilijan for a specific fare. Before they set off, the driver asks to examine the passenger's left hand. After inspecting the palm, the driver expresses relief that the passenger's 'life line' is long. When the confused passenger asks what palmistry has to do with a car ride, the driver nonchalantly reveals that the car has no brakes whatsoever. He explains that he needed to check the life line to see if they would actually make it to their destination alive. The humor is derived from the driver's casual attitude toward extreme mechanical failure and his reliance on superstition over safety.",
+    "keywords_hy": [
+      "տաքսի",
+      "արգելակ",
+      "Դիլիջան",
+      "ձեռնարկատեր",
+      "բախտագուշակություն",
+      "ճանապարհ",
+      "վարորդ"
+    ],
+    "keywords_en": [
+      "taxi",
+      "brakes",
+      "Dilijan",
+      "palm reading",
+      "driver",
+      "rural road",
+      "life line"
+    ],
+    "keywords_translit": [
+      "taxi",
+      "argelak",
+      "Dilijan",
+      "dzernarkater",
+      "baxtagushakutyun",
+      "chanaparh",
+      "varord"
+    ],
+    "catchphrases": [
+      "Չէ սերվիս չի անհատ ձեռներեցա բայց դու ասա սերվիսի ձևերով քեզ տանեմ ցավդ տանեմ",
+      "Հոպար ջան նայում էի կյանքիդ գիծը երկար էր թե չէ",
+      "Հոպար ջան որ դուզն ասեմ էս մաշնեն վոաբշե տորմուզ չունի"
+    ],
+    "topics": [
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

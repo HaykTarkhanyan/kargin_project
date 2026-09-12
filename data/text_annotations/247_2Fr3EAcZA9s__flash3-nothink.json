@@ -1,0 +1,72 @@
+{
+  "video_id": "2Fr3EAcZA9s",
+  "seq": 247,
+  "kargin_id": 247,
+  "title": "Kargin Haghordum - Killer (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "247_Kargin_Haghordum_-_Killer_Hayko_Mko_2Fr3EAcZA9s.tr.json",
+    "visual": true
+  },
+  "input_chars": 4039,
+  "gen_sec": 29.53,
+  "prompt_tokens": 3151,
+  "output_tokens": 541,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003198,
+  "annotation": {
+    "title_hy": "Կիլերի ծնունդը",
+    "title_en": "The Killer's Birthday",
+    "summary_en": "Two gangsters organize a surprise birthday party for their hitman friend, complete with professional 'gifts' like a new rifle, a high-paying contract, and a live target to kill.",
+    "summary_detailed_en": "In a living room with a brown leather sofa, two gangsters wearing black shirts and thick gold chains host a surprise birthday celebration for their childhood friend Vahram, a notorious hitman. They drink cognac and reminisce about growing up together in an orphanage, noting how they became businessmen while Vahram became the top contract killer in the Transcaucasus. The hosts even fondly mention the time Vahram cut off one of their tongues with a hacksaw to keep him from talking to the police. The gangsters then present a multi-part 'gift.' First, they give him his favorite sniper rifle in a carrying case. Second, they provide a contract to eliminate a specific target for one hundred thousand dollars, which Vahram considers a generous price for a job in Armenia. Finally, the scene shifts to a concrete basement where the gangsters reveal the 'grand finale': the actual target, a heavy man in a white shirt and tie, tied to a stool with a white hood over his head. Overjoyed by his friends' thoughtfulness, Vahram prepares to execute the man at point-blank range while his friends sing 'Happy Birthday' to him.",
+    "keywords_hy": [
+      "կիլեր",
+      "ծնունդ",
+      "անակնկալ",
+      "զենք",
+      "զակազ",
+      "բիզնեսմեն",
+      "մարդասպան",
+      "նվեր"
+    ],
+    "keywords_en": [
+      "hitman",
+      "birthday surprise",
+      "contract killer",
+      "gangsters",
+      "assassination",
+      "sniper rifle",
+      "organized crime",
+      "orphanage friends"
+    ],
+    "keywords_translit": [
+      "kiler",
+      "tsnund",
+      "anaknkal",
+      "zenq",
+      "zakaz",
+      "biznesmen",
+      "mardaspan",
+      "nver"
+    ],
+    "catchphrases": [
+      "նվերդ մի քանի մասիցա բաղկացած",
+      "տղերք ջան էս հարյուր հազարանոց զակազա",
+      "ծնունդդ շնորհավոր լա լա լա լա"
+    ],
+    "topics": [
+      "crime",
+      "party_guests",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

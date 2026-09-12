@@ -1,0 +1,71 @@
+{
+  "video_id": "oPm64B_oPe4",
+  "seq": 344,
+  "kargin_id": 344,
+  "title": "Kargin Haghordum sketch 511 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "344_Kargin_Haghordum_sketch_511_Hayko_Mko_oPm64B_oPe4.hy.json",
+    "visual": true
+  },
+  "input_chars": 2060,
+  "gen_sec": 5.67,
+  "prompt_tokens": 2099,
+  "output_tokens": 663,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003038,
+  "annotation": {
+    "title_hy": "Կոմանդիրովկայի Բրոնյան",
+    "title_en": "Booking a Business Trip",
+    "summary_en": "A boss tries to book a month-long romantic getaway in Spain with his female employee under the guise of an office project until his wife returns unexpectedly.",
+    "summary_detailed_en": "The sketch is set in an office where a mustached director and a female coworker are sitting closely together at a computer desk. They are discussing an upcoming trip to Spain or Italy, looking for an all-inclusive hotel near the sea. The director insists on a month-long stay to 'truly understand each other,' and tells the woman he will lie to his wife, claiming it is a business trip (commandirovka). He dismisses the idea of ever taking a wife to a hotel, calling it inappropriate for a 'decent director.' He instructs the woman to book a double room with a single bed. Just as they are finalized with the plans, a flamboyant woman in drag—wearing a bright yellow jacket, a red wig, and sunglasses—bursts into the room. Caught in the act, the director immediately changes his tone, pretending they are discussing office logistics. He frantically tells the employee to add a note to the document about a 'lack of seating' and to request 'additional chairs,' trying to mask the romantic booking as a mundane office supply issue before his angry wife.",
+    "keywords_hy": [
+      "Իսպանիա",
+      "հյուրանոց",
+      "բրոնյա",
+      "կոմանդիրովկա",
+      "տնօրեն",
+      "դավաճանություն",
+      "քարտուղարուհի",
+      "ծով"
+    ],
+    "keywords_en": [
+      "Spain",
+      "hotel booking",
+      "business trip",
+      "director",
+      "cheating",
+      "secretary",
+      "office romance",
+      "all inclusive"
+    ],
+    "keywords_translit": [
+      "Ispania",
+      "hyuranoc",
+      "bronya",
+      "komandirovka",
+      "tnoren",
+      "davachanutyun",
+      "qartugharuhi",
+      "tsov"
+    ],
+    "catchphrases": [
+      "Այ մարդ որ մի պարյադշնի տնօրենը իրա կնգա հետ կեթա հուրանոցում կաբրի",
+      "դու բրոնյա արա, բրոնյա արա երկու տեղանոց, բայց մի կառավատանոց համար"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

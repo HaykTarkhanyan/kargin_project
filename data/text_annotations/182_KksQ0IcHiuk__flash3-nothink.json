@@ -1,0 +1,73 @@
+{
+  "video_id": "KksQ0IcHiuk",
+  "seq": 182,
+  "kargin_id": 182,
+  "title": "Kargin Haghordum sketch 362 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "182_Kargin_Haghordum_sketch_362_Hayko_Mko_KksQ0IcHiuk.hy.json",
+    "visual": true
+  },
+  "input_chars": 2915,
+  "gen_sec": 8.57,
+  "prompt_tokens": 2575,
+  "output_tokens": 646,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003226,
+  "annotation": {
+    "title_hy": "Կոմայի մեջ գտնվող միլիոնատերը",
+    "title_en": "The Millionaire in a Coma",
+    "summary_en": "A group of greedy relatives and friends wait by a wealthy man's hospital bed, but the hospital's phone service charges prove to be his financial undoing.",
+    "summary_detailed_en": "The scene is set in a hospital room where a wealthy businessman lies in a coma, his head heavily bandaged. A doctor in a surgical cap informs a group of visitors—including family members and a friend wearing sunglasses—that the patient is in a deep coma and only God knows when he will wake. The friend tries to explain the patient's immense wealth to the doctor, using a metaphor about the 'Golden Antelope' cartoon, emphasizing that the man has $10 million in his account that remains frozen while he is unconscious. The visitors are visibly more concerned about the money and the $250,000 lost in the car accident than the patient's health. Later, the patient regains consciousness just enough to use the bedside corded telephone. He calls his accountant, Simonyan, to check his balance, learning he has $5.4 billion. However, the sketch ends with a twist when the hospital's automated phone service operator announces that the two-minute call cost $6.5 billion, effectively bankrupting him.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "կոմա",
+      "հարուստ",
+      "փող",
+      "հաշվապահ",
+      "հեռախոսավարուհի",
+      "միլիարդատեր",
+      "բժիշկ",
+      "ավտովթար"
+    ],
+    "keywords_en": [
+      "hospital",
+      "coma",
+      "wealthy",
+      "money",
+      "accountant",
+      "operator",
+      "billionaire",
+      "doctor",
+      "car accident"
+    ],
+    "keywords_translit": [
+      "hivandanots",
+      "koma",
+      "harust",
+      "pogh",
+      "hashvapah",
+      "herakhosavarouhi",
+      "miliardater",
+      "bzhishk",
+      "avtovtar"
+    ],
+    "catchphrases": [
+      "Խոսակցության երկարությունը երկու րոպե արժեքը 6 միլիարդ 500 000 դոլար"
+    ],
+    "topics": [
+      "medical",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

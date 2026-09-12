@@ -1,0 +1,67 @@
+{
+  "video_id": "2T3Et10cvcg",
+  "seq": 476,
+  "kargin_id": 476,
+  "title": "Kargin Haghordum sketch 104 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "476_Kargin_Haghordum_sketch_104_Hayko_Mko_2T3Et10cvcg.tr.json",
+    "visual": true
+  },
+  "input_chars": 1564,
+  "gen_sec": 5.39,
+  "prompt_tokens": 1840,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00281,
+  "annotation": {
+    "title_hy": "Մղձավանջ և Ծառի Ճյուղ",
+    "title_en": "Nightmare and the Tree Branch",
+    "summary_en": "A man describes a terrifying nightmare to his wife where he was chased by Mexican-style bandits and had to hang onto a tree for dear life, leading to a literal physical punchline.",
+    "summary_detailed_en": "The sketch opens with a nightmare sequence set outdoors at night. A man is being chased by two menacing villains wearing wide-brimmed Mexican-style hats; one is armed with an axe and a hammer, while the other carries a guitar. The man screams for help as they corner him. He reaches a cliff and, seeing no escape, jumps off to avoid the bandits. As he falls, he managed to grab onto a tree branch growing out of the side of the cliff, saving himself. The scene then cuts to a domestic bedroom setting where the man wakes up in distress. His wife, wearing a nightgown and hair curlers, tries to comfort him. The man, named Mamikon in the dialogue (though the visual identifies the wife speaking to the husband), frantically explains the dream about the bandits and the cliff. The punchline occurs when the spouse looks under the covers and tells him that since he is now safe and awake, he can finally let go of the 'tree branch'—revealing that he has been gripping a part of his partner's body or the bed frame in his sleep.",
+    "keywords_hy": [
+      "վատ երազ",
+      "մղձավանջ",
+      "գողեր",
+      "մեքսիկական գլխարկ",
+      "ժայռ",
+      "ծառի ճյուղ",
+      "անկողին",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "nightmare",
+      "bad dream",
+      "bandits",
+      "sombrero",
+      "cliff",
+      "tree branch",
+      "bedroom",
+      "husband and wife"
+    ],
+    "keywords_translit": [
+      "vat eraz",
+      "mghdzavanj",
+      "gogher",
+      "meksikakan glkhark",
+      "zhayr",
+      "tsari chyugh",
+      "ankoghin",
+      "katak"
+    ],
+    "catchphrases": [
+      "Տենում ես կնիկ ջան դու փրկվեցիր, ամեն ինչ նոռմալա, նենց որ ծառը արդեն կարաս բաց թողես։"
+    ],
+    "topics": [
+      "family"
+    ],
+    "humor_type": [
+      "situational"
+    ]
+  }
+}

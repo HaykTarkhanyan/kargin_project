@@ -1,0 +1,69 @@
+{
+  "video_id": "hg2wB7YOT_E",
+  "seq": 287,
+  "kargin_id": 287,
+  "title": "Kargin Haghordum sketch 240 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1612,
+  "gen_sec": 7.66,
+  "prompt_tokens": 1864,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002753,
+  "annotation": {
+    "title_hy": "Քննություն և Լիկվիդ",
+    "title_en": "Exam and Liquid",
+    "summary_en": "A corrupt university professor offers students a choice between failing an exam or 'liquid,' leading to a misunderstanding between a bribe and sexual harassment.",
+    "summary_detailed_en": "The sketch takes place in a professor's office, decorated with an Armenian flag, books, and vertical blinds. A bearded official (Professor Torosyan) in a brown suit sits behind a desk. He receives a series of students one by one for an oral exam. First, a young woman enters. The professor asks how she evaluates her knowledge; when she admits she isn't prepared for an 'excellent' grade, he gives her an ultimatum: either she ends up in 'liquid' (meaning a makeup exam period) or they do 'one' and the problem is solved. The female students react with outrage, interpreting his 'one' and 'liquid' as a sexual proposition. However, the tone shifts when a male student in a striped sweater enters. Having not studied, the student chooses the second option. It is revealed that 'liquid' refers to the academic failure status, while the professor's 'one' was actually a request for a bottle of 'Liquid' brand dish soap (or a similar bribe). The professor hands the student a bottle and tells him to inform the girls in the class that the soap is different from what they imagined.",
+    "keywords_hy": [
+      "քննություն",
+      "դասախոս",
+      "ուսանող",
+      "կաշառք",
+      "լիկվիդ",
+      "համալսարան",
+      "սխալ հասկացողություն",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "exam",
+      "professor",
+      "student",
+      "bribe",
+      "liquid",
+      "university",
+      "misunderstanding",
+      "corruption"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "dasaxos",
+      "usanogh",
+      "kasharq",
+      "likvid",
+      "hamalsaran",
+      "sxal haskacoghutyun",
+      "katak"
+    ],
+    "catchphrases": [
+      "Ես լավ էլ հասկանում եմ դուք ինչ եք ուզում ասեք։"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "wordplay",
+      "misunderstanding"
+    ]
+  }
+}

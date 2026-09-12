@@ -1,0 +1,72 @@
+{
+  "video_id": "65lQYk5SUAY",
+  "seq": 385,
+  "kargin_id": 385,
+  "title": "Kargin Haghordum - Harsaniq (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "385_Kargin_Haghordum_-_Harsaniq_Hayko_Mko_65lQYk5SUAY.el.json",
+    "visual": true
+  },
+  "input_chars": 2121,
+  "gen_sec": 7.32,
+  "prompt_tokens": 2123,
+  "output_tokens": 638,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002975,
+  "annotation": {
+    "title_hy": "Թամադայի անսպասելի խնդրանքը",
+    "title_en": "The Toastmaster's Unexpected Request",
+    "summary_en": "A lively wedding celebration takes a bizarre turn when the toastmaster (tamada) follows traditional announcements with a very strange personal request for the bride.",
+    "summary_detailed_en": "The scene is set in a bustling wedding banquet hall filled with guests dancing and celebrating. The toastmaster (tamada) takes control of the event, organizing the traditional bouquet toss. He asks all the men, including the groom, to step aside for a moment so the bride can throw the bouquet to determine who will marry next. After the countdown, the toastmaster shifts into a formal speech, addressing the 'dear table-mates and relatives.' He recounts the day's journey—from the bride's house to the church and finally to the groom's home and the restaurant hall. He mentions the couple's first dance and the bouquet toss again. However, the tone shifts abruptly when he announces a 'beautiful moment' he wants everyone to witness. With the permission of the best man and his wife, he asks the bride to come over and 'ruffle him up' or beat him up (gzmrter) from head to toe. When the groom tries to intervene, the toastmaster insists that specifically the bride must perform this act.",
+    "keywords_hy": [
+      "հարսանիք",
+      "թամադա",
+      "հարս",
+      "փեսա",
+      "քավոր",
+      "բուկետ",
+      "խնջույք",
+      "ռեստորան",
+      "արարողություն"
+    ],
+    "keywords_en": [
+      "wedding",
+      "toastmaster",
+      "bride",
+      "groom",
+      "best man",
+      "bouquet toss",
+      "banquet",
+      "restaurant",
+      "ceremony"
+    ],
+    "keywords_translit": [
+      "harsaniq",
+      "tamada",
+      "hars",
+      "pesa",
+      "qavor",
+      "buket",
+      "khnjuyq",
+      "restoran",
+      "araroghutyun"
+    ],
+    "catchphrases": [
+      "Հարգելի սեղանակիցներ, հարազատներ, մեր համար Էսօր շատ ուրախ, երջանիկ օրա։ Մենք ամուսնացնում ենք մեր հարսին և փեսային։"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "party_guests"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

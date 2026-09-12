@@ -1,0 +1,72 @@
+{
+  "video_id": "dZ3hUkD1IiM",
+  "seq": 421,
+  "kargin_id": 421,
+  "title": "Kargin Haghordum - Aktivist (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "421_Kargin_Haghordum_-_Aktivist_Hayko_Mko_dZ3hUkD1IiM.hy.json",
+    "visual": true
+  },
+  "input_chars": 2351,
+  "gen_sec": 28.75,
+  "prompt_tokens": 2240,
+  "output_tokens": 601,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002923,
+  "annotation": {
+    "title_hy": "Ներկած Նստարանը և Ակտիվիստը",
+    "title_en": "The Painted Bench and the Activist",
+    "summary_en": "A hyper-dramatic activist harasses a man sitting on a park bench, accusing his sad expression of damaging the nation's demographics, only to learn the man is upset because he sat on wet paint.",
+    "summary_detailed_en": "In a sunny park setting, a man in a brown jacket sits on a wooden bench with a miserable expression. A bespectacled activist wearing a vest and carrying flyers approaches him and begins a loud, animated monologue addressed to the 'people.' He accuses the man of being on the verge of suicide and warns that his gloomy face is ruining the mood of young couples passing by, which in turn prevents them from reproducing and weakens the Armenian army's combat readiness. The activist frames the man's silence as a betrayal of the nation. After being repeatedly badgered and called a traitor, the seated man finally gives in and invites the activist to sit down so he can explain his 'tragedy.' The punchline is revealed when the man explains he was actually in a great mood until he sat down to rest, only to realize the bench had just been freshly painted. The sketch ends with the activist realizing he has also just sat in the wet paint.",
+    "keywords_hy": [
+      "ակտիվիստ",
+      "այգի",
+      "նստարան",
+      "ներկ",
+      "հայրենասեր",
+      "ծնելիություն",
+      "բանակ",
+      "զվարճալի"
+    ],
+    "keywords_en": [
+      "activist",
+      "park",
+      "bench",
+      "wet paint",
+      "patriot",
+      "demographics",
+      "army",
+      "funny"
+    ],
+    "keywords_translit": [
+      "aktivist",
+      "aygi",
+      "nstaran",
+      "nerk",
+      "hayrenaser",
+      "cneliutyun",
+      "banak",
+      "zvartchali"
+    ],
+    "catchphrases": [
+      "հարգելի ժողովուրդ",
+      "բացեք ձեր հոգին",
+      "ինչի ես տենց դեմքով նստել"
+    ],
+    "topics": [
+      "leisure_outing",
+      "bureaucracy",
+      "army"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

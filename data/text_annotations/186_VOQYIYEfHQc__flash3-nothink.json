@@ -1,0 +1,70 @@
+{
+  "video_id": "VOQYIYEfHQc",
+  "seq": 186,
+  "kargin_id": 186,
+  "title": "Kargin Haghordum sketch 366 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2434,
+  "gen_sec": 5.69,
+  "prompt_tokens": 2343,
+  "output_tokens": 490,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002641,
+  "annotation": {
+    "title_hy": "Անվճար սիրահարվածություն",
+    "title_en": "Free Love Experiment",
+    "summary_en": "A man returning from Russia complains about expensive women, but his friend fails miserably when trying to prove he can pick up a prostitute for free.",
+    "summary_detailed_en": "In a dimly lit bar or lounge setting, two friends sit at a red-lit counter discussing the economics of dating. One man, recently returned from Russia, complains that he had to pretend to be gay just to get some peace from Russian women, though his friend argues that Russian women drain the energy of twenty-five laborers. The friend boasts that in Armenia, unlike Russia, a 'moderately handsome' man like himself doesn't need to spend a penny to satisfy his needs. To prove his point, he approaches a woman in a bright red dress sitting at a booth (played by a male actor in drag). He uses a series of cheesy pick-up lines, speaking in a mix of Armenian and English, comparing his reaction to her red dress to a bull seeing red. The sketch ends with a sharp punchline when the woman coldly informs him that while he might be a bull, she doesn't turn into a 'cow' until she sees at least a hundred dollars.",
+    "keywords_hy": [
+      "կարգին հաղորդում",
+      "ռուս աղջիկներ",
+      "բար",
+      "փող",
+      "հարյուր դոլար",
+      "ցուլ",
+      "կարմիր շոր",
+      "հայկո մկո"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "Russia",
+      "bar",
+      "prostitute",
+      "red dress",
+      "bull and cow",
+      "pick-up line",
+      "dating"
+    ],
+    "keywords_translit": [
+      "kargin haghordum",
+      "rus aghjikner",
+      "bar",
+      "pogh",
+      "haryur dolar",
+      "tsul",
+      "karmir shor",
+      "hayko mko"
+    ],
+    "catchphrases": [
+      "Գիդեմ ապե էդի գիտություննա ապացուցե որ մի հատ ռուս աղջիկը ապե ջան քսանհինգ հատ բանվորի էներգիայիա խլում միաժամանակ,ոնց որ գործարանա էլի"
+    ],
+    "topics": [
+      "money",
+      "restaurant_cafe",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "video_id": "FSkB_ZHQEsk",
+  "seq": 335,
+  "kargin_id": 335,
+  "title": "Kargin Haghordum sketch 503 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2245,
+  "gen_sec": 5.14,
+  "prompt_tokens": 2233,
+  "output_tokens": 716,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003265,
+  "annotation": {
+    "title_hy": "Խաչիկի Գրականության Քննությունը",
+    "title_en": "Khachik's Literature Exam",
+    "summary_en": "A frustrated examiner tries to help a struggling student pass a literature exam by feeding him obvious answers, only to be met with total ignorance.",
+    "summary_detailed_en": "The sketch begins in a school hallway with a group of students before transitioning to an office filled with binders and folders. A gray-haired older official sits behind a desk, acting as an examiner for a young man in a suit named Khachik. The examiner scolds Khachik for working 'like a donkey' all summer to support his family instead of studying, mockingly warning him that hard work won't get him anywhere. Desperate to help the boy avoid the army, the examiner tries to feed him answers to extremely easy questions. He asks for the title of Shirvanzade's famous novel 'Chaos' (Քաոս) by describing the current economic chaos, but Khachik remains silent. He then recites Charents' famous poem 'Yes im anush Hayastani,' leaving out the word 'Armenia,' yet Khachik still fails to fill in the blank. Finally, the examiner asks for the title of Raffi's novel where the hero Samvel kills his parents. When the official yells the answer 'Samvel!', Khachik thinks he is calling the next student and tries to leave, leading to a final comedic outburst from the professor.",
+    "keywords_hy": [
+      "քննություն",
+      "դպրոց",
+      "ուսանող",
+      "գրականություն",
+      "Չարենց",
+      "Րաֆֆի",
+      "Շիրվանզադե",
+      "Խաչիկ",
+      "բանակ",
+      "դասատու"
+    ],
+    "keywords_en": [
+      "exam",
+      "school",
+      "student",
+      "literature",
+      "Charents",
+      "Raffi",
+      "Shirvanzade",
+      "Khachik",
+      "army",
+      "teacher"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "dproc",
+      "usanogh",
+      "grakanutyun",
+      "Charenc",
+      "Raffi",
+      "Shirvanzade",
+      "Khachik",
+      "banak",
+      "dasatu"
+    ],
+    "catchphrases": [
+      "պարապել ես, թե էլի սաղ ամառ էշի պես աշխատել ես որ ընտանիքդ պահես",
+      "ես իմ անուշ տա նա նա նի",
+      "Ես իմացա դուք հաջորդին եք կանչում"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

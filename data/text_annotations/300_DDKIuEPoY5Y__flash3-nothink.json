@@ -1,0 +1,70 @@
+{
+  "video_id": "DDKIuEPoY5Y",
+  "seq": 300,
+  "kargin_id": 300,
+  "title": "Kargin Haghordum sketch 461 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2892,
+  "gen_sec": 7.62,
+  "prompt_tokens": 2659,
+  "output_tokens": 737,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003541,
+  "annotation": {
+    "title_hy": "Նորագավիթցի Սմբոն և Լոնդոնից եկած տղան",
+    "title_en": "Smbo from Noragavit and the London Student",
+    "summary_en": "A tough Armenian father boasts about his son returning from studies in London, only to be outraged when the boy arrives wearing an earring.",
+    "summary_detailed_en": "The sketch takes place in a living room where a mustached man, identified as Smbo from Noragavit, sits on a sofa wearing a black shirt. He speaks with a woman (the mother) in a floral blouse about his nephew's gambling debts and how he used his authority to settle matters, saving the family from ruin. Smbo expresses pride in his own son, who is returning home today after studying in London. He envisions his son entering his social circle and helping solve 'questions.' The mother is excited, and Smbo receives a call from his driver, Gyaj, confirming their arrival. The son enters wearing a cap and backpack, and the mother greets him with emotional hugs. However, Smbo’s mood shifts instantly when he notices the son is wearing an earring. He dismisses the mother to the kitchen, calling it 'her environment,' to handle the situation man-to-man. Smbo delivers a harsh ultimatum: men who wear earrings are either 'gay' or 'pirates.' He threatens that if he looks out the window and doesn't see a pirate ship parked in the yard, he will smash his son's head against the wall.",
+    "keywords_hy": [
+      "Նորագավիթցի Սմբո",
+      "ականջօղ",
+      "Լոնդոն",
+      "հայր ու որդի",
+      "ղումար",
+      "քեռու տղա",
+      "ավտառիծետ"
+    ],
+    "keywords_en": [
+      "Noragavit Smbo",
+      "earring",
+      "London student",
+      "father and son",
+      "gambling",
+      "pirate",
+      "masculinity"
+    ],
+    "keywords_translit": [
+      "Noragavitci Smbo",
+      "akanjogh",
+      "London",
+      "hayr u ordi",
+      "ghumar",
+      "qeru tgha",
+      "avtaritet"
+    ],
+    "catchphrases": [
+      "Բաներ կա որ կնոջ մոզգը վասպրինիմատ չի անում",
+      "Ես Նորագավիթցի Սմբոս",
+      "Կնիկ հլը գնա քո միջավայր",
+      "Ականջօղ կախում են 2 տեսակի տղամարդիկ կամ գալուբոյները կամ էլ պիռատները",
+      "հայաթում նավ կանգնած չէղավ գլուխդ ցբխելու եմ պատին"
+    ],
+    "topics": [
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "6ugcn6nGbek",
+  "seq": 698,
+  "kargin_id": 698,
+  "title": "Kargin Haghordum sketch 411 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "698_Kargin_Haghordum_sketch_411_Hayko_Mko_6ugcn6nGbek.hy.json",
+    "visual": true
+  },
+  "input_chars": 2878,
+  "gen_sec": 7.17,
+  "prompt_tokens": 2624,
+  "output_tokens": 622,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003178,
+  "annotation": {
+    "title_hy": "Տղամարդուն փոխարինող մոծակը",
+    "title_en": "The Mosquito Husband Replacement",
+    "summary_en": "A lonely woman visits a pet shop looking for companionship and is sold a 'German mosquito' that claims to perform all the duties of a husband.",
+    "summary_detailed_en": "The sketch begins in a pet shop filled with birdcages, where a fast-talking clerk in a floral shirt assists a lonely female customer looking for a small pet. Using pseudo-scientific jargon and marketing speak, the clerk dismisses standard pets and offers her a 'non-standard solution' from the warehouse: a 'German mosquito' packaged in a glass jar. He claims this insect can replace a husband by performing all a man's duties upon command. He instructs her to go home, lie down, and ring a bell to summon the mosquito, promising 5-7 years of maintenance-free service. Later, in a bedroom setting, the woman calls the clerk's 24-hour service line, complaining that the mosquito is just sitting on the ceiling and refusing to work. The clerk arrives at her home, tells her to 'restrain herself' and lie down, then proceeds to climb onto the bed himself to demonstrate to the mosquito 'one last time' how to perform its duties, leading to a physical scuffle.",
+    "keywords_hy": [
+      "կենդանիների խանութ",
+      "մոծակ",
+      "գերմանական",
+      "միայնակ կին",
+      "վաճառող",
+      "ծառայություն",
+      "զավեշտալի"
+    ],
+    "keywords_en": [
+      "pet shop",
+      "mosquito",
+      "German mosquito",
+      "lonely woman",
+      "salesman",
+      "husband replacement",
+      "absurd service"
+    ],
+    "keywords_translit": [
+      "kendanineri khanut",
+      "mocak",
+      "germankan",
+      "miaynalk kin",
+      "vacharox",
+      "carayutyun",
+      "zaveshtali"
+    ],
+    "catchphrases": [
+      "Տղամարդուն փոխարինող մոծակ",
+      "մի հատ ձեզ սանձեք",
+      "ճշգրիտ կենդանին էր",
+      "գժական ապրանք ունեմ քո համար"
+    ],
+    "topics": [
+      "shop_market",
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

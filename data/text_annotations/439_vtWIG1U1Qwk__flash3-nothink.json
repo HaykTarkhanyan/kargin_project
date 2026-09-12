@@ -1,0 +1,71 @@
+{
+  "video_id": "vtWIG1U1Qwk",
+  "seq": 439,
+  "kargin_id": 439,
+  "title": "Kargin Haghordum - Sexov zbaxvenq (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "439_Kargin_Haghordum_-_Sexov_zbaxvenq_Hayko_Mko_vtWIG1U1Qwk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1925,
+  "gen_sec": 16.26,
+  "prompt_tokens": 2064,
+  "output_tokens": 587,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002793,
+  "annotation": {
+    "title_hy": "Կոֆեի հրավեր",
+    "title_en": "Coffee Invitation",
+    "summary_en": "A man brings a woman home and aggressively tries to rush her into the bedroom, despite her insistence on the coffee he promised and her fear of university rumors.",
+    "summary_detailed_en": "The sketch begins as a man brings a woman named Syuzi to his apartment, immediately pointing out the bedroom and insisting they go there directly. The woman, wearing a formal outfit, protests, noting they only met three hours ago and reminds him that he promised her coffee. The man, visibly impatient, tries to bypass her requests; when she asks for water because she is thirsty, he forces her to drink it at an unnaturally high speed just to get the task over with. He admits he hasn't even finished undressing in a month, highlighting his desperation. The woman finally agrees to move to the bedroom on the condition that he swears no one at their institute will find out about it, to which he scoffs at the idea of bragging. The interaction takes a physical turn as they move through the apartment, escalating into a chaotic struggle involving grabbing, raised fists, and falling onto a couch in the living area as the comedic tension peaks.",
+    "keywords_hy": [
+      "ծանոթություն",
+      "ննջասենյակ",
+      "ջուր խմել",
+      "կոֆե",
+      "ինստիտուտ",
+      "խոստում",
+      "տուն",
+      "ծառավ"
+    ],
+    "keywords_en": [
+      "dating",
+      "bedroom",
+      "drinking water",
+      "coffee",
+      "university",
+      "promise",
+      "apartment",
+      "thirsty"
+    ],
+    "keywords_translit": [
+      "tsanotutyun",
+      "nnjasenyak",
+      "jur khmel",
+      "kofe",
+      "institut",
+      "khostum",
+      "tun",
+      "tsarav"
+    ],
+    "catchphrases": [
+      "լավ, բայց պտի երդվես, որ ինստիտուտում ոչ մեկ չի իմանալու",
+      "այ քեզի բաննէլ ինչիս ա պետք որ"
+    ],
+    "topics": [
+      "romance",
+      "family",
+      "school"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

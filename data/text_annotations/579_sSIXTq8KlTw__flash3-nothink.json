@@ -1,0 +1,72 @@
+{
+  "video_id": "sSIXTq8KlTw",
+  "seq": 579,
+  "kargin_id": 579,
+  "title": "Kargin Haghordum sketch 430 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "579_Kargin_Haghordum_sketch_430_Hayko_Mko_sSIXTq8KlTw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1846,
+  "gen_sec": 14.37,
+  "prompt_tokens": 1839,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00281,
+  "annotation": {
+    "title_hy": "Ասպետը և Շղթայված Գեղեցկուհին",
+    "title_en": "The Knight and the Chained Beauty",
+    "summary_en": "A knight discovers a beautiful princess chained to a rock in a desolate location, but his heroic intentions shift when he realizes no one can hear her screams.",
+    "summary_detailed_en": "The sketch takes place on a desolate, rocky volcanic hillside where a woman in a white blouse is chained by her wrists to the cliff face. A bearded warrior wearing red lamellar armor and a conical helmet arrives on horseback, dismounting to rescue her. The woman, playing the role of a distressed princess, cries out for help, praising the knight's nobility and beauty. She explains that she was kidnapped and repeatedly raped by a villainous bandit named Suleyman. The knight is initially outraged, swearing by the gods to take revenge on the man who dishonored her. However, he stops to ask why she didn't scream for help during the assault. The princess explains that it is a completely secluded, 'deaf' location where no matter how much one screams, nobody can hear. Upon hearing this confirmation of total isolation, the knight's heroic demeanor immediately vanishes. He throws down his spear and helmet and begins to grapple with the woman himself, intending to take advantage of the same isolation he just lamented.",
+    "keywords_hy": [
+      "ասպետ",
+      "արքայադուստր",
+      "շղթաներ",
+      "Սուլեյման",
+      "բռնաբար",
+      "խուլ տեղ",
+      "օգնություն",
+      "լեռներ"
+    ],
+    "keywords_en": [
+      "knight",
+      "princess",
+      "chains",
+      "Suleyman",
+      "rapist",
+      "remote location",
+      "help",
+      "mountains"
+    ],
+    "keywords_translit": [
+      "aspet",
+      "arqayadustr",
+      "shghtaner",
+      "Suleyman",
+      "brnabar",
+      "khul tegh",
+      "ognutyun",
+      "lerner"
+    ],
+    "catchphrases": [
+      "Ինչու ես այստեղ շղթայված:",
+      "Սուլեյման բռնաբարը:",
+      "Ասում ես խուլ տեղա ոչ ոք չի լսի, ցավդ տանեմ:"
+    ],
+    "topics": [
+      "romance",
+      "crime",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

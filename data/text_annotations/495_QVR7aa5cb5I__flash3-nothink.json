@@ -1,0 +1,71 @@
+{
+  "video_id": "QVR7aa5cb5I",
+  "seq": 495,
+  "kargin_id": 495,
+  "title": "Kargin Haghordum sketch 123 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1757,
+  "gen_sec": 4.83,
+  "prompt_tokens": 1897,
+  "output_tokens": 664,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00294,
+  "annotation": {
+    "title_hy": "Ֆուտբոլային ակումբի նորեկը",
+    "title_en": "The New Football Player",
+    "summary_en": "A football team introduces a new foreign player named Ed White, but the coach's exaggerated training methods reveal he thinks his own players are less capable than the foreigner.",
+    "summary_detailed_en": "The sketch begins in a locker room setting where a team manager wearing a suit introduces the players to their new teammate, Ed White, whom the club has just purchased. The manager emphasizes that Ed will begin training immediately and play in tomorrow's match, noting that all contracts and paperwork are finalized. The scene transitions to the football training ground outdoors. A coach in a tracksuit is seen leading the practice with extreme physical energy, demonstrating dives and shouting football terms like 'ball', 'goal', and 'strike' repeatedly. He appears to be over-explaining the most basic elements of the game. The new player, Ed White, eventually interrupts the coach to mention that he actually understands Armenian perfectly well. The coach dismisses this, revealing the punchline: he wasn't over-explaining for the foreigner's benefit, but because he considers the rest of his regular Armenian players to be 'idiots' who need the simplified instructions. He frustratedly threatens to close the whole operation and go bring goods from Sadakhlo instead.",
+    "keywords_hy": [
+      "ֆուտբոլ",
+      "մարզիչ",
+      "ֆուտբոլիստ",
+      "մարզում",
+      "ակումբ",
+      "գնդակ",
+      "գոլ",
+      "պայմանագիր"
+    ],
+    "keywords_en": [
+      "football",
+      "soccer",
+      "coach",
+      "training",
+      "athlete",
+      "new player",
+      "goal",
+      "sports comedy"
+    ],
+    "keywords_translit": [
+      "futbol",
+      "marzich",
+      "futbolist",
+      "marzum",
+      "akumb",
+      "gndak",
+      "gol",
+      "paymanagir"
+    ],
+    "catchphrases": [
+      "գնդակ գոլ գնդաակ գոոլ գնդակ ուդառ գոլ գնդակ ուդառ գոլ լավա լավա լավա լավա",
+      "տրիներ բայց ես նորմալ հայերեն հասկանում եմ",
+      "այ ցավդ տանեմ ես քեզ չեմ ասում ես էդ կողքիդ դեբիլներին եմ բացատրում"
+    ],
+    "topics": [
+      "sports",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

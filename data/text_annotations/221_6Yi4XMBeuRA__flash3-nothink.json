@@ -1,0 +1,70 @@
+{
+  "video_id": "6Yi4XMBeuRA",
+  "seq": 221,
+  "kargin_id": 221,
+  "title": "Kargin Haghordum - Karmir glxark (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "221_Kargin_Haghordum_-_Karmir_glxark_Hayko_Mko_6Yi4XMBeuRA.hy.json",
+    "visual": true
+  },
+  "input_chars": 2266,
+  "gen_sec": 20.24,
+  "prompt_tokens": 2203,
+  "output_tokens": 611,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002935,
+  "annotation": {
+    "title_hy": "Կարմիր Գլխարկը և թերթով Գայլը",
+    "title_en": "Little Red Riding Hood and the Newspaper Wolf",
+    "summary_en": "A surreal parody of Little Red Riding Hood where the hero befriends a cowardly rabbit and encounters a wolf who only wants the newspaper from under her pies.",
+    "summary_detailed_en": "Set in an autumn forest, the sketch features a woman playing Little Red Riding Hood (played by a male actor in drag) carrying a basket of pies. She meets a man dressed as a rabbit, and the two melodramatically swear an oath of eternal friendship, promising to face all trials together. However, as soon as a wolf appears, the cowardly rabbit immediately points Red Riding Hood out to the predator and flees, prompting the wolf to call him a 'hambal' (idiot). Instead of the traditional fairy tale conflict, the wolf approaches Red Riding Hood casually, calling her 'jigyar' (dear). He asks if she is carrying 'perashki' (pies) and specifically focuses on the newspaper lining the bottom of her basket. The punchline reveals the wolf's true, mundane motivation: he doesn't want to eat her or the grandmother; he simply needs the newspaper to use as toilet paper, asking her to crumple it up and hand it over.",
+    "keywords_hy": [
+      "Կարմիր Գլխարկ",
+      "նապաստակ",
+      "գայլ",
+      "կարկանդակ",
+      "անտառ",
+      "թերթ",
+      "հեքիաթ",
+      "պեռաշկի"
+    ],
+    "keywords_en": [
+      "Little Red Riding Hood",
+      "rabbit",
+      "wolf",
+      "fairy tale parody",
+      "newspaper",
+      "pies",
+      "forest",
+      "betrayal"
+    ],
+    "keywords_translit": [
+      "Karmir glxark",
+      "napastak",
+      "gayl",
+      "karkandak",
+      "antar",
+      "tert",
+      "heqiat",
+      "perashki"
+    ],
+    "catchphrases": [
+      "Գիժա էսի արա, բռնելա տալի համբալը",
+      "Ազիզ դե մի հատ էդ գազետը ճմրթի տուր էլի"
+    ],
+    "topics": [
+      "other",
+      "family"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

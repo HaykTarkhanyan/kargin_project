@@ -1,0 +1,68 @@
+{
+  "video_id": "yBuDm4QWeP0",
+  "seq": 225,
+  "kargin_id": 225,
+  "title": "Kargin Haghordum sketch 307 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "225_Kargin_Haghordum_sketch_307_Hayko_Mko_yBuDm4QWeP0.tr.json",
+    "visual": true
+  },
+  "input_chars": 1892,
+  "gen_sec": 24.91,
+  "prompt_tokens": 2086,
+  "output_tokens": 608,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002867,
+  "annotation": {
+    "title_hy": "Տասներեք տարվա բացակայություն",
+    "title_en": "Thirteen Years Absence",
+    "summary_en": "A long-absent, drunk father returns home after 13 years claiming he wants to bond with his son, only to receive a harsh reality check about his own reputation.",
+    "summary_detailed_en": "The sketch takes place in a domestic living room and hallway. A husband returns home noticeably drunk after being absent for thirteen years. He is met with hostility by his wife, who wears a floral robe and eyeglasses, arguing with him as they move through the apartment. She berates him for his long absence, questioning why he has suddenly decided to show up. The man insists on seeing his son, claiming he wants to make up for the lost time and fill the thirteen-year gap in their relationship. When the son enters, having been doing homework at a nearby desk, the mother sarcastically introduces him to his father. The father tries to bond by asking about school, proudly mentioning that he graduated from the same school twenty years ago. The son delivers the punchline, revealing that the school principal told him the school hadn't seen a 'debile' like him for twenty years, perfectly matching the timeline of the father's graduation.",
+    "keywords_hy": [
+      "հարբած հայր",
+      "ընտանեկան վեճ",
+      "դպրոց",
+      "տնօրեն",
+      "տասներեք տարի",
+      "դեբիլ",
+      "ծնողներ և երեխաներ"
+    ],
+    "keywords_en": [
+      "drunk father",
+      "family argument",
+      "school",
+      "principal",
+      "thirteen years",
+      "deadbeat dad",
+      "insult"
+    ],
+    "keywords_translit": [
+      "harbats hayr",
+      "entanekan vech",
+      "dproc",
+      "tnoren",
+      "tasnereq tari",
+      "debil",
+      "cnoghner ev erexaner"
+    ],
+    "catchphrases": [
+      "ոչինչ, հեսա ես էս 13 տարվա բացը կլրացնեմ",
+      "տղա ջան, քո նման դեբիլ, էս դպրոցը քսան տարիա չի տեսել"
+    ],
+    "topics": [
+      "family",
+      "school",
+      "drinking"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

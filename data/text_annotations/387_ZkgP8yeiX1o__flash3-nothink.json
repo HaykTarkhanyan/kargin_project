@@ -1,0 +1,75 @@
+{
+  "video_id": "ZkgP8yeiX1o",
+  "seq": 387,
+  "kargin_id": 387,
+  "title": "Kargin Haghordum - Kentani (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2383,
+  "gen_sec": 5.73,
+  "prompt_tokens": 2150,
+  "output_tokens": 672,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003091,
+  "annotation": {
+    "title_hy": "Լեռնիկ Սարոյան՝ «Կենդանի»",
+    "title_en": "Lernik Saroyan: The Animal",
+    "summary_en": "An escaped convict breaks into a couple's apartment and holds them hostage, leading the husband to make a questionable moral compromise that backfires.",
+    "summary_detailed_en": "The sketch begins with a TV news bulletin announcing the escape of Lernik Saroyan, a dangerous criminal nicknamed 'Kentani' (The Animal). While the news warns citizens not to resist his demands, the convict, wearing a prison-stripe uniform under an olive coat, breaks into a couple's apartment. He ties up a bespectacled man and his wife on their couch. The criminal threatens them, announcing he is going upstairs to search for gold and change clothes, warning them to stay put so they can 'have some fun' later. Terrified, the husband tells his wife they must comply with every demand to survive, even if the criminal demands sex. The wife surprisingly agrees, saying she is glad he feels that way. When the husband asks why, she reveals that while he was unconscious, the convict admitted he was gay. The visual sequence also includes a bizarre subplot involving a ring-tailed lemur running through a village street and a final confrontation where a neighbor in a red bathrobe confronts the intruder with a pistol.",
+    "keywords_hy": [
+      "բանտարկյալ",
+      "փախուստ",
+      "կալանավոր",
+      "պատանդ",
+      "հեռուստացույց",
+      "նորություններ",
+      "հանցագործ",
+      "զենք",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "prisoner",
+      "escape",
+      "hostage",
+      "news bulletin",
+      "convict",
+      "homosexuality joke",
+      "apartment break-in",
+      "gun",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "bantarkyal",
+      "pakhust",
+      "kalanavor",
+      "patand",
+      "herustacuyc",
+      "norutyunner",
+      "hancagorc",
+      "zenq",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "Դաժհ եթե սեքս ուզի",
+      "ինչ լավա որ դու տենց ես մտածում",
+      "ինչի որովհետև երբ որ քո ուշքը գնացել էր էդ տականքը ասեց որ ինքը գոմիկա"
+    ],
+    "topics": [
+      "crime",
+      "family",
+      "media_showbiz"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

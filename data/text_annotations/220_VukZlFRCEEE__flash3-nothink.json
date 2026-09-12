@@ -1,0 +1,67 @@
+{
+  "video_id": "VukZlFRCEEE",
+  "seq": 220,
+  "kargin_id": 220,
+  "title": "Kargin Haghordum sketch 400 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1333,
+  "gen_sec": 4.08,
+  "prompt_tokens": 1685,
+  "output_tokens": 560,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002523,
+  "annotation": {
+    "title_hy": "Երեխայի մաթեմատիկայի դասատուն",
+    "title_en": "The Child's Math Teacher",
+    "summary_en": "A man in a store mistakenly thinks a woman is a stripper from his wild bachelor party, only to find out she is his child's teacher.",
+    "summary_detailed_en": "The sketch takes place in a small general store filled with clothes on racks and household goods. A man and a woman are browsing the aisles while a shopkeeper carrying a red bucket moves in the background. The man approaches the woman, who is wearing eyeglasses, and apologizes for staring, claiming she looks familiar and they might have met before. The woman coolly responds that if she isn't mistaken, he is the father of one of her children. The man is shocked, defensively claiming he has never cheated since getting married. However, his memory is triggered and he begins to describe a wild bachelor party (malchishnik) at a sauna the night before his wedding. He vividly recalls her as a stripper who arrived with a friend, describing a liaison on a billiard table involving champagne and a whip while making 'nya nya nya' sound effects. After his graphic confession, the woman shuts him down by clarifying that she is simply his child's mathematics teacher.",
+    "keywords_hy": [
+      "խանութ",
+      "մաթեմատիկայի դասատու",
+      "հարսանիք",
+      "սաունա",
+      "ստրիպտիզ",
+      "սխալմունք",
+      "ծնողական ժողով"
+    ],
+    "keywords_en": [
+      "general store",
+      "math teacher",
+      "bachelor party",
+      "sauna",
+      "stripper",
+      "misunderstanding",
+      "parent"
+    ],
+    "keywords_translit": [
+      "khanut",
+      "matematikayi dasatu",
+      "harsaniq",
+      "sauna",
+      "striptiz",
+      "sxalmunq",
+      "cnoghakan joghov"
+    ],
+    "catchphrases": [
+      "նյա նյա նյա"
+    ],
+    "topics": [
+      "school",
+      "shop_market",
+      "family"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

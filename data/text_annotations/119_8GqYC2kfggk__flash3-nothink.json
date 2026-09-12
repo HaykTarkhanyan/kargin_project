@@ -1,0 +1,66 @@
+{
+  "video_id": "8GqYC2kfggk",
+  "seq": 119,
+  "kargin_id": 119,
+  "title": "Kargin Haghordum sketch 690 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "119_Kargin_Haghordum_sketch_690_Hayko_Mko_8GqYC2kfggk.hy.json",
+    "visual": true
+  },
+  "input_chars": 1279,
+  "gen_sec": 15.67,
+  "prompt_tokens": 1682,
+  "output_tokens": 587,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002602,
+  "annotation": {
+    "title_hy": "Պալտոյի Ծննդյան Տոնը",
+    "title_en": "The Coat's Birthday",
+    "summary_en": "An eccentric family member confuses whose birthday it is, eventually revealing they are celebrating the tenth anniversary of their coat.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit apartment, shifting between the entryway and a dining room set for a celebration. A man is seen in the entryway, comically putting on and taking off coats while talking to himself or others off-screen. He runs through a list of names, trying to remember whose birthday is being celebrated. He mentions Susik, but realizes her birthday has already passed. He then guesses Mane, only to remember her birthday is after the New Year. The scene features two children, a boy named Musho and a young girl, sitting at a table with a birthday cake lit by candles, accompanied by a man wearing glasses. The sequence is intercut with a character in drag—a grandmother wearing a wig and heavy makeup—who narrates the confusion directly to the camera. The man finally asks Musho if it is his birthday, but receiving a negative response, he reaches the absurd conclusion: they are celebrating his coat's 10th anniversary. The sketch highlights the bizarre priorities of the household, culminating in the punchline about the longevity of the garment.",
+    "keywords_hy": [
+      "ծնունդ",
+      "պալտո",
+      "տասը տարի",
+      "ընտանիք",
+      "տոնական տորթ",
+      "զավեշտալի",
+      "Հայկո Մկո"
+    ],
+    "keywords_en": [
+      "birthday",
+      "coat",
+      "ten years old",
+      "family",
+      "birthday cake",
+      "absurd celebration",
+      "anniversary"
+    ],
+    "keywords_translit": [
+      "tsnund",
+      "palto",
+      "tas@ tari",
+      "@ntaniq",
+      "tonakan tort",
+      "zaveshtali",
+      "Hayko Mko"
+    ],
+    "catchphrases": [
+      "Պալտոյիս ծնունդնա, էսօր պալտոս դառավ ուղիղ 10 տարեկան:"
+    ],
+    "topics": [
+      "family",
+      "party_guests"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

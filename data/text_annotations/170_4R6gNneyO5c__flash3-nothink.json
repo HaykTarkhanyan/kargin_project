@@ -1,0 +1,70 @@
+{
+  "video_id": "4R6gNneyO5c",
+  "seq": 170,
+  "kargin_id": 170,
+  "title": "Kargin Haghordum sketch 214 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1009,
+  "gen_sec": 9.17,
+  "prompt_tokens": 1531,
+  "output_tokens": 592,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002541,
+  "annotation": {
+    "title_hy": "Ուշացած Ձմեռ Պապը",
+    "title_en": "The Late Santa Claus",
+    "summary_en": "A late Santa Claus arrives at a child's house long after New Year's, complaining about high taxi prices and asking if the parents are home.",
+    "summary_detailed_en": "The sketch takes place in an ornate indoor living room decorated with curtains and a calendar poster. A man dressed as Santa Claus (Ձմեռ պապ) wearing a maroon and white robe enters the house. He is greeted by a young girl who wonders why he is so late, as she was expecting him on New Year's Eve. Santa explains his tardiness using adult logic, claiming that the roads were messy and taxi drivers were charging such outrageous prices ('firing numbers') that it was better to walk. After the greeting, Santa suspiciously asks the girl if her parents are home. When she replies that they are out, he remarks that it is good. The girl notices that his gift sack is completely empty, to which Santa cryptically replies that it will be filled soon, implying a subversion of the traditional holiday visit where he might be planning to take things rather than leave them. The visual sequence shows the girl playfully hiding behind a curtain while the Santa character wanders through the room.",
+    "keywords_hy": [
+      "Ձմեռ պապ",
+      "Ամանոր",
+      "տաքսի",
+      "ուշացում",
+      "նվեր",
+      "դատարկ պարկ",
+      "երեխա",
+      "տաքսիստ"
+    ],
+    "keywords_en": [
+      "Santa Claus",
+      "New Year",
+      "taxi prices",
+      "late arrival",
+      "empty sack",
+      "child",
+      "holiday humor",
+      "robbery hint"
+    ],
+    "keywords_translit": [
+      "Dzmer Pap",
+      "Amanor",
+      "taksi",
+      "ushacum",
+      "nver",
+      "datark park",
+      "erexа",
+      "taksist"
+    ],
+    "catchphrases": [
+      "դե նոր տարուն էլ տաքսիստները նենց թվեր են կրակում ավելի լավա ոտով գաս, դրա համար էլ ուշացա։"
+    ],
+    "topics": [
+      "family",
+      "transport",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

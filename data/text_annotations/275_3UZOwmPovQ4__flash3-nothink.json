@@ -1,0 +1,76 @@
+{
+  "video_id": "3UZOwmPovQ4",
+  "seq": 275,
+  "kargin_id": 275,
+  "title": "Kargin Haghordum sketch 228 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "275_Kargin_Haghordum_sketch_228_Hayko_Mko_3UZOwmPovQ4.hy.json",
+    "visual": true
+  },
+  "input_chars": 8366,
+  "gen_sec": 10.44,
+  "prompt_tokens": 5717,
+  "output_tokens": 598,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.004653,
+  "annotation": {
+    "title_hy": "Կարգին հաղորդում 228 (Հայկո Մկո)",
+    "title_en": "Kargin Haghordum 228 (Hayko Mko)",
+    "summary_en": "A compilation of sketches including a patient who believes he is a corpse, retirees gossiping about neighbors, a cynical marshrutka driving lesson, and two friends obsessed with spying through binoculars.",
+    "summary_detailed_en": "This episode consists of several distinct sketches. First, in a hospital ward, a patient insists to his doctor that he is actually a corpse and that the doctor is currently speaking to his soul. The doctor attempts to disprove this by pricking the patient's finger; when the patient sees blood, he simply concludes that corpses do indeed bleed. Next, two elderly men sit on a bench outside an apartment building, leaning on canes and gossiping about their neighbor Ofik, accusing her of being a 'loose' woman because young men visit her. In a third segment at a minibus (marshrutka) lot, an experienced driver gives a cynical orientation to a new recruit, explaining that traffic lights and safety rules are irrelevant and that the only reason not to run over pedestrians is because they are 'potential 100-dram fares.' Finally, in a dark apartment, a man who has missed work for a month explains his obsession with 'Malena,' a neighbor he watches through binoculars. His friend joins him to peep, but they are interrupted when the man's wife enters the room asking if anyone has seen her yellow blouse, revealing the 'Malena' they were watching was actually his own wife in the next room.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "բժիշկ",
+      "դիակ",
+      "մարշրուտկա",
+      "վարորդ",
+      "հեռադիտակ",
+      "հարևան",
+      "բամբասանք",
+      "ծերունի"
+    ],
+    "keywords_en": [
+      "hospital",
+      "doctor",
+      "corpse",
+      "minibus",
+      "driver",
+      "binoculars",
+      "neighbor",
+      "gossip",
+      "old man"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "bjishk",
+      "diak",
+      "marshrutka",
+      "varord",
+      "heraditak",
+      "harevan",
+      "bambasank",
+      "tseruni"
+    ],
+    "catchphrases": [
+      "փաստորեն դու պնդում ես, որ դու դիակ ես",
+      "Մարդը պոտենցիալ 100 դրամանոց պասաժիր ա",
+      "Մալենա",
+      "առանց մարկատելի"
+    ],
+    "topics": [
+      "medical",
+      "transport",
+      "neighbors"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

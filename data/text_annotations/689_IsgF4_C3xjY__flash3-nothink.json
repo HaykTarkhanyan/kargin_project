@@ -1,0 +1,72 @@
+{
+  "video_id": "IsgF4_C3xjY",
+  "seq": 689,
+  "kargin_id": 689,
+  "title": "Kargin Haghordum sketch 269 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "689_Kargin_Haghordum_sketch_269_Hayko_Mko_IsgF4_C3xjY.hy.json",
+    "visual": true
+  },
+  "input_chars": 1729,
+  "gen_sec": 5.17,
+  "prompt_tokens": 1849,
+  "output_tokens": 628,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002808,
+  "annotation": {
+    "title_hy": "Ամերիկահայ տուրիստը և ՃՈ տեսուչը",
+    "title_en": "The American Tourist and the Traffic Cop",
+    "summary_en": "A traffic police officer pulls over a driver who pretends to be an English-speaking American tourist to avoid a fine for crossing a solid line.",
+    "summary_detailed_en": "On an autumn rural road, a traffic police officer (Lieutenant Skmonyan) flags down a driver in a green SUV. The officer accuses the driver of crossing a solid line into oncoming traffic. The driver, attempting to evade the fine, pretends to be a tourist from America, speaking in broken English and claims he doesn't understand Armenian. The officer reminisces about living in a Moscow hotel during the Communist era but insists on the traffic violation. When the driver explains in English that he is visiting friends and going to Garni, the officer asks for 'an attitude' (a bribe) so he too can afford to visit America. When the driver continues to feign ignorance, the officer demands he write a statement. The driver claims he cannot write in Armenian, but as he begins to handle the paperwork, he accidentally reveals his literacy and hands over documents with a banknote tucked inside. The officer mocks the driver's sudden ability to 'write' when it comes to the bribe.",
+    "keywords_hy": [
+      "Ճանապարհային ոստիկանություն",
+      "տուրիստ",
+      "խախտում",
+      "կաշառք",
+      "հոծ գիծ",
+      "ամերիկահայ",
+      "տեսուչ",
+      "բացատրագիր"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "tourist",
+      "violation",
+      "bribe",
+      "solid line",
+      "American Armenian",
+      "police officer",
+      "explanation letter"
+    ],
+    "keywords_translit": [
+      "chanaparhayin vostikanutyun",
+      "turist",
+      "khakhtum",
+      "kasharqk",
+      "houts gits",
+      "amerikahay",
+      "tesuch",
+      "bacatragir"
+    ],
+    "catchphrases": [
+      "Լեյտենանտ Սկմոնյան,Խախտում եք կատարել",
+      "Վայ հորս արև",
+      "բացատրագիր պիտի գրես"
+    ],
+    "topics": [
+      "police",
+      "transport",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

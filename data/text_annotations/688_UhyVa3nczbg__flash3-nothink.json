@@ -1,0 +1,70 @@
+{
+  "video_id": "UhyVa3nczbg",
+  "seq": 688,
+  "kargin_id": 688,
+  "title": "Kargin Haghordum sketch 268 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "688_Kargin_Haghordum_sketch_268_Hayko_Mko_UhyVa3nczbg.hy.json",
+    "visual": true
+  },
+  "input_chars": 1581,
+  "gen_sec": 4.52,
+  "prompt_tokens": 1878,
+  "output_tokens": 622,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002805,
+  "annotation": {
+    "title_hy": "Ճանապարհային ոստիկանը և անարատ վարորդը",
+    "title_en": "The Traffic Cop and the Pure Driver",
+    "summary_en": "A determined traffic police officer tries to find any violation on a driver who claims his soul and his car are perfectly in order.",
+    "summary_detailed_en": "The sketch takes place on a wooded rural road during the day, where a traffic police officer has pulled over a black Mercedes sedan. The officer approaches the driver with a cynical attitude, suggesting the driver confess his 'sins' immediately for a quick 'amnesty' from God, but the driver confidently replies that his soul is pure and everything is in perfect order. Reluctant to let him go, the officer begins a meticulous inspection of the vehicle's documents and equipment. He checks the driver's license, passport, and technical inspection sticker, finding them all to be correct. Moving on to safety equipment, the officer asks for the first aid kit, jokingly checking for syringes, and then demands to see the spare tire, refusing to take the driver's word for it. Finally, he tests the headlights, switching between low and high beams. Despite the officer's desperate attempts to find a flaw, the driver remains calm, leading to a humorous frustration as the officer realizes he cannot find a legal reason to issue a fine.",
+    "keywords_hy": [
+      "Ճանապարհային ոստիկանություն",
+      "ԳԱԻ",
+      "վարորդ",
+      "տուգանք",
+      "փաստաթղթեր",
+      "մեքենա",
+      "ստուգում",
+      "անարատ հոգի"
+    ],
+    "keywords_en": [
+      "traffic police",
+      "driver",
+      "fine",
+      "documents",
+      "car inspection",
+      "Mercedes",
+      "patrol car",
+      "roadside stop"
+    ],
+    "keywords_translit": [
+      "chanaparhayin vostikanutyun",
+      "GAI",
+      "varord",
+      "tugank",
+      "pastatghter",
+      "meqena",
+      "stugum",
+      "anarat hogi"
+    ],
+    "catchphrases": [
+      "Իմ հոգին անարատ է,իմ մոտ ամեն ինչ կարգին սարքին է",
+      "Սերժանտ։Բարև ձեզ։ Մի հատ շատ"
+    ],
+    "topics": [
+      "police",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

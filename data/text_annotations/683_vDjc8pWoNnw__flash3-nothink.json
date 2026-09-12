@@ -1,0 +1,63 @@
+{
+  "video_id": "vDjc8pWoNnw",
+  "seq": 683,
+  "kargin_id": 683,
+  "title": "Kargin Haghordum sketch 263 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "683_Kargin_Haghordum_sketch_263_Hayko_Mko_vDjc8pWoNnw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1917,
+  "gen_sec": 9.88,
+  "prompt_tokens": 2017,
+  "output_tokens": 469,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002416,
+  "annotation": {
+    "title_hy": "Գուշակ Մանուշակի մոտ",
+    "title_en": "At Fortune Teller Manushak's",
+    "summary_en": "A woman visits a fortune teller named Manushak, who claims to avoid dark magic but eventually reveals a grim future through a card reading.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit, atmospheric parlor decorated with candles and a lace-covered round table. Two male actors in drag play the characters: a flamboyant fortune teller named Manushak and a client wearing a beige blazer. Manushak begins the session by clarifying her professional boundaries, stating she does not perform curses, 'tught u gir' (black magic), or physical harm, noting that her sister handles those specific services. When the client asks to know her future, Manushak first 'predicts' the present, identifying the client is married by simply looking at her wedding ring and guessing her husband Karo's name. As she lays out playing cards, Manushak describes the husband's current infidelity, claiming he is currently resting his head on another woman. The client, unfazed by the cheating, reveals she already plans to kill her husband and only wants to know the legal outcome. The sketch concludes with the fortune teller looking at the cards and predicting a grim future regarding whether the client will face prison time after the murder.",
+    "keywords_hy": [
+      "Գուշակ",
+      "Մանուշակ",
+      "թուղթ ու գիր",
+      "բախտագուշակ",
+      "քարտերով գուշակություն",
+      "ապագա"
+    ],
+    "keywords_en": [
+      "fortune teller",
+      "Manushak",
+      "card reading",
+      "black magic",
+      "future prediction",
+      "infidelity"
+    ],
+    "keywords_translit": [
+      "gushak",
+      "Manushak",
+      "tught u gir",
+      "baxtagushak",
+      "karterov gushakutyun",
+      "apaga"
+    ],
+    "catchphrases": [
+      "ես Գուշակ Մանուշակի մոտ եմ էկե ճիշտ ա՞"
+    ],
+    "topics": [
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

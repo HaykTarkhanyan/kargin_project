@@ -1,0 +1,74 @@
+{
+  "video_id": "8FNynS9GoAs",
+  "seq": 674,
+  "kargin_id": 674,
+  "title": "Kargin Haghordum - GAIshnik (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "674_Kargin_Haghordum_-_GAIshnik_Hayko_Mko_8FNynS9GoAs.tr.json",
+    "visual": true
+  },
+  "input_chars": 2127,
+  "gen_sec": 4.86,
+  "prompt_tokens": 2148,
+  "output_tokens": 640,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002994,
+  "annotation": {
+    "title_hy": "Խաշը առանց արաղի",
+    "title_en": "Khash Without Vodka",
+    "summary_en": "A driver refuses to drink vodka with his friends during their khash trip to avoid trouble with traffic police, only to encounter an unusual roadside inspection.",
+    "summary_detailed_en": "The sketch begins with three men driving a van down a snowy, tree-lined rural road during winter. One friend tries to convince the driver, who is wearing a flat cap, to drink vodka with their traditional meal of khash, arguing that eating khash without alcohol is like a chicken without the flu. The driver stubbornly refuses, explaining he just bought the car and doesn't want any trouble with the police. The scene transitions to the vehicle being pulled over by two traffic officers (GAI) standing next to a white Lada police car. A bearded officer with sunglasses demands to see the driver's license, citing a nearby kidnapping as a reason to search the trunk. Upon opening the trunk, the officer finds numerous balls and asks if the driver is a volleyball player; the driver explains he is a circus juggler. After the inspection, the friends are back in the car. The passenger mocks the driver for not drinking, suggesting he could have just used chewing gum to hide the smell. The sketch ends with the driver pointing out a new, absurd method the police are using for sobriety checks, justifying his caution.",
+    "keywords_hy": [
+      "խաշ",
+      "արաղ",
+      "ԳԱԻ",
+      "ոստիկանություն",
+      "վարորդ",
+      "բեռնախցիկ",
+      "ժանգլյոռ",
+      "ցիռկ",
+      "ձմեռ"
+    ],
+    "keywords_en": [
+      "khash",
+      "vodka",
+      "traffic police",
+      "driver",
+      "juggler",
+      "trunk search",
+      "circus",
+      "winter road",
+      "GAI"
+    ],
+    "keywords_translit": [
+      "khash",
+      "aragh",
+      "GAI",
+      "vostikanutyun",
+      "varord",
+      "bernatsik",
+      "zhanglyor",
+      "tsirk",
+      "dzmer"
+    ],
+    "catchphrases": [
+      "խաշը առանց արաղի էդ նույննա ոնց որ հավը առանց գրիպի",
+      "ստուգելու նոր ձևեր են մտածել"
+    ],
+    "topics": [
+      "police",
+      "drinking",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

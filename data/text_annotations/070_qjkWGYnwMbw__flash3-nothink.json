@@ -1,0 +1,72 @@
+{
+  "video_id": "qjkWGYnwMbw",
+  "seq": 70,
+  "kargin_id": 70,
+  "title": "Kargin Haghordum sketch 635 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "070_Kargin_Haghordum_sketch_635_Hayko_Mko_qjkWGYnwMbw.hy.json",
+    "visual": true
+  },
+  "input_chars": 1596,
+  "gen_sec": 5.29,
+  "prompt_tokens": 1793,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002829,
+  "annotation": {
+    "title_hy": "Գումարով ցույց տալը",
+    "title_en": "Paying for a Peek",
+    "summary_en": "A young woman on a minibus teases three young men by charging them money to see different parts of her body, leading to a literal misunderstanding.",
+    "summary_detailed_en": "The sketch takes place inside a crowded marshrutka (minibus) during the day. Three young men are sitting together, whispering and acting conspiratorially with books and cards. A young woman sitting nearby interacts with them, offering to show them her legs if they each collect 500 drams. One of the men, desperate to see, repeatedly begs his friend Edik to lend him the money, promising to pay him back once he gets money from his mother. The woman then raises the stakes, asking for 1000 drams per person to see 'a little above the knee.' Each time, the one friend borrows more money from Edik. Finally, the woman makes a high-stakes offer: for 5000 drams each, she will show them the place where her 'kuyr aghiq' (appendix) was removed. After the friend borrows the final sum from Edik, the woman simply points out the window at a hospital passing by, revealing that was the location where the surgery occurred, rather than showing them a scar on her body.",
+    "keywords_hy": [
+      "մարշրուտկա",
+      "տղաներ",
+      "փող",
+      "պարտք",
+      "կույր աղիք",
+      "հիվանդանոց",
+      "ծնկից վերև",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "minibus",
+      "young men",
+      "money",
+      "debt",
+      "appendix",
+      "hospital",
+      "above the knee",
+      "scam"
+    ],
+    "keywords_translit": [
+      "marshrutka",
+      "tghaner",
+      "pogh",
+      "partq",
+      "kuyr aghiq",
+      "hivandanoc",
+      "cnkic verev",
+      "humor"
+    ],
+    "catchphrases": [
+      "Մարդ է 500 դրամ հավաքեք ցույց տամ",
+      "Էդիկ ինձ 5000 դրամ էլ տուր էլի",
+      "մամայից կվերցնեմ կտամ"
+    ],
+    "topics": [
+      "transport",
+      "money",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

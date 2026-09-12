@@ -1,0 +1,71 @@
+{
+  "video_id": "mLGEOvwcAO0",
+  "seq": 3,
+  "kargin_id": 3,
+  "title": "Kargin Haghordum sketch 277 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "003_Kargin_Haghordum_sketch_277_Hayko_Mko_mLGEOvwcAO0.hy.json",
+    "visual": true
+  },
+  "input_chars": 2520,
+  "gen_sec": 16.21,
+  "prompt_tokens": 2329,
+  "output_tokens": 629,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003051,
+  "annotation": {
+    "title_hy": "Սաղմոսավանքի զբոսաշարջիկները",
+    "title_en": "Saghmosavank Tourists",
+    "summary_en": "A tour guide praises the spiritual purity and kindness of a village near Saghmosavank monastery, only to be contradicted by a local's bizarre treatment of his rooster.",
+    "summary_detailed_en": "The sketch begins at Saghmosavank monastery, where a tour guide in a cap leads a large group of young tourists off a bus. The guide delivers a lecture about the historic site, founded in 1215, and claims that the monastery's influence has made the local villagers exceptionally kind and simple. He boasts that unlike other greedy villages, the people here value morality and keep livestock only for the entertainment of children rather than for meat. To prove his point, he points out a local man in a plaid shirt near the stone ruins. However, the guide is horrified to see the man vigorously dunking a rooster into a wash basin. When the guide intervenes, lecturing the villager that you cannot wash a rooster, the stubborn local insists it is perfectly fine. The guide returns to the bus to announce the next stop at Amberd, but soon finds the local man lamenting that while washing the bird was fine, wringing it dry was a mistake, as the bird has died. The sketch satirizes the contrast between idealized national history and crude rural reality.",
+    "keywords_hy": [
+      "զբոսաշրջիկ",
+      "Սաղմոսավանք",
+      "էքսկուրսավար",
+      "աքլոր",
+      "գյուղացի",
+      "լողացնել",
+      "եկեղեցի",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "tourist",
+      "Saghmosavank",
+      "tour guide",
+      "rooster",
+      "villager",
+      "washing",
+      "church",
+      "humor"
+    ],
+    "keywords_translit": [
+      "zbosashrjik",
+      "Saghmosavank",
+      "exkursavar",
+      "aqlor",
+      "gyughaci",
+      "loghacnel",
+      "ekegheci",
+      "humor"
+    ],
+    "catchphrases": [
+      "ինձ էլ ինձ տաք տաք",
+      "լողացնել կարելի էր, մզել չարժեր"
+    ],
+    "topics": [
+      "village",
+      "religion",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

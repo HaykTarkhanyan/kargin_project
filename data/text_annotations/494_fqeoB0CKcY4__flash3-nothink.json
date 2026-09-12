@@ -1,0 +1,71 @@
+{
+  "video_id": "fqeoB0CKcY4",
+  "seq": 494,
+  "kargin_id": 494,
+  "title": "Kargin Haghordum sketch 122 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2905,
+  "gen_sec": 5.08,
+  "prompt_tokens": 2484,
+  "output_tokens": 680,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003282,
+  "annotation": {
+    "title_hy": "Անասուն երկիր",
+    "title_en": "Stupid Country",
+    "summary_en": "A patriotic policeman arrests a passerby for insulting the country, but the suspect outsmarts him by claiming his insults were aimed at Switzerland.",
+    "summary_detailed_en": "The sketch begins on a rural path where a police officer wearing a cap forcefully apprehends a curly-haired man, accusing him of shouting 'anasun yerkira' (it is a stupid/beastly country). The scene shifts to a police station interior featuring a desk, a copier, and a mustached senior officer. The arresting officer, Nersisyan, delivers a grandiose, patriotic speech, arguing that calling the country 'beastly' is a crime, especially during a critical political phase concerning Armenian-Turkish relations. However, the detained citizen calmly claims he was actually thinking about Switzerland when he made the comment. The captain, satisfied with this excuse, berates Nersisyan for wasting his time and fines the policeman 30,000 drams instead. As they leave, the frustrated Nersisyan realizes he was the one penalized for doing his job. In the final irony, Nersisyan himself mutters 'anasun yerkira,' only to be immediately questioned again for his statement, bringing the joke full circle.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "տուգանք",
+      "անասուն երկիրա",
+      "հայրենասիրություն",
+      "Շվեյցարիա",
+      "բաժին",
+      "քաղաքացի",
+      "օրենք"
+    ],
+    "keywords_en": [
+      "police station",
+      "fine",
+      "beastly country",
+      "patriotism",
+      "Switzerland",
+      "arrest",
+      "citizen",
+      "law"
+    ],
+    "keywords_translit": [
+      "ostikanutyun",
+      "tuganq",
+      "anasun yerkira",
+      "hayrenasirutyun",
+      "Shveytsaria",
+      "bazhin",
+      "qaghaqaci",
+      "orenq"
+    ],
+    "catchphrases": [
+      "անասուն երկիրա անասուն երկիրա անասուն երկիրա արա",
+      "ինչա ստացվում այ ախպեր ես քեզ օրենքը խաղդելու համար բռնի բերի ստեղ քեզ տուգանելու տեղը ինձ տուգանին բա որ ասում եմ արա անասուն երկիր անասուն երկիրա"
+    ],
+    "topics": [
+      "police",
+      "bureaucracy",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

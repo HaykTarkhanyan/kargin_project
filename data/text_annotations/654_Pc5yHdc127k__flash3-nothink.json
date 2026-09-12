@@ -1,0 +1,69 @@
+{
+  "video_id": "Pc5yHdc127k",
+  "seq": 654,
+  "kargin_id": 654,
+  "title": "Kargin Haghordum sketch 597 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1764,
+  "gen_sec": 5.14,
+  "prompt_tokens": 1828,
+  "output_tokens": 596,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002702,
+  "annotation": {
+    "title_hy": "Աջ ձեռքի կանոնը",
+    "title_en": "The Right Hand Rule",
+    "summary_en": "A bizarre boss terrifies his employees by threatening to perform a 'right hand' move, leading to a confusing and aggressive interaction in a government office.",
+    "summary_detailed_en": "The sketch takes place in a formal government-style office, characterized by wood-paneled walls and an Armenian coat of arms. A mustached boss in a pinstripe suit interacts with his secretary, who informs him of a call from the mayor's office. The boss, acting erratically, asks if he should perform his 'right hand' move, looming over her with exaggerated, slapstick physical motions. A young woman office worker, dressed in a white shirt and black vest, enters the office carrying rolled-up sketches for new products. The boss suggests she has the potential to advance in the firm but tells her to see the deputy director to learn the 'rule of the right hand.' The scene is intercut with reaction shots of a mustached man in a striped shirt in a blue-lit lobby looking shocked. In the final scene, the boss aggressively tells the woman to take off her clothes to 'scribble' on the sketches, dismissing her request to close the door by claiming people will think they are doing drugs ('urum-murum') if the door is shut.",
+    "keywords_hy": [
+      "տնօրեն",
+      "քաղաքապետարան",
+      "էսքիզներ",
+      "աջ ձեռք",
+      "գրասենյակ",
+      "ծիծաղելի",
+      "աշխատող",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "director",
+      "municipality",
+      "sketches",
+      "right hand",
+      "office",
+      "funny",
+      "employee",
+      "joke"
+    ],
+    "keywords_translit": [
+      "tnoren",
+      "qaghaqapetaran",
+      "eskizner",
+      "aj dzern",
+      "grasenyak",
+      "tsitsagheli",
+      "ashxatogh",
+      "katak"
+    ],
+    "catchphrases": [
+      "Աղչի գժվել ես կմտածեն ուռում-մուռում ենք։"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "NOD6acxtpFE",
+  "seq": 351,
+  "kargin_id": 351,
+  "title": "Kargin Haghordum sketch 518 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1103,
+  "gen_sec": 11.22,
+  "prompt_tokens": 1557,
+  "output_tokens": 602,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002584,
+  "annotation": {
+    "title_hy": "Տնօրենի կինը և քարտուղարուհին",
+    "title_en": "The Director's Wife and the Secretary",
+    "summary_en": "A businessman tries to flirt with a beautiful visitor while covering for his secretary, only to discover the woman is actually his boss's wife.",
+    "summary_detailed_en": "The sketch takes place in a professional office setting equipped with a computer, printer, and telephone. A businessman, Armen Geghamich, is working late with his 'boss' and asks the secretary, Mara, to go to the shop to buy some food so they do not stay hungry. Mara, portrayed as an older blonde woman, worries about missing an important phone call the boss is expecting while she is out. Armen reassures her, calling her 'aziz' (dear), and offers to sit at her desk and handle the calls himself. While he is covering the reception area, a young, attractive woman in a patterned dress enters and asks if the director is free. Attempting to be charming and flirtatious, Armen tells her that for a girl as beautiful and charming as she is, the director is always free. The sketch reaches its comedic climax when the woman dryly responds by telling him to inform the director that his wife has arrived, immediately turning Armen's flirtatious bravado into an awkward mistake.",
+    "keywords_hy": [
+      "տնօրեն",
+      "քարտուղարուհի",
+      "գրասենյակ",
+      "կին",
+      "ֆլիրտ",
+      "սխալմունք",
+      "աշխատավայր"
+    ],
+    "keywords_en": [
+      "director",
+      "secretary",
+      "office",
+      "wife",
+      "flirting",
+      "mistake",
+      "workplace"
+    ],
+    "keywords_translit": [
+      "tnoren",
+      "qartugharuhi",
+      "grasenyak",
+      "kin",
+      "flirt",
+      "sxalmunq",
+      "ashxatavayr"
+    ],
+    "catchphrases": [
+      "Մեր տնօրենը ձեր նման գեղեցիկ և հմայիչ աղջիկների համար միշտ էլ ազատա",
+      "Դե ասեք որ կիննա եկել"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

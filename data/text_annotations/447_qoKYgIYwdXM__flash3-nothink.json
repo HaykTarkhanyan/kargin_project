@@ -1,0 +1,74 @@
+{
+  "video_id": "qoKYgIYwdXM",
+  "seq": 447,
+  "kargin_id": 447,
+  "title": "Kargin Haghordum - Dasaxos (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "447_Kargin_Haghordum_-_Dasaxos_Hayko_Mko_qoKYgIYwdXM.hy.json",
+    "visual": true
+  },
+  "input_chars": 3503,
+  "gen_sec": 8.14,
+  "prompt_tokens": 2845,
+  "output_tokens": 667,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003423,
+  "annotation": {
+    "title_hy": "Հեռվաշենցի ուսանողը քննությանը",
+    "title_en": "The Student from Hervashen",
+    "summary_en": "A professor tries to pass a rural student on his entrance exam by asking basic political questions, only to find the student is completely oblivious to the world.",
+    "summary_detailed_en": "The sketch is set in a university classroom where a professor is conducting an entrance exam for a student from a remote village called Hervashen. The student appears scruffy and unshaven, which the professor initially scolds, though he decides to be lenient because the student is from the province and enrolled in distance learning. The professor attempts to give the student easy questions about the current political situation in Armenia rather than deep history. He asks for the name of the largest party in the National Assembly (Republicans), but the student repeatedly replies with the dialect phrase 'chem manum' (I don't understand/know). Even when the professor simplifies the questions further—asking for the four coalition parties or even the name of the President of Armenia—the student remains entirely ignorant. The professor's frustration peaks as he realizes the student hasn't watched a single minute of television or news. The sketch concludes with the professor giving up, telling the student to leave everything and go back to live in peace in his isolated village.",
+    "keywords_hy": [
+      "քննություն",
+      "դասախոս",
+      "ուսանող",
+      "Հեռվաշեն",
+      "կուսակցություն",
+      "հանրապետական",
+      "չեմ մանըմ",
+      "հեռակա",
+      "քաղաքականություն"
+    ],
+    "keywords_en": [
+      "exam",
+      "professor",
+      "student",
+      "Hervashen",
+      "political party",
+      "republican",
+      "rural student",
+      "distance learning",
+      "politics"
+    ],
+    "keywords_translit": [
+      "knnutyun",
+      "dasaxos",
+      "usanogh",
+      "Hervashen",
+      "kusakcutyun",
+      "hanrapetakan",
+      "chem manum",
+      "heraka",
+      "qaghaqakanutyun"
+    ],
+    "catchphrases": [
+      "չեմ մանըմ ոնց չես մանըմ ինչա նշանակում չեմ մանըմ տղա ջան",
+      "արա մարդ չթողի էս ամեն ինչը գնա էդ ձեր Հեռվաշենում վանգիստ ապրի"
+    ],
+    "topics": [
+      "school",
+      "village",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

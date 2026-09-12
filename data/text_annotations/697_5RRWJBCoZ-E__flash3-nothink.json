@@ -1,0 +1,71 @@
+{
+  "video_id": "5RRWJBCoZ-E",
+  "seq": 697,
+  "kargin_id": 697,
+  "title": "Kargin Haghordum sketch 413 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "697_Kargin_Haghordum_sketch_413_Hayko_Mko_5RRWJBCoZ-E.hy.json",
+    "visual": true
+  },
+  "input_chars": 2072,
+  "gen_sec": 5.14,
+  "prompt_tokens": 2156,
+  "output_tokens": 623,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002947,
+  "annotation": {
+    "title_hy": "Հարսանիքի Առաջին Գիշերը",
+    "title_en": "The First Wedding Night",
+    "summary_en": "A newly married couple struggles to have a romantic first night after the groom realizes his parents took the mattress, leading to clumsy accidents and a loss of patience.",
+    "summary_detailed_en": "In a bedroom decorated for a wedding night, a groom brings his new bride (played by a male actor in drag) home after their celebration. The groom explains that his parents decided to give them 'space' for two days, but in the process, they accidentally took the mattresses, leaving only a single checkered blanket. The bride is disappointed, having imagined a deeply romantic first night, and insists they sleep separately until the mattresses are returned the next day. They lie down apart, but the groom eventually tries to coax her over, promising a romantic atmosphere. As the bride attempts to move toward him in the dark, she painfully stubs her toe on a table. The groom initially reacts with exaggerated sweetness, coddling her and kissing the 'boo-boo.' However, when the bride tries to return to her side and stubs the exact same toe again, the groom’s romantic facade instantly shatters. He switches to his aggressive persona, shouting at her for being blind and unable to watch her step, ending the romantic mood entirely.",
+    "keywords_hy": [
+      "հարսանիք",
+      "առաջին գիշեր",
+      "նորապսակներ",
+      "մատրաս",
+      "ռոմանտիկա",
+      "ոտքը խփել",
+      "փիսիկ",
+      "սեղան"
+    ],
+    "keywords_en": [
+      "wedding",
+      "first night",
+      "newlyweds",
+      "mattress",
+      "romance",
+      "stubbed toe",
+      "pissik",
+      "bedroom comedy"
+    ],
+    "keywords_translit": [
+      "harsaniq",
+      "arajin gisher",
+      "norapsakner",
+      "matras",
+      "romantika",
+      "otqy xphel",
+      "pisik",
+      "seghan"
+    ],
+    "catchphrases": [
+      "Արի բուժեմ ոտիկդ, արի պաչիկ անեմ",
+      "Արա աղջիկ քյոռես չես կարում ոտերիդ տակ նայես"
+    ],
+    "topics": [
+      "family",
+      "romance",
+      "wedding_funeral"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

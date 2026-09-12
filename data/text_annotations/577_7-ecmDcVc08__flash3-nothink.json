@@ -1,0 +1,71 @@
+{
+  "video_id": "7-ecmDcVc08",
+  "seq": 577,
+  "kargin_id": 577,
+  "title": "Kargin Haghordum sketch 428 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "577_Kargin_Haghordum_sketch_428_Hayko_Mko_7-ecmDcVc08.hy.json",
+    "visual": true
+  },
+  "input_chars": 2191,
+  "gen_sec": 7.96,
+  "prompt_tokens": 2234,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003085,
+  "annotation": {
+    "title_hy": "Թմրանյութերի դեմ պայքարը և Նոր Տարին",
+    "title_en": "Anti-drug Campaign and New Year",
+    "summary_en": "Two guys sitting under a blanket misinterpret a TV news report about an anti-drug protest, thinking the call for a 'New Year without drugs' is a deadline to sell their stock.",
+    "summary_detailed_en": "The sketch opens in a dimly lit living room where two young men are huddled together on a couch, wrapped in a shared blanket. They are surrounded by snacks and cigarettes, appearing lethargic and perhaps under the influence. They engage in a slow, disjointed conversation about the prices of their 'glasses' (products), debating whether one costs 100 or 200. The dialogue shifts to one man mentioning his son's upcoming birthday, which he plans to celebrate in a 'tight circle' without the child, who he claims needs to study because of his poor grades. He mentions a bizarre incentive: promising to steal a bicycle for the boy if he gets better marks. The scene transitions as a news reporter appears on their TV screen, reporting from a massive anti-drug rally. The reporter shouts slogans about a healthy soul in a healthy body and meeting the New Year without drugs. After the broadcast, one of the men interprets the slogan 'New Year without drugs' not as a social movement, but as a commercial deadline, concluding they must sell all their remaining supply before the year ends.",
+    "keywords_hy": [
+      "թմրանյութեր",
+      "թմրամոլություն",
+      "հեռուստացույց",
+      "նոր տարի",
+      "վաճառք",
+      "բլանկետ",
+      "ծնունդ",
+      "հեծանիվ գողանալ"
+    ],
+    "keywords_en": [
+      "drugs",
+      "drug addiction",
+      "television",
+      "New Year",
+      "selling",
+      "blanket",
+      "birthday",
+      "stealing a bike"
+    ],
+    "keywords_translit": [
+      "tmranyuter",
+      "tmramolutyun",
+      "herustacuyc",
+      "nor tari",
+      "vacharq",
+      "blanket",
+      "cnund",
+      "hecaniv goghanal"
+    ],
+    "catchphrases": [
+      "պապան քո համար մի հատ հեծանիվ կգողնա",
+      "ասում ա որ մինչև նոր տարի էս պիտի ծախվի"
+    ],
+    "topics": [
+      "crime",
+      "media_showbiz",
+      "family"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "satire"
+    ]
+  }
+}

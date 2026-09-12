@@ -1,0 +1,74 @@
+{
+  "video_id": "_8-xNJcHBXY",
+  "seq": 227,
+  "kargin_id": 227,
+  "title": "Kargin Haghordum sketch 309 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2792,
+  "gen_sec": 6.28,
+  "prompt_tokens": 2486,
+  "output_tokens": 726,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003421,
+  "annotation": {
+    "title_hy": "Հեռվաշենցի ուսանողի քննությունը",
+    "title_en": "The Student from Hervashen",
+    "summary_en": "A professor tries to give an easy oral exam to a student from a remote village, but is shocked to find he knows nothing about Armenian politics or the president.",
+    "summary_detailed_en": "The sketch is set in a school office or university exam room, featuring a professor with glasses and a goatee sitting at a desk backed by a world map and bookshelves. A student wearing a beret enters, presenting an orange student booklet. The professor begins by criticizing the student's unshaven appearance, noting that even for a distance-learning student, he should look presentable. Recognizing the student is likely from a remote area, the professor decides to ask simple questions about current Armenian politics rather than difficult history topics. He asks for the name of the largest party in the National Assembly, to which the student repeatedly replies with the dialect-heavy 'Chem manum' (I don't know/understand). Even when the professor explains that the Republican Party won the elections, the student remains clueless. Growing frustrated, the professor asks the student to name the four parties in the governing coalition or the recently elected President of Armenia. The student continues to claim total ignorance. When the student reveals he is from the fictional remote village of 'Hervashen,' the professor gives up, jokingly wishing he could leave everything behind to live in such a peaceful, uninformed place.",
+    "keywords_hy": [
+      "քննություն",
+      "հեռակա",
+      "կուսակցություն",
+      "ուսանող",
+      "դասախոս",
+      "Հեռվաշեն",
+      "գյուղացի",
+      "քաղաքականություն"
+    ],
+    "keywords_en": [
+      "examination",
+      "university",
+      "politics",
+      "student",
+      "professor",
+      "remote village",
+      "ignorance",
+      "political parties"
+    ],
+    "keywords_translit": [
+      "qnnutyun",
+      "heraka",
+      "kusakcutyun",
+      "usanogh",
+      "dasaxos",
+      "Hervashen",
+      "gyughaci",
+      "qaghaqakanutyun"
+    ],
+    "catchphrases": [
+      "Բարև ձեզիկ",
+      "Չեմ մանըմ",
+      "Ոնց չես մանըմ, ինչա նշանակում չեմ մանըմ,",
+      "Ախր այ մանըմ ջան, այ գիդըմ ջան, ես չեմ հասկանում դու հեռաուստացույց չես նայում",
+      "մարդ չթողնի էս ամեն ինչը , գնա էդ ձեր հեռվաշենում հանգիստ ապրի"
+    ],
+    "topics": [
+      "school",
+      "bureaucracy",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "f0rkpSeKoEo",
+  "seq": 608,
+  "kargin_id": 608,
+  "title": "Kargin Haghordum sketch 486 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1416,
+  "gen_sec": 5.22,
+  "prompt_tokens": 1640,
+  "output_tokens": 537,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002431,
+  "annotation": {
+    "title_hy": "Սամոն և խմած ընկերը",
+    "title_en": "Samo and the Drunk Friend",
+    "summary_en": "Two extremely hungover or intoxicated men stagger around a yard, comparing how much alcohol they consumed while struggling to stay upright.",
+    "summary_detailed_en": "The sketch takes place in a deserted outdoor yard next to a traditional Armenian tuff-stone village building during the day. Two men, one wearing a light blue shirt and the other in a dark patterned shirt, are depicted in a state of severe intoxication and physical misery. The man in the blue shirt frequently braces himself against the stone wall with his head down as if he is about to vomit, while the other man is seen crawling on all fours across the asphalt. A small white stray dog wanders through the scene, contrasting with the men's wretched condition. The characters repeatedly return to a barred window ledge where a stack of drinking glasses is kept. In a series of grimacing, pleading close-ups, the man in the blue shirt asks his friend Samo if he kept pace with his drinking. They confirm they both drank twenty bottles of vodka and ten bottles of beer each. Despite their physical suffering, the dialogue concludes with a drunken affirmation of mutual respect and pride between the two friends.",
+    "keywords_hy": [
+      "խմած",
+      "արաղ",
+      "պիվա",
+      "հարբեցող",
+      "գյուղ",
+      "Սամո",
+      "ընկերներ",
+      "խումհար"
+    ],
+    "keywords_en": [
+      "drunk",
+      "vodka",
+      "beer",
+      "alcoholic",
+      "village",
+      "Samo",
+      "friends",
+      "hangover"
+    ],
+    "keywords_translit": [
+      "xmac",
+      "aragh",
+      "piva",
+      "harbecogh",
+      "gyugh",
+      "Samo",
+      "ynkerner",
+      "xumhar"
+    ],
+    "catchphrases": [
+      "Սամ, սամալյոտ, սամասուդ"
+    ],
+    "topics": [
+      "drinking",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

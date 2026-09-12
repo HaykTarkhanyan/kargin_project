@@ -1,0 +1,74 @@
+{
+  "video_id": "qNDzi744SCY",
+  "seq": 176,
+  "kargin_id": 176,
+  "title": "Kargin Haghordum sketch 220 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1652,
+  "gen_sec": 16.28,
+  "prompt_tokens": 1932,
+  "output_tokens": 670,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002976,
+  "annotation": {
+    "title_hy": "Աբգարը և բազմապատկման աղյուսակը",
+    "title_en": "Abgar and the Multiplication Table",
+    "summary_en": "A schoolteacher tests a classroom on the multiplication table, but one student named Abgar fails every question because he was busy with farm duties.",
+    "summary_detailed_en": "The sketch is set in a typical indoor school classroom during the day, featuring a chalkboard and rows of desks. A teacher, referred to as Comrade Simonyan, addresses the class, emphasizing the village's history of producing famous mathematicians. Among the young schoolchildren sits an adult man in a beige coat named Abgar, who arrives late and takes his seat. The teacher quizzes various students—Mariamik, Mery, Narek, Diana, Hasmik, and Rafik—on multiplication problems like 8x9 and 7x8, all of whom answer correctly. However, whenever the teacher turns to Abgar with questions like 5x5, 3x3, or the simplest 2x1, Abgar consistently provides wildly incorrect answers. The teacher expresses frustration, accusing Abgar of not studying at home. When asked what he was doing instead of practicing his math, Abgar explains he had to take the cows to the bull. The teacher asks if his grandfather couldn't have handled that job, leading to the punchline where Abgar remarks that while his grandfather could have, the bull is better suited for the task.",
+    "keywords_hy": [
+      "դպրոց",
+      "դասարան",
+      "ուսուցիչ",
+      "աշակերտ",
+      "բազմապատկման աղյուսակ",
+      "մաթեմատիկա",
+      "գյուղ",
+      "կով",
+      "ցուլ"
+    ],
+    "keywords_en": [
+      "school",
+      "classroom",
+      "teacher",
+      "student",
+      "multiplication table",
+      "mathematics",
+      "village",
+      "cow",
+      "bull"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "dasaran",
+      "usucich",
+      "ashakert",
+      "bazmapatkman aghyusak",
+      "matematika",
+      "gyugh",
+      "kov",
+      "cul"
+    ],
+    "catchphrases": [
+      "կովերին տարել էի ցուլի մոտ",
+      "հա ես չեմ հասկանում պապն չեր կարա էտ գործը աներ",
+      "կարար բայց ճիշտը ցուլնա"
+    ],
+    "topics": [
+      "school",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "2-uOr0ZSGL0",
+  "seq": 128,
+  "kargin_id": 128,
+  "title": "Kargin Haghordum sketch 681 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "128_Kargin_Haghordum_sketch_681_Hayko_Mko_2-uOr0ZSGL0.tr.json",
+    "visual": true
+  },
+  "input_chars": 1635,
+  "gen_sec": 5.25,
+  "prompt_tokens": 1814,
+  "output_tokens": 635,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002812,
+  "annotation": {
+    "title_hy": "Սիմոնյանի արագ կարիերան",
+    "title_en": "Simonyan's Fast Career",
+    "summary_en": "A factory director praises a young employee named Simonyan for rising from a common laborer to deputy director in just one year, only to reveal the true reason for his success.",
+    "summary_detailed_en": "The sketch takes place in a brightly lit, professional office boardroom where a group of businessmen in suits are gathered around a table. A mustached man in a grey suit, acting as the factory director, delivers an enthusiastic speech to his deputies and department heads. He celebrates the factory's high performance in both local and export markets before turning his attention to a special success story: a young employee named Simonyan, wearing a pinstripe suit. The director recounts Simonyan's meteoric rise, explaining how he started as a simple laborer just one year ago and rapidly progressed to shop head, production head, and department head within months. To the applause of the room, the director announces a surprise promotion for Simonyan to First Deputy Director, marveling at how he achieved in one year what takes others decades. The punchline arrives when the director asks Simonyan for his thoughts, and the young man simply replies, 'Thanks, Dad,' revealing the blatant nepotism behind his career growth.",
+    "keywords_hy": [
+      "գործարան",
+      "տնօրեն",
+      "պաշտոն",
+      "առաջխաղացում",
+      "հայր և որդի",
+      "աշխատանքային հանդիպում",
+      "հաջողություն",
+      "ծանոթով",
+      "Սիմոնյան"
+    ],
+    "keywords_en": [
+      "factory",
+      "director",
+      "promotion",
+      "career growth",
+      "father and son",
+      "business meeting",
+      "success",
+      "nepotism",
+      "Simonyan"
+    ],
+    "keywords_translit": [
+      "gortsaran",
+      "tnoren",
+      "pashton",
+      "arajkhaghatsum",
+      "hayr ev ordi",
+      "ashkhatankayin handipum",
+      "hajoghutyun",
+      "tsanotov",
+      "Simonyan"
+    ],
+    "catchphrases": [
+      "որի համար ձեզնից շատ շնորհակալ ենք ապեր",
+      "մերսի պապ ջան"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

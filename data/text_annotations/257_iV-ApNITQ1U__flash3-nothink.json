@@ -1,0 +1,70 @@
+{
+  "video_id": "iV-ApNITQ1U",
+  "seq": 257,
+  "kargin_id": 257,
+  "title": "Kargin Haghordum sketch 564 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1653,
+  "gen_sec": 8.5,
+  "prompt_tokens": 1926,
+  "output_tokens": 500,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002463,
+  "annotation": {
+    "title_hy": "Տաքսու վարորդը և զինված տատիկը",
+    "title_en": "The Taxi Driver and the Armed Grandma",
+    "summary_en": "A taxi driver listens to a regular client's sad story about infidelity before picking up an elderly woman who surprisingly threatens him with a submachine gun.",
+    "summary_detailed_en": "The sketch begins inside a car where a taxi driver is chatting with his regular passenger, Levon. The driver notices Levon is unusually quiet and asks what is wrong. Levon reveals he returned from a business trip early and caught his wife in bed with a German man. When asked what he said, Levon admits he said nothing because he doesn't know German. The driver jokes that foreign languages are essential for both work and home life. After dropping Levon off, the driver picks up a new passenger: an elderly woman wearing a headscarf and carrying a cane (played by one of the male actors in drag) on a rural road. The driver is shocked to see she is also carrying a submachine gun. When he asks why she needs a weapon, she claims times are dangerous and people are committing rapes. The driver skeptically points out her old age, questioning who would ever assault her. The grandmother immediately points the gun at him and retorts that he will be the one to do it, ordering him to start.",
+    "keywords_hy": [
+      "տաքսի",
+      "վարորդ",
+      "տատիկ",
+      "ավտոմատ",
+      "բռնաբարություն",
+      "դավաճանություն",
+      "գերմաներեն",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "taxi driver",
+      "grandmother",
+      "submachine gun",
+      "infidelity",
+      "rape joke",
+      "German language",
+      "old woman in drag",
+      "rural road"
+    ],
+    "keywords_translit": [
+      "taxi",
+      "varord",
+      "tatik",
+      "avtomat",
+      "brnabarutyun",
+      "davachanutyun",
+      "germaneren",
+      "katak"
+    ],
+    "catchphrases": [
+      "Տատի ջան հլը մի հատ տարիքիդ նայի, քեզի ով պտի բռնաբարի որ"
+    ],
+    "topics": [
+      "transport",
+      "crime",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

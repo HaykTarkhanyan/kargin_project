@@ -1,0 +1,70 @@
+{
+  "video_id": "7KKsmTxazyY",
+  "seq": 317,
+  "kargin_id": 317,
+  "title": "Kargin Haghordum sketch 478 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2060,
+  "gen_sec": 10.91,
+  "prompt_tokens": 2114,
+  "output_tokens": 634,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002959,
+  "annotation": {
+    "title_hy": "Երկու բիձա և Օֆիկի առողջ տեղը",
+    "title_en": "Two Old Men and Ofik's Healthy Part",
+    "summary_en": "Two elderly men sitting on a bench complain about their health and gossip about their neighbor Ofik's active love life until she confronts them.",
+    "summary_detailed_en": "The sketch is set in a typical apartment courtyard where two elderly men, Gapho and Misha, sit on a bench leaning on their canes. Misha complains about his severe constipation and urinary issues lasting six months. Gapho counters with a paradoxical problem: his bodily functions work perfectly like clockwork at 7:00 and 8:00 AM every single day, but the issue is that he cannot wake up before 10:00 AM. Their conversation shifts to gossip when they spot a young man leaving the apartment of their neighbor, Ofik. They criticize Ofik for losing her sense of shame at her age, mockingly noting that they were older than the young man when they were his age. A woman, played by a male comedian in drag, joins them on the bench and begins a long, dramatic rant about her failing health, mentioning heart arrhythmia, stomach pains, liver failure, and high blood pressure, blaming it all on old age and her body 'rotting.' The men dismiss her complaints, pointing out the young visitors she constantly receives. Ofik retorts that since she only has one 'healthy part' left, they shouldn't be jealous, leading to a final punchline where the men ask if they can use that part too.",
+    "keywords_hy": [
+      "բիձա",
+      "հարևան",
+      "ծերություն",
+      "առողջություն",
+      "բամբասանք",
+      "բակ",
+      "նախանձ",
+      "Օֆիկ"
+    ],
+    "keywords_en": [
+      "old men",
+      "neighbor",
+      "old age",
+      "health",
+      "gossip",
+      "courtyard",
+      "jealousy",
+      "Ofik"
+    ],
+    "keywords_translit": [
+      "bidza",
+      "harevan",
+      "cerutyun",
+      "aroxjutyun",
+      "bambasanq",
+      "bak",
+      "naxandz",
+      "Ofik"
+    ],
+    "catchphrases": [
+      "Մի հատ առողջ տեղ ունեմ, նախանձում եք"
+    ],
+    "topics": [
+      "medical",
+      "neighbors",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

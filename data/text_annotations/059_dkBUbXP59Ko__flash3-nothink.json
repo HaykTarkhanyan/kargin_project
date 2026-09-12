@@ -1,0 +1,70 @@
+{
+  "video_id": "dkBUbXP59Ko",
+  "seq": 59,
+  "kargin_id": 59,
+  "title": "Kargin Haghordum sketch 624 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2688,
+  "gen_sec": 12.0,
+  "prompt_tokens": 2472,
+  "output_tokens": 465,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002631,
+  "annotation": {
+    "title_hy": "Կնոջ պատմությունը և անտարբեր ամուսինը",
+    "title_en": "Wife's Story and Indifferent Husband",
+    "summary_en": "A man tries to read his book in bed while his partner relentlessly recounts a boring day of shoe shopping, office drama, and meeting an old classmate.",
+    "summary_detailed_en": "The sketch takes place at night in a bedroom with floral wallpaper. A moustached man, wearing a white undershirt, is lying in bed attempting to read a dark hardcover book. His curly-haired partner lies beside him, talking incessantly and gesturing animatedly. The partner recounts a long, mundane story about going shoe shopping for red boots with pointed toes and heels, only to be discouraged when a neighbor bought the same pair. The monologue continues into a workplace conflict where the partner claims to have stood up to a shouting boss who threatened to dock their pay for being late. The partner even mentions meeting an old classmate named Vazgenchik who told jokes. Throughout the entire story, the man remains completely silent and ignored the speaker, focused solely on his book. In the final seconds, he finally reacts by closing the book and turning toward the partner, followed by a cut to an empty bed, implying the conversation finally ended so they could sleep.",
+    "keywords_hy": [
+      "սապոկ",
+      "խանութ",
+      "շեֆ",
+      "ուշացում",
+      "ննջասենյակ",
+      "ամուսիններ",
+      "խոսկան",
+      "անտարբերություն"
+    ],
+    "keywords_en": [
+      "boots",
+      "shopping",
+      "boss",
+      "being late",
+      "bedroom",
+      "married couple",
+      "talkative",
+      "indifference"
+    ],
+    "keywords_translit": [
+      "sapok",
+      "khanut",
+      "shef",
+      "ushacum",
+      "nnjasenyak",
+      "amusinner",
+      "khoskan",
+      "antarberutyun"
+    ],
+    "catchphrases": [
+      "Լսի էս շեֆս չէր սպասում կարողա միանգամից սենց պատասխան տամ , գիտե՞ս ինչ դեմք ընդունեց, ոնց որ մոծակի ճիճու ըլներ"
+    ],
+    "topics": [
+      "family",
+      "work",
+      "shop_market"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

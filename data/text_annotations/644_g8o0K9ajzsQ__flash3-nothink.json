@@ -1,0 +1,71 @@
+{
+  "video_id": "g8o0K9ajzsQ",
+  "seq": 644,
+  "kargin_id": 644,
+  "title": "Kargin Haghordum sketch 587 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "644_Kargin_Haghordum_sketch_587_Hayko_Mko_g8o0K9ajzsQ.tr.json",
+    "visual": true
+  },
+  "input_chars": 3266,
+  "gen_sec": 7.3,
+  "prompt_tokens": 2693,
+  "output_tokens": 645,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003281,
+  "annotation": {
+    "title_hy": "Մուտիլովշիկ Բիձեն Բանտում",
+    "title_en": "The Old Instigator in Prison",
+    "summary_en": "Two young inmates are confronted by an elderly prisoner who claims to be a professional instigator capable of making them fight each other.",
+    "summary_detailed_en": "The sketch is set in a dingy prison cell with bunk beds and a barred window. Two young inmates in tracksuits are sitting together when an older man with grey hair, wearing a simple sweater, is brought into the cell. One of the young inmates mocks the newcomer, questioning who he is and what his 'specialty' is in their criminal hierarchy. The old man claims to be a 'mutilovshik'—a professional manipulator and instigator—bragging that he can provoke them into a violent brawl. Skeptical and arrogant, the young inmates challenge him to prove it, threatening him with a secret funeral if he fails. The old man suddenly screams out to the hallway, loudly insulting the prison guards and claiming the inmates in the cell called them trash and aren't afraid of them. As the uniformed police officers rush to the cell door to retaliate, the old man calmly steps aside, leaving the two terrified young inmates to face the guards' wrath. The humor lies in the old man's clever use of 'mutilov' (instigation) to get the arrogant youth into trouble.",
+    "keywords_hy": [
+      "Կարգին հաղորդում",
+      "բանտ",
+      "մուտիլովշիկ",
+      "բիձա",
+      "ոստիկանություն",
+      "բանտախուց",
+      "ճշտի օֆիս",
+      "շառ"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "prison",
+      "inmate",
+      "instigator",
+      "old man",
+      "police",
+      "cell",
+      "manipulation"
+    ],
+    "keywords_translit": [
+      "Kargin haghordum",
+      "bant",
+      "mutilovshik",
+      "bidza",
+      "vostikanutyun",
+      "bantakhuc",
+      "chshti ofis",
+      "sharr"
+    ],
+    "catchphrases": [
+      "Արա էս ինչ զույգեր ես բերում արա ոնցոր ծնարանի դիրեկտոր ըլնես։",
+      "Կարբիթ։",
+      "Հա ապեր։"
+    ],
+    "topics": [
+      "crime",
+      "police"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

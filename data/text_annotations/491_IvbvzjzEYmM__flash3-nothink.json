@@ -1,0 +1,76 @@
+{
+  "video_id": "IvbvzjzEYmM",
+  "seq": 491,
+  "kargin_id": 491,
+  "title": "Kargin Haghordum sketch 119 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3601,
+  "gen_sec": 4.92,
+  "prompt_tokens": 2962,
+  "output_tokens": 592,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003257,
+  "annotation": {
+    "title_hy": "Մարշրուտկի գծի օրենքները",
+    "title_en": "Laws of the Minibus Line",
+    "summary_en": "A seasoned minibus driver explains the 'real' rules of the road to a new recruit, emphasizing that traffic laws are useless and passengers are merely potential 100-dram coins.",
+    "summary_detailed_en": "In an outdoor minibus depot during autumn, a group of drivers, including a man in a flat cap and brown jacket, gather near parked marshrutkas and a backgammon table. A driver named Lendrush recounts how he avoided paying for a car accident by faking a terminal illness and crying. The boss, Aharon, arrives with Paylak, a young man recently discharged from the army who wants to drive a Gazel. Aharon asks the veteran driver, Usta Rom, to teach the rookie the 'rules of the road.' When Paylak mentions his military driving experience and knowledge of official traffic laws, Rom scoffs, telling him to bury his license under the snow of Mount Aragats. Rom explains that to make money, one must ignore all signals, drive on sidewalks, and cut across lanes without indicators. The only sacred rule is not to run over people, not out of mercy, but because every person is a potential 100-dram fare. The sketch features animated gesturing and a physical confrontation where characters grab each other by the collar.",
+    "keywords_hy": [
+      "Մարշրուտկա",
+      "Գազել",
+      "վարորդ",
+      "երթուղային",
+      "Լենդրուշ",
+      "Ռոմ",
+      "Արագած",
+      "100 դրամ",
+      "ճանապարհային երթևեկություն"
+    ],
+    "keywords_en": [
+      "minibus",
+      "marshrutka",
+      "driver",
+      "public transport",
+      "traffic laws",
+      "corruption",
+      "passenger",
+      "100 dram",
+      "taxi depot"
+    ],
+    "keywords_translit": [
+      "marshrutka",
+      "gazel",
+      "varord",
+      "ertughayin",
+      "Lendrush",
+      "Rom",
+      "Aragats",
+      "100 dram",
+      "chanaparhayin ertevekutyun"
+    ],
+    "catchphrases": [
+      "բոլոր ճանապարհները տանըմ են Ռոմի կանեց",
+      "մարդը պոտենցիալ հարյուր դրամանոց պասժիռա",
+      "Արագածի գագաթից պարզ կեևա որ մարս կեղնիս",
+      "այ էշ գզող"
+    ],
+    "topics": [
+      "work",
+      "transport",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

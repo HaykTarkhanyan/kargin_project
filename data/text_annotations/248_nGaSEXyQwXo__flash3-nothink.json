@@ -1,0 +1,67 @@
+{
+  "video_id": "nGaSEXyQwXo",
+  "seq": 248,
+  "kargin_id": 248,
+  "title": "Kargin Haghordum sketch 351 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "248_Kargin_Haghordum_sketch_351_Hayko_Mko_nGaSEXyQwXo.hy.json",
+    "visual": true
+  },
+  "input_chars": 1502,
+  "gen_sec": 21.14,
+  "prompt_tokens": 1650,
+  "output_tokens": 568,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002529,
+  "annotation": {
+    "title_hy": "Կիլլեռը և Բանկիռը բանտում",
+    "title_en": "The Killer and the Banker",
+    "summary_en": "Two prisoners discuss their future career plans as they are released from jail, leading to a professional conflict of interest.",
+    "summary_detailed_en": "The sketch opens with atmospheric establishing shots of a prison facility, featuring a watchtower, barbed wire fencing, and uniformed guards in peaked caps. Interior scenes show guards escorting prisoners through corridors and staircases, with one guard roughly interacting with a prisoner at a security hatch. The main scene takes place outdoors by a large blue metal door in the prison yard. Two men are preparing to be released: one wearing a purple-and-blue tracksuit jacket and the other in an olive jacket carrying a white cloth parcel. As they stand by the gate, one offers the other a cigarette. The man in the tracksuit declines, saying he prefers to chew gum. They begin to discuss their lives post-incarceration. When asked what he will do for work now that he is free, the man in the olive jacket states he will be a 'killer' (hitman) because it is the only thing he does well. When he asks the man in the tracksuit about his own plans, the response is 'banker.' Realizing they will likely meet again under violent professional circumstances, they skip the friendly kiss goodbye, simply shaking hands before parting ways.",
+    "keywords_hy": [
+      "բանտ",
+      "կիլլեռ",
+      "բանկիռ",
+      "ազատվել",
+      "բանտարկյալ",
+      "աշխատանք",
+      "քրեական"
+    ],
+    "keywords_en": [
+      "prison",
+      "killer",
+      "banker",
+      "release",
+      "prisoner",
+      "hitman",
+      "career plans"
+    ],
+    "keywords_translit": [
+      "bant",
+      "kiler",
+      "bankir",
+      "azatvel",
+      "bantarkyal",
+      "ashkhatanq",
+      "qreakan"
+    ],
+    "catchphrases": [
+      "բանկիռ",
+      "դե ուրեմն կտեսնվենք"
+    ],
+    "topics": [
+      "crime",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

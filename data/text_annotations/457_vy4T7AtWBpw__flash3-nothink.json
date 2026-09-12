@@ -1,0 +1,67 @@
+{
+  "video_id": "vy4T7AtWBpw",
+  "seq": 457,
+  "kargin_id": 457,
+  "title": "Kargin Haghordum sketch 082 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "457_Kargin_Haghordum_sketch_082_Hayko_Mko_vy4T7AtWBpw.en.json",
+    "visual": true
+  },
+  "input_chars": 2014,
+  "gen_sec": 9.03,
+  "prompt_tokens": 1877,
+  "output_tokens": 615,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002783,
+  "annotation": {
+    "title_hy": "Գլխավոր կռուտիտ ըլնողը",
+    "title_en": "The Master of Excuses",
+    "summary_en": "A heavily intoxicated driver gets pulled over by the police and tries to use confusing slang and his reputation as a 'master of excuses' to talk his way out of trouble before running away.",
+    "summary_detailed_en": "The sketch takes place on a foggy, rural road in late autumn. A man wearing a beanie and jacket is driving erratically while shouting and singing loudly. A traffic police officer pulls him over, and the driver exits the vehicle in a state of extreme intoxication. The driver, gesturing wildly and stumbling against his car, boasts to his fiancé (implicitly or over a phone/imaginary dialogue) about how drunk he is, using bizarre slang like 'lab-laba' and 'lub-lubu' to describe his condition. When the officer confronts him, the man arrogantly claims that he is the city's 'master of excuses' (krutit elnogh) and that while the officer might catch him, he can never prove he was driving drunk. In a sudden shift of logic, he admits he is currently too drunk to drive, decides it is illegal, and abruptly runs off down the road on foot, leaving the bewildered officer standing by the car. The humor stems from the character's nonsensical vocabulary and his failed attempt to sound clever while completely wasted.",
+    "keywords_hy": [
+      "հարբած վարորդ",
+      "ճանապարհային ոստիկան",
+      "կռուտիտ",
+      "խմած քշել",
+      "խելոք գնալ",
+      "լաբ լաբա",
+      "ոստիկանություն"
+    ],
+    "keywords_en": [
+      "drunk driver",
+      "traffic police",
+      "excuses",
+      "drunk driving",
+      "slang",
+      "absurd logic",
+      "police encounter"
+    ],
+    "keywords_translit": [
+      "harbats varord",
+      "janaparhayin vostikan",
+      "krutit",
+      "xmac qshel",
+      "xelok gnal",
+      "lab laba",
+      "vostikanutyun"
+    ],
+    "catchphrases": [
+      "Աղջի Էնքան կռնյաուզ արիր գային բռնյաուզ արեց"
+    ],
+    "topics": [
+      "police",
+      "transport",
+      "drinking"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

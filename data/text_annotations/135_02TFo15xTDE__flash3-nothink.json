@@ -1,0 +1,71 @@
+{
+  "video_id": "02TFo15xTDE",
+  "seq": 135,
+  "kargin_id": 135,
+  "title": "Kargin Haghordum sketch 674 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "135_Kargin_Haghordum_sketch_674_Hayko_Mko_02TFo15xTDE.tr.json",
+    "visual": true
+  },
+  "input_chars": 2059,
+  "gen_sec": 7.63,
+  "prompt_tokens": 2146,
+  "output_tokens": 632,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002969,
+  "annotation": {
+    "title_hy": "Ծախված ֆուտբոլի խաղը",
+    "title_en": "The Fixed Football Match",
+    "summary_en": "A frustrated football player excuses his poor performance by claiming the match is fixed and the stadium is sold out, while his teammates point out his own incompetence.",
+    "summary_detailed_en": "The sketch takes place in a football team's locker room where a coach in a suit sits stressed at a desk with a tactics board, his head in his hands. A group of football players in red jerseys are discussing their 4-0 defeat. One particular player, full of excuses, claims that everything is rigged. He blames his lack of performance on everything except his own skill: he complains that he should have worn his 'boot spikes,' that the referee (the 'stadium') didn't call fouls, and that the game was sold out. When his teammate Hendo points out that he missed a penalty and a shot at an empty goal from two meters away, the player continues his conspiracy theories, claiming the 'firm' official ball is different from their local training balls and that the 'stadium' ignored the fact that English players play better on wet grass. He eventually threatens to go and hit the stadium staff. As he leaves, the coach remains silent while a teammate remarks that even if he tries to hit the stadium staff, he will probably miss his target just like he missed his shots on the field.",
+    "keywords_hy": [
+      "ֆուտբոլ",
+      "հանդերձարան",
+      "մարզիչ",
+      "ծախված խաղ",
+      "տուգանային",
+      "գնդակ",
+      "սպորտ",
+      "բուտի"
+    ],
+    "keywords_en": [
+      "football",
+      "locker room",
+      "coach",
+      "fixed match",
+      "penalty",
+      "soccer ball",
+      "sports",
+      "cleats"
+    ],
+    "keywords_translit": [
+      "futbol",
+      "handerdzaran",
+      "marzich",
+      "tsakhvats khagh",
+      "tuganayin",
+      "gndak",
+      "sport",
+      "buti"
+    ],
+    "catchphrases": [
+      "խաղը առածա, ստուդիան էլ ծախածա",
+      "տեղական պարապմունքի գնդակ",
+      "Արա էսի մեկա ծուռա խփելու"
+    ],
+    "topics": [
+      "sports",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

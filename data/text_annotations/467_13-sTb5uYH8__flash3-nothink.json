@@ -1,0 +1,70 @@
+{
+  "video_id": "13-sTb5uYH8",
+  "seq": 467,
+  "kargin_id": 467,
+  "title": "Kargin Haghordum sketch 092 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1757,
+  "gen_sec": 11.77,
+  "prompt_tokens": 1980,
+  "output_tokens": 478,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002424,
+  "annotation": {
+    "title_hy": "Լավ խաչա, բայց իմը չի",
+    "title_en": "A Good Cross, But Not Mine",
+    "summary_en": "A drunk businessman orders his henchmen to raid a village to find his stolen gold cross, only to disown the jewelry after hearing the thief's graphic story.",
+    "summary_detailed_en": "The sketch begins with a man driving through a bleak landscape, talking on his mobile phone to his associate, Smbo. He explains that he was too drunk to go to the factory, so he pulled over to sleep, only to wake up and find his expensive gold cross missing. Suspecting local villagers, he orders Smbo to gather the boys and 'shake down' the entire village until the cross is found. The scene shifts to a government-style office with an Armenian flag and a desk. The boss's bodyguards bring in a disheveled, frizzy-haired man who was found wearing a gold chain and cross. The boss aggressively confronts the man, grabbing him by the collar and demanding to know where he got it. The 'bomzh' (homeless man) terrifiedly explains that he found a man passed out in a car. He confesses that he not only stole the jewelry but, due to loneliness and the man's expensive perfume, he undressed him, closed his eyes, imagined he was the pop star Sabrina, and 'settled his business' with him. Upon hearing this disturbing revelation, the boss immediately pushes the cross away, claiming it isn't his.",
+    "keywords_hy": [
+      "ոսկի խաչ",
+      "գողություն",
+      "բոմժ",
+      "հարբած",
+      "գյուղացի",
+      "շեֆ",
+      "ծեծ",
+      "փախուստ"
+    ],
+    "keywords_en": [
+      "gold cross",
+      "theft",
+      "homeless man",
+      "drunk driving",
+      "village raid",
+      "businessman",
+      "bodyguard",
+      "confession"
+    ],
+    "keywords_translit": [
+      "voski khach",
+      "goghutyun",
+      "bomzh",
+      "harbats",
+      "gyughatsi",
+      "shef",
+      "tsets",
+      "pakhust"
+    ],
+    "catchphrases": [
+      "Լավ խաչա ապեր, բայց իմը չի։"
+    ],
+    "topics": [
+      "crime",
+      "village",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

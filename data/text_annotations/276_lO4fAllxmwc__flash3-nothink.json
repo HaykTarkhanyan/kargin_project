@@ -1,0 +1,72 @@
+{
+  "video_id": "lO4fAllxmwc",
+  "seq": 276,
+  "kargin_id": 276,
+  "title": "Kargin Haghordum - Annasun Erkira (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "276_Kargin_Haghordum_-_Annasun_Erkira_Hayko_Mko_lO4fAllxmwc.hy.json",
+    "visual": true
+  },
+  "input_chars": 8613,
+  "gen_sec": 5.94,
+  "prompt_tokens": 5707,
+  "output_tokens": 619,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.004711,
+  "annotation": {
+    "title_hy": "Անասուն երկիր և ուրիշ պատմություններ",
+    "title_en": "Beastly Country and Other Stories",
+    "summary_en": "A compilation of sketches featuring a man arrested for calling the country 'beastly', a new football recruit, high-stakes grape bargaining, and an old man's expensive request to his neighbor.",
+    "summary_detailed_en": "This compilation features several comedic vignettes. In the first, a man is brought to a police station by an officer for shouting 'beastly country' in public. The captain interrogates him for his lack of patriotism during a sensitive political phase for Armenia, but the man claims he was actually referring to Switzerland, leading the captain to fine the officer for wasting his time. In another sketch, a new football recruit is introduced to the squad in a red kit; while his signing involves professional paperwork and a formal manager, he struggles with basic training drills and language barriers. A roadside scene depicts two villagers trying to sell a crate of grapes for an exorbitant 45,000 AMD to a wealthy SUV driver. The driver successfully haggles by claiming intimate knowledge of the villagers' families, including the mayor's wife. Finally, an elderly man visits his young female neighbor, offering increasing sums of money—eventually reaching $2,000—just to see her 'open up' (a double entendre), only to reveal a punchline about his inability to actually afford the bribe.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "խաղող",
+      "ֆուտբոլ",
+      "տուգանք",
+      "անասուն երկիր",
+      "հարևան",
+      "փող",
+      "առևտուր"
+    ],
+    "keywords_en": [
+      "police station",
+      "grapes",
+      "football",
+      "fine",
+      "beastly country",
+      "neighbor",
+      "money",
+      "bargaining"
+    ],
+    "keywords_translit": [
+      "vostikanutyun",
+      "khaghogh",
+      "futbol",
+      "tuganq",
+      "anasun erkir",
+      "harevan",
+      "pogh",
+      "arevtur"
+    ],
+    "catchphrases": [
+      "Անասուն երկիր է",
+      "հորս արևդ կայֆավատ չեմ արա",
+      "գոլ խփեք թուրքերին"
+    ],
+    "topics": [
+      "police",
+      "sports",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

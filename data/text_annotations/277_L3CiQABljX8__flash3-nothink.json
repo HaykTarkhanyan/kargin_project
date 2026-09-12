@@ -1,0 +1,80 @@
+{
+  "video_id": "L3CiQABljX8",
+  "seq": 277,
+  "kargin_id": 277,
+  "title": "Kargin Haghordum sketch 230 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "277_Kargin_Haghordum_sketch_230_Hayko_Mko_L3CiQABljX8.hy.json",
+    "visual": true
+  },
+  "input_chars": 4639,
+  "gen_sec": 14.7,
+  "prompt_tokens": 3444,
+  "output_tokens": 783,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.004071,
+  "annotation": {
+    "title_hy": "Հիվանդանոց, Պլան և Կարմիր Գլխարկ",
+    "title_en": "Hospital, Pot, and Red Riding Hood",
+    "summary_en": "A compilation of three sketches: a doctor orders a post-op patient to eat through an enema, a group of friends worries about carrying drugs past a police post, and a surreal parody of Little Red Riding Hood.",
+    "summary_detailed_en": "This compilation begins in a doctor’s office where a mustached physician informs a patient and his wife that three-quarters of the man's stomach has been removed. The doctor strictly forbids oral intake, prescribing a regimen of 'mannaya kasha' and mashed potatoes to be administered solely via enema to avoid bursting internal stitches. The scene transitions to a clinic corridor and washroom. The second segment features men in black leather jackets and sunglasses squatting in a dry field, discussing the high quality of a marijuana 'product' they have grown. As they prepare to drive with six people in the car, they panic about an upcoming police checkpoint, realizing the sheer quantity of drugs they are carrying could lead to a 'mass murder' level prison sentence. The final sketch is a fairy-tale parody set in an autumn forest. A character dressed as Little Red Riding Hood with a basket meets a man in a sheep costume. Their sentimental dialogue about friendship is interrupted by the appearance of a wolf. The wolf, rather than being scary, acts like a local 'tough guy,' asking about the food in the basket and requesting a 'smoke' (gas) in a colloquial manner.",
+    "keywords_hy": [
+      "բժիշկ",
+      "ստամոքսի վիրահատություն",
+      "կլիզմա",
+      "մաննի կաշա",
+      "պլան",
+      "ԳԱՅ",
+      "ոստիկանություն",
+      "Կարմիր Գլխարկ",
+      "գայլ",
+      "հեքիաթ"
+    ],
+    "keywords_en": [
+      "doctor",
+      "stomach surgery",
+      "enema",
+      "manna porridge",
+      "pot",
+      "police",
+      "checkpoint",
+      "Little Red Riding Hood",
+      "wolf",
+      "fairy tale"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "stamoqsi virahatutyun",
+      "klizma",
+      "manni kasha",
+      "plan",
+      "GAY",
+      "vostikanutyun",
+      "Karmir Glxark",
+      "gayl",
+      "heqiat"
+    ],
+    "catchphrases": [
+      "բերանով ուտելու մասին մոտակա մի ամիս է պիտի մոռանաս",
+      "լցնում եք այդ մանայակաշան կլիզմայի մեջ",
+      "բարի ախորժակ արմեն ջան",
+      "մոտներս խմբակային սպանության չափ պլան կա",
+      "բարև կարմիր գլխարկ"
+    ],
+    "topics": [
+      "medical",
+      "crime",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

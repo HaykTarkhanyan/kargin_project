@@ -1,0 +1,71 @@
+{
+  "video_id": "wfs9eK8otg8",
+  "seq": 98,
+  "kargin_id": 98,
+  "title": "Kargin Haghordum sketch 639 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "098_Kargin_Haghordum_sketch_639_Hayko_Mko_wfs9eK8otg8.hy.json",
+    "visual": true
+  },
+  "input_chars": 3057,
+  "gen_sec": 25.96,
+  "prompt_tokens": 2625,
+  "output_tokens": 667,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003313,
+  "annotation": {
+    "title_hy": "Կանացի հավաքույթ և ամուսիններ",
+    "title_en": "Women's Tea and Husbands",
+    "summary_en": "Three women boast about how they went on 'strike' against housework to get what they wanted from their husbands, but the last woman's story has a dark twist.",
+    "summary_detailed_en": "In a bright living room, three women sit around a coffee table set with tea cups, fruit, and sweets. The scene features male actors in drag, including a woman in a loud yellow floral outfit and another in a wide-brimmed red hat. The first woman tells a story about how she refused to do laundry after her hands hurt from cold water; after not seeing her husband for three days, he returned with a luxury washing machine. The second woman shares a similar tale, explaining that after she cut her finger and refused to cook, her husband agreed they would only eat at restaurants. The third woman, dressed in a yellow floral top, tries to one-up them. She explains that she told her husband she was done with all housework, including dishes and laundry. She follows the same narrative structure: she didn't see him the first day, the second day, or the third day. The punchline arrives when she reveals that on the fourth day, her left eye finally started to open enough for her to see him, implying he physically assaulted her.",
+    "keywords_hy": [
+      "կանանց հավաքույթ",
+      "լվացքի մեքենա",
+      "խոհանոց",
+      "ամուսին և կին",
+      "ծեծ",
+      "կատակ",
+      "հայկո մկո",
+      "սուրճի սեղան"
+    ],
+    "keywords_en": [
+      "women gathering",
+      "washing machine",
+      "kitchen",
+      "husband and wife",
+      "domestic dispute",
+      "joke",
+      "drag comedy",
+      "tea party"
+    ],
+    "keywords_translit": [
+      "kananc havaquyt",
+      "lvacqi meqena",
+      "xohanoc",
+      "amusin ev kin",
+      "cec",
+      "katak",
+      "hayko mko",
+      "surji seghan"
+    ],
+    "catchphrases": [
+      "Աղջիկներ ճիշտ են ասում էդ տղամարդկանց պետքա բռի մեջ պահել",
+      "չորորդ օրը ձախ աչքս կամաց-կամաց սկսեց  տեսնել"
+    ],
+    "topics": [
+      "family",
+      "party_guests",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

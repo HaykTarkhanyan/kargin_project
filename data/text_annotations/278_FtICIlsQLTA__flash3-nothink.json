@@ -1,0 +1,68 @@
+{
+  "video_id": "FtICIlsQLTA",
+  "seq": 278,
+  "kargin_id": 278,
+  "title": "Kargin Haghordum sketch 231 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1033,
+  "gen_sec": 23.65,
+  "prompt_tokens": 1550,
+  "output_tokens": 561,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002458,
+  "annotation": {
+    "title_hy": "Կեղտոտ Բատինկեքը և Պատասխանը",
+    "title_en": "Dirty Boots and the Problem",
+    "summary_en": "An officer reprimands a soldier for his dirty boots, only to have the soldier use the officer's own logic against him regarding military logistics.",
+    "summary_detailed_en": "In a military barracks room, an officer confronts a soldier who is standing at attention while holding a rifle. The officer is furious because the soldier's boots are dirty and begins to berate him, comparing him to a pig. When the officer asks for an explanation, the soldier initially responds that it is not the officer's problem. Angered by this perceived insolence, the officer threatens the soldier with ten days in the guardhouse (gubakht) for talking back to a superior and demands an answer again. The soldier explains his lengthy attempt to find boot polish: he went to the first battalion's supply room but the quartermaster was gone, then to the second battalion's supply room where the quartermaster was present but lacked any wax. The officer dismissively snaps that the lack of wax is not his problem. The soldier quickly retorts that this is exactly what he said at the beginning, cleverly trapping the officer in his own bureaucratic indifference. The scene is set against a backdrop of wooden lockers and a military bulletin board.",
+    "keywords_hy": [
+      "զինվոր",
+      "սպա",
+      "բանակ",
+      "բատինկա",
+      "գուբախտ",
+      "վաքս",
+      "վերակարգ",
+      "գումարտակ"
+    ],
+    "keywords_en": [
+      "soldier",
+      "officer",
+      "army",
+      "military boots",
+      "guardhouse",
+      "boot polish",
+      "battalion",
+      "barracks"
+    ],
+    "keywords_translit": [
+      "zinvor",
+      "spa",
+      "banak",
+      "batinka",
+      "gubakht",
+      "vaqs",
+      "verakarg",
+      "gumartak"
+    ],
+    "catchphrases": [
+      "Ձեր պռոբլեմը չի"
+    ],
+    "topics": [
+      "army"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

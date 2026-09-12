@@ -1,0 +1,67 @@
+{
+  "video_id": "qYhj_GEOtFo",
+  "seq": 190,
+  "kargin_id": 190,
+  "title": "Kargin Haghordum - Mlicu Anekdot (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "190_Kargin_Haghordum_-_Mlicu_Anekdot_Hayko_Mko_qYhj_GEOtFo.hy.json",
+    "visual": true
+  },
+  "input_chars": 3238,
+  "gen_sec": 10.09,
+  "prompt_tokens": 2748,
+  "output_tokens": 562,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00306,
+  "annotation": {
+    "title_hy": "Շնիկի Անեկդոտները",
+    "title_en": "The Dog's Jokes",
+    "summary_en": "A puppet show performer tells jokes to children, but a policeman in the audience takes offense at a joke about his profession.",
+    "summary_detailed_en": "The sketch takes place in a school auditorium where a performer is operating a dog hand-puppet on a small puppet theater stage. The performer, speaking through the dog, finishes a fairy tale for a crowd of enthusiastic children and then offers to tell jokes. After teasing jokes about people from Karabakh and Aparan, the puppet begins a joke about a 'stupid policeman.' A man in the audience, dressed in a police uniform and sporting a thick mustache, stands up and angrily interrupts. He complains that people always portray police officers as fools who don't understand anything. The performer tries to de-escalate the situation, explaining that it is just a simple joke intended for the children's entertainment and meant no personal offense. In a final twist, the policeman dismisses the human performer, revealing he wasn't arguing with him but was actually addressing the dog puppet directly, treating it as the sentient source of the insult.",
+    "keywords_hy": [
+      "շնիկ",
+      "տիկնիկային թատրոն",
+      "անեկդոտ",
+      "միլիցիոներ",
+      "երեխաներ",
+      "հեքիաթ",
+      "վիրավորանք"
+    ],
+    "keywords_en": [
+      "dog puppet",
+      "puppet theater",
+      "joke",
+      "policeman",
+      "children",
+      "fairytale",
+      "offense"
+    ],
+    "keywords_translit": [
+      "shnik",
+      "tiknikayin tatron",
+      "anekdot",
+      "milicioner",
+      "erekhaner",
+      "heqiat",
+      "viravoranq"
+    ],
+    "catchphrases": [
+      "Արա ընգեր ջան դու մի խառնվի ես քո հետ չեմ խոսըմ ես էդ շնիկի հետ եմ խոսում"
+    ],
+    "topics": [
+      "school",
+      "police",
+      "media_showbiz"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

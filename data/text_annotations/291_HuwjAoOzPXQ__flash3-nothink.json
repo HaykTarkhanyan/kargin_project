@@ -1,0 +1,66 @@
+{
+  "video_id": "HuwjAoOzPXQ",
+  "seq": 291,
+  "kargin_id": 291,
+  "title": "Kargin Haghordum sketch 408 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2401,
+  "gen_sec": 27.58,
+  "prompt_tokens": 2310,
+  "output_tokens": 574,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002877,
+  "annotation": {
+    "title_hy": "Ոստիկանը և նարկաման Գագոն",
+    "title_en": "The Policeman and Gago the Junkie",
+    "summary_en": "A mustached police officer interrogates a drug user named Gago, trying to force him to snitch on his neighborhood friends by offering him cassettes as a bribe.",
+    "summary_detailed_en": "The sketch begins with a mustached police officer in a dark hallway, knocking on a door and identifying himself as the police. A voice from inside hilariously claims no one is home, despite clearly talking to him. The scene shifts to a police interrogation room where the officer confronts Gago, a young man wearing a leather jacket. The officer berates Gago for not opening his door and accuses the entire neighborhood of being drug users rather than the 'conservatory students' they pretend to be. The officer performs a mock sobriety test, moving his finger left and right before 'disappearing' it like a magic trick and hitting the suspect. To get names, the officer offers a 'royal cassette' for every name Gago provides. Despite the pressure and the physical intimidation at the desk, Gago remains loyal to his friends, concluding with the punchline that he won't sell out his friends for a measly seven cassettes, implying he might have for a higher price.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "հարցաքննություն",
+      "նարկաման",
+      "կասետ",
+      "կատակերգություն",
+      "քուչա",
+      "ընկերություն"
+    ],
+    "keywords_en": [
+      "police interrogation",
+      "drug addict",
+      "neighborhood",
+      "cassette tape",
+      "betrayal",
+      "bribery",
+      "leather jacket"
+    ],
+    "keywords_translit": [
+      "vostikanutyun",
+      "harcaqnnutyun",
+      "narkaman",
+      "kaset",
+      "katakergutyun",
+      "qucha",
+      "ynkerutyun"
+    ],
+    "catchphrases": [
+      "Ես կակոյ նիբուդ 7 կասետի համար,  իմ ընկերներին չեմ ծախի"
+    ],
+    "topics": [
+      "police",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "keoWCJkrdqs",
+  "seq": 559,
+  "kargin_id": 559,
+  "title": "Kargin Haghordum sketch 191 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "559_Kargin_Haghordum_sketch_191_Hayko_Mko_keoWCJkrdqs.hy.json",
+    "visual": true
+  },
+  "input_chars": 2196,
+  "gen_sec": 12.99,
+  "prompt_tokens": 2167,
+  "output_tokens": 429,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002371,
+  "annotation": {
+    "title_hy": "Բենզինի գործ անողը",
+    "title_en": "The Gas Business Professional",
+    "summary_en": "A man whose car broke down discovers that the only way to get a ride to the center is to lie about being in the fuel business.",
+    "summary_detailed_en": "A man dressed in a suit stands by his broken-down car, frustrated that he is late for a meeting with his boss. He attempts to hitchhike from a gas station, asking a driver for a lift to the city center. The driver asks if he is involved in the 'gasoline business,' and when the man honestly says no, the driver refuses to help. Realizing the criteria for assistance, the man approaches a second driver—a woman in a black luxury SUV—with the same request. When she asks if he is in the gasoline business, he immediately lies and says yes. She enthusiastically invites him into the car. The scene then transitions to a private luxury spa where the man is relaxing in an indoor pool, wearing a towel turban, sipping cognac, and smoking a cigar while being attended to. When the woman asks how long he has been in the gasoline business, he delivers the punchline: he only started thirty minutes ago, but he already loves it tremendously.",
+    "keywords_hy": [
+      "բենզին",
+      "ավտոմեքենա",
+      "փչացած մեքենա",
+      "կենտրոն",
+      "շեֆ",
+      "սուտ",
+      "բենզինի գործ"
+    ],
+    "keywords_en": [
+      "gasoline",
+      "petrol business",
+      "broken car",
+      "hitchhiking",
+      "lying",
+      "luxury spa",
+      "businessman"
+    ],
+    "keywords_translit": [
+      "benzin",
+      "avtomeqena",
+      "pchacac meqena",
+      "kentron",
+      "shef",
+      "sut",
+      "benzini gorc"
+    ],
+    "catchphrases": [
+      "Ճիշտն ասած մի կես ժամա, Բայց արդեն բեսամթ դզումա։"
+    ],
+    "topics": [
+      "transport",
+      "leisure_outing",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

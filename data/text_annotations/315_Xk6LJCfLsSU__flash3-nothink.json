@@ -1,0 +1,66 @@
+{
+  "video_id": "Xk6LJCfLsSU",
+  "seq": 315,
+  "kargin_id": 315,
+  "title": "Kargin Haghordum sketch 476 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1619,
+  "gen_sec": 14.46,
+  "prompt_tokens": 1935,
+  "output_tokens": 585,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002723,
+  "annotation": {
+    "title_hy": "Հոգեբուժարանի ստուգումը",
+    "title_en": "Psychiatric Hospital Checkup",
+    "summary_en": "A psychiatrist interviews two patients to determine their sanity, only to find one still thinks he is a dog and the other thinks the doctor is a sex maniac.",
+    "summary_detailed_en": "The sketch takes place in a psychiatrist's office, where a mustached doctor in a shirt and tie sits behind a desk featuring a telephone, a potted plant, and a framed certificate. The doctor first interviews a patient with a shaggy wig who used to believe he was a dog. The doctor mockingly recalls how the patient used to wag his tail, lick the doctor's hands, and fetch slippers. When the patient claims he is now cured, the doctor asks for proof, to which the patient replies that his nose has been wet for ten days—a sign of health in dogs. Realizing the man is still delusional, the doctor pretends to release him but immediately calls security to lock him up. The second patient is then shown a series of Rorschach-style or simple drawings. He interprets every single image—a house, a bed, and a swimming pool—as a setting where 'two people are loving each other.' When the doctor continues the test, the patient turns the tables, accusing the doctor of being a 'sexual maniac' for showing such suggestive pictures. The sketch highlights the absurdity of psychiatric evaluations in the 'Kargin' universe.",
+    "keywords_hy": [
+      "հոգեբույժ",
+      "հոգեբուժարան",
+      "հիվանդ",
+      "բժիշկ",
+      "շուն",
+      "սեքսուալնիյ մանիակ",
+      "ստուգում"
+    ],
+    "keywords_en": [
+      "psychiatrist",
+      "mental hospital",
+      "patient",
+      "doctor",
+      "dog delusion",
+      "sexual maniac",
+      "sanity test"
+    ],
+    "keywords_translit": [
+      "hogebuyj",
+      "hogebujaran",
+      "hivand",
+      "bjishk",
+      "shun",
+      "sexualni maniak",
+      "stugum"
+    ],
+    "catchphrases": [
+      "Մարդ մնացեք"
+    ],
+    "topics": [
+      "medical",
+      "law_court"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

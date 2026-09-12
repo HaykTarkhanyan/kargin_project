@@ -1,0 +1,67 @@
+{
+  "video_id": "XaYIbCf91Ds",
+  "seq": 345,
+  "kargin_id": 345,
+  "title": "Kargin Haghordum sketch 512 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1363,
+  "gen_sec": 5.33,
+  "prompt_tokens": 1707,
+  "output_tokens": 589,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00262,
+  "annotation": {
+    "title_hy": "Քնարիկի հղիությունը և շեֆը",
+    "title_en": "Knarik's Pregnancy and the Boss",
+    "summary_en": "A female employee informs her boss that she is pregnant with his child after a business trip and offers a dark solution to avoid a scandal.",
+    "summary_detailed_en": "The sketch takes place in a formal executive office, decorated with an Armenian flag, a telephone, and a large desk. A young woman named Knarik, wearing a pink dress, enters the office to speak with her boss, a mustached official, regarding a personal matter. She appears visibly distressed and sad. Knarik reveals to her boss that she has just come from the gynecologist and is four weeks pregnant. She points out that the timing coincides perfectly with their recent business trip together, implying he is the father. Acknowledging that they are both married and fearing the social scandal that would ensue, she calmly informs him that she has decided to commit suicide to protect both of their reputations. Instead of showing concern or trying to stop her, the boss responds with cold relief and praise. He tells her he always knew she was reliable and thanks her for her decision. The visual synopsis notes a moment of tension where she clutches her throat and he holds her hands, which contrasts sharply with his heartless verbal approval of her tragic plan.",
+    "keywords_hy": [
+      "շեֆ",
+      "հղիություն",
+      "քարտուղարուհի",
+      "կամանդիրովկա",
+      "ինքնասպանություն",
+      "դավաճանություն",
+      "աշխատավայր"
+    ],
+    "keywords_en": [
+      "boss",
+      "pregnancy",
+      "secretary",
+      "business trip",
+      "suicide",
+      "affair",
+      "office scandal"
+    ],
+    "keywords_translit": [
+      "shef",
+      "hghiutyun",
+      "qartugharuhi",
+      "kamandirovka",
+      "inqnaspanutyun",
+      "davachanutyun",
+      "ashkhatavayr"
+    ],
+    "catchphrases": [
+      "ես միշտ էլ գիտեյի, որ քո վրա հույս կարելիա դնել, ապրես"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

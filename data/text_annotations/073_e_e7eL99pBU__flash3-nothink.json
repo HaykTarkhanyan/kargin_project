@@ -1,0 +1,74 @@
+{
+  "video_id": "e_e7eL99pBU",
+  "seq": 73,
+  "kargin_id": 73,
+  "title": "Kargin Haghordum sketch 669 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "073_Kargin_Haghordum_sketch_669_Hayko_Mko_e_e7eL99pBU.hy.json",
+    "visual": true
+  },
+  "input_chars": 2407,
+  "gen_sec": 8.2,
+  "prompt_tokens": 2271,
+  "output_tokens": 644,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003067,
+  "annotation": {
+    "title_hy": "Տանտերը տանուլ է տալիս տունը",
+    "title_en": "Gambling Away the House",
+    "summary_en": "A group of men play a high-stakes card game in a living room until the host reveals to his angry wife that he has lost their apartment.",
+    "summary_detailed_en": "The sketch is set in a carpeted apartment living room where three men are engaged in a high-stakes card game. The host, a man with a mustache, sits at a table cluttered with coffee cups, an ashtray full of cigarette butts, and stacks of US dollar bills. A bearded man in dark glasses and a younger man participate in the intense game, frequently betting 2,000 units and discussing their luck. A housewife, played by a male actor in drag wearing a curly wig and floral dress, serves coffee at her husband's command to the 'playground' (the table). As the game drags on into the early morning hours, the wife repeatedly checks an ornate wall clock, complaining that it must be broken because it shows such a late hour. When she finally loses her temper at 4:00 AM, screaming that she has a right to sleep in her own home, the husband delivers the dry punchline: she shouldn't yell because the house doesn't belong to them anymore, implying he has lost it in the game.",
+    "keywords_hy": [
+      "թղթախաղ",
+      "կազինո",
+      "տունը տանուլ տալ",
+      "կնիկ",
+      "կոֆե",
+      "դոլար",
+      "խաղամոլ",
+      "քնած կնիկ",
+      "ժամացույց"
+    ],
+    "keywords_en": [
+      "card game",
+      "gambling",
+      "losing the house",
+      "poker",
+      "dollars",
+      "coffee",
+      "housewife in drag",
+      "late night",
+      "betting"
+    ],
+    "keywords_translit": [
+      "tghtakhagh",
+      "kazino",
+      "tuny tanul tal",
+      "knik",
+      "kofe",
+      "dolar",
+      "khaghamol",
+      "knac knik",
+      "zhamacuyc"
+    ],
+    "catchphrases": [
+      "Կնիկ 3 հատ կոֆե խաղահրապարակ",
+      "կնիկ մի գոռա էս տունը արդեն մերը չի"
+    ],
+    "topics": [
+      "family",
+      "money",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

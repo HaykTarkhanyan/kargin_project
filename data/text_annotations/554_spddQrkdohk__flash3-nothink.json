@@ -1,0 +1,70 @@
+{
+  "video_id": "spddQrkdohk",
+  "seq": 554,
+  "kargin_id": 554,
+  "title": "Kargin Haghordum sketch 186 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "554_Kargin_Haghordum_sketch_186_Hayko_Mko_spddQrkdohk.hy.json",
+    "visual": true
+  },
+  "input_chars": 2932,
+  "gen_sec": 11.69,
+  "prompt_tokens": 2623,
+  "output_tokens": 678,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003346,
+  "annotation": {
+    "title_hy": "Ռայոնցի ընտանիքը ռեստորանում",
+    "title_en": "Village Family in a Restaurant",
+    "summary_en": "A family from the province visits a prestigious restaurant but brings their own homemade food and only orders a carafe of water.",
+    "summary_detailed_en": "The sketch takes place in an upscale restaurant decorated in red. A village family, consisting of a father with a prominent mustache, a mother wearing a red headscarf, a son, and a daughter, has just been seated. Instead of ordering from the menu, they begin unpacking grocery bags filled with their own food. The father directs his wife to cut the cheese, tells his son to mix the matzun, and encourages his daughter to relax and eat, insisting she won't do any work today. When the waiter, Rafo, approaches to take their order, the father simply asks for a carafe of water and five glasses, eventually increasing it to six so they don't run short. The waiter, shocked, reports the situation to the restaurant manager, explaining that a family from the 'rayon' (province) is eating their own supplies under the air conditioner. The manager approaches to confront them, but before he can complain about restaurant policy, the father interrupts him. Praising the 'prestige' of the establishment he saw on TV, the father demands to know why the band isn't playing music for them yet, completely oblivious to his own social faux pas.",
+    "keywords_hy": [
+      "ռեստորան",
+      "ռայոնցի",
+      "գյուղացի",
+      "ընտանիք",
+      "սեփական ուտելիք",
+      "տնօրեն",
+      "մատուցող",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "restaurant",
+      "villager",
+      "family",
+      "own food",
+      "manager",
+      "waiter",
+      "prestige",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "restoran",
+      "rayontsi",
+      "gyughatsi",
+      "yntaniq",
+      "sepakan uteliq",
+      "tnoren",
+      "matucogh",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "նայում եմ էս ձեր ռեստորանը պրեստիժնի ռեստորանա։ Ռեկլամը տելեվիզրով տեսել եմ, Եկել եմ , էս ձեր երաժիշտները խի՞ չեն նվագում որ։"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "family",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

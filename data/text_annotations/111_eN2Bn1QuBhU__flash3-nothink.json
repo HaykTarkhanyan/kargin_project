@@ -1,0 +1,80 @@
+{
+  "video_id": "eN2Bn1QuBhU",
+  "seq": 111,
+  "kargin_id": 111,
+  "title": "Kargin Haghordum sketch 698 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "111_Kargin_Haghordum_sketch_698_Hayko_Mko_eN2Bn1QuBhU.fr.json",
+    "visual": true
+  },
+  "input_chars": 4168,
+  "gen_sec": 19.66,
+  "prompt_tokens": 3129,
+  "output_tokens": 812,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.004,
+  "annotation": {
+    "title_hy": "Նորոյի Անկեղծ Կենացը",
+    "title_en": "Noro's Honest Toast",
+    "summary_en": "At a birthday gathering, a guest named Noro is pressured into giving a toast despite his warnings that he is bad at it, resulting in him accidentally exposing everyone's dirty secrets.",
+    "summary_detailed_en": "The sketch takes place at a restaurant table set against red curtains, where a group of friends is celebrating a birthday. The host, Vrezh (wearing a mustache and tie), tries to lead the celebration but is constantly corrected on his grammar and facts. He recounts a story about being caught by police for stealing from a warehouse, jokingly claiming he could find 1,500 witnesses who didn't see him do it. The atmosphere is jovial as they eat mushrooms and drink. The group repeatedly pressures a guest named Noro, who is dressed in a suit, to give a toast. Noro repeatedly declines, claiming he doesn't know how to give proper toasts, but the others persist, chanting his name. When he finally stands up, his 'toast' becomes a series of brutal truth-bombs: he reveals that Vrezh only married his wife Mariam for her father's money to pay off debts, and that Frunz has been chronically unfaithful to his wife for years while Noro covered for him. The celebratory mood instantly vanishes as the friends sit in shocked silence. Noro simply shrugs, reminding them that he warned them he didn't know how to give a toast.",
+    "keywords_hy": [
+      "ծնունդ",
+      "կենաց",
+      "խնջույք",
+      "ռեստորան",
+      "գաղտնիք",
+      "դավաճանություն",
+      "ընկերներ",
+      "հարսանիք",
+      "փող",
+      "հոբելյար"
+    ],
+    "keywords_en": [
+      "birthday",
+      "toast",
+      "party",
+      "restaurant",
+      "secrets",
+      "betrayal",
+      "friends",
+      "wedding",
+      "money",
+      "anniversary"
+    ],
+    "keywords_translit": [
+      "tsnund",
+      "kenats",
+      "khnchuyk",
+      "restoran",
+      "gaghtniq",
+      "davachanutyun",
+      "ynkerner",
+      "harsaniq",
+      "pogh",
+      "hobelyar"
+    ],
+    "catchphrases": [
+      "եկեք բոլորս միասին բարձրացնենք բաժակները ժև շնորհավորենք մեր այսօրվա օռբելյանին",
+      "ուզում ես հենց հիմա 1500 մարդ բերեմ որ չի տեսել",
+      "լավա ես սունկ ուտել չեմ սիրում ավելի շատ սիրում եմ հավաքել",
+      "Նորո ծնունդս ա Նորո",
+      "արա դե ախպեր ջան ասում եմ էլի կենաց ասել չգիտեմ"
+    ],
+    "topics": [
+      "party_guests",
+      "drinking",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

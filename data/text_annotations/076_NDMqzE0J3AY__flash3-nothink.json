@@ -1,0 +1,73 @@
+{
+  "video_id": "NDMqzE0J3AY",
+  "seq": 76,
+  "kargin_id": 76,
+  "title": "Kargin Haghordum sketch 666 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1336,
+  "gen_sec": 5.72,
+  "prompt_tokens": 1665,
+  "output_tokens": 659,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002809,
+  "annotation": {
+    "title_hy": "Շուն Ռեքսը և սիրեկանը",
+    "title_en": "Rex the Dog and the Lover",
+    "summary_en": "A woman hides her lover under the bed when her husband returns home early, leading to a bizarre misunderstanding involving their pet dog.",
+    "summary_detailed_en": "The sketch begins in an apartment bedroom where a woman is hosting a mustachioed male guest wearing a light denim jacket. She offers him coffee, asking if he prefers it sweet or bitter, while he acts nervously. She mentions that after he finishes the coffee, he should turn the cup over so the dog doesn't lick it. The guest is startled to learn they have a dog, but she reassures him that the dog is currently at a neighbor's house so they can 'work' in peace, adding that she will bring the dog back once her husband returns. Suddenly, a knock is heard; it is the husband arriving early from work. In a panic, the woman forces her lover to hide under the twin bed. The husband enters in his undershirt, complaining he couldn't sleep and wanted coffee. As the husband relaxes, the lover under the bed is accidentally discovered or makes a sound. The husband, thinking it is their pet, calls out 'Rex? Rex, is that you?'. The lover, trapped and desperate, responds from under the bed in a dog-like fashion, saying, 'Yes, yes, it's me,' to avoid being caught as an intruder.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "սիրեկան",
+      "մահճակալ",
+      "շուն",
+      "սուրճ",
+      "թաքնվել",
+      "ամուսին",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "lover",
+      "under the bed",
+      "dog",
+      "coffee",
+      "hiding",
+      "husband",
+      "misunderstanding"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "sirekan",
+      "mahcakal",
+      "shun",
+      "surch",
+      "taqnvel",
+      "amusin",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "սուրճը որ խմես շուռ կտաս որ շունս չլպստի",
+      "մտի կառավաթի տակ շուտ արա",
+      "Ռեքս դու ես",
+      "հա հա ես եմ"
+    ],
+    "topics": [
+      "family",
+      "romance",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

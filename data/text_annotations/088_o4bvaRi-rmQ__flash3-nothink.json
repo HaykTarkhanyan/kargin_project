@@ -1,0 +1,68 @@
+{
+  "video_id": "o4bvaRi-rmQ",
+  "seq": 88,
+  "kargin_id": 88,
+  "title": "Kargin Haghordum sketch 654 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "088_Kargin_Haghordum_sketch_654_Hayko_Mko_o4bvaRi-rmQ.hy.json",
+    "visual": true
+  },
+  "input_chars": 2005,
+  "gen_sec": 5.41,
+  "prompt_tokens": 2055,
+  "output_tokens": 616,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002876,
+  "annotation": {
+    "title_hy": "Ձկնորսը և Հեծանիվ Քշողը",
+    "title_en": "The Fisherman and the Bicycle Rider",
+    "summary_en": "A fisherman walking along a rural road is annoyed by a villager asking obvious questions, leading to a ridiculous role reversal.",
+    "summary_detailed_en": "The sketch takes place on a rural dirt road with snow-capped mountains in the background. A fisherman, equipped with a fishing rod and binoculars, walks while reflecting on how fishing calms his nerves and allows him to be at one with the river and the frogs. He is accompanied by another villager wearing a straw hat. A boy on a bicycle repeatedly rides past them. The villager in the straw hat begins to pester the fisherman by repeatedly asking the obvious question: 'Uncle, are you catching fish?' When the fisherman ignores him, the villager becomes aggressive, shouting that he is just asking a question and acting as if his dignity has been insulted. To flip the script on the annoying behavior, the fisherman suddenly turns to the boy on the bicycle and asks him the equally obvious question: 'Brother, are you riding a bicycle?' When the boy looks confused, the fisherman begins screaming that the boy is 'crazy' (gizh), warning the villager not to go near him because the cyclist is insane. The sketch ends with this absurd outburst of mock-panic.",
+    "keywords_hy": [
+      "ձկնորս",
+      "հեծանիվ",
+      "գիժ",
+      "հարց ու պատասխան",
+      "գյուղական ճանապարհ",
+      "Կարգին հաղորդում",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "fisherman",
+      "bicycle",
+      "crazy",
+      "obvious questions",
+      "rural road",
+      "annoying neighbor",
+      "absurd humor"
+    ],
+    "keywords_translit": [
+      "dzknors",
+      "hetsaniv",
+      "gizh",
+      "harts u patasxan",
+      "gyughakan janaparh",
+      "Kargin haghordum",
+      "tsitsagheli"
+    ],
+    "catchphrases": [
+      "հոպար էս ձուկ ես բռնում",
+      "ապեր էս հեծանիվ ես քշում",
+      "հոպար դու գիժես"
+    ],
+    "topics": [
+      "neighbors",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

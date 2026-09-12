@@ -1,0 +1,70 @@
+{
+  "video_id": "NypCXWhqXKs",
+  "seq": 58,
+  "kargin_id": 58,
+  "title": "Kargin Haghordum sketch 623 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1371,
+  "gen_sec": 22.57,
+  "prompt_tokens": 1735,
+  "output_tokens": 620,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002727,
+  "annotation": {
+    "title_hy": "Հարբած ամուսինը և հարևանի ծաղիկները",
+    "title_en": "The Drunk Husband and the Neighbor's Flowers",
+    "summary_en": "A wife complains that her drunk husband isn't romantic like their neighbor, leading to a violent domestic dispute and a cynical punchline about his drinking schedule.",
+    "summary_detailed_en": "The sketch takes place in a wood-paneled living room. A woman (played by a male actor in drag) is seen violently beating a man in a suit using a metal wash basin. After kicking him unconscious onto a couch, she ties a medical bandage around his jaw to keep it shut. Despite the physical altercation, the dialogue reflects a typical domestic argument. The wife complains that the husband comes home drunk every other day and neglects her. She points out that their new neighbors, married for seven years, are still romantic, with the husband giving flowers and gifts. When she asks why he doesn't do the same, the husband cynically replies that he barely knows the neighbor's wife well enough to give her flowers. The argument escalates until the husband, lying motionless, tells his wife he is going to sleep. He instructs her to wake him up when it is time for his next drink. When she asks how she is supposed to know the right time, he delivers the punchline: whenever she wakes him, it is the right time to drink.",
+    "keywords_hy": [
+      "հարբեցող",
+      "ամուսիններ",
+      "ծաղիկներ",
+      "հարևաններ",
+      "ծեծկռտուք",
+      "կնիկը ծեծում է",
+      "հումոր",
+      "քնել"
+    ],
+    "keywords_en": [
+      "drunkard",
+      "married couple",
+      "flowers",
+      "neighbors",
+      "domestic fight",
+      "wife beating husband",
+      "humor",
+      "drinking schedule"
+    ],
+    "keywords_translit": [
+      "harbac",
+      "amusinner",
+      "caxikner",
+      "harevanner",
+      "ceckrtuq",
+      "kniky cecum e",
+      "humor",
+      "qnel"
+    ],
+    "catchphrases": [
+      "Ասում եմ ես քնում եմ , երբ որ խմելուս վախտը գա կարթնացնես։"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

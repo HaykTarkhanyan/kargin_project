@@ -1,0 +1,72 @@
+{
+  "video_id": "C4IPn7C4Gg0",
+  "seq": 597,
+  "kargin_id": 597,
+  "title": "Kargin Haghordum sketch 448 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1714,
+  "gen_sec": 6.49,
+  "prompt_tokens": 1950,
+  "output_tokens": 633,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002874,
+  "annotation": {
+    "title_hy": "Աֆրիկայից եկած հայրիկը",
+    "title_en": "The Father from Africa",
+    "summary_en": "A husband returns from Africa eager for intimacy with his wife, but the children's bedtime and a neighbor's secret habit stand in his way.",
+    "summary_detailed_en": "The sketch takes place in a family kitchen/dining room decorated with sunflowers and fruit. A man arrives home from a trip to Africa and is greeted warmly with a hug by his wife, played by a male comedian in drag wearing a blonde wig and a floral robe. The man presents a gift to his young daughter and expresses how much he missed his wife, hinting that he wants to spend time alone with her soon. To get the child out of the way, he jokingly suggests they turn the clocks forward two hours so it becomes the girl's bedtime immediately. When the wife points out that the child won't sleep unless someone puts her to bed, the father enthusiastically volunteers, intent on returning quickly to 'deliver his mother's gift.' However, the plan hits a snag when the young girl refuses to sleep without a bribe. She reveals the punchline: whenever their neighbor, Uncle Serozh, puts her to sleep, he always gives her ice cream, implying the neighbor has been filling the father's role during his long absence.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "հարևան",
+      "պաղպաղակ",
+      "Աֆրիկա",
+      "նվեր",
+      "ընտանիք",
+      "երեխա",
+      "զավեշտ"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "neighbor",
+      "ice cream",
+      "Africa",
+      "gift",
+      "family",
+      "child",
+      "drag"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "harevan",
+      "paghpaghak",
+      "Afrika",
+      "nver",
+      "yntaniq",
+      "erekha",
+      "zavesht"
+    ],
+    "catchphrases": [
+      "Դե պաղպաղակ տուր որ քնեմ",
+      "Ինչ պաղպաղակ",
+      "Որովհետև երբ մեր հարևան Սերոժ ձյաձյան ինձ քնացնում ա միշտ պաղպաղակ ա տալիս"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

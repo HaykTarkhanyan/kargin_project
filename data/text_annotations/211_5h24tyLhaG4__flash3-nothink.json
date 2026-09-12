@@ -1,0 +1,70 @@
+{
+  "video_id": "5h24tyLhaG4",
+  "seq": 211,
+  "kargin_id": 211,
+  "title": "Kargin Haghordum sketch 391 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "211_Kargin_Haghordum_sketch_391_Hayko_Mko_5h24tyLhaG4.ro.json",
+    "visual": true
+  },
+  "input_chars": 2162,
+  "gen_sec": 32.64,
+  "prompt_tokens": 2141,
+  "output_tokens": 647,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003012,
+  "annotation": {
+    "title_hy": "Մամայի բալիկը և Ֆրեյդի մեթոդը",
+    "title_en": "Momma's Boy and the Freud Method",
+    "summary_en": "A frustrated wife complains to her friend about her husband's extreme obsession with his mother, eventually trying a seductive plan inspired by Freud to win him back.",
+    "summary_detailed_en": "The sketch begins in a living room where a woman in a pink tracksuit is having tea with a friend, complaining loudly about her husband being a 'momma's boy.' She laments that he spends all day with his mother, compares her cooking to his mother's, and even gives his mother gifts on his wife's birthday. Her friend suggests a solution based on 'Freud,' advising her to buy provocative lingerie, wear intoxicating perfume, and set a romantic mood to break the mother's influence. The scene shifts to a bedroom where the wife, now dressed in a seductive black dress, awaits her husband on the bed. The husband, a young man in a suit, enters and removes his glasses. However, instead of being seduced by her appearance, he sees her black outfit and immediately asks in a panic if something has happened to his mother, implying he thinks she is dressed for a funeral. The attempt at seduction fails completely due to his singular focus on his mother.",
+    "keywords_hy": [
+      "կարգին հաղորդում",
+      "մամայի բալիկ",
+      "սկեսուր",
+      "ինտիմ",
+      "Ֆրեյդ",
+      "սև զգեստ",
+      "խանդ",
+      "ամուսիններ"
+    ],
+    "keywords_en": [
+      "Kargin Haghordum",
+      "momma's boy",
+      "mother-in-law",
+      "Freud",
+      "seduction",
+      "black dress",
+      "jealousy",
+      "married couple"
+    ],
+    "keywords_translit": [
+      "kargin haghordum",
+      "mamayi balik",
+      "skesur",
+      "intim",
+      "Freyd",
+      "sev zgest",
+      "xand",
+      "amusinner"
+    ],
+    "catchphrases": [
+      "էս ինչի ես սև հագնվել, կարողա մամային բանա պատահել",
+      "մոր ծնունդ էլ մարտի 8իցա մարտի 8ից ապրիլի 7ը մոր միամսյակնա անում"
+    ],
+    "topics": [
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

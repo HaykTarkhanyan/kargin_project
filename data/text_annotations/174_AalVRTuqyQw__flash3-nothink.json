@@ -1,0 +1,67 @@
+{
+  "video_id": "AalVRTuqyQw",
+  "seq": 174,
+  "kargin_id": 174,
+  "title": "Kargin Haghordum sketch 218 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1767,
+  "gen_sec": 4.75,
+  "prompt_tokens": 1966,
+  "output_tokens": 612,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002819,
+  "annotation": {
+    "title_hy": "Անպիտան քարտուղարուհին",
+    "title_en": "The Useless Secretary",
+    "summary_en": "An annoyed office worker dealing with delayed lemonade shipments is pushed to his limit when a new secretary reveals she cannot even operate a printer.",
+    "summary_detailed_en": "The sketch takes place in a typical office setting where a mustached office worker is frantically shouting into a telephone desk set. He is arguing with a supplier about delayed lemonade shipments, sarcastically noting that if they wait any longer, the September delivery will become a New Year's order. During the call, he learns a contract was faxed or sent over previously. A new secretary, played by a man in drag wearing a long-haired wig and feminine office attire, enters the room. She introduces herself as Satenik, explaining that the deputy director was supposed to introduce her but failed to do so. When the boss asks if she has printed the contract, she confesses that despite being on the job for two hours, she hasn't grasped the 'operating principle' of the printer. Frustrated by her incompetence, the man calmly instructs her to take a white piece of paper and a pen to write a resignation letter 'of her own volition' immediately.",
+    "keywords_hy": [
+      "գրասենյակ",
+      "քարտուղարուհի",
+      "պրինտեռ",
+      "աշխատանքից ազատում",
+      "լիմոնադ",
+      "պայմանագիր",
+      "ծաղրանկար"
+    ],
+    "keywords_en": [
+      "office",
+      "secretary",
+      "printer",
+      "resignation",
+      "lemonade",
+      "contract",
+      "incompetence"
+    ],
+    "keywords_translit": [
+      "grasenyak",
+      "qartuxaruhi",
+      "printer",
+      "ashxatanqic azatum",
+      "limonad",
+      "paymanagir",
+      "caxrankar"
+    ],
+    "catchphrases": [
+      "մի ամիս էլ ուշացնեք կլինի դեկտեմբերի 30ը կլնի արդեն նոր տարվա լիմոնադ",
+      "խնդրում եմ իմ սեփական ցանկությամբ ազատել ինձ աշխատանքից"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

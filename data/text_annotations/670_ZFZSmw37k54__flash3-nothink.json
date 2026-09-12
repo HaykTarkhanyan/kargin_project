@@ -1,0 +1,72 @@
+{
+  "video_id": "ZFZSmw37k54",
+  "seq": 670,
+  "kargin_id": 670,
+  "title": "Kargin Haghordum sketch 250 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1602,
+  "gen_sec": 4.66,
+  "prompt_tokens": 1862,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002752,
+  "annotation": {
+    "title_hy": "Ճանապարհ դեպի Մարտակերտ",
+    "title_en": "The Road to Martakert",
+    "summary_en": "A dandy in a fancy suit tries to travel to Martakert in a donkey cart, marveling at his own fashion and the distance to Paris while moving in the wrong direction.",
+    "summary_detailed_en": "The sketch opens in the open countryside on a dirt road where a man dressed as a dandy in a plaid tweed suit, hat, and carrying a cane is gesturing animatedly. He complains about the state of the North-South highway and the difficulty of reaching Martakert for 'normal traveling.' He flags down a young cart driver with a donkey-drawn cart. After asking if Martakert is far, he hops on. During the slow ride through fields and past a rural building with a parked red car, the passenger admires the driver's suit, which the driver claims was bought in Paris. The passenger is impressed that such high-quality sewing exists in such a 'remote place' as Paris, which he learns is thousands of kilometers away. After traveling for some time, the passenger asks again if Martakert is still far. The driver stops the donkey and informs him that now it is actually much further than before, implying they have been traveling in the completely wrong direction. The sketch ends with the driver urging the donkey forward.",
+    "keywords_hy": [
+      "Մարտակերտ",
+      "իշու սայլ",
+      "էշ",
+      "ճանապարհ",
+      "կոստյում",
+      "Փարիզ",
+      "գյուղական",
+      "հյուսիս-հարավ",
+      "ճամփորդություն"
+    ],
+    "keywords_en": [
+      "Martakert",
+      "donkey cart",
+      "donkey",
+      "road trip",
+      "suit",
+      "Paris",
+      "rural",
+      "North-South highway",
+      "traveling"
+    ],
+    "keywords_translit": [
+      "Martakert",
+      "ishu sayl",
+      "esh",
+      "janaparh",
+      "kostyum",
+      "Pariz",
+      "gyughakan",
+      "hyusis-harav",
+      "champordutyun"
+    ],
+    "catchphrases": [
+      "արդեն շատ հեռուա"
+    ],
+    "topics": [
+      "transport",
+      "village"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "-WWA2YfdNrg",
+  "seq": 326,
+  "kargin_id": 326,
+  "title": "Kargin Haghordum sketch 288 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "326_Kargin_Haghordum_sketch_288_Hayko_Mko_-WWA2YfdNrg.tr.json",
+    "visual": true
+  },
+  "input_chars": 2909,
+  "gen_sec": 15.06,
+  "prompt_tokens": 2581,
+  "output_tokens": 755,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003556,
+  "annotation": {
+    "title_hy": "Ջրի հարցը և պարտքը",
+    "title_en": "The Water Issue and the Debt",
+    "summary_en": "Two colleagues walking in a forest complain about student corruption and rising water prices, only to be confronted by a robber.",
+    "summary_detailed_en": "Two men, dressed in matching vests and ties with one holding a green clipboard folder, are seen walking along a forest path during the day. They are engaged in a heated discussion about societal problems, starting with how student parking forced the bus stop to be moved. One man, Melikyan, complains about a student who threatened him during an exam; Melikyan couldn't fail him because the student's father is the head of the water department and would cut off his water supply. This leads to a rant about the poor water service, where water is only provided twice a day for one hour, leaving the narrator half-dirty when the supply cuts out. They discuss the absurdity of price hikes on scarce resources. During the walk, one man tries to return a 50-dollar debt for his son's engagement but repeatedly asks to keep it longer for a gift. Suddenly, they are confronted by a bearded man in a knit cap. The robber demands their money, using puns about 'cutting' their conversation. Ironically, the man who was avoiding paying his debt immediately hands the cash to his friend so that the friend loses his own money to the robber instead.",
+    "keywords_hy": [
+      "ջրի հարց",
+      "ուսանող",
+      "քննություն",
+      "պարտք",
+      "կանգառ",
+      "ավազակ",
+      "աշխատավարձ",
+      "կաշառք"
+    ],
+    "keywords_en": [
+      "water supply",
+      "student",
+      "exam",
+      "debt",
+      "bus stop",
+      "robber",
+      "salary",
+      "corruption"
+    ],
+    "keywords_translit": [
+      "jri harc",
+      "usanogh",
+      "qnnutyun",
+      "partq",
+      "kangar",
+      "avazak",
+      "ashxatavardz",
+      "kasharq"
+    ],
+    "catchphrases": [
+      "ես տղուն կտրեմ, ինքն էլ մեր ջրերը կկտրի",
+      "մարմնիս էս կեսը լվանում եմ, ջուրը կդրում են, էս մյուս կեսը միշտ մնումա կեղտոտ",
+      "էղած բանը կարաք թանգացնեք պատկերացնում ես, չեղածը ոնց եք թանգացնում",
+      "խոսքներդ դանակով կդրեմ, էս խոսակցությունը ջրեք",
+      "արի ես պարտքդ տամ հա՞, հանգիստ քնեմ"
+    ],
+    "topics": [
+      "money",
+      "crime",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

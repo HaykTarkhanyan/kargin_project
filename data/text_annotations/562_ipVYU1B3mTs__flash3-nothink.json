@@ -1,0 +1,66 @@
+{
+  "video_id": "ipVYU1B3mTs",
+  "seq": 562,
+  "kargin_id": 562,
+  "title": "Kargin Haghordum sketch 197 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "562_Kargin_Haghordum_sketch_197_Hayko_Mko_ipVYU1B3mTs.hy.json",
+    "visual": true
+  },
+  "input_chars": 824,
+  "gen_sec": 4.59,
+  "prompt_tokens": 1444,
+  "output_tokens": 523,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002291,
+  "annotation": {
+    "title_hy": "Տատիկը և անգիտակից մարդը",
+    "title_en": "Grandma and the Unconscious Man",
+    "summary_en": "An old woman encounters a man lying motionless on a forest path and starts an absurd argument with him based on his presumed thoughts.",
+    "summary_detailed_en": "The sketch takes place on a sunlit forest path where an old woman, played by one of the male actors in drag wearing a gray wig, glasses, and a floral dress, is walking with the help of a wooden cane. She comes across a man lying motionless and unconscious on the dirt ground. Instead of showing typical concern or seeking medical help, the woman reacts with a mix of surprise and immediate aggression. She begins a one-sided confrontation with the unresponsive man, accusing him of insulting her. When the man obviously remains silent, she claims that even though he didn't say anything out loud, he was 'definitely thinking' insults about her. She calls him a 'pig' and a 'monkey' in retaliation for these perceived mental slights. The humor relies on the absurdity of the woman picking a fight with someone who is completely incapacitated, culminating in her iconic line about knowing what he was thinking.",
+    "keywords_hy": [
+      "տատիկ",
+      "անտառ",
+      "անգիտակից",
+      "վիճաբանություն",
+      "խոզ",
+      "մեյմուն",
+      "ծերունի"
+    ],
+    "keywords_en": [
+      "grandma",
+      "forest",
+      "unconscious man",
+      "argument",
+      "pig",
+      "monkey",
+      "drag"
+    ],
+    "keywords_translit": [
+      "tatik",
+      "antar",
+      "angitakic",
+      "vichabanutyun",
+      "khoz",
+      "meymun",
+      "ceruni"
+    ],
+    "catchphrases": [
+      "Չես ասել, Բայց հաստատ մտածել ես։"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

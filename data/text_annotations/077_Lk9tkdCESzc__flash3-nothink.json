@@ -1,0 +1,72 @@
+{
+  "video_id": "Lk9tkdCESzc",
+  "seq": 77,
+  "kargin_id": 77,
+  "title": "Kargin Haghordum sketch 665 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2878,
+  "gen_sec": 4.07,
+  "prompt_tokens": 2538,
+  "output_tokens": 626,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003147,
+  "annotation": {
+    "title_hy": "Խելացի ձկները և տեսուչը",
+    "title_en": "The Trained Fish and the Inspector",
+    "summary_en": "A poacher caught with a bag of fish tries to convince a game warden that the fish are his pets who return to him on command.",
+    "summary_detailed_en": "On a marshy lake shore, a fisherman is approached by another man who mocks his law-abiding use of a fishing rod, suggesting a net would be more effective. The fisherman insists he is a rule-follower with a special permit, but the interaction shifts when a game warden in a camouflage coat and fur hat arrives to inspect licenses. The warden catches the fisherman with a bag of fish and threatens to take him to the station, noting the police chief's zodiac sign is Pisces and he will be furious. To escape trouble, the fisherman concocts an absurd lie: he claims he has raised these fish (his 'marals') since they were eggs and they live in a private aquarium. He explains he only brings them to the lake for 'fresh air' and that they return to his bag whenever he whistles. Skeptical, the warden demands a demonstration. After the fisherman releases all the fish back into the water, the warden tells him to whistle. The fisherman looks at him blankly and asks, 'What fish?', pretending the entire conversation never happened to avoid the evidence of his poaching.",
+    "keywords_hy": [
+      "ձկնորսություն",
+      "կարթ",
+      "տեսուչ",
+      "խարդախություն",
+      "լիճ",
+      "ձուկ",
+      "ոստիկան",
+      "թույլտվություն"
+    ],
+    "keywords_en": [
+      "fishing",
+      "poacher",
+      "inspector",
+      "game warden",
+      "lake",
+      "trained fish",
+      "scam",
+      "permit"
+    ],
+    "keywords_translit": [
+      "dzknorsutyun",
+      "karth",
+      "tesuch",
+      "khardakhutyun",
+      "lich",
+      "dzuk",
+      "vostikan",
+      "tuyvtvutyun"
+    ],
+    "catchphrases": [
+      "ինչ ձուկ այ աղբեր ջան",
+      "շֆցնում եմ հետ են գալի",
+      "մարալներս մեկը մյուսից լավն ա"
+    ],
+    "topics": [
+      "leisure_outing",
+      "police",
+      "law_court"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

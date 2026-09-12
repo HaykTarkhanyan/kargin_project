@@ -1,0 +1,71 @@
+{
+  "video_id": "qKWNtFx1XGQ",
+  "seq": 48,
+  "kargin_id": 48,
+  "title": "Kargin Haghordum sketch 613 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "048_Kargin_Haghordum_sketch_613_Hayko_Mko_qKWNtFx1XGQ.hy.json",
+    "visual": true
+  },
+  "input_chars": 3825,
+  "gen_sec": 25.07,
+  "prompt_tokens": 3024,
+  "output_tokens": 653,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003471,
+  "annotation": {
+    "title_hy": "Զորակոչ և Մուզվոդ",
+    "title_en": "Draft and the Music Unit",
+    "summary_en": "Three young men discuss how to get good placements in the army before appearing in front of a recruitment officer who assigns them roles based on their civilian jobs and stutters.",
+    "summary_detailed_en": "The sketch begins in a shabby apartment where three young men lounge on a sofa, discussing their upcoming mandatory military service. One friend argues that staying full is the most important thing, while another plans to get into the 'muzvod' (music unit) by running onto the parade ground with a violin. In a bizarre visual moment, they pass around a toilet seat. The scene shifts to a military recruitment office where a mustachioed officer sits at a desk featuring the Armenian flag and a coat rack with an army jacket. One by one, the recruits are evaluated. The first recruit, who stutters heavily while trying to say he works in the customs office (tamozhnya), reveals he actually works in a symphony orchestra; the officer assigns him to the music unit. The next recruit, a plump man nicknamed 'Bukhanka,' explains he delivers pizza, earning him a spot in the cafeteria. Finally, a recruit from the 'Zhoghinstitut' stutters rhythmically. Mistaking the staccato sounds for the firing of a weapon, the officer impatiently assigns him to be a machine-gunner (pulemyotchik) in the infantry.",
+    "keywords_hy": [
+      "բանակ",
+      "զորակոչ",
+      "կոմիսարիատ",
+      "մուզվոդ",
+      "ծառայություն",
+      "պիցցա ցրող",
+      "պուլիմյոտչիկ",
+      "կակազել"
+    ],
+    "keywords_en": [
+      "army",
+      "military draft",
+      "recruitment office",
+      "music unit",
+      "stuttering",
+      "pizza delivery",
+      "machine gunner",
+      "conscription"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zorakoch",
+      "komisariat",
+      "muzvod",
+      "tsarayutyun",
+      "pica crogh",
+      "pulimyotchik",
+      "kakazel"
+    ],
+    "catchphrases": [
+      "մի անգամ նվագեցիր հա էլ պիտի նվագես",
+      "հերիքա գրա պուլիմյոտչիկ պեխոտա"
+    ],
+    "topics": [
+      "army",
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

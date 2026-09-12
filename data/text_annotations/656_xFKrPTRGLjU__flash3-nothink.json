@@ -1,0 +1,69 @@
+{
+  "video_id": "xFKrPTRGLjU",
+  "seq": 656,
+  "kargin_id": 656,
+  "title": "Kargin Haghordum sketch 599 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1246,
+  "gen_sec": 4.41,
+  "prompt_tokens": 1680,
+  "output_tokens": 568,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002544,
+  "annotation": {
+    "title_hy": "100 Դրամանոցները Ականջում",
+    "title_en": "Coins in the Ears",
+    "summary_en": "A patient visits an ENT doctor complaining of hearing loss, only to reveal he has been using his ears as a piggy bank.",
+    "summary_detailed_en": "The sketch takes place in a medical exam room where a patient with wild, disheveled hair sits in a clinical chair. A doctor, wearing a white coat and a traditional ENT head mirror, attempts to examine him. The patient repeatedly complains that he cannot hear well, prompting the doctor to tell him to close his eyes. In an absurd comedic moment, a gunshot sound is heard, which the doctor dismisses as a 'normal procedure.' As the examination continues, the doctor uses a medical tool to probe the patient's ears and suddenly discovers two 100-dram coins lodged inside. When the doctor asks if the patient was aware of this, the patient nonchalantly admits he has known for a month. The doctor, perplexed, asks why he didn't come to the clinic sooner to have them removed. The patient delivers the punchline: he didn't come earlier because he didn't need the money until now.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "ականջ",
+      "լսողություն",
+      "փող",
+      "100 դրամ",
+      "քիթ-կոկորդ-ականջաբան",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "ear",
+      "hearing loss",
+      "money",
+      "100 dram",
+      "ENT specialist",
+      "comedy"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivandanoc",
+      "akanj",
+      "lsoghutyun",
+      "pogh",
+      "100 dram",
+      "qit-kokord-akanjaban",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "Էն վախտ փող պետք չէր։"
+    ],
+    "topics": [
+      "medical",
+      "money"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

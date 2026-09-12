@@ -78,12 +78,15 @@ class Topic(str, enum.Enum):
     army = "army"
     transport = "transport"
     romance = "romance"
+    wedding_funeral = "wedding_funeral"
+    party_guests = "party_guests"
     drinking = "drinking"
     restaurant_cafe = "restaurant_cafe"
+    leisure_outing = "leisure_outing"
     crime = "crime"
     neighbors = "neighbors"
     bureaucracy = "bureaucracy"
-    media_tv = "media_tv"
+    media_showbiz = "media_showbiz"
     sports = "sports"
     religion = "religion"
     other = "other"
@@ -143,7 +146,13 @@ it cannot hear the dialogue). Combine text and visuals. Extract:
   way Armenians type informally (e.g. "barev", "inch ka", "aper").
 - catchphrases: 0-5 verbatim quotable lines in Armenian script, copied exactly
   from the provided text. Only genuinely punchy/memorable lines; empty list if none.
-- topics: 1-3 from the fixed vocabulary.
+- topics: 1-3 from the fixed vocabulary. Boundaries for the easily confused ones:
+  wedding_funeral = weddings, engagements, funerals, wakes, cemeteries;
+  party_guests = birthdays, house parties, banquets, hosting or being a guest;
+  leisure_outing = zoo, museum, theater, park, beach, picnic, fishing, hunting;
+  family = domestic/household and relatives generally;
+  media_showbiz = TV, radio, stage, interviews, reporters, singers, showbiz;
+  school = school and university alike. Use "other" only if nothing else fits.
 - humor_type: 1-2 from the fixed vocabulary.
 
 Do not invent content that is not supported by the given text or visuals.

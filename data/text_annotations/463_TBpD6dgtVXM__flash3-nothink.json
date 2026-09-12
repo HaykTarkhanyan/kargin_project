@@ -1,0 +1,71 @@
+{
+  "video_id": "TBpD6dgtVXM",
+  "seq": 463,
+  "kargin_id": 463,
+  "title": "Kargin Haghordum sketch 088 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "463_Kargin_Haghordum_sketch_088_Hayko_Mko_TBpD6dgtVXM.tr.json",
+    "visual": true
+  },
+  "input_chars": 2601,
+  "gen_sec": 7.55,
+  "prompt_tokens": 2371,
+  "output_tokens": 613,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003025,
+  "annotation": {
+    "title_hy": "Երեք ձայնով թաղապետ",
+    "title_en": "Three Votes for District Head",
+    "summary_en": "A man constantly loses local elections by getting only two votes—his own and his wife's—until a news report reveals he finally received a third vote, sparking his wife's suspicion.",
+    "summary_detailed_en": "The sketch takes place in a living room where a man in a suit sits with his wife, who is a woman played by a male comedian in drag, wearing a blond wig and a pink blazer. The wife berates her husband for his consistent failures in local politics, listing his embarrassing history of losing elections for building manager and city council. She mocks him, stating that he always receives exactly two votes: one from himself and one from her. She claims that even the neighbors would rather vote for the local drunk than for a loser like him. The husband insists on watching the 'ArmNews' special election report on their television to see the results of his run for District Head. The news anchor announces the final tallies: two candidates received thousands of votes, while the husband, Volodya Musayelyan, received the fewest. However, the anchor reveals Volodya received three votes instead of the usual two. The wife immediately turns on him in a jealous rage, demanding to know who the 'mistress' is that provided the mysterious third vote.",
+    "keywords_hy": [
+      "ընտրություններ",
+      "թաղապետ",
+      "քվեարկություն",
+      "երկու ձայն",
+      "կնիկ",
+      "լրատվություն",
+      "հաջողակ",
+      "թեկնածու"
+    ],
+    "keywords_en": [
+      "elections",
+      "district head",
+      "voting",
+      "two votes",
+      "wife in drag",
+      "news report",
+      "failed politician",
+      "candidate"
+    ],
+    "keywords_translit": [
+      "yntrutyunner",
+      "taghapet",
+      "kvearkutyun",
+      "erku dzen",
+      "knik",
+      "lratvutyun",
+      "anhajoghak",
+      "teknatsu"
+    ],
+    "catchphrases": [
+      "2ձենից ավել չես կարա հավաքես",
+      "Արա էս դու սիրած ունես"
+    ],
+    "topics": [
+      "family",
+      "bureaucracy",
+      "media_showbiz"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

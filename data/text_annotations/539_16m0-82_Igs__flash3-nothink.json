@@ -1,0 +1,72 @@
+{
+  "video_id": "16m0-82_Igs",
+  "seq": 539,
+  "kargin_id": 539,
+  "title": "Kargin Haghordum sketch 172 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "539_Kargin_Haghordum_sketch_172_Hayko_Mko_16m0-82_Igs.hy.json",
+    "visual": true
+  },
+  "input_chars": 2781,
+  "gen_sec": 5.45,
+  "prompt_tokens": 2521,
+  "output_tokens": 657,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003231,
+  "annotation": {
+    "title_hy": "Վրեժի աշխարհի վերջը",
+    "title_en": "Vrezh's End of the World",
+    "summary_en": "A psychiatrist attempts to talk down an armed, paranoid man who believes a planetary alignment will cause a global apocalypse.",
+    "summary_detailed_en": "The sketch takes place in a vintage-style apartment parlor at night. A woman greets a psychiatrist, explaining that her husband, Vrezh, has become increasingly aggressive and is armed with a revolver. She fears he will open fire if he sees too many people. The doctor coordinates with his orderlies to wait outside until he gives a signal—a loud clap—if the situation spirals out of control. Inside, Vrezh, wearing a striped robe and brandishing a gun, is holding the woman and a child hostage. He is deep in a paranoid delusion about an impending apocalypse triggered by the alignment of Jupiter, Mars, and Saturn. He describes a future of darkness, viruses, and cannibalism, claiming he wants to kill his family to spare them from this fate. The doctor attempts to calm him with a poetic speech about spring, flowers, and the beauty of life. Moved by the doctor's kindness, Vrezh decides the doctor is 'good enough' to be saved from the apocalypse by being killed along with the family. The sketch ends with the doctor realizing his intervention has backfired as Vrezh prepares to shoot him too.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հոգեբույժ",
+      "զենք",
+      "աշխարհի վերջ",
+      "մոլորակներ",
+      "ագրեսիվ",
+      "կատակերգություն",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "doctor",
+      "psychiatrist",
+      "gun",
+      "end of the world",
+      "planets",
+      "aggressive",
+      "comedy",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hogebuyj",
+      "zenq",
+      "ashkharhi verj",
+      "molorakner",
+      "agresiv",
+      "katakergutyun",
+      "Kargin Haghordum"
+    ],
+    "catchphrases": [
+      "ամուսինս ավելի է ագրեսիվացել",
+      "վաղը երեք մոլորակները հավասարվում են",
+      "ողջերը կնախանձեն մեռածներին"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "crime"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

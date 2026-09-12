@@ -1,0 +1,72 @@
+{
+  "video_id": "4gYSgEpSsYc",
+  "seq": 401,
+  "kargin_id": 401,
+  "title": "Kargin Haghordum - No thanks (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "401_Kargin_Haghordum_-_No_thanks_Hayko_Mko_4gYSgEpSsYc.hy.json",
+    "visual": true
+  },
+  "input_chars": 1780,
+  "gen_sec": 6.52,
+  "prompt_tokens": 1971,
+  "output_tokens": 611,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002818,
+  "annotation": {
+    "title_hy": "Անգլիացի ուղեկիցը",
+    "title_en": "The English Companion",
+    "summary_en": "A couple in a train compartment tries to befriend their fellow traveler, whom they believe is a sophisticated foreigner, by offering him food and drink.",
+    "summary_detailed_en": "The sketch takes place inside a train compartment where a mustached man and a woman (played by an actress, not in drag) are settling in for a long journey. They argue briefly over who gets the top bunk before noticing their silent bunkmate: a bespectacled man working on a laptop. Convinced he is a sophisticated Englishman from Paris, they decide to break the ice. The man produces an apple and, after a poetic preamble about their 'long-suffering ancient nation,' offers it to the traveler. The traveler politely declines with a 'No, thanks.' Undeterred, the couple tries to offer him lemonade to wash down the apple they just ate, but he refuses again. The man concludes that the 'choporny' (stuffy) Englishman won't accept anything until they introduce themselves formally to break the tension. In a bizarre attempt at diplomacy, the man introduces himself and his wife using a mix of broken foreign-sounding gibberish, which the traveler continues to ignore as he focuses on his laptop.",
+    "keywords_hy": [
+      "գնացք",
+      "կուպե",
+      "անգլիացի",
+      "հյուրասիրություն",
+      "խնձոր",
+      "լիմոնադ",
+      "ճամփորդություն",
+      "ուղևոր"
+    ],
+    "keywords_en": [
+      "train",
+      "compartment",
+      "Englishman",
+      "hospitality",
+      "apple",
+      "lemonade",
+      "travel",
+      "passenger"
+    ],
+    "keywords_translit": [
+      "gnatsq",
+      "kupe",
+      "angliatsi",
+      "hyurasirutyun",
+      "khndzor",
+      "limonad",
+      "tampordutyun",
+      "ughevor"
+    ],
+    "catchphrases": [
+      "նո նո thanks",
+      "բազմաչարչար հինավուրց ազգախոզանիր",
+      "չոփորնի անգլիճան"
+    ],
+    "topics": [
+      "transport",
+      "family",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

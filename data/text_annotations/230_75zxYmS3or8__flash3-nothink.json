@@ -1,0 +1,76 @@
+{
+  "video_id": "75zxYmS3or8",
+  "seq": 230,
+  "kargin_id": 230,
+  "title": "Kargin Haghordum sketch 312 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "230_Kargin_Haghordum_sketch_312_Hayko_Mko_75zxYmS3or8.hy.json",
+    "visual": true
+  },
+  "input_chars": 1996,
+  "gen_sec": 4.43,
+  "prompt_tokens": 2042,
+  "output_tokens": 598,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002815,
+  "annotation": {
+    "title_hy": "Խումարի դեղը",
+    "title_en": "Hangover Cure",
+    "summary_en": "A man wakes up with a terrible hangover after a party and rejects all traditional remedies, only to reveal the real reason he wants his wife to kiss him.",
+    "summary_detailed_en": "The sketch opens with a energetic scene of a young man dancing wildly and thrashing around at a crowded house party. The room is decorated with red curtains, and he eventually collapses from his exuberant partying. The scene transitions to a bedroom where the man is lying flat on his back, visibly suffering from a severe hangover. Beside him in bed is a red-haired woman, played by a male actor in drag, who looks on with a grin. The man explains that they were celebrating their friend Gago having a son and that the 'boys' lost their minds to drink. The woman affectionately offers him various remedies to help him feel better (using the slang term 'dzvel'), including vodka and beer, both of which he refuses while groaning in pain. Finally, the woman offers him a kiss. In a gross-out punchline, the man agrees to the kiss, explaining that he wants to throw up so he can finally feel better, implying her kiss is the perfect emetic.",
+    "keywords_hy": [
+      "խումար",
+      "խմած",
+      "հարբած",
+      "պաչիկ",
+      "փոխել",
+      "Գագո",
+      "տղա ունենալ",
+      "օղի",
+      "գարեջուր",
+      "կին"
+    ],
+    "keywords_en": [
+      "hangover",
+      "drunk",
+      "kiss",
+      "party",
+      "vomit",
+      "vodka",
+      "beer",
+      "wife",
+      "celebration",
+      "morning after"
+    ],
+    "keywords_translit": [
+      "khumar",
+      "khmats",
+      "harbats",
+      "pachik",
+      "pokhel",
+      "Gago",
+      "tgha unenal",
+      "oghi",
+      "garejur",
+      "kin"
+    ],
+    "catchphrases": [
+      "Լավ ուզում ես մի հատ պաչի, հետ տամ դզվեմ էլի"
+    ],
+    "topics": [
+      "drinking",
+      "family",
+      "party_guests"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

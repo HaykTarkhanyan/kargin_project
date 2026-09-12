@@ -1,0 +1,78 @@
+{
+  "video_id": "Q3rLzYhBZIU",
+  "seq": 341,
+  "kargin_id": 341,
+  "title": "Kargin Haghordum sketch 508 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 4357,
+  "gen_sec": 15.75,
+  "prompt_tokens": 3390,
+  "output_tokens": 604,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003507,
+  "annotation": {
+    "title_hy": "Լողավազանի մոտ և օտար հեռախոսը",
+    "title_en": "By the Pool and the Stranger's Phone",
+    "summary_en": "Three men relax at an indoor pool, bragging about their mistresses and how they treat their wives, until one answers a ringing phone and gives away thousands of dollars to a woman he doesn't know.",
+    "summary_detailed_en": "The sketch takes place at an indoor spa pool lounge. A mustached man in a plaid bathrobe reclines on a lounge chair, drinking beer and talking with his two friends (one in a bathrobe, one shirtless). They engage in a long conversation about their 'extra-curricular' romantic lives and their domestic troubles. One man tells a story about visiting a remote village and asking the mayor about the 'nightlife,' only to be told the nightlife (a single woman) has a toothache. Another boasts about his infidelity and how his wife doesn't even believe him when he tells the truth, like when he claimed he was elected as a deputy. They discuss being stingy with their wives while spending millions on mistresses. Suddenly, a mobile phone on the table rings. The mustached man answers it, affectionately responding to a woman who calls him 'her best husband.' She asks for $10,000 for a fur coat, $15,000 for Swarovski earrings, and $40,000 for a car upgrade. He generously agrees to everything. After hanging up, he turns to his friends and asks, 'Guys, whose phone was this?' realizing he just authorized a fortune for a complete stranger's wife.",
+    "keywords_hy": [
+      "լողավազան",
+      "խալաթ",
+      "հեռախոս",
+      "դավաճանություն",
+      "կնիկ",
+      "փող",
+      "շուբա",
+      "մեքենա",
+      "ծաղր",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "pool",
+      "bathrobe",
+      "mobile phone",
+      "infidelity",
+      "wife",
+      "money",
+      "fur coat",
+      "stranger",
+      "spending",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "loghavazan",
+      "khalat",
+      "herakhos",
+      "davachanutyun",
+      "knik",
+      "pogh",
+      "shuba",
+      "meqena",
+      "tsaghr",
+      "Kargin Haghordum"
+    ],
+    "catchphrases": [
+      "ալո պրիվետ իմ ամենալավ ամուսին",
+      "բարև իմ ամենասիրուն կնիկ ջան",
+      "տղեք էս ում հեռախոսն էր"
+    ],
+    "topics": [
+      "leisure_outing",
+      "drinking",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

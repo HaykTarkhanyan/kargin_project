@@ -1,0 +1,69 @@
+{
+  "video_id": "aUAgkYQ9usg",
+  "seq": 699,
+  "kargin_id": 699,
+  "title": "Kargin Haghordum sketch 560 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "699_Kargin_Haghordum_sketch_560_Hayko_Mko_aUAgkYQ9usg.hy.json",
+    "visual": true
+  },
+  "input_chars": 860,
+  "gen_sec": 4.84,
+  "prompt_tokens": 1485,
+  "output_tokens": 592,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002518,
+  "annotation": {
+    "title_hy": "Տատիկը և պարվաֆիլը",
+    "title_en": "The Grandma and the Parvaphil",
+    "summary_en": "An elderly woman sitting in a park is repeatedly harassed by a young boy who makes an inappropriate and absurd proposition.",
+    "summary_detailed_en": "The sketch takes place at a park bench during the day. An elderly woman is sitting alone, peacefully absorbed in reading her book. A young boy wearing a baseball cap repeatedly sneaks up from behind the bench and the surrounding trees to peek at her. Each time he approaches, he boldly asks the grandmother to have sex with him. The woman is initially shocked and outraged, telling the 'shameless' child to go away and wondering where his parents are. As the boy persists, appearing from different angles and repeating his request, the woman's anger escalates. She calls him a 'pedophil' but then corrects herself to 'parvaphil' (a play on words implying a lover of old women). She threatens to break his head with her book, calling him an 'ublyudok'. After the boy runs off one last time, the woman closes her book and mutters to herself that the 'brat' was actually starting to convince her, providing a dark and unexpected punchline to the absurd situation.",
+    "keywords_hy": [
+      "տատիկ",
+      "այգի",
+      "նստարան",
+      "լկտի երեխա",
+      "կատակ",
+      "պարվաֆիլ",
+      "համոզել"
+    ],
+    "keywords_en": [
+      "grandmother",
+      "park",
+      "bench",
+      "rude child",
+      "joke",
+      "parvaphil",
+      "persuasion"
+    ],
+    "keywords_translit": [
+      "tatik",
+      "aygi",
+      "nstaran",
+      "lkti erexa",
+      "katak",
+      "parvafil",
+      "hamozel"
+    ],
+    "catchphrases": [
+      "Տատի արի սեքս անենք",
+      "տո փախիր տեղից այ պեդոֆիլ պարվաֆիլ",
+      "համոզելու էր, հա լակոտը"
+    ],
+    "topics": [
+      "leisure_outing",
+      "family",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "wordplay"
+    ]
+  }
+}

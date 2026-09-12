@@ -1,0 +1,69 @@
+{
+  "video_id": "qrl9Z8YD1SI",
+  "seq": 615,
+  "kargin_id": 615,
+  "title": "Kargin Haghordum sketch 497 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "615_Kargin_Haghordum_sketch_497_Hayko_Mko_qrl9Z8YD1SI.hy.json",
+    "visual": true
+  },
+  "input_chars": 1703,
+  "gen_sec": 15.14,
+  "prompt_tokens": 1890,
+  "output_tokens": 603,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002754,
+  "annotation": {
+    "title_hy": "Ձկնորսը և քիմիական գործարանը",
+    "title_en": "The Fisherman and the Chemical Plant",
+    "summary_en": "A man approaches a persistent fisherman by a canal to inform him that the water is polluted by a nearby chemical plant and contains no fish.",
+    "summary_detailed_en": "The sketch takes place in an open rural field during the day, next to a narrow irrigation canal. A man wearing a straw hat is seated in a folding camp chair, holding a fishing rod and patiently waiting for a catch. Another man, wearing a beanie and casual clothes, approaches him on foot across the fields. The visitor strikes up a conversation, noting that he has owned a nearby plot of land for five years and has seen the fisherman in this exact spot every time he passes by. Curious about the fisherman's persistence, the man in the beanie asks if he has ever caught anything in those five years. The fisherman calmly replies that he hasn't. The visitor then drops a bombshell: there is a chemical factory nearby that pollutes the water, and there have never been any fish in this canal. He asks if the fisherman was unaware of this. The fisherman humorously admits that about three years ago, even he started to have his suspicions, yet he continues to sit there regardless. The scene ends with the two men sitting together by the barren water.",
+    "keywords_hy": [
+      "ձկնորսություն",
+      "գետ",
+      "քիմիական գործարան",
+      "կասկած",
+      "հողամաս",
+      "ձուկ բռնել",
+      "հումոր",
+      "զվարճալի"
+    ],
+    "keywords_en": [
+      "fishing",
+      "river",
+      "chemical plant",
+      "pollution",
+      "suspicions",
+      "fisherman",
+      "rural field",
+      "no fish"
+    ],
+    "keywords_translit": [
+      "dzknorsutyun",
+      "get",
+      "qimiakan gorcaran",
+      "kaskac",
+      "hoxamas",
+      "dzuk brnel",
+      "humor",
+      "zvarjali"
+    ],
+    "catchphrases": [
+      "ճիշտն ասած տղա ջան մի 3 տարի առաջ իմ մեջ էլ կասկած մտավ"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

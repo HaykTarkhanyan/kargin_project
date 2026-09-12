@@ -1,0 +1,69 @@
+{
+  "video_id": "YhChvEsI1-Y",
+  "seq": 22,
+  "kargin_id": 22,
+  "title": "Kargin Haghordum - Jaga Juga (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1726,
+  "gen_sec": 27.96,
+  "prompt_tokens": 1942,
+  "output_tokens": 427,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002252,
+  "annotation": {
+    "title_hy": "Ջագա Ջուգա խաղը",
+    "title_en": "The Game of Jaga Juga",
+    "summary_en": "Four men playing cards in a courtyard decide to invent a nonsensical new game called Jaga Juga once they run out of traditional games to play.",
+    "summary_detailed_en": "The sketch takes place in an outdoor stone courtyard where four men are seated around a card table covered with a blue cloth. They have been gambling since morning, playing traditional games like Blot, Preferans, and Poker. Tired of the usual games but wanting to continue gambling, one man suggests a new game called 'Jaga Juga.' He explains the rules vaguely: each player bets 1000 drams, cards are dealt like in Blot, and whoever throws down any card first while shouting 'Jaga Juga' wins the entire pot. The humor stems from the sheer absurdity and lack of logic in the rules. In the first round, one player throws a card and claims the bank, but in the next round, when another player tries the same move, the first man counters it by shouting 'Khozi (Pig's) Jaga Juga,' claiming he won again. The men continue to fall for the nonsensical rules, repeatedly throwing money into the pot in a gullible attempt to win a game that has no real structure beyond the first person to shout a silly phrase.",
+    "keywords_hy": [
+      "կարտ",
+      "բլոտ",
+      "խաղամոլ",
+      "բակ",
+      "կատակերգություն",
+      "հումոր",
+      "փող"
+    ],
+    "keywords_en": [
+      "cards",
+      "blot",
+      "gambling",
+      "courtyard",
+      "comedy",
+      "humor",
+      "money"
+    ],
+    "keywords_translit": [
+      "kart",
+      "blot",
+      "xaxamol",
+      "bak",
+      "katakergutyun",
+      "humor",
+      "pogh"
+    ],
+    "catchphrases": [
+      "ջագա ջուգա",
+      "խոզի ջագա ջուգա",
+      "քուանշը սրի"
+    ],
+    "topics": [
+      "leisure_outing",
+      "neighbors",
+      "drinking"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

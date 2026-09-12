@@ -1,0 +1,70 @@
+{
+  "video_id": "ha7-kzr1FLA",
+  "seq": 623,
+  "kargin_id": 623,
+  "title": "Kargin Haghordum sketch 545 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1640,
+  "gen_sec": 8.94,
+  "prompt_tokens": 1899,
+  "output_tokens": 573,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002668,
+  "annotation": {
+    "title_hy": "Ամստերդամի սունկը և շունը",
+    "title_en": "Amsterdam Mushroom and the Dog",
+    "summary_en": "Two Armenian tourists in Amsterdam worry their sandwiches are poisoned and use a local dog as a test subject, only to be misled by a literal misunderstanding.",
+    "summary_detailed_en": "The sketch begins with two Armenian men walking through a picturesque European street in Amsterdam, past shops and cafes. They are hungry and decide to sit at an outdoor restaurant table by a canal, using a video camera to record their travels. They order two mushroom sandwiches in English, but are soon joined by a third Armenian man who claims to recognize them. The newcomer warns them about recent cases of mushroom poisoning in the city, sparking anxiety in the tourists. To test if the food is safe, they decide to feed a piece of the sandwich to a local dog passing by, agreeing that if the dog survives, the food is fine. One man is sent to follow the dog while the others wait. Eventually, he returns with the news that the dog has died. Terrified, the men stop eating, only for the scout to clarify that the dog didn't die from the mushrooms, but was simply hit by a car. The sketch ends with the absurdity of their unnecessary panic.",
+    "keywords_hy": [
+      "Ամստերդամ",
+      "սունկ",
+      "թունավորում",
+      "շուն",
+      "ռեստորան",
+      "զբոսաշրջիկ",
+      "հայեր",
+      "արտասահման"
+    ],
+    "keywords_en": [
+      "Amsterdam",
+      "mushroom",
+      "poisoning",
+      "dog",
+      "restaurant",
+      "tourist",
+      "Armenians",
+      "abroad"
+    ],
+    "keywords_translit": [
+      "Amsterdam",
+      "sunk",
+      "tunavorum",
+      "shun",
+      "restoran",
+      "zbosasrjik",
+      "hayer",
+      "artasahman"
+    ],
+    "catchphrases": [
+      "Բա ասում էիր սատկավ։",
+      "Հա ընկավ ավտոի տակ"
+    ],
+    "topics": [
+      "leisure_outing",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "2BGZJaFd2Vw",
+  "seq": 390,
+  "kargin_id": 390,
+  "title": "Kargin Haghordum - Dagaxi razvarot (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "390_Kargin_Haghordum_-_Dagaxi_razvarot_Hayko_Mko_2BGZJaFd2Vw.tr.json",
+    "visual": true
+  },
+  "input_chars": 2042,
+  "gen_sec": 13.93,
+  "prompt_tokens": 1973,
+  "output_tokens": 663,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002975,
+  "annotation": {
+    "title_hy": "Դագաղի ռազվառոտ",
+    "title_en": "Coffin U-Turn",
+    "summary_en": "A family celebration is interrupted when pallbearers find the apartment building's stairwell too narrow and decide to maneuver a coffin through the family's living room.",
+    "summary_detailed_en": "The sketch opens in a cozy, wallpapered apartment where a man in striped pajamas sits at a festive table with a woman and a young girl. The young girl begs her father to take her to a visiting Chinese circus, mentioning pandas, clowns, and acrobats, but he only agrees when he hears there will be scantily clad women riding tigers. As they celebrate their family anniversary, the man pours champagne, revealing the timeline of their relationship to the child. The domestic scene is juxtaposed with chaotic activity in the narrow stairwell outside. A group of pallbearers in dark coats is struggling to transport a large coffin with white lining. Unable to navigate the tight corner of the landing, the men begin shouting directions at each other. Suddenly, the apartment door is forced open. The men carry the coffin into the family's living room, explaining to the shocked father that the building's hallway is too narrow and they simply need to use his apartment to make a 'razvarot' (U-turn) to get the deceased downstairs.",
+    "keywords_hy": [
+      "դագաղ",
+      "թաղում",
+      "ռազվառոտ",
+      "ընտանիք",
+      "տոնակատարություն",
+      "նեղ միջանցք",
+      "հարևաններ",
+      "կատակերգություն"
+    ],
+    "keywords_en": [
+      "coffin",
+      "funeral",
+      "u-turn",
+      "family celebration",
+      "narrow stairwell",
+      "apartment building",
+      "neighbors",
+      "pallbearers"
+    ],
+    "keywords_translit": [
+      "dagax",
+      "taghum",
+      "razvarot",
+      "yntaniq",
+      "tonakatarutyun",
+      "negh mijancq",
+      "harevanner",
+      "katakergutyun"
+    ],
+    "catchphrases": [
+      "էս ինչա ստեղ կատարվում",
+      "ախպեր էսօր մեր ախպոր թաղումնա էս ձեր պադեզդներն էլ բեսամթ նեղա ասինք մտցնենք ձեր տուն ռազվառոդ անենք իջցնենք ախպոր ջան"
+    ],
+    "topics": [
+      "family",
+      "wedding_funeral",
+      "neighbors"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

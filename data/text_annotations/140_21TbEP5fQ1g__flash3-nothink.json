@@ -1,0 +1,66 @@
+{
+  "video_id": "21TbEP5fQ1g",
+  "seq": 140,
+  "kargin_id": 140,
+  "title": "Kargin Haghordum sketch 376 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "140_Kargin_Haghordum_sketch_376_Hayko_Mko_21TbEP5fQ1g.en.json",
+    "visual": true
+  },
+  "input_chars": 1442,
+  "gen_sec": 9.48,
+  "prompt_tokens": 1768,
+  "output_tokens": 573,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002603,
+  "annotation": {
+    "title_hy": "Հաճախորդի անհասկանալի լեզուն",
+    "title_en": "Customer's Unintelligible Language",
+    "summary_en": "A grocery store employee is unable to understand a customer who speaks in vowel sounds, leading him to call a coworker who communicates in the same way.",
+    "summary_detailed_en": "In a grocery store setting, a male employee stands behind a counter equipped with scales and shelves of glass jars. A customer wearing a tan trench coat approaches and attempts to communicate, but instead of words, he only emits a rhythmic series of vowel sounds: 'Iii aaaa iue'. The employee is visibly confused and repeatedly asks the customer to repeat himself, saying he cannot understand. The customer persistently repeats the exact same sequence of sounds with varying intensity. Frustrated, the employee decides to call over a coworker named Peto, suggesting that the laborer might be able to understand the customer's peculiar way of speaking. Peto, wearing a flat cap, arrives and listens to the customer's vowel-heavy speech. Peto responds with a simple grunt and then mimics the same unintelligible sounds back to the customer. After the customer leaves, the first employee asks Peto what the man actually wanted. In a comedic twist, Peto answers by repeating the same 'Iii aaaa iue' phrase, leaving the first employee still completely in the dark.",
+    "keywords_hy": [
+      "խանութ",
+      "բանվոր",
+      "Պետո",
+      "անհասկանալի խոսք",
+      "հաճախորդ",
+      "ծիծաղելի",
+      "վաճառող"
+    ],
+    "keywords_en": [
+      "grocery store",
+      "worker",
+      "Peto",
+      "unintelligible speech",
+      "customer",
+      "funny",
+      "salesman"
+    ],
+    "keywords_translit": [
+      "khanut",
+      "banvor",
+      "Peto",
+      "anhasanali khosk",
+      "hachakhord",
+      "tsitsagheli",
+      "vacharogh"
+    ],
+    "catchphrases": [
+      "Իիի աաաա իուե"
+    ],
+    "topics": [
+      "shop_market",
+      "work"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

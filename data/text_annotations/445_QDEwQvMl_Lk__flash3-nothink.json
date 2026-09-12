@@ -1,0 +1,69 @@
+{
+  "video_id": "QDEwQvMl_Lk",
+  "seq": 445,
+  "kargin_id": 445,
+  "title": "Kargin Haghordum - Shutov @ntaniq@ kavelana (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1272,
+  "gen_sec": 6.29,
+  "prompt_tokens": 1616,
+  "output_tokens": 643,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002737,
+  "annotation": {
+    "title_hy": "Ընտանիքի Ավելացումը և Կալյասկան",
+    "title_en": "Family Addition and the Stroller",
+    "summary_en": "A man buys a baby stroller thinking his family is growing, but he realizes he might have misunderstood what 'adding a member to the family' actually means.",
+    "summary_detailed_en": "The sketch takes place in a domestic apartment setting involving three characters. A man wearing a trench coat arrives home carrying a large, heavy bundle, which he reveals is a baby stroller ('kalyaska') he just purchased. He calls his friend Arkadi over to help him assemble it, admitting he doesn't know how. In the living room, a woman is lounging on the couch. The man greets her and calls out for 'Vergushik' to set the table for dinner. Meanwhile, another man is seen in the bathroom, wearing a striped shirt and focused on shaving his face in front of the mirror. The man in the trench coat is excited about the news that the family will soon grow by one person. However, a moment of comedic confusion arises regarding the phrasing of this 'addition.' The dialogue builds to a punchline where the man asks for a clearer explanation of the situation, implying his grand gesture of buying a stroller might have been a premature reaction to a different kind of household news. The scene cuts between the domesticity of the living room and the mundane act of shaving in the bathroom.",
+    "keywords_hy": [
+      "կալյասկա",
+      "ընտանիք",
+      "հղիություն",
+      "թրաշվել",
+      "անակնկալ",
+      "հյուր",
+      "տուն",
+      "կատակ"
+    ],
+    "keywords_en": [
+      "stroller",
+      "family addition",
+      "pregnancy",
+      "shaving",
+      "misunderstanding",
+      "apartment",
+      "baby carriage",
+      "domestic"
+    ],
+    "keywords_translit": [
+      "kalyaska",
+      "entaniq",
+      "hghiutyun",
+      "thrashvel",
+      "anaknkal",
+      "hyur",
+      "tun",
+      "katak"
+    ],
+    "catchphrases": [
+      "լսի որ ասում ես շուտով մեր ընտանիքը մի հոգով կավելանա խնդրում եմ ավելի պարզ արտահայտվի հասկանանք հա գնացի էս կայլասկեն առա"
+    ],
+    "topics": [
+      "family",
+      "neighbors"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "qwoJ8e5gQ1M",
+  "seq": 585,
+  "kargin_id": 585,
+  "title": "Kargin Haghordum sketch 436 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "585_Kargin_Haghordum_sketch_436_Hayko_Mko_qwoJ8e5gQ1M.hy.json",
+    "visual": true
+  },
+  "input_chars": 1685,
+  "gen_sec": 5.62,
+  "prompt_tokens": 1877,
+  "output_tokens": 565,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002633,
+  "annotation": {
+    "title_hy": "Հաշվապահական նիստ և հարձակում",
+    "title_en": "Accounting Meeting and Robbery",
+    "summary_en": "A strict head accountant berates his staff for missing invoices and poor organization until armed robbers burst into the office.",
+    "summary_detailed_en": "The sketch begins in an office boardroom where a head accountant is furiously reprimanding his staff. He complains that out of fifty required invoices, twenty are missing from his desk. He emphasizes the prestige of the organization, noting that they employ four accountants and one head accountant, which demands professionalism. He criticizes the chaotic state of their safe, where money is thrown around without records of who sent it or where it needs to go. Just as he announces he has developed a new method to regulate their work and tells the staff to take notes, two masked gunmen armed with handguns burst into the room. The employees scatter and raise their hands in fear. However, the head accountant's reaction is one of immense relief; he tells the gunmen they gave him a scare because he thought they were the 'Nalogovi' (tax authorities), implying that a violent robbery is preferable to a tax audit.",
+    "keywords_hy": [
+      "հաշվապահ",
+      "հաշիվ ֆակտուրա",
+      "գրասենյակ",
+      "զինված հարձակում",
+      "նալոգովի",
+      "հարկային",
+      "սեյֆ",
+      "նիստ"
+    ],
+    "keywords_en": [
+      "accountant",
+      "invoice",
+      "office",
+      "armed robbery",
+      "tax authorities",
+      "safe",
+      "meeting",
+      "gunmen"
+    ],
+    "keywords_translit": [
+      "hashvapah",
+      "hashiv faktura",
+      "grasenyak",
+      "zinvats hardzakum",
+      "nalogovi",
+      "harkayin",
+      "seyf",
+      "nist"
+    ],
+    "catchphrases": [
+      "Արա տղեք ջան վախցրիք ես էլ գիտեմ նալոգըվի"
+    ],
+    "topics": [
+      "work",
+      "crime",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

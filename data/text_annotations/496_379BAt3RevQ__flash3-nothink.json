@@ -1,0 +1,69 @@
+{
+  "video_id": "379BAt3RevQ",
+  "seq": 496,
+  "kargin_id": 496,
+  "title": "Kargin Haghordum sketch 124 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "496_Kargin_Haghordum_sketch_124_Hayko_Mko_379BAt3RevQ.tr.json",
+    "visual": true
+  },
+  "input_chars": 2835,
+  "gen_sec": 6.82,
+  "prompt_tokens": 2532,
+  "output_tokens": 622,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003132,
+  "annotation": {
+    "title_hy": "Գյուղացի վաճառողները և անկեղծ հաճախորդը",
+    "title_en": "Village Vendors and the TMI Customer",
+    "summary_en": "Two roadside grape sellers try to overcharge a wealthy driver, but they quickly lower their prices when he starts bragging about his affairs with the wives of their fellow villagers.",
+    "summary_detailed_en": "The sketch is set at a rural roadside fruit stand during the day, where two young men, Sisak and Hamlet, are trying to sell crates of grapes. When a man in a suit driving a dark SUV (a 'two-story' car) pulls over, the vendors decide to exploit him, assuming wealthy city people don't know the market price of grapes. They initially demand a ridiculous price of 100 dollars, then settle on 45,500 drams per crate, claiming it is a special Spanish variety. The driver tries to negotiate by claiming he knows everyone in their village. He boasts about having affairs with the wives of the village head Mamikon, the school principal Sedrakyan, and the local tractor driver Valod. As the driver's list of conquests moves geographically closer to the vendors' own houses, Sisak and Hamlet become visibly panicked. Realizing the man might eventually mention their own wives, Hamlet urges Sisak to lower the price or even give the grapes for free to get him to leave before he reveals anything personal about their own families.",
+    "keywords_hy": [
+      "խաղող",
+      "վաճառող",
+      "գյուղացի",
+      "ճանապարհ",
+      "առևտուր",
+      "կաշառք",
+      "դրացի",
+      "ծիծաղելի"
+    ],
+    "keywords_en": [
+      "grapes",
+      "vendor",
+      "villager",
+      "roadside stand",
+      "negotiation",
+      "affairs",
+      "SUV",
+      "overcharging"
+    ],
+    "keywords_translit": [
+      "khaghogh",
+      "vacharogh",
+      "gyughaci",
+      "janaparh",
+      "arevtur",
+      "draci",
+      "dzri"
+    ],
+    "catchphrases": [
+      "Համլետ արի գինը իջնենք թե չէ էսի կամաց կամաց մեր տներինա մոտիկանում"
+    ],
+    "topics": [
+      "shop_market",
+      "village",
+      "neighbors"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

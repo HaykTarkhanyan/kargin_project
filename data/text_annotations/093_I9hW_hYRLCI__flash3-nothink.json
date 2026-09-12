@@ -1,0 +1,72 @@
+{
+  "video_id": "I9hW_hYRLCI",
+  "seq": 93,
+  "kargin_id": 93,
+  "title": "Kargin Haghordum sketch 634 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1800,
+  "gen_sec": 21.83,
+  "prompt_tokens": 1865,
+  "output_tokens": 498,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002426,
+  "annotation": {
+    "title_hy": "Անտանելի աշխատասեր որսորդը",
+    "title_en": "The Overly Efficient Catcher",
+    "summary_en": "A man hired to catch pests is so fast at his job that the neighbor keeps inventing errands just to keep him out of the house while he tries to finish a secret task.",
+    "summary_detailed_en": "The sketch takes place in a Soviet-era apartment block and its courtyard. A man in a grey-beige suit is hired by a neighbor (a man wearing a white undershirt) to perform a service, appearing to be a pest catcher or general handyman. The worker is incredibly fast, returning almost instantly after each task. The neighbor, clearly wanting the man out of the way, repeatedly sends him back out with diminutive, coaxing language: first for bread, then for water, and finally to empty a red plastic bucket outside to keep the 'house clean.' Visually, the worker is seen in the courtyard and alleyway, frantically chasing something on the ground, swatting with his jacket, and using a small hand net. Each time he returns within seconds, the neighbor becomes more frustrated. Finally, the neighbor gives up and hands the worker a hundred-dollar bill, telling him to go to a restaurant and eat barbecue for a couple of hours just to stay away. The worker realizes the ploy and complains that they should have just been direct instead of making him run back and forth for bread and water.",
+    "keywords_hy": [
+      "հարևան",
+      "աշխատանք",
+      "հացիկ",
+      "ջուրիկ",
+      "փող",
+      "ռեստորան",
+      "խորոված",
+      "շուտ"
+    ],
+    "keywords_en": [
+      "neighbor",
+      "fast worker",
+      "errands",
+      "money",
+      "bribery",
+      "apartment block",
+      "restaurant",
+      "pest control"
+    ],
+    "keywords_translit": [
+      "harevan",
+      "ashkhatank",
+      "hatsik",
+      "jurik",
+      "pogh",
+      "restoran",
+      "khorovats",
+      "shut"
+    ],
+    "catchphrases": [
+      "քաղցրս ինչի էսքան շուտ էկար թարսի պես",
+      "վազի քաղցր ջան վազի",
+      "Հա բա տենց էլ ասեք թե չէ գնա հաց բեր ջուր բեր էսի թափ տուր"
+    ],
+    "topics": [
+      "neighbors",
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

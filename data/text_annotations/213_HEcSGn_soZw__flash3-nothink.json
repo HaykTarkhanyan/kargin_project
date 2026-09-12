@@ -1,0 +1,71 @@
+{
+  "video_id": "HEcSGn_soZw",
+  "seq": 213,
+  "kargin_id": 213,
+  "title": "Kargin Haghordum sketch 393 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2230,
+  "gen_sec": 12.79,
+  "prompt_tokens": 2093,
+  "output_tokens": 620,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002907,
+  "annotation": {
+    "title_hy": "Անվճար բժշկական խորհրդատվություն",
+    "title_en": "Free Medical Advice",
+    "summary_en": "A doctor offers free medical consultations to three retirees, but his health advice is strictly limited by the amount of money they receive in their monthly pensions.",
+    "summary_detailed_en": "The sketch takes place in a clinic consulting room where a young doctor in blue scrubs and a surgical mask sits behind an office desk. He addresses three elderly visitors: a war veteran adorned with medals and holding a walking cane, an old woman in a blonde wig and glasses (played by a male actor in drag), and an old man wearing a black beret. The doctor explains that the administration has decided to treat retirees for free to avoid rumors. He begins his consultation by asking each patient about their symptoms and their pension amount. All three patients complain of the same issues: dizziness and insomnia. When the veteran says his pension is 35,000 drams, the doctor prescribes expensive fruits. When the woman says hers is 20,000 drams, he prescribes vegetables. Finally, when the third retiree reveals his pension is only 5,000 drams, the doctor's 'free' medical advice is simply to breathe fresh air. The humor lies in the satirical take on how healthcare quality is tied to wealth, even when the service is supposedly free.",
+    "keywords_hy": [
+      "բժիշկ",
+      "թոշակառու",
+      "հիվանդանոց",
+      "թոշակ",
+      "անվճար",
+      "ձրի",
+      "խորհուրդ",
+      "առողջություն"
+    ],
+    "keywords_en": [
+      "doctor",
+      "pensioner",
+      "hospital",
+      "pension",
+      "free of charge",
+      "medical advice",
+      "consultation",
+      "retiree"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "toshakaru",
+      "hivandanoc",
+      "toshak",
+      "anvchar",
+      "dzri",
+      "xorhurd",
+      "aroxjutyun"
+    ],
+    "catchphrases": [
+      "անվճար այսինքն ձրի",
+      "մաքուր օդ, մաքուր օդ, մաքուր օդ"
+    ],
+    "topics": [
+      "medical",
+      "money",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

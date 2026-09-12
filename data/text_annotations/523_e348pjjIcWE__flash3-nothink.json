@@ -1,0 +1,72 @@
+{
+  "video_id": "e348pjjIcWE",
+  "seq": 523,
+  "kargin_id": 523,
+  "title": "Kargin Haghordum sketch 157 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2728,
+  "gen_sec": 5.06,
+  "prompt_tokens": 2455,
+  "output_tokens": 636,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003136,
+  "annotation": {
+    "title_hy": "Անասուն Երկիր",
+    "title_en": "Beast Country",
+    "summary_en": "A police officer detains a man for shouting 'what a beastly country,' only for the officer to end up fined when the man claims he was talking about Switzerland.",
+    "summary_detailed_en": "The sketch begins on a village road where a police officer in uniform detains a man with wild, curly hair for repeatedly shouting 'what a beastly country.' The officer, offended by what he perceives as an unpatriotic insult to Armenia during a sensitive geopolitical time, marches the man to the police station. Inside the office, the officer presents the 'criminal' to his captain, delivering a long patriotic speech about how the Armenian people must unite like a single fist to 'score a goal' against Turkey. However, when the citizen explains that he was actually daydreaming about Switzerland and calling *that* country beastly, the captain immediately dismisses the charges. The captain then scolds and fines the officer 30,000 drams for wasting his time during such a critical historical moment. As they leave the office, the frustrated officer complains about getting fined for doing his job, prompting the citizen to smugly repeat, 'See, I told you it’s a beastly country,' leading to a final comedic argument.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "տուգանք",
+      "Շվեյցարիա",
+      "հայրենասիրություն",
+      "բաժին",
+      "անասուն երկիր",
+      "Ներսիսյան",
+      "քաղաքացի"
+    ],
+    "keywords_en": [
+      "police station",
+      "fine",
+      "Switzerland",
+      "patriotism",
+      "beastly country",
+      "arrest",
+      "policeman",
+      "misunderstanding"
+    ],
+    "keywords_translit": [
+      "ostikanutyun",
+      "tuganq",
+      "Shveytsaria",
+      "hayrenasirutyun",
+      "bazhin",
+      "anasun erkir",
+      "Nersisyan",
+      "qaghaqatsi"
+    ],
+    "catchphrases": [
+      "արա այ պատահական անցորդ",
+      "ես իմ համար փողոցով էթում էի կարգ էի պաշտպանում",
+      "բա որ ասում եմ անասուն երկիր ա"
+    ],
+    "topics": [
+      "police",
+      "bureaucracy",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

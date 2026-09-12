@@ -1,0 +1,71 @@
+{
+  "video_id": "54CspqHsW2s",
+  "seq": 15,
+  "kargin_id": 15,
+  "title": "Kargin Haghordum sketch 322 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "015_Kargin_Haghordum_sketch_322_Hayko_Mko_54CspqHsW2s.hi.json",
+    "visual": true
+  },
+  "input_chars": 1911,
+  "gen_sec": 18.88,
+  "prompt_tokens": 1922,
+  "output_tokens": 629,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002848,
+  "annotation": {
+    "title_hy": "Որսորդը և Կնոջ Նախազգուշացումները",
+    "title_en": "The Hunter and Wife's Warnings",
+    "summary_en": "A villager in camouflage prepares for a two-day hunting trip while his wife nags him about what to hunt and ensures he doesn't forget his gear.",
+    "summary_detailed_en": "The sketch takes place in a sunny village yard under a grape trellis. A villager wearing a camouflage jacket and sporting a blond mustache is preparing to leave for a two-day hunting trip. He is confronted by his wife, an elderly woman played by a male actor in drag, wearing a floral housecoat, a blue headscarf, and glasses. She complains that their hose has been leaking for five days and demands he fix it, but he insists on leaving for the hunt. The wife gives him specific instructions, telling him not to bring home ducks because they are too much work to clean for little meat; instead, she demands a wild boar to feed their grandchildren who are visiting from the city. She meticulously lists everything she packed in his burlap sack, including warm clothes to prevent him from getting sick again and potatoes boiled in foil. As he begins to walk away through the orchard, she realizes he has forgotten his shotgun, which is leaning against a whitewashed wall. When she calls him back, he refuses to turn around, claiming that returning halfway is a bad omen for the hunt's success.",
+    "keywords_hy": [
+      "որսորդ",
+      "խորոված",
+      "գյուղական կյանք",
+      "բադ",
+      "վայրի խոզ",
+      "նախապաշարմունք",
+      "հրացան",
+      "շլանգ"
+    ],
+    "keywords_en": [
+      "hunter",
+      "barbecue",
+      "village life",
+      "duck hunting",
+      "wild boar",
+      "superstition",
+      "shotgun",
+      "leaking hose"
+    ],
+    "keywords_translit": [
+      "vorsord",
+      "khorovats",
+      "gyughakan kyanq",
+      "bad",
+      "vayri khoz",
+      "nakhapasharmunq",
+      "hratsan",
+      "shlang"
+    ],
+    "catchphrases": [
+      "հետ գալը լավ նշան չի",
+      "որսս հաջող չի լինի"
+    ],
+    "topics": [
+      "family",
+      "village",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

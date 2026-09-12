@@ -1,0 +1,70 @@
+{
+  "video_id": "N5eryth3Jno",
+  "seq": 555,
+  "kargin_id": 555,
+  "title": "Kargin Haghordum sketch 187 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2811,
+  "gen_sec": 8.75,
+  "prompt_tokens": 2613,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003128,
+  "annotation": {
+    "title_hy": "Գուշակության ֆոկուսը",
+    "title_en": "The Divination Trick",
+    "summary_en": "A smooth talker tries to teach his nerdy friend how to pick up women in a restaurant using a fake 'psychic' mind-reading trick, but the friend fails at the basic math.",
+    "summary_detailed_en": "The scene takes place in a restaurant where two men are seated at a table with fruit and drinks. One man is nerdy, wearing a plaid jacket and thick glasses, while his friend acts as a mentor in the art of seduction. The mentor complains that the nerd is a hopeless case, especially since he never takes off his glasses or cuts his hair, preventing women from seeing him 'wink' at them. The mentor explains a specific strategy: wait for a woman to pay her bill before approaching. He demonstrates by approaching a nearby young woman, using a cheesy pickup line about her having 'supernatural powers' of divination. He proposes a test where he thinks of a number and she guesses it. When she says '7', he pretends that was exactly his number, successfully getting her phone number. He then hands his friend a banana and tells him to replicate the trick with another woman. The nerd approaches a second woman and repeats the script word-for-word. However, when the woman guesses '6', the nerd reacts with genuine disappointment instead of lying, shouting that she missed it by only one number, thus ruining the pickup attempt.",
+    "keywords_hy": [
+      "ռեստորան",
+      "ծանոթություն",
+      "աղջիկ կպցնել",
+      "ֆոկուս",
+      "թիվ պահել",
+      "ակնոցներ",
+      "բանան",
+      "ձախողում"
+    ],
+    "keywords_en": [
+      "restaurant",
+      "dating",
+      "pickup artist",
+      "magic trick",
+      "mind reading",
+      "nerd",
+      "glasses",
+      "banana",
+      "failure"
+    ],
+    "keywords_translit": [
+      "restaurant",
+      "tsanotutyun",
+      "axjik kpcnel",
+      "fokus",
+      "tiv pahel",
+      "aknocner",
+      "banan",
+      "dzaxoxum"
+    ],
+    "catchphrases": [
+      "Վայ քու արա, մի հատ չհերիքեց"
+    ],
+    "topics": [
+      "restaurant_cafe",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

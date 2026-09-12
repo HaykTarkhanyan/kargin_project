@@ -1,0 +1,67 @@
+{
+  "video_id": "bxYzvaEPm_I",
+  "seq": 131,
+  "kargin_id": 131,
+  "title": "Kargin Haghordum sketch 678 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "131_Kargin_Haghordum_sketch_678_Hayko_Mko_bxYzvaEPm_I.tr.json",
+    "visual": true
+  },
+  "input_chars": 1314,
+  "gen_sec": 16.34,
+  "prompt_tokens": 1624,
+  "output_tokens": 574,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002534,
+  "annotation": {
+    "title_hy": "Սապրամատի պարապմունքը և գիր ու ղուշ",
+    "title_en": "Strength of Materials Study and Coin Toss",
+    "summary_en": "Two students are exhausted from studying complex engineering subjects and decide to leave their evening activities up to a game of heads or tails.",
+    "summary_detailed_en": "The sketch takes place in a worn living room where two characters, a man wearing glasses and a black jacket and a woman styled as a schoolgirl with pigtails in a pink sweater, are sitting on a couch. They are surrounded by notebooks and script pages, appearing exhausted from intense studying. The man asks for the 'black book' and specifically mentions a textbook on 'Sapramat' (Strength of Materials). Both characters complain about the mental strain, with the woman noting that smoke is metaphorically coming out of her brain from the effort. To decide what to do next, the man proposes a game of 'Gir u Ghush' (heads or tails). He suggests that if it lands on 'Gir', they do what he wants, and if it lands on 'Ghush', they do what she wants. The punchline occurs when the woman immediately agrees and tells him to flip the coin while she goes to open/prepare the bed, revealing that their 'choice' was already mutually understood.",
+    "keywords_hy": [
+      "ուսանող",
+      "սապրամատ",
+      "գիր ու ղուշ",
+      "անկողին",
+      "պարապել",
+      "քննություն",
+      "հոգնած"
+    ],
+    "keywords_en": [
+      "student",
+      "strength of materials",
+      "heads or tails",
+      "bed",
+      "studying",
+      "exam",
+      "exhausted"
+    ],
+    "keywords_translit": [
+      "usanogh",
+      "sapramat",
+      "gir u ghush",
+      "ankoghin",
+      "parapel",
+      "qnnutyun",
+      "hognats"
+    ],
+    "catchphrases": [
+      "ով կա ստեղ",
+      "լավ դե դու կոպեկը քցի ես էլ գնամ անկողինը բացել"
+    ],
+    "topics": [
+      "school",
+      "romance",
+      "family"
+    ],
+    "humor_type": [
+      "situational"
+    ]
+  }
+}

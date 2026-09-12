@@ -1,0 +1,70 @@
+{
+  "video_id": "pv_4MVcjEik",
+  "seq": 125,
+  "kargin_id": 125,
+  "title": "Kargin Haghordum sketch 684 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2210,
+  "gen_sec": 6.17,
+  "prompt_tokens": 2203,
+  "output_tokens": 530,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002691,
+  "annotation": {
+    "title_hy": "Զինվորի և Մայորի տնազը",
+    "title_en": "The Soldier and the Major's Impressions",
+    "summary_en": "A soldier asks a Major to help him get leave for his father's birthday, leading to a comedic sequence of rank-based impressions and riddles.",
+    "summary_detailed_en": "The sketch begins in a military base hallway where a soldier named Simonyan is stopped by a Major. Simonyan requests leave to attend his father's birthday, noting that another soldier was previously granted such a favor. The Major, aware of Simonyan's talent for mimicry, pressures him to perform an impression of the Colonel before he will agree to help. Simonyan is hesitant, fearing the Colonel might appear, but the Major insists, even sharing a riddle about oneself ('Son of my father and mother but not my brother'). The scene shifts to the Colonel's office, decorated with an Armenian flag and wall photos. The Major enters to petition for Simonyan's leave, describing him as a beloved soldier known for his riddles. However, the Colonel reveals he knows about the impressions being made of him. In a recursive twist of irony, the Colonel then asks the Major to perform an impression of him, which the Major awkwardly tries to decline using the same excuses the soldier previously used, claiming he would 'break his own head' before disrespecting the Colonel.",
+    "keywords_hy": [
+      "բանակ",
+      "զինվոր",
+      "մայոր",
+      "գնդապետ",
+      "տնազ",
+      "հանելուկ",
+      "արձակուրդ",
+      "հրամանատար"
+    ],
+    "keywords_en": [
+      "army",
+      "soldier",
+      "major",
+      "colonel",
+      "impression",
+      "riddle",
+      "military base",
+      "leave of absence"
+    ],
+    "keywords_translit": [
+      "banak",
+      "zinvor",
+      "mayor",
+      "gndapet",
+      "tnaz",
+      "haneluk",
+      "ardzakurd",
+      "hramanatar"
+    ],
+    "catchphrases": [
+      "տղայա, հորիցսա, մորիցսա, բայց ախպերս չի, ո՞վա",
+      "ոնց կարամ ես ուրիշ տեղ ձեր տնազը անեմ, կտամ գլուխս կջարդեմ"
+    ],
+    "topics": [
+      "army",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "Vh6QG5UZdFc",
+  "seq": 323,
+  "kargin_id": 323,
+  "title": "Kargin Haghordum sketch 285 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2651,
+  "gen_sec": 17.6,
+  "prompt_tokens": 2486,
+  "output_tokens": 620,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003103,
+  "annotation": {
+    "title_hy": "Հոլանդիայից վերադարձ",
+    "title_en": "Back from Holland",
+    "summary_en": "A man welcomes his friend back from a trip to Amsterdam, only to receive a shocking romantic confession and a display of physical dominance.",
+    "summary_detailed_en": "The sketch takes place in a living room where a man, Manuk, enthusiastically welcomes his friend Noro and their wives (Manushak and Vard) back from a trip to Amsterdam. Manuk jokes about their secret getaway and mentions his history with Noro, recalling how Noro used to protect him in street fights during their youth. The atmosphere is friendly as the visitors present a small souvenir box from Holland. Eager to discuss 'serious business', Noro abruptly and aggressively orders the two women to leave the room and go shopping. Once they are alone, Manuk excitedly asks if Noro brought back any marijuana to share. However, Noro reveals a much darker and unexpected turn. He claims that during the trip he had a premonition and realized three things: first, that he is gay; second, that he is in love with Manuk; and third, that he is physically stronger than Manuk. The sketch ends in a physical struggle on the couch as Noro tries to forcefully kiss his terrified friend, asserting his dominance.",
+    "keywords_hy": [
+      "Հոլանդիա",
+      "Ամստերդամ",
+      "խոստովանություն",
+      "ընկերներ",
+      "անակնկալ",
+      "բազառ",
+      "սուվենիր",
+      "ծեծկռտուք"
+    ],
+    "keywords_en": [
+      "Holland",
+      "Amsterdam",
+      "confession",
+      "friends",
+      "surprise",
+      "street fight",
+      "souvenir",
+      "wrestling"
+    ],
+    "keywords_translit": [
+      "Holandia",
+      "Amsterdam",
+      "xostovanutyun",
+      "enkerner",
+      "anaknkal",
+      "bazar",
+      "suvenir",
+      "ceckrtuq"
+    ],
+    "catchphrases": [
+      "Հոպ ընգեր ջան, տոռմուզ հըլը։",
+      "Շշշշ, երրորդն էլ էնա, որ ես քեզնից ուժեղ եմ կյանքս։"
+    ],
+    "topics": [
+      "family",
+      "party_guests",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

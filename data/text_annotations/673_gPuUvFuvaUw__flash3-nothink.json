@@ -1,0 +1,71 @@
+{
+  "video_id": "gPuUvFuvaUw",
+  "seq": 673,
+  "kargin_id": 673,
+  "title": "Kargin Haghordum sketch 253 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "673_Kargin_Haghordum_sketch_253_Hayko_Mko_gPuUvFuvaUw.hi.json",
+    "visual": true
+  },
+  "input_chars": 3224,
+  "gen_sec": 5.28,
+  "prompt_tokens": 2508,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003222,
+  "annotation": {
+    "title_hy": "Դեղին Ֆեռարիի տերը",
+    "title_en": "The Yellow Ferrari Owner",
+    "summary_en": "A police captain interrogates a school security guard who earns 10,000 drams a month but drives a $300,000 yellow Ferrari.",
+    "summary_detailed_en": "The sketch is set inside a small, cluttered police station office featuring a desk with documents and a taxidermied bird decoration. A mustached police officer in uniform interrogates a young man wearing a navy blue tracksuit. The officer sarcastically welcomes the 'honorable' owner of the yellow Ferrari, mocking him for seeking attention with such a flamboyant car. He reveals that they checked with the tax office and found the suspect is officially employed as a school security guard with a monthly salary of only 10,000 drams. The officer's subordinate confirms that at such a salary, it would take 10,000 years to afford the $300,000 vehicle. When pressed on how he obtained the money, the suspect explains a series of vehicle trades: he sold a Mercedes G-Wagon to buy the Ferrari, sold a BMW 7-series to buy the G-Wagon, and sold a Ford to buy the BMW. The punchline arrives when the officer asks where the money for the original Ford came from, and the suspect smugly replies that he has already served jail time for that specific car, implying he can't be punished for it again.",
+    "keywords_hy": [
+      "ոստիկանություն",
+      "հարցաքննություն",
+      "դեղին ֆեռարի",
+      "պահակ",
+      "հարկային",
+      "մեքենա",
+      "կաշառք",
+      "քննիչ"
+    ],
+    "keywords_en": [
+      "police station",
+      "interrogation",
+      "yellow Ferrari",
+      "security guard",
+      "tax evasion",
+      "car trade",
+      "police officer",
+      "criminal record"
+    ],
+    "keywords_translit": [
+      "ostikanutyun",
+      "harcaknnutyun",
+      "deghin ferrari",
+      "pahak",
+      "harkayin",
+      "meqena",
+      "kasharq",
+      "qnnich"
+    ],
+    "catchphrases": [
+      "դեղին ֆեռարիի տերը",
+      "այ ըտե արդեն հոպ էդ ֆորդի համար ես արդեն նստել եմ"
+    ],
+    "topics": [
+      "police",
+      "money",
+      "crime"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

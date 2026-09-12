@@ -1,0 +1,70 @@
+{
+  "video_id": "0nskJNqqDdM",
+  "seq": 143,
+  "kargin_id": 143,
+  "title": "Kargin Haghordum sketch 379 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "143_Kargin_Haghordum_sketch_379_Hayko_Mko_0nskJNqqDdM.hy.json",
+    "visual": true
+  },
+  "input_chars": 2092,
+  "gen_sec": 25.8,
+  "prompt_tokens": 2112,
+  "output_tokens": 635,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002961,
+  "annotation": {
+    "title_hy": "13-րդ հարկի սիրուհին",
+    "title_en": "The 13th Floor Mistress",
+    "summary_en": "A man in a suit makes elaborate plans to visit his mistress, Dinulik, only to realize the physical toll of climbing to her 13th-floor apartment.",
+    "summary_detailed_en": "The sketch begins with a businessman in a suit sitting in a van, happily chatting on his mobile phone with a woman named Dinulik. He tells her he is coming over to 'slap her around' a bit (playfully) and explains his elaborate alibi: he told his family he is meeting a minister, turned off his phone, and left it with his driver to avoid being tracked. He complains about her living on the 13th floor, boasting that if she had known him when the building's apartments were being distributed, he would have secured her a lower floor like the second or third. The scene transitions to the apartment building stairwell. The man, carrying a briefcase, is shown in silhouette and from various angles as he laboriously climbs flight after flight of stairs. By the time he reaches the higher floors, his bravado vanishes. The physical exertion leaves him completely winded and exhausted, leaning against the wall in the bare stairwell. The humor stems from the contrast between his smooth-talking 'tough guy' persona on the phone and his pathetic physical state, concluding with his hope that her roommate ('that hussy') isn't home.",
+    "keywords_hy": [
+      "դավաճանություն",
+      "սիրուհի",
+      "13-րդ հարկ",
+      "աստիճաններ",
+      "հեռախոսազրույց",
+      "նախարար",
+      "վարորդ",
+      "հոգնածություն"
+    ],
+    "keywords_en": [
+      "infidelity",
+      "mistress",
+      "13th floor",
+      "stairs",
+      "phone call",
+      "minister alibi",
+      "climbing",
+      "exhaustion"
+    ],
+    "keywords_translit": [
+      "davachanutyun",
+      "siruhi",
+      "13-rd hark",
+      "astichanner",
+      "heraxosazruyc",
+      "naxarar",
+      "varord",
+      "hognacutyun"
+    ],
+    "catchphrases": [
+      "գոնե էդ լիրբը տունը չըլնի"
+    ],
+    "topics": [
+      "romance",
+      "family",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

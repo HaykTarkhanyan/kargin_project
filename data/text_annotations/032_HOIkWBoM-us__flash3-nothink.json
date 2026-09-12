@@ -1,0 +1,73 @@
+{
+  "video_id": "HOIkWBoM-us",
+  "seq": 32,
+  "kargin_id": 32,
+  "title": "Kargin Haghordum sketch 339 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1657,
+  "gen_sec": 4.89,
+  "prompt_tokens": 1986,
+  "output_tokens": 618,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002847,
+  "annotation": {
+    "title_hy": "Խենթ բժիշկը և հիվանդները",
+    "title_en": "The Mad Doctor and His Patients",
+    "summary_en": "A series of quirky patients visit a cynical doctor who provides bizarre solutions for a cheating wife's nightmare and a stuttering man's speech impediment.",
+    "summary_detailed_en": "The sketch takes place in a doctor's consultation room, where a doctor wearing a blue surgical cap and scrub top sits behind a desk. In the first segment, a distressed husband named Vagho seeks help because his wife screams 'Yura, no! Yura!' in her sleep. The doctor nonchalantly dismisses the concern, telling Vagho he can sleep peacefully as long as she is saying 'no' in her dreams, despite the fact that Vagho's name is not Yura. After rudely shooing him away with strange 'khsht' sounds, the next patient enters, who suffers from a severe stutter. The patient complains that his condition causes him to pay double for his cell phone bill. The doctor attributes the issue to childhood stress and administers a medicine. He instructs the patient to look into his eyes and count to ten. Miraculously, the patient counts perfectly and celebrates his cure, until the doctor asks for a fee of 2,000 dollars, causing the man to revert to his shocked stutter.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդ",
+      "կակազել",
+      "երազ",
+      "դեղ",
+      "կոնսուլտացիա",
+      "հոգեկան",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "doctor",
+      "patient",
+      "stuttering",
+      "dream",
+      "medicine",
+      "consultation",
+      "mental health",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hivand",
+      "kakazel",
+      "eraz",
+      "dex",
+      "konsultacia",
+      "hogekan",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Յուրա չէ չէ",
+      "դե փշտ",
+      "խշտ խշտ խշտ",
+      "բժիշկ լրիվ դզվել եմ"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

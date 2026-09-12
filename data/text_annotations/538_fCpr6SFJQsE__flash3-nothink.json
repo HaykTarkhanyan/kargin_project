@@ -1,0 +1,71 @@
+{
+  "video_id": "fCpr6SFJQsE",
+  "seq": 538,
+  "kargin_id": 538,
+  "title": "Kargin Haghordum sketch 171 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "538_Kargin_Haghordum_sketch_171_Hayko_Mko_fCpr6SFJQsE.hy.json",
+    "visual": true
+  },
+  "input_chars": 2910,
+  "gen_sec": 8.8,
+  "prompt_tokens": 2661,
+  "output_tokens": 664,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003322,
+  "annotation": {
+    "title_hy": "Ժլատ հաճախորդը ատամնաբուժարանում",
+    "title_en": "The Greedy Dental Patient",
+    "summary_en": "A stingy man negotiates with a dentist for the cheapest possible tooth extraction for his wife, eventually opting for a painful student procedure without anesthesia to save money.",
+    "summary_detailed_en": "The sketch begins in a dental clinic where a doctor in a white coat and his nurse assistant discuss eccentric patient requests, including someone who wants family photos engraved on their teeth. The scene intercuts with a wealthy-looking man in a suit with a mustache, who ironically complains about his chief engineer's 5,000 dram salary while boasting about his own expensive Jeep and suits. When the man brings his wife to the dentist, he begins a relentless negotiation to lower the price of a tooth extraction. The doctor offers a high-end procedure with local anesthesia for 40,000 drams, which the man rejects as too expensive. The price drops to 20,000 drams for weaker anesthesia, then 10,000 drams for no anesthesia at all, yet the man continues to haggle. The doctor eventually suggests using simple pliers for 5,000 drams, and finally offers a 1,000-dram option where an inexperienced student intern performs the painful extraction without any painkillers. Delighted by the bargain, the man finally calls his wife into the chair to endure the agony, revealing his extreme stinginess and disregard for her comfort.",
+    "keywords_hy": [
+      "ատամնաբույժ",
+      "ատամհատիկ",
+      "ժլատություն",
+      "բժիշկ",
+      "սակարկություն",
+      "էժան",
+      "ցավազրկում",
+      "ուսանող"
+    ],
+    "keywords_en": [
+      "dentist",
+      "tooth extraction",
+      "stingy",
+      "haggling",
+      "cheap",
+      "anesthesia",
+      "dental clinic",
+      "medical humor"
+    ],
+    "keywords_translit": [
+      "atamnabuyj",
+      "atamhatik",
+      "jlatutyun",
+      "bjishk",
+      "sakarkutyun",
+      "ejan",
+      "tsavazrkum",
+      "usanogh"
+    ],
+    "catchphrases": [
+      "ախպեր ջան, դա շատ մեծ թիվ ես ասում էլի",
+      "կնիկ ջան արի նստի բժշկի հետ պայմանավորվել եմ"
+    ],
+    "topics": [
+      "medical",
+      "money",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

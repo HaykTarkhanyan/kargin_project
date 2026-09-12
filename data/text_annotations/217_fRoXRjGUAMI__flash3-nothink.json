@@ -1,0 +1,76 @@
+{
+  "video_id": "fRoXRjGUAMI",
+  "seq": 217,
+  "kargin_id": 217,
+  "title": "Kargin Haghordum - Marshrutnu shoferner (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3155,
+  "gen_sec": 5.93,
+  "prompt_tokens": 2737,
+  "output_tokens": 744,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.0036,
+  "annotation": {
+    "title_hy": "Մարշրուտնու Շոֆեռական Օրենքները",
+    "title_en": "Marshrutka Driver Rules",
+    "summary_en": "Experienced minibus drivers at a depot school a young recruit on the 'real' rules of the road, which involve ignoring all traffic laws to collect fares.",
+    "summary_detailed_en": "The sketch takes place in a minibus (marshrutka) depot yard during the day, surrounded by parked GAZelle vehicles. A group of seasoned drivers, including Usta Hrom and Hrazmik, are conversing. Usta Hrom tells a story about crashing into a Mercedes and getting out of trouble by crying and pretending to have cancer and a mortgaged house. Their boss, Aharon, arrives with a young man named Phaylak, a recent army veteran who wants to become a driver. When Phaylak boasts about his military driving experience and his legal driver's licenses (categories B, C, D, E), Usta Hrom tells him to take those legal documents, climb Mount Aragats, use them as toilet paper, and bury them in the snow, claiming all their licenses are buried there. He explains the 'true' laws: ignoring blinkers, driving on sidewalks, and treating every traffic light as green. The only strictly forbidden act is running over pedestrians—not for safety, but because every person is a potential 100-dram fare. The scene ends with the drivers physically grappling in the yard.",
+    "keywords_hy": [
+      "մարշրուտկա",
+      "գազել",
+      "շոֆեռ",
+      "վարորդ",
+      "գծի տեր",
+      "երթուղային",
+      "կանգառ",
+      "ճանապարհային օրենքներ",
+      "100 դրամ"
+    ],
+    "keywords_en": [
+      "marshrutka",
+      "minibus driver",
+      "GAZelle",
+      "traffic rules",
+      "depot",
+      "100 dram",
+      "illegal driving",
+      "Armenian transport",
+      "driver's license"
+    ],
+    "keywords_translit": [
+      "marshrutka",
+      "gazel",
+      "shofer",
+      "varord",
+      "gdzi ter",
+      "ertughayin",
+      "kangar",
+      "chanaparhayin orenqner",
+      "100 dram"
+    ],
+    "catchphrases": [
+      "ասումա բոլոր ճանապարհները տանում են Հռոմի կանեց",
+      "ինչ ես բերանդ խնդում",
+      "որովհետև մարդը պոտենցիալ 100 դրամանոց պասսաժիռա",
+      "հլը նայի ունիտազ բերանս բացել է տալիս, արա այ էշ գզող"
+    ],
+    "topics": [
+      "transport",
+      "work",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

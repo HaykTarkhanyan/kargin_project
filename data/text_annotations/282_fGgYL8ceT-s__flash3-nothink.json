@@ -1,0 +1,67 @@
+{
+  "video_id": "fGgYL8ceT-s",
+  "seq": 282,
+  "kargin_id": 282,
+  "title": "Kargin Haghordum sketch 235 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1345,
+  "gen_sec": 18.0,
+  "prompt_tokens": 1720,
+  "output_tokens": 562,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002546,
+  "annotation": {
+    "title_hy": "Ձկնորսության պատմությունը",
+    "title_en": "The Fishing Story",
+    "summary_en": "A man tries to cover up his infidelity by buying fish to prove he was on a fishing trip, but insists the shopkeeper throw them to him so he can technically claim he 'caught' them.",
+    "summary_detailed_en": "The sketch takes place in a fish shop filled with live fish tanks and hanging dried fish. A customer, dressed in a camouflage tank top to look like a fisherman, approaches the shop worker. The customer explains his elaborate scheme: he told his wife he was going fishing, but instead, he went to visit his mistress. Having finished his secret rendezvous, he now needs to return home with proof. He asks the shopkeeper to weigh a couple of fish for him to take home as 'evidence' of his successful trip. When it comes time to pay, the customer realizes he is short on cash but manages to settle the bill. However, he makes a strange request: he asks the shopkeeper to throw the fish to him so he can catch them in his hands. Confused, the shopkeeper asks why. The customer explains that this way, if his wife asks, he can swear on his life that he actually 'caught' the fish himself. The scene includes a physical scuffle between the two men as the customer frantically tries to coordinate his lie.",
+    "keywords_hy": [
+      "ձուկ",
+      "ձկնորսություն",
+      "դավաճանություն",
+      "խանութ",
+      "ստախոս",
+      "ձկնորս",
+      "ծախել"
+    ],
+    "keywords_en": [
+      "fish",
+      "fishing",
+      "infidelity",
+      "excuse",
+      "fish shop",
+      "liar",
+      "cheating husband"
+    ],
+    "keywords_translit": [
+      "dzuk",
+      "dzknorsutyun",
+      "davachanutyun",
+      "khanut",
+      "stakhos",
+      "dzknors",
+      "tsakhel"
+    ],
+    "catchphrases": [
+      "ապեր քցի բռնեմ"
+    ],
+    "topics": [
+      "family",
+      "shop_market",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

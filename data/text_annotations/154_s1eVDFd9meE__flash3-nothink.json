@@ -1,0 +1,63 @@
+{
+  "video_id": "s1eVDFd9meE",
+  "seq": 154,
+  "kargin_id": 154,
+  "title": "Kargin Haghordum sketch 528 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1233,
+  "gen_sec": 4.52,
+  "prompt_tokens": 1638,
+  "output_tokens": 537,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00243,
+  "annotation": {
+    "title_hy": "Խաղալիքների խանութի վաճառողը",
+    "title_en": "The Toy Shop Seller",
+    "summary_en": "A toy shop owner enthusiastically sells 'warm' toys and balloons to children until a request for a specific green balloon irritates him.",
+    "summary_detailed_en": "The sketch is set in a cluttered toy shop filled with various dolls, toys, and a toy piano. A shopkeeper wearing a distinctive hat is busy attending to a group of children. He calls out to them with high energy, offering 'warm' meat-filled bears and dolls as if they were fresh food. A young girl asks for a pink balloon, which he happily provides. A boy then asks for the same thing, and the shopkeeper playfully checks if another person nearby also wants a pink balloon. The atmosphere is whimsical and fast-paced as the seller interacts with his young customers. However, the tone shifts when a boy asks for one of the green balloons. For an unexplained reason, this specific request triggers the shopkeeper, who suddenly drops his friendly persona and aggressively asks the child if he is mocking him. The sketch features a visual cut between the busy toy shop interior and a man speaking directly to the camera against a dark, plain background.",
+    "keywords_hy": [
+      "խաղալիքների խանութ",
+      "փուչիկ",
+      "վաճառող",
+      "երեխաներ",
+      "տիկնիկ",
+      "զվարճալի"
+    ],
+    "keywords_en": [
+      "toy shop",
+      "balloons",
+      "shopkeeper",
+      "children",
+      "dolls",
+      "pink balloon",
+      "green balloon"
+    ],
+    "keywords_translit": [
+      "khaghaliqneri khanut",
+      "puchik",
+      "vacharogh",
+      "erekheq",
+      "tiknik",
+      "zvartchali"
+    ],
+    "catchphrases": [
+      "եկեք երեխեք ջան համեցեք տաք-տաք տիկնիկները վերջացան"
+    ],
+    "topics": [
+      "shop_market"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

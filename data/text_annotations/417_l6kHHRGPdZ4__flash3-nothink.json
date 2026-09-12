@@ -1,0 +1,72 @@
+{
+  "video_id": "l6kHHRGPdZ4",
+  "seq": 417,
+  "kargin_id": 417,
+  "title": "Kargin Haghordum - Jin 2 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "417_Kargin_Haghordum_-_Jin_2_Hayko_Mko_l6kHHRGPdZ4.hy.json",
+    "visual": true
+  },
+  "input_chars": 1950,
+  "gen_sec": 8.1,
+  "prompt_tokens": 2056,
+  "output_tokens": 655,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002993,
+  "annotation": {
+    "title_hy": "Ջինը և Սուր Զգացողությունները",
+    "title_en": "The Genie and Sharp Sensations",
+    "summary_en": "A man tracks down a magical genie to fulfill three wishes, but his final request for a 'sharp sensation' results in a literal and painful surprise.",
+    "summary_detailed_en": "In a desolate, bare winter field, a man wearing a black beanie and a leather jacket searches for a magical entity. He successfully conjures a golden, glowing, bearded genie who appears with crossed arms, announcing his readiness to serve his master. The man, unimpressed by the genie's traditional rhymes, claims he has spent a year coming up with better material. He proceeds to ask for his three wishes. His first wish is for a large sum of money, which the genie grants. His second wish is for a Mitsubishi Lancer, which he is later seen driving while filming himself on his phone. For his final wish, the man asks for 'sharp sensations' (sur zgatsoghutyunner), describing a desire for his hair to stand on end and his heart to flutter. The genie complies literally; in the final scene, as the man stands in the field, the genie suddenly stabs him in the back with a large sword. The sketch ends with the man screaming in pain as he realizes the genie took the word 'sharp' too literally.",
+    "keywords_hy": [
+      "ջին",
+      "երեք ցանկություն",
+      "ոսկե ջին",
+      "սուր զգացողություններ",
+      "հայկո մկո",
+      "կարգին հաղորդում",
+      "դաշտ",
+      "մեքենա"
+    ],
+    "keywords_en": [
+      "genie",
+      "three wishes",
+      "golden genie",
+      "sharp sensations",
+      "Hayko Mko",
+      "Kargin Haghordum",
+      "winter field",
+      "Mitsubishi Lancer"
+    ],
+    "keywords_translit": [
+      "jin",
+      "ereq cankutyun",
+      "voske jin",
+      "sur zgacoghutyunner",
+      "hayko mko",
+      "kargin haghordum",
+      "dasht",
+      "meqena"
+    ],
+    "catchphrases": [
+      "լսում և հնազանգվում եմ",
+      "երեք ցանկության մոմենտը աշխատում ա չէ՞",
+      "լսում եմ քո առաջին ցանկությունը ով իմ տիրակալ"
+    ],
+    "topics": [
+      "other",
+      "transport",
+      "money"
+    ],
+    "humor_type": [
+      "wordplay",
+      "situational"
+    ]
+  }
+}

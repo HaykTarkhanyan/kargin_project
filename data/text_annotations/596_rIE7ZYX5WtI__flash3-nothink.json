@@ -1,0 +1,73 @@
+{
+  "video_id": "rIE7ZYX5WtI",
+  "seq": 596,
+  "kargin_id": 596,
+  "title": "Kargin Haghordum sketch 447 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "596_Kargin_Haghordum_sketch_447_Hayko_Mko_rIE7ZYX5WtI.hy.json",
+    "visual": true
+  },
+  "input_chars": 2363,
+  "gen_sec": 5.84,
+  "prompt_tokens": 2315,
+  "output_tokens": 608,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002981,
+  "annotation": {
+    "title_hy": "Ճանապարհ դեպի զոքանչի գյուղը",
+    "title_en": "Trip to the Mother-in-Law's Village",
+    "summary_en": "A husband complains about the poor roads and boring destination while driving his wife and son to visit the in-laws in a remote village.",
+    "summary_detailed_en": "The sketch takes place inside a car as a family drives through a rural village and past orchards. A mustached man, the driver, is visibly annoyed and complains to his wife (a woman passenger) about spending their only free Sunday visiting her parents' village. He sarcastically remarks that he would have preferred going to an amusement park, a zoo, or even a trolleybus depot over what he calls the 'mother-in-law-drome.' He complains about the terrible potholes, joking that no politician has been elected there for 20 years to fix the asphalt, and notes that only his car mechanic is happy about these trips. During the drive, their young son excitedly points out various animals passing by the window, including sheep, a dog, a donkey, and a horse, to which the mother patiently responds. The sketch ends with a punchline when the boy spots attractive women on the roadside and exclaims, 'Dad, look at those chicks!', shifting the father's mood as he finally takes an interest in the surroundings.",
+    "keywords_hy": [
+      "գյուղ",
+      "զոքանչ",
+      "ավտոմեքենա",
+      "ճանապարհ",
+      "փոսեր",
+      "ընտանիք",
+      "ծտեր",
+      "խադավիկ",
+      "կիրակի"
+    ],
+    "keywords_en": [
+      "village",
+      "mother-in-law",
+      "car trip",
+      "potholes",
+      "family",
+      "chicks",
+      "mechanic",
+      "Sunday",
+      "rural road"
+    ],
+    "keywords_translit": [
+      "gyugh",
+      "zoqanch",
+      "avtomeqena",
+      "janaparh",
+      "poser",
+      "yntaniq",
+      "coter",
+      "xadavik",
+      "kiraki"
+    ],
+    "catchphrases": [
+      "Պապ հլը նայի ինչ ծտեր են"
+    ],
+    "topics": [
+      "family",
+      "transport",
+      "village"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

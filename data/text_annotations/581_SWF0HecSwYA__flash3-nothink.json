@@ -1,0 +1,78 @@
+{
+  "video_id": "SWF0HecSwYA",
+  "seq": 581,
+  "kargin_id": 581,
+  "title": "Kargin Haghordum sketch 432 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "581_Kargin_Haghordum_sketch_432_Hayko_Mko_SWF0HecSwYA.hy.json",
+    "visual": true
+  },
+  "input_chars": 2708,
+  "gen_sec": 5.77,
+  "prompt_tokens": 2492,
+  "output_tokens": 665,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003241,
+  "annotation": {
+    "title_hy": "Պլան Բ կաշառքով ընդունվելը",
+    "title_en": "Plan B Bribe for the Exam",
+    "summary_en": "A math tutor realizes his dense student is incapable of learning and decides to orchestrate a cheating scheme for the upcoming university entrance exam.",
+    "summary_detailed_en": "The sketch takes place in a home study filled with bookshelves, where a professor wearing a striped robe and a curly wig is tutoring a young student. The professor concludes that after a year of lessons, the student is completely unprepared for the university entrance exam, noting that he cannot even perform simple arithmetic. When asked to add numbers, the student consistently gives an answer larger than the true sum; upon learning the student's father is a waiter, the professor realizes the boy is reflexively adding a tip. Moving to 'Plan B,' which involves bribery and cheating arranged with the father, the professor instructs the boy to find him in the exam room—distinguishable by his white hair and glasses. The boy’s extreme lack of focus leads to absurd misunderstandings, including him thinking the 'exam ticket' is a movie ticket and confusing the professor's 'plan' with drugs. Interspersed throughout the dialogue are reaction shots of a man in a red cap making exaggerated faces. The scene is repeatedly interrupted by a man at the door asking to sell burgundy paint, whom the professor eventually humors just to get him to leave.",
+    "keywords_hy": [
+      "դասատու",
+      "ուսանող",
+      "քննություն",
+      "մաթեմատիկա",
+      "կաշառք",
+      "ինստիտուտ",
+      "աֆիցանտ",
+      "արտագրել",
+      "պլան",
+      "թվաբանություն"
+    ],
+    "keywords_en": [
+      "tutor",
+      "student",
+      "exam",
+      "mathematics",
+      "bribe",
+      "university",
+      "waiter",
+      "cheating",
+      "plan",
+      "arithmetic"
+    ],
+    "keywords_translit": [
+      "dasatu",
+      "usanogh",
+      "qnnutyun",
+      "matematika",
+      "kasharq",
+      "institut",
+      "aficant",
+      "artagrel",
+      "plan",
+      "tvabanutyun"
+    ],
+    "catchphrases": [
+      "աֆիցանտ է պապան",
+      "կընդունվենք պապայի փողերով",
+      "ձեզ բորո գույնի ներք պետք է"
+    ],
+    "topics": [
+      "school",
+      "money",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

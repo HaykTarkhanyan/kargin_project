@@ -1,0 +1,70 @@
+{
+  "video_id": "uavewh7X7vk",
+  "seq": 679,
+  "kargin_id": 679,
+  "title": "Kargin Haghordum sketch 259 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "679_Kargin_Haghordum_sketch_259_Hayko_Mko_uavewh7X7vk.hy.json",
+    "visual": true
+  },
+  "input_chars": 2959,
+  "gen_sec": 5.68,
+  "prompt_tokens": 2638,
+  "output_tokens": 604,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003131,
+  "annotation": {
+    "title_hy": "Պարտքերի այբբենական ցուցակը",
+    "title_en": "Alphabetical Debt List",
+    "summary_en": "A desperate debtor tries to calm down an angry lender by showing him an alphabetical list of people he is slowly paying back.",
+    "summary_detailed_en": "The sketch takes place in an office where a secretary (referred to as Gayush) tries to block a man from entering the boss's office. The man pushes past her, confronting the boss who is sitting at his desk. The visitor is a lender who is furious, shouting that the boss owes money to the entire city. He threatens extreme violence, including feeding the boss's intestines to his Doberman. The boss, dressed in a suit, remains calm and asks the lender to sit and listen. He presents a paper document, explaining that he has a systematic plan to repay everyone in alphabetical order. He lists past payments made to 'Abgaryan Samvel' and 'Aleksanyan Armen,' and notes that this month it is 'Avagyan Avag's' turn. When the lender, whose name is Mr. Frangulyan, realizes his name starts with 'F' and he is far down the list, he loses his temper. The scene ends in a physical altercation where the lender slaps and chokes the boss, throwing him onto the office desk in frustration.",
+    "keywords_hy": [
+      "պարտք",
+      "փող",
+      "ցուցակ",
+      "այբբենական կարգ",
+      "գրասենյակ",
+      "ծեծկռտուք",
+      "հաշվեհարդար",
+      "Պարոն Ֆռանգուլյան"
+    ],
+    "keywords_en": [
+      "debt",
+      "money",
+      "list",
+      "alphabetical order",
+      "office",
+      "fight",
+      "lender",
+      "repayment plan"
+    ],
+    "keywords_translit": [
+      "partq",
+      "pogh",
+      "cucak",
+      "aybbenakan karg",
+      "grasenyak",
+      "ceckrtuq",
+      "hashvehardar",
+      "Paron Frangulyan"
+    ],
+    "catchphrases": [
+      "Պարոն Ֆռանգուլյան"
+    ],
+    "topics": [
+      "work",
+      "money",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

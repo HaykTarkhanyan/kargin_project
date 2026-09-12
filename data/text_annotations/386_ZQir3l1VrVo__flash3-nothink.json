@@ -1,0 +1,78 @@
+{
+  "video_id": "ZQir3l1VrVo",
+  "seq": 386,
+  "kargin_id": 386,
+  "title": "Kargin Haghordum- Porch@ bjishki mot (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2958,
+  "gen_sec": 9.48,
+  "prompt_tokens": 2636,
+  "output_tokens": 716,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003466,
+  "annotation": {
+    "title_hy": "Բժշկի խորհուրդը մեքենայի մեջ",
+    "title_en": "Doctor's Advice in the Car",
+    "summary_en": "A young man receives serious medical test results from his doctor while driving in his new car, leading to a punchline about marriage as a cure for a hyperactive lifestyle.",
+    "summary_detailed_en": "The sketch begins outdoors next to a white sedan parked in front of old apartment buildings, where two young women in colorful jackets meet a flashy young man. The scene shifts to the interior of the car, which the young man proudly shows off to his doctor, Armen Borisich, boasting about its 3.5-liter engine and 285 horsepower. The doctor, wearing a white coat and blue surgical cap, tries to discuss the patient's serious test results privately, but the man refuses to get out, insisting the women in the back seat should leave instead—forgetting that the car is a two-door coupe. Once 'private,' the doctor warns the patient that his excessive smoking, drinking, and active sex life are killing him. When the patient claims he can quit substances but cannot possibly stop having sex, the doctor offers a final medical solution: he must get married. When asked why, the doctor delivers the punchline that marriage is the most effective way to gradually quit having sex altogether.",
+    "keywords_hy": [
+      "բժիշկ",
+      "մեքենա",
+      "անալիզ",
+      "ամուսնություն",
+      "կարգին հաղորդում",
+      "կուպե",
+      "հիվանդություն",
+      "սեքս",
+      "ծխել",
+      "խմել"
+    ],
+    "keywords_en": [
+      "doctor",
+      "car interior",
+      "medical results",
+      "marriage joke",
+      "coupe",
+      "lifestyle",
+      "smoking",
+      "drinking",
+      "bachelor",
+      "patient"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "meqena",
+      "analiz",
+      "amusnutyun",
+      "kargin haghordum",
+      "kupe",
+      "hivandutyun",
+      "sex",
+      "cxel",
+      "xmel"
+    ],
+    "catchphrases": [
+      "դոկտռ ջան լավ վլը էն ծխելն ու խմելը կուդա նի կտո մի ձև կարանք թարգենք բայց սեքսը չես կարա հա ներս քցես մի օր կտրաքես սեքսը չեմ կարա թարգեմ",
+      "ուրեմն դու պտի պսակվես",
+      "դե կամաց կամաց կթարգես էլի"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "transport"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

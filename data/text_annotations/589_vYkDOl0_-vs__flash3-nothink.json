@@ -1,0 +1,72 @@
+{
+  "video_id": "vYkDOl0_-vs",
+  "seq": 589,
+  "kargin_id": 589,
+  "title": "Kargin Haghordum sketch 440 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "589_Kargin_Haghordum_sketch_440_Hayko_Mko_vYkDOl0_-vs.hy.json",
+    "visual": true
+  },
+  "input_chars": 1701,
+  "gen_sec": 11.23,
+  "prompt_tokens": 1927,
+  "output_tokens": 595,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002749,
+  "annotation": {
+    "title_hy": "Որսորդը և կապիտան դառնալու երազանքը",
+    "title_en": "The Hunter and the Promotion",
+    "summary_en": "A police official is thrilled to finally catch an illegal hunter to earn a promotion to captain, only to realize he is being used for manual labor.",
+    "summary_detailed_en": "In a dry reed field, a man in a trench coat and tie, acting as an official, discovers a hunter in camouflage gear. The official is ecstatic because he has spent three years waiting to catch a poacher without a permit so he can be promoted from Senior Lieutenant to Captain. He complains that every hunter he meets is law-abiding, which prevents his career advancement. He instructs the hunter that they will take the 'animal' (a heavy, wrapped object) to the station to file a report. The official struggles significantly with the weight of the item, panting as he carries it toward a parked SUV while chanting about becoming a captain. Once they reach the vehicle and the official has finished the heavy lifting, the hunter casually reveals his valid hunting permit. When the frustrated official asks why he didn't show it earlier, the hunter admits he just needed someone to help him carry the heavy load to his car.",
+    "keywords_hy": [
+      "որսորդ",
+      "ոստիկան",
+      "կապիտան",
+      "թույլտվություն",
+      "խաբեություն",
+      "որս",
+      "ծանր",
+      "ավագ լեյտենանտ"
+    ],
+    "keywords_en": [
+      "hunter",
+      "police",
+      "captain",
+      "permit",
+      "deception",
+      "hunting",
+      "heavy load",
+      "promotion"
+    ],
+    "keywords_translit": [
+      "vorsord",
+      "vostikan",
+      "kapitan",
+      "tuyvtvutyun",
+      "khabeutyun",
+      "vors",
+      "tsanr",
+      "avag leytenant"
+    ],
+    "catchphrases": [
+      "ավագ լեյտենանտից սարքեն կապիտան",
+      "կապիտան կապիտան ուլի",
+      "փաստորեն ունեի ախպեր"
+    ],
+    "topics": [
+      "police",
+      "leisure_outing",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

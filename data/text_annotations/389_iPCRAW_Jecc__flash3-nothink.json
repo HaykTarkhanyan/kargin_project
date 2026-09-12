@@ -1,0 +1,71 @@
+{
+  "video_id": "iPCRAW_Jecc",
+  "seq": 389,
+  "kargin_id": 389,
+  "title": "Kargin Haghordum - Qyartush (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "389_Kargin_Haghordum_-_Qyartush_Hayko_Mko_iPCRAW_Jecc.hy.json",
+    "visual": true
+  },
+  "input_chars": 1622,
+  "gen_sec": 7.08,
+  "prompt_tokens": 1838,
+  "output_tokens": 568,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002623,
+  "annotation": {
+    "title_hy": "Քուչում քյարթուշ տանը պուպուշ",
+    "title_en": "Street Tough Guy at Home",
+    "summary_en": "A woman surprises her 'tough guy' husband by suggesting a BDSM-style game of bondage, but he uses the opportunity to escape to a card game with friends.",
+    "summary_detailed_en": "The sketch takes place in an ornately decorated red bedroom at night. A woman in a black dress is seen in a suggestive setting, having been tied to a large wooden bed with ropes. A man, dressed in a dark jacket and portraying a 'qyartu' (a stereotypical Armenian street tough guy), enters the room. The woman surprises him with her enthusiasm, leading him to remark on her unexpected 'excitement.' She challenges his tough-guy persona, mockingly calling him a 'fake qyartush' who acts hard on the street but is 'pupush' (sweet/soft) at home. She instructs him to tie her up with the ropes and do whatever he wants with her. The man, reacting with mock disbelief ('I don't believe, axper'), complies and ties her wrists to the bed. Once she is securely bound and vulnerable, the punchline hits: instead of any romantic or sexual act, he announces that since she is tied up and he can do what he wants, he is leaving to play 'blot' (a popular Armenian card game) with his friends.",
+    "keywords_hy": [
+      "քյարթուշ",
+      "բլոտ",
+      "կապած",
+      "կնիկ",
+      "խանդավառություն",
+      "կարգին հաղորդում",
+      "հայկո մկո"
+    ],
+    "keywords_en": [
+      "tough guy",
+      "street style",
+      "bondage joke",
+      "card game",
+      "blot",
+      "husband and wife",
+      "betrayal",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "qyartush",
+      "blot",
+      "kapats",
+      "knik",
+      "xandavarutyun",
+      "kargin haghordum",
+      "hayko mko"
+    ],
+    "catchphrases": [
+      "հիմա սրանցով ինձ կապի ու ինչ ուզում ես արա",
+      "այ դոնթ բլիվ ախպեր կապեցի",
+      "դե հիմա ինչ ուզում ես արա",
+      "դե ես հելնում եմ տղերքի հետ բլոգ խաղալու"
+    ],
+    "topics": [
+      "family",
+      "leisure_outing",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

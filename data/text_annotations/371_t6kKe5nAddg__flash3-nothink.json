@@ -1,0 +1,73 @@
+{
+  "video_id": "t6kKe5nAddg",
+  "seq": 371,
+  "kargin_id": 371,
+  "title": "Kargin Haghordum - Esi mek (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "371_Kargin_Haghordum_-_Esi_mek_Hayko_Mko_t6kKe5nAddg.hy.json",
+    "visual": true
+  },
+  "input_chars": 2083,
+  "gen_sec": 11.53,
+  "prompt_tokens": 2180,
+  "output_tokens": 599,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002887,
+  "annotation": {
+    "title_hy": "Էսի մեկ, էսի երկու",
+    "title_en": "That’s One, That’s Two",
+    "summary_en": "A groom repeatedly counts his bride's driving mistakes until he reaches a violent breaking point, which leads to a dark twist during his interrogation.",
+    "summary_detailed_en": "The sketch begins with a groom and bride leaving their wedding ceremony at a church, accompanied by traditional folk music. They enter a car to head home, leaving the guests behind. The bride is driving, and she repeatedly performs a 'rezki tormuz' (sudden braking), nearly causing accidents. Each time she apologizes, citing a large pothole or speed, the groom stoically and ominously counts her mistakes aloud, saying 'Esi mek' (That’s one), 'Esi yerku' (That’s two), and finally 'Esi ereq' (That’s three) upon reaching their destination. The scene suddenly shifts to an interrogation room where a policeman or authority figure is berating the man for murdering the woman. The investigator argues that someone shouldn't be killed just for bad braking. The groom, maintaining the same terrifyingly calm demeanor he had in the car, looks at the investigator and coldly says 'Esi mek' (That’s one), implying the investigator is now on the same deadly countdown.",
+    "keywords_hy": [
+      "հարսանիք",
+      "տոռմուզ",
+      "փոս",
+      "հարս ու փեսա",
+      "սպանություն",
+      "քննիչ",
+      "էսի մեկ",
+      "մեքենա"
+    ],
+    "keywords_en": [
+      "wedding",
+      "groom",
+      "bride",
+      "braking",
+      "pothole",
+      "interrogation",
+      "murder",
+      "countdown",
+      "driving"
+    ],
+    "keywords_translit": [
+      "harsanik",
+      "tormuz",
+      "pos",
+      "hars u pesa",
+      "spanutyun",
+      "qnnich",
+      "esi mek",
+      "meqena"
+    ],
+    "catchphrases": [
+      "Էսի մեկ",
+      "Էսի երկու",
+      "Էս էլ իրեք"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "crime",
+      "family"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "iAfOSpH2oEw",
+  "seq": 178,
+  "kargin_id": 178,
+  "title": "Kargin Haghordum sketch 358 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1606,
+  "gen_sec": 7.47,
+  "prompt_tokens": 1849,
+  "output_tokens": 669,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002932,
+  "annotation": {
+    "title_hy": "Սմբոյի դեպրեսիան և սեքսը",
+    "title_en": "Smbo's Depression and Sex",
+    "summary_en": "An overworked and cynical office worker complains about his lack of motivation for anything, leading to a hilarious misunderstanding when his colleague invites him over.",
+    "summary_detailed_en": "In a typical office setting, a character named Smbo is seen sitting at his desk, visibly exhausted and overwhelmed. The scene opens with him on a phone call with his mother, telling her he is coming home but complaining about being on the 'second line.' Once he hangs up, he launches into a nihilistic rant to his colleague, Petya, about how he has lost interest in everything—work, home, meeting former classmates, and even the idea of dying. Petya, identifying himself as a 'system administrator' (sistemshik) who is equally busy, tries to cheer up Smbo, who is the office manager (zavkhoz). Petya suggests Smbo come over to his house to relax and have a drink. Smbo rejects this, complaining he is tired of drinking. Petya then suggests they just eat some delicious food. In a surreal and comedic leap of logic, Smbo reacts with frustration, equating the invitation to go to Petya's house and see his wife with an invitation for 'sex,' shouting that he is tired of that too. The sketch highlights the absurdity of Smbo's extreme 'depression' and concludes with a physical confrontation as his colleague loses patience with his hysterical misinterpretations.",
+    "keywords_hy": [
+      "զավխոզ",
+      "սիստեմշիկ",
+      "դեպրեսիա",
+      "հոգնածություն",
+      "օֆիս",
+      "սեքս",
+      "ընկերներ",
+      "աշխատանք"
+    ],
+    "keywords_en": [
+      "office manager",
+      "system administrator",
+      "depression",
+      "exhaustion",
+      "office life",
+      "misunderstanding",
+      "invitation",
+      "work stress"
+    ],
+    "keywords_translit": [
+      "zavkhoz",
+      "sistemshik",
+      "depresya",
+      "hognacutyun",
+      "ofis",
+      "sex",
+      "ynkerner",
+      "ashkhatank"
+    ],
+    "catchphrases": [
+      "մամ մի րոպե էլի երկրորդ գծի վրա եմ",
+      "արա դե սեքս էլի սեքս հոգնել եմ ախպեր"
+    ],
+    "topics": [
+      "work",
+      "work",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "misunderstanding"
+    ]
+  }
+}

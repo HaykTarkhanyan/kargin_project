@@ -1,0 +1,65 @@
+{
+  "video_id": "qRZMxJQMlUg",
+  "seq": 350,
+  "kargin_id": 350,
+  "title": "Kargin Haghordum sketch 517 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": false,
+    "transcript": "350_Kargin_Haghordum_sketch_517_Hayko_Mko_qRZMxJQMlUg.hy.json",
+    "visual": true
+  },
+  "input_chars": 1939,
+  "gen_sec": 12.75,
+  "prompt_tokens": 2047,
+  "output_tokens": 600,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002824,
+  "annotation": {
+    "title_hy": "Տնօրենը և Գայթակղիչ Քարտուղարուհին",
+    "title_en": "The Boss and the Seductive Secretary",
+    "summary_en": "A boss fires his deputy instead of reprimanding his secretary after the deputy complains that her provocative appearance is a distraction.",
+    "summary_detailed_en": "The sketch takes place in a professional office environment. It begins with a businessman in a gray suit and orange tie, Mr. Gevorgyan, giving administrative instructions to his deputy, Petrosyan. He tells Petrosyan to prepare yesterday's contracts and sign the accounting audits before heading to his own private office. Shortly after, a secretary dressed in a provocative black leather outfit with bold makeup and an extravagant hairstyle enters Gevorgyan's office. The boss informs her that Petrosyan has formally complained about her work attire, specifically citing her short skirts, low-cut tops, and overly bright lipstick as distractions that prevent him from working effectively. The secretary, looking concerned, asks what she should do to rectify the situation. In a subversion of workplace expectations, the boss tells her to continue exactly as she is, revealing that he has already fired Petrosyan for complaining about her appearance. The sketch ends on this punchline, highlighting the boss's own preference for her style over his deputy's professional concerns.",
+    "keywords_hy": [
+      "տնօրեն",
+      "քարտուղարուհի",
+      "գրասենյակ",
+      "աշխատանքից հանել",
+      "բողոք",
+      "կարճ հագուստ",
+      "պայմանագիր"
+    ],
+    "keywords_en": [
+      "boss",
+      "secretary",
+      "office",
+      "fired",
+      "complaint",
+      "provocative dress",
+      "contract"
+    ],
+    "keywords_translit": [
+      "tnoren",
+      "qartugharuhi",
+      "grasenyak",
+      "ashxatanqic hanel",
+      "boghoq",
+      "karch hagust",
+      "paymanagir"
+    ],
+    "catchphrases": [
+      "Դու ոնց կա ըտենց էլ շարունակի, ես էդ պահով Պետրոսյանին արդեն գործից հանել եմ"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational"
+    ]
+  }
+}

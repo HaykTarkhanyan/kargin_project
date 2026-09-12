@@ -1,0 +1,70 @@
+{
+  "video_id": "YGHF0z6vcfg",
+  "seq": 645,
+  "kargin_id": 645,
+  "title": "Kargin Haghordum sketch 588 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2422,
+  "gen_sec": 13.3,
+  "prompt_tokens": 2353,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003145,
+  "annotation": {
+    "title_hy": "Շեֆի Ամանորյա Այցը",
+    "title_en": "The Boss's New Year Visit",
+    "summary_en": "A demanding boss visits his employee's home for New Year, insults his table, and forces him to cook his pet parrot.",
+    "summary_detailed_en": "The sketch takes place in a dining room decorated with an oriental rug, where Gevorgyan, a humble engineer wearing a skullcap and glasses, is visited by his arrogant boss, who is wearing a moustache and a leather jacket. The boss criticizes Gevorgyan for not visiting him first, then mocks his New Year's spread for lacking hot dishes. Despite Gevorgyan explaining his low salary, the boss remains insensitive, bringing his own alcohol but declaring he will deduct its cost from Gevorgyan's pay. The tension escalates when Gevorgyan's pet parrot repeatedly squawks, 'The boss is a scoundrel.' Offended, the boss orders Gevorgyan to fry the bird for dinner. Gevorgyan initially resists, mentioning the bird was a $100 gift, but the boss promises to reimburse him. After the bird is cooked and served, the boss stingily refuses to pay the full $100, offering only $20 as if it were a restaurant dish. The sketch ends with Gevorgyan finally agreeing with his late parrot's assessment.",
+    "keywords_hy": [
+      "շեֆ",
+      "նոր տարի",
+      "թութակ",
+      "աշխատավարձ",
+      "տականք",
+      "ամանոր",
+      "ինժեներ",
+      "խնջույք"
+    ],
+    "keywords_en": [
+      "boss",
+      "New Year",
+      "parrot",
+      "salary",
+      "scoundrel",
+      "holiday feast",
+      "engineer",
+      "pet bird"
+    ],
+    "keywords_translit": [
+      "shef",
+      "nor tari",
+      "thutak",
+      "ashkhatavardz",
+      "takank",
+      "amanor",
+      "injener",
+      "khnjuyk"
+    ],
+    "catchphrases": [
+      "Բայց շեֆ ջան ամսի 1-ին զանգեցինք ասեցինք գանք ասեցիք չէ մի էկեք։Բա ճիշտ եմ ասել արա կարողա ամեն մեկը մեր օջախ որք դնի"
+    ],
+    "topics": [
+      "work",
+      "party_guests",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

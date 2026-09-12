@@ -1,0 +1,73 @@
+{
+  "video_id": "fNXg8Cs7ifY",
+  "seq": 680,
+  "kargin_id": 680,
+  "title": "Kargin Haghordum sketch 260 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2016,
+  "gen_sec": 20.28,
+  "prompt_tokens": 2083,
+  "output_tokens": 596,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002829,
+  "annotation": {
+    "title_hy": "Յոթ ժամ ապրելու",
+    "title_en": "Seven Hours Left",
+    "summary_en": "A man escapes from a hospital after being told he has seven hours to live and tries to convince his friend to spend his life savings on a wild final night.",
+    "summary_detailed_en": "The sketch begins with a man wrapped head-to-toe in a floral blanket running down the street, fleeing from a hospital. He arrives at the apartment of his friend, Mish, who is in the middle of moving house, surrounded by cardboard boxes, a ladder, and a drying rack. The man, Rub, is distraught and tells Mish that the doctors gave him a terminal diagnosis: he only has seven hours left to live. Rub explains that instead of waiting for death in a hospital bed, he wants to go out and 'kayfavat' (have a great time). He reveals he has saved up a large sum of money for a 'black day' and wants to spend it all immediately on kebabs, saunas, and partying with many women. While Rub is desperate to live his final hours to the fullest, Mish remains hesitant. The punchline arrives when Mish explains why he can't go: while Rub doesn't have to worry about tomorrow because he will be dead, Mish has to wake up and go to work at 8:00 AM.",
+    "keywords_hy": [
+      "հիվանդանոց",
+      "ախպեր",
+      "փող",
+      "սև օրվա համար",
+      "կայֆավատ",
+      "աշխատանք",
+      "յոթ ժամ",
+      "մահ",
+      "ընկեր"
+    ],
+    "keywords_en": [
+      "hospital",
+      "friend",
+      "money",
+      "savings",
+      "last night",
+      "work",
+      "seven hours",
+      "death",
+      "party"
+    ],
+    "keywords_translit": [
+      "hivandanoc",
+      "axper",
+      "pogh",
+      "sev orva hamar",
+      "kayfavat",
+      "ashxatanq",
+      "yot zham",
+      "mah",
+      "ynker"
+    ],
+    "catchphrases": [
+      "ես առավոտ ժամը ութին գործի եմ"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "dark"
+    ]
+  }
+}

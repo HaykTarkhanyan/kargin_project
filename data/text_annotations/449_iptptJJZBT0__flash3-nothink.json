@@ -1,0 +1,70 @@
+{
+  "video_id": "iptptJJZBT0",
+  "seq": 449,
+  "kargin_id": 449,
+  "title": "Kargin Haghordum - Katafalk (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1451,
+  "gen_sec": 6.01,
+  "prompt_tokens": 1678,
+  "output_tokens": 653,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002798,
+  "annotation": {
+    "title_hy": "Կատաֆալկի Վարորդի Տաքսին",
+    "title_en": "The Hearse Driver's Taxi",
+    "summary_en": "A former hearse driver starting his first day as a taxi driver accidentally treats his passengers like funeral guests, offering them sweets and vodka while parked at a cemetery.",
+    "summary_detailed_en": "The sketch is set in a bleak, sun-bleached hillside cemetery on dry scrubland. The visual begins with an extreme wide shot showing a black estate-car hearse parked among the graves with tiny figures of mourners navigating the dusty terrain. The scene shifts to a group of five mourners dressed in black walking through the dry grass toward the vehicle. A grieving woman wearing a patterned headscarf is seen weeping, covering her face as she walks beside a teenage boy in a cap. The driver sits sideways in his open car door, casually addressing the group as if they were customers at a shop or a taxi. He offers them an odd assortment of items including boxed chocolates, vodka, juice, and champagne. The interaction turns absurd when he tries to offer them condoms (referred to as 'rezinner'), prompting an indignant response from one of the men who reminds him this isn't that kind of establishment. The driver suddenly realizes his mistake and apologizes, explaining that it is his first day working as a taxi driver after spending the last ten years driving a hearse, which explains his inappropriate professional habits.",
+    "keywords_hy": [
+      "կատաֆալկ",
+      "տաքսիստ",
+      "գերեզմանոց",
+      "թաղում",
+      "օղի",
+      "խանութ",
+      "վարորդ",
+      "սևազգեստ"
+    ],
+    "keywords_en": [
+      "hearse",
+      "taxi driver",
+      "cemetery",
+      "funeral",
+      "vodka",
+      "mourners",
+      "driver",
+      "black clothes"
+    ],
+    "keywords_translit": [
+      "katafalk",
+      "taksist",
+      "gerezmanoc",
+      "taghum",
+      "oghi",
+      "khanut",
+      "varord",
+      "sevazgest"
+    ],
+    "catchphrases": [
+      "ապեր կներես ապեր ես առաջին օր եմ տաքսիստ աշխատում մինչև էդ տաս տարի կատաֆալկա եմ քշել բայց էլ տենց բան չանես նատուռի չանես"
+    ],
+    "topics": [
+      "wedding_funeral",
+      "transport",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

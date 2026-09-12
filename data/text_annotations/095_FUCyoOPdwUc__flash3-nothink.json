@@ -1,0 +1,74 @@
+{
+  "video_id": "FUCyoOPdwUc",
+  "seq": 95,
+  "kargin_id": 95,
+  "title": "Kargin Haghordum sketch 636 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3433,
+  "gen_sec": 24.02,
+  "prompt_tokens": 2911,
+  "output_tokens": 761,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003738,
+  "annotation": {
+    "title_hy": "120-ամյա ծերունու գաղտնիքը",
+    "title_en": "The 120-Year-Old Man's Secret",
+    "summary_en": "A reporter tries to interview a 120-year-old man in Tibet about his longevity, only for the old man to agree with every contradiction the reporter throws at him.",
+    "summary_detailed_en": "The sketch takes place on a rocky mountainside in Tibet. A frustrated reporter and his cameraman, Ashot, are looking for a 'normal' story, despite the reporter's ironic claim that a 120-year-old man is inherently 'abnormal' because normal people die at 80. They encounter Nerses, an old man dressed in mystical robes and smoking a pipe. The reporter introduces his show, 'Tsibet Tsibet,' and begins interviewing Nerses about his longevity. Nerses reveals he has smoked and drank heavily his whole life, and lived a wild lifestyle involving many women in Gelendzhik. The reporter, fearing the report is losing its educational value, stops the filming to coach Nerses into providing a 'virtuous' reason for his long life. They restart, and Nerses claims his secret is that he never argues with anyone. When the reporter immediately argues that such a feat is impossible, Nerses instantly agrees with him, saying 'You're right, it is impossible,' completely undermining the premise of his own 'secret.'",
+    "keywords_hy": [
+      "ռեպորտաժ",
+      "Տիբեթ",
+      "երկարակեցություն",
+      "120 տարեկան",
+      "հարցազրույց",
+      "ծերունի",
+      "Ներսես պապի",
+      "վիճել"
+    ],
+    "keywords_en": [
+      "report",
+      "Tibet",
+      "longevity",
+      "120 years old",
+      "interview",
+      "old man",
+      "Grandpa Nerses",
+      "arguing"
+    ],
+    "keywords_translit": [
+      "reportaj",
+      "Tibet",
+      "erkarakecutyun",
+      "120 tarekan",
+      "harcazruyc",
+      "ceruni",
+      "Nerses papi",
+      "vichel"
+    ],
+    "catchphrases": [
+      "Պուծինը ընդե սաղին հանելա գործից չենք կարա իրան գնանք նկարենք",
+      "ծիբետ ծիբետ օ ինչ լավն ես ծիբետ",
+      "40 տարի առաջ գնացի Գելենջիկ օրը 4 հատ աղջիկ էինք ստորացնում",
+      "ես ընդհանրապես ոչ մեկի հետ չեմ վիճում",
+      "ճիշտա էտ հնարավոր չի"
+    ],
+    "topics": [
+      "media_showbiz",
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

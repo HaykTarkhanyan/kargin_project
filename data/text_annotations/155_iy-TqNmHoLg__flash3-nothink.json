@@ -1,0 +1,70 @@
+{
+  "video_id": "iy-TqNmHoLg",
+  "seq": 155,
+  "kargin_id": 155,
+  "title": "Kargin Haghordum sketch 529 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "155_Kargin_Haghordum_sketch_529_Hayko_Mko_iy-TqNmHoLg.it.json",
+    "visual": true
+  },
+  "input_chars": 2338,
+  "gen_sec": 10.24,
+  "prompt_tokens": 2062,
+  "output_tokens": 641,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002954,
+  "annotation": {
+    "title_hy": "Պետրոսյանի կատակը",
+    "title_en": "Petrosyan's Prank",
+    "summary_en": "A rebellious employee in a leather jacket ruthlessly mocks and physicalizes his boss, only to reveal a cruel twist about a supposed job promotion.",
+    "summary_detailed_en": "The sketch takes place in a formal office setting. A man dressed in a rugged leather jacket (Petrosyan) bursts into the office, exhibiting aggressive and disrespectful behavior toward a heavyset executive (referred to as Poncho or Pucho) seated at his desk. Petrosyan mocks the boss's fashion choices, comparing his shoes to the chair, and physically harasses him by shoving his head and slapping him. He mocks the boss's sedentary lifestyle, telling him to put something hard behind his back to feel 'real life' instead of relying on the softness of his office. The boss, visibly shaken and angry, repeatedly calls for security over the telephone. When the security guards and other staff members appear at the door, Petrosyan remains unfazed, even pouring water on the boss and telling him to count the drops to report to his superiors. As Petrosyan prepares to leave, he instructs the guards to 'blow up' the boss. However, the final punchline reveals that Petrosyan's boldness was based on a misunderstanding: his colleagues admit that the news about him being transferred to a government ministry was just a joke, leaving him in a precarious position after having insulted his current boss.",
+    "keywords_hy": [
+      "Պետրոսյան",
+      "օֆիս",
+      "տնօրեն",
+      "կատակ",
+      "աշխատող",
+      "քաշել",
+      "քարտուղարուհի",
+      "բռնցրել"
+    ],
+    "keywords_en": [
+      "Petrosyan",
+      "office",
+      "boss",
+      "prank",
+      "employee",
+      "leather jacket",
+      "secretary",
+      "promotion"
+    ],
+    "keywords_translit": [
+      "Petrosyan",
+      "ofis",
+      "tnoren",
+      "katak",
+      "ashkhatogh",
+      "qashel",
+      "qartugharuhi",
+      "brncrel"
+    ],
+    "catchphrases": [
+      "պոնչո էս գալոդ էսօր կռեսլոյի հետ ես բռնցրել",
+      "ճիշտն ասած կատակ էինք անում"
+    ],
+    "topics": [
+      "work",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "slapstick"
+    ]
+  }
+}

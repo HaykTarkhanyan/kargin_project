@@ -1,0 +1,70 @@
+{
+  "video_id": "eiHo5qDQqiM",
+  "seq": 624,
+  "kargin_id": 624,
+  "title": "Kargin Haghordum sketch 546 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "624_Kargin_Haghordum_sketch_546_Hayko_Mko_eiHo5qDQqiM.it.json",
+    "visual": true
+  },
+  "input_chars": 3740,
+  "gen_sec": 5.07,
+  "prompt_tokens": 2800,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003221,
+  "annotation": {
+    "title_hy": "Հոգեհարցուկի Սեանս",
+    "title_en": "The Seance Session",
+    "summary_en": "A woman attempts to contact her deceased husband through a seance, only to be interrupted by a neighbor and eventually find out her husband prefers hell to living with her.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit, candlelit apartment where a man and two women sit around a round table covered with a red cloth. One of the women, Vika, is impatient to start the seance because she has a boss's birthday party to attend. The man, acting as a medium, sets three conditions for the ritual: silence, darkness, and absolute belief, warning that the ghost will smell doubt and refuse to appear. As they hold hands and chant 'Armen, come,' they are interrupted by a knock at the door; it is their neighbor, also named Armen, who was confused by the shouting. After dismissing the neighbor, they resume. A translucent ghostly figure (Armen) appears behind them. Vika introduces her friends to her dead husband's ghost, and the ghost thanks the medium for the meeting. When Vika asks if it is better in the afterlife than with her, Armen bluntly states it is ten times better. The sketch ends with a punchline when Vika assumes he is in heaven, but Armen reveals he is actually in hell and still finds it preferable to his marriage.",
+    "keywords_hy": [
+      "հոգի կանչել",
+      "սեանս",
+      "մահացած ամուսին",
+      "հարևան",
+      "դժոխք",
+      "մոմեր",
+      "կարգին հաղորդում",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "seance",
+      "calling spirits",
+      "dead husband",
+      "neighbor",
+      "hell",
+      "candles",
+      "ghost",
+      "afterlife"
+    ],
+    "keywords_translit": [
+      "hogi kanchel",
+      "seans",
+      "mahatsats amusin",
+      "harevan",
+      "djokhq",
+      "momer",
+      "kargin haghordum",
+      "humor"
+    ],
+    "catchphrases": [
+      "Աջը պահի շուտ արա։"
+    ],
+    "topics": [
+      "family",
+      "neighbors",
+      "wedding_funeral"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

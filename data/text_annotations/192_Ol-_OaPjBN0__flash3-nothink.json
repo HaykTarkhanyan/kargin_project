@@ -1,0 +1,70 @@
+{
+  "video_id": "Ol-_OaPjBN0",
+  "seq": 192,
+  "kargin_id": 192,
+  "title": "Kargin Haghordum - Sex aygum (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2249,
+  "gen_sec": 24.89,
+  "prompt_tokens": 2249,
+  "output_tokens": 650,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003074,
+  "annotation": {
+    "title_hy": "Ոստիկանական հսկողություն այգում",
+    "title_en": "Police Patrol in the Park",
+    "summary_en": "Two police officers patrol a city park at night, checking if couples in the bushes are engaging in activities by mutual consent.",
+    "summary_detailed_en": "The sketch takes place on a wooded path in a city park. Two men dressed in police-style uniforms with distinctive red-topped caps, identified as the Chief and Simonyan, are conducting a night patrol. The Chief explains that although the park seems innocent during the day with children and dogs, after 8:00 PM, it becomes a scene of scandalous behavior that would embarrass a 'Playboy' magazine. He instructs his subordinate that their job is to ensure legal order—specifically checking if couples hidden in the bushes are there by mutual consent or if the women have been lured there with 'chips, juice, or crackers' against their will. As they walk, the Chief repeatedly shouts 'Stop!' at unseen couples in the bushes, asking if their actions are consensual. In multiple instances, when a man answers 'Yes,' the Chief snaps at him, insisting on hearing the woman's confirmation. The sketch ends at the park's 'hottest spot' where the Chief interrupts another couple, specifically asking the person in the back for confirmation, receiving a long, satisfied 'Yes' as the punchline.",
+    "keywords_hy": [
+      "ոստիկան",
+      "այգի",
+      "թփեր",
+      "փոխհամաձայնություն",
+      "հսկողություն",
+      "շեֆ",
+      "զույգեր",
+      "օրինապահ մարմիններ"
+    ],
+    "keywords_en": [
+      "police",
+      "park",
+      "bushes",
+      "mutual consent",
+      "patrol",
+      "chief",
+      "couples",
+      "law enforcement"
+    ],
+    "keywords_translit": [
+      "vostikan",
+      "aygi",
+      "tper",
+      "pokhhamadzaynutyun",
+      "hskoghutyun",
+      "shef",
+      "zuyger",
+      "orinapah marminner"
+    ],
+    "catchphrases": [
+      "Էտի ցերեկը բայց իրիկունը ութից հետո էս այգում նենց բաներա կատարվում որ էն փլաուբո ժուռնալի մեջ կամաչեն դնեն"
+    ],
+    "topics": [
+      "police",
+      "leisure_outing",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

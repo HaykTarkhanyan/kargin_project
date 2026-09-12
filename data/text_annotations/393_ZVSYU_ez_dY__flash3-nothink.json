@@ -1,0 +1,70 @@
+{
+  "video_id": "ZVSYU_ez_dY",
+  "seq": 393,
+  "kargin_id": 393,
+  "title": "Kargin Haghordum - Trener (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2084,
+  "gen_sec": 8.4,
+  "prompt_tokens": 2158,
+  "output_tokens": 629,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002966,
+  "annotation": {
+    "title_hy": "Ֆուտբոլային Տրեների Ծնունդը",
+    "title_en": "The Football Coach's Birthday",
+    "summary_en": "A stressed football coach gives a cynical pep talk and a sponsored tactical briefing to his nervous team before a big match, only to be surprised by a birthday celebration.",
+    "summary_detailed_en": "The sketch takes place in a sports locker room where a group of football players in jerseys and a goalkeeper are nervously awaiting their coach. The coach, wearing a suit, enters and immediately begins berating the team for their cowardice, mocking those who are hiding in the bathroom out of fear. One player asks for a cigarette to calm his nerves, prompting the coach to lament his life choices, regretting that he didn't go to medical school as his father wished instead of becoming a 'hambal' (laborer) in sports. He attempts to deliver a tactical briefing using a whiteboard, but hilariously treats the tactic diagram as a sponsored TV segment, announcing a real estate developer as the sponsor for the scheme. He describes the opponent's 4-3-3 formation and proposes a desperate 9+1 defensive strategy. The lights suddenly go out, and the coach begins to scold the players further, only for the team to break into a rendition of 'Happy Birthday.' Touched, the coach asks for a victory as his gift, but the players reveal they have already bought him a shirt instead, and they all pose for a photo with their trophies.",
+    "keywords_hy": [
+      "տրեներ",
+      "ֆուտբոլ",
+      "հանդերձարան",
+      "սխեմա",
+      "տակտիկա",
+      "ծննդյան տոն",
+      "խաղացողներ",
+      "համբալ"
+    ],
+    "keywords_en": [
+      "coach",
+      "football",
+      "locker room",
+      "tactics",
+      "birthday",
+      "pep talk",
+      "soccer team",
+      "strategy"
+    ],
+    "keywords_translit": [
+      "trener",
+      "futbol",
+      "handerdzaran",
+      "skhema",
+      "taktika",
+      "tsnund",
+      "khaghatsoghner",
+      "hambal"
+    ],
+    "catchphrases": [
+      "Չէ, ես ընդունվա ֆիզկուլտ, դառա համբալ։"
+    ],
+    "topics": [
+      "sports",
+      "party_guests",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

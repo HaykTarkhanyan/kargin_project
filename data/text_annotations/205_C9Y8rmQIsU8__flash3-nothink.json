@@ -1,0 +1,74 @@
+{
+  "video_id": "C9Y8rmQIsU8",
+  "seq": 205,
+  "kargin_id": 205,
+  "title": "Kargin Haghordum - Gyozen dnum (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 3095,
+  "gen_sec": 18.91,
+  "prompt_tokens": 2750,
+  "output_tokens": 712,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003511,
+  "annotation": {
+    "title_hy": "Մալենան և Հեռադիտակը",
+    "title_en": "Malena and the Binoculars",
+    "summary_en": "A man becomes obsessed with spying on a neighbor he calls Malena through binoculars, leading to a month-long neglect of his job and friends.",
+    "summary_detailed_en": "The sketch begins in a dimly lit apartment hallway where a man, wrapped in a blanket and holding a mug, is confronted by his friend, Lyov. Lyov is angry because the man hasn't answered his phone or gone to work for a month. Initially, the man lies, claiming he is busy with an office project, but Lyov reveals he checked the office and knows the truth. The man confesses that he has been captivated by a pair of binoculars Lyov gifted him. He admits he spends all his time watching a woman in the opposite building whom he has named 'Malena.' He describes her daily routine in detail, specifically her habit of undressing when she returns from work at 7:00 PM. The two friends begin to voyeuristically compete for the binoculars to watch her. The tension peaks when 'Malena' suddenly disappears from view. Just as the man despairs that his secret is ruined, the woman herself—played by a female actress—appears in the hallway behind them. She sarcastically calls him a pervert and asks if he knows where her yellow blouse is, confirming she is aware of his constant stalking.",
+    "keywords_hy": [
+      "հեռադիտակ",
+      "հարևանուհի",
+      "լրտեսել",
+      "Մալենա",
+      "Կարգին հաղորդում",
+      "զավեշտալի",
+      "ընկերներ",
+      "իզվրաշենյեց"
+    ],
+    "keywords_en": [
+      "binoculars",
+      "neighbor",
+      "spying",
+      "Malena",
+      "Kargin Haghordum",
+      "voyeur",
+      "friends",
+      "pervert"
+    ],
+    "keywords_translit": [
+      "heraditak",
+      "harevanuhi",
+      "lrtesel",
+      "Malena",
+      "Kargin Haghordum",
+      "zaveshtali",
+      "ynkerner",
+      "izvrashenyets"
+    ],
+    "catchphrases": [
+      "ես քո ընգերն եմ թե՞ կնիկդ",
+      "դու ինձ ծակիր Լյով",
+      "հանվումա, անընդհատ հանվումա",
+      "Բա գործի խի չես գնում այ տավար",
+      "դեղին բլուզկես չեմ գտնում, կարողա իմանաս որտեղ եմ դրե"
+    ],
+    "topics": [
+      "neighbors",
+      "family",
+      "work"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

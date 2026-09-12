@@ -1,0 +1,74 @@
+{
+  "video_id": "smPgnvUoJtU",
+  "seq": 416,
+  "kargin_id": 416,
+  "title": "Kargin Haghordum - Hogebanakan seans (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "416_Kargin_Haghordum_-_Hogebanakan_seans_Hayko_Mko_smPgnvUoJtU.hy.json",
+    "visual": true
+  },
+  "input_chars": 3445,
+  "gen_sec": 19.7,
+  "prompt_tokens": 2791,
+  "output_tokens": 655,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00336,
+  "annotation": {
+    "title_hy": "Հոգեբանական թերապիայի սեանս",
+    "title_en": "Psychological Therapy Session",
+    "summary_en": "In a parody of a Los Angeles support group, two newcomers—a sophisticated artist and a blunt Armenian immigrant—share their progress on addiction and imagination.",
+    "summary_detailed_en": "Set in a bare cream-walled room in Los Angeles (dated December 24, 2004), five men sit in a circle on office swivel chairs for a group therapy session. The therapist leads the group in a collective relaxation exercise before opening the floor. Two regulars share their progress about overcoming past relationships and alcoholism, with a character named Bob constantly repeating exactly what the previous speaker said to the therapist's approval. The session introduces two newcomers: Juan, a sophisticated man from Mexico, and Hendo, a blunt immigrant from Armenia. Juan delivers a poetic testimony about how six months of studying art and literature helped him quit drinking, while Hendo admits he has only been drug-free for two hours since arriving in America. For a final 'imagination' test, the therapist has them look out the window. Juan describes a complex vision involving Rembrandt, Michelangelo's David, and Zeus. When it is Hendo's turn, he humorously admits he was going to say he saw a little elephant and a fish but changed his mind after hearing Juan's high-brow response.",
+    "keywords_hy": [
+      "Հոգեբան",
+      "թերապիա",
+      "խումբ",
+      "ալկոհոլիկ",
+      "արվեստ",
+      "երևակայություն",
+      "Լոս Անջելես",
+      "նորեկ",
+      "Հայաստան"
+    ],
+    "keywords_en": [
+      "psychologist",
+      "therapy session",
+      "support group",
+      "alcoholism",
+      "imagination test",
+      "immigrant",
+      "Los Angeles",
+      "addiction",
+      "parody"
+    ],
+    "keywords_translit": [
+      "hogeban",
+      "terapia",
+      "xumb",
+      "alkoholik",
+      "arvest",
+      "erevakayutyun",
+      "Los Anjeles",
+      "norek",
+      "Hayastan"
+    ],
+    "catchphrases": [
+      "Հայաստանից, ես սի Հայաստանից",
+      "անունս Խոհան է",
+      "ես ուզում էի ասեի որ տեսնում եմ փղիկ ու ձկնիկ"
+    ],
+    "topics": [
+      "medical",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

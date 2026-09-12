@@ -1,0 +1,69 @@
+{
+  "video_id": "ra4-H-S5D_4",
+  "seq": 614,
+  "kargin_id": 614,
+  "title": "Kargin Haghordum sketch 496 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2486,
+  "gen_sec": 15.87,
+  "prompt_tokens": 2317,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003048,
+  "annotation": {
+    "title_hy": "Տնային Ռեստորան",
+    "title_en": "Home Restaurant",
+    "summary_en": "A husband complains that he prefers dining out for the 'aura' and service, so his wife transforms their home into a full-service restaurant to keep him from going out.",
+    "summary_detailed_en": "The sketch opens in a living room where a man with a mustache returns home, telling his wife (played by a male actor in drag with a blonde wig) that he has already eaten at a restaurant with friends. He explains that since getting a new job, he prefers the 'aura', service, and music of restaurants over home cooking. The wife, determined to keep him at home, strikes a deal: she will provide the exact same experience at home. The scene shifts to the dining table, decorated with flowers and fine glassware. The wife appears dressed as a waitress in a red apron, offering a menu. The husband tests her by asking for absurd items like 'melon sour cream' and 'pork jam,' but she claims to have everything. He orders grilled meat, salad, and vodka. To complete the experience, the wife turns on a boombox, playing his favorite song ('The Anthem of Friendship') while serving the food. The husband is impressed until the very end; when he tries to leave the table without explaining where he is going, the wife snaps out of character to question him. The husband smugly points out that in a real restaurant, they never ask such personal questions, winning the argument based on their deal.",
+    "keywords_hy": [
+      "ռեստորան",
+      "սպասարկում",
+      "ընտանեկան վեճ",
+      "հաճելի աուրա",
+      "կարգին հաղորդում",
+      "խորոված",
+      "մենյու",
+      "կնիկը դրագում"
+    ],
+    "keywords_en": [
+      "restaurant",
+      "service",
+      "family argument",
+      "pleasant aura",
+      "Kargin Haghordum",
+      "barbecue",
+      "menu",
+      "wife in drag"
+    ],
+    "keywords_translit": [
+      "restoran",
+      "spasarkum",
+      "yntanekan vech",
+      "hacheli aura",
+      "kargin haghordum",
+      "khorovats",
+      "menyu",
+      "kniky dragum"
+    ],
+    "catchphrases": [
+      "հաճելի լաուրա կա"
+    ],
+    "topics": [
+      "family",
+      "restaurant_cafe"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

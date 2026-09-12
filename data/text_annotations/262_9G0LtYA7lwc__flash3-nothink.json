@@ -1,0 +1,70 @@
+{
+  "video_id": "9G0LtYA7lwc",
+  "seq": 262,
+  "kargin_id": 262,
+  "title": "Kargin Haghordum sketch 570 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "262_Kargin_Haghordum_sketch_570_Hayko_Mko_9G0LtYA7lwc.en.json",
+    "visual": true
+  },
+  "input_chars": 1765,
+  "gen_sec": 5.05,
+  "prompt_tokens": 1788,
+  "output_tokens": 558,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002568,
+  "annotation": {
+    "title_hy": "Տեր հայրը և հարբեցողը",
+    "title_en": "The Priest and the Drunkard",
+    "summary_en": "A man struggling with alcoholism seeks advice from a priest in a park, but finds a clever excuse not to pour out his vodka.",
+    "summary_detailed_en": "The sketch is set in an autumn park covered in fallen leaves, where a man dressed as a medieval Armenian monk-scribe, wearing a tall pointed hood and holding a manuscript, is approached by a man in an olive beanie and tan coat. The drunkard greets the priest and explains his problem: he cannot stop drinking and needs help. The priest advises him that he must first help himself before seeking divine intervention, instructing the man to go to a nearby tree and pour out his bottle of vodka. The man hesitates, explaining that he cannot empty the bottle because he shares it with a friend; they are partners in the drink. When the priest suggests he should simply pour out his own half, the man delivers the punchline: he cannot do that either, because his half is the one at the bottom of the bottle. The scene uses a shot-reverse-shot technique among the bare trees to highlight the absurdity of the man's logic for keeping his alcohol.",
+    "keywords_hy": [
+      "տեր հայր",
+      "խմիչք",
+      "օղի",
+      "այգի",
+      "հարբեցող",
+      "խորհուրդ",
+      "կատակ",
+      "Կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "priest",
+      "vodka",
+      "drunkard",
+      "park",
+      "confession",
+      "alcoholism",
+      "logic",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "ter hayr",
+      "xmichq",
+      "oghi",
+      "aygi",
+      "harbecogh",
+      "xorhurd",
+      "katak",
+      "Kargin Haghordum"
+    ],
+    "catchphrases": [
+      "իմ կեսը տակիննա"
+    ],
+    "topics": [
+      "religion",
+      "drinking",
+      "leisure_outing"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

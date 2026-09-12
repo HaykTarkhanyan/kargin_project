@@ -1,0 +1,70 @@
+{
+  "video_id": "3xe0koMUcfE",
+  "seq": 63,
+  "kargin_id": 63,
+  "title": "Kargin Haghordum sketch 628 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1639,
+  "gen_sec": 21.92,
+  "prompt_tokens": 1892,
+  "output_tokens": 627,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002827,
+  "annotation": {
+    "title_hy": "Զապի սիգնալիզացիան",
+    "title_en": "Zaporozhets Alarm System",
+    "summary_en": "A young man in a luxury SUV mocks an older neighbor for installing an alarm system on a beat-up old car, only to learn the real reason for the security.",
+    "summary_detailed_en": "Set on a residential street lined with garages, an older man with gray hair wearing a plaid shirt is busy tinkering with the electrical wiring of his beat-up, vintage Zaporozhets (Zap) car. A young man, Valodik, wearing sunglasses pulls up alongside him in a sleek, black luxury SUV (Lexus or X6 style). Valodik leans out of his window and starts pestering the older man, Yurik, about his choice of vehicle. He mockingly suggests that Yurik should sell the 'Zap' and buy a luxury car like his own, complaining that the old car's low ground clearance will lead to expensive repairs. Yurik tries to dismiss him, telling him to go away and let him work. When Valodik persists, Yurik reveals he is installing a car alarm. Valodik laughs, questioning who would ever want to steal or loot such a worthless car. The sketch ends with Yurik's cynical punchline: while luxury cars like Valodik's get robbed, people simply use his old car as a public toilet, which is why he needs the alarm.",
+    "keywords_hy": [
+      "Զապոռոժեց",
+      "հարևան",
+      "մեքենա",
+      "սիգնալիզացիա",
+      "շքեղ մեքենա",
+      "փողոց",
+      "ծաղր",
+      "զապտ"
+    ],
+    "keywords_en": [
+      "Zaporozhets",
+      "neighbor",
+      "car alarm",
+      "luxury SUV",
+      "street conversation",
+      "old car",
+      "mockery",
+      "security"
+    ],
+    "keywords_translit": [
+      "Zaporozhets",
+      "harevan",
+      "meqena",
+      "signalizacya",
+      "shqex meqena",
+      "poxoc",
+      "caxr",
+      "zapt"
+    ],
+    "catchphrases": [
+      "Արա Վալոդիկ հօ դու փորձանք չես, քշի գնա թող գործ  անեմ արա։"
+    ],
+    "topics": [
+      "neighbors",
+      "transport",
+      "money"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

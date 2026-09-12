@@ -1,0 +1,78 @@
+{
+  "video_id": "7iLisyJtv08",
+  "seq": 67,
+  "kargin_id": 67,
+  "title": "Kargin Haghordum sketch 632 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2098,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Զոքանչի պատվերը",
+    "title_en": "A Contract on the Mother-in-Law",
+    "summary_en": "A man hires two hitmen to kill his mother-in-law because she refuses to sell her flat to ransom his brother, and asks them to make it slow.",
+    "summary_detailed_en": "In an apartment living room, a mustached man in a white shirt receives two heavies in black leather jackets, beanies and sunglasses, complimenting them on their clean work. He explains his problem at length: his brother has been arrested in Russia and the release demands a sackful of money, but his mother-in-law, who lives in the flat opposite, refuses to sell her home even though he has offered her a room in his own. Having exhausted persuasion, he hands over her door key, notes that she lives alone, and commissions her killing - volunteering twelve hundred dollars where the going rate is a thousand, with the request that she suffer. His wife comes home early with the men still there; he passes them off as army friends, refuses her offer of coffee and sends her to the kitchen, then manufactures errands to keep her occupied while the work is done. The visual pay-off is a body on the floor and an elderly woman eating obliviously at a table, and the closing line is one hitman telling the other that he is truly wicked.",
+    "keywords_hy": [
+      "զոքանչ",
+      "մարդասպան",
+      "պատվեր",
+      "կվարտիրա",
+      "Ռուսաստան",
+      "ախպեր",
+      "փող",
+      "բանալի",
+      "սպանել",
+      "գանգստեր"
+    ],
+    "keywords_en": [
+      "mother-in-law",
+      "hitman",
+      "contract killing",
+      "apartment",
+      "Russia",
+      "brother",
+      "ransom",
+      "key",
+      "gangsters",
+      "dollars"
+    ],
+    "keywords_translit": [
+      "zoqanch",
+      "mardaspan",
+      "patver",
+      "kvartira",
+      "Rusastan",
+      "akhper",
+      "pogh",
+      "banali",
+      "spanel",
+      "gangster"
+    ],
+    "catchphrases": [
+      "Արա Ռաֆո բայց դու շատ չար ես արա։",
+      "Փողին մունաթ ախպեր կտանջվի"
+    ],
+    "topics": [
+      "crime",
+      "family",
+      "money"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}

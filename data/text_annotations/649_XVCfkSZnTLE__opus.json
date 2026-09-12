@@ -1,0 +1,79 @@
+{
+  "video_id": "XVCfkSZnTLE",
+  "seq": 649,
+  "kargin_id": 649,
+  "title": "Kargin Haghordum sketch 592 (Hayko Mko)",
+  "model": "claude-opus-5",
+  "model_short": "opus",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1924,
+  "gen_sec": null,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "thoughts_tokens": null,
+  "cost_usd": 0.0,
+  "provenance_note": "Gemini refused this row with PROHIBITED_CONTENT (hard prompt filter, triggered by the curated dialogue). Annotated by Claude Opus 5 in a Claude Code session from the identical input; no paid API call.",
+  "annotation": {
+    "title_hy": "Բժշկի հաբը",
+    "title_en": "The Doctor's Pill",
+    "summary_en": "A doctor tells a man his wife will never desire him on his own merits and prescribes a pill to slip into her food; it works, but not in his favour.",
+    "summary_detailed_en": "A bespectacled man consults a doctor about his wife's total indifference to him. The doctor explains that a woman needs only a small trigger to be aroused, but that judging by the patient's appearance he is plainly not going to be that trigger, so they will solve the problem another way - not with the man's potential but with the pill's. One tablet slipped into her food, or passed off as some other medicine, and he will see what interest appears. The doctor adds one condition: shave off the goat-like beard before going home, since its unhygienic look would cancel the pill's effect entirely. In a series of domestic vignettes the man tries and fails to get his wife's attention, buzzing at her and being brushed off while she complains of a headache and tells him to go and lie down wherever he likes. He offers her a good headache tablet and she takes it. Moments later she is announcing, twice over, that she wants a man - and he replies that he wants one too.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հաբ",
+      "դեղ",
+      "կին",
+      "գրգռվել",
+      "գլխացավ",
+      "մորուք",
+      "սափրվել",
+      "ննջասենյակ",
+      "անտարբերություն"
+    ],
+    "keywords_en": [
+      "doctor",
+      "pill",
+      "medicine",
+      "wife",
+      "arousal",
+      "headache",
+      "beard",
+      "shaving",
+      "bedroom",
+      "indifference"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hab",
+      "degh",
+      "kin",
+      "grgrvel",
+      "glkhatsav",
+      "moruq",
+      "sapvrel",
+      "nnjasenyak",
+      "antarberutyun"
+    ],
+    "catchphrases": [
+      "Նայելով ձեր արտաքին տեսքին ես կարող եմ ասել որ դուք այդ պատճառը չեք հանդիսանում",
+      "Տղամարդ եմ ուզում,տղամարդ եմ ուզում",
+      "Իի ես էլ եմ ուզում"
+    ],
+    "topics": [
+      "medical",
+      "family",
+      "romance"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

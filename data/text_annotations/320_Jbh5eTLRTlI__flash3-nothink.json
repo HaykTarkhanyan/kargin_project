@@ -1,0 +1,73 @@
+{
+  "video_id": "Jbh5eTLRTlI",
+  "seq": 320,
+  "kargin_id": 320,
+  "title": "Kargin Haghordum sketch 282 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2500,
+  "gen_sec": 13.36,
+  "prompt_tokens": 2432,
+  "output_tokens": 686,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003274,
+  "annotation": {
+    "title_hy": "Ֆաշիստների Գաղտնի Պլանը",
+    "title_en": "The Nazis' Secret Plan",
+    "summary_en": "Two Nazi officers discuss a plan to conquer Moscow by shopping for cheap military equipment in Dubai before revealing their nonchalance about a Russian spy in their midst.",
+    "summary_detailed_en": "The sketch takes place in a dimly lit, wood-paneled military office, decorated with a wall map and a desk lamp. Two officers wearing German military uniforms with swastika armbands engage in a parodied dialogue using broken Armenian infused with German-sounding gibberish and the phrase 'Hai Hitler.' One officer describes a dream where the 'Fuehrer' slapped him, which they interpret as a great honor. They discuss the strategic failure to capture Moscow due to a lack of weapons. Instead of traditional logistics, the commanding officer suggests a 'business' approach: the troops should travel from Moscow to Dubai to buy cheaper equipment from the Emirates. The dialogue mixes military planning with dark humor regarding Polish prisoners and 'gas rooms' for entertainment. In the final scene, they notice a hooded captive or a young officer in the room. When one asks who the young man is, the other calmly identifies him as a Russian spy. When asked why they haven't arrested him, the punchline is that it is pointless because he will just find a way to wriggle out of it (krutit klini).",
+    "keywords_hy": [
+      "ֆաշիստներ",
+      "գերմանացի",
+      "հիտլեր",
+      "մոսկվա",
+      "դուբայ",
+      "ռուս լրտես",
+      "զինվորական",
+      "քարտեզ",
+      "կարգին հաղորդում"
+    ],
+    "keywords_en": [
+      "fascists",
+      "germans",
+      "Hitler",
+      "Moscow",
+      "Dubai",
+      "Russian spy",
+      "military officer",
+      "map",
+      "Kargin Haghordum"
+    ],
+    "keywords_translit": [
+      "fashistner",
+      "germanaci",
+      "hitler",
+      "moskva",
+      "dubay",
+      "rus lrtes",
+      "zinvorakan",
+      "qartez",
+      "kargin haghordum"
+    ],
+    "catchphrases": [
+      "Ո՞վ լինել այն երիտասարդ ունտեղ աֆիցեղ։ -Ղուս շպիոն։ -Այդ դեպքում ինչո՞ւ մենք նրան չբռնել։ -Անիմաստ։ Մեկա, կղուտիտ կլինի։"
+    ],
+    "topics": [
+      "army",
+      "crime",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "satire"
+    ]
+  }
+}

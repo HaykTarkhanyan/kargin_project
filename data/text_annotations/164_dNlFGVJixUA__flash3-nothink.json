@@ -1,0 +1,70 @@
+{
+  "video_id": "dNlFGVJixUA",
+  "seq": 164,
+  "kargin_id": 164,
+  "title": "Kargin Haghordum sketch 208 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "164_Kargin_Haghordum_sketch_208_Hayko_Mko_dNlFGVJixUA.ru.json",
+    "visual": true
+  },
+  "input_chars": 1925,
+  "gen_sec": 16.49,
+  "prompt_tokens": 1978,
+  "output_tokens": 663,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002978,
+  "annotation": {
+    "title_hy": "Գլխավոր ինժեների չուլկիները",
+    "title_en": "The Chief Engineer's Stockings",
+    "summary_en": "A woman confronts a high-ranking official about why her husband, the chief engineer, came home drunk wearing women's stockings after their supposed business outing.",
+    "summary_detailed_en": "The sketch begins in a formal office decorated with an Armenian flag and a wall map, where a mustached official, Mr. Hovsepyan, is interrupted by a woman named Nazik. She is upset and confronts him about his whereabouts with her husband, the company's chief engineer, the previous day. While Hovsepyan claims they were at a furniture factory opening, Nazik reveals that her husband returned home at 3 AM drunk and wearing women's stockings. The official, embarrassed in front of his German business guests, desperately promises to explain everything with a map the next day just to get her to leave. The scene shifts to a domestic setting where the official's wife, wearing a floral robe, helps him get ready. It is eventually revealed that the official himself had a lipstick stain on him from his 'meetings.' The punchline occurs when the official's wife discovers her missing stockings inside his suit jacket pocket, revealing that his excuses were part of a cover-up for his own eccentric behavior or infidelities, which he tries to pass off as a prank.",
+    "keywords_hy": [
+      "գլխավոր ինժեներ",
+      "չուլկի",
+      "գործարան",
+      "դավաճանություն",
+      "պաշտոնյա",
+      "կնոջ հագուստ",
+      "խանդ",
+      "աշխատասենյակ"
+    ],
+    "keywords_en": [
+      "chief engineer",
+      "stockings",
+      "factory",
+      "infidelity",
+      "official",
+      "women's clothing",
+      "jealousy",
+      "office"
+    ],
+    "keywords_translit": [
+      "glkhavor injener",
+      "chulki",
+      "gortsaran",
+      "davachanutyun",
+      "pashtonya",
+      "knoj hagust",
+      "khand",
+      "ashkhatasenyak"
+    ],
+    "catchphrases": [
+      "Վահրամ երբ ես վերջ տալու ես համար կատակներին, առավոտից չուլկիներս ման եմ գալիս, դու մի ասա քո պիջակի գրպանում ա։"
+    ],
+    "topics": [
+      "work",
+      "family",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "misunderstanding"
+    ]
+  }
+}

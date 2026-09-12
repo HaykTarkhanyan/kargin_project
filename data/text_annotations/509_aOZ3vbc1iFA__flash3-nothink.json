@@ -1,0 +1,72 @@
+{
+  "video_id": "aOZ3vbc1iFA",
+  "seq": 509,
+  "kargin_id": 509,
+  "title": "Kargin Haghordum sketch 137 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": false,
+    "transcript": "509_Kargin_Haghordum_sketch_137_Hayko_Mko_aOZ3vbc1iFA.hy.json",
+    "visual": true
+  },
+  "input_chars": 2429,
+  "gen_sec": 17.72,
+  "prompt_tokens": 2192,
+  "output_tokens": 671,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003109,
+  "annotation": {
+    "title_hy": "Գյուղի Ամենալավ Հեքը",
+    "title_en": "The Village's Best Healer",
+    "summary_en": "A woman seeks advice from a costumed eccentric healer to help her husband quit drinking, only to propose a counter-productive reward at home.",
+    "summary_detailed_en": "The sketch is divided between two distinct visual settings. In the first, a character dressed as an 18th-century nobleman with a powdered white wig, red velvet cape, and lace gloves acts as a village healer or mystic in a dark room lit by a candelabra. A woman (played by a male actor in drag) visits him to discuss her husband's alcoholism. The healer examines a photograph and discusses psychological methods, referencing Sigmund Freud and Nietzsche. He suggests a tactic where the wife must fulfill her husband's greatest desire if he quits drinking, creating a motivation strong enough to overcome the addiction. The scene then transitions to a bright domestic kitchen where the wife, wearing a loud patterned housecoat and ginger wig, attempts to implement this plan. Her husband, in a green sweater, is stubbornly drinking and refuses to stop until she reveals her 'reward.' The joke concludes with her offering him three liters of vodka every day at the dinner table as a reward for not drinking, completely defeating the purpose of the cure. The sketch features repetitive use of the word 'Jan' and physical comedy involving a large glass jar.",
+    "keywords_hy": [
+      "հեք",
+      "խմելը թարգել",
+      "ալկոհոլիկ",
+      "երազանք",
+      "կեղծամ",
+      "խորհուրդ",
+      "հարբեցող",
+      "երազանքի իրականացում"
+    ],
+    "keywords_en": [
+      "healer",
+      "quitting drinking",
+      "alcoholic",
+      "dream",
+      "wig",
+      "advice",
+      "drunkard",
+      "fulfilling dreams"
+    ],
+    "keywords_translit": [
+      "heq",
+      "xmele targel",
+      "alkoholik",
+      "erazanq",
+      "kexam",
+      "xorhurd",
+      "harbecox",
+      "erazanqi irakanacum"
+    ],
+    "catchphrases": [
+      "ջան լսել եմ որ գյուղի ամենալավ հեքի ես",
+      "խմել եմ ու պիտի խմեմ",
+      "դու թողնում ես խմելը... ես ամեն օր հաց ուտելուց սեղանին կդնեմ 3 լտր օղի"
+    ],
+    "topics": [
+      "family",
+      "drinking",
+      "medical"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "lw4-Qv8kdL4",
+  "seq": 200,
+  "kargin_id": 200,
+  "title": "Kargin Haghordum sketch 537 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1535,
+  "gen_sec": 4.25,
+  "prompt_tokens": 1727,
+  "output_tokens": 598,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002658,
+  "annotation": {
+    "title_hy": "Շվացնելու գաղտնիքը",
+    "title_en": "The Whistling Secret",
+    "summary_en": "A mother teaches her son to use the code word 'whistle' when he needs to go to the bathroom, leading to a disastrous misunderstanding with his father at night.",
+    "summary_detailed_en": "The sketch begins in an autumn city park where a mother is sitting on a bench reading a book. Her young son, wearing a blue baseball cap, is playing on the path, poking at stones with a stick. Worried about his safety, she tells him to be careful not to hurt his hands. When the boy loudly announces he needs to use the bathroom, the mother, embarrassed by the public setting, instructs him to use the code word 'whistle' (shvacnel) instead. She demonstrates this by asking him what he wants, and he happily complies with the new code. The scene then cuts to a dark bedroom at night. The boy approaches his sleeping parents; the father is wearing a red sleep mask. The boy wakes his father, stating he needs to 'whistle' right now. The tired father, unaware of the secret code, tells him it is too late to whistle because it will wake the mother and brother. When the boy insists he cannot hold it any longer, the father gives in and tells him to 'whistle quietly' into his ear, leading to a gross-out punchline as the father realizes the boy's actual intent.",
+    "keywords_hy": [
+      "երեխա",
+      "ծնողներ",
+      "զուգարան",
+      "գաղտնաբառ",
+      "շվացնել",
+      "այգի",
+      "ննջարան",
+      "հայր և որդի"
+    ],
+    "keywords_en": [
+      "child",
+      "parents",
+      "bathroom",
+      "code word",
+      "whistling",
+      "park",
+      "bedroom",
+      "father and son"
+    ],
+    "keywords_translit": [
+      "erexа",
+      "cnoghner",
+      "zugaran",
+      "gaghtnabar",
+      "shvacnel",
+      "aygi",
+      "nnjaran",
+      "hayr ev ordi"
+    ],
+    "catchphrases": [
+      "արի կամաց ականջիս մեջ շվացրա"
+    ],
+    "topics": [
+      "family"
+    ],
+    "humor_type": [
+      "misunderstanding",
+      "situational"
+    ]
+  }
+}

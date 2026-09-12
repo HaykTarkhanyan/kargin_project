@@ -1,0 +1,77 @@
+{
+  "video_id": "72TIBrWCc_s",
+  "seq": 139,
+  "kargin_id": 139,
+  "title": "Kargin Haghordum sketch 375 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "139_Kargin_Haghordum_sketch_375_Hayko_Mko_72TIBrWCc_s.lv.json",
+    "visual": true
+  },
+  "input_chars": 4454,
+  "gen_sec": 6.0,
+  "prompt_tokens": 3468,
+  "output_tokens": 752,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00399,
+  "annotation": {
+    "title_hy": "Սեքսոպատոլոգի մոտ",
+    "title_en": "At the Sexopathologist",
+    "summary_en": "A doctor delivers grim news to a patient over the phone with terrible bedside manner before consulting a man struggling with sexual hyperactivity.",
+    "summary_detailed_en": "The sketch begins in a medical office where a doctor, wearing a white lab coat, calls a patient named Vachagan. With casual cruelty, he informs Vachagan that he has only ten days to live, then adds that he has been searching for him for nine days, leaving the man with only one day left. After the patient hangs up in distress, the doctor complains about people being 'intact' and unable to take a joke. A man in a grey suit enters for a consultation. The visitor refers to the doctor as a 'sex-patalok' (ceiling), which the doctor corrects to sexopathologist and urologist. The patient explains his 'emotional activity,' describing a compulsive need to approach and distance himself from every woman he sees, likening himself to a hyperactive animal. He recounts a recent trip from Moscow to Leningrad by train where he shared a compartment with a Russian-Ukrainian woman. He describes their immediate mutual attraction and subsequent encounter, followed by the woman weeping with guilt over her husband and children. The patient, moved by her tears, spent the rest of the night alternating between crying with her and having sex, leaving him exhausted by his own empathy and libido.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հիվանդանոց",
+      "սեքսոպատոլոգ",
+      "ուրոլոգ",
+      "անալիզ",
+      "գնացք",
+      "կուպե",
+      "հիպեռակտիվություն",
+      "հումոր"
+    ],
+    "keywords_en": [
+      "doctor",
+      "hospital",
+      "sexopathologist",
+      "urologist",
+      "medical analysis",
+      "train",
+      "compartment",
+      "hyperactivity",
+      "humor"
+    ],
+    "keywords_translit": [
+      "bzhishk",
+      "hivandanoc",
+      "sexopatolog",
+      "urolog",
+      "analiz",
+      "gnacq",
+      "kupe",
+      "hiperaktivutyun",
+      "humor"
+    ],
+    "catchphrases": [
+      "ձեզ բարի ճանապարհ տեղ հասնեք կզանգեք",
+      "սեքսի վերջը դուք էք",
+      "տարբերակ ա սեքսապատալոկ",
+      "ոնց-որ ղզղնի տոկոսը օրգանիզմիս մեջ գերազանցումա նորմալ",
+      "ու ջոգինք որ տենց սիմպատյագաի հարցա մեր մեջ առաջանում"
+    ],
+    "topics": [
+      "medical",
+      "transport",
+      "bureaucracy"
+    ],
+    "humor_type": [
+      "situational",
+      "wordplay"
+    ]
+  }
+}

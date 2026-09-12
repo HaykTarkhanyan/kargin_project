@@ -1,0 +1,69 @@
+{
+  "video_id": "kc_5NV5QkFI",
+  "seq": 318,
+  "kargin_id": 318,
+  "title": "Kargin Haghordum sketch 479 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1735,
+  "gen_sec": 11.51,
+  "prompt_tokens": 1975,
+  "output_tokens": 402,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002194,
+  "annotation": {
+    "title_hy": "Պուճուր մարդը ուղեղում",
+    "title_en": "The Tiny Man in the Brain",
+    "summary_en": "A patient visits a doctor complaining about a tiny man living inside his head who constantly insults people, causing him to lose his job and ruin social events.",
+    "summary_detailed_en": "In a medical office setting, a man with curly hair sits at a desk across from a doctor wearing a white lab coat. The patient animatedly explains a bizarre psychiatric condition: he believes a tiny man lives inside his brain and constantly shouts profanities. He describes how this internal voice forced him to insult a bride at a wedding and caused him to lose a job opportunity after he cursed out a potential boss who was a friend of his uncle. The doctor listens intently and claims to have discovered a cure for this specific ailment, though he notes it is very expensive. When the doctor reveals the treatment costs 5,000 US dollars, the patient's expression changes. The sketch concludes with the patient ominously asking the doctor if he knows what the 'tiny man' is saying about him right now, implying the internal voice has begun insulting the doctor over the high price.",
+    "keywords_hy": [
+      "բժիշկ",
+      "հոգեբույժ",
+      "ուղեղ",
+      "հայհոյանք",
+      "հիվանդ",
+      "կլինիկա",
+      "փող",
+      "բուժում"
+    ],
+    "keywords_en": [
+      "doctor",
+      "psychiatrist",
+      "brain",
+      "profanity",
+      "patient",
+      "clinic",
+      "money",
+      "treatment"
+    ],
+    "keywords_translit": [
+      "bjishk",
+      "hogebuyj",
+      "ughegh",
+      "hayhoyanq",
+      "hivand",
+      "klinika",
+      "pogh",
+      "bujum"
+    ],
+    "catchphrases": [
+      "Բժիշկ պուճուր մարդը հիմա գիտե՞ս ինչա ասում։"
+    ],
+    "topics": [
+      "medical",
+      "money"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

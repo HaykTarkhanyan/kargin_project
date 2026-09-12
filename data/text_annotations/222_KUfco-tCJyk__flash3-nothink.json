@@ -1,0 +1,73 @@
+{
+  "video_id": "KUfco-tCJyk",
+  "seq": 222,
+  "kargin_id": 222,
+  "title": "Kargin Haghordum sketch 304 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 2170,
+  "gen_sec": 22.18,
+  "prompt_tokens": 2119,
+  "output_tokens": 656,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.003027,
+  "annotation": {
+    "title_hy": "Գերմանական հավ և բռենդի",
+    "title_en": "German Chicken and Brandy",
+    "summary_en": "A demanding customer in a blonde wig argues with a defensive shopkeeper over the lack of luxury alcohol and the freshness of his local poultry.",
+    "summary_detailed_en": "The sketch takes place in a small, traditional Armenian grocery shop. A customer, portrayed by a male actor in drag wearing a blonde bob wig and a yellow blazer, approaches the counter to ask for brandy. The mustachioed shopkeeper, standing in front of shelves stocked with vodka, confuses 'brandy' with a new type of Turkish wafer. When the customer clarifies she wants high-end alcohol like tequila or XO whisky, the shopkeeper dismisses her, claiming his store is a 'normal Armenian life shop' rather than a supermarket for fancy goods. The argument escalates when the customer asks for German chicken. The shopkeeper insists his local chicken is superior, using the Russian phrase 'fingers will be licked' (paltchiki oblizhesh). When the customer questions the freshness of the local poultry, the shopkeeper takes personal offense, leading to a heated exchange where the customer mocks his dirty shirt and mustache. In the final visual sequence, she brandishes a raw, plucked chicken at him, smelling it and complaining of an odor, while he retort by insulting her own personal hygiene.",
+    "keywords_hy": [
+      "խանութ",
+      "հավ",
+      "բռենդի",
+      "վաֆլի",
+      "առևտուր",
+      "վիճաբանություն",
+      "տեղական հավ",
+      "սուպերմարկետ"
+    ],
+    "keywords_en": [
+      "grocery shop",
+      "chicken",
+      "brandy",
+      "wafers",
+      "shopping",
+      "argument",
+      "local poultry",
+      "supermarket"
+    ],
+    "keywords_translit": [
+      "khanut",
+      "hav",
+      "brendi",
+      "vafli",
+      "arevtur",
+      "vichabanutyun",
+      "teghakan hav",
+      "supermarket"
+    ],
+    "catchphrases": [
+      "բռենդի ունեք",
+      "էդ որն ես թազա թուրքական վաֆլիներիցա",
+      "էսի սովորական հայկական ժիզնենի խանութա",
+      "խմում ես ազդումա",
+      "կակոյ պրիվետ տակոյ պակա"
+    ],
+    "topics": [
+      "shop_market",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "character"
+    ]
+  }
+}

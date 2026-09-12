@@ -1,0 +1,73 @@
+{
+  "video_id": "fRUGy2n63JY",
+  "seq": 574,
+  "kargin_id": 574,
+  "title": "Kargin Haghordum sketch 425 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1671,
+  "gen_sec": 4.7,
+  "prompt_tokens": 1792,
+  "output_tokens": 607,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002717,
+  "annotation": {
+    "title_hy": "Գրականության ուսուցչի երկակի կյանքը",
+    "title_en": "The Literature Teacher's Double Life",
+    "summary_en": "A strict literature teacher lectures a student on the importance of national poets, only for the student to find him drunk and disheveled at home.",
+    "summary_detailed_en": "The sketch begins in a pale-blue school office where a curly-haired man, wearing glasses and a formal shirt with a tie, sits at a desk. He acts as a teacher, Comrade Hovhannisyan, and delivers a stern lecture to a student named Arturik about the importance of Armenian literature. He praises giants like Narekatsi, Kuchak, and Tumanyan, insisting that every Armenian must know their heritage. He lends Arturik his own book of Kuchak's poetry, instructing the boy to return it to his home the following evening after classes. The scene shifts to the teacher's apartment, where Arturik arrives to return the book. Instead of the dignified educator, he finds the man sprawled on the floor in a state of disarray. The teacher is visibly drunk, lying next to a bottle of vodka and a simple plate of tomato and lavash. When the shocked student questions the contrast between his high-minded literary lectures and his current condition, the teacher cynically replies that the literature was just 'work,' while this state is 'life.'",
+    "keywords_hy": [
+      "դպրոց",
+      "ուսուցիչ",
+      "աշակերտ",
+      "գրականություն",
+      "խմած",
+      "օղի",
+      "Քուչակ",
+      "դասարան",
+      "հայոց լեզու"
+    ],
+    "keywords_en": [
+      "school",
+      "teacher",
+      "student",
+      "literature",
+      "drunk",
+      "vodka",
+      "Kuchak",
+      "classroom",
+      "Armenian language"
+    ],
+    "keywords_translit": [
+      "dproc",
+      "usucich",
+      "ashakert",
+      "grakanutyun",
+      "xmac",
+      "oghi",
+      "Kuchak",
+      "dasaran",
+      "hayoc lezu"
+    ],
+    "catchphrases": [
+      "Էն գործ ա, իսկ սա կյանք"
+    ],
+    "topics": [
+      "school",
+      "drinking",
+      "family"
+    ],
+    "humor_type": [
+      "situational",
+      "satire"
+    ]
+  }
+}

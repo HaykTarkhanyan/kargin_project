@@ -1,0 +1,71 @@
+{
+  "video_id": "KK74n_-aNMc",
+  "seq": 684,
+  "kargin_id": 684,
+  "title": "Kargin Haghordum - Viselskiy (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": false,
+    "text_common": true,
+    "transcript": "684_Kargin_Haghordum_-_Viselskiy_Hayko_Mko_KK74n_-aNMc.hy.json",
+    "visual": true
+  },
+  "input_chars": 1665,
+  "gen_sec": 3.97,
+  "prompt_tokens": 1873,
+  "output_tokens": 493,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002416,
+  "annotation": {
+    "title_hy": "Վիսոցկին և Էլվիսը դրախտում",
+    "title_en": "Visotsky and Elvis in Heaven",
+    "summary_en": "A street fortune teller gives a musician two pieces of news about his future career in a heavenly rock band.",
+    "summary_detailed_en": "Set on a forest or park path, a flamboyant character wearing a red costume, a headscarf, and a gold medallion (acting as a street fortune teller) interacts with a street musician dressed in a blue fleece. Both carry acoustic guitars. The fortune teller complains about the lack of business and offers to read the musician's palm for free. He tells the musician that his palm reveals two pieces of news. The first is 'good' news: after the musician dies, he will go to heaven and join an elite musical group featuring legends like Elvis Presley, Vladimir Vysotsky, and John Lennon. The musician is ecstatic, expressing his deep admiration for these idols. However, the punchline arrives when the fortune teller delivers the second piece of news: the band's first rehearsal is scheduled for tomorrow, implying the musician's imminent death.",
+    "keywords_hy": [
+      "բախտագուշակ",
+      "երաժիշտ",
+      "կիթառ",
+      "դրախտ",
+      "Էլվիս Պրեսլի",
+      "Վլադիմիր Վիսոցկի",
+      "փորձ",
+      "մահ"
+    ],
+    "keywords_en": [
+      "fortune teller",
+      "musician",
+      "guitar",
+      "heaven",
+      "Elvis Presley",
+      "Vladimir Vysotsky",
+      "rehearsal",
+      "death"
+    ],
+    "keywords_translit": [
+      "baxtagushak",
+      "erajisht",
+      "kitar",
+      "draxt",
+      "Elvis Presli",
+      "Vladimir Visotski",
+      "pordz",
+      "mah"
+    ],
+    "catchphrases": [
+      "Չաղո ջան արի բախտդ բացեմ,կամ բռիտ մեջ նայեմ",
+      "այսօր քո բախտը նայեմ ես փող չունեմ տալու",
+      "վաղը այդ խմբի առաջին փորձն"
+    ],
+    "topics": [
+      "leisure_outing",
+      "other"
+    ],
+    "humor_type": [
+      "situational",
+      "absurd"
+    ]
+  }
+}

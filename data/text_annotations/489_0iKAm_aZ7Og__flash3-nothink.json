@@ -1,0 +1,71 @@
+{
+  "video_id": "0iKAm_aZ7Og",
+  "seq": 489,
+  "kargin_id": 489,
+  "title": "Kargin Haghordum sketch 117 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": "489_Kargin_Haghordum_sketch_117_Hayko_Mko_0iKAm_aZ7Og.en.json",
+    "visual": true
+  },
+  "input_chars": 3305,
+  "gen_sec": 16.59,
+  "prompt_tokens": 2631,
+  "output_tokens": 645,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.00325,
+  "annotation": {
+    "title_hy": "Հոգեբուժարանի Մեռելը",
+    "title_en": "The Corpse of the Psychiatric Ward",
+    "summary_en": "A patient in a psychiatric hospital is convinced he is a corpse, leading a doctor to use a physical logic test to prove he is still alive.",
+    "summary_detailed_en": "The sketch takes place in a psychiatric ward, where patients in striped pajamas engage in erratic behavior, including playing chess and staging bizarre 'performances' for the staff. One group of patients tries to impress a doctor with a rehearsed theatrical piece they call 'Walnuts and Sour Cream.' The main conflict involves a patient named Koryun who has convinced himself that he is actually a dead body. When the doctor questions how a corpse can sit and talk, the patient claims he is a spirit and the doctor is a medium. To debunk this delusion, the doctor asks the patient if dead bodies bleed. The patient confidently asserts that they do not. The doctor then pricks the patient, causing him to bleed. Instead of realizing he is alive, the patient simply concludes that his original premise was wrong and that dead bodies actually do bleed, maintaining his delusion. The visuals show a chaotic ward setting with bookshelves, doctors in white coats and caps, and patients displaying various eccentricities.",
+    "keywords_hy": [
+      "հոգեբուժարան",
+      "գիժ",
+      "բժիշկ",
+      "դիակ",
+      "արյուն",
+      "հիվանդանոց",
+      "ներկայացում",
+      "պոպոք ու սմետան"
+    ],
+    "keywords_en": [
+      "psychiatric ward",
+      "mental hospital",
+      "doctor",
+      "corpse",
+      "delusion",
+      "blood",
+      "patient",
+      "insane asylum"
+    ],
+    "keywords_translit": [
+      "hogebujaran",
+      "gizh",
+      "bzhishk",
+      "diak",
+      "aryun",
+      "hivandanoc",
+      "nerkayacum",
+      "popoq u smetan"
+    ],
+    "catchphrases": [
+      "բժիշկ ջան քո համար մի հատ ահասառսուռ ներկայացում ենք հորինել",
+      "պոպոք ու սմետանը այ սենց վիտամինա",
+      "փաստօրեն ես սխալվում էի բժիշկ դիակի մեջ արյուն հոսումա"
+    ],
+    "topics": [
+      "medical",
+      "other"
+    ],
+    "humor_type": [
+      "absurd",
+      "situational"
+    ]
+  }
+}

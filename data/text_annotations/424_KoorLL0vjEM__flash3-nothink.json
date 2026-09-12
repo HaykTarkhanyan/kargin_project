@@ -1,0 +1,68 @@
+{
+  "video_id": "KoorLL0vjEM",
+  "seq": 424,
+  "kargin_id": 424,
+  "title": "Kargin Haghordum - @ntrutyunner (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1339,
+  "gen_sec": 8.37,
+  "prompt_tokens": 1615,
+  "output_tokens": 630,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002698,
+  "annotation": {
+    "title_hy": "Մեռած տատիկի ընտրությունները",
+    "title_en": "The Dead Grandmother's Vote",
+    "summary_en": "A man frantically searches for his grandmother at a polling station after discovering her name on the active voter list, despite her having died five years ago.",
+    "summary_detailed_en": "The sketch is set during an election day at a polling station located inside a Soviet-era school building. The scene opens with a hand-lettered sign indicating 'Electoral precinct N 3068'. As voters and passers-by move through the wood-panelled corridors, one man (Ararat) is stopped by an acquaintance (Hov) who tells him to slow down. Ararat explains he is in a massive hurry. When asked if something is wrong, Ararat reveals he is looking for his grandmother. His friend is shocked, reminding him that his grandmother passed away five years ago. Ararat admits he thought so too, but he just saw her name on the voter registration lists and was informed by officials that she had just cast her ballot and left the building. The sketch satirizes electoral fraud and 'ghost voters' in Armenia. The man delivers an animated monologue to the camera, gesturing wildly and slapping his forehead in disbelief before running off down the hallway to catch his deceased relative.",
+    "keywords_hy": [
+      "ընտրություններ",
+      "քվեարկություն",
+      "ցուցակներ",
+      "տատիկ",
+      "կատակ",
+      "ընտրակեղծիք",
+      "դպրոց"
+    ],
+    "keywords_en": [
+      "elections",
+      "voting",
+      "voter lists",
+      "grandmother",
+      "joke",
+      "electoral fraud",
+      "school"
+    ],
+    "keywords_translit": [
+      "ntrutyunner",
+      "kvearkutyun",
+      "tsucakner",
+      "tatik",
+      "katak",
+      "ntrakeghtsiq",
+      "dproc"
+    ],
+    "catchphrases": [
+      "Կամաց արա րատ ջան դու ես",
+      "Ցնդար արա-րատ ջան,տատդ հինգ տարի առաջա մեռել",
+      "Ապե ես էլ տենց գիտեյի, բայց անունը ցուցակներում տեսա,ասին հենց նոր քվեարկե դուրսա եկել"
+    ],
+    "topics": [
+      "bureaucracy",
+      "other"
+    ],
+    "humor_type": [
+      "satire",
+      "situational"
+    ]
+  }
+}

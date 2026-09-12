@@ -1,0 +1,73 @@
+{
+  "video_id": "g_3SkZC0-RE",
+  "seq": 322,
+  "kargin_id": 322,
+  "title": "Kargin Haghordum sketch 284 (Hayko Mko)",
+  "model": "gemini-3-flash-preview",
+  "model_short": "flash3-nothink",
+  "schema_version": 2,
+  "input_sources": {
+    "title": true,
+    "text": true,
+    "text_common": true,
+    "transcript": null,
+    "visual": true
+  },
+  "input_chars": 1396,
+  "gen_sec": 4.83,
+  "prompt_tokens": 1735,
+  "output_tokens": 593,
+  "thoughts_tokens": 0,
+  "cost_usd": 0.002646,
+  "annotation": {
+    "title_hy": "Առևանգում և Բենզին",
+    "title_en": "Kidnapping and Gasoline",
+    "summary_en": "Two kidnappers threaten a wealthy man's daughter with a horrific ultimatum, but her unexpected response leaves them speechless.",
+    "summary_detailed_en": "The sketch begins on a city street where two men in a car kidnap a young woman, pulling her into the vehicle. The scene shifts to the interior of the car as they drive toward the outskirts of town. The kidnappers, acting like stereotypical uneducated thugs, explain that they haven't kidnapped her for who she is, but because of her father's wealth. They describe her father as having one good quality—being rich—and one bad quality—not wanting to share that money with 'uneducated, dirty guys' like them. As they reach an abandoned industrial yard, the passenger delivers a terrifying ultimatum to the girl, whom he calls a 'growing organism' and a 'subsidiary enterprise.' He gives her two choices: either she shows them where her father hides his money, or they will take turns raping her in the car until the gasoline runs out. Without a moment of hesitation or fear, the girl calmly looks at them and suggests they go fill up the tank first. The kidnappers are left stunned by her dark, nonchalant reaction to their threat.",
+    "keywords_hy": [
+      "առևանգում",
+      "փողոց",
+      "մեքենա",
+      "բենզին",
+      "դուստր",
+      "հայր",
+      "փողեր",
+      "կատակ",
+      "սև հումոր"
+    ],
+    "keywords_en": [
+      "kidnapping",
+      "car",
+      "gasoline",
+      "daughter",
+      "ransom",
+      "threat",
+      "money",
+      "industrial yard",
+      "dark humor"
+    ],
+    "keywords_translit": [
+      "arevangu",
+      "poghoc",
+      "meqena",
+      "benzin",
+      "dustr",
+      "hayr",
+      "pogher",
+      "katak",
+      "sev humor"
+    ],
+    "catchphrases": [
+      "Լսի քեզի ինչ եմ ասում այ աճող օրգանիզմ"
+    ],
+    "topics": [
+      "crime",
+      "money",
+      "transport"
+    ],
+    "humor_type": [
+      "dark",
+      "situational"
+    ]
+  }
+}
