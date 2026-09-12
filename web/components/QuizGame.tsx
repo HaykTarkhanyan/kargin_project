@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { QUIZZES, type Quiz } from "@/lib/quizzes";
 
 type Progress = Record<string, number>; // quizId -> best fraction (0..1)
@@ -112,7 +113,9 @@ function Runner({ quiz, onDone, onBack }: { quiz: Quiz; onDone: (pct: number) =>
         {quiz.questions.map((qq, qi) => (
           <div key={qi} className="k-border k-shadow rounded-xl bg-card p-4">
             <div className="font-bold">{qi + 1}. {qq.prompt}</div>
-            <div className="mt-3 space-y-2">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            {qq.image && <img src={qq.image} alt="" className="mt-3 w-full rounded-lg border-2 border-ink" />}
+            <div className={`mt-3 ${qq.optionImages ? "grid grid-cols-2 gap-2" : "space-y-2"}`}>
               {qq.options.map((opt, oi) => {
                 const chosen = answers[qi] === oi;
                 const isCorrect = oi === qq.correctIndex;
@@ -123,6 +126,8 @@ function Runner({ quiz, onDone, onBack }: { quiz: Quiz; onDone: (pct: number) =>
                   <button key={oi} disabled={submitted} style={style}
                     onClick={() => setAnswers((a) => a.map((x, i) => (i === qi ? oi : x)))}
                     className={`block w-full rounded-lg border-2 border-ink px-3 py-2 text-left text-sm font-semibold ${!submitted && chosen ? "bg-kblue text-white" : "bg-surface"}`}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    {qq.optionImages && <img src={qq.optionImages[oi]} alt="" className="mb-1.5 aspect-video w-full rounded object-cover" />}
                     {opt}
                     {submitted && isCorrect ? " ✓" : ""}
                     {submitted && chosen && !isCorrect ? " ✗" : ""}
@@ -130,7 +135,17 @@ function Runner({ quiz, onDone, onBack }: { quiz: Quiz; onDone: (pct: number) =>
                 );
               })}
             </div>
-            {submitted && qq.explanation && <div className="mt-2 text-xs text-muted">💡 {qq.explanation}</div>}
+            {submitted && (qq.explanation || qq.sketchId) && (
+              <div className="mt-2 text-xs text-muted">
+                💡 {qq.explanation}
+                {qq.sketchId && (
+                  <>
+                    {" "}
+                    <Link href={`/sketch/${qq.sketchId}`} className="font-bold underline">Դիտել սքեթչը →</Link>
+                  </>
+                )}
+              </div>
+            )}
           </div>
         ))}
       </div>
