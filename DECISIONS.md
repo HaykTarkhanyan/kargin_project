@@ -18,6 +18,10 @@ sketch can be in several. The Armenian name, description and order live in
 `web/public/data/collections.json`. The site reads that from server components
 only: `/collections`, `/collections/[slug]`, a three-tile strip on the home page
 and a chip on each sketch page. Nothing is added to the `Sketch` type.
+*Revisited 2026-09-12:* the home-page strip is gone at the owner's request; the
+search page is for searching. Collections are reached from the navbar,
+`/collections` and the chips on sketch pages. `CollectionStrip.tsx` and the
+`strip` slot on `SearchExperience` were removed with it.
 
 **Why.** Every field on a sketch ships inside the home page's JavaScript, because
 `SearchExperience` is a client component that imports the whole payload, and the
