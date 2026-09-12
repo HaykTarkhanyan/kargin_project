@@ -1,0 +1,425 @@
+{
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSe_3NBgJwXichYb1b9dyyzye-8MWgcyJNKYTSCdVbYDlhM8aA/viewform",
+  "fetched_at": "2026-09-11T18:35:47.987Z",
+  "title": "Կարգին հաղորդում թեստ 2",
+  "internal_name": "Blank Quiz",
+  "description": "Այս թեստը Կարգին հաղորդման տարբեր սկեչերի մասին թեստ է:\nԱռաջին  թեստին կարող եք անցնել հետևյալ հղումով՝ http://goo.gl/5SsnZp",
+  "description_html": "Այս թեստը Կարգին հաղորդման տարբեր սկեչերի մասին թեստ է:<br>Առաջին  թեստին կարող եք անցնել հետևյալ հղումով՝ <a href=\"http://goo.gl/5SsnZp\">http://goo.gl/5SsnZp</a>",
+  "question_count": 13,
+  "questions": [
+    {
+      "item_id": 990356862,
+      "question": null,
+      "help_text": null,
+      "type_code": 11,
+      "type": "image",
+      "entries": [],
+      "image": {
+        "id": "12EM8ZZAYVDpjPmBdFYfutSVyT-LhWYlEfrVnuZ1xxx6fKQ",
+        "width": 557,
+        "height": 283,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkiglkGESHiSc3v4ChU0afcXgXhR64qs1ficEWiBNuAoW4FZCrpVkNbqcBEWR6tNQ-LEdXeS83CsQFPZ7cw89zIKnFqS1fqT31_MVyw8pdgHDrxB_96vLP4RbS7RFUKJotuf-9fUHY-E-K2RaEfbjKz_pMlD9qB6fESws53jTOujsWoVCrNL_6VIP2Or0zhJLlfwUTroV72nwhjBBpzwxIc0SFZ54cn9lu_kzPQ",
+        "file": "images/q01.jpg"
+      }
+    },
+    {
+      "item_id": 193574675,
+      "question": "Ձեր Անունը",
+      "help_text": null,
+      "type_code": 0,
+      "type": "short_answer",
+      "entries": [
+        {
+          "entry_id": 366340186,
+          "options": [],
+          "required": true
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 6975245,
+      "question": "Ազգանունը",
+      "help_text": null,
+      "type_code": 0,
+      "type": "short_answer",
+      "entries": [
+        {
+          "entry_id": 902147532,
+          "options": [],
+          "required": true
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 589507339,
+      "question": "1.Նշվածներից ո՞վ է Ֆիլարետը",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 161373971,
+          "options": [
+            {
+              "text": "1",
+              "image": {
+                "id": "171iBwpWWKENEpv2mX0ky_zHuZZhmHqlGWA6gJ8TGxBJBCg",
+                "width": 260,
+                "height": 154,
+                "url": "https://docs.google.com/forms-images-rt/ANbbkihJUw73iM3YykTwNT37k7wgZXFq5oMNeTO0EtQr23M1AjHB5cmk4hOw-PGP21fqkO-NmY1vdKLzOMD1FU5S2qn9K741xGGQTxQleVpblTP9SmUA6s_vk74_Xb11zb5AoAar-lz2PH8OSyeKVff8VrdBjBZdJA65hKih4Txy_4fPprJgMVR_dHC05tjf3FuN8YBn1BF1E5Yrjrp7pgi_D5g7ZDSJ28nDzDNL0w",
+                "file": "images/q04_opt1.png"
+              }
+            },
+            {
+              "text": "2",
+              "image": {
+                "id": "1uqlBUfYQTD8d8KBF8c_uzxSPWvTqvGW-OC_4FS70pDzWjg",
+                "width": 260,
+                "height": 137,
+                "url": "https://docs.google.com/forms-images-rt/ANbbkijrs6mf4C9GUScMcDEhAW6Y35dCcCttGeM7vM6eyZ1dgi60z65CGRNleqNKW1xIDjgfaxGTNSE89yGJdq0SCsI3Go1rznfLGmLWU3x6zFT7HuC-dnwjrHOknuTtxFzue2thva18Bu7Le-xDdlsP5guW1pC7FcDtbNkvYN9qRNUjlZxNQXZKdGWMxyTWn0mYVIpIHbXaQUNC3lA8GWMMzBEug0dBSuvj0dE",
+                "file": "images/q04_opt2.png"
+              }
+            },
+            {
+              "text": "3",
+              "image": {
+                "id": "1MnKbNc71gHVJCgEO4dnfAhnjzYs0lRQ87W7cV--wY3B1kQ",
+                "width": 260,
+                "height": 243,
+                "url": "https://docs.google.com/forms-images-rt/ANbbkijh6pfQ-E0rk-9wrG7PeAOAMAalOPYMMLUgFEiK3jICGnMElWIq_dCKfV9fQlnImSoOivcIflbdQGFII3yrG_zoMd0BkMPyTxy8y9HeMXxj6EiWWc47L_k_si6zhb8w-7LlQz5bN1UYa6XW3n8bCEPyJtJJrz5neHlh65o6yTYHoIr8s-KJveADoQYY7RKnyTfZn8j3LZAdu2JVufGsZRGtnKowZoQdqkJcnw",
+                "file": "images/q04_opt3.png"
+              }
+            },
+            {
+              "text": "4",
+              "image": {
+                "id": "1Qusa6zqGs04vItdHBeXJsIlE5PkMn_ITmizfEw8goyG5ng",
+                "width": 260,
+                "height": 146,
+                "url": "https://docs.google.com/forms-images-rt/ANbbkihSl42vpzFIAKoB0QWR93cz-0CJcHIgnNEEsULBOQTJuL4N2bhSamxh2Mjn2MuP_FAxRwHmtguYEF3-J7MCvHoVbNnlvX29a17hkuLlhgzF3tn-vuDpJ9GzqfnheIxfFUXeaVYegKEhCvsM07wXmmMagLdcerfBeBb8h7Dr8Uddw1aC3NlQS414Wja3lJEpn9-qjQiqzTEqOmMzWDIiCYVF030nNzYE8hNudg",
+                "file": "images/q04_opt4.png"
+              }
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 561474563,
+      "question": "2.Ի՞նչ վիրավորանք չէր տալիս խանութի աշխատողը ձմերուկի կեսը ուզող հաճախորդին  ",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 407852323,
+          "options": [
+            {
+              "text": "1.Էշ",
+              "image": null
+            },
+            {
+              "text": "2.Ոչխար",
+              "image": null
+            },
+            {
+              "text": "3.Համբալ",
+              "image": null
+            },
+            {
+              "text": "4.ՈՒռած",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 1890674219,
+      "question": "3.Նշվածն կերպարներիցերից ո՞վ է կտազինցի",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 2039001411,
+          "options": [
+            {
+              "text": "1",
+              "image": {
+                "id": "1eyBpK0oT7nnzAc9CPjhrhtmXGOQZE0iOEQScZ0VXGjXviA",
+                "width": 260,
+                "height": 302,
+                "url": "https://docs.google.com/forms-images-rt/ANbbkigZdn9EUDd57olKhHJYgXK0ROCPJRyCi_dspoVsfLED10Pm4v5Mv2Dy6tCs3mu1ZdTAcrFuSBqvaLHT_H33kNhysioDVOAeSWI-BfI6YD2Ll3XRgP6QPn3tVJHd-k_EJjeVBFwwx8xz6XuGkZK8_vgHPKA7JKhBLaOnkUMmDg-AvDzrlbRU2ZcjMxNxHqinGkDrpkR3WMHYz8170deFko_f_-ElBygbqds",
+                "file": "images/q06_opt1.png"
+              }
+            },
+            {
+              "text": "2",
+              "image": {
+                "id": "1NDO8NvNL2ZMz1kkxzCGCUngQDjadCxgkXPD7VmFqts8bhw",
+                "width": 260,
+                "height": 307,
+                "url": "https://docs.google.com/forms-images-rt/ANbbkiga__TvGTGHlTZMcBaucTD2g2F6orycFN3XRv6yZV0C3HusKh_-UFj7LXeoMk2jBXku_s350EmA6eE7QRWranAgzNB33WRSzSdNB5qA0Eohy5Nz98eZ-FEpUXgbnloc0aDMJAt3wbZtJsBQmj2kDbuDl5l2Qq0Xp-uzlbm51qaE4RiGL8OXzW9mxpis8YOCciFQYDxOE_NlOZbnDz54BrRueKDWn-iyVfE",
+                "file": "images/q06_opt2.png"
+              }
+            },
+            {
+              "text": "3",
+              "image": {
+                "id": "1eZt-yUyJzveqmbDuGAX8IuRn0qNHLvUrPUTLliGWGWlOfg",
+                "width": 260,
+                "height": 590,
+                "url": "https://docs.google.com/forms-images-rt/ANbbkigERedAchHbXia7PRcAnNUwJMfuvuIplqcd6roV0bllhf2uzXcLyvmZ8I9H8HKDSOctvcforuOT4xwo1YLbzX1L0m3ciSxwPrA7w-yeCe56yBdP7dJ0zoEPKkyF7b30rS8gRoQbPycjpbKQW3JXf9C3JsdMXWzjaVn3wC_hZmp0DrAYQoDupXeVvO1f0cKX40BJtirgHYQpN1f1zIQarsmiKt2ir25EfyXFiA",
+                "file": "images/q06_opt3.png"
+              }
+            },
+            {
+              "text": "4",
+              "image": {
+                "id": "1D6JJr4fNobVftPiNeVOR2bbRBJeKDsWiPbn-MLrKvsRO-A",
+                "width": 260,
+                "height": 337,
+                "url": "https://docs.google.com/forms-images-rt/ANbbkihqfDZkGN6dWCT9hkqnhd5ZZuijCQprKVcquBgfS6becvMGF7aaSugJmQpEx6u4iL8WScgnHjJXY-qxG68VBMdrOJJTAhPpThWY5_10DlMigLhjpekA4vZ685_VaAgYorLAZ5AFrZ1xKKhZyzcWZPuYjnQhjccR8-3mcb0tqN7THJyDSCIqdqJusnWDqF7BJFffW0hBHy2Dnhw4F3JIQb4YFj4eSBwLXhX_WA",
+                "file": "images/q06_opt4.png"
+              }
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 1594473512,
+      "question": "4.Ո՞վ էր ասում «Ֆիզրուկ կենաց ասա»",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 842364361,
+          "options": [
+            {
+              "text": "1.Դպրոցի տնօրենը",
+              "image": null
+            },
+            {
+              "text": "2.Դպրոցի ուսմասվարը",
+              "image": null
+            },
+            {
+              "text": "3.Դպրոցի աշխատանքի ուսուցման դասատուն",
+              "image": null
+            },
+            {
+              "text": "4.Դպրոցի տնտեսվարը",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 754481254,
+      "question": "5.Ո՞ր թեկնածուին էին ներկայացնում այն սկեչում, որտեղ Մկոյի կերպարը անձամբ ճանաչում  էր թեկնածուին",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 21757338,
+          "options": [
+            {
+              "text": "1.Հակոբյան Հակոբ Հակոբի",
+              "image": null
+            },
+            {
+              "text": "2.Համոյան Համլետ Համիկի",
+              "image": null
+            },
+            {
+              "text": "3.Ալեքսանյան Սամվել Լիմինդրի",
+              "image": null
+            },
+            {
+              "text": "4.Բաբայան Բաբկեն Բաբիկի",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 852106223,
+      "question": "6. Ո՞րն է ավելորդ",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1487867333,
+          "options": [
+            {
+              "text": "1.Вычислит անեմ",
+              "image": null
+            },
+            {
+              "text": "2.Խոդ տված տրակտոր չլիներ",
+              "image": null
+            },
+            {
+              "text": "3.Ոչ բարևում եք, ոչ էլ տեղ կա նստելու",
+              "image": null
+            },
+            {
+              "text": "4.Ո՞վ ա 5000 դրամ կորցրել",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 69914966,
+      "question": "7. Ո՞ր քաղաքի մասին երգեց աջ կողմում նստած կովբոյը այս սկեչի վերջում",
+      "help_text": null,
+      "type_code": 0,
+      "type": "short_answer",
+      "entries": [
+        {
+          "entry_id": 673848468,
+          "options": [],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1irCrLeDNA7TOvNe7E96Y2L8iQGR8BUHHZS6KD85iWx0YBw",
+        "width": 480,
+        "height": 360,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijWqia566DpCDCLFpmLMocf9-IpfD77e6DTN7Mwkdf7995rB1kGlYG1m1RVFWqUaRgctlN1XkZopJRJexFC-ME0mZdew83pRgeFu6Qusv2fF151_JwMNbVX_sFUK-_qAIt83Ggr2OvPGQJFZg036-zhlKinyoZpw87N3VqZdd6s9iMWh1_yFQHjR1RhZJLcNSr_lTWn4ryOOlg52_nyMZ4LfOMfQdeRuPmXBQ",
+        "file": "images/q10.jpg"
+      }
+    },
+    {
+      "item_id": 939653771,
+      "question": "8. Ի՞նչով էր սպառնում սկեչի այս հերոսը Լենային",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1302108885,
+          "options": [
+            {
+              "text": "1.Կգա Մոսկվա, կսպանի իրեն",
+              "image": null
+            },
+            {
+              "text": "2.Կասի Վաղարշակին, որ սպանի իրեն",
+              "image": null
+            },
+            {
+              "text": "3․Կասի, որ այդ երեխան Վաղարշակից է",
+              "image": null
+            },
+            {
+              "text": "4․Կսպանի Վաղինակին",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1g1oeXlg_oGYKARmNj_qu7ZOJ_kEnZDxv33rFbUpixF8RvA",
+        "width": 740,
+        "height": 463,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijKdBfd6tWcpb6NzYVaqD5el3_64cBTdd7ivsv6zazJBg-CrtHalUqv0PmK1kMT8AQkTkf6Drb00fPAdegEI6Pr_vqy1dD3VOfMUZmeLpH5qsPJ8YJIWUq2UP-QuSe5Af6rNppTnkuR2X6EGAxAj9wa0_jpD2vaOeFG22TGB5VG5rp2E5VVuadtg-KRUsai1Uz3mCCyuOMT82OfMZm5ZGbpRHX9yZwc2xgI3g",
+        "file": "images/q11.png"
+      }
+    },
+    {
+      "item_id": 1761133765,
+      "question": "9.Ո՞րտեղ են թաղված այս գծի վարորդների վարորդական վկայականները",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1742851538,
+          "options": [
+            {
+              "text": "1.Սովետաշենում",
+              "image": null
+            },
+            {
+              "text": "2.Արագածի գագաթին",
+              "image": null
+            },
+            {
+              "text": "3.Թոխմախի Գյոլում",
+              "image": null
+            },
+            {
+              "text": "4.Ռոմենց բոստանում",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "16UdC1Zo92MjibLLl5KhVmeY9khDevAZ6psIQJ7Y-i-liAw",
+        "width": 740,
+        "height": 416,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkiiPcLqChdKguI-4xSGODfWcYSMf-CXRCk5iztBXdoNXszJ-yrgrmmljaAgngeNL3eATd1e21pN8rj-O_HbUKVACWIur025bOCjAVHJR7l4lUYRKrNxYjeJlmvNX-n_-jqywfDrON1rgpjpHG7CxECHZ6nqYKxGbqN-fpHhyWQ7vAaCX3OzIBE4hI8RUKqwDUYqbGADFG7eCPzKfJ3g3Fy9zMErPxGdybjRSmg",
+        "file": "images/q12.jpg"
+      }
+    },
+    {
+      "item_id": 1356790063,
+      "question": "10. Ո՞ւմ մասին էր այն երգը, որը հնչում էր հայտնի սկեչի այն ժամանակ, երբ Մուտիլովշիկը մուտիտ էր անում բանտախցում",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 858385358,
+          "options": [
+            {
+              "text": "1.Մայքլ Ջեքսոն",
+              "image": null
+            },
+            {
+              "text": "2.Ջորջ Մայքլ",
+              "image": null
+            },
+            {
+              "text": "3.Մայքլ Ջորդան",
+              "image": null
+            },
+            {
+              "text": "4.Մայք Թայսոն",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": null
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSd99rjjFwKas8vIiVTdfkXuIYJblKN2qct-e05BztBMiT9M5Q/viewform?pli=1",
+  "fetched_at": "2026-09-11T18:33:40.564Z",
+  "title": "Կարգին հաղորդում",
+  "internal_name": "Կարգին հաղորդում",
+  "description": "Երկրորդ մասը այստեղ\n\nԵրրորդ մասը այստեղ ",
+  "description_html": "Երկրորդ մասը <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeXV2r44kmyRNtMkaBxshS86ZHSVP_9Hft_E26Pkug3-ZhnNg/viewform\">այստեղ</a><br><br>Երրորդ մասը <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdRpik2q7JuL-YqxeZl8ZQbprYGMjkksEHxQUdCMUDSNDhHLQ/viewform\">այստեղ</a> ",
+  "question_count": 15,
+  "questions": [
+    {
+      "item_id": 2146869665,
+      "question": "Հանուն փողի նույնիսկ ինչի՞ է պատրաստ Բարութիկը",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1462724237,
+          "options": [
+            {
+              "text": "Գործի ընդունվել",
+              "image": null
+            },
+            {
+              "text": "Խաշ դնել",
+              "image": null
+            },
+            {
+              "text": "Աման լվալ",
+              "image": null
+            },
+            {
+              "text": "Ջուր ծեծել",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "19MTTTjmKS_YGQGuC0RwJvOijGdebZFUzAUzpUNqY3xkeUg",
+        "width": 324,
+        "height": 235,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkigmLzqIf2wDFydZ13J6olnQSKH2Qqfzf-wX7_OEsaVfg67ymgY9E0YRt77_dsdTBmO7NzHKxwPz-QaNtqWA_tHR1qVaH8ogUIE1rbnKvm-uUP8jn5ZJJ9z47a9sJmBR4-Q_sHcQXsdnKjoY0Pw3vTo8R23Xx0uWAgNjYRCznLaVqhHxrh00nN2PyI6F1qRVXIcSER6sBroGGxxOmRRiLDGlAz8AeNzuU4f3xg",
+        "file": "images/q01.png"
+      }
+    },
+    {
+      "item_id": 1461193110,
+      "question": "Ո՞ր երկրին է անվանում անասուն",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 2018534324,
+          "options": [
+            {
+              "text": "Ֆրանսիա",
+              "image": null
+            },
+            {
+              "text": "Ավստրիա",
+              "image": null
+            },
+            {
+              "text": "Ուզբեկստան",
+              "image": null
+            },
+            {
+              "text": "Շվեյցարիա",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "18EM3wA0h0hAwYgN1iTI32wVouGUkGc-XgBI2R2jtRVPUIw",
+        "width": 251,
+        "height": 283,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijbhaKgNx5LROOwIQGwOpfNqQQZfwgFRNLWvDLNWXjvd7qHXj0mm-DWer5lNxcroBMMt9PPIlQv75-Mng4qM_xQ2zO6SpbMRfBpOO5jg-LpEWxDF8JZQD-96FrayQy7h_aFYhGQ3qrk3E1AFqEMr_qo1GcYW7Jq80_9r10itgvA4iQfGIlCDFm8q40hM-OhwUEUFL9vJtrBdAgAt9VXzz1NW26Nu7QBfL0",
+        "file": "images/q02.png"
+      }
+    },
+    {
+      "item_id": 477074918,
+      "question": "Ի՞նչ է նրա անունը",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 963358951,
+          "options": [
+            {
+              "text": "Ավետիք Իսահակյան",
+              "image": null
+            },
+            {
+              "text": "Կազորյան Վարազդատ",
+              "image": null
+            },
+            {
+              "text": "Սիմոնյան Գառնիկ",
+              "image": null
+            },
+            {
+              "text": "Չանենցավանցի Եղիշ",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1Z4Hwjf6kmlqb8OurTtdhZ7AI8jARWKg742H1xxp5tBT49g",
+        "width": 402,
+        "height": 338,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkiixu4wxB4MBDIeHvDZMH6BvAC34lkNAgOi7B4v6f2dGQe3OdVwo4ss4qIqZ8wSLT7YgXTvCEqlMQ5GCq_Yg6VUTzkOXJHjGNyD984yGHamAnR1GuhRV4uza4BMQpzVFPaUa1oB4KOiMBNoFIa97RD5ClwtbaiseGJHh1iZYPm1ibRxAYfEvYy8JreOvhgUcBCjrrhW4MI3OIkS9wUkbd8WuQe2p0HEltvXORg",
+        "file": "images/q03.png"
+      }
+    },
+    {
+      "item_id": 482229520,
+      "question": "Ամեն կանալիզացիա իրա ․․․․․․․ ունի",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 934176317,
+          "options": [
+            {
+              "text": "սերն ու հարգանքն",
+              "image": null
+            },
+            {
+              "text": "ճիշտն ու սխալն",
+              "image": null
+            },
+            {
+              "text": "աջն ու ձախն",
+              "image": null
+            },
+            {
+              "text": "համն ու հոտն",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1lwUXOhUTmxsnpy_vD5fltVD3TC0QekKtx3EeTknBzm-cIg",
+        "width": 429,
+        "height": 291,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkiimV5z3_rPokVo2XvgMFSlt8WBqO4G8iLYbjk643JwqAQrkvvmrDEHbSTeZMmRYKt1eQCWh0YJbg2R6X5cNALUdnZmsOLHPTrWOAuc0qMtz1bJh8SN7ZZ6UnD2uA2XdNDcEWL-wJn05lealA5Y4WDLQ_XRSqgT3S44vp6kjJjOljbPinSzT1Fj1b7KPrdcf315HAwcq0qFosRZIzVM9b81Jsuc6KO60Hv5nJw",
+        "file": "images/q04.png"
+      }
+    },
+    {
+      "item_id": 748983866,
+      "question": "Ո՞րն է ավելորդ ",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 818805576,
+          "options": [
+            {
+              "text": "Առաջին հարկի սվարշիկ Հրաչ",
+              "image": null
+            },
+            {
+              "text": "Երրորդ հարկի էլեկտրիկ Գագո",
+              "image": null
+            },
+            {
+              "text": "դու",
+              "image": null
+            },
+            {
+              "text": "Էջմիածնեցի ակվարիում սարքող Հովո",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1-4ZIwqfeNIzk9nV1clcZALQ9DOnv8DMxrypp8b091U0Umg",
+        "width": 445,
+        "height": 282,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijrt89kRFTOPoqeGqonKenjCOs7K_xnAnqvCLtwcLljmpQvRyRxV4b0VEtuVBi5woD-A4R9KugaldZN2lGys36xMY3fsUhXoD6Yh7Be-thtJSAWrms-us9Oglgb20SaiRCUF0QwYsimmTohfGfd3jRRaQJUHMMu2RAXGlpDhk6-RtlkhEvNukHUR2VZTIOLhcWU9VKoC6mj6V1f55cJyf7mp_rY1zZHvsoicw",
+        "file": "images/q05.png"
+      }
+    },
+    {
+      "item_id": 2067811224,
+      "question": "Շեքսպիրի ո՞ր ստեղծագործությանն է հղում արվում երկխոսության մեջ",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1267540218,
+          "options": [
+            {
+              "text": "Լիր Արքա",
+              "image": null
+            },
+            {
+              "text": "Մակբետ",
+              "image": null
+            },
+            {
+              "text": "Ռոմեո և Ջուլիետ",
+              "image": null
+            },
+            {
+              "text": "Համլետ",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1FzWgtAD_bhTOliOD0fra5pCrbDM-jygxL-J8ndgqdaxiTA",
+        "width": 740,
+        "height": 388,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkigBb0jRdYCsyae-T40t7wJkI1eCpTrK-fhYzPjbFK0S7k6Mm-xCIH9UKr6ICMJPxTy5zkhNp7GLqhmhHWxqLtcehNIZPydDoH7drh6vqA6dfanO0gtrC-UBOrLm-v1Sr_HwBUOT-wvReDnYDoM26MA5MhE44ZkNDos4DM1ivMaf2x1s_bxtoM9rCbDRqzOU4dRO9dlnT-olU40XSZGG5N21Vq0afJZXR9LhBQ",
+        "file": "images/q06.jpg"
+      }
+    },
+    {
+      "item_id": 1027071489,
+      "question": "..... խվատիտ",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 395213009,
+          "options": [
+            {
+              "text": "Գառնիկ",
+              "image": null
+            },
+            {
+              "text": "Մավսես",
+              "image": null
+            },
+            {
+              "text": "Կարո",
+              "image": null
+            },
+            {
+              "text": "Արմենակ",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1Hefdpr9WSMv5WyL-lzIyS4cdnPdYfqrQzFvzwo2MvG5_5A",
+        "width": 399,
+        "height": 310,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijEBz7h-v9seAUKG56q5DlCZbqvQ0peXoWU0svOXA79GDh9vWwf0Uqpp7nY8NIWSBJkbJN2a5Sukejymrm2vcD7nmsYU9apCx1ogyj5-Mgj8JrYx_wgPT-QXWmN4YbHmT5_EtYe6LKempuYVVd5_kiOR3AHz2LLmppx3HrzztWyWmqFuzNvBZEkvfhafyjVNMOj9yMC2hkaqo_pBGWvFNQLuyl2lUSErfXabw",
+        "file": "images/q07.png"
+      }
+    },
+    {
+      "item_id": 1615053157,
+      "question": "Ի՞նչ երաժշտական գործիք է իր համար ջութակը",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1871664002,
+          "options": [
+            {
+              "text": "Ջութակ",
+              "image": null
+            },
+            {
+              "text": "Բալալայկա",
+              "image": null
+            },
+            {
+              "text": "Դհոլ",
+              "image": null
+            },
+            {
+              "text": "Կանդրաբաս",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1y2-f3vHVvekqv_4fdP4JKlIVCUBnODaoJRt6-QAwLPYX1w",
+        "width": 740,
+        "height": 384,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkigje8KHkXDKY7xySpxgWJ51Pc_RoVLDofpTDPzQoot0dS8RPg2HVJu9fye_4QXxOQRhy2Gpy4hjnOfMCoAwLXYnaMpdvciP5-R38vfFd8eFIADJxtwaHfvaWhj_0YDOVGSnpPxZHq7yRIuwmc5SJiU3TX1_we4wXK3Em8t1U8UDb67cERReVs0ZOkpe7QA74VtWiB2ae7xgUJzk6Z3u-9GvSXmZzCbMvFXlMg",
+        "file": "images/q08.png"
+      }
+    },
+    {
+      "item_id": 1868981836,
+      "question": "Իմացի Չարբախ մի հատ լավ ախպեր ունես ՝ Չարբախցի ․․․․․",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 2029898300,
+          "options": [
+            {
+              "text": "Բլութութիկը",
+              "image": null
+            },
+            {
+              "text": "Տուքսոնը",
+              "image": null
+            },
+            {
+              "text": "Կմախքը",
+              "image": null
+            },
+            {
+              "text": "Հրեշը",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1Yyzb6jJP2-1EL5doJ2za_pDqmh-RJQqUNuZPzLVvsukcEA",
+        "width": 408,
+        "height": 410,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijmK-7REVtnaw5xBvjjrg5pT6uNZEapkVPx251He4u93VeHex7u6VgWXylmo7R6dFURz4KSEDuD8TMjlvUNejoTayTq8VCeaUjOZtyIo16VhGSFRgwjmVHJ_-llmGWp9dkoJWlroQsnzOFvUHRomvWHG1WZYW48zNByGQOjFMxAa1bWIWsR_EG4jlEXBekDjok8QeBAORsbT7lKL3igbtTwz8tyLx1kdIImKg",
+        "file": "images/q09.png"
+      }
+    },
+    {
+      "item_id": 641332164,
+      "question": "Ո՞վ է",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1064082277,
+          "options": [
+            {
+              "text": "Ֆիլարեթ Ռաֆայելիչ",
+              "image": null
+            },
+            {
+              "text": "Ղազար Այգեկցի",
+              "image": null
+            },
+            {
+              "text": "Էռնեստո Փարպեցի",
+              "image": null
+            },
+            {
+              "text": "Գոհարիկ Առաքելովնա",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1F_9zPx_hLWERTInhhzFoonrQ0AZ4AIxzXZKK-F4YbD1VLg",
+        "width": 501,
+        "height": 280,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijFO-LCwrLueb5-PhIWjuZc-oAjD_RpjTcx2k1bJ73nOtwkLaOv4KoXDW_8TsnyBtflxonA45BnxbJxG9edeFptbjtFu7uentJB7-c6NXB-hK9QtMfBO_ryd-ZvoGkCigrUmAgiIeCtaCB6aCyOsJLvHPPbbLRuPjyprRFNn1xH1WHIR-GPGDh_Pp-NOgrEfBb_VI-l-83Qx6Mme2r6OlFrXAxsb1ujvheAgg",
+        "file": "images/q10.png"
+      }
+    },
+    {
+      "item_id": 2086783093,
+      "question": "Ի՞նչ է նա  իրեն անվանում ",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 506708271,
+          "options": [
+            {
+              "text": "Անասուն",
+              "image": null
+            },
+            {
+              "text": "Օղբաթ",
+              "image": null
+            },
+            {
+              "text": "Տավար",
+              "image": null
+            },
+            {
+              "text": "Չմո",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1RsLRIt_AVgp6tXq0XVpLsRTmW-CpGDajE_sS5M_gvkb0Zw",
+        "width": 418,
+        "height": 391,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijqGDLT7e8oSiYeG27YtfCvqYy_QfqH3JN5fJsXONtaXzVftvG9GytkV2BZwsRMVjgt1NESK1i6YQy14DTjV9JvTmhTVVALMyMpx8fAqB0mipzpLtYyn8oQdyL8TWN0cTkx697IThNwBZmcohp8iWZ_0FPipX6H3yrdoL2x0nVs8yjYGDAumyDXCRd25X1wQMfW-QP_d_bt8HGrW7r5Y0j4FONYxZTjtEw-qw",
+        "file": "images/q11.png"
+      }
+    },
+    {
+      "item_id": 1337963150,
+      "question": "Բոյով , ․․․․  , Չաղ",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 701506110,
+          "options": [
+            {
+              "text": "Մյուս",
+              "image": null
+            },
+            {
+              "text": "Մեջտեղին",
+              "image": null
+            },
+            {
+              "text": "Նիհար",
+              "image": null
+            },
+            {
+              "text": "Անդո",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "15tUs6CEPkA9aT3V9wNLcZ3dX-CnaO_Yk0v1f6goAn3qHMA",
+        "width": 201,
+        "height": 254,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkij6IP_ECeh63iwGFxp_bpqW2OXumnHM2gEASMPk_9zvjeLrATyXSGsCKOqOc1-x95P4aP0afMP37sbQ6ESvrR86Qp2i3lXLOrB-0vtAbCwPGGtLw_SoZ7MnCgp4mx32y4-bM_oekc6wgUf9zfsenobnY5uaV7L5J7HHQwmV_gndOc8-p5syVhqSR-ivmGvYB5VBW-glmm-WQMax2fZ4YCaad_AErNbuPA8b8Q",
+        "file": "images/q12.png"
+      }
+    },
+    {
+      "item_id": 479009299,
+      "question": "Ո՞րտեղից է  գալիս ",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1503737247,
+          "options": [
+            {
+              "text": "Մոսկվա",
+              "image": null
+            },
+            {
+              "text": "Սվերլովսկ",
+              "image": null
+            },
+            {
+              "text": "Եկատիրինբուրգ",
+              "image": null
+            },
+            {
+              "text": "Վարանյոժ, Պադնիժնի Պսկով",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1zLKCCAc7vPGazmcZS5b2HbOlWTy5b5hRxTKMAgnDGs-mCw",
+        "width": 740,
+        "height": 388,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkihVU-EsL8BN63mjnLYzPaEHHGu2vZo0KlxEwgN1L_vD3sY0SpDxpczPepfKoru5w9wt2coQEyv4FijDGiRhlk77PKbrKrtuSKWRn630WHIm_pPr00D01JD8UdXwFms1ydM2kb8q50pHgynbC33sMwi9fi2ks92B8KkUu5CjtA6dfGCyWKzdtaso1rni3B6v2HBFLGwLiOc34GfQjULSSceG5HcWO3Xfc6gxbw",
+        "file": "images/q13.png"
+      }
+    },
+    {
+      "item_id": 775219001,
+      "question": "Մեր մեծերից մեկն էր՝ նի տո …, նի տո …",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1568294293,
+          "options": [
+            {
+              "text": "Թաթա , Էյնշտեյն",
+              "image": null
+            },
+            {
+              "text": "Նար-Դոս , Սպիլբերգ",
+              "image": null
+            },
+            {
+              "text": "Թումանյան , Տեսլա",
+              "image": null
+            },
+            {
+              "text": "Արմենչիկ , Քեմերոն",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1C0yCpCIIEFpALhDyIPKkRMLq6DRsb4tHlJ9Xi7mhUf6vxQ",
+        "width": 327,
+        "height": 235,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkihx1e0S3oT5J9clWHvtKXZReYk0FFR7g8NrpfQE_puyzxIwEaDVJkbhE71d1RrCtCXn7pVH7U_iUSjZG0wZ0zmpF55v60YgSB38Te06MVlHFRQsxz6Gb8rvmNDGoqpBwtqtRj8lqV0MCkmOhCV95ZHnHTEJW5PRcx9TFT1gD9I4ShP4Rxyto3Qd4W8DNEPcnAUei6v_IxyIOYomfAiccgc72SHOKMArpw4",
+        "file": "images/q14.png"
+      }
+    },
+    {
+      "item_id": 557423752,
+      "question": "Ո՞ր տեղն է զբաղեցնում ջինը մրցույթում",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1976758885,
+          "options": [
+            {
+              "text": "Առաջին",
+              "image": null
+            },
+            {
+              "text": "Միջին",
+              "image": null
+            },
+            {
+              "text": "Ջինգլ Բելս",
+              "image": null
+            },
+            {
+              "text": "Վերջին",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": {
+        "id": "1AcgS3jDamJvshbR_dTR_n28hWPCa5XofZjOOSdBJEVhL2A",
+        "width": 337,
+        "height": 359,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkihAMuI41ywq4HnKDGnczKXGLpkTL-ovUbfGN1iS6c20YZOY128EQppSV1FdZKjGWLd4ewyJw2-uLsS785qVzWYBZ97kZ-B14Mg7w8Qh1m0q-UHa1qAWJcy5e_tMtrLh6jL1ifQdk4JA-kZ5ShG2mm6cTiETF7ECx1w5mjLfKFmkKsM3oOv4Z_RpLUSgt5R9zthAXvYipNHVKOg8MInEc3KPLZvzA5CdFhg",
+        "file": "images/q15.png"
+      }
+    }
+  ]
+}

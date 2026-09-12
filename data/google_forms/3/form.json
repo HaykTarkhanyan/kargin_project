@@ -1,0 +1,377 @@
+{
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfKV-wC1fh043B3UffO1qgLAITHXrRyutlrquZQMu7DIKtsHw/viewform",
+  "fetched_at": "2026-09-11T18:35:00.913Z",
+  "title": "Կարգին հաղորդման թեստ 1",
+  "internal_name": "Blank Quiz",
+  "description": "Այս հարցաշարը Կարգին հաղորդման տարբեր սկեչերի մասին հարցաշար է",
+  "description_html": "Այս հարցաշարը Կարգին հաղորդման տարբեր սկեչերի մասին հարցաշար է",
+  "question_count": 13,
+  "questions": [
+    {
+      "item_id": 786422243,
+      "question": null,
+      "help_text": null,
+      "type_code": 11,
+      "type": "image",
+      "entries": [],
+      "image": {
+        "id": "1jpXHhodTQLvpHOzUXqCloqKpfZ8PVhzNyHFr_n21sSHZkQ",
+        "width": 557,
+        "height": 283,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkigpzt4naXsZk43kEqCLfvXwoN_9hkoXg7pBuubdCi51HpL9eipt3lEDLXhEFX3G4fYzbt3kWFLrdl8LFO2_MRl4NVvLkqQpuvaiQ_t2Vc4fBRDfCFS8NMpOMfdr8bfHuDInyciKlpC9OiUvbgtfw5WTCgJDbN9V9XrAiTdH2pku4Z-aAYc3KagIHWO8yr4HDC02Jxyi99fU03IsWPl-rRWCpISHB5Xdm_8",
+        "file": "images/q01.jpg"
+      }
+    },
+    {
+      "item_id": 193574675,
+      "question": "Ձեր Անունը",
+      "help_text": null,
+      "type_code": 0,
+      "type": "short_answer",
+      "entries": [
+        {
+          "entry_id": 366340186,
+          "options": [],
+          "required": true
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 1938421110,
+      "question": "Ազգանունը",
+      "help_text": null,
+      "type_code": 0,
+      "type": "short_answer",
+      "entries": [
+        {
+          "entry_id": 1724078831,
+          "options": [],
+          "required": true
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 305808733,
+      "question": "1.Ինչո՞վ է մեկնաբանում նոր հայր դարձածի ընկերը, երբ իմանում է, որ նա աղջկանից հետո, տղա էլ է ունեցել ",
+      "help_text": null,
+      "type_code": 4,
+      "type": "checkboxes",
+      "entries": [
+        {
+          "entry_id": 1627366453,
+          "options": [
+            {
+              "text": "1.Լույսի վրա են գալիս",
+              "image": null
+            },
+            {
+              "text": "2.Բա՞ անունը ինչ ենք դնելու",
+              "image": null
+            },
+            {
+              "text": "3.Ջոգիր ոնց վախցան",
+              "image": null
+            },
+            {
+              "text": "4.Փառք Աստծո",
+              "image": null
+            }
+          ],
+          "required": true
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 1926668626,
+      "question": "2.Ո՞ր 2 արտահայտություններն են նույն էպիզոտից",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 673498106,
+          "options": [
+            {
+              "text": "1.Բարև Բարև կարմիր արեւ կանաչ տերև;Պոպոք ու սմետան",
+              "image": null
+            },
+            {
+              "text": "2.Պոպոք ու սմետան;Տիգրան, ինժիներ",
+              "image": null
+            },
+            {
+              "text": "3.Տիգրան, ինժիներ,Լավ խաբինք բժիշկին չէ՞ տուզիկ",
+              "image": null
+            },
+            {
+              "text": "4.Բարև Բարև կարմիր արեւ կանաչ տերև;Տիգրան, ինժիներ",
+              "image": null
+            }
+          ],
+          "required": true
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 529815794,
+      "question": "3.Ի՞նչ մասնագետ էր նկարի կերպարը",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1831480168,
+          "options": [
+            {
+              "text": "1.Սանտեխնիկ",
+              "image": null
+            },
+            {
+              "text": "2.Մուտիլովշիկ",
+              "image": null
+            },
+            {
+              "text": "3.Զոն նայող",
+              "image": null
+            },
+            {
+              "text": "4.Կաֆելշիկ",
+              "image": null
+            }
+          ],
+          "required": true
+        }
+      ],
+      "image": {
+        "id": "13lWfyEWfgZIVXsuoiMN5BHvPRfLarx6zOPZDM_zWrhAvRw",
+        "width": 740,
+        "height": 389,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkigMZdXtRzxplRSaUHMTbWNXfeHWNJitIV0au5eOJxH4Xmacqm518O9nE-B4_9YhYFzYB2VmKVuAfR7e9cuB12rI1C3BvPKUBUtBGgIdzTEuATGekQtc0OGerbjqtpAhxzdxd0aIUnSWZQnidtNO5WORd4MonaM91yqowOkLfHbJS8JxzwXk4cBAfMNllTWNJrN-RTTPLMpRQnkyVPW5onnTqWUVEP8BAmdcAw",
+        "file": "images/q06.png"
+      }
+    },
+    {
+      "item_id": 1757457339,
+      "question": "4.Ո՞ր գյուղ հասնելուց էր տատին գազելի վարորդին խնդրում հիշեցնել իրեն",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1188093227,
+          "options": [
+            {
+              "text": "1.Քասախ",
+              "image": null
+            },
+            {
+              "text": "2.Պռոշյան",
+              "image": null
+            },
+            {
+              "text": "3.Գոմիկավան",
+              "image": null
+            },
+            {
+              "text": "4.Կտազին",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 1880376548,
+      "question": "5.Ի՞նչ էր ստացել լատարեով 1 միլիոն $ շահած տուրիստական գործակալություն եկած Մկոյի կերպարը",
+      "help_text": null,
+      "type_code": 0,
+      "type": "short_answer",
+      "entries": [
+        {
+          "entry_id": 1609306388,
+          "options": [],
+          "required": false
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 1819237101,
+      "question": "6.Ինչի՞ն ուշադրություն չեր դարձնում Դոն Միգելի ավագ որդի Դոմենիկը",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1901024126,
+          "options": [
+            {
+              "text": "1.Սևահեր աղջկան",
+              "image": null
+            },
+            {
+              "text": "2.500 պեսսոյին",
+              "image": null
+            },
+            {
+              "text": "3.Շիկահեր աղջկան",
+              "image": null
+            },
+            {
+              "text": "4.Կողքի հարևանին",
+              "image": null
+            }
+          ],
+          "required": true
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 1329377522,
+      "question": "7.Կարգին հաղորդման այն սկեչում, որտեղ կինը բացում է արգելված տուփը և տեսնում է 2 ձու ու լիքը  փող քանի՞ անգամ էր  ամուսինը դավաճանել կնոջը",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 122898763,
+          "options": [
+            {
+              "text": "1. 2 անգամ",
+              "image": null
+            },
+            {
+              "text": "2. 5 անգամ",
+              "image": null
+            },
+            {
+              "text": "3.Շատ անգամ",
+              "image": null
+            },
+            {
+              "text": "4.Ոչ մի անգամ",
+              "image": null
+            }
+          ],
+          "required": false
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 1480455509,
+      "question": "8.Ի՞նչ վիճակում էր նկարում պատկերված երիտասարդը",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 655351039,
+          "options": [
+            {
+              "text": "1.Քնած",
+              "image": null
+            },
+            {
+              "text": "2.Խմած",
+              "image": null
+            },
+            {
+              "text": "3.Ուռած",
+              "image": null
+            },
+            {
+              "text": "4.Մեռած",
+              "image": null
+            }
+          ],
+          "required": true
+        }
+      ],
+      "image": {
+        "id": "16hJ5srgzZy1pzyV80_QLZNjjRebwF5Shs9Qo4U7STPoC0g",
+        "width": 740,
+        "height": 416,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijubzSpI8jah6H4Lldbbmh1fz3ACMczNtxKUaxMYiDgQVutLhx9ks4REWP5P2mE9CW0owDY8NPlfA61JAFMOpuG7AbTFBeK5B59x6DtTi3OLxcCoaHUplozTaEHt4Uu6lDkAWwY4jevDAIOP7zhHby--sAzX8Svyu7lP4UY_B5QpgnP9ELkESgqrn7aqB70qpzT9hHU914hs-LaxXx972eNJS4zLFuqj7mZBQ",
+        "file": "images/q11.jpg"
+      }
+    },
+    {
+      "item_id": 566014760,
+      "question": "9.Շինանյութի խանութից  հաց ուզող մարդը վերջում ո՞րտեղից գնեց հացը",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 664602397,
+          "options": [
+            {
+              "text": "1.Հացի խանութից",
+              "image": null
+            },
+            {
+              "text": "2.Դեղատնից",
+              "image": null
+            },
+            {
+              "text": "3.Նույն խանութից",
+              "image": null
+            },
+            {
+              "text": "4.Ուրիշ շինանյութի խանութից",
+              "image": null
+            }
+          ],
+          "required": true
+        }
+      ],
+      "image": null
+    },
+    {
+      "item_id": 728986878,
+      "question": "10.Ի՞նչ ՉԷՐ մտնում  ձախից նստած  երկու տղաների պարտականությունների մեջ",
+      "help_text": null,
+      "type_code": 2,
+      "type": "multiple_choice",
+      "entries": [
+        {
+          "entry_id": 1334286299,
+          "options": [
+            {
+              "text": "1.Օղի առնելը",
+              "image": null
+            },
+            {
+              "text": "2.Պսակները չոտկի դնելը",
+              "image": null
+            },
+            {
+              "text": "3.Սև տորթ առնել",
+              "image": null
+            },
+            {
+              "text": "4.Հայաթի տղեքին տփել",
+              "image": null
+            }
+          ],
+          "required": true
+        }
+      ],
+      "image": {
+        "id": "1A6td2-xNDy2eXJt7l3tTgAZEO-3l9O6PAWU03h_kqasdFQ",
+        "width": 480,
+        "height": 360,
+        "url": "https://docs.google.com/forms-images-rt/ANbbkijtSIT4-iXgG4PYqMAJNMUvnj0JMNqFZawQunMOISsijwho0u8Ra10b_bL-1fJDyIWKdb614XOqEFet3yDQex1NPzNVMapL-YtmDhcmy2MXtt7Klcay62XUvVOaDaqAw2MmJfE3w6L8RFMzDu6JgSz2Mx9_MA-gubHA6A5QiYyDN1j7A2OLru6q9c5c-4Ig8e5Rf-t61aExyDvRCAbvzwikJmbt59Gc3ubcFQ",
+        "file": "images/q13.jpg"
+      }
+    }
+  ]
+}
