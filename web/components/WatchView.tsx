@@ -9,6 +9,7 @@ import RelatedList from "./RelatedList";
 import FeedbackBox from "./FeedbackBox";
 import HeartButton from "./HeartButton";
 import { SITE_ORIGIN } from "@/lib/site";
+import { collectionsForSketch } from "@/lib/collections";
 import SongList from "./SongList";
 
 export default function WatchView({ s }: { s: Sketch }) {
@@ -50,6 +51,9 @@ export default function WatchView({ s }: { s: Sketch }) {
           {s.location !== "Այլ" && (
             <Link href={`/?location=${encodeURIComponent(s.location)}`} className="inline-flex min-h-9 items-center rounded-full border-2 border-kblue bg-kblue px-3 text-xs font-bold text-white">📍 {s.location}</Link>
           )}
+          {collectionsForSketch(s.id).map((c) => (
+            <Link key={c.slug} href={`/collections/${c.slug}`} className="inline-flex min-h-9 items-center rounded-full border-2 border-ink bg-korange px-3 text-xs font-bold hover:bg-ink hover:text-paper">{c.name}</Link>
+          ))}
         </div>
         {s.transcript && (
           <div className="mb-4">

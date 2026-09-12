@@ -4,7 +4,8 @@ import { useState } from "react";
 import ThemeToggle from "./ThemeToggle";
 
 const NAV = [
-  ["/", "Որոնել"], ["/random", "Պատահական"], ["/stats", "Վիճակագրություն"],
+  ["/", "Որոնել"], ["/collections", "Հավաքածուներ"], ["/random", "Պատահական"],
+  ["/stats", "Վիճակագրություն"],
   ["/find-my-name", "Իմ անունը"], ["/songs", "Երաժշտություն"], ["/soundboard", "Ֆրազներ"],
   ["/quizzes", "Քուիզ"], ["/data", "Տվյալներ"], ["/changelog", "Նորություններ"], ["/about", "Մասին"],
 ] as const;

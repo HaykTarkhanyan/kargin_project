@@ -31,6 +31,10 @@ jobs:
         run: PYTHONPATH=. uv run pytest -q
       - name: Build site data (CSV -> sketches.json)
         run: PYTHONPATH=scripts uv run python scripts/build_site_data.py
+      # Separate from the step above: collections need none of the metadata,
+      # songs, transcripts or visuals that build_site_data.py feeds on.
+      - name: Build collections (CSV -> collections.json)
+        run: PYTHONPATH=scripts uv run python scripts/build_collections.py
       - uses: actions/setup-node@v4
         with:
           node-version: 20

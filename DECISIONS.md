@@ -6,6 +6,56 @@ entries are never deleted — that we changed our mind, and why, is the point.
 
 ---
 
+## #17 — Collections live in their own file, membership in one CSV column
+
+**Date:** 2026-09-12 · **Status:** active
+
+**Decision.** Hand-curated collections of sketches by situation (Թուղթ խաղում են,
+Հեռուստացույցի առաջ, Բժշկի մոտ, Ճանապարհային ոստիկանը). Membership is a
+`collections` column in `kargin_eng.csv` holding `;`-separated ascii slugs, so a
+sketch can be in several. The Armenian name, description and order live in
+`data/collections.csv`, and `scripts/build_collections.py` turns the two into
+`web/public/data/collections.json`. The site reads that from server components
+only: `/collections`, `/collections/[slug]`, a three-tile strip on the home page
+and a chip on each sketch page. Nothing is added to the `Sketch` type.
+
+**Why.** Every field on a sketch ships inside the home page's JavaScript, because
+`SearchExperience` is a client component that imports the whole payload, and the
+bot image copies `web/lib` plus `sketches.json`. A separate file keeps collections
+out of both, and leaves the Firestore mirror and the bot untouched. Membership
+belongs in the CSV because that is the curation source of truth the review UI and
+the corrections flow already operate on; the names and descriptions do not,
+because they are site copy, one row per collection rather than per sketch. Slugs
+rather than Armenian names in the URL means renaming a collection never breaks a
+link, unlike the actor pages which carry raw Armenian in the path.
+
+**Why hand-curated.** The text annotations already carry a 24-topic taxonomy, but
+its counts are the wrong shape: `family` covers 328 of 702 sketches and `money`
+136. That is a filter, and the site already has filters. A collection is narrow and
+situational, so the tooling only proposes: `seed_collection_candidates.py` writes
+each candidate with the phrase that matched it as evidence, and a human decides. Of
+286 proposals, 80 memberships were kept. The first pass at "doctor" matched 109
+sketches because a doctor gets mentioned in passing everywhere; requiring a medical
+setting cut it to 44.
+
+**Alternatives rejected.** A `collections?: string[]` field on each sketch (simpler
+pipeline, but ships membership to every visitor, re-syncs Firestore, and would have
+tangled this commit with three files other sessions were mid-edit in; still the way
+to go if collections ever become a home page filter chip). Generating collections
+from the annotation topics (free, but produces 300-sketch "collections" nobody
+would browse). A hand-written list of ids in the website (fastest, but membership
+stops living in `kargin_eng.csv`, out of reach of the review tooling). Capping
+collection pages at 48 cards like the actor pages (a collection page is the
+destination, not a taster for search, and collections are small by construction).
+
+**What would change this.** A collection passing about 60 members, where one page
+stops being browsable and the actor cap starts to make sense. Wanting to filter the
+home page by collection, which is the one thing the separate file makes harder.
+Enough collections that hand-editing `data/collections.csv` gets tedious, which
+would mean an editing surface in the review UI.
+
+---
+
 ## #16 — The site quiz is hand-written from the sketch dialogue, with stills cut from the videos
 
 **Date:** 2026-09-11 · **Status:** active

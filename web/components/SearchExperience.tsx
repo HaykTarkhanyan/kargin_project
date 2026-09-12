@@ -1,5 +1,5 @@
 "use client";
-import { Suspense, useEffect, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState, type ReactNode } from "react";
 import { useSearchParams } from "next/navigation";
 import { ALL } from "@/lib/data";
 import { searchSketches, type Filters, type SortKey } from "@/lib/search";
@@ -11,7 +11,7 @@ import HeroFilters from "./HeroFilters";
 import SketchCard from "./SketchCard";
 import FeedbackBox from "./FeedbackBox";
 
-function Experience() {
+function Experience({ strip }: { strip?: ReactNode }) {
   const params = useSearchParams();
   const seedLoc = params.get("location");
   const seedActor = params.get("actor");
@@ -72,6 +72,7 @@ function Experience() {
         <Hero total={ALL.length} withDialogue={withDialogue} totalViews={totalViews} totalHours={totalHours} onSearch={setQuery} query={query} />
         <HeroFilters facets={facets} filters={filters} setFilters={setFilters} />
       </section>
+      {strip}
       <main className="px-4 py-6 sm:px-8">
         <div className="mb-5 flex flex-wrap items-center justify-between gap-3 sm:mb-6">
           <div className="whitespace-nowrap font-display text-xl sm:text-2xl"><span className="text-kred">{results.length}</span> ԱՐԴՅՈՒՆՔ</div>
@@ -121,6 +122,6 @@ function Experience() {
   );
 }
 
-export default function SearchExperience() {
-  return <Suspense fallback={<div className="p-10 text-muted">Բեռնում…</div>}><Experience /></Suspense>;
+export default function SearchExperience({ strip }: { strip?: ReactNode }) {
+  return <Suspense fallback={<div className="p-10 text-muted">Բեռնում…</div>}><Experience strip={strip} /></Suspense>;
 }
