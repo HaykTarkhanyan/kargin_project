@@ -1,0 +1,54 @@
+title = "Quiz: one real 10-question Kargin test with stills, replacing the placeholder levels"
+date = "2026-09-11"
+time = "23:00"
+areas = ["web/lib", "web/components", "web/public/quiz", "data/quiz", "scripts", "DECISIONS.md"]
+
+done = [
+    "Brainstormed with the user: quiz lives on the site (replacing the 3 dummy trivia levels), uses stills cut from the videos, questions hand-written by me from the curated dialogue, one 10-question level to start. Modelled on the four fan-made Google Forms captured earlier today (data/google_forms/).",
+    "Shortlisted the most-viewed sketches with text_common + text + roles_names (536 candidates), read the top 30, picked 10 and verified every answer against the full dialogue in kargin_eng.csv. Wrong options are mostly other lines from the same sketch (the pig also ate chocolate and used diapers; Vagharshak papi offered 10, 50 and 1000 first).",
+    "web/lib/quizzes.ts: QuizQuestion gained optional image, optionImages (2x2 picture grid) and sketchId (link after submit). One level 'Կարգին հաղորդման թեստ 1', 10 questions: 4 complete-the-line, 3 still + who/what, 1 text-only where, 1 odd-one-out, 1 which-face-is-Vagharshak-papi.",
+    "data/quiz/stills.json + scripts/extract_quiz_stills.py: ffmpeg cuts 12 frames at hand-picked timestamps (viewed each one; swapped weak best_frame_ts picks for better moments) into web/public/quiz/, 640 px, 376 KB total. File names are per question, not per video, so the URL does not leak the answer.",
+    "QuizGame.tsx Runner: still above the prompt, picture grid for image options, 'Դիտել սքեթչը →' link in the explanation. Nothing else in the level/unlock/stars mechanic changed.",
+    "Tests: lib/__tests__/quizzes.test.ts (4 distinct options, valid index, stills exist on disk, sketch ids exist in sketches.json) and components/__tests__/QuizGame.test.tsx (mocked quiz: images render, link appears only after Ստուգել). 5/5 pass. tsc 0, eslint 0, next build exports 728 pages.",
+    "Visual check with Playwright on the static export served locally: all 12 images load, submit colours right/wrong, the link resolves to /sketch/<id>/, the 2x2 grid holds at 400 px.",
+    "DECISIONS.md #16 (hand-written content, cut stills, per-question file names, what was rejected). Changelog entry 2026-09-11 'Կարգին թեստ'.",
+    "Level 2 ('Կարգին հաղորդման թեստ 2', difficulty 'Գիտակ') on the user's request for more material: Armenchik CD (639, the most-viewed sketch), ice cream from neighbour Serozh (597), the grenade pin for grandma (336), the Vivaro dad (660), 'ours is in the truck' (415, text-only), licence x3 (433), cow-theft logic ending in an orange (377), the turtle funeral (189), Vcho's wake and the TV (310), and a which-frame-is-'tsnga ha tsng' picture question (044). 12 more stills; 25 total, 748 KB. Unlocks after level 1 as before.",
+    "Level 3 ('Կարգին հաղորդման թեստ 3', 'Իսկական գիտակ'): the monk's 'one year will feel like ten' (065), 'whose phone was that' at the pool (341), the brick that is a puppy (316), the wizard granny and Vardan Mamikonyan (074), moonshine grandpa 'by then I'll be out' (334), the boss and the parrot (645), the major's riddle (125), the shaved beard (043), the father's escalating punishments (053), and a which-shop-is-'kakoy privet' picture question (222 vs 090/154/160). Dropped the twins-at-the-draft-board sketch (366): its video is a restaurant-date sketch, the CSV text does not match it. 13 more stills; 38 total.",
+    "Level 4 ('Կարգին հաղորդման թեստ 4', 'Պրոֆեսոր'): whale vs dinosaur, in the air the airplane (502), 'nobody, just my girlfriend' (304), 'he was at the office, with you' (214), who drew the butt on the blackboard (465), Chateau without a label (090), Ando is the king here (290), the retirement-home hundred dram and the actor (254), Sergeant Soghomonyan slaps the sleeping one too (406), 'you should think it's Friday' (187), and a which-table-is-the-home-restaurant picture question (614 vs 645/310/555). 13 more stills; 51 total. The user asked to skip local viewing and deploy soon.",
+    "Rewrite after the user's review ('not fun, just quizzes'): the first draft was trivia with literal distractors. New rule, taken from the forms: the quoted line is the funniest beat of the sketch and the wrong options must be jokes themselves. Swapped in the game-show sketch (its in-sketch question Stalin / Mamikonyan / Casanova / neighbour Gegham, verbatim), the car-secret sketch ('honestly yes, I sleep with my mother-in-law'), and 'who is the stinker' with 'you' as an option; dropped the wine-shop odd-one-out and the colour-of-the-solution trivia. 13 stills re-cut.",
+]
+
+pending = [
+    "User review of the Armenian phrasing in web/lib/quizzes.ts before it ships - the prompts and explanations are mine, the quoted lines are from the CSV.",
+    "Nothing committed. Changed: web/lib/quizzes.ts, web/lib/changelog.ts, web/components/QuizGame.tsx, two new test files, web/public/quiz/ (12 jpg), data/quiz/stills.json, scripts/extract_quiz_stills.py, DECISIONS.md.",
+    "The Google Forms swap in the brainstorm was skipped by the user ('go just start building'), so no spec/plan files under docs/superpowers/ for this one; DECISIONS.md #16 carries the design.",
+]
+
+next = "Have the user play it and fix wording; then levels 2 and 3 in the same style (harder: text-only who-said-it, more image-choice). If the level count grows past ~3, move questions to data/quiz/ and generate quizzes.ts (see DECISIONS #16)."
+
+files = [
+    "web/lib/quizzes.ts", "web/lib/changelog.ts", "web/components/QuizGame.tsx",
+    "web/lib/__tests__/quizzes.test.ts (new)", "web/components/__tests__/QuizGame.test.tsx (new)",
+    "web/public/quiz/l1-*.jpg (new, 12)", "data/quiz/stills.json (new)",
+    "scripts/extract_quiz_stills.py (new)", "DECISIONS.md (#16)",
+]
+commits = []
+
+notes = """
+Data shape used for authoring: kargin_eng.csv text_common (catchphrases) and
+text (dialogue), roles_names for character names, youtube_metadata view_count
+for popularity, visual_annotations best_frame_ts as a starting point for stills
+(often a wide or odd frame; hand-picked timestamps won 5 times out of 12).
+
+Correct answers are never in the Google Forms dumps (grading withheld until
+submission), so the forms were a style reference only; every fact here comes
+from the CSV.
+
+vitest gotcha: under the jsdom environment import.meta.url is not a file: URL,
+so fileURLToPath() throws; __dirname (injected by vite-node) works.
+
+Local static preview: python -m http.server on web/out. Next's link prefetch
+requests __next.sketch.$d$id.txt under each /sketch/<id>/ and gets 404 there;
+the same happens for the existing sketch links and does not happen on the real
+host, so it is a local-server artefact, not a quiz bug.
+"""

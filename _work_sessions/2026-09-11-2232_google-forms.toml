@@ -1,0 +1,40 @@
+title = "Google Forms: local copies of the four Kargin quiz forms, with parsed questions and images"
+date = "2026-09-11"
+time = "22:32"
+areas = ["data/google_forms", "scripts/non_essential"]
+
+done = [
+    "Opened the four public Google Forms quizzes with the Playwright MCP and saved per form: the page's FB_PUBLIC_LOAD_DATA_ array plus body text (form<n>_data.json), the rendered HTML (form<n>_page.html) and a full-page screenshot (form<n>.png) under data/google_forms/<n>/.",
+    "scripts/non_essential/parse_google_forms.py turns each raw dump into form.json (structured questions/options/images), form.md, page_text.txt, and downloads every question and option image at original resolution into images/. Fails loudly if the number of image tags on the page does not match the number of images the form data declares.",
+    "Handled three item shapes: question header image at item[9][0], image-choice options with the image at option[5], and standalone image items (type 11) with the image at item[6]. Title comes from document.title because the Drive name (fb[3]) is 'Blank Quiz' for forms 3 and 4.",
+    "Verified: 57 questions across the four forms, 49 images, each file's extension matches its real type (file), every image reference in the four form.json files resolves. data/google_forms/README.md and index.json describe the set.",
+]
+
+pending = [
+    "data/google_forms/ (21 MB, mostly screenshots and images) is not gitignored and not committed. Decide whether to commit it, ignore the media, or keep it local only.",
+    "Correct answers are not available: Google withholds quiz grading from the public viewform page. Point values ('1 միավոր') are only in page_text.txt.",
+]
+
+next = "Nothing queued. If the quizzes are meant to feed the site or bot (e.g. a quiz feature, or mapping questions to sketch ids), that mapping is the next step."
+
+files = [
+    "data/google_forms/README.md (new)", "data/google_forms/index.json (new)",
+    "data/google_forms/{1,2,3,4}/ (new: raw dump, html, png, form.json, form.md, page_text.txt, images/)",
+    "scripts/non_essential/parse_google_forms.py (new)", "scripts/non_essential/README.md",
+]
+commits = []
+
+notes = """
+Playwright MCP gotchas met here:
+- browser_evaluate with a filename writes the result to the current working
+  directory (the repo root), not to .playwright-mcp/. Screenshots with a
+  relative filename land there too.
+- The saved evaluate result is JSON-encoded: a string return comes back as a
+  quoted JSON string (HTML with \\" everywhere), an object return as a JSON
+  string inside a JSON file. Both were json.loads-unwrapped once by hand before
+  parsing; the parser expects plain files.
+
+Google Forms image URLs (docs.google.com/forms-images-rt/<token>=w<width>)
+serve a downscaled copy; dropping the =w suffix returns the original, and the
+content type varies between png and jpeg regardless of what the page shows.
+"""
