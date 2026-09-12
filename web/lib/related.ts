@@ -13,11 +13,22 @@ function actorFreq(all: Sketch[]): Record<string, number> {
   return f;
 }
 
-export function related(target: Sketch, all: Sketch[], limit = 6): Sketch[] {
+// Same memo trick for id lookup, used to resolve `similar` ids to sketches.
+let _byIdFor: Sketch[] | null = null;
+let _byId: Map<string, Sketch> = new Map();
+function byId(all: Sketch[]): Map<string, Sketch> {
+  if (_byIdFor === all) return _byId;
+  _byId = new Map(all.map((s) => [s.id, s]));
+  _byIdFor = all;
+  return _byId;
+}
+
+/** Actor-overlap ranking, rare co-stars weighted highest. The fallback since 2026-06. */
+function byActors(target: Sketch, all: Sketch[], limit: number, exclude: Set<string>): Sketch[] {
   const freq = actorFreq(all);
 
   const scored = all
-    .filter((s) => s.id !== target.id)
+    .filter((s) => s.id !== target.id && !exclude.has(s.id))
     .map((s) => {
       let score = 0;
       for (const a of target.actors) if (s.actors.includes(a)) score += 1 / (freq[a] || 1);
@@ -32,10 +43,32 @@ export function related(target: Sketch, all: Sketch[], limit = 6): Sketch[] {
 
   if (hits.length >= limit) return hits.slice(0, limit);
 
-  const have = new Set(hits.map((s) => s.id));
+  const have = new Set([...exclude, ...hits.map((s) => s.id)]);
   const fill = all
     .filter((s) => s.id !== target.id && !have.has(s.id))
     .sort((a, b) => (b.viewCount ?? 0) - (a.viewCount ?? 0))
     .slice(0, limit - hits.length);
   return [...hits, ...fill];
+}
+
+/**
+ * Sketches to show under "ՆՄԱՆԱՏԻՊ", best first.
+ *
+ * Semantic neighbours lead: `similar` is precomputed from embeddings of the
+ * detailed summaries, so it matches on what the sketch is ABOUT — two different
+ * casts doing confession-to-a-priest rank together, which actor overlap can
+ * never see. It is deliberately short or absent (only 292 of 702 sketches have a
+ * match above the cosine floor), so actor overlap fills the rest and the section
+ * is never empty — the behaviour the page had before.
+ */
+export function related(target: Sketch, all: Sketch[], limit = 6): Sketch[] {
+  const lookup = byId(all);
+  const semantic = (target.similar ?? [])
+    .map((n) => lookup.get(n.id))
+    .filter((s): s is Sketch => s !== undefined && s.id !== target.id)
+    .slice(0, limit);
+
+  if (semantic.length >= limit) return semantic;
+  const taken = new Set(semantic.map((s) => s.id));
+  return [...semantic, ...byActors(target, all, limit - semantic.length, taken)];
 }

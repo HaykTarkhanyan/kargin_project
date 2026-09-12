@@ -26,6 +26,13 @@ export interface Sketch {
   transcript?: Transcript;
   /** Machine-read scene metadata from the contact-sheet pass; covers all sketches. */
   visual?: Visual;
+  /**
+   * Semantically nearest sketches by cosine over the detailed English summaries
+   * (gemini-embedding-2, DECISIONS.md #12), descending, already filtered to a
+   * score worth showing. Absent on the ~410 sketches with no good match — the
+   * archive simply has no twin for them, and `related()` fills from actors.
+   */
+  similar?: { id: string; score: number }[];
 }
 
 /**

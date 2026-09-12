@@ -36,6 +36,7 @@ def main():
         songs_csv=ROOT / "data" / "song_matches.csv",
         transcripts_dir=ROOT / "data" / "transcripts",
         visual_dir=ROOT / "data" / "visual_annotations",
+        neighbors_json=ROOT / "data" / "embeddings" / "top_neighbors.json",
     )
 
     n = len(sketches)
@@ -60,6 +61,12 @@ def main():
              with_vis,
              sum(1 for s in sketches if s.get("visual", {}).get("drag")),
              sum(1 for s in sketches if s.get("visual", {}).get("confidence") == "low"))
+    with_sim = [s for s in sketches if s.get("similar")]
+    n_sim = sum(len(s["similar"]) for s in with_sim)
+    log.info("semantic neighbours: %d sketches carry %d link(s) above the cosine floor "
+             "(%d sketches have none and fall back to actor overlap)",
+             len(with_sim), n_sim, n - len(with_sim))
+
     # Surface unmapped actor tokens so the allowlist can be tightened (REQUIRED per spec 7.1).
     leftover = Counter(tok for s in sketches for tok in s["rolesNames"].split(", ") if tok and tok not in ACTOR_ALLOWLIST)
     log.info("top non-allowlist tokens in roles: %s", leftover.most_common(15))

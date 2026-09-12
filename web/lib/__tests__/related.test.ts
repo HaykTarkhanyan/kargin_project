@@ -29,4 +29,37 @@ describe("related", () => {
     const r = related(lonely, [lonely, ...all], 6);
     expect(r.length).toBe(6);
   });
+
+  // Semantic neighbours (embeddings) outrank actor overlap: they match on what
+  // the sketch is about, which is the whole point of shipping them.
+  it("puts semantic neighbours first, in their given order", () => {
+    const t = mk({ id:"t2", actors:["Հայկո","Մկո"], similar:[
+      { id:"sem1", score:0.88 }, { id:"sem2", score:0.79 },
+    ]});
+    const pool = [t, mk({id:"sem1",actors:[]}), mk({id:"sem2",actors:[]}), ...all];
+    const r = related(t, pool, 6).map(s=>s.id);
+    expect(r.slice(0,2)).toEqual(["sem1","sem2"]);
+    expect(r.length).toBe(6);
+  });
+
+  it("fills the remainder from actor overlap without repeating a semantic hit", () => {
+    const t = mk({ id:"t3", actors:["Աշոտ"], similar:[{ id:"rareGuest", score:0.9 }] });
+    const r = related(t, [t, ...all], 6).map(s=>s.id);
+    expect(r[0]).toBe("rareGuest");
+    expect(r.filter(id=>id==="rareGuest").length).toBe(1);   // not duplicated by the actor pass
+    expect(r.length).toBe(6);
+  });
+
+  it("ignores similar ids that are not in the dataset", () => {
+    const t = mk({ id:"t4", actors:["Հայկո"], similar:[{ id:"ghost", score:0.95 }] });
+    const r = related(t, [t, ...all], 6).map(s=>s.id);
+    expect(r).not.toContain("ghost");
+    expect(r.length).toBe(6);
+  });
+
+  it("never returns the target even if it appears in its own similar list", () => {
+    const t = mk({ id:"t5", actors:[], similar:[{ id:"t5", score:1 }] });
+    const r = related(t, [t, ...all], 6);
+    expect(r.find(s=>s.id==="t5")).toBeUndefined();
+  });
 });

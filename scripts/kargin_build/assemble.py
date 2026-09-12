@@ -5,6 +5,7 @@ from .canon import canonicalize_actors, canonicalize_location, canonicalize_lang
 from .songs import load_songs
 from .transcripts import load_transcripts, novelty
 from .visual import load_visual
+from .neighbors import load_neighbors
 
 # Seed from the known cast; refined empirically from top non-allowlist tokens (Task 4).
 ACTOR_ALLOWLIST = {
@@ -35,7 +36,8 @@ def _fmt_date(raw):
     return f"{d[0:4]}-{d[4:6]}-{d[6:8]}" if len(d) == 8 else ""
 
 
-def row_to_sketch(row, allowlist, typos, songs=None, transcripts=None, visual=None):
+def row_to_sketch(row, allowlist, typos, songs=None, transcripts=None, visual=None,
+                  neighbors=None):
     vid = extract_video_id(_s(row.get("links")))
     actors, roles_extra = canonicalize_actors(_s(row.get("main_actors")), allowlist, typos)
     roles = _s(row.get("roles_names"))
@@ -85,6 +87,13 @@ def row_to_sketch(row, allowlist, typos, songs=None, transcripts=None, visual=No
     vis = (visual or {}).get(vid)
     if vis:
         out["visual"] = vis
+
+    # Semantic neighbours (DECISIONS.md #12). Same omit-when-empty rule: only 292
+    # of 702 sketches have a match above the cosine floor, and padding the rest
+    # with weak ones is what the score threshold exists to prevent.
+    sim = (neighbors or {}).get(vid)
+    if sim:
+        out["similar"] = sim
     return out
 
 
@@ -92,7 +101,7 @@ _METADATA_COLS = ["video_id", "duration_sec", "view_count", "upload_date"]
 
 
 def build_all(kargin_csv, metadata_csv, allowlist=ACTOR_ALLOWLIST, typos=ACTOR_TYPOS,
-              songs_csv=None, transcripts_dir=None, visual_dir=None):
+              songs_csv=None, transcripts_dir=None, visual_dir=None, neighbors_json=None):
     k = pd.read_csv(kargin_csv)
     m = pd.read_csv(metadata_csv)
     missing = [c for c in _METADATA_COLS if c not in m.columns]
@@ -111,4 +120,12 @@ def build_all(kargin_csv, metadata_csv, allowlist=ACTOR_ALLOWLIST, typos=ACTOR_T
     songs = load_songs(songs_csv) if songs_csv else {}
     transcripts = load_transcripts(transcripts_dir) if transcripts_dir else {}
     visual = load_visual(visual_dir) if visual_dir else {}
-    return [row_to_sketch(r, allowlist, typos, songs, transcripts, visual) for _, r in df.iterrows()]
+    neighbors = load_neighbors(neighbors_json) if neighbors_json else {}
+    sketches = [row_to_sketch(r, allowlist, typos, songs, transcripts, visual, neighbors)
+                for _, r in df.iterrows()]
+    # A neighbour id that is not itself a sketch would silently vanish in the UI.
+    known = {s["id"] for s in sketches}
+    dangling = {n["id"] for s in sketches for n in s.get("similar", [])} - known
+    if dangling:
+        raise ValueError(f"neighbour ids not present as sketches: {sorted(dangling)[:10]}")  # loud fail
+    return sketches
