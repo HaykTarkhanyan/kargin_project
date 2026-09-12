@@ -260,3 +260,17 @@ node_modules/
 # of truth. Regenerate with scripts/non_essential/report_usage.py. Kept out of git
 # because it churns on every run and holds visitors' raw search text.
 /data/usage/
+
+# Nested git worktrees from worktree-based sessions - never part of the repo
+.claude/worktrees/
+
+# Generated similarity report (1.7 MB) - rebuild from the .npz beside it with
+# scripts/non_essential/build_similarity_report.py
+/data/embeddings/*.html
+
+# Fan-made Google Forms quiz captures: 53 screenshots, 21 MB. The parsed JSON and
+# notes beside them ARE committed; the images stay local. Whether to commit them is
+# the owner decision left open in _work_sessions/2026-09-11-2232_google-forms.toml,
+# and it is hard to undo once the bytes are in history.
+/data/google_forms/**/*.png
+/data/google_forms/**/*.jpg
