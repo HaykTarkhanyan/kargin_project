@@ -1,0 +1,51 @@
+title = "Usage check (site + bot), then mapping the YouTube channels that upload Kargin"
+date = "2026-10-27"
+time = "02:44"
+areas = ["scripts/non_essential", "data/channel_scout", "data/usage", "DECISIONS.md"]
+
+done = [
+    "Usage: re-ran report_usage.py (26 s). 1,045 events since 2026-09-06, 111 site visits, 3 bot users ever, 9 bot events, 0 real feedback reports (the one ever sent was our own E2E test). Since 2026-09-27 the site gets 1-3 visits on active days; last event 2026-10-24. 901 logged searches are ~556 after dropping debounce prefixes.",
+    "Infra side via Cloud Monitoring: Firestore peak day 5,280 reads (11% of the 50k free) and 703 writes (3.5% of 20k), all reads from our own admin scripts since the site only writes. Bot Cloud Run: ~100 requests in 60 days, 13 5xx around 2026-09-14 whose logs have expired (30-day retention), webhook healthy now.",
+    "Channel scout: new scripts/non_essential/scout_channels.py. Seeds are the 27 chat links + @mherkhachatryan666 + @Upperr + KarginTV (data/channel_scout/seeds.json, no names, the repo is public) and a Playwright scrape of 18 YouTube searches (pw_search_hits.json: 535 videos, 178 channel results). Data API lists every upload of each channel, keeps Kargin-signal ones, fetches metadata. No downloads.",
+    "Final run (1,301 s): 232 channels kept, 53 rejected, 9,813 videos. Outside KarginTV: 8,496 videos = 6,110 shorts, 2,090 sketch-length (1-15 min), 194 full episodes, 102 Kaset tapes.",
+    "KarginTV itself has sketches the archive lacks: Haghordum sketches 175/176/177 (numbers reused for different videos, durations differ), 194 (1.39M views), 195, and 'Bufet'; 100 'Kargin Sketch Show' sketches (2013, 145M views together); 8 'Kargin Multer'.",
+    "Signal tuned twice on evidence, DECISIONS #18: 'kargin' alone matched Turkish/Russian Kargın surnames; a lone 'Hayko' kept 75 songs by the singer HT Hayko (2.5% of matching rows, 2 channels); Hayko/Mko now count only as a pair. Run 2 then rejected ~15 Armenian channels named Kargin whose uploads never say so; a Kargin channel name now marks the channel dedicated.",
+]
+
+pending = [
+    "videos.json (9.2 MB, descriptions) is gitignored and videos.csv (2.2 MB) committed: the reversible default, taken when the owner said 'commit and push' without answering. Commit videos.json too if the owner wants it in history.",
+    "Owner to decide scope: are Kargin Sketch Show, Kargin Multer, Kargin Kaset tapes and full TV episodes archive material, or only Kargin Haghordum sketches?",
+    "No dedupe yet: a fan re-upload of a sketch we already have has a new video id, so 'not in archive' means 'not this upload'. Needs title/duration matching, or audio fingerprints (needs audio downloads).",
+    "Bot: 13 unexplained 5xx around 2026-09-14, logs gone. Owner to send the bot a search to confirm it answers end to end.",
+    "Open questions from the usage check: a way to mark the owner's own site visits so usage counts only real people; adding the Cloud Monitoring + request-log checks to report_usage.py (needs a run at least every 30 days, the log retention).",
+]
+
+next = "Decide scope (pending #2), then match the 2,090 sketch-length fan uploads against the 702 by duration and title to get the real list of missing sketches."
+
+files = [
+    "scripts/non_essential/scout_channels.py (new)",
+    "scripts/non_essential/README.md",
+    "data/channel_scout/seeds.json (new)", "data/channel_scout/pw_search_hits.json (new)",
+    "data/channel_scout/channels.json (new, generated)", "data/channel_scout/channels_rejected.json (new, generated)",
+    "data/channel_scout/videos.json (new, generated, gitignored)", "data/channel_scout/videos.csv (new, generated)",
+    "DECISIONS.md (#18)", ".gitignore",
+    "data/usage/* (regenerated, gitignored)",
+]
+commits = [
+    "a3cea40 feat(scripts): channel scout - map the YouTube channels that upload Kargin",
+]
+
+notes = """
+Playwright MCP: browser_run_code_unsafe has no fs and no persistent globalThis
+between calls, and only reads code files under the project or .playwright-mcp/.
+What survives between calls is the page's own localStorage on youtube.com, so the
+search scrape merges into that and browser_evaluate(filename=...) writes it out.
+A run_code that passes 120 s moves to the background and notifies on completion.
+
+The Logging API returns nothing without an explicit timestamp bound in the filter.
+Cloud Monitoring daily buckets end at the query's end time-of-day, so their date
+labels sit about a day off the event dates.
+
+My first runtime estimate for the scout (2-8 min) was wrong by 3x: 285 channels,
+two of them capped at 3,000 uploads, took 22-25 min sequentially.
+"""
