@@ -274,3 +274,8 @@ node_modules/
 # and it is hard to undo once the bytes are in history.
 /data/google_forms/**/*.png
 /data/google_forms/**/*.jpg
+
+# Channel scout full dump (9.2 MB, mostly video descriptions). videos.csv beside it
+# holds the same rows without descriptions and IS committed. Regenerate in ~22 min,
+# free quota: uv run python scripts/non_essential/scout_channels.py
+/data/channel_scout/videos.json

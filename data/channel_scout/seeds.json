@@ -1,0 +1,37 @@
+{
+  "_about": "Inputs for scripts/non_essential/scout_channels.py. Videos and channels that may carry Kargin sketches missing from the archive. source: 'chat' = links shared in the friends' chat 2026-10-27 (names deliberately left out, the repo is public); 'pw-search: <query>' = found by a YouTube search. t = start offset in seconds when the link pointed inside a longer video.",
+  "videos": [
+    {"video_id": "xFWhyB_DDuE", "source": "chat"},
+    {"video_id": "52X4-E6--yI", "source": "chat", "t": 1042, "note": "shared twice, once as a 'gem', once at t=1042: 'this one is not on YouTube on its own, someone cut a few out'"},
+    {"video_id": "vCrLDmbs2wI", "source": "chat", "t": 939},
+    {"video_id": "A4_a7MEPPnQ", "source": "chat", "note": "'I had not seen this one either'"},
+    {"video_id": "0bwXAJfcmxM", "source": "chat", "note": "'had not seen this one'"},
+    {"video_id": "h-AAZYabDEs", "source": "chat"},
+    {"video_id": "r-SKAxdW_pM", "source": "chat"},
+    {"video_id": "wouSJQu_eJM", "source": "chat"},
+    {"video_id": "MD8hqXsCvb4", "source": "chat"},
+    {"video_id": "8t7hzpg0dlg", "source": "chat"},
+    {"video_id": "2ogzin0rOXU", "source": "chat"},
+    {"video_id": "8FCXzVzuKJg", "source": "chat", "note": "'fresh kargin'"},
+    {"video_id": "2RVBmRZ1h7w", "source": "chat", "note": "reference to the film A Nightmare on Elm Street, chasing people in their dreams"},
+    {"video_id": "4_XSmvxWFq0", "source": "chat"},
+    {"video_id": "O1LDjwZcN9s", "source": "chat"},
+    {"video_id": "bvM_F52r37c", "source": "chat"},
+    {"video_id": "sbBFnRYsGF4", "source": "chat"},
+    {"video_id": "BbP-x4dAajc", "source": "chat"},
+    {"video_id": "Zdpb6JTgkHA", "source": "chat"},
+    {"video_id": "E7_iqNNcblM", "source": "chat"},
+    {"video_id": "xfk2w5-pa9g", "source": "chat", "note": "followed by '16:45' in the chat, probably the offset of the sketch"},
+    {"video_id": "NiAtLnf9CaY", "source": "chat", "note": "'found a kargin I had not seen'"},
+    {"video_id": "JFAzFdOamDA", "source": "chat"},
+    {"video_id": "j9Jv06eZr3Y", "source": "chat"},
+    {"video_id": "6oKw0F_EszY", "source": "chat"},
+    {"video_id": "EDMzE3p4nZ0", "source": "chat"},
+    {"video_id": "jcYTSHRiubE", "source": "chat"}
+  ],
+  "channels": [
+    {"handle": "@mherkhachatryan666", "source": "chat"},
+    {"handle": "@Upperr", "source": "chat"},
+    {"channel_id": "UCEHF-l2v0qhi_IXzrfc3uZg", "source": "archive", "note": "KarginTV, where all 702 archive sketches come from"}
+  ]
+}

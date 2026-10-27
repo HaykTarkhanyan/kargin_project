@@ -6,6 +6,41 @@ entries are never deleted — that we changed our mind, and why, is the point.
 
 ---
 
+## #18 — Channel scouting: metadata only, strict Kargin signal, keep-all for dedicated channels
+
+**Date:** 2026-10-27 · **Status:** active
+
+**Decision.** To find sketches missing from the archive, `scripts/non_essential/scout_channels.py`
+maps the YouTube channels that upload Kargin material and stores their video metadata in
+`data/channel_scout/` (no downloads). Seeds are hand-entered links (`seeds.json`) and a
+Playwright scrape of YouTube search (`pw_search_hits.json`). For each channel it lists
+every upload, counts the ones with a Kargin signal, and keeps ALL uploads when at least
+half carry one or the channel's own name does (a dedicated fan channel, where some
+titles are just the sketch name or emoji), otherwise only the signal ones. Channels with no signal go to `channels_rejected.json`
+with their counts, never silently dropped.
+
+**Why.** All 702 archive sketches come from one channel, KarginTV, so everything missing
+lives on other people's channels. The Data API lists uploads at 1 quota unit per 50, so
+a whole channel costs almost nothing; the search scrape only finds the channels. The
+signal is strict because the loose one was measurably wrong: "kargin" alone matched the
+dozens of Turkish/Russian people surnamed Kargın the channel search returns, and a lone
+"Hayko" kept 75 songs by the singer HT Hayko. Counting Hayko/Mko only as a pair dropped
+202 of 8,121 matching rows (2.5%) and two whole channels, and kept every real case tested.
+The channel-name rule came from the second run, which rejected about a dozen Armenian
+channels like "ԿԱՐԳԻՆ HUB" and "Կարգին Ալիք" only because their upload titles never
+say Kargin.
+
+**Alternatives rejected.** Scraping channel pages with Playwright for durations and views
+(slower, breaks on layout changes; the API is free and exact). Keeping every upload of
+every channel (tens of thousands of unrelated videos from the big general channels).
+Keeping only signal uploads everywhere (loses sketches on fan channels titled by name only).
+
+**What would change this.** A dedicated channel whose sketches carry no signal at all
+(the 50% rule then misses it; lower the share or add the channel by hand), or a review
+of the kept rows finding a false-positive rate well above a few percent.
+
+---
+
 ## #17 — Collections live in their own file, membership in one CSV column
 
 **Date:** 2026-09-12 · **Status:** active
