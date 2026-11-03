@@ -6,6 +6,52 @@ entries are never deleted — that we changed our mind, and why, is the point.
 
 ---
 
+## #19 — Scope and ground rules for growing the archive beyond the 702
+
+**Date:** 2026-11-03 · **Status:** active (no code yet; the plan is
+`docs/superpowers/plans/2026-11-03-extend-archive.md`, whose section 3 holds every
+answer with its consequences)
+
+**Decision.**
+- **In scope:** Kargin Haghordum, Kargin Multer and Kargin Kaset. Kargin Sketch Show (100 uploads on KarginTV) is **out**.
+- **Segments:** sketches that exist only inside a longer video are in scope, so the segment model (Phase C) will be built, with a stable archive id that is not the YouTube id, covering both segments and swapping a dead upload for an alternate.
+- **Compilations:** the archive's own ~8 stay and get marked as compilations; new ones from fan channels are only mined for the sketches inside, never added.
+- **Which copy:** the archive's copy of a sketch must be public, embeddable, unblocked in Armenia and Germany, and not age-restricted; then the best quality wins. Other copies are kept as alternates.
+- **New fields:** a `series` column, and the uploading channel shown on non-KarginTV pages.
+- **Actors** come from text cues only (titles, descriptions, transcripts); the rest ship untagged and get tagged later.
+- **Transcripts:** the batch re-upload, with the owner uploading the video.
+- **Numbering:** the downloaders are hardened to read the row number from `id`.
+- **Disk:** work within the 16 GB free.
+- **Scout data:** `data/channel_scout/videos.json` is committed.
+
+**Why.** All 702 sketches come from one channel, and the scout found 232 more
+channels. Each answer is the owner's (interview, 2026-11-03).
+
+Three answers overrode the recommendation:
+
+- **Actors before publishing.** The trade accepted is incomplete actor pages for
+  speed. Only 10% of standalone candidates name the Hayko+Mko pair in the title, and
+  15% name any main actor in the title or description, so most new sketches will
+  ship untagged. Face-based identification was explicitly ruled out: it identifies
+  real people from their faces, which the annotation skill also forbids.
+- **A disk hunt first.** It was declined. Screening audio is deleted between
+  phases instead.
+- **Keeping `videos.json` out of git.** Declined too; it's committed (9.2 MB).
+
+**Alternatives rejected.**
+- Haghordum only: drops the Kaset tapes the owner's friends share.
+- Phase C conditional on a count: the owner wants those sketches regardless.
+- Removing the old compilations: breaks shared links and hearts.
+- Tagging actors before publishing: too slow, about 2-4 min per sketch.
+- Gemini STT for transcripts: it costs money and was rated lower in the April spike.
+
+**What would change this.**
+- B20's availability check measures fan uploads dying often. Then the stable id stops being optional polish and moves ahead of Phase C's other work.
+- Untagged sketches visibly hurt the actor pages. Then revisit Q11.
+- The home page payload grows by more than ~25% (B16 gate). Then the archive needs a split payload before more sketches ship.
+
+---
+
 ## #18 — Channel scouting: metadata only, strict Kargin signal, keep-all for dedicated channels
 
 **Date:** 2026-10-27 · **Status:** active

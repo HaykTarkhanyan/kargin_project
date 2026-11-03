@@ -1,0 +1,49 @@
+title = "Plan for extending the archive beyond the 702, compilations included, reviewed and decided"
+date = "2026-11-03"
+time = "11:19"
+areas = ["docs/superpowers/plans", "DECISIONS.md", ".gitignore", "data/channel_scout"]
+
+done = [
+    "Read every pipeline script's docstring plus assemble.py, the review store, the annotation skill, LEARNINGS, DECISIONS and HANDOFF, and wrote docs/superpowers/plans/2026-11-03-extend-archive.md: Phase 0 (an audio engine that finds a sketch anywhere in a recording), A (standalone candidates), M (mapping compilations, episodes, tapes), B (the full add pipeline with gates and human reviews), S (compilations on the site), C (segments).",
+    "Measured what shapes it: disk 16 GB free of 476 GB; ~11.5 MB per archived sketch; ~2,028 sketch-length fan uploads; a multi-sketch pool of ~307 videos / 168 h (3.5 GB at 48 kbps); the 49 Kaset-titled tapes are tapes 1-10 uploaded 2-6 times; the archive already holds ~8 compilations of which audio mapped only 2; sketches.json is 2.76 MB and ships in the home page JS.",
+    "Found code constraints: sketch id == YouTube video id everywhere; file numbers are re-counted after an availability filter (an unlisted video shifts every later number, deleted/private ones don't); four scripts parse exactly 3-digit prefixes (999 ceiling); duplicate_of has no safe writer; the player is a YouTube iframe, so non-embeddable uploads play nothing.",
+    "Reviewed the plan against the code: 17 findings logged in its section 15, including two that would have broken things (no embeddability check; 'drop the row' after files exist would renumber later rows).",
+    "Interviewed the owner on Q4-Q19 and recorded every answer in the plan's section 3 and in DECISIONS #19. Three answers overrode the recommendation (Q4 commit videos.json, Q9 no disk hunt, Q11 actors from text cues only).",
+    "Explained why face-based actor identification is off the table, and measured the text alternative: 10% of standalone candidates name the Hayko+Mko pair in the title, 15% name any main actor in title or description.",
+    "Committed data/channel_scout/videos.json (Q4) and removed its ignore line.",
+]
+
+pending = [
+    "Nothing in the plan has been run. Next is Phase 0: ground truth from data/duplicates.csv plus planted clips, then the audfprint probe (Q13).",
+    "Phase C spec (stable archive id, Q16) to be written while Phase M runs.",
+    "Q12 left optional: an independent subagent read of the plan.",
+    "Unchanged from earlier sessions: the usage-check questions (bot end-to-end test, a dev flag for own visits, bot error checks in report_usage.py); domain-dialog.md still untracked.",
+]
+
+next = "Phase 0 step 0.1: build data/audio_index/groundtruth.csv from the 23 duplicate and 4 contains pairs, then probe audfprint2 against it."
+
+files = [
+    "docs/superpowers/plans/2026-11-03-extend-archive.md (new, then revised)",
+    "DECISIONS.md (#19)",
+    ".gitignore (videos.json no longer ignored)",
+    "data/channel_scout/videos.json (now committed)",
+]
+commits = [
+    "5a6ab2a docs: plan for extending the archive beyond the 702 sketches [skip ci]",
+    "d214032 chore(data): commit the channel scout full dump",
+]
+
+notes = """
+The plan is the record, by request: findings, numbers and decisions live in the
+file, not the chat.
+
+A heads-up note claimed a vanished video shifts the file numbering. Checked against
+the code: half right. fetch_youtube_metadata_api.py writes an error row with empty
+availability for a video the API no longer returns, and download_audio.py's
+fillna("public") keeps that slot; only an explicit non-public status (unlisted)
+drops a row and shifts the rest.
+
+Under Git Bash, grep with multibyte characters in a bracket set matches raw bytes, so
+a check for curly quotes flagged lines with Armenian letters. Python with explicit
+code points is the reliable check.
+"""
