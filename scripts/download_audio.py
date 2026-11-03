@@ -31,6 +31,8 @@ from pathlib import Path
 import pandas as pd
 import yt_dlp
 
+from archive_ids import KARGIN_CSV, load_seq_of
+
 
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
@@ -127,9 +129,10 @@ def main(input_csv: Path, output_dir: Path, limit: int | None, sleep_sec: float)
         df = df[df["availability"].fillna("public") == "public"]
 
     all_ids = df["video_id"].dropna().astype(str).tolist()
-    # seq is the 1-based row position in the (filtered) input CSV. Stable as
-    # long as we don't reorder data/youtube_metadata.csv. Used as filename prefix.
-    seq_of: dict[str, int] = {vid: i for i, vid in enumerate(all_ids, 1)}
+    # The filename prefix is the row's `id` in kargin_eng.csv, not its position among
+    # the public rows: one archive video turning unlisted must not renumber every
+    # later download (scripts/archive_ids.py, DECISIONS #19).
+    seq_of: dict[str, int] = load_seq_of(KARGIN_CSV, all_ids)
 
     output_dir.mkdir(parents=True, exist_ok=True)
     have = existing_video_ids(output_dir)

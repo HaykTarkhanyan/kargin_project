@@ -1,0 +1,31 @@
+{
+ "spurious_max_density": 1.141,
+ "threshold": 2.0,
+ "recall": {
+  "known_contains": [
+   4,
+   4
+  ],
+  "known_duplicate": [
+   23,
+   23
+  ],
+  "mid_plain": [
+   20,
+   20
+  ],
+  "mid_intro20": [
+   20,
+   20
+  ],
+  "speed4_pitch": [
+   0,
+   20
+  ],
+  "speed4_tempo": [
+   0,
+   20
+  ]
+ },
+ "known_pair_worst_offset_error_sec": 0.022
+}

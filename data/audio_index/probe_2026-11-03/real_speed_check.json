@@ -1,0 +1,37 @@
+{
+ "measured": "2026-11-03",
+ "question": "are real fan uploads speed-shifted copies of archive sketches?",
+ "runs": [
+  {
+   "clips": 187,
+   "matched_at_2.0_per_s": 78,
+   "unmatched": 109,
+   "factors": [
+    0.95,
+    0.97,
+    1.03,
+    1.05
+   ],
+   "kinds": [
+    "asetrate (tape speed, pitch moves)",
+    "atempo (tempo only)"
+   ],
+   "unmatched_that_matched_after_correction": 0
+  },
+  {
+   "clips": 494,
+   "matched_at_2.0_per_s": 170,
+   "unmatched": 324,
+   "factors": [
+    0.985,
+    1.015
+   ],
+   "kinds": [
+    "asetrate",
+    "atempo"
+   ],
+   "unmatched_that_matched_after_correction": 0
+  }
+ ],
+ "conclusion": "no speed-shifted copies observed; the engine's speed weakness is accepted (DECISIONS #21)"
+}

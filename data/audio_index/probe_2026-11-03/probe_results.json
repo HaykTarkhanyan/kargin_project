@@ -1,0 +1,6365 @@
+[
+ {
+  "clip": "pair_contains_R6VbgKcNBYY.mp3",
+  "kind": "known_contains",
+  "source": "R6VbgKcNBYY",
+  "expect_ref": "E0apclx3wqU",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3107,
+  "query_dur": 59.8,
+  "match_sec": 1.95,
+  "hits": [
+   {
+    "ref": "R6VbgKcNBYY",
+    "aligned": 613,
+    "raw": 632,
+    "offset_sec": 0.0,
+    "q_start": 5.0,
+    "q_end": 56.2
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 479,
+    "raw": 537,
+    "offset_sec": 0.0,
+    "q_start": 5.0,
+    "q_end": 56.3
+   },
+   {
+    "ref": "kIc8JOhTGbE",
+    "aligned": 426,
+    "raw": 442,
+    "offset_sec": 0.0,
+    "q_start": 8.6,
+    "q_end": 56.2
+   }
+  ]
+ },
+ {
+  "clip": "pair_contains_0iKAm_aZ7Og.mp3",
+  "kind": "known_contains",
+  "source": "0iKAm_aZ7Og",
+  "expect_ref": "3UZOwmPovQ4",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 4261,
+  "query_dur": 59.7,
+  "match_sec": 1.93,
+  "hits": [
+   {
+    "ref": "0iKAm_aZ7Og",
+    "aligned": 984,
+    "raw": 1268,
+    "offset_sec": 0.0,
+    "q_start": 2.6,
+    "q_end": 56.4
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 649,
+    "raw": 1016,
+    "offset_sec": 0.02,
+    "q_start": 1.9,
+    "q_end": 57.0
+   },
+   {
+    "ref": "kKDydl5jRAY",
+    "aligned": 583,
+    "raw": 891,
+    "offset_sec": -3.78,
+    "q_start": 8.7,
+    "q_end": 57.0
+   },
+   {
+    "ref": "A2TJpch1-tw",
+    "aligned": 61,
+    "raw": 81,
+    "offset_sec": 0.0,
+    "q_start": 0.3,
+    "q_end": 2.8
+   },
+   {
+    "ref": "rktRofsEmtg",
+    "aligned": 56,
+    "raw": 79,
+    "offset_sec": 0.0,
+    "q_start": 0.1,
+    "q_end": 2.8
+   },
+   {
+    "ref": "Cx4bMlneeh8",
+    "aligned": 51,
+    "raw": 67,
+    "offset_sec": 0.0,
+    "q_start": 0.1,
+    "q_end": 2.6
+   },
+   {
+    "ref": "1knVCwhPp4A",
+    "aligned": 49,
+    "raw": 74,
+    "offset_sec": 0.0,
+    "q_start": 0.1,
+    "q_end": 2.6
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 47,
+    "raw": 439,
+    "offset_sec": 33.69,
+    "q_start": 33.0,
+    "q_end": 51.0
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 44,
+    "raw": 172,
+    "offset_sec": 172.5,
+    "q_start": 0.1,
+    "q_end": 2.8
+   },
+   {
+    "ref": "379BAt3RevQ",
+    "aligned": 42,
+    "raw": 65,
+    "offset_sec": 0.05,
+    "q_start": 0.3,
+    "q_end": 2.6
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_fqeoB0CKcY4.mp3",
+  "kind": "known_duplicate",
+  "source": "fqeoB0CKcY4",
+  "expect_ref": "e348pjjIcWE",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3999,
+  "query_dur": 59.8,
+  "match_sec": 1.88,
+  "hits": [
+   {
+    "ref": "fqeoB0CKcY4",
+    "aligned": 924,
+    "raw": 1027,
+    "offset_sec": 0.0,
+    "q_start": 4.8,
+    "q_end": 56.0
+   },
+   {
+    "ref": "e348pjjIcWE",
+    "aligned": 647,
+    "raw": 742,
+    "offset_sec": 0.02,
+    "q_start": 6.2,
+    "q_end": 55.8
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 601,
+    "raw": 810,
+    "offset_sec": 176.54,
+    "q_start": 6.3,
+    "q_end": 55.9
+   },
+   {
+    "ref": "syOoThNi4Xs",
+    "aligned": 51,
+    "raw": 141,
+    "offset_sec": 109.3,
+    "q_start": 3.3,
+    "q_end": 13.3
+   },
+   {
+    "ref": "syOoThNi4Xs",
+    "aligned": 44,
+    "raw": 141,
+    "offset_sec": 85.29,
+    "q_start": 29.8,
+    "q_end": 40.1
+   },
+   {
+    "ref": "e348pjjIcWE",
+    "aligned": 20,
+    "raw": 742,
+    "offset_sec": -23.99,
+    "q_start": 29.7,
+    "q_end": 41.0
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 18,
+    "raw": 810,
+    "offset_sec": 152.53,
+    "q_start": 27.2,
+    "q_end": 37.8
+   },
+   {
+    "ref": "fqeoB0CKcY4",
+    "aligned": 13,
+    "raw": 1027,
+    "offset_sec": -23.99,
+    "q_start": 29.7,
+    "q_end": 37.3
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 13,
+    "raw": 810,
+    "offset_sec": 200.55,
+    "q_start": 5.7,
+    "q_end": 13.8
+   },
+   {
+    "ref": "fqeoB0CKcY4",
+    "aligned": 13,
+    "raw": 1027,
+    "offset_sec": 24.01,
+    "q_start": 6.3,
+    "q_end": 13.3
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_QVR7aa5cb5I.mp3",
+  "kind": "known_duplicate",
+  "source": "QVR7aa5cb5I",
+  "expect_ref": "A8_n7aME-yM",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 4248,
+  "query_dur": 59.7,
+  "match_sec": 1.9,
+  "hits": [
+   {
+    "ref": "QVR7aa5cb5I",
+    "aligned": 895,
+    "raw": 1155,
+    "offset_sec": 0.0,
+    "q_start": 3.9,
+    "q_end": 57.3
+   },
+   {
+    "ref": "A8_n7aME-yM",
+    "aligned": 679,
+    "raw": 1021,
+    "offset_sec": 0.02,
+    "q_start": 1.8,
+    "q_end": 57.3
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 289,
+    "raw": 886,
+    "offset_sec": 377.56,
+    "q_start": 33.1,
+    "q_end": 58.0
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 277,
+    "raw": 886,
+    "offset_sec": 377.46,
+    "q_start": 1.1,
+    "q_end": 25.3
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 40,
+    "raw": 886,
+    "offset_sec": 422.32,
+    "q_start": 10.1,
+    "q_end": 13.7
+   },
+   {
+    "ref": "A8_n7aME-yM",
+    "aligned": 36,
+    "raw": 1021,
+    "offset_sec": 44.77,
+    "q_start": 10.1,
+    "q_end": 15.6
+   },
+   {
+    "ref": "QVR7aa5cb5I",
+    "aligned": 35,
+    "raw": 1155,
+    "offset_sec": 44.77,
+    "q_start": 9.9,
+    "q_end": 14.8
+   },
+   {
+    "ref": "A8_n7aME-yM",
+    "aligned": 32,
+    "raw": 1021,
+    "offset_sec": -44.74,
+    "q_start": 54.9,
+    "q_end": 57.9
+   },
+   {
+    "ref": "QVR7aa5cb5I",
+    "aligned": 27,
+    "raw": 1155,
+    "offset_sec": -44.74,
+    "q_start": 54.9,
+    "q_end": 58.9
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 24,
+    "raw": 886,
+    "offset_sec": 332.7,
+    "q_start": 55.4,
+    "q_end": 58.9
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_S8bCsNnNnJE.mp3",
+  "kind": "known_duplicate",
+  "source": "S8bCsNnNnJE",
+  "expect_ref": "7KKsmTxazyY",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3533,
+  "query_dur": 59.7,
+  "match_sec": 1.7,
+  "hits": [
+   {
+    "ref": "S8bCsNnNnJE",
+    "aligned": 739,
+    "raw": 849,
+    "offset_sec": 0.0,
+    "q_start": 5.4,
+    "q_end": 56.7
+   },
+   {
+    "ref": "7KKsmTxazyY",
+    "aligned": 576,
+    "raw": 667,
+    "offset_sec": 0.02,
+    "q_start": 5.4,
+    "q_end": 56.9
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 572,
+    "raw": 742,
+    "offset_sec": 290.85,
+    "q_start": 5.8,
+    "q_end": 56.7
+   },
+   {
+    "ref": "7KKsmTxazyY",
+    "aligned": 10,
+    "raw": 667,
+    "offset_sec": 8.43,
+    "q_start": 56.4,
+    "q_end": 58.0
+   },
+   {
+    "ref": "S8bCsNnNnJE",
+    "aligned": 9,
+    "raw": 849,
+    "offset_sec": 7.36,
+    "q_start": 57.4,
+    "q_end": 58.5
+   },
+   {
+    "ref": "7KKsmTxazyY",
+    "aligned": 8,
+    "raw": 667,
+    "offset_sec": 9.47,
+    "q_start": 55.9,
+    "q_end": 58.5
+   },
+   {
+    "ref": "S8bCsNnNnJE",
+    "aligned": 8,
+    "raw": 849,
+    "offset_sec": 17.93,
+    "q_start": 5.2,
+    "q_end": 6.4
+   },
+   {
+    "ref": "S8bCsNnNnJE",
+    "aligned": 8,
+    "raw": 849,
+    "offset_sec": 8.41,
+    "q_start": 56.4,
+    "q_end": 58.0
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 8,
+    "raw": 742,
+    "offset_sec": 300.3,
+    "q_start": 55.9,
+    "q_end": 58.5
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 7,
+    "raw": 742,
+    "offset_sec": 301.35,
+    "q_start": 55.9,
+    "q_end": 58.0
+   }
+  ]
+ },
+ {
+  "clip": "pair_contains_kIc8JOhTGbE.mp3",
+  "kind": "known_contains",
+  "source": "kIc8JOhTGbE",
+  "expect_ref": "E0apclx3wqU",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3066,
+  "query_dur": 59.7,
+  "match_sec": 1.6,
+  "hits": [
+   {
+    "ref": "kIc8JOhTGbE",
+    "aligned": 629,
+    "raw": 648,
+    "offset_sec": 0.0,
+    "q_start": 5.0,
+    "q_end": 56.2
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 413,
+    "raw": 475,
+    "offset_sec": 0.02,
+    "q_start": 6.0,
+    "q_end": 56.2
+   },
+   {
+    "ref": "R6VbgKcNBYY",
+    "aligned": 408,
+    "raw": 429,
+    "offset_sec": 0.02,
+    "q_start": 6.5,
+    "q_end": 56.2
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_kIc8JOhTGbE.mp3",
+  "kind": "known_duplicate",
+  "source": "kIc8JOhTGbE",
+  "expect_ref": "R6VbgKcNBYY",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3066,
+  "query_dur": 59.7,
+  "match_sec": 1.52,
+  "hits": [
+   {
+    "ref": "kIc8JOhTGbE",
+    "aligned": 629,
+    "raw": 648,
+    "offset_sec": 0.0,
+    "q_start": 5.0,
+    "q_end": 56.2
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 413,
+    "raw": 475,
+    "offset_sec": 0.02,
+    "q_start": 6.0,
+    "q_end": 56.2
+   },
+   {
+    "ref": "R6VbgKcNBYY",
+    "aligned": 408,
+    "raw": 429,
+    "offset_sec": 0.02,
+    "q_start": 6.5,
+    "q_end": 56.2
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_c2e4SgVd2AU.mp3",
+  "kind": "known_duplicate",
+  "source": "c2e4SgVd2AU",
+  "expect_ref": "YoGuj76WvJI",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3609,
+  "query_dur": 59.8,
+  "match_sec": 1.82,
+  "hits": [
+   {
+    "ref": "c2e4SgVd2AU",
+    "aligned": 644,
+    "raw": 661,
+    "offset_sec": 0.0,
+    "q_start": 3.1,
+    "q_end": 55.9
+   },
+   {
+    "ref": "YoGuj76WvJI",
+    "aligned": 520,
+    "raw": 541,
+    "offset_sec": 0.02,
+    "q_start": 4.0,
+    "q_end": 56.9
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 469,
+    "raw": 514,
+    "offset_sec": 3.53,
+    "q_start": 3.5,
+    "q_end": 55.9
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_oLDjVa73B4o.mp3",
+  "kind": "known_duplicate",
+  "source": "oLDjVa73B4o",
+  "expect_ref": "hvUyvsaVmQQ",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 2486,
+  "query_dur": 59.2,
+  "match_sec": 1.7,
+  "hits": [
+   {
+    "ref": "oLDjVa73B4o",
+    "aligned": 612,
+    "raw": 891,
+    "offset_sec": 0.0,
+    "q_start": 3.9,
+    "q_end": 55.6
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 510,
+    "raw": 824,
+    "offset_sec": 347.86,
+    "q_start": 5.9,
+    "q_end": 52.7
+   },
+   {
+    "ref": "hvUyvsaVmQQ",
+    "aligned": 419,
+    "raw": 619,
+    "offset_sec": 0.0,
+    "q_start": 5.9,
+    "q_end": 55.4
+   },
+   {
+    "ref": "oLDjVa73B4o",
+    "aligned": 79,
+    "raw": 891,
+    "offset_sec": 24.52,
+    "q_start": 48.4,
+    "q_end": 55.6
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 64,
+    "raw": 824,
+    "offset_sec": 372.47,
+    "q_start": 46.7,
+    "q_end": 55.5
+   },
+   {
+    "ref": "oLDjVa73B4o",
+    "aligned": 59,
+    "raw": 891,
+    "offset_sec": -20.48,
+    "q_start": 46.8,
+    "q_end": 52.7
+   },
+   {
+    "ref": "oLDjVa73B4o",
+    "aligned": 58,
+    "raw": 891,
+    "offset_sec": 20.48,
+    "q_start": 26.3,
+    "q_end": 32.2
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 58,
+    "raw": 824,
+    "offset_sec": 327.38,
+    "q_start": 46.7,
+    "q_end": 52.6
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 50,
+    "raw": 824,
+    "offset_sec": 368.34,
+    "q_start": 26.3,
+    "q_end": 32.2
+   },
+   {
+    "ref": "hvUyvsaVmQQ",
+    "aligned": 45,
+    "raw": 619,
+    "offset_sec": 24.52,
+    "q_start": 46.9,
+    "q_end": 55.4
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_fRoXRjGUAMI.mp3",
+  "kind": "known_duplicate",
+  "source": "fRoXRjGUAMI",
+  "expect_ref": "IvbvzjzEYmM",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 2647,
+  "query_dur": 59.9,
+  "match_sec": 1.51,
+  "hits": [
+   {
+    "ref": "fRoXRjGUAMI",
+    "aligned": 713,
+    "raw": 748,
+    "offset_sec": 0.0,
+    "q_start": 8.3,
+    "q_end": 57.5
+   },
+   {
+    "ref": "IvbvzjzEYmM",
+    "aligned": 426,
+    "raw": 453,
+    "offset_sec": 0.0,
+    "q_start": 8.3,
+    "q_end": 56.1
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 415,
+    "raw": 477,
+    "offset_sec": 479.75,
+    "q_start": 8.3,
+    "q_end": 58.6
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_H-vL_9n6yVk.mp3",
+  "kind": "known_duplicate",
+  "source": "H-vL_9n6yVk",
+  "expect_ref": "3xe0koMUcfE",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 4906,
+  "query_dur": 59.8,
+  "match_sec": 1.69,
+  "hits": [
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 949,
+    "raw": 1191,
+    "offset_sec": 0.0,
+    "q_start": 2.9,
+    "q_end": 56.5
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 711,
+    "raw": 1077,
+    "offset_sec": 3.53,
+    "q_start": 3.0,
+    "q_end": 56.4
+   },
+   {
+    "ref": "3xe0koMUcfE",
+    "aligned": 672,
+    "raw": 943,
+    "offset_sec": 0.02,
+    "q_start": 2.0,
+    "q_end": 56.3
+   },
+   {
+    "ref": "gCYod49MYII",
+    "aligned": 62,
+    "raw": 108,
+    "offset_sec": 0.02,
+    "q_start": 0.2,
+    "q_end": 5.6
+   },
+   {
+    "ref": "3xe0koMUcfE",
+    "aligned": 35,
+    "raw": 943,
+    "offset_sec": 125.23,
+    "q_start": 33.4,
+    "q_end": 39.7
+   },
+   {
+    "ref": "3xe0koMUcfE",
+    "aligned": 29,
+    "raw": 943,
+    "offset_sec": -0.26,
+    "q_start": 25.3,
+    "q_end": 29.0
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 27,
+    "raw": 1077,
+    "offset_sec": 128.73,
+    "q_start": 33.4,
+    "q_end": 39.7
+   },
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 23,
+    "raw": 1191,
+    "offset_sec": 0.28,
+    "q_start": 23.7,
+    "q_end": 28.7
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 23,
+    "raw": 1077,
+    "offset_sec": 3.81,
+    "q_start": 25.0,
+    "q_end": 28.7
+   },
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 23,
+    "raw": 1191,
+    "offset_sec": 125.2,
+    "q_start": 33.4,
+    "q_end": 39.7
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_YP4Q6dkI_0o.mp3",
+  "kind": "known_duplicate",
+  "source": "YP4Q6dkI_0o",
+  "expect_ref": "Y4EO-zo7DDM",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 4063,
+  "query_dur": 59.4,
+  "match_sec": 1.91,
+  "hits": [
+   {
+    "ref": "YP4Q6dkI_0o",
+    "aligned": 920,
+    "raw": 1040,
+    "offset_sec": 0.0,
+    "q_start": 4.0,
+    "q_end": 52.8
+   },
+   {
+    "ref": "Y4EO-zo7DDM",
+    "aligned": 650,
+    "raw": 729,
+    "offset_sec": 0.02,
+    "q_start": 4.2,
+    "q_end": 52.8
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 599,
+    "raw": 739,
+    "offset_sec": 496.51,
+    "q_start": 4.7,
+    "q_end": 53.6
+   },
+   {
+    "ref": "YP4Q6dkI_0o",
+    "aligned": 15,
+    "raw": 1040,
+    "offset_sec": 60.53,
+    "q_start": 0.5,
+    "q_end": 5.3
+   },
+   {
+    "ref": "Y4EO-zo7DDM",
+    "aligned": 11,
+    "raw": 729,
+    "offset_sec": 60.53,
+    "q_start": 0.9,
+    "q_end": 1.2
+   },
+   {
+    "ref": "YP4Q6dkI_0o",
+    "aligned": 10,
+    "raw": 1040,
+    "offset_sec": -6.87,
+    "q_start": 50.6,
+    "q_end": 51.2
+   },
+   {
+    "ref": "Y4EO-zo7DDM",
+    "aligned": 8,
+    "raw": 729,
+    "offset_sec": 6.9,
+    "q_start": 44.0,
+    "q_end": 44.4
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 7,
+    "raw": 739,
+    "offset_sec": 489.64,
+    "q_start": 50.8,
+    "q_end": 51.2
+   },
+   {
+    "ref": "YP4Q6dkI_0o",
+    "aligned": 5,
+    "raw": 1040,
+    "offset_sec": -2.86,
+    "q_start": 37.7,
+    "q_end": 53.7
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 4,
+    "raw": 739,
+    "offset_sec": 503.39,
+    "q_start": 43.8,
+    "q_end": 44.0
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_v3BNi5Juk0Y.mp3",
+  "kind": "known_duplicate",
+  "source": "v3BNi5Juk0Y",
+  "expect_ref": "75zxYmS3or8",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3575,
+  "query_dur": 59.9,
+  "match_sec": 1.62,
+  "hits": [
+   {
+    "ref": "v3BNi5Juk0Y",
+    "aligned": 691,
+    "raw": 751,
+    "offset_sec": 0.0,
+    "q_start": 1.1,
+    "q_end": 50.7
+   },
+   {
+    "ref": "75zxYmS3or8",
+    "aligned": 506,
+    "raw": 578,
+    "offset_sec": 0.02,
+    "q_start": 2.3,
+    "q_end": 54.8
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 417,
+    "raw": 519,
+    "offset_sec": 26.1,
+    "q_start": 2.8,
+    "q_end": 53.2
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 7,
+    "raw": 519,
+    "offset_sec": 42.05,
+    "q_start": 2.7,
+    "q_end": 7.5
+   },
+   {
+    "ref": "v3BNi5Juk0Y",
+    "aligned": 6,
+    "raw": 751,
+    "offset_sec": -12.17,
+    "q_start": 31.9,
+    "q_end": 32.2
+   },
+   {
+    "ref": "v3BNi5Juk0Y",
+    "aligned": 6,
+    "raw": 751,
+    "offset_sec": 12.17,
+    "q_start": 19.3,
+    "q_end": 20.1
+   },
+   {
+    "ref": "75zxYmS3or8",
+    "aligned": 6,
+    "raw": 578,
+    "offset_sec": -12.14,
+    "q_start": 31.9,
+    "q_end": 32.2
+   },
+   {
+    "ref": "75zxYmS3or8",
+    "aligned": 5,
+    "raw": 578,
+    "offset_sec": 15.98,
+    "q_start": 2.8,
+    "q_end": 5.7
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_yzBeTsyR8ys.mp3",
+  "kind": "known_duplicate",
+  "source": "yzBeTsyR8ys",
+  "expect_ref": "upv-Sbiitss",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 4621,
+  "query_dur": 59.8,
+  "match_sec": 1.69,
+  "hits": [
+   {
+    "ref": "yzBeTsyR8ys",
+    "aligned": 718,
+    "raw": 767,
+    "offset_sec": 0.0,
+    "q_start": 1.5,
+    "q_end": 56.2
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 567,
+    "raw": 674,
+    "offset_sec": 173.78,
+    "q_start": 1.8,
+    "q_end": 53.5
+   },
+   {
+    "ref": "upv-Sbiitss",
+    "aligned": 552,
+    "raw": 607,
+    "offset_sec": 0.02,
+    "q_start": 2.4,
+    "q_end": 56.2
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 4,
+    "raw": 674,
+    "offset_sec": 125.85,
+    "q_start": 52.6,
+    "q_end": 53.4
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_be_Bps_kR2M.mp3",
+  "kind": "known_duplicate",
+  "source": "be_Bps_kR2M",
+  "expect_ref": "64W5De5fdts",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 2197,
+  "query_dur": 59.2,
+  "match_sec": 1.46,
+  "hits": [
+   {
+    "ref": "be_Bps_kR2M",
+    "aligned": 421,
+    "raw": 433,
+    "offset_sec": 0.0,
+    "q_start": 6.2,
+    "q_end": 58.0
+   },
+   {
+    "ref": "64W5De5fdts",
+    "aligned": 295,
+    "raw": 317,
+    "offset_sec": 0.02,
+    "q_start": 5.3,
+    "q_end": 58.0
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 282,
+    "raw": 327,
+    "offset_sec": 724.6,
+    "q_start": 7.9,
+    "q_end": 57.8
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_ebNV8X33pB0.mp3",
+  "kind": "known_duplicate",
+  "source": "ebNV8X33pB0",
+  "expect_ref": "Y6B0evY1AnM",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 1490,
+  "query_dur": 59.4,
+  "match_sec": 1.49,
+  "hits": [
+   {
+    "ref": "ebNV8X33pB0",
+    "aligned": 327,
+    "raw": 370,
+    "offset_sec": 0.0,
+    "q_start": 8.5,
+    "q_end": 55.8
+   },
+   {
+    "ref": "Y6B0evY1AnM",
+    "aligned": 201,
+    "raw": 257,
+    "offset_sec": 0.0,
+    "q_start": 8.7,
+    "q_end": 55.8
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 195,
+    "raw": 276,
+    "offset_sec": 879.36,
+    "q_start": 5.9,
+    "q_end": 56.5
+   },
+   {
+    "ref": "Y6B0evY1AnM",
+    "aligned": 20,
+    "raw": 257,
+    "offset_sec": -34.44,
+    "q_start": 46.5,
+    "q_end": 58.8
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 19,
+    "raw": 276,
+    "offset_sec": 913.8,
+    "q_start": 5.9,
+    "q_end": 28.6
+   },
+   {
+    "ref": "ebNV8X33pB0",
+    "aligned": 18,
+    "raw": 370,
+    "offset_sec": 34.46,
+    "q_start": 12.1,
+    "q_end": 28.5
+   },
+   {
+    "ref": "Y6B0evY1AnM",
+    "aligned": 17,
+    "raw": 257,
+    "offset_sec": 34.44,
+    "q_start": 12.1,
+    "q_end": 28.6
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 15,
+    "raw": 276,
+    "offset_sec": 844.93,
+    "q_start": 42.9,
+    "q_end": 58.4
+   },
+   {
+    "ref": "ebNV8X33pB0",
+    "aligned": 13,
+    "raw": 370,
+    "offset_sec": -34.44,
+    "q_start": 43.1,
+    "q_end": 58.8
+   },
+   {
+    "ref": "lw4-Qv8kdL4",
+    "aligned": 13,
+    "raw": 34,
+    "offset_sec": -0.23,
+    "q_start": 0.5,
+    "q_end": 24.9
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_wzPFKJHpNMs.mp3",
+  "kind": "known_duplicate",
+  "source": "wzPFKJHpNMs",
+  "expect_ref": "4om4XkM1oFw",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 1625,
+  "query_dur": 59.7,
+  "match_sec": 1.69,
+  "hits": [
+   {
+    "ref": "wzPFKJHpNMs",
+    "aligned": 342,
+    "raw": 372,
+    "offset_sec": 0.0,
+    "q_start": 0.9,
+    "q_end": 56.8
+   },
+   {
+    "ref": "4om4XkM1oFw",
+    "aligned": 227,
+    "raw": 260,
+    "offset_sec": 0.0,
+    "q_start": 4.3,
+    "q_end": 56.9
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 193,
+    "raw": 255,
+    "offset_sec": 467.72,
+    "q_start": 4.3,
+    "q_end": 57.9
+   },
+   {
+    "ref": "wzPFKJHpNMs",
+    "aligned": 9,
+    "raw": 372,
+    "offset_sec": 34.64,
+    "q_start": 38.2,
+    "q_end": 40.7
+   },
+   {
+    "ref": "4om4XkM1oFw",
+    "aligned": 7,
+    "raw": 260,
+    "offset_sec": 34.64,
+    "q_start": 38.4,
+    "q_end": 40.7
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 7,
+    "raw": 255,
+    "offset_sec": 502.34,
+    "q_start": 38.2,
+    "q_end": 40.7
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_bVP8dzuxVkY.mp3",
+  "kind": "known_duplicate",
+  "source": "bVP8dzuxVkY",
+  "expect_ref": "OPiH_zBJTA0",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3522,
+  "query_dur": 59.9,
+  "match_sec": 1.78,
+  "hits": [
+   {
+    "ref": "bVP8dzuxVkY",
+    "aligned": 768,
+    "raw": 858,
+    "offset_sec": 0.0,
+    "q_start": 4.0,
+    "q_end": 55.2
+   },
+   {
+    "ref": "OPiH_zBJTA0",
+    "aligned": 434,
+    "raw": 471,
+    "offset_sec": -0.6,
+    "q_start": 4.0,
+    "q_end": 55.2
+   },
+   {
+    "ref": "bVP8dzuxVkY",
+    "aligned": 67,
+    "raw": 858,
+    "offset_sec": 117.7,
+    "q_start": 21.8,
+    "q_end": 26.4
+   },
+   {
+    "ref": "OPiH_zBJTA0",
+    "aligned": 25,
+    "raw": 471,
+    "offset_sec": 117.08,
+    "q_start": 21.9,
+    "q_end": 26.5
+   },
+   {
+    "ref": "bVP8dzuxVkY",
+    "aligned": 11,
+    "raw": 858,
+    "offset_sec": 28.82,
+    "q_start": 2.6,
+    "q_end": 3.7
+   },
+   {
+    "ref": "OPiH_zBJTA0",
+    "aligned": 8,
+    "raw": 471,
+    "offset_sec": 28.19,
+    "q_start": 2.7,
+    "q_end": 4.0
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_uObBR5ju488.mp3",
+  "kind": "known_duplicate",
+  "source": "uObBR5ju488",
+  "expect_ref": "AflDz3lCrhk",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 6803,
+  "query_dur": 59.3,
+  "match_sec": 1.88,
+  "hits": [
+   {
+    "ref": "uObBR5ju488",
+    "aligned": 1278,
+    "raw": 1450,
+    "offset_sec": 0.0,
+    "q_start": 3.2,
+    "q_end": 53.3
+   },
+   {
+    "ref": "AflDz3lCrhk",
+    "aligned": 912,
+    "raw": 1086,
+    "offset_sec": 0.05,
+    "q_start": 3.9,
+    "q_end": 54.1
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 801,
+    "raw": 1035,
+    "offset_sec": 570.96,
+    "q_start": 4.5,
+    "q_end": 53.1
+   },
+   {
+    "ref": "AflDz3lCrhk",
+    "aligned": 88,
+    "raw": 1086,
+    "offset_sec": 127.2,
+    "q_start": 3.4,
+    "q_end": 20.1
+   },
+   {
+    "ref": "uObBR5ju488",
+    "aligned": 76,
+    "raw": 1450,
+    "offset_sec": 127.18,
+    "q_start": 7.2,
+    "q_end": 21.4
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 56,
+    "raw": 1035,
+    "offset_sec": 698.11,
+    "q_start": 6.6,
+    "q_end": 20.8
+   },
+   {
+    "ref": "uObBR5ju488",
+    "aligned": 9,
+    "raw": 1450,
+    "offset_sec": 2.14,
+    "q_start": 0.7,
+    "q_end": 8.7
+   },
+   {
+    "ref": "AflDz3lCrhk",
+    "aligned": 5,
+    "raw": 1086,
+    "offset_sec": 2.16,
+    "q_start": 0.7,
+    "q_end": 1.8
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 4,
+    "raw": 1035,
+    "offset_sec": 573.07,
+    "q_start": 1.1,
+    "q_end": 8.7
+   },
+   {
+    "ref": "KUfco-tCJyk",
+    "aligned": 4,
+    "raw": 42,
+    "offset_sec": 51.73,
+    "q_start": 27.0,
+    "q_end": 27.4
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_I9hW_hYRLCI.mp3",
+  "kind": "known_duplicate",
+  "source": "I9hW_hYRLCI",
+  "expect_ref": "B5unjOI-5PA",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 8632,
+  "query_dur": 59.8,
+  "match_sec": 2.15,
+  "hits": [
+   {
+    "ref": "I9hW_hYRLCI",
+    "aligned": 1258,
+    "raw": 6771,
+    "offset_sec": 0.0,
+    "q_start": 9.8,
+    "q_end": 55.4
+   },
+   {
+    "ref": "B5unjOI-5PA",
+    "aligned": 931,
+    "raw": 6194,
+    "offset_sec": -0.02,
+    "q_start": 10.9,
+    "q_end": 55.4
+   },
+   {
+    "ref": "B5unjOI-5PA",
+    "aligned": 274,
+    "raw": 6194,
+    "offset_sec": 37.8,
+    "q_start": 40.6,
+    "q_end": 57.3
+   },
+   {
+    "ref": "I9hW_hYRLCI",
+    "aligned": 262,
+    "raw": 6771,
+    "offset_sec": 2.14,
+    "q_start": 23.6,
+    "q_end": 51.9
+   },
+   {
+    "ref": "I9hW_hYRLCI",
+    "aligned": 259,
+    "raw": 6771,
+    "offset_sec": 4.25,
+    "q_start": 22.1,
+    "q_end": 41.2
+   },
+   {
+    "ref": "B5unjOI-5PA",
+    "aligned": 248,
+    "raw": 6194,
+    "offset_sec": -2.16,
+    "q_start": 24.6,
+    "q_end": 56.8
+   },
+   {
+    "ref": "I9hW_hYRLCI",
+    "aligned": 244,
+    "raw": 6771,
+    "offset_sec": -2.11,
+    "q_start": 24.6,
+    "q_end": 47.6
+   },
+   {
+    "ref": "I9hW_hYRLCI",
+    "aligned": 244,
+    "raw": 6771,
+    "offset_sec": 37.85,
+    "q_start": 40.1,
+    "q_end": 57.8
+   },
+   {
+    "ref": "I9hW_hYRLCI",
+    "aligned": 244,
+    "raw": 6771,
+    "offset_sec": -4.25,
+    "q_start": 26.0,
+    "q_end": 46.5
+   },
+   {
+    "ref": "B5unjOI-5PA",
+    "aligned": 238,
+    "raw": 6194,
+    "offset_sec": -4.27,
+    "q_start": 26.4,
+    "q_end": 46.9
+   }
+  ]
+ },
+ {
+  "clip": "pair_contains_kKDydl5jRAY.mp3",
+  "kind": "known_contains",
+  "source": "kKDydl5jRAY",
+  "expect_ref": "3UZOwmPovQ4",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 4141,
+  "query_dur": 59.8,
+  "match_sec": 1.75,
+  "hits": [
+   {
+    "ref": "kKDydl5jRAY",
+    "aligned": 996,
+    "raw": 1305,
+    "offset_sec": 0.0,
+    "q_start": 2.8,
+    "q_end": 53.2
+   },
+   {
+    "ref": "0iKAm_aZ7Og",
+    "aligned": 683,
+    "raw": 997,
+    "offset_sec": 3.81,
+    "q_start": 2.6,
+    "q_end": 55.6
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 601,
+    "raw": 977,
+    "offset_sec": 3.81,
+    "q_start": 3.7,
+    "q_end": 54.9
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 48,
+    "raw": 480,
+    "offset_sec": 37.5,
+    "q_start": 30.1,
+    "q_end": 48.6
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 37,
+    "raw": 480,
+    "offset_sec": 105.09,
+    "q_start": 38.2,
+    "q_end": 48.0
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 16,
+    "raw": 480,
+    "offset_sec": 44.26,
+    "q_start": 15.5,
+    "q_end": 23.3
+   },
+   {
+    "ref": "0iKAm_aZ7Og",
+    "aligned": 13,
+    "raw": 997,
+    "offset_sec": 10.57,
+    "q_start": 22.4,
+    "q_end": 25.9
+   },
+   {
+    "ref": "kKDydl5jRAY",
+    "aligned": 12,
+    "raw": 1305,
+    "offset_sec": 0.88,
+    "q_start": 8.6,
+    "q_end": 45.8
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 12,
+    "raw": 480,
+    "offset_sec": 59.09,
+    "q_start": 53.2,
+    "q_end": 58.3
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 12,
+    "raw": 480,
+    "offset_sec": 41.05,
+    "q_start": 0.4,
+    "q_end": 12.1
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_Cx4bMlneeh8.mp3",
+  "kind": "known_duplicate",
+  "source": "Cx4bMlneeh8",
+  "expect_ref": "6Yi4XMBeuRA",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 4543,
+  "query_dur": 59.9,
+  "match_sec": 1.72,
+  "hits": [
+   {
+    "ref": "Cx4bMlneeh8",
+    "aligned": 937,
+    "raw": 981,
+    "offset_sec": 0.0,
+    "q_start": 1.5,
+    "q_end": 55.1
+   },
+   {
+    "ref": "6Yi4XMBeuRA",
+    "aligned": 581,
+    "raw": 616,
+    "offset_sec": -3.74,
+    "q_start": 7.9,
+    "q_end": 55.2
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 419,
+    "raw": 721,
+    "offset_sec": 380.76,
+    "q_start": 27.8,
+    "q_end": 57.4
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 210,
+    "raw": 721,
+    "offset_sec": 380.67,
+    "q_start": 1.2,
+    "q_end": 21.7
+   },
+   {
+    "ref": "rIE7ZYX5WtI",
+    "aligned": 62,
+    "raw": 77,
+    "offset_sec": 12.93,
+    "q_start": 47.3,
+    "q_end": 59.7
+   },
+   {
+    "ref": "rktRofsEmtg",
+    "aligned": 61,
+    "raw": 87,
+    "offset_sec": 0.0,
+    "q_start": 0.1,
+    "q_end": 2.8
+   },
+   {
+    "ref": "A2TJpch1-tw",
+    "aligned": 60,
+    "raw": 77,
+    "offset_sec": 0.0,
+    "q_start": 0.1,
+    "q_end": 2.8
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 56,
+    "raw": 204,
+    "offset_sec": 0.02,
+    "q_start": 0.1,
+    "q_end": 2.8
+   },
+   {
+    "ref": "0iKAm_aZ7Og",
+    "aligned": 52,
+    "raw": 87,
+    "offset_sec": 0.02,
+    "q_start": 0.1,
+    "q_end": 2.6
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 45,
+    "raw": 202,
+    "offset_sec": 673.24,
+    "q_start": 0.4,
+    "q_end": 2.8
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_MQ3EYYJk3tA.mp3",
+  "kind": "known_duplicate",
+  "source": "MQ3EYYJk3tA",
+  "expect_ref": "A2TJpch1-tw",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 2938,
+  "query_dur": 59.9,
+  "match_sec": 1.56,
+  "hits": [
+   {
+    "ref": "MQ3EYYJk3tA",
+    "aligned": 555,
+    "raw": 571,
+    "offset_sec": 0.0,
+    "q_start": 4.5,
+    "q_end": 56.1
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 497,
+    "raw": 557,
+    "offset_sec": 270.98,
+    "q_start": 5.9,
+    "q_end": 56.2
+   },
+   {
+    "ref": "A2TJpch1-tw",
+    "aligned": 464,
+    "raw": 482,
+    "offset_sec": 3.81,
+    "q_start": 4.6,
+    "q_end": 55.2
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_C9Y8rmQIsU8.mp3",
+  "kind": "known_duplicate",
+  "source": "C9Y8rmQIsU8",
+  "expect_ref": "1knVCwhPp4A",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 2942,
+  "query_dur": 59.9,
+  "match_sec": 1.57,
+  "hits": [
+   {
+    "ref": "C9Y8rmQIsU8",
+    "aligned": 568,
+    "raw": 602,
+    "offset_sec": 0.0,
+    "q_start": 4.7,
+    "q_end": 54.5
+   },
+   {
+    "ref": "1knVCwhPp4A",
+    "aligned": 509,
+    "raw": 548,
+    "offset_sec": 3.81,
+    "q_start": 7.6,
+    "q_end": 55.1
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 260,
+    "raw": 547,
+    "offset_sec": 775.62,
+    "q_start": 31.2,
+    "q_end": 56.6
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 208,
+    "raw": 547,
+    "offset_sec": 775.5,
+    "q_start": 2.8,
+    "q_end": 28.0
+   },
+   {
+    "ref": "1knVCwhPp4A",
+    "aligned": 18,
+    "raw": 548,
+    "offset_sec": 247.15,
+    "q_start": 0.1,
+    "q_end": 6.3
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 12,
+    "raw": 547,
+    "offset_sec": 1018.96,
+    "q_start": 0.1,
+    "q_end": 6.3
+   },
+   {
+    "ref": "C9Y8rmQIsU8",
+    "aligned": 10,
+    "raw": 602,
+    "offset_sec": 243.37,
+    "q_start": 0.1,
+    "q_end": 6.3
+   },
+   {
+    "ref": "C4IPn7C4Gg0",
+    "aligned": 4,
+    "raw": 14,
+    "offset_sec": -1.72,
+    "q_start": 2.9,
+    "q_end": 4.0
+   },
+   {
+    "ref": "XTx8271LtQo",
+    "aligned": 4,
+    "raw": 13,
+    "offset_sec": 78.97,
+    "q_start": 2.8,
+    "q_end": 4.2
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_kKDydl5jRAY.mp3",
+  "kind": "known_duplicate",
+  "source": "kKDydl5jRAY",
+  "expect_ref": "0iKAm_aZ7Og",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 4141,
+  "query_dur": 59.8,
+  "match_sec": 1.84,
+  "hits": [
+   {
+    "ref": "kKDydl5jRAY",
+    "aligned": 996,
+    "raw": 1305,
+    "offset_sec": 0.0,
+    "q_start": 2.8,
+    "q_end": 53.2
+   },
+   {
+    "ref": "0iKAm_aZ7Og",
+    "aligned": 683,
+    "raw": 997,
+    "offset_sec": 3.81,
+    "q_start": 2.6,
+    "q_end": 55.6
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 601,
+    "raw": 977,
+    "offset_sec": 3.81,
+    "q_start": 3.7,
+    "q_end": 54.9
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 48,
+    "raw": 480,
+    "offset_sec": 37.5,
+    "q_start": 30.1,
+    "q_end": 48.6
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 37,
+    "raw": 480,
+    "offset_sec": 105.09,
+    "q_start": 38.2,
+    "q_end": 48.0
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 16,
+    "raw": 480,
+    "offset_sec": 44.26,
+    "q_start": 15.5,
+    "q_end": 23.3
+   },
+   {
+    "ref": "0iKAm_aZ7Og",
+    "aligned": 13,
+    "raw": 997,
+    "offset_sec": 10.57,
+    "q_start": 22.4,
+    "q_end": 25.9
+   },
+   {
+    "ref": "kKDydl5jRAY",
+    "aligned": 12,
+    "raw": 1305,
+    "offset_sec": 0.88,
+    "q_start": 8.6,
+    "q_end": 45.8
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 12,
+    "raw": 480,
+    "offset_sec": 59.09,
+    "q_start": 53.2,
+    "q_end": 58.3
+   },
+   {
+    "ref": "4P8_-hQAtIk",
+    "aligned": 12,
+    "raw": 480,
+    "offset_sec": 41.05,
+    "q_start": 0.4,
+    "q_end": 12.1
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_rktRofsEmtg.mp3",
+  "kind": "known_duplicate",
+  "source": "rktRofsEmtg",
+  "expect_ref": "HlgdRBKwBM0",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3370,
+  "query_dur": 59.9,
+  "match_sec": 1.69,
+  "hits": [
+   {
+    "ref": "rktRofsEmtg",
+    "aligned": 743,
+    "raw": 761,
+    "offset_sec": 0.0,
+    "q_start": 1.9,
+    "q_end": 54.5
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 571,
+    "raw": 717,
+    "offset_sec": 673.24,
+    "q_start": 2.8,
+    "q_end": 56.4
+   },
+   {
+    "ref": "HlgdRBKwBM0",
+    "aligned": 487,
+    "raw": 515,
+    "offset_sec": -3.78,
+    "q_start": 8.8,
+    "q_end": 54.9
+   },
+   {
+    "ref": "xaVdaU-N7Gw",
+    "aligned": 56,
+    "raw": 66,
+    "offset_sec": 15.49,
+    "q_start": 0.3,
+    "q_end": 2.8
+   },
+   {
+    "ref": "379BAt3RevQ",
+    "aligned": 56,
+    "raw": 67,
+    "offset_sec": 0.05,
+    "q_start": 0.1,
+    "q_end": 2.6
+   },
+   {
+    "ref": "A2TJpch1-tw",
+    "aligned": 55,
+    "raw": 72,
+    "offset_sec": 0.0,
+    "q_start": 0.1,
+    "q_end": 2.8
+   },
+   {
+    "ref": "0iKAm_aZ7Og",
+    "aligned": 55,
+    "raw": 71,
+    "offset_sec": 0.0,
+    "q_start": 0.1,
+    "q_end": 2.8
+   },
+   {
+    "ref": "3UZOwmPovQ4",
+    "aligned": 53,
+    "raw": 159,
+    "offset_sec": 0.02,
+    "q_start": 0.1,
+    "q_end": 2.8
+   },
+   {
+    "ref": "mrIUW3fCUUo",
+    "aligned": 52,
+    "raw": 717,
+    "offset_sec": 172.5,
+    "q_start": 0.1,
+    "q_end": 2.8
+   },
+   {
+    "ref": "Cx4bMlneeh8",
+    "aligned": 51,
+    "raw": 69,
+    "offset_sec": 0.0,
+    "q_start": 0.1,
+    "q_end": 2.8
+   }
+  ]
+ },
+ {
+  "clip": "pair_duplicate_5LRCQjkTqP0.mp3",
+  "kind": "known_duplicate",
+  "source": "5LRCQjkTqP0",
+  "expect_ref": "379BAt3RevQ",
+  "expect_offset": "",
+  "note": "first 60 s of the query member; self-match also expected",
+  "query_hashes": 3139,
+  "query_dur": 59.9,
+  "match_sec": 1.72,
+  "hits": [
+   {
+    "ref": "5LRCQjkTqP0",
+    "aligned": 624,
+    "raw": 755,
+    "offset_sec": 0.0,
+    "q_start": 4.5,
+    "q_end": 57.8
+   },
+   {
+    "ref": "379BAt3RevQ",
+    "aligned": 518,
+    "raw": 635,
+    "offset_sec": 3.92,
+    "q_start": 5.3,
+    "q_end": 57.9
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 463,
+    "raw": 630,
+    "offset_sec": 536.8,
+    "q_start": 4.5,
+    "q_end": 58.5
+   },
+   {
+    "ref": "5LRCQjkTqP0",
+    "aligned": 37,
+    "raw": 755,
+    "offset_sec": 26.68,
+    "q_start": 0.4,
+    "q_end": 7.7
+   },
+   {
+    "ref": "379BAt3RevQ",
+    "aligned": 35,
+    "raw": 635,
+    "offset_sec": 163.91,
+    "q_start": 39.1,
+    "q_end": 47.3
+   },
+   {
+    "ref": "5LRCQjkTqP0",
+    "aligned": 29,
+    "raw": 755,
+    "offset_sec": -26.68,
+    "q_start": 29.6,
+    "q_end": 34.3
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 28,
+    "raw": 630,
+    "offset_sec": 696.78,
+    "q_start": 39.1,
+    "q_end": 47.3
+   },
+   {
+    "ref": "379BAt3RevQ",
+    "aligned": 26,
+    "raw": 635,
+    "offset_sec": -22.76,
+    "q_start": 27.0,
+    "q_end": 33.7
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 22,
+    "raw": 630,
+    "offset_sec": 510.1,
+    "q_start": 29.7,
+    "q_end": 34.3
+   },
+   {
+    "ref": "5LRCQjkTqP0",
+    "aligned": 22,
+    "raw": 755,
+    "offset_sec": 160.01,
+    "q_start": 43.2,
+    "q_end": 46.8
+   }
+  ]
+ },
+ {
+  "clip": "mid_tC0oTbzztk8.mp3",
+  "kind": "mid_plain",
+  "source": "tC0oTbzztk8",
+  "expect_ref": "tC0oTbzztk8",
+  "expect_offset": "60.0",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 2756,
+  "query_dur": 59.6,
+  "match_sec": 1.57,
+  "hits": [
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 556,
+    "raw": 939,
+    "offset_sec": 60.0,
+    "q_start": 5.6,
+    "q_end": 52.4
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 118,
+    "raw": 939,
+    "offset_sec": -4.25,
+    "q_start": 4.6,
+    "q_end": 14.6
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 78,
+    "raw": 939,
+    "offset_sec": 113.92,
+    "q_start": 4.4,
+    "q_end": 14.6
+   },
+   {
+    "ref": "MO4IeuSmo08",
+    "aligned": 68,
+    "raw": 106,
+    "offset_sec": 46.32,
+    "q_start": 5.1,
+    "q_end": 26.9
+   },
+   {
+    "ref": "qunPSBfJJW4",
+    "aligned": 63,
+    "raw": 124,
+    "offset_sec": 2.39,
+    "q_start": 4.9,
+    "q_end": 28.1
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 17,
+    "raw": 939,
+    "offset_sec": 6.08,
+    "q_start": 58.3,
+    "q_end": 59.0
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 17,
+    "raw": 65,
+    "offset_sec": 191.96,
+    "q_start": 4.4,
+    "q_end": 13.0
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 16,
+    "raw": 939,
+    "offset_sec": -58.17,
+    "q_start": 58.3,
+    "q_end": 58.8
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 15,
+    "raw": 939,
+    "offset_sec": 98.06,
+    "q_start": 26.0,
+    "q_end": 28.4
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 12,
+    "raw": 939,
+    "offset_sec": -7.76,
+    "q_start": 8.6,
+    "q_end": 13.6
+   }
+  ]
+ },
+ {
+  "clip": "intro_tC0oTbzztk8.mp3",
+  "kind": "mid_intro20",
+  "source": "tC0oTbzztk8",
+  "expect_ref": "tC0oTbzztk8",
+  "expect_offset": "40.0",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 6356,
+  "query_dur": 79.6,
+  "match_sec": 2.29,
+  "hits": [
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 563,
+    "raw": 942,
+    "offset_sec": 40.01,
+    "q_start": 24.9,
+    "q_end": 73.6
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 93,
+    "raw": 942,
+    "offset_sec": -24.24,
+    "q_start": 24.4,
+    "q_end": 34.6
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 92,
+    "raw": 942,
+    "offset_sec": 93.92,
+    "q_start": 24.4,
+    "q_end": 34.6
+   },
+   {
+    "ref": "qunPSBfJJW4",
+    "aligned": 74,
+    "raw": 168,
+    "offset_sec": -17.6,
+    "q_start": 24.4,
+    "q_end": 48.2
+   },
+   {
+    "ref": "MO4IeuSmo08",
+    "aligned": 61,
+    "raw": 120,
+    "offset_sec": 26.31,
+    "q_start": 26.1,
+    "q_end": 46.9
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 22,
+    "raw": 942,
+    "offset_sec": -13.91,
+    "q_start": 78.3,
+    "q_end": 79.0
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 17,
+    "raw": 69,
+    "offset_sec": 171.94,
+    "q_start": 24.4,
+    "q_end": 32.6
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 14,
+    "raw": 69,
+    "offset_sec": 118.05,
+    "q_start": 78.3,
+    "q_end": 79.5
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 13,
+    "raw": 942,
+    "offset_sec": 78.04,
+    "q_start": 46.0,
+    "q_end": 48.4
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 13,
+    "raw": 942,
+    "offset_sec": -78.16,
+    "q_start": 78.3,
+    "q_end": 78.8
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_tC0oTbzztk8.mp3",
+  "kind": "speed4_pitch",
+  "source": "tC0oTbzztk8",
+  "expect_ref": "tC0oTbzztk8",
+  "expect_offset": "60.0",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2705,
+  "query_dur": 57.3,
+  "match_sec": 1.52,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_tC0oTbzztk8.mp3",
+  "kind": "speed4_tempo",
+  "source": "tC0oTbzztk8",
+  "expect_ref": "tC0oTbzztk8",
+  "expect_offset": "60.0",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2799,
+  "query_dur": 57.3,
+  "match_sec": 1.6,
+  "hits": [
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 27,
+    "raw": 414,
+    "offset_sec": 61.02,
+    "q_start": 24.5,
+    "q_end": 26.8
+   },
+   {
+    "ref": "MO4IeuSmo08",
+    "aligned": 27,
+    "raw": 86,
+    "offset_sec": 47.32,
+    "q_start": 24.1,
+    "q_end": 25.9
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 23,
+    "raw": 414,
+    "offset_sec": 60.21,
+    "q_start": 4.2,
+    "q_end": 6.3
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 23,
+    "raw": 414,
+    "offset_sec": 60.53,
+    "q_start": 12.1,
+    "q_end": 14.0
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 18,
+    "raw": 414,
+    "offset_sec": 60.33,
+    "q_start": 7.7,
+    "q_end": 9.2
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 17,
+    "raw": 414,
+    "offset_sec": 114.45,
+    "q_start": 9.5,
+    "q_end": 14.0
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 14,
+    "raw": 414,
+    "offset_sec": 61.16,
+    "q_start": 27.3,
+    "q_end": 29.7
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 12,
+    "raw": 414,
+    "offset_sec": -7.24,
+    "q_start": 12.1,
+    "q_end": 13.0
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 12,
+    "raw": 414,
+    "offset_sec": 60.42,
+    "q_start": 9.2,
+    "q_end": 11.6
+   },
+   {
+    "ref": "tC0oTbzztk8",
+    "aligned": 12,
+    "raw": 414,
+    "offset_sec": -3.74,
+    "q_start": 12.1,
+    "q_end": 13.0
+   }
+  ]
+ },
+ {
+  "clip": "reversed_tC0oTbzztk8.mp3",
+  "kind": "neg_reversed",
+  "source": "tC0oTbzztk8",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 3603,
+  "query_dur": 59.9,
+  "match_sec": 1.55,
+  "hits": []
+ },
+ {
+  "clip": "mid_z3FMKrxzWhc.mp3",
+  "kind": "mid_plain",
+  "source": "z3FMKrxzWhc",
+  "expect_ref": "z3FMKrxzWhc",
+  "expect_offset": "47.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 2909,
+  "query_dur": 59.9,
+  "match_sec": 1.64,
+  "hits": [
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 600,
+    "raw": 614,
+    "offset_sec": 47.51,
+    "q_start": 3.7,
+    "q_end": 56.6
+   },
+   {
+    "ref": "dwXDsd5eBsE",
+    "aligned": 17,
+    "raw": 36,
+    "offset_sec": -34.23,
+    "q_start": 43.5,
+    "q_end": 58.7
+   }
+  ]
+ },
+ {
+  "clip": "intro_z3FMKrxzWhc.mp3",
+  "kind": "mid_intro20",
+  "source": "z3FMKrxzWhc",
+  "expect_ref": "z3FMKrxzWhc",
+  "expect_offset": "27.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 6173,
+  "query_dur": 79.9,
+  "match_sec": 2.22,
+  "hits": [
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 463,
+    "raw": 484,
+    "offset_sec": 27.49,
+    "q_start": 23.4,
+    "q_end": 76.2
+   },
+   {
+    "ref": "dwXDsd5eBsE",
+    "aligned": 7,
+    "raw": 56,
+    "offset_sec": -54.22,
+    "q_start": 66.4,
+    "q_end": 67.3
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 199,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_z3FMKrxzWhc.mp3",
+  "kind": "speed4_pitch",
+  "source": "z3FMKrxzWhc",
+  "expect_ref": "z3FMKrxzWhc",
+  "expect_offset": "47.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2978,
+  "query_dur": 57.6,
+  "match_sec": 1.62,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_z3FMKrxzWhc.mp3",
+  "kind": "speed4_tempo",
+  "source": "z3FMKrxzWhc",
+  "expect_ref": "z3FMKrxzWhc",
+  "expect_offset": "47.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2837,
+  "query_dur": 57.5,
+  "match_sec": 1.53,
+  "hits": [
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 17,
+    "raw": 151,
+    "offset_sec": 48.67,
+    "q_start": 29.0,
+    "q_end": 30.5
+   },
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 15,
+    "raw": 151,
+    "offset_sec": 47.69,
+    "q_start": 4.2,
+    "q_end": 5.4
+   },
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 13,
+    "raw": 151,
+    "offset_sec": 47.62,
+    "q_start": 2.4,
+    "q_end": 4.8
+   },
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 10,
+    "raw": 151,
+    "offset_sec": 48.02,
+    "q_start": 12.7,
+    "q_end": 12.9
+   },
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 9,
+    "raw": 151,
+    "offset_sec": 47.93,
+    "q_start": 10.6,
+    "q_end": 10.9
+   },
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 8,
+    "raw": 151,
+    "offset_sec": 48.79,
+    "q_start": 32.0,
+    "q_end": 33.5
+   },
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 6,
+    "raw": 151,
+    "offset_sec": 48.16,
+    "q_start": 16.3,
+    "q_end": 16.7
+   },
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 5,
+    "raw": 151,
+    "offset_sec": 49.46,
+    "q_start": 48.9,
+    "q_end": 49.2
+   },
+   {
+    "ref": "z3FMKrxzWhc",
+    "aligned": 4,
+    "raw": 151,
+    "offset_sec": 48.46,
+    "q_start": 23.9,
+    "q_end": 23.9
+   }
+  ]
+ },
+ {
+  "clip": "reversed_z3FMKrxzWhc.mp3",
+  "kind": "neg_reversed",
+  "source": "z3FMKrxzWhc",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 3005,
+  "query_dur": 59.8,
+  "match_sec": 1.85,
+  "hits": []
+ },
+ {
+  "clip": "mid_YoGuj76WvJI.mp3",
+  "kind": "mid_plain",
+  "source": "YoGuj76WvJI",
+  "expect_ref": "YoGuj76WvJI",
+  "expect_offset": "53.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 3707,
+  "query_dur": 59.3,
+  "match_sec": 1.76,
+  "hits": [
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 672,
+    "raw": 728,
+    "offset_sec": 57.03,
+    "q_start": 2.4,
+    "q_end": 52.3
+   },
+   {
+    "ref": "YoGuj76WvJI",
+    "aligned": 654,
+    "raw": 674,
+    "offset_sec": 53.5,
+    "q_start": 2.4,
+    "q_end": 53.6
+   },
+   {
+    "ref": "c2e4SgVd2AU",
+    "aligned": 643,
+    "raw": 670,
+    "offset_sec": 53.5,
+    "q_start": 2.4,
+    "q_end": 53.7
+   }
+  ]
+ },
+ {
+  "clip": "intro_YoGuj76WvJI.mp3",
+  "kind": "mid_intro20",
+  "source": "YoGuj76WvJI",
+  "expect_ref": "YoGuj76WvJI",
+  "expect_offset": "33.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 6932,
+  "query_dur": 79.3,
+  "match_sec": 2.21,
+  "hits": [
+   {
+    "ref": "YoGuj76WvJI",
+    "aligned": 618,
+    "raw": 650,
+    "offset_sec": 33.51,
+    "q_start": 23.5,
+    "q_end": 73.6
+   },
+   {
+    "ref": "c2e4SgVd2AU",
+    "aligned": 607,
+    "raw": 645,
+    "offset_sec": 33.48,
+    "q_start": 23.8,
+    "q_end": 74.4
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 583,
+    "raw": 695,
+    "offset_sec": 37.01,
+    "q_start": 23.8,
+    "q_end": 72.2
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 168,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_YoGuj76WvJI.mp3",
+  "kind": "speed4_pitch",
+  "source": "YoGuj76WvJI",
+  "expect_ref": "YoGuj76WvJI",
+  "expect_offset": "53.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 3740,
+  "query_dur": 57.0,
+  "match_sec": 1.56,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_YoGuj76WvJI.mp3",
+  "kind": "speed4_tempo",
+  "source": "YoGuj76WvJI",
+  "expect_ref": "YoGuj76WvJI",
+  "expect_offset": "53.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 3721,
+  "query_dur": 57.0,
+  "match_sec": 1.64,
+  "hits": [
+   {
+    "ref": "c2e4SgVd2AU",
+    "aligned": 28,
+    "raw": 185,
+    "offset_sec": 54.27,
+    "q_start": 17.6,
+    "q_end": 20.5
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 24,
+    "raw": 225,
+    "offset_sec": 57.79,
+    "q_start": 19.0,
+    "q_end": 20.5
+   },
+   {
+    "ref": "YoGuj76WvJI",
+    "aligned": 23,
+    "raw": 187,
+    "offset_sec": 54.27,
+    "q_start": 18.1,
+    "q_end": 20.4
+   },
+   {
+    "ref": "YoGuj76WvJI",
+    "aligned": 17,
+    "raw": 187,
+    "offset_sec": 55.5,
+    "q_start": 49.3,
+    "q_end": 50.3
+   },
+   {
+    "ref": "c2e4SgVd2AU",
+    "aligned": 17,
+    "raw": 185,
+    "offset_sec": 53.96,
+    "q_start": 11.1,
+    "q_end": 11.6
+   },
+   {
+    "ref": "c2e4SgVd2AU",
+    "aligned": 14,
+    "raw": 185,
+    "offset_sec": 55.05,
+    "q_start": 38.5,
+    "q_end": 39.8
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 14,
+    "raw": 225,
+    "offset_sec": 58.44,
+    "q_start": 34.4,
+    "q_end": 36.5
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 14,
+    "raw": 225,
+    "offset_sec": 58.31,
+    "q_start": 31.4,
+    "q_end": 32.3
+   },
+   {
+    "ref": "L3CiQABljX8",
+    "aligned": 13,
+    "raw": 225,
+    "offset_sec": 57.49,
+    "q_start": 11.1,
+    "q_end": 12.0
+   },
+   {
+    "ref": "YoGuj76WvJI",
+    "aligned": 13,
+    "raw": 187,
+    "offset_sec": 54.71,
+    "q_start": 29.1,
+    "q_end": 30.4
+   }
+  ]
+ },
+ {
+  "clip": "reversed_YoGuj76WvJI.mp3",
+  "kind": "neg_reversed",
+  "source": "YoGuj76WvJI",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 4585,
+  "query_dur": 59.1,
+  "match_sec": 1.8,
+  "hits": []
+ },
+ {
+  "clip": "mid_H-vL_9n6yVk.mp3",
+  "kind": "mid_plain",
+  "source": "H-vL_9n6yVk",
+  "expect_ref": "H-vL_9n6yVk",
+  "expect_offset": "55.0",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 5137,
+  "query_dur": 59.9,
+  "match_sec": 1.71,
+  "hits": [
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 1104,
+    "raw": 1141,
+    "offset_sec": 55.01,
+    "q_start": 3.3,
+    "q_end": 56.0
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 998,
+    "raw": 1144,
+    "offset_sec": 58.54,
+    "q_start": 2.7,
+    "q_end": 54.4
+   },
+   {
+    "ref": "3xe0koMUcfE",
+    "aligned": 833,
+    "raw": 876,
+    "offset_sec": 55.01,
+    "q_start": 3.7,
+    "q_end": 56.2
+   }
+  ]
+ },
+ {
+  "clip": "intro_H-vL_9n6yVk.mp3",
+  "kind": "mid_intro20",
+  "source": "H-vL_9n6yVk",
+  "expect_ref": "H-vL_9n6yVk",
+  "expect_offset": "35.0",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 9053,
+  "query_dur": 79.9,
+  "match_sec": 2.38,
+  "hits": [
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 1039,
+    "raw": 1105,
+    "offset_sec": 34.99,
+    "q_start": 23.8,
+    "q_end": 74.7
+   },
+   {
+    "ref": "3xe0koMUcfE",
+    "aligned": 898,
+    "raw": 962,
+    "offset_sec": 35.02,
+    "q_start": 23.5,
+    "q_end": 75.0
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 854,
+    "raw": 1112,
+    "offset_sec": 38.52,
+    "q_start": 23.8,
+    "q_end": 74.6
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 203,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_H-vL_9n6yVk.mp3",
+  "kind": "speed4_pitch",
+  "source": "H-vL_9n6yVk",
+  "expect_ref": "H-vL_9n6yVk",
+  "expect_offset": "55.0",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 4989,
+  "query_dur": 57.6,
+  "match_sec": 1.62,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_H-vL_9n6yVk.mp3",
+  "kind": "speed4_tempo",
+  "source": "H-vL_9n6yVk",
+  "expect_ref": "H-vL_9n6yVk",
+  "expect_offset": "55.0",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 5039,
+  "query_dur": 57.7,
+  "match_sec": 1.97,
+  "hits": [
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 24,
+    "raw": 298,
+    "offset_sec": 55.57,
+    "q_start": 13.8,
+    "q_end": 15.3
+   },
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 23,
+    "raw": 298,
+    "offset_sec": 56.31,
+    "q_start": 31.7,
+    "q_end": 33.7
+   },
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 22,
+    "raw": 298,
+    "offset_sec": 56.8,
+    "q_start": 43.8,
+    "q_end": 46.2
+   },
+   {
+    "ref": "3xe0koMUcfE",
+    "aligned": 22,
+    "raw": 282,
+    "offset_sec": 55.57,
+    "q_start": 13.6,
+    "q_end": 14.9
+   },
+   {
+    "ref": "3xe0koMUcfE",
+    "aligned": 22,
+    "raw": 282,
+    "offset_sec": 55.24,
+    "q_start": 4.8,
+    "q_end": 6.0
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 22,
+    "raw": 371,
+    "offset_sec": 59.09,
+    "q_start": 13.8,
+    "q_end": 15.2
+   },
+   {
+    "ref": "lO4fAllxmwc",
+    "aligned": 21,
+    "raw": 371,
+    "offset_sec": 58.96,
+    "q_start": 9.2,
+    "q_end": 10.9
+   },
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 21,
+    "raw": 298,
+    "offset_sec": 56.89,
+    "q_start": 46.2,
+    "q_end": 48.0
+   },
+   {
+    "ref": "3xe0koMUcfE",
+    "aligned": 20,
+    "raw": 282,
+    "offset_sec": 56.84,
+    "q_start": 44.2,
+    "q_end": 46.3
+   },
+   {
+    "ref": "H-vL_9n6yVk",
+    "aligned": 19,
+    "raw": 298,
+    "offset_sec": 56.49,
+    "q_start": 35.7,
+    "q_end": 38.2
+   }
+  ]
+ },
+ {
+  "clip": "reversed_H-vL_9n6yVk.mp3",
+  "kind": "neg_reversed",
+  "source": "H-vL_9n6yVk",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 5046,
+  "query_dur": 59.7,
+  "match_sec": 1.77,
+  "hits": []
+ },
+ {
+  "clip": "mid_CFm_JkzEL8Q.mp3",
+  "kind": "mid_plain",
+  "source": "CFm_JkzEL8Q",
+  "expect_ref": "CFm_JkzEL8Q",
+  "expect_offset": "98.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 3681,
+  "query_dur": 59.8,
+  "match_sec": 1.63,
+  "hits": [
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 473,
+    "raw": 507,
+    "offset_sec": 98.5,
+    "q_start": 3.3,
+    "q_end": 55.6
+   },
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 11,
+    "raw": 507,
+    "offset_sec": 147.86,
+    "q_start": 32.6,
+    "q_end": 32.8
+   }
+  ]
+ },
+ {
+  "clip": "intro_CFm_JkzEL8Q.mp3",
+  "kind": "mid_intro20",
+  "source": "CFm_JkzEL8Q",
+  "expect_ref": "CFm_JkzEL8Q",
+  "expect_offset": "78.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 7102,
+  "query_dur": 79.3,
+  "match_sec": 2.23,
+  "hits": [
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 419,
+    "raw": 454,
+    "offset_sec": 78.51,
+    "q_start": 22.7,
+    "q_end": 75.9
+   },
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 11,
+    "raw": 454,
+    "offset_sec": 127.87,
+    "q_start": 52.5,
+    "q_end": 52.8
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 188,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_CFm_JkzEL8Q.mp3",
+  "kind": "speed4_pitch",
+  "source": "CFm_JkzEL8Q",
+  "expect_ref": "CFm_JkzEL8Q",
+  "expect_offset": "98.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 3610,
+  "query_dur": 57.0,
+  "match_sec": 1.69,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_CFm_JkzEL8Q.mp3",
+  "kind": "speed4_tempo",
+  "source": "CFm_JkzEL8Q",
+  "expect_ref": "CFm_JkzEL8Q",
+  "expect_offset": "98.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 3478,
+  "query_dur": 57.0,
+  "match_sec": 1.67,
+  "hits": [
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 24,
+    "raw": 130,
+    "offset_sec": 100.68,
+    "q_start": 53.5,
+    "q_end": 55.0
+   },
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 12,
+    "raw": 130,
+    "offset_sec": 100.61,
+    "q_start": 52.7,
+    "q_end": 53.8
+   },
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 11,
+    "raw": 130,
+    "offset_sec": 98.85,
+    "q_start": 8.0,
+    "q_end": 9.9
+   },
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 9,
+    "raw": 130,
+    "offset_sec": 99.08,
+    "q_start": 14.3,
+    "q_end": 14.9
+   },
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 7,
+    "raw": 130,
+    "offset_sec": 98.52,
+    "q_start": 0.3,
+    "q_end": 1.3
+   },
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 6,
+    "raw": 130,
+    "offset_sec": 99.92,
+    "q_start": 35.3,
+    "q_end": 35.4
+   },
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 6,
+    "raw": 130,
+    "offset_sec": 100.31,
+    "q_start": 44.7,
+    "q_end": 45.7
+   },
+   {
+    "ref": "CFm_JkzEL8Q",
+    "aligned": 4,
+    "raw": 130,
+    "offset_sec": 149.12,
+    "q_start": 31.3,
+    "q_end": 31.3
+   }
+  ]
+ },
+ {
+  "clip": "reversed_CFm_JkzEL8Q.mp3",
+  "kind": "neg_reversed",
+  "source": "CFm_JkzEL8Q",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 4379,
+  "query_dur": 59.6,
+  "match_sec": 1.8,
+  "hits": []
+ },
+ {
+  "clip": "mid_t79x_fKiVEk.mp3",
+  "kind": "mid_plain",
+  "source": "t79x_fKiVEk",
+  "expect_ref": "t79x_fKiVEk",
+  "expect_offset": "99.0",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 3189,
+  "query_dur": 59.4,
+  "match_sec": 1.77,
+  "hits": [
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 714,
+    "raw": 739,
+    "offset_sec": 99.01,
+    "q_start": 4.0,
+    "q_end": 53.1
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 6,
+    "raw": 739,
+    "offset_sec": 59.44,
+    "q_start": 0.5,
+    "q_end": 0.6
+   }
+  ]
+ },
+ {
+  "clip": "intro_t79x_fKiVEk.mp3",
+  "kind": "mid_intro20",
+  "source": "t79x_fKiVEk",
+  "expect_ref": "t79x_fKiVEk",
+  "expect_offset": "79.0",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 6733,
+  "query_dur": 79.7,
+  "match_sec": 2.26,
+  "hits": [
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 557,
+    "raw": 608,
+    "offset_sec": 78.99,
+    "q_start": 24.1,
+    "q_end": 72.8
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 7,
+    "raw": 608,
+    "offset_sec": 39.45,
+    "q_start": 20.5,
+    "q_end": 20.6
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 4,
+    "raw": 608,
+    "offset_sec": 108.88,
+    "q_start": 67.4,
+    "q_end": 67.4
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 210,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_t79x_fKiVEk.mp3",
+  "kind": "speed4_pitch",
+  "source": "t79x_fKiVEk",
+  "expect_ref": "t79x_fKiVEk",
+  "expect_offset": "99.0",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 3036,
+  "query_dur": 57.4,
+  "match_sec": 1.56,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_t79x_fKiVEk.mp3",
+  "kind": "speed4_tempo",
+  "source": "t79x_fKiVEk",
+  "expect_ref": "t79x_fKiVEk",
+  "expect_offset": "99.0",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 3220,
+  "query_dur": 57.1,
+  "match_sec": 1.74,
+  "hits": [
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 28,
+    "raw": 178,
+    "offset_sec": 99.57,
+    "q_start": 13.9,
+    "q_end": 15.1
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 15,
+    "raw": 178,
+    "offset_sec": 99.8,
+    "q_start": 18.6,
+    "q_end": 20.8
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 15,
+    "raw": 178,
+    "offset_sec": 99.71,
+    "q_start": 16.2,
+    "q_end": 19.0
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 11,
+    "raw": 178,
+    "offset_sec": 99.47,
+    "q_start": 11.1,
+    "q_end": 12.5
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 11,
+    "raw": 178,
+    "offset_sec": 100.98,
+    "q_start": 48.3,
+    "q_end": 50.7
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 9,
+    "raw": 178,
+    "offset_sec": 100.82,
+    "q_start": 45.3,
+    "q_end": 46.8
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 8,
+    "raw": 178,
+    "offset_sec": 100.4,
+    "q_start": 34.8,
+    "q_end": 35.7
+   },
+   {
+    "ref": "t79x_fKiVEk",
+    "aligned": 6,
+    "raw": 178,
+    "offset_sec": 100.19,
+    "q_start": 28.9,
+    "q_end": 30.0
+   }
+  ]
+ },
+ {
+  "clip": "reversed_t79x_fKiVEk.mp3",
+  "kind": "neg_reversed",
+  "source": "t79x_fKiVEk",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 3279,
+  "query_dur": 59.4,
+  "match_sec": 1.66,
+  "hits": []
+ },
+ {
+  "clip": "mid_97eKFmfo81M.mp3",
+  "kind": "mid_plain",
+  "source": "97eKFmfo81M",
+  "expect_ref": "97eKFmfo81M",
+  "expect_offset": "57.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 2172,
+  "query_dur": 59.0,
+  "match_sec": 1.5,
+  "hits": [
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 483,
+    "raw": 488,
+    "offset_sec": 57.49,
+    "q_start": 2.9,
+    "q_end": 53.2
+   }
+  ]
+ },
+ {
+  "clip": "intro_97eKFmfo81M.mp3",
+  "kind": "mid_intro20",
+  "source": "97eKFmfo81M",
+  "expect_ref": "97eKFmfo81M",
+  "expect_offset": "37.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 5481,
+  "query_dur": 79.0,
+  "match_sec": 2.22,
+  "hits": [
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 353,
+    "raw": 381,
+    "offset_sec": 37.5,
+    "q_start": 22.8,
+    "q_end": 75.9
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 186,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_97eKFmfo81M.mp3",
+  "kind": "speed4_pitch",
+  "source": "97eKFmfo81M",
+  "expect_ref": "97eKFmfo81M",
+  "expect_offset": "57.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2191,
+  "query_dur": 56.6,
+  "match_sec": 1.5,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_97eKFmfo81M.mp3",
+  "kind": "speed4_tempo",
+  "source": "97eKFmfo81M",
+  "expect_ref": "97eKFmfo81M",
+  "expect_offset": "57.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2331,
+  "query_dur": 56.7,
+  "match_sec": 1.56,
+  "hits": [
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 19,
+    "raw": 138,
+    "offset_sec": 59.19,
+    "q_start": 41.1,
+    "q_end": 42.7
+   },
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 16,
+    "raw": 138,
+    "offset_sec": 59.33,
+    "q_start": 44.5,
+    "q_end": 45.7
+   },
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 14,
+    "raw": 138,
+    "offset_sec": 58.58,
+    "q_start": 26.7,
+    "q_end": 27.6
+   },
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 10,
+    "raw": 138,
+    "offset_sec": 58.26,
+    "q_start": 18.6,
+    "q_end": 18.9
+   },
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 10,
+    "raw": 138,
+    "offset_sec": 59.47,
+    "q_start": 48.5,
+    "q_end": 49.5
+   },
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 9,
+    "raw": 138,
+    "offset_sec": 57.98,
+    "q_start": 10.8,
+    "q_end": 12.3
+   },
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 9,
+    "raw": 138,
+    "offset_sec": 59.12,
+    "q_start": 38.9,
+    "q_end": 40.5
+   },
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 9,
+    "raw": 138,
+    "offset_sec": 59.54,
+    "q_start": 49.5,
+    "q_end": 51.1
+   },
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 5,
+    "raw": 138,
+    "offset_sec": 58.82,
+    "q_start": 31.2,
+    "q_end": 32.7
+   },
+   {
+    "ref": "97eKFmfo81M",
+    "aligned": 4,
+    "raw": 138,
+    "offset_sec": 59.72,
+    "q_start": 55.7,
+    "q_end": 55.7
+   }
+  ]
+ },
+ {
+  "clip": "reversed_97eKFmfo81M.mp3",
+  "kind": "neg_reversed",
+  "source": "97eKFmfo81M",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 2603,
+  "query_dur": 58.9,
+  "match_sec": 1.54,
+  "hits": []
+ },
+ {
+  "clip": "mid_8U7grHLj-uY.mp3",
+  "kind": "mid_plain",
+  "source": "8U7grHLj-uY",
+  "expect_ref": "8U7grHLj-uY",
+  "expect_offset": "144.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 2397,
+  "query_dur": 58.6,
+  "match_sec": 1.49,
+  "hits": [
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 443,
+    "raw": 492,
+    "offset_sec": 144.5,
+    "q_start": 4.1,
+    "q_end": 57.3
+   },
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 14,
+    "raw": 492,
+    "offset_sec": -12.49,
+    "q_start": 22.3,
+    "q_end": 26.4
+   },
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 13,
+    "raw": 492,
+    "offset_sec": 41.38,
+    "q_start": 21.8,
+    "q_end": 26.4
+   }
+  ]
+ },
+ {
+  "clip": "intro_8U7grHLj-uY.mp3",
+  "kind": "mid_intro20",
+  "source": "8U7grHLj-uY",
+  "expect_ref": "8U7grHLj-uY",
+  "expect_offset": "124.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 5544,
+  "query_dur": 78.6,
+  "match_sec": 2.21,
+  "hits": [
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 385,
+    "raw": 458,
+    "offset_sec": 124.51,
+    "q_start": 23.8,
+    "q_end": 77.6
+   },
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 14,
+    "raw": 458,
+    "offset_sec": -32.51,
+    "q_start": 42.4,
+    "q_end": 46.4
+   },
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 12,
+    "raw": 458,
+    "offset_sec": 21.39,
+    "q_start": 41.8,
+    "q_end": 46.4
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 181,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_8U7grHLj-uY.mp3",
+  "kind": "speed4_pitch",
+  "source": "8U7grHLj-uY",
+  "expect_ref": "8U7grHLj-uY",
+  "expect_offset": "144.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2542,
+  "query_dur": 56.3,
+  "match_sec": 1.53,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_8U7grHLj-uY.mp3",
+  "kind": "speed4_tempo",
+  "source": "8U7grHLj-uY",
+  "expect_ref": "8U7grHLj-uY",
+  "expect_offset": "144.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2474,
+  "query_dur": 56.4,
+  "match_sec": 1.47,
+  "hits": [
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 16,
+    "raw": 144,
+    "offset_sec": 146.36,
+    "q_start": 45.0,
+    "q_end": 46.9
+   },
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 14,
+    "raw": 144,
+    "offset_sec": 145.5,
+    "q_start": 25.0,
+    "q_end": 25.4
+   },
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 13,
+    "raw": 144,
+    "offset_sec": 145.57,
+    "q_start": 25.0,
+    "q_end": 27.0
+   },
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 11,
+    "raw": 144,
+    "offset_sec": 145.36,
+    "q_start": 20.5,
+    "q_end": 22.5
+   },
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 9,
+    "raw": 144,
+    "offset_sec": 42.38,
+    "q_start": 25.1,
+    "q_end": 25.4
+   },
+   {
+    "ref": "8U7grHLj-uY",
+    "aligned": 7,
+    "raw": 144,
+    "offset_sec": 146.03,
+    "q_start": 37.9,
+    "q_end": 38.6
+   },
+   {
+    "ref": "YP4Q6dkI_0o",
+    "aligned": 5,
+    "raw": 19,
+    "offset_sec": 89.58,
+    "q_start": 21.2,
+    "q_end": 21.7
+   }
+  ]
+ },
+ {
+  "clip": "reversed_8U7grHLj-uY.mp3",
+  "kind": "neg_reversed",
+  "source": "8U7grHLj-uY",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 3210,
+  "query_dur": 59.8,
+  "match_sec": 1.54,
+  "hits": []
+ },
+ {
+  "clip": "mid_kIc8JOhTGbE.mp3",
+  "kind": "mid_plain",
+  "source": "kIc8JOhTGbE",
+  "expect_ref": "kIc8JOhTGbE",
+  "expect_offset": "104.0",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 3710,
+  "query_dur": 59.6,
+  "match_sec": 1.73,
+  "hits": [
+   {
+    "ref": "kIc8JOhTGbE",
+    "aligned": 635,
+    "raw": 659,
+    "offset_sec": 104.0,
+    "q_start": 3.0,
+    "q_end": 52.3
+   },
+   {
+    "ref": "R6VbgKcNBYY",
+    "aligned": 569,
+    "raw": 593,
+    "offset_sec": 104.0,
+    "q_start": 3.1,
+    "q_end": 53.2
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 567,
+    "raw": 635,
+    "offset_sec": 104.0,
+    "q_start": 3.3,
+    "q_end": 52.4
+   }
+  ]
+ },
+ {
+  "clip": "intro_kIc8JOhTGbE.mp3",
+  "kind": "mid_intro20",
+  "source": "kIc8JOhTGbE",
+  "expect_ref": "kIc8JOhTGbE",
+  "expect_offset": "84.0",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 7463,
+  "query_dur": 79.6,
+  "match_sec": 2.35,
+  "hits": [
+   {
+    "ref": "kIc8JOhTGbE",
+    "aligned": 670,
+    "raw": 717,
+    "offset_sec": 84.01,
+    "q_start": 25.1,
+    "q_end": 73.0
+   },
+   {
+    "ref": "R6VbgKcNBYY",
+    "aligned": 480,
+    "raw": 525,
+    "offset_sec": 84.01,
+    "q_start": 23.0,
+    "q_end": 72.5
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 459,
+    "raw": 595,
+    "offset_sec": 84.01,
+    "q_start": 23.1,
+    "q_end": 72.5
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 200,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_kIc8JOhTGbE.mp3",
+  "kind": "speed4_pitch",
+  "source": "kIc8JOhTGbE",
+  "expect_ref": "kIc8JOhTGbE",
+  "expect_offset": "104.0",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 3645,
+  "query_dur": 57.6,
+  "match_sec": 1.66,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_kIc8JOhTGbE.mp3",
+  "kind": "speed4_tempo",
+  "source": "kIc8JOhTGbE",
+  "expect_ref": "kIc8JOhTGbE",
+  "expect_offset": "104.0",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 3481,
+  "query_dur": 57.3,
+  "match_sec": 1.69,
+  "hits": [
+   {
+    "ref": "R6VbgKcNBYY",
+    "aligned": 19,
+    "raw": 160,
+    "offset_sec": 104.95,
+    "q_start": 22.9,
+    "q_end": 25.2
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 19,
+    "raw": 214,
+    "offset_sec": 104.95,
+    "q_start": 22.9,
+    "q_end": 25.2
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 18,
+    "raw": 214,
+    "offset_sec": 105.09,
+    "q_start": 26.1,
+    "q_end": 28.3
+   },
+   {
+    "ref": "kIc8JOhTGbE",
+    "aligned": 17,
+    "raw": 175,
+    "offset_sec": 105.84,
+    "q_start": 44.7,
+    "q_end": 46.7
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 17,
+    "raw": 214,
+    "offset_sec": 105.02,
+    "q_start": 23.7,
+    "q_end": 26.1
+   },
+   {
+    "ref": "R6VbgKcNBYY",
+    "aligned": 14,
+    "raw": 160,
+    "offset_sec": 104.7,
+    "q_start": 15.6,
+    "q_end": 17.7
+   },
+   {
+    "ref": "kIc8JOhTGbE",
+    "aligned": 14,
+    "raw": 175,
+    "offset_sec": 105.09,
+    "q_start": 26.1,
+    "q_end": 27.9
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 14,
+    "raw": 214,
+    "offset_sec": 105.79,
+    "q_start": 44.1,
+    "q_end": 45.8
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 13,
+    "raw": 214,
+    "offset_sec": 105.19,
+    "q_start": 27.9,
+    "q_end": 29.9
+   },
+   {
+    "ref": "E0apclx3wqU",
+    "aligned": 13,
+    "raw": 214,
+    "offset_sec": 104.7,
+    "q_start": 16.5,
+    "q_end": 17.7
+   }
+  ]
+ },
+ {
+  "clip": "reversed_kIc8JOhTGbE.mp3",
+  "kind": "neg_reversed",
+  "source": "kIc8JOhTGbE",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 4055,
+  "query_dur": 59.7,
+  "match_sec": 1.86,
+  "hits": []
+ },
+ {
+  "clip": "mid_Lk9tkdCESzc.mp3",
+  "kind": "mid_plain",
+  "source": "Lk9tkdCESzc",
+  "expect_ref": "Lk9tkdCESzc",
+  "expect_offset": "103.0",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 2488,
+  "query_dur": 59.9,
+  "match_sec": 1.63,
+  "hits": [
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 505,
+    "raw": 523,
+    "offset_sec": 103.0,
+    "q_start": 4.7,
+    "q_end": 54.5
+   }
+  ]
+ },
+ {
+  "clip": "intro_Lk9tkdCESzc.mp3",
+  "kind": "mid_intro20",
+  "source": "Lk9tkdCESzc",
+  "expect_ref": "Lk9tkdCESzc",
+  "expect_offset": "83.0",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 5574,
+  "query_dur": 79.9,
+  "match_sec": 2.22,
+  "hits": [
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 477,
+    "raw": 514,
+    "offset_sec": 83.01,
+    "q_start": 24.7,
+    "q_end": 73.3
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 164,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_Lk9tkdCESzc.mp3",
+  "kind": "speed4_pitch",
+  "source": "Lk9tkdCESzc",
+  "expect_ref": "Lk9tkdCESzc",
+  "expect_offset": "103.0",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2457,
+  "query_dur": 57.5,
+  "match_sec": 1.49,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_Lk9tkdCESzc.mp3",
+  "kind": "speed4_tempo",
+  "source": "Lk9tkdCESzc",
+  "expect_ref": "Lk9tkdCESzc",
+  "expect_offset": "103.0",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2519,
+  "query_dur": 57.4,
+  "match_sec": 1.78,
+  "hits": [
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 14,
+    "raw": 150,
+    "offset_sec": 104.51,
+    "q_start": 37.2,
+    "q_end": 38.2
+   },
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 11,
+    "raw": 150,
+    "offset_sec": 103.98,
+    "q_start": 24.0,
+    "q_end": 24.8
+   },
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 10,
+    "raw": 150,
+    "offset_sec": 103.17,
+    "q_start": 4.5,
+    "q_end": 4.8
+   },
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 9,
+    "raw": 150,
+    "offset_sec": 103.24,
+    "q_start": 4.5,
+    "q_end": 6.1
+   },
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 7,
+    "raw": 150,
+    "offset_sec": 105.28,
+    "q_start": 56.9,
+    "q_end": 57.3
+   },
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 7,
+    "raw": 150,
+    "offset_sec": 103.05,
+    "q_start": 1.0,
+    "q_end": 1.2
+   },
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 7,
+    "raw": 150,
+    "offset_sec": 103.79,
+    "q_start": 19.5,
+    "q_end": 19.6
+   },
+   {
+    "ref": "Lk9tkdCESzc",
+    "aligned": 7,
+    "raw": 150,
+    "offset_sec": 104.68,
+    "q_start": 41.1,
+    "q_end": 42.7
+   }
+  ]
+ },
+ {
+  "clip": "reversed_Lk9tkdCESzc.mp3",
+  "kind": "neg_reversed",
+  "source": "Lk9tkdCESzc",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 3054,
+  "query_dur": 58.7,
+  "match_sec": 1.69,
+  "hits": []
+ },
+ {
+  "clip": "mid_i6OOJVFZuw0.mp3",
+  "kind": "mid_plain",
+  "source": "i6OOJVFZuw0",
+  "expect_ref": "i6OOJVFZuw0",
+  "expect_offset": "92.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 2906,
+  "query_dur": 58.9,
+  "match_sec": 1.59,
+  "hits": [
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 570,
+    "raw": 598,
+    "offset_sec": 92.51,
+    "q_start": 4.4,
+    "q_end": 55.5
+   },
+   {
+    "ref": "jXXdxRcmpNY",
+    "aligned": 14,
+    "raw": 21,
+    "offset_sec": 9.03,
+    "q_start": 8.8,
+    "q_end": 12.5
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 13,
+    "raw": 598,
+    "offset_sec": 60.37,
+    "q_start": 6.5,
+    "q_end": 11.5
+   },
+   {
+    "ref": "-KoZV7oGH3A",
+    "aligned": 5,
+    "raw": 16,
+    "offset_sec": 158.78,
+    "q_start": 9.4,
+    "q_end": 10.0
+   }
+  ]
+ },
+ {
+  "clip": "intro_i6OOJVFZuw0.mp3",
+  "kind": "mid_intro20",
+  "source": "i6OOJVFZuw0",
+  "expect_ref": "i6OOJVFZuw0",
+  "expect_offset": "72.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 6174,
+  "query_dur": 79.8,
+  "match_sec": 2.05,
+  "hits": [
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 475,
+    "raw": 512,
+    "offset_sec": 72.49,
+    "q_start": 24.7,
+    "q_end": 75.0
+   },
+   {
+    "ref": "jXXdxRcmpNY",
+    "aligned": 16,
+    "raw": 45,
+    "offset_sec": -10.98,
+    "q_start": 28.7,
+    "q_end": 31.9
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 15,
+    "raw": 512,
+    "offset_sec": 40.38,
+    "q_start": 26.5,
+    "q_end": 31.6
+   },
+   {
+    "ref": "-KoZV7oGH3A",
+    "aligned": 11,
+    "raw": 32,
+    "offset_sec": 138.79,
+    "q_start": 29.4,
+    "q_end": 30.3
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 194,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_i6OOJVFZuw0.mp3",
+  "kind": "speed4_pitch",
+  "source": "i6OOJVFZuw0",
+  "expect_ref": "i6OOJVFZuw0",
+  "expect_offset": "92.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2736,
+  "query_dur": 57.4,
+  "match_sec": 1.63,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_i6OOJVFZuw0.mp3",
+  "kind": "speed4_tempo",
+  "source": "i6OOJVFZuw0",
+  "expect_ref": "i6OOJVFZuw0",
+  "expect_offset": "92.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2829,
+  "query_dur": 57.4,
+  "match_sec": 1.68,
+  "hits": [
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 19,
+    "raw": 127,
+    "offset_sec": 93.14,
+    "q_start": 14.3,
+    "q_end": 16.2
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 11,
+    "raw": 127,
+    "offset_sec": 92.88,
+    "q_start": 9.0,
+    "q_end": 9.3
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 10,
+    "raw": 127,
+    "offset_sec": 93.92,
+    "q_start": 35.6,
+    "q_end": 35.8
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 8,
+    "raw": 127,
+    "offset_sec": 93.41,
+    "q_start": 21.2,
+    "q_end": 23.1
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 7,
+    "raw": 127,
+    "offset_sec": 93.69,
+    "q_start": 29.8,
+    "q_end": 31.1
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 7,
+    "raw": 127,
+    "offset_sec": 92.74,
+    "q_start": 5.5,
+    "q_end": 6.2
+   },
+   {
+    "ref": "i6OOJVFZuw0",
+    "aligned": 7,
+    "raw": 127,
+    "offset_sec": 94.64,
+    "q_start": 52.0,
+    "q_end": 53.7
+   }
+  ]
+ },
+ {
+  "clip": "reversed_i6OOJVFZuw0.mp3",
+  "kind": "neg_reversed",
+  "source": "i6OOJVFZuw0",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 3753,
+  "query_dur": 59.7,
+  "match_sec": 1.62,
+  "hits": []
+ },
+ {
+  "clip": "mid_qYhj_GEOtFo.mp3",
+  "kind": "mid_plain",
+  "source": "qYhj_GEOtFo",
+  "expect_ref": "qYhj_GEOtFo",
+  "expect_offset": "54.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 4453,
+  "query_dur": 59.9,
+  "match_sec": 1.65,
+  "hits": [
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 728,
+    "raw": 818,
+    "offset_sec": 54.5,
+    "q_start": 3.3,
+    "q_end": 56.4
+   },
+   {
+    "ref": "su_eh7PKgWc",
+    "aligned": 12,
+    "raw": 55,
+    "offset_sec": 36.57,
+    "q_start": 6.3,
+    "q_end": 58.5
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 9,
+    "raw": 818,
+    "offset_sec": 62.95,
+    "q_start": 39.0,
+    "q_end": 41.1
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 7,
+    "raw": 818,
+    "offset_sec": 38.55,
+    "q_start": 49.2,
+    "q_end": 51.9
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 7,
+    "raw": 818,
+    "offset_sec": 70.45,
+    "q_start": 33.2,
+    "q_end": 36.5
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 5,
+    "raw": 818,
+    "offset_sec": 46.97,
+    "q_start": 40.7,
+    "q_end": 40.9
+   },
+   {
+    "ref": "an_rQSvxrIM",
+    "aligned": 4,
+    "raw": 62,
+    "offset_sec": -49.34,
+    "q_start": 50.5,
+    "q_end": 52.3
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 4,
+    "raw": 818,
+    "offset_sec": 46.07,
+    "q_start": 49.2,
+    "q_end": 49.4
+   },
+   {
+    "ref": "iAfOSpH2oEw",
+    "aligned": 4,
+    "raw": 41,
+    "offset_sec": 99.59,
+    "q_start": 50.5,
+    "q_end": 52.3
+   }
+  ]
+ },
+ {
+  "clip": "intro_qYhj_GEOtFo.mp3",
+  "kind": "mid_intro20",
+  "source": "qYhj_GEOtFo",
+  "expect_ref": "qYhj_GEOtFo",
+  "expect_offset": "34.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 8105,
+  "query_dur": 79.9,
+  "match_sec": 2.56,
+  "hits": [
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 641,
+    "raw": 770,
+    "offset_sec": 34.5,
+    "q_start": 23.9,
+    "q_end": 74.1
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 11,
+    "raw": 770,
+    "offset_sec": 18.53,
+    "q_start": 69.1,
+    "q_end": 72.4
+   },
+   {
+    "ref": "su_eh7PKgWc",
+    "aligned": 10,
+    "raw": 97,
+    "offset_sec": 16.58,
+    "q_start": 26.9,
+    "q_end": 78.5
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 8,
+    "raw": 770,
+    "offset_sec": 26.05,
+    "q_start": 68.8,
+    "q_end": 69.4
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 6,
+    "raw": 770,
+    "offset_sec": 42.93,
+    "q_start": 59.0,
+    "q_end": 65.8
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 5,
+    "raw": 770,
+    "offset_sec": 50.46,
+    "q_start": 53.2,
+    "q_end": 56.5
+   },
+   {
+    "ref": "an_rQSvxrIM",
+    "aligned": 5,
+    "raw": 67,
+    "offset_sec": -69.33,
+    "q_start": 70.5,
+    "q_end": 72.3
+   },
+   {
+    "ref": "iAfOSpH2oEw",
+    "aligned": 5,
+    "raw": 50,
+    "offset_sec": 79.6,
+    "q_start": 70.5,
+    "q_end": 72.3
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 216,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 4,
+    "raw": 770,
+    "offset_sec": 42.03,
+    "q_start": 53.2,
+    "q_end": 53.4
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_qYhj_GEOtFo.mp3",
+  "kind": "speed4_pitch",
+  "source": "qYhj_GEOtFo",
+  "expect_ref": "qYhj_GEOtFo",
+  "expect_offset": "54.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 4229,
+  "query_dur": 57.6,
+  "match_sec": 1.73,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_qYhj_GEOtFo.mp3",
+  "kind": "speed4_tempo",
+  "source": "qYhj_GEOtFo",
+  "expect_ref": "qYhj_GEOtFo",
+  "expect_offset": "54.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 4325,
+  "query_dur": 57.6,
+  "match_sec": 1.73,
+  "hits": [
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 31,
+    "raw": 224,
+    "offset_sec": 55.91,
+    "q_start": 34.0,
+    "q_end": 36.2
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 16,
+    "raw": 224,
+    "offset_sec": 55.73,
+    "q_start": 29.3,
+    "q_end": 30.9
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 14,
+    "raw": 224,
+    "offset_sec": 56.52,
+    "q_start": 49.4,
+    "q_end": 51.9
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 13,
+    "raw": 224,
+    "offset_sec": 55.38,
+    "q_start": 21.4,
+    "q_end": 22.3
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 12,
+    "raw": 224,
+    "offset_sec": 55.98,
+    "q_start": 35.6,
+    "q_end": 37.2
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 10,
+    "raw": 224,
+    "offset_sec": 56.75,
+    "q_start": 56.2,
+    "q_end": 57.3
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 8,
+    "raw": 224,
+    "offset_sec": 55.15,
+    "q_start": 16.2,
+    "q_end": 16.3
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 5,
+    "raw": 224,
+    "offset_sec": 56.05,
+    "q_start": 39.1,
+    "q_end": 39.2
+   },
+   {
+    "ref": "qYhj_GEOtFo",
+    "aligned": 5,
+    "raw": 224,
+    "offset_sec": 55.01,
+    "q_start": 11.3,
+    "q_end": 13.0
+   }
+  ]
+ },
+ {
+  "clip": "reversed_qYhj_GEOtFo.mp3",
+  "kind": "neg_reversed",
+  "source": "qYhj_GEOtFo",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 5229,
+  "query_dur": 59.9,
+  "match_sec": 1.92,
+  "hits": []
+ },
+ {
+  "clip": "mid_smPgnvUoJtU.mp3",
+  "kind": "mid_plain",
+  "source": "smPgnvUoJtU",
+  "expect_ref": "smPgnvUoJtU",
+  "expect_offset": "107.0",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 2771,
+  "query_dur": 59.0,
+  "match_sec": 1.66,
+  "hits": [
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 338,
+    "raw": 437,
+    "offset_sec": 107.0,
+    "q_start": 1.9,
+    "q_end": 53.4
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 11,
+    "raw": 437,
+    "offset_sec": 84.08,
+    "q_start": 24.8,
+    "q_end": 28.2
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 11,
+    "raw": 437,
+    "offset_sec": 129.92,
+    "q_start": 1.9,
+    "q_end": 5.3
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 9,
+    "raw": 437,
+    "offset_sec": 90.23,
+    "q_start": 41.6,
+    "q_end": 45.0
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 6,
+    "raw": 437,
+    "offset_sec": 5.8,
+    "q_start": 44.0,
+    "q_end": 44.3
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 5,
+    "raw": 437,
+    "offset_sec": 30.39,
+    "q_start": 43.3,
+    "q_end": 44.9
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 4,
+    "raw": 437,
+    "offset_sec": 51.36,
+    "q_start": 42.3,
+    "q_end": 44.0
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 4,
+    "raw": 437,
+    "offset_sec": 142.87,
+    "q_start": 41.2,
+    "q_end": 43.3
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 4,
+    "raw": 437,
+    "offset_sec": 170.71,
+    "q_start": 27.2,
+    "q_end": 28.2
+   }
+  ]
+ },
+ {
+  "clip": "intro_smPgnvUoJtU.mp3",
+  "kind": "mid_intro20",
+  "source": "smPgnvUoJtU",
+  "expect_ref": "smPgnvUoJtU",
+  "expect_offset": "87.0",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 6103,
+  "query_dur": 78.9,
+  "match_sec": 2.17,
+  "hits": [
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 269,
+    "raw": 372,
+    "offset_sec": 87.01,
+    "q_start": 22.2,
+    "q_end": 74.0
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 13,
+    "raw": 372,
+    "offset_sec": 64.09,
+    "q_start": 44.8,
+    "q_end": 48.2
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 10,
+    "raw": 372,
+    "offset_sec": 109.92,
+    "q_start": 21.9,
+    "q_end": 25.3
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 7,
+    "raw": 372,
+    "offset_sec": 70.24,
+    "q_start": 61.6,
+    "q_end": 64.9
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 6,
+    "raw": 372,
+    "offset_sec": -14.21,
+    "q_start": 62.6,
+    "q_end": 65.2
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 4,
+    "raw": 372,
+    "offset_sec": 10.4,
+    "q_start": 63.3,
+    "q_end": 64.9
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 4,
+    "raw": 372,
+    "offset_sec": 47.32,
+    "q_start": 62.3,
+    "q_end": 62.3
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 4,
+    "raw": 372,
+    "offset_sec": 150.72,
+    "q_start": 47.2,
+    "q_end": 48.2
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 204,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_smPgnvUoJtU.mp3",
+  "kind": "speed4_pitch",
+  "source": "smPgnvUoJtU",
+  "expect_ref": "smPgnvUoJtU",
+  "expect_offset": "107.0",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2704,
+  "query_dur": 56.7,
+  "match_sec": 1.54,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_smPgnvUoJtU.mp3",
+  "kind": "speed4_tempo",
+  "source": "smPgnvUoJtU",
+  "expect_ref": "smPgnvUoJtU",
+  "expect_offset": "107.0",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2592,
+  "query_dur": 56.7,
+  "match_sec": 1.49,
+  "hits": [
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 9,
+    "raw": 92,
+    "offset_sec": 108.25,
+    "q_start": 31.0,
+    "q_end": 31.6
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 8,
+    "raw": 92,
+    "offset_sec": 107.69,
+    "q_start": 16.9,
+    "q_end": 17.5
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 5,
+    "raw": 92,
+    "offset_sec": 108.58,
+    "q_start": 39.5,
+    "q_end": 39.5
+   },
+   {
+    "ref": "smPgnvUoJtU",
+    "aligned": 4,
+    "raw": 92,
+    "offset_sec": 107.28,
+    "q_start": 6.9,
+    "q_end": 7.0
+   }
+  ]
+ },
+ {
+  "clip": "reversed_smPgnvUoJtU.mp3",
+  "kind": "neg_reversed",
+  "source": "smPgnvUoJtU",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 3579,
+  "query_dur": 59.9,
+  "match_sec": 1.7,
+  "hits": []
+ },
+ {
+  "clip": "mid_qKWNtFx1XGQ.mp3",
+  "kind": "mid_plain",
+  "source": "qKWNtFx1XGQ",
+  "expect_ref": "qKWNtFx1XGQ",
+  "expect_offset": "60.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 2972,
+  "query_dur": 59.7,
+  "match_sec": 1.74,
+  "hits": [
+   {
+    "ref": "qKWNtFx1XGQ",
+    "aligned": 579,
+    "raw": 592,
+    "offset_sec": 60.51,
+    "q_start": 6.1,
+    "q_end": 51.5
+   }
+  ]
+ },
+ {
+  "clip": "intro_qKWNtFx1XGQ.mp3",
+  "kind": "mid_intro20",
+  "source": "qKWNtFx1XGQ",
+  "expect_ref": "qKWNtFx1XGQ",
+  "expect_offset": "40.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 5939,
+  "query_dur": 79.8,
+  "match_sec": 2.18,
+  "hits": [
+   {
+    "ref": "qKWNtFx1XGQ",
+    "aligned": 411,
+    "raw": 432,
+    "offset_sec": 40.5,
+    "q_start": 27.9,
+    "q_end": 70.1
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 172,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_qKWNtFx1XGQ.mp3",
+  "kind": "speed4_pitch",
+  "source": "qKWNtFx1XGQ",
+  "expect_ref": "qKWNtFx1XGQ",
+  "expect_offset": "60.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2789,
+  "query_dur": 57.4,
+  "match_sec": 1.51,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_qKWNtFx1XGQ.mp3",
+  "kind": "speed4_tempo",
+  "source": "qKWNtFx1XGQ",
+  "expect_ref": "qKWNtFx1XGQ",
+  "expect_offset": "60.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2946,
+  "query_dur": 57.4,
+  "match_sec": 1.6,
+  "hits": [
+   {
+    "ref": "qKWNtFx1XGQ",
+    "aligned": 23,
+    "raw": 142,
+    "offset_sec": 61.32,
+    "q_start": 20.8,
+    "q_end": 21.3
+   },
+   {
+    "ref": "qKWNtFx1XGQ",
+    "aligned": 15,
+    "raw": 142,
+    "offset_sec": 60.72,
+    "q_start": 5.5,
+    "q_end": 5.9
+   },
+   {
+    "ref": "qKWNtFx1XGQ",
+    "aligned": 13,
+    "raw": 142,
+    "offset_sec": 61.7,
+    "q_start": 29.8,
+    "q_end": 30.2
+   },
+   {
+    "ref": "qKWNtFx1XGQ",
+    "aligned": 12,
+    "raw": 142,
+    "offset_sec": 60.93,
+    "q_start": 9.8,
+    "q_end": 12.1
+   }
+  ]
+ },
+ {
+  "clip": "reversed_qKWNtFx1XGQ.mp3",
+  "kind": "neg_reversed",
+  "source": "qKWNtFx1XGQ",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 2854,
+  "query_dur": 58.9,
+  "match_sec": 1.67,
+  "hits": []
+ },
+ {
+  "clip": "mid_oewiZYAGujY.mp3",
+  "kind": "mid_plain",
+  "source": "oewiZYAGujY",
+  "expect_ref": "oewiZYAGujY",
+  "expect_offset": "53.0",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 1338,
+  "query_dur": 59.4,
+  "match_sec": 1.54,
+  "hits": [
+   {
+    "ref": "oewiZYAGujY",
+    "aligned": 301,
+    "raw": 303,
+    "offset_sec": 53.01,
+    "q_start": 3.7,
+    "q_end": 57.6
+   },
+   {
+    "ref": "h1j5ZsxTEPA",
+    "aligned": 8,
+    "raw": 10,
+    "offset_sec": 86.4,
+    "q_start": 30.6,
+    "q_end": 39.9
+   }
+  ]
+ },
+ {
+  "clip": "intro_oewiZYAGujY.mp3",
+  "kind": "mid_intro20",
+  "source": "oewiZYAGujY",
+  "expect_ref": "oewiZYAGujY",
+  "expect_offset": "33.0",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 4669,
+  "query_dur": 79.6,
+  "match_sec": 1.96,
+  "hits": [
+   {
+    "ref": "oewiZYAGujY",
+    "aligned": 258,
+    "raw": 278,
+    "offset_sec": 33.0,
+    "q_start": 22.9,
+    "q_end": 77.5
+   },
+   {
+    "ref": "h1j5ZsxTEPA",
+    "aligned": 11,
+    "raw": 28,
+    "offset_sec": 66.41,
+    "q_start": 50.6,
+    "q_end": 59.9
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 202,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_oewiZYAGujY.mp3",
+  "kind": "speed4_pitch",
+  "source": "oewiZYAGujY",
+  "expect_ref": "oewiZYAGujY",
+  "expect_offset": "53.0",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 1315,
+  "query_dur": 57.1,
+  "match_sec": 1.51,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_oewiZYAGujY.mp3",
+  "kind": "speed4_tempo",
+  "source": "oewiZYAGujY",
+  "expect_ref": "oewiZYAGujY",
+  "expect_offset": "53.0",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 1223,
+  "query_dur": 57.1,
+  "match_sec": 1.6,
+  "hits": [
+   {
+    "ref": "oewiZYAGujY",
+    "aligned": 11,
+    "raw": 78,
+    "offset_sec": 55.08,
+    "q_start": 51.5,
+    "q_end": 53.5
+   },
+   {
+    "ref": "oewiZYAGujY",
+    "aligned": 7,
+    "raw": 78,
+    "offset_sec": 53.15,
+    "q_start": 3.5,
+    "q_end": 5.2
+   },
+   {
+    "ref": "oewiZYAGujY",
+    "aligned": 6,
+    "raw": 78,
+    "offset_sec": 54.54,
+    "q_start": 37.6,
+    "q_end": 38.4
+   },
+   {
+    "ref": "oewiZYAGujY",
+    "aligned": 6,
+    "raw": 78,
+    "offset_sec": 53.68,
+    "q_start": 16.7,
+    "q_end": 17.4
+   }
+  ]
+ },
+ {
+  "clip": "reversed_oewiZYAGujY.mp3",
+  "kind": "neg_reversed",
+  "source": "oewiZYAGujY",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 1710,
+  "query_dur": 59.7,
+  "match_sec": 1.55,
+  "hits": []
+ },
+ {
+  "clip": "mid_PI6koCSkYTA.mp3",
+  "kind": "mid_plain",
+  "source": "PI6koCSkYTA",
+  "expect_ref": "PI6koCSkYTA",
+  "expect_offset": "54.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 3266,
+  "query_dur": 59.8,
+  "match_sec": 1.7,
+  "hits": [
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 578,
+    "raw": 1142,
+    "offset_sec": 54.5,
+    "q_start": 2.6,
+    "q_end": 56.7
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 107,
+    "raw": 1142,
+    "offset_sec": 76.51,
+    "q_start": 45.6,
+    "q_end": 55.7
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 102,
+    "raw": 1142,
+    "offset_sec": 15.58,
+    "q_start": 45.9,
+    "q_end": 55.9
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 87,
+    "raw": 1142,
+    "offset_sec": 93.41,
+    "q_start": 6.9,
+    "q_end": 16.7
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 86,
+    "raw": 1142,
+    "offset_sec": 115.43,
+    "q_start": 7.9,
+    "q_end": 17.0
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 30,
+    "raw": 1142,
+    "offset_sec": 151.67,
+    "q_start": 7.8,
+    "q_end": 13.1
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 21,
+    "raw": 1142,
+    "offset_sec": 112.76,
+    "q_start": 46.8,
+    "q_end": 52.0
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 8,
+    "raw": 1142,
+    "offset_sec": 54.94,
+    "q_start": 2.6,
+    "q_end": 5.4
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 7,
+    "raw": 1142,
+    "offset_sec": 55.82,
+    "q_start": 1.7,
+    "q_end": 4.1
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 6,
+    "raw": 1142,
+    "offset_sec": 50.53,
+    "q_start": 1.9,
+    "q_end": 4.6
+   }
+  ]
+ },
+ {
+  "clip": "intro_PI6koCSkYTA.mp3",
+  "kind": "mid_intro20",
+  "source": "PI6koCSkYTA",
+  "expect_ref": "PI6koCSkYTA",
+  "expect_offset": "34.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 7263,
+  "query_dur": 79.8,
+  "match_sec": 2.29,
+  "hits": [
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 554,
+    "raw": 1090,
+    "offset_sec": 34.5,
+    "q_start": 22.4,
+    "q_end": 77.2
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 103,
+    "raw": 1090,
+    "offset_sec": -4.41,
+    "q_start": 65.9,
+    "q_end": 76.6
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 93,
+    "raw": 1090,
+    "offset_sec": 56.49,
+    "q_start": 65.6,
+    "q_end": 75.9
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 88,
+    "raw": 1090,
+    "offset_sec": 95.41,
+    "q_start": 28.0,
+    "q_end": 37.0
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 78,
+    "raw": 1090,
+    "offset_sec": 73.42,
+    "q_start": 26.9,
+    "q_end": 37.7
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 23,
+    "raw": 1090,
+    "offset_sec": 92.74,
+    "q_start": 66.9,
+    "q_end": 72.0
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 23,
+    "raw": 1090,
+    "offset_sec": 131.66,
+    "q_start": 27.9,
+    "q_end": 33.1
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 9,
+    "raw": 1090,
+    "offset_sec": 35.83,
+    "q_start": 21.7,
+    "q_end": 23.7
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 7,
+    "raw": 1090,
+    "offset_sec": 32.74,
+    "q_start": 20.6,
+    "q_end": 22.8
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 6,
+    "raw": 1090,
+    "offset_sec": 34.06,
+    "q_start": 22.4,
+    "q_end": 23.5
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_PI6koCSkYTA.mp3",
+  "kind": "speed4_pitch",
+  "source": "PI6koCSkYTA",
+  "expect_ref": "PI6koCSkYTA",
+  "expect_offset": "54.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 3028,
+  "query_dur": 57.5,
+  "match_sec": 1.54,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_PI6koCSkYTA.mp3",
+  "kind": "speed4_tempo",
+  "source": "PI6koCSkYTA",
+  "expect_ref": "PI6koCSkYTA",
+  "expect_offset": "54.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 3165,
+  "query_dur": 57.5,
+  "match_sec": 1.61,
+  "hits": [
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 17,
+    "raw": 350,
+    "offset_sec": 56.77,
+    "q_start": 2.3,
+    "q_end": 57.5
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 16,
+    "raw": 350,
+    "offset_sec": 54.85,
+    "q_start": 7.6,
+    "q_end": 9.5
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 16,
+    "raw": 350,
+    "offset_sec": 56.45,
+    "q_start": 46.6,
+    "q_end": 50.2
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 11,
+    "raw": 350,
+    "offset_sec": 55.05,
+    "q_start": 3.3,
+    "q_end": 14.8
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 10,
+    "raw": 350,
+    "offset_sec": 54.94,
+    "q_start": 10.8,
+    "q_end": 12.1
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 10,
+    "raw": 350,
+    "offset_sec": 17.37,
+    "q_start": 43.9,
+    "q_end": 46.2
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 10,
+    "raw": 350,
+    "offset_sec": 93.76,
+    "q_start": 7.6,
+    "q_end": 8.8
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 9,
+    "raw": 350,
+    "offset_sec": 115.77,
+    "q_start": 8.8,
+    "q_end": 9.1
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 9,
+    "raw": 350,
+    "offset_sec": 78.34,
+    "q_start": 45.0,
+    "q_end": 47.4
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 9,
+    "raw": 350,
+    "offset_sec": 17.48,
+    "q_start": 46.6,
+    "q_end": 47.8
+   }
+  ]
+ },
+ {
+  "clip": "reversed_PI6koCSkYTA.mp3",
+  "kind": "neg_reversed",
+  "source": "PI6koCSkYTA",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 4415,
+  "query_dur": 59.8,
+  "match_sec": 1.66,
+  "hits": [
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 8,
+    "raw": 122,
+    "offset_sec": 1.44,
+    "q_start": 54.5,
+    "q_end": 58.9
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 7,
+    "raw": 122,
+    "offset_sec": 0.56,
+    "q_start": 54.5,
+    "q_end": 57.0
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 6,
+    "raw": 122,
+    "offset_sec": 1.0,
+    "q_start": 53.7,
+    "q_end": 56.5
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 5,
+    "raw": 122,
+    "offset_sec": -2.95,
+    "q_start": 58.5,
+    "q_end": 58.9
+   },
+   {
+    "ref": "PI6koCSkYTA",
+    "aligned": 4,
+    "raw": 122,
+    "offset_sec": -2.51,
+    "q_start": 58.0,
+    "q_end": 58.5
+   }
+  ]
+ },
+ {
+  "clip": "mid_W7kG-O-u41w.mp3",
+  "kind": "mid_plain",
+  "source": "W7kG-O-u41w",
+  "expect_ref": "W7kG-O-u41w",
+  "expect_offset": "82.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 4383,
+  "query_dur": 59.8,
+  "match_sec": 1.79,
+  "hits": [
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 559,
+    "raw": 1907,
+    "offset_sec": 82.5,
+    "q_start": 3.2,
+    "q_end": 55.8
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 178,
+    "raw": 1907,
+    "offset_sec": 110.85,
+    "q_start": 18.2,
+    "q_end": 30.5
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 167,
+    "raw": 1907,
+    "offset_sec": 145.59,
+    "q_start": 19.1,
+    "q_end": 29.5
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 143,
+    "raw": 1907,
+    "offset_sec": 117.21,
+    "q_start": 47.4,
+    "q_end": 57.3
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 131,
+    "raw": 1907,
+    "offset_sec": 177.77,
+    "q_start": 17.9,
+    "q_end": 27.5
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 111,
+    "raw": 1907,
+    "offset_sec": 54.15,
+    "q_start": 47.5,
+    "q_end": 58.8
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 98,
+    "raw": 1907,
+    "offset_sec": 149.42,
+    "q_start": 46.3,
+    "q_end": 55.9
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 73,
+    "raw": 1907,
+    "offset_sec": -20.25,
+    "q_start": 47.0,
+    "q_end": 52.7
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 46,
+    "raw": 1907,
+    "offset_sec": 8.1,
+    "q_start": 18.1,
+    "q_end": 24.3
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 39,
+    "raw": 1907,
+    "offset_sec": 93.9,
+    "q_start": 19.1,
+    "q_end": 58.9
+   }
+  ]
+ },
+ {
+  "clip": "intro_W7kG-O-u41w.mp3",
+  "kind": "mid_intro20",
+  "source": "W7kG-O-u41w",
+  "expect_ref": "W7kG-O-u41w",
+  "expect_offset": "62.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 7909,
+  "query_dur": 79.8,
+  "match_sec": 2.48,
+  "hits": [
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 544,
+    "raw": 1645,
+    "offset_sec": 62.51,
+    "q_start": 23.2,
+    "q_end": 75.9
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 132,
+    "raw": 1645,
+    "offset_sec": 125.57,
+    "q_start": 39.1,
+    "q_end": 49.0
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 119,
+    "raw": 1645,
+    "offset_sec": 97.22,
+    "q_start": 67.4,
+    "q_end": 77.3
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 99,
+    "raw": 1645,
+    "offset_sec": 90.86,
+    "q_start": 39.1,
+    "q_end": 49.6
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 84,
+    "raw": 1645,
+    "offset_sec": 34.13,
+    "q_start": 67.5,
+    "q_end": 78.9
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 83,
+    "raw": 1645,
+    "offset_sec": 129.43,
+    "q_start": 67.8,
+    "q_end": 75.9
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 69,
+    "raw": 1645,
+    "offset_sec": -11.89,
+    "q_start": 39.1,
+    "q_end": 44.4
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 63,
+    "raw": 1645,
+    "offset_sec": 157.78,
+    "q_start": 38.6,
+    "q_end": 47.4
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 55,
+    "raw": 1645,
+    "offset_sec": -40.26,
+    "q_start": 67.0,
+    "q_end": 72.7
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 31,
+    "raw": 1645,
+    "offset_sec": 73.91,
+    "q_start": 39.1,
+    "q_end": 78.9
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_W7kG-O-u41w.mp3",
+  "kind": "speed4_pitch",
+  "source": "W7kG-O-u41w",
+  "expect_ref": "W7kG-O-u41w",
+  "expect_offset": "82.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 4313,
+  "query_dur": 57.5,
+  "match_sec": 1.68,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_W7kG-O-u41w.mp3",
+  "kind": "speed4_tempo",
+  "source": "W7kG-O-u41w",
+  "expect_ref": "W7kG-O-u41w",
+  "expect_offset": "82.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 4198,
+  "query_dur": 57.5,
+  "match_sec": 1.68,
+  "hits": [
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 17,
+    "raw": 476,
+    "offset_sec": 83.43,
+    "q_start": 22.1,
+    "q_end": 23.8
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 15,
+    "raw": 476,
+    "offset_sec": 82.76,
+    "q_start": 6.1,
+    "q_end": 7.6
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 14,
+    "raw": 476,
+    "offset_sec": 84.47,
+    "q_start": 47.8,
+    "q_end": 50.1
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 12,
+    "raw": 476,
+    "offset_sec": 146.52,
+    "q_start": 22.4,
+    "q_end": 23.4
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 11,
+    "raw": 476,
+    "offset_sec": 56.17,
+    "q_start": 50.3,
+    "q_end": 51.5
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 11,
+    "raw": 476,
+    "offset_sec": 111.76,
+    "q_start": 22.3,
+    "q_end": 23.4
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 10,
+    "raw": 476,
+    "offset_sec": 82.66,
+    "q_start": 3.0,
+    "q_end": 51.9
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 10,
+    "raw": 476,
+    "offset_sec": 151.28,
+    "q_start": 46.0,
+    "q_end": 47.4
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 10,
+    "raw": 476,
+    "offset_sec": 119.21,
+    "q_start": 18.3,
+    "q_end": 50.7
+   },
+   {
+    "ref": "W7kG-O-u41w",
+    "aligned": 9,
+    "raw": 476,
+    "offset_sec": 84.64,
+    "q_start": 52.0,
+    "q_end": 53.8
+   }
+  ]
+ },
+ {
+  "clip": "reversed_W7kG-O-u41w.mp3",
+  "kind": "neg_reversed",
+  "source": "W7kG-O-u41w",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 4810,
+  "query_dur": 59.8,
+  "match_sec": 1.62,
+  "hits": []
+ },
+ {
+  "clip": "mid_P4FOCwZYSnk.mp3",
+  "kind": "mid_plain",
+  "source": "P4FOCwZYSnk",
+  "expect_ref": "P4FOCwZYSnk",
+  "expect_offset": "80.0",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 2549,
+  "query_dur": 59.6,
+  "match_sec": 1.53,
+  "hits": [
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 515,
+    "raw": 539,
+    "offset_sec": 79.99,
+    "q_start": 3.6,
+    "q_end": 55.9
+   },
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 13,
+    "raw": 539,
+    "offset_sec": 38.36,
+    "q_start": 12.2,
+    "q_end": 14.0
+   }
+  ]
+ },
+ {
+  "clip": "intro_P4FOCwZYSnk.mp3",
+  "kind": "mid_intro20",
+  "source": "P4FOCwZYSnk",
+  "expect_ref": "P4FOCwZYSnk",
+  "expect_offset": "60.0",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 6011,
+  "query_dur": 79.6,
+  "match_sec": 2.12,
+  "hits": [
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 348,
+    "raw": 396,
+    "offset_sec": 60.0,
+    "q_start": 23.5,
+    "q_end": 75.4
+   },
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 13,
+    "raw": 396,
+    "offset_sec": 18.34,
+    "q_start": 32.2,
+    "q_end": 34.0
+   },
+   {
+    "ref": "cLAP5VdCAc8",
+    "aligned": 6,
+    "raw": 35,
+    "offset_sec": 8.71,
+    "q_start": 28.7,
+    "q_end": 28.7
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 198,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_P4FOCwZYSnk.mp3",
+  "kind": "speed4_pitch",
+  "source": "P4FOCwZYSnk",
+  "expect_ref": "P4FOCwZYSnk",
+  "expect_offset": "80.0",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2534,
+  "query_dur": 57.3,
+  "match_sec": 1.45,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_P4FOCwZYSnk.mp3",
+  "kind": "speed4_tempo",
+  "source": "P4FOCwZYSnk",
+  "expect_ref": "P4FOCwZYSnk",
+  "expect_offset": "80.0",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2634,
+  "query_dur": 57.3,
+  "match_sec": 1.49,
+  "hits": [
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 17,
+    "raw": 153,
+    "offset_sec": 80.76,
+    "q_start": 18.3,
+    "q_end": 19.7
+   },
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 13,
+    "raw": 153,
+    "offset_sec": 81.78,
+    "q_start": 43.0,
+    "q_end": 45.2
+   },
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 12,
+    "raw": 153,
+    "offset_sec": 80.29,
+    "q_start": 7.1,
+    "q_end": 8.3
+   },
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 10,
+    "raw": 153,
+    "offset_sec": 81.39,
+    "q_start": 34.6,
+    "q_end": 35.1
+   },
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 10,
+    "raw": 153,
+    "offset_sec": 80.39,
+    "q_start": 8.3,
+    "q_end": 9.6
+   },
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 9,
+    "raw": 153,
+    "offset_sec": 81.48,
+    "q_start": 36.6,
+    "q_end": 37.5
+   },
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 9,
+    "raw": 153,
+    "offset_sec": 82.01,
+    "q_start": 50.3,
+    "q_end": 50.8
+   },
+   {
+    "ref": "P4FOCwZYSnk",
+    "aligned": 6,
+    "raw": 153,
+    "offset_sec": 81.32,
+    "q_start": 31.3,
+    "q_end": 33.1
+   },
+   {
+    "ref": "8FNynS9GoAs",
+    "aligned": 4,
+    "raw": 18,
+    "offset_sec": 37.31,
+    "q_start": 43.6,
+    "q_end": 43.7
+   }
+  ]
+ },
+ {
+  "clip": "reversed_P4FOCwZYSnk.mp3",
+  "kind": "neg_reversed",
+  "source": "P4FOCwZYSnk",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 3463,
+  "query_dur": 58.4,
+  "match_sec": 1.58,
+  "hits": []
+ },
+ {
+  "clip": "mid_3vQB7zlYtco.mp3",
+  "kind": "mid_plain",
+  "source": "3vQB7zlYtco",
+  "expect_ref": "3vQB7zlYtco",
+  "expect_offset": "52.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 5780,
+  "query_dur": 59.6,
+  "match_sec": 1.7,
+  "hits": [
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 699,
+    "raw": 1615,
+    "offset_sec": 52.5,
+    "q_start": 3.9,
+    "q_end": 54.7
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 57,
+    "raw": 1615,
+    "offset_sec": 54.38,
+    "q_start": 22.7,
+    "q_end": 41.1
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 53,
+    "raw": 1615,
+    "offset_sec": 51.55,
+    "q_start": 24.6,
+    "q_end": 50.9
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 49,
+    "raw": 1615,
+    "offset_sec": 52.96,
+    "q_start": 23.2,
+    "q_end": 50.6
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 39,
+    "raw": 1615,
+    "offset_sec": 53.45,
+    "q_start": 23.2,
+    "q_end": 50.2
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 38,
+    "raw": 1615,
+    "offset_sec": 52.04,
+    "q_start": 23.7,
+    "q_end": 51.1
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 37,
+    "raw": 1615,
+    "offset_sec": 53.92,
+    "q_start": 22.8,
+    "q_end": 50.2
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 36,
+    "raw": 1615,
+    "offset_sec": 51.08,
+    "q_start": 24.6,
+    "q_end": 51.5
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 33,
+    "raw": 1615,
+    "offset_sec": 50.62,
+    "q_start": 25.1,
+    "q_end": 50.9
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 24,
+    "raw": 1615,
+    "offset_sec": 56.29,
+    "q_start": 22.3,
+    "q_end": 41.4
+   }
+  ]
+ },
+ {
+  "clip": "intro_3vQB7zlYtco.mp3",
+  "kind": "mid_intro20",
+  "source": "3vQB7zlYtco",
+  "expect_ref": "3vQB7zlYtco",
+  "expect_offset": "32.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 9369,
+  "query_dur": 79.6,
+  "match_sec": 2.46,
+  "hits": [
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 707,
+    "raw": 1506,
+    "offset_sec": 32.51,
+    "q_start": 25.2,
+    "q_end": 75.8
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 44,
+    "raw": 1506,
+    "offset_sec": 32.97,
+    "q_start": 43.2,
+    "q_end": 70.6
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 39,
+    "raw": 1506,
+    "offset_sec": 33.44,
+    "q_start": 43.2,
+    "q_end": 70.6
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 38,
+    "raw": 1506,
+    "offset_sec": 34.39,
+    "q_start": 42.7,
+    "q_end": 65.9
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 38,
+    "raw": 1506,
+    "offset_sec": 32.02,
+    "q_start": 44.6,
+    "q_end": 71.6
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 36,
+    "raw": 1506,
+    "offset_sec": 33.92,
+    "q_start": 42.7,
+    "q_end": 66.3
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 35,
+    "raw": 1506,
+    "offset_sec": 31.56,
+    "q_start": 44.2,
+    "q_end": 71.1
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 29,
+    "raw": 1506,
+    "offset_sec": 31.09,
+    "q_start": 44.7,
+    "q_end": 67.8
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 28,
+    "raw": 1506,
+    "offset_sec": 30.6,
+    "q_start": 45.1,
+    "q_end": 68.2
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 21,
+    "raw": 1506,
+    "offset_sec": 58.49,
+    "q_start": 43.2,
+    "q_end": 46.0
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_3vQB7zlYtco.mp3",
+  "kind": "speed4_pitch",
+  "source": "3vQB7zlYtco",
+  "expect_ref": "3vQB7zlYtco",
+  "expect_offset": "52.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 5311,
+  "query_dur": 57.6,
+  "match_sec": 1.96,
+  "hits": [
+   {
+    "ref": "l6kHHRGPdZ4",
+    "aligned": 10,
+    "raw": 432,
+    "offset_sec": -22.34,
+    "q_start": 23.7,
+    "q_end": 28.2
+   },
+   {
+    "ref": "l6kHHRGPdZ4",
+    "aligned": 9,
+    "raw": 432,
+    "offset_sec": -21.43,
+    "q_start": 22.8,
+    "q_end": 27.3
+   },
+   {
+    "ref": "l6kHHRGPdZ4",
+    "aligned": 8,
+    "raw": 432,
+    "offset_sec": -20.99,
+    "q_start": 22.8,
+    "q_end": 27.3
+   },
+   {
+    "ref": "64W5De5fdts",
+    "aligned": 8,
+    "raw": 74,
+    "offset_sec": 124.62,
+    "q_start": 21.0,
+    "q_end": 25.5
+   },
+   {
+    "ref": "goJ9ovQEtSQ",
+    "aligned": 8,
+    "raw": 83,
+    "offset_sec": -17.69,
+    "q_start": 23.2,
+    "q_end": 24.1
+   },
+   {
+    "ref": "goJ9ovQEtSQ",
+    "aligned": 8,
+    "raw": 83,
+    "offset_sec": -18.16,
+    "q_start": 23.7,
+    "q_end": 24.6
+   },
+   {
+    "ref": "64W5De5fdts",
+    "aligned": 8,
+    "raw": 74,
+    "offset_sec": 124.18,
+    "q_start": 23.7,
+    "q_end": 25.5
+   },
+   {
+    "ref": "l6kHHRGPdZ4",
+    "aligned": 7,
+    "raw": 432,
+    "offset_sec": -23.24,
+    "q_start": 23.7,
+    "q_end": 28.7
+   },
+   {
+    "ref": "l6kHHRGPdZ4",
+    "aligned": 7,
+    "raw": 432,
+    "offset_sec": -35.99,
+    "q_start": 41.4,
+    "q_end": 45.9
+   },
+   {
+    "ref": "goJ9ovQEtSQ",
+    "aligned": 7,
+    "raw": 83,
+    "offset_sec": -17.25,
+    "q_start": 22.8,
+    "q_end": 23.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4tempo_3vQB7zlYtco.mp3",
+  "kind": "speed4_tempo",
+  "source": "3vQB7zlYtco",
+  "expect_ref": "3vQB7zlYtco",
+  "expect_offset": "52.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 5745,
+  "query_dur": 57.5,
+  "match_sec": 1.92,
+  "hits": [
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 20,
+    "raw": 387,
+    "offset_sec": 53.94,
+    "q_start": 24.1,
+    "q_end": 46.4
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 18,
+    "raw": 387,
+    "offset_sec": 54.01,
+    "q_start": 25.9,
+    "q_end": 49.1
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 14,
+    "raw": 387,
+    "offset_sec": 53.36,
+    "q_start": 20.0,
+    "q_end": 22.3
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 13,
+    "raw": 387,
+    "offset_sec": 53.71,
+    "q_start": 29.1,
+    "q_end": 30.8
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 13,
+    "raw": 387,
+    "offset_sec": 54.33,
+    "q_start": 22.3,
+    "q_end": 47.1
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 13,
+    "raw": 387,
+    "offset_sec": 54.4,
+    "q_start": 23.7,
+    "q_end": 48.2
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 12,
+    "raw": 387,
+    "offset_sec": 53.08,
+    "q_start": 13.3,
+    "q_end": 37.5
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 11,
+    "raw": 387,
+    "offset_sec": 52.83,
+    "q_start": 6.9,
+    "q_end": 44.3
+   },
+   {
+    "ref": "l6kHHRGPdZ4",
+    "aligned": 11,
+    "raw": 344,
+    "offset_sec": -17.46,
+    "q_start": 37.8,
+    "q_end": 40.9
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 10,
+    "raw": 387,
+    "offset_sec": 54.27,
+    "q_start": 43.2,
+    "q_end": 44.7
+   }
+  ]
+ },
+ {
+  "clip": "reversed_3vQB7zlYtco.mp3",
+  "kind": "neg_reversed",
+  "source": "3vQB7zlYtco",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 6092,
+  "query_dur": 59.7,
+  "match_sec": 1.99,
+  "hits": [
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 29,
+    "raw": 655,
+    "offset_sec": 68.71,
+    "q_start": 7.9,
+    "q_end": 34.9
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 26,
+    "raw": 655,
+    "offset_sec": 68.24,
+    "q_start": 7.9,
+    "q_end": 35.3
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 24,
+    "raw": 655,
+    "offset_sec": 67.78,
+    "q_start": 8.4,
+    "q_end": 35.8
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 23,
+    "raw": 655,
+    "offset_sec": 69.2,
+    "q_start": 7.5,
+    "q_end": 30.2
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 22,
+    "raw": 655,
+    "offset_sec": 70.12,
+    "q_start": 7.0,
+    "q_end": 31.1
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 20,
+    "raw": 655,
+    "offset_sec": 67.29,
+    "q_start": 8.9,
+    "q_end": 36.3
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 18,
+    "raw": 655,
+    "offset_sec": 69.66,
+    "q_start": 7.5,
+    "q_end": 29.7
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 14,
+    "raw": 655,
+    "offset_sec": 70.61,
+    "q_start": 7.0,
+    "q_end": 28.7
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 13,
+    "raw": 655,
+    "offset_sec": 95.18,
+    "q_start": 7.2,
+    "q_end": 9.4
+   },
+   {
+    "ref": "3vQB7zlYtco",
+    "aligned": 12,
+    "raw": 655,
+    "offset_sec": 66.83,
+    "q_start": 8.9,
+    "q_end": 36.8
+   }
+  ]
+ },
+ {
+  "clip": "mid_kxQdokoQXTA.mp3",
+  "kind": "mid_plain",
+  "source": "kxQdokoQXTA",
+  "expect_ref": "kxQdokoQXTA",
+  "expect_offset": "78.5",
+  "note": "60 s from the middle, mp3 64k",
+  "query_hashes": 3072,
+  "query_dur": 59.6,
+  "match_sec": 1.52,
+  "hits": [
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 562,
+    "raw": 571,
+    "offset_sec": 78.51,
+    "q_start": 2.6,
+    "q_end": 57.7
+   },
+   {
+    "ref": "su_eh7PKgWc",
+    "aligned": 21,
+    "raw": 53,
+    "offset_sec": 222.75,
+    "q_start": 47.2,
+    "q_end": 50.4
+   }
+  ]
+ },
+ {
+  "clip": "intro_kxQdokoQXTA.mp3",
+  "kind": "mid_intro20",
+  "source": "kxQdokoQXTA",
+  "expect_ref": "kxQdokoQXTA",
+  "expect_offset": "58.5",
+  "note": "20 s pink-noise intro, then the same clip (ref offset = clip start - 20)",
+  "query_hashes": 6656,
+  "query_dur": 79.7,
+  "match_sec": 2.1,
+  "hits": [
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 551,
+    "raw": 584,
+    "offset_sec": 58.49,
+    "q_start": 23.4,
+    "q_end": 77.7
+   },
+   {
+    "ref": "su_eh7PKgWc",
+    "aligned": 22,
+    "raw": 76,
+    "offset_sec": 202.73,
+    "q_start": 67.4,
+    "q_end": 70.4
+   },
+   {
+    "ref": "vbWvlxJnC_w",
+    "aligned": 4,
+    "raw": 189,
+    "offset_sec": 13.24,
+    "q_start": 6.2,
+    "q_end": 6.7
+   }
+  ]
+ },
+ {
+  "clip": "speed4p_kxQdokoQXTA.mp3",
+  "kind": "speed4_pitch",
+  "source": "kxQdokoQXTA",
+  "expect_ref": "kxQdokoQXTA",
+  "expect_offset": "78.5",
+  "note": "sped up 4% with pitch (asetrate), like a tape run fast",
+  "query_hashes": 2927,
+  "query_dur": 57.4,
+  "match_sec": 1.73,
+  "hits": []
+ },
+ {
+  "clip": "speed4tempo_kxQdokoQXTA.mp3",
+  "kind": "speed4_tempo",
+  "source": "kxQdokoQXTA",
+  "expect_ref": "kxQdokoQXTA",
+  "expect_offset": "78.5",
+  "note": "sped up 4%, pitch kept (atempo)",
+  "query_hashes": 2890,
+  "query_dur": 57.3,
+  "match_sec": 1.64,
+  "hits": [
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 13,
+    "raw": 136,
+    "offset_sec": 79.67,
+    "q_start": 28.1,
+    "q_end": 30.4
+   },
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 12,
+    "raw": 136,
+    "offset_sec": 80.43,
+    "q_start": 47.2,
+    "q_end": 49.2
+   },
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 11,
+    "raw": 136,
+    "offset_sec": 80.16,
+    "q_start": 41.0,
+    "q_end": 41.5
+   },
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 10,
+    "raw": 136,
+    "offset_sec": 78.58,
+    "q_start": 1.8,
+    "q_end": 3.3
+   },
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 10,
+    "raw": 136,
+    "offset_sec": 80.34,
+    "q_start": 44.9,
+    "q_end": 47.2
+   },
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 9,
+    "raw": 136,
+    "offset_sec": 79.78,
+    "q_start": 30.9,
+    "q_end": 32.5
+   },
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 9,
+    "raw": 136,
+    "offset_sec": 79.46,
+    "q_start": 22.5,
+    "q_end": 24.2
+   },
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 7,
+    "raw": 136,
+    "offset_sec": 78.85,
+    "q_start": 9.0,
+    "q_end": 9.2
+   },
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 7,
+    "raw": 136,
+    "offset_sec": 79.88,
+    "q_start": 34.2,
+    "q_end": 35.7
+   },
+   {
+    "ref": "kxQdokoQXTA",
+    "aligned": 7,
+    "raw": 136,
+    "offset_sec": 80.78,
+    "q_start": 55.4,
+    "q_end": 57.3
+   }
+  ]
+ },
+ {
+  "clip": "reversed_kxQdokoQXTA.mp3",
+  "kind": "neg_reversed",
+  "source": "kxQdokoQXTA",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "reversed speech: same spectrum statistics, must match nothing",
+  "query_hashes": 3260,
+  "query_dur": 59.9,
+  "match_sec": 1.6,
+  "hits": []
+ },
+ {
+  "clip": "neg_noise60.mp3",
+  "kind": "neg_noise",
+  "source": "",
+  "expect_ref": "",
+  "expect_offset": "",
+  "note": "pure pink noise",
+  "query_hashes": 14727,
+  "query_dur": 59.9,
+  "match_sec": 2.36,
+  "hits": [
+   {
+    "ref": "xwZmZD6KFhE",
+    "aligned": 4,
+    "raw": 93,
+    "offset_sec": 96.99,
+    "q_start": 33.9,
+    "q_end": 57.1
+   }
+  ]
+ }
+]

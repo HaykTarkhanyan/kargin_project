@@ -1,0 +1,129 @@
+clip,kind,source,expect_ref,expect_offset,note
+pair_contains_R6VbgKcNBYY.mp3,known_contains,R6VbgKcNBYY,E0apclx3wqU,,first 60 s of the query member; self-match also expected
+pair_contains_0iKAm_aZ7Og.mp3,known_contains,0iKAm_aZ7Og,3UZOwmPovQ4,,first 60 s of the query member; self-match also expected
+pair_duplicate_fqeoB0CKcY4.mp3,known_duplicate,fqeoB0CKcY4,e348pjjIcWE,,first 60 s of the query member; self-match also expected
+pair_duplicate_QVR7aa5cb5I.mp3,known_duplicate,QVR7aa5cb5I,A8_n7aME-yM,,first 60 s of the query member; self-match also expected
+pair_duplicate_S8bCsNnNnJE.mp3,known_duplicate,S8bCsNnNnJE,7KKsmTxazyY,,first 60 s of the query member; self-match also expected
+pair_contains_kIc8JOhTGbE.mp3,known_contains,kIc8JOhTGbE,E0apclx3wqU,,first 60 s of the query member; self-match also expected
+pair_duplicate_kIc8JOhTGbE.mp3,known_duplicate,kIc8JOhTGbE,R6VbgKcNBYY,,first 60 s of the query member; self-match also expected
+pair_duplicate_c2e4SgVd2AU.mp3,known_duplicate,c2e4SgVd2AU,YoGuj76WvJI,,first 60 s of the query member; self-match also expected
+pair_duplicate_oLDjVa73B4o.mp3,known_duplicate,oLDjVa73B4o,hvUyvsaVmQQ,,first 60 s of the query member; self-match also expected
+pair_duplicate_fRoXRjGUAMI.mp3,known_duplicate,fRoXRjGUAMI,IvbvzjzEYmM,,first 60 s of the query member; self-match also expected
+pair_duplicate_H-vL_9n6yVk.mp3,known_duplicate,H-vL_9n6yVk,3xe0koMUcfE,,first 60 s of the query member; self-match also expected
+pair_duplicate_YP4Q6dkI_0o.mp3,known_duplicate,YP4Q6dkI_0o,Y4EO-zo7DDM,,first 60 s of the query member; self-match also expected
+pair_duplicate_v3BNi5Juk0Y.mp3,known_duplicate,v3BNi5Juk0Y,75zxYmS3or8,,first 60 s of the query member; self-match also expected
+pair_duplicate_yzBeTsyR8ys.mp3,known_duplicate,yzBeTsyR8ys,upv-Sbiitss,,first 60 s of the query member; self-match also expected
+pair_duplicate_be_Bps_kR2M.mp3,known_duplicate,be_Bps_kR2M,64W5De5fdts,,first 60 s of the query member; self-match also expected
+pair_duplicate_ebNV8X33pB0.mp3,known_duplicate,ebNV8X33pB0,Y6B0evY1AnM,,first 60 s of the query member; self-match also expected
+pair_duplicate_wzPFKJHpNMs.mp3,known_duplicate,wzPFKJHpNMs,4om4XkM1oFw,,first 60 s of the query member; self-match also expected
+pair_duplicate_bVP8dzuxVkY.mp3,known_duplicate,bVP8dzuxVkY,OPiH_zBJTA0,,first 60 s of the query member; self-match also expected
+pair_duplicate_uObBR5ju488.mp3,known_duplicate,uObBR5ju488,AflDz3lCrhk,,first 60 s of the query member; self-match also expected
+pair_duplicate_I9hW_hYRLCI.mp3,known_duplicate,I9hW_hYRLCI,B5unjOI-5PA,,first 60 s of the query member; self-match also expected
+pair_contains_kKDydl5jRAY.mp3,known_contains,kKDydl5jRAY,3UZOwmPovQ4,,first 60 s of the query member; self-match also expected
+pair_duplicate_Cx4bMlneeh8.mp3,known_duplicate,Cx4bMlneeh8,6Yi4XMBeuRA,,first 60 s of the query member; self-match also expected
+pair_duplicate_MQ3EYYJk3tA.mp3,known_duplicate,MQ3EYYJk3tA,A2TJpch1-tw,,first 60 s of the query member; self-match also expected
+pair_duplicate_C9Y8rmQIsU8.mp3,known_duplicate,C9Y8rmQIsU8,1knVCwhPp4A,,first 60 s of the query member; self-match also expected
+pair_duplicate_kKDydl5jRAY.mp3,known_duplicate,kKDydl5jRAY,0iKAm_aZ7Og,,first 60 s of the query member; self-match also expected
+pair_duplicate_rktRofsEmtg.mp3,known_duplicate,rktRofsEmtg,HlgdRBKwBM0,,first 60 s of the query member; self-match also expected
+pair_duplicate_5LRCQjkTqP0.mp3,known_duplicate,5LRCQjkTqP0,379BAt3RevQ,,first 60 s of the query member; self-match also expected
+mid_tC0oTbzztk8.mp3,mid_plain,tC0oTbzztk8,tC0oTbzztk8,60.0,"60 s from the middle, mp3 64k"
+intro_tC0oTbzztk8.mp3,mid_intro20,tC0oTbzztk8,tC0oTbzztk8,40.0,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_tC0oTbzztk8.mp3,speed4_pitch,tC0oTbzztk8,tC0oTbzztk8,60.0,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_tC0oTbzztk8.mp3,speed4_tempo,tC0oTbzztk8,tC0oTbzztk8,60.0,"sped up 4%, pitch kept (atempo)"
+reversed_tC0oTbzztk8.mp3,neg_reversed,tC0oTbzztk8,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_z3FMKrxzWhc.mp3,mid_plain,z3FMKrxzWhc,z3FMKrxzWhc,47.5,"60 s from the middle, mp3 64k"
+intro_z3FMKrxzWhc.mp3,mid_intro20,z3FMKrxzWhc,z3FMKrxzWhc,27.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_z3FMKrxzWhc.mp3,speed4_pitch,z3FMKrxzWhc,z3FMKrxzWhc,47.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_z3FMKrxzWhc.mp3,speed4_tempo,z3FMKrxzWhc,z3FMKrxzWhc,47.5,"sped up 4%, pitch kept (atempo)"
+reversed_z3FMKrxzWhc.mp3,neg_reversed,z3FMKrxzWhc,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_YoGuj76WvJI.mp3,mid_plain,YoGuj76WvJI,YoGuj76WvJI,53.5,"60 s from the middle, mp3 64k"
+intro_YoGuj76WvJI.mp3,mid_intro20,YoGuj76WvJI,YoGuj76WvJI,33.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_YoGuj76WvJI.mp3,speed4_pitch,YoGuj76WvJI,YoGuj76WvJI,53.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_YoGuj76WvJI.mp3,speed4_tempo,YoGuj76WvJI,YoGuj76WvJI,53.5,"sped up 4%, pitch kept (atempo)"
+reversed_YoGuj76WvJI.mp3,neg_reversed,YoGuj76WvJI,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_H-vL_9n6yVk.mp3,mid_plain,H-vL_9n6yVk,H-vL_9n6yVk,55.0,"60 s from the middle, mp3 64k"
+intro_H-vL_9n6yVk.mp3,mid_intro20,H-vL_9n6yVk,H-vL_9n6yVk,35.0,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_H-vL_9n6yVk.mp3,speed4_pitch,H-vL_9n6yVk,H-vL_9n6yVk,55.0,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_H-vL_9n6yVk.mp3,speed4_tempo,H-vL_9n6yVk,H-vL_9n6yVk,55.0,"sped up 4%, pitch kept (atempo)"
+reversed_H-vL_9n6yVk.mp3,neg_reversed,H-vL_9n6yVk,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_CFm_JkzEL8Q.mp3,mid_plain,CFm_JkzEL8Q,CFm_JkzEL8Q,98.5,"60 s from the middle, mp3 64k"
+intro_CFm_JkzEL8Q.mp3,mid_intro20,CFm_JkzEL8Q,CFm_JkzEL8Q,78.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_CFm_JkzEL8Q.mp3,speed4_pitch,CFm_JkzEL8Q,CFm_JkzEL8Q,98.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_CFm_JkzEL8Q.mp3,speed4_tempo,CFm_JkzEL8Q,CFm_JkzEL8Q,98.5,"sped up 4%, pitch kept (atempo)"
+reversed_CFm_JkzEL8Q.mp3,neg_reversed,CFm_JkzEL8Q,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_t79x_fKiVEk.mp3,mid_plain,t79x_fKiVEk,t79x_fKiVEk,99.0,"60 s from the middle, mp3 64k"
+intro_t79x_fKiVEk.mp3,mid_intro20,t79x_fKiVEk,t79x_fKiVEk,79.0,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_t79x_fKiVEk.mp3,speed4_pitch,t79x_fKiVEk,t79x_fKiVEk,99.0,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_t79x_fKiVEk.mp3,speed4_tempo,t79x_fKiVEk,t79x_fKiVEk,99.0,"sped up 4%, pitch kept (atempo)"
+reversed_t79x_fKiVEk.mp3,neg_reversed,t79x_fKiVEk,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_97eKFmfo81M.mp3,mid_plain,97eKFmfo81M,97eKFmfo81M,57.5,"60 s from the middle, mp3 64k"
+intro_97eKFmfo81M.mp3,mid_intro20,97eKFmfo81M,97eKFmfo81M,37.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_97eKFmfo81M.mp3,speed4_pitch,97eKFmfo81M,97eKFmfo81M,57.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_97eKFmfo81M.mp3,speed4_tempo,97eKFmfo81M,97eKFmfo81M,57.5,"sped up 4%, pitch kept (atempo)"
+reversed_97eKFmfo81M.mp3,neg_reversed,97eKFmfo81M,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_8U7grHLj-uY.mp3,mid_plain,8U7grHLj-uY,8U7grHLj-uY,144.5,"60 s from the middle, mp3 64k"
+intro_8U7grHLj-uY.mp3,mid_intro20,8U7grHLj-uY,8U7grHLj-uY,124.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_8U7grHLj-uY.mp3,speed4_pitch,8U7grHLj-uY,8U7grHLj-uY,144.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_8U7grHLj-uY.mp3,speed4_tempo,8U7grHLj-uY,8U7grHLj-uY,144.5,"sped up 4%, pitch kept (atempo)"
+reversed_8U7grHLj-uY.mp3,neg_reversed,8U7grHLj-uY,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_kIc8JOhTGbE.mp3,mid_plain,kIc8JOhTGbE,kIc8JOhTGbE,104.0,"60 s from the middle, mp3 64k"
+intro_kIc8JOhTGbE.mp3,mid_intro20,kIc8JOhTGbE,kIc8JOhTGbE,84.0,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_kIc8JOhTGbE.mp3,speed4_pitch,kIc8JOhTGbE,kIc8JOhTGbE,104.0,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_kIc8JOhTGbE.mp3,speed4_tempo,kIc8JOhTGbE,kIc8JOhTGbE,104.0,"sped up 4%, pitch kept (atempo)"
+reversed_kIc8JOhTGbE.mp3,neg_reversed,kIc8JOhTGbE,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_Lk9tkdCESzc.mp3,mid_plain,Lk9tkdCESzc,Lk9tkdCESzc,103.0,"60 s from the middle, mp3 64k"
+intro_Lk9tkdCESzc.mp3,mid_intro20,Lk9tkdCESzc,Lk9tkdCESzc,83.0,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_Lk9tkdCESzc.mp3,speed4_pitch,Lk9tkdCESzc,Lk9tkdCESzc,103.0,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_Lk9tkdCESzc.mp3,speed4_tempo,Lk9tkdCESzc,Lk9tkdCESzc,103.0,"sped up 4%, pitch kept (atempo)"
+reversed_Lk9tkdCESzc.mp3,neg_reversed,Lk9tkdCESzc,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_i6OOJVFZuw0.mp3,mid_plain,i6OOJVFZuw0,i6OOJVFZuw0,92.5,"60 s from the middle, mp3 64k"
+intro_i6OOJVFZuw0.mp3,mid_intro20,i6OOJVFZuw0,i6OOJVFZuw0,72.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_i6OOJVFZuw0.mp3,speed4_pitch,i6OOJVFZuw0,i6OOJVFZuw0,92.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_i6OOJVFZuw0.mp3,speed4_tempo,i6OOJVFZuw0,i6OOJVFZuw0,92.5,"sped up 4%, pitch kept (atempo)"
+reversed_i6OOJVFZuw0.mp3,neg_reversed,i6OOJVFZuw0,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_qYhj_GEOtFo.mp3,mid_plain,qYhj_GEOtFo,qYhj_GEOtFo,54.5,"60 s from the middle, mp3 64k"
+intro_qYhj_GEOtFo.mp3,mid_intro20,qYhj_GEOtFo,qYhj_GEOtFo,34.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_qYhj_GEOtFo.mp3,speed4_pitch,qYhj_GEOtFo,qYhj_GEOtFo,54.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_qYhj_GEOtFo.mp3,speed4_tempo,qYhj_GEOtFo,qYhj_GEOtFo,54.5,"sped up 4%, pitch kept (atempo)"
+reversed_qYhj_GEOtFo.mp3,neg_reversed,qYhj_GEOtFo,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_smPgnvUoJtU.mp3,mid_plain,smPgnvUoJtU,smPgnvUoJtU,107.0,"60 s from the middle, mp3 64k"
+intro_smPgnvUoJtU.mp3,mid_intro20,smPgnvUoJtU,smPgnvUoJtU,87.0,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_smPgnvUoJtU.mp3,speed4_pitch,smPgnvUoJtU,smPgnvUoJtU,107.0,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_smPgnvUoJtU.mp3,speed4_tempo,smPgnvUoJtU,smPgnvUoJtU,107.0,"sped up 4%, pitch kept (atempo)"
+reversed_smPgnvUoJtU.mp3,neg_reversed,smPgnvUoJtU,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_qKWNtFx1XGQ.mp3,mid_plain,qKWNtFx1XGQ,qKWNtFx1XGQ,60.5,"60 s from the middle, mp3 64k"
+intro_qKWNtFx1XGQ.mp3,mid_intro20,qKWNtFx1XGQ,qKWNtFx1XGQ,40.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_qKWNtFx1XGQ.mp3,speed4_pitch,qKWNtFx1XGQ,qKWNtFx1XGQ,60.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_qKWNtFx1XGQ.mp3,speed4_tempo,qKWNtFx1XGQ,qKWNtFx1XGQ,60.5,"sped up 4%, pitch kept (atempo)"
+reversed_qKWNtFx1XGQ.mp3,neg_reversed,qKWNtFx1XGQ,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_oewiZYAGujY.mp3,mid_plain,oewiZYAGujY,oewiZYAGujY,53.0,"60 s from the middle, mp3 64k"
+intro_oewiZYAGujY.mp3,mid_intro20,oewiZYAGujY,oewiZYAGujY,33.0,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_oewiZYAGujY.mp3,speed4_pitch,oewiZYAGujY,oewiZYAGujY,53.0,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_oewiZYAGujY.mp3,speed4_tempo,oewiZYAGujY,oewiZYAGujY,53.0,"sped up 4%, pitch kept (atempo)"
+reversed_oewiZYAGujY.mp3,neg_reversed,oewiZYAGujY,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_PI6koCSkYTA.mp3,mid_plain,PI6koCSkYTA,PI6koCSkYTA,54.5,"60 s from the middle, mp3 64k"
+intro_PI6koCSkYTA.mp3,mid_intro20,PI6koCSkYTA,PI6koCSkYTA,34.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_PI6koCSkYTA.mp3,speed4_pitch,PI6koCSkYTA,PI6koCSkYTA,54.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_PI6koCSkYTA.mp3,speed4_tempo,PI6koCSkYTA,PI6koCSkYTA,54.5,"sped up 4%, pitch kept (atempo)"
+reversed_PI6koCSkYTA.mp3,neg_reversed,PI6koCSkYTA,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_W7kG-O-u41w.mp3,mid_plain,W7kG-O-u41w,W7kG-O-u41w,82.5,"60 s from the middle, mp3 64k"
+intro_W7kG-O-u41w.mp3,mid_intro20,W7kG-O-u41w,W7kG-O-u41w,62.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_W7kG-O-u41w.mp3,speed4_pitch,W7kG-O-u41w,W7kG-O-u41w,82.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_W7kG-O-u41w.mp3,speed4_tempo,W7kG-O-u41w,W7kG-O-u41w,82.5,"sped up 4%, pitch kept (atempo)"
+reversed_W7kG-O-u41w.mp3,neg_reversed,W7kG-O-u41w,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_P4FOCwZYSnk.mp3,mid_plain,P4FOCwZYSnk,P4FOCwZYSnk,80.0,"60 s from the middle, mp3 64k"
+intro_P4FOCwZYSnk.mp3,mid_intro20,P4FOCwZYSnk,P4FOCwZYSnk,60.0,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_P4FOCwZYSnk.mp3,speed4_pitch,P4FOCwZYSnk,P4FOCwZYSnk,80.0,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_P4FOCwZYSnk.mp3,speed4_tempo,P4FOCwZYSnk,P4FOCwZYSnk,80.0,"sped up 4%, pitch kept (atempo)"
+reversed_P4FOCwZYSnk.mp3,neg_reversed,P4FOCwZYSnk,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_3vQB7zlYtco.mp3,mid_plain,3vQB7zlYtco,3vQB7zlYtco,52.5,"60 s from the middle, mp3 64k"
+intro_3vQB7zlYtco.mp3,mid_intro20,3vQB7zlYtco,3vQB7zlYtco,32.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_3vQB7zlYtco.mp3,speed4_pitch,3vQB7zlYtco,3vQB7zlYtco,52.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_3vQB7zlYtco.mp3,speed4_tempo,3vQB7zlYtco,3vQB7zlYtco,52.5,"sped up 4%, pitch kept (atempo)"
+reversed_3vQB7zlYtco.mp3,neg_reversed,3vQB7zlYtco,,,"reversed speech: same spectrum statistics, must match nothing"
+mid_kxQdokoQXTA.mp3,mid_plain,kxQdokoQXTA,kxQdokoQXTA,78.5,"60 s from the middle, mp3 64k"
+intro_kxQdokoQXTA.mp3,mid_intro20,kxQdokoQXTA,kxQdokoQXTA,58.5,"20 s pink-noise intro, then the same clip (ref offset = clip start - 20)"
+speed4p_kxQdokoQXTA.mp3,speed4_pitch,kxQdokoQXTA,kxQdokoQXTA,78.5,"sped up 4% with pitch (asetrate), like a tape run fast"
+speed4tempo_kxQdokoQXTA.mp3,speed4_tempo,kxQdokoQXTA,kxQdokoQXTA,78.5,"sped up 4%, pitch kept (atempo)"
+reversed_kxQdokoQXTA.mp3,neg_reversed,kxQdokoQXTA,,,"reversed speech: same spectrum statistics, must match nothing"
+neg_noise60.mp3,neg_noise,,,,pure pink noise

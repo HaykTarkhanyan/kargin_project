@@ -22,7 +22,7 @@ Output:
 
 Resume-safe: any video_id that already has at least one matching file in
 data/transcripts/ is skipped. Single-threaded to avoid YouTube's bot
-detection (per LEARNINGS — concurrency triggers it, not request count).
+detection (per _learnings/ — concurrency triggers it, not request count).
 
 Usage:
     uv run python scripts/fetch_transcripts.py
@@ -40,6 +40,8 @@ from pathlib import Path
 
 import pandas as pd
 import yt_dlp
+
+from archive_ids import KARGIN_CSV, load_seq_of
 
 
 LOG_DIR = Path("logs")
@@ -158,7 +160,10 @@ def main(input_csv: Path, output_dir: Path, limit: int | None, sleep_sec: float)
         df = df[df["availability"].fillna("public") == "public"]
 
     all_ids = df["video_id"].dropna().astype(str).tolist()
-    seq_of: dict[str, int] = {vid: i for i, vid in enumerate(all_ids, 1)}
+    # The filename prefix is the row's `id` in kargin_eng.csv, not its position among
+    # the public rows: one archive video turning unlisted must not renumber every
+    # later download (scripts/archive_ids.py, DECISIONS #19).
+    seq_of: dict[str, int] = load_seq_of(KARGIN_CSV, all_ids)
     title_of: dict[str, str] = dict(zip(df["video_id"].astype(str), df["title"].fillna("")))
 
     output_dir.mkdir(parents=True, exist_ok=True)
