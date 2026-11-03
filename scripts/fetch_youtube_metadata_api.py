@@ -3,7 +3,7 @@
 Faster and more reliable than the yt-dlp version (no rate limits, no cookies),
 but provides less data: caption-language detail would cost 50 quota units per
 video (3.5x daily quota for 695 videos), and the API doesn't expose chapters.
-For our project both are acceptable losses — see PLAN.md / LEARNINGS.md.
+For our project both are acceptable losses — see PLAN.md / _learnings/.
 
 Reads YOUTUBE_DATA_API_KEY from .env (or the environment).
 Writes the same schema as fetch_youtube_metadata.py to data/youtube_metadata.csv,

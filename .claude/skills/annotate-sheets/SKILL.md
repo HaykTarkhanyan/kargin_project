@@ -105,7 +105,7 @@ Also flag any agent note about mostly-black sheets (few tiles filled): that
 means the source video's video stream is shorter than its audio - a broken
 download. Verify with ffprobe (compare video vs audio stream durations),
 delete the bad mp4 + sheet + json, and re-run the downloader (see
-LEARNINGS.md on VP9-over-HLS truncation).
+_learnings/ on VP9-over-HLS truncation).
 
 ## Escalation pass (low-confidence sheets)
 
@@ -115,7 +115,7 @@ anything ambiguous, and keep "low" as a valid honest outcome. Measured
 2026-09-04: resolved 100 of 101 lows; the wins came from reading signage and
 props at zoom, not from rethinking.
 
-Two rules learned from Opus agent deaths (LEARNINGS.md 2026-09-04):
+Two rules learned from Opus agent deaths (_learnings/ 2026-09-04):
 - Every agent prompt must say: write each JSON the moment that sheet is done,
   never batch writes. Opus vision agents stall/die mid-run; per-file writes
   make recovery a cheap mtime diff instead of a redo.

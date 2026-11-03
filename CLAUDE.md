@@ -8,7 +8,7 @@ These three files carry the live state of the project. Read them at the start of
 
 - **[PLAN.md](PLAN.md)** — the roadmap. Phases, decisions, exit criteria. Source of truth for "what comes next."
 - **[PROGRESS.md](PROGRESS.md)** — what's done, in progress, and next. Update when starting/finishing work so future sessions can pick up cleanly.
-- **[LEARNINGS.md](LEARNINGS.md)** — append-only log of non-obvious lessons, gotchas, and decisions. Add entries when you discover something that isn't visible in the code itself.
+- **[_learnings/](_learnings/)** - one Markdown file per non-obvious lesson, gotcha or decision, named `YYYY-MM-DD-HHMM_slug.md`. Skim the filenames at the start of a session and read the ones relevant to what you are about to touch; add a new file when you discover something that isn't visible in the code itself. (Split from the old append-only LEARNINGS.md on 2026-11-04; those 180 files carry the git commit time of their original line.)
 - **[NOTES.md](NOTES.md)** — open questions, ideas, and free-form context for the rewrite. Edit freely.
 
 ## Working norms (project-specific)
@@ -30,7 +30,7 @@ Repo layout (counts as of 2026-09; media dirs under `data/` are gitignored):
 
 ```
 .
-├── CLAUDE.md, PLAN.md, PROGRESS.md, LEARNINGS.md, NOTES.md, DECISIONS.md, DEFERRED_TODO.md
+├── CLAUDE.md, PLAN.md, PROGRESS.md, NOTES.md, DECISIONS.md, DEFERRED_TODO.md
 ├── kargin_eng.csv                  # source-of-truth curation data, 702 rows
 ├── data/
 │   ├── youtube_metadata.csv        # 702 rows, YouTube Data API v3
@@ -48,7 +48,7 @@ Repo layout (counts as of 2026-09; media dirs under `data/` are gitignored):
 ├── scripts/                        # Python pipeline: fetch, download, transcribe, fingerprint, dedupe, review UI
 ├── bot/                            # TypeScript Telegram bot (live), Dockerfile
 ├── web/                            # Next.js site + Firestore — has its own CLAUDE.md, read it before touching web/
-├── experiments/, docs/, tests/, _knowledge/, _work_sessions/
+├── experiments/, docs/, tests/, _knowledge/, _learnings/, _work_sessions/
 ├── pyproject.toml, uv.lock         # uv-managed Python deps
 ├── .env.example                    # template; real .env is gitignored
 ├── internal/                       # gitignored — user-local curation files
@@ -94,6 +94,6 @@ The frozen original. See `old/README.md` for its self-description. High-level:
 - `old/Home.py` + `old/pages/` — Streamlit multipage app. `Home.py` was the required entry point; pages depended on `st.session_state` populated there.
 - `old/telegram_bot.py` — standalone Telegram bot (`@KarginSearchBot`), independently loaded the same CSV.
 - `old/youtube_utils.py` — dynamic-import wrapper around `pytubefix` so the app degrades cleanly when it's missing.
-- Two surfaces, no shared search module — fuzzywuzzy logic was duplicated. See `LEARNINGS.md` for known bugs and gotchas before lifting any of it forward.
+- Two surfaces, no shared search module — fuzzywuzzy logic was duplicated. See the `_learnings/2026-04-25-*` files for known bugs and gotchas before lifting any of it forward.
 
 If the rewrite ever needs to run the old app for comparison, install via `old/requirements.txt` and run from inside `old/` (paths in those scripts assume the CSV is in the working directory — copy or symlink `kargin_eng.csv` in).

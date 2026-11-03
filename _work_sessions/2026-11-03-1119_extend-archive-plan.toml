@@ -1,49 +1,79 @@
-title = "Plan for extending the archive beyond the 702, compilations included, reviewed and decided"
+title = "Archive extension: plan, decisions, then Phase 0 + A run, three independent reviews and their fixes"
 date = "2026-11-03"
 time = "11:19"
-areas = ["docs/superpowers/plans", "DECISIONS.md", ".gitignore", "data/channel_scout"]
+areas = ["docs/superpowers/plans", "DECISIONS.md", "scripts", "scripts/non_essential", "scripts/archive",
+         "scripts/review_templates", "tests", "data/channel_scout", "data/candidates", "data/compilations",
+         "data/audio_index", "pyproject.toml", ".gitignore"]
 
 done = [
-    "Read every pipeline script's docstring plus assemble.py, the review store, the annotation skill, LEARNINGS, DECISIONS and HANDOFF, and wrote docs/superpowers/plans/2026-11-03-extend-archive.md: Phase 0 (an audio engine that finds a sketch anywhere in a recording), A (standalone candidates), M (mapping compilations, episodes, tapes), B (the full add pipeline with gates and human reviews), S (compilations on the site), C (segments).",
-    "Measured what shapes it: disk 16 GB free of 476 GB; ~11.5 MB per archived sketch; ~2,028 sketch-length fan uploads; a multi-sketch pool of ~307 videos / 168 h (3.5 GB at 48 kbps); the 49 Kaset-titled tapes are tapes 1-10 uploaded 2-6 times; the archive already holds ~8 compilations of which audio mapped only 2; sketches.json is 2.76 MB and ships in the home page JS.",
-    "Found code constraints: sketch id == YouTube video id everywhere; file numbers are re-counted after an availability filter (an unlisted video shifts every later number, deleted/private ones don't); four scripts parse exactly 3-digit prefixes (999 ceiling); duplicate_of has no safe writer; the player is a YouTube iframe, so non-embeddable uploads play nothing.",
-    "Reviewed the plan against the code: 17 findings logged in its section 15, including two that would have broken things (no embeddability check; 'drop the row' after files exist would renumber later rows).",
-    "Interviewed the owner on Q4-Q19 and recorded every answer in the plan's section 3 and in DECISIONS #19. Three answers overrode the recommendation (Q4 commit videos.json, Q9 no disk hunt, Q11 actors from text cues only).",
-    "Explained why face-based actor identification is off the table, and measured the text alternative: 10% of standalone candidates name the Hayko+Mko pair in the title, 15% name any main actor in title or description.",
-    "Committed data/channel_scout/videos.json (Q4) and removed its ignore line.",
+    "Morning: wrote and reviewed docs/superpowers/plans/2026-11-03-extend-archive.md, interviewed the owner on Q4-Q19 (DECISIONS #19), committed and pushed the plan.",
+    "Phase 0: probed audfprint2 0.1.2 on 128 ground-truth queries (67/67 unmodified positives, offsets within 0.02 s; 0/40 sped-up). Adopted it as scripts/audio_index.py, `match` dependency group (DECISIONS #21).",
+    "Q19 hardening: scripts/archive_ids.py; download_audio/download_video/fetch_transcripts number files from `id` (DECISIONS #20). Verified first that id == every existing file prefix.",
+    "A1 triage (triage_candidates.py), A3 screening download (screen_audio.py), A5 playability (fetch_candidate_status.py), A4 verdicts + clustering + Q8 copy choice (match_candidates.py), per-channel gate for unmarked titles (gate_unclear.py, DECISIONS #22, prompted by the owner asking whether non-Kargin was being downloaded), A6 triage page (triage_ui.py + review_templates/triage.html).",
+    "Phase M: collapse_pool.py (21 exact copies), full-audio pool download 257 of 266 (yt-dlp bumped to 2026.10.26 after it fixed measured 403s), map_compilations.py (archive's 8 compilations mapped).",
+    "Owner offered spare Claude usage: three independent reviewer agents (pipeline code, triage page, method). 12 + 12 + 9 findings; each verified against the data before fixing. Fixed: hit caps that silently dropped matches (scaled now, loud when it matters), 5% span trimming that created false unknown gaps, highlight-reel pieces invisible, jingle-only `have`, transient download errors counted as gone, archive duplicates counted twice, channels keyed by non-unique titles, gate sample re-picking itself, mining requiring embeddable, ingest only from repo root, notes wiped / double-Enter skips / Ctrl shortcuts / iframe focus / Armenian layout in the triage page, hashtag spam tripping the Serial filter, a fragment answer.",
+    "Biggest correction (method review): the 2.0 threshold has no gap on real fan data (244 of 1,390 clips at 1.0-3.0), mostly montage shorts; scoring is now per archive sketch with coverage measured on the sketch's timeline. Kargin Club's gate skip (4/21) was wrong under it (12/21).",
+    "Speed claim withdrawn: measured tolerance is tape speed +-0.5%, tempo only +-3%; the earlier grid had gaps. A 1%-step sweep is queued.",
+    "Found an archive duplicate pair the August method missed: sketches 107 (xaVdaU-N7Gw) and 430 (sSIXTq8KlTw).",
+    "Corrected my own wrong claims in the plan: the 4-not-6 missing KarginTV sketches (two were mislabelled re-uploads), the mrIUW3fCUUo 'unknown sketch' that was a duplicate pair, the '7 gaps, 278 s' that was trimming.",
+    "A mistake of mine: the first speed test wrote 2,168 WAVs (12 GB) and took the disk to 5.5 GB free; deleted that one scratchpad folder, now 16+ GB free; every later probe writes one temporary file at a time.",
+    "Tests: 150 passing (tests/test_archive_ids.py, test_audio_index.py, test_match_candidates.py added).",
+    "Overnight chain steps 1-9 done: gate keep 11 channels / 452 titles (Kargin Club 14/24, now kept), skip 38 / 192, triage 8 / 19; verdicts new 635 in 417 clusters, have 831, gated_out 182; triage queue 418 clusters + 30 spot-checks. Archive compilations mapped: 79 spans, 4 unknown gaps (485 s).",
+    "The first shortcut audit took 2.5 h (8 s per seek into long compilations); it now decodes each query once.",
+    "After midnight, owner answers: Q20 commit+push when the runs finish; Q21 No Comment out of scope (DECISIONS #23, pool 299 -> 288); Q22 sketches 107/430 verified (430 inside 107 at +19.41 s, 16/16 windows at 0.987-0.996) and recorded via the corrections overlay + duplicates.csv; Q23 LEARNINGS.md split into _learnings/ (180 files by git blame, 0 lines lost) + 4 new lessons, CLAUDE.md repointed.",
+    "audio_index.match() keeps every hit with >= 20 hashes beyond the cap (audfprint's cap only slices a list it computes in full; a first doubling-loop fix redid the analysis for nothing and was replaced). All possibly-cut rows re-matched; no verdict, cluster, canonical or archive-timeline span moved.",
+    "Owner asked why the pool mapping is slow: profiled, ~87% of a match is query analysis (4 sub-frame shifts) and it was redone per index. Added a per-query hash cache (--hash-cache, data/compilations/hashes/); ETA moved from ~10:00 to ~07:00-07:30. Not done: shifts=1 (needs a new probe), parallel mappers (RAM: 1.5 GB of 15.6 GB free).",
+    "Found while checking an optimisation: 13 of the first 19 Kaset tapes contain archive stretches (~19% of their minutes), against DECISIONS #22's premise. Preliminary, revisit with the full pool.",
+    "Q24: deleted the two 3 Sep leftovers of file 400 in data/video by exact name. Q25: no global CLAUDE.md rule.",
+    "map_compilations: accept line 4.0 -> 6.2 hashes/s after the audit's one false accept (1 of 8 below 6.2 failed, 0 of 42 above); pool mapping filtered to pool_download_ids.txt.",
 ]
 
 pending = [
-    "Nothing in the plan has been run. Next is Phase 0: ground truth from data/duplicates.csv plus planted clips, then the audfprint probe (Q13).",
-    "Phase C spec (stable archive id, Q16) to be written while Phase M runs.",
-    "Q12 left optional: an independent subagent read of the plan.",
-    "Unchanged from earlier sessions: the usage-check questions (bot end-to-end test, a dev flag for own visits, bot error checks in report_usage.py); domain-dialog.md still untracked.",
+    "Running at 00:50 on 2026-11-04: pool mapping (map_compilations.py --set pool --index archive candidates, restarted 00:44 with the hash cache; expected done ~07:00-07:30) and the 1%-step speed sweep (~1 h left). Their results are not in this file yet.",
+    "Then: record the pool timeline + audit, the Kaset finding with full numbers (DECISIONS #22 premise), and the speed sweep (DECISIONS #21 if it finds speed-shifted copies) in the plan's progress log, then commit and push.",
+    "Q26 (owner: not now): no speed pass over the 417 new clusters; ~1 in 8 may be sped-up copies of archive sketches, to be judged by eye in triage. Q27 (owner: yes): archive self-match running (data/audio_index/archive_self.jsonl, ~70 min); report new hidden pairs, recording each needs the owner's OK.",
+    "Owner triage (A6) once the chain's verdicts are final: uv run --group review python scripts/non_essential/triage_ui.py, http://127.0.0.1:5056.",
+    "Still open from the plan: Phase B (adding sketches), Phase S (marking compilations on the site), the Phase C spec (stable archive id).",
 ]
 
-next = "Phase 0 step 0.1: build data/audio_index/groundtruth.csv from the 23 duplicate and 4 contains pairs, then probe audfprint2 against it."
+next = "When the pool mapping finishes: read timeline_pool.csv / audit_pool.csv and the speed sweep JSON, log them, commit and push (Q20), then hand the triage page to the owner."
 
 files = [
-    "docs/superpowers/plans/2026-11-03-extend-archive.md (new, then revised)",
-    "DECISIONS.md (#19)",
-    ".gitignore (videos.json no longer ignored)",
-    "data/channel_scout/videos.json (now committed)",
+    "docs/superpowers/plans/2026-11-03-extend-archive.md", "DECISIONS.md (#19-#22, #21 revisited)",
+    "scripts/audio_index.py (new)", "scripts/archive_ids.py (new)",
+    "scripts/download_audio.py", "scripts/download_video.py", "scripts/fetch_transcripts.py",
+    "scripts/non_essential/{triage_candidates,screen_audio,fetch_candidate_status,match_candidates,gate_unclear,collapse_pool,map_compilations,triage_ui}.py (new)",
+    "scripts/non_essential/__init__.py, README.md", "scripts/review_templates/triage.html (new)",
+    "scripts/archive/{p0_groundtruth,p0_probe_audfprint,p0_rescore}.py + README.md (new)",
+    "tests/test_archive_ids.py, test_audio_index.py, test_match_candidates.py (new)",
+    "data/audio_index/probe_2026-11-03/ (probe evidence)", "data/candidates/*.csv, *.jsonl", "data/compilations/*.csv, *.jsonl",
+    "pyproject.toml + uv.lock (yt-dlp 2026.10.26, match group)", ".gitignore (screening audio, indexes)",
+    "data/channel_scout/videos.json (committed per Q4)",
+    "kargin_eng.csv (duplicate_of on sketches 107 and 430), data/duplicates.csv (+1 row)",
+    "_learnings/ (new, 184 files), LEARNINGS.md (deleted), CLAUDE.md, PLAN.md, .claude/skills/annotate-sheets/SKILL.md (references repointed)",
 ]
 commits = [
     "5a6ab2a docs: plan for extending the archive beyond the 702 sketches [skip ci]",
     "d214032 chore(data): commit the channel scout full dump",
+    "f081948 docs: archive-extension decisions answered, DECISIONS #19, session log [skip ci]",
+    "4142ba6 feat(scripts): audio engine that finds a clip anywhere in the archive",
+    "4f8b6fc fix(data): sketches 107 and 430 are one recording",
+    "cdd20e6 chore(data): archive-extension candidates, verdicts and archive compilation map",
+    "then in the same push (Q20, 2026-11-04 ~01:10): the docs commit with this file, and the pipeline-scripts commit",
+    "still to come: the fan pool map, the archive self-match (Q27) and this file's final update",
 ]
 
 notes = """
-The plan is the record, by request: findings, numbers and decisions live in the
-file, not the chat.
+Independent reviewers earned their cost: the method reviewer's per-sketch finding alone
+reverses ~114 'new' clusters and the Kargin Club skip. Its claims were verified against
+the data before acting, and one of its proposed fixes was wrong (windowed correlation
+can't reject a shared intro, because the intro is the same audio; coverage is the guard).
 
-A heads-up note claimed a vanished video shifts the file numbering. Checked against
-the code: half right. fetch_youtube_metadata_api.py writes an error row with empty
-availability for a video the API no longer returns, and download_audio.py's
-fillna("public") keeps that slot; only an explicit non-public status (unlisted)
-drops a row and shifts the rest.
+Machine notes: audfprint2 indexes at ~220x real time on one core; a whole-file 8 kHz
+decode is ~12 s per 20 min of audio; each windowed ffmpeg seek costs ~0.38 s, mostly
+process start-up. Pass whole decoded queries and seek only the references.
 
-Under Git Bash, grep with multibyte characters in a bracket set matches raw bytes, so
-a check for curly quotes flagged lines with Armenian letters. Python with explicit
-code points is the reliable check.
+Git Bash quirks met again: a heredoc with quotes/backticks in Python breaks (use a file);
+grep with a multibyte bracket set matches Armenian bytes (use Python code points); a
+shell `&` gives no completion notification (use the tool's background mode).
 """

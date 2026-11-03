@@ -1,0 +1,5 @@
+# A frame-quantized audio fingerprint conflates "different content" with "same content, misaligned by a fraction of a frame."
+
+*From LEARNINGS.md, section "Duplicate detection by audio fingerprint (2026-08-01)".*
+
+**A frame-quantized audio fingerprint conflates "different content" with "same content, misaligned by a fraction of a frame."** With a 128 ms hop, pairs offset by ~3.9 s (i.e. 30.5 frames) smeared across STFT windows and scored BER 0.21-0.33, while perfectly-aligned duplicates scored 0.045-0.07 — a 5x spread that looks like a confidence signal but is pure alignment luck. The text-confirmed duplicate scored 0.214 and would have been discarded; meanwhile true 0.045 "matches" were compilations. **Fix: BER is only a shortlist; the verdict is normalized cross-correlation at sample resolution** (FFT, mean-removed, unit-norm). Measured on this archive that separates 0.86-0.99 (same recording) from 0.010-0.015 (unrelated) — a ~60x gap with nothing in between, and it recovers the true lag as a by-product.

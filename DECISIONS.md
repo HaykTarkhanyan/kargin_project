@@ -6,6 +6,232 @@ entries are never deleted — that we changed our mind, and why, is the point.
 
 ---
 
+## #23 - The "No Comment" stage show is out of scope
+
+**Date:** 2026-11-04 · **Status:** active
+
+**Decision.** KarginTV's "No Comment" uploads (10 parts of 8-17 min from 2013, plus a
+31 s and a 62 s promo from 2012) are skipped as `out of scope: no_comment_stage_show`
+in `triage_candidates.py`. They are not mapped as compilations or mined for sketches.
+The owner decided this (Q21).
+
+**Why.** It is a recorded stage show with Hayko and Mko, not a Kargin Haghordum, Multer
+or Kaset episode, so it falls outside the scope set in #19. The 11 pool rows it occupied
+are now in `skipped.csv`. Their audio was already downloaded, so `map_compilations.py
+--set pool` now maps only the videos in `pool_download_ids.txt` and ignores other audio
+on disk.
+
+**Alternatives rejected.** Mining the parts like compilations: a sketch performed on stage
+is a different recording from the TV version, so the audio match can't link the two, and
+the parts would only add long `unknown` spans to the triage. Showing the owner one part
+first: the owner decided without needing to.
+
+**What would change this.** A wish to archive Hayko and Mko's work beyond the TV shows.
+Then the stage show needs its own series value and its own review, not the sketch triage.
+
+---
+
+## #22 — Fan titles with no Kargin marker are gated per channel on match evidence
+
+**Date:** 2026-11-03 · **Status:** active, **revisited 2026-11-03** (final numbers under the
+per-sketch rule of #21 are at the end of the "How it came out" part; Kargin Club is now kept)
+
+**Decision.** In the candidate triage (`triage_candidates.py`), a title with no Kargin
+series marker is dropped if it names another show (season/episode numbering, Bolola,
+Vitamin Club, Women's Club, Eleni, Banakum, Bazar Blot and similar). The drop is
+recorded in `skipped.csv` with its reason. The unmarked titles that are left are not
+downloaded or triaged wholesale. Each channel's are kept only if that channel's
+unmarked uploads already on disk match the archive often enough to show the channel
+posts Kargin. Marked titles (Haghordum, Multer, Kaset) are always screened.
+
+**Why.** The owner asked whether the download included non-Kargin material, and it
+did. 927 of 1,917 candidates (48%) had no marker in the title, 558 of them from two
+channels (Կարգին Shorts, Kargin Club) that hashtag other shows `#Կարգին` for reach.
+Only 4 of the first 32 unmarked clips matched the archive. The title filter removed
+266. The remaining 661 can't be told apart from titles alone ("Ծնող եմ կանչելու"
+could be a sketch's name or another show's clip). Unmatched, they would have put up
+to ~900 non-Kargin clusters into the owner's triage.
+
+**How it came out (2026-11-03).** `gate_unclear.py` sampled up to 8 unmarked uploads
+per channel (seed 509): 187 sampled, 176 matchable, 11 gone, private or sign-in only.
+A channel is kept when at least 2 of its samples match the archive:
+
+- **keep: 9 channels, 222 titles.** Կարգին Shorts 3/8, ՀայTV 5/7, Hayastan Armenia1991
+  7/8, Kargin Tube 5/8 and others.
+- **skip: 42 channels, 428 titles.** Kargin Club 1/8 with 212 titles,
+  "KARGIN “KARGIN HAXORDUM” ЮМОР" 0/8 with 50, Armenian Style 0/8, HAYKO MKO TV 0/8.
+- **triage: 3 Kaset-heavy channels, 11 titles.** Their material can't match a
+  Haghordum-only archive, so the owner sees their samples.
+
+The two big hashtag channels split, which is the point of judging per channel:
+Կարգին Shorts really posts Kargin under bare titles, Kargin Club mostly doesn't.
+
+**Re-sampled the same day, after a review note.** Eight samples were weak evidence for
+the big skips. A channel truly matching at Կարգին Shorts' rate (37%) shows 0-1 of 8
+about 1 time in 7. So samples now grow with the channel: 24 for ≥ 100 unmarked titles,
+16 for ≥ 20, 8 otherwise. Keeping also needs a 20% match rate, not just 2 matches.
+
+| Channel | Unmarked titles | First sample | Re-sample | Decision |
+|---|---|---|---|---|
+| Կարգին Shorts | 158 | 3/8 | 11/24 (46%) | keep |
+| ՀայTV | 26 | 5/7 | 8/16 | keep |
+| "KARGIN “KARGIN HAXORDUM” ЮМОР" | 50 | | 0/14 | skip |
+| Armenian Style | 28 | | 0/16 | skip |
+| **Kargin Club** | 212 | 1/8 | **4/21 (19%)** | skip under the rule, **but borderline** |
+
+Kargin Club is referred to the owner with an estimate: about a third of its unmarked
+titles may be Kargin, perhaps 30-40 of them new, among ~170 unmatched clusters to triage.
+
+**Final, under the per-sketch rule (#21 revisited, decided the same night).** Scoring every
+stretch on one archive sketch together, instead of the single best stretch, changed the
+big channels' rates. Montage shorts cut one sketch into pieces that each scored under 2.0.
+Same sample, same thresholds (`data/candidates/unclear_gate.csv`):
+
+| Channel | Unmarked titles | Sample matched | Decision |
+|---|---|---|---|
+| Kargin Club | 212 | 14/24 (58%) | **keep** (was skip at 4/21) |
+| Կարգին Shorts | 158 | 31/31 | keep |
+| ՀայTV | 26 | 15/17 | keep |
+| M A R C | 20 | 4/16 (25%) | keep (just over 20%) |
+| "KARGIN “KARGIN HAXORDUM” ЮМОР" | 50 | 0/16 | skip |
+| Armenian Style | 28 | 0/16 | skip |
+
+Totals: **keep 11 channels, 452 titles** (93 of 123 samples matched); **skip 38 channels,
+192 titles** (8 of 131); **triage 8 channels, 19 titles** (Kaset-heavy, or no sample
+could be fetched). The kept channels' remaining unmarked titles were downloaded and
+matched in the same chain.
+
+**Known limit.** A channel with a single unmarked upload can never reach 2 matches. Its
+one clip is either already in the archive (`have`) or skipped. That applies to 26
+channels, one title each.
+
+**Alternatives rejected.** Keeping every unmarked title (the earlier rule): it costs
+the owner's time, and the extra YouTube requests raise the bot-check risk. Dropping
+every unmarked title: that loses real sketches fan channels title by name only, which
+was the reason they were kept in the first place.
+
+**What would change this.** A channel whose unmarked uploads match the archive at a
+high rate (then its unmatched unmarked uploads are worth triage). Or a missing sketch
+later found to have been filtered out by the other-show list (then narrow the pattern).
+
+---
+
+## #21 — audfprint2 finds audio anywhere; matched hashes per query second decide
+
+**Date:** 2026-11-03 · **Status:** active, **revisited 2026-11-03** (the threshold now scores
+per archive sketch, and the speed claim was withdrawn) and **2026-11-04** (hit caps; the
+speed sweep found speed-shifted fan copies, 12 of 100)
+
+**Revisited the same evening, after an independent methodology review.** Two claims
+below did not hold on real fan data.
+
+1. **"A clean gap at 2.0".** It came from a probe whose positives were all cut from the
+   archive's own audio. Over 1,390 real screening clips, 244 (18%) score 1.0-3.0. The
+   middle is montage shorts that cut one sketch into pieces, each piece under 2.0.
+   - **Fix:** score per archive sketch (duplicates merged). Sum the hashes of every
+     stretch on that sketch, divide by clip seconds (≥ 2.0), and require ≥ 30% of the
+     clip in distinct seconds of the sketch, measured on the sketch's timeline so a
+     repeated jingle doesn't count twice (`match_candidates.sketch_evidence`).
+   - The gate uses the same rule.
+2. **"No speed-shifted fan copies".** That test used the single-stretch rule and an
+   unmeasured grid. The engine's tolerance is now measured on 10 archive clips
+   (`data/audio_index/probe_2026-11-03/speed_tolerance.json`):
+   - **tape-speed changes (pitch moves too):** survives only ±0.5% (10/10), half lost at
+     ±1%, all lost at ±2%;
+   - **tempo-only changes:** survives ±3% (10/10).
+   - The old ±1.5/3/5% grid therefore left gaps. A 1%-step sweep on leftover `new` clips
+     replaces it.
+   - **The sweep's result (2026-11-04): speed-shifted fan copies exist.** 12 of 100 leftover
+     `new` canonicals (Haghordum, unclear, Multer; seed 509) match an archive sketch once
+     corrected: 10 at tempo x0.90 (uploads sped up ~11% with pitch kept), 1 at tempo x0.95,
+     1 at tape speed x0.98. 6 of the 12 are Kargin Club. Three of the uploads name the
+     sketch number in the title (424, 415, 402), and the engine matched each one to exactly
+     that sketch. This meets the "What would change this" condition below: a speed pass over
+     the `new` clusters is needed before the owner's triage, or ~1 in 8 of them are sketches
+     the archive already has (`data/audio_index/probe_2026-11-03/speed_sweep.json`).
+3. **Hit caps (2026-11-04).** audfprint computes every hit and its cap only slices the
+   list, so `match()` now keeps every hit with >= 20 matched hashes plus the strongest
+   up to the cap. No consumer accepts a hit under 30. The old "weakest kept >= 10% of the
+   best" test both raised false alarms and called real copies noise. The rows it may have
+   cut were re-matched: no verdict, cluster or timeline span moved
+   (`_learnings/2026-11-04-0012_capped-match-lists-drop-real-hits-errors-get-ignored.md`).
+   Query analyses are cached (`--hash-cache`) because they are ~85% of a match and the
+   same for every index (`_learnings/2026-11-04-0040_audfprint-match-time-is-query-analysis.md`).
+
+The adoption itself stands: on unmodified audio the engine still found everything at the
+right offset.
+
+**Decision.** `scripts/audio_index.py` wraps audfprint2 0.1.2 (landmark fingerprints,
+Python, `match` dependency group). It indexes recordings and reports, for any query,
+which recording holds it and at what offset. A hit is a match when its aligned hashes
+per second of query reach **2.0**. The old first-60-seconds fingerprint
+(`fingerprint_audio.py` + `detect_duplicates.py`) stays as it is for its own report.
+
+**Why.** It was probed on 128 ground-truth queries (`data/audio_index/probe_2026-11-03/`,
+scripts in `scripts/archive/`):
+- **Every unmodified positive was found:** 23/23 known duplicates, 4/4 known contains,
+  20/20 clips cut from mid-sketch, 20/20 behind a 20 s noise intro.
+- **The density threshold sits in a clear gap.** The weakest true match scored 3.24/s;
+  the strongest spurious one scored 1.14/s, across 102 spurious hits (shared intro
+  stings of ~2.8 s, shared background songs, reversed speech, noise).
+- **Offsets are exact:** the worst error across the 27 known pairs was 0.02 s against
+  the August cross-correlation lags.
+- **It finds sketches deep inside compilations**, which the old method could not. For
+  example, `uObBR5ju488` sits at 9:31 inside `E0apclx3wqU`.
+- **Indexing and matching are cheap:** all 702 archive files (34 h of audio) index in
+  556 s on one core, and a 90 s query matches in about 2 s.
+
+**The known gap: speed changes.** Clips sped up 4% failed completely (0/20 with pitch,
+0/20 tempo only), and the same holds for our own fingerprint, so option (b) would not
+have fixed it. It is accepted on evidence: of 187 real fan clips, 78 matched; of the 109
+that did not, **none** matched after a ±3% or ±5% speed correction (both kinds). A second
+pass on 494 real clips (170 matched) re-queried all 324 unmatched at ±1.5%: **0** matched.
+No speed-shifted fan copy was seen in any of it (`data/audio_index/probe_2026-11-03/real_speed_check.json`).
+
+**Alternatives rejected.**
+- (b) extending our own Haitsma-Kalker fingerprint with a full-length index: no better
+  on speed, and new code where a package already passes.
+- (c) Olaf (C, needs WSL) and Panako (Java): Panako claims speed robustness, but the
+  measurement says we don't need it.
+- The default 14-bit time field: it wraps at about 380 s, and archive files run to 1,177 s,
+  so the index uses 16 bits (~1,520 s). The engine refuses longer references rather than
+  wrapping silently.
+
+**What would change this.**
+- A fan channel found to speed-shift its uploads (matches that appear only after a speed
+  correction). Then add a speed sweep for unmatched clips, or move to Panako.
+- A ground-truth miss at density ≥ 2.0 in future probes.
+- audfprint2 breaking on a numpy or scipy upgrade. It's a 2025 repackaging of 2014 code.
+
+---
+
+## #20 — The file-number prefix comes from the `id` column, not from row position
+
+**Date:** 2026-11-03 · **Status:** active
+
+**Decision.** `download_audio.py`, `download_video.py` and `fetch_transcripts.py`
+take each video's `NNN_` file prefix from its `id` in `kargin_eng.csv`, through the
+new `scripts/archive_ids.py`. A video with no row there is an error, never a
+default. Before this they re-counted the PUBLIC rows of `data/youtube_metadata.csv`.
+
+**Why.** Re-counting after a filter meant one archive video turning unlisted would
+shift the prefix of every later download onto the wrong number. That risk grows once
+fan uploads join the archive (#19, Q19), because they disappear more often. The switch
+moves no existing number: measured before changing anything, `id` equals the file
+prefix on all 702 audio files, 704 video files, 702 contact sheets and 484 transcripts,
+and equals the metadata row position for all 702. A test pins that last fact
+(`tests/test_archive_ids.py`), and all three scripts ran with `--limit 0` and numbered
+the 702 exactly as before.
+
+**Alternatives rejected.** Keeping the count and relying on `audit_audio.py` check 6
+plus a probe before each fetch: it catches a shift only after the fact. Removing the
+public filter instead: the scripts would then try to download dead videos every run.
+
+**What would change this.** A future id scheme that isn't a number (Phase C's stable
+archive id, #19). `load_seq_of` is the one place to change then.
+
+---
+
 ## #19 — Scope and ground rules for growing the archive beyond the 702
 
 **Date:** 2026-11-03 · **Status:** active (no code yet; the plan is
@@ -356,7 +582,7 @@ slightly worse: at matched percentiles `full` has higher topic agreement in ever
 band (top 0.1%: 0.494 vs 0.468; top 1%: 0.321 vs 0.297). The opener carries the
 setting and acts as an alignment anchor rather than noise. `full` stays the
 shipping variant; both artifact sets are kept and `--variant` selects. Full
-numbers in `LEARNINGS.md`.
+numbers in `_learnings/`.
 
 **Ship neighbours by score, not by rank.** Good matches are scarce: only 53 of
 702 sketches have any neighbour above cosine 0.85, 292 above 0.75, and 256

@@ -1,0 +1,5 @@
+# Client-side search slowness = per-keystroke work × index size — invisible on desktop, brutal on mobile
+
+*From LEARNINGS.md, section "Website v2 — EDA, discovery, layout (2026-06-16)".*
+
+**Client-side search slowness = per-keystroke work × index size — invisible on desktop, brutal on mobile.** Three multiplicative sins here: (1) running fuzzy (Fuse.js) on EVERY keystroke, (2) over a word-PER-OCCURRENCE index (~130k docs, ×3 with Armenian+Latin+Cyrillic translit ≈ 386k), (3) re-normalizing (NFC + regex) every field of every row each keystroke (~4k/key). Fixes, biggest-impact first: **debounce** the input (~180ms); **gate fuzzy** so it only runs when the exact pass returns few results (the common case — an exact match — then never touches Fuse); **dedup** the fuzzy index to unique words with a `word → Set<id>` map (~5× fewer docs); **memoize** each row's normalized searchable text so a keystroke is just a cached `.includes`. Adding a transliteration (Cyrillic) silently tripled the index — watch index growth when you add "free" matching features.

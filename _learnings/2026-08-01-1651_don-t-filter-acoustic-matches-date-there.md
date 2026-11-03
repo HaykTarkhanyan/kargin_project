@@ -1,0 +1,5 @@
+# Don't filter acoustic matches by date. There is no trustworthy date to bound on here
+
+*From LEARNINGS.md, section "Squeezing copyright signal out of YouTube (2026-08-01)".*
+
+**Don't filter acoustic matches by date. There is no trustworthy date to bound on here.** This looked like free precision and was wrong twice. (1) `upload_date` is an ingestion timestamp, not a production one — all 702 videos went up on **9 distinct dates**, 343 of them on 2012-12-28, years after filming. (2) The obvious fix, bounding on when the show aired, is also unsafe: the air dates are earlier and less certain than any public source states, so a cutoff year is an assumption that silently deletes real matches. (3) Even with a perfect production date it would misfire, because Shazam reports the date of the RELEASE it matched, which is often a later compilation of a much older recording — Andrei Petrov's 1979 film cue legitimately matches a 2005 "Best of" in this dataset. Keep `released` as raw data for a human to weigh; do not compute a verdict from it.

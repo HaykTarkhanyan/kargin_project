@@ -41,7 +41,7 @@ Goal: a SQLite (or Parquet) database with searchable transcript segments and enr
 ### 1A — Transcripts (segments + timestamps)
 
 - [ ] Script to download audio for each YouTube link via `yt-dlp` (cache locally, don't redownload).
-- [ ] **YouTube auto-captions confirmed unusable** (see `LEARNINGS.md`): they exist for some videos but transcribe in the wrong language because the sketches open with foreign-language songs. Skip them.
+- [ ] **YouTube auto-captions confirmed unusable** (see `_learnings/`): they exist for some videos but transcribe in the wrong language because the sketches open with foreign-language songs. Skip them.
 - [ ] **Gemini audio is the primary path.** Prompt it to **ignore music and transcribe Armenian speech only** — Kargin intros frequently open with a Russian or Spanish song that fooled YouTube's detector and will fool a naive STT call too.
 - [ ] Get word-level or sentence-level timestamps from Gemini.
 - [ ] Write segments to DB with: `episode_id`, `start_sec`, `end_sec`, `text`, `source` (gemini), and ideally `kind` (speech / song / silence) so downstream search can filter or weight.

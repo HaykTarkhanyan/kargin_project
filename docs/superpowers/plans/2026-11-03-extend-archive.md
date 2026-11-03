@@ -7,7 +7,7 @@ open decision lives here, not in the chat. Answer decisions by their ID (`Q5: b`
 
 Inputs: the channel scout (`data/channel_scout/`, DECISIONS #18), a read of every
 pipeline script's docstring and of the build, review and annotation code,
-LEARNINGS.md, DECISIONS.md, HANDOFF.md, and the measurements quoted below.
+_learnings/, DECISIONS.md, HANDOFF.md, and the measurements quoted below.
 
 Contents:
 
@@ -26,6 +26,7 @@ Contents:
 13. [Gotchas to carry through](#13-gotchas-to-carry-through)
 14. [Sources](#14-sources)
 15. [Review log](#15-review-log)
+16. [Progress log](#16-progress-log)
 
 ---
 
@@ -94,7 +95,7 @@ Scope (Q5): Kargin Haghordum, Kargin Multer and Kargin Kaset. Kargin Sketch Show
    archive's bitrate.
 5. **Only audio can say "same recording".** Titles are templates, durations collide by
    chance (162 groups), and same-title rows have turned out to be different sketches
-   (LEARNINGS 2026-08-01). The current check is a fingerprint shortlist plus
+   (_learnings/ 2026-08-01). The current check is a fingerprint shortlist plus
    sample-level cross-correlation, which separates 0.86-0.99 (same) from 0.010-0.015
    (unrelated). **But it compares the first 60 s of two files only.** It misses a
    fan cut with a long intro and anything that isn't at the start, which is
@@ -171,7 +172,7 @@ Measured on `data/channel_scout/videos.csv` (other channels) and the archive.
 | Kind | Where | Count | What we do |
 |---|---|---|---|
 | Standalone sketch, 1-15 min | other channels | 2,028 sketch-length videos, not Serial. That includes the 67 compilation-titled and 44 long rows below, which A1 separates out, so roughly 1,900 true standalone candidates | Phase A, then Phase B |
-| Standalone sketch on KarginTV, not in the archive | KarginTV | 6 Haghordum (175, 176, 177, 194, 195, Bufet) + 8 Multer in scope; the 100 Sketch Show uploads are out (Q5) | Phase A with matching (KarginTV re-uploads its own sketches: all 23 duplicate pairs in the archive are KarginTV vs KarginTV), then Phase B |
+| Standalone sketch on KarginTV, not in the archive | KarginTV | 6 Haghordum titles (175, 176, 177, 194, 195, Bufet) + 8 Multer in scope; the 100 Sketch Show uploads are out (Q5). **Corrected 2026-11-03 by the audio match: "175" is the archive's sketch 125 and "Bufet" is sketch 198 (same durations), so 4 Haghordum sketches are missing, not 6** | Phase A with matching (KarginTV re-uploads its own sketches: all 23 duplicate pairs in the archive are KarginTV vs KarginTV), then Phase B |
 | Compilation already in the archive | KarginTV | ~8; six are 566-1,177 s, the other two (`VFajwBRJxc4`, `aOZ3vbc1iFA`) flagged only by the visual pass | Phase M maps them, Phase S marks them |
 | Full TV episode, 15-45 min | KARGIN SHOW 26, Gor Simonyan 28, Ando Arakelian 10, others | 96 videos, 2,494 min | Phase M |
 | Kargin Kaset tape, 45+ min | Gor Simonyan 44, Ando Arakelian 31, Kargin INSTA 10 | 100 videos, 6,842 min; the 49 Kaset-titled ones are tapes 1-10 uploaded 2-6 times each | Phase M, one copy per tape |
@@ -248,7 +249,7 @@ this order. Every script exists and skips work already done, unless marked **new
 **B0. Preconditions.**
 - Git clean, CI green, nothing deploying.
 - Disk space per Q9.
-- yt-dlp at its current release AND deno installed (LEARNINGS 2026-09-03: without both, formats 403 or vanish).
+- yt-dlp at its current release AND deno installed (_learnings/ 2026-09-03: without both, formats 403 or vanish).
 - Check, without `--refresh` (a one-off Data API probe, ~15 quota units), that none of the 702 archive videos now comes back as **unlisted** (section 2, item 2). If one does, stop: every later number would shift.
 - **Hardening, decided (Q19):** make `download_audio.py`, `download_video.py` and `fetch_transcripts.py` take each row's number from the `id` column of `kargin_eng.csv` (joined on `video_id`) instead of re-counting filtered rows. That removes the shift risk for good. Add a test (an unlisted row must not move any later number), a DECISIONS entry, and keep the probe above and `audit_audio.py` as belt and braces.
 
@@ -264,7 +265,7 @@ this order. Every script exists and skips work already done, unless marked **new
 **B3. Media.**
 1. `uv run python scripts/download_audio.py`, then `uv run python scripts/audit_audio.py`. Exit 0 or stop.
 2. `uv run python scripts/download_video.py` (360p like the corpus).
-3. Compare video and audio stream durations with ffprobe on the new files; more than 2 s apart is a truncated download (LEARNINGS 2026-09-03). This needs a small probe script; none exists.
+3. Compare video and audio stream durations with ffprobe on the new files; more than 2 s apart is a truncated download (_learnings/ 2026-09-03). This needs a small probe script; none exists.
 
 **B4. Duplicates.**
 1. `uv run python scripts/fingerprint_audio.py`, then `uv run python scripts/detect_duplicates.py`, plus a Phase 0 engine run of each new file against the archive index.
@@ -277,7 +278,7 @@ this order. Every script exists and skips work already done, unless marked **new
    - `scripts/render_transcription_batch.py`
    - **you** upload the mp4 to YouTube, unlisted, language Armenian
    - download the JSON3 captions
-   - `scripts/split_batch_transcript.py --captions <file>`. Its duration check must pass (LEARNINGS 2026-08-02).
+   - `scripts/split_batch_transcript.py --captions <file>`. Its duration check must pass (_learnings/ 2026-08-02).
 
 **B6. Contact sheets.**
 - `uv run python scripts/build_contact_sheets.py`.
@@ -294,7 +295,7 @@ this order. Every script exists and skips work already done, unless marked **new
 - Expect some `PROHIBITED_CONTENT` blocks (12 of 702 last time); record which.
 
 **B9. Embeddings.**
-- `uv run python scripts/embed_annotations.py --force` (a full rebuild, about $0.03). Keep its one-vector-per-call assertion (LEARNINGS 2026-09-07).
+- `uv run python scripts/embed_annotations.py --force` (a full rebuild, about $0.03). Keep its one-vector-per-call assertion (_learnings/ 2026-09-07).
 - Then `scripts/non_essential/build_similarity_report.py` to look at the new sketches' neighbours.
 - Exclude compilations from the neighbour lists if Phase S marks them (their embeddings are mixtures).
 
@@ -375,7 +376,7 @@ review of the archive's own 8 compilations.
 | Step | What |
 |---|---|
 | S1 | Data: a `kind` column in `kargin_eng.csv` (empty = sketch, `compilation`), written by a **new** column script modelled on `add_collections_column.py` and set through `corrections.csv`. `data/compilations/timeline.csv` is committed (small) |
-| S2 | Build: **new** `scripts/kargin_build/compilations.py` folds the timeline into `sketches.json`. A compilation carries `kind` and `contains: [{id, startSec}]`; a sketch inside one carries `alsoIn: [{id, startSec}]`. It fails loudly on an id that isn't a sketch (same rule as `neighbors.py`) |
+| S2 | Build: **new** `scripts/kargin_build/compilations.py` folds the timeline into `sketches.json`. A compilation carries `kind` and `contains: [{id, startSec}]`; a sketch inside one carries `alsoIn: [{id, startSec}]`. It fails loudly on an id that isn't a sketch (same rule as `neighbors.py`). When one stretch matches two archive sketches that are duplicates of each other (seen in `mrIUW3fCUUo`: sketches 107 and 430, 593 and 108), list the pair once, not as two sketches |
 | S3 | Web: `types.ts`; a "compilation" label on the card and the sketch page; a "this video contains" list on the page linking each sketch and the moment it plays (`youtu.be/<id>?t=S`); exclude compilations from `/random`, from the sketch count and stats, and from neighbour lists. Search unchanged |
 | S4 | Bot: the same label; exclude from `/random` |
 | S5 | Tests for the build module (missing id, overlapping spans) and for the web helpers |
@@ -398,12 +399,12 @@ The boundaries come from the M7 review, so Phase C has no detection step of its 
 
 | Item | Estimate | Basis |
 |---|---|---|
-| Gemini text annotations | ~$0.002 / sketch | LEARNINGS 2026-09-07 (A/B on flash3, thinking off) |
+| Gemini text annotations | ~$0.002 / sketch | _learnings/ 2026-09-07 (A/B on flash3, thinking off) |
 | Embeddings, full rebuild | ~$0.03 | probe cost ~$0.0001 per 3 docs |
 | YouTube Data API, Shazam, audfprint | $0 | free quota, free tools |
 | Data API quota | B2 ~10 units, B0 probe ~15, B20 ~20 per run (~200 with the scout re-check), out of 10,000/day | 1 unit per 50 videos |
 | Disk, everything at once | ~8.5 GB of the 16 GB free (A3 + M3 + ~300 sketches) | sum of the rows below; see Q9 |
-| Visual annotation | ~11k Claude tokens / sheet + Opus for ~14% | LEARNINGS 2026-09-03/04 |
+| Visual annotation | ~11k Claude tokens / sheet + Opus for ~14% | _learnings/ 2026-09-03/04 |
 | Disk, added sketches | ~11.5 MB each | measured |
 | Disk, screening | ~1.5 GB (A3) + up to 3.5 GB (M3) | measured sizes x counts |
 | Engine build, archive index | minutes, one process | guess |
@@ -444,7 +445,7 @@ A multi-sketch video is done when it has:
 
 ## 13. Gotchas to carry through
 
-From LEARNINGS, HANDOFF and this session:
+From _learnings/, HANDOFF and this session:
 
 - yt-dlp needs deno. Video selectors need `vcodec^=avc1` and `protocol=https`. Compare stream durations; the container duration lies.
 - Never run `annotate_kargin_csv.py`. Never `--refresh` metadata casually: it replaces a dead video's metadata with an empty error row. `audit_audio.py` gates every fetch.
@@ -508,3 +509,315 @@ What this review did NOT do: run any of the steps, check `parse_seq` on real Ske
 Show titles, or measure the actual home-page transfer size. Those are checks inside
 the plan (B13, B16). A subagent with no knowledge of this plan could still give an
 independent read (Q12).
+
+## 16. Progress log
+
+Newest last. Numbers are measured unless marked as a guess.
+
+**2026-11-03, Phase 0 (engine): done, Q13 decided.**
+- **Probe:** audfprint2 0.1.2 against 128 ground-truth queries. It found 67/67
+  unmodified positives at ≥ 2.0 matched hashes per query second: 23/23 duplicates,
+  4/4 contains, 20/20 mid-sketch clips, 20/20 behind a noise intro. The weakest true
+  match scored 3.24/s, the strongest of 102 spurious hits 1.14/s, and the worst offset
+  error was 0.02 s. Sped-up clips failed: 0/40.
+- **Real fan uploads:** 78 of 187 matched the archive, and none of the 109 unmatched
+  matched after a ±3/5% speed correction, so speed changes are accepted as rare. A
+  ±1.5% re-check is running.
+- **Adopted:** `scripts/audio_index.py` with the `match` dependency group,
+  DECISIONS #21. The engine's archive index builds in 556 s alone, ~980 s under load.
+  The probe data is in `data/audio_index/probe_2026-11-03/`, its scripts in
+  `scripts/archive/`.
+- **Side effect:** the probe already found sketches deep inside the archive's own
+  compilations, e.g. `uObBR5ju488` at 9:31 inside `E0apclx3wqU` and `YP4Q6dkI_0o` at
+  8:17 inside `mrIUW3fCUUo`.
+
+**2026-11-03, Q19 hardening: done.** `scripts/archive_ids.py`; the three downloaders
+take the file number from `id` (DECISIONS #20). This was safe because `id` already
+equalled every file prefix (702 audio, 704 video, 702 sheets, 484 transcripts), and
+it is pinned by a test. 7 new tests.
+
+**2026-11-03, A1 triage: done, then tightened.**
+- `scripts/non_essential/triage_candidates.py` first gave 1,917 standalone
+  candidates, a pool of 327 and 7,577 skips.
+- **The owner asked whether we were downloading non-Kargin material.** We were: 927
+  candidates (48%) had no Kargin marker in the title, 558 of them from just two
+  channels (Կարգին Shorts, Kargin Club), largely other shows hashtagged `#Կարգին`
+  (Bolola episodes, Vitamin Club, Women's Club, Eleni oragir).
+- **Fix:** an other-show title filter applied only to unmarked titles. It removed 266,
+  leaving **1,651 candidates** (haghordum 700, kaset 273, multer 17, unclear 661) and
+  a **pool of 298** (9,420 min).
+- **The 661 unclear titles wait.** Their download is decided per channel on evidence:
+  how often that channel's unmarked uploads match the archive.
+
+**2026-11-03, A3 screening: in progress.** `scripts/non_essential/screen_audio.py`.
+- Each clip is exactly 90.0 s, ~549 KB, ~7.5 s with pacing.
+- Marked series download first (990 rows). 518 + 74 unclear clips were on disk when
+  the order changed.
+- 5 transient ffmpeg failures; one, re-run by hand, worked. The screener retries them
+  on its next run.
+
+**2026-11-03, A5 data: done.** `scripts/non_essential/fetch_candidate_status.py` →
+`data/candidates/status.csv`.
+- Of 2,244 candidate and pool videos, 2,229 pass the hard requirements and 5 fail
+  them: 1 not embeddable, 2 age-restricted, 2 blocked in Armenia, 1 blocked in Germany.
+  1,405 are HD.
+- 10 were already gone a week after the scout, all from one channel
+  (©Stepanyan_Production©) and all non-Kargin. That's one channel cleaning up, so it
+  is NOT a link-rot rate; B20 is still the real measurement.
+
+**2026-11-03, tools ready, waiting on data:**
+- `scripts/non_essential/match_candidates.py` (A4 verdicts + A5 copy choice, 6 tests)
+- `scripts/non_essential/map_compilations.py` (M4/M5 timelines confirmed by
+  cross-correlation, 1 test)
+- `scripts/non_essential/triage_ui.py` + `scripts/review_templates/triage.html` (A6
+  page: keyboard-driven, appends to `data/candidates/decisions.csv`)
+
+**2026-11-03, speed question closed.** A second pass on 494 real fan clips (170
+matched): all 324 unmatched re-queried at ±1.5% (both kinds), **0** matched. With the
+earlier ±3/5% pass (0 of 109), no speed-shifted fan copy has been seen.
+`data/audio_index/probe_2026-11-03/real_speed_check.json`.
+
+**2026-11-03, step 0.6, the archive's own compilations: mapped.**
+`scripts/non_essential/map_compilations.py --set archive` → `data/compilations/timeline_archive.csv`.
+- **The 6 long ones (566-1,177 s) are almost entirely sketches we already have:** 69
+  spans covering **51 distinct archive sketches**. The unknown gaps are only 31-54 s
+  each (7 gaps, 278 s in all), probably intros, links between sketches or very short
+  bits. They go to the M7 review.
+- **`VFajwBRJxc4` (168 s) and `aOZ3vbc1iFA` (237 s) are different.** The visual pass
+  calls each "a compilation of unrelated segments", yet no segment of either exists
+  anywhere else in the archive. They are short compilations of sketches the archive
+  doesn't hold on their own: the first concrete Phase C material, unless fans
+  uploaded the pieces separately (Phase M step M5 will check).
+- **Bug found and fixed in my own verification.** One correlation over a whole matched
+  stretch rejected 5 genuine hits in `Fyc5VWnAMog` (thousands of matched hashes,
+  correlation 0.13-0.39). Measured cause: a clock drift of ~0.002% (the lag walks -6 →
+  -2 ms over 200 s), which puts long stretches out of sample alignment; 10 s windows
+  scored 0.95-0.99. Verification is now windowed (10 s windows, ±0.5 s local lag
+  search, at least half the windows ≥ 0.6), with a test reproducing the measured drift.
+  The windowed check is also stricter where it should be. In `mrIUW3fCUUo` it rejected
+  weaker secondary alignments (60-86 hashes, no window agreeing) of sketches whose main
+  alignment it confirmed: 162-338 s is sketch 107 (`xaVdaU-N7Gw`) and 196-339 s is
+  sketch 430 (`sSIXTq8KlTw`), every window agreeing. The two are themselves an archive
+  duplicate pair, as are 593/108 at 354-402 s. (An earlier note in the chat called this
+  stretch an unknown sketch; that was wrong.)
+
+**2026-11-03, the per-channel gate (DECISIONS #22): done.** 187 unmarked uploads
+sampled (176 matchable, 11 gone, private or sign-in only).
+- **keep:** 9 channels, 222 titles. Կարգին Shorts 3/8, ՀայTV 5/7, Hayastan
+  Armenia1991 7/8, Kargin Tube 5/8.
+- **skip:** 42 channels, 428 titles. Kargin Club 1/8 with 212 titles,
+  "KARGIN “KARGIN HAXORDUM” ЮМОР" 0/8.
+- **triage:** 3 Kaset-heavy channels, 11 titles.
+
+**2026-11-03, Phase A matching (A3-A5): done for the standalone candidates.**
+1,356 screening clips matched against the archive (~0.8 s each). A candidate
+self-index of 1,207 clips was matched against itself to cluster copies.
+`data/candidates/matches.csv`:
+
+| Verdict | Candidates |
+|---|---|
+| `have` | 519, re-uploads of **322 distinct archive sketches** |
+| **`new`** | **681 in 432 clusters**: 143 Haghordum, 188 Kaset, 10 Multer, 91 unclear (from kept channels) |
+| `new*` | 12, clustered with a `have`: probably a re-cut |
+| `gated_out` | 414 |
+| `unavailable` | 25 |
+
+Only 4 clusters have no playable copy.
+
+**2026-11-03, A6 triage page: ready and tested.** `triage_ui.py` with 469 clusters
+(new + new* + 30 spot-checks), official uploads first.
+- Tested in Playwright against real data with a scratch decisions file:
+  1. Save moves on.
+  2. `b` swaps to the next copy.
+  3. The chosen copy and the bad copies land in the CSV.
+- The first test caught a 5.5 s queue build on every save; it's now 0.03 s, built in
+  plain Python and cached.
+- The clustering visibly works: KarginTV's "Kargin Multer - Napy" sits with two fan
+  copies titled "Կարգին մուկտ նապը" and "Kargin multer. Napastak", all 234.0 s.
+- **Next for the owner:** `uv run --group review python scripts/non_essential/triage_ui.py`,
+  open http://127.0.0.1:5056.
+
+**2026-11-03, M2/M3: running.** `collapse_pool.py` merged 21 exact copies (1,032 min).
+266 pool videos (8,231 min, ~2.9 GB) are downloading in full.
+
+**2026-11-03, a mistake of mine, fixed.** The speed test wrote every variant as an
+uncompressed WAV and never deleted them: 2,168 files, **12 GB**, which took the disk
+from 16 GB free to 5.5 GB (99% full) while downloads ran. I deleted that one scratchpad
+folder by its literal path (throwaway intermediates; the results were already saved),
+and the disk is back to 18 GB free. Rule for next time: generate, use and delete each
+variant (or keep it in memory). Never accumulate intermediates on this disk.
+
+**2026-11-03, M4 made affordable.** Measured costs: a whole-file decode at 8 kHz takes
+~12 s per 20 min of audio, and each windowed reference read ~0.38 s (mostly ffmpeg
+start-up). Verifying every hit would have taken ~5.5 h on the fan pool. On the
+archive's own compilations, all 69 confirmed hits scored ≥ 6.22 matched hashes per
+second of stretch and all 5 rejected ones ≤ 0.96/s. So hits ≥ 4/s are now accepted on
+the fingerprint, < 1.5/s rejected on it, and only the band between gets the windowed
+check (the query is decoded only if some hit needs it). The archive set went from 215 s
+to 9 s with an identical timeline; a rerun was diffed against the earlier output. If
+the pool produces many hits in the 1.5-4 band, look at them before trusting the cut.
+
+**2026-11-03, M3 pool download: 257 of 266.**
+- The first pass got 248; 16 of its 18 failures were "unable to download video data:
+  HTTP Error" partway through long downloads.
+- A retry on the old yt-dlp (2026.08.19) recovered 4. The current release (2026.10.26,
+  tested first in a throwaway venv) recovered 5 more, including a 106-minute tape that
+  failed every time before. So the project pin is bumped to `yt-dlp==2026.10.26`.
+- **9 remain:** 7 still get 403 (including `r-SKAxdW_pM`, a KARGIN SHOW episode linked
+  in the friends' chat; its first half `52X4-E6--yI` is on disk) and 2 are gone.
+
+**2026-11-03, gate re-sampled.** Kargin Club is borderline at 4/21 (19%) and is referred
+to the owner (DECISIONS #22).
+
+**2026-11-03, independent review of the triage page: 12 findings, all fixed and re-tested.**
+A reviewer agent with no stake in the code confirmed each finding against a scratch
+server; each fix was then re-tested here in Playwright, and the server-side ones with curl.
+- **Fixed (would have lost or corrupted work):**
+  - typed notes were wiped by any shortcut;
+  - a double Enter saved the next cluster unseen;
+  - Ctrl+C / Ctrl+A changed answers;
+  - `new*` clusters played the already-archived copy;
+  - one cluster was queued twice (as `new*` and as a spot-check);
+  - a chosen copy could also be marked bad;
+  - overlapping saves could drop a row;
+  - a `text/plain` POST from any other open page was accepted.
+- **Fixed (cost time):**
+  - clicking the YouTube player killed every shortcut (there's now a "keys on/OFF"
+    indicator and focus comes back after a click);
+  - the Armenian keyboard layout killed shortcuts (they now map by physical key);
+  - a failed save still said "saved";
+  - the sidebar highlight didn't follow, and saving didn't wrap back to skipped items.
+- **Upstream fix it exposed:** union-find linked any two clips sharing audio, and one
+  uploader opens every Kaset clip with the same ~25 s, which chained tapes 3, 4 and 5
+  into one cluster (links 22-28 s at offset ~0; the real copy pair in it shared 71 s).
+  Copies now need a matched stretch covering at least half the clip (12% of the 1,285
+  links fell below). After the fix: `new` 689 in 446 clusters (Haghordum 150, Kaset 193,
+  Multer 10, unclear 93), `have` 525, `new*` 4. **The triage queue is 478** (446 + 2 +
+  30 spot-checks), with no duplicates.
+
+**2026-11-03, two more independent reviews (code and method); conclusions corrected.**
+The owner offered spare Claude usage, so three reviewers with no stake in the work
+read the code, the triage page and the method. Their findings were checked against the
+data before acting.
+
+- **Code: 12 findings, the ones that changed results fixed.**
+  - **Hit caps.** 40 per long video and 10 per clip left real sketches out (7 of 8
+    archive compilations, 38 of 59 pool videos, 472 of 1,390 clips saturated). Caps now
+    scale with length, and saturation logs an ERROR.
+  - **Trimmed stretches.** audfprint's 5% trim made **5 of the 7 "unknown gaps" in the
+    archive's compilations artifacts**; my "7 gaps, 278 s" is withdrawn. Full extents
+    now, clipped to where the reference can lie.
+  - **Highlight reels** of 3-20 s pieces were invisible; short dense pieces are now
+    accepted when a sample-level correlation confirms them.
+  - **A 16 s jingle could make a `have`.**
+  - **Transient download errors counted as "gone"**: only gone, private, sign-in and
+    age failures count now.
+  - **Archive duplicate pairs counted as two sketches.**
+  - **Channels were keyed by non-unique titles** (two different "ԿԱՐԳԻՆ BOT").
+  - **The gate sample re-picked itself.** It's append-only now, restored to the
+    original 187 plus the 85 extra.
+  - **Mining required embeddable videos**, which it doesn't need.
+  - **Ingest only worked from the repo root.**
+- **Method: the biggest correction.** On real fan data the 2.0 threshold has **no gap**:
+  244 of 1,390 clips score 1.0-3.0, mostly **montage shorts** that cut one sketch into
+  pieces, each under 2.0.
+  - **Fix:** per-sketch scoring (sum over all stretches on one archive sketch, ≥ 2.0,
+    covering ≥ 30% of the clip in distinct seconds of the sketch). The reviewer measured
+    it turning ~138 `new` clips (~114 clusters) into `have`.
+  - **Kargin Club** scores 12/21 under it (not 4/21), so the gate's skip was wrong; M A R C
+    flips too.
+  - **`#karginserial` hashtag spam** dropped 21 real candidates; out-of-scope checks now
+    ignore hashtags.
+  - **Fragments:** 169 of 448 `new` clusters have no copy over 75 s, so the triage page
+    gets a "Only a piece of a sketch" answer.
+  - **The density shortcut is unproven on fan material** (shared intros score up to
+    60/s). A fan clip now counts as a standalone copy only if it's ≥ 50% covered, and 50
+    accepted plus 50 rejected shortcut decisions are re-checked the slow way into
+    `audit_<set>.csv`.
+- **Speed: the earlier "no speed-shifted fan copies" is withdrawn.** Measured tolerance:
+  tape speed (pitch moves) **±0.5%** (half lost at ±1%, all at ±2%); tempo only ±3%. The
+  earlier ±1.5/3/5% grid had gaps. A 1%-step sweep on 100 leftover `new` clips follows
+  (`speed_sweep.py`, one temporary file at a time).
+- **The engine found an archive duplicate pair August missed:** sketches 107
+  (`xaVdaU-N7Gw`) and 430 (`sSIXTq8KlTw`) cover the same stretch of `mrIUW3fCUUo`,
+  every window agreeing.
+- **Doubtful:** `aOZ3vbc1iFA` may be one sketch rather than a compilation; a 249 s fan
+  upload matches it from 3 s to 79 s.
+
+**2026-11-03 night, overnight chain steps 1-9: done.** Retries and hashtag-recovered
+titles downloaded, the gate re-decided under the per-sketch rule, the kept channels'
+remaining unmarked titles downloaded and matched, the candidate self-match redone.
+- **Gate** (DECISIONS #22, final table there): keep 11 channels / 452 titles (Kargin Club
+  14/24, now kept), skip 38 / 192, triage 8 / 19.
+- **Verdicts** (`matches.csv`): new 635 in 417 clusters (Haghordum 111, Kaset 191,
+  Multer 10, unclear 105), have 831 (437 archive sketches covered), new* 1, gated_out
+  182, unavailable 13, no_clip 10. 23 canonicals have no playable copy in their cluster.
+- **Triage queue:** 418 clusters plus 30 spot-checks.
+- **Archive compilations (step 0.6, redone with full extents):** 8 videos, 79 confirmed
+  spans, 4 `unknown` gaps (485 s: two in `Fyc5VWnAMog`, all of `VFajwBRJxc4` and of
+  `aOZ3vbc1iFA`).
+- **The first shortcut audit took 2.5 h:** it seeked into 20-95 min compilations at ~8 s a
+  call. It now decodes each query once. I stopped the chain to fix it.
+
+**2026-11-04, the owner's answers (Q20-Q23) and what changed tonight.**
+- **Q20, commit and push:** after the pool mapping and the speed sweep finish. The pool
+  mapping is much slower than I first said: ~65 s of matching per video per index, so
+  ~4.5 h per index, finishing in the morning.
+- **Q21, No Comment stage show: out of scope** (DECISIONS #23). Pool 299 → 288 rows,
+  download list 267 → 256. `map_compilations.py --set pool` now maps only the download
+  list, so the stage show's audio on disk is ignored.
+- **Q22, sketches 107/430: verified and recorded.** All of 430 sits inside 107 at
+  +19.41 s; 107 has a ~19 s studio intro first. Windowed correlation 0.987-0.996 on 16/16
+  windows. `duplicate_of` set on both rows via the corrections overlay (2 cells changed),
+  one row added to `duplicates.csv` (canonical 430, the most viewed). Verdicts unchanged;
+  "archive sketches covered" 438 → 437.
+- **Q23, learnings:** LEARNINGS.md split into `_learnings/` (180 files, one per lesson,
+  dated by git blame; 0 of 318 lines lost), four new lessons added, CLAUDE.md and the
+  live references repointed.
+- **Hit caps fixed for good.** The chain logged 28 "real matches may be cut" ERRORs that
+  nobody acted on. audfprint computes every hit anyway and its cap only slices the list,
+  so `audio_index.match()` now keeps every hit with >= 20 hashes plus the strongest up to
+  the cap. (A first fix that re-matched with a doubled cap redid the whole analysis for
+  identical results; replaced the same night.) All rows the cap may have cut were
+  re-matched: 4 + 2 candidate-vs-archive, 3 + 59 self-match, 3 archive compilations,
+  3 pool videos. No verdict, cluster, canonical or archive-timeline span moved.
+- **Why the pool mapping was slow, and the fix (owner asked).** Profiled: ~87% of a match
+  is analysing the query (audfprint analyses queries at 4 sub-frame shifts), the lookup is
+  the rest, and the analysis was being redone for the second index. Query hashes are now
+  cached in `data/compilations/hashes/` (gitignored), so the candidates pass costs only
+  lookups for every video analysed in this run. Restarted 00:44: ~181 videos × ~65 s for
+  the archive pass (~3.3 h), then the candidates pass (~2 h: the 79 videos done before
+  the cache existed are analysed once more, the other ~181 cost ~11 s each), then confirm
+  and audit (~1-1.5 h, a guess). Expected to finish around 07:00-07:30 instead of ~10:00. Not done: `shifts=1` (~4x faster analysis, but needs a
+  new ground-truth probe), and parallel mappers (~2.4 GB each, 1.5 GB RAM free).
+- **Kaset tapes DO contain archive sketches (preliminary).** 13 of the first 19 Kaset
+  tapes mapped have archive stretches of >= 20 s at 10-14 hashes/s; strong stretches cover
+  ~19% of their minutes. DECISIONS #22 assumed Kaset material "can't match a
+  Haghordum-only archive". The gate's outcome for Kaset-heavy channels (send to triage)
+  is still safe, but the premise is wrong, and the speed sweep's exclusion of Kaset clips
+  rests on it too. Revisit with the full pool numbers.
+- **Shortcut accept line 4.0 → 6.2 hashes/s.** The archive audit had 1 false accept
+  (4.58/s: sketch 335 placed inside another sketch's confirmed stretch of `Fyc5VWnAMog`).
+  Of the audited accepts, 1 of 8 below 6.2 failed the windowed check and 0 of 42 above.
+  Re-run: that span is gone, the 10 hits now in the band all confirmed, and the audit
+  reads 0/50 accepted and 2/50 rejected disagreeing. The 2 rejected cases are harmless:
+  a weaker second alignment of a sketch confirmed at 12.6/s on the same stretch, and a
+  stretch two known duplicates (`0iKAm_aZ7Og`, `kKDydl5jRAY`) already cover.
+- **Known gaps:** `2jr-BeWAfXc` and `L_YyghytxU0` (pool, 132 min) fail with "This video
+  is not available" although the API says public and playable in DE.
+- **For Phase S:** timelines list archive duplicates side by side on the same stretch
+  (`0iKAm_aZ7Og` and `kKDydl5jRAY` in `3UZOwmPovQ4`). Merge them to one canonical before
+  showing a timeline on the site.
+- **Running:** pool mapping (archive then candidates index, then confirm and audit),
+  restarted 00:44 with the fixes above; the 1%-step speed sweep, ~1 h left.
+- **Q24:** the two 3 Sep leftovers of file 400 in `data/video` (`.part` 0 B, `.ytdl` 50 B)
+  deleted by exact name; 702 of 702 videos complete. **Q25:** no global rule; the project
+  learning is enough.
+- **Speed sweep (01:00): speed-shifted fan copies exist.** 12 of 100 leftover `new`
+  canonicals match an archive sketch after a correction: 10 at tempo x0.90, 1 at x0.95,
+  1 at tape speed x0.98; 6 are Kargin Club. All three uploads that name a sketch number
+  (424, 415, 402) matched exactly that sketch. DECISIONS #21 updated. Before the owner's
+  triage, the `new` clusters need a speed pass (owner decision pending, Q26).
+- **Owner, 01:05:** Q26 no speed pass for now (speed-shifted copies stay in the triage
+  as `new`); Q27 yes, the archive self-match runs (`data/audio_index/archive_self.jsonl`);
+  Q20 push the code now, the pool results in a second commit.

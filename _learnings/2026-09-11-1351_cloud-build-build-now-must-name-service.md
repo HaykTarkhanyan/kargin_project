@@ -1,0 +1,5 @@
+# A Cloud Build build now MUST name a service account, and the error does not say so
+
+*From LEARNINGS.md, section "2026-09-11 — deploying Cloud Run without a local container build".*
+
+**A Cloud Build build now MUST name a service account, and the error does not say so.** Submitting without `serviceAccount` fails with a bare `403 "The caller does not have permission"` even when the caller is project Owner and `testIamPermissions` confirms `cloudbuild.builds.create` is granted. Cause: the legacy `<project-number>@cloudbuild.gserviceaccount.com` is still bound to `roles/cloudbuild.builds.builder` in the IAM policy, but Google no longer creates the account — the binding points at nothing. Listing service accounts shows it absent while the policy still references it. Fix: pass `serviceAccount: projects/<p>/serviceAccounts/<number>-compute@developer.gserviceaccount.com` and, because naming one makes it mandatory, `options.logging: CLOUD_LOGGING_ONLY`. Chasing the 403 as a permissions problem is the wrong thread; check whether the account in the binding actually exists.
