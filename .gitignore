@@ -274,3 +274,16 @@ node_modules/
 # and it is hard to undo once the bytes are in history.
 /data/google_forms/**/*.png
 /data/google_forms/**/*.jpg
+
+# Screening audio for the archive extension (plan A3/M3): regenerable, ~1-3.5 GB,
+# deleted by exact path once its matches are saved (DECISIONS #19, Q9).
+/data/candidates/audio/
+/data/compilations/audio/
+
+# Audio-match indexes (scripts/audio_index.py): binary, regenerable (~9 min for the 702).
+/data/audio_index/*.pklz
+# Cached query analyses (audio_index.py --hash-cache): binary, regenerable, a few hundred MB.
+/data/compilations/hashes/
+# Match results superseded by the 2026-11-03 review fixes, kept locally as a record.
+/data/candidates/*.v1.jsonl
+/data/compilations/*.v1.jsonl

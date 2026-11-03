@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kargin candidate triage</title>
+<style>
+  :root { --ink: #1a1410; --muted: #6b5f50; --paper: #fbf6ec; --line: #d9cdb8;
+          --red: #D90012; --blue: #0033A0; --orange: #F2A800; --ok: #2f7d32; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.45 system-ui, "Segoe UI", sans-serif; }
+  header { padding: 10px 16px; border-bottom: 2px solid var(--ink); display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  header h1 { font-size: 18px; margin: 0; }
+  nav.toc a { margin-right: 12px; color: var(--blue); }
+  .wrap { display: grid; grid-template-columns: 300px 1fr; gap: 0; min-height: calc(100vh - 50px); }
+  @media (max-width: 800px) { .wrap { grid-template-columns: 1fr; } #queue { max-height: 30vh; } }
+  #queue { border-right: 1px solid var(--line); overflow-y: auto; max-height: calc(100vh - 50px); }
+  #queue div { padding: 6px 10px; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 13px; }
+  #queue div.cur { background: #f2e6cc; }
+  #queue div.done { color: var(--muted); }
+  #queue .tag { font-size: 11px; padding: 0 5px; border-radius: 3px; color: #fff; margin-right: 4px; }
+  .tag.new { background: var(--blue); } .tag.newstar { background: var(--orange); color: var(--ink); }
+  .tag.spot { background: var(--muted); } .tag.off { background: var(--red); }
+  main { padding: 12px 18px; max-width: 1100px; }
+  details { margin-bottom: 12px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+  summary { padding: 8px 12px; font-weight: 600; cursor: pointer; }
+  details > div { padding: 4px 12px 12px; }
+  .player { width: 100%; max-width: 720px; aspect-ratio: 16 / 9; border: 0; background: #000; }
+  table { border-collapse: collapse; width: 100%; table-layout: fixed; font-size: 13px; }
+  th, td { border-bottom: 1px solid var(--line); padding: 4px 6px; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tr.canon { background: #eef6ee; } tr.bad { text-decoration: line-through; color: var(--muted); }
+  .btns button { margin: 3px 4px 3px 0; padding: 6px 10px; border: 1px solid var(--ink); background: #fff; border-radius: 4px; cursor: pointer; font: inherit; }
+  .btns button.on { background: var(--ink); color: #fff; }
+  kbd { font-size: 11px; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; background: var(--paper); }
+  textarea, input[type=text] { width: 100%; font: inherit; padding: 6px; border: 1px solid var(--line); border-radius: 4px; }
+  #msg { margin-left: auto; font-size: 13px; color: var(--muted); }
+  .warn { color: var(--red); font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Candidate triage</h1>
+  <nav class="toc"><a href="#sec-video">Video</a><a href="#sec-copies">Copies</a><a href="#sec-decision">Decision</a></nav>
+  <span id="progress"></span>
+  <span id="keys" title="Shortcuts only work when the page (not the YouTube player) has focus"></span>
+  <span id="msg"></span>
+  <button id="focus-sink" style="position:absolute;left:-9999px" aria-hidden="true" tabindex="-1">.</button>
+</header>
+<div class="wrap">
+  <aside id="queue"></aside>
+  <main>
+    <details open id="sec-video"><summary>Video</summary><div>
+      <div id="head"></div>
+      <iframe id="player" class="player" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    </div></details>
+    <details open id="sec-copies"><summary>Copies of this recording</summary><div>
+      <table><colgroup><col style="width:8%"><col style="width:12%"><col style="width:15%"><col style="width:28%"><col style="width:6%"><col style="width:5%"><col style="width:7%"><col style="width:7%"><col style="width:12%"></colgroup>
+        <thead><tr><th>role</th><th>video</th><th>channel</th><th>title</th><th>dur</th><th>def</th><th>status</th><th>verdict</th><th>archive</th></tr></thead>
+        <tbody id="copies"></tbody></table>
+      <p style="font-size:12px;color:var(--muted)">Click a row to make it the archive's copy (clicking a struck-out row un-marks it). <kbd>b</kbd> marks the playing copy bad (crop, mirror, watermark, broken audio) and moves to the next one. "verdict" = what the audio match said; "archive" = the archive sketch it matched.</p>
+    </div></details>
+    <details open id="sec-decision"><summary>Decision</summary><div>
+      <div class="btns">Scope:
+        <button data-scope="haghordum">Haghordum <kbd>h</kbd></button>
+        <button data-scope="multer">Multer <kbd>m</kbd></button>
+        <button data-scope="kaset">Kaset <kbd>k</kbd></button>
+        <button data-scope="out_of_scope">Other Kargin show (out) <kbd>o</kbd></button>
+        <button data-scope="not_kargin">Not Kargin <kbd>x</kbd></button>
+      </div>
+      <div class="btns">Shape:
+        <button data-shape="one_sketch">One sketch <kbd>1</kbd></button>
+        <button data-shape="compilation">Several sketches <kbd>c</kbd></button>
+        <button data-shape="fragment">Only a piece of a sketch <kbd>f</kbd></button>
+      </div>
+      <div class="btns">
+        <button id="have">Already in the archive (engine missed it) <kbd>a</kbd></button>
+        <button id="title">Title needs a curated version <kbd>t</kbd></button>
+      </div>
+      <p><input type="text" id="archnote" placeholder="if already in the archive: which sketch (id or title)"></p>
+      <p><textarea id="notes" rows="2" placeholder="notes"></textarea></p>
+      <div class="btns"><button id="save"><b>Save and next</b> <kbd>Enter</kbd></button>
+        <button id="prev">Previous <kbd>p</kbd></button><button id="next">Skip <kbd>n</kbd></button></div>
+    </div></details>
+  </main>
+</div>
+<script>
+let Q = [], i = 0, st = {}, saving = false, renderedAt = 0;
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+
+async function load() {
+  Q = await (await fetch("/api/queue")).json();
+  i = Math.max(0, Q.findIndex((x) => !x.decided));
+  render();
+}
+function defaultCopy(item) {
+  // A new* cluster mixes an archived copy with a re-cut: play the re-cut (the thing being judged).
+  if (item.kind === "new*") {
+    const recut = item.members.find((x) => ["new*", "new"].includes(x.verdict) && x.status === "ok");
+    if (recut) return recut.video_id;
+  }
+  return item.members[0].video_id;
+}
+function fresh(item) {
+  const d = item.decision;
+  return { canon: d ? d.canonical_video_id : defaultCopy(item), scope: d ? d.scope : guessScope(item),
+           shape: d ? d.shape : "one_sketch",
+           have: d ? d.already_in_archive === "yes" : item.kind === "spotcheck_have",
+           title: d ? d.title_needs_curation === "yes" : false,
+           bad: d && d.bad_copies ? d.bad_copies.split(";") : [], archnote: d ? d.archive_id_note : "", notes: d ? d.notes : "" };
+}
+function guessScope(item) {
+  const s = item.members[0].series;
+  return ["haghordum", "multer", "kaset"].includes(s) ? s : null;
+}
+function go(j) { i = Math.max(0, Math.min(Q.length - 1, j)); render(); }
+function render() {
+  const item = Q[i];
+  $("#progress").textContent = `${Q.filter((x) => x.decided).length} / ${Q.length} decided`;
+  $("#queue").innerHTML = Q.map((x, j) => {
+    const tag = x.kind === "new" ? "new" : x.kind === "new*" ? "newstar" : "spot";
+    const label = x.kind === "spotcheck_have" ? "check" : x.kind;
+    return `<div data-j="${j}" class="${j === i ? "cur" : ""} ${x.decided ? "done" : ""}">` +
+      `${x.official ? '<span class="tag off">KTV</span>' : ""}<span class="tag ${tag}">${label}</span>` +
+      `${x.decided ? "&#10003; " : ""}${esc(x.members[0].title).slice(0, 60)} <small>(${x.size})</small></div>`;
+  }).join("");
+  document.querySelectorAll("#queue div").forEach((el) => el.onclick = () => go(+el.dataset.j));
+  const cur = $("#queue div.cur");
+  if (cur) cur.scrollIntoView({ block: "nearest" });
+  if (!item) return;
+  st = fresh(item);
+  renderedAt = performance.now();
+  paint();
+}
+function paint() {
+  const item = Q[i], m = item.members.find((x) => x.video_id === st.canon) || item.members[0];
+  const hint = item.kind === "new*" ? '<p class="warn">Clustered with a copy that matches the archive: probably a re-cut of a sketch we have. The re-cut is playing; the archived copy shows its archive sketch in the table.</p>'
+             : item.kind === "spotcheck_have" ? `<p class="warn">Spot-check: the engine says this is archive sketch ${esc(m.archive_id)} "${esc(m.archive_title)}" (density ${esc(m.density)}). Confirm with "already in the archive", or clear it if wrong.</p>` : "";
+  $("#head").innerHTML = `<p><b>${esc(m.title)}</b><br>${esc(m.channel_title)} &middot; ${esc(m.duration_sec)} s &middot; series guess: ${esc(m.series)} &middot; cluster of ${item.size}</p>${hint}`;
+  const src = `https://www.youtube-nocookie.com/embed/${m.video_id}?autoplay=1`;
+  if ($("#player").src !== src) $("#player").src = src;
+  $("#copies").innerHTML = item.members.map((x) =>
+    `<tr data-v="${x.video_id}" class="${x.video_id === st.canon ? "canon" : ""} ${st.bad.includes(x.video_id) ? "bad" : ""}">` +
+    `<td>${x.video_id === st.canon ? "playing" : esc(x.role)}</td><td>${esc(x.video_id)}</td><td>${esc(x.channel_title)}</td>` +
+    `<td>${esc(x.title)}</td><td class="num">${esc(x.duration_sec)}</td><td>${esc(x.definition)}</td><td>${esc(x.status)}</td>` +
+    `<td>${esc(x.verdict)}</td><td>${x.archive_id ? esc(x.archive_id) + " " + esc(x.archive_title).slice(0, 30) : ""}</td></tr>`).join("");
+  document.querySelectorAll("#copies tr").forEach((tr) => tr.onclick = () => {
+    const v = tr.dataset.v;
+    st.bad = st.bad.filter((b) => b !== v);   // picking a struck-out copy un-marks it
+    st.canon = v; paint();
+  });
+  document.querySelectorAll("[data-scope]").forEach((b) => b.classList.toggle("on", b.dataset.scope === st.scope));
+  document.querySelectorAll("[data-shape]").forEach((b) => b.classList.toggle("on", b.dataset.shape === st.shape));
+  $("#have").classList.toggle("on", st.have);
+  $("#title").classList.toggle("on", st.title);
+  $("#archnote").value = st.archnote;
+  $("#notes").value = st.notes;
+}
+function badCopy() {
+  const item = Q[i];
+  if (!st.bad.includes(st.canon)) st.bad.push(st.canon);
+  const next = item.members.find((x) => !st.bad.includes(x.video_id) && x.status === "ok");
+  if (next) st.canon = next.video_id; else msg("no playable copy left in this cluster; click a row to un-mark one", true);
+  paint();
+}
+async function save() {
+  if (saving) return;
+  if (performance.now() - renderedAt < 400) return;          // a second Enter must not save the next cluster unseen
+  if (!st.scope) return msg("pick a scope first (h/m/k/o/x)", true);
+  if (st.bad.includes(st.canon)) return msg("the playing copy is marked bad: pick another copy, or click it to un-mark", true);
+  saving = true;
+  msg("saving...");
+  try {
+    const r = await fetch(`/api/decide/${encodeURIComponent(Q[i].cluster_id)}`, { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ canonical_video_id: st.canon, scope: st.scope, shape: st.shape, already_in_archive: st.have,
+        archive_id_note: st.archnote, bad_copies: st.bad, title_needs_curation: st.title, notes: st.notes }) });
+    if (!r.ok) return msg(`NOT SAVED: ${r.status} ${await r.text()}`, true);
+  } catch (err) {
+    return msg(`NOT SAVED: the server did not answer (${err.message}). Is triage_ui.py still running?`, true);
+  } finally {
+    saving = false;
+  }
+  Q[i].decided = true;
+  Q[i].decision = { canonical_video_id: st.canon, scope: st.scope, shape: st.shape, already_in_archive: st.have ? "yes" : "no",
+    title_needs_curation: st.title ? "yes" : "no", bad_copies: st.bad.join(";"), archive_id_note: st.archnote, notes: st.notes };
+  msg("saved");
+  // Next undecided after this one, wrapping round to anything skipped earlier.
+  let nxt = Q.findIndex((x, j) => j > i && !x.decided);
+  if (nxt < 0) nxt = Q.findIndex((x) => !x.decided);
+  if (nxt < 0) { msg("everything is decided"); render(); return; }
+  go(nxt);
+}
+function msg(t, bad) { $("#msg").textContent = t; $("#msg").className = bad ? "warn" : ""; }
+
+// Typed text lives in `st` as it is typed, so a repaint (any shortcut or button) can't wipe it.
+$("#notes").addEventListener("input", (e) => { st.notes = e.target.value; });
+$("#archnote").addEventListener("input", (e) => { st.archnote = e.target.value; });
+document.querySelectorAll("[data-scope]").forEach((b) => b.onclick = () => { st.scope = b.dataset.scope; paint(); });
+document.querySelectorAll("[data-shape]").forEach((b) => b.onclick = () => { st.shape = b.dataset.shape; paint(); });
+$("#have").onclick = () => { st.have = !st.have; paint(); };
+$("#title").onclick = () => { st.title = !st.title; paint(); };
+$("#save").onclick = save;
+$("#prev").onclick = () => go(i - 1);
+$("#next").onclick = () => go(i + 1);
+
+// Clicking the YouTube player moves keyboard focus into its cross-origin frame, where our
+// shortcuts never fire and YouTube's own (k, m, c, 1...) take over. Take focus back after
+// the click has reached the player, and show whether the keys are live.
+function showKeys() { const on = document.hasFocus(); $("#keys").textContent = on ? "keys on" : "keys OFF: click the page"; $("#keys").className = on ? "" : "warn"; }
+window.addEventListener("blur", () => setTimeout(() => {
+  if (document.activeElement === $("#player")) $("#focus-sink").focus();
+  showKeys();
+}, 150));
+window.addEventListener("focus", showKeys);
+setInterval(showKeys, 1000);
+
+// By physical key (e.code), so the shortcuts keep working on the Armenian keyboard layout.
+const KEYS = { KeyH: "scope:haghordum", KeyM: "scope:multer", KeyK: "scope:kaset", KeyO: "scope:out_of_scope",
+               KeyX: "scope:not_kargin", Digit1: "one", KeyC: "comp", KeyF: "frag", KeyA: "have", KeyT: "title", KeyB: "bad",
+               KeyN: "next", KeyP: "prev", Enter: "save", NumpadEnter: "save" };
+document.addEventListener("keydown", (e) => {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;                  // Ctrl+C copies a title; it must not change an answer
+  if (["TEXTAREA", "INPUT"].includes(e.target.tagName)) {
+    if ((e.code === "Enter" || e.code === "NumpadEnter") && e.target.tagName === "INPUT" && !e.repeat) save();
+    return;
+  }
+  const act = KEYS[e.code];
+  if (!act) return;
+  if (act === "save") { e.preventDefault(); if (!e.repeat) save(); return; }
+  if (act.startsWith("scope:")) { st.scope = act.slice(6); paint(); }
+  else if (act === "one") { st.shape = "one_sketch"; paint(); }
+  else if (act === "comp") { st.shape = "compilation"; paint(); }
+  else if (act === "frag") { st.shape = "fragment"; paint(); }
+  else if (act === "have") { st.have = !st.have; paint(); }
+  else if (act === "title") { st.title = !st.title; paint(); }
+  else if (act === "bad") badCopy();
+  else if (act === "next") go(i + 1);
+  else if (act === "prev") go(i - 1);
+});
+load();
+showKeys();
+</script>
+</body>
+</html>
