@@ -25,18 +25,21 @@ done = [
     "Owner asked why the pool mapping is slow: profiled, ~87% of a match is query analysis (4 sub-frame shifts) and it was redone per index. Added a per-query hash cache (--hash-cache, data/compilations/hashes/); ETA moved from ~10:00 to ~07:00-07:30. Not done: shifts=1 (needs a new probe), parallel mappers (RAM: 1.5 GB of 15.6 GB free).",
     "Found while checking an optimisation: 13 of the first 19 Kaset tapes contain archive stretches (~19% of their minutes), against DECISIONS #22's premise. Preliminary, revisit with the full pool.",
     "Q24: deleted the two 3 Sep leftovers of file 400 in data/video by exact name. Q25: no global CLAUDE.md rule.",
+    "Paused at 03:25 when the owner closed the PC; resumed 12:41 at below-normal priority with thread pools capped at 1 (owner: not too much CPU). Fan-pool map done 14:11: 254 videos, 1,586 archive spans, 2,615 fan-clip spans, 795 unknown gaps = 4,252 of 7,980 min (53%).",
+    "Kaset tapes contain archive sketches: 32 of 54, 79 distinct sketches, 21% of their minutes; DECISIONS #22 corrected.",
+    "Pool audit 11/50 accepts 'disagree': drift probe shows the 10 s correlation check fails on fan re-encodes (tiny speed drift, lossy audio, stretched spans, looping music) while the audio is the same; those rejections cover at most 140 of the 4,252 unknown min. ՀայTV 'actors then and now' slideshows (shared music loop, not Kargin) are in the triage as new.",
     "map_compilations: accept line 4.0 -> 6.2 hashes/s after the audit's one false accept (1 of 8 below 6.2 failed, 0 of 42 above); pool mapping filtered to pool_download_ids.txt.",
 ]
 
 pending = [
-    "Running at 00:50 on 2026-11-04: pool mapping (map_compilations.py --set pool --index archive candidates, restarted 00:44 with the hash cache; expected done ~07:00-07:30) and the 1%-step speed sweep (~1 h left). Their results are not in this file yet.",
-    "Then: record the pool timeline + audit, the Kaset finding with full numbers (DECISIONS #22 premise), and the speed sweep (DECISIONS #21 if it finds speed-shifted copies) in the plan's progress log, then commit and push.",
-    "Q26 (owner: not now): no speed pass over the 417 new clusters; ~1 in 8 may be sped-up copies of archive sketches, to be judged by eye in triage. Q27 (owner: yes): archive self-match running (data/audio_index/archive_self.jsonl, ~70 min); report new hidden pairs, recording each needs the owner's OK.",
+    "Phase M5 (mining the pool's unknown gaps): re-confirm the 48 videos' gaps that sit under hits only the 10 s window check rejected (use 2 s windows), and expect speed-shifted copies among the gaps.",
+    "Next gate run: drop the Kaset exception (DECISIONS #22 correction).",
+    "Q26 (owner: not now): no speed pass over the 417 new clusters; ~1 in 8 may be sped-up copies of archive sketches, to be judged by eye in triage. Q27 (owner: yes): archive self-match done 01:40 (45 min): no other duplicate or contains pair; 16 partial overlaps of 21-34 s (data/audio_index/archive_self_pairs.csv); 'Kondi Tner' vs sketch 197 and 'Maaaaama' vs sketch 545 worth a look by eye.",
     "Owner triage (A6) once the chain's verdicts are final: uv run --group review python scripts/non_essential/triage_ui.py, http://127.0.0.1:5056.",
     "Still open from the plan: Phase B (adding sketches), Phase S (marking compilations on the site), the Phase C spec (stable archive id).",
 ]
 
-next = "When the pool mapping finishes: read timeline_pool.csv / audit_pool.csv and the speed sweep JSON, log them, commit and push (Q20), then hand the triage page to the owner."
+next = "Owner's A6 triage: `uv run --group review python scripts/non_essential/triage_ui.py`, http://127.0.0.1:5056 (418 clusters + 30 spot-checks; ~1 in 8 new clusters may be sped-up copies, ՀայTV slideshows are not Kargin). Then Phase B (adding sketches), M5 (mining the pool's unknown gaps), S, and the Phase C spec."
 
 files = [
     "docs/superpowers/plans/2026-11-03-extend-archive.md", "DECISIONS.md (#19-#22, #21 revisited)",
@@ -60,7 +63,7 @@ commits = [
     "4f8b6fc fix(data): sketches 107 and 430 are one recording",
     "cdd20e6 chore(data): archive-extension candidates, verdicts and archive compilation map",
     "then in the same push (Q20, 2026-11-04 ~01:10): the docs commit with this file, and the pipeline-scripts commit",
-    "still to come: the fan pool map, the archive self-match (Q27) and this file's final update",
+    "second commit (2026-11-04 ~14:30): the fan pool map, the archive self-match (Q27), the ETA fix, docs and this file",
 ]
 
 notes = """

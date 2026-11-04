@@ -35,6 +35,7 @@ Then the stage show needs its own series value and its own review, not the sketc
 
 **Date:** 2026-11-03 · **Status:** active, **revisited 2026-11-03** (final numbers under the
 per-sketch rule of #21 are at the end of the "How it came out" part; Kargin Club is now kept)
+and **2026-11-04** (the Kaset premise below was wrong; see "Correction" at the end)
 
 **Decision.** In the candidate triage (`triage_candidates.py`), a title with no Kargin
 series marker is dropped if it names another show (season/episode numbering, Bolola,
@@ -113,6 +114,13 @@ was the reason they were kept in the first place.
 **What would change this.** A channel whose unmarked uploads match the archive at a
 high rate (then its unmatched unmarked uploads are worth triage). Or a missing sketch
 later found to have been filtered out by the other-show list (then narrow the pattern).
+
+**Correction (2026-11-04).** The triage rule for Kaset-heavy channels rested on "their
+material can't match a Haghordum-only archive". The fan-pool map disproves it: 32 of 54
+Kaset tapes contain archive sketches (79 distinct sketches, 499 of 2,350 min, 21%;
+`data/compilations/timeline_pool.csv`). The rule's outcome stands, because sending those
+channels to the owner's triage loses nothing. But Kaset uploads can be judged by match
+evidence like any other channel. The next gate run should drop the Kaset exception.
 
 ---
 

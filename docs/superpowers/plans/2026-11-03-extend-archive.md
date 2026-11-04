@@ -821,3 +821,35 @@ remaining unmarked titles downloaded and matched, the candidate self-match redon
 - **Owner, 01:05:** Q26 no speed pass for now (speed-shifted copies stay in the triage
   as `new`); Q27 yes, the archive self-match runs (`data/audio_index/archive_self.jsonl`);
   Q20 push the code now, the pool results in a second commit.
+- **Q27, archive self-match (01:40): no other hidden duplicates.** 702 sketches matched
+  against the archive in 45 min. Unknown pairs with a shared stretch >= 20 s at >= 4/s:
+  16, all partial (21-34 s, 7-42% of a sketch); 13 identical audio, 3 shared music only.
+  Worth a look by eye: "Kondi Tner" vs sketch 197 and "Maaaaama" vs sketch 545 (42% of
+  one side each). Evidence: `data/audio_index/archive_self_pairs.csv`.
+
+**2026-11-04, M4 fan-pool map: done** (paused 03:25 when the PC was closed, resumed 12:41
+at below-normal priority, finished 14:11; the matching passes were already saved).
+- **254 videos, 7,980 min:** 1,586 archive spans, 2,615 fan-clip spans, 795 `unknown`
+  gaps totalling **4,252 min (53%)**.
+
+  | Series | Videos | With archive | Minutes | Archive | Any match |
+  |---|---|---|---|---|---|
+  | Haghordum | 114 | 104 | 2,302 | 53% | 65% |
+  | Kaset | 54 | 32 | 2,350 | 21% | 50% |
+  | unclear | 82 | 20 | 3,205 | 25% | 27% |
+  | Multer | 4 | 3 | 123 | 0% | 32% |
+
+- **Kaset tapes contain archive sketches:** 79 distinct ones in 32 of 54 tapes.
+  DECISIONS #22 corrected; the next gate run should drop its Kaset exception.
+- **Shortcut audit:** accepted 11/50 and rejected 2/50 disagree. The 11 are not shortcut
+  errors. A drift probe shows the 10 s correlation check fails on fan re-encodes (tiny
+  speed drift, lossy audio, spans stretched by stray hashes) while the audio is the same
+  (`_learnings/2026-11-04-1420_sample-correlation-fails-on-fan-reencodes.md`). The hits
+  that check rejected cover at most 140 of the 4,252 unknown min (48 videos). Re-confirm
+  those with 2 s windows before mining (M5).
+- **Not Kargin, in the triage:** ՀայTV's "actors then and now" slideshows (one shared
+  looping music track) came in through the gate's keep for ՀայTV and show up as `new`
+  clusters of 1-3. Expect to dismiss them as out of scope.
+- **Phase M5 input:** `data/compilations/timeline_pool.csv`, whose `unknown` rows are
+  the stretches no archive sketch or fan clip explains. Expect speed-shifted copies among
+  them too (DECISIONS #21: 12 of 100 leftover clips).

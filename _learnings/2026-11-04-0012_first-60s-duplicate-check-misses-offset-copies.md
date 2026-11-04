@@ -18,3 +18,11 @@ a row in duplicates.csv (canonical 430, the most viewed). Any other pair where o
 an intro or a cold open will hide the same way. A full archive-vs-archive pass with
 `audio_index.py match --index archive --queries data/audio` would find the rest (measured
 ~4.5 s per sketch on this pair, so about an hour for all 702).
+
+**Full pass, same night (owner Q27).** All 702 sketches matched against the archive index
+(`data/audio_index/archive_self.jsonl`, 45 min), then every unknown pair with a shared
+stretch of >= 20 s at >= 4 hashes/s checked by windowed correlation
+(`data/audio_index/archive_self_pairs.csv`). Result: **no other duplicate or contains
+pair.** 16 partial overlaps of 21-34 s remain (7-42% of a sketch): 13 identical audio
+(reused scenes or songs), 3 shared music with different speech on top. 107/430 was the
+only hidden pair.

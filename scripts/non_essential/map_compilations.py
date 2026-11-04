@@ -203,6 +203,7 @@ def main() -> None:
     out = []
     shortcut: list[tuple] = []
     rows = list(merged.values())
+    t_confirm = time.time()            # the ETA below must not count the matching phase
     for i, r in enumerate(rows, 1):
         vid, qpath = r["video_id"], ROOT / r["query"]
         q = None
@@ -255,9 +256,9 @@ def main() -> None:
                          + f", {h['aligned']} hashes)")
         for row in timeline(r["query_dur"], spans):
             out.append({"compilation_id": vid, "duration_sec": r["query_dur"], **row})
-        el = time.time() - t0
+        el = time.time() - t_confirm
         log.info(f"[{i}/{len(rows)}] {vid}: {len(spans)} confirmed spans "
-                 f"({el:.0f}s elapsed, ~{el / i * (len(rows) - i):.0f}s left)")
+                 f"({el:.0f}s into the confirm step, ~{el / i * (len(rows) - i):.0f}s left)")
     # Audit the density shortcut: re-check a seeded sample of its decisions the slow way.
     import random
     rng = random.Random(509)
